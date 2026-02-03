@@ -1093,5 +1093,28 @@
     "relegation": "Tier {from}->{to} relegation imbalance: expected {expected}, found {found}",
     "promotion": "Tier {from}->{to} promotion imbalance: expected {expected}, found {found}",
     "movement": "Movement {from}->{to}"
+  },
+  "patchManager": {
+    "title": "커뮤니티 패치",
+    "subtitle": "축구 경험을 맞춤 설정하세요",
+    "loadNewContent": "새 콘텐츠 로드",
+    "chooseFile": "JSON 패치 선택",
+    "chooseFileHint": "보통 Discord를 통해 공유됨",
+    "fileSelected": "파일이 선택되었습니다",
+    "validPatch": "유효한 패치",
+    "validationFailed": "검증 실패",
+    "warnings": "경고",
+    "installPatch": "패치 설치",
+    "fixErrorsToContinue": "계속하려면 위의 오류를 수정하세요.",
+    "fixProtectedNamespace": "허용된 네임스페이스만 사용하세요 (리그, 컵 등)",
+    "fixGeneric": "JSON에서 필드 유형과 형식을 확인하세요",
+    "installedPatches": "설치된 패치",
+    "noPatchesTitle": "패치 없음",
+    "noPatchesHint": "게임 이름, 리그 또는 트로피를 재정의하려면 패치를 가져오세요.",
+    "by": "제작",
+    "anonymous": "익명",
+    "confirmDelete": "이 패치를 삭제하시겠습니까?",
+    "footerHint": "패치는 기본 번역을 재정의합니다. 변경사항을 적용하려면 앱을 다시 시작하세요.",
+    "menuButton": "커뮤니티 패치"
   }
 }

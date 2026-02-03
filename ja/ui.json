@@ -1093,5 +1093,28 @@
     "relegation": "Tier {from}->{to} relegation imbalance: expected {expected}, found {found}",
     "promotion": "Tier {from}->{to} promotion imbalance: expected {expected}, found {found}",
     "movement": "Movement {from}->{to}"
+  },
+  "patchManager": {
+    "title": "コミュニティパッチ",
+    "subtitle": "サッカー体験をカスタマイズ",
+    "loadNewContent": "新しいコンテンツを読み込む",
+    "chooseFile": "JSONパッチを選択",
+    "chooseFileHint": "通常Discordで共有されます",
+    "fileSelected": "ファイルが選択されました",
+    "validPatch": "有効なパッチ",
+    "validationFailed": "検証失敗",
+    "warnings": "警告",
+    "installPatch": "パッチをインストール",
+    "fixErrorsToContinue": "続行するには上記のエラーを修正してください。",
+    "fixProtectedNamespace": "許可された名前空間のみ使用してください（リーグ、カップなど）",
+    "fixGeneric": "JSONのフィールドタイプと形式を確認してください",
+    "installedPatches": "インストール済みパッチ",
+    "noPatchesTitle": "パッチが見つかりません",
+    "noPatchesHint": "ゲーム名、リーグ、トロフィーを上書きするにはパッチをインポートしてください。",
+    "by": "作成者",
+    "anonymous": "匿名",
+    "confirmDelete": "このパッチを削除しますか？",
+    "footerHint": "パッチはデフォルトの翻訳を上書きします。変更を適用するにはアプリを再起動してください。",
+    "menuButton": "コミュニティパッチ"
   }
 }

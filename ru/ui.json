@@ -1093,5 +1093,28 @@
     "relegation": "Tier {from}->{to} relegation imbalance: expected {expected}, found {found}",
     "promotion": "Tier {from}->{to} promotion imbalance: expected {expected}, found {found}",
     "movement": "Movement {from}->{to}"
+  },
+  "patchManager": {
+    "title": "Патчи сообщества",
+    "subtitle": "Настройте свой футбольный опыт",
+    "loadNewContent": "Загрузить новый контент",
+    "chooseFile": "Выбрать JSON патч",
+    "chooseFileHint": "Обычно распространяется через Discord",
+    "fileSelected": "Файл выбран и готов",
+    "validPatch": "Патч действителен",
+    "validationFailed": "Ошибка проверки",
+    "warnings": "Предупреждения",
+    "installPatch": "Установить патч",
+    "fixErrorsToContinue": "Пожалуйста, исправьте ошибки выше для продолжения.",
+    "fixProtectedNamespace": "Используйте только разрешённые пространства (лиги, кубки и т.д.)",
+    "fixGeneric": "Проверьте тип и формат поля в JSON",
+    "installedPatches": "Установленные патчи",
+    "noPatchesTitle": "Патчи не найдены",
+    "noPatchesHint": "Импортируйте патчи для замены названий игр, лиг или трофеев.",
+    "by": "от",
+    "anonymous": "Аноним",
+    "confirmDelete": "Удалить этот патч?",
+    "footerHint": "Патчи заменяют стандартные переводы. Перезапустите приложение для применения.",
+    "menuButton": "Патчи сообщества"
   }
 }

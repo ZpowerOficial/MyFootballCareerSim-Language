@@ -1,0 +1,296 @@
+{
+  "attributes": {
+    "abbr": {
+      "AGI": "AGI",
+      "DEF": "DEF",
+      "DIV": "DIV",
+      "DRI": "DRI",
+      "FIN": "FIN",
+      "HAN": "HAN",
+      "HEA": "HEA",
+      "INT": "INT",
+      "PAC": "PAC",
+      "PAS": "PAS",
+      "PHY": "PHY",
+      "POS": "POS",
+      "REF": "REF",
+      "SHO": "SHO",
+      "STA": "STA",
+      "STR": "STR",
+      "VIS": "VIS"
+    },
+    "acceleration": "Acceleration",
+    "aerialControl": "Aerial Control",
+    "age": "Age",
+    "aggression": "Aggression",
+    "agility": "Agility",
+    "attacking": "Attacking",
+    "attributeEvolution": "Attribute Evolution",
+    "balance": "Balance",
+    "ballControl": "Ball Control",
+    "composure": "Composure",
+    "crossing": "Crossing",
+    "currentAge": "Current Age",
+    "currentOvr": "Current OVR",
+    "curve": "Curve",
+    "defending": "Defending",
+    "dribbling": "Dribbling",
+    "finishing": "Finishing",
+    "flair": "Flair",
+    "foot": {
+      "left": "Left",
+      "right": "Right"
+    },
+    "footedness": "Footedness",
+    "freeKick": "Free Kick Accuracy",
+    "gkDiving": "GK Diving",
+    "gkHandling": "GK Handling",
+    "gkKicking": "GK Kicking",
+    "gkPositioning": "GK Positioning",
+    "gkReflexes": "GK Reflexes",
+    "goalkeeping": "Goalkeeping",
+    "growth": "Growth",
+    "heading": "Heading Accuracy",
+    "interceptions": "Interceptions",
+    "jumping": "Jumping",
+    "keyAttribute": "Key Attribute",
+    "leadership": "Leadership",
+    "leftFinishing": "Finishing (Left)",
+    "legend": "Legend",
+    "longPassing": "Long Passing",
+    "longShots": "Long Shots",
+    "marking": "Marking",
+    "mental": "Mental",
+    "mentalAttributes": "Mental Attributes",
+    "overall": "Overall",
+    "overallEvolution": "Overall Evolution",
+    "pace": "Pace",
+    "passing": "Passing",
+    "peakAge": "Peak Age",
+    "peakOvr": "Peak OVR",
+    "penalties": "Penalties",
+    "physical": "Physical",
+    "physicalAttributes": "Physical Attributes",
+    "positioning": "Positioning",
+    "preferredFoot": "Preferred Foot",
+    "ratingColors": "Rating Colors",
+    "reactions": "Reactions",
+    "rightFinishing": "Finishing (Right)",
+    "shooting": "Shooting",
+    "shortPassing": "Short Passing",
+    "shotPower": "Shot Power",
+    "slidingTackle": "Sliding Tackle",
+    "sprintSpeed": "Sprint Speed",
+    "stamina": "Stamina",
+    "standingTackle": "Standing Tackle",
+    "strength": "Strength",
+    "technical": "Technical",
+    "technicalAttributes": "Technical Attributes",
+    "vision": "Vision",
+    "volleys": "Volleys",
+    "weakFoot": "Weak Foot",
+    "workRate": "Work Rate"
+  },
+  "characteristic": {
+    "Aerial Specialist": "Aerial Specialist",
+    "Big Game Player": "Big Game Player",
+    "Clinical Finisher": "Clinical Finisher",
+    "Dribbling Wizard": "Dribbling Wizard",
+    "Engine": "Engine",
+    "Leader": "Leader",
+    "Playmaker": "Playmaker",
+    "Speed Demon": "Speed Demon"
+  },
+  "expandedAttributes": {
+    "agility": {
+      "coordination": "Coordination",
+      "flexibility": "Flexibility",
+      "lateralAgility": "Lateral Agility",
+      "reactionTime": "Reaction Time"
+    },
+    "ballControl": {
+      "aerialControl": "Aerial Control",
+      "firstTouchOrientated": "First Touch Orientated",
+      "firstTouchUnderPressure": "First Touch Under Pressure",
+      "shielding": "Shielding",
+      "trapping": "Trapping"
+    },
+    "commanding": {
+      "aerialReach": "Aerial Reach",
+      "claimingCrosses": "Claiming Crosses",
+      "commandOfArea": "Command Of Area",
+      "communication": "Communication",
+      "punching": "Punching"
+    },
+    "defending": {
+      "slidingTiming": "Sliding Timing",
+      "standingTiming": "Standing Timing"
+    },
+    "defensivePositioning": {
+      "backtracking": "Backtracking",
+      "covering": "Covering",
+      "defensiveAwareness": "Defensive Awareness",
+      "jockeying": "Jockeying",
+      "positionRecovery": "Position Recovery"
+    },
+    "distribution": {
+      "goalKicks": "Goal Kicks",
+      "kicking": "Kicking",
+      "passingLong": "Long Passing (GK)",
+      "passingShort": "Short Passing (GK)",
+      "throwing": "Throwing"
+    },
+    "dribbling": {
+      "closeControlDribbling": "Close Control Dribbling",
+      "congestedSpaceDribbling": "Congested Space Dribbling",
+      "directionChange": "Direction Change",
+      "flair": "Flair",
+      "skillMoves": "Skill Moves",
+      "speedDribbling": "Speed Dribbling"
+    },
+    "endurance": {
+      "aerobicEndurance": "Aerobic Endurance",
+      "anaerobicEndurance": "Anaerobic Endurance",
+      "stamina": "Stamina",
+      "workRate": "Work Rate"
+    },
+    "finishing": {
+      "finishingInsideBox": "Finishing Inside Box",
+      "finishingOnCounter": "Finishing On Counter",
+      "finishingOutsideBox": "Finishing Outside Box",
+      "finishingUnderPressure": "Finishing Under Pressure",
+      "headedAccuracy": "Headed Accuracy",
+      "headingAccuracy": "Heading Accuracy",
+      "headingPower": "Heading Power",
+      "oneOnOneFinishing": "1v1 Finishing",
+      "placedShotAccuracy": "Placed Shot Accuracy",
+      "placedShots": "Placed Shots",
+      "powerShotAccuracy": "Power Shot Accuracy",
+      "shotAnticipation": "Shot Anticipation",
+      "shotPower": "Shot Power",
+      "volleyTechnique": "Volley Technique",
+      "volleysAndAcrobatic": "Volleys & Acrobatic"
+    },
+    "gameIntelligence": {
+      "anticipation": "Anticipation",
+      "creativity": "Creativity",
+      "decisions": "Decisions",
+      "offTheBallMovement": "Off The Ball Movement",
+      "positioning": "Positioning",
+      "spatialAwareness": "Spatial Awareness",
+      "vision": "Vision"
+    },
+    "interception": {
+      "crossBlocking": "Cross Blocking",
+      "longPassInterception": "Long Pass Interception",
+      "readingOfPlay": "Reading of Play",
+      "shortPassInterception": "Short Pass Interception",
+      "shotBlocking": "Shot Blocking"
+    },
+    "jumping": {
+      "headerTiming": "Header Timing",
+      "runningVerticalJump": "Running Vertical Jump",
+      "standingVerticalJump": "Standing Vertical Jump"
+    },
+    "marking": {
+      "closeDownSpeed": "Close Down Speed",
+      "individualMarking": "Individual Marking",
+      "trackingRuns": "Tracking Runs",
+      "zonalMarking": "Zonal Marking"
+    },
+    "mental": {
+      "concentration": "Concentration",
+      "decisions": "Decisions"
+    },
+    "mentalGK": {
+      "composure": "Composure (GK)",
+      "concentration": "Concentration (GK)",
+      "decisionMaking": "Decision Making (GK)",
+      "handling": "Handling"
+    },
+    "passing": {
+      "crossingFromByline": "Crossing From Byline",
+      "crossingFromDeep": "Crossing From Deep",
+      "curveEffect": "Curve Effect",
+      "firstTimeCrossing": "First Time Crossing",
+      "lobPassAccuracy": "Lob Pass Accuracy",
+      "longDiagonalPass": "Long Diagonal Pass",
+      "shortPassingSupport": "Short Passing Support",
+      "shortPassingUnderPressure": "Short Passing Under Pressure",
+      "throughBalls": "Through Balls",
+      "verticalPassBreakingLines": "Vertical Pass Breaking Lines",
+      "weightedPass": "Weighted Pass"
+    },
+    "performance": {
+      "adaptability": "Adaptability",
+      "bigMatchPerformance": "Big Match Performance",
+      "clutchFactor": "Clutch Factor",
+      "consistency": "Consistency",
+      "pressureHandling": "Pressure Handling"
+    },
+    "personality": {
+      "bravery": "Bravery",
+      "charismaOffPitch": "Charisma Off Pitch",
+      "composure": "Composure",
+      "composureInFinishing": "Composure In Finishing",
+      "determination": "Determination",
+      "leadershipOnPitch": "Leadership On Pitch",
+      "professionalism": "Professionalism",
+      "teamwork": "Teamwork",
+      "temperament": "Temperament"
+    },
+    "positioning": {
+      "linePositioning": "Line Positioning",
+      "narrowingAngles": "Narrowing Angles",
+      "positioning": "GK Positioning",
+      "rushingOut": "Rushing Out"
+    },
+    "pressing": {
+      "counterPressing": "Counter Pressing",
+      "pressIntensity": "Press Intensity",
+      "pressingTrigger": "Pressing Trigger",
+      "sustainedPressing": "Sustained Pressing"
+    },
+    "robustness": {
+      "injuryResistance": "Injury Resistance",
+      "naturalFitness": "Natural Fitness",
+      "physicalRobustness": "Physical Robustness",
+      "recoveryRate": "Recovery Rate"
+    },
+    "setPieces": {
+      "cornerKicking": "Corner Kicking",
+      "directFreeKickPlacement": "Direct Free Kick Placement",
+      "directFreeKickPower": "Direct Free Kick Power",
+      "indirectFreeKick": "Indirect Free Kick",
+      "penaltyTaking": "Penalty Taking",
+      "throwIns": "Throw-Ins"
+    },
+    "shotStopping": {
+      "closeRangeShotStopping": "Close Range Shot Stopping",
+      "diving": "GK Diving",
+      "longRangeShotStopping": "Long Range Shot Stopping",
+      "oneOnOneStopping": "1v1 Stopping",
+      "penaltySaving": "Penalty Saving",
+      "reflexes": "GK Reflexes"
+    },
+    "speed": {
+      "acceleration": "Acceleration",
+      "accelerationInitial": "Initial Acceleration",
+      "accelerationMedium": "Medium Acceleration",
+      "sprintSpeed": "Sprint Speed",
+      "topSpeed": "Top Speed"
+    },
+    "strength": {
+      "balanceInContact": "Balance In Contact",
+      "bodyToBodyStrength": "Body to Body Strength",
+      "legStrength": "Leg Strength",
+      "upperBodyStrength": "Upper Body Strength"
+    },
+    "tackling": {
+      "cleanTackling": "Clean Tackling",
+      "slidingTackle": "Sliding Tackle",
+      "standingTackle": "Standing Tackle",
+      "tackleTiming": "Tackle Timing"
+    }
+  }
+}

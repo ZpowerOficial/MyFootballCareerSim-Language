@@ -1093,5 +1093,28 @@
     "relegation": "Tier {from}->{to} relegation imbalance: expected {expected}, found {found}",
     "promotion": "Tier {from}->{to} promotion imbalance: expected {expected}, found {found}",
     "movement": "Movement {from}->{to}"
+  },
+  "patchManager": {
+    "title": "تعديلات المجتمع",
+    "subtitle": "خصص تجربة كرة القدم الخاصة بك",
+    "loadNewContent": "تحميل محتوى جديد",
+    "chooseFile": "اختر ملف JSON",
+    "chooseFileHint": "عادة يتم مشاركته عبر Discord",
+    "fileSelected": "تم تحديد الملف وجاهز",
+    "validPatch": "تعديل صالح",
+    "validationFailed": "فشل التحقق",
+    "warnings": "تحذيرات",
+    "installPatch": "تثبيت التعديل",
+    "fixErrorsToContinue": "يرجى تصحيح الأخطاء أعلاه للمتابعة.",
+    "fixProtectedNamespace": "استخدم المساحات المسموح بها فقط (الدوريات، الكؤوس، إلخ)",
+    "fixGeneric": "تحقق من نوع الحقل وتنسيقه في JSON",
+    "installedPatches": "التعديلات المثبتة",
+    "noPatchesTitle": "لا توجد تعديلات",
+    "noPatchesHint": "استورد التعديلات لتغيير أسماء الألعاب أو الدوريات أو الكؤوس.",
+    "by": "بواسطة",
+    "anonymous": "مجهول",
+    "confirmDelete": "حذف هذا التعديل؟",
+    "footerHint": "التعديلات تستبدل الترجمات الافتراضية. أعد تشغيل التطبيق للتطبيق.",
+    "menuButton": "تعديلات المجتمع"
   }
 }

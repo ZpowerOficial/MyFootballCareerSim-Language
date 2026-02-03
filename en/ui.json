@@ -110,6 +110,7 @@
     "donate": "Support the Creator",
     "notNow": "Not now, maybe later",
     "securePayment": "Secure payment via Stripe",
+    "supportProject": "Support Project",
     "options": {
       "coffee": "Buy me a coffee",
       "pizza": "Buy me a pizza",
@@ -1002,7 +1003,15 @@
     "title_part2": "Career Sim",
     "version": "Version {version}",
     "weight": "Weight",
-    "xpBonus": "+{amount}% XP"
+    "xpBonus": "+{amount}% XP",
+    "settings": "Settings",
+    "theme": "Theme (Beta)",
+    "themeOptions": {
+      "classic": "Classic",
+      "dark": "Dark",
+      "light": "Light",
+      "football": "Football"
+    }
   },
   "shareCard": {
     "assists": "Assists",
@@ -1128,15 +1137,32 @@
   "dev": {
     "duplicatesRemoved": "Removed {count} duplicate events (Dev only)"
   },
-  "supercopaBrasil": "Supercopa do Brasil",
-  "pt-BR": "Portuguese (BR)",
-  "random": "Random",
-  "left": "Left",
-  "right": "Right",
-  "supportProject": "Support Project",
   "tierMovement": {
     "relegation": "Tier {from}->{to} relegation imbalance: expected {expected}, found {found}",
     "promotion": "Tier {from}->{to} promotion imbalance: expected {expected}, found {found}",
     "movement": "Movement {from}->{to}"
+  },
+  "patchManager": {
+    "title": "Community Patches",
+    "subtitle": "Customize your football experience",
+    "loadNewContent": "Load New Content",
+    "chooseFile": "Choose JSON Patch",
+    "chooseFileHint": "Typically shared via Discord",
+    "fileSelected": "File selected and ready",
+    "validPatch": "Valid Patch",
+    "validationFailed": "Validation Failed",
+    "warnings": "Warnings",
+    "installPatch": "Install Patch",
+    "fixErrorsToContinue": "Please correct the errors above to continue.",
+    "fixProtectedNamespace": "Use only allowed namespaces (leagues, cups, etc.)",
+    "fixGeneric": "Check field type and format in JSON",
+    "installedPatches": "Installed Patches",
+    "noPatchesTitle": "No Patches Found",
+    "noPatchesHint": "Import patches to override game names, leagues, or trophies.",
+    "by": "by",
+    "anonymous": "Anonymous",
+    "confirmDelete": "Delete this patch?",
+    "footerHint": "Patches override default translations. Restart app to apply changes.",
+    "menuButton": "Community Patches"
   }
 }

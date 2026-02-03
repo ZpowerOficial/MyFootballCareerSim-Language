@@ -1093,5 +1093,28 @@
     "relegation": "Tier {from}->{to} relegation imbalance: expected {expected}, found {found}",
     "promotion": "Tier {from}->{to} promotion imbalance: expected {expected}, found {found}",
     "movement": "Movement {from}->{to}"
+  },
+  "patchManager": {
+    "title": "Topluluk Yamaları",
+    "subtitle": "Futbol deneyiminizi özelleştirin",
+    "loadNewContent": "Yeni İçerik Yükle",
+    "chooseFile": "JSON Yama Seç",
+    "chooseFileHint": "Genellikle Discord üzerinden paylaşılır",
+    "fileSelected": "Dosya seçildi ve hazır",
+    "validPatch": "Geçerli Yama",
+    "validationFailed": "Doğrulama Başarısız",
+    "warnings": "Uyarılar",
+    "installPatch": "Yamayı Kur",
+    "fixErrorsToContinue": "Devam etmek için yukarıdaki hataları düzeltin.",
+    "fixProtectedNamespace": "Yalnızca izin verilen alanları kullanın (ligler, kupalar, vb.)",
+    "fixGeneric": "JSON'daki alan türünü ve biçimini kontrol edin",
+    "installedPatches": "Yüklü Yamalar",
+    "noPatchesTitle": "Yama Bulunamadı",
+    "noPatchesHint": "Oyun adlarını, ligleri veya kupaları değiştirmek için yama içe aktarın.",
+    "by": "tarafından",
+    "anonymous": "Anonim",
+    "confirmDelete": "Bu yamayı sil?",
+    "footerHint": "Yamalar varsayılan çevirileri geçersiz kılar. Değişiklikleri uygulamak için uygulamayı yeniden başlatın.",
+    "menuButton": "Topluluk Yamaları"
   }
 }

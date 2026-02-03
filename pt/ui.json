@@ -1093,5 +1093,28 @@
     "relegation": "Desequilíbrio de rebaixamento Tier {from}->{to}: esperado {expected}, encontrado {found}",
     "promotion": "Desequilíbrio de promoção Tier {from}->{to}: esperado {expected}, encontrado {found}",
     "movement": "Movimentação {from}->{to}"
+  },
+  "patchManager": {
+    "title": "Patches da Comunidade",
+    "subtitle": "Personalize sua experiência de futebol",
+    "loadNewContent": "Carregar Novo Conteúdo",
+    "chooseFile": "Escolher Patch JSON",
+    "chooseFileHint": "Geralmente compartilhado via Discord",
+    "fileSelected": "Arquivo selecionado e pronto",
+    "validPatch": "Patch Válido",
+    "validationFailed": "Validação Falhou",
+    "warnings": "Avisos",
+    "installPatch": "Instalar Patch",
+    "fixErrorsToContinue": "Por favor, corrija os erros acima para continuar.",
+    "fixProtectedNamespace": "Use apenas namespaces permitidos (ligas, copas, etc.)",
+    "fixGeneric": "Verifique o tipo e formato do campo no JSON",
+    "installedPatches": "Patches Instalados",
+    "noPatchesTitle": "Nenhum Patch Encontrado",
+    "noPatchesHint": "Importe patches para substituir nomes de jogos, ligas ou troféus.",
+    "by": "por",
+    "anonymous": "Anônimo",
+    "confirmDelete": "Excluir este patch?",
+    "footerHint": "Patches substituem traduções padrão. Reinicie o app para aplicar.",
+    "menuButton": "Patches da Comunidade"
   }
 }

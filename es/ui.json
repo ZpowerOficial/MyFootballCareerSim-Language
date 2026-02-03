@@ -1094,5 +1094,28 @@
     "relegation": "Tier {from}->{to} relegation imbalance: expected {expected}, found {found}",
     "promotion": "Tier {from}->{to} promotion imbalance: expected {expected}, found {found}",
     "movement": "Movement {from}->{to}"
+  },
+  "patchManager": {
+    "title": "Parches de la Comunidad",
+    "subtitle": "Personaliza tu experiencia de fútbol",
+    "loadNewContent": "Cargar Nuevo Contenido",
+    "chooseFile": "Elegir Parche JSON",
+    "chooseFileHint": "Normalmente compartido vía Discord",
+    "fileSelected": "Archivo seleccionado y listo",
+    "validPatch": "Parche Válido",
+    "validationFailed": "Validación Fallida",
+    "warnings": "Advertencias",
+    "installPatch": "Instalar Parche",
+    "fixErrorsToContinue": "Por favor, corrige los errores anteriores para continuar.",
+    "fixProtectedNamespace": "Usa solo espacios permitidos (ligas, copas, etc.)",
+    "fixGeneric": "Verifica el tipo y formato del campo en JSON",
+    "installedPatches": "Parches Instalados",
+    "noPatchesTitle": "No Hay Parches",
+    "noPatchesHint": "Importa parches para reemplazar nombres de juegos, ligas o trofeos.",
+    "by": "por",
+    "anonymous": "Anónimo",
+    "confirmDelete": "¿Eliminar este parche?",
+    "footerHint": "Los parches reemplazan traducciones predeterminadas. Reinicia la app para aplicar.",
+    "menuButton": "Parches de la Comunidad"
   }
 }

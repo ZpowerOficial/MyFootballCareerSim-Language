@@ -1093,5 +1093,28 @@
     "relegation": "Tier {from}->{to} relegation imbalance: expected {expected}, found {found}",
     "promotion": "Tier {from}->{to} promotion imbalance: expected {expected}, found {found}",
     "movement": "Movement {from}->{to}"
+  },
+  "patchManager": {
+    "title": "Patch Komunitas",
+    "subtitle": "Kustomisasi pengalaman sepak bola Anda",
+    "loadNewContent": "Muat Konten Baru",
+    "chooseFile": "Pilih Patch JSON",
+    "chooseFileHint": "Biasanya dibagikan melalui Discord",
+    "fileSelected": "File dipilih dan siap",
+    "validPatch": "Patch Valid",
+    "validationFailed": "Validasi Gagal",
+    "warnings": "Peringatan",
+    "installPatch": "Instal Patch",
+    "fixErrorsToContinue": "Silakan perbaiki kesalahan di atas untuk melanjutkan.",
+    "fixProtectedNamespace": "Gunakan hanya namespace yang diizinkan (liga, piala, dll.)",
+    "fixGeneric": "Periksa tipe dan format field dalam JSON",
+    "installedPatches": "Patch Terinstal",
+    "noPatchesTitle": "Tidak Ada Patch",
+    "noPatchesHint": "Impor patch untuk mengganti nama game, liga, atau trofi.",
+    "by": "oleh",
+    "anonymous": "Anonim",
+    "confirmDelete": "Hapus patch ini?",
+    "footerHint": "Patch menggantikan terjemahan default. Restart aplikasi untuk menerapkan perubahan.",
+    "menuButton": "Patch Komunitas"
   }
 }

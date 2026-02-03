@@ -1,0 +1,104 @@
+{
+  "_meta": {
+    "patchable": true,
+    "description": "News headlines and event descriptions - supports community patches for localized content",
+    "interpolation": "Uses {variable} for dynamic values and {{ref:path}} for cross-references"
+  },
+  "news": {
+    "assistMilestone": {
+      "1": "PLAYMAKER! {name} reaches {assists} career assists",
+      "2": "{name} hits {assists} assists in brilliant career",
+      "3": "Creator supreme: {name} at {assists} assists"
+    },
+    "ballonDor": {
+      "0": "{name} WINS {year} {{ref:content.awards.ballonDor}}!",
+      "1": "GOLDEN ERA: {name} named world's best",
+      "2": "OFFICIAL: {name} takes football's biggest prize"
+    },
+    "championsLeague": {
+      "1": "KINGS OF EUROPE! {team} win {{ref:content.competitions.championsLeague}}",
+      "2": "GLORY NIGHT! {name} and {team} conquer Europe",
+      "3": "{team} crowned champions of Europe"
+    },
+    "europaLeague": {
+      "1": "EUROPEAN CLUB CUP GLORY! {team} win European trophy",
+      "2": "{name} and {team} triumph in {{ref:content.competitions.europaLeague}}",
+      "3": "European success! {team} lift {{ref:content.competitions.europaLeague}}"
+    },
+    "goldenBoot": {
+      "0": "{name} TOP SCORER! {goals} goals this season",
+      "1": "GOLDEN BOOT for {name} with {goals} goals",
+      "2": "{name} finishes as top marksman: {goals} goals"
+    },
+    "leagueChampion": {
+      "0": "CHAMPIONS! {team} wins the league with {name}",
+      "1": "Title secured! {team} and {name} celebrate",
+      "2": "The cup is ours! {team} wins national championship"
+    },
+    "transfer": {
+      "0": "BREAKING! {name} is the new signing for {newTeam}",
+      "1": "OFFICIAL: {name} signs with {newTeam}",
+      "2": "{newTeam} announces blockbuster signing of {name}"
+    },
+    "worldCup": {
+      "0": "{team} WORLD CHAMPIONS! THE CUP IS OURS!",
+      "1": "TOP OF THE WORLD! {team} conquers the {{ref:content.competitions.worldCup}}",
+      "2": "Maximum Glory! {team} wins the {{ref:content.competitions.worldCup}}"
+    },
+    "continentalQualification": {
+      "1": "EUROPEAN FOOTBALL! {team} qualify for {competition}",
+      "2": "{name} helps {team} reach {competition}",
+      "3": "Continental football awaits {team}"
+    },
+    "hatTrick": {
+      "1": "HAT-TRICK HERO! {name} scores three",
+      "2": "{name} bags hat-trick in {team} victory",
+      "3": "Treble treat! {name} scores three goals"
+    },
+    "firstGoal": {
+      "1": "FIRST GOAL! {name} opens professional account",
+      "2": "{name} scores first career goal for {team}",
+      "3": "Off the mark! {name} nets debut goal"
+    },
+    "professionalDebut": {
+      "1": "DEBUT! {name} makes first professional appearance",
+      "2": "The beginning: {name} debuts for {team}",
+      "3": "{name} makes long-awaited professional debut"
+    },
+    "internationalDebut": {
+      "1": "INTERNATIONAL DEBUT! {name} represents {country}",
+      "2": "{name} earns first cap for {country}",
+      "3": "Proud moment: {name} debuts for national team"
+    },
+    "retirement": {
+      "0": "{name} ANNOUNCES RETIREMENT. Thanks for everything!",
+      "1": "End of an era: {name} hangs up boots",
+      "2": "Legend's goodbye: {name} retires"
+    },
+    "promotion": {
+      "1": "PROMOTED! {team} go up to {league}",
+      "2": "{name} and {team} earn promotion to {league}",
+      "3": "Celebrations! {team} promoted to {league}"
+    },
+    "relegation": {
+      "0": "TRAGEDY: {team} relegated with {name} in squad",
+      "1": "Historic drop: {team} falls to second division",
+      "2": "Sad day: {name}'s {team} cannot resist and falls"
+    }
+  },
+  "newsType": {
+    "assistMilestone": "Assist Milestone",
+    "ballonDor": "{{ref:content.awards.ballonDor}}",
+    "championsLeague": "{{ref:content.competitions.championsLeague}}",
+    "cupWinner": "Cup Winner",
+    "europaLeague": "{{ref:content.competitions.europaLeague}}",
+    "goldenBoot": "Golden Boot",
+    "hatTrick": "Hat-Trick",
+    "leagueChampion": "League Champion",
+    "transfer": "Transfer",
+    "worldCup": "{{ref:content.competitions.worldCup}}",
+    "retirement": "Retirement",
+    "promotion": "Promotion",
+    "relegation": "Relegation"
+  }
+}
