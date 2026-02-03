@@ -1,0 +1,1554 @@
+{
+  "agent": {
+    "reputation": {
+      "Average": "Moyenne",
+      "Good": "Bon",
+      "Rookie": "Débutant",
+      "Super Agent": "Super Agent"
+    },
+    "specialty": {
+      "BrandBuilder": "Constructeur de Marque",
+      "Negotiator": "Négociateur",
+      "Scout": "Recruteur",
+      "balanced": "Équilibré",
+      "contract": "Contrats",
+      "sponsorship": "Sponsors",
+      "transfer": "Transferts"
+    },
+    "style": {
+      "Adaptable": "Adaptable",
+      "Aggressive": "Agressif",
+      "Ambitious": "Ambitieux",
+      "Analytical": "Analytique",
+      "Calm": "Calme",
+      "Charismatic": "Charismatique",
+      "Dedicated": "Dévoué",
+      "Energetic": "Énergique",
+      "Experienced": "Expérimenté",
+      "Focused": "Concentré",
+      "Friendly": "Amical",
+      "Honest": "Honnête",
+      "Innovative": "Innovant",
+      "Methodical": "Méthodique",
+      "Motivated": "Motivé",
+      "Networked": "Bien Connecté",
+      "Passionate": "Passionné",
+      "Patient": "Patient",
+      "Persistent": "Persévérant",
+      "Precise": "Précis",
+      "Professional": "Professionnel",
+      "Reliable": "Fiable",
+      "Strategic": "Stratégique",
+      "Traditional": "Traditionnel",
+      "Visionary": "Visionnaire"
+    }
+  },
+  "attributes": {
+    "abbr": {
+      "AGI": "AGI",
+      "DEF": "DEF",
+      "DIV": "DIV",
+      "DRI": "DRI",
+      "FIN": "FIN",
+      "HAN": "HAN",
+      "HEA": "HEA",
+      "INT": "INT",
+      "PAC": "PAC",
+      "PAS": "PAS",
+      "PHY": "PHY",
+      "POS": "POS",
+      "REF": "REF",
+      "SHO": "SHO",
+      "STA": "STA",
+      "STR": "STR",
+      "VIS": "VIS"
+    },
+    "acceleration": "Accélération",
+    "age": "Âge",
+    "aggression": "Agressivité",
+    "agility": "Agilité",
+    "attacking": "Attaque",
+    "attributeEvolution": "Évolution des Attributs",
+    "balance": "Équilibre",
+    "ballControl": "Contrôle du Ballon",
+    "composure": "Sang-froid",
+    "crossing": "Centres",
+    "currentAge": "Âge Actuel",
+    "currentOvr": "Note Actuelle",
+    "curve": "Effet",
+    "defending": "Défense",
+    "dribbling": "Dribble",
+    "events": {
+      "award": {
+        "comeback": "💪 Retour de l'Année après blessure grave !",
+        "continentalCompTopScorer": "👟 Meilleur Buteur de {competition} ({goals} buts) !",
+        "continentalPOTY": "⭐ Nommé Meilleur Joueur du Tournoi {competition} !",
+        "continentalTOTT": "👕 Sélectionné dans l'Équipe Type de {competition} !",
+        "cupTopScorer": "👟 Meilleur Buteur de la Coupe ({goals} buts) !",
+        "fifaBest": "🏆⭐ Nommé Joueur de la Saison !",
+        "goldenBoot": "👟 Meilleur Buteur de la Ligue ({goals} buts) !",
+        "goldenBoy": "🧒🏆 Meilleur Jeune Joueur de l'Année ! L'avenir vous appartient.",
+        "goldenGlove": "🧤 Gant d'Or ({cleanSheets} clean sheets) !",
+        "goldenShoe": "🥇 Soulier d'Or Européen ! ({goals} buts)",
+        "leaguePOTY": "🏅 Joueur de la Saison en Ligue !",
+        "leaguePositional": "🏅 Nommé Meilleur {position} de la Saison !",
+        "playmaker": "🎯 Meilleur Passeur de la Ligue ({assists} passes) !",
+        "puskas": "⚽🔥 Lauréat du Prix du Plus Beau But !",
+        "rookie": "⭐ Nommé Révélation de l'Année !",
+        "shortlist": "⭐ Nommé pour le Trophée d'Or.",
+        "teamOfTheYear": "👕 Sélectionné dans l'Équipe de l'Année.",
+        "worldCupGoldenBall": "🌍🏅 Trophée d'Or du Tournoi Mondial !",
+        "worldCupGoldenBoot": "👟🌍 Soulier d'Or de la Tournoi Mondial !",
+        "worldCupTOTT": "👕 Sélectionné dans l'Équipe Type de la Tournoi Mondial !",
+        "worldPlayer": "🏆⭐ MEILLEUR JOUEUR DU MONDE ! Reconnu comme le meilleur de la planète. Narratif : {narrative}."
+      },
+      "debut": "Débuts professionnels effectués",
+      "firstTitle": "Premier titre en carrière remporté",
+      "performance": {
+        "below_expectations": "Saison en dessous des attentes",
+        "excellent_season": "Excellente saison",
+        "outstanding_season": "Saison exceptionnelle"
+      },
+      "physical": {
+        "bodyTypeChange": "Changement de corpulence",
+        "weightLoss": "Perte de poids liée à l'entraînement"
+      },
+      "progression": {
+        "age_decline": "Déclin lié à l'âge",
+        "exceptional_development": "Développement exceptionnel",
+        "maintained_fitness": "Maintien du niveau de forme",
+        "physical_decline": "Déclin physique noté",
+        "strong_development": "Fort développement",
+        "struggled_development": "Difficultés à progresser"
+      },
+      "retirement": {
+        "earlyCareerEndingInjury": "Carrière brisée par une blessure",
+        "earlyInjurySupport": "Soutien reçu après une blessure",
+        "future": {
+          "academy": "Travaille avec l'académie des jeunes",
+          "ambassador": "Rôle d'ambassadeur du club",
+          "coaching": "Poursuit une carrière d'entraîneur",
+          "outside_football": "Poursuit des intérêts hors football",
+          "punditry": "Devient consultant"
+        },
+        "reason": {
+          "injury": "Retraite pour cause de blessure"
+        },
+        "tooOld": "Retraite pour cause d'âge",
+        "tragicEarlyInjury": "Blessure tragique mettant fin prématurément à la carrière",
+        "tribute": {
+          "defied_time": "A défié le temps par sa longévité",
+          "early_injury": "Carrière terminée par une blessure prématurée",
+          "great_injury": "Grande carrière brisée par une blessure",
+          "icon": "Retraite en tant qu'Icône du Football",
+          "journeyman": "Retraite après une carrière de baroudeur",
+          "legend": "Retraite en tant que Légende du Club",
+          "professional": "Retraite en tant que Vrai Professionnel",
+          "star": "Retraite en tant que Star du Football",
+          "unfortunate_end": "Fin de carrière malheureuse",
+          "very_early_injury": "Blessure très précoce mettant fin à la carrière"
+        }
+      },
+      "transfer": {
+        "agitation_1": "Montre des signes d'agitation",
+        "agitation_2": "De plus en plus mécontent au club",
+        "agitation_3": "Demande un transfert",
+        "historicRival": "RIVAL",
+        "rival": "RIVAL",
+        "traitor": "TRAÎTRE",
+        "warning_1": "Le club a émis un premier avertissement",
+        "warning_2": "Le club a émis un deuxième avertissement",
+        "warning_3": "Dernier avertissement du club"
+      },
+      "trophy": {
+        "continental": "🏆 Vainqueur de la {competition} !",
+        "cup": "🏆 Vainqueur de la Coupe !",
+        "league": "🏆 Champion de Ligue avec {team} !",
+        "worldCup": "🌍🏆 CHAMPION DU TOURNOI MONDIAL ! Une légende est née !"
+      },
+      "viral": {
+        "celebration": "La célébration devient une sensation virale !",
+        "charity": "Travail caritatif reçoit éloges et admiration !",
+        "controversy": "Impliqué dans une controverse dominant les titres !",
+        "fashion": "Choix mode font des vagues sur les réseaux !",
+        "gaming": "Contenu gaming connecte avec le jeune public !",
+        "goal": "But incroyable devient viral avec {views}M de vues !",
+        "interview": {
+          "negative": "Commentaires controversés déclenchent un vif débat !",
+          "positive": "Interview honnête séduit les fans !"
+        },
+        "skill": "Geste technique époustouflant casse internet !"
+      },
+      "youth": {
+        "loanRecommended": "Prêt recommandé pour le développement",
+        "promotedAfterExcellentSeason": "Promu après une excellente saison",
+        "promotedToFirstTeam": "Promu en Équipe Première",
+        "promotedToReserve": "Promu en Réserve",
+        "releasedToProfessional": "Libéré pour une carrière professionnelle"
+      }
+    },
+    "finishing": "Finition",
+    "flair": "Flair",
+    "foot": {
+      "left": "Gauche",
+      "right": "Droit"
+    },
+    "footedness": "Pied Fort",
+    "freeKick": "Coup Franc",
+    "gkDiving": "Plongeon",
+    "gkHandling": "Prise de Balle",
+    "gkKicking": "Dégagement",
+    "gkPositioning": "Placement Gardien",
+    "gkReflexes": "Réflexes",
+    "goalkeeping": "Gardien de But",
+    "growth": "Progression",
+    "heading": "Jeu de Tête",
+    "interceptions": "Interceptions",
+    "jumping": "Détente",
+    "keyAttribute": "Attribut Clé",
+    "leadership": "Leadership",
+    "leftFinishing": "Finition Pied Gauche",
+    "legend": "Légende",
+    "longPassing": "Passes Longues",
+    "longShots": "Tirs de Loin",
+    "marking": "Marquage",
+    "mental": "Mental",
+    "mentalAttributes": "Attributs Mentaux",
+    "overall": "Global",
+    "overallEvolution": "Évolution Globale",
+    "pace": "Vitesse",
+    "passing": "Passe",
+    "peakAge": "Âge de Pointe",
+    "peakOvr": "Note Maximale",
+    "penalties": "Tirs au But",
+    "physical": "Physique",
+    "physicalAttributes": "Attributs Physiques",
+    "positioning": "Placement",
+    "preferredFoot": "Pied Préféré",
+    "ratingColors": "Couleurs des Notes",
+    "reactions": "Réactions",
+    "rightFinishing": "Finition Pied Droit",
+    "shooting": "Tir",
+    "shortPassing": "Passes Courtes",
+    "shotPower": "Puissance de Tir",
+    "slidingTackle": "Tacle Glissé",
+    "sprintSpeed": "Vitesse de Pointe",
+    "stamina": "Endurance",
+    "standingTackle": "Tacle Debout",
+    "strength": "Force",
+    "technical": "Technique",
+    "technicalAttributes": "Attributs Techniques",
+    "vision": "Vision",
+    "volleys": "Volées",
+    "weakFoot": "Pied Faible",
+    "workRate": "Volume de Jeu"
+  },
+  "characteristic": {
+    "Aerial Specialist": "Spécialiste Aérien",
+    "Big Game Player": "Joueur de Grands Matchs",
+    "Clinical Finisher": "Finisseur Clinique",
+    "Dribbling Wizard": "Magicien du Dribble",
+    "Engine": "Moteur",
+    "Leader": "Leader",
+    "Playmaker": "Meneur de Jeu",
+    "Speed Demon": "Démon de la Vitesse"
+  },
+  "expandedAttributes": {
+    "defending": {
+      "slidingTiming": "Précision du Tacle Glissé",
+      "standingTiming": "Précision du Tacle Debout"
+    },
+    "finishing": {
+      "headedAccuracy": "Précision de la Tête",
+      "oneOnOneFinishing": "Finition en Face-à-Face",
+      "placedShots": "Tirs Placés",
+      "shotAnticipation": "Anticipation de Tir",
+      "volleyTechnique": "Technique de Volée"
+    },
+    "mental": {
+      "concentration": "Concentration",
+      "decisions": "Prise de Décision"
+    },
+    "passing": {
+      "lobPassAccuracy": "Précision des Passes Lobées",
+      "throughBalls": "Passes en Profondeur",
+      "weightedPass": "Passe Appuyée"
+    },
+    "speed": {
+      "acceleration": "Accélération",
+      "topSpeed": "Vitesse de Pointe"
+    }
+  },
+  "form": {
+    "Average": "Moyenne",
+    "Excellent": "Excellente",
+    "Good": "Bonne",
+    "Injured": "Blessé",
+    "OnFire": "En Feu",
+    "Poor": "Médiocre",
+    "Suspended": "Suspendu",
+    "VeryPoor": "Très Médiocre",
+    "average": "Moyenne",
+    "belowAverage": "En dessous de la moyenne",
+    "excellent": "Excellente",
+    "good": "Bonne",
+    "poor": "Médiocre",
+    "terrible": "Terrible",
+    "veryGood": "Très Bonne",
+    "worldClass": "Classe Mondiale"
+  },
+  "goals": {
+    "100goals": "Marquer 100 buts en carrière",
+    "almostThere": "Presque là!",
+    "ballonDor": "Gagner le Trophée d'Or",
+    "becomeCaptain": "Devenir capitaine de {team}",
+    "becomeClubLegend": "Devenir une légende du club à {team} ({matches}/200 matchs)",
+    "becomeStarter": "Devenir titulaire régulier pour {team}",
+    "breakGoalRecord": "Battre le record historique de buts de {team} ({current}/{record})",
+    "completed": "TERMINÉ",
+    "desc": {
+      "becomeCaptain": "Devenir capitaine de {club}",
+      "becomeClubLegend": "Devenir une légende du club à {club}",
+      "becomeRegularStarter": "Devenir titulaire régulier pour {club}",
+      "breakClubRecord": "Battre le record de buts de tous les temps de {club}",
+      "earnCallUp": "Être convoqué en équipe nationale de {nationality}",
+      "firstCleanSheet": "Garder son premier clean sheet professionnel",
+      "firstProGoal": "Marquer son premier but professionnel",
+      "makeDebut": "Faire ses débuts professionnels",
+      "playTopTier": "Jouer dans un championnat de premier plan",
+      "reach100Caps": "Atteindre 100 sélections pour {nationality}",
+      "reachCareerAssists": "Atteindre {target} passes décisives en carrière",
+      "reachCareerGoals": "Atteindre {target} buts en carrière",
+      "reachOverall": "Atteindre une note globale de {target}+",
+      "score100CareerGoals": "Marquer 100 buts en carrière",
+      "spend10Years": "Passer 10 ans à {club}",
+      "winBallonDor": "Gagner le titre de Joueur Mondial de l'Année",
+      "winChampionsLeague": "Gagnez le Championnat Continental avec {club}",
+      "winFirstMajorTrophy": "Gagner son premier trophée majeur (championnat ou continental)",
+      "winWorldCup": "Gagner le Tournoi Mondial avec {nationality}"
+    },
+    "emptyDescription": "Chaque légende a un début. Continuez à jouer et de nouveaux objectifs apparaîtront en cours de route.",
+    "emptyTitle": "Votre parcours commence ici",
+    "expired": "Expiré",
+    "firstCleanSheet": "Garder son premier clean sheet professionnel",
+    "firstGoal": "Marquer son premier but professionnel",
+    "firstTrophy": "Gagner son premier trophée majeur",
+    "legacyOther": "Autres Objectifs",
+    "nationalTeamCallUp": "Obtenir une convocation en équipe nationale de {country}",
+    "percentComplete": "terminé",
+    "proDebut": "Faire ses débuts professionnels",
+    "progress": "Progrès",
+    "reach100Caps": "Atteindre 100 sélections pour {country}",
+    "reachCareerAssists": "Atteindre {count} passes décisives en carrière",
+    "reachCareerGoals": "Atteindre {count} buts en carrière",
+    "reachOverallRating": "Atteindre une note globale de {rating}+",
+    "rewards": {
+      "agentReputation": "Réputation de l'Agent",
+      "clubApproval": "Approbation du Club",
+      "followerBoost": "Boost d'Abonnés",
+      "mediaBoost": "Boost Médiatique",
+      "moraleBoost": "Boost de Moral",
+      "reputationBoost": "Boost de Réputation",
+      "skillPoints": "Points de Compétence",
+      "teamChemistry": "Alchimie d'Équipe",
+      "title": "Récompenses",
+      "transferBudget": "Budget Transfert"
+    },
+    "soClose": "Si proche!",
+    "spendDecade": "Passer 10 ans à {team}",
+    "target": "Cible",
+    "topTierLeague": "Jouer dans un championnat de premier plan",
+    "v2": {
+      "active": "actif",
+      "bands": {
+        "expected": "Attendu",
+        "fail": "Échec",
+        "stretch": "Défi"
+      },
+      "completed": "Terminé",
+      "expectations": {
+        "assistsLeague": "Objectif de passes décisives en championnat",
+        "assistsLeagueDesc": "Créez des occasions et délivrez des passes décisives pour le {{club}} cette saison.",
+        "chancesCreated": "Occasions Créées",
+        "cleanSheets": "Objectif de Clean Sheets",
+        "conceded": "Limite de Buts Encaissés",
+        "consistency": "Consistance des performances",
+        "consistencyDesc": "Maintenez des performances constantes pour le {{club}}. La fiabilité est la clé.",
+        "dribblesCompleted": "Dribbles Réussis",
+        "gkRating": "Performance du gardien",
+        "gkRatingDesc": "Livrez de solides performances de gardien de but pour le {{club}} cette saison.",
+        "goalsLeague": "Objectif de buts en championnat",
+        "goalsLeagueDesc": "Marquez des buts pour le {{club}} cette saison. Le club attend des résultats.",
+        "interceptions": "Interceptions",
+        "manOfTheMatch": "Homme du Match",
+        "matchRating": "Note de Match",
+        "passAccuracy": "Précision des Passes",
+        "penalties": "Réussite des Tirs au But",
+        "tacklesWon": "Tacles Réussis"
+      },
+      "expired": "Expiré",
+      "milestones": {
+        "careerGoals": "Jalon de buts en carrière",
+        "careerGoalsDesc": "Jalon de carrière : atteignez {{target}} buts en carrière."
+      },
+      "origin": {
+        "agent": "Agent",
+        "club": "Club",
+        "coach": "Entraîneur",
+        "fans": "Supporters",
+        "press": "Presse",
+        "self": "Vous"
+      },
+      "progress": "Progrès",
+      "promises": {
+        "roleGuarantee": "Garantie de rôle",
+        "roleGuaranteeDesc": "Promesse au {{club}} : être traité comme {{status}}. Temps de jeu attendu : {{matches}}+ matchs cette saison."
+      },
+      "records": {
+        "clubSeasonGoals": "Record de buts du club en saison",
+        "clubSeasonGoalsBroken": "Record de buts du club en saison battu !",
+        "clubSeasonGoalsBrokenDesc": "Record battu : nouveau record de buts de {{club}} en saison ({{record}}).",
+        "clubSeasonGoalsDesc": "Chasse : battez le record de buts de {{club}} en saison ({{record}}).",
+        "historicSeasonGoals": "Record historique de buts en saison (91+)",
+        "historicSeasonGoalsDesc": "Chasse historique : 91+ buts en une seule saison. Le monde du football entier regarde."
+      },
+      "rewards": {
+        "agentReputation": "Réputation de l'Agent",
+        "clubApproval": "Approbation du Club",
+        "followerBoost": "Boost d'Abonnés",
+        "mediaBoost": "Boost Médiatique",
+        "moraleBoost": "Boost de Moral",
+        "reputationBoost": "Boost de Réputation",
+        "skillPoints": "Points de Compétence",
+        "teamChemistry": "Alchimie d'Équipe",
+        "title": "Récompenses",
+        "transferBudget": "Budget Transfert"
+      },
+      "sections": {
+        "career": "Jalons de Carrière",
+        "chases": "Records",
+        "promises": "Promesses",
+        "thisSeason": "Cette Saison"
+      },
+      "severity": {
+        "high": "Élevée",
+        "low": "Faible",
+        "medium": "Moyenne"
+      },
+      "target": "Cible",
+      "team": {
+        "leagueFinish": "Position finale en championnat",
+        "leagueFinishDesc": "Attente du club : terminez la saison de championnat en atteignant l'objectif avec le {{club}}."
+      }
+    },
+    "winContinentalCup": "Gagner la Coupe Continentale avec {team}",
+    "winWorldCup": "Gagner le Tournoi Mondial avec {country}"
+  },
+  "legend": {
+    "elite": "Élite",
+    "lower": "Inférieur",
+    "mid": "Moyen",
+    "top": "Supérieur"
+  },
+  "morale": {
+    "Content": "Content",
+    "Ecstatic": "Extatique",
+    "Furious": "Furieux",
+    "Happy": "Heureux",
+    "High": "Haut",
+    "Low": "Bas",
+    "Neutral": "Neutre",
+    "Normal": "Normal",
+    "Unhappy": "Malheureux",
+    "Very High": "Très Haut",
+    "Very Low": "Très Bas",
+    "_title": "Moral"
+  },
+  "negotiation": {
+    "accept": "Accepter l'Offre",
+    "propose": "Proposer des Termes",
+    "round": "Tour",
+    "subtitle": "Négociation de Contrat",
+    "title": "Négociation"
+  },
+  "offer": {
+    "type": {
+      "loan": "Prêt",
+      "transfer": "Transfert"
+    }
+  },
+  "offers": {
+    "accept": "Accepter",
+    "closeAndStay": "Fermer et Rester",
+    "contractLength": "Durée du Contrat",
+    "decline": "Refuser",
+    "loanDuration": "Durée du Prêt",
+    "loanMove": "Mouvement de Prêt",
+    "noOffers": "Aucune offre disponible",
+    "noOffersDescription": "Vous n'avez reçu aucune offre de transfert cette saison.",
+    "permanentTransfer": "Transfert Définitif",
+    "reputation": "Réputation",
+    "season": "season",
+    "seasons": "seasons",
+    "tier": "Tier",
+    "transferOffers": "Offres de Transfert",
+    "wage": "Salaire",
+    "years": "ans"
+  },
+  "personality": {
+    "Ambitious": "Ambitieux",
+    "Balanced": "Équilibré",
+    "Determined": "Déterminé",
+    "Easygoing": "Décontracté",
+    "Inconsistent": "Inconstant",
+    "Jovial": "Jovial",
+    "Lazy": "Paresseux",
+    "Leader": "Leader",
+    "Loyal": "Loyal",
+    "Media Darling": "Chouchou des Médias",
+    "Professional": "Professionnel",
+    "Reserved": "Réservé",
+    "Temperamental": "Tempéramental"
+  },
+  "playerStyle": {
+    "advancedPlaymaker": "Meneur de Jeu Avancé",
+    "ballPlayingDefender": "Libéro Moderne",
+    "ballWinningMidfielder": "Milieu Récupérateur",
+    "boxToBox": "Box-to-Box",
+    "completeForward": "Attaquant Complet",
+    "deepLyingPlaymaker": "Meneur de Jeu Reculé",
+    "emergingTalent": "Talent Émergent",
+    "false9": "Faux 9",
+    "insideForward": "Attaquant Intérieur",
+    "invertedWinger": "Ailier Inversé",
+    "mezzala": "Mezzala",
+    "poacher": "Renard des Surfaces",
+    "regista": "Régisseur",
+    "shotStopper": "Gardien Réflexe",
+    "speedDemon": "Démon de la Vitesse",
+    "stopper": "Stoppeur",
+    "sweeper": "Libéro",
+    "sweeperKeeper": "Gardien-Libéro",
+    "targetMan": "Joueur Pivot",
+    "traditionalWinger": "Ailier Traditionnel",
+    "versatilePlayer": "Joueur Polyvalent",
+    "widePlaymaker": "Meneur de Jeu Large",
+    "wingBack": "Piston"
+  },
+  "seasonFocus": {
+    "aerial": {
+      "description": "Gagner plus de duels aériens et de têtes",
+      "title": "Dominance Aérienne"
+    },
+    "balanced": {
+      "description": "Se concentrer sur l'amélioration globale dans tous les domaines",
+      "title": "Développement Équilibré"
+    },
+    "ballplaying": {
+      "description": "Améliorer la relance et la distribution depuis l'arrière",
+      "title": "Relance Propre"
+    },
+    "boxToBox": {
+      "description": "Couvrir tout le terrain et contribuer à l'attaque et à la défense",
+      "title": "Box-to-Box"
+    },
+    "consistency": {
+      "description": "Aim for strong average performances and reliability.",
+      "title": "Consistency"
+    },
+    "development": {
+      "description": "Focus on improving your overall and attributes this season.",
+      "title": "Development"
+    },
+    "distribution": {
+      "description": "Améliorer la distribution à la main et au pied",
+      "title": "Distribution"
+    },
+    "durationHint": "This focus will last {seasons} seasons",
+    "heading": {
+      "description": "Améliorer le jeu de tête et les duels aériens",
+      "title": "Jeu Aérien"
+    },
+    "leadership": {
+      "description": "Développer les qualités de meneur et l'influence sur l'équipe",
+      "title": "Leadership"
+    },
+    "longShots": {
+      "description": "S'entraîner aux tirs en dehors de la surface",
+      "title": "Tirs de Loin"
+    },
+    "marking": {
+      "description": "Améliorer le marquage individuel et le placement",
+      "title": "Marquage Défensif"
+    },
+    "playmaking": {
+      "description": "Prioritize assists and chance creation. Expectations lean toward assists.",
+      "title": "Playmaking"
+    },
+    "positionHint": "Options available for {position}",
+    "positioning": {
+      "description": "Mieux lire le jeu et améliorer le sens du placement",
+      "title": "Placement"
+    },
+    "reflexes": {
+      "description": "Aiguiser le temps de réaction et les arrêts",
+      "title": "Réflexes"
+    },
+    "scoring": {
+      "description": "Prioritize goals and finishing. Club expectations will lean toward goal output.",
+      "title": "Scoring"
+    },
+    "speed": {
+      "description": "Se concentrer sur la vitesse et les améliorations rapides",
+      "title": "Vitesse et Agilité"
+    },
+    "subtitle": "Choose a focus to shape your season narrative and expectations.",
+    "title": "Season Focus",
+    "titles": {
+      "description": "Focus on winning trophies. Team expectations become more important.",
+      "title": "Titles"
+    },
+    "ballPlaying": {
+      "description": "Improve passing and distribution from the back",
+      "title": "Ball Playing"
+    }
+  },
+  "squadStatus": {
+    "Captain": "Capitaine",
+    "Club Legend": "Légende du Club",
+    "Franchise Player": "Joueur Franchise",
+    "Key Player": "Joueur Clé",
+    "Prospect": "Espoir",
+    "Reserve": "Réserviste",
+    "Rotation": "Rotation",
+    "Squad Player": "Joueur de l'Effectif",
+    "Starter": "Titulaire",
+    "Surplus": "Indésirable",
+    "Veteran Leader": "Leader Vétéran",
+    "Veteran Rotation": "Rotation Vétéran",
+    "Veteran Star": "Vedette Vétéran",
+    "Vice-Captain": "Vice-Capitaine",
+    "Youth Player": "Jeune Joueur",
+    "_title": "Statut dans l'Effectif"
+  },
+  "status": {
+    "controversial": "Controversé"
+  },
+  "training": {
+    "alreadyInvested": "You have already invested this season",
+    "balance": "Your Balance",
+    "cannotAfford": "Insufficient funds",
+    "cantAfford": "Fonds insuffisants pour l'investissement",
+    "clubCovered": "Pris en charge par le club (saison débutant)",
+    "clubCoveredHint": "Subvention première saison : aucun frais facturé.",
+    "cost": "Coût de l'Entraînement",
+    "effectiveness": "efficacité",
+    "effectivenessFactors": "Facteurs d'Efficacité",
+    "factor": {
+      "age": "Âge",
+      "agent": "Agent",
+      "morale": "Moral",
+      "personality": "Personnalité"
+    },
+    "infra": {
+      "medical": "Département Médical",
+      "nutrition": "Centre de Nutrition",
+      "recovery": "Centre de Récupération",
+      "training": "Centre d'Entraînement"
+    },
+    "infraBonus": "Bonus d'Infrastructure",
+    "infrastructure": "Infrastructure du Club",
+    "intensity": {
+      "extreme": "Extrême",
+      "high": "Haute",
+      "low": "Basse",
+      "medium": "Moyenne"
+    },
+    "intensityExtreme": "Extreme",
+    "intensityHigh": "High",
+    "intensityLow": "Low",
+    "intensityMedium": "Medium",
+    "investBalance": "Your balance: €{balance}",
+    "investCost": "Cost: €{cost}",
+    "investNo": "No, thanks",
+    "investQuestion": "Would you like to invest in intensive preparation?",
+    "investTitle": "Performance Investment",
+    "investYes": "Invest",
+    "mental": "Mental",
+    "noTrainer": "No Trainer",
+    "noTrainerDesc": "Train alone without assistance",
+    "physical": "Physical",
+    "primaryFocus": "Focus Principal",
+    "recovery": "Récupération",
+    "result": {
+      "excellent": "Excellent entraînement ! Résultats impressionnants.",
+      "exceptional": "Entraînement exceptionnel ! Vous avez dépassé toutes les attentes.",
+      "good": "Bon entraînement ! Progrès solides.",
+      "moderate": "Entraînement correct. Résultats modérés.",
+      "poor": "Entraînement difficile. Résultats en dessous des attentes."
+    },
+    "resultExcellent": "Vous avez l'impression de voler sur le terrain. L'investissement en valait chaque centime.",
+    "resultGood": "La préparation porte ses fruits. Vous vous sentez plus affûté.",
+    "resultNeutral": "La préparation s'est déroulée comme prévu. Vous maintenez votre rythme.",
+    "resultPoor": "Vous vous sentez lourd et hors de rythme. Tout investissement ne garantit pas de retour.",
+    "saveConfig": "Enregistrer la Configuration",
+    "secondaryFocus": "Focus Secondaire",
+    "selectIntensity": "Intensity",
+    "selectTrainer": "Personal Trainer",
+    "selectType": "Training Type",
+    "skip": "Skip",
+    "slots": "emplacements",
+    "start": "Train",
+    "tab": {
+      "info": "Info",
+      "trainer": "Trainer",
+      "training": "Training"
+    },
+    "tactical": "Tactical",
+    "technical": "Technical",
+    "title": "Training Center",
+    "totalEffectiveness": "Total Effectiveness",
+    "trainer": {
+      "basic": "Entraîneur de Base",
+      "elite": "Entraîneur d'Élite",
+      "premium": "Entraîneur Premium",
+      "standard": "Entraîneur Standard",
+      "worldClass": "Entraîneur de Classe Mondiale"
+    },
+    "types": {
+      "activeRest": "Repos Actif",
+      "activeRestDesc": "Séance légère de récupération",
+      "aerialDefense": "Défense Aérienne",
+      "aerialDefenseDesc": "Têtes et ballons hauts",
+      "agility": "Agilité",
+      "agilityDesc": "Changements de direction rapides et jeu de pieds",
+      "balanced": "Équilibré",
+      "balancedDesc": "Développement équilibré global",
+      "boxToBox": "Box to Box",
+      "boxToBoxDesc": "Entraînement de milieu complet",
+      "clubTraining": "Entraînement de Club",
+      "clubTrainingDesc": "S'entraîner avec l'effectif du club. Gratuit, efficacité basée sur l'infrastructure",
+      "counterAttack": "Contre-Attaque",
+      "counterAttackDesc": "Jeu de transition rapide",
+      "covering": "Couverture",
+      "coveringDesc": "Conscience défensive et placement",
+      "crossing": "Centres",
+      "crossingDesc": "Pratique de centres depuis les ailes",
+      "defensiveMid": "Milieu Défensif",
+      "defensiveMidDesc": "Protection et récupération de balle",
+      "endurance": "Endurance",
+      "enduranceDesc": "Conditionnement physique et cardio",
+      "explosiveness": "Explosivité",
+      "explosivenessDesc": "Entraînement de puissance et démarrage rapide",
+      "firstTouch": "Première Touche",
+      "firstTouchDesc": "Contrôle et réception du ballon",
+      "flexibility": "Souplesse",
+      "flexibilityDesc": "Étirements et travail de mobilité",
+      "fullback": "Latéral",
+      "fullbackDesc": "Soutien offensif et devoirs défensifs",
+      "gkCrosses": "Centres (GB)",
+      "gkCrossesDesc": "Sorties et centres",
+      "gkDistribution": "Relances (GB)",
+      "gkDistributionDesc": "Contrôle du ballon et passes",
+      "gkDiving": "Plongeons (GB)",
+      "gkDivingDesc": "Arrêts et plongeons",
+      "gkMentality": "Mental (GB)",
+      "gkMentalityDesc": "Concentration et focus",
+      "gkOneOnOne": "1c1 (GB)",
+      "gkOneOnOneDesc": "Situations face à face",
+      "gkPositioning": "Placement (GB)",
+      "gkPositioningDesc": "Positionnement et anticipation",
+      "gkReflexes": "Réflexes (GB)",
+      "gkReflexesDesc": "Arrêts réflexes rapides",
+      "gym": "Musculation",
+      "gymDesc": "Entraînement de force et poids",
+      "heading": "Jeu de Tête",
+      "headingDesc": "Entraînement aérien",
+      "longshots": "Tirs de Loin",
+      "longshotsDesc": "Technique de tirs à distance",
+      "marking": "Marquage",
+      "markingDesc": "Marquage défensif et couverture",
+      "physical": "Physique",
+      "physicalDesc": "Vitesse, force et endurance",
+      "playmaker": "Meneur de Jeu",
+      "playmakerDesc": "Vision créative et passes",
+      "playmaking": "Meneur de Jeu",
+      "playmakingDesc": "Passes, vision de jeu et création d'occasions",
+      "poacher": "Renard des Surfaces",
+      "poacherDesc": "Présence dans la surface et finition",
+      "position": "Poste",
+      "positionDesc": "Entraînement pour changer de poste",
+      "positioning": "Placement",
+      "positioningDesc": "Mouvements et appels offensifs",
+      "pressing": "Pressing",
+      "pressingDesc": "Travail défensif haute intensité",
+      "scrimmage": "Match d'Entraînement",
+      "scrimmageDesc": "Pratique de match avec focus sur passes et dribbles",
+      "setpieces": "Coups de Pied Arrêtés",
+      "setpiecesDesc": "Coups francs et corners",
+      "shooting": "Tir",
+      "shootingDesc": "Concentration sur la finition, le placement et la précision",
+      "skillMoves": "Gestes Techniques",
+      "skillMovesDesc": "Dribbles avancés et feintes",
+      "sprints": "Sprints",
+      "sprintsDesc": "Travail de vitesse haute intensité",
+      "tackles": "Tacles",
+      "tacklesDesc": "Techniques de récupération de balle",
+      "tactical": "Tactique",
+      "tacticalDesc": "Placement défensif et lecture du jeu",
+      "targetMan": "Pivot",
+      "targetManDesc": "Jeu dos au but et menace aérienne",
+      "technique": "Technique",
+      "techniqueDesc": "Dribble, contrôle de balle et agilité",
+      "weakFoot": "Pied Faible",
+      "weakFootDesc": "Développement du pied non-dominant",
+      "winger": "Ailier",
+      "wingerDesc": "Jeu sur les ailes et centres"
+    },
+    "weeklyPlan": "Plan Hebdomadaire"
+  },
+  "trait": {
+    "Acrobatic Finisher": {
+      "description": "Marque des buts sur des volées et des retournés acrobatiques.",
+      "name": "Finisseur Acrobatique"
+    },
+    "Aerial Threat": {
+      "description": "Très dangereux sur les coups de pied arrêtés offensifs.",
+      "name": "Menace Aérienne"
+    },
+    "Argues With Officials": {
+      "description": "Conteste fréquemment les décisions de l'arbitre.",
+      "name": "Conteste les Arbitres"
+    },
+    "Avoids Using Weaker Foot": {
+      "description": "Évite d'utiliser son pied le plus faible.",
+      "name": "Évite son Pied Faible"
+    },
+    "Ball Carrier": {
+      "description": "Porte le ballon vers l'avant efficacement.",
+      "name": "Porteur de Balle"
+    },
+    "Big Game Player": {
+      "description": "Performe mieux dans les matchs importants.",
+      "name": "Joueur de Grands Matchs"
+    },
+    "Captain Material": {
+      "description": "Leader naturel sur le terrain.",
+      "name": "L'Âme d'un Capitaine"
+    },
+    "Cautious With Crosses": {
+      "description": "Hésite à sortir sur les centres.",
+      "name": "Prudent sur les Centres"
+    },
+    "Chip Shot": {
+      "description": "Capacité à lober le gardien avec des touches subtiles.",
+      "name": "Pichenette"
+    },
+    "Comes For Crosses": {
+      "description": "Domine la zone aérienne lors des centres.",
+      "name": "Sort sur les Centres"
+    },
+    "Dives Into Tackles": {
+      "description": "S'engage à fond dans les duels.",
+      "name": "Agressif au Duel"
+    },
+    "Driven": {
+      "description": "Volonté inébranlable de gagner.",
+      "name": "Déterminé"
+    },
+    "Early Adopter": {
+      "description": "Apprend rapidement de nouvelles tactiques.",
+      "name": "Adaptable"
+    },
+    "Fan Favorite": {
+      "description": "Adoré par les supporters.",
+      "name": "Chouchou des Supporters"
+    },
+    "Finesse Shot": {
+      "description": "Spécialiste des tirs précis et enroulés.",
+      "name": "Tir Placé"
+    },
+    "GK Flat Kick": {
+      "description": "Dégagements bas et rapides.",
+      "name": "Relance Tendue"
+    },
+    "GK Long Throw": {
+      "description": "Lance des contre-attaques avec de longs lancers à la main.",
+      "name": "Relance Longue"
+    },
+    "Giant Throw-In": {
+      "description": "Exécute les touches comme des corners.",
+      "name": "Longue Touche"
+    },
+    "Inflexible": {
+      "description": "Difficulté à jouer hors de son poste ou dans des tactiques différentes.",
+      "name": "Inflexible"
+    },
+    "Injury Concern": {
+      "description": "Sujet à des blessures fréquentes (préoccupant).",
+      "name": "Fragile"
+    },
+    "Injury Prone": {
+      "description": "Risque plus élevé de blessures.",
+      "name": "Sujet aux Blessures"
+    },
+    "Iron Man": {
+      "description": "Se blesse rarement.",
+      "name": "Inusable"
+    },
+    "Late Bloomer": {
+      "description": "Atteint son potentiel plus tard dans sa carrière.",
+      "name": "Explosion Tardive"
+    },
+    "Left-Footed Maestro": {
+      "description": "Compétence exceptionnelle avec le pied gauche.",
+      "name": "Maestro Gaucher"
+    },
+    "Long Shot Taker": {
+      "description": "Aime prendre sa chance en dehors de la surface.",
+      "name": "Tireur de Loin"
+    },
+    "Media Darling": {
+      "description": "Attire une couverture médiatique positive.",
+      "name": "Chouchou des Médias"
+    },
+    "One-Club Man": {
+      "description": "Loyal au club, bonus d'alchimie.",
+      "name": "Homme d'Un Seul Club"
+    },
+    "One-on-One Rush": {
+      "description": "Rapide pour fermer l'espace dans les situations de face-à-face.",
+      "name": "Ferme l'Angle"
+    },
+    "One-on-One Specialist": {
+      "description": "Létal lors des face-à-face avec le gardien.",
+      "name": "Spécialiste du Duel"
+    },
+    "Outside Foot Shot": {
+      "description": "Utilise l'extérieur du pied pour les tirs et les passes brossées.",
+      "name": "Extérieur du Pied"
+    },
+    "Pinpoint Crossing": {
+      "description": "Centres précis pour les attaquants.",
+      "name": "Centre Précis"
+    },
+    "Play Simple": {
+      "description": "Évite les risques inutiles.",
+      "name": "Joue Simple"
+    },
+    "Power House": {
+      "description": "Force physique impressionnante.",
+      "name": "Force de la Nature"
+    },
+    "Power Shot": {
+      "description": "Tirs d'une puissance dévastatrice.",
+      "name": "Tir Puissant"
+    },
+    "Punches Fists": {
+      "description": "Préfère dégager le ballon avec les poings.",
+      "name": "Boxe le Ballon"
+    },
+    "Right-Footed Sniper": {
+      "description": "Précision létale avec le pied droit.",
+      "name": "Tireur d'Élite Droitier"
+    },
+    "Rushes Out Of Goal": {
+      "description": "Gardien qui sort rapidement pour fermer les angles.",
+      "name": "Sort du But"
+    },
+    "Selfish": {
+      "description": "Ignore souvent ses coéquipiers mieux placés.",
+      "name": "Égoïste"
+    },
+    "Slide Tackle": {
+      "description": "Précis dans les tacles glissés.",
+      "name": "Tacle Glissé"
+    },
+    "Speed Dribbler": {
+      "description": "Conduit le ballon à grande vitesse sans perdre le contrôle.",
+      "name": "Dribbleur Rapide"
+    },
+    "Speed Merchant": {
+      "description": "Vitesse pure pour laisser les défenseurs sur place.",
+      "name": "Sprinteur"
+    },
+    "Tackles Back": {
+      "description": "Attaquant qui aide à récupérer le ballon.",
+      "name": "Revient Défendre"
+    },
+    "Team Player": {
+      "description": "Met l'équipe avant lui-même.",
+      "name": "Joueur d'Équipe"
+    },
+    "Technical Dribbler": {
+      "description": "Dribbles courts et précis dans les espaces réduits.",
+      "name": "Dribbleur Technique"
+    },
+    "Through Ball": {
+      "description": "Vision pour les passes qui transperce la défense.",
+      "name": "Passe en Profondeur"
+    },
+    "Trickster": {
+      "description": "Utilise des feintes et des ruses pour tromper les défenseurs.",
+      "name": "Virtuose"
+    },
+    "Weak Foot": {
+      "description": "Compétence avec le pied non-préférentiel.",
+      "name": "Pied Faible"
+    },
+    "Wonderkid": {
+      "description": "Développement rapide dès le plus jeune âge.",
+      "name": "Prodige"
+    },
+    "acrobaticFinisher": {
+      "description": "Marque des buts en volée et retournés.",
+      "name": "Finisseur Acrobatique"
+    },
+    "aerialDominance": {
+      "description": "Gagne presque tous les duels aériens.",
+      "name": "Domination Aérienne"
+    },
+    "aerialThreat": {
+      "description": "Très dangereux sur coups de pied arrêtés offensifs.",
+      "name": "Danger Aérien"
+    },
+    "arguesWithOfficials": {
+      "description": "Conteste fréquemment les décisions arbitrales.",
+      "name": "Conteste les Arbitres"
+    },
+    "avoidsUsingWeakerFoot": {
+      "description": "Évite d'utiliser le mauvais pied.",
+      "name": "Évite le Pied Faible"
+    },
+    "ballCarrier": {
+      "description": "Porte le ballon vers l'avant efficacement.",
+      "name": "Porteur de Balle"
+    },
+    "ballPlayingDefender": {
+      "description": "À l'aise avec le ballon et construit depuis l'arrière.",
+      "name": "Défenseur Relanceur"
+    },
+    "ballWinner": {
+      "description": "Agressif et efficace pour récupérer le ballon.",
+      "name": "Récupérateur"
+    },
+    "bigGamePlayer": {
+      "description": "Performe dans les matchs décisifs.",
+      "name": "Joueur de Grands Matchs"
+    },
+    "boxToBox": {
+      "description": "Couvre le terrain et contribue aux deux bouts.",
+      "name": "Box-to-Box"
+    },
+    "cautiousWithCrosses": {
+      "description": "Hésite à sortir sur les centres.",
+      "name": "Hésitant sur les Sorties"
+    },
+    "chipShot": {
+      "description": "Capacité à lober le gardien avec des touches subtiles.",
+      "name": "Pichenette"
+    },
+    "clinicalFinisher": {
+      "description": "Excellente finition devant le but.",
+      "name": "Finisseur Clinique"
+    },
+    "comesForCrosses": {
+      "description": "Domine la zone aérienne.",
+      "name": "Sort sur les Centres"
+    },
+    "commandOfArea": {
+      "description": "Domine la surface de réparation.",
+      "name": "Maîtrise de la Surface"
+    },
+    "composure": {
+      "description": "Calme sous pression.",
+      "name": "Sang-froid"
+    },
+    "consistency": {
+      "description": "Offre des performances fiables semaine après semaine.",
+      "name": "Régularité"
+    },
+    "crossingSpecialist": {
+      "description": "Délivre des centres de qualité depuis les côtés.",
+      "name": "Spécialiste des Centres"
+    },
+    "deepLyingPlaymaker": {
+      "description": "Orchestre le jeu depuis l'arrière.",
+      "name": "Meneur Reculé"
+    },
+    "discipline": {
+      "description": "Commet rarement des fautes inutiles ou reçoit des cartons.",
+      "name": "Discipline"
+    },
+    "divesIntoTackles": {
+      "description": "Va à fond dans les duels.",
+      "name": "Agressif au Duel"
+    },
+    "dribblingWizard": {
+      "description": "Excellent contrôle de balle et dribble.",
+      "name": "Magicien du Dribble"
+    },
+    "driven": {
+      "description": "Volonté inébranlable de gagner.",
+      "name": "Déterminé"
+    },
+    "earlyAdopter": {
+      "description": "Apprend rapidement de nouvelles tactiques.",
+      "name": "Adaptable"
+    },
+    "engine": {
+      "description": "Travail infatigable pendant 90 minutes.",
+      "name": "Moteur"
+    },
+    "finesse": {
+      "description": "Joueur élégant et technique qui s'appuie sur le talent plutôt que la physique.",
+      "name": "Finesse"
+    },
+    "finesseShot": {
+      "description": "Spécialiste des tirs précis et enroulés.",
+      "name": "Tir Placé"
+    },
+    "flair": {
+      "description": "Capable de gestes inattendus.",
+      "name": "Créativité"
+    },
+    "flairPlayer": {
+      "description": "Imprévisible et créatif avec le ballon.",
+      "name": "Joueur de Flair"
+    },
+    "giantThrowIn": {
+      "description": "Exécute les touches comme des corners.",
+      "name": "Longue Touche"
+    },
+    "gkFlatKick": {
+      "description": "Relance rapide et rasante.",
+      "name": "Dégagement Tendu"
+    },
+    "gkLongThrow": {
+      "description": "Lance des contre-attaques à la main.",
+      "name": "Relance Longue"
+    },
+    "inflexible": {
+      "description": "Difficulté à jouer hors position ou tactique.",
+      "name": "Inflexible"
+    },
+    "injuryConcern": {
+      "description": "Sujet aux blessures fréquentes.",
+      "name": "Fragile"
+    },
+    "injuryProne": {
+      "description": "Se blesse fréquemment.",
+      "name": "Sujet aux Blessures"
+    },
+    "interceptor": {
+      "description": "Lit le jeu et intercepte les passes.",
+      "name": "Intercepteur"
+    },
+    "lastMan": {
+      "description": "Dernière ligne de défense fiable.",
+      "name": "Dernier Rempart"
+    },
+    "leadership": {
+      "description": "Leader naturel sur et hors du terrain.",
+      "name": "Leadership"
+    },
+    "leftFootedMaestro": {
+      "description": "Compétence exceptionnelle du pied gauche.",
+      "name": "Maestro Gaucher"
+    },
+    "longPasser": {
+      "description": "Maîtrise les passes longues précises.",
+      "name": "Passeur Long"
+    },
+    "longShotTaker": {
+      "description": "Aime tenter sa chance de loin.",
+      "name": "Tireur de Loin"
+    },
+    "longShots": {
+      "description": "Marque de loin avec bonne précision.",
+      "name": "Tirs de Loin"
+    },
+    "longThrow": {
+      "description": "Peut lancer le ballon loin sur le terrain avec des remises en jeu puissantes.",
+      "name": "Longue Touche"
+    },
+    "marking": {
+      "description": "Reste proche des adversaires et neutralise leur menace offensive.",
+      "name": "Marquage"
+    },
+    "naturalFitness": {
+      "description": "Rarement fatigué ou blessé.",
+      "name": "Condition Naturelle"
+    },
+    "negative": "Négatif",
+    "noNonsenseDefender": {
+      "description": "Physique et direct en défense.",
+      "name": "Défenseur Solide"
+    },
+    "oneClubMan": {
+      "description": "Carrière dédiée à un seul club.",
+      "name": "Homme d'Un Club"
+    },
+    "oneOnOneRush": {
+      "description": "Rapide pour fermer l'espace en face-à-face.",
+      "name": "Ferme l'Attaquant"
+    },
+    "oneOnOneSpecialist": {
+      "description": "Létal en un contre un avec le gardien.",
+      "name": "Spécialiste du Face-à-Face"
+    },
+    "outsideFootShot": {
+      "description": "Utilise l'extérieur du pied pour les tirs et passes avec effet.",
+      "name": "Tir Extérieur"
+    },
+    "penaltySaver": {
+      "description": "Fort pour arrêter les penalties.",
+      "name": "Arrêteur de Penalties"
+    },
+    "pinpointCrossing": {
+      "description": "Centres précis pour les attaquants.",
+      "name": "Centre Précis"
+    },
+    "playSimple": {
+      "description": "Évite les risques inutiles.",
+      "name": "Joue Simple"
+    },
+    "playmaker": {
+      "description": "Excellente vision et gamme de passes.",
+      "name": "Meneur de Jeu"
+    },
+    "poacher": {
+      "description": "Excellent placement dans la surface.",
+      "name": "Renard des Surfaces"
+    },
+    "positioning": {
+      "description": "Toujours au bon endroit au bon moment.",
+      "name": "Placement"
+    },
+    "powerHeader": {
+      "description": "Excellente capacité dans les duels aériens.",
+      "name": "Tête Puissante"
+    },
+    "powerHouse": {
+      "description": "Force physique impressionnante.",
+      "name": "Force de la Nature"
+    },
+    "powerShot": {
+      "description": "Tirs d'une puissance dévastatrice.",
+      "name": "Tir Puissant"
+    },
+    "punchesFists": {
+      "description": "Préfère dégager le ballon avec les poings.",
+      "name": "Boxe le Ballon"
+    },
+    "rightFootedSniper": {
+      "description": "Précision létale du pied droit.",
+      "name": "Tireur d'Élite Droitier"
+    },
+    "rushesOutOfGoal": {
+      "description": "Gardien qui sort pour fermer l'angle.",
+      "name": "Sort du But"
+    },
+    "secondWind": {
+      "description": "Maintient son énergie en fin de match.",
+      "name": "Second Souffle"
+    },
+    "selfish": {
+      "description": "Ignore souvent les coéquipiers mieux placés.",
+      "name": "Égoïste"
+    },
+    "setPieceSpecialist": {
+      "description": "Dangereux sur coups francs et corners.",
+      "name": "Spécialiste Coups Francs"
+    },
+    "shotStopper": {
+      "description": "Spécialiste des réflexes entre les poteaux.",
+      "name": "Arrêteur de Tirs"
+    },
+    "slideTackle": {
+      "description": "Précis dans les tacles glissés.",
+      "name": "Tacle Glissé"
+    },
+    "solidPlayer": {
+      "description": "Performeur fiable et régulier semaine après semaine.",
+      "name": "Joueur Solide"
+    },
+    "speedDribbler": {
+      "description": "Conduit le ballon à grande vitesse sans perdre le contrôle.",
+      "name": "Dribble Rapide"
+    },
+    "speedMerchant": {
+      "description": "Vitesse pure pour laisser les défenseurs sur place.",
+      "name": "Sprinteur"
+    },
+    "strength": {
+      "description": "La puissance physique aide à gagner les duels et à repousser les adversaires.",
+      "name": "Force"
+    },
+    "sweeperKeeper": {
+      "description": "Gardien moderne à l'aise hors de sa surface.",
+      "name": "Gardien-Libéro"
+    },
+    "tacklesBack": {
+      "description": "Attaquant qui aide à récupérer le ballon.",
+      "name": "Revient Défendre"
+    },
+    "targetMan": {
+      "description": "Excellent jeu dos au but et présence aérienne.",
+      "name": "Pivot"
+    },
+    "teamPlayer": {
+      "description": "Met l'équipe avant lui-même.",
+      "name": "Joueur d'Équipe"
+    },
+    "teamwork": {
+      "description": "Excellent à combiner avec les coéquipiers.",
+      "name": "Travail d'Équipe"
+    },
+    "technicalDribbler": {
+      "description": "Dribbles courts et précis dans les espaces réduits.",
+      "name": "Dribble Technique"
+    },
+    "throughBall": {
+      "description": "Vision pour les passes qui transpercent la défense.",
+      "name": "Passe en Profondeur"
+    },
+    "tirelessRunner": {
+      "description": "Ne s'arrête jamais de courir.",
+      "name": "Coureur Infatigable"
+    },
+    "trickster": {
+      "description": "Utilise feintes et ruses pour tromper les défenseurs.",
+      "name": "Virtuose"
+    },
+    "twoFooted": {
+      "description": "Aussi fort des deux pieds.",
+      "name": "Ambidextre"
+    },
+    "versatile": {
+      "description": "Peut jouer à plusieurs postes.",
+      "name": "Polyvalent"
+    },
+    "vision": {
+      "description": "Capacité exceptionnelle à voir les passes.",
+      "name": "Vision"
+    },
+    "weakFoot": {
+      "description": "Compétence avec le pied non préféré.",
+      "name": "Pied Faible"
+    }
+  },
+  "traitStyles": {
+    "aerialDominance": "Gagne presque tous les duels aériens.",
+    "ballPlayingDefender": "À l'aise avec le ballon et construit depuis l'arrière.",
+    "ballWinner": "Agressif et efficace pour récupérer le ballon.",
+    "bigGamePlayer": "Performe dans les matchs cruciaux",
+    "boxToBox": "Couvre le terrain et contribue aux deux bouts.",
+    "clinicalFinisher": "Excellente finition devant le but",
+    "commandOfArea": "Domine la surface de réparation.",
+    "composure": "Calme sous pression",
+    "crossingSpecialist": "Délivre des centres de qualité depuis les côtés.",
+    "decentLevel": "correct",
+    "deepLyingPlaymaker": "Orchestre le jeu depuis l'arrière.",
+    "dribblingWizard": "Excellent contrôle de balle et dribble.",
+    "engine": "Travail infatigable pendant 90 minutes.",
+    "everPresent": "Performeur fiable, semaine après semaine",
+    "excellentLevel": "excellent",
+    "exceptionalLevel": "exceptionnel",
+    "flairPlayer": "Imprévisible et créatif avec le ballon.",
+    "goodLevel": "bon",
+    "injuryProne": "Sujet à des problèmes physiques fréquents",
+    "interceptor": "Lit le jeu et intercepte les passes.",
+    "lastMan": "Dernière ligne de défense fiable.",
+    "leadership": "Leader naturel sur et hors du terrain",
+    "leftFootedMaestro": "Technique et contrôle affinés du pied gauche",
+    "longShots": "Marque de loin avec bonne précision.",
+    "naturalFitness": "Rarement fatigué ou blessé",
+    "noNonsenseDefender": "Physique et direct en défense.",
+    "penaltySaver": "Fort pour arrêter les penalties.",
+    "playmaker": "Excellente vision et gamme de passes",
+    "poacher": "Excellent placement dans la surface",
+    "powerHeader": "Excellente capacité dans les duels aériens",
+    "quietProfessional": "Prend rarement des cartons",
+    "rightFootedSniper": "Finition létale et précision du pied droit",
+    "secondWind": "Maintient son énergie en fin de match.",
+    "setpieceSpecialist": "Dangereux sur coups francs et corners",
+    "shotStopper": "Spécialiste des réflexes sur sa ligne",
+    "speedMerchant": "Vitesse électrique avec et sans ballon",
+    "sweeperKeeper": "Gardien moderne à l'aise hors de sa surface.",
+    "targetMan": "Excellent jeu dos au but et présence aérienne.",
+    "tirelessRunner": "Ne s'arrête jamais de courir.",
+    "twoFooted": "Aussi à l'aise des deux pieds",
+    "versatile": "Peut jouer à plusieurs postes",
+    "vision": "Capacité exceptionnelle à voir les passes."
+  },
+  "traits": {
+    "Ambitions_desc": "Vise toujours le sommet",
+    "Argues With Officials": "Conteste les Arbitres",
+    "Argues With Officials_desc": "Conteste fréquemment les décisions",
+    "Big Game Player": "Joueur de Grands Matchs",
+    "Big Game Player_desc": "Se surpasse lors des matchs importants",
+    "Clinical Finisher": "Finisseur Clinique",
+    "Clinical Finisher_desc": "Capacité de finition exceptionnelle",
+    "Composure": "Sang-froid",
+    "Composure_desc": "Reste calme sous pression",
+    "Consistency": "Régularité",
+    "Consistency_desc": "Maintient un haut niveau de performance",
+    "Dirty Player": "Joueur Rugueux",
+    "Dirty Player_desc": "Sujet à commettre des fautes",
+    "Dribbling Wizard": "Magicien du Dribble",
+    "Dribbling Wizard_desc": "Maîtrise magistrale du ballon et du dribble",
+    "Driven": "Déterminé",
+    "Driven_desc": "Volonté inébranlable de gagner",
+    "Early Adopter": "Adaptable",
+    "Early Adopter_desc": "S'adapte rapidement aux nouvelles tactiques",
+    "Engine": "Moteur",
+    "Engine_desc": "Infatigable sur le terrain, couvre tout le terrain",
+    "Flair": "Flair",
+    "Flair_desc": "Capable de gestes inattendus",
+    "Free Kick Specialist": "Spécialiste Coups Francs",
+    "Free Kick Specialist_desc": "Excellent tireur de coups francs",
+    "Hard Working": "Travailleur",
+    "Hard Working_desc": "Donne toujours 100% sur le terrain",
+    "Header Expert": "Expert de la Tête",
+    "Header Expert_desc": "Domination dans les airs",
+    "Hot Head": "Tête Brûlée",
+    "Hot Head_desc": "Perd facilement son sang-froid",
+    "Injury Prone": "Sujet aux Blessures",
+    "Injury Prone_desc": "Se blesse fréquemment",
+    "Leader": "Leader",
+    "Leader_desc": "Inspire et motive ses coéquipiers",
+    "Leadership": "Leadership",
+    "Leadership_desc": "Leader naturel sur le terrain",
+    "Left-Footed Maestro": "Maestro Gaucher",
+    "Left-Footed Maestro_desc": "Technique affinée du pied gauche",
+    "Long Shot Taker": "Tireur de Loin",
+    "Long Shot Taker_desc": "Dangereux en dehors de la surface",
+    "Long Throw": "Longue Touche",
+    "Long Throw_desc": "Touches longues comme des coups de pied arrêtés",
+    "Loyal": "Fidèle",
+    "Loyal_desc": "Fidèle au club",
+    "Media Darling": "Chouchou des Médias",
+    "Media Darling_desc": "Bonne relation avec la presse",
+    "Media Shy": "Réserve Médiatique",
+    "Media Shy_desc": "Évite les projecteurs et les interviews",
+    "Mercenary": "Mercenaire",
+    "Mercenary_desc": "Donne la priorité à l'argent",
+    "Natural Fitness": "Condition Naturelle",
+    "Natural Fitness_desc": "Se fatigue rarement et récupère rapidement",
+    "One Club Player": "Fidèle à son Club",
+    "One Club Player_desc": "Loyauté extrême envers le club",
+    "One-Club Man": "L'Homme d'un Seul Club",
+    "One-Club Man_desc": "A dédié toute sa carrière au même club",
+    "Penalty Expert": "Expert des Penalties",
+    "Penalty Expert_desc": "Tireur de penalties très fiable",
+    "Playmaker": "Meneur de Jeu",
+    "Playmaker_desc": "Vision et passes exceptionnelles",
+    "Poacher": "Renard des Surfaces",
+    "Poacher_desc": "Toujours au bon endroit pour conclure",
+    "Power Header": "Tête Puissante",
+    "Power Header_desc": "Fort dans les duels aériens offensifs",
+    "Professional": "Professionnel",
+    "Professional_desc": "Modèle de conduite",
+    "Right-Footed Sniper": "Tireur d'Élite Droitier",
+    "Right-Footed Sniper_desc": "Finition létale du pied droit",
+    "Set Piece Specialist": "Spécialiste du Coup de Pied Arrêté",
+    "Set Piece Specialist_desc": "Excellent sur corners, coups francs et penalties",
+    "Set-piece Specialist": "Spécialiste Coup Franc",
+    "Set-piece Specialist_desc": "Excellent sur coups francs et corners",
+    "Showboat": "Frimeur",
+    "Showboat_desc": "Aime faire des gestes techniques spectaculaires",
+    "Speed Demon": "Démon de la Vitesse",
+    "Speed Demon_desc": "Extrêmement rapide dans les sprints",
+    "Speed Merchant": "Balle de Fusil",
+    "Speed Merchant_desc": "Vitesse et accélération incroyables",
+    "Stamina Beast": "Monstre d'Endurance",
+    "Stamina Beast_desc": "Ne se fatigue jamais pendant le match",
+    "Strong Tackler": "Tacleur Robuste",
+    "Strong Tackler_desc": "Excellent dans les tacles et les récupérations",
+    "Sweeper Keeper": "Gardien-Libéro",
+    "Sweeper Keeper_desc": "Gardien de but qui agit comme dernier défenseur",
+    "Team Player": "Joueur d'Équipe",
+    "Team Player_desc": "Met l'équipe avant lui-même",
+    "Technical": "Technique",
+    "Technical_desc": "Capacité technique affinée",
+    "Temperamental": "Tempéramental",
+    "Temperamental_desc": "Peut facilement perdre son sang-froid",
+    "Two-Footed": "Ambidextre",
+    "Two-Footed_desc": "Aussi fort des deux pieds",
+    "Versatile": "Polyvalent",
+    "Versatile_desc": "Peut jouer à plusieurs postes",
+    "Vocal Leader": "Leader Vocal",
+    "Vocal Leader_desc": "Communique et organise l'équipe sur le terrain",
+    "aerialDominance": "Domination Aérienne",
+    "ballPlayingDefender": "Défenseur Relanceur",
+    "ballWinner": "Récupérateur",
+    "bigGamePlayer": "Joueur des Grands Matchs",
+    "boxToBox": "Box-to-Box",
+    "clinicalFinisher": "Finisseur Clinique",
+    "commandOfArea": "Maîtrise de la Surface",
+    "composure": "Sang-froid",
+    "crossingSpecialist": "Spécialiste des Centres",
+    "decentLevel": "correct",
+    "deepLyingPlaymaker": "Meneur Reculé",
+    "dribblingWizard": "Magicien du Dribble",
+    "engine": "Moteur",
+    "everPresent": "Performeur fiable, semaine après semaine",
+    "excellentLevel": "excellent",
+    "exceptionalLevel": "exceptionnel",
+    "flairPlayer": "Joueur de Flair",
+    "goodLevel": "bon",
+    "interceptor": "Intercepteur",
+    "lastMan": "Dernier Rempart",
+    "leadership": "Leadership",
+    "longShots": "Tirs de Loin",
+    "naturalFitness": "Forme Naturelle",
+    "noNonsenseDefender": "Défenseur Solide",
+    "penaltySaver": "Arrêteur de Penalties",
+    "playmaker": "Meneur de Jeu",
+    "poacher": "Renard des Surfaces",
+    "powerHeader": "Puissante Tête",
+    "quietProfessional": "Prend rarement des cartons",
+    "secondWind": "Second Souffle",
+    "setpieceSpecialist": "Dangereux sur coups francs et corners",
+    "shotStopper": "Sur sa Ligne",
+    "speedMerchant": "Sprinteur",
+    "sweeperKeeper": "Gardien-Libéro",
+    "targetMan": "Pivot",
+    "tirelessRunner": "Coureur Infatigable",
+    "versatile": "Polyvalence",
+    "vision": "Vision"
+  },
+  "trophy": {
+    "afcChampionsLeague": "Coupe des Champions d'Asie",
+    "afcCup": "Coupe d'Asie des Clubs",
+    "americansDerby": "Classique des Amériques",
+    "americasDerby": "Classique des Amériques",
+    "cafChampionsLeague": "Coupe des Champions d'Afrique",
+    "cafConfederationCup": "Coupe de la Confédération d'Afrique",
+    "challengerCup": "Duel des Continents",
+    "championsLeague": "Coupe des Champions d'Europe",
+    "clubWorldCup": "Tournoi Mondial des Clubs",
+    "concacafChampionsCup": "Coupe des Champions d'Amérique du Nord",
+    "conferenceLeague": "Coupe Européenne d'Accès",
+    "copaSudamericana": "Coupe Sud-Américaine des Clubs",
+    "cup": "Coupe",
+    "europaLeague": "Coupe Européenne des Clubs",
+    "intercontinentalCup": "Coupe Intercontinentale",
+    "league": "Championnat",
+    "libertadores": "Coupe Sud-Américaine des Champions",
+    "nationsLeague": "Ligue des Nations",
+    "orientalCup": "Coupe de l'Orient",
+    "orientalPlayoff": "Barrage de l'Orient",
+    "recopaSudamericana": "Supercoupe Sud-Américaine",
+    "supercup": "Supercoupe",
+    "worldCup": "Tournoi Mondial"
+  },
+  "injury": {
+    "oneMonth": "1 Mois",
+    "longTerm": "Long Terme",
+    "seasonEnding": "Fin de Saison",
+    "days": "{count} Jours",
+    "months": "{count} Mois"
+  }
+}

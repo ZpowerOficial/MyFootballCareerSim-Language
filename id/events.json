@@ -1,0 +1,1465 @@
+{
+  "wcQualification": {
+    "description": "Tim nasional Anda bersaing untuk Turnamen Dunia",
+    "title": "Kualifikasi Turnamen Dunia"
+  },
+  "goals": {
+    "achieved": "🎯 Goal Achieved: {narrative}",
+    "newGoal": "ðŸŽ¯ New Goal Unlocked: {goal}",
+    "completed": "Selesai"
+  },
+  "agent": {
+    "contractExpired": "Your agent contract expired. You signed with {name} ({reputation}).",
+    "contractExtended": "Excellent relationship with your agent {name}! Contract extended with reduced commission.",
+    "promoted": "Your agent {name} has been promoted to {reputation} status!"
+  },
+  "eventNotifications": {
+    "transferRequest": "Permintaan Transfer Diajukan",
+    "trainingIntense": "Intensitas Latihan Ditingkatkan",
+    "trainingLight": "Intensitas Latihan Dikurangi"
+  },
+  "status": {
+    "managerConflict": "Konflik dengan Manajer",
+    "teammateConflict": "Konflik dengan Rekan Tim"
+  },
+  "events": {
+    "agentMeeting": {
+      "choice_contract": "Diskusikan peningkatan kontrak",
+      "choice_explore": "Jelajahi opsi lain",
+      "choice_focus": "Fokus pada klub saat ini",
+      "description": "Agen Anda ingin mendiskusikan masa depan Anda. Mungkin ada minat dari klub lain.",
+      "title": "Pertemuan Agen"
+    },
+    "award": {
+      "ballonDor": "Trofi Emas",
+      "ballonDorNomination": "Nominasi - Pemain Dunia",
+      "ballonDorRunnerUp": "3 Besar - Pemain Dunia",
+      "comeback": "Pemain Comeback",
+      "comebackPlayerOfYear": "Pemain Comeback",
+      "continentalCompTopScorer": "Sepatu Emas Kontinental",
+      "continentalCompetitionTopScorer": "Sepatu Emas Kontinental",
+      "continentalCupPOTY": "MVP Piala Kontinental",
+      "continentalPOTY": "Pemain Terbaik Kontinental Tahun Ini",
+      "continentalPlayer": "Pemain Kontinental",
+      "continentalTOTT": "Tim Terbaik Kontinental",
+      "cupGoldenBootShared": "Shared the Cup Golden Boot with {goals} goals!",
+      "cupTopScorer": "Sepatu Emas Piala",
+      "europeanGoldenShoe": "Sepatu Emas Eropa",
+      "fifaBest": "Pemain Terbaik Tahun Ini",
+      "goalOfTheYear": "Gol Terbaik Tahun Ini",
+      "goldenBoot": "Sepatu Emas Liga",
+      "goldenBootShared": "Shared the League Golden Boot with {goals} goals!",
+      "goldenBoy": "Pemain Muda Terbaik Tahun Ini",
+      "goldenGlove": "Kiper Terbaik",
+      "goldenShoe": "Sepatu Emas",
+      "leagueDefenderOfYear": "Bek Terbaik Tahun Ini",
+      "leagueForwardOfYear": "Penyerang Terbaik Tahun Ini",
+      "leagueMidfielderOfYear": "Gelandang Terbaik Tahun Ini",
+      "leaguePOTY": "MVP Liga",
+      "leaguePlayerOfYear": "MVP Liga",
+      "leaguePlaymaker": "Playmaker Liga",
+      "leagueRookieOfYear": "Pemain Baru Terbaik Tahun Ini",
+      "leagueTopAssister": "Pemberi Assist Terbaik",
+      "playmaker": "Playmaker Liga",
+      "puskas": "PuskÃ¡s Award",
+      "rookie": "Pemain Baru Terbaik Tahun Ini",
+      "teamOfTheYear": "Tim Terbaik Tahun Ini",
+      "title": "Award",
+      "worldCupBestGoalkeeper": "Sarung Tangan Emas Turnamen Dunia",
+      "worldCupGoldenBall": "Bola Emas Turnamen Dunia",
+      "worldCupGoldenBoot": "Sepatu Emas Turnamen Dunia",
+      "worldCupTOTT": "Tim Terbaik Turnamen Dunia",
+      "worldPlayer": "Trofi Emas"
+    },
+    "business": {
+      "choice_decline": "Fokus pada sepak bola",
+      "choice_invest": "Investasi besar",
+      "choice_partner": "Mitra minoritas",
+      "description": "Seorang pengusaha ingin Anda berinvestasi dalam usaha baru. Bisa menguntungkan, tetapi berisiko.",
+      "title": "Peluang Bisnis"
+    },
+    "charity": {
+      "choice_decline": "Tolak dengan sopan",
+      "choice_large": "Berikan donasi besar",
+      "choice_small": "Berikan donasi sederhana",
+      "description": "Rumah sakit anak meminta Anda menjadi duta mereka. Ini bisa meningkatkan citra Anda.",
+      "title": "Peluang Amal"
+    },
+    "chemistry": {
+      "belovedFigure": "Has become a beloved figure in the dressing room!",
+      "clubLegend": "As a club legend, their presence is invaluable to team unity.",
+      "deterioratedSignificantly": "Team chemistry has deteriorated significantly ({from} → {to}).",
+      "excellentForm": "Excellent form has improved standing within the squad.",
+      "improvedDramatically": "Team chemistry has improved dramatically ({from} → {to})!",
+      "injuryAbsence": "Long injury absence has weakened connections with teammates.",
+      "lackPlayingTime": "Lack of playing time has damaged relationships with teammates.",
+      "multipleTrophies": "Multiple trophies this season have created an incredible team spirit!",
+      "promotion": "Promotion has energized the entire squad!",
+      "relegation": "Relegation has shattered team morale and unity.",
+      "seriousIncident": "A serious incident has isolated them from the squad.",
+      "trainingIncident": "Training ground incidents have damaged relationships in the squad.",
+      "transferSaga": "Transfer saga has created tension in the dressing room.",
+      "trophyWin": "Winning trophies has brought the team closer together."
+    },
+    "consequences": {
+      "ambition": "Ambisi",
+      "discipline": "Disiplin",
+      "exposure": "Eksposur",
+      "fans": "Hubungan dengan Fans",
+      "followers": "Pengikut",
+      "form": "Performa",
+      "generosity": "Kedermawanan",
+      "loyalty": "Loyalitas",
+      "morale": "Moral",
+      "press": "Hubungan dengan Pers",
+      "reputation": "Reputasi",
+      "teamChemistry": "Kekompakan Tim"
+    },
+    "continental": {
+      "played": "🌍 Bermain {matches} pertandingan di {competition} ({goals} gol, {assists} assist)"
+    },
+    "continentalQualification": "Kualifikasi Kontinental Diamankan",
+    "contract": {
+      "extension": "Menandatangani perpanjangan kontrak {years} tahun.",
+      "newProfessional": "Menandatangani kontrak profesional baru {years} tahun.",
+      "noOffer": "{team} tidak menawarkan kontrak baru.",
+      "parentExtended": "{team} memperpanjang kontrak Anda (Klub Induk).",
+      "title": "Kontrak"
+    },
+    "decisionMade": "Keputusan Dibuat",
+    "discipline": {
+      "concernYellow": "⚠️ Discipline concerns: {count} yellow cards this season.",
+      "criticalRed": "🟥 CRITICAL discipline problems: {count} red cards - needs improvement!",
+      "majorYellow": "⚠️ Major discipline issues: {count} yellow cards this season.",
+      "seriousRed": "🟥 Serious discipline problems: {count} red cards!"
+    },
+    "endorsement": {
+      "signed": "Signed {duration}-year endorsement deal with {brand} worth Â£{value}M per year!"
+    },
+    "fan": {
+      "choice_engage": "Layani semua orang",
+      "choice_ignore": "Abaikan dan pergi",
+      "description": "Sekelompok penggemar mengelilingi Anda meminta tanda tangan dan foto. Bagaimana Anda menanganinya?",
+      "title": "Interaksi Penggemar"
+    },
+    "fanEncounter": {
+      "choice_engage": "Luangkan waktu bersama mereka",
+      "choice_ignore": "Abaikan dan pergi",
+      "choice_polite": "Foto cepat dan pergi",
+      "description": "Sekelompok penggemar mengenali Anda di tempat umum dan meminta foto serta tanda tangan.",
+      "title": "Pertemuan Penggemar"
+    },
+    "finance": {
+      "bankruptcyWarning": "⚠️ KRISIS KEUANGAN! Tidak dapat menutupi pengeluaran. Gaya hidup harus disesuaikan.",
+      "charitableDonation": "🤝 Memberikan donasi amal sebesar €{amount}",
+      "excellentHealth": "💰 Kesehatan keuangan yang sangat baik - kekayaan dikelola dengan baik!",
+      "forcedSale": "💔 Kesulitan keuangan memaksa penjualan {count} aset",
+      "investmentMade": "📈 Melakukan investasi {type} sebesar €{amount}",
+      "monthsOfRunway": "Landasan keuangan: {months} bulan keamanan",
+      "netWorthMilestone": "💎 Kekayaan bersih mencapai €{amount}!",
+      "propertyPurchased": "🏠 Membeli properti baru: {property}",
+      "taxesPaid": "Membayar pajak sebesar €{amount} musim ini.",
+      "vehiclePurchased": "🚗 Menambahkan kendaraan baru ke koleksi: {vehicle}"
+    },
+    "firstTitle": "Memenangkan gelar pertama dalam karier",
+    "form": {
+      "poorStreak": "📉 {count} consecutive poor performances - concerning trend.",
+      "strongStreak": "🌟 {count} consecutive strong performances!"
+    },
+    "generated": {
+      "business_opportunity": "💼 Peluang bisnis disajikan oleh investor.",
+      "charity_opportunity": "🤝 Peluang untuk mendukung tujuan amal.",
+      "fan_interaction": "👥 Penggemar meminta interaksi di acara publik.",
+      "interview_controversial": "🎤 Pertanyaan kontroversial selama wawancara.",
+      "manager_fallout": "😤 Perselisihan dengan manajer.",
+      "mentor_opportunity": "🎓 Diundang untuk membimbing pemain akademi muda.",
+      "nightclub_incident": "🌃 Insiden klub malam dilaporkan di media.",
+      "party_scandal": "📸 Skandal! Foto pesta bocor ke pers.",
+      "relationship_drama": "💔 Drama hubungan di berita utama.",
+      "social_media_outburst": "📱 Kontroversi media sosial setelah postingan emosional.",
+      "tax_investigation": "📋 Otoritas pajak membuka penyelidikan.",
+      "teammate_conflict": "⚔️ Ketegangan dengan rekan setim di ruang ganti."
+    },
+    "importantDecision": "Ini adalah keputusan penting",
+    "injury": {
+      "careerEnding": "Mengalami cedera tragis yang mengakhiri karier.",
+      "description": "Anda mengalami cedera",
+      "minor": "{type} minor - kemunduran kecil.",
+      "missedSeason": "Melewatkan sebagian besar musim karena cedera.",
+      "moderate": "Mengalami {type} sedang.",
+      "recovery": "Pemulihan",
+      "setback": "Mengalami kemunduran dalam pemulihan - absen lebih lama.",
+      "severe": "Mengalami {type} parah - absen selama {duration} bulan.",
+      "title": "Cedera",
+      "types": {
+        "hamstring": "cedera hamstring",
+        "groin": "cedera selangkangan",
+        "ankle_sprain": "terkilir pergelangan kaki",
+        "knee_problem": "masalah lutut",
+        "back": "cedera punggung",
+        "knee": "cedera lutut",
+        "muscle_tear": "robek otot",
+        "concussion": "gegar otak",
+        "ankle": "cedera pergelangan kaki",
+        "hamstring_tear": "robek hamstring",
+        "calf": "ketegangan betis",
+        "finger": "cedera jari",
+        "shoulder": "masalah bahu",
+        "hamstring_strain": "ketegangan hamstring",
+        "groin_injury": "cedera selangkangan",
+        "ankle_problem": "masalah pergelangan kaki",
+        "calf_strain": "ketegangan betis",
+        "thigh": "cedera paha",
+        "muscle_strain": "ketegangan otot",
+        "muscle": "cedera otot"
+      },
+      "recovery_serious": "Kembali dari cedera serius - lega bisa kembali.",
+      "recovery_normal": "Pulih dari cedera dan kembali ke kebugaran penuh."
+    },
+    "interview": {
+      "choice_diplomatic": "Bersikap diplomatis",
+      "choice_honest": "Jujur secara brutal",
+      "choice_refuse": "Tolak menjawab",
+      "description": "Seorang jurnalis mengajukan pertanyaan rumit tentang rekan setim dan manajer. Satu kata salah bisa menimbulkan masalah.",
+      "title": "Wawancara Kontroversial"
+    },
+    "league": {
+      "playoffPromotionLost": "{team} kalah dalam playoff promosi.",
+      "playoffPromotionWon": "{team} memenangkan playoff promosi dan dipromosikan!",
+      "playoffRelegationLost": "{team} kalah dalam playoff degradasi dan terdegradasi.",
+      "playoffRelegationSurvived": "{team} memenangkan playoff degradasi dan tetap di liga!",
+      "promoted": "{team} was promoted to a higher league!",
+      "relegated": "{team} was relegated to a lower league."
+    },
+    "loan": {
+      "becamePermanent": "Loan became permanent at {team} (parent club no longer available).",
+      "clubSeekingMove": "Club actively seeking loan move to ensure career development continues.",
+      "opportunitiesAvailable": "{count} loan opportunities available to secure regular football.",
+      "returnedToClub": "Returned to {team} after loan spell.",
+      "returnedToSenior": "Returned to {team} senior team after loan spell.",
+      "spellEnded": "Loan spell at {loanTeam} ended. Returning to {parentTeam}."
+    },
+    "manager": {
+      "choice_accept": "Terima kritik",
+      "choice_defend": "Bela diri sendiri",
+      "choice_transfer": "Minta transfer",
+      "description": "Manajer mengkritik performa Anda secara publik. Tidak diterima dengan baik oleh Anda.",
+      "title": "Perselisihan Manajer"
+    },
+    "managerConversation": {
+      "choice_accept": "Terima peran saat ini",
+      "choice_chances": "Minta lebih banyak kesempatan",
+      "choice_commitment": "Tunjukkan komitmen pada tim",
+      "description": "Manajer ingin berbicara tentang peran Anda di tim. Bisa memengaruhi waktu bermain Anda.",
+      "title": "Percakapan Manajer"
+    },
+    "match": {
+      "title": "Match"
+    },
+    "media": {
+      "narrativeChange": "Narasi media bergeser ke: '{narrative}'",
+      "objectiveFailed": "Pers mengkritik: tujuan tidak tercapai.",
+      "objectiveMet": "Pers memuji: tujuan tercapai.",
+      "title": "Media",
+      "youngTalent": "Media memuji mereka sebagai salah satu talenta muda paling menarik di sepak bola!"
+    },
+    "mediaInterview": {
+      "choice_confident": "Tunjukkan kepercayaan diri",
+      "choice_deflect": "Alihkan pertanyaan",
+      "choice_humble": "Rendah hati",
+      "description": "Media ingin mengenal Anda lebih baik. Ini kesempatan Anda untuk membuat kesan yang baik.",
+      "title": "Wawancara Pertama"
+    },
+    "mentor": {
+      "choice_accept": "Terima dengan senang hati",
+      "choice_decline": "Tolak dengan sopan",
+      "description": "Klub ingin Anda membimbing bakat akademi muda. Membutuhkan waktu, tetapi memperkuat citra.",
+      "title": "Mentor Pemuda"
+    },
+    "national": {
+      "150caps": "150 caps for {country}! One of the all-time greats!",
+      "brace": "BRACE for {country} vs {opponent} in {type}!",
+      "centurion": "CENTURION! 100 caps for {country}! A legendary achievement!",
+      "continentalCupExit": {
+        "genericDefeat": "Keluar dari Piala Kontinental {round} vs {opponent}. Kesedihan mendalam saat tim tersingkir.",
+        "heroicDefeat": "Keluar dari Piala Kontinental {round} vs {opponent}. Meskipun penampilan individu hebat, tim gagal.",
+        "disappointingDefeat": "Keluar dari Piala Kontinental {round} vs {opponent}. Penampilan kolektif yang mengecewakan mengakhiri perjalanan."
+      },
+      "continentalCupGroupExit": "Failed to qualify from Continental Cup group stage.",
+      "continentalCupSelected": "Selected for Continental Cup squad!",
+      "demoted": "Demoted to squad rotation for {country}.",
+      "dropped": "Dropped from {country} national team squad.",
+      "firstCallUp": "Received first call-up to the {country} national team!",
+      "hatTrick": "HAT-TRICK for {country} vs {opponent}! A historic performance in a crucial {type} match!",
+      "lostCaptaincy": "Lost captaincy of {country} national team.",
+      "milestone100caps": "Mencapai 100 penampilan internasional untuk {country}! Pencapaian yang legendaris.",
+      "milestone25intGoals": "Mencetak gol internasional ke-25 untuk {country}!",
+      "milestone50caps": "Mencapai 50 penampilan internasional untuk {country}!",
+      "milestone50intGoals": "Mencetak gol internasional ke-50 untuk {country}! Pencapaian bersejarah.",
+      "namedCaptain": "Ditunjuk sebagai kapten tim nasional {country}! Sebuah kehormatan besar.",
+      "nationsLeagueDefeat": {
+        "genericDefeat": "Kekalahan Liga Bangsa-Bangsa {round} vs {opponent}. Kesedihan mendalam saat tim tersingkir.",
+        "heroicDefeat": "Kekalahan Liga Bangsa-Bangsa {round} vs {opponent}. Meskipun penampilan individu hebat, tim gagal.",
+        "disappointingDefeat": "Kekalahan Liga Bangsa-Bangsa {round} vs {opponent}. Penampilan kolektif yang mengecewakan mengakhiri perjalanan."
+      },
+      "regularStarter": "Menjadi pemain inti reguler untuk {country}!",
+      "retirementAnnounced": "Mengumumkan pensiun dari sepak bola internasional setelah {caps} penampilan untuk {country}. Akhir dari sebuah era.",
+      "seasonSummary": "Mencatatkan {caps} penampilan untuk {country}, mencetak {goals} gol dan {assists} assist (Rata-rata: {rating}/10).",
+      "squadPlayer": "Ditetapkan sebagai pemain skuad untuk tim nasional {country}.",
+      "worldCupBrace": "DUA GOL di Turnamen Dunia {round} vs {opponent}! Kecemerlangan yang menentukan!",
+      "worldCupExit": {
+        "genericDefeat": "Keluar dari Turnamen Dunia {round} vs {opponent}. Kesedihan mendalam saat tim tersingkir.",
+        "heroicDefeat": "Keluar dari Turnamen Dunia {round} vs {opponent}. Meskipun penampilan individu hebat, tim gagal.",
+        "disappointingDefeat": "Keluar dari Turnamen Dunia {round} vs {opponent}. Penampilan kolektif yang mengecewakan mengakhiri perjalanan."
+      },
+      "worldCupGroupExit": "Tersingkir secara mengecewakan di fase grup Turnamen Dunia. Tim gagal lolos ke fase gugur.",
+      "worldCupHatTrick": "HAT-TRICK di Turnamen Dunia {round} vs {opponent}! Performa legendaris untuk {country}!",
+      "worldCupCallup": "Terpilih untuk skuad Turnamen Dunia untuk {country}!"
+    },
+    "nightclub": {
+      "choice_apologize": "Minta maaf secara publik",
+      "choice_blame": "Salahkan orang lain",
+      "description": "Perkelahian di klub malam masuk berita. Saksi mengatakan Anda terlibat.",
+      "title": "Insiden Klub Malam"
+    },
+    "outburst": {
+      "choice_delete": "Hapus dan minta maaf",
+      "choice_double_down": "Tegaskan kembali",
+      "description": "Anda memposting sesuatu yang kontroversial di media sosial dan menjadi viral. Agen Anda tidak berhenti menelepon.",
+      "title": "Ledakan Media Sosial"
+    },
+    "party_scandal": {
+      "choice_apologize": "Minta maaf secara publik",
+      "choice_deny": "Sangkal semuanya",
+      "choice_ignore": "Tetap diam",
+      "description": "Foto dari pesta liar bocor secara online. Media bersenang-senang, dan klub tidak senang. Bagaimana Anda merespons?",
+      "title": "Skandal Pesta"
+    },
+    "performance": {
+      "disappointing": "Pertanyaan muncul tentang masa depan mereka setelah kampanye mengecewakan.",
+      "exceptional": "Musim luar biasa mendapat pujian universal dari pakar dan penggemar!",
+      "needsImprovement": "Kritikus menyarankan mereka perlu meningkat signifikan musim depan.",
+      "strong": "Performa kuat sepanjang musim tidak luput dari perhatian."
+    },
+    "personal": {
+      "title": "Pribadi"
+    },
+    "personality": {
+      "ambitious": {
+        "meltdown": "Secara publik mempertanyakan ambisi dan strategi transfer klub.",
+        "transfer": "Semakin frustrasi dengan kurangnya ambisi - mempertimbangkan opsi transfer."
+      },
+      "determined": {
+        "overcome": "Menunjukkan determinasi luar biasa untuk melewati periode sulit.",
+        "performance": "Determinasi terbayar dengan performa memenangkan pertandingan!"
+      },
+      "inconsistent": {
+        "boost": "Tiba-tiba menemukan form - terlihat tak terbendung di hari mereka!",
+        "slump": "Form meninggalkan mereka lagi - periode frustrasi lainnya."
+      },
+      "lazy": {
+        "criticism": "Manajer mengkritik sikap latihan di konferensi pers.",
+        "fallout": "Hubungan dengan manajer memburuk karena kekhawatiran etika kerja.",
+        "late": "Didenda klub karena keterlambatan berulang ke latihan."
+      },
+      "loyal": {
+        "banner": "Penggemar membentangkan spanduk merayakan loyalitas mereka pada klub.",
+        "community": "Komunitas lokal menghormati komitmen mereka pada daerah.",
+        "decade": "Suporter memilih mereka sebagai Pemain Dekade.",
+        "legend": "Dinobatkan sebagai legenda klub setelah bertahun-tahun pengabdian.",
+        "reject": "Menolak tawaran menggiurkan untuk tetap di klub yang mereka cintai."
+      },
+      "mediaDarling": {
+        "criticism": "Berjuang menghadapi pengawasan dan kritik media yang intens.",
+        "praise": "Pesona dan karisma membuat mereka menjadi sensasi media!"
+      },
+      "professional": {
+        "award": "Dinobatkan sebagai Profesional Terbaik Klub oleh staf pelatih.",
+        "contract": "Klub ingin memperpanjang kontrak karena profesionalisme teladan.",
+        "praise": "Dipuji manajer atas profesionalisme dan etos kerja luar biasa.",
+        "roleModel": "Rekan setim menganggap mereka sebagai panutan sempurna.",
+        "training": "Sesi latihan ekstra mendapatkan rasa hormat di seluruh skuad."
+      },
+      "reserved": {
+        "recognition": "Konsistensi tenang akhirnya mendapat pengakuan dari rekan dan pakar.",
+        "uncomfortable": "Tidak nyaman dengan sorotan media intens - lebih memilih membiarkan sepak bola berbicara."
+      },
+      "temperamental": {
+        "bustup": "Memiliki pertengkaran panas di lapangan latihan dengan rekan setim.",
+        "fallout": "Pertengkaran publik dengan manajer setelah diganti.",
+        "fine": "Didenda klub karena alasan disiplin.",
+        "media": "Keluar dari konferensi pers setelah pertanyaan provokatif.",
+        "redCard": "Dikartu merah karena perilaku kasar - kehilangan kendali di momen krusial.",
+        "social": "Menghapus posting media sosial yang mengkritik penggemar dan media."
+      }
+    },
+    "physical": {
+      "heightGrowth": "Pertumbuhan tinggi badan",
+      "injuryRecovery": "Pemulihan Cedera",
+      "muscleGain": "Penambahan Otot",
+      "naturalDecline": "Penurunan alami",
+      "peakPhysical": "Puncak fisik",
+      "weightGain": "Penambahan berat badan",
+      "weightLoss": "Penurunan Berat Badan"
+    },
+    "promotion": {
+      "asProspect": "Promoted to {team} senior squad at age {age}. Regarded as exciting prospect for the future.",
+      "asReserve": "Joined {team} senior squad at age {age}. Starting in reserves with opportunities to prove themselves.",
+      "fastTracked": "🏆 Fast-tracked to {team} senior squad at just {age} years old! Immediately integrated into first team rotation.",
+      "toSeniors": "Promoted to {team} senior squad at age {age}."
+    },
+    "reactions": {
+      "agent_meeting": {
+        "contract": {
+          "headline1": "📰 {name} dalam negosiasi perpanjangan"
+        },
+        "explore": {
+          "fan1": "Meninggalkan kami? Setelah semuanya? 💔",
+          "fan2": "Jika untuk proyek yang lebih baik, saya mengerti...",
+          "headline1": "📰 EKSKLUSIF: {name} mengevaluasi tawaran dari klub lain",
+          "headline2": "📰 Masa depan {name} tidak pasti"
+        },
+        "focus": {
+          "fan1": "Bagus! Fokus di lapangan, sisanya mengikuti! ⚽"
+        }
+      },
+      "charity": {
+        "large": {
+          "fan1": "Ini adalah manusia yang luar biasa! Lebih dari sekadar pemain! ❤️",
+          "fan2": "Bangga mendukung orang seperti ini! 🥹",
+          "headline1": "📰 {name} memberikan donasi jutaan ke rumah sakit anak",
+          "headline2": "📰 Kedermawanan {name} menggerakkan komunitas"
+        },
+        "small": {
+          "fan1": "Setiap bantuan berarti! Selamat atas inisiatifnya! 👏",
+          "headline1": "📰 {name} berkontribusi pada tujuan amal"
+        }
+      },
+      "fan_encounter": {
+        "engage": {
+          "fan1": "Tidak percaya dia berhenti untuk berfoto dengan saya! 😍",
+          "fan2": "Tinggal 20 menit tanda tangan! Legenda! ⭐",
+          "fan3": "Orang ini salah satu dari kita. Rendah hati 10/10!",
+          "headline1": "📰 {name} menyenangkan penggemar dengan perhatian dan kebaikan"
+        },
+        "ignore": {
+          "fan1": "Kekecewaan... bahkan tidak melihat kami 😢",
+          "fan2": "Ketenaran naik ke kepalanya, rupanya...",
+          "headline1": "📰 Penggemar mengeluh perlakuan dingin dari {name}"
+        },
+        "polite": {
+          "fan1": "Dapat foto cepat! Sangat senang! 📸"
+        }
+      },
+      "fan_interaction": {
+        "engage": {
+          "fan1": "Pemain ini kelas berbeda! Melayani semua orang! 🌟",
+          "fan2": "Terima kasih telah membuat anak saya bahagia! ❤️",
+          "headline1": "📰 {name} dipuji atas perlakuan terhadap penggemar"
+        },
+        "ignore": {
+          "fan1": "Berjalan melewati kami seolah-olah kami tidak terlihat... 😔"
+        }
+      },
+      "manager_conversation": {
+        "chances": {
+          "headline1": "📰 {name} menginginkan lebih banyak kesempatan di tim"
+        },
+        "commitment": {
+          "fan1": "Itu dia! Bermain untuk lencana! 💚",
+          "headline1": "📰 {name} menegaskan kembali komitmen pada klub"
+        }
+      },
+      "manager_fallout": {
+        "accept": {
+          "fan1": "Ini adalah kedewasaan. Dengarkan, terima, dan berkembang! 👏",
+          "headline1": "📰 {name} menerima kritik dan berjanji untuk meningkatkan diri"
+        },
+        "defend": {
+          "fan1": "Wah! Ini akan menjadi kacau...",
+          "headline1": "📰 Ketegangan! {name} membalas kritik manajer"
+        },
+        "transfer": {
+          "fan1": "Jangan pergi! Tolong jangan pergi! 😭",
+          "fan2": "Jika manajer tidak tahu cara menggunakannya, lebih baik pergi...",
+          "headline1": "📰 MENGEJUTKAN! {name} meminta pergi setelah bertengkar dengan manajer",
+          "headline2": "📰 Hubungan antara {name} dan manajer tidak dapat dipertahankan"
+        }
+      },
+      "party_scandal": {
+        "apologize": {
+          "fan1": "Setidaknya dia mengakuinya. Hormat! 👏",
+          "fan2": "Semua orang membuat kesalahan, yang penting adalah mengakui. Lanjut!",
+          "headline1": "📰 {name} meminta maaf setelah kontroversi pesta",
+          "headline2": "📰 Pemain menunjukkan kedewasaan dengan mengakui kesalahan"
+        },
+        "deny": {
+          "fan1": "Tidak ada gunanya menyangkal, ada foto semuanya! 🤦",
+          "fan2": "Apakah dia pikir kita bodoh?",
+          "headline1": "📰 {name} menyangkal keterlibatan dalam pesta kontroversial",
+          "headline2": "📰 Versi pemain bertentangan dengan saksi"
+        },
+        "ignore": {
+          "fan1": "Saya pikir dia benar untuk tidak membesar-besarkan ini.",
+          "headline1": "📰 {name} tetap diam tentang kontroversi"
+        }
+      },
+      "teammate_conflict": {
+        "apologize": {
+          "fan1": "Kebesaran adalah mengetahui cara meminta maaf. Selamat! 👏"
+        },
+        "escalate": {
+          "fan1": "Memalukan! Ini tidak boleh terjadi! 😡",
+          "headline1": "📰 Krisis ruang ganti! Perkelahian antar pemain bocor ke media",
+          "headline2": "📰 Dewan prihatin dengan atmosfer skuad"
+        },
+        "stand": {
+          "fan1": "Berharap mereka segera menyelesaikan ini...",
+          "headline1": "📰 Atmosfer tegang: {name} bertahan dalam konflik internal"
+        }
+      },
+      "teammate_interaction": {
+        "bond": {
+          "fan1": "Suka melihat skuad bersatu! Keluarga! 🤝"
+        }
+      },
+      "training_decision": {
+        "extra": {
+          "fan1": "Inilah cara membangun karier! Dedikasi total! 💪",
+          "headline1": "📰 {name} mengesankan dengan dedikasi ekstra dalam latihan"
+        },
+        "rest": {
+          "fan1": "Apakah dia benar-benar fokus? 🤔"
+        }
+      }
+    },
+    "relationship": {
+      "choice_private": "Jaga privasi",
+      "choice_public": "Buat pernyataan publik",
+      "description": "Hubungan pribadi Anda menjadi santapan tabloid. Paparazzi ada di mana-mana.",
+      "title": "Drama Hubungan"
+    },
+    "release": {
+      "fromAcademy": "Dilepas dari akademi {team} pada usia {age}. Tidak dapat mengamankan promosi senior."
+    },
+    "requiresMoney": "Membutuhkan €{amount}",
+    "retirement": {
+      "careerEndingInjury": "Terpaksa mengumumkan pensiun karena cedera yang mengakhiri karier. Akhir yang kejam untuk karier yang menjanjikan.",
+      "centurion": "Centurion untuk {country} - pahlawan nasional.",
+      "headlines": {
+        "injury": {
+          "1": "💔 MEMILUKAN! Karier dipotong pendek oleh cedera untuk {name}.",
+          "2": "🏥 Tubuh berkata cukup: {name} terpaksa pensiun karena cedera.",
+          "3": "😢 Kemunduran kejam: Cedera mengakhiri karier {name} secara prematur.",
+          "4": "🩹 Saran medis memaksa {name} gantung sepatu. Sepak bola berduka.",
+          "5": "💉 Pukulan telak: Karier {name} berakhir karena cedera yang terus-menerus.",
+          "6": "🦴 Tubuh mengkhianati: {name} dipaksa pensiun dini.",
+          "7": "⚕️ Dokter memerintahkan berhenti: {name} harus pensiun demi kesehatan.",
+          "8": "😞 Mimpi hancur: Cedera memaksa {name} meninggalkan permainan.",
+          "9": "🏨 Diagnosis akhir: Hari-hari bermain {name} berakhir karena cedera.",
+          "10": "💫 Apa yang mungkin terjadi: {name} pensiun karena cedera berulang.",
+          "11": "🩼 Melangkah maju: {name} memilih kesehatan daripada melanjutkan karier.",
+          "12": "⚡ Disambar petir: Karier {name} diakhiri oleh cedera yang menghancurkan.",
+          "13": "😔 Akhir yang tidak adil: {name} terpaksa pensiun karena kemunduran cedera.",
+          "14": "🆘 Tidak ada pemulihan: {name} menerima cedera telah mengakhiri karier.",
+          "15": "💭 Seandainya saja: {name} pensiun bertanya-tanya apa yang mungkin terjadi.",
+          "16": "🏃‍♂️ Tidak bisa bermain lagi: {name} pensiun setelah bertarung dengan cedera.",
+          "17": "🎗️ Semangat juang: {name} pensiun setelah kalah dalam pertarungan dengan tubuh.",
+          "18": "⏸️ Karier berhenti permanen: {name} pensiun karena cedera.",
+          "19": "🩺 Pensiun medis: {name} dipaksa berhenti atas perintah dokter.",
+          "20": "❤️‍🩹 Tubuh tidak bisa menerima lebih banyak: {name} mengumumkan pensiun medis.",
+          "types": {
+            "hamstring": "cedera hamstring",
+            "groin": "cedera selangkangan",
+            "ankle_sprain": "terkilir pergelangan kaki",
+            "knee_problem": "masalah lutut",
+            "back": "cedera punggung",
+            "knee": "cedera lutut",
+            "muscle_tear": "robek otot",
+            "concussion": "gegar otak",
+            "ankle": "cedera pergelangan kaki",
+            "hamstring_tear": "robek hamstring",
+            "calf": "ketegangan betis",
+            "finger": "cedera jari",
+            "shoulder": "masalah bahu",
+            "hamstring_strain": "ketegangan hamstring",
+            "groin_injury": "cedera selangkangan",
+            "ankle_problem": "masalah pergelangan kaki",
+            "calf_strain": "ketegangan betis",
+            "thigh": "cedera paha",
+            "muscle_strain": "ketegangan otot",
+            "muscle": "cedera otot"
+          },
+          "recovery_serious": "Kembali dari cedera serius - lega bisa kembali.",
+          "recovery_normal": "Pulih dari cedera dan kembali ke kebugaran penuh."
+        },
+        "natural": {
+          "1": "👋 {name} mengumumkan pensiun di saat yang tepat. Karier yang dijalani dengan baik.",
+          "2": "⚽ Akhir dari sebuah era: {name} gantung sepatu setelah karier yang memuaskan.",
+          "3": "🎬 Peluit akhir: {name} mengakhiri hari-hari bermainnya.",
+          "4": "📖 Bab ditutup: {name} pensiun dari sepak bola profesional.",
+          "5": "🌅 Matahari terbenam: {name} dengan damai mengakhiri karier bermain.",
+          "6": "🎭 Tepuk tangan meriah: {name} mengambil haluan terakhir setelah karier hebat.",
+          "7": "📝 Perpisahan yang sempurna: {name} pensiun dengan kepala tegak.",
+          "8": "⏰ Waktu yang tepat: {name} tahu saatnya telah tiba untuk pensiun.",
+          "9": "💫 Karier lengkap: {name} pensiun tanpa ada yang harus dibuktikan lagi.",
+          "10": "🎖️ Misi tercapai: {name} gantung sepatu dengan puas.",
+          "11": "🏟️ Loker kosong: {name} mengucapkan selamat tinggal pada sepak bola.",
+          "12": "👏 Keluar dengan rasa terima kasih: {name} berterima kasih pada sepak bola dan pensiun.",
+          "13": "🎯 Pekerjaan selesai: {name} pensiun setelah mencapai tujuan karier.",
+          "14": "📅 Sesuai rencana: {name} pensiun di saat yang tepat.",
+          "15": "🌟 Warisan diamankan: {name} berjalan pergi dari permainan.",
+          "16": "⚽ Tembakan terakhir: {name} pensiun setelah perjalanan yang memuaskan.",
+          "17": "🎪 Penampilan terakhir: {name} mengucapkan selamat tinggal pada sepak bola.",
+          "18": "📻 Keluar: {name} mengumumkan pensiun dari sepak bola.",
+          "19": "🏃 Gantung sepatu: {name} pensiun setelah karier panjang dan membanggakan.",
+          "20": "💎 Karier berlian berakhir: {name} pensiun dengan perbendaharaan kenangan."
+        },
+        "peakLegend": {
+          "general": {
+            "1": "⭐ Masih di puncak! {name} pensiun sementara penggemar memohon satu musim lagi!",
+            "2": "💫 Dengan syaratnya sendiri: {name} memilih pergi saat masih elit!",
+            "3": "🎭 Tirai jatuh lebih awal: {name} pensiun dengan banyak yang masih bisa ditawarkan!",
+            "4": "👏 Kelas murni: {name} meninggalkan panggung masih tampil di level tertinggi!",
+            "5": "🌟 Pergi sebagai bintang: {name} pensiun saat masih bersinar!",
+            "6": "💎 Berhenti saat di depan: {name} pensiun dengan warisan utuh!",
+            "7": "🎯 Waktu yang tepat: {name} tahu kapan harus mengucapkan selamat tinggal!",
+            "8": "👑 Tunduk pada raja: {name} pensiun di puncak kekuatan!",
+            "9": "⚡ Keluar dengan kuat: {name} pensiun masih ditakuti oleh lawan!",
+            "10": "🔥 Tak berkurang: {name} meninggalkan permainan masih di level elit!"
+          },
+          "trophy": {
+            "1": "⚽ MENGEJUTKAN DUNIA! {name} gantung sepatu saat masih di puncak!",
+            "2": "🏆 Keluar di puncak: {name} pensiun segera setelah memenangkan gelar!",
+            "3": "👑 Akhir yang sempurna? {name} mengucapkan selamat tinggal di puncak!",
+            "4": "🌟 Juara sampai akhir: {name} pergi dengan kepala tegak setelah kemenangan!",
+            "5": "🎖️ Pensiun sebagai pemenang: {name} mengakhiri karier di puncak!",
+            "6": "💫 Keluar emas: {name} mengucapkan selamat tinggal sebagai juara para juara!",
+            "7": "🥇 Tarian terakhir, tarian terbaik: {name} pensiun dengan trofi di tangan!",
+            "8": "🏅 Tidak ada cara yang lebih baik: {name} meninggalkan sepak bola sebagai juara!",
+            "9": "⭐ Akhir dongeng: {name} pensiun setelah kejayaan!",
+            "10": "🎭 Babak akhir sempurna: {name} keluar dari panggung dengan trofi!"
+          }
+        },
+        "premature": {
+          "1": "❓ Alasan keluarga dikutip saat {name} membuat kejutan keluar dari sepak bola.",
+          "2": "💭 {name} kehilangan hasrat untuk permainan dan pensiun dini.",
+          "3": "🎯 Prioritas baru: {name} mengejutkan dunia dengan pensiun dini.",
+          "4": "🌅 Kehidupan di luar sepak bola: {name} berjalan pergi untuk mengejar impian lain.",
+          "5": "👨‍👩‍👧 Keluarga dulu: {name} pensiun muda untuk fokus pada orang yang dicintai.",
+          "6": "🧘 Ketenangan mental: {name} melangkah menjauh dari tekanan sepak bola.",
+          "7": "📚 Bab baru: {name} pensiun dini untuk belajar.",
+          "8": "💼 Panggilan bisnis: {name} meninggalkan sepak bola untuk kewirausahaan.",
+          "9": "🌍 Pelancong dunia: {name} pensiun untuk menjelajahi kehidupan di luar olahraga.",
+          "10": "🎨 Pengejaran kreatif: {name} berjalan pergi untuk mengikuti impian artistik.",
+          "11": "🏠 Pulang ke rumah: {name} pensiun untuk kembali ke akar.",
+          "12": "💡 Epifani: {name} menyadari sepak bola tidak lagi memuaskan.",
+          "13": "🌱 Awal baru: {name} pensiun dini mencari tujuan baru.",
+          "14": "🎭 Panggung berbeda: {name} meninggalkan sepak bola untuk karier hiburan.",
+          "15": "📖 Cerita berlanjut di tempat lain: {name} pensiun untuk menulis bab baru.",
+          "16": "🧠 Kesehatan mental dulu: {name} memprioritaskan kesejahteraan daripada karier.",
+          "17": "⚖️ Keseimbangan kerja-hidup: {name} pensiun untuk menemukan keseimbangan.",
+          "18": "🙏 Perjalanan spiritual: {name} berjalan pergi untuk menemukan kedamaian batin.",
+          "19": "💝 Cinta menang: {name} pensiun untuk prioritas hubungan.",
+          "20": "🌟 Mimpi berbeda: {name} pensiun untuk mengejar tujuan di luar sepak bola."
+        },
+        "tooLong": {
+          "1": "📉 Akhirnya berakhir. {name} mengumumkan pensiun setelah musim yang sulit.",
+          "2": "🔚 Akhir yang tenang untuk karier yang keras: {name} pensiun.",
+          "3": "💭 Kritikus mengatakan sudah waktunya: {name} meninggalkan lapangan setelah perjuangan.",
+          "4": "📰 Senja: Karier {name} berakhir setelah musim penurunan.",
+          "5": "⏰ Satu musim terlalu banyak? {name} akhirnya mengakhiri karier.",
+          "6": "🌅 Matahari terbenam pada karier {name} setelah babak akhir yang sulit.",
+          "7": "📊 Angka tidak berbohong: {name} pensiun setelah penurunan statistik.",
+          "8": "⚡ Kaki akhirnya menyerah: {name} mengumumkan pensiun.",
+          "9": "🪫 Tangki kosong: {name} pensiun setelah berjuang untuk mengikuti.",
+          "10": "📉 Dari pahlawan menjadi berjuang: {name} pensiun setelah masa-masa sulit.",
+          "11": "🚪 Keluar tertunda: {name} akhirnya gantung sepatu setelah tekanan.",
+          "12": "⌛ Waktu mengejar: {name} pensiun setelah waktu menang.",
+          "13": "💤 Energi habis: {name} mengakhiri karier setelah perjalanan yang melelahkan.",
+          "14": "🎭 Haluan terakhir: {name} pergi setelah penggemar mempertanyakan apakah akhir sudah terlambat.",
+          "15": "📝 Tulisan di dinding: {name} pensiun setelah tahun-tahun akhir yang sulit.",
+          "16": "🔕 Pergi dengan tenang: {name} hanyut ke pensiun setelah penurunan.",
+          "17": "⚽ Tidak ada lagi sihir: {name} pensiun saat keterampilan memudar.",
+          "18": "🏃 Tidak bisa bersaing lagi: {name} dengan enggan pensiun.",
+          "19": "📅 Pertandingan ditunda: {name} akhirnya menerima karier sudah berakhir.",
+          "20": "🎬 Kredit bergulir: Kisah {name} berakhir dengan bab yang memudar."
+        }
+      },
+      "icon": "⭐ {name} announces retirement after outstanding career. {matches} appearances, {goals} goals, {trophies} major honours. An inspiration to many.",
+      "journeyman": "{name} announces retirement. {reason}. Made {matches} appearances across {clubs} clubs.",
+      "legend": "🏆 LEGEND RETIRES! {name} hangs up their boots after an extraordinary career that inspired a generation. {awards} individual awards, {trophies} trophies. A true icon of the game.",
+      "oneClubLegend": "A one-club legend. Loyalty like this is rare in modern football.",
+      "professional": "{name} calls time on playing career after {matches} professional appearances. {reason}. Proud of a solid career.",
+      "rumors": {
+        "general": {
+          "1": "💼 {name} terlihat bertemu dengan penasihat keuangan tentang kehidupan setelah sepak bola.",
+          "2": "📅 Akhir sudah di depan mata? {name} dilaporkan mempertimbangkan opsi pensiun.",
+          "3": "🏠 Sumber yang dekat dengan {name} mengisyaratkan kemungkinan pengumuman pensiun.",
+          "4": "📰 Spekulasi meningkat atas masa depan {name} saat kariernya memasuki masa senja.",
+          "5": "🎙️ Agen menolak membantah rumor pensiun yang melibatkan {name}.",
+          "6": "📝 {name} dilaporkan mendiskusikan pengaturan pertandingan testimonial.",
+          "7": "🏟️ Loker kosong? {name} terlihat membersihkan barang pribadi dari stadion.",
+          "8": "💭 {name} yang filosofis berbicara tentang 'kehidupan setelah sepak bola' dalam wawancara.",
+          "9": "📊 Kontrak akan berakhir, {name} dilaporkan tidak mencari perpanjangan.",
+          "10": "🌅 Matahari terbenam mendekat? Karier {name} mungkin mencapai kesimpulan alami."
+        },
+        "highOvr": {
+          "1": "🤔 Perdebatan Pundit: Bisakah {name} mempertahankan level ini untuk satu tahun lagi?",
+          "2": "💭 Sumber mengatakan {name} ingin pensiun di puncak kejayaan.",
+          "3": "📰 Akankah {name} undur diri sebagai juara? Desas-desus pensiun tumbuh.",
+          "4": "🎙️ Status legenda aman - tapi akankah {name} berhenti berkarir?",
+          "5": "⭐ Masih kelas dunia, tapi {name} dilaporkan mempertimbangkan opsi.",
+          "6": "🏆 Satu trofi lagi atau pensiun? {name} memikirkan masa depan.",
+          "7": "💬 Agen bungkam tentang rencana {name} di tengah spekulasi.",
+          "8": "📊 Statistik elit, tapi {name} merenungkan kehidupan setelah sepak bola.",
+          "9": "🎯 Performa puncak memicu pertanyaan tentang langkah {name} selanjutnya.",
+          "10": "👑 Raja permainan, tapi takhta {name} mungkin segera kosong."
+        },
+        "poorForm": {
+          "1": "📉 Fans mulai bertanya-tanya apakah {name} masih memiliki stamina.",
+          "2": "💬 Rumor kelelahan ruang ganti yang melibatkan {name}.",
+          "3": "🗣️ Kritikus menyarankan hari-hari terbaik {name} sudah berlalu.",
+          "4": "⚽ Berjuang mencari performa - apakah sudah waktunya bagi {name} untuk pensiun?",
+          "5": "📰 Pengamat secara terbuka mempertanyakan kemampuan {name} untuk lanjut.",
+          "6": "🪫 Kehabisan tenaga? {name} hadapi tekanan pensiun.",
+          "7": "📊 Statistik menurun saat masa depan {name} menjadi tidak pasti.",
+          "8": "💤 Kilau tua memudar - rumor pensiun {name} tumbuh.",
+          "9": "⏰ Waktu mengejar? {name} di bawah pengawasan setelah performa buruk.",
+          "10": "🎭 Babak terakhir mendekat? Performa {name} memicu pembicaraan pensiun."
+        }
+      },
+      "shirtRetired": "{team} announces plans to retire the number {number} shirt in honour of club legend {name}.",
+      "star": "{name} retires after successful career. {matches} matches, {goals} goals across {clubs} clubs. A respected professional who achieved their dreams.",
+      "testimonialMatch": "{team} to honour them with testimonial match.",
+      "worldCupChampion": "Will forever be remembered as a Turnamen Dunia champion."
+    },
+    "role": {
+      "promiseBroken": "Janji peran skuad dilanggar.",
+      "promiseHonored": "Club honors role promise: guaranteed {status} status this season.",
+      "promisePeriodEnded": "Role promise period ended."
+    },
+    "season": {
+      "aerialDominance": "🗼 AERIAL DOMINANCE! {count} headed goals - a true target man!",
+      "aerialDominant": "🗼 Dominant in the air! {count} headed goals!",
+      "clutchPlayer": "🏆 CLUTCH PLAYER! {count} game-winning goals - always delivers when it matters!",
+      "completeForward": "🌟 COMPLETE FORWARD! {goals}G + {assists}A = {total} goal contributions!",
+      "elitePlaymaking": "👑 Elite playmaking with {assists} assists!",
+      "excellentGoals": "✨ Excellent goalscoring season with {goals} goals!",
+      "legendaryGoals": "🔥 LEGENDARY SEASON! {goals} goals in {matches} matches - one for the history books!",
+      "longRangeThreat": "⚡ Long range threat! {count} goals from distance!",
+      "longShotSpecialist": "🚀 LONG SHOT SPECIALIST! {count} goals from outside the box!",
+      "matchWinner": "💪 Match-winner! {count} game-winning goals!",
+      "outstandingGoals": "🎯 Outstanding season with {goals} goals!",
+      "phenomenal": "💫 PHENOMENAL! {goals}G + {assists}A = {total} goal contributions - legendary!",
+      "playmakerMasterclass": "🎨 PLAYMAKER MASTERCLASS! {assists} assists - pure creativity!",
+      "spectacularGolacos": "🚀 SPECTACULAR SEASON! {count} wonder goals - nominated for Goal of the Year Award!",
+      "strongContributions": "⚡ Strong season! {goals}G + {assists}A = {total} goal contributions.",
+      "wonderGoals": "⚡ Spectacular striker! {count} wonder goals this season!",
+      "worldClassGoals": "⭐ WORLD CLASS! {goals} goals - an incredible campaign!"
+    },
+    "severity": {
+      "critical": "Kritis",
+      "major": "Mayor",
+      "minor": "Minor",
+      "moderate": "Sedang"
+    },
+    "social": {
+      "choice_ignore": "Biarkan saja",
+      "choice_respond": "Kirim respons berapi-api",
+      "description": "Seorang punding TV menyebut Anda 'sangat dinilai berlebihan' di media sosial. Ini sedang tren.",
+      "title": "Kritik Media Sosial"
+    },
+    "specialTraining": {
+      "choice_accept": "Berkomitmen pada latihan ekstra",
+      "choice_decline": "Tetap pada rutinitas",
+      "description": "Pelatih menyarankan rezim latihan khusus untuk meningkatkan permainan Anda, tetapi itu melelahkan.",
+      "title": "Rezim Latihan Khusus"
+    },
+    "sponsor": {
+      "choice_accept": "Tanda tangani kesepakatan",
+      "choice_decline": "Tolak tawaran",
+      "choice_negotiate": "Minta lebih banyak",
+      "description": "{brand} menawarkan kesepakatan sponsor. Uang bagus, tetapi menuntut pengakuan merek.",
+      "title": "Tawaran Sponsor"
+    },
+    "stat": {
+      "clinicalConversion": "🎯 Clinical finisher! {rate}% shot conversion rate.",
+      "exceptionalPassing": "🎯 Exceptional passing accuracy: {rate}%",
+      "xGElite": "🎯 CLINICAL FINISHER! Outperformed xG by {percent}% - elite efficiency!",
+      "xGGood": "🎯 Clinical finisher! Exceeded xG expectations by {percent}%"
+    },
+    "suspension": {
+      "redCard": "Received {count} red card(s) in {competition}. Will serve {count} match suspension(s) next season."
+    },
+    "tax": {
+      "choice_cooperate": "Bekerja sama sepenuhnya",
+      "choice_fight": "Lawan tuduhan",
+      "choice_settle": "Selesaikan diam-diam",
+      "description": "Otoritas pajak sedang menyelidiki keuangan Anda. Ini bisa menjadi serius jika tidak ditangani dengan benar.",
+      "title": "Penyelidikan Pajak"
+    },
+    "team": {
+      "title": "Team"
+    },
+    "teammate": {
+      "choice_apologize": "Minta maaf",
+      "choice_escalate": "Eskalasi konflik",
+      "choice_stand": "Pertahankan posisi Anda",
+      "description": "Pertengkaran dengan rekan setim memanas di ruang ganti. Ketegangan tinggi.",
+      "title": "Konflik Rekan Setim"
+    },
+    "teammateInteraction": {
+      "choice_bond": "Habiskan waktu berkualitas bersama",
+      "choice_compete": "Sarankan tantangan kompetitif",
+      "choice_professional": "Tetap profesional",
+      "description": "Seorang rekan setim mengundang Anda keluar setelah latihan. Bisa memperkuat ikatan.",
+      "title": "Interaksi Rekan Setim"
+    },
+    "training": {
+      "title": "Training"
+    },
+    "trainingDecision": {
+      "choice_balanced": "Pendekatan seimbang",
+      "choice_extra": "Sesi ekstra setiap hari",
+      "choice_rest": "Prioritaskan istirahat",
+      "description": "Manajer menawarkan sesi latihan ekstra opsional. Berapa banyak usaha yang ingin Anda dedikasikan?",
+      "title": "Keputusan Latihan"
+    },
+    "trait": {
+      "bigGamePlayer": "Proven track record in finals and crucial matches earned the 'Big Game Player' trait.",
+      "clinicalFinisher": "A lethal season in front of goal earned the 'Clinical Finisher' trait.",
+      "composure": "Ice-cold mentality in pressure situations earned the 'Composure' trait.",
+      "discipline": "Exemplary conduct on the pitch earned the 'Discipline' trait.",
+      "dribblingWizard": "Mesmerizing dribbling displays earned the 'Dribbling Wizard' trait.",
+      "engine": "Relentless work rate all season earned the 'Engine' trait.",
+      "injuryProne": "A concerning injury history has resulted in the 'Injury Prone' trait.",
+      "injuryProneLost": "Dedicated fitness work has overcome previous injury concerns.",
+      "leadership": "Developed into a natural leader, earning the 'Leadership' trait.",
+      "oneClubMan": "Became a true club legend, earning the 'One-Club Man' trait after years of loyal service.",
+      "playmaker": "Orchestrated attacks all season long, earning the 'Playmaker' trait.",
+      "powerHeader": "Aerial dominance throughout the season earned the 'Power Header' trait.",
+      "setpieceSpecialist": "Mastery of dead-ball situations earned the 'Set-piece Specialist' trait.",
+      "speedMerchant": "Blistering pace has become their trademark, earning the 'Speed Merchant' trait.",
+      "twoFooted": "Years of practice have perfected their weaker foot, gaining the 'Two-Footed' trait.",
+      "versatile": "Years of playing different roles earned the 'Versatile' trait.",
+      "weakFootLost": "Practice has significantly improved their weaker foot."
+    },
+    "transfer": {
+      "ambitiousWantsMove": "Ambitious nature driving desire to compete at highest level - wants move to bigger club.",
+      "crisis": "💔 CRISIS! After {seasons} seasons of minimal game time, relationship with club has broken down irreparably. Transfer is inevitable.",
+      "historicRival": "RIVAL BERSEJARAH",
+      "loanConversion": "Signed permanently by {team} after loan spell. Fee: Â£{fee}M",
+      "loaned": "Dipinjamkan ke {team} selama {duration} musim.",
+      "loyalQuestioningFuture": "Despite loyalty, beginning to question future at the club after lack of opportunities.",
+      "playerRequestedMove": "✈️ Pemain secara publik meminta transfer! Setelah satu musim tanpa pergerakan, klub terpaksa menegoosiasikan kepergiannya.",
+      "playerWantsOut": "Pemain menyatakan keinginan untuk meninggalkan klub. Agen sedang menjajaki opsi transfer.",
+      "regular": "Transfer ke {toTeam}.",
+      "rival": "RIVAL",
+      "rivalMove": "💥 TRANSFER BERSEJARAH! Pindah dari {fromTeam} ke rival abadi {toTeam}! Fans sangat marah!",
+      "signedFreeAgent": "Bergabung dengan {team} sebagai Agen Bebas.",
+      "temperamentalOutburst": "Ledakan temperamental! Menuntut transfer segera setelah insiden di tempat latihan.",
+      "title": "Transfer",
+      "traitor": "PENGKHIANAT",
+      "transferred": "Ditransfer ke {team} dengan biaya €{fee} juta."
+    },
+    "trophy": {
+      "clubWorldCup": "🏆 Pemenang Turnamen Klub Dunia!",
+      "continental": "ðŸ† {competition} Winner!",
+      "continentalCupChampions": {
+        "brace": "🏆 {country} memenangkan Piala Kontinental! Penampilan luar biasa dengan {goals} gol membantu memastikan kemenangan!",
+        "crucialGoal": "🏆 {country} memenangkan Piala Kontinental! Gol krusial dalam kemenangan yang sulit!",
+        "commandingDisplay": "🏆 {country} memenangkan Piala Kontinental! Tampilan dominan yang mengarah pada kemenangan yang pantas!",
+        "tenseBattle": "🏆 {country} memenangkan Piala Kontinental! Tim melaju setelah pertempuran tegang!",
+        "importantVictory": "🏆 {country} memenangkan Piala Kontinental! Kemenangan penting menjaga perjalanan tetap hidup!"
+      },
+      "cup": "ðŸ† Cup Winner!",
+      "league": "ðŸ† League Champion with {team}!",
+      "nationsLeague": "🏆 Pemenang Turnamen Bangsa-Bangsa!",
+      "nationsLeagueChampions": {
+        "brace": "🏆 JUARA LIGA BANGSA-BANGSA! {country} mengalahkan {opponent}! Penampilan luar biasa dengan {goals} gol membantu memastikan kemenangan!",
+        "crucialGoal": "🏆 JUARA LIGA BANGSA-BANGSA! {country} mengalahkan {opponent}! Gol krusial dalam kemenangan yang sulit!",
+        "commandingDisplay": "🏆 JUARA LIGA BANGSA-BANGSA! {country} mengalahkan {opponent}! Tampilan dominan yang mengarah pada kemenangan yang pantas!",
+        "tenseBattle": "🏆 JUARA LIGA BANGSA-BANGSA! {country} mengalahkan {opponent}! Tim melaju setelah pertempuran tegang!",
+        "importantVictory": "🏆 JUARA LIGA BANGSA-BANGSA! {country} mengalahkan {opponent}! Kemenangan penting menjaga perjalanan tetap hidup!"
+      },
+      "won": "ðŸ† Won the {competition}!",
+      "wonYouth": "🏆 Memenangkan Kompetisi Pemuda!",
+      "worldCup": "ðŸŒðŸ† WORLD CUP WINNER! A Legend is born!",
+      "worldCupChampions": "ðŸ† {country} won the Turnamen Dunia!"
+    },
+    "urgentDecision": "⚠️ Keputusan mendesak diperlukan!",
+    "viral": {
+      "celebration": "Selebrasi ikonik menjadi tren internet baru.",
+      "charity": "Gerakan amal dipuji luas di media sosial.",
+      "controversy": "Terlibat dalam kontroversi viral yang memecah pendapat.",
+      "fashion": "Pilihan fashion di acara publik menjadi bahan pembicaraan.",
+      "gaming": "Streaming gaming menarik penonton besar dan penggemar baru.",
+      "goal": "Mencetak gol spektakuler yang viral di media sosial!",
+      "interview": {
+        "negative": "Wawancara kontroversial memicu debat panas online.",
+        "positive": "Wawancara menawan memenangkan hati penggemar dan media."
+      },
+      "skill": "Gerakan skill luar biasa dibagikan jutaan penggemar."
+    }
+  },
+  "contractTermination": {
+    "alreadyTerminatedDesc": "You have already terminated a contract this season. Contract termination is limited to once per season to maintain career stability.",
+    "alreadyTerminatedTitle": "Termination already performed this season",
+    "back": "Kembali",
+    "blockedTitle": "Action not available",
+    "cancel": "Batal",
+    "club": "Klub",
+    "confirmButton": "Konfirmasi Pemutusan",
+    "confirmQuestion": "Apakah Anda yakin ingin melanjutkan?",
+    "contractRemaining": "Sisa Kontrak",
+    "processing": "Memproses pemutusan...",
+    "simpleConsequenceDesc": "Dengan mengkonfirmasi, kontrak Anda akan diputus dan Anda akan langsung masuk daftar transfer.",
+    "simpleConsequenceTitle": "Anda akan tanpa klub",
+    "subtitle": "PERINGATAN: Tindakan ini tidak dapat dibatalkan!",
+    "title": "Putuskan Kontrak",
+    "understood": "Saya Memahami Risikonya",
+    "waitNextSeasonHint": "You can terminate your contract again next season if necessary.",
+    "warningFreeAgent": "Anda akan menjadi PEMAIN BEBAS",
+    "warningLessInterest": "Lebih sedikit klub akan menunjukkan minat",
+    "warningLowerWages": "Klub akan menawarkan gaji 25% lebih rendah",
+    "year": "tahun",
+    "years": "tahun",
+    "yearsAtClub": "Tahun di Klub"
+  },
+  "debut": "Debut Profesional",
+  "media": {
+    "drought": {
+      "assists": {
+        "1": "Krisis kreativitas? Tidak ada assist dalam 5 pertandingan.",
+        "2": "Di mana bola terakhir? Playmaker kesulitan."
+      },
+      "goals": {
+        "1": "Paceklik gol berlanjut: 5 pertandingan tanpa mencetak gol.",
+        "2": "Striker tumpul: Apakah kepercayaan diri masalahnya?",
+        "3": "Sepuluh pertandingan, nol gol. Krisis untuk nomor 9.",
+        "completed": "Selesai"
+      }
+    },
+    "fan": {
+      "neg": {
+        "1": "\"Needs to decide in big games\" â€” fans want more decisive actions.",
+        "2": "End product below expected â€” consistency in question.",
+        "3": "Apakah peran {style} ideal? Debat memanas di antara penggemar.",
+        "4": "Tidak terlihat hari ini.",
+        "5": "Nenek saya berlari lebih cepat.",
+        "6": "Keluar dari klub saya!",
+        "7": "Penampilan memalukan."
+      },
+      "neu": {
+        "1": "Solid season â€” reliable presence at {team}.",
+        "2": "\"Underrated without the ball\" â€” pressure and support stand out.",
+        "3": "Produksi konstan: {goals} G, {assists} A. Langkah selanjutnya: naluri pembunuh.",
+        "4": "Usaha lumayan, kurang kualitas.",
+        "5": "Bisa lebih baik.",
+        "6": "Tidak ada yang istimewa.",
+        "7": "Biasa saja."
+      },
+      "pos": {
+        "1": "Fans already call him an idol â€” delivery and intensity high.",
+        "2": "\"Pelajaran lain dalam {style}.\" Rating rata-rata {rating} berbicara sendiri.",
+        "3": "Crowd says he's carrying the {team} â€” {gpg} G/90, {apg} A/90.",
+        "4": "Man of the match pastinya.",
+        "5": "Performa luar biasa!",
+        "6": "Bernilai setiap sen!",
+        "7": "Raja lapangan! 👑",
+        "8": "Tak terbendung!",
+        "9": "Sihir! ✨",
+        "10": "Kualitas top."
+      }
+    },
+    "hater": {
+      "shots": {
+        "1": "Makes numbers against weak teams â€” disappears when it matters.",
+        "2": "All hype, little impact â€” numbers deceive.",
+        "3": "Overrated â€” system player who doesn't carry the team.",
+        "4": "Header or thigh goals — no class at all.",
+        "5": "Hurts to watch — terrible technical level.",
+        "6": "Not worth half what they paid — complete flop.",
+        "7": "Stats inflated by easy games — real test will expose."
+      }
+    },
+    "pundit": {
+      "neg": {
+        "1": "Question impact in big games â€” aggressive marking neutralizes him.",
+        "2": "Keraguan tentang keberlanjutan tanpa meningkatkan kualitas peluang.",
+        "3": "Analysts concerned about lack of progression.",
+        "4": "Season below expectations — evident regression.",
+        "5": "Technical limitations exposed at high level."
+      },
+      "neu": {
+        "1": "Komentator melihat pertumbuhan konstan; batas atas tergantung keputusan di sepertiga akhir.",
+        "2": "Analis taktis: eksekusi benar; keuntungan marjinal bisa membuka level lain.",
+        "3": "Good player — lacks that special something to be a star.",
+        "4": "Solid numbers but no decisive impact.",
+        "5": "Reliable professional — doesn't excite or disappoint."
+      },
+      "pos": {
+        "1": "Commentators highlight movement and timing â€” looks like a complete {position}.",
+        "2": "Analis menunjuk pemilihan tembakan dan penciptaan peluang di level elite.",
+        "3": "Great game reading — always in the right position.",
+        "4": "Quick and precise decisions — smart player.",
+        "5": "Model of consistency — rarely makes mistakes."
+      }
+    },
+    "narrativeChange": {
+      "Prodigy": "Naratif media berubah menjadi: 'Prodigy'",
+      "OntheRise": "Naratif media berubah menjadi: 'On the Rise'",
+      "EstablishedStar": "Naratif media berubah menjadi: 'Established Star'",
+      "UnderPressure": "Naratif media berubah menjadi: 'Under Pressure'",
+      "Journeyman": "Naratif media berubah menjadi: 'Journeyman'",
+      "VeteranLeader": "Naratif media berubah menjadi: 'Pemimpin Veteran'",
+      "VeteranStar": "Naratif media berubah menjadi: 'Bintang Veteran'",
+      "VeteranRotation": "Naratif media berubah menjadi: 'Rotasi Veteran'",
+      "ForgottenMan": "Naratif media berubah menjadi: 'Forgotten Man'",
+      "Flop": "Naratif media berubah menjadi: 'Flop'",
+      "ComebackKid": "Naratif media berubah menjadi: 'Comeback Kid'",
+      "CultHero": "Naratif media berubah menjadi: 'Cult Hero'",
+      "HometownHero": "Naratif media berubah menjadi: 'Hometown Hero'",
+      "PolarizingFigure": "Naratif media berubah menjadi: 'Polarizing Figure'",
+      "PressDarling": "Naratif media berubah menjadi: 'Press Darling'",
+      "SystemPlayer": "Naratif media berubah menjadi: 'System Player'",
+      "InjuryComeback": "Naratif media berubah menjadi: 'Injury Comeback'"
+    }
+  },
+  "mediaNarrative": {
+    "ComebackKid": {
+      "description": "Membuat comeback impresif setelah menghadapi kemunduran atau form buruk.",
+      "name": "Raja Comeback",
+      "quote1": "How does it feel to be back at the top after so many doubts?",
+      "quote2": "The fans never stopped believing. What does their support mean to you?",
+      "quote3": "Is this the start of a second peak for your career?"
+    },
+    "CultHero": {
+      "description": "Dicintai penggemar karena kepribadian dan koneksi dengan klub.",
+      "name": "Pahlawan Kultus",
+      "quote1": "The connection you have with this club is unique. Can you explain it?",
+      "quote2": "You've become a symbol for the fans. Does that add extra pressure?",
+      "quote3": "What makes this particular club feel like home for you?"
+    },
+    "EstablishedStar": {
+      "description": "Pemain terbukti yang secara konsisten tampil di level tertinggi.",
+      "name": "Bintang Mapan",
+      "quote1": "As one of the league's top stars, what are your goals this season?",
+      "quote2": "Many young players look up to you. How do you handle that role?",
+      "quote3": "Do you feel any extra pressure to perform in the big games?"
+    },
+    "Flop": {
+      "description": "Gagal memenuhi ekspektasi dan menghadapi kritik signifikan.",
+      "name": "Gagal",
+      "quote1": "Critics have been harsh. Do you feel you've had a fair chance?",
+      "quote2": "What would you say to those who labeled you a transfer failure?",
+      "quote3": "How are you working to turn your fortunes around at the club?"
+    },
+    "ForgottenMan": {
+      "description": "Berjuang untuk membuat dampak dan kesempatan terbatas.",
+      "name": "Orang yang Terlupakan",
+      "quote1": "It's been a while since we've seen you on the pitch. How are you feeling?",
+      "quote2": "Do you feel you still have a future under this management?",
+      "quote3": "Are you considering a move to get more playing time elsewhere?"
+    },
+    "HometownHero": {
+      "description": "Ikon lokal yang ikatannya dengan basis penggemar mengangkat klub.",
+      "name": "Pahlawan Lokal",
+      "quote1": "Representing your hometown must be special. How is the feeling?",
+      "quote2": "You're a role model for local kids. What is your message to them?",
+      "quote3": "Do you see yourself staying here for the long term?"
+    },
+    "InjuryComeback": {
+      "description": "Berjuang kembali dari cedera—ketahanan dan lintasan diawasi.",
+      "name": "Kembali dari Cedera",
+      "quote1": "It's been a long recovery. How physically ready do you feel?",
+      "quote2": "What was the hardest part about being away from the pitch?",
+      "quote3": "Are you taking extra precautions to avoid another setback?"
+    },
+    "Journeyman": {
+      "description": "Pemain berpengalaman yang telah bermain untuk banyak klub sepanjang kariernya.",
+      "name": "Pengembara",
+      "quote1": "You've played in many places. How do you adapt so quickly?",
+      "quote2": "What's the most valuable lesson you've learned from your travels?",
+      "quote3": "Are you looking for more stability, or do you enjoy the variety?"
+    },
+    "OntheRise": {
+      "description": "Diidentifikasi sebagai salah satu prospek paling panas di liga.",
+      "name": "Sedang Naik Daun",
+      "quote1": "Your performance has caught everyone's eye. How are you handling the hype?",
+      "quote2": "Many big clubs are reportedly watching you. Does that distract you?",
+      "quote3": "What's the next step in your development as a player?"
+    },
+    "PolarizingFigure": {
+      "description": "Membagi pendapat—momen cemerlang dan momen frustrasi.",
+      "name": "Figur Kontroversial",
+      "quote1": "You seem to split opinion. Why do you think that is?",
+      "quote2": "Does the criticism you receive affect your game at all?",
+      "quote3": "Do you feel misunderstood by the media and the public?"
+    },
+    "PressDarling": {
+      "description": "Magnet berita utama—karisma dan daya jual dipamerkan.",
+      "name": "Kesayangan Media",
+      "quote1": "The media seems to love you. Does that help your confidence?",
+      "quote2": "You're always in the headlines for good reasons. What's the secret?",
+      "quote3": "How important is it for a player to maintain a good image?"
+    },
+    "Prodigy": {
+      "description": "Bakat muda dengan potensi luar biasa, sudah membuat gebrakan di dunia sepak bola.",
+      "name": "Anak Ajaib",
+      "quote1": "Being called a 'prodigy' at such a young age—how does it feel?",
+      "quote2": "Expectations are sky-high. Can you live up to the 'generational' label?",
+      "quote3": "What is your main focus as you start this promising career?"
+    },
+    "SystemPlayer": {
+      "description": "Berkembang dalam struktur; kontribusi melebihi angka mentah.",
+      "name": "Pemain Sistem",
+      "quote1": "You fit this system perfectly. Are you worried about other tactics?",
+      "quote2": "Some say you only look this good because of the setup. Reactions?",
+      "quote3": "Can you adapt your game if the manager changes the approach?"
+    },
+    "UnderPressure": {
+      "description": "Menghadapi kritik dan perlu meningkatkan permainan untuk membuktikan para skeptis salah.",
+      "name": "Di Bawah Tekanan",
+      "quote1": "Performances haven't been at your usual level. What's going on?",
+      "quote2": "The fans are starting to get restless. Do you feel you're being treated fairly?",
+      "quote3": "How do you plan to silence the critics in the upcoming matches?"
+    },
+    "VeteranLeader": {
+      "description": "Sosok yang dihormati di ruang ganti dengan pengalaman bertahun-tahun.",
+      "name": "Pemimpin Veteran",
+      "quote1": "Your experience is vital for this young squad. How do you lead them?",
+      "quote2": "How much longer do you see yourself playing at this high level?",
+      "quote3": "What is the most important advice you give to the young players?"
+    },
+    "VeteranRotation": {
+      "description": "Veteran berpengalaman yang memberikan kedalaman skuad dan kepemimpinan dalam rotasi.",
+      "name": "Rotasi Veteran",
+      "quote1": "Anda telah pindah ke peran rotasi. Bagaimana Anda menjaga ketajaman di antara pertandingan?",
+      "quote2": "Pengalaman Anda sangat vital bagi skuad. Bagaimana Anda membantu para pemain muda?",
+      "quote3": "Apakah Anda senang dengan peran Anda saat ini, atau Anda masih merasa harus menjadi starter?"
+    },
+    "VeteranStar": {
+      "description": "Veteran elit yang terus memberikan performa level bintang.",
+      "name": "Bintang Veteran",
+      "quote1": "Anda masih tampil lebih baik dari pemain yang usianya setengah dari Anda. Apa rahasia umur panjang Anda?",
+      "quote2": "Banyak yang mengira Anda akan menurun, namun Anda justru memainkan sepak bola terbaik Anda. Bagaimana caranya?",
+      "quote3": "Sebagai bintang veteran, apakah Anda merasa lebih bertanggung jawab di momen-momen besar?"
+    }
+  },
+  "news": {
+    "retirement": "Pengumuman Pensiun",
+    "toty": "Tim Tahun Ini Diumumkan",
+    "transfer": "Berita Transfer"
+  },
+  "performance": {
+    "below_expectations": "Di Bawah Ekspektasi",
+    "excellent_season": "Musim Luar Biasa",
+    "outstanding_season": "Musim Istimewa"
+  },
+  "progression": {
+    "age_decline": "Penurunan Usia",
+    "exceptional_development": "Perkembangan Luar Biasa",
+    "maintained_fitness": "Kebugaran Terjaga",
+    "physical_decline": "Penurunan Fisik",
+    "strong_development": "Perkembangan Kuat",
+    "struggled_development": "Perkembangan Terhambat"
+  },
+  "reactions": {
+    "business": {
+      "invest": {
+        "headline1": "Pemain Berinvestasi di Bisnis Lokal"
+      }
+    },
+    "interview": {
+      "diplomatic": {
+        "headline1": "Respons Diplomatis Meredakan Ketegangan"
+      },
+      "honest": {
+        "fan1": "Suka kejujurannya! 👏",
+        "fan2": "Akhirnya seseorang mengatakan kebenaran.",
+        "headline1": "Pemain Bicara Kebenaran dalam Wawancara Eksplosif",
+        "headline2": "Komentar jujur memicu perdebatan"
+      },
+      "refuse": {
+        "headline1": "Pemain Meninggalkan Wawancara dengan Marah"
+      }
+    },
+    "media_interview": {
+      "confident": {
+        "fan1": "Itulah kepercayaan diri yang kita butuhkan! 💪",
+        "headline1": "Pemain Percaya Diri Siap Hadapi Tantangan"
+      },
+      "humble": {
+        "fan1": "Sangat rendah hati meskipun berbakat. ❤️",
+        "headline1": "Pemain Rendah Hati Memuji Rekan Setim"
+      }
+    },
+    "mentor": {
+      "accept": {
+        "fan1": "Panutan hebat untuk anak-anak!",
+        "headline1": "Pemain Membimbing Pemuda"
+      }
+    },
+    "nightclub": {
+      "apologize": {
+        "fan1": "Permintaan maaf diterima. Lanjut.",
+        "headline1": "Pemain Meminta Maaf atas Malam Keluar"
+      },
+      "blame": {
+        "fan1": "Selalu menyalahkan orang lain... 😒",
+        "headline1": "Pemain Menyangkal Tanggung Jawab dalam Keributan Klub Malam",
+        "headline2": "Saksi Membantah Pernyataan Pemain"
+      }
+    },
+    "outburst": {
+      "delete": {
+        "fan1": "Screenshot bertahan selamanya! 😂",
+        "headline1": "Pemain Menghapus Tweet Kontroversial"
+      },
+      "double_down": {
+        "fan1": "Dia tidak mundur! 🍿",
+        "fan2": "Ini semakin memalukan...",
+        "headline1": "Pemain Membela Komentar Kontroversial",
+        "headline2": "Badai Media Sosial Meningkat"
+      }
+    },
+    "relationship": {
+      "private": {
+        "fan1": "Hak privasi. Hormat."
+      },
+      "public": {
+        "fan1": "Pasangan idaman! 😍",
+        "fan2": "Siapa peduli? Main bola saja.",
+        "headline1": "Pemain Mengumumkan Hubungan ke Publik"
+      }
+    },
+    "tax": {
+      "cooperate": {
+        "headline1": "Pemain Bekerja Sama dengan Otoritas"
+      },
+      "fight": {
+        "fan1": "Lawan sistem! ✊",
+        "headline1": "Pemain Menentang Tuduhan Pajak"
+      },
+      "settle": {
+        "headline1": "Kasus Pajak Diselesaikan di Luar Pengadilan"
+      }
+    },
+    "transfer": {
+      "agitation_1": "tidak betah di klub",
+      "agitation_2": "mendesak kepindahan",
+      "agitation_3": "menuntut transfer",
+      "warning_1": "Peringatan Klub",
+      "warning_2": "Peringatan Terakhir",
+      "warning_3": "Tindakan Disipliner"
+    }
+  },
+  "retirement": {
+    "future": {
+      "academy": "Direktur Akademi Pemuda",
+      "ambassador": "Duta Klub",
+      "coaching": "Staf Pelatih",
+      "outside_football": "Kehidupan di Luar Sepak Bola",
+      "punditry": "Pundit Media"
+    },
+    "reason": {
+      "injury": "Cedera Berulang"
+    },
+    "tribute": {
+      "defied_time": "Melawan Waktu",
+      "early_injury": "Karier Terpotong Pendek",
+      "great_injury": "Akhir Tragis dari Kebesaran",
+      "icon": "Ikon Sepak Bola",
+      "journeyman": "Petualang Sepak Bola",
+      "legend": "Legenda Klub",
+      "professional": "Profesional Panutan",
+      "star": "Pemain Bintang",
+      "unfortunate_end": "Akhir yang Tidak Menguntungkan",
+      "very_early_injury": "Pensiun Dini yang Memilukan"
+    }
+  },
+  "social": {
+    "socialMedia": "Media Sosial",
+    "viewComments": "Lihat Komentar",
+    "engagement": "Keterlibatan",
+    "viralMoments": "{count} Momen Viral!",
+    "recentComments": "Komentar Terbaru",
+    "followers": "Pengikut",
+    "growth": "Pertumbuhan",
+    "noNews": "Tidak ada berita terbaru",
+    "noSponsors": "Tidak ada sponsor aktif",
+    "pendingOffers": "{count} penawaran tertunda",
+    "publicComments": "Komentar Publik",
+    "noComments": "Belum ada komentar",
+    "reply": "Balas",
+    "pressInterview": "Konferensi Pers",
+    "selectQuestion": "Pilih pertanyaan",
+    "viewInterview": "Lihat hasil Wawancara",
+    "newsFeed": "Berita",
+    "recentHeadlines": "Judul Utama Terbaru",
+    "seasonWeek": "Musim {season}, Minggu {week}",
+    "homeCountry": "Popularitas Negara Asal",
+    "currentCountry": "Popularitas Negara Saat Ini",
+    "globalRating": "Peringkat Global",
+    "fans": "Fans",
+    "press": "Pers",
+    "popularity": "Popularitas",
+    "relationships": "Hubungan",
+    "sponsors": "Sponsor",
+    "totalSponsorIncome": "Total Pendapatan Sponsor",
+    "contractUntil": "Kontrak hingga {season}",
+    "totalSponsors": "{count} sponsor",
+    "perWeek": "/minggu",
+    "noSponsorsYet": "Belum ada sponsor",
+    "teamChemistry": "Kekompakan Tim",
+    "level": {
+      "unknown": "Tidak Dikenal",
+      "local": "Lokal",
+      "regional": "Regional",
+      "national": "Nasional",
+      "continental": "Benua",
+      "global": "Global",
+      "legend": "Legenda"
+    },
+    "relationship": {
+      "hated": "Dibenci",
+      "disliked": "Tidak Disukai",
+      "neutral": "Netral",
+      "liked": "Disukai",
+      "adored": "Dipuja",
+      "loved": "Dicintai"
+    },
+    "tier": {
+      "bronze": "Sponsor Bronze",
+      "silver": "Sponsor Silver",
+      "gold": "Sponsor Gold",
+      "platinum": "Sponsor Platinum",
+      "diamond": "Sponsor Diamond"
+    },
+    "comments": {
+      "daysAgo": "{count}h yang lalu",
+      "hoursAgo": "{count}j yang lalu",
+      "minutesAgo": "{count}m yang lalu"
+    },
+    "seasonComments": {
+      "excited": "Sangat antusias untuk musim baru! Ayo {team}! 🔥",
+      "expectations": "Ekspektasi besar untuk {name} tahun ini. Bisakah dia menunjukkannya?",
+      "newSeason": "Musim baru, target baru. Saatnya bersinar!"
+    },
+    "formComments": {
+      "bestPlayer": "Apakah ada yang lebih baik dari {name} saat ini? Performa yang luar biasa!",
+      "disappointed": "Performa mengecewakan belakangan ini. Kami tahu kamu bisa lebih baik!",
+      "incredible": "Penampilan luar biasa lagi. Konsistensi adalah kunci.",
+      "needsRest": "Terlihat agak lelah di lapangan. Mungkin istirahat akan membantu?",
+      "onFire": "{name} sedang dalam performa terbaik belakangan ini! 🔥",
+      "sellHim": "Saatnya mencari opsi lain. Ini tidak berhasil.",
+      "struggling": "{name} sedang kesulitan menemukan ritmenya. Harus lebih baik lagi.",
+      "worldClass": "Pemain kelas dunia! ⭐ {name} menunjukkan mengapa dia termasuk elit."
+    },
+    "goalComments": {
+      "goldenBoot": "Sepatu Emas sudah di depan mata? {name} tidak terbendung!",
+      "hatTrickHero": "Hat-trick lagi? {name} sedang mencetak sejarah!",
+      "machineMode": "Mode mesin gol: AKTIF! 🤖⚽",
+      "unstoppable": "Kamu tidak bisa menghentikan {name} saat dia dalam kondisi seperti ini."
+    },
+    "youthComments": {
+      "futurestar": "Masa depan cerah! {name} adalah calon bintang besar. ⭐",
+      "nextGeneration": "Generasi berikutnya telah tiba. Kedewasaan yang luar biasa dari {name}.",
+      "protect": "Kita perlu menjaga talenta ini. Dia adalah masa depan {team}.",
+      "wonderkid": "Peringatan wonderkid! 💎 Anak ini istimewa."
+    },
+    "veteranComments": {
+      "experience": "Kamu bisa melihat pengaruhnya di lapangan. Kepemimpinan sejati.",
+      "legend": "Legenda sejati. Pengalaman adalah sesuatu yang tidak bisa dibeli. 🍷",
+      "retire": "Mungkin sudah waktunya gantung sepatu... masa jayanya sudah lewat.",
+      "stillGotIt": "Usia {age} dan masih menunjukkan kepada pemain muda cara bermain yang benar!"
+    },
+    "injuryComments": {
+      "comeBack": "Kembali lebih kuat! Kami semua mendukungmu. 💪",
+      "getWell": "Cepat sembuh {name}! Tim membutuhkanmu. 🙏",
+      "missYou": "Sepak bola terasa berbeda tanpamu di lapangan. Menyedihkan."
+    },
+    "transferComments": {
+      "goodLuck": "Semoga sukses di babak selanjutnya. Terima kasih atas kenangannya!",
+      "stayPlease": "Tolong jangan tinggalkan kami, {name}! Kamu adalah pahlawan di sini. ❤️",
+      "traitor": "Tega sekali kamu! Pengkhianat! 🐍",
+      "understand": "Saya mengerti kepindahan ini, tapi tetap sakit melihatmu pergi."
+    },
+    "eventComments": {
+      "autograph": "Mendapat tanda tangan dari {name}! Hidupku sudah lengkap. ⭐",
+      "dedication": "Suka dengan dedikasi yang ditunjukkan {name} di setiap sesi latihan.",
+      "goodPerson": "Di luar lapangan, {name} adalah orang yang lebih baik lagi. Panutan! ❤️",
+      "hardWorker": "Selalu jadi yang pertama datang dan terakhir pulang. Pekerja keras! 💪",
+      "metHim": "Baru saja bertemu {name}! Orangnya sangat rendah hati. Legenda! 😍",
+      "roleModel": "Senang melihat pemain berkontribusi untuk komunitas. Hormat!",
+      "soNice": "Melihat {name} hari ini, dia berfoto dengan semua orang. Sangat ramah!"
+    },
+    "generalComments": {
+      "letGo": "Terkadang kamu hanya harus membiarkan permainan sepak bola yang berbicara.",
+      "proud": "Sangat bangga dengan perjalananmu sejauh ini. Terus buat kami bahagia!",
+      "support": "Selalu mendukungmu, {name}! Teruslah melangkah! 👏",
+      "watching": "Memperhatikan dengan saksama... tunjukkan kemampuanmu!"
+    },
+    "headlines": {
+      "awardNomination": "{player} dinominasikan untuk penghargaan bergengsi.",
+      "awardWon": "Kemenangan! {player} memenangkan penghargaan!",
+      "badForm": "Pertanyaan muncul terkait performa terkini {player}.",
+      "cleanSheetStreak": "Clean sheet lagi untuk {player}!",
+      "controversy": "Breaking: {player} terlibat dalam kontroversi.",
+      "generic": "Update tentang musim {player}.",
+      "hatTrick": "{player} mencetak hat-trick yang memukau!",
+      "injuryReturn": "{player} kembali dari cedera.",
+      "nationalCallup": "Panggilan tugas internasional untuk {player}.",
+      "newContract": "{player} menandatangani kontrak baru.",
+      "scoringStreak": "{player} tidak berhenti mencetak gol!",
+      "topScorer": "{player} memimpin daftar pencetak gol!",
+      "transferred": "Resmi: {player} menyelesaikan transfer."
+    },
+    "interview": {
+      "q1": "Bagaimana perasaan Anda tentang performa Anda saat ini?",
+      "q2": "Apa target Anda untuk musim ini?",
+      "q3": "Pesan apa yang ingin Anda sampaikan kepada fans?"
+    },
+    "narrative": {
+      "ComebackKid": "Perubahan yang luar biasa! Tidak pernah meragukannya! 😉",
+      "CultHero": "Bangun patung untuknya sekarang! Legenda mutlak! 🗿",
+      "EstablishedStar": "Konsistensi yang nyata. Selalu memberikan yang terbaik. 👏",
+      "Flop": "Benar-benar buang-buang uang. Singkirkan dia! 🗑️",
+      "ForgottenMan": "Saya benar-benar lupa dia masih bermain untuk kita...",
+      "HometownHero": "Salah satu milik kita! Menjalani mimpi! ❤️",
+      "InjuryComeback": "Sangat senang melihatnya kembali ke lapangan! 🙏",
+      "Journeyman": "Klub lain lagi? Orang ini punya lebih banyak cap paspor daripada pilot! ✈️",
+      "OntheRise": "Dia terus menjadi lebih baik setiap minggu! 📈",
+      "PolarizingFigure": "Kamu menyukainya atau membencinya. Tidak ada di antaranya.",
+      "PressDarling": "Media menyukainya, tapi apakah dia menunjukkannya di lapangan? 🤔",
+      "Prodigy": "Talenta lintas generasi! Kita sedang menyaksikan kehebatan! 🌟",
+      "SystemPlayer": "Hanya terlihat bagus karena sistem. Terlalu tinggi dinilai.",
+      "UnderPressure": "Dia hancur di bawah beban ekspektasi...",
+      "VeteranLeader": "Pemimpin sejati di lapangan. Kami butuh pengalamannya."
+    },
+    "reactions": {
+      "assist1": "Visi yang hebat! 👀",
+      "assist2": "Umpan yang luar biasa! 🎯",
+      "award1": "Sangat layak! 🏆",
+      "award2": "Terbaik di dunia! 🌍",
+      "award3": "Akhirnya diakui!",
+      "goal1": "Mesin gol! ⚽",
+      "goal2": "Tendangan yang hebat! 🚀",
+      "goal3": "Dia tidak berhenti mencetak gol! 🔥",
+      "injury1": "Cepat sembuh! 🙏",
+      "injury2": "Kembali lebih kuat! 💪",
+      "transfer1": "Selamat datang di klub! 🔵",
+      "transfer2": "Sedih melihatmu pergi. Terima kasih untuk segalanya! ❤️"
+    }
+  },
+  "transfer": {
+    "agitation_1": "Frustrasi yang meningkat memicu rumor transfer.",
+    "agitation_2": "Hubungan dengan klub mencapai titik kritis.",
+    "agitation_3": "Permintaan transfer resmi diajukan.",
+    "warning_1": "Peringatan pertama dikeluarkan terkait perilaku.",
+    "warning_2": "Peringatan kedua: perbaikan diperlukan segera.",
+    "warning_3": "Peringatan terakhir sebelum masuk daftar jual."
+  }
+}

@@ -1,0 +1,1556 @@
+{
+  "agent": {
+    "reputation": {
+      "Average": "普通",
+      "Good": "良好",
+      "Rookie": "ルーキー",
+      "Super Agent": "スーパーエージェント"
+    },
+    "specialty": {
+      "BrandBuilder": "ブランドビルダー",
+      "Negotiator": "交渉人",
+      "Scout": "スカウト",
+      "balanced": "バランス型",
+      "contract": "契約交渉",
+      "sponsorship": "スポンサーシップ",
+      "transfer": "移籍"
+    },
+    "style": {
+      "Adaptable": "適応力",
+      "Aggressive": "アグレッシブ",
+      "Ambitious": "野心的",
+      "Analytical": "分析的",
+      "Calm": "冷静",
+      "Charismatic": "カリスマ性",
+      "Dedicated": "献身的",
+      "Energetic": "エネルギッシュ",
+      "Experienced": "経験豊富",
+      "Focused": "集中力",
+      "Friendly": "親善試合",
+      "Honest": "誠実",
+      "Innovative": "革新的",
+      "Methodical": "几帳面",
+      "Motivated": "意欲的",
+      "Networked": "人脈豊富",
+      "Passionate": "情熱的",
+      "Patient": "忍耐強い",
+      "Persistent": "粘り強い",
+      "Precise": "正確",
+      "Professional": "プロフェッショナル",
+      "Reliable": "信頼できる",
+      "Strategic": "戦略的",
+      "Traditional": "伝統的",
+      "Visionary": "先見の明"
+    }
+  },
+  "attributes": {
+    "abbr": {
+      "AGI": "敏捷性",
+      "DEF": "守備",
+      "DIV": "飛込",
+      "DRI": "ドリブル",
+      "FIN": "決定力",
+      "HAN": "ハンドリング",
+      "HEA": "ヘディング",
+      "INT": "遮断",
+      "PAC": "ペース",
+      "PAS": "パス",
+      "PHY": "フィジカル",
+      "POS": "位置取り",
+      "REF": "反射神経",
+      "SHO": "シュート",
+      "STA": "スタミナ",
+      "STR": "筋力",
+      "VIS": "視野"
+    },
+    "acceleration": "加速",
+    "age": "年齢",
+    "aggression": "攻撃性",
+    "agility": "敏捷性",
+    "attacking": "攻撃",
+    "attributeEvolution": "能力値の推移",
+    "balance": "バランス",
+    "ballControl": "ボールコントロール",
+    "composure": "冷静さ",
+    "crossing": "クロス",
+    "currentAge": "現在の年齢",
+    "currentOvr": "現在の総合値",
+    "curve": "カーブ",
+    "defending": "守備",
+    "dribbling": "ドリブル",
+    "events": {
+      "award": {
+        "comeback": "💪 大怪我からの復帰！",
+        "continentalCompTopScorer": "👟 {competition}得点王 ({goals}ゴール)！",
+        "continentalPOTY": "⭐ {competition}の大会最優秀選手に選出！",
+        "continentalTOTT": "👕 {competition}ベストイレブンに選出！",
+        "cupTopScorer": "👟 カップ得点王 ({goals}ゴール)！",
+        "fifaBest": "🏆⭐ シーズン最優秀選手に選出！",
+        "goldenBoot": "👟 リーグ得点王 ({goals}ゴール)！",
+        "goldenBoy": "🧒🏆 若手最優秀選手！ 未来はあなたのもの。",
+        "goldenGlove": "🧤 ゴールデングローブ受賞 (無失点 {cleanSheets}試合)！",
+        "goldenShoe": "🥇 欧州ゴールデンシュー受賞！ ({goals}ゴール)",
+        "leaguePOTY": "🏅 リーグシーズン最優秀選手！",
+        "leaguePositional": "🏅 リーグシーズン最優秀{position}選手！",
+        "playmaker": "🎯 リーグアシストリーダー ({assists} アシスト)！",
+        "puskas": "⚽🔥 年間最優秀ゴール賞受賞！",
+        "rookie": "⭐ リーグ新人王に選出！",
+        "shortlist": "⭐ ゴールデン・トロフィーの候補に選出。",
+        "teamOfTheYear": "👕 リーグベストイレブンに選出。",
+        "worldCupGoldenBall": "🌍🏅 ワールドトーナメントゴールデンボール受賞！",
+        "worldCupGoldenBoot": "👟🌍 ワールドトーナメントゴールデンブーツ受賞！",
+        "worldCupTOTT": "👕 ワールドトーナメントベストイレブンに選出！",
+        "worldPlayer": "🏆⭐ 世界最優秀選手！地球上で最高の選手として認められました。ナラティブ: {narrative}。"
+      },
+      "debut": "プロデビューを果たした",
+      "firstTitle": "キャリア初のタイトルを獲得した",
+      "performance": {
+        "below_expectations": "期待を下回るシーズン",
+        "excellent_season": "素晴らしいシーズン",
+        "outstanding_season": "傑出したシーズン"
+      },
+      "physical": {
+        "bodyTypeChange": "体格が変化した",
+        "weightLoss": "トレーニングによる減量"
+      },
+      "progression": {
+        "age_decline": "年齢による衰え",
+        "exceptional_development": "驚異的な成長",
+        "maintained_fitness": "コンディションを維持",
+        "physical_decline": "フィジカルの低下",
+        "strong_development": "力強い成長",
+        "struggled_development": "教えに苦しむ"
+      },
+      "retirement": {
+        "earlyCareerEndingInjury": "怪我によりキャリアが短縮された",
+        "earlyInjurySupport": "怪我の後にサポートを受けた",
+        "future": {
+          "academy": "ユースアカデミーでの活動",
+          "ambassador": "クラブアンバサダーの職務",
+          "coaching": "コーチングキャリアの追求",
+          "outside_football": "サッカー以外の興味の追求",
+          "punditry": "解説者への転身"
+        },
+        "reason": {
+          "injury": "怪我により引退"
+        },
+        "tooOld": "高齢により引退",
+        "tragicEarlyInjury": "悲劇的な怪我によりキャリアが早期に終了",
+        "tribute": {
+          "defied_time": "長期にわたり年齢に抗った",
+          "early_injury": "早期の怪我によりキャリアが終了",
+          "great_injury": "素晴らしいキャリアが怪我により短縮",
+          "icon": "サッカーアイコンとして引退",
+          "journeyman": "ジャーニーマンとしてのキャリアを終えて引退",
+          "legend": "クラブレジェンドとして引退",
+          "professional": "真のプロフェッショナルとして引退",
+          "star": "スター選手として引退",
+          "unfortunate_end": "不運なキャリアの終わり",
+          "very_early_injury": "非常に早期の怪我によりキャリアが終了"
+        }
+      },
+      "transfer": {
+        "agitation_1": "不穏な兆候を見せている",
+        "agitation_2": "クラブでの不満が募っている",
+        "agitation_3": "移籍を要求している",
+        "historicRival": "宿敵",
+        "rival": "ライバル",
+        "traitor": "裏切り者",
+        "warning_1": "クラブから第一次警告を受けた",
+        "warning_2": "クラブから第二次警告を受けた",
+        "warning_3": "クラブから最終警告を受けた"
+      },
+      "trophy": {
+        "continental": "🏆 {competition} 優勝！",
+        "cup": "🏆 カップ戦優勝！",
+        "league": "🏆 {team} と共にリーグ制覇！",
+        "worldCup": "🌍🏆 ワールドトーナメント優勝！伝説の誕生です！"
+      },
+      "viral": {
+        "celebration": "セレブレーションがバイラルセンセーションに！",
+        "charity": "慈善活動が称賛と尊敬を得る！",
+        "controversy": "見出しを独占する論争に巻き込まれる！",
+        "fashion": "ファッションの選択がSNSで話題に！",
+        "gaming": "ゲームコンテンツが若いファン層とつながる！",
+        "goal": "信じられないゴールが{views}M回再生でバズる！",
+        "interview": {
+          "negative": "物議を醇すコメントが熱い議論を呼ぶ！",
+          "positive": "正直なインタビューがファンの心をつかむ！"
+        },
+        "skill": "度肘を抜くスキルがネットを騒がせる！"
+      },
+      "youth": {
+        "loanRecommended": "成長のためにレンタル移籍を推奨",
+        "promotedAfterExcellentSeason": "素晴らしいシーズンの後に昇格",
+        "promotedToFirstTeam": "トップチームに昇格",
+        "promotedToReserve": "リザーブチームに昇格",
+        "releasedToProfessional": "プロキャリアのために放出"
+      }
+    },
+    "finishing": "フィニッシュ",
+    "flair": "ひらめき",
+    "foot": {
+      "left": "左",
+      "right": "右"
+    },
+    "footedness": "利き足",
+    "freeKick": "フリーキック",
+    "gkDiving": "GK 飛込",
+    "gkHandling": "GK ハンドリング",
+    "gkKicking": "GK キック",
+    "gkPositioning": "GK ポジショニング",
+    "gkReflexes": "GK 反射神経",
+    "goalkeeping": "ゴールキーピング",
+    "growth": "成長",
+    "heading": "ヘディング",
+    "interceptions": "インターセプト",
+    "jumping": "ジャンプ",
+    "keyAttribute": "キー属性",
+    "leadership": "リーダーシップ",
+    "leftFinishing": "左足での決定力",
+    "legend": "レジェンド",
+    "longPassing": "ロングパス",
+    "longShots": "ロングシュート",
+    "marking": "マーキング",
+    "mental": "メンタル",
+    "mentalAttributes": "メンタル能力",
+    "overall": "総合",
+    "overallEvolution": "総合値の推移",
+    "pace": "スピード",
+    "passing": "パス",
+    "peakAge": "全盛期の年齢",
+    "peakOvr": "全盛期の総合値",
+    "penalties": "ペナルティ",
+    "physical": "フィジカル",
+    "physicalAttributes": "フィジカル能力",
+    "positioning": "ポジショニング",
+    "preferredFoot": "利き足",
+    "ratingColors": "評価の色",
+    "reactions": "反応",
+    "rightFinishing": "右足での決定力",
+    "shooting": "シュート",
+    "shortPassing": "ショートパス",
+    "shotPower": "シュート力",
+    "slidingTackle": "スライディング",
+    "sprintSpeed": "スプリント",
+    "stamina": "スタミナ",
+    "standingTackle": "スタンディングタックル",
+    "strength": "強さ",
+    "technical": "テクニカル",
+    "technicalAttributes": "テクニカル能力",
+    "vision": "ビジョン",
+    "volleys": "ボレー",
+    "weakFoot": "逆足",
+    "workRate": "ワークレート"
+  },
+  "characteristic": {
+    "Aerial Specialist": "空中戦のスペシャリスト",
+    "Big Game Player": "大舞台に強い",
+    "Clinical Finisher": "精密なフィニッシャー",
+    "Dribbling Wizard": "ドリブルの魔術師",
+    "Engine": "エンジン",
+    "Leader": "リーダー",
+    "Playmaker": "プレーメーカー",
+    "Speed Demon": "スピードスター",
+    "aerialDominance": "ほぼすべての空中戦に勝利する",
+    "ballPlayingDefender": "足元の技術に長け、後方からビルドアップする",
+    "ballWinner": "アグレッシブかつ効果的にボールを回収する",
+    "bigGamePlayer": "重要な試合で実力を発揮する"
+  },
+  "expandedAttributes": {
+    "defending": {
+      "slidingTiming": "スライディングのタイミング",
+      "standingTiming": "スタンディングタックルのタイミング"
+    },
+    "finishing": {
+      "headedAccuracy": "ヘディング精度",
+      "oneOnOneFinishing": "1対1の決定力",
+      "placedShots": "プレースシュート",
+      "shotAnticipation": "シュート予測",
+      "volleyTechnique": "ボレーの技術"
+    },
+    "mental": {
+      "concentration": "集中力",
+      "decisions": "決断力"
+    },
+    "passing": {
+      "lobPassAccuracy": "ロブパス精度",
+      "throughBalls": "スルーパス",
+      "weightedPass": "ウェイトのかかったパス"
+    },
+    "speed": {
+      "acceleration": "加速力",
+      "topSpeed": "最高速度"
+    }
+  },
+  "form": {
+    "Average": "普通",
+    "Excellent": "最高",
+    "Good": "良好",
+    "Injured": "負傷中",
+    "OnFire": "絶好調",
+    "Poor": "低調",
+    "Suspended": "出場停止",
+    "VeryPoor": "最悪",
+    "average": "普通",
+    "belowAverage": "平均以下",
+    "excellent": "優秀",
+    "good": "良好",
+    "poor": "低調",
+    "terrible": "ひどい",
+    "veryGood": "非常に良い",
+    "worldClass": "ワールドクラス"
+  },
+  "goals": {
+    "100goals": "キャリア通算100ゴール達成",
+    "almostThere": "あともう少し！",
+    "ballonDor": "Win the ゴールデン・トロフィー",
+    "becomeCaptain": "{team} のキャプテンになる",
+    "becomeClubLegend": "{team} のクラブレジェンドになる ({matches}/200 試合)",
+    "becomeStarter": "{team} のレギュラーに定着する",
+    "breakGoalRecord": "{team} の歴代最多得点記録を更新する ({current}/{record})",
+    "completed": "達成",
+    "desc": {
+      "becomeCaptain": "{club} のキャプテンになる",
+      "becomeClubLegend": "{club} のクラブレジェンドになる",
+      "becomeRegularStarter": "{club} のレギュラーに定着する",
+      "breakClubRecord": "{club} の歴代最多得点記録を更新する",
+      "earnCallUp": "{nationality} 代表への招集を勝ち取る",
+      "firstCleanSheet": "初のプロ初クリーンシートを達成する",
+      "firstProGoal": "プロ初ゴールを記録する",
+      "makeDebut": "プロデビューを飾る",
+      "playTopTier": "トップリーグでプレーする",
+      "reach100Caps": "{nationality} 代表で100キャップに到達する",
+      "reachCareerAssists": "キャリア通算 {target} アシストに到達する",
+      "reachCareerGoals": "キャリア通算 {target} ゴールに到達する",
+      "reachOverall": "総合値 {target} 以上に到達する",
+      "score100CareerGoals": "キャリア通算100ゴールを記録する",
+      "spend10Years": "{club} で10年間過ごす",
+      "winBallonDor": "Win the ゴールデン・トロフィー",
+      "winChampionsLeague": "{club} と共に大陸選手権で優勝する",
+      "winFirstMajorTrophy": "初のメジャータイトルを獲得する（リーグまたは大陸カップ）",
+      "winWorldCup": "Win the ワールドトーナメント with {nationality}"
+    },
+    "emptyDescription": "すべてのレジェンドには始まりがあります。プレーを続けることで、新しい目標がアンロックされます。",
+    "emptyTitle": "あなたの旅はここから始まります",
+    "expired": "期限切れ",
+    "firstCleanSheet": "初の公式戦クリーンシート達成",
+    "firstGoal": "初の公式戦ゴール記録",
+    "firstTrophy": "初のメジャータイトル獲得（リーグまたは大陸カップ）",
+    "legacyOther": "その他の目標",
+    "nationalTeamCallUp": "{country} 代表への初招集",
+    "percentComplete": "完了",
+    "proDebut": "プロデビューを飾る",
+    "progress": "進捗",
+    "reach100Caps": "{country} 代表で100キャップ達成",
+    "reachCareerAssists": "キャリア通算 {count} アシスト達成",
+    "reachCareerGoals": "キャリア通算 {count} ゴール達成",
+    "reachOverallRating": "総合値 {rating} 以上に到達",
+    "rewards": {
+      "agentReputation": "エージェントの評判",
+      "clubApproval": "クラブの認可",
+      "followerBoost": "フォロワー増加",
+      "mediaBoost": "メディア評向上",
+      "moraleBoost": "士気向上",
+      "reputationBoost": "評判向上",
+      "skillPoints": "スキルポイント",
+      "teamChemistry": "チームケミストリー",
+      "title": "報酬",
+      "transferBudget": "移籍予算"
+    },
+    "soClose": "あと一歩！",
+    "spendDecade": "{team} で10年間過ごす",
+    "target": "目標",
+    "topTierLeague": "トップリーグでプレーする",
+    "v2": {
+      "active": "有効",
+      "bands": {
+        "expected": "期待通り",
+        "fail": "未達",
+        "stretch": "挑戦的"
+      },
+      "completed": "達成済み",
+      "expectations": {
+        "assistsLeague": "リーグ戦アシスト目標",
+        "assistsLeagueDesc": "今シーズンの {{club}} でチャンスを作り、アシストを記録しましょう。",
+        "chancesCreated": "チャンス創出数",
+        "cleanSheets": "クリーンシート目標",
+        "conceded": "許容失点数",
+        "consistency": "パフォーマンスの安定性",
+        "consistencyDesc": "{{club}} のために安定したパフォーマンスを維持しましょう。信頼こそが鍵です。",
+        "dribblesCompleted": "ドリブル成功数",
+        "gkRating": "ゴールキーパーのパフォーマンス",
+        "gkRatingDesc": "今シーズンの {{club}} で、守護神として強固な守りを見せましょう。",
+        "goalsLeague": "リーグ戦ゴール目標",
+        "goalsLeagueDesc": "今シーズンの {{club}} でゴールを量産しましょう。クラブは結果を期待しています。",
+        "interceptions": "インターセプト数",
+        "manOfTheMatch": "マンオブザマッチ数",
+        "matchRating": "マッチレーティング",
+        "passAccuracy": "パス精度",
+        "penalties": "PK成功数",
+        "tacklesWon": "タックル成功数"
+      },
+      "expired": "期限切れ",
+      "milestones": {
+        "careerGoals": "キャリア通算ゴール",
+        "careerGoalsDesc": "キャリアの節目：通算 {{target}} ゴールを達成しましょう。"
+      },
+      "origin": {
+        "agent": "エージェント",
+        "club": "クラブ",
+        "coach": "監督",
+        "fans": "ファン",
+        "press": "プレス",
+        "self": "あなた"
+      },
+      "progress": "進捗",
+      "promises": {
+        "roleGuarantee": "役割の保証",
+        "roleGuaranteeDesc": "{{club}} との約束： {{status}} として扱われること。期待される出場機会：今シーズン {{matches}} 試合以上。"
+      },
+      "records": {
+        "clubSeasonGoals": "クラブのシーズン最多得点記録",
+        "clubSeasonGoalsBroken": "クラブのシーズン最多得点記録を更新！",
+        "clubSeasonGoalsBrokenDesc": "記録更新： {{club}} の新たなシーズン得点記録（{{record}}）が樹立されました。",
+        "clubSeasonGoalsDesc": "挑戦： {{club}} のシーズン得点記録（{{record}}）を塗り替えましょう。",
+        "historicSeasonGoals": "シーズン最多得点記録（91得点以上）",
+        "historicSeasonGoalsDesc": "歴史への挑戦：1シーズンで91ゴール以上。全世界のサッカーファンが注目しています。"
+      },
+      "rewards": {
+        "agentReputation": "エージェントの評判",
+        "clubApproval": "クラブの承認",
+        "followerBoost": "フォロワー増加",
+        "mediaBoost": "メディア評向上",
+        "moraleBoost": "士気向上",
+        "reputationBoost": "評判向上",
+        "skillPoints": "スキルポイント",
+        "teamChemistry": "チームケミストリー",
+        "title": "報酬",
+        "transferBudget": "移籍予算"
+      },
+      "sections": {
+        "career": "キャリアの節目",
+        "chases": "記録への挑戦",
+        "promises": "約束",
+        "thisSeason": "今シーズン"
+      },
+      "severity": {
+        "high": "高",
+        "low": "低",
+        "medium": "中"
+      },
+      "target": "目標",
+      "team": {
+        "leagueFinish": "リーグ最終順位",
+        "leagueFinishDesc": "クラブの期待： {{club}} と共に、目標とする順位でリーグ戦を終えること。"
+      }
+    },
+    "winContinentalCup": "{team} と共に大陸カップで優勝する",
+    "winWorldCup": "{country} と共にワールドトーナメントで優勝する"
+  },
+  "legend": {
+    "elite": "エリート",
+    "lower": "下部",
+    "mid": "中間",
+    "top": "トップ"
+  },
+  "morale": {
+    "Content": "満足",
+    "Ecstatic": "有頂天",
+    "Furious": "激怒",
+    "Happy": "幸せ",
+    "High": "高い",
+    "Low": "低い",
+    "Neutral": "ニュートラル",
+    "Normal": "通常",
+    "Unhappy": "不満",
+    "Very High": "非常に高い",
+    "Very Low": "非常に低い",
+    "_title": "士気"
+  },
+  "negotiation": {
+    "accept": "オファーを承諾",
+    "propose": "条件を提示",
+    "round": "交渉ラウンド",
+    "subtitle": "契約交渉",
+    "title": "契約交渉"
+  },
+  "offer": {
+    "type": {
+      "loan": "レンタル移籍",
+      "transfer": "完全移籍"
+    }
+  },
+  "offers": {
+    "accept": "承諾",
+    "closeAndStay": "終了して残留",
+    "contractLength": "契約期間",
+    "decline": "拒否",
+    "loanDuration": "レンタル期間",
+    "loanMove": "レンタル移籍",
+    "noOffers": "利用可能なオファーなし",
+    "noOffersDescription": "今シーズン、移籍オファーは届いていません。",
+    "permanentTransfer": "完全移籍",
+    "reputation": "評判",
+    "season": "シーズン",
+    "seasons": "シーズン",
+    "tier": "ティア",
+    "transferOffers": "移籍オファー",
+    "wage": "賃金",
+    "years": "年"
+  },
+  "personality": {
+    "Ambitious": "野心的",
+    "Balanced": "バランス",
+    "Determined": "断固とした",
+    "Easygoing": "のんびり",
+    "Inconsistent": "不安定",
+    "Jovial": "陽気",
+    "Lazy": "怠惰",
+    "Leader": "リーダー",
+    "Loyal": "忠実",
+    "Media Darling": "メディアの寵児",
+    "Professional": "プロフェッショナル",
+    "Reserved": "控えめ",
+    "Temperamental": "気まぐれ"
+  },
+  "playerStyle": {
+    "advancedPlaymaker": "アドバンスPM",
+    "ballPlayingDefender": "ボールプレイングDF",
+    "ballWinningMidfielder": "ボールウィニングMF",
+    "boxToBox": "ボックス・トゥ・ボックス",
+    "completeForward": "コンプリートFW",
+    "deepLyingPlaymaker": "ディープライイングPM",
+    "emergingTalent": "新星",
+    "false9": "偽9番（ファルス・ナイン）",
+    "insideForward": "インサイドFW",
+    "invertedWinger": "インバーテッドウインガー",
+    "mezzala": "メッツァーラ",
+    "poacher": "ポーチャー",
+    "regista": "レジスタ",
+    "shotStopper": "ショットストッパー",
+    "speedDemon": "スピードスター",
+    "stopper": "ストッパー",
+    "sweeper": "スイーパー",
+    "sweeperKeeper": "スイーパーキーパー",
+    "targetMan": "ターゲットマン",
+    "traditionalWinger": "クラシックウインガー",
+    "versatilePlayer": "万能型プレーヤー",
+    "widePlaymaker": "ワイドプレイメーカー",
+    "wingBack": "ウイングバック"
+  },
+  "seasonFocus": {
+    "aerial": {
+      "description": "ヘディングや空中戦での競り合いを強化",
+      "title": "空中戦の支配者"
+    },
+    "balanced": {
+      "description": "全エリアでの総合的な能力向上に重点を置く",
+      "title": "バランスの取れた成長"
+    },
+    "ballPlaying": {
+      "description": "後方からのパスと配球を向上させる",
+      "title": "ボールプレイ"
+    },
+    "boxToBox": {
+      "description": "ピッチ全体をカバーし、攻守両面で貢献する",
+      "title": "ボックストゥボックス"
+    },
+    "consistency": {
+      "description": "安定したパフォーマンスと信頼性を目指す。",
+      "title": "一貫性"
+    },
+    "development": {
+      "description": "今シーズンは総合値と各能力値の向上に集中する。",
+      "title": "成長"
+    },
+    "distribution": {
+      "description": "キックとスローによる配球を向上させる",
+      "title": "配球"
+    },
+    "durationHint": "このフォーカスは {seasons} シーズン継続します",
+    "heading": {
+      "description": "ヘディングと空中戦の競り合いを向上させる",
+      "title": "空中戦"
+    },
+    "leadership": {
+      "description": "リーダーシップとチームへの影響力を高める",
+      "title": "リーダーシップ"
+    },
+    "longShots": {
+      "description": "ペナルティエリア外からのシュートを練習する",
+      "title": "ロングシュート"
+    },
+    "marking": {
+      "description": "マンマークとポジショニングを向上させる",
+      "title": "守備的マーク"
+    },
+    "playmaking": {
+      "description": "アシストとチャンスメイクを優先。 期待値はアシストに偏ります。",
+      "title": "プレイメイク"
+    },
+    "positionHint": "{position} で利用可能なオプション",
+    "positioning": {
+      "description": "より良いゲームの読みとポジショニングセンスを養う",
+      "title": "ポジショニング"
+    },
+    "reflexes": {
+      "description": "反応時間とセービングを研ぎ澄ます",
+      "title": "反射神経"
+    },
+    "scoring": {
+      "description": "ゴールとフィニッシュを優先。 クラブの期待は得点力に偏ります。",
+      "title": "スコアリング"
+    },
+    "speed": {
+      "description": "スピードと素早い動きに重点を置く",
+      "title": "スピードと敏捷性"
+    },
+    "subtitle": "シーズンの物語と期待を形作るフォーカスを選択してください。",
+    "title": "シーズンフォーカス",
+    "titles": {
+      "description": "トロフィー獲得に集中。 チームの期待がより重要になります。",
+      "title": "タイトル"
+    }
+  },
+  "squadStatus": {
+    "Captain": "キャプテン",
+    "Club Legend": "クラブレジェンド",
+    "Franchise Player": "フランチャイズプレイヤー",
+    "Key Player": "主力選手",
+    "Prospect": "有望株",
+    "Reserve": "リザーブ",
+    "Rotation": "ローテーション",
+    "Squad Player": "スクワッドプレイヤー",
+    "Starter": "スターター",
+    "Surplus": "余剰戦力",
+    "Veteran Leader": "ベテランリーダー",
+    "Veteran Rotation": "ベテランローテーション",
+    "Veteran Star": "ベテランスター",
+    "Vice-Captain": "副キャプテン",
+    "Youth Player": "ユースプレイヤー",
+    "_title": "チーム内状況"
+  },
+  "status": {
+    "controversial": "議論の余地がある"
+  },
+  "training": {
+    "alreadyInvested": "今シーズンはすでに投資済みです",
+    "balance": "現在の残高",
+    "cannotAfford": "資金不足です",
+    "cantAfford": "トレーニングに投資する余裕がありません",
+    "clubCovered": "クラブが負担（スターターシーズン）",
+    "clubCoveredHint": "初シーズン補助：費用はかかりません。",
+    "cost": "トレーニング費用",
+    "effectiveness": "効果",
+    "effectivenessFactors": "効果に影響する要因",
+    "factor": {
+      "age": "年齢",
+      "agent": "エージェント",
+      "morale": "士気",
+      "personality": "性格"
+    },
+    "infra": {
+      "medical": "メディカル部門",
+      "nutrition": "栄養センター",
+      "recovery": "リカバリーセンター",
+      "training": "トレーニングセンター"
+    },
+    "infraBonus": "インフラボーナス",
+    "infrastructure": "クラブインフラ",
+    "intensity": {
+      "extreme": "極限",
+      "high": "高い",
+      "low": "低い",
+      "medium": "普通"
+    },
+    "intensityExtreme": "極限",
+    "intensityHigh": "高い",
+    "intensityLow": "低い",
+    "intensityMedium": "普通",
+    "investBalance": "現在の残高: €{balance}",
+    "investCost": "費用: €{cost}",
+    "investNo": "いいえ、結構です",
+    "investQuestion": "集中トレーニングに投資しますか？",
+    "investTitle": "パフォーマンス投資",
+    "investYes": "投資する",
+    "mental": "メンタル",
+    "noTrainer": "トレーナーなし",
+    "noTrainerDesc": "補助なしで一人でトレーニングする",
+    "physical": "フィジカル",
+    "primaryFocus": "メインフォーカス",
+    "recovery": "リカバリー",
+    "result": {
+      "excellent": "素晴らしいトレーニング！ 感銘を受ける結果です。",
+      "exceptional": "傑出したトレーニング！ すべての期待を上回りました。",
+      "good": "良いトレーニング！ 着実な進歩です。",
+      "moderate": "まずまずのトレーニング。 適度な結果です。",
+      "poor": "厳しいトレーニング。 期待を下回る結果でした。"
+    },
+    "resultExcellent": "ピッチ上を飛んでいるような気分です。 投資に見合う価値がありました。",
+    "resultGood": "準備の結果が出ています。 より研ぎ澄まされた感覚です。",
+    "resultNeutral": "準備は期待通りに進みました。 リズムを維持しています。",
+    "resultPoor": "体が重く、リズムが狂っています。 すべての投資がリターンを保証するわけではありません。",
+    "saveConfig": "設定を保存",
+    "secondaryFocus": "サブフォーカス",
+    "selectIntensity": "強度を選択",
+    "selectTrainer": "専属トレーナーを選択",
+    "selectType": "トレーニングタイプを選択",
+    "skip": "スキップ",
+    "slots": "スロット",
+    "start": "トレーニング開始",
+    "tab": {
+      "info": "情報",
+      "trainer": "トレーナー",
+      "training": "トレーニング"
+    },
+    "tactical": "戦術",
+    "technical": "技術",
+    "title": "トレーニングセンター",
+    "totalEffectiveness": "合計効果",
+    "trainer": {
+      "basic": "基本トレーナー",
+      "elite": "エリートトレーナー",
+      "premium": "プレミアムトレーナー",
+      "standard": "標準トレーナー",
+      "worldClass": "ワールドクラストレーナー"
+    },
+    "types": {
+      "activeRest": "アクティブレスト",
+      "activeRestDesc": "エネルギー回復のための軽い回復セッション",
+      "aerialDefense": "空中戦守備",
+      "aerialDefenseDesc": "ヘディングとハイボール",
+      "agility": "敏捷性",
+      "agilityDesc": "素早い方向転換とフットワーク",
+      "balanced": "バランス",
+      "balancedDesc": "総合的なバランスの取れた成長",
+      "boxToBox": "ボックストゥボックス",
+      "boxToBoxDesc": "万能型MFのトレーニング",
+      "clubTraining": "クラブトレーニング",
+      "clubTrainingDesc": "クラブのスクワッドとトレーニング。 無料、効果はインフラに依存します",
+      "counterAttack": "カウンターアタック",
+      "counterAttackDesc": "素早いトランジションプレー",
+      "covering": "カバーリング",
+      "coveringDesc": "守備意識とポジショニング",
+      "crossing": "クロス",
+      "crossingDesc": "サイドからのクロス練習",
+      "defensiveMid": "守備的MF",
+      "defensiveMidDesc": "守備とボール奪取",
+      "endurance": "持久力",
+      "enduranceDesc": "スタミナと心肺機能の向上",
+      "explosiveness": "爆発力",
+      "explosivenessDesc": "パワーと瞬発力のトレーニング",
+      "firstTouch": "ファーストタッチ",
+      "firstTouchDesc": "ボールコントロールとトラップ",
+      "flexibility": "柔軟性",
+      "flexibilityDesc": "ストレッチと可動域の向上",
+      "fullback": "サイドバック",
+      "fullbackDesc": "攻撃参加と守備業務",
+      "gkCrosses": "クロス対応 (GK)",
+      "gkCrossesDesc": "ハイボールとクロス処理",
+      "gkDistribution": "配球 (GK)",
+      "gkDistributionDesc": "ボールハンドリングとパス",
+      "gkDiving": "ダイビング (GK)",
+      "gkDivingDesc": "セービングとダイビング",
+      "gkMentality": "メンタル (GK)",
+      "gkMentalityDesc": "集中力とフォーカス",
+      "gkOneOnOne": "1対1 (GK)",
+      "gkOneOnOneDesc": "1対1の状況",
+      "gkPositioning": "ポジショニング (GK)",
+      "gkPositioningDesc": "位置取りと予測",
+      "gkReflexes": "反射神経 (GK)",
+      "gkReflexesDesc": "素早い反応セーブ",
+      "gym": "ジムトレーニング",
+      "gymDesc": "筋力とウェイトトレーニング",
+      "heading": "ヘディング",
+      "headingDesc": "空中戦能力のトレーニング",
+      "longshots": "ロングシュート",
+      "longshotsDesc": "遠距離シュートの技術",
+      "marking": "マーキング",
+      "markingDesc": "守備のマークとカバー",
+      "physical": "フィジカル",
+      "physicalDesc": "スピード、強さ、持久力",
+      "playmaker": "プレイメーカー",
+      "playmakerDesc": "創造的なビジョンとパス",
+      "playmaking": "プレイメイク",
+      "playmakingDesc": "パス、ゲームビジョン、チャンス創出",
+      "poacher": "ポーチャー",
+      "poacherDesc": "ボックス内での存在感と決定力",
+      "position": "ポジション",
+      "positionDesc": "ポジション変更のためのトレーニング",
+      "positioning": "ポジショニング",
+      "positioningDesc": "攻撃時の動きと飛び出し",
+      "pressing": "プレス",
+      "pressingDesc": "高強度の守備作業",
+      "scrimmage": "紅白戦",
+      "scrimmageDesc": "パスとドリブルに焦点を当てた実戦練習",
+      "setpieces": "セットプレー",
+      "setpiecesDesc": "フリーキックとコーナーキック",
+      "shooting": "シュート",
+      "shootingDesc": "フィニッシュ、ポジショニング、精度に焦点",
+      "skillMoves": "スキルムーブ",
+      "skillMovesDesc": "高度なドリブルテクニック",
+      "sprints": "スプリント",
+      "sprintsDesc": "高強度スピードトレーニング",
+      "tackles": "タックル",
+      "tacklesDesc": "ボール奪取のテクニック",
+      "tactical": "戦術",
+      "tacticalDesc": "守備のポジショニングとゲームの読み",
+      "targetMan": "ターゲットマン",
+      "targetManDesc": "ポストプレーと空中戦の脅威",
+      "technique": "技術",
+      "techniqueDesc": "ドリブル、ボールコントロール、スキル",
+      "weakFoot": "逆足",
+      "weakFootDesc": "利き足でない方の足の強化",
+      "winger": "ウインガー",
+      "wingerDesc": "サイドプレーとクロス"
+    },
+    "weeklyPlan": "週間プラン"
+  },
+  "trait": {
+    "Acrobatic Finisher": {
+      "description": "ボレーやオーバーヘッドキックでゴールを決めます。",
+      "name": "アクロバティック"
+    },
+    "Aerial Threat": {
+      "description": "セットプレーからの攻撃で非常に危険な存在となります。",
+      "name": "空中戦の脅威"
+    },
+    "Argues With Officials": {
+      "description": "審判の判定に頻繁に異議を唱える。",
+      "name": "審判への抗議"
+    },
+    "Avoids Using Weaker Foot": {
+      "description": "利き足でない方の足の使用を避けます。",
+      "name": "逆足回避"
+    },
+    "Ball Carrier": {
+      "description": "効率的にボールを前方に運びます。",
+      "name": "ボールキャリー"
+    },
+    "Big Game Player": {
+      "description": "重要な試合でより良いパフォーマンスを発揮します。",
+      "name": "ビッグゲームプレーヤー"
+    },
+    "Captain Material": {
+      "description": "ピッチ上での天性のリーダーです。",
+      "name": "キャプテンの素質"
+    },
+    "Cautious With Crosses": {
+      "description": "クロスへの飛び出しをためらう傾向があります。",
+      "name": "慎重なクロス対応"
+    },
+    "Chip Shot": {
+      "description": "繊細なタッチでゴールキーパーの頭上を抜く能力です。",
+      "name": "チップショット"
+    },
+    "Comes For Crosses": {
+      "description": "空中戦のエリアを支配します。",
+      "name": "積極的なクロス対応"
+    },
+    "Dives Into Tackles": {
+      "description": "果敢にタックルを仕掛けます。",
+      "name": "スライディングタックル"
+    },
+    "Driven": {
+      "description": "勝利への揺るぎない意志を持っています。",
+      "name": "情熱的"
+    },
+    "Early Adopter": {
+      "description": "新しい戦術を素早く習得します。",
+      "name": "戦術への適応"
+    },
+    "Fan Favorite": {
+      "description": "ファンから愛されています。",
+      "name": "ファンのお気に入り"
+    },
+    "Finesse Shot": {
+      "description": "正確で曲がるシュートのスペシャリストです。",
+      "name": "フィネスショット"
+    },
+    "GK Flat Kick": {
+      "description": "素早く低い弾道のゴールキックを蹴ります。",
+      "name": "GK低弾道キック"
+    },
+    "GK Long Throw": {
+      "description": "ロングスローでカウンターアタックを開始します。",
+      "name": "GKロングスロー"
+    },
+    "Giant Throw-In": {
+      "description": "コーナーキックのようなロングスローを投げます。",
+      "name": "ジャイアントスロー"
+    },
+    "Inflexible": {
+      "description": "適性外のポジションや異なる戦術でのプレーに苦労します。",
+      "name": "柔軟性の欠如"
+    },
+    "Injury Concern": {
+      "description": "頻繁な怪我を負いやすい傾向があります。",
+      "name": "負傷の懸念"
+    },
+    "Injury Prone": {
+      "description": "怪我のリスクが高いです。",
+      "name": "怪我をしやすい"
+    },
+    "Iron Man": {
+      "description": "めったに怪我をしません。",
+      "name": "鉄人"
+    },
+    "Late Bloomer": {
+      "description": "キャリアの後半にポテンシャルに到達します。",
+      "name": "大器晩成"
+    },
+    "Left-Footed Maestro": {
+      "description": "左足での卓越したスキルを持っています。",
+      "name": "左足の魔術師"
+    },
+    "Long Shot Taker": {
+      "description": "ペナルティエリア外からのシュートを好みます。",
+      "name": "ロングシューター"
+    },
+    "Media Darling": {
+      "description": "メディアから好意的な報道を引き付けます。",
+      "name": "メディアの寵児"
+    },
+    "One-Club Man": {
+      "description": "クラブに忠実で、結束力にボーナスがあります。",
+      "name": "ワンクラブマン"
+    },
+    "One-on-One Rush": {
+      "description": "1対1の状況で素早く間合いを詰め、アングルを消します。",
+      "name": "1対1の飛び出し"
+    },
+    "One-on-One Specialist": {
+      "description": "ゴールキーパーと1対1になった際に致命的な強さを発揮します。",
+      "name": "1対1のスペシャリスト"
+    },
+    "Outside Foot Shot": {
+      "description": "足の外側（アウトサイド）を使い、回転をかけたシュートやパスを繰り出します。",
+      "name": "アウトサイドシュート"
+    },
+    "Pinpoint Crossing": {
+      "description": "アタッカーに合わせて正確なクロスを供給します。",
+      "name": "正確なクロス"
+    },
+    "Play Simple": {
+      "description": "不必要なリスクを避けます。",
+      "name": "シンプルプレー"
+    },
+    "Power House": {
+      "description": "圧倒的なフィジカルの強さを持っています。",
+      "name": "パワーハウス"
+    },
+    "Power Shot": {
+      "description": "破壊的なパワーのシュートを放ちます。",
+      "name": "パワーショット"
+    },
+    "Punches Fists": {
+      "description": "キャッチよりもパンチングでボールを弾き出すことを好みます。",
+      "name": "パンチング"
+    },
+    "Right-Footed Sniper": {
+      "description": "右足での致命的な精度を持っています。",
+      "name": "右足のスナイパー"
+    },
+    "Rushes Out Of Goal": {
+      "description": "積極的にエリア外へ飛び出し、アングルを詰めます。",
+      "name": "積極的な飛び出し"
+    },
+    "Selfish": {
+      "description": "より良い位置にいるチームメイトを無視することがしばしばあります。",
+      "name": "わがまま"
+    },
+    "Slide Tackle": {
+      "description": "正確なスライディングタックルを繰り出します。",
+      "name": "スライディングタックル適正"
+    },
+    "Speed Dribbler": {
+      "description": "コントロールを失うことなく高速でボールを運びます。",
+      "name": "スピードドリブラー"
+    },
+    "Speed Merchant": {
+      "description": "圧倒的なスピードでディフェンダーを置き去りにします。",
+      "name": "韋駄天"
+    },
+    "Tackles Back": {
+      "description": "ボール奪取を助けるフォワードです。",
+      "name": "チェイシング"
+    },
+    "Team Player": {
+      "description": "自分よりもチームを優先します。",
+      "name": "チームプレーヤー"
+    },
+    "Technical Dribbler": {
+      "description": "狭いスペースでの短く正確なドリブルをします。",
+      "name": "テクニカルドリブラー"
+    },
+    "Through Ball": {
+      "description": "守備を切り裂くパスへの視野を持っています。",
+      "name": "スルーパス"
+    },
+    "Trickster": {
+      "description": "フェイントやトリックを使い、ディフェンダーを欺きます。",
+      "name": "トリックスター"
+    },
+    "Weak Foot": {
+      "description": "利き足でない方の足でのスキルを持っています。",
+      "name": "逆足精度"
+    },
+    "Wonderkid": {
+      "description": "若い頃に急速に成長を遂げます。",
+      "name": "ワンダーキッド"
+    },
+    "acrobaticFinisher": {
+      "description": "ボレーやオーバーヘッドでゴール。",
+      "name": "アクロバティック"
+    },
+    "aerialDominance": {
+      "description": "ポジショニングとタイミングで、ほぼすべての空中戦に勝利します。",
+      "name": "空中戦の支配者"
+    },
+    "aerialThreat": {
+      "description": "セットプレーやクロスから常に脅威となります。",
+      "name": "空中戦の脅威"
+    },
+    "arguesWithOfficials": {
+      "description": "審判の判定に頻繁に異議を唱え、規律違反のリスクを冒します。",
+      "name": "審判への抗議"
+    },
+    "avoidsUsingWeakerFoot": {
+      "description": "困難な状況でも利き足を極端に優先します。",
+      "name": "逆足回避"
+    },
+    "ballCarrier": {
+      "description": "中盤でボールを前方に運ぶ能力に優れています。",
+      "name": "ボールキャリー"
+    },
+    "ballPlayingDefender": {
+      "description": "ボール扱いに長け、後方から攻撃を開始します。",
+      "name": "ボールプレイングDF"
+    },
+    "ballWinner": {
+      "description": "相手の攻撃を分断するアグレッシブなタックラーです。",
+      "name": "ボールウィナー"
+    },
+    "bigGamePlayer": {
+      "description": "重要な試合で実力を発揮する",
+      "name": "大舞台に強い"
+    },
+    "boxToBox": {
+      "description": "攻守両面に貢献し、ピッチ上のあらゆる場所をカバーします。",
+      "name": "ボックストゥボックス"
+    },
+    "cautiousWithCrosses": {
+      "description": "クロスへの対応に消極的で、ゴールラインに留まることを好みます。",
+      "name": "慎重なクロス対応"
+    },
+    "chipShot": {
+      "description": "繊細なタッチでGKをかわす能力。",
+      "name": "チップショット"
+    },
+    "clinicalFinisher": {
+      "description": "ゴール前での決定力が極めて高い",
+      "name": "精密なフィニッシャー"
+    },
+    "comesForCrosses": {
+      "description": "アタッカーが到達する前に積極的にクロスを捕捉します。",
+      "name": "積極的なクロス対応"
+    },
+    "commandOfArea": {
+      "description": "ペナルティエリアを支配し、クロスへの対応や守備陣の統率を行う。",
+      "name": "エリア支配"
+    },
+    "composure": {
+      "description": "プレッシャー下でも冷静さを保つ",
+      "name": "冷静沈着"
+    },
+    "consistency": {
+      "description": "毎週、信頼できるパフォーマンスを披露します。",
+      "name": "一貫性"
+    },
+    "crossingSpecialist": {
+      "description": "サイドから精度とスピードのある危険なクロスを供給します。",
+      "name": "クロスのスペシャリスト"
+    },
+    "deepLyingPlaymaker": {
+      "description": "パスとビシオン（視野）で、低い位置からゲームをコントロールします。",
+      "name": "ディープライイングPM"
+    },
+    "discipline": {
+      "description": "不必要なファウルやカードを貰うことがめったにありません。",
+      "name": "規律"
+    },
+    "divesIntoTackles": {
+      "description": "ボールを奪うこともありますが、ファウルのリスクもある激しいタックルスタイルです。",
+      "name": "果敢なタックル"
+    },
+    "dribblingWizard": {
+      "description": "卓越したボールコントロールで、狭いスペースでも複数のDFを抜く能力があります。",
+      "name": "ドリブルの魔法使い"
+    },
+    "driven": {
+      "description": "勝利への揺るぎない意志。",
+      "name": "ドリブン"
+    },
+    "earlyAdopter": {
+      "description": "新しい戦術を素早く理解し、異なるシステムに適応します。",
+      "name": "戦術への適応"
+    },
+    "engine": {
+      "description": "チームのために働くことをやめないタフな走者です。",
+      "name": "心臓（エンジン）"
+    },
+    "finesse": {
+      "description": "体格よりも技術を重視する、優雅でテクニカルなプレーヤーです。",
+      "name": "フィネス"
+    },
+    "finesseShot": {
+      "description": "精密で曲がるシュートのスペシャリスト。",
+      "name": "フィネスショット"
+    },
+    "flair": {
+      "description": "観客を魅了し、アクロバティックなプレーや意外性のあるプレーを好む天性のクリエイティブプレーヤー。",
+      "name": "創造性"
+    },
+    "flairPlayer": {
+      "description": "多彩なトリックとスキルを持ち、予測不能でクリエイティブなプレーをします。",
+      "name": "ファンタジスタ"
+    },
+    "giantThrowIn": {
+      "description": "コーナーキックのように相手のボックス深くへスローインを投げ込めます。",
+      "name": "ジャイアントスロー"
+    },
+    "gkFlatKick": {
+      "description": "前線のチームメイトに、低く正確なキックを届けます。",
+      "name": "GK低弾道キック"
+    },
+    "gkLongThrow": {
+      "description": "カウンターアタックを開始するために、非常に遠くまでボールを投げます。",
+      "name": "GKロングスロー"
+    },
+    "inflexible": {
+      "description": "新しい戦術やポジションに適応するのに苦労します。",
+      "name": "柔軟性の欠如"
+    },
+    "injuryConcern": {
+      "description": "長期的な出場可能性に疑問を抱かせる怪我の経歴があります。",
+      "name": "負傷の懸念"
+    },
+    "injuryProne": {
+      "description": "フィジカル的に脆弱で、怪我をしやすくなっています。",
+      "name": "怪我をしやすい"
+    },
+    "interceptor": {
+      "description": "ゲームを素晴らしく読み、危険が発展する前にパスをカットします。",
+      "name": "インターセプター"
+    },
+    "lastMan": {
+      "description": "優れたポジショニングと冷静さを持ち、信頼できる最終防衛線となります。",
+      "name": "最後の砦"
+    },
+    "leadership": {
+      "description": "ピッチ内外での天性のリーダー。",
+      "name": "リーダーシップ"
+    },
+    "leftFootedMaestro": {
+      "description": "左足で並外れた能力を発揮します。",
+      "name": "左足の魔術師"
+    },
+    "longPasser": {
+      "description": "正確な長距離パスで、展開を切り替えたりチームメイトを見つけたりします。",
+      "name": "ロングパサー"
+    },
+    "longShotTaker": {
+      "description": "ペナルティエリア外からシュートを打つのが好き。",
+      "name": "ロングシューター"
+    },
+    "longShots": {
+      "description": "遠距離からパワーと精度のある素晴らしいゴールを決めることができます。",
+      "name": "ロングシュート"
+    },
+    "longThrow": {
+      "description": "力強いスローイングで、フィールド深くへボールを送れます。",
+      "name": "ロングスロー"
+    },
+    "marking": {
+      "description": "相手に密着し、攻撃の脅威を無効化します。",
+      "name": "マーキング"
+    },
+    "naturalFitness": {
+      "description": "疲れにくく回復が早い。",
+      "name": "ナチュラルフィットネス"
+    },
+    "negative": "ネガティブ",
+    "noNonsenseDefender": {
+      "description": "フィジカルが強くアグレッシブなDFで、決定的に危険を排除します。",
+      "name": "ノーナンスDF"
+    },
+    "oneClubMan": {
+      "description": "キャリアのすべてを同じクラブに捧げている",
+      "name": "ワン・クラブ・マン"
+    },
+    "oneOnOneRush": {
+      "description": "アタッカーの間合いを詰めるために積極的に飛び出します。",
+      "name": "1対1の飛び出し"
+    },
+    "oneOnOneSpecialist": {
+      "description": "GKと1対1で致命的。",
+      "name": "1対1のスペシャリスト"
+    },
+    "outsideFootShot": {
+      "description": "足の外側を使い、シュートやパスに予測不可能性を加えます。",
+      "name": "アウトサイドシュート"
+    },
+    "penaltySaver": {
+      "description": "優れたポジショニングと反応で、PKを止めるスペシャリストです。",
+      "name": "PKセーバー"
+    },
+    "pinpointCrossing": {
+      "description": "アタッカーが望む場所に正確にクロスを供給します。",
+      "name": "正確なクロス"
+    },
+    "playSimple": {
+      "description": "物事をシンプルに保ち、不必要なリスクを負うことはめったにありません。",
+      "name": "シンプルプレー"
+    },
+    "playmaker": {
+      "description": "卓越した視野とパスレンジ",
+      "name": "プレーメーカー"
+    },
+    "poacher": {
+      "description": "エリア内でわずかな隙を見つけ、タップインやこぼれ球から得点を奪う本能的なフィニッシャー。",
+      "name": "ポーチャー"
+    },
+    "positioning": {
+      "description": "常に適切なタイミングで適切な場所を確保する。",
+      "name": "ポジショニング"
+    },
+    "powerHeader": {
+      "description": "空中戦で優れた能力。",
+      "name": "パワーヘッダー"
+    },
+    "powerHouse": {
+      "description": "対戦相手を威圧する圧倒的なフィジカルの存在感。",
+      "name": "パワーハウス"
+    },
+    "powerShot": {
+      "description": "破壊的なパワーのシュート。",
+      "name": "パワーショット"
+    },
+    "punchesFists": {
+      "description": "クロスをキャッチするよりも、パンチングで弾き出すことを好みます。",
+      "name": "パンチング"
+    },
+    "rightFootedSniper": {
+      "description": "右足での極めて精度の高いシュートを放つ。",
+      "name": "右足のスナイパー"
+    },
+    "rushesOutOfGoal": {
+      "description": "1対1の状況で素早くゴールラインを離れ、ピンチを未然に防ぐ。",
+      "name": "積極的な飛び出し"
+    },
+    "secondWind": {
+      "description": "試合終盤にスタミナのブーストを得る。",
+      "name": "セカンドウィンド"
+    },
+    "selfish": {
+      "description": "チームの勝利よりも個人の成績を優先する。",
+      "name": "自己中心的"
+    },
+    "setPieceSpecialist": {
+      "description": "フリーキック、コーナーキック、死球の状況において達人の域にある。",
+      "name": "セットプレー・スペシャリスト"
+    },
+    "shotStopper": {
+      "description": "卓越した反射神経とシュート阻止能力を持つ。",
+      "name": "ショットストッパー"
+    },
+    "slideTackle": {
+      "description": "クリーンにボールを奪うスライディングタックルのタイミングの達人。",
+      "name": "スライディングタックル"
+    },
+    "solidPlayer": {
+      "description": "毎週のように信頼できる安定したパフォーマンスを見せる。",
+      "name": "堅実なプレーヤー"
+    },
+    "speedDribbler": {
+      "description": "コントロールを失わずに高速でドリブル。",
+      "name": "スピードドリブラー"
+    },
+    "speedMerchant": {
+      "description": "驚異的なスピードと加速力",
+      "name": "スピードスター"
+    },
+    "strength": {
+      "description": "フィジカルの強さを活かしてデュエルに勝利し、相手を抑え込む。",
+      "name": "強さ"
+    },
+    "sweeperKeeper": {
+      "description": "広範囲をカバーする現代的GK",
+      "name": "スイーパー・キーパー"
+    },
+    "tacklesBack": {
+      "description": "ボールを失った際、守備を助けるために自陣まで戻る。",
+      "name": "献身的な守備"
+    },
+    "targetMan": {
+      "description": "フィジカルを活かして前線でボールをキープし、味方の攻撃をサポートする。",
+      "name": "ターゲットマン"
+    },
+    "teamPlayer": {
+      "description": "チームを自分より優先する。",
+      "name": "チームプレーヤー"
+    },
+    "teamwork": {
+      "description": "チームメイトとの連携に優れ、組織的なプレーを得意とする。",
+      "name": "チームワーク"
+    },
+    "technicalDribbler": {
+      "description": "狭いスペースでの正確なドリブル。",
+      "name": "テクニカルドリブラー"
+    },
+    "throughBall": {
+      "description": "絶妙な強さのスルーパスで相手守備を切り裂くことを得意とする。",
+      "name": "スルーパス"
+    },
+    "tirelessRunner": {
+      "description": "走るのをやめない",
+      "name": "不屈のランナー"
+    },
+    "trickster": {
+      "description": "フェイントでディフェンダーを欺く。",
+      "name": "トリックスター"
+    },
+    "twoFooted": {
+      "description": "両足を同等に使いこなす",
+      "name": "両利き"
+    },
+    "versatile": {
+      "description": "複数のポジションでプレー可能。",
+      "name": "ユーティリティ"
+    },
+    "vision": {
+      "description": "パスコースを見抜く卓越した能力",
+      "name": "ビジョン"
+    },
+    "weakFoot": {
+      "description": "逆足を使う際に苦労する",
+      "name": "苦手な足"
+    }
+  },
+  "traitStyles": {
+    "aerialDominance": "ほぼすべての空中戦に勝利する",
+    "ballPlayingDefender": "足元の技術に長け、後方からビルドアップする",
+    "ballWinner": "アグレッシブかつ効果的にボールを回収する",
+    "bigGamePlayer": "重要な試合で実力を発揮する",
+    "boxToBox": "広範囲をカバーし、攻守両面で貢献する",
+    "clinicalFinisher": "ゴール前での決定力が極めて高い",
+    "commandOfArea": "ペナルティエリアを支配する",
+    "composure": "プレッシャー下でも冷静",
+    "crossingSpecialist": "サイドから質の高いクロスを供給する",
+    "decentLevel": "並",
+    "deepLyingPlaymaker": "低い位置から攻撃を組み立てる",
+    "dribblingWizard": "卓越したボールコントロールとドリブル",
+    "engine": "90分間衰えない運動量",
+    "everPresent": "毎週安定したパフォーマンスを見せる",
+    "excellentLevel": "優秀",
+    "exceptionalLevel": "驚異的",
+    "flairPlayer": "予測不能でクリエイティブなプレー",
+    "goodLevel": "良",
+    "injuryProne": "身体的なトラブルを抱えやすい",
+    "interceptor": "試合の流れを読み、パスをカットする",
+    "lastMan": "信頼できる最後方の守備",
+    "leadership": "ピッチ内外での天性のリーダー",
+    "leftFootedMaestro": "左足での洗練されたテクニックとコントロール",
+    "longShots": "遠距離から精度の高いシュートを放つ",
+    "naturalFitness": "疲れにくく、怪我も少ない",
+    "noNonsenseDefender": "フィジカルを活かした実直な守備",
+    "penaltySaver": "PKストップに強い",
+    "playmaker": "卓越した視野とパスレンジ",
+    "poacher": "エリア内でのポジショニングが秀逸",
+    "powerHeader": "空中戦で圧倒的な強さを見せる",
+    "quietProfessional": "カードをほとんどもらわない",
+    "rightFootedSniper": "右足での致命的なフィニッシュと精度",
+    "secondWind": "試合終盤までスタミナを維持する",
+    "setpieceSpecialist": "FKやCKからチャンスを作る",
+    "shotStopper": "ゴールマウス間での反射神経に長ける",
+    "speedMerchant": "攻守において圧倒的なスピード",
+    "sweeperKeeper": "エリア外のカバーもこなす現代的GK",
+    "targetMan": "卓越したキープ力と空中戦の強さ",
+    "tirelessRunner": "走るのをやめない",
+    "twoFooted": "両足を同様に使いこなせる",
+    "versatile": "複数のポジションをこなせる",
+    "vision": "パスコースを見抜く卓越した能力"
+  },
+  "traits": {
+    "Ambitions_desc": "常に頂点を目指している",
+    "Argues With Officials": "審判への抗議",
+    "Argues With Officials_desc": "頻繁に判定に異議を唱える",
+    "Big Game Player": "大舞台に強い",
+    "Big Game Player_desc": "重要な試合で実力を発揮する",
+    "Clinical Finisher": "精密なフィニッシャー",
+    "Clinical Finisher_desc": "卓越した決定力",
+    "Composure": "冷静沈着",
+    "Composure_desc": "プレッシャー下でも冷静さを保つ",
+    "Consistency": "安定感",
+    "Consistency_desc": "高いパフォーマンスレベルを維持する",
+    "Dirty Player": "ダーティープレーヤー",
+    "Dirty Player_desc": "ファウルを犯しやすい傾向がある",
+    "Dribbling Wizard": "ドリブルの魔術師",
+    "Dribbling Wizard_desc": "卓越したボールコントロールとドリブル",
+    "Driven": "意欲的",
+    "Driven_desc": "揺るぎない勝利への意志",
+    "Early Adopter": "適応が早い",
+    "Early Adopter_desc": "新しい戦術に素早く適応する",
+    "Engine": "エンジン",
+    "Engine_desc": "ピッチ上で疲れを知らず、広範囲をカバーする",
+    "Flair": "ひらめき",
+    "Flair_desc": "予測不能な動きができる",
+    "Free Kick Specialist": "フリーキック・スペシャリスト",
+    "Free Kick Specialist_desc": "卓越したフリーキックの蹴り手",
+    "Hard Working": "ハードワーカー",
+    "Hard Working_desc": "常にピッチ上で100%の力を出し切る",
+    "Header Expert": "ヘディングのエキスパート",
+    "Header Expert_desc": "空中戦での圧倒的な強さ",
+    "Hot Head": "熱くなりやすい",
+    "Hot Head_desc": "冷静さを失いやすい",
+    "Injury Prone": "怪我をしやすい",
+    "Injury Prone_desc": "頻繁に怪我をする",
+    "Leader": "リーダー",
+    "Leader_desc": "チームメイトを鼓舞し活気づける",
+    "Leadership": "リーダーシップ",
+    "Leadership_desc": "ピッチ上での天性のリーダー",
+    "Left-Footed Maestro": "左足の魔術師",
+    "Left-Footed Maestro_desc": "洗練された左足のテクニック",
+    "Long Shot Taker": "ロングシューター",
+    "Long Shot Taker_desc": "エリア外からのシュートが脅威となる",
+    "Long Throw": "ロングスロー",
+    "Long Throw_desc": "セットプレーとしての長いスローイン",
+    "Loyal": "忠実",
+    "Loyal_desc": "クラブへの高い忠誠心",
+    "Media Darling": "メディアの寵児",
+    "Media Darling_desc": "報道陣と良好な関係を築いている",
+    "Media Shy": "メディア嫌い",
+    "Media Shy_desc": "注目やインタビューを避ける",
+    "Mercenary": "守銭奴",
+    "Mercenary_desc": "金銭を優先する",
+    "Natural Fitness": "天性の身体能力",
+    "Natural Fitness_desc": "疲れにくく、回復が早い",
+    "One Club Player": "ワン・クラブ・プレーヤー",
+    "One Club Player_desc": "クラブへの極めて高い忠誠心",
+    "One-Club Man": "ワン・クラブ・マン",
+    "One-Club Man_desc": "キャリアのすべてを同じクラブに捧げている",
+    "Penalty Expert": "ペナルティ・エキスパート",
+    "Penalty Expert_desc": "信頼できるPKの蹴り手",
+    "Playmaker": "プレーメーカー",
+    "Playmaker_desc": "卓越した視野とパス能力",
+    "Poacher": "ポーチャー",
+    "Poacher_desc": "常にフィニッシュに最適な場所にいる",
+    "Power Header": "パワーヘッダー",
+    "Power Header_desc": "攻撃的な空中戦に強い",
+    "Professional": "プロフェッショナル",
+    "Professional_desc": "模範的な立ち振る舞い",
+    "Right-Footed Sniper": "右足のスナイパー",
+    "Right-Footed Sniper_desc": "右足での冷徹なフィニッシュ",
+    "Set Piece Specialist": "セットプレー・スペシャリスト",
+    "Set Piece Specialist_desc": "CK、FK、PKにおいて卓越している",
+    "Set-piece Specialist": "セットプレー・スペシャリスト",
+    "Set-piece Specialist_desc": "FKやCKに長けている",
+    "Showboat": "パフォーマー",
+    "Showboat_desc": "華麗なスキルを披露することを好む",
+    "Speed Demon": "スピードスター",
+    "Speed Demon_desc": "スプリントが極めて速い",
+    "Speed Merchant": "スピードスター",
+    "Speed Merchant_desc": "驚異的なペースと加速力",
+    "Stamina Beast": "スタミナの鬼",
+    "Stamina Beast_desc": "試合中に疲れることがない",
+    "Strong Tackler": "強力なタックラー",
+    "Strong Tackler_desc": "タックルとボール回収に長けている",
+    "Sweeper Keeper": "スイーパー・キーパー",
+    "Sweeper Keeper_desc": "最後方のディフェンダーとしても機能するGK",
+    "Team Player": "チームプレーヤー",
+    "Team Player_desc": "自分よりもチームを優先する",
+    "Technical": "テクニシャン",
+    "Technical_desc": "洗練された技術的能力",
+    "Temperamental": "気分屋",
+    "Temperamental_desc": "冷静さを失うことがある",
+    "Two-Footed": "両利き",
+    "Two-Footed_desc": "両足を同等に使いこなす",
+    "Versatile": "ユーティリティ",
+    "Versatile_desc": "複数のポジションをこなせる",
+    "Vocal Leader": "ボーカルリーダー",
+    "Vocal Leader_desc": "ピッチ上でチームに指示を出し、組織化する",
+    "aerialDominance": "ほぼすべての空中戦に勝利する",
+    "ballPlayingDefender": "足元の技術に長け、後方からビルドアップする",
+    "ballWinner": "アグレッシブかつ効果的にボールを回収する",
+    "bigGamePlayer": "大きな試合に強い",
+    "boxToBox": "広範囲をカバーし、攻守両面で貢献する",
+    "clinicalFinisher": "決定的なフィニッシャー",
+    "commandOfArea": "ペナルティエリアを支配する",
+    "composure": "冷静さ",
+    "crossingSpecialist": "サイドから質の高いクロスを供給する",
+    "decentLevel": "並",
+    "deepLyingPlaymaker": "低い位置から攻撃を組み立てる",
+    "dribblingWizard": "卓越したボールコントロールとドリブル",
+    "engine": "90分間衰えない運動量",
+    "everPresent": "毎週安定したパフォーマンスを見せる",
+    "excellentLevel": "優秀",
+    "exceptionalLevel": "驚異的",
+    "flairPlayer": "予測不能でクリエイティブなプレー",
+    "goodLevel": "良",
+    "interceptor": "試合の流れを読み、パスをカットする",
+    "lastMan": "信頼できる最後方の守備",
+    "leadership": "リーダーシップ",
+    "longShots": "遠距離から精度の高いシュートを放つ",
+    "naturalFitness": "天賦の体力",
+    "noNonsenseDefender": "フィジカルを活かした実直な守備",
+    "penaltySaver": "PKストップに強い",
+    "playmaker": "プレイメイカー",
+    "poacher": "ポーチャー",
+    "powerHeader": "強力なヘッダー",
+    "quietProfessional": "カードをほとんどもらわない",
+    "secondWind": "試合終盤までスタミナを維持する",
+    "setpieceSpecialist": "FKやCKからチャンスを作る",
+    "shotStopper": "ショットストッパー",
+    "speedMerchant": "スピードスター",
+    "sweeperKeeper": "広範囲をカバーする現代的GK",
+    "targetMan": "キープ力と空中戦の強さを備えた前線の起点",
+    "tirelessRunner": "走るのをやめない",
+    "versatile": "多才な選手",
+    "vision": "パスコースを見抜く卓越した能力"
+  },
+  "trophy": {
+    "afcChampionsLeague": "アジア・チャンピオンズカップ",
+    "afcCup": "アジア・クラブカップ",
+    "americansDerby": "アメリカズ・クラシック",
+    "americasDerby": "アメリカズ・クラシック",
+    "cafChampionsLeague": "アフリカ・チャンピオンズカップ",
+    "cafConfederationCup": "アフリカ・クラブカップ",
+    "challengerCup": "半球対決",
+    "championsLeague": "欧州チャンピオンズカップ",
+    "clubWorldCup": "クラブワールドトーナメント",
+    "concacafChampionsCup": "北米チャンピオンズカップ",
+    "conferenceLeague": "欧州アクセスカップ",
+    "copaSudamericana": "南米クラブカップ",
+    "cup": "カップ",
+    "europaLeague": "欧州クラブカップ",
+    "intercontinentalCup": "インターコンチネンタルカップ",
+    "league": "リーグ",
+    "libertadores": "南米チャンピオンズカップ",
+    "nationsLeague": "ネーションズトーナメント",
+    "orientalCup": "東部カップ",
+    "orientalPlayoff": "東部プレーオフ",
+    "recopaSudamericana": "南米スーパーカップ",
+    "supercup": "スーパーカップ",
+    "worldCup": "ワールドトーナメント"
+  },
+  "winContinentalCup": "{team} と共に大陸カップで優勝する",
+  "winWorldCup": "{country} と共にワールドトーナメントで優勝する",
+  "injury": {
+    "oneMonth": "1 Month",
+    "longTerm": "Long Term",
+    "seasonEnding": "Season Ending",
+    "days": "{count} Days",
+    "months": "{count} Months"
+  }
+}

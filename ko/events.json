@@ -1,0 +1,1578 @@
+{
+  "wcQualification": {
+    "description": "당신의 국가대표팀이 월드 토너먼트 참가를 위해 경쟁하고 있습니다",
+    "title": "월드 토너먼트 예선"
+  },
+  "goals": {
+    "achieved": "🎯 목표 달성: {narrative}",
+    "newGoal": "🎯 새로운 목표 달성: {goal}",
+    "completed": "완료"
+  },
+  "agent": {
+    "contractExpired": "에이전트 계약이 만료되었습니다. {name} ({reputation})와(과) 계약했습니다.",
+    "contractExtended": "에이전트 {name}와(과)의 훌륭한 관계! 수수료가 인하된 상태로 계약이 연장되었습니다.",
+    "promoted": "에이전트 {name}이(가) {reputation} 등급으로 승급했습니다!"
+  },
+  "eventNotifications": {
+    "transferRequest": "이적 요청 제출됨",
+    "trainingIntense": "훈련 강도 상향",
+    "trainingLight": "훈련 강도 하향"
+  },
+  "status": {
+    "managerConflict": "감독과의 갈등",
+    "teammateConflict": "팀동료와의 갈등"
+  },
+  "events": {
+    "agentMeeting": {
+      "choice_contract": "계약 개선 논의",
+      "choice_explore": "다른 옵션 탐색",
+      "choice_focus": "현재 클럽에 집중",
+      "description": "에이전트가 당신의 미래에 대해 논의하고 싶어 합니다. 다른 클럽들의 관심이 있을 수 있습니다.",
+      "title": "에이전트 회의"
+    },
+    "award": {
+      "ballonDor": "올해의 세계 선수",
+      "ballonDorNomination": "세계 선수 후보",
+      "ballonDorRunnerUp": "세계 선수 상위 3",
+      "comeback": "복귀 선수",
+      "comebackPlayerOfYear": "복귀 선수",
+      "continentalCompTopScorer": "대륙 득점왕",
+      "continentalCompetitionTopScorer": "대륙 득점왕",
+      "continentalCupPOTY": "대륙 컵 MVP",
+      "continentalPOTY": "대륙 세계 최고 선수",
+      "continentalPlayer": "대륙 선수",
+      "continentalTOTT": "대륙 베스트 11",
+      "cupGoldenBootShared": "{goals}골로 컵대회 골든 부트를 공동 수상했습니다!",
+      "cupTopScorer": "컵 득점왕",
+      "europeanGoldenShoe": "유럽 골든슈",
+      "fifaBest": "올해의 최고 선수",
+      "goalOfTheYear": "올해의 골",
+      "goldenBoot": "리그 득점왕",
+      "goldenBootShared": "{goals}골로 리그 골든 부트를 공동 수상했습니다!",
+      "goldenBoy": "올해의 영 플레이어",
+      "goldenGlove": "최고의 골키퍼",
+      "goldenShoe": "골든슈",
+      "leagueDefenderOfYear": "올해의 수비수",
+      "leagueForwardOfYear": "올해의 공격수",
+      "leagueMidfielderOfYear": "올해의 미드필더",
+      "leaguePOTY": "리그 MVP",
+      "leaguePlayerOfYear": "리그 MVP",
+      "leaguePlaymaker": "리그 플레이메이커",
+      "leagueRookieOfYear": "올해의 신인",
+      "leagueTopAssister": "도움왕",
+      "playmaker": "리그 플레이메이커",
+      "puskas": "푸스카스 어워드",
+      "rookie": "올해의 신인",
+      "teamOfTheYear": "올해의 팀",
+      "title": "수상",
+      "worldCupBestGoalkeeper": "월드 토너먼트 골든글러브",
+      "worldCupGoldenBall": "월드 토너먼트 골든볼",
+      "worldCupGoldenBoot": "월드 토너먼트 득점왕",
+      "worldCupTOTT": "월드 토너먼트 베스트 11",
+      "worldPlayer": "올해의 세계 선수"
+    },
+    "business": {
+      "choice_decline": "축구에 집중",
+      "choice_invest": "적극적인 투자",
+      "choice_partner": "소수 파트너",
+      "description": "한 기업가가 당신에게 새로운 사업에 투자하라고 제안합니다. 수익성이 높을 수 있지만 위험합니다.",
+      "title": "비지니스 기회"
+    },
+    "charity": {
+      "choice_decline": "정중히 거절",
+      "choice_large": "큰 금액 기부",
+      "choice_small": "적은 금액 기부",
+      "description": "어린이 병원에서 당신에게 홍보대사가 되어달라고 요청했습니다. 당신의 이미지를 개선할 수 있습니다.",
+      "title": "자선 활동 기회"
+    },
+    "chemistry": {
+      "belovedFigure": "드레싱 룸에서 사랑받는 인물이 되었습니다!",
+      "clubLegend": "클럽 레전드로서, 그의 존재는 팀의 단합에 매우 소중합니다.",
+      "deterioratedSignificantly": "팀 케미스트리가 크게 악화되었습니다 ({from} → {to}).",
+      "excellentForm": "뛰어난 폼 덕분에 스쿼드 내 지위가 향상되었습니다.",
+      "improvedDramatically": "팀 케미스트리가 비약적으로 향상되었습니다 ({from} → {to})!",
+      "injuryAbsence": "장기 부상 결장으로 동료들과의 유대감이 약해졌습니다.",
+      "lackPlayingTime": "출전 시간 부족으로 동료들과의 관계가 손상되었습니다.",
+      "multipleTrophies": "이번 시즌의 여러 트로피가 놀라운 팀 정신을 만들어냈습니다!",
+      "promotion": "승격이 전 스쿼드에 활력을 불어넣었습니다!",
+      "relegation": "강등으로 인해 팀의 사기와 단합이 무너졌습니다.",
+      "seriousIncident": "심각한 사건으로 인해 스쿼드에서 고립되었습니다.",
+      "trainingIncident": "훈련장 내 사건들이 스쿼드 내 관계를 손상시켰습니다.",
+      "transferSaga": "이적 사가가 드레싱 룸에 긴장을 조성했습니다.",
+      "trophyWin": "트로피 획득으로 팀이 더 가까워졌습니다."
+    },
+    "consequences": {
+      "ambition": "야망",
+      "discipline": "기강",
+      "exposure": "노출",
+      "fans": "팬과의 관계",
+      "followers": "팔로워",
+      "form": "폼",
+      "generosity": "관대함",
+      "loyalty": "충성도",
+      "morale": "사기",
+      "press": "언론과의 관계",
+      "reputation": "평판",
+      "teamChemistry": "팀 케미스트리"
+    },
+    "continental": {
+      "played": "🌍 {competition}에서 {matches}경기 출전 ({goals}골, {assists}도움)"
+    },
+    "continentalQualification": "대륙 대회 진출권 확보",
+    "contract": {
+      "extension": "{years}년 계약 연장.",
+      "newProfessional": "{years}년 새 프로 계약 체결.",
+      "noOffer": "{team}에서 새 계약을 제안하지 않았습니다.",
+      "parentExtended": "{team} (원 소속팀)에서 당신의 계약을 연장했습니다.",
+      "title": "계약"
+    },
+    "decisionMade": "결정 완료",
+    "discipline": {
+      "concernYellow": "⚠️ 기강 우려: 이번 시즌 옐로카드 {count}개.",
+      "criticalRed": "🟥 심각한 기강 문제: 레드카드 {count}개 - 개선이 필요합니다!",
+      "majorYellow": "⚠️ 주요 기강 문제: 이번 시즌 옐로카드 {count}개.",
+      "seriousRed": "🟥 심각한 기강 문제: 레드카드 {count}개!"
+    },
+    "endorsement": {
+      "signed": "{brand}와 연간 €{value}M 규모의 {duration}년 스폰서 계약 체결!"
+    },
+    "fan": {
+      "choice_engage": "모든 팬들에게 응대",
+      "choice_ignore": "무시하고 이동",
+      "description": "사인과 사진을 요청하는 팬 무리에 둘러싸였습니다. 어떻게 하시겠습니까?",
+      "title": "팬 소통"
+    },
+    "fanEncounter": {
+      "choice_engage": "시간을 함께 보냄",
+      "choice_ignore": "무시하고 떠남",
+      "choice_polite": "빠르게 사진 찍고 떠남",
+      "description": "공공장소에서 팬들이 당신을 알아보고 사진과 사인을 요청하고 있습니다.",
+      "title": "팬과의 만남"
+    },
+    "finance": {
+      "bankruptcyWarning": "⚠️ 재정 위기! 비용을 감당할 수 없습니다. 생활 수준을 조정해야 합니다.",
+      "charitableDonation": "🤝 €{amount}를 자선 단체에 기부했습니다.",
+      "excellentHealth": "💰 훌륭한 재정 건전성 - 자산이 잘 관리되고 있습니다!",
+      "forcedSale": "💔 재정적 어려움으로 인해 자산 {count}개를 강제 매각했습니다.",
+      "investmentMade": "📈 €{amount} 규모의 {type} 투자를 진행했습니다.",
+      "monthsOfRunway": "재정적 마진: {months}개월의 안정성 확보",
+      "netWorthMilestone": "💎 순자산이 €{amount}에 도달했습니다!",
+      "propertyPurchased": "🏠 새로운 부동산 구입: {property}",
+      "taxesPaid": "이번 시즌 세금으로 €{amount}를 납부했습니다.",
+      "vehiclePurchased": "🚗 새로운 차량을 수집 품목에 추가했습니다: {vehicle}"
+    },
+    "firstTitle": "커리어 첫 우승",
+    "form": {
+      "poorStreak": "📉 {count}경기 연속 부진 - 우려스러운 추세입니다.",
+      "strongStreak": "🌟 {count}경기 연속 좋은 활약!"
+    },
+    "generated": {
+      "business_opportunity": "💼 투자자들의 사업 제안.",
+      "charity_opportunity": "🤝 자선 활동 지원 기회.",
+      "fan_interaction": "👥 공개 행사에서 팬들의 소통 요청.",
+      "interview_controversial": "🎤 인터뷰 중 논란이 될 만한 질문.",
+      "manager_fallout": "😤 감독과의 불화.",
+      "mentor_opportunity": "🎓 유스 아카데미 선수 멘토링 초대.",
+      "nightclub_incident": "🌃 미디어에 보도된 나이트클럽 사건.",
+      "party_scandal": "📸 스캔들! 광란의 파티 사진 유출.",
+      "relationship_drama": "💔 헤드라인을 장식한 관계 드라마.",
+      "social_media_outburst": "📱 감정적인 게시물 이후의 소셜 미디어 논란.",
+      "tax_investigation": "📋 세무 당국의 조사 시작.",
+      "teammate_conflict": "⚔️ 드레싱 룸에서의 팀 동료와의 긴장."
+    },
+    "importantDecision": "이것은 중요한 결정입니다",
+    "injury": {
+      "careerEnding": "비극적인 커리어 종료 부상을 당했습니다.",
+      "description": "부상을 당했습니다",
+      "minor": "경미한 {type} - 사소한 차질입니다.",
+      "missedSeason": "부상으로 인해 시즌의 상당 부분을 결장했습니다.",
+      "moderate": "중간 정도의 {type} 부상을 입었습니다.",
+      "recovery": "회복",
+      "setback": "회복 중 차질 발생 - 결장 기간 연장.",
+      "severe": "심각한 {type} 부상 - {duration}개월 동안 결장합니다.",
+      "title": "부상",
+      "types": {
+        "hamstring": "햄스트링 부상",
+        "groin": "사타구니 긴장",
+        "ankle_sprain": "발목 염좌",
+        "knee_problem": "무릎 문제",
+        "back": "등 부상",
+        "knee": "무릎 부상",
+        "muscle_tear": "근육 파열",
+        "concussion": "뇌진탕",
+        "ankle": "발목 부상",
+        "hamstring_tear": "햄스트링 파열",
+        "calf": "종아리 긴장",
+        "finger": "손가락 부상",
+        "shoulder": "어깨 문제",
+        "hamstring_strain": "햄스트링 압박",
+        "groin_injury": "사타구니 부상",
+        "ankle_problem": "발목 문제",
+        "calf_strain": "종아리 압박",
+        "thigh": "허벅지 부상",
+        "muscle_strain": "근육 압박",
+        "muscle": "근육 부상"
+      },
+      "recovery_serious": "심각한 부상에서 복귀 - 돌아올 수 있어 안도했습니다.",
+      "recovery_normal": "부상에서 회복하여 완전한 몸 상태로 돌아왔습니다."
+    },
+    "interview": {
+      "choice_diplomatic": "외교적으로 답변",
+      "choice_honest": "매우 솔직하게 답변",
+      "choice_refuse": "답변 거부",
+      "description": "한 저널리스트가 팀 동료와 감독에 대해 까다로운 질문을 던지고 있습니다. 말 한마디 잘못하면 문제가 생길 수 있습니다.",
+      "title": "논란의 인터뷰"
+    },
+    "league": {
+      "playoffPromotionLost": "{team} 승격 플레이오프에서 패배했습니다.",
+      "playoffPromotionWon": "{team} 승격 플레이오프에서 승리하여 승격했습니다!",
+      "playoffRelegationLost": "{team} 강등 플레이오프에서 패배하여 강등되었습니다.",
+      "playoffRelegationSurvived": "{team} 강등 플레이오프에서 승리하여 잔류했습니다!",
+      "promoted": "{team}이(가) 상위 리그로 승격했습니다!",
+      "relegated": "{team}이(g) 하위 리그로 강등되었습니다."
+    },
+    "loan": {
+      "becamePermanent": "{team}으로의 임대가 완전 이적으로 전환되었습니다 (더 이상 원 소속팀이 없습니다).",
+      "clubSeekingMove": "클럽이 커리어 개발을 계속하기 위해 임대 이적을 적극적으로 모색하고 있습니다.",
+      "opportunitiesAvailable": "정기적인 출전을 확보하기 위해 {count}개의 임대 기회가 있습니다.",
+      "returnedToClub": "임대 기간 종료 후 {team}으로 복귀했습니다.",
+      "returnedToSenior": "임대 기간 종료 후 {team} 성인 팀으로 복귀했습니다.",
+      "spellEnded": "{loanTeam}에서의 임대 기간이 종료되었습니다. {parentTeam}으로 복귀합니다."
+    },
+    "manager": {
+      "choice_accept": "비판 수용",
+      "choice_defend": "자신을 변호",
+      "choice_transfer": "이적 요청",
+      "description": "감독이 당신의 성과를 공개적으로 비판했습니다. 기분이 좋지 않습니다.",
+      "title": "감독과의 불화"
+    },
+    "managerConversation": {
+      "choice_accept": "현재 역할 수용",
+      "choice_chances": "더 많은 기회 요청",
+      "choice_commitment": "팀에 대한 헌신 보여주기",
+      "description": "감독이 팀 내 당신의 역할에 대해 이야기하고 싶어 합니다. 출전 시간에 영향을 줄 수 있습니다.",
+      "title": "감독과의 대화"
+    },
+    "match": {
+      "title": "경기"
+    },
+    "media": {
+      "narrativeChange": "미디어 내러티브 변경: '{narrative}'",
+      "objectiveFailed": "언론 비판: 목표 달성 실패.",
+      "objectiveMet": "언론 찬사: 목표 달성 성공.",
+      "title": "미디어",
+      "youngTalent": "미디어는 그를 축구계에서 가장 흥미로운 젊은 재능 중 하나로 칭송합니다!"
+    },
+    "mediaInterview": {
+      "choice_confident": "자신감 보여주기",
+      "choice_deflect": "질문 피하기",
+      "choice_humble": "겸손하게 답변",
+      "description": "미디어가 당신에 대해 더 알고 싶어 합니다. 좋은 인상을 남길 기회입니다.",
+      "title": "첫 인터뷰"
+    },
+    "mentor": {
+      "choice_accept": "기꺼이 수락",
+      "choice_decline": "정중히 거절",
+      "description": "클럽이 당신에게 유스 아카데미 유망주를 멘토링해달라고 요청합니다. 시간이 걸리지만 이미지를 강화합니다.",
+      "title": "유스 멘토"
+    },
+    "national": {
+      "150caps": "{country} 대표팀으로 150경기 출전! 역대 최고 중 한 명입니다!",
+      "brace": "{country} 대표팀으로 {opponent}를 상대로 {type}에서 멀티골 기록!",
+      "centurion": "센추리온! {country} 대표팀으로 100경기 출전! 전설적인 업적입니다!",
+      "continentalCupExit": {
+        "genericDefeat": "대륙간 컵 {round} 대 {opponent} 탈락. 팀이 탈락하며 비통함.",
+        "heroicDefeat": "대륙간 컵 {round} 대 {opponent} 탈락. 훌륭한 개인 활약에도 불구하고 팀은 미치지 못했습니다.",
+        "disappointingDefeat": "대륙간 컵 {round} 대 {opponent} 탈락. 실망스러운 팀 경기력으로 대회 종료."
+      },
+      "continentalCupGroupExit": "대륙 컵 조별 리그 통과에 실패했습니다.",
+      "continentalCupSelected": "대륙 컵 스쿼드에 선발되었습니다!",
+      "demoted": "{country} 대표팀에서 스쿼드 로테이션으로 강등되었습니다.",
+      "dropped": "{country} 대표팀 스쿼드에서 제외되었습니다.",
+      "firstCallUp": "{country} 국가대표팀에 처음으로 소집되었습니다!",
+      "hatTrick": "{country} 대표팀으로 {opponent}를 상대로 해트트릭! 중요한 {type} 경기에서 역사적인 활약입니다!",
+      "lostCaptaincy": "{country} 국가대표팀 주장을 잃었습니다.",
+      "milestone100caps": "{country} 대표팀으로 국제 경기 100회 출전 달성! 전설적인 업적입니다.",
+      "milestone25intGoals": "{country} 대표팀 소속으로 개인 통산 25번째 국제 경기 골을 기록했습니다!",
+      "milestone50caps": "{country} 대표팀으로 국제 경기 50회 출전 달성!",
+      "milestone50intGoals": "{country} 대표팀 소속으로 개인 통산 50번째 국제 경기 골을 기록했습니다! 역사적인 업적입니다.",
+      "namedCaptain": "{country} 국가대표팀 주장을 맡았습니다! 엄청난 영광입니다.",
+      "nationsLeagueDefeat": {
+        "genericDefeat": "네이션스 토너먼트 {round} 대 {opponent} 패배. 팀이 탈락하며 비통함.",
+        "heroicDefeat": "네이션스 토너먼트 {round} 대 {opponent} 패배. 훌륭한 개인 활약에도 불구하고 팀은 미치지 못했습니다.",
+        "disappointingDefeat": "네이션스 토너먼트 {round} 대 {opponent} 패배. 실망스러운 팀 경기력으로 대회 종료."
+      },
+      "regularStarter": "{country} 대표팀의 주전 선수가 되었습니다!",
+      "retirementAnnounced": "{country} 대표팀으로 {caps}경기에 출전한 후 국가대표 은퇴를 선언했습니다. 한 시대의 끝입니다.",
+      "seasonSummary": "{country} 대표팀으로 {caps}경기에 출전하여 {goals}골과 {assists}도움을 기록했습니다 (평점: {rating}/10).",
+      "squadPlayer": "{country} 국가대표팀의 스쿼드 멤버로 자리 잡았습니다.",
+      "worldCupBrace": "월드 토너먼트 {round} {opponent}전 멀티골! 승리를 이끈 눈부신 활약!",
+      "worldCupExit": {
+        "genericDefeat": "월드 토너먼트 {round} 대 {opponent} 탈락. 팀이 탈락하며 비통함.",
+        "heroicDefeat": "월드 토너먼트 {round} 대 {opponent} 탈락. 훌륭한 개인 활약에도 불구하고 팀은 미치지 못했습니다.",
+        "disappointingDefeat": "월드 토너먼트 {round} 대 {opponent} 탈락. 실망스러운 팀 경기력으로 대회 종료."
+      },
+      "worldCupGroupExit": "월드 토너먼트 조별 리그에서 실망스럽게 탈락했습니다. 팀은 토너먼트 진출에 실패했습니다.",
+      "worldCupHatTrick": "월드 토너먼트 {round} {opponent}전 해트트릭! {country}를 위한 전설적인 기여!",
+      "worldCupCallup": "{country} 월드 토너먼트 대표팀에 선발되었습니다!"
+    },
+    "nightclub": {
+      "choice_apologize": "공개적으로 사과",
+      "choice_blame": "다른 사람 탓하기",
+      "description": "나이트클럽에서의 몸싸움이 뉴스에 보도되었습니다. 목격자들은 당신이 연루되었다고 말합니다.",
+      "title": "나이트클럽 사건"
+    },
+    "outburst": {
+      "choice_delete": "삭제하고 사과",
+      "choice_double_down": "강경하게 대응",
+      "description": "당신이 소셜 미디어에 올린 논란의 게시물이 바이럴되고 있습니다. 에이전트의 전화가 끊이지 않습니다.",
+      "title": "소셜 미디어 소동"
+    },
+    "party_scandal": {
+      "choice_apologize": "공개적으로 사과",
+      "choice_deny": "모든 것을 부인",
+      "choice_ignore": "침묵 유지",
+      "description": "광란의 파티 사진이 온라인에 유출되었습니다. 언론은 연일 보도하고 있고 클럽은 불쾌해합니다. 어떻게 대응하시겠습니까?",
+      "title": "파티 스캔들"
+    },
+    "performance": {
+      "disappointing": "실망스러운 시즌 후 미래에 대한 의문이 제기되고 있습니다.",
+      "exceptional": "뛰어난 시즌으로 전문가와 팬 모두의 찬사를 받습니다!",
+      "needsImprovement": "비평가들은 다음 시즌에 크게 개선해야 한다고 제안합니다.",
+      "strong": "시즌 내내 좋은 활약이 주목받고 있습니다."
+    },
+    "personal": {
+      "title": "개인"
+    },
+    "personality": {
+      "ambitious": {
+        "meltdown": "클럽의 야망과 이적 전략에 공개적으로 의문을 제기했습니다.",
+        "transfer": "야망 부족에 좌절감을 느끼며 이적 옵션을 고려 중입니다."
+      },
+      "determined": {
+        "overcome": "어려운 시기를 극복하기 위한 놀라운 투지를 보여주었습니다.",
+        "performance": "투지가 결승골 활약으로 보상받았습니다!"
+      },
+      "inconsistent": {
+        "boost": "갑자기 폼이 올랐습니다 - 제 날엔 막을 수 없습니다!",
+        "slump": "다시 폼이 떨어졌습니다 - 또 다른 답답한 시기."
+      },
+      "lazy": {
+        "criticism": "감독이 기자회견에서 훈련 태도를 비판했습니다.",
+        "fallout": "근무 태도 문제로 감독과의 관계가 악화되었습니다.",
+        "late": "반복적인 훈련 지각으로 클럽에서 벌금을 부과받았습니다."
+      },
+      "loyal": {
+        "banner": "팬들이 클럽에 대한 충성을 축하하는 배너를 공개했습니다.",
+        "community": "지역 사회가 그들의 지역 헌신을 기립니다.",
+        "decade": "서포터들이 10년간의 최고 선수로 선정했습니다.",
+        "legend": "수년간의 헌신적인 봉사 후 클럽 레전드로 선정되었습니다.",
+        "reject": "사랑하는 클럽에 남기 위해 수익성 좋은 제안을 거절했습니다."
+      },
+      "mediaDarling": {
+        "criticism": "강렬한 미디어 비평과 비난에 대처하기 힘들어하고 있습니다.",
+        "praise": "매력과 카리스마로 미디어 센세이션이 되었습니다!"
+      },
+      "professional": {
+        "award": "코칭 스태프에 의해 클럽 올해의 프로 선수로 선정되었습니다.",
+        "contract": "모범적인 프로 의식으로 클럽이 계약 연장에 열의를 보입니다.",
+        "praise": "뛰어난 프로 의식과 근무 태도로 감독에게 칭찬받았습니다.",
+        "roleModel": "동료들이 완벽한 롤 모델로 인정합니다.",
+        "training": "추가 훈련으로 스쿼드 전체의 존경을 받고 있습니다."
+      },
+      "reserved": {
+        "recognition": "조용한 일관성이 마침내 동료들과 전문가들의 인정을 받고 있습니다.",
+        "uncomfortable": "강렬한 미디어 스포트라이트가 불편함 - 축구로 말하는 것을 선호합니다."
+      },
+      "temperamental": {
+        "bustup": "훈련장에서 동료와 격렬한 언쟁을 벌였습니다.",
+        "fallout": "교체 후 감독과 공개적인 불화.",
+        "fine": "규율 문제로 클럽에서 벌금을 부과받았습니다.",
+        "media": "도발적인 질문 후 기자회견장에서 퇴장했습니다.",
+        "redCard": "폭력적인 행위로 퇴장 - 중요한 순간에 자제력을 잃었습니다.",
+        "social": "팬과 미디어를 비판하는 소셜 미디어 게시물을 삭제했습니다."
+      }
+    },
+    "physical": {
+      "heightGrowth": "키 성장",
+      "injuryRecovery": "부상 회복",
+      "muscleGain": "근육량 증가",
+      "naturalDecline": "자연적인 감소",
+      "peakPhysical": "피지컬 전성기",
+      "weightGain": "체중 증가",
+      "weightLoss": "체중 감소"
+    },
+    "promotion": {
+      "asProspect": "{age}세의 나이로 {team} 성인 스쿼드로 승격되었습니다. 미래가 기대되는 유망주로 평가받습니다.",
+      "asReserve": "{age}세의 나이로 {team} 성인 스쿼드에 합류했습니다. 리저브 팀에서 시작하며 실력을 증명할 기회를 얻게 됩니다.",
+      "fastTracked": "🏆 불과 {age}세의 나이로 {team} 성인 스쿼드에 초고속 승격되었습니다! 즉시 1군 로테이션에 합류합니다.",
+      "toSeniors": "{age}세의 나이로 {team} 성인 스쿼드로 승격되었습니다."
+    },
+    "reactions": {
+      "agent_meeting": {
+        "contract": {
+          "headline1": "📰 {name}, 재계약 협상 중"
+        },
+        "explore": {
+          "fan1": "우리를 버리는 건가요? 모든 걸 함께했는데? 💔",
+          "fan2": "더 좋은 프로젝트를 위해서라면 이해합니다...",
+          "headline1": "📰 독점: {name}, 다른 클럽들의 제안 검토 중",
+          "headline2": "📰 {name}의 미래는 불투명"
+        },
+        "focus": {
+          "fan1": "좋군요! 경기에만 집중하세요, 나머지는 따라올 겁니다! ⚽"
+        }
+      },
+      "charity": {
+        "large": {
+          "fan1": "정말 대단한 사람입니다! 단순한 선수를 넘어선 존재군요! ❤️",
+          "fan2": "이런 사람을 응원하게 되어 자랑스럽습니다! 🥹",
+          "headline1": "📰 {name}, 어린이 병원에 거액 기부",
+          "headline2": "📰 {name}의 너그러움이 지역 사회를 감동시키다"
+        },
+        "small": {
+          "fan1": "모든 도움이 소중합니다! 이니셔티브 축하해요! 👏",
+          "headline1": "📰 {name}, 자선 활동에 기여"
+        }
+      },
+      "fan_encounter": {
+        "engage": {
+          "fan1": "그가 저와 사진을 찍기 위해 멈췄다는 게 믿기지 않아요! 😍",
+          "fan2": "20분 동안 사인을 해줬어요! 전설이네요! ⭐",
+          "fan3": "이 친구는 우리 중 한 명이에요. 겸손함 10/10!",
+          "headline1": "📰 {name}, 친절한 팬 서비스로 팬들을 열광시키다"
+        },
+        "ignore": {
+          "fan1": "정말 실망스럽네요... 우리를 쳐다보지도 않았어요 😢",
+          "fan2": "명성이 머릿속을 지배했나 보군요, 보아하니...",
+          "headline1": "📰 팬들, {name}의 싸늘한 대우에 불만 토로"
+        },
+        "polite": {
+          "fan1": "빨리 사진 찍었어요! 너무 행복해요! 📸"
+        }
+      },
+      "fan_interaction": {
+        "engage": {
+          "fan1": "이 선수는 클래스가 다르네요! 모두를 응대해줬어요! 🌟",
+          "fan2": "제 아들을 행복하게 해줘서 고마워요! ❤️",
+          "headline1": "📰 {name}, 팬들에 대한 태도로 찬사 받아"
+        },
+        "ignore": {
+          "fan1": "우리가 보이지 않는 것처럼 그냥 지나쳐 갔어요... 😔"
+        }
+      },
+      "manager_conversation": {
+        "chances": {
+          "headline1": "📰 {name}, 팀 내 더 많은 기회 원해"
+        },
+        "commitment": {
+          "fan1": "바로 그거죠! 엠블럼을 위해 뛰는 것! 💚",
+          "headline1": "📰 {name}, 클럽에 대한 헌신 재확인"
+        }
+      },
+      "manager_fallout": {
+        "accept": {
+          "fan1": "이것이 성숙함이죠. 듣고, 받아들이고, 발전하세요! 👏",
+          "headline1": "📰 {name}, 비판 수용하고 개선 약속"
+        },
+        "defend": {
+          "fan1": "와! 이거 난장판이 되겠는데요...",
+          "headline1": "📰 긴장 상태! {name}, 감독의 비판에 반박"
+        },
+        "transfer": {
+          "fan1": "가지 마세요! 제발 가지 마세요! 😭",
+          "fan2": "감독이 그를 어떻게 써야 할지 모른다면, 가는 게 낫죠...",
+          "headline1": "📰 충격 소식! {name}, 감독과의 불화 후 이적 요청",
+          "headline2": "📰 {name}와 감독의 관계, 회복 불가능"
+        }
+      },
+      "party_scandal": {
+        "apologize": {
+          "fan1": "적어도 자백은 했네요. 존중합니다! 👏",
+          "fan2": "누구나 실수할 수 있죠, 중요한 건 인정하는 겁니다. 앞으로 나아갑시다!",
+          "headline1": "📰 {name}, 파티 논란에 대해 사과",
+          "headline2": "📰 실수를 인정하며 성숙함을 보여준 선수"
+        },
+        "deny": {
+          "fan1": "부인해봐야 소용없어요, 모든 사진이 다 찍혔거든요! 🤦",
+          "fan2": "우리를 바보로 아는 건가요?",
+          "headline1": "📰 {name}, 논란의 파티 연루 부인",
+          "headline2": "📰 선수의 주장이 목격자들과 엇갈림"
+        },
+        "ignore": {
+          "fan1": "이 문제에 관심을 주지 않은 게 맞다고 생각합니다.",
+          "headline1": "📰 {name}, 논란에 대해 침묵 유지"
+        }
+      },
+      "teammate_conflict": {
+        "apologize": {
+          "fan1": "사과할 줄 아는 것이 위대함이죠. 축하해요! 👏"
+        },
+        "escalate": {
+          "fan1": "창피하네요! 이런 일이 일어나면 안 되죠! 😡",
+          "headline1": "📰 드레싱 룸 위기! 선수들 간의 싸움이 미디어에 유출되다",
+          "headline2": "📰 보드진, 팀 분위기에 우려 표명"
+        },
+        "stand": {
+          "fan1": "조만간 해결되기를 바랍니다...",
+          "headline1": "📰 긴장된 분위기: {name}, 내부 갈등 속에서도 입장 고수"
+        }
+      },
+      "teammate_interaction": {
+        "bond": {
+          "fan1": "팀이 하나가 된 모습을 보니 좋네요! 가족! 🤝"
+        }
+      },
+      "training_decision": {
+        "extra": {
+          "fan1": "이렇게 커리어를 쌓는 거죠! 완전한 헌신! 💪",
+          "headline1": "📰 {name}, 훈련에서의 특별한 헌신으로 깊은 인상 남김"
+        },
+        "rest": {
+          "fan1": "그가 정말 집중하고 있는 건가요? 🤔"
+        }
+      }
+    },
+    "relationship": {
+      "choice_private": "공개하지 않기",
+      "choice_public": "공개 성명 발표",
+      "description": "당신의 사적인 관계가 타블로이드지의 가십거리가 되었습니다. 파파라치들이 사방에 깔려 있습니다.",
+      "title": "관계 드라마"
+    },
+    "release": {
+      "fromAcademy": "{age}세의 나이로 {team} 아카데미에서 방출되었습니다. 성인 팀 승격에 실패했습니다."
+    },
+    "requiresMoney": "€{amount} 필요",
+    "retirement": {
+      "careerEndingInjury": "커리어를 끝내는 부상으로 인해 은퇴를 선언할 수밖에 없었습니다. 유망한 커리어의 잔인한 결말입니다.",
+      "centurion": "{country} 대표팀의 센추리온 - 국가적 영웅입니다.",
+      "headlines": {
+        "injury": {
+          "1": "💔 가슴 아픈 소식! {name}, 부상으로 짧아진 커리어.",
+          "2": "🏥 몸이 거부하다: {name}, 부상으로 은퇴 선언.",
+          "3": "😢 잔인한 차질: 부상으로 조기에 마감된 {name}의 커리어.",
+          "4": "🩹 의료진의 권고로 {name} 은퇴. 축구계가 슬픔에 빠지다.",
+          "5": "💉 파괴적인 타격: {name}, 만성 부상으로 커리어 종료.",
+          "6": "🦴 몸의 배신: {name}, 이른 은퇴를 강요받다.",
+          "7": "⚕️ 의료진의 결단: {name}, 건강을 위해 반드시 은퇴해야.",
+          "8": "😞 산산조각 난 꿈: 부상으로 그라운드를 떠나는 {name}.",
+          "9": "🏨 최종 진단: 부상으로 선수 생활이 끝난 {name}.",
+          "10": "💫 만약이라는 아쉬움: {name}, 반복되는 부상으로 은퇴.",
+          "11": "🩼 새로운 길: {name}, 커리어 지속 대신 건강을 선택.",
+          "12": "⚡ 청천벽력: 파괴적인 부상으로 끝난 {name}의 커리어.",
+          "13": "😔 불공평한 끝: 부상으로 인한 은퇴를 선언하는 {name}.",
+          "14": "🆘 회복 불가능: 부상이 커리어를 끝냈음을 받아들이는 {name}.",
+          "15": "💭 아쉬움 가득: 끝내 못다 핀 {name}, 은퇴 선언.",
+          "16": "🏃‍♂️ 뛸 수 없는 현실: {name}, 부상과의 싸움 끝에 은퇴.",
+          "17": "🎗️ 투혼: 신체의 한계를 이기지 못하고 은퇴하는 {name}.",
+          "18": "⏸️ 영구 정지: {name}, 부상으로 인한 은퇴.",
+          "19": "🩺 의학적 은퇴: {name}, 의사의 권고로 선수 생활 중단.",
+          "20": "❤️‍🩹 더 이상 버틸 수 없는 몸: {name}, 메디컬 은퇴 발표.",
+          "types": {
+            "hamstring": "햄스트링 부상",
+            "groin": "사타구니 긴장",
+            "ankle_sprain": "발목 염좌",
+            "knee_problem": "무릎 문제",
+            "back": "등 부상",
+            "knee": "무릎 부상",
+            "muscle_tear": "근육 파열",
+            "concussion": "뇌진탕",
+            "ankle": "발목 부상",
+            "hamstring_tear": "햄스트링 파열",
+            "calf": "종아리 긴장",
+            "finger": "손가락 부상",
+            "shoulder": "어깨 문제",
+            "hamstring_strain": "햄스트링 압박",
+            "groin_injury": "사타구니 부상",
+            "ankle_problem": "발목 문제",
+            "calf_strain": "종아리 압박",
+            "thigh": "허벅지 부상",
+            "muscle_strain": "근육 압박",
+            "muscle": "근육 부상"
+          },
+          "recovery_serious": "심각한 부상에서 복귀 - 돌아올 수 있어 안도했습니다.",
+          "recovery_normal": "부상에서 회복하여 완전한 몸 상태로 돌아왔습니다."
+        },
+        "natural": {
+          "1": "👋 {name}, 완벽한 순간에 은퇴 발표. 훌륭한 삶이었습니다.",
+          "2": "⚽ 한 시대의 끝: {name}, 충실한 커리어 후 축구화 끈을 풀다.",
+          "3": "🎬 최종 휘슬: {name}, 선수 생활 마감.",
+          "4": "📖 문을 닫는 챕터: {name}, 프로 축구계에서 은퇴.",
+          "5": "🌅 일몰: {name}, 평화롭게 선수 생활 종료.",
+          "6": "🎭 기립 박수: 위대한 커리어 후 마지막 인사를 하는 {name}.",
+          "7": "📝 완벽한 작별: 머리를 높이 들고 은퇴하는 {name}.",
+          "8": "⏰ 적절한 시기: {name}, 은퇴할 시기가 왔음을 직감하다.",
+          "9": "💫 완성된 커리어: 더 이상 증명할 게 없는 {name}의 은퇴.",
+          "10": "🎖️ 임무 완수: 만족스럽게 선수 생활을 마무리하는 {name}.",
+          "11": "🏟️ 비어버린 라커룸: 축구와 작별하는 {name}.",
+          "12": "👏 감사한 퇴장: 축구에 감사하며 은퇴하는 {name}.",
+          "13": "🎯 목표 달성: 커리어 목표를 이룬 후 은퇴하는 {name}.",
+          "14": "📅 계획대로: 적절한 순간에 은퇴하는 {name}.",
+          "15": "🌟 유산 확보: 축구계를 떠나는 {name}.",
+          "16": "⚽ 마지막 슛: 충실한 여정 끝에 은퇴하는 {name}.",
+          "17": "🎪 마지막 공연: 축구와 작별 인사를 나누는 {name}.",
+          "18": "📻 마지막 방송: {name}, 축구계 은퇴 발표.",
+          "19": "🏃 축구화 끈을 풀다: 길고 자랑스러운 커리어 후 은퇴하는 {name}.",
+          "20": "💎 다이아몬드 커리어의 종료: 추억의 보물함을 안고 은퇴하는 {name}."
+        },
+        "peakLegend": {
+          "general": {
+            "1": "⭐ 여전히 전성기! 팬들이 한 시즌 더 뛰길 간청하지만 은퇴하는 {name}!",
+            "2": "💫 본인이 원할 때: 엘리트 수준을 유지하며 은퇴를 선택한 {name}!",
+            "3": "🎭 일찍 내리는 커튼: 여전히 보여줄 것이 많은데 은퇴하는 {name}!",
+            "4": "👏 순수한 클래스: 최고 수준을 유지하며 무대를 떠나는 {name}!",
+            "5": "🌟 스타로 남다: 여전히 빛나는 상태에서 은퇴하는 {name}!",
+            "6": "💎 정상에서 멈추다: 위대한 유산과 함께 은퇴하는 {name}!",
+            "7": "🎯 완벽한 타이밍: 작별 인사를 전할 때를 아는 {name}!",
+            "8": "👑 왕에게 경례를: 힘의 정점에서 은퇴하는 {name}!",
+            "9": "⚡ 강하게 퇴장하다: 여전히 경쟁자에게 공포의 대상인 채 은퇴하는 {name}!",
+            "10": "🔥 꺾이지 않는 불꽃: 엘리트 수준에서 축구를 떠나는 {name}!"
+          },
+          "trophy": {
+            "1": "⚽ 세계를 놀라게 하다! {name}, 정점에서 축구화 끈을 풀다!",
+            "2": "🏆 정상에서 퇴장: 우승 직후 은퇴를 선언한 {name}!",
+            "3": "👑 완벽한 결말? 정상에서 작별을 고하는 {name}!",
+            "4": "🌟 영원한 챔피언: 우승의 영광과 함께 당당하게 떠나는 {name}!",
+            "5": "🎖️ 승자로 남는 은퇴: 정점에서 커리어를 마무리하는 {name}!",
+            "6": "💫 황금빛 퇴장: 챔피언 중의 챔피언으로 작별하는 {name}!",
+            "7": "🥇 마지막 댄스, 최고의 댄스: 트로피를 손에 쥐고 은퇴하는 {name}!",
+            "8": "🏅 더 좋을 수 없는 방법: 챔피언으로 축구계와 작별하는 {name}!",
+            "9": "⭐ 동화 같은 결말: 영광의 순간에 은퇴하는 {name}!",
+            "10": "🎭 완벽한 마지막 액트: 트로피를 들고 무대 밖으로 퇴장하는 {name}!"
+          }
+        },
+        "premature": {
+          "1": "❓ 가족 사유를 들며 축구계를 갑작스럽게 떠나는 {name}.",
+          "2": "💭 {name}, 게임에 대한 열정을 잃고 조기 은퇴.",
+          "3": "🎯 새로운 우선순위: 조기 은퇴로 세상을 놀라게 한 {name}.",
+          "4": "🌅 축구 너머의 삶: 다른 꿈을 좇기 위해 떠나는 {name}.",
+          "5": "👨‍👩‍👧 가족이 우선: 사랑하는 사람들을 위해 젊은 나이에 은퇴하는 {name}.",
+          "6": "🧘 정신적 평화: 축구의 압박에서 벗어나는 {name}.",
+          "7": "📚 새로운 장: 학업을 위해 조기 은퇴하는 {name}.",
+          "8": "💼 비즈니스의 부름: 기업가 정신을 위해 축구를 떠나는 {name}.",
+          "9": "🌍 세계 여행가: 스포츠 외부의 삶을 탐험하기 위해 은퇴하는 {name}.",
+          "10": "🎨 창조적인 추구: 예술적 꿈을 따라 그라운드를 떠나는 {name}.",
+          "11": "🏠 고향으로: 뿌리로 돌아가기 위해 은퇴하는 {name}.",
+          "12": "💡 깨달음: 축구가 더 이상 충만하지 않음을 깨달은 {name}.",
+          "13": "🌱 새로운 시작: 새로운 목적을 찾아 조기 은퇴하는 {name}.",
+          "14": "🎭 색다른 무대: 엔터테인먼트 커리어를 위해 축구를 떠나는 {name}.",
+          "15": "📖 이야기는 계속된다: 새로운 장을 쓰기 위해 은퇴하는 {name}.",
+          "16": "🧠 정신 건강 우선: 커리어보다 웰빙을 우선시하는 {name}.",
+          "17": "⚖️ 일과 삶의 균형: 균형을 찾으러 은퇴하는 {name}.",
+          "18": "🙏 영적 여정: 내면의 평화를 찾기 위해 떠나는 {name}.",
+          "19": "💝 사랑이 이기다: 관계의 우선순위를 위해 은퇴하는 {name}.",
+          "20": "🌟 색다른 꿈: 축구 외부의 목표를 달성하기 위해 은퇴하는 {name}."
+        },
+        "tooLong": {
+          "1": "📉 결국 끝났습니다. {name}, 고전적인 시즌 후 은퇴 선언.",
+          "2": "🔚 화려했던 커리어의 조용한 결말: {name} 은퇴.",
+          "3": "💭 비평가들은 때가 되었다고 합니다: 분투 끝에 그라운드를 떠나는 {name}.",
+          "4": "📰 황혼기: 쇠퇴기 시즌을 보낸 후 마침내 끝난 {name}의 커리어.",
+          "5": "⏰ 너무 길었던 한 시즌? {name}, 마침내 커리어 종료.",
+          "6": "🌅 힘겨웠던 마지막 챕터를 뒤로하고 일몰을 맞이하는 {name}의 커리어.",
+          "7": "📊 숫자는 거짓말하지 않습니다: 통계적 하락 후 은퇴하는 {name}.",
+          "8": "⚡ 마침내 다리가 버티지 못했습니다: 은퇴를 발표하는 {name}.",
+          "9": "🪫 비어버린 탱크: 따라가기 위해 고군분투하던 {name}의 은퇴.",
+          "10": "📉 영웅에서 방황으로: 힘겨운 시기 끝에 은퇴하는 {name}.",
+          "11": "🚪 늦어버린 퇴장: 압박 끝에 마침내 축구화 끈을 푸는 {name}.",
+          "12": "⌛ 시간이 따라잡았습니다: 시간의 승리를 인정하며 은퇴하는 {name}.",
+          "13": "💤 고갈된 에너지: 험난한 여정 끝에 커리어를 마감하는 {name}.",
+          "14": "🎭 마지막 인사: 팬들이 때가 늦었는지 의문을 제기하던 끝에 은퇴하는 {name}.",
+          "15": "📝 운명의 게시물: 고전하던 마지막 몇 년을 끝으로 은퇴하는 {name}.",
+          "16": "🔕 조용히 떠나다: 쇠퇴기 후 조용히 은퇴로 향하는 {name}.",
+          "17": "⚽ 사라진 마법: 실력이 사그라들며 은퇴하는 {name}.",
+          "18": "🏃 더 이상 경쟁할 수 없는 현실: 마지못해 은퇴하는 {name}.",
+          "19": "📅 연기된 경기: 마침내 커리어 종료를 받아들이는 {name}.",
+          "20": "🎬 크레딧 롤: 빛바랜 장으로 끝나는 {name}의 이야기."
+        }
+      },
+      "icon": "⭐ 뛰어난 커리어를 보낸 {name}이(가) 은퇴를 발표했습니다. {matches}경기 출전, {goals}골, 상위 대회 트로피 {trophies}개. 많은 이들에게 영감을 주었습니다.",
+      "journeyman": "{name}이(가) 은퇴를 발표했습니다. {reason}. {clubs}개 클럽에서 총 {matches}경기에 출전했습니다.",
+      "legend": "🏆 레전드 은퇴! {name}이(가) 한 세대에게 영감을 준 놀라운 커리어 후 축구화 끈을 풉니다. 개인상 {awards}회, 트로피 {trophies}개. 진정한 축구계의 아이콘입니다.",
+      "oneClubLegend": "원클럽 레전드. 현대 축구에서 이런 충성심은 보기 드뭅니다.",
+      "professional": "{name}이(가) {matches}번의 프로 경기에 출전한 후 선수 생활을 마감합니다. {reason}. 탄탄한 커리어에 자부심을 느낍니다.",
+      "rumors": {
+        "general": {
+          "1": "💼 {name}, 재무 법무 고문과 은퇴 후의 삶에 대해 논의하는 모습 포착.",
+          "2": "📅 끝이 보이나? {name}, 은퇴 옵션을 검토하고 있다는 소식.",
+          "3": "🏠 {name}의 측근들이 은퇴 발표 가능성을 암시.",
+          "4": "📰 커리어가 황혼기에 접어들며 {name}의 미래에 대한 추측이 무성해짐.",
+          "5": "🎙️ 에이전트, {name}의 은퇴 소문을 부인하지 않음.",
+          "6": "📝 {name}, 고별 경기 일정에 대해 논의 중인 것으로 알려짐.",
+          "7": "🏟️ 비어버린 라커룸? {name}이 경기장에서 소지품을 정리하는 모습 포착.",
+          "8": "💭 철학적인 {name}, 인터뷰에서 '축구 이후의 삶'에 대해 이야기함.",
+          "9": "📊 계약 만료를 앞둔 {name}, 재계약을 추진하지 않는 것으로 보임.",
+          "10": "🌅 황혼기가 다가오나? {name}의 커리어가 자연스러운 결말에 다다르고 있을지도 모름."
+        },
+        "highOvr": {
+          "1": "🤔 전문가들의 토론: {name}이 이 수준을 1년 더 유지할 수 있을까?",
+          "2": "💭 소식통에 따르면 {name}은 정점에서 떠나기를 원함.",
+          "3": "📰 {name}이 챔피언으로서 물러날까? 은퇴에 대한 속삭임이 커짐.",
+          "4": "🎙️ 레전드 지위 확보 - 하지만 {name}이 선수 생활을 마감할까?",
+          "5": "⭐ 여전히 월드클래스지만, {name}이 옵션을 고려 중인 것으로 알려짐.",
+          "6": "🏆 트로피 하나 더 아니면 은퇴? {name}이 미래를 고민함.",
+          "7": "💬 추측이 무성한 가운데 에이전트는 {name}의 계획에 대해 침묵.",
+          "8": "📊 엘리트 통계, 하지만 은퇴 후의 삶을 고민하는 {name}.",
+          "9": "🎯 정점의 성과가 {name}의 다음 행보에 대한 질문을 던짐.",
+          "10": "👑 축구의 왕, 하지만 {name}의 왕좌가 곧 빌지도 모름."
+        },
+        "poorForm": {
+          "1": "📉 팬들은 {name}이 여전히 뛸 수 있는지 의구심을 갖기 시작.",
+          "2": "💬 {name}과 관련된 드레싱 룸의 피로감 소문.",
+          "3": "🗣️ 비평가들은 {name}의 최고의 날들은 이미 지났다고 암시.",
+          "4": "⚽ 폼을 찾기 위해 분투 중 - {name}이 은퇴할 때가 되었나?",
+          "5": "📰 전문가들은 {name}의 지속 능력에 공개적으로 의문을 제기.",
+          "6": "🪫 동력이 떨어졌나? 은퇴 압박에 직면한 {name}.",
+          "7": "📊 {name}의 미래가 불투명해지며 통계 수치 하락.",
+          "8": "💤 옛 마법이 사라짐 - {name}의 은퇴 소문이 커짐.",
+          "9": "⏰ 시간이 따라잡았나? 부진한 흐름 속에서 조사를 받는 {name}.",
+          "10": "🎭 마지막 액트가 다가오나? {name}의 폼이 은퇴 이야기를 만들어냄."
+        }
+      },
+      "shirtRetired": "{team}, 클럽 레전드 {name}을(를) 기리기 위해 등번호 {number}번을 영구 결번하기로 발표.",
+      "star": "{name}, 성공적인 커리어 후 은퇴. {clubs}개 클럽에서 {matches}경기 출전, {goals}골 기록. 꿈을 이룬 존경받는 프로 선수입니다.",
+      "testimonialMatch": "{team}은 그를 위해 고별 경기를 열기로 했습니다.",
+      "worldCupChampion": "영원히 월드 토너먼트 챔피언으로 기억될 것입니다."
+    },
+    "role": {
+      "promiseBroken": "스쿼드 역할 약속이 지켜지지 않았습니다.",
+      "promiseHonored": "클럽이 역할 약속을 지켰습니다: 이번 시즌 {status} 상태가 보장됩니다.",
+      "promisePeriodEnded": "역할 약속 기간이 종료되었습니다."
+    },
+    "season": {
+      "aerialDominance": "🗼 공중 제배! {count}개의 헤더 골 - 진정한 타겟맨입니다!",
+      "aerialDominant": "🗼 공중 장악! {count}개의 헤딩골!",
+      "clutchPlayer": "🏆 클러치 플레이어! {count}개의 결승골 - 결정적인 순간에 항상 해냅니다!",
+      "completeForward": "🌟 완성형 공격수! {goals}골 + {assists}도움 = {total} 공격 포인트!",
+      "elitePlaymaking": "👑 {assists}어시스트를 기록한 엘리트 플레이메이킹!",
+      "excellentGoals": "✨ {goals}골을 몰아친 훌륭한 득점 시즌!",
+      "legendaryGoals": "🔥 역사적인 시즌! {matches}경기 {goals}골 - 기록에 남을 시즌입니다!",
+      "longRangeThreat": "⚡ 장거리 위협! 먼 거리에서의 {count}골!",
+      "longShotSpecialist": "🚀 중거리 슛 전문가! 페널티 박스 밖에서의 {count}골!",
+      "matchWinner": "💪 해결사! {count}개의 결승골!",
+      "outstandingGoals": "🎯 {goals}골을 기록한 눈부신 시즌!",
+      "phenomenal": "💫 경이적! {goals}골 + {assists}도움 = {total} 공격 포인트 - 전설적입니다!",
+      "playmakerMasterclass": "🎨 플레이메이커 마스터클래스! {assists}어시스트 - 순수한 창의성!",
+      "spectacularGolacos": "🚀 화려한 시즌! {count}개의 원더 골 - 올해의 골 어워드 노미네이트!",
+      "strongContributions": "⚡ 강렬한 시즌! {goals}골 + {assists}도움 = {total} 공격 포인트.",
+      "wonderGoals": "⚡ 화려한 스트라이커! 이번 시즌 {count}개의 원더 골!",
+      "worldClassGoals": "⭐ 월드클래스! {goals}골 - 믿을 수 없는 캠페인이었습니다!"
+    },
+    "severity": {
+      "critical": "심각함",
+      "major": "중요함",
+      "minor": "경미함",
+      "moderate": "보통"
+    },
+    "social": {
+      "title": "소셜"
+    },
+    "stat": {
+      "clinicalConversion": "🎯 결정적인 피니셔! {rate}%의 슈팅 성공률.",
+      "exceptionalPassing": "🎯 뛰어난 패스 정확도: {rate}%",
+      "xGElite": "🎯 결정적 피니셔! 기대 득점(xG)을 {percent}% 초과 - 엘리트 수준의 효율성입니다!",
+      "xGGood": "🎯 결정적 피니셔! 기대 득점(xG) 수치를 {percent}% 초과했습니다."
+    },
+    "suspension": {
+      "redCard": "{competition}에서 {count}개의 레드카드를 받았습니다. 다음 시즌에 {count}경기 출전 정지 징계를 받게 됩니다."
+    },
+    "tax": {
+      "choice_cooperate": "전적으로 협조",
+      "choice_fight": "혐의 부인",
+      "choice_settle": "조용히 해결",
+      "description": "세무 당국이 당신의 재정을 조사하고 있습니다. 제대로 처리하지 않으면 심각한 상황이 될 수 있습니다.",
+      "title": "세무 조사"
+    },
+    "team": {
+      "title": "팀"
+    },
+    "teammate": {
+      "choice_apologize": "사과하기",
+      "choice_escalate": "갈등 심화",
+      "choice_stand": "입장 고수",
+      "description": "드레싱 룸에서 팀 동료와의 논쟁이 격해졌습니다. 긴장감이 고조되고 있습니다.",
+      "title": "팀 동료와의 갈등"
+    },
+    "teammateInteraction": {
+      "choice_bond": "함께 시간을 보내며 유대감 강화",
+      "choice_compete": "경쟁적인 챌린지 제안",
+      "choice_professional": "프로페셔널한 관계 유지",
+      "description": "팀 동료가 훈련 후에 외출을 제안했습니다. 유대감을 강화할 수 있는 기회입니다.",
+      "title": "팀 동료와 소통"
+    },
+    "training": {
+      "title": "훈련"
+    },
+    "trainingDecision": {
+      "choice_balanced": "균형 잡힌 접근",
+      "choice_extra": "매일 추가 세션 진행",
+      "choice_rest": "휴식 우선",
+      "description": "감독이 선택형 추가 훈련 세션을 제안하고 있습니다. 얼마나 많은 노력을 기울이고 싶으신가요?",
+      "title": "훈련 결정"
+    },
+    "trait": {
+      "bigGamePlayer": "결승전과 중요한 경기에서의 검증된 활약으로 '빅 경기형 선수' 특성을 얻었습니다.",
+      "clinicalFinisher": "골문 앞에서의 치명적인 시즌을 보낸 후 '피니시의 달인' 특성을 얻었습니다.",
+      "composure": "압박감 속에서도 차가운 침착함을 유지하며 '침착성' 특성을 얻었습니다.",
+      "discipline": "피치 위에서의 모범적인 행동으로 '자기 절제' 특성을 얻었습니다.",
+      "dribblingWizard": "매혹적인 드리블 실력을 선보이며 '드리블의 마술사' 특성을 얻었습니다.",
+      "engine": "시즌 내내 끊임없는 활동량을 보여주며 '엔진' 특성을 얻었습니다.",
+      "injuryProne": "우려스러운 부상 이력으로 인해 '유리몸' 특성을 갖게 되었습니다.",
+      "injuryProneLost": "헌신적인 운동을 통해 이전의 부상 우려를 극복했습니다.",
+      "leadership": "타고난 리더로 성장하며 '리더십' 특성을 얻었습니다.",
+      "oneClubMan": "수년간의 성실한 봉사 끝에 '원클럽맨' 특성을 얻으며 진정한 클럽 레전드가 되었습니다.",
+      "playmaker": "시즌 내내 공격을 조율하며 '플레이메이커' 특성을 얻었습니다.",
+      "powerHeader": "시즌 내내 보여준 공중 장악력으로 '파워 헤더' 특성을 얻었습니다.",
+      "setpieceSpecialist": "데드볼 상황에서의 탁월한 능력으로 '세트피스 스페셜리스트' 특성을 얻었습니다.",
+      "speedMerchant": "폭발적인 속도가 전매특허가 되며 '속도광' 특성을 얻었습니다.",
+      "twoFooted": "수년간의 연습으로 약발을 완벽하게 보완하여 '양발잡이' 특성을 얻었습니다.",
+      "versatile": "수년간 다양한 역할을 수행하며 '다재다능' 특성을 얻었습니다.",
+      "weakFootLost": "연습을 통해 약발 능력이 크게 향상되었습니다."
+    },
+    "transfer": {
+      "ambitiousWantsMove": "최고 수준의 경쟁을 갈망하는 야망 있는 성격 때문에 더 큰 클럽으로의 이적을 원합니다.",
+      "crisis": "💔 위기! {seasons}시즌 동안의 최소한의 출전 시간 이후, 클럽과의 관계가 회복 불가능할 정도로 악화되었습니다. 이적이 불가피합니다.",
+      "historicRival": "역사적 라이벌",
+      "loanConversion": "임대 후 {team}과 완전 이적 계약. 이적료: €{fee}M",
+      "loaned": "{team}으로 {duration}시즌 임대.",
+      "loyalQuestioningFuture": "충성심에도 불구하고, 기회 부족으로 클럽에서의 미래에 의문을 갖기 시작했습니다.",
+      "playerRequestedMove": "✈️ 선수가 공개적으로 이적을 요청했습니다! 한 시즌 동안 변화가 없자 클럽은 그의 이적을 협상할 수밖에 없었습니다.",
+      "playerWantsOut": "선수가 클럽을 떠나고 싶다는 의사를 표현했습니다. 에이전트가 이적 옵션을 알아보고 있습니다.",
+      "regular": "{toTeam}으로 이적.",
+      "rival": "라이벌",
+      "rivalMove": "💥 역사적인 이적! {fromTeam}에서 숙적 {toTeam}로 이적! 팬들이 분노하고 있습니다!",
+      "signedFreeAgent": "프리 에이전트로 {team}과 계약.",
+      "temperamentalOutburst": "감정 폭발! 훈련장에서의 사건 이후 즉각적인 이적을 요구했습니다.",
+      "title": "이적",
+      "traitor": "배신자",
+      "transferred": "{team}으로 €{fee}M에 이적."
+    },
+    "trophy": {
+      "clubWorldCup": "🏆 클럽 월드 토너먼트 우승!",
+      "continental": "🏆 {competition} 우승!",
+      "continentalCupChampions": {
+        "brace": "🏆 {country}가 대륙간 컵 우승! {goals}골의 놀라운 활약이 승리를 확정지었습니다!",
+        "crucialGoal": "🏆 {country}가 대륙간 컵 우승! 힘든 승부에서의 결정적인 골!",
+        "commandingDisplay": "🏆 {country}가 대륙간 컵 우승! 승리할 자격이 있는 압도적인 경기력!",
+        "tenseBattle": "🏆 {country}가 대륙간 컵 우승! 긴장된 전투 끝에 팀이 전진합니다!",
+        "importantVictory": "🏆 {country}가 대륙간 컵 우승! 꿈을 이어가는 중요한 승리!"
+      },
+      "cup": "🏆 컵 우승!",
+      "league": "🏆 {team}과 리그 우승!",
+      "nationsLeague": "🏆 네이션스 토너먼트 우승!",
+      "nationsLeagueChampions": {
+        "brace": "🏆 네이션스 토너먼트 우승! {country}가 {opponent}를 꺾었습니다! {goals}골의 놀라운 활약이 승리를 확정지었습니다!",
+        "crucialGoal": "🏆 네이션스 토너먼트 우승! {country}가 {opponent}를 꺾었습니다! 힘든 승부에서의 결정적인 골!",
+        "commandingDisplay": "🏆 네이션스 토너먼트 우승! {country}가 {opponent}를 꺾었습니다! 승리할 자격이 있는 압도적인 경기력!",
+        "tenseBattle": "🏆 네이션스 토너먼트 우승! {country}가 {opponent}를 꺾었습니다! 긴장된 전투 끝에 팀이 전진합니다!",
+        "importantVictory": "🏆 네이션스 토너먼트 우승! {country}가 {opponent}를 꺾었습니다! 꿈을 이어가는 중요한 승리!"
+      },
+      "won": "🏆 {competition}에서 우승!",
+      "wonYouth": "🏆 유소년 대회 우승!",
+      "worldCup": "🌍🏆 월드 토너먼트 우승! 레전드가 탄생했습니다!",
+      "worldCupChampions": "🏆 {country}가 월드 토너먼트에서 우승했습니다!"
+    },
+    "urgentDecision": "⚠️ 긴급한 결정이 필요합니다!",
+    "viral": {
+      "celebration": "아이코닉한 세레머니가 새로운 인터넷 트렌드가 되었습니다.",
+      "charity": "자선 행위가 소셜 미디어에서 널리 칭찬받았습니다.",
+      "controversy": "의견이 분분한 바이럴 논란에 휘말렸습니다.",
+      "fashion": "공개 행사에서의 패션 선택이 화제가 되었습니다.",
+      "gaming": "게임 스트림이 큰 시청률과 새로운 팬을 끌어모았습니다.",
+      "goal": "소셜 미디어에서 화제가 된 멋진 골을 넣었습니다!",
+      "interview": {
+        "negative": "논란이 된 인터뷰가 온라인에서 뜨거운 논쟁을 일으켰습니다.",
+        "positive": "매력적인 인터뷰로 팬과 미디어를 사로잡았습니다."
+      },
+      "skill": "수백만 팬이 공유한 놀라운 스킬무브."
+    }
+  },
+  "contractTermination": {
+    "alreadyTerminatedDesc": "이번 시즌에 이미 계약을 해지했습니다. 커리어 안정을 위해 계약 해지는 시즌당 한 번으로 제한됩니다.",
+    "alreadyTerminatedTitle": "이번 시즌에 이미 해지를 수행함",
+    "back": "뒤로",
+    "blockedTitle": "사용할 수 없는 작업",
+    "cancel": "취소",
+    "club": "클럽",
+    "confirmButton": "해지 확인",
+    "confirmQuestion": "정말 진행하시겠습니카?",
+    "contractRemaining": "남은 계약 기간",
+    "processing": "해지 처리 중...",
+    "simpleConsequenceDesc": "확인하면 계약이 해지되고 즉시 이적 리스트에 오릅니다.",
+    "simpleConsequenceTitle": "클럽 없이 될 것입니다",
+    "subtitle": "경고: 이 작업은 되돌릴 수 없습니다!",
+    "title": "계약 해지",
+    "understood": "위험을 이해합니다",
+    "waitNextSeasonHint": "필요한 경우 다음 시즌에 다시 계약을 해지할 수 있습니다.",
+    "warningFreeAgent": "프리 에이전트가 됩니다",
+    "warningLessInterest": "더 적은 클럽이 관심을 보입니다",
+    "warningLowerWages": "클럽들이 25% 낮은 임금을 제안합니다",
+    "year": "년",
+    "years": "년",
+    "yearsAtClub": "클럽 재직 기간"
+  },
+  "debut": "프로 데뷔",
+  "media": {
+    "drought": {
+      "assists": {
+        "1": "Creativity crisis? No assists in 5 games.",
+        "2": "마지막 패스는 어디로 갔나요? 플레이메이커가 고전하고 있습니다."
+      },
+      "goals": {
+        "1": "Goal drought continues: 5 games without scoring.",
+        "2": "Striker firing blanks: Is confidence the issue?",
+        "3": "Ten games, zero goals. Crisis for number 9.",
+        "completed": "완료"
+      }
+    },
+    "fan": {
+      "neg": {
+        "1": "\"Needs to decide in big games\" â€” fans want more decisive actions.",
+        "2": "기대 이하의 결정력 — 일관성에 의문.",
+        "3": "{style} 역할이 이상적인가? 팬들 사이에서 논쟁이 뜨거워집니다.",
+        "4": "오늘 투명인간이었네.",
+        "5": "우리 할머니가 더 빨리 뛰겠다.",
+        "6": "내 팀에서 나가!",
+        "7": "한심한 경기력이다."
+      },
+      "neu": {
+        "1": "안정적인 시즌 — {team}에서 믿음직한 존재.",
+        "2": "\"Underrated without the ball\" â€” pressure and support stand out.",
+        "3": "꾸준한 생산력: {goals} 골, {assists} 어시스트. 다음 단계: 결정적 본능.",
+        "4": "나쁘진 않았지만 퀄리티가 부족해.",
+        "5": "더 잘할 수 있었을 텐데.",
+        "6": "특별한 건 없었어.",
+        "7": "그냥 그래."
+      },
+      "pos": {
+        "1": "팬들이 이미 그를 우상이라 부릅니다 — 경기력과 집중력이 뛰어납니다.",
+        "2": "\"{style}의 또 다른 교훈.\" 평균 {rating}이 스스로 말해줍니다.",
+        "3": "관중들은 그가 {team}을 이끈다고 말합니다 — 90분당 {gpg}골, {apg}어시스트.",
+        "4": "확실한 경기 최우수 선수야.",
+        "5": "놀라운 활약이었어!",
+        "6": "몸값 제대로 하네!",
+        "7": "King of the pitch! 👑",
+        "8": "막을 수 없는 수준이야!",
+        "9": "Magic! ✨",
+        "10": "최고의 퀄리티."
+      }
+    },
+    "hater": {
+      "shots": {
+        "1": "약팀 상대로만 기록 — 중요한 순간에 사라집니다.",
+        "2": "과대평가 — 숫자가 속이고 있습니다.",
+        "3": "과대평가 — 팀을 이끌지 못하는 시스템 플레이어.",
+        "4": "Header or thigh goals — no class at all.",
+        "5": "Hurts to watch — terrible technical level.",
+        "6": "Not worth half what they paid — complete flop.",
+        "7": "Stats inflated by easy games — real test will expose."
+      }
+    },
+    "pundit": {
+      "neg": {
+        "1": "빅 게임에서의 영향력에 의문 — 적극적인 마킹이 그를 무력화시킵니다.",
+        "2": "기회 품질 향상 없이는 지속 가능성에 의문.",
+        "3": "Analysts concerned about lack of progression.",
+        "4": "Season below expectations — evident regression.",
+        "5": "Technical limitations exposed at high level."
+      },
+      "neu": {
+        "1": "해설자들은 꾸준한 성장을 봅니다; 한계는 최종 3분의 1에서의 결정에 달려 있습니다.",
+        "2": "전술 분석가: 올바른 실행; 한계적 이득이 다른 레벨을 열 수 있습니다.",
+        "3": "Good player — lacks that special something to be a star.",
+        "4": "Solid numbers but no decisive impact.",
+        "5": "Reliable professional — doesn't excite or disappoint."
+      },
+      "pos": {
+        "1": "해설자들이 움직임과 타이밍을 강조 — 완벽한 {position}처럼 보입니다.",
+        "2": "분석가들이 엘리트 수준의 슈팅 선택과 기회 창출을 지적합니다.",
+        "3": "Great game reading — always in the right position.",
+        "4": "Quick and precise decisions — smart player.",
+        "5": "Model of consistency — rarely makes mistakes."
+      }
+    },
+    "narrativeChange": {
+      "Prodigy": "미디어의 내러티브가 다음으로 바뀝니다: 'Prodigy'",
+      "OntheRise": "미디어의 내러티브가 다음으로 바뀝니다: 'On the Rise'",
+      "EstablishedStar": "미디어의 내러티브가 다음으로 바뀝니다: 'Established Star'",
+      "UnderPressure": "미디어의 내러티브가 다음으로 바뀝니다: 'Under Pressure'",
+      "Journeyman": "미디어의 내러티브가 다음으로 바뀝니다: 'Journeyman'",
+      "VeteranLeader": "미디어의 내러티브가 다음으로 바뀝니다: '베테랑 리더'",
+      "VeteranStar": "미디어의 내러티브가 다음으로 바뀝니다: '베테랑 스타'",
+      "VeteranRotation": "미디어의 내러티브가 다음으로 바뀝니다: '베테랑 로테이션'",
+      "ForgottenMan": "미디어의 내러티브가 다음으로 바뀝니다: 'Forgotten Man'",
+      "Flop": "미디어의 내러티브가 다음으로 바뀝니다: 'Flop'",
+      "ComebackKid": "미디어의 내러티브가 다음으로 바뀝니다: 'Comeback Kid'",
+      "CultHero": "미디어의 내러티브가 다음으로 바뀝니다: 'Cult Hero'",
+      "HometownHero": "미디어의 내러티브가 다음으로 바뀝니다: 'Hometown Hero'",
+      "PolarizingFigure": "미디어의 내러티브가 다음으로 바뀝니다: 'Polarizing Figure'",
+      "PressDarling": "미디어의 내러티브가 다음으로 바뀝니다: 'Press Darling'",
+      "SystemPlayer": "미디어의 내러티브가 다음으로 바뀝니다: 'System Player'",
+      "InjuryComeback": "미디어의 내러티브가 다음으로 바뀝니다: 'Injury Comeback'"
+    }
+  },
+  "mediaNarrative": {
+    "ComebackKid": {
+      "description": "역경을 딛고 기량을 회복한 것에 대해 찬사를 받았습니다.",
+      "name": "컴백 키드",
+      "quote1": "많은 의구심 끝에 다시 정상에 선 기분이 어떠신가요?",
+      "quote2": "팬들은 믿음을 멈추지 않았습니다. 그들의 응원이 당신에게 어떤 의미인가요?",
+      "quote3": "이것이 당신의 커리어에서 두 번째 전성기의 시작일까요?"
+    },
+    "CultHero": {
+      "description": "클럽과의 독특한 유대로 팬들에게 사랑을 받고 있습니다.",
+      "name": "컬트 히어로",
+      "quote1": "당신과 이 클럽의 유대는 독특합니다. 설명해주실 수 있나요?",
+      "quote2": "당신은 팬들에게 상징적인 존재가 되었습니다. 그것이 추가적인 압박이 되나요?",
+      "quote3": "이 클럽이 당신에게 집처럼 느껴지는 이유는 무엇인가요?"
+    },
+    "EstablishedStar": {
+      "description": "전성기 기량을 갖춘 엘리트 선수로 인정받고 있습니다.",
+      "name": "기성 스타",
+      "quote1": "리그 최고의 스타 중 한 명으로서, 이번 시즌 목표는 무엇인가요?",
+      "quote2": "많은 어린 선수들이 당신을 우러러봅니다. 그 역할을 어떻게 수행하시나요?",
+      "quote3": "큰 경기에서 성과를 내야 한다는 추가적인 압박을 느끼시나요?"
+    },
+    "Flop": {
+      "description": "비평가들로부터 이적 시장의 큰 실패작이라는 꼬리표가 붙었습니다.",
+      "name": "먹튀",
+      "quote1": "비평가들은 가혹했습니다. 공정한 기회를 가졌다고 생각하시나요?",
+      "quote2": "당신을 이적 실패라고 낙인찍은 사람들에게 하고 싶은 말은 무엇인가요?",
+      "quote3": "클럽에서 운명을 바꾸기 위해 어떻게 노력하고 계신가요?"
+    },
+    "ForgottenMan": {
+      "description": "출전 시간 확보에 어려움을 겪고 있으며 감독에게 외면받고 있습니다.",
+      "name": "잊혀진 사람",
+      "quote1": "경기장에서 당신을 본 지 꽤 되었습니다. 기분이 어떠신가요?",
+      "quote2": "이 감독 체제 하에서 여전히 미래가 있다고 느끼시나요?",
+      "quote3": "다른 곳에서 더 많은 출전 시간을 얻기 위해 이적을 고려 중이신가요?"
+    },
+    "HometownHero": {
+      "description": "지역 사회를 대표하는 로컬 성공 사례로 칭송받고 있습니다.",
+      "name": "고향 영웅",
+      "quote1": "고향을 대표한다는 것은 특별할 것 같습니다. 기분이 어떠신가요?",
+      "quote2": "당신은 지역 아이들에게 롤모델입니다. 그들에게 전하고 싶은 메시지는 무엇인가요?",
+      "quote3": "이곳에 장기적으로 머물 계획이신가요?"
+    },
+    "InjuryComeback": {
+      "description": "오랜 결장 후 컨디션 회복에 초점이 맞춰져 있습니다.",
+      "name": "부상 복귀",
+      "quote1": "긴 회복 기간이었습니다. 신체적으로 얼마나 준비되었다고 느끼시나요?",
+      "quote2": "경기장을 떠나 있는 동안 가장 힘들었던 점은 무엇인가요?",
+      "quote3": "또 다른 재발을 피하기 위해 특별한 주의를 기울이고 계신가요?"
+    },
+    "Journeyman": {
+      "description": "축구계를 누비는 경험 많은 여행자로 비춰집니다.",
+      "name": "저니맨",
+      "quote1": "많은 곳에서 뛰셨습니다. 어떻게 그렇게 빨리 적응하시나요?",
+      "quote2": "여행을 통해 얻은 가장 가치 있는 교훈은 무엇인가요?",
+      "quote3": "안정적인 생활을 원하시나요, 아니면 다양함을 즐기시나요?"
+    },
+    "OntheRise": {
+      "description": "리그에서 가장 촉망받는 유망주 중 한 명으로 지목되었습니다.",
+      "name": "떠오르는 별",
+      "quote1": "당신의 활약이 모든 이의 시선을 사로잡았습니다. 쏟아지는 찬사를 어떻게 감당하시나요?",
+      "quote2": "많은 빅클럽들이 당신을 지켜보고 있다고 합니다. 그것이 집중력을 흐트러뜨리나요?",
+      "quote3": "선수로서 발전하기 위한 다음 단계는 무엇인가요?"
+    },
+    "PolarizingFigure": {
+      "description": "전문가와 팬들 사이에서 의견이 갈리는 선수입니다.",
+      "name": "논란의 중심",
+      "quote1": "의견이 분분한 것 같습니다. 그 이유가 무엇이라고 생각하시나요?",
+      "quote2": "당신을 향한 비판이 경기력에 영향을 미치나요?",
+      "quote3": "언론과 대중이 당신을 오해하고 있다고 느끼시나요?"
+    },
+    "PressDarling": {
+      "description": "언론과 매우 우호적인 관계를 즐기고 있습니다.",
+      "name": "언론의 총아",
+      "quote1": "언론이 당신을 사랑하는 것 같습니다. 그것이 자신감에 도움이 되나요?",
+      "quote2": "항상 좋은 소식으로 헤드라인을 장식하시는데, 비결이 무엇인가요?",
+      "quote3": "선수가 좋은 이미지를 유지하는 것이 얼마나 중요하다고 생각하시나요?"
+    },
+    "Prodigy": {
+      "description": "주요 매체로부터 세대 최고의 재능으로 불립니다.",
+      "name": "신동",
+      "quote1": "어린 나이에 '신동'이라 불리는 기분은 어떠신가요?",
+      "quote2": "기대치가 매우 높습니다. '역대급'이라는 수식어에 걸맞은 활약을 할 수 있을까요?",
+      "quote3": "유망한 커리어를 시작하며 가장 집중하고 있는 것은 무엇인가요?"
+    },
+    "SystemPlayer": {
+      "description": "특정한 전술 체계 밖에서도 제 기량을 발휘할 수 있을지 의구심이 남습니다.",
+      "name": "시스템 플레이어",
+      "quote1": "이 시스템에 완벽하게 녹아드셨습니다. 다른 전술에 대해서는 걱정되지 않으신가요?",
+      "quote2": "일각에서는 당신이 전술 덕분에 돋보이는 것이라고 합니다. 어떻게 생각하시나요?",
+      "quote3": "감독이 전술을 바꾼다면 당신의 플레이를 적응시킬 수 있나요?"
+    },
+    "UnderPressure": {
+      "description": "최근 경기력으로 인해 비평가들의 집중 포화를 받고 있습니다.",
+      "name": "압박 속에서",
+      "quote1": "경기력이 평소 수준에 미치지 못하고 있습니다. 무슨 일이 있는 건가요?",
+      "quote2": "팬들이 인내심을 잃기 시작했습니다. 공정한 대우를 받고 있다고 느끼시나요?",
+      "quote3": "다음 경기에서 비판자들을 어떻게 침묵시킬 계획이신가요?"
+    },
+    "VeteranLeader": {
+      "description": "리더십 스킬과 라커룸에서의 영향력이 돋보입니다.",
+      "name": "베테랑 리더",
+      "quote1": "당신의 경험은 젊은 선수단에 매우 중요합니다. 그들을 어떻게 이끄시나요?",
+      "quote2": "얼마나 더 오랫동안 높은 수준에서 활약할 수 있을까요?",
+      "quote3": "젊은 선수들에게 해주는 가장 중요한 조언은 무엇인가요?"
+    },
+    "VeteranRotation": {
+      "description": "로테이션 멤버로서 경험을 바탕으로 깊이와 리더십을 제공합니다.",
+      "name": "베테랑 로테이션",
+      "quote1": "로테이션 역할로 전환하셨는데, 경기 사이에 어떻게 컨디션을 유지하시나요?",
+      "quote2": "당신의 경험은 팀에 매우 중요합니다. 어린 선수들을 어떻게 돕고 계신가요?",
+      "quote3": "현재 역할에 만족하시나요, 아니면 여전히 주전으로 뛰어야 한다고 보시나요?"
+    },
+    "VeteranStar": {
+      "description": "여전히 최고 수준의 기량을 발휘하는 엘리트 베테랑입니다.",
+      "name": "베테랑 스타",
+      "quote1": "나이가 절반인 선수들보다 더 나은 활약을 펼치고 계십니다. 비결이 무엇인가요?",
+      "quote2": "많은 이들이 하향세를 예상했지만 최고의 축구를 하고 계십니다. 어떻게 가능한가요?",
+      "quote3": "베테랑 스타로서 중요한 순간에 더 많은 책임감을 느끼시나요?"
+    }
+  },
+  "news": {
+    "retirement": "은퇴 발표",
+    "toty": "올해의 팀 발표",
+    "transfer": "이적 소식"
+  },
+  "performance": {
+    "below_expectations": "기대 이하",
+    "excellent_season": "훌륭한 시즌",
+    "outstanding_season": "압도적인 시즌"
+  },
+  "progression": {
+    "age_decline": "나이로 인한 쇠퇴",
+    "exceptional_development": "독보적인 발전",
+    "maintained_fitness": "체력 유지",
+    "physical_decline": "신체 능력 저하",
+    "strong_development": "강력한 성장",
+    "struggled_development": "발전에 어려움"
+  },
+  "reactions": {
+    "business": {
+      "invest": {
+        "headline1": "선수, 지역 비즈니스에 투자"
+      }
+    },
+    "media": {
+      "interviews": {
+        "clashWithManager": {
+          "answers": {
+            "apologetic": "일이 그렇게 되어서 유감입니다. 제 행동을 공개적으로 반성하며 팀을 위해 헌신하겠습니다.",
+            "defiant": "할 말을 했을 뿐입니다. 제 신념을 굽히지 않겠습니다.",
+            "focused": "우리가 가야 할 길이 멀기에 축구에 집중하여 경기장에서 증명하겠습니다."
+          },
+          "question": "최근 훈련장에서 감독님과 불화가 있었다는 소식이 있습니다. 현재 관계는 어떤가요?"
+        },
+        "contractRenewal": {
+          "answers": {
+            "ambitious": "이 클럽과 함께 트로피를 들어 올리고 싶습니다. 재계약은 우리가 옳은 길을 가고 있다는 증거입니다.",
+            "grateful": "클럽이 보여준 신뢰에 감사드립니다. 제 집과 같은 곳에서 미래를 계속할 수 있어 기쁩니다.",
+            "loyal": "다른 제안은 신경 쓰지 않았습니다. 저의 심장은 {team}을 향해 뛰고 있습니다."
+          },
+          "question": "{team}과 장기 재계약을 체결하신 소감이 어떠신가요?"
+        },
+        "derbyWin": {
+          "answers": {
+            "ecstatic": "믿을 수 없는 밤입니다! 우리 팬들에게 이 승리가 얼마나 큰 의미인지 잘 알고 있습니다. 이 도시를 우리가 지배했습니다!",
+            "humble": "중요한 승점 3점입니다. 팀 전체가 자랑스럽고, 내일부터 다음 경기를 준비하겠습니다.",
+            "passionate": "이게 바로 더비죠! 모든 볼 경합에서 승리하고 싶었고, 우리가 더 간절했다는 것을 보여줬습니다."
+          },
+          "question": "치열한 더비 경기에서 승리하셨습니다. 지금 기분이 어떠신가요?"
+        },
+        "firstCallUp": {
+          "answers": {
+            "determined": "이 기회를 헛되이 보내지 않겠습니다. 제 가치를 증명하고 대표팀에 남고 싶습니다.",
+            "emotional": "꿈이 이루어졌습니다. 제 가족과 저를 믿어준 모든 분을 생각하면 가슴이 뭉클합니다.",
+            "honored": "국가를 대표한다는 것은 모든 선수의 꿈입니다. 나라를 위해 뛸 준비가 되었습니다."
+          },
+          "question": "생애 첫 국가대표팀 발탁 소식을 들었을 때 어떤 기분이었나요?"
+        },
+        "firstProfessionalGoal": {
+          "answers": {
+            "ambitious": "이것은 시작일 뿐입니다. 더 많은 골을 넣어 팀이 목표를 달성하는 데 기여하고 싶습니다.",
+            "ecstatic": "말로 표현하기 힘든 순간입니다! 이 골을 위해 평생을 훈련해 왔습니다.",
+            "humble": "골을 넣어서 기쁘지만, 팀의 승리가 가장 중요합니다. 동료들의 도움이 컸습니다."
+          },
+          "question": "데뷔 골을 축하드립니다! 공이 골망을 흔드는 순간 어떤 생각이 들었나요?"
+        },
+        "futureAmbitions": {
+          "answers": {
+            "focused": "오늘에 집중할 뿐입니다. 매일 발전하다 보면 미래는 자연스럽게 따라올 것이라 믿습니다.",
+            "loyal": "이곳에서 레전드가 되고 싶습니다. 제 모든 커리어를 이 클럽에 바칠 준비가 되어 있습니다.",
+            "worldClass": "세계 최고의 선수가 되고 싶습니다. 발롱도르를 목표로 매 순간 최선을 다하고 있습니다."
+          },
+          "question": "당신의 장기적인 커리어 목표는 무엇인가요?"
+        },
+        "goalDrought": {
+          "answers": {
+            "confident": "공격수에게는 이런 시기가 있습니다. 곧 골이 터질 것이라 믿고 연습에 매진하고 있습니다.",
+            "focused": "골도 중요하지만 팀 플레이에 더 기여하려 노력 중입니다. 승리가 최우선입니다.",
+            "frustrated": "당연히 골이 터지지 않아 답답합니다. 하지만 포기하지 않고 기회를 노리겠습니다."
+          },
+          "question": "{count}경기째 득점이 없습니다. 득점력 가뭄에 대해 어떻게 생각하시나요?"
+        },
+        "injuryComeback": {
+          "answers": {
+            "determined": "오랜 시간 기다려 왔습니다. 예전보다 더 강해져서 돌아왔다는 것을 보여드리겠습니다.",
+            "grateful": "재활을 도와준 의료진과 기다려 준 팬분들께 정말 감사하다는 말을 전하고 싶습니다.",
+            "relieved": "다시 피치를 밟는다는 사실만으로도 행복합니다. 그라운드가 정말 그리웠습니다."
+          },
+          "question": "긴 재활 끝에 복귀하셨습니다. 다시 경기장에 선 기분은 어떠신가요?"
+        },
+        "leagueTitleWin": {
+          "answers": {
+            "ecstatic": "우리가 챔피언입니다! 이 순간을 위해 1년 내내 싸워왔습니다. 오늘 밤을 즐기겠습니다!",
+            "proud": "이 팀은 진정한 자격이 있습니다. 한 명 한 명의 노력이 모여 역사를 만들었습니다.",
+            "relieved": "드디어 해냈습니다. 부담감이 컸지만, 우리가 최고라는 것을 증명하게 되어 안도감이 듭니다."
+          },
+          "question": "리그 우승 트로피를 들어 올리셨습니다! 챔피언이 된 기분은 어떤가요?"
+        },
+        "majorTrophyLoss": {
+          "answers": {
+            "devastated": "지금은 마음이 너무 아픕니다. 팬분들께 정말 죄송하고 할 말이 없습니다.",
+            "optimistic": "실패에서 배우겠습니다. 우리는 다시 돌아올 것이고, 다음에는 더 강해질 것입니다.",
+            "professional": "이것이 축구입니다. 상대팀의 승리를 축하하며, 우리는 부족했던 점을 보완해야 합니다."
+          },
+          "question": "결승전에서 아쉽게 패배했습니다. 가장 속상한 점은 무엇인가요?"
+        },
+        "postMatch": {
+          "answers": {
+            "ambitious": "개인적인 기록도 좋지만, 팀이 더 완벽해질 수 있다고 생각합니다. 만족하지 않겠습니다.",
+            "frustrated": "우리가 경기를 지배했지만 결과가 아쉽습니다. 이런 실수를 반복해서는 안 됩니다.",
+            "happy": "정말 훌륭한 팀 승리였습니다. 우리 선수들이 자랑스럽고 결과에 만족합니다."
+          },
+          "question": "방금 경기가 끝났습니다. 오늘의 성과에 대해 전반적으로 어떻게 생각하시나요?"
+        },
+        "retirementAnnouncement": {
+          "answers": {
+            "emotional": "제 인생의 전부였던 축구를 떠나는 결정을 내리기가 쉽지 않았습니다. 모든 순간이 소중했습니다.",
+            "grateful": "모든 클럽, 감독님, 동료, 그리고 팬분들께 감사합니다. 여러분 덕분에 행복한 여정이었습니다.",
+            "ready": "이제 다음 챕터로 넘어갈 준비가 되었습니다. 후회 없이 달려온 커리어였습니다."
+          },
+          "question": "공식적으로 은퇴를 선언하셨습니다. 지금 이 순간 어떤 감정이 드시는지 궁금합니다."
+        },
+        "teammateFallingOut": {
+          "answers": {
+            "dismissive": "축구장에서는 흔히 일어나는 일입니다. 큰 의미를 두지 마세요.",
+            "professional": "개인적인 감정보다는 팀의 성공을 위해 프로답게 행동할 것입니다.",
+            "regretful": "더 잘 대처했어야 했습니다. 곧 오해를 풀고 다시 하나가 되길 바랍니다."
+          },
+          "question": "동료인 {player}와 갈등이 있다는 루머가 있습니다. 사실인가요?"
+        },
+        "transferRumours": {
+          "answers": {
+            "committed": "저는 지금 이곳에 있습니다. 소문에 신경 쓰지 않고 현재 클럽을 위해 최선을 다하겠습니다.",
+            "honest": "축구계에서는 어떤 일이든 일어날 수 있습니다. 저의 커리어에 가장 좋은 선택을 고민하고 있습니다.",
+            "vague": "이적 시장은 에이전트가 관리하는 부분입니다. 저는 오직 경기에만 집중하고 싶습니다."
+          },
+          "question": "최근 빅클럽들과의 이적 루머가 끊이지 않고 있습니다. 미래에 대해 결정된 것이 있나요?"
+        },
+        "worldCupWin": {
+          "answers": {
+            "ecstatic": "우리가 세계 챔피언입니다! 나라 전체가 축제 분위기일 것 같네요. 인생 최고의 순간입니다!",
+            "legendary": "이 트로피를 위해 모든 것을 바쳤습니다. 이제 저의 이름이 역사에 남게 되어 영광입니다.",
+            "speechless": "무슨 말을 해야 할지 모르겠네요... 정말 꿈만 같습니다. 여기까지 올 수 있도록 도와준 모든 분께 감사를 돌립니다."
+          },
+          "question": "월드 토너먼트 우승입니다! 드디어 정상에 섰는데, 소감이 어떠신가요?"
+        }
+      }
+    },
+    "interview": {
+      "diplomatic": {
+        "headline1": "외교적 답변으로 긴장 완화"
+      },
+      "honest": {
+        "fan1": "솔직해서 좋네요! 👏",
+        "fan2": "드디어 누군가 진실을 말하는군요.",
+        "headline1": "선수, 폭발적 인터뷰에서 진실 폭로",
+        "headline2": "솔직한 발언이 논쟁을 촉발시키다"
+      },
+      "refuse": {
+        "headline1": "선수, 인터뷰 도중 퇴장"
+      }
+    },
+    "media_interview": {
+      "confident": {
+        "fan1": "우리가 원하던 자신감입니다! 💪",
+        "headline1": "자신감 넘치는 선수, 도전에 준비 완료"
+      },
+      "humble": {
+        "fan1": "실력에 비례하는 겸손함. ❤️",
+        "headline1": "겸손한 선수, 동료들을 치켜세우다"
+      }
+    },
+    "mentor": {
+      "accept": {
+        "fan1": "아이들에게 훌륭한 롤모델입니다!",
+        "headline1": "선수, 유망주를 이끌 무대에 서다"
+      }
+    },
+    "nightclub": {
+      "apologize": {
+        "fan1": "사과를 받아들입니다. 힘내세요.",
+        "headline1": "선수, 밤 외출 소동에 대해 사과"
+      },
+      "blame": {
+        "fan1": "언제나 남 탓만 하네요... 😒",
+        "headline1": "선수, 클럽 소동에 대한 책임 부인",
+        "headline2": "목격자들, 선수의 진술에 반박"
+      }
+    },
+    "outburst": {
+      "delete": {
+        "fan1": "박제는 영원합니다! 😂",
+        "headline1": "선수, 논란이 된 게시물 삭제"
+      },
+      "double_down": {
+        "fan1": "물러서지 않는군요! 🍿",
+        "fan2": "상황이 점점 당황스럽게 흘러갑니다...",
+        "headline1": "선수, 논란이 된 발언 방어",
+        "headline2": "소셜 미디어 폭풍 심화"
+      }
+    },
+    "relationship": {
+      "private": {
+        "fan1": "사생활 보호 권리. 존중 부탁드립니다."
+      },
+      "public": {
+        "fan1": "커플 목표! 😍",
+        "fan2": "누가 신경 쓰죠? 축구나 하세요.",
+        "headline1": "선수, 연애 사실 공개"
+      }
+    },
+    "tax": {
+      "cooperate": {
+        "headline1": "선수, 당국 조사에 성실히 협조"
+      },
+      "fight": {
+        "fan1": "시스템에 대항하라! ✊",
+        "headline1": "선수, 세금 관련 혐의 부인"
+      },
+      "settle": {
+        "headline1": "세금 사건, 법정 밖 합의로 종료"
+      }
+    },
+    "transfer": {
+      "agitation_1": "클럽 내 불안",
+      "agitation_2": "이적 추진 중",
+      "agitation_3": "이적 요청",
+      "warning_1": "구단 경고",
+      "warning_2": "최종 경고",
+      "warning_3": "징계 처분"
+    }
+  },
+  "retirement": {
+    "future": {
+      "academy": "유스 아카데미 디렉터",
+      "ambassador": "클럽 앰배서더",
+      "coaching": "코칭 스태프",
+      "outside_football": "축구계 외부 활동",
+      "punditry": "미디어 패널"
+    },
+    "reason": {
+      "injury": "재발한 부상"
+    },
+    "tribute": {
+      "defied_time": "시간을 초월한 선수",
+      "early_injury": "일찍 끝난 커리어",
+      "great_injury": "위대함의 비극적 결말",
+      "icon": "축구 아이콘",
+      "journeyman": "축구 여행가",
+      "legend": "클럽 레전드",
+      "professional": "모범적인 프로",
+      "star": "스타 플레이어",
+      "unfortunate_end": "불운한 결말",
+      "very_early_injury": "가슴 아픈 조기 은퇴"
+    }
+  },
+  "social": {
+    "socialMedia": "소셜 미디어",
+    "viewComments": "댓글 보기",
+    "engagement": "참여도",
+    "viralMoments": "{count} 바이럴 모멘트!",
+    "recentComments": "최근 댓글",
+    "followers": "팔로워",
+    "growth": "성장률",
+    "noNews": "최근 뉴스가 없습니다",
+    "noSponsors": "활성 스폰서가 없습니다",
+    "pendingOffers": "{count}건의 보류 중인 제안",
+    "publicComments": "공개 댓글",
+    "noComments": "아직 댓글이 없습니다",
+    "reply": "답글",
+    "pressInterview": "기자 회견",
+    "selectQuestion": "질문 선택",
+    "viewInterview": "인터뷰 결과 보기",
+    "newsFeed": "뉴스 피드",
+    "recentHeadlines": "최근 헤드라인",
+    "seasonWeek": "시즌 {season}, {week}주차",
+    "homeCountry": "본국 인기",
+    "currentCountry": "현재 국가 인기",
+    "globalRating": "글로벌 평점",
+    "fans": "팬",
+    "press": "언론",
+    "popularity": "인기",
+    "relationships": "관계",
+    "sponsors": "스폰서",
+    "totalSponsorIncome": "총 스폰서 수입",
+    "contractUntil": "{season}까지 계약",
+    "totalSponsors": "{count} 스폰서",
+    "perWeek": "/주",
+    "noSponsorsYet": "아직 스폰서가 없습니다",
+    "teamChemistry": "팀 케미스트리",
+    "level": {
+      "unknown": "미확인",
+      "local": "지역",
+      "regional": "권역",
+      "national": "국가",
+      "continental": "대륙",
+      "global": "글로벌",
+      "legend": "레전드"
+    },
+    "relationship": {
+      "hated": "증오함",
+      "disliked": "싫어함",
+      "neutral": "중립",
+      "liked": "좋아함",
+      "adored": "숭배",
+      "loved": "사랑받음"
+    },
+    "tier": {
+      "bronze": "브론즈 스폰서",
+      "silver": "실버 스폰서",
+      "gold": "골드 스폰서",
+      "platinum": "플래티넘 스폰서",
+      "diamond": "다이아몬드 스폰서"
+    },
+    "comments": {
+      "daysAgo": "{count}일 전",
+      "hoursAgo": "{count}시간 전",
+      "minutesAgo": "{count}분 전"
+    },
+    "seasonComments": {
+      "excited": "새 시즌이 정말 기대됩니다! 가자 {team}! 🔥",
+      "expectations": "올해 {name} 선수에 대한 기대가 큽니다. 그는 과연 해낼 수 있을까요?",
+      "newSeason": "새로운 시즌, 새로운 목표. 빛날 시간입니다!"
+    },
+    "formComments": {
+      "bestPlayer": "현재 {name}보다 뛰어난 선수가 있을까요? 믿기지 않는 폼입니다!",
+      "disappointed": "최근 실망스러운 경기력입니다. 우리는 당신이 더 잘할 수 있다는 걸 압니다!",
+      "incredible": "오늘 또 한 번의 놀라운 활약. 꾸준함이 비결이네요.",
+      "needsRest": "피치에서 다소 지쳐 보입니다. 휴식이 도움이 될 것 같네요.",
+      "onFire": "{name} 선수의 폼이 최근 아주 뜨겁습니다! 🔥",
+      "sellHim": "다른 옵션을 찾아야 할 때인 것 같습니다. 상황이 좋지 않네요.",
+      "struggling": "{name} 선수가 리듬을 찾는 데 어려움을 겪고 있네요. 분발이 필요합니다.",
+      "worldClass": "월드클래스 선수! ⭐ {name}은 자신이 왜 엘리트인지 보여주고 있습니다."
+    },
+    "goalComments": {
+      "goldenBoot": "골든 부트가 눈앞에? {name}을 막을 수 없습니다!",
+      "hatTrickHero": "또 해트트릭인가요? {name} 선수가 역사를 쓰고 있습니다!",
+      "machineMode": "득점 기계 모드: 가동! 🤖⚽",
+      "unstoppable": "{name} 선수가 이런 기세일 때는 아무도 막을 수 없죠."
+    },
+    "youthComments": {
+      "futurestar": "미래가 밝습니다! {name} 선수는 차세대 스타입니다. ⭐",
+      "nextGeneration": "다음 세대가 왔습니다. {name} 선수의 놀라운 성숙함이 돋보이네요.",
+      "protect": "이 재능을 보호해야 합니다. 그는 {team}의 미래입니다.",
+      "wonderkid": "원더키드 경보! 💎 이 선수는 정말 특별합니다."
+    },
+    "veteranComments": {
+      "experience": "피치 위에서 그의 영향력을 단번에 알 수 있습니다. 진정한 리더십이죠.",
+      "legend": "절대적인 레전드. 경험은 돈으로 살 수 없죠. 🍷",
+      "retire": "이제 은퇴를 고려해야 할 시점일지도 모릅니다... 전성기가 지났네요.",
+      "stillGotIt": "{age}세임에도 여전히 젊은 선수들에게 본보기가 되고 있네요!"
+    },
+    "injuryComments": {
+      "comeBack": "더 강해져서 돌아오세요! 우리 모두가 당신을 응원합니다. 💪",
+      "getWell": "쾌유를 빕니다 {name} 선수! 팀에 당신이 필요합니다. 🙏",
+      "missYou": "당신이 없는 피치는 예전 같지 않네요. 안타까운 소식입니다."
+    },
+    "transferComments": {
+      "goodLuck": "다음 행선지에서 행운이 깃들길 바랍니다. 추억을 만들어줘서 고마워요!",
+      "stayPlease": "제발 떠나지 마세요, {name} 선수! 당신은 이곳의 영웅입니다. ❤️",
+      "traitor": "어떻게 그럴 수 있죠? 배신자! 🐍",
+      "understand": "이적은 이해하지만, 당신이 떠나는 모습을 보는 게 여전히 가슴 아프네요."
+    },
+    "eventComments": {
+      "autograph": "{name} 선수의 사인을 받았어요! 인생 최고의 날입니다. ⭐",
+      "dedication": "{name} 선수가 훈련 때마다 보여주는 헌신적인 자세를 사랑합니다.",
+      "goodPerson": "피치 밖에서 {name} 선수는 더 훌륭한 사람입니다. 롤모델이에요! ❤️",
+      "hardWorker": "언제나 가장 먼저 훈련장에 도착하고 가장 늦게 떠나는 선수입니다. 노력파죠! 💪",
+      "metHim": "방금 {name} 선수를 만났어요! 정말 겸손하더군요. 레전드! 😍",
+      "roleModel": "선수들이 지역 사회에 환원하는 모습은 정말 멋집니다. 존경을 표합니다!",
+      "soNice": "오늘 {name} 선수를 봤는데, 모든 팬과 사진을 찍어주더라고요. 정말 친절했어요!"
+    },
+    "generalComments": {
+      "letGo": "때로는 축구가 스스로 증명하게 둬야 할 때가 있죠.",
+      "proud": "당신의 지금까지의 여정이 정말 자랑스럽습니다. 계속 우리를 행복하게 해주세요!",
+      "support": "언제나 당신을 지지합니다, {name} 선수! 계속 나아가세요! 👏",
+      "watching": "가까이서 지켜보고 있습니다... 당신의 진가를 보여주세요!"
+    },
+    "headlines": {
+      "awardNomination": "{player} 선수가 권위 있는 상에 후보로 올랐습니다.",
+      "awardWon": "승리! {player} 선수가 상을 수상했습니다!",
+      "badForm": "{player} 선수의 최근 폼에 대한 의문이 제기되고 있습니다.",
+      "cleanSheetStreak": "{player} 선수의 또 다른 클린 시트!",
+      "controversy": "속보: {player} 선수가 논란에 휘말렸습니다.",
+      "generic": "{player} 선수의 시즌 업데이트.",
+      "hatTrick": "{player} 선수가 환상적인 해트트릭을 기록했습니다!",
+      "injuryReturn": "{player} 선수가 부상 공백을 마치고 복귀합니다.",
+      "nationalCallup": "{player} 선수가 국가대표팀의 부름을 받았습니다.",
+      "newContract": "{player} 선수가 새로운 계약을 체결했습니다.",
+      "scoringStreak": "{player} 선수의 득점이 멈추지 않습니다!",
+      "topScorer": "{player} 선수가 득점 선두를 달리고 있습니다!",
+      "transferred": "오피셜: {player} 선수가 이적을 완료했습니다."
+    },
+    "interview": {
+      "q1": "현재 폼에 대해 어떻게 느끼세요?",
+      "q2": "이번 시즌의 목표는 무엇인가요?",
+      "q3": "팬들에게 전할 메시지가 있나요?"
+    },
+    "narrative": {
+      "ComebackKid": "대단한 반전입니다! 믿고 있었습니다! 😉",
+      "CultHero": "동상을 세워야 합니다! 진정한 레전드! 🗿",
+      "EstablishedStar": "꾸준함의 대명사. 언제나 제 역할을 해줍니다. 👏",
+      "Flop": "돈 낭비네요. 당장 내보내세요! 🗑️",
+      "ForgottenMan": "우리 팀에 아직 이런 선수가 있었나요...",
+      "HometownHero": "우리 지역의 자부심! 꿈을 이루고 있군요! ❤️",
+      "InjuryComeback": "그라운드에서 다시 보게 되어 정말 기쁩니다! 🙏",
+      "Journeyman": "또 이적? 여권에 도장이 마를 날이 없겠네요! ✈️",
+      "OntheRise": "매주 더 발전하고 있습니다! 📈",
+      "PolarizingFigure": "좋아하거나 싫어하거나, 중간이 없는 선수죠.",
+      "PressDarling": "언론은 좋아하지만, 경기장에서도 잘할까요? 🤔",
+      "Prodigy": "세기의 재능! 우리는 위대함을 목격하고 있습니다! 🌟",
+      "SystemPlayer": "전술 덕을 보는 것뿐입니다. 과대평가됐어요.",
+      "UnderPressure": "기대감의 무게를 견디지 못하고 무너지고 있네요...",
+      "VeteranLeader": "경기장의 진정한 리더. 그의 경험이 필요합니다."
+    },
+    "reactions": {
+      "assist1": "대단한 시야네요! 👀",
+      "assist2": "환상적인 패스입니다! 🎯",
+      "award1": "충분히 자격이 있습니다! 🏆",
+      "award2": "세계 최고입니다! 🌍",
+      "award3": "드디어 인정받는군요!",
+      "goal1": "득점 기계! ⚽",
+      "goal2": "엄청난 슛입니다! 🚀",
+      "goal3": "득점이 멈추지 않네요! 🔥",
+      "injury1": "빨리 낫길 바랍니다! 🙏",
+      "injury2": "더 강해져서 돌아오세요! 💪",
+      "transfer1": "팀에 오신 것을 환영합니다! 🔵",
+      "transfer2": "떠나서 아쉽네요. 그동안 감사했습니다! ❤️"
+    }
+  },
+  "transfer": {
+    "agitation_1": "계속되는 불만으로 인해 이적설이 돌고 있습니다.",
+    "agitation_2": "클럽과의 관계가 돌이킬 수 없는 지점에 도달했습니다.",
+    "agitation_3": "공식적으로 이적 요청서를 제출했습니다.",
+    "warning_1": "품위 위반에 대한 1차 경고가 내려졌습니다.",
+    "warning_2": "2차 경고: 즉각적인 태도 개선이 요구됩니다.",
+    "warning_3": "이적 명단 등재 전 마지막 경고입니다."
+  },
+  "youthAcademy": {
+    "promoted": "유스 아카데미에서 성인 팀으로 승격되었습니다!",
+    "released": "유스 아카데미에서 성인 팀 승격에 실패하여 방출되었습니다.",
+    "staying": "유스 아카데미에서 한 시즌 더 머물며 실력을 연마하기로 결정되었습니다."
+  }
+}
