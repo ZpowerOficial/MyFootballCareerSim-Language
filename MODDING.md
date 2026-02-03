@@ -8,9 +8,8 @@ This guide explains how to create community patches (mods) for My Football Caree
 2. [Patch Structure](#patch-structure)
 3. [Patchable Content](#patchable-content)
 4. [Examples](#examples)
-5. [Reference System](#reference-system)
-6. [Validation](#validation)
-7. [Distribution](#distribution)
+5. [Validation](#validation)
+6. [Distribution](#distribution)
 
 ---
 
@@ -28,7 +27,7 @@ Create a JSON file (e.g., `real-names-patch.json`):
     "author": "YourName"
   },
   "universal": {
-    "competitions": {
+    "competitionNames": {
       "championsLeague": "UEFA Champions League",
       "europaLeague": "UEFA Europa League"
     }
@@ -36,7 +35,7 @@ Create a JSON file (e.g., `real-names-patch.json`):
 }
 ```
 
-Load this file in-game via **Settings → Patch Manager → Add Patch**.
+Load this file in-game via **Settings → Community Patches → Choose Patch JSON**.
 
 ---
 
@@ -69,85 +68,119 @@ Every patch follows this structure:
 1. **Universal section** - Applied first to all languages
 2. **Languages section** - Applied on top, per-language
 
-This means if you set `universal.competitions.championsLeague = "UEFA CL"` and `languages.pt.competitions.championsLeague = "Liga dos Campeões da UEFA"`, Portuguese users will see the PT version while all other languages see "UEFA CL".
+This means if you set `universal.competitionNames.championsLeague = "UEFA CL"` and `languages.pt.competitionNames.championsLeague = "Liga dos Campeões da UEFA"`, Portuguese users will see the PT version while all other languages see "UEFA CL".
 
 ---
 
 ## Patchable Content
 
-### Content Categories
+### ⚠️ IMPORTANT: Only these namespaces are allowed!
 
-Only these namespaces can be modified via patches:
+| Namespace | Description | Example Key |
+|-----------|-------------|-------------|
+| `countries` | Country names | `"Brazil": "Brasil do Samba"` |
+| `nationality` | Nationality adjectives | `"brazilian": "Brasileiro"` |
+| `continents` | Continent names | `"southAmerica": "América do Sul"` |
+| `leagues` | League names by country | `"Brazil": "Brasileirão"` |
+| `cups` | Domestic cup names | `"Brazil": "Copa do Brasil"` |
+| `competitionNames` | Competition display names | `"championsLeague": "UEFA Champions League"` |
+| `competition` | Competition-related text | Competition descriptions |
+| `trophy` | Individual trophy names | `"championsLeague": "Champions League Trophy"` |
+| `trophies` | Trophy collections | Trophy group names |
+| `trophiesSection` | Trophy UI sections | Section headers |
+| `award` | Individual award names | `"ballonDor": "Ballon d'Or"` |
+| `awardsSection` | Award UI sections | Section headers |
+| `awardGroups` | Award categories | Category names |
+| `tier` | League tier labels | `"tier1": "First Division"` |
+| `careerTiers` | Career tier descriptions | Career level text |
 
-| Namespace | Description | File |
-|-----------|-------------|------|
-| `geography` | Countries, nationalities, continents | `content/geography.json` |
-| `competitions` | Leagues, cups, continental competitions | `content/competitions.json` |
-| `trophies` | Trophy names and sections | `content/trophies.json` |
-| `awards` | Individual awards (Golden Ball, etc.) | `content/awards.json` |
-| `news` | News headlines templates | `templates/news.json` |
-| `media` | Social media reactions | `templates/media.json` |
+### ❌ Protected Namespaces (CANNOT Patch)
 
-### Protected Namespaces (Cannot Patch)
+These will cause validation errors:
 
-These are core game mechanics and cannot be modified:
-
-- `attributes` - Player attributes
-- `training` - Training system
 - `ui` - User interface text
-- `mechanics` - Game mechanics (morale, form, etc.)
+- `attributes` - Player attributes  
+- `training` - Training system
+- `mechanics` - Game mechanics
+- `events` - Game events
+- `news` - News system (use content files instead)
+- `media` - Media system
+- `gameplay` - Core gameplay
 
 ---
 
 ## Examples
 
-### Example 1: Rename a Competition
-
-To rename the "European Champions Cup" to "UEFA Champions League":
+### Example 1: Rename Countries
 
 ```json
 {
   "metadata": {
     "version": "1.0.0",
-    "name": "UEFA Names Pack"
+    "name": "Custom Country Names",
+    "author": "YourName"
   },
   "universal": {
-    "competitions": {
-      "championsLeague": "UEFA Champions League"
-    },
-    "trophies": {
-      "championsLeague": "UEFA Champions League"
+    "countries": {
+      "Brazil": "Brasil do Samba",
+      "brazil": "Brasil do Samba",
+      "England": "Inglaterra",
+      "Germany": "Alemanha"
     }
   }
 }
 ```
 
-### Example 2: Multi-Language Competition Names
+### Example 2: Real Competition Names
 
 ```json
 {
   "metadata": {
     "version": "1.0.0",
-    "name": "Localized UEFA Names"
+    "name": "UEFA Names Pack",
+    "author": "YourName"
   },
   "universal": {
-    "competitions": {
+    "competitionNames": {
+      "championsLeague": "UEFA Champions League",
+      "europaLeague": "UEFA Europa League",
+      "conferenceLeague": "UEFA Conference League"
+    },
+    "trophy": {
+      "championsLeague": "UEFA Champions League",
+      "europaLeague": "UEFA Europa League"
+    }
+  }
+}
+```
+
+### Example 3: Multi-Language Support
+
+```json
+{
+  "metadata": {
+    "version": "1.0.0",
+    "name": "Localized UEFA Names",
+    "author": "YourName"
+  },
+  "universal": {
+    "competitionNames": {
       "championsLeague": "UEFA Champions League"
     }
   },
   "languages": {
     "pt": {
-      "competitions": {
+      "competitionNames": {
         "championsLeague": "Liga dos Campeões da UEFA"
       }
     },
     "es": {
-      "competitions": {
+      "competitionNames": {
         "championsLeague": "Liga de Campeones de la UEFA"
       }
     },
     "fr": {
-      "competitions": {
+      "competitionNames": {
         "championsLeague": "Ligue des Champions de l'UEFA"
       }
     }
@@ -155,102 +188,53 @@ To rename the "European Champions Cup" to "UEFA Champions League":
 }
 ```
 
-### Example 3: Real Country Names
+### Example 4: Real League Names
 
 ```json
 {
   "metadata": {
     "version": "1.0.0",
-    "name": "Real Country Names"
+    "name": "Real League Names",
+    "author": "YourName"
   },
   "universal": {
-    "geography": {
-      "countries": {
-        "England": "England",
-        "Germany": "Germany",
-        "Spain": "Spain",
-        "France": "France",
-        "Italy": "Italy"
-      }
+    "leagues": {
+      "England": "Premier League",
+      "Spain": "La Liga",
+      "Germany": "Bundesliga",
+      "Italy": "Serie A",
+      "France": "Ligue 1",
+      "Brazil": "Brasileirão Série A"
+    },
+    "cups": {
+      "England": "FA Cup",
+      "Spain": "Copa del Rey",
+      "Germany": "DFB-Pokal",
+      "Brazil": "Copa do Brasil"
     }
   }
 }
 ```
 
-### Example 4: Award Names
+### Example 5: Award Names
 
 ```json
 {
   "metadata": {
     "version": "1.0.0",
-    "name": "Real Awards"
+    "name": "Real Awards",
+    "author": "YourName"
   },
   "universal": {
-    "awards": {
+    "award": {
       "ballonDor": "Ballon d'Or",
       "fifaBest": "FIFA The Best",
-      "goldenBoy": "Golden Boy Award"
+      "goldenBoy": "Golden Boy Award",
+      "goldenBoot": "European Golden Shoe"
     }
   }
 }
 ```
-
-### Example 5: News Headlines
-
-News templates support dynamic variables:
-
-```json
-{
-  "metadata": {
-    "version": "1.0.0",
-    "name": "Custom Headlines"
-  },
-  "universal": {
-    "news": {
-      "championsLeague": {
-        "1": "GLORY! {team} win the UEFA Champions League!",
-        "2": "{name} leads {team} to Champions League triumph!"
-      }
-    }
-  }
-}
-```
-
-Available variables:
-- `{name}` - Player name
-- `{team}` - Club name
-- `{country}` - Country name
-- `{goals}` - Goals count
-- `{assists}` - Assists count
-- `{year}` - Current year
-
----
-
-## Reference System
-
-Use `{{ref:path}}` to reference other translation keys dynamically:
-
-```json
-{
-  "news": {
-    "championsLeague": {
-      "1": "GLORY! {team} win the {{ref:competitions.championsLeague}}!"
-    }
-  }
-}
-```
-
-This will automatically insert the competition name (respecting any patches applied).
-
-### Reference Paths
-
-| Path | Description |
-|------|-------------|
-| `competitions.championsLeague` | Champions League name |
-| `competitions.europaLeague` | Europa League name |
-| `competitions.worldCup` | World Cup name |
-| `awards.ballonDor` | Ballon d'Or name |
-| `geography.countries.England` | Country name |
 
 ---
 
@@ -258,10 +242,11 @@ This will automatically insert the competition name (respecting any patches appl
 
 Before a patch is applied, it's validated for:
 
-1. **Required metadata** - Must have `version` and `name`
+1. **Required metadata** - Must have `version` (semver format: X.X.X) and `name`
 2. **Valid JSON structure** - Must be valid JSON
-3. **Protected namespaces** - Cannot modify core game mechanics
-4. **Security** - No HTML, scripts, or malicious content
+3. **Allowed namespaces only** - See list above
+4. **No protected namespaces** - Cannot modify core game mechanics
+5. **String values only** - Values must be strings or nested objects
 
 ### Common Validation Errors
 
@@ -269,50 +254,39 @@ Before a patch is applied, it's validated for:
 |-------|----------|
 | `metadata.version is required` | Add `"version": "1.0.0"` |
 | `metadata.name is required` | Add `"name": "Your Patch Name"` |
-| `Protected namespace detected: ui` | Remove `ui` section - it's protected |
-| `Invalid characters detected` | Remove HTML tags or special characters |
+| `Version must follow semver format` | Use format like `1.0.0`, `2.1.3` |
+| `Namespace 'xxx' is not patchable` | Use only allowed namespaces (see list above) |
+| `Protected namespace detected` | Remove ui, attributes, training, etc. |
 
 ---
 
 ## Key IDs Reference
 
-### Competition IDs
+### Competition IDs (use in `competitionNames` and `trophy`)
 
 ```
-championsLeague       - UEFA Champions League equivalent
-europaLeague          - UEFA Europa League equivalent
-conferenceLeague      - UEFA Conference League equivalent
-libertadores          - Copa Libertadores equivalent
-copaSudamericana      - Copa Sudamericana equivalent
-afcChampionsLeague    - AFC Champions League equivalent
-cafChampionsLeague    - CAF Champions League equivalent
-concacafChampionsCup  - CONCACAF Champions Cup equivalent
-clubWorldCup          - FIFA Club World Cup equivalent
-worldCup              - FIFA World Cup equivalent
-nationsLeague         - UEFA Nations League equivalent
+championsLeague       - Top European club competition
+europaLeague          - Second-tier European competition
+conferenceLeague      - Third-tier European competition
+libertadores          - Top South American competition
+copaSudamericana      - Second-tier South American competition
+afcChampionsLeague    - Top Asian competition
+cafChampionsLeague    - Top African competition
+concacafChampionsCup  - Top North American competition
+clubWorldCup          - Club World Championship
+worldCup              - National team World Cup
+nationsLeague         - National team Nations League
 ```
 
-### Award IDs
+### Award IDs (use in `award`)
 
 ```
-ballonDor             - Ballon d'Or
+ballonDor             - Best Player Award
 fifaBest              - FIFA The Best
 goldenBoot            - Top Scorer Award
 goldenBoy             - Young Player Award
 teamOfTheYear         - Team of the Year
 bestGoalkeeperAward   - Best Goalkeeper Award
-```
-
-### Trophy IDs
-
-```
-league                - Domestic League title
-cup                   - Domestic Cup title
-superCup              - Domestic Super Cup
-championsLeague       - Top continental trophy
-europaLeague          - Second-tier continental
-conferenceLeague      - Third-tier continental
-clubWorldCup          - Club World Championship
 ```
 
 ---
@@ -342,8 +316,6 @@ Use descriptive names:
 | `pt` | Portuguese (BR) |
 | `es` | Spanish |
 | `fr` | French |
-| `de` | German |
-| `it` | Italian |
 | `ar` | Arabic |
 | `ja` | Japanese |
 | `ko` | Korean |
@@ -355,19 +327,33 @@ Use descriptive names:
 
 ## Best Practices
 
-1. **Start Small** - Begin with one competition/award before creating large packs
+1. **Start Small** - Begin with one namespace before creating large packs
 2. **Test Thoroughly** - Load your patch and verify all screens display correctly
 3. **Version Control** - Use semantic versioning (1.0.0, 1.1.0, 2.0.0)
-4. **Document Changes** - Include a changelog in your patch description
+4. **Check Allowed Namespaces** - Only use namespaces from the allowed list
 5. **Community Standards** - Use consistent IDs with other community patches
 
 ---
 
-## Support
+## Troubleshooting
 
-- **Discord**: [Community Server](#)
-- **GitHub Issues**: [Report Bugs](#)
-- **Wiki**: [Extended Documentation](#)
+### "Namespace 'geography' is not patchable"
+
+Use the correct namespace:
+- ❌ `geography.countries.Brazil`
+- ✅ `countries.Brazil`
+
+### "Namespace 'competitions' is not patchable"
+
+Use the correct namespace:
+- ❌ `competitions.championsLeague`
+- ✅ `competitionNames.championsLeague`
+
+### Patch installed but changes not visible
+
+1. Close and reopen the app
+2. Check if the patch is enabled in Community Patches
+3. Verify the key names match exactly (case-sensitive)
 
 ---
 
