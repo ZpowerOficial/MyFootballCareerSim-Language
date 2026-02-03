@@ -5,10 +5,9 @@ import news from './news.json';
 import database from './database.json';
 import stats from './stats.json';
 import gameplay from './gameplay.json';
-import legacy from './legacy.json'; // Backup
+import legacy from './legacy.json';
 import media from './media.json';
 
-// Here the magic happens: We spread (...) everything into a single object
 const files: any[] = [trophies, ui, events, news, database, stats, gameplay, legacy, media];
 const translations = files.reduce((acc, file) => {
     Object.keys(file).forEach(key => {

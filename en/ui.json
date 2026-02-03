@@ -101,22 +101,16 @@
   "cleanSheetsShort": "CS",
   "clubsCount": "{n} clubs",
   "donation": {
-    "title": "Support the Project",
-    "description": "If you are enjoying the game, consider supporting the development. Your contribution helps keep the servers running and new features coming!",
-    "benefit1": "Support independent development",
-    "benefit2": "Help keep the game ad-free",
-    "benefit3": "Fund new features and updates",
-    "benefit4": "Exclusive heart icon in your profile",
-    "donate": "Support the Creator",
-    "notNow": "Not now, maybe later",
-    "securePayment": "Secure payment via Stripe",
     "supportProject": "Support Project",
-    "options": {
-      "coffee": "Buy me a coffee",
-      "pizza": "Buy me a pizza",
-      "dinner": "Buy me a dinner",
-      "support": "Significant Support"
-    }
+    "title": "Support Project",
+    "description": "Your contribution keeps this project free and updated!",
+    "benefit1": "New Features",
+    "benefit2": "Bug Fixes",
+    "benefit3": "Forever Free to Play",
+    "benefit4": "My Eternal Gratitude",
+    "donate": "Donate",
+    "notNow": "Not right now",
+    "securePayment": "Secure payment via Stripe"
   },
   "common": {
     "accept": "Accept",
@@ -1005,6 +999,7 @@
     "weight": "Weight",
     "xpBonus": "+{amount}% XP",
     "settings": "Settings",
+    "settingsSubtitle": "Adjust your preferences",
     "theme": "Theme (Beta)",
     "themeOptions": {
       "classic": "Classic",
