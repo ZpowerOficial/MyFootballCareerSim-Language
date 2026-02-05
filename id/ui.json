@@ -270,7 +270,18 @@
       "title": "Share Your Career",
       "text": "Check out my football career in My Football Career Sim! I played for {team} and reached {ovr} OVR at age {age}.",
       "dialogTitle": "Share Career Card"
-    }
+    },
+    "pt-BR": "Português (BR)",
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "id": "Bahasa Indonesia",
+    "ja": "日本語",
+    "ko": "한국어",
+    "ru": "Русский",
+    "tr": "Türkçe",
+    "ar": "العربية",
+    "supportProject": "Support Project"
   },
   "commonExtra": {
     "ageYearsShort": "{age} tahun",
@@ -955,7 +966,12 @@
     "title_part2": "Simulasi Karir Sepak Bola",
     "version": "Versi {version}",
     "weight": "Weight",
-    "xpBonus": "+{amount}% XP"
+    "xpBonus": "+{amount}% XP",
+    "randomDesc": "Let fate decide",
+    "stats": "Stats",
+    "subtitle": "Track your football path",
+    "surpriseMe": "Surprise Me!",
+    "totalCareers": "careers started"
   },
   "shareCard": {
     "assists": "Assists",
@@ -1120,5 +1136,82 @@
     "updateTranslationsHint": "Paksa unduh file bahasa terbaru",
     "github": "GitHub",
     "githubHint": "Kontribusi terjemahan & laporkan masalah"
+  },
+  "continents": {
+    "Africa": "Africa",
+    "Asia": "Asia",
+    "Europe": "Eropa",
+    "Australia": "Oseania",
+    "North America": "North America",
+    "South America": "South America"
+  },
+  "tier": {
+    "BRONZE": "Bronze",
+    "SILVER": "Silver",
+    "GOLD": "Gold",
+    "DIAMOND": "Diamond"
+  },
+  "noSpecialTraits": "No special traits",
+  "personality": {
+    "Ambitious": "Ambitious",
+    "Lazy": "Lazy",
+    "Professional": "Professional",
+    "Temperamental": "Temperamental",
+    "Loyal": "Loyal",
+    "Determined": "Determined",
+    "MediaDarling": "Media Darling",
+    "Reserved": "Reserved",
+    "Inconsistent": "Inconsistent"
+  },
+  "archetype": {
+    "GenerationalTalent": "Generational Talent",
+    "Wonderkid": "Wonderkid",
+    "TopProspect": "Top Prospect",
+    "SolidProfessional": "Solid Professional",
+    "TheEngine": "The Engine",
+    "LateBloomer": "Late Bloomer",
+    "TechnicalMaestro": "Technical Maestro",
+    "TargetMan": "Target Man",
+    "Journeyman": "Journeyman"
+  },
+  "traitStyles": {
+    "Aerial Dominance": "Aerial Dominance",
+    "Clinical Finisher": "Clinical Finisher",
+    "Dribbling Wizard": "Dribbling Wizard",
+    "One-Club Man": "One-Club Man",
+    "Set-piece Specialist": "Set-piece Specialist",
+    "Tireless Runner": "Tireless Runner",
+    "Speed Merchant": "Speed Merchant",
+    "Playmaker": "Playmaker",
+    "Shot Stopper": "Shot Stopper",
+    "Penalty Saver": "Penalty Saver",
+    "Big Game Player": "Big Game Player",
+    "aerialDominance": "Aerial Dominance",
+    "clinicalFinisher": "Clinical Finisher",
+    "dribblingWizard": "Dribbling Wizard",
+    "oneClubMan": "One-Club Man",
+    "setPieceSpecialist": "Set-piece Specialist",
+    "tirelessRunner": "Tireless Runner",
+    "speedMerchant": "Speed Merchant",
+    "playmaker": "Playmaker",
+    "shotStopper": "Shot Stopper",
+    "penaltySaver": "Penalty Saver",
+    "bigGamePlayer": "Big Game Player"
+  },
+  "traits": {
+    "Aerial Dominance": "Aerial Dominance",
+    "Clinical Finisher": "Clinical Finisher",
+    "Dribbling Wizard": "Dribbling Wizard",
+    "One-Club Man": "One-Club Man",
+    "Set-piece Specialist": "Set-piece Specialist",
+    "Tireless Runner": "Tireless Runner",
+    "Speed Merchant": "Speed Merchant",
+    "Playmaker": "Playmaker",
+    "Shot Stopper": "Shot Stopper",
+    "Penalty Saver": "Penalty Saver",
+    "Big Game Player": "Big Game Player"
+  },
+  "reports": {
+    "assistantCoach": "Assistant Coach Report"
   }
 }

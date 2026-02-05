@@ -270,7 +270,18 @@
       "title": "Share Your Career",
       "text": "Check out my football career in My Football Career Sim! I played for {team} and reached {ovr} OVR at age {age}.",
       "dialogTitle": "Share Career Card"
-    }
+    },
+    "pt-BR": "Português (BR)",
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "id": "Bahasa Indonesia",
+    "ja": "日本語",
+    "ko": "한국어",
+    "ru": "Русский",
+    "tr": "Türkçe",
+    "ar": "العربية",
+    "supportProject": "Support Project"
   },
   "commonExtra": {
     "ageYearsShort": "{age} лет",
@@ -955,7 +966,12 @@
     "title_part2": "Симулятор футболиста",
     "version": "Версия {version}",
     "weight": "Вес",
-    "xpBonus": "+{amount}% XP"
+    "xpBonus": "+{amount}% XP",
+    "randomDesc": "Let fate decide",
+    "stats": "Stats",
+    "subtitle": "Track your football path",
+    "surpriseMe": "Surprise Me!",
+    "totalCareers": "careers started"
   },
   "shareCard": {
     "assists": "Голевые передачи",
@@ -1085,9 +1101,9 @@
   },
   "supercopaBrasil": "Supercopa do Brasil",
   "tierMovement": {
-    "relegation": "Tier {from}->{to} relegation imbalance: expected {expected}, found {found}",
-    "promotion": "Tier {from}->{to} promotion imbalance: expected {expected}, found {found}",
-    "movement": "Movement {from}->{to}"
+    "relegation": "Дисбаланс вылета с Уровня {from}->{to}: ожидалось {expected}, найдено {found}",
+    "promotion": "Дисбаланс повышения с Уровня {from}->{to}: ожидалось {expected}, найдено {found}",
+    "movement": "Перемещение {from}->{to}"
   },
   "patchManager": {
     "title": "Патчи сообщества",
@@ -1120,5 +1136,82 @@
     "updateTranslationsHint": "Принудительно загрузить последние языковые файлы",
     "github": "GitHub",
     "githubHint": "Внесите вклад в переводы и сообщите о проблемах"
+  },
+  "continents": {
+    "Africa": "Африка",
+    "Asia": "Азия",
+    "Europe": "Европа",
+    "Australia": "Океания",
+    "North America": "Северная Америка",
+    "South America": "Южная Америка"
+  },
+  "tier": {
+    "BRONZE": "Бронза",
+    "SILVER": "Серебро",
+    "GOLD": "Золото",
+    "DIAMOND": "Алмаз"
+  },
+  "noSpecialTraits": "Нет особых черт",
+  "personality": {
+    "Ambitious": "Амбициозный",
+    "Lazy": "Ленивый",
+    "Professional": "Профессиональный",
+    "Temperamental": "Темпераментный",
+    "Loyal": "Верный",
+    "Determined": "Решительный",
+    "MediaDarling": "Любимец СМИ",
+    "Reserved": "Сдержанный",
+    "Inconsistent": "Непоследовательный"
+  },
+  "archetype": {
+    "GenerationalTalent": "Талант Поколения",
+    "Wonderkid": "Вундеркинд",
+    "TopProspect": "Топ Перспектива",
+    "SolidProfessional": "Твердый Профессионал",
+    "TheEngine": "Двигатель",
+    "LateBloomer": "Поздний Расцвет",
+    "TechnicalMaestro": "Технический Маэстро",
+    "TargetMan": "Таргетмен",
+    "Journeyman": "Опытный Игрок"
+  },
+  "traitStyles": {
+    "Aerial Dominance": "Воздушное Доминирование",
+    "Clinical Finisher": "Клинический Финишер",
+    "Dribbling Wizard": "Волшебник Дриблинга",
+    "One-Club Man": "Игрок Одного Клуба",
+    "Set-piece Specialist": "Специалист Стандартов",
+    "Tireless Runner": "Неутомимый Бегун",
+    "Speed Merchant": "Скоростной Демон",
+    "Playmaker": "Плеймейкер",
+    "Shot Stopper": "Вратарь-Спаситель",
+    "Penalty Saver": "Король Пенальти",
+    "Big Game Player": "Игрок Больших Матчей",
+    "aerialDominance": "Воздушное Доминирование",
+    "clinicalFinisher": "Клинический Финишер",
+    "dribblingWizard": "Волшебник Дриблинга",
+    "oneClubMan": "Игрок Одного Клуба",
+    "setPieceSpecialist": "Специалист Стандартов",
+    "tirelessRunner": "Неутомимый Бегун",
+    "speedMerchant": "Скоростной Демон",
+    "playmaker": "Плеймейкер",
+    "shotStopper": "Вратарь-Спаситель",
+    "penaltySaver": "Король Пенальти",
+    "bigGamePlayer": "Игрок Больших Матчей"
+  },
+  "traits": {
+    "Aerial Dominance": "Воздушное Доминирование",
+    "Clinical Finisher": "Клинический Финишер",
+    "Dribbling Wizard": "Волшебник Дриблинга",
+    "One-Club Man": "Игрок Одного Клуба",
+    "Set-piece Specialist": "Специалист Стандартов",
+    "Tireless Runner": "Неутомимый Бегун",
+    "Speed Merchant": "Скоростной Демон",
+    "Playmaker": "Плеймейкер",
+    "Shot Stopper": "Вратарь-Спаситель",
+    "Penalty Saver": "Король Пенальти",
+    "Big Game Player": "Игрок Больших Матчей"
+  },
+  "reports": {
+    "assistantCoach": "Отчет Ассистента"
   }
 }

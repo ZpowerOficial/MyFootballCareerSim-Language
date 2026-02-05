@@ -1,0 +1,162 @@
+{
+  "_meta": {
+    "patchable": true,
+    "description": "Reaksi media sosial dan komentar pakar - mendukung patch komunitas",
+    "interpolation": "Menggunakan {variable} untuk nilai dinamis"
+  },
+  "media": {
+    "fan": {
+      "pos": {
+        "1": "Performa luar biasa! {name} ada di mana-mana hari ini!",
+        "2": "Levelnya jauh di atas semua orang di lapangan. Berkelas.",
+        "3": "Bisa kita apresiasi {name} sebentar? Bakat yang luar biasa.",
+        "4": "Ini persis yang kita butuhkan. {name} menunjukkan gairah yang nyata!",
+        "5": "Man of the match buat gue. {name} mengendalikan segalanya.",
+        "6": "Daya jelajah yang luar biasa dari {name}. Gak berhenti lari.",
+        "7": "Itulah kenapa dia selalu jadi starter. Gak tergantikan.",
+        "8": "Presisi, visi, eksekusi. Masterclass dari {name}.",
+        "9": "Bener-bener jago. {name} bikin semuanya kelihatan gampang.",
+        "10": "Kalau {name} main kayak begini tiap minggu, kita bakal menangin segalanya.",
+        "11": "{name} bener-bener ajaib. Enak banget ditonton.",
+        "12": "Hari lain, masterclass lain dari {name}.",
+        "13": "Bangun tim di sekitar {name}. Benar-benar mesin.",
+        "14": "{name} bikin sepak bola kelihatan kayak seni.",
+        "15": "Kita beruntung banget bisa liat {name} dalam performa kayak gini."
+      },
+      "neu": {
+        "1": "Permainan yang lumayan dari {name}, tapi gak ada yang spesial.",
+        "2": "{name} oke lah hari ini. Menjalankan tugasnya.",
+        "3": "Performa standar. Gak buruk, tapi gak bagus-bagus amat.",
+        "4": "Cukup solid dari {name}. 6/10.",
+        "5": "Permainan tenang dari {name}, tapi gak bikin kesalahan.",
+        "6": "Tampilan rata-rata. Kita tau {name} bisa lebih baik.",
+        "7": "Performa stabil, menjaga ritme permainan.",
+        "8": "{name} melakukan hal dasar dengan cukup baik.",
+        "9": "Gak ada yang istimewa dari {name} hari ini.",
+        "10": "Sempat lupa {name} lagi main, tapi secara keseluruhan solid."
+      },
+      "neg": {
+        "1": "{name} gak kelihatan hari ini. Cuma numpang lewat.",
+        "2": "Performa yang mengejutkan... apa sih yang {name} lakuin?",
+        "3": "Harusnya dicadangin aja. {name} gak kasih kontribusi apa-apa sekarang.",
+        "4": "Kesal liat {name} buang-buang bola terus.",
+        "5": "Gak cukup bagus buat level ini. {name} harus bangun.",
+        "6": "Disasterclass dari {name}. Sakit banget liatnya.",
+        "7": "Kenapa {name} masih di lapangan? Malah jadi beban.",
+        "8": "{name} kelihatan bingung banget di sana.",
+        "9": "Level tarkam dari {name} hari ini. Memalukan.",
+        "10": "Kok {name} masih kepilih terus sih? Parah banget."
+      }
+    },
+    "hater": {
+      "shots": {
+        "1": "Overrated. {name} ngilang di laga besar.",
+        "2": "Cuma menang gaya, hasil nol. Klasik {name}.",
+        "3": "{name} cuma kelihatan jago lawan tim lemah. Tukang cari statistik.",
+        "4": "Pemain sistem. Taruh {name} di tim papan tengah pasti kesulitan.",
+        "5": "Orang-orang beneran mikir {name} itu kelas dunia?",
+        "6": "Satu laga bagus dari sepuluh. Gak konsisten.",
+        "7": "{name} gak bisa bikin apa-apa sendiri. Butuh dilayani.",
+        "8": "{name} itu palsu. Akhirnya ketahuan juga.",
+        "9": "Pemain paling dilindungi di liga. {name} gak kasih apa-apa.",
+        "10": "Coba perhatiin {name} baik-baik, sebenernya dia gak ngaruh apa-apa."
+      }
+    },
+    "pundit": {
+      "pos": {
+        "1": "Performa yang cerdas secara taktik dari {name}. Membaca permainan dengan sempurna.",
+        "2": "Tampilan yang dewasa. {name} menunjukkan kecerdasan nyata hari ini.",
+        "3": "Keunggulan teknis. {name} adalah impian setiap manajer.",
+        "4": "Dominan. {name} benar-benar mendikte tempo permainan.",
+        "5": "Efisiensi adalah kuncinya. {name} jarang sekali membuang bola.",
+        "6": "Penempatan posisi yang luar biasa memungkinkan {name} mengendalikan lini tengah.",
+        "7": "{name} menunjukkan kesadaran hebat dalam fase transisi.",
+        "8": "Performa buku teks dalam peran {position} oleh {name}."
+      },
+      "neu": {
+        "1": "Performa fungsional. {name} setia pada perannya.",
+        "2": "Secara teknis oke, tapi kurang percikan.",
+        "3": "Disiplin. {name} menjaga bentuk permainan dengan baik.",
+        "4": "Upaya keras dari {name} hari ini.",
+        "5": "Melakukan hal dasar dengan benar, tidak lebih.",
+        "6": "{name} mengeksekusi instruksi taktis tanpa gaya berlebih.",
+        "7": "Performa aman, meminimalkan risiko tapi kurang kreativitas."
+      },
+      "neg": {
+        "1": "Kurang intensitas. {name} dilewati terlalu mudah.",
+        "2": "Posisi yang mencurigakan. {name} sering tertangkap dalam posisi salah.",
+        "3": "Boros penguasaan bola. {name} mematikan terlalu banyak serangan.",
+        "4": "Naif secara taktis. {name} tidak mengikuti rencana permainan.",
+        "5": "Didominasi secara fisik. {name} tidak bisa mengatasi kecepatan lawan.",
+        "6": "{name} kesulitan memberikan pengaruh berarti dalam permainan.",
+        "7": "Pengambilan keputusan yang buruk dari {name} sepanjang pertandingan."
+      }
+    },
+    "overlay": {
+      "fan": {
+        "Prodigy": {
+          "1": "Anak ini spesial! Ingat namanya!",
+          "2": "Bakat generasional di sini. Lindungi dia apa pun risikonya!"
+        },
+        "OnTheRise": {
+          "1": "Makin bagus tiap minggu! Calon bintang masa depan!",
+          "2": "Potensinya gak masuk akal. Terus kembangkan!"
+        },
+        "EstablishedStar": {
+          "1": "Kelas dunia. Keunggulan konsisten di level tertinggi.",
+          "2": "Inilah arti dari elit. Minggu demi minggu."
+        },
+        "UnderPressure": {
+          "1": "Harus bangkit. Tekanan mulai meningkat...",
+          "2": "Mulai dipertanyakan. Saatnya pembuktian."
+        },
+        "VeteranLeader": {
+          "1": "Pengalaman yang gak bisa dibeli. Memimpin dengan contoh.",
+          "2": "Garda lama menunjukkan cara bermain pada pemain muda."
+        },
+        "CultHero": {
+          "1": "Legenda mutlak! Bangun patungnya!",
+          "2": "Bagian dari kita. Hidup dan bernapas untuk klub ini."
+        }
+      },
+      "pundit": {
+        "Prodigy": {
+          "1": "Kedewasaan yang luar biasa untuk usianya. Potensi generasional."
+        },
+        "OnTheRise": {
+          "1": "Kurva pengembangan yang mengesankan. Patut diamati dengan cermat."
+        },
+        "EstablishedStar": {
+          "1": "Beroperasi di level elit secara konsisten. Pemain lengkap."
+        },
+        "UnderPressure": {
+          "1": "Level performa menurun. Perlu merespons."
+        },
+        "VeteranLeader": {
+          "1": "Pengalaman yang sangat berharga. Kehadiran di ruang ganti."
+        },
+        "CultHero": {
+          "1": "Hubungan dengan fans luar biasa. Ikon klub."
+        }
+      }
+    },
+    "earlyDays": {
+      "1": "Baru saja dimulai. Beri dia waktu.",
+      "2": "Tanda-tanda menjanjikan, tapi butuh lebih banyak menit bermain.",
+      "3": "Sulit dinilai terlalu dini di musim ini.",
+      "4": "Membangun kebugaran dan ritme.",
+      "5": "Masih menyesuaikan diri di dalam tim."
+    },
+    "drought": {
+      "goals": {
+        "1": "Kekeringan gol yang mengkhawatirkan. Butuh satu gol keberuntungan.",
+        "2": "Kepercayaan diri kelihatan hancur di depan gawang.",
+        "3": "Sangat butuh gol untuk memecah kebuntuan."
+      },
+      "assists": {
+        "1": "Kreativitas lagi macet belakangan ini.",
+        "2": "Kesulitan menemukan umpan terakhir itu."
+      }
+    }
+  }
+}

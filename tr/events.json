@@ -6,12 +6,81 @@
   "goals": {
     "achieved": "🎯 Hedef Tamamlandı: {narrative}",
     "newGoal": "🎯 Yeni Hedef Açıldı: {goal}",
-    "completed": "Tamamlandı"
+    "completed": "Tamamlandı",
+    "100goals": "Kariyerinde 100 gol at",
+    "ballonDor": "Altın Top'u kazan",
+    "becomeCaptain": "{team} kaptanı ol",
+    "becomeClubLegend": "Kulüp Efsanesi ol",
+    "becomeStarter": "Düzenli ilk 11 oyuncusu ol",
+    "breakGoalRecord": "Gol rekorunu kır",
+    "firstCleanSheet": "İlk kez gol yemeden maç tamamla",
+    "firstGoal": "İlk profesyonel golünü at",
+    "firstTrophy": "İlk büyük kupanı kazan",
+    "nationalTeamCallUp": "Milli takıma çağrıl",
+    "proDebut": "Profesyonel ilk maçına çık",
+    "reach100Caps": "100 Milli Maça ulaş",
+    "reachCareerAssists": "Kariyer asist hedefine ulaş",
+    "reachCareerGoals": "Kariyer gol hedefine ulaş",
+    "reachOverallRating": "Hedef GEN puanına ulaş",
+    "winWorldCup": "Dünya Kupası'nı kazan"
   },
   "agent": {
     "contractExpired": "Menajer sözleşmeniz sona erdi. {name} ({reputation}) ile anlaştınız.",
     "contractExtended": "Menajeriniz {name} ile harika bir ilişkiniz var! Sözleşme, indirimli komisyonla uzatıldı.",
-    "promoted": "Menajeriniz {name}, {reputation} statüsüne yükseldi!"
+    "promoted": "Menajeriniz {name}, {reputation} statüsüne yükseldi!",
+    "reasons": {
+      "controversy": "Scandal involving {name} forced a change.",
+      "eliteCall": "An elite agency led by {name} made an irresistible offer.",
+      "fallout": "Irreconcilable falling out with {name}.",
+      "improved": "Seeking new heights under the representation of {name}.",
+      "merger": "The agency of {name} underwent a corporate merger.",
+      "none": "No interesting agent proposals at the moment.",
+      "special": "An unexpected event in the agent market forced a change.",
+      "starAttraction": "Your status at {team} attracted world-class agencies.",
+      "stay": "Decided to stay loyal to current agency."
+    },
+    "reputation": {
+      "Average": "Average",
+      "Good": "Good",
+      "Rookie": "Rookie",
+      "Super Agent": "Super Agent"
+    },
+    "specialty": {
+      "BrandBuilder": "Brand Builder",
+      "Negotiator": "Negotiator",
+      "Scout": "Scout",
+      "balanced": "Balanced",
+      "contract": "Contracts",
+      "sponsorship": "Sponsorships",
+      "transfer": "Transfers"
+    },
+    "style": {
+      "Adaptable": "Adaptable",
+      "Aggressive": "Aggressive",
+      "Ambitious": "Ambitious",
+      "Analytical": "Analytical",
+      "Calm": "Calm",
+      "Charismatic": "Charismatic",
+      "Dedicated": "Dedicated",
+      "Energetic": "Energetic",
+      "Experienced": "Experienced",
+      "Focused": "Focused",
+      "Friendly": "Friendly",
+      "Honest": "Honest",
+      "Innovative": "Innovative",
+      "Methodical": "Methodical",
+      "Motivated": "Motivated",
+      "Networked": "Networked",
+      "Passionate": "Passionate",
+      "Patient": "Patient",
+      "Persistent": "Persistent",
+      "Precise": "Precise",
+      "Professional": "Professional",
+      "Reliable": "Reliable",
+      "Strategic": "Strategic",
+      "Traditional": "Traditional",
+      "Visionary": "Visionary"
+    }
   },
   "eventNotifications": {
     "transferRequest": "Transfer Talebi Gönderildi",
@@ -61,7 +130,7 @@
       "leagueRookieOfYear": "Yılın Çaylağı",
       "leagueTopAssister": "En Çok Asist",
       "playmaker": "Lig Oyun Kurucusu",
-      "puskas": "Puskas Ödülü",
+      "puskas": "Yılın Golü",
       "rookie": "Yılın Çaylağı",
       "teamOfTheYear": "Yılın Takımı",
       "title": "Ödül",
@@ -400,7 +469,8 @@
       "naturalDecline": "Doğal düşüş",
       "peakPhysical": "Fiziksel zirve",
       "weightGain": "Kilo alımı",
-      "weightLoss": "Kilo kaybı"
+      "weightLoss": "Kilo kaybı",
+      "bodyTypeChange": "Body type changed"
     },
     "promotion": {
       "asProspect": "{age} yaşında {team} A takımına yükseldi. Gelecek için heyecan verici bir yetenek olarak görülüyor.",
@@ -798,7 +868,9 @@
       "title": "Takım Arkadaşı Kaynaşması"
     },
     "training": {
-      "title": "Antrenman"
+      "title": "Antrenman",
+      "completed": "Completed Training",
+      "minor_injury": "Minor injury during training"
     },
     "trainingDecision": {
       "choice_balanced": "Standart antrenman planını takip et",
@@ -882,6 +954,14 @@
         "positive": "Çekici röportaj taraftarları ve medyayı etkiledi."
       },
       "skill": "Milyonlarca taraftar tarafından paylaşılan inanılmaz beceri hareketi."
+    },
+    "goals": {
+      "achieved": "🎯 Hedef Tamamlandı: {narrative}",
+      "newGoal": "🎯 Yeni Hedef Açıldı: {goal}"
+    },
+    "wcQualification": {
+      "description": "Milli takımınız Dünya Kupası için yarışıyor",
+      "title": "Dünya Kupası Elemeleri"
     }
   },
   "contractTermination": {
@@ -1442,5 +1522,71 @@
     "warning_1": "Davranışla ilgili ilk uyarı verildi.",
     "warning_2": "İkinci uyarı: derhal düzelme gerekiyor.",
     "warning_3": "Transfer listesine konmadan önceki son uyarı."
+  },
+  "award": {
+    "ballonDor": "Altın Top",
+    "ballonDorNomination": "Aday - Altın Top",
+    "ballonDorRunnerUp": "İlk 3 - Altın Top",
+    "comeback": "💪 Yılın Geri Dönüşü! Büyük sakatlıktan sonra muhteşem dönüş!",
+    "comebackPlayerOfYear": "Yılın Geri Dönüş Yapan Oyuncusu",
+    "continentalCompTopScorer": "👟 {competition} Gol Kralı ({goals} gol)!",
+    "continentalCompetitionTopScorer": "Kıtasal Gol Kralı",
+    "continentalCupPOTY": "MVP - Şampiyonlar Kupası",
+    "continentalPOTY": "⭐ {competition} turnuvasının En İyi Oyuncusu seçildi!",
+    "continentalPlayer": "Kıtasal Oyuncu",
+    "continentalTOTT": "👕 {competition} Turnuvanın Takımına seçildi!",
+    "cupGoldenBootShared": "{goals} gol ile Kupa Altın Ayakkabı ödülünü paylaştı!",
+    "cupTopScorer": "👟 Kupa Gol Kralı ({goals} gol)!",
+    "europeanGoldenShoe": "Avrupa Altın Ayakkabı",
+    "fifaBest": "🏆⭐ Sezonun Oyuncusu seçildi!",
+    "goalOfTheYear": "Yılın Golü",
+    "goldenBoot": "👟 Lig Gol Kralı ({goals} gol)!",
+    "goldenBootShared": "{goals} gol ile Lig Altın Ayakkabı ödülünü paylaştı!",
+    "goldenBoy": "🧒🏆 Yılın Genç Oyuncusu! Gelecek senin.",
+    "goldenGlove": "🧤 Altın Eldiven Kazananı ({cleanSheets} gol yememe)!",
+    "goldenShoe": "🥇 Avrupa Altın Ayakkabı Kazananı! ({goals} gol)",
+    "leagueDefenderOfYear": "Yılın Savunmacısı",
+    "leagueForwardOfYear": "Yılın Forveti",
+    "leagueMidfielderOfYear": "Yılın Orta Sahası",
+    "leaguePOTY": "🏅 Ligde Sezonun Oyuncusu!",
+    "leaguePlayerOfYear": "Yılın Lig Oyuncusu",
+    "leaguePlaymaker": "Asist Lideri",
+    "leaguePositional": "🏅 Ligin En İyi {position} oyuncusu seçildi!",
+    "leagueRookieOfYear": "Yılın Çaylağı",
+    "leagueTopAssister": "Asist Kralı",
+    "playmaker": "🎯 Lig Asist Lideri ({assists} asist)!",
+    "puskas": "⚽🔥 Yılın Golü Ödülü!",
+    "rookie": "⭐ Ligde Yılın Çaylağı seçildi!",
+    "shortlist": "⭐ Altın Top için kısa listeye alındı.",
+    "teamOfTheYear": "👕 Ligde Yılın Takımına seçildi.",
+    "title": "Ödül",
+    "worldCupBestGoalkeeper": "Altın Eldiven - Dünya Kupası",
+    "worldCupGoldenBall": "🌍🏅 Dünya Kupası Altın Top Kazananı!",
+    "worldCupGoldenBoot": "👟🌍 Dünya Kupası Altın Ayakkabı Kazananı!",
+    "worldCupTOTT": "👕 Dünya Kupası Takımına seçildi!",
+    "worldPlayer": "🏆⭐ DÜNYANIN EN İYİ OYUNCUSU! Gezegenin en iyisi olarak tanındı. Hikaye: {narrative}."
+  },
+  "competitions": {
+    "afcon": "Afrika Uluslar Kupası",
+    "asianCup": "Asya Kupası",
+    "continentalCup": "Şampiyonlar Kupası",
+    "copaAmerica": "Copa América",
+    "euro": "Avrupa Şampiyonası",
+    "goldCup": "Altın Kupa",
+    "nationsLeague": "Uluslar Ligi",
+    "oceaniaCup": "Okyanusya Kupası",
+    "worldCup": "Dünya Kupası",
+    "wcQualifiers": "Dünya Kupası Elemeleri"
+  },
+  "common": {
+    "rounds": {
+      "final": "Final",
+      "groupStage": "Grup Aşaması",
+      "qualifier": "Eleme",
+      "quarterFinal": "Çeyrek Final",
+      "roundOf16": "Son 16",
+      "semiFinal": "Yarı Final",
+      "winner": "Kazanan"
+    }
   }
 }

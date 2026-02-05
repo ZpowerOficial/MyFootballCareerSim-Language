@@ -1,0 +1,297 @@
+{
+  "attributes": {
+    "abbr": {
+      "AGI": "AGI",
+      "DEF": "BRT",
+      "DIV": "DIV",
+      "DRI": "GIR",
+      "FIN": "FIN",
+      "HAN": "HAN",
+      "HEA": "SUN",
+      "INT": "POT",
+      "PAC": "KEP",
+      "PAS": "UMP",
+      "PHY": "FIS",
+      "POS": "POS",
+      "REF": "REF",
+      "SHO": "TEM",
+      "STA": "STA",
+      "STR": "KEK",
+      "VIS": "VIS"
+    },
+    "acceleration": "Akselerasi",
+    "aerialControl": "Kontrol Udara",
+    "age": "Usia",
+    "aggression": "Agresivitas",
+    "agility": "Kelincahan",
+    "attacking": "Menyerang",
+    "attributeEvolution": "Evolusi Atribut",
+    "balance": "Keseimbangan",
+    "ballControl": "Kontrol Bola",
+    "composure": "Ketenangan",
+    "crossing": "Umpan Silang",
+    "currentAge": "Usia Saat Ini",
+    "currentOvr": "OVR Saat Ini",
+    "curve": "Lengkungan",
+    "defending": "Bertahan",
+    "dribbling": "Giring Bola",
+    "finishing": "Penyelesaian",
+    "flair": "Gaya",
+    "foot": {
+      "left": "Kiri",
+      "right": "Kanan"
+    },
+    "footedness": "Kaki Dominan",
+    "freeKick": "Akurasi Tendangan Bebas",
+    "gkDiving": "Diving Kiper",
+    "gkHandling": "Tangkapan Kiper",
+    "gkKicking": "Tendangan Kiper",
+    "gkPositioning": "Posisi Kiper",
+    "gkReflexes": "Refleks Kiper",
+    "goalkeeping": "Kiper",
+    "growth": "Pertumbuhan",
+    "heading": "Akurasi Sundulan",
+    "interceptions": "Intersepsi",
+    "jumping": "Lompatan",
+    "keyAttribute": "Atribut Kunci",
+    "leadership": "Kepemimpinan",
+    "leftFinishing": "Penyelesaian (Kiri)",
+    "legend": "Legenda",
+    "longPassing": "Umpan Jauh",
+    "longShots": "Tendangan Jarak Jauh",
+    "marking": "Penjagaan",
+    "mental": "Mental",
+    "mentalAttributes": "Atribut Mental",
+    "overall": "Keseluruhan",
+    "overallEvolution": "Evolusi Keseluruhan",
+    "pace": "Kecepatan",
+    "passing": "Umpan",
+    "peakAge": "Usia Puncak",
+    "peakOvr": "OVR Puncak",
+    "penalties": "Penalti",
+    "physical": "Fisik",
+    "physicalAttributes": "Atribut Fisik",
+    "positioning": "Penempatan Posisi",
+    "preferredFoot": "Kaki Pilihan",
+    "ratingColors": "Warna Rating",
+    "reactions": "Reaksi",
+    "rightFinishing": "Penyelesaian (Kanan)",
+    "shooting": "Tembakan",
+    "shortPassing": "Umpan Pendek",
+    "shotPower": "Kekuatan Tendangan",
+    "slidingTackle": "Sliding Tackle",
+    "sprintSpeed": "Kecepatan Lari",
+    "stamina": "Stamina",
+    "standingTackle": "Standing Tackle",
+    "strength": "Kekuatan",
+    "technical": "Teknis",
+    "technicalAttributes": "Atribut Teknis",
+    "vision": "Visi",
+    "volleys": "Tendangan Voli",
+    "weakFoot": "Kaki Lemah",
+    "wordClass": "Kelas Dunia",
+    "workRate": "Rasio Kerja"
+  },
+  "characteristic": {
+    "Aerial Specialist": "Spesialis Udara",
+    "Big Game Player": "Pemain Laga Besar",
+    "Clinical Finisher": "Finisher Klinis",
+    "Dribbling Wizard": "Penyihir Dribel",
+    "Engine": "Mesin",
+    "Leader": "Pemimpin",
+    "Playmaker": "Playmaker",
+    "Speed Demon": "Iblis Kecepatan"
+  },
+  "expandedAttributes": {
+    "agility": {
+      "coordination": "Koordinasi",
+      "flexibility": "Fleksibilitas",
+      "lateralAgility": "Kelincahan Lateral",
+      "reactionTime": "Waktu Reaksi"
+    },
+    "ballControl": {
+      "aerialControl": "Kontrol Udara",
+      "firstTouchOrientated": "Sentuhan Pertama Terorientasi",
+      "firstTouchUnderPressure": "Sentuhan Pertama Di Bawah Tekanan",
+      "shielding": "Melindungi Bola",
+      "trapping": "Menangkap Bola"
+    },
+    "commanding": {
+      "aerialReach": "Jangkauan Udara",
+      "claimingCrosses": "Menangkap Umpan Silang",
+      "commandOfArea": "Penguasaan Area",
+      "communication": "Komunikasi",
+      "punching": "Tinju Bola"
+    },
+    "defending": {
+      "slidingTiming": "Timing Sliding",
+      "standingTiming": "Timing Tackle"
+    },
+    "defensivePositioning": {
+      "backtracking": "Melacak Balik",
+      "covering": "Melindungi",
+      "defensiveAwareness": "Kesadaran Bertahan",
+      "jockeying": "Membayangi",
+      "positionRecovery": "Pemulihan Posisi"
+    },
+    "distribution": {
+      "goalKicks": "Tendangan Gawang",
+      "kicking": "Tendangan",
+      "passingLong": "Umpan Jauh (GK)",
+      "passingShort": "Umpan Pendek (GK)",
+      "throwing": "Lemparan"
+    },
+    "dribbling": {
+      "closeControlDribbling": "Kontrol Dribel Dekat",
+      "congestedSpaceDribbling": "Dribel di Area Sempit",
+      "directionChange": "Perubahan Arah",
+      "flair": "Gaya",
+      "skillMoves": "Skill Gerak",
+      "speedDribbling": "Kecepatan Dribel"
+    },
+    "endurance": {
+      "aerobicEndurance": "Ketahanan Aerobik",
+      "anaerobicEndurance": "Ketahanan Anaerobik",
+      "stamina": "Stamina",
+      "workRate": "Rasio Kerja"
+    },
+    "finishing": {
+      "finishingInsideBox": "Penyelesaian Di Kotak Penalti",
+      "finishingOnCounter": "Penyelesaian Saat Serangan Balik",
+      "finishingOutsideBox": "Penyelesaian Di Luar Kotak Penalti",
+      "finishingUnderPressure": "Penyelesaian Di Bawah Tekanan",
+      "headedAccuracy": "Akurasi Sundulan",
+      "headingAccuracy": "Akurasi Sundulan",
+      "headingPower": "Kekuatan Sundulan",
+      "oneOnOneFinishing": "Penyelesaian 1 Lawan 1",
+      "placedShotAccuracy": "Akurasi Placed Shot",
+      "placedShots": "Tembakan Terarah",
+      "powerShotAccuracy": "Akurasi Power Shot",
+      "shotAnticipation": "Antisipasi Tembakan",
+      "shotPower": "Kekuatan Tendangan",
+      "volleyTechnique": "Teknik Voli",
+      "volleysAndAcrobatic": "Voli & Akrobatik"
+    },
+    "gameIntelligence": {
+      "anticipation": "Antisipasi",
+      "creativity": "Kreativitas",
+      "decisions": "Keputusan",
+      "offTheBallMovement": "Pergerakan Tanpa Bola",
+      "positioning": "Penempatan Posisi",
+      "spatialAwareness": "Kesadaran Spasial",
+      "vision": "Visi"
+    },
+    "interception": {
+      "crossBlocking": "Memblokir Umpan Silang",
+      "longPassInterception": "Intersepsi Umpan Jauh",
+      "readingOfPlay": "Membaca Permainan",
+      "shortPassInterception": "Intersepsi Umpan Pendek",
+      "shotBlocking": "Memblokir Tembakan"
+    },
+    "jumping": {
+      "headerTiming": "Timing Sundulan",
+      "runningVerticalJump": "Lompatan Vertikal Lari",
+      "standingVerticalJump": "Lompatan Vertikal Berdiri"
+    },
+    "marking": {
+      "closeDownSpeed": "Kecepatan Menutup Ruang",
+      "individualMarking": "Penjagaan Individu",
+      "trackingRuns": "Melacak Pergerakan",
+      "zonalMarking": "Penjagaan Zona"
+    },
+    "mental": {
+      "concentration": "Konsentrasi",
+      "decisions": "Keputusan"
+    },
+    "mentalGK": {
+      "composure": "Ketenangan (GK)",
+      "concentration": "Konsentrasi (GK)",
+      "decisionMaking": "Pengambilan Keputusan (GK)",
+      "handling": "Tangkapan"
+    },
+    "passing": {
+      "crossingFromByline": "Umpan Silang dari Garis Gawang",
+      "crossingFromDeep": "Umpan Silang dari Belakang",
+      "curveEffect": "Efek Lengkungan",
+      "firstTimeCrossing": "Umpan Silang Langsung",
+      "lobPassAccuracy": "Akurasi Umpan Lob",
+      "longDiagonalPass": "Umpan Diagonal Jauh",
+      "shortPassingSupport": "Dukungan Umpan Pendek",
+      "shortPassingUnderPressure": "Umpan Pendek Di Bawah Tekanan",
+      "throughBalls": "Umpan Terobosan",
+      "verticalPassBreakingLines": "Umpan Vertikal Menembus Lini",
+      "weightedPass": "Umpan Terukur"
+    },
+    "performance": {
+      "adaptability": "Adaptabilitas",
+      "bigMatchPerformance": "Performa Laga Besar",
+      "clutchFactor": "Faktor Clutch",
+      "consistency": "Konsistensi",
+      "pressureHandling": "Penanganan Tekanan"
+    },
+    "personality": {
+      "bravery": "Keberanian",
+      "charismaOffPitch": "Kharisma di Luar Lapangan",
+      "composure": "Ketenangan",
+      "composureInFinishing": "Ketenangan dalam Penyelesaian",
+      "determination": "Determinasi",
+      "leadershipOnPitch": "Kepemimpinan di Lapangan",
+      "professionalism": "Profesionalisme",
+      "teamwork": "Kerjasama Tim",
+      "temperament": "Temperamen"
+    },
+    "positioning": {
+      "linePositioning": "Penempatan Garis",
+      "narrowingAngles": "Mempersempit Sudut",
+      "positioning": "Penempatan Posisi GK",
+      "rushingOut": "Keluar Sarang"
+    },
+    "pressing": {
+      "counterPressing": "Pressing Balasan",
+      "pressIntensity": "Intensitas Pressing",
+      "pressingTrigger": "Pemicu Pressing",
+      "sustainedPressing": "Pressing Berkelanjutan"
+    },
+    "robustness": {
+      "injuryResistance": "Ketahanan Cedera",
+      "naturalFitness": "Kebugaran Alami",
+      "physicalRobustness": "Ketahanan Fisik",
+      "recoveryRate": "Tingkat Pemulihan"
+    },
+    "setPieces": {
+      "cornerKicking": "Tendangan Sudut",
+      "directFreeKickPlacement": "Penempatan Tendangan Bebas Langsung",
+      "directFreeKickPower": "Kekuatan Tendangan Bebas Langsung",
+      "indirectFreeKick": "Tendangan Bebas Tidak Langsung",
+      "penaltyTaking": "Eksekusi Penalti",
+      "throwIns": "Lemparan ke Dalam"
+    },
+    "shotStopping": {
+      "closeRangeShotStopping": "Penyelamatan Jarak Dekat",
+      "diving": "Diving Kiper",
+      "longRangeShotStopping": "Penyelamatan Jarak Jauh",
+      "oneOnOneStopping": "Penyelamatan 1 Lawan 1",
+      "penaltySaving": "Penyelamatan Penalti",
+      "reflexes": "Refleks Kiper"
+    },
+    "speed": {
+      "acceleration": "Akselerasi",
+      "accelerationInitial": "Akselerasi Awal",
+      "accelerationMedium": "Akselerasi Menengah",
+      "sprintSpeed": "Kecepatan Lari",
+      "topSpeed": "Kecepatan Maksimal"
+    },
+    "strength": {
+      "balanceInContact": "Keseimbangan dalam Kontak",
+      "bodyToBodyStrength": "Kekuatan Body-to-Body",
+      "legStrength": "Kekuatan Kaki",
+      "upperBodyStrength": "Kekuatan Tubuh Bagian Atas"
+    },
+    "tackling": {
+      "cleanTackling": "Tackle Bersih",
+      "slidingTackle": "Sliding Tackle",
+      "standingTackle": "Standing Tackle",
+      "tackleTiming": "Timing Tackle"
+    }
+  }
+}

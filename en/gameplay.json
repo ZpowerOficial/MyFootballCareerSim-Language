@@ -312,6 +312,89 @@
     "worldClass": "World Class"
   },
   "goals": {
+    "v2": {
+      "expectations": {
+        "assistsLeague": "League Assists Target",
+        "assistsLeagueDesc": "Provide a specific number of assists in the league this season.",
+        "chancesCreated": "Chances Created",
+        "cleanSheets": "Clean Sheet Target",
+        "conceded": "Goals Conceded Limit",
+        "consistency": "Maintain Consistency",
+        "consistencyDesc": "Maintain consistent performances",
+        "dribblesCompleted": "Dribbles Completed",
+        "gkRating": "Goalkeeper Rating",
+        "gkRatingDesc": "Maintain a high average rating as a Goalkeeper.",
+        "goalsLeague": "League Goals Target",
+        "goalsLeagueDesc": "Score a specific number of goals in the league this season.",
+        "interceptions": "Interceptions",
+        "manOfTheMatch": "Man Of The Match",
+        "matchRating": "Match Rating",
+        "passAccuracy": "Pass Accuracy",
+        "penalties": "Penalty Kick Success",
+        "tacklesWon": "Tackles Won"
+      },
+      "team": {
+        "leagueFinish": "League Finish Target",
+        "leagueFinishDesc": "Help the team achieve this league position or better."
+      },
+      "promises": {
+        "roleGuarantee": "Role Guarantee",
+        "roleGuaranteeDesc": "Ensure you receive the playing time promised in your contract."
+      },
+      "active": "Active",
+      "bands": {
+        "expected": "Expected",
+        "fail": "Failure Threshold",
+        "stretch": "Stretch Target"
+      },
+      "completed": "Completed",
+      "expired": "Expired",
+      "milestones": {
+        "careerGoals": "Career Goals",
+        "careerGoalsDesc": "Career Goals Description"
+      },
+      "origin": {
+        "agent": "Agent",
+        "club": "Club",
+        "coach": "Manager",
+        "fans": "Fans",
+        "press": "Press",
+        "self": "Self"
+      },
+      "progress": "Progress",
+      "records": {
+        "clubSeasonGoals": "Club Season Goals",
+        "clubSeasonGoalsBroken": "Club Season Goals Broken",
+        "clubSeasonGoalsBrokenDesc": "Club Season Goals Broken Description",
+        "clubSeasonGoalsDesc": "Club Season Goals Description",
+        "historicSeasonGoals": "Historic Season Goals",
+        "historicSeasonGoalsDesc": "Historic Season Goals Description"
+      },
+      "rewards": {
+        "agentReputation": "Agent Reputation",
+        "clubApproval": "Club Approval",
+        "followerBoost": "Follower Boost",
+        "mediaBoost": "Media Boost",
+        "moraleBoost": "Morale Boost",
+        "reputationBoost": "Reputation Boost",
+        "skillPoints": "Skill Points",
+        "teamChemistry": "Team Chemistry",
+        "title": "Rewards",
+        "transferBudget": "Transfer Budget"
+      },
+      "sections": {
+        "career": "Career",
+        "chases": "Record Chases",
+        "promises": "Promises",
+        "thisSeason": "This Season"
+      },
+      "severity": {
+        "high": "High Priority",
+        "low": "Low Priority",
+        "medium": "Medium Priority"
+      },
+      "target": "Target"
+    },
     "100goals": "Score 100 career goals",
     "almostThere": "Almost there!",
     "ballonDor": "Win the Golden Trophy",
@@ -372,89 +455,6 @@
     "spendDecade": "Spend 10 years at {team}",
     "target": "Target",
     "topTierLeague": "Play in an elite league",
-    "v2": {
-      "active": "Active",
-      "bands": {
-        "expected": "Expected",
-        "fail": "Failure Threshold",
-        "stretch": "Stretch Target"
-      },
-      "completed": "Completed",
-      "expectations": {
-        "assistsLeague": "League Assists Target",
-        "assistsLeagueDesc": "Provide a specific number of assists in the league this season.",
-        "chancesCreated": "Chances Created",
-        "cleanSheets": "Clean Sheet Target",
-        "conceded": "Goals Conceded Limit",
-        "consistency": "Maintain Consistency",
-        "consistencyDesc": "Maintain consistent performances",
-        "dribblesCompleted": "Dribbles Completed",
-        "gkRating": "Goalkeeper Rating",
-        "gkRatingDesc": "Maintain a high average rating as a Goalkeeper.",
-        "goalsLeague": "League Goals Target",
-        "goalsLeagueDesc": "Score a specific number of goals in the league this season.",
-        "interceptions": "Interceptions",
-        "manOfTheMatch": "Man Of The Match",
-        "matchRating": "Match Rating",
-        "passAccuracy": "Pass Accuracy",
-        "penalties": "Penalty Kick Success",
-        "tacklesWon": "Tackles Won"
-      },
-      "expired": "Expired",
-      "milestones": {
-        "careerGoals": "Career Goals",
-        "careerGoalsDesc": "Career Goals Description"
-      },
-      "origin": {
-        "agent": "Agent",
-        "club": "Club",
-        "coach": "Manager",
-        "fans": "Fans",
-        "press": "Press",
-        "self": "Self"
-      },
-      "progress": "Progress",
-      "promises": {
-        "roleGuarantee": "Role Guarantee",
-        "roleGuaranteeDesc": "Ensure you receive the playing time promised in your contract."
-      },
-      "records": {
-        "clubSeasonGoals": "Club Season Goals",
-        "clubSeasonGoalsBroken": "Club Season Goals Broken",
-        "clubSeasonGoalsBrokenDesc": "Club Season Goals Broken Description",
-        "clubSeasonGoalsDesc": "Club Season Goals Description",
-        "historicSeasonGoals": "Historic Season Goals",
-        "historicSeasonGoalsDesc": "Historic Season Goals Description"
-      },
-      "rewards": {
-        "agentReputation": "Agent Reputation",
-        "clubApproval": "Club Approval",
-        "followerBoost": "Follower Boost",
-        "mediaBoost": "Media Boost",
-        "moraleBoost": "Morale Boost",
-        "reputationBoost": "Reputation Boost",
-        "skillPoints": "Skill Points",
-        "teamChemistry": "Team Chemistry",
-        "title": "Rewards",
-        "transferBudget": "Transfer Budget"
-      },
-      "sections": {
-        "career": "Career",
-        "chases": "Record Chases",
-        "promises": "Promises",
-        "thisSeason": "This Season"
-      },
-      "severity": {
-        "high": "High Priority",
-        "low": "Low Priority",
-        "medium": "Medium Priority"
-      },
-      "target": "Target",
-      "team": {
-        "leagueFinish": "League Finish Target",
-        "leagueFinishDesc": "Help the team achieve this league position or better."
-      }
-    },
     "winContinentalCup": "Win Continental Cup with {team}",
     "winWorldCup": "Win World Tournament with {country}"
   },

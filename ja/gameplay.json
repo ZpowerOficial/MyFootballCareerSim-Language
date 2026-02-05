@@ -241,7 +241,8 @@
     "vision": "ビジョン",
     "volleys": "ボレー",
     "weakFoot": "逆足",
-    "workRate": "ワークレート"
+    "workRate": "ワークレート",
+    "aerialControl": "空中制御"
   },
   "characteristic": {
     "Aerial Specialist": "空中戦のスペシャリスト",
@@ -265,9 +266,19 @@
     "finishing": {
       "headedAccuracy": "ヘディング精度",
       "oneOnOneFinishing": "1対1の決定力",
-      "placedShots": "プレースシュート",
+      "placedShots": "コントロールシュート",
       "shotAnticipation": "シュート予測",
-      "volleyTechnique": "ボレーの技術"
+      "volleyTechnique": "ボレー技術",
+      "finishingInsideBox": "ボックス内での決定力",
+      "finishingOnCounter": "カウンター時の決定力",
+      "finishingOutsideBox": "ボックス外からの決定力",
+      "finishingUnderPressure": "重圧下での決定力",
+      "headingAccuracy": "ヘディング精度",
+      "headingPower": "ヘディングの強さ",
+      "placedShotAccuracy": "コントロールシュート精度",
+      "powerShotAccuracy": "パワーシュート精度",
+      "shotPower": "シュート力",
+      "volleysAndAcrobatic": "ボレー＆アクロバティック"
     },
     "mental": {
       "concentration": "集中力",
@@ -276,11 +287,167 @@
     "passing": {
       "lobPassAccuracy": "ロブパス精度",
       "throughBalls": "スルーパス",
-      "weightedPass": "ウェイトのかかったパス"
+      "weightedPass": "ウェイトパス",
+      "crossingFromByline": "深い位置からのクロス",
+      "crossingFromDeep": "アーリークロス",
+      "curveEffect": "カーブ",
+      "firstTimeCrossing": "ダイレクトクロス",
+      "longDiagonalPass": "ロングダイアゴナル",
+      "shortPassingSupport": "ショートパスのサポート",
+      "shortPassingUnderPressure": "重圧下でのパス",
+      "verticalPassBreakingLines": "ラインブレイクパス"
     },
     "speed": {
       "acceleration": "加速力",
-      "topSpeed": "最高速度"
+      "topSpeed": "最高速度",
+      "accelerationInitial": "初速",
+      "accelerationMedium": "加速の伸び",
+      "sprintSpeed": "スプリント速度"
+    },
+    "agility": {
+      "coordination": "コーディネーション",
+      "flexibility": "柔軟性",
+      "lateralAgility": "横への敏捷性",
+      "reactionTime": "反応速度"
+    },
+    "ballControl": {
+      "aerialControl": "空中制御",
+      "firstTouchOrientated": "方向付けたタッチ",
+      "firstTouchUnderPressure": "重圧下でのトラップ",
+      "shielding": "ボールシールド",
+      "trapping": "トラップ"
+    },
+    "commanding": {
+      "aerialReach": "空中へのリーチ",
+      "claimingCrosses": "クロス対応",
+      "commandOfArea": "エリア支配",
+      "communication": "コーチング",
+      "punching": "パンチング"
+    },
+    "defensivePositioning": {
+      "backtracking": "プレスバック",
+      "covering": "カバーリング",
+      "defensiveAwareness": "守備意識",
+      "jockeying": "ジョッキー",
+      "positionRecovery": "ポジション修正"
+    },
+    "distribution": {
+      "goalKicks": "ゴールキック",
+      "kicking": "キック",
+      "passingLong": "ロングパス (GK)",
+      "passingShort": "ショートパス (GK)",
+      "throwing": "スローイング"
+    },
+    "dribbling": {
+      "closeControlDribbling": "密着ドリブル",
+      "congestedSpaceDribbling": "混戦でのドリブル",
+      "directionChange": "方向転換",
+      "flair": "創造性",
+      "skillMoves": "スキルムーブ",
+      "speedDribbling": "高速ドリブル"
+    },
+    "endurance": {
+      "aerobicEndurance": "有酸素持久力",
+      "anaerobicEndurance": "無酸素持久力",
+      "stamina": "スタミナ",
+      "workRate": "ワークレート"
+    },
+    "gameIntelligence": {
+      "anticipation": "予測",
+      "creativity": "創造性",
+      "decisions": "判断力",
+      "offTheBallMovement": "オフ・ザ・ボール",
+      "positioning": "ポジショニング",
+      "spatialAwareness": "空間認識",
+      "vision": "視野"
+    },
+    "interception": {
+      "crossBlocking": "クロスブロック",
+      "longPassInterception": "ロングパス遮断",
+      "readingOfPlay": "試合の読み",
+      "shortPassInterception": "パスカット",
+      "shotBlocking": "シュートブロック"
+    },
+    "jumping": {
+      "headerTiming": "ヘディングのタイミング",
+      "runningVerticalJump": "助走付きジャンプ",
+      "standingVerticalJump": "垂直飛び"
+    },
+    "marking": {
+      "closeDownSpeed": "寄せの速さ",
+      "individualMarking": "マンマーク",
+      "trackingRuns": "ランニング追跡",
+      "zonalMarking": "ゾーンディフェンス"
+    },
+    "mentalGK": {
+      "composure": "冷静さ (GK)",
+      "concentration": "集中力 (GK)",
+      "decisionMaking": "判断力 (GK)",
+      "handling": "ハンドリング"
+    },
+    "performance": {
+      "adaptability": "適応性",
+      "bigMatchPerformance": "大一番の強さ",
+      "clutchFactor": "勝負強さ",
+      "consistency": "安定感",
+      "pressureHandling": "プレッシャー耐性"
+    },
+    "personality": {
+      "bravery": "勇敢さ",
+      "charismaOffPitch": "ピッチ外でのカリスマ性",
+      "composure": "冷静さ",
+      "composureInFinishing": "フィニッシュ時の冷静さ",
+      "determination": "決断力",
+      "leadershipOnPitch": "リーダーシップ",
+      "professionalism": "プロ意識",
+      "teamwork": "チームワーク",
+      "temperament": "気質"
+    },
+    "positioning": {
+      "linePositioning": "ラインコントロール",
+      "narrowingAngles": "アングルを狭める",
+      "positioning": "ポジショニング (GK)",
+      "rushingOut": "飛び出し"
+    },
+    "pressing": {
+      "counterPressing": "カウンタープレス",
+      "pressIntensity": "プレス強度",
+      "pressingTrigger": "プレスのスイッチ",
+      "sustainedPressing": "持続的なプレス"
+    },
+    "robustness": {
+      "injuryResistance": "怪我への耐性",
+      "naturalFitness": "基礎体力",
+      "physicalRobustness": "フィジカルの強靭さ",
+      "recoveryRate": "回復力"
+    },
+    "setPieces": {
+      "cornerKicking": "コーナーキック",
+      "directFreeKickPlacement": "直接FK精度",
+      "directFreeKickPower": "直接FK威力",
+      "indirectFreeKick": "間接フリーキック",
+      "penaltyTaking": "PKキッカー",
+      "throwIns": "スローイン"
+    },
+    "shotStopping": {
+      "closeRangeShotStopping": "至近距離シュートストップ",
+      "diving": "ダイビング",
+      "longRangeShotStopping": "遠距離シュートストップ",
+      "oneOnOneStopping": "1対1ストップ",
+      "penaltySaving": "PKストップ",
+      "reflexes": "反射神経"
+    },
+    "strength": {
+      "balanceInContact": "コンタクトバランス",
+      "bodyToBodyStrength": "対人の強さ",
+      "legStrength": "脚力",
+      "upperBodyStrength": "上半身の強さ"
+    },
+    "tackling": {
+      "cleanTackling": "クリーンなタックル",
+      "slidingTackle": "スライディングタックル",
+      "standingTackle": "スタンディングタックル",
+      "tackleTiming": "タックルのタイミング"
     }
   },
   "form": {
@@ -304,7 +471,7 @@
   "goals": {
     "100goals": "キャリア通算100ゴール達成",
     "almostThere": "あともう少し！",
-    "ballonDor": "Win the ゴールデン・トロフィー",
+    "ballonDor": "ゴールデン・トロフィーを獲得する",
     "becomeCaptain": "{team} のキャプテンになる",
     "becomeClubLegend": "{team} のクラブレジェンドになる ({matches}/200 試合)",
     "becomeStarter": "{team} のレギュラーに定着する",
@@ -326,10 +493,10 @@
       "reachOverall": "総合値 {target} 以上に到達する",
       "score100CareerGoals": "キャリア通算100ゴールを記録する",
       "spend10Years": "{club} で10年間過ごす",
-      "winBallonDor": "Win the ゴールデン・トロフィー",
+      "winBallonDor": "ゴールデン・トロフィーを獲得する",
       "winChampionsLeague": "{club} と共に大陸選手権で優勝する",
       "winFirstMajorTrophy": "初のメジャータイトルを獲得する（リーグまたは大陸カップ）",
-      "winWorldCup": "Win the ワールドトーナメント with {nationality}"
+      "winWorldCup": "{nationality} 代表でワールドトーナメントを制する"
     },
     "emptyDescription": "すべてのレジェンドには始まりがあります。プレーを続けることで、新しい目標がアンロックされます。",
     "emptyTitle": "あなたの旅はここから始まります",
@@ -1547,10 +1714,10 @@
   "winContinentalCup": "{team} と共に大陸カップで優勝する",
   "winWorldCup": "{country} と共にワールドトーナメントで優勝する",
   "injury": {
-    "oneMonth": "1 Month",
-    "longTerm": "Long Term",
-    "seasonEnding": "Season Ending",
-    "days": "{count} Days",
-    "months": "{count} Months"
+    "oneMonth": "1ヶ月",
+    "longTerm": "長期",
+    "seasonEnding": "シーズン終了",
+    "days": "{count}日",
+    "months": "{count}ヶ月"
   }
 }

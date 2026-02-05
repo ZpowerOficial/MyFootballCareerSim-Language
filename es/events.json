@@ -6,12 +6,81 @@
   "goals": {
     "achieved": "🎯 Objetivo logrado: {narrative}",
     "newGoal": "🎯 Nuevo objetivo desbloqueado: {goal}",
-    "completed": "Completado"
+    "completed": "Completado",
+    "100goals": "Marcar 100 goles en tu carrera",
+    "ballonDor": "Ganar el Trofeo de Oro",
+    "becomeCaptain": "Ser capitán del {team}",
+    "becomeClubLegend": "Ser Leyenda del Club",
+    "becomeStarter": "Ser titular habitual",
+    "breakGoalRecord": "Romper récord de goles",
+    "firstCleanSheet": "Primera portería a cero",
+    "firstGoal": "Primer gol profesional",
+    "firstTrophy": "Ganar primer trofeo mayor",
+    "nationalTeamCallUp": "Ser convocado a la selección",
+    "proDebut": "Debut profesional",
+    "reach100Caps": "Alcanzar 100 partidos int.",
+    "reachCareerAssists": "Alcanzar hito de asistencias",
+    "reachCareerGoals": "Alcanzar hito de goles",
+    "reachOverallRating": "Alcanzar media objetivo",
+    "winWorldCup": "Ganar el Torneo Mundial"
   },
   "agent": {
     "contractExpired": "Tu contrato con el agente expiró. Firmaste con {name} ({reputation}).",
     "contractExtended": "¡Excelente relación con tu agente {name}! Contrato extendido con comisión reducida.",
-    "promoted": "¡Tu agente {name} ha sido ascendido a estatus {reputation}!"
+    "promoted": "¡Tu agente {name} ha sido ascendido a estatus {reputation}!",
+    "reasons": {
+      "controversy": "Un escándalo con {name} forzó un cambio.",
+      "eliteCall": "Una agencia de élite dirigida por {name} hizo una oferta irresistible.",
+      "fallout": "Desacuerdo irreconciliable con {name}.",
+      "improved": "Buscando nuevas alturas representadas por {name}.",
+      "merger": "La agencia de {name} tuvo una fusión corporativa.",
+      "none": "Sin propuestas interesantes por el momento.",
+      "special": "Un evento inesperado en el mercado forzó un cambio.",
+      "starAttraction": "Tu estatus en {team} atrajo agencias mundiales.",
+      "stay": "Decidiste ser leal a tu agencia actual."
+    },
+    "reputation": {
+      "Average": "Promedio",
+      "Good": "Buena",
+      "Rookie": "Novato",
+      "Super Agent": "Superagente"
+    },
+    "specialty": {
+      "BrandBuilder": "Creador de Marca",
+      "Negotiator": "Negociador",
+      "Scout": "Ojeador",
+      "balanced": "Equilibrado",
+      "contract": "Contratos",
+      "sponsorship": "Patrocinios",
+      "transfer": "Transferencias"
+    },
+    "style": {
+      "Adaptable": "Adaptable",
+      "Aggressive": "Agresivo",
+      "Ambitious": "Ambicioso",
+      "Analytical": "Analítico",
+      "Calm": "Calmado",
+      "Charismatic": "Carismático",
+      "Dedicated": "Dedicado",
+      "Energetic": "Energético",
+      "Experienced": "Experimentado",
+      "Focused": "Concentrado",
+      "Friendly": "Amigable",
+      "Honest": "Honesto",
+      "Innovative": "Innovador",
+      "Methodical": "Metódico",
+      "Motivated": "Motivado",
+      "Networked": "Conectado",
+      "Passionate": "Apasionado",
+      "Patient": "Paciente",
+      "Persistent": "Persistente",
+      "Precise": "Preciso",
+      "Professional": "Profesional",
+      "Reliable": "Fiable",
+      "Strategic": "Estratégico",
+      "Traditional": "Tradicional",
+      "Visionary": "Visionario"
+    }
   },
   "eventNotifications": {
     "transferRequest": "Solicitud de Transferencia Enviada",
@@ -61,7 +130,7 @@
       "leagueRookieOfYear": "Debutante del Año",
       "leagueTopAssister": "Máximo Asistente",
       "playmaker": "Mejor Creador de Juego",
-      "puskas": "Premio Puskás",
+      "puskas": "Golazo del Año",
       "rookie": "Novato del Año",
       "teamOfTheYear": "Equipo del Año",
       "title": "Premio",
@@ -116,7 +185,7 @@
       "teamChemistry": "Química del Equipo"
     },
     "continental": {
-      "played": "ðŸŒ Jugó {partidos} partidos en {competición} ({goales} goles, {asistencias} asistencias)"
+      "played": "🌍 Jugó {matches} partidos en {competition} ({goals} goles, {assists} asistencias)"
     },
     "continentalQualification": "Clasificación Continental",
     "contract": {
@@ -400,7 +469,8 @@
       "naturalDecline": "Declive natural",
       "peakPhysical": "Pico físico",
       "weightGain": "Ganancia de peso",
-      "weightLoss": "Pérdida de peso"
+      "weightLoss": "Pérdida de peso",
+      "bodyTypeChange": "Body type changed"
     },
     "promotion": {
       "asProspect": "Promovido al primer equipo del {team} a los {age} años. Considerado una promesa emocionante para el futuro.",
@@ -798,7 +868,9 @@
       "title": "Convivencia con Compañeros"
     },
     "training": {
-      "title": "Training"
+      "title": "Training",
+      "completed": "Completed Training",
+      "minor_injury": "Minor injury during training"
     },
     "trainingDecision": {
       "choice_balanced": "Seguir el plan de entrenamiento estándar",
@@ -846,7 +918,7 @@
     },
     "trophy": {
       "clubWorldCup": "🏆 ¡Ganador del Torneo Mundial de Clubes!",
-      "continental": "ðŸ† {competencia} ¡Ganador!",
+      "continental": "ðŸ† {competition} ¡Ganador!",
       "continentalCupChampions": {
         "brace": "🏆 ¡{country} ganó la Copa Continental! ¡Increíble actuación con {goals} goles ayudó a sellar la victoria!",
         "crucialGoal": "🏆 ¡{country} ganó la Copa Continental! ¡Gol crucial en una victoria muy reñida!",
@@ -867,7 +939,7 @@
       "won": "🏆 ¡Ganó el {competition}!",
       "wonYouth": "🏆 ¡Ganó la competición juvenil!",
       "worldCup": "Torneo Mundial",
-      "worldCupChampions": "ðŸ† ¡{país} ganó el Torneo Mundial!"
+      "worldCupChampions": "🏆 {country} won the World Tournament!"
     },
     "urgentDecision": "⚠️ ¡Se requiere una decisión urgente!",
     "viral": {
@@ -882,6 +954,14 @@
         "positive": "La encantadora entrevista conquista tanto a los fans como a los medios."
       },
       "skill": "Increíble movimiento de habilidad compartido por millones de fanáticos."
+    },
+    "goals": {
+      "achieved": "🎯 Goal Achieved: {narrative}",
+      "newGoal": "🎯 New Goal Unlocked: {goal}"
+    },
+    "wcQualification": {
+      "description": "Your national team is competing for the World Tournament",
+      "title": "World Tournament Qualifiers"
     }
   },
   "contractTermination": {
@@ -1384,18 +1464,18 @@
       "watching": "Observando de cerca... ¡muéstranos de lo que eres capaz!"
     },
     "headlines": {
-      "awardNomination": "Nominación a premio recibida",
-      "awardWon": "¡Ganador del premio!",
-      "badForm": "Luchando por encontrar la forma",
-      "cleanSheetStreak": "¡Muralla! Racha sin encajar goles",
+      "awardNomination": "{player} nominado para un premio prestigioso.",
+      "awardWon": "¡Victoria! ¡{player} gana el premio!",
+      "badForm": "Dudas sobre el estado de forma reciente de {player}.",
+      "cleanSheetStreak": "¡Otra portería a cero para {player}!",
       "controversy": "En el punto de mira",
       "generic": "Siendo noticia",
-      "hatTrick": "¡Héroe del hat-trick!",
-      "injuryReturn": "¡De vuelta y listo!",
-      "nationalCallup": "¡Convocatoria de selección nacional!",
-      "newContract": "¡Nuevo contrato firmado!",
-      "scoringStreak": "¡En racha! La racha goleadora continúa",
-      "topScorer": "Liderando la tabla de goleadores",
+      "hatTrick": "¡{player} marca un impresionante hat-trick!",
+      "injuryReturn": "{player} regresa tras su lesión.",
+      "nationalCallup": "La selección llama a {player}.",
+      "newContract": "{player} firma un nuevo contrato.",
+      "scoringStreak": "¡{player} no para de marcar!",
+      "topScorer": "¡{player} lidera la tabla de goleadores!",
       "transferred": "Nuevo capítulo comienza"
     },
     "interview": {
@@ -1442,5 +1522,71 @@
     "warning_1": "Primera advertencia emitida sobre su conducta.",
     "warning_2": "Segunda advertencia: se requiere una mejora inmediata.",
     "warning_3": "Última advertencia antes de ser puesto en la lista de transferibles."
+  },
+  "award": {
+    "ballonDor": "Trofeo de Oro",
+    "ballonDorNomination": "Nominado - Trofeo de Oro",
+    "ballonDorRunnerUp": "Top 3 - Trofeo de Oro",
+    "comeback": "💪 ¡Regreso del Año tras recuperarse de una lesión grave!",
+    "comebackPlayerOfYear": "Regreso del Año",
+    "continentalCompTopScorer": "👟 {competition} Top Scorer ({goals} goals)!",
+    "continentalCompetitionTopScorer": "Goleador Continental",
+    "continentalCupPOTY": "MVP - Copa Continental",
+    "continentalPOTY": "⭐ ¡Votado Mejor Jugador de la {competition}!",
+    "continentalPlayer": "Jugador Continental",
+    "continentalTOTT": "👕 ¡Nombrado en el Equipo del Torneo de la {competition}!",
+    "cupGoldenBootShared": "¡Bota de Oro de Copa compartida con {goals} goles!",
+    "cupTopScorer": "👟 ¡Goleador de Copa ({goals} goles)!",
+    "europeanGoldenShoe": "Bota de Oro Europea",
+    "fifaBest": "🏆⭐ ¡Votado Jugador de la Temporada!",
+    "goalOfTheYear": "Gol del Año",
+    "goldenBoot": "👟 ¡Goleador de Liga ({goals} goles)!",
+    "goldenBootShared": "¡Bota de Oro de Liga compartida con {goals} goles!",
+    "goldenBoy": "🧒🏆 ¡Joven del Año! El futuro es tuyo.",
+    "goldenGlove": "🧤 ¡Ganador del Guante de Oro ({cleanSheets} porterías imbatidas)!",
+    "goldenShoe": "🥇 ¡Ganador de la Bota de Oro Europea! ({goals} goles)",
+    "leagueDefenderOfYear": "Defensa del Año",
+    "leagueForwardOfYear": "Delantero del Año",
+    "leagueMidfielderOfYear": "Centrocampista del Año",
+    "leaguePOTY": "🏅 ¡Jugador de la Temporada en Liga!",
+    "leaguePlayerOfYear": "Jugador del Año",
+    "leaguePlaymaker": "Líder de Asistencias",
+    "leaguePositional": "🏅 ¡Votado Mejor {position} de la Liga!",
+    "leagueRookieOfYear": "Novato del Año",
+    "leagueTopAssister": "Máximo Asistente",
+    "playmaker": "🎯 ¡Líder de Asistencias de Liga ({assists} asistencias)!",
+    "puskas": "⚽🔥 ¡Ganador del Premio Golazo del Año!",
+    "rookie": "⭐ ¡Nombrado Novato del Año en Liga!",
+    "shortlist": "⭐ Preseleccionado para el Trofeo de Oro.",
+    "teamOfTheYear": "👕 Nombrado en el Equipo del Año de la Liga.",
+    "title": "Premio",
+    "worldCupBestGoalkeeper": "Guante de Oro - Torneo Mundial",
+    "worldCupGoldenBall": "🌍🏅 ¡Ganador del Trofeo de Oro del Torneo Mundial!",
+    "worldCupGoldenBoot": "👟🌍 ¡Ganador de la Bota de Oro del Torneo Mundial!",
+    "worldCupTOTT": "👕 ¡Nombrado en el Equipo del Torneo Mundial!",
+    "worldPlayer": "🏆⭐ ¡MEJOR JUGADOR DEL MUNDO! Reconocido como el mejor del planeta. Historia: {narrative}."
+  },
+  "competitions": {
+    "afcon": "Copa Africana de Naciones",
+    "asianCup": "Copa Asiática",
+    "continentalCup": "Copa Continental",
+    "copaAmerica": "Copa América",
+    "euro": "Eurocopa",
+    "goldCup": "Copa Oro",
+    "nationsLeague": "Liga de Naciones",
+    "oceaniaCup": "Copa de Naciones",
+    "worldCup": "Torneo Mundial",
+    "wcQualifiers": "Clasificatorias del Torneo Mundial"
+  },
+  "common": {
+    "rounds": {
+      "final": "Final",
+      "groupStage": "Fase de Grupos",
+      "qualifier": "Clasificatorio",
+      "quarterFinal": "Cuartos de Final",
+      "roundOf16": "Octavos de Final",
+      "semiFinal": "Semifinal",
+      "winner": "Ganador"
+    }
   }
 }

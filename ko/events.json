@@ -6,12 +6,81 @@
   "goals": {
     "achieved": "🎯 목표 달성: {narrative}",
     "newGoal": "🎯 새로운 목표 달성: {goal}",
-    "completed": "완료"
+    "completed": "완료",
+    "100goals": "커리어 통산 100골 기록",
+    "ballonDor": "골든 트로피 수상",
+    "becomeCaptain": "{team}의 주장 완장 차기",
+    "becomeClubLegend": "클럽 레전드 등극",
+    "becomeStarter": "정기적인 주전 선수 되기",
+    "breakGoalRecord": "득점 기록 경신",
+    "firstCleanSheet": "첫 클린시트 기록",
+    "firstGoal": "프로 데뷔 첫 골 기록",
+    "firstTrophy": "첫 메이저 트로피 우승",
+    "nationalTeamCallUp": "국가대표팀 첫 소집",
+    "proDebut": "프로 무대 데뷔",
+    "reach100Caps": "A매치 100경기 출전 달성",
+    "reachCareerAssists": "커리어 도움 마일스톤 달성",
+    "reachCareerGoals": "커리어 득점 마일스톤 달성",
+    "reachOverallRating": "목표 능력치(OVR) 도달",
+    "winWorldCup": "월드컵 우승"
   },
   "agent": {
     "contractExpired": "에이전트 계약이 만료되었습니다. {name} ({reputation})와(과) 계약했습니다.",
     "contractExtended": "에이전트 {name}와(과)의 훌륭한 관계! 수수료가 인하된 상태로 계약이 연장되었습니다.",
-    "promoted": "에이전트 {name}이(가) {reputation} 등급으로 승급했습니다!"
+    "promoted": "에이전트 {name}이(가) {reputation} 등급으로 승급했습니다!",
+    "reasons": {
+      "controversy": "{name}이(가) 연루된 스캔들로 인해 변경이 불가피했습니다.",
+      "eliteCall": "{name}이(가) 이끄는 엘리트 에이전시로부터 거부할 수 없는 제안을 받았습니다.",
+      "fallout": "{name}와(과)의 돌이킬 수 없는 불화가 발생했습니다.",
+      "improved": "{name}의 매니지먼트 하에 더 높은 곳을 지향합니다.",
+      "merger": "{name}의 에이전시가 기업 합병을 거쳤습니다.",
+      "none": "현재 흥미로운 에이전트 제안이 없습니다.",
+      "special": "에이전트 시장에서의 예상치 못한 사건으로 변경이 필요했습니다.",
+      "starAttraction": "{team}에서의 당신의 활약이 월드클래스 에이전시들의 관심을 끌었습니다.",
+      "stay": "현재 에이전시에 충성하기로 결정했습니다."
+    },
+    "reputation": {
+      "Average": "보통",
+      "Good": "우수",
+      "Rookie": "루키",
+      "Super Agent": "슈퍼 에이전트"
+    },
+    "specialty": {
+      "BrandBuilder": "브랜드 빌더",
+      "Negotiator": "협상가",
+      "Scout": "스카우트",
+      "balanced": "밸런스형",
+      "contract": "계약 전문",
+      "sponsorship": "스폰서십 전문",
+      "transfer": "이적 전문"
+    },
+    "style": {
+      "Adaptable": "적응력 있는",
+      "Aggressive": "공격적인",
+      "Ambitious": "야망 있는",
+      "Analytical": "분석적인",
+      "Calm": "차분한",
+      "Charismatic": "카리스마 있는",
+      "Dedicated": "헌신적인",
+      "Energetic": "에너지가 넘치는",
+      "Experienced": "경험이 풍부한",
+      "Focused": "집중력 있는",
+      "Friendly": "우호적인",
+      "Honest": "정직한",
+      "Innovative": "혁신적인",
+      "Methodical": "체계적인",
+      "Motivated": "의욕적인",
+      "Networked": "네트워크가 좋은",
+      "Passionate": "열정적인",
+      "Patient": "인내심 있는",
+      "Persistent": "끈기 있는",
+      "Precise": "정확한",
+      "Professional": "프로페셔널한",
+      "Reliable": "신뢰할 수 있는",
+      "Strategic": "전략적인",
+      "Traditional": "전통적인",
+      "Visionary": "비전 있는"
+    }
   },
   "eventNotifications": {
     "transferRequest": "이적 요청 제출됨",
@@ -61,7 +130,7 @@
       "leagueRookieOfYear": "올해의 신인",
       "leagueTopAssister": "도움왕",
       "playmaker": "리그 플레이메이커",
-      "puskas": "푸스카스 어워드",
+      "puskas": "올해의 골",
       "rookie": "올해의 신인",
       "teamOfTheYear": "올해의 팀",
       "title": "수상",
@@ -400,7 +469,8 @@
       "naturalDecline": "자연적인 감소",
       "peakPhysical": "피지컬 전성기",
       "weightGain": "체중 증가",
-      "weightLoss": "체중 감소"
+      "weightLoss": "체중 감소",
+      "bodyTypeChange": "Body type changed"
     },
     "promotion": {
       "asProspect": "{age}세의 나이로 {team} 성인 스쿼드로 승격되었습니다. 미래가 기대되는 유망주로 평가받습니다.",
@@ -801,7 +871,9 @@
       "title": "팀 동료와 소통"
     },
     "training": {
-      "title": "훈련"
+      "title": "훈련",
+      "completed": "훈련 완료",
+      "minor_injury": "훈련 중 경미한 부상"
     },
     "trainingDecision": {
       "choice_balanced": "균형 잡힌 접근",
@@ -885,6 +957,14 @@
         "positive": "매력적인 인터뷰로 팬과 미디어를 사로잡았습니다."
       },
       "skill": "수백만 팬이 공유한 놀라운 스킬무브."
+    },
+    "goals": {
+      "achieved": "🎯 Goal Achieved: {narrative}",
+      "newGoal": "🎯 New Goal Unlocked: {goal}"
+    },
+    "wcQualification": {
+      "description": "Your national team is competing for the World Tournament",
+      "title": "World Tournament Qualifiers"
     }
   },
   "contractTermination": {
@@ -915,13 +995,13 @@
   "media": {
     "drought": {
       "assists": {
-        "1": "Creativity crisis? No assists in 5 games.",
+        "1": "창의성 위기? 5경기째 도움을 기록하지 못하고 있습니다.",
         "2": "마지막 패스는 어디로 갔나요? 플레이메이커가 고전하고 있습니다."
       },
       "goals": {
-        "1": "Goal drought continues: 5 games without scoring.",
-        "2": "Striker firing blanks: Is confidence the issue?",
-        "3": "Ten games, zero goals. Crisis for number 9.",
+        "1": "득점력 실종? 5경기 연속 무득점입니다.",
+        "2": "공격수가 침묵하고 있습니다. 자신감의 문제일까요?",
+        "3": "열 경기째 무득점. 9번 공수수에게 닥친 위기입니다.",
         "completed": "완료"
       }
     },
@@ -937,7 +1017,7 @@
       },
       "neu": {
         "1": "안정적인 시즌 — {team}에서 믿음직한 존재.",
-        "2": "\"Underrated without the ball\" â€” pressure and support stand out.",
+        "2": "공이 없을 때의 움직임이 과소평가되어 있습니다 — 압박과 지원이 돋보입니다.",
         "3": "꾸준한 생산력: {goals} 골, {assists} 어시스트. 다음 단계: 결정적 본능.",
         "4": "나쁘진 않았지만 퀄리티가 부족해.",
         "5": "더 잘할 수 있었을 텐데.",
@@ -951,9 +1031,9 @@
         "4": "확실한 경기 최우수 선수야.",
         "5": "놀라운 활약이었어!",
         "6": "몸값 제대로 하네!",
-        "7": "King of the pitch! 👑",
+        "7": "피치의 왕! 👑",
         "8": "막을 수 없는 수준이야!",
-        "9": "Magic! ✨",
+        "9": "마법 같은 플레이! ✨",
         "10": "최고의 퀄리티."
       }
     },
@@ -962,53 +1042,53 @@
         "1": "약팀 상대로만 기록 — 중요한 순간에 사라집니다.",
         "2": "과대평가 — 숫자가 속이고 있습니다.",
         "3": "과대평가 — 팀을 이끌지 못하는 시스템 플레이어.",
-        "4": "Header or thigh goals — no class at all.",
-        "5": "Hurts to watch — terrible technical level.",
-        "6": "Not worth half what they paid — complete flop.",
-        "7": "Stats inflated by easy games — real test will expose."
+        "4": "헤더나 허벅지로 넣는 골들 — 전혀 클래스가 느껴지지 않네요.",
+        "5": "보기 괴롭습니다 — 기술적 수준이 형편없어요.",
+        "6": "몸값의 절반도 못 하네요 — 완전한 실패작입니다.",
+        "7": "약팀들과의 경기에서 부풀려진 수치 — 진짜 시험대에서 밑천이 드러날 겁니다."
       }
     },
     "pundit": {
       "neg": {
         "1": "빅 게임에서의 영향력에 의문 — 적극적인 마킹이 그를 무력화시킵니다.",
         "2": "기회 품질 향상 없이는 지속 가능성에 의문.",
-        "3": "Analysts concerned about lack of progression.",
-        "4": "Season below expectations — evident regression.",
-        "5": "Technical limitations exposed at high level."
+        "3": "분석가들은 발전의 부재에 대해 우려하고 있습니다.",
+        "4": "기대 이하의 시즌 — 명백한 퇴보입니다.",
+        "5": "높은 수준의 경기에서 기술적 한계가 드러났습니다."
       },
       "neu": {
         "1": "해설자들은 꾸준한 성장을 봅니다; 한계는 최종 3분의 1에서의 결정에 달려 있습니다.",
         "2": "전술 분석가: 올바른 실행; 한계적 이득이 다른 레벨을 열 수 있습니다.",
-        "3": "Good player — lacks that special something to be a star.",
-        "4": "Solid numbers but no decisive impact.",
-        "5": "Reliable professional — doesn't excite or disappoint."
+        "3": "좋은 선수입니다 — 스타가 되기 위한 특별한 무언가가 부족해요.",
+        "4": "수치는 견고하지만 결정적인 영향력이 없습니다.",
+        "5": "믿음직한 프로 — 흥분시키지도, 실망시키지도 않습니다."
       },
       "pos": {
         "1": "해설자들이 움직임과 타이밍을 강조 — 완벽한 {position}처럼 보입니다.",
         "2": "분석가들이 엘리트 수준의 슈팅 선택과 기회 창출을 지적합니다.",
-        "3": "Great game reading — always in the right position.",
-        "4": "Quick and precise decisions — smart player.",
-        "5": "Model of consistency — rarely makes mistakes."
+        "3": "훌륭한 경기 읽기 능력 — 언제나 올바른 위치에 있습니다.",
+        "4": "빠르고 정확한 결정 — 지능적인 선수입니다.",
+        "5": "꾸준함의 모범 — 실수를 거의 하지 않습니다."
       }
     },
     "narrativeChange": {
-      "Prodigy": "미디어의 내러티브가 다음으로 바뀝니다: 'Prodigy'",
-      "OntheRise": "미디어의 내러티브가 다음으로 바뀝니다: 'On the Rise'",
-      "EstablishedStar": "미디어의 내러티브가 다음으로 바뀝니다: 'Established Star'",
-      "UnderPressure": "미디어의 내러티브가 다음으로 바뀝니다: 'Under Pressure'",
-      "Journeyman": "미디어의 내러티브가 다음으로 바뀝니다: 'Journeyman'",
+      "Prodigy": "미디어의 내러티브가 다음으로 바뀝니다: '신동'",
+      "OntheRise": "미디어의 내러티브가 다음으로 바뀝니다: '떠오르는 별'",
+      "EstablishedStar": "미디어의 내러티브가 다음으로 바뀝니다: '기성 스타'",
+      "UnderPressure": "미디어의 내러티브가 다음으로 바뀝니다: '압박 속에서'",
+      "Journeyman": "미디어의 내러티브가 다음으로 바뀝니다: '저니맨'",
       "VeteranLeader": "미디어의 내러티브가 다음으로 바뀝니다: '베테랑 리더'",
       "VeteranStar": "미디어의 내러티브가 다음으로 바뀝니다: '베테랑 스타'",
       "VeteranRotation": "미디어의 내러티브가 다음으로 바뀝니다: '베테랑 로테이션'",
-      "ForgottenMan": "미디어의 내러티브가 다음으로 바뀝니다: 'Forgotten Man'",
-      "Flop": "미디어의 내러티브가 다음으로 바뀝니다: 'Flop'",
-      "ComebackKid": "미디어의 내러티브가 다음으로 바뀝니다: 'Comeback Kid'",
-      "CultHero": "미디어의 내러티브가 다음으로 바뀝니다: 'Cult Hero'",
-      "HometownHero": "미디어의 내러티브가 다음으로 바뀝니다: 'Hometown Hero'",
-      "PolarizingFigure": "미디어의 내러티브가 다음으로 바뀝니다: 'Polarizing Figure'",
-      "PressDarling": "미디어의 내러티브가 다음으로 바뀝니다: 'Press Darling'",
-      "SystemPlayer": "미디어의 내러티브가 다음으로 바뀝니다: 'System Player'",
-      "InjuryComeback": "미디어의 내러티브가 다음으로 바뀝니다: 'Injury Comeback'"
+      "ForgottenMan": "미디어의 내러티브가 다음으로 바뀝니다: '잊혀진 사람'",
+      "Flop": "미디어의 내러티브가 다음으로 바뀝니다: '먹튀'",
+      "ComebackKid": "미디어의 내러티브가 다음으로 바뀝니다: '컴백 키드'",
+      "CultHero": "미디어의 내러티브가 다음으로 바뀝니다: '컬트 히어로'",
+      "HometownHero": "미디어의 내러티브가 다음으로 바뀝니다: '고향 영웅'",
+      "PolarizingFigure": "미디어의 내러티브가 다음으로 바뀝니다: '논란의 중심'",
+      "PressDarling": "미디어의 내러티브가 다음으로 바뀝니다: '언론의 총아'",
+      "SystemPlayer": "미디어의 내러티브가 다음으로 바뀝니다: '시스템 플레이어'",
+      "InjuryComeback": "미디어의 내러티브가 다음으로 바뀝니다: '부상 복귀'"
     }
   },
   "mediaNarrative": {
@@ -1574,5 +1654,71 @@
     "promoted": "유스 아카데미에서 성인 팀으로 승격되었습니다!",
     "released": "유스 아카데미에서 성인 팀 승격에 실패하여 방출되었습니다.",
     "staying": "유스 아카데미에서 한 시즌 더 머물며 실력을 연마하기로 결정되었습니다."
+  },
+  "award": {
+    "ballonDor": "골든 트로피",
+    "ballonDorNomination": "골든 트로피 후보 선정",
+    "ballonDorRunnerUp": "골든 트로피 최종 3인",
+    "comeback": "💪 심각한 부상을 극복하고 올해의 재기상 수상!",
+    "comebackPlayerOfYear": "올해의 재기상",
+    "continentalCompTopScorer": "👟 {competition} 득점왕 ({goals}골)!",
+    "continentalCompetitionTopScorer": "대륙 대회 득점왕",
+    "continentalCupPOTY": "대륙 컵 MVP",
+    "continentalPOTY": "⭐ {competition} 최고의 선수로 선정!",
+    "continentalPlayer": "대륙 최우수 선수",
+    "continentalTOTT": "👕 {competition} 베스트 11 선정!",
+    "cupGoldenBootShared": "{goals}골로 컵 대회 골든 부트 공동 수상!",
+    "cupTopScorer": "👟 컵 대회 득점왕 ({goals}골)!",
+    "europeanGoldenShoe": "유럽 골든슈",
+    "fifaBest": "🏆⭐ 시즌 베스트 플레이어로 선정!",
+    "goalOfTheYear": "올해의 골",
+    "goldenBoot": "👟 리그 득점왕 ({goals}골)!",
+    "goldenBootShared": "{goals}골로 리그 골든 부트 공동 수상!",
+    "goldenBoy": "🧒🏆 올해의 유망주 상 수상! 당신이 미래입니다.",
+    "goldenGlove": "🧤 골든 글러브 수상 ({cleanSheets} 클린시트)!",
+    "goldenShoe": "🥇 유럽 골든슈 수상! ({goals}골)",
+    "leagueDefenderOfYear": "올해의 수비수",
+    "leagueForwardOfYear": "올해의 공격수",
+    "leagueMidfielderOfYear": "올해의 미드필더",
+    "leaguePOTY": "🏅 리그 시즌 베스트 플레이어!",
+    "leaguePlayerOfYear": "리그 올해의 선수",
+    "leaguePlaymaker": "도움왕",
+    "leaguePositional": "🏅 리그 부문별 베스트 {position} 선정!",
+    "leagueRookieOfYear": "올해의 신인",
+    "leagueTopAssister": "도움 선두",
+    "playmaker": "🎯 리그 도움왕 ({assists} 도움)!",
+    "puskas": "⚽🔥 올해의 골 수상!",
+    "rookie": "⭐ 리그 올해의 신인 선정!",
+    "shortlist": "⭐ 골든 트로피 최종 후보 선정.",
+    "teamOfTheYear": "👕 리그 올해의 팀 선정.",
+    "title": "수상",
+    "worldCupBestGoalkeeper": "골든 글러브 - 월드컵",
+    "worldCupGoldenBall": "🌍🏅 월드컵 골든 트로피 수상!",
+    "worldCupGoldenBoot": "👟🌍 월드컵 골든 부트 수상!",
+    "worldCupTOTT": "👕 월드컵 베스트 11 선정!",
+    "worldPlayer": "🏆⭐ 세계 최고의 선수! 지구상에서 가장 뛰어난 선수로 인정받았습니다. 내러티브: {narrative}."
+  },
+  "competitions": {
+    "afcon": "아프리카 액세스 컵",
+    "asianCup": "아시아 액세스 컵",
+    "continentalCup": "대륙 컵",
+    "copaAmerica": "남미 액세스 컵",
+    "euro": "유럽 액세스 컵",
+    "goldCup": "북미 액세스 컵",
+    "nationsLeague": "네이션스 컵",
+    "oceaniaCup": "오세아니아 액세스 컵",
+    "worldCup": "월드컵",
+    "wcQualifiers": "월드컵 예선"
+  },
+  "common": {
+    "rounds": {
+      "final": "결승",
+      "groupStage": "조별 리그",
+      "qualifier": "예선",
+      "quarterFinal": "8강",
+      "roundOf16": "16강",
+      "semiFinal": "4강",
+      "winner": "우승자"
+    }
   }
 }

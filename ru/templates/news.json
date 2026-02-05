@@ -1,0 +1,104 @@
+{
+  "_meta": {
+    "patchable": true,
+    "description": "Заголовки новостей и описания событий - поддерживает патчи сообщества для локализованного контента",
+    "interpolation": "Использует {variable} для динамических значений и {{ref:path}} для перекрестных ссылок"
+  },
+  "news": {
+    "assistMilestone": {
+      "1": "ПЛЕЙМЕЙКЕР! {name} достиг {assists} ассистов за карьеру",
+      "2": "{name} оформил {assists} ассистов в блестящей карьере",
+      "3": "Гений паса: {name} и {assists} ассистов"
+    },
+    "ballonDor": {
+      "0": "{name} ВЫИГРЫВАЕТ {{ref:content.awards.ballonDor}} {year} года!",
+      "1": "ЗОЛОТАЯ ЭРА: {name} назван лучшим в мире",
+      "2": "ОФИЦИАЛЬНО: {name} забирает главную награду футбола"
+    },
+    "championsLeague": {
+      "1": "КОРОЛИ ЕВРОПЫ! {team} выигрывает {{ref:content.competitions.championsLeague}}",
+      "2": "НОЧЬ СЛАВЫ! {name} и {team} покоряют Европу",
+      "3": "{team} коронованы как чемпионы Европы"
+    },
+    "europaLeague": {
+      "1": "ТРИУМФ В ЕВРОПЕ! {team} выигрывает европейский трофей",
+      "2": "{name} и {team} торжествуют в {{ref:content.competitions.europaLeague}}",
+      "3": "Европейский успех! {team} поднимает {{ref:content.competitions.europaLeague}}"
+    },
+    "goldenBoot": {
+      "0": "{name} ЛУЧШИЙ БОМБАРДИР! {goals} голов в этом сезоне",
+      "1": "ЗОЛОТАЯ БУТСА для {name} с {goals} голами",
+      "2": "{name} финиширует как лучший снайпер: {goals} голов"
+    },
+    "leagueChampion": {
+      "0": "ЧЕМПИОНЫ! {team} выигрывает лигу с {name}",
+      "1": "Титул обеспечен! {team} и {name} празднуют",
+      "2": "Кубок наш! {team} выигрывает национальный чемпионат"
+    },
+    "transfer": {
+      "0": "СРОЧНО! {name} - новое подписание {newTeam}",
+      "1": "ОФИЦИАЛЬНО: {name} подписывает контракт с {newTeam}",
+      "2": "{newTeam} объявляет о громком трансфере {name}"
+    },
+    "worldCup": {
+      "0": "{team} ЧЕМПИОНЫ МИРА! КУБОК НАШ!",
+      "1": "НА ВЕРШИНЕ МИРА! {team} покоряет {{ref:content.competitions.worldCup}}",
+      "2": "Максимальная слава! {team} выигрывает {{ref:content.competitions.worldCup}}"
+    },
+    "continentalQualification": {
+      "1": "ЕВРОКУБКИ! {team} квалифицируется в {competition}",
+      "2": "{name} помогает {team} выйти в {competition}",
+      "3": "Европейский футбол ждет {team}"
+    },
+    "hatTrick": {
+      "1": "ГЕРОЙ ХЕТ-ТРИКА! {name} забивает три",
+      "2": "{name} оформляет хет-трик в победе {team}",
+      "3": "Тройной удар! {name} забивает три гола"
+    },
+    "firstGoal": {
+      "1": "ПЕРВЫЙ ГОЛ! {name} открывает профессиональный счет",
+      "2": "{name} забивает первый гол в карьере за {team}",
+      "3": "С почином! {name} забивает дебютный гол"
+    },
+    "professionalDebut": {
+      "1": "ДЕБЮТ! {name} впервые выходит на поле как профи",
+      "2": "Начало: {name} дебютирует за {team}",
+      "3": "{name} совершает долгожданный профессиональный дебют"
+    },
+    "internationalDebut": {
+      "1": "МЕЖДУНАРОДНЫЙ ДЕБЮТ! {name} представляет {country}",
+      "2": "{name} получает первый матч за {country}",
+      "3": "Гордый момент: {name} дебютирует за сборную"
+    },
+    "retirement": {
+      "0": "{name} ОБЪЯВЛЯЕТ О ЗАВЕРШЕНИИ КАРЬЕРЫ. Спасибо за все!",
+      "1": "Конец эпохи: {name} вешает бутсы на гвоздь",
+      "2": "Прощание легенды: {name} уходит на пенсию"
+    },
+    "promotion": {
+      "1": "ПОВЫШЕНИЕ! {team} поднимается в {league}",
+      "2": "{name} и {team} зарабатывают путевку в {league}",
+      "3": "Празднование! {team} выходит в {league}"
+    },
+    "relegation": {
+      "0": "ТРАГЕДИЯ: {team} вылетает с {name} в составе",
+      "1": "Историческое падение: {team} падает во второй дивизион",
+      "2": "Грустный день: {team} с {name} не смогла устоять и вылетает"
+    }
+  },
+  "newsType": {
+    "assistMilestone": "Юбилей по ассистам",
+    "ballonDor": "{{ref:content.awards.ballonDor}}",
+    "championsLeague": "{{ref:content.competitions.championsLeague}}",
+    "cupWinner": "Победитель кубка",
+    "europaLeague": "{{ref:content.competitions.europaLeague}}",
+    "goldenBoot": "Золотая бутса",
+    "hatTrick": "Хет-трик",
+    "leagueChampion": "Чемпион лиги",
+    "transfer": "Трансфер",
+    "worldCup": "{{ref:content.competitions.worldCup}}",
+    "retirement": "Завершение карьеры",
+    "promotion": "Повышение",
+    "relegation": "Вылет"
+  }
+}

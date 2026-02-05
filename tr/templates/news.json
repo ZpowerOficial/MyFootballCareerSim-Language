@@ -1,0 +1,104 @@
+{
+  "_meta": {
+    "patchable": true,
+    "description": "Haber başlıkları ve etkinlik açıklamaları - yerelleştirilmiş içerik için topluluk yamalarını destekler",
+    "interpolation": "Dinamik değerler için {variable} ve çapraz referanslar için {{ref:path}} kullanılır"
+  },
+  "news": {
+    "assistMilestone": {
+      "1": "OYUN KURUCU! {name} kariyerinde {assists} asiste ulaştı",
+      "2": "{name} muhteşem kariyerinde {assists} asiste ulaştı",
+      "3": "Yaratıcı lider: {name} {assists} asiste ulaştı"
+    },
+    "ballonDor": {
+      "0": "{name} {year} {{ref:content.awards.ballonDor}} KAZANDI!",
+      "1": "ALTIN ÇAĞ: {name} dünyanın en iyisi seçildi",
+      "2": "RESMİ: {name} futbolun en büyük ödülünü aldı"
+    },
+    "championsLeague": {
+      "1": "AVRUPA'NIN KRALLARI! {team} {{ref:content.competitions.championsLeague}} şampiyonu",
+      "2": "ZAFER GECESİ! {name} ve {team} Avrupa'yı fethetti",
+      "3": "{team} Avrupa şampiyonu oldu"
+    },
+    "europaLeague": {
+      "1": "AVRUPA KULÜPLER KUPASI ZAFERİ! {team} Avrupa kupasını kazandı",
+      "2": "{name} ve {team} {{ref:content.competitions.europaLeague}} zaferini kutluyor",
+      "3": "Avrupa başarısı! {team} {{ref:content.competitions.europaLeague}} kupasını kaldırdı"
+    },
+    "goldenBoot": {
+      "0": "{name} GOL KRALI! Bu sezon {goals} gol",
+      "1": "{name} {goals} golle ALTIN AYAKKABI'yı kazandı",
+      "2": "{name} zirvede bitirdi: {goals} gol"
+    },
+    "leagueChampion": {
+      "0": "ŞAMPİYON! {team} {name} ile ligi kazandı",
+      "1": "Şampiyonluk garanti! {team} ve {name} kutluyor",
+      "2": "Kupa bizim! {team} ulusal şampiyon"
+    },
+    "transfer": {
+      "0": "SON DAKİKA! {name} {newTeam}'in yeni transferi",
+      "1": "RESMİ: {name} {newTeam} ile imzaladı",
+      "2": "{newTeam} {name} transferini duyurdu"
+    },
+    "worldCup": {
+      "0": "{team} DÜNYA ŞAMPİYONU! KUPA BİZİM!",
+      "1": "DÜNYANIN ZİRVESİNDE! {team} {{ref:content.competitions.worldCup}}'nı fethetti",
+      "2": "Maksimum Zafer! {team} {{ref:content.competitions.worldCup}} şampiyonu"
+    },
+    "continentalQualification": {
+      "1": "AVRUPA FUTBOLU! {team} {competition} vizesi aldı",
+      "2": "{name} {team}'in {competition}'a katılmasına yardım etti",
+      "3": "Kıtasal futbol {team}'i bekliyor"
+    },
+    "hatTrick": {
+      "1": "HAT-TRICK KAHRAMANI! {name} üçledi",
+      "2": "{name} {team} galibiyetinde hat-trick yaptı",
+      "3": "Üçleme! {name} üç gol attı"
+    },
+    "firstGoal": {
+      "1": "İLK GOL! {name} profesyonel hesabını açtı",
+      "2": "{name} {team} için ilk kariyer golünü attı",
+      "3": "Başlangıç! {name} ilk golünü kaydetti"
+    },
+    "professionalDebut": {
+      "1": "İLK MAÇ! {name} ilk profesyonel maçına çıktı",
+      "2": "Başlangıç: {name} {team} ile sahne aldı",
+      "3": "{name} uzun zamandır beklenen profesyonel maçına çıktı"
+    },
+    "internationalDebut": {
+      "1": "MİLLİ HEYECAN! {name} {country} formasını giydi",
+      "2": "{name} {country} için ilk kez sahada",
+      "3": "Gurur anı: {name} milli takımda ilk maçına çıktı"
+    },
+    "retirement": {
+      "0": "{name} EMEKLİLİĞİNİ DUYURDU. Her şey için teşekkürler!",
+      "1": "Bir devrin sonu: {name} kramponları asıyor",
+      "2": "Efsanenin vedası: {name} emekli oluyor"
+    },
+    "promotion": {
+      "1": "YÜKSELDİ! {team} {league} ligine çıktı",
+      "2": "{name} ve {team} {league} ligine yükselmeyi başardı",
+      "3": "Kutlamalar! {team} {league} ligine terfi etti"
+    },
+    "relegation": {
+      "0": "TRAJEDİ: {team} {name} kadrodayken küme düştü",
+      "1": "Tarihi düşüş: {team} ikinci lige geriledi",
+      "2": "Üzücü gün: {name}'nin takımı {team} direnemedi ve düştü"
+    }
+  },
+  "newsType": {
+    "assistMilestone": "Asist Dönüm Noktası",
+    "ballonDor": "{{ref:content.awards.ballonDor}}",
+    "championsLeague": "{{ref:content.competitions.championsLeague}}",
+    "cupWinner": "Kupa Galibi",
+    "europaLeague": "{{ref:content.competitions.europaLeague}}",
+    "goldenBoot": "Altın Ayakkabı",
+    "hatTrick": "Hat-Trick",
+    "leagueChampion": "Lig Şampiyonu",
+    "transfer": "Transfer",
+    "worldCup": "{{ref:content.competitions.worldCup}}",
+    "retirement": "Emeklilik",
+    "promotion": "Yükselme",
+    "relegation": "Küme Düşme"
+  }
+}

@@ -54,15 +54,15 @@
     },
     "weeklySalary": "الراتب الأسبوعي",
     "reasons": {
-      "none": "No suitable agents available",
-      "stay": "Decided to stay with current agent",
-      "fallout": "Major fallout with your agent {name} due to career stagnation and poor communication.",
-      "eliteCall": "Elite agent {name} has personally reached out with an offer you can't refuse.",
-      "starAttraction": "As a star at {team}, you've attracted interest from top-tier agents.",
-      "controversy": "Your agent {name} has been involved in a controversy that affects their ability to represent you effectively.",
-      "merger": "Your agency has merged with another firm. You've been reassigned to {name}.",
-      "special": "Special circumstances",
-      "improved": "Improved career prospects with {name} ({style} {specialty})"
+      "none": "لا يوجد وكلاء مناسبون متاحون",
+      "stay": "قررت البقاء مع الوكيل الحالي",
+      "fallout": "خلاف كبير مع وكيلك {name} بسبب ركود المسيرة وضعف التواصل.",
+      "eliteCall": "وكيل النخبة {name} تواصل معك شخصياً بعرض لا يمكنك رفضه.",
+      "starAttraction": "كنجم في {team}، لقد جذبت اهتمام وكلاء من الدرجة الأولى.",
+      "controversy": "تورط وكيلك {name} في جدل يؤثر على قدرته على تمثيلك بفعالية.",
+      "merger": "دمجت وكالتك مع شركة أخرى. تم تعيينك لـ {name}.",
+      "special": "ظروف خاصة",
+      "improved": "آفاق مهنية محسنة مع {name} ({style} {specialty})"
     }
   },
   "assistsShort": "ت",
@@ -95,8 +95,8 @@
     "startCareer": "بدء المسيرة",
     "toClub": "في {team}",
     "welcome": "أهلاً بك",
-    "legalFiller1": "This contract is legally binding and subject to the laws and regulations of the specified football association. The player acknowledges that performance-based incentives are discretionary unless explicitly stated.",
-    "legalFiller2": "Confidentiality clauses apply to all financial terms and internal club matters. Any breach may result in immediate termination without compensation."
+    "legalFiller1": "هذا العقد ملزم قانونياً ويخضع لقوانين ولوائح اتحاد كرة القدم المحدد. يقر اللاعب بأن الحوافز القائمة على الأداء تقديرية ما لم ينص على خلاف ذلك.",
+    "legalFiller2": "تطبق بنود السرية على جميع الشروط المالية وشؤون النادي الداخلية. أي خرق قد يؤدي إلى إنهاء فوري دون تعويض."
   },
   "cleanSheetsShort": "نش",
   "clubsCount": "{n} أندية",
@@ -123,7 +123,7 @@
     "cleanSheets": "نظافة الشباك",
     "cleanSheetsAbbr": "نش",
     "cleanSheetsShort": "نظافة",
-    "close": "Close",
+    "close": "إغلاق",
     "club": "النادي",
     "clubHistory": "تاريخ الأندية",
     "clubsCount": "{n} أندية",
@@ -226,7 +226,7 @@
     "semiFinals": "نصف النهائي",
     "settings": "الإعدادات",
     "shotsAbbr": "تسد",
-    "somethingWentWrong": "حدث خطأ ما. يرجى تبديل علامات التبويب.",
+    "somethingWentWrong": "حدث خطأ ما. حاول التبديل بين التبويبات.",
     "sort": "فرز",
     "squadStatus": "حالة الفريق",
     "squadStatusTitle": "حالة الفريق",
@@ -263,14 +263,25 @@
     "leagueTierCompact": "م{n}",
     "stars": "نجوم",
     "outOf": "من اصل",
-    "disclaimer": "This game is a work of fiction and has no official affiliation, sponsorship, or endorsement from real leagues, clubs, federations, or sports entities. All club names are used for entertainment and simulation purposes only. Names of leagues, competitions, and awards are generic or fictitious. Any resemblances to real organizations are purely coincidental.",
-    "disclaimerTitle": "Legal Disclaimer",
-    "clear": "Clear",
+    "disclaimer": "هذه اللعبة عمل خيالي وليس لها أي انتماء رسمي أو رعاية أو تأييد من الدوريات أو الأندية أو الاتحادات أو الكيانات الرياضية الحقيقية. يتم استخدام جميع أسماء الأندية لأغراض الترفيه والمحاكاة فقط. أسماء الدوريات والمسابقات والجوائز عامة أو خيالية. أي تشابه مع منظمات حقيقية هو محض صدفة.",
+    "disclaimerTitle": "إخلاء مسؤولية قانوني",
+    "clear": "مسح",
     "share": {
-      "title": "Share Your Career",
-      "text": "Check out my football career in My Football Career Sim! I played for {team} and reached {ovr} OVR at age {age}.",
-      "dialogTitle": "Share Career Card"
-    }
+      "title": "شارك مسيرتك",
+      "text": "شاهد مسيرتي الكروية في My Football Career Sim! لعبت لـ {team} ووصلت لتقييم {ovr} في عمر {age}.",
+      "dialogTitle": "مشاركة بطاقة المسيرة"
+    },
+    "pt-BR": "Português (BR)",
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "id": "Bahasa Indonesia",
+    "ja": "日本語",
+    "ko": "한국어",
+    "ru": "Русский",
+    "tr": "Türkçe",
+    "ar": "العربية",
+    "supportProject": "دعم المشروع"
   },
   "commonExtra": {
     "ageYearsShort": "{age} سنة",
@@ -480,10 +491,10 @@
   },
   "playGames": {
     "achievements": "الإنجازات",
-    "androidOnly": "ألعاب جوجل بلاي متاحة فقط على أجهزة أندرويد.",
-    "debugAchievements": "Debug Achievements",
-    "devModeDescription": "ألعاب جوجل بلاي معطلة في إصدارات التطوير. استخدم إصدار الإنتاج للوصول إلى الإنجازات والتصنيفات.",
-    "devModeTitle": "🔧 وضع الاختبار",
+    "androidOnly": "ألعاب جوجل بلاي متاحة فقط على أندرويد.",
+    "debugAchievements": "تصحيح الإنجازات",
+    "devModeDescription": "ألعاب جوجل بلاي معطلة في وضع التطوير.",
+    "devModeTitle": "🔧 وضع التطوير",
     "leaderboards": "لوحات المتصدرين",
     "signIn": "تسجيل الدخول باستخدام جوجل",
     "signedInAs": "تم تسجيل الدخول باسم",
@@ -491,9 +502,9 @@
     "testScoreError": "خطأ في إرسال النتيجة",
     "testScoreFailed": "فشل إرسال النتيجة. تحقق مما إذا كنت قد قمت بتسجيل الدخول.",
     "testScoreSuccess": "تم إرسال نتيجة الاختبار بنجاح! تحقق من التصنيفات في غضون بضع دقائق.",
-    "title": "ألعاب جوجل بلاي",
-    "debugLog": "Achievements Debug Log",
-    "noLogs": "No logs yet. Simulate a season to see achievements logs."
+    "title": "ألعاب Google Play",
+    "debugLog": "سجل تصحيح الإنجازات",
+    "noLogs": "لا توجد سجلات بعد."
   },
   "profile": {
     "accelerationInitial": "التسارع الأولي",
@@ -631,7 +642,7 @@
     "longDiagonal": "قطري طويل",
     "longPassIntercept": "اعتراض تمريرة طويلة",
     "longRangeShots": "تسديدات بعيدة المدى",
-    "mainPosition": "المركز الأساسي",
+    "mainPosition": "المركز الرئيسي",
     "marking": "الرقابة",
     "mediaStar": "نجم إعلامي",
     "minutesSeason": "الدقائق هذا الموسم",
@@ -673,7 +684,7 @@
     "pressureHandling": "التعامل مع الضغط",
     "pressuresPer90": "الضغط/90",
     "pressuresSuccessful": "ضغط ناجح",
-    "primaryPosition": "المركز الأساسي",
+    "primaryPosition": "المركز الرئيسي",
     "primaryStyle": "الأسلوب الأساسي",
     "professionalism": "الاحترافية",
     "progressiveCarries": "حمل الكرة للأمام",
@@ -810,27 +821,27 @@
     "zonalMarking": "رقابة منطقية",
     "naturalAbbr": "NAT",
     "personalityTypes": {
-      "Ambitious": "Ambitious",
-      "Lazy": "Lazy",
-      "Professional": "Professional",
-      "Temperamental": "Temperamental",
-      "Loyal": "Loyal",
-      "Determined": "Determined",
-      "MediaDarling": "Media Darling",
-      "Reserved": "Reserved",
-      "Inconsistent": "Inconsistent"
+      "Ambitious": "طموح",
+      "Lazy": "كسول",
+      "Professional": "محترف",
+      "Temperamental": "متقلب المزاج",
+      "Loyal": "وفي",
+      "Determined": "عازم",
+      "MediaDarling": "محبوب الإعلام",
+      "Reserved": "متحفظ",
+      "Inconsistent": "متقلب المستوى"
     },
-    "archetype": "Archetype",
+    "archetype": "النمط",
     "archetypeTypes": {
-      "GenerationalTalent": "Generational Talent",
-      "Wonderkid": "Wonderkid",
-      "TopProspect": "Top Prospect",
-      "SolidProfessional": "Solid Professional",
-      "TheEngine": "The Engine",
-      "LateBloomer": "Late Bloomer",
-      "TechnicalMaestro": "Technical Maestro",
-      "TargetMan": "Target Man",
-      "Journeyman": "Journeyman"
+      "GenerationalTalent": "موهبة الجيل",
+      "Wonderkid": "الفتى الذهبي",
+      "TopProspect": "مشروع نجم",
+      "SolidProfessional": "محترف صلب",
+      "TheEngine": "المحرك",
+      "LateBloomer": "متأخر النضج",
+      "TechnicalMaestro": "مايسترو تقني",
+      "TargetMan": "المهاجم المحطة",
+      "Journeyman": "رحالة"
     }
   },
   "ratingShort": "تقييم",
@@ -894,6 +905,7 @@
     "language": "اللغة",
     "languageHint": "اختر لغة التطبيق",
     "languages": {
+      "ar": "العربية",
       "en": "English (الإنجليزية)",
       "es": "Español (الإسبانية)",
       "fr": "Français (الفرنسية)",
@@ -955,7 +967,12 @@
     "title_part2": "محاكاة مهنة كرة القدم",
     "version": "الإصدار {version}",
     "weight": "الوزن",
-    "xpBonus": "+{amount}% نقاط خبرة"
+    "xpBonus": "+{amount}% نقاط خبرة",
+    "randomDesc": "دعه للقدر",
+    "stats": "الإحصائيات",
+    "subtitle": "تتبع مسارك الكروي",
+    "surpriseMe": "فاجئني!",
+    "totalCareers": "مسيرة بدأت"
   },
   "shareCard": {
     "assists": "التمريرات الحاسمة",
@@ -1016,78 +1033,78 @@
     "updateNow": "التحديث الآن",
     "whatsNew": "ما الجديد:"
   },
-  "matchesShort": "Mtchs",
-  "pos": "Pos",
-  "trophy": "Trophy",
-  "clubHistory": "Club History",
-  "yrs": "Yrs",
-  "competition": "Competition",
-  "competitionDetails": "Competition Details: {country}",
-  "noDomesticCup": "No Domestic Cup",
-  "noContinental": "No Continental",
-  "noCompetitionData": "No competition data available.",
+  "matchesShort": "مباريات",
+  "pos": "مركز",
+  "trophy": "بطولة",
+  "clubHistory": "تاريخ النادي",
+  "yrs": "سنة",
+  "competition": "مسابقة",
+  "competitionDetails": "تفاصيل المسابقة: {country}",
+  "noDomesticCup": "لا كأس محلية",
+  "noContinental": "لا مسابقة قارية",
+  "noCompetitionData": "لا توجد بيانات للمسابقة.",
   "competitionType": {
-    "League": "League",
-    "Cup": "Cup",
-    "Continental": "Continental"
+    "League": "دوري",
+    "Cup": "كأس",
+    "Continental": "قاري"
   },
   "legend": {
-    "elite": "Elite",
-    "top": "Top",
-    "mid": "Mid",
-    "lower": "Lower"
+    "elite": "نخبة",
+    "top": "قمة",
+    "mid": "وسط",
+    "lower": "أدنى"
   },
   "negotiation": {
-    "clubOffer": "Club Offer",
-    "baseSalary": "Base Salary",
-    "contractLength": "Contract Length",
-    "salaryDemand": "Salary Demand",
-    "imageRights": "Image Rights",
-    "clubKeeps": "Club Keeps",
-    "youKeep": "You Keep",
-    "walkAway": "Walk Away",
-    "dealAccepted": "Deal Accepted!",
-    "clubAgreed": "The club has agreed to your terms.",
-    "imageRightsRetained": "Image Rights Retained",
-    "signContract": "Sign Contract",
-    "counterOffer": "Counter Offer",
-    "clubCountered": "Club Counter Offer",
-    "theirMaxOffer": "This is their maximum offer.",
-    "negotiateMore": "Negotiate More",
-    "dealCollapsed": "Deal Collapsed",
-    "tooGreedy": "The club withdrew their interest due to high demands.",
+    "clubOffer": "عرض النادي",
+    "baseSalary": "الراتب الأساسي",
+    "contractLength": "مدة العقد",
+    "salaryDemand": "الراتب المطلوب",
+    "imageRights": "حقوق الصور",
+    "clubKeeps": "للنادي",
+    "youKeep": "لك",
+    "walkAway": "الانسحاب",
+    "dealAccepted": "تم قبول الصفقة!",
+    "clubAgreed": "وافق النادي على شروطك.",
+    "imageRightsRetained": "الاحتفاظ بحقوق الصور",
+    "signContract": "توقيع العقد",
+    "counterOffer": "عرض مضاد",
+    "clubCountered": "عرض مضاد من النادي",
+    "theirMaxOffer": "هذا هو عرضهم الأقصى.",
+    "negotiateMore": "مواصلة التفاوض",
+    "dealCollapsed": "فشلت الصفقة",
+    "tooGreedy": "سحب النادي اهتمامه بسبب المطالب العالية.",
     "title": "مفاوضات العقد",
     "subtitle": "أمن مستقبلك",
     "round": "جولة",
     "propose": "اقتراح الشروط"
   },
   "social": {
-    "publicComments": "Public Comments",
-    "noComments": "No comments yet.",
-    "reply": "Reply",
-    "pressInterview": "Press Interview",
-    "selectQuestion": "Select a question to answer",
-    "daysAgo": "{count}d ago",
+    "publicComments": "تعليقات عامة",
+    "noComments": "لا توجد تعليقات بعد.",
+    "reply": "رد",
+    "pressInterview": "مقابلة صحفية",
+    "selectQuestion": "اختر سؤالاً للإجابة عليه",
+    "daysAgo": "منذ {count} يوم",
     "comments": {
-      "goodForm": "{name} is in incredible form right now! 🔥",
-      "badForm": "Rough patch for {name}. Needs to step up. 📉",
-      "highOverall": "World class talent. Simply unmatched. 🏆",
-      "lowOverall": "Still has a lot to prove at this level.",
-      "youngTalent": "Only {age}? The future is bright! ✨",
-      "veteranPlayer": "Experience is everything. {age} and still going strong. 🍷",
-      "generalSupport": "Keep fighting for {team}! ❤️",
-      "hoursAgo": "{count}h ago",
-      "daysAgo": "{count}d ago"
+      "goodForm": "{name} في فورمة خيالية حالياً! 🔥",
+      "badForm": "فترة صعبة لـ {name}. يحتاج للتحسن. 📉",
+      "highOverall": "موهبة عالمية. ببساطة لا يضاهى. 🏆",
+      "lowOverall": "لا يزال لديه الكثير ليثبته في هذا المستوى.",
+      "youngTalent": "فقط {age}؟ المستقبل مشرق! ✨",
+      "veteranPlayer": "الخبرة هي كل شيء. {age} ولا يزال قوياً. 🍷",
+      "generalSupport": "استمر في القتال من أجل {team}! ❤️",
+      "hoursAgo": "منذ {count} ساعة",
+      "daysAgo": "منذ {count} يوم"
     }
   },
   "dev": {
-    "duplicatesRemoved": "Removed {count} duplicate events (Dev only)"
+    "duplicatesRemoved": "تمت إزالة {count} أحداث مكررة (للمطورين فقط)"
   },
   "supercopaBrasil": "Supercopa do Brasil",
   "tierMovement": {
-    "relegation": "Tier {from}->{to} relegation imbalance: expected {expected}, found {found}",
-    "promotion": "Tier {from}->{to} promotion imbalance: expected {expected}, found {found}",
-    "movement": "Movement {from}->{to}"
+    "relegation": "اختلال الهبوط من المستوى {from}->{to}: المتوقع {expected}، الموجود {found}",
+    "promotion": "اختلال الصعود من المستوى {from}->{to}: المتوقع {expected}، الموجود {found}",
+    "movement": "الحركة {from}->{to}"
   },
   "patchManager": {
     "title": "تعديلات المجتمع",
@@ -1120,5 +1137,82 @@
     "updateTranslationsHint": "إجبار تنزيل أحدث ملفات اللغة",
     "github": "GitHub",
     "githubHint": "ساهم في الترجمات وأبلغ عن المشاكل"
+  },
+  "continents": {
+    "Africa": "أفريقيا",
+    "Asia": "آسيا",
+    "Europe": "أوروبا",
+    "Australia": "أوقيانوسيا",
+    "North America": "أمريكا الشمالية",
+    "South America": "أمريكا الجنوبية"
+  },
+  "tier": {
+    "BRONZE": "برونزي",
+    "SILVER": "فضي",
+    "GOLD": "ذهبي",
+    "DIAMOND": "ماسي"
+  },
+  "noSpecialTraits": "لا سمات خاصة",
+  "personality": {
+    "Ambitious": "طموح",
+    "Lazy": "كسول",
+    "Professional": "محترف",
+    "Temperamental": "متقلب المزاج",
+    "Loyal": "وفي",
+    "Determined": "عازم",
+    "MediaDarling": "محبوب الإعلام",
+    "Reserved": "متحفظ",
+    "Inconsistent": "متقلب المستوى"
+  },
+  "archetype": {
+    "GenerationalTalent": "موهبة الجيل",
+    "Wonderkid": "الفتى الذهبي",
+    "TopProspect": "مشروع نجم",
+    "SolidProfessional": "محترف صلب",
+    "TheEngine": "المحرك",
+    "LateBloomer": "متأخر النضج",
+    "TechnicalMaestro": "مايسترو تقني",
+    "TargetMan": "المهاجم المحطة",
+    "Journeyman": "رحالة"
+  },
+  "traitStyles": {
+    "Aerial Dominance": "الهيمنة الجوية",
+    "Clinical Finisher": "المُنهي البارع",
+    "Dribbling Wizard": "ساحر المراوغة",
+    "One-Club Man": "رجل النادي الواحد",
+    "Set-piece Specialist": "متخصص الكرات الثابتة",
+    "Tireless Runner": "عداء لا يكل",
+    "Speed Merchant": "خارق السرعة",
+    "Playmaker": "صانع الألعاب",
+    "Shot Stopper": "حارس عملاق",
+    "Penalty Saver": "قاهر ركلات الجزاء",
+    "Big Game Player": "رجل المباريات الكبيرة",
+    "aerialDominance": "الهيمنة الجوية",
+    "clinicalFinisher": "المُنهي البارع",
+    "dribblingWizard": "ساحر المراوغة",
+    "oneClubMan": "رجل النادي الواحد",
+    "setPieceSpecialist": "متخصص الكرات الثابتة",
+    "tirelessRunner": "عداء لا يكل",
+    "speedMerchant": "خارق السرعة",
+    "playmaker": "صانع الألعاب",
+    "shotStopper": "حارس عملاق",
+    "penaltySaver": "قاهر ركلات الجزاء",
+    "bigGamePlayer": "رجل المباريات الكبيرة"
+  },
+  "traits": {
+    "Aerial Dominance": "الهيمنة الجوية",
+    "Clinical Finisher": "المُنهي البارع",
+    "Dribbling Wizard": "ساحر المراوغة",
+    "One-Club Man": "رجل النادي الواحد",
+    "Set-piece Specialist": "متخصص الكرات الثابتة",
+    "Tireless Runner": "عداء لا يكل",
+    "Speed Merchant": "خارق السرعة",
+    "Playmaker": "صانع الألعاب",
+    "Shot Stopper": "حارس عملاق",
+    "Penalty Saver": "قاهر ركلات الجزاء",
+    "Big Game Player": "رجل المباريات الكبيرة"
+  },
+  "reports": {
+    "assistantCoach": "تقرير المساعد"
   }
 }

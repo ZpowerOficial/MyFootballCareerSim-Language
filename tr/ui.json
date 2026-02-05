@@ -54,15 +54,15 @@
     },
     "weeklySalary": "Haftalık Maaş",
     "reasons": {
-      "none": "No suitable agents available",
-      "stay": "Decided to stay with current agent",
-      "fallout": "Major fallout with your agent {name} due to career stagnation and poor communication.",
-      "eliteCall": "Elite agent {name} has personally reached out with an offer you can't refuse.",
-      "starAttraction": "As a star at {team}, you've attracted interest from top-tier agents.",
-      "controversy": "Your agent {name} has been involved in a controversy that affects their ability to represent you effectively.",
-      "merger": "Your agency has merged with another firm. You've been reassigned to {name}.",
-      "special": "Special circumstances",
-      "improved": "Improved career prospects with {name} ({style} {specialty})"
+      "none": "Uygun menajer bulunamadı",
+      "stay": "Mevcut menajerle kalmaya karar verdi",
+      "fallout": "Kariyer durgunluğu ve zayıf iletişim nedeniyle menajerin {name} ile büyük bir anlaşmazlık yaşandı.",
+      "eliteCall": "Elit menajer {name} size reddedemeyeceğiniz kişisel bir teklif sundu.",
+      "starAttraction": "{team} takımının yıldızı olarak üst düzey menajerlerin ilgisini çektiniz.",
+      "controversy": "Menajeriniz {name}, sizi etkili bir şekilde temsil etme yeteneğini etkileyen bir tartışmaya karıştı.",
+      "merger": "Ajansınız başka bir firma ile birleşti. Yeni temsilciniz: {name}.",
+      "special": "Özel durumlar",
+      "improved": "{name} ({style} {specialty}) ile gelişmiş kariyer fırsatları"
     }
   },
   "assistsShort": "A",
@@ -95,8 +95,8 @@
     "startCareer": "Kariyere Başla",
     "toClub": "{team} İLE",
     "welcome": "HOŞ GELDİN",
-    "legalFiller1": "This contract is legally binding and subject to the laws and regulations of the specified football association. The player acknowledges that performance-based incentives are discretionary unless explicitly stated.",
-    "legalFiller2": "Confidentiality clauses apply to all financial terms and internal club matters. Any breach may result in immediate termination without compensation."
+    "legalFiller1": "Bu sözleşme yasal olarak bağlayıcıdır ve belirtilen futbol federasyonu yasalarına tabidir. Oyuncu, performansa dayalı teşviklerin aksi belirtilmedikçe isteğe bağlı olduğunu kabul eder.",
+    "legalFiller2": "Gizlilik maddeleri tüm finansal şartlar ve kulüp içi konular için geçerlidir. Herhangi bir ihlal, tazminatsız derhal fesih ile sonuçlanabilir."
   },
   "cleanSheetsShort": "CS",
   "clubsCount": "{n} kulüp",
@@ -263,14 +263,25 @@
     "leagueTierCompact": "T{n}",
     "stars": "yıldız",
     "outOf": "üzerinden",
-    "disclaimer": "This game is a work of fiction and has no official affiliation, sponsorship, or endorsement from real leagues, clubs, federations, or sports entities. All club names are used for entertainment and simulation purposes only. Names of leagues, competitions, and awards are generic or fictitious. Any resemblances to real organizations are purely coincidental.",
-    "disclaimerTitle": "Legal Disclaimer",
-    "clear": "Clear",
+    "disclaimer": "Bu oyun bir kurgudur ve gerçek ligler, kulüpler, federasyonlar veya spor kuruluşlarıyla resmi bir bağlantısı, sponsorluğu veya onayı yoktur. Tüm kulüp isimleri yalnızca eğlence ve simülasyon amaçlıdır. Lig, turnuva ve ödül isimleri genel veya kurgusaldır. Gerçek kuruluşlarla olan benzerlikler tamamen tesadüfidir.",
+    "disclaimerTitle": "Yasal Uyarı",
+    "clear": "Temizle",
     "share": {
-      "title": "Share Your Career",
-      "text": "Check out my football career in My Football Career Sim! I played for {team} and reached {ovr} OVR at age {age}.",
-      "dialogTitle": "Share Career Card"
-    }
+      "title": "Kariyerini Paylaş",
+      "text": "My Football Career Sim'deki futbol kariyerime göz at! {team} takımında oynadım ve {age} yaşında {ovr} GEN reytinge ulaştım.",
+      "dialogTitle": "Kariyer Kartını Paylaş"
+    },
+    "pt-BR": "Português (BR)",
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "id": "Bahasa Indonesia",
+    "ja": "日本語",
+    "ko": "한국어",
+    "ru": "Русский",
+    "tr": "Türkçe",
+    "ar": "العربية",
+    "supportProject": "Projeyi Destekle"
   },
   "commonExtra": {
     "ageYearsShort": "{age} yaşında",
@@ -481,7 +492,7 @@
   "playGames": {
     "achievements": "Başarılar",
     "androidOnly": "Google Play Games yalnızca Android cihazlarda kullanılabilir.",
-    "debugAchievements": "Debug Achievements",
+    "debugAchievements": "Başarımları Hata Ayıkla",
     "devModeDescription": "Google Play Oyunlar geliştirme sürümlerinde devre dışıdır. Başarımlara ve sıralamalara erişmek için üretim sürümünü kullanın.",
     "devModeTitle": "🔧 Test Modu",
     "leaderboards": "Sıralama Tabloları",
@@ -492,8 +503,8 @@
     "testScoreFailed": "Skor gönderilemedi. Giriş yapıp yapmadığınızı kontrol edin.",
     "testScoreSuccess": "Test skoru başarıyla gönderildi! Birkaç dakika içinde sıralamayı kontrol edin.",
     "title": "Google Play Oyunlar",
-    "debugLog": "Achievements Debug Log",
-    "noLogs": "No logs yet. Simulate a season to see achievements logs."
+    "debugLog": "Başarım Hata Günlüğü",
+    "noLogs": "Henüz kayıt yok. Başarım günlüklerini görmek için bir sezon simüle edin."
   },
   "profile": {
     "accelerationInitial": "Başlangıç İvmesi",
@@ -805,32 +816,34 @@
     "weakFoot": "Zayıf Ayak",
     "weight": "Kilo",
     "workRate": "Çalışma Oranı",
+    "weightLoss": "Kilo kaybı",
+    "bodyTypeChange": "Vücut tipi değişti",
     "yellowCards": "Sarı Kartlar",
     "youthNoStats": "Kariyer istatistikleri yalnızca profesyonel oyuncular için mevcuttur",
     "zonalMarking": "Bölgesel Markaj",
     "naturalAbbr": "NAT",
     "personalityTypes": {
-      "Ambitious": "Ambitious",
-      "Lazy": "Lazy",
-      "Professional": "Professional",
-      "Temperamental": "Temperamental",
-      "Loyal": "Loyal",
-      "Determined": "Determined",
-      "MediaDarling": "Media Darling",
-      "Reserved": "Reserved",
-      "Inconsistent": "Inconsistent"
+      "Ambitious": "Hırslı",
+      "Lazy": "Tembel",
+      "Professional": "Profesyonel",
+      "Temperamental": "Hırçın",
+      "Loyal": "Sadık",
+      "Determined": "Kararlı",
+      "MediaDarling": "Medya İkonu",
+      "Reserved": "Çekingen",
+      "Inconsistent": "İstikrarsız"
     },
-    "archetype": "Archetype",
+    "archetype": "Arketip",
     "archetypeTypes": {
-      "GenerationalTalent": "Generational Talent",
-      "Wonderkid": "Wonderkid",
-      "TopProspect": "Top Prospect",
-      "SolidProfessional": "Solid Professional",
-      "TheEngine": "The Engine",
-      "LateBloomer": "Late Bloomer",
-      "TechnicalMaestro": "Technical Maestro",
-      "TargetMan": "Target Man",
-      "Journeyman": "Journeyman"
+      "GenerationalTalent": "Jenerasyonluk Yetenek",
+      "Wonderkid": "Harika Çocuk",
+      "TopProspect": "En İyi Aday",
+      "SolidProfessional": "Sağlam Profesyonel",
+      "TheEngine": "Dinamo",
+      "LateBloomer": "Geç Açılan",
+      "TechnicalMaestro": "Teknik Maestro",
+      "TargetMan": "Hedef Adam",
+      "Journeyman": "Gezgin"
     }
   },
   "ratingShort": "RTG",
@@ -955,7 +968,12 @@
     "title_part2": "Futbol Kariyer Simülasyonu",
     "version": "Sürüm {version}",
     "weight": "Kilo",
-    "xpBonus": "+%{amount} TP"
+    "xpBonus": "+%{amount} TP",
+    "randomDesc": "Bırak kader karar versin",
+    "stats": "İstatistikler",
+    "subtitle": "Futbol yolculuğunu takip et",
+    "surpriseMe": "Beni Şaşırt!",
+    "totalCareers": "başlatılan kariyer"
   },
   "shareCard": {
     "assists": "Asistler",
@@ -1085,9 +1103,9 @@
     "duplicatesRemoved": "Removed {count} duplicate events (Dev only)"
   },
   "tierMovement": {
-    "relegation": "Tier {from}->{to} relegation imbalance: expected {expected}, found {found}",
-    "promotion": "Tier {from}->{to} promotion imbalance: expected {expected}, found {found}",
-    "movement": "Movement {from}->{to}"
+    "relegation": "Kademe {from}->{to} küme düşme dengesizliği: beklenen {expected}, bulunan {found}",
+    "promotion": "Kademe {from}->{to} yükselme dengesizliği: beklenen {expected}, bulunan {found}",
+    "movement": "Hareket {from}->{to}"
   },
   "patchManager": {
     "title": "Topluluk Yamaları",
@@ -1120,5 +1138,82 @@
     "updateTranslationsHint": "En son dil dosyalarını zorla indir",
     "github": "GitHub",
     "githubHint": "Çevirilere katkıda bulunun ve sorunları bildirin"
+  },
+  "continents": {
+    "Africa": "Afrika",
+    "Asia": "Asya",
+    "Europe": "Avrupa",
+    "Australia": "Okyanusya",
+    "North America": "Kuzey Amerika",
+    "South America": "Güney Amerika"
+  },
+  "tier": {
+    "BRONZE": "Bronz",
+    "SILVER": "Gümüş",
+    "GOLD": "Altın",
+    "DIAMOND": "Elmas"
+  },
+  "noSpecialTraits": "Özel yetenek yok",
+  "personality": {
+    "Ambitious": "Hırslı",
+    "Lazy": "Tembel",
+    "Professional": "Profesyonel",
+    "Temperamental": "Hırçın",
+    "Loyal": "Sadık",
+    "Determined": "Kararlı",
+    "MediaDarling": "Medya İkonu",
+    "Reserved": "Çekingen",
+    "Inconsistent": "İstikrarsız"
+  },
+  "archetype": {
+    "GenerationalTalent": "Jenerasyonluk Yetenek",
+    "Wonderkid": "Harika Çocuk",
+    "TopProspect": "En İyi Aday",
+    "SolidProfessional": "Sağlam Profesyonel",
+    "TheEngine": "Dinamo",
+    "LateBloomer": "Geç Açılan",
+    "TechnicalMaestro": "Teknik Maestro",
+    "TargetMan": "Hedef Adam",
+    "Journeyman": "Gezgin"
+  },
+  "traitStyles": {
+    "Aerial Dominance": "Hava Hakimiyeti",
+    "Clinical Finisher": "Usta Bitirici",
+    "Dribbling Wizard": "Çalım Sihirbazı",
+    "One-Club Man": "Tek Kulüp Adamı",
+    "Set-piece Specialist": "Duran Top Uzmanı",
+    "Tireless Runner": "Yorulmaz Koşucu",
+    "Speed Merchant": "Sürat Ustası",
+    "Playmaker": "Oyun Kurucu",
+    "Shot Stopper": "Şut Kurtarıcı",
+    "Penalty Saver": "Penaltı Canavarı",
+    "Big Game Player": "Büyük Maç Oyuncusu",
+    "aerialDominance": "Hava Hakimiyeti",
+    "clinicalFinisher": "Usta Bitirici",
+    "dribblingWizard": "Çalım Sihirbazı",
+    "oneClubMan": "Tek Kulüp Adamı",
+    "setPieceSpecialist": "Duran Top Uzmanı",
+    "tirelessRunner": "Yorulmaz Koşucu",
+    "speedMerchant": "Sürat Ustası",
+    "playmaker": "Oyun Kurucu",
+    "shotStopper": "Şut Kurtarıcı",
+    "penaltySaver": "Penaltı Canavarı",
+    "bigGamePlayer": "Büyük Maç Oyuncusu"
+  },
+  "traits": {
+    "Aerial Dominance": "Hava Hakimiyeti",
+    "Clinical Finisher": "Usta Bitirici",
+    "Dribbling Wizard": "Çalım Sihirbazı",
+    "One-Club Man": "Tek Kulüp Adamı",
+    "Set-piece Specialist": "Duran Top Uzmanı",
+    "Tireless Runner": "Yorulmaz Koşucu",
+    "Speed Merchant": "Sürat Ustası",
+    "Playmaker": "Oyun Kurucu",
+    "Shot Stopper": "Şut Kurtarıcı",
+    "Penalty Saver": "Penaltı Canavarı",
+    "Big Game Player": "Büyük Maç Oyuncusu"
+  },
+  "reports": {
+    "assistantCoach": "Yardımcı Antrenör Raporu"
   }
 }

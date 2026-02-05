@@ -61,8 +61,8 @@
       "starAttraction": "As a star at {team}, you've attracted interest from top-tier agents.",
       "controversy": "Your agent {name} has been involved in a controversy that affects their ability to represent you effectively.",
       "merger": "Your agency has merged with another firm. You've been reassigned to {name}.",
-      "special": "Special circumstances",
-      "improved": "Improved career prospects with {name} ({style} {specialty})"
+      "improved": "Improved career prospects with {name} ({style} {specialty})",
+      "special": "Special circumstances"
     }
   },
   "assistsShort": "A",
@@ -100,6 +100,18 @@
   },
   "cleanSheetsShort": "PI",
   "clubsCount": "{n} clubes",
+  "donation": {
+    "supportProject": "Apoya el proyecto",
+    "title": "Apoya el proyecto",
+    "description": "¡Tu contribución ayuda a mantener este proyecto gratuito y siempre actualizado!",
+    "benefit1": "Nuevas características",
+    "benefit2": "Corrección de errores",
+    "benefit3": "El juego sigue siendo gratuito",
+    "benefit4": "mi eterna gratitud",
+    "donate": "hacer una donación",
+    "notNow": "no quiero ayudar",
+    "securePayment": "Pago seguro a través de Stripe"
+  },
   "common": {
     "accept": "Aceptar",
     "actions": "Comportamiento",
@@ -113,6 +125,7 @@
     "assistsShort": "A",
     "attacker": "Delantero",
     "average": "Media",
+    "away": "V",
     "back": "Atrás",
     "base": "Base",
     "best": "Mejor",
@@ -197,6 +210,17 @@
     "noRecentMatches": "No hay partidos recientes",
     "none": "Ninguno",
     "ok": "OK",
+    "pt-BR": "Português (BR)",
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "id": "Bahasa Indonesia",
+    "ja": "日本語",
+    "ko": "한국어",
+    "ru": "Русский",
+    "tr": "Türkçe",
+    "ar": "العربية",
+    "supportProject": "Apoyar Proyecto",
     "ordinal": {
       "fallback": "{n}º"
     },
@@ -252,7 +276,6 @@
     "yes": "Sí",
     "youth": "Juvenil",
     "yrs": "años",
-    "away": "V",
     "extraTime": "prór.",
     "home": "L",
     "penalties": "pen",
@@ -261,17 +284,32 @@
     "survived": "Salvado",
     "relegated": "Descendió",
     "leagueTierCompact": "T{n}",
+    "share": {
+      "title": "Compartir Carrera",
+      "text": "¡Mira mi carrera en My Football Career Sim! Jugué para {team} y alcancé {ovr} de media a los {age} años.",
+      "dialogTitle": "Compartir Tarjeta"
+    },
     "stars": "estrellas",
     "outOf": "de",
-    "disclaimer": "This game is a work of fiction and has no official affiliation, sponsorship, or endorsement from real leagues, clubs, federations, or sports entities. All club names are used for entertainment and simulation purposes only. Names of leagues, competitions, and awards are generic or fictitious. Any resemblances to real organizations are purely coincidental.",
-    "disclaimerTitle": "Legal Disclaimer",
-    "clear": "Clear",
-    "share": {
-      "title": "Share Your Career",
-      "text": "Check out my football career in My Football Career Sim! I played for {team} and reached {ovr} OVR at age {age}.",
-      "dialogTitle": "Share Career Card"
-    }
+    "disclaimer": "Este juego es una obra de ficción y no tiene afiliación oficial, patrocinio o respaldo de ligas, clubes, federaciones o entidades deportivas reales. Todos los nombres de clubes se utilizan solo con fines de entretenimiento y simulación. Los nombres de ligas, competiciones y premios son genéricos o ficticios. Cualquier parecido con organizaciones reales es pura coincidencia.",
+    "disclaimerTitle": "Aviso Legal",
+    "clear": "Limpiar"
   },
+  "continents": {
+    "Africa": "África",
+    "Asia": "Asia",
+    "Europe": "Europa",
+    "Australia": "Oceanía",
+    "North America": "Norteamérica",
+    "South America": "Sudamérica"
+  },
+  "tier": {
+    "BRONZE": "Bronce",
+    "SILVER": "Plata",
+    "GOLD": "Oro",
+    "DIAMOND": "Diamante"
+  },
+  "noSpecialTraits": "Sin rasgos especiales",
   "commonExtra": {
     "ageYearsShort": "{age} años",
     "timeMany": "{count} veces",
@@ -296,6 +334,7 @@
     "contract": "Contrato",
     "contribution": "Contribución",
     "csRatio": "Ratio PI",
+    "current": "Current",
     "form": "Forma",
     "goals": "Goles",
     "goalsPerGame": "Goles/Partido",
@@ -348,20 +387,7 @@
     "viewFullHonors": "Ver todos los títulos en",
     "viewOffers": "Nuevos capítulos",
     "wage": "Salario",
-    "current": "Current",
     "birthYear": "Año de nacimiento: {year}"
-  },
-  "donation": {
-    "benefit1": "Nuevas características",
-    "benefit2": "Corrección de errores",
-    "benefit3": "El juego sigue siendo gratuito",
-    "benefit4": "mi eterna gratitud",
-    "description": "¡Tu contribución ayuda a mantener este proyecto gratuito y siempre actualizado!",
-    "donate": "hacer una donación",
-    "notNow": "no quiero ayudar",
-    "securePayment": "Pago seguro a través de Stripe",
-    "supportProject": "Apoya el proyecto",
-    "title": "Apoya el proyecto"
   },
   "goalsShort": "G",
   "journey": {
@@ -470,8 +496,8 @@
     "youthPromotion": "Ascenso del Juvenil"
   },
   "pauseMenu": {
-    "confirmMainMenu": "�Estás seguro de que quieres volver al menú principal? Se perderá el progreso no guardado.",
-    "confirmNewCareer": "�Estás seguro de que quieres empezar una nueva carrera? Se perderá el progreso no guardado.",
+    "confirmMainMenu": "¿Estás seguro de que quieres volver al menú principal? Se perderá el progreso no guardado.",
+    "confirmNewCareer": "¿Estás seguro de que quieres empezar una nueva carrera? Se perderá el progreso no guardado.",
     "leaderboard": "Tabla de clasificación",
     "mainMenu": "Menú principal",
     "newCareer": "Nueva carrera",
@@ -656,7 +682,8 @@
     "penaltiesWon": "Penaltis provocados",
     "penaltySaving": "Parada de penaltis",
     "performance": "Rendimiento",
-    "personality": "Personalidad",
+    "archetype": "Archetype",
+    "traits": "Rasgos",
     "physicalProfile": "Perfil físico",
     "physicalRobustness": "Robustez física",
     "physicalStats": "Estadísticas físicas",
@@ -793,11 +820,9 @@
     "totalTouches": "Toques totales",
     "touchesInBox": "Toques en el área",
     "trackingRuns": "Seguimiento de marcas",
-    "traits": "Rasgos",
     "trapping": "Control",
     "underPressure": "Bajo presión",
     "upperBody": "Tren superior",
-    "value": "Valor",
     "verticalPass": "Pase vertical",
     "vision": "Visión",
     "volleys": "Voleas",
@@ -810,29 +835,92 @@
     "youthNoStats": "Las estadísticas solo están disponibles para profesionales.",
     "zonalMarking": "Marcaje en zona",
     "naturalAbbr": "NAT",
+    "personality": "Personalidad",
+    "value": "Valor",
     "personalityTypes": {
-      "Ambitious": "Ambitious",
-      "Lazy": "Lazy",
-      "Professional": "Professional",
+      "Ambitious": "Ambicioso",
+      "Lazy": "Vago",
+      "Professional": "Profesional",
       "Temperamental": "Temperamental",
-      "Loyal": "Loyal",
-      "Determined": "Determined",
-      "MediaDarling": "Media Darling",
-      "Reserved": "Reserved",
-      "Inconsistent": "Inconsistent"
+      "Loyal": "Leal",
+      "Determined": "Determinado",
+      "MediaDarling": "Favorito de los Medios",
+      "Reserved": "Reservado",
+      "Inconsistent": "Inconsistente"
     },
-    "archetype": "Archetype",
     "archetypeTypes": {
-      "GenerationalTalent": "Generational Talent",
-      "Wonderkid": "Wonderkid",
-      "TopProspect": "Top Prospect",
-      "SolidProfessional": "Solid Professional",
-      "TheEngine": "The Engine",
-      "LateBloomer": "Late Bloomer",
-      "TechnicalMaestro": "Technical Maestro",
-      "TargetMan": "Target Man",
-      "Journeyman": "Journeyman"
+      "GenerationalTalent": "Talento Generacional",
+      "Wonderkid": "Niño Prodigio",
+      "TopProspect": "Gran Promesa",
+      "SolidProfessional": "Profesional Sólido",
+      "TheEngine": "El Motor",
+      "LateBloomer": "Floración Tardía",
+      "TechnicalMaestro": "Maestro Técnico",
+      "TargetMan": "Hombre Objetivo",
+      "Journeyman": "Jornalero"
     }
+  },
+  "personality": {
+    "Ambitious": "Ambicioso",
+    "Lazy": "Perezoso",
+    "Professional": "Profesional",
+    "Temperamental": "Temperamental",
+    "Loyal": "Leal",
+    "Determined": "Determinado",
+    "MediaDarling": "Favorito de los Medios",
+    "Reserved": "Reservado",
+    "Inconsistent": "Inconsistente"
+  },
+  "archetype": {
+    "GenerationalTalent": "Talento Generacional",
+    "Wonderkid": "Niño Prodigio",
+    "TopProspect": "Gran Promesa",
+    "SolidProfessional": "Profesional Sólido",
+    "TheEngine": "El Motor",
+    "LateBloomer": "Floración Tardía",
+    "TechnicalMaestro": "Maestro Técnico",
+    "TargetMan": "Hombre Objetivo",
+    "Journeyman": "Jornalero"
+  },
+  "traitStyles": {
+    "Aerial Dominance": "Dominio Aéreo",
+    "Clinical Finisher": "Rematador Clínico",
+    "Dribbling Wizard": "Mago del Regate",
+    "One-Club Man": "Hombre de un Club",
+    "Set-piece Specialist": "Especialista a Balón Parado",
+    "Tireless Runner": "Corredor Incansable",
+    "Speed Merchant": "Velocista",
+    "Playmaker": "Organizador",
+    "Shot Stopper": "Paralotodo",
+    "Penalty Saver": "Parapenaltis",
+    "Big Game Player": "Jugador de Grandes Partidos",
+    "aerialDominance": "Dominio Aéreo",
+    "clinicalFinisher": "Rematador Clínico",
+    "dribblingWizard": "Mago del Regate",
+    "oneClubMan": "Hombre de un Club",
+    "setPieceSpecialist": "Especialista a Balón Parado",
+    "tirelessRunner": "Corredor Incansable",
+    "speedMerchant": "Velocista",
+    "playmaker": "Organizador",
+    "shotStopper": "Paralotodo",
+    "penaltySaver": "Parapenaltis",
+    "bigGamePlayer": "Jugador de Grandes Partidos"
+  },
+  "traits": {
+    "Aerial Dominance": "Dominio Aéreo",
+    "Clinical Finisher": "Rematador Clínico",
+    "Dribbling Wizard": "Mago del Regate",
+    "One-Club Man": "Hombre de un Club",
+    "Set-piece Specialist": "Especialista Balón Parado",
+    "Tireless Runner": "Corredor Incansable",
+    "Speed Merchant": "Velocista",
+    "Playmaker": "Creador de Juego",
+    "Shot Stopper": "Parador",
+    "Penalty Saver": "Para-penaltis",
+    "Big Game Player": "Jugador de Grandes Partidos"
+  },
+  "reports": {
+    "assistantCoach": "Informe del Adjunto"
   },
   "ratingShort": "PUNT",
   "seasonModal": {
@@ -924,6 +1012,26 @@
     "preferredFoot": "Pierna preferida",
     "random": "Aleatorio",
     "randomCareer": "Carrera aleatoria",
+    "randomDesc": "Deja que el destino decida",
+    "stats": "Estadísticas",
+    "subtitle": "Traza tu camino en el fútbol",
+    "surpriseMe": "¡Sorpréndeme!",
+    "title": "Configuración del Jugador",
+    "totalCareers": "carreras iniciadas",
+    "title_part1": "My Football Career Sim",
+    "title_part2": "Simulador de Fútbol",
+    "version": "Versión {version}",
+    "weight": "Peso",
+    "xpBonus": "+{amount}% XP",
+    "settings": "Ajustes",
+    "settingsSubtitle": "Personaliza tu experiencia de juego",
+    "theme": "Tema",
+    "themeOptions": {
+      "classic": "Clásico",
+      "dark": "Oscuro",
+      "light": "Claro",
+      "football": "Fútbol"
+    },
     "randomCountry": "🎲 Aleatorio",
     "randomFoot": "Pierna aleatoria",
     "randomName": "Nombre aleatorio",
@@ -936,27 +1044,12 @@
     "selectLeague": "Seleccionar Liga",
     "selectNationality": "Seleccionar Nacionalidad",
     "selectPosition": "Seleccionar Posición",
-    "settings": "Ajustes",
-    "settingsSubtitle": "Personaliza tu experiencia de juego",
     "start": "Empezar",
     "startCareer": "Iniciar carrera",
     "startingAge": "Edad inicial",
     "startingContinent": "Continente inicial",
     "tacticalDescription": "Controla cada decisión, negocia contratos y reacciona a eventos",
-    "tacticalMode": "Modo Táctico",
-    "theme": "Tema",
-    "themeOptions": {
-      "classic": "Clásico",
-      "dark": "Oscuro",
-      "football": "Fútbol",
-      "light": "Claro"
-    },
-    "title": "Configuración del Jugador",
-    "title_part1": "My Football Career Sim",
-    "title_part2": "Simulador de Fútbol",
-    "version": "Versión {version}",
-    "weight": "Peso",
-    "xpBonus": "+{amount}% XP"
+    "tacticalMode": "Modo Táctico"
   },
   "shareCard": {
     "assists": "Asistencias",
@@ -1017,28 +1110,11 @@
     "updateNow": "Actualizar Ahora",
     "whatsNew": "Novedades:"
   },
-  "matchesShort": "Part",
-  "pos": "Pos",
-  "trophy": "Trofeo",
-  "clubHistory": "Historial de Clubes",
-  "yrs": "Años",
-  "competition": "Competición",
-  "competitionDetails": "Detalles de la Competición: {country}",
-  "noDomesticCup": "Sin Copa Nacional",
-  "noContinental": "Sin Competición Continental",
-  "noCompetitionData": "No hay datos de competición disponibles.",
-  "competitionType": {
-    "League": "Liga",
-    "Cup": "Copa",
-    "Continental": "Continental"
-  },
-  "legend": {
-    "elite": "Élite",
-    "top": "Superior",
-    "mid": "Medio",
-    "lower": "Inferior"
-  },
   "negotiation": {
+    "title": "Negociación de Contrato",
+    "subtitle": "Asegura tu futuro",
+    "round": "Ronda",
+    "propose": "Proponer Términos",
     "clubOffer": "Propuesta del Club",
     "baseSalary": "Salario Base",
     "contractLength": "Duración del Contrato",
@@ -1056,32 +1132,46 @@
     "theirMaxOffer": "Esta es su oferta máxima.",
     "negotiateMore": "Negociar Más",
     "dealCollapsed": "Negociación Fallida",
-    "tooGreedy": "El club retiró su interés debido a las altas demandas.",
-    "title": "Negociación de Contrato",
-    "subtitle": "Asegura tu futuro",
-    "round": "Ronda",
-    "propose": "Proponer Términos"
+    "tooGreedy": "El club retiró su interés debido a las altas demandas."
   },
   "social": {
-    "publicComments": "Comentarios del Público",
-    "noComments": "Sin comentarios aún.",
-    "reply": "Responder",
-    "pressInterview": "Rueda de Prensa",
-    "selectQuestion": "Selecciona una pregunta para responder",
-    "daysAgo": "hace {count}d",
     "comments": {
-      "goodForm": "¡{name} está en una forma increíble! 🔥",
-      "badForm": "Mala racha para {name}. Necesita mejorar. 📉",
       "highOverall": "Talento de clase mundial. Simplemente inigualable. 🏆",
       "lowOverall": "Aún tiene mucho que demostrar en este nivel.",
+      "goodForm": "¡{name} está en una forma increíble! 🔥",
+      "badForm": "Mala racha para {name}. Necesita mejorar. 📉",
       "youngTalent": "¿Solo {age}? ¡El futuro es brillante! ✨",
       "veteranPlayer": "La experiencia lo es todo. {age} y sigue fuerte. 🍷",
       "generalSupport": "¡Sigue luchando por el {team}! ❤️",
       "hoursAgo": "hace {count}h",
       "daysAgo": "hace {count}d"
-    }
+    },
+    "publicComments": "Comentarios del Público",
+    "noComments": "Sin comentarios aún.",
+    "reply": "Responder",
+    "pressInterview": "Rueda de Prensa",
+    "selectQuestion": "Selecciona una pregunta para responder",
+    "daysAgo": "hace {count}d"
   },
-  "supercopaBrasil": "Supercopa de Brasil",
+  "matchesShort": "Part",
+  "trophy": "Trofeo",
+  "clubHistory": "Historial de Clubes",
+  "competition": "Competición",
+  "competitionDetails": "Detalles de la Competición: {country}",
+  "noDomesticCup": "Sin Copa Nacional",
+  "noContinental": "Sin Competición Continental",
+  "noCompetitionData": "No hay datos de competición disponibles.",
+  "competitionType": {
+    "League": "Liga",
+    "Cup": "Copa",
+    "Continental": "Continental"
+  },
+  "legend": {
+    "elite": "Élite",
+    "top": "Superior",
+    "mid": "Medio",
+    "lower": "Inferior"
+  },
   "dev": {
     "duplicatesRemoved": "Removed {count} duplicate events (Dev only)"
   },
@@ -1121,5 +1211,8 @@
     "updateTranslationsHint": "Forzar descarga de archivos de idioma más recientes",
     "github": "GitHub",
     "githubHint": "Contribuye traducciones y reporta problemas"
-  }
+  },
+  "pos": "Pos",
+  "yrs": "Años",
+  "supercopaBrasil": "Supercopa de Brasil"
 }

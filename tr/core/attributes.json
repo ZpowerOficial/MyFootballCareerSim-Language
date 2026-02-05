@@ -1,0 +1,296 @@
+{
+  "attributes": {
+    "abbr": {
+      "AGI": "ÇVK",
+      "DEF": "DEF",
+      "DIV": "UÇŞ",
+      "DRI": "DRİ",
+      "FIN": "BTR",
+      "HAN": "ELB",
+      "HEA": "KFA",
+      "INT": "MSM",
+      "PAC": "HIZ",
+      "PAS": "PAS",
+      "PHY": "FİZ",
+      "POS": "YRL",
+      "REF": "REF",
+      "SHO": "ŞUT",
+      "STA": "DYK",
+      "STR": "GÜÇ",
+      "VIS": "GRŞ"
+    },
+    "acceleration": "Hızlanma",
+    "aerialControl": "Hava Kontrolü",
+    "age": "Yaş",
+    "aggression": "Agresiflik",
+    "agility": "Çeviklik",
+    "attacking": "Hücum",
+    "attributeEvolution": "Nitelik Gelişimi",
+    "balance": "Denge",
+    "ballControl": "Top Kontrolü",
+    "composure": "Soğukkanlılık",
+    "crossing": "Orta Yapma",
+    "currentAge": "Mevcut Yaş",
+    "currentOvr": "Mevcut GEN",
+    "curve": "Falso",
+    "defending": "Defans",
+    "dribbling": "Top Sürme",
+    "finishing": "Bitiricilik",
+    "flair": "Yetenek",
+    "foot": {
+      "left": "Sol",
+      "right": "Sağ"
+    },
+    "footedness": "Ayak Kullanımı",
+    "freeKick": "Serbest Vuruş İsabeti",
+    "gkDiving": "KL Plonjon",
+    "gkHandling": "KL Elle Kontrol",
+    "gkKicking": "KL Degaj",
+    "gkPositioning": "KL Yer Tutma",
+    "gkReflexes": "KL Refleksler",
+    "goalkeeping": "Kalecilik",
+    "growth": "Gelişim",
+    "heading": "Kafa İsabeti",
+    "interceptions": "Müdahaleler",
+    "jumping": "Zıplama",
+    "keyAttribute": "Ana Nitelik",
+    "leadership": "Liderlik",
+    "leftFinishing": "Bitiricilik (Sol)",
+    "legend": "Efsane",
+    "longPassing": "Uzun Pas",
+    "longShots": "Uzaktan Şut",
+    "marking": "Markaj",
+    "mental": "Zihinsel",
+    "mentalAttributes": "Zihinsel Nitelikler",
+    "overall": "Genel Yetenek",
+    "overallEvolution": "Genel Gelişim",
+    "pace": "Hız",
+    "passing": "Pas Verme",
+    "peakAge": "Zirve Yaş",
+    "peakOvr": "Zirve GEN",
+    "penalties": "Penaltı",
+    "physical": "Fiziksel",
+    "physicalAttributes": "Fiziksel Nitelikler",
+    "positioning": "Pozisyon Alma",
+    "preferredFoot": "Tercih Edilen Ayak",
+    "ratingColors": "Derece Renkleri",
+    "reactions": "Reaksiyonlar",
+    "rightFinishing": "Bitiricilik (Sağ)",
+    "shooting": "Şut Çekme",
+    "shortPassing": "Kısa Pas",
+    "shotPower": "Şut Gücü",
+    "slidingTackle": "Kayarak Müdahale",
+    "sprintSpeed": "Depar Hızı",
+    "stamina": "Dayanıklılık",
+    "standingTackle": "Ayakta Müdahale",
+    "strength": "Güç",
+    "technical": "Teknik",
+    "technicalAttributes": "Teknik Nitelikler",
+    "vision": "Oyun Görüşü",
+    "volleys": "Voleler",
+    "weakFoot": "Zayıf Ayak",
+    "workRate": "Çalışma Oranı"
+  },
+  "characteristic": {
+    "Aerial Specialist": "Hava Topu Uzmanı",
+    "Big Game Player": "Büyük Maç Oyuncusu",
+    "Clinical Finisher": "Usta Bitirici",
+    "Dribbling Wizard": "Top Sürme Sihirbazı",
+    "Engine": "Bitmek Bilmeyen Enerji",
+    "Leader": "Lider",
+    "Playmaker": "Oyun Kurucu",
+    "Speed Demon": "Hız Canavarı"
+  },
+  "expandedAttributes": {
+    "agility": {
+      "coordination": "Koordinasyon",
+      "flexibility": "Esneklik",
+      "lateralAgility": "Yanal Çeviklik",
+      "reactionTime": "Reaksiyon Süresi"
+    },
+    "ballControl": {
+      "aerialControl": "Hava Kontrolü",
+      "firstTouchOrientated": "Yönlü İlk Dokunuş",
+      "firstTouchUnderPressure": "Baskı Altında İlk Dokunuş",
+      "shielding": "Topu Saklama",
+      "trapping": "Topu Durdurma"
+    },
+    "commanding": {
+      "aerialReach": "Hava Hakimiyeti",
+      "claimingCrosses": "Ortaları Karşılama",
+      "commandOfArea": "Ceza Sahası Hakimiyeti",
+      "communication": "İletişim",
+      "punching": "Yumruklama"
+    },
+    "defending": {
+      "slidingTiming": "Kayarak Müdahale Zamanlaması",
+      "standingTiming": "Ayakta Müdahale Zamanlaması"
+    },
+    "defensivePositioning": {
+      "backtracking": "Geri Koşu",
+      "covering": "Kademe Alma",
+      "defensiveAwareness": "Defansif Farkındalık",
+      "jockeying": "Gölge Markajı",
+      "positionRecovery": "Pozisyonu Geri Kazanma"
+    },
+    "distribution": {
+      "goalKicks": "Kale Vuruşları",
+      "kicking": "Vuruş Gücü",
+      "passingLong": "Uzun Pas (KL)",
+      "passingShort": "Kısa Pas (KL)",
+      "throwing": "Elle Oyun"
+    },
+    "dribbling": {
+      "closeControlDribbling": "Yakın Kontrol Top Sürme",
+      "congestedSpaceDribbling": "Dar Alanda Top Sürme",
+      "directionChange": "Yön Değiştirme",
+      "flair": "Özgünlük",
+      "skillMoves": "Beceri Hareketleri",
+      "speedDribbling": "Hızlı Top Sürme"
+    },
+    "endurance": {
+      "aerobicEndurance": "Aerobik Dayanıklılık",
+      "anaerobicEndurance": "Anaerobik Dayanıklılık",
+      "stamina": "Dayanıklılık",
+      "workRate": "Çalışma Oranı"
+    },
+    "finishing": {
+      "finishingInsideBox": "Ceza Sahası İçi Bitiricilik",
+      "finishingOnCounter": "Kontratakta Bitiricilik",
+      "finishingOutsideBox": "Ceza Sahası Dışı Bitiricilik",
+      "finishingUnderPressure": "Baskı Altında Bitiricilik",
+      "headedAccuracy": "Kafa İsabeti",
+      "headingAccuracy": "Kafa Vuruşu İsabeti",
+      "headingPower": "Kafa Vuruşu Gücü",
+      "oneOnOneFinishing": "Teke Tek Bitiricilik",
+      "placedShotAccuracy": "Plase Şut İsabeti",
+      "placedShots": "Plase Şutlar",
+      "powerShotAccuracy": "Sert Şut İsabeti",
+      "shotAnticipation": "Şut Sezgisi",
+      "shotPower": "Şut Gücü",
+      "volleyTechnique": "Vole Tekniği",
+      "volleysAndAcrobatic": "Voleler ve Akrobatik Vuruşlar"
+    },
+    "gameIntelligence": {
+      "anticipation": "Sezgi",
+      "creativity": "Yaratıcılık",
+      "decisions": "Kararlar",
+      "offTheBallMovement": "Topsuz Alan Hareketi",
+      "positioning": "Pozisyon Alma",
+      "spatialAwareness": "Alan Farkındalığı",
+      "vision": "Görüş"
+    },
+    "interception": {
+      "crossBlocking": "Orta Engelleme",
+      "longPassInterception": "Uzun Pas Kesme",
+      "readingOfPlay": "Oyunu Okuma",
+      "shortPassInterception": "Kısa Pas Kesme",
+      "shotBlocking": "Şut Bloklama"
+    },
+    "jumping": {
+      "headerTiming": "Kafa Zamanlaması",
+      "runningVerticalJump": "Koşarak Zıplama",
+      "standingVerticalJump": "Durarak Zıplama"
+    },
+    "marking": {
+      "closeDownSpeed": "Kapanma Hızı",
+      "individualMarking": "Bireysel Markaj",
+      "trackingRuns": "Koşuları Takip Etme",
+      "zonalMarking": "Alan Markajı"
+    },
+    "mental": {
+      "concentration": "Konsantrasyon",
+      "decisions": "Kararlar"
+    },
+    "mentalGK": {
+      "composure": "Soğukkanlılık (KL)",
+      "concentration": "Konsantrasyon (KL)",
+      "decisionMaking": "Karar Verme (KL)",
+      "handling": "Elle Kontrol"
+    },
+    "passing": {
+      "crossingFromByline": "Çizgiden Orta Yapma",
+      "crossingFromDeep": "Derinden Orta Yapma",
+      "curveEffect": "Falso Etkisi",
+      "firstTimeCrossing": "Tekte Orta Yapma",
+      "lobPassAccuracy": "Aşırtma Pas İsabeti",
+      "longDiagonalPass": "Uzun Diyagonal Pas",
+      "shortPassingSupport": "Kısa Pas Desteği",
+      "shortPassingUnderPressure": "Baskı Altında Kısa Pas",
+      "throughBalls": "Ara Paslar",
+      "verticalPassBreakingLines": "Dikey Hat Kıran Pas",
+      "weightedPass": "Ayarlı Pas"
+    },
+    "performance": {
+      "adaptability": "Uyumluluk",
+      "bigMatchPerformance": "Büyük Maç Performansı",
+      "clutchFactor": "Kritik An Performansı",
+      "consistency": "İstikrar",
+      "pressureHandling": "Baskı Altında Oyun"
+    },
+    "personality": {
+      "bravery": "Cesaret",
+      "charismaOffPitch": "Saha Dışı Karizma",
+      "composure": "Soğukkanlılık",
+      "composureInFinishing": "Bitiricilikte Soğukkanlılık",
+      "determination": "Kararlılık",
+      "leadershipOnPitch": "Saha İçi Liderlik",
+      "professionalism": "Profesyonellik",
+      "teamwork": "Takım Çalışması",
+      "temperament": "Mizaç"
+    },
+    "positioning": {
+      "linePositioning": "Çizgi Pozisyonu",
+      "narrowingAngles": "Açı Daraltma",
+      "positioning": "KL Yer Tutma",
+      "rushingOut": "Kaleden Açılma"
+    },
+    "pressing": {
+      "counterPressing": "Karşı Pres",
+      "pressIntensity": "Pres Yoğunluğu",
+      "pressingTrigger": "Pres Tetikleyicisi",
+      "sustainedPressing": "Sürekli Pres"
+    },
+    "robustness": {
+      "injuryResistance": "Sakatlık Direnci",
+      "naturalFitness": "Doğal Kondisyon",
+      "physicalRobustness": "Fiziksel Güç",
+      "recoveryRate": "Yenilenme Hızı"
+    },
+    "setPieces": {
+      "cornerKicking": "Korner Kullanma",
+      "directFreeKickPlacement": "Direkt Serbest Vuruş İsabeti",
+      "directFreeKickPower": "Direkt Serbest Vuruş Gücü",
+      "indirectFreeKick": "Endirekt Serbest Vuruş",
+      "penaltyTaking": "Penaltı Kullanma",
+      "throwIns": "Taç Atışları"
+    },
+    "shotStopping": {
+      "closeRangeShotStopping": "Yakın Mesafe Şut Kurtarma",
+      "diving": "KL Plonjon",
+      "longRangeShotStopping": "Uzak Mesafe Şut Kurtarma",
+      "oneOnOneStopping": "Teke Tek Kurtarış",
+      "penaltySaving": "Penaltı Kurtarma",
+      "reflexes": "KL Refleksler"
+    },
+    "speed": {
+      "acceleration": "Hızlanma",
+      "accelerationInitial": "İlk Hızlanma",
+      "accelerationMedium": "Orta Hızlanma",
+      "sprintSpeed": "Depar Hızı",
+      "topSpeed": "Maksimum Hız"
+    },
+    "strength": {
+      "balanceInContact": "Temas Halinde Denge",
+      "bodyToBodyStrength": "Omuz Omuza Güç",
+      "legStrength": "Bacak Gücü",
+      "upperBodyStrength": "Üst Vücut Gücü"
+    },
+    "tackling": {
+      "cleanTackling": "Temiz Müdahale",
+      "slidingTackle": "Kayarak Müdahale",
+      "standingTackle": "Ayakta Müdahale",
+      "tackleTiming": "Müdahale Zamanlaması"
+    }
+  }
+}

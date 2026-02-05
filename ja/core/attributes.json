@@ -1,0 +1,296 @@
+{
+  "attributes": {
+    "abbr": {
+      "AGI": "敏捷",
+      "DEF": "守備",
+      "DIV": "飛込",
+      "DRI": "ドリ",
+      "FIN": "決定",
+      "HAN": "ハンド",
+      "HEA": "ヘディ",
+      "INT": "遮断",
+      "PAC": "速度",
+      "PAS": "パス",
+      "PHY": "フィジ",
+      "POS": "位置",
+      "REF": "反射",
+      "SHO": "シュ",
+      "STA": "スタ",
+      "STR": "強さ",
+      "VIS": "視野"
+    },
+    "acceleration": "加速力",
+    "aerialControl": "空中制御",
+    "age": "年齢",
+    "aggression": "積極性",
+    "agility": "敏捷性",
+    "attacking": "攻撃",
+    "attributeEvolution": "能力の成長",
+    "balance": "バランス",
+    "ballControl": "ボールコントロール",
+    "composure": "冷静さ",
+    "crossing": "クロス",
+    "currentAge": "現在の年齢",
+    "currentOvr": "現在のOVR",
+    "curve": "カーブ",
+    "defending": "守備",
+    "dribbling": "ドリブル",
+    "finishing": "決定力",
+    "flair": "ひらめき",
+    "foot": {
+      "left": "左",
+      "right": "右"
+    },
+    "footedness": "利き足",
+    "freeKick": "FK精度",
+    "gkDiving": "GKダイビング",
+    "gkHandling": "GKハンドリング",
+    "gkKicking": "GKキック",
+    "gkPositioning": "GKポジショニング",
+    "gkReflexes": "GK反射神経",
+    "goalkeeping": "ゴールキーピング",
+    "growth": "成長",
+    "heading": "ヘディング精度",
+    "interceptions": "インターセプト",
+    "jumping": "ジャンプ",
+    "keyAttribute": "重要能力",
+    "leadership": "リーダーシップ",
+    "leftFinishing": "決定力（左）",
+    "legend": "凡例",
+    "longPassing": "ロングパス",
+    "longShots": "ロングシュート",
+    "marking": "マーキング",
+    "mental": "メンタル",
+    "mentalAttributes": "メンタル能力",
+    "overall": "総合値",
+    "overallEvolution": "総合値の推移",
+    "pace": "ペース",
+    "passing": "パス",
+    "peakAge": "ピーク年齢",
+    "peakOvr": "ピークOVR",
+    "penalties": "PK",
+    "physical": "フィジカル",
+    "physicalAttributes": "フィジカル能力",
+    "positioning": "ポジショニング",
+    "preferredFoot": "利き足",
+    "ratingColors": "評価カラー",
+    "reactions": "反応速度",
+    "rightFinishing": "決定力（右）",
+    "shooting": "シュート",
+    "shortPassing": "ショートパス",
+    "shotPower": "シュート力",
+    "slidingTackle": "スライディング",
+    "sprintSpeed": "スプリント速度",
+    "stamina": "スタミナ",
+    "standingTackle": "タックル",
+    "strength": "強さ",
+    "technical": "テクニック",
+    "technicalAttributes": "テクニック能力",
+    "vision": "視野",
+    "volleys": "ボレー",
+    "weakFoot": "逆足",
+    "workRate": "ワークレート"
+  },
+  "characteristic": {
+    "Aerial Specialist": "エアバトル",
+    "Big Game Player": "ビッグマッチプレイヤー",
+    "Clinical Finisher": "点取り屋",
+    "Dribbling Wizard": "ドリブルの魔術師",
+    "Engine": "エンジン",
+    "Leader": "リーダー",
+    "Playmaker": "司令塔",
+    "Speed Demon": "スピードスター"
+  },
+  "expandedAttributes": {
+    "agility": {
+      "coordination": "コーディネイション",
+      "flexibility": "柔軟性",
+      "lateralAgility": "アジリティ",
+      "reactionTime": "反応速度"
+    },
+    "ballControl": {
+      "aerialControl": "空中制御",
+      "firstTouchOrientated": "ファーストタッチ",
+      "firstTouchUnderPressure": "プレッシャー下のトラップ",
+      "shielding": "ボールキープ",
+      "trapping": "トラップ"
+    },
+    "commanding": {
+      "aerialReach": "空中戦の範囲",
+      "claimingCrosses": "クロスへの飛び出し",
+      "commandOfArea": "エリア支配",
+      "communication": "コーチング",
+      "punching": "パンチング"
+    },
+    "defending": {
+      "slidingTiming": "スライディングのタイミング",
+      "standingTiming": "タックルのタイミング"
+    },
+    "defensivePositioning": {
+      "backtracking": "守備への切り替え",
+      "covering": "カバーリング",
+      "defensiveAwareness": "守備意識",
+      "jockeying": "ディフェンス対応",
+      "positionRecovery": "ポジション復帰"
+    },
+    "distribution": {
+      "goalKicks": "ゴールキック",
+      "kicking": "キック精度",
+      "passingLong": "ロングパス (GK)",
+      "passingShort": "ショートパス (GK)",
+      "throwing": "スローイング"
+    },
+    "dribbling": {
+      "closeControlDribbling": "細かいドリブル",
+      "congestedSpaceDribbling": "密集地でのドリブル",
+      "directionChange": "方向転換",
+      "flair": "ひらめき",
+      "skillMoves": "スキルムーブ",
+      "speedDribbling": "スピードドリブル"
+    },
+    "endurance": {
+      "aerobicEndurance": "有酸素持久力",
+      "anaerobicEndurance": "無酸素持久力",
+      "stamina": "スタミナ",
+      "workRate": "運動量"
+    },
+    "finishing": {
+      "finishingInsideBox": "エリア内決定力",
+      "finishingOnCounter": "カウンター時の決定力",
+      "finishingOutsideBox": "エリア外決定力",
+      "finishingUnderPressure": "プレッシャー下の決定力",
+      "headedAccuracy": "ヘディング精度",
+      "headingAccuracy": "ヘディング精度",
+      "headingPower": "ヘディングの威力",
+      "oneOnOneFinishing": "1対1の決定力",
+      "placedShotAccuracy": "コントロールシュート精度",
+      "placedShots": "コントロールシュート",
+      "powerShotAccuracy": "パワーシュート精度",
+      "shotAnticipation": "シュート予測",
+      "shotPower": "シュート力",
+      "volleyTechnique": "ボレーテクニック",
+      "volleysAndAcrobatic": "ボレー＆アクロバティック"
+    },
+    "gameIntelligence": {
+      "anticipation": "予測",
+      "creativity": "創造性",
+      "decisions": "判断力",
+      "offTheBallMovement": "オフ・ザ・ボール",
+      "positioning": "ポジショニング",
+      "spatialAwareness": "空間認識",
+      "vision": "視野"
+    },
+    "interception": {
+      "crossBlocking": "クロス阻止",
+      "longPassInterception": "ロングパスカット",
+      "readingOfPlay": "試合の読み",
+      "shortPassInterception": "ショートパスカット",
+      "shotBlocking": "シュートブロック"
+    },
+    "jumping": {
+      "headerTiming": "ヘディングのタイミング",
+      "runningVerticalJump": "助走ありジャンプ",
+      "standingVerticalJump": "垂直飛び"
+    },
+    "marking": {
+      "closeDownSpeed": "寄せの速さ",
+      "individualMarking": "マンマーク",
+      "trackingRuns": "マークの追跡",
+      "zonalMarking": "ゾーンマーク"
+    },
+    "mental": {
+      "concentration": "集中力",
+      "decisions": "判断"
+    },
+    "mentalGK": {
+      "composure": "冷静さ (GK)",
+      "concentration": "集中力 (GK)",
+      "decisionMaking": "意思決定 (GK)",
+      "handling": "ハンドリング"
+    },
+    "passing": {
+      "crossingFromByline": "深い位置からのクロス",
+      "crossingFromDeep": "浅い位置からのクロス",
+      "curveEffect": "カーブ効果",
+      "firstTimeCrossing": "ダイレクトクロス",
+      "lobPassAccuracy": "ロブパス精度",
+      "longDiagonalPass": "ロング対角線パス",
+      "shortPassingSupport": "ショートパスのサポート",
+      "shortPassingUnderPressure": "プレッシャー下のパス",
+      "throughBalls": "スルーパス",
+      "verticalPassBreakingLines": "ラインブレイクパス",
+      "weightedPass": "ウェイトパス"
+    },
+    "performance": {
+      "adaptability": "適応力",
+      "bigMatchPerformance": "大舞台での強さ",
+      "clutchFactor": "勝負強さ",
+      "consistency": "一貫性",
+      "pressureHandling": "重圧への強さ"
+    },
+    "personality": {
+      "bravery": "勇敢さ",
+      "charismaOffPitch": "ピッチ外のカリスマ性",
+      "composure": "冷静さ",
+      "composureInFinishing": "決定機の冷静さ",
+      "determination": "決断力",
+      "leadershipOnPitch": "統率力",
+      "professionalism": "プロ意識",
+      "teamwork": "チームワーク",
+      "temperament": "気質"
+    },
+    "positioning": {
+      "linePositioning": "ラインコントロール",
+      "narrowingAngles": "アングルを消す動き",
+      "positioning": "GKポジショニング",
+      "rushingOut": "飛び出し"
+    },
+    "pressing": {
+      "counterPressing": "カウンタープレス",
+      "pressIntensity": "プレス強度",
+      "pressingTrigger": "プレスのスイッチ",
+      "sustainedPressing": "持続的プレス"
+    },
+    "robustness": {
+      "injuryResistance": "怪我耐性",
+      "naturalFitness": "基礎体力",
+      "physicalRobustness": "強靭さ",
+      "recoveryRate": "回復力"
+    },
+    "setPieces": {
+      "cornerKicking": "CK精度",
+      "directFreeKickPlacement": "直接FK精度",
+      "directFreeKickPower": "直接FK威力",
+      "indirectFreeKick": "間接FK",
+      "penaltyTaking": "PK精度",
+      "throwIns": "スローイン"
+    },
+    "shotStopping": {
+      "closeRangeShotStopping": "近距離シュートストップ",
+      "diving": "ダイビング",
+      "longRangeShotStopping": "遠距離シュートストップ",
+      "oneOnOneStopping": "1対1阻止",
+      "penaltySaving": "PKストップ",
+      "reflexes": "反射神経"
+    },
+    "speed": {
+      "acceleration": "加速力",
+      "accelerationInitial": "初速",
+      "accelerationMedium": "中加速",
+      "sprintSpeed": "スプリント速度",
+      "topSpeed": "最高速度"
+    },
+    "strength": {
+      "balanceInContact": "コンタクトバランス",
+      "bodyToBodyStrength": "対人強度",
+      "legStrength": "脚力",
+      "upperBodyStrength": "上半身の強さ"
+    },
+    "tackling": {
+      "cleanTackling": "クリーンなタックル",
+      "slidingTackle": "スライディング",
+      "standingTackle": "スタンディング",
+      "tackleTiming": "タックルのタイミング"
+    }
+  }
+}

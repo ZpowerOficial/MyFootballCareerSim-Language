@@ -1,0 +1,107 @@
+{
+  "_meta": {
+    "patchable": true,
+    "description": "ニュースの見出しとイベントの説明 - ローカライズされたコンテンツのコミュニティパッチをサポートします",
+    "interpolation": "動的な値には {variable} を、相互参照には {{ref:path}} を使用します"
+  },
+  "news": {
+    "assistMilestone": {
+      "1": "プレイメーカー！ {name} がキャリア通算 {assists} アシスト達成",
+      "2": "{name} が輝かしいキャリアで {assists} アシストを記録",
+      "3": "最高のクリエイター: {name} が {assists} アシストに到達"
+    },
+    "ballonDor": {
+      "0": "{name} が {year} {{ref:content.awards.ballonDor}} を受賞！",
+      "1": "黄金時代: {name} が世界最優秀選手に選出",
+      "2": "公式: {name} がサッカー界最高の栄誉を獲得"
+    },
+    "championsLeague": {
+      "1": "欧州の王！ {team} が {{ref:content.competitions.championsLeague}} で優勝",
+      "2": "栄光の夜！ {name} と {team} が欧州を制覇",
+      "3": "{team} が欧州王者に輝く"
+    },
+    "europaLeague": {
+      "1": "欧州の栄光！ {team} が {{ref:content.competitions.europaLeague}} でタイトル獲得",
+      "2": "{name} と {team} が {{ref:content.competitions.europaLeague}} で歓喜の勝利",
+      "3": "欧州での成功！ {team} が {{ref:content.competitions.europaLeague}} 王者に"
+    },
+    "goldenBoot": {
+      "0": "{name} が得点王！ 今シーズン {goals} ゴール",
+      "1": "{goals} ゴールを挙げた {name} がゴールデンブーツを受賞",
+      "2": "{name} が最高のフィニッシャーとして君臨: {goals} ゴール"
+    },
+    "leagueChampion": {
+      "0": "チャンピオン！ {team} が {name} と共にリーグ優勝",
+      "1": "栄冠！ {team} と {name} が優勝を祝う",
+      "2": "王者は我ら！ {team} が国内リーグを制覇"
+    },
+    "transfer": {
+      "0": "速報！ {name} が {newTeam} の新戦力に",
+      "1": "公式: {name} が {newTeam} との契約に合意",
+      "2": "{newTeam} が {name} の大型補強を発表"
+    },
+    "worldCup": {
+      "0": "{team} が世界一！ ワールドチャンピオンの称号獲得！",
+      "1": "世界の頂点！ {team} が {{ref:content.competitions.worldCup}} を制覇",
+      "2": "至高の栄光！ {team} が {{ref:content.competitions.worldCup}} で優勝"
+    },
+    "continentalQualification": {
+      "1": "大陸大会への切符！ {team} が {competition} 出場権獲得",
+      "2": "{name} が {team} の {competition} 進出を牽引",
+      "3": "大陸での挑戦が {team} を待っている"
+    },
+    "hatTrick": {
+      "1": "ハットトリックヒーロー！ {name} が3得点の乱舞",
+      "2": "{name} が独り舞台！ {team} の勝利でハットトリック達成",
+      "3": "ハットトリック！ {name} が圧巻の3ゴール"
+    },
+    "firstGoal": {
+      "0": "待望の初ゴール！ {name} がプロとしての第一歩を刻む",
+      "1": "歓喜の初得点！ {name} がプロ初ゴール",
+      "2": "{name} が {team} でのキャリア初ゴールを奪取",
+      "3": "公式戦初ゴール！ {name} が鮮烈なデビューゴール"
+    },
+    "professionalDebut": {
+      "0": "デビュー！ {name} がプロ初出場を果たす",
+      "1": "期待のデビュー！ {name} がプロの舞台へ",
+      "2": "新たな章の始まり: {name} が {team} でプロデビュー",
+      "3": "{name} が待望のプロ初出場を飾り、期待に応える"
+    },
+    "internationalDebut": {
+      "0": "代表デビュー！ {name} が {country} 代表として初キャップ",
+      "1": "代表の舞台へ！ {name} が {country} 代表で初出場",
+      "2": "{name} が {country} の誇りを胸に代表デビュー",
+      "3": "名誉ある瞬間: {name} がナショナルチームでデビュー"
+    },
+    "retirement": {
+      "0": "{name} が現役引退を発表。 偉大なキャリアに幕",
+      "1": "一つの時代の終焉: {name} がスパイクを脱ぐ",
+      "2": "さらばレジェンド: {name} がファンに別れを告げ引退"
+    },
+    "promotion": {
+      "1": "昇格決定！ {team} が {league} への切符を掴む",
+      "2": "{name} と {team} が歓喜の {league} 昇格",
+      "3": "お祝いだ！ {team} が {league} 昇格を果たす"
+    },
+    "relegation": {
+      "0": "悲劇: {team} が {name} と共に降格の憂き目に",
+      "1": "屈辱の降格: {team} が2部リーグへ転落",
+      "2": "悲しみの日: {name} の所属する {team} が降格を回避できず"
+    }
+  },
+  "newsType": {
+    "assistMilestone": "アシスト記録",
+    "ballonDor": "{{ref:content.awards.ballonDor}}",
+    "championsLeague": "{{ref:content.competitions.championsLeague}}",
+    "cupWinner": "カップ戦優勝",
+    "europaLeague": "{{ref:content.competitions.europaLeague}}",
+    "goldenBoot": "リーグ得点王",
+    "hatTrick": "ハットトリック",
+    "leagueChampion": "リーグ優勝",
+    "transfer": "移籍ニュース",
+    "worldCup": "{{ref:content.competitions.worldCup}}",
+    "retirement": "現役引退",
+    "promotion": "リーグ昇格",
+    "relegation": "リーグ降格"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "goals": {
+    "100goals": "キャリア通算100ゴールを達成する",
+    "almostThere": "あともう少し！",
+    "ballonDor": "ゴールデン・トロフィーを受賞する",
+    "becomeCaptain": "{team} のキャプテンになる",
+    "becomeClubLegend": "{team} のレジェンドになる ({matches}/200 試合)",
+    "becomeStarter": "{team} のレギュラーに定着する",
+    "breakGoalRecord": "{team} のゴール記録を更新する ({current}/{record})",
+    "completed": "達成",
+    "desc": {
+      "becomeCaptain": "チームキャプテンになる",
+      "becomeClubLegend": "クラブレジェンドになる",
+      "becomeRegularStarter": "レギュラーに定着する",
+      "breakClubRecord": "クラブ記録を更新する",
+      "earnCallUp": "代表チームへの招集を勝ち取る",
+      "firstCleanSheet": "初のクリーンシートを達成する",
+      "firstProGoal": "プロ初ゴールを記録する",
+      "makeDebut": "プロデビューを果たす",
+      "playTopTier": "トップリーグでプレーする",
+      "reach100Caps": "国際Aマッチ100試合出場を達成",
+      "reachCareerAssists": "キャリア通算アシスト記録を達成する",
+      "reachCareerGoals": "キャリア通算ゴール記録を達成する",
+      "reachOverall": "目標総合評価（OVR）に到達する",
+      "score100CareerGoals": "キャリア通算100ゴールを記録する",
+      "score500CareerGoals": "キャリア通算500ゴールを記録する",
+      "score1000CareerGoals": "キャリア通算1000ゴールを記録する",
+      "spend10Years": "クラブに10年間在籍する",
+      "winBallonDor": "ゴールデン・トロフィーを受賞する",
+      "winChampionsLeague": "ヨーロッパチャンピオンズカップで優勝する",
+      "winFirstMajorTrophy": "初の主要タイトルを獲得する",
+      "winWorldCup": "ワールドトーナメントで優勝する"
+    },
+    "emptyDescription": "すべての伝説には始まりがあります。プレーを続けることで、新しい目標が現れます。",
+    "emptyTitle": "あなたの旅はここから始まります",
+    "expired": "期限切れ",
+    "firstCleanSheet": "初のクリーンシートを達成",
+    "firstGoal": "プロ初ゴールを記録",
+    "firstTrophy": "初の主要タイトルを獲得",
+    "legacyOther": "その他の目標",
+    "nationalTeamCallUp": "{country} 代表に招集される",
+    "percentComplete": "完了",
+    "proDebut": "プロデビューを果たす",
+    "progress": "進捗",
+    "reach100Caps": "{country} 代表で100キャップに到達する",
+    "reachCareerAssists": "キャリア通算 {count} アシストに到達する",
+    "reachCareerGoals": "キャリア通算 {count} ゴールに到達する",
+    "reachOverallRating": "総合評価 {rating} 以上に到達する",
+    "rewards": {
+      "agentReputation": "エージェントの評判",
+      "clubApproval": "クラブの信頼度",
+      "followerBoost": "フォロワー増加",
+      "mediaBoost": "メディアの評価",
+      "moraleBoost": "士気の向上",
+      "reputationBoost": "評判の向上",
+      "skillPoints": "スキルポイント",
+      "teamChemistry": "チームの結束力",
+      "title": "報酬",
+      "transferBudget": "移籍予算"
+    },
+    "soClose": "あと少し！",
+    "spendDecade": "{team} で10年間過ごす",
+    "target": "目標",
+    "topTierLeague": "エリートリーグでプレーする",
+    "v2": {
+      "active": "進行中",
+      "bands": {
+        "expected": "期待値",
+        "fail": "失敗ライン",
+        "stretch": "挑戦目標"
+      },
+      "completed": "達成",
+      "expectations": {
+        "assistsLeague": "リーグ戦アシスト目標",
+        "assistsLeagueDesc": "今シーズンのリーグ戦で指定のアシスト数を記録する。",
+        "chancesCreated": "チャンス創出数",
+        "cleanSheets": "クリーンシート目標",
+        "conceded": "失点許容数",
+        "consistency": "一貫性の維持",
+        "consistencyDesc": "安定したパフォーマンスを維持する",
+        "dribblesCompleted": "ドリブル成功数",
+        "gkRating": "GK評価点",
+        "gkRatingDesc": "ゴールキーパーとして高い平均評価点を維持する。",
+        "goalsLeague": "リーグ戦ゴール目標",
+        "goalsLeagueDesc": "今シーズンのリーグ戦で指定のゴール数を記録する。",
+        "interceptions": "インターセプト数",
+        "manOfTheMatch": "マン・オブ・ザ・マッチ",
+        "matchRating": "試合評価点",
+        "passAccuracy": "パス成功率",
+        "penalties": "PK成功数",
+        "tacklesWon": "タックル成功数"
+      },
+      "expired": "期限切れ",
+      "milestones": {
+        "careerGoals": "キャリア通算ゴール",
+        "careerGoalsDesc": "キャリア通算ゴール記録の達成"
+      },
+      "origin": {
+        "agent": "エージェント",
+        "club": "クラブ",
+        "coach": "監督",
+        "fans": "ファン",
+        "press": "メディア",
+        "self": "自分"
+      },
+      "progress": "進捗",
+      "promises": {
+        "roleGuarantee": "役割の保証",
+        "roleGuaranteeDesc": "契約で約束された出場機会を確保する。"
+      },
+      "records": {
+        "clubSeasonGoals": "クラブシーズン最多ゴール",
+        "clubSeasonGoalsBroken": "クラブシーズン最多ゴール記録更新",
+        "clubSeasonGoalsBrokenDesc": "クラブのシーズン最多得点記録を更新しました",
+        "clubSeasonGoalsDesc": "クラブのシーズン最多得点記録を目指しましょう",
+        "historicSeasonGoals": "歴史的シーズンゴール記録",
+        "historicSeasonGoalsDesc": "リーグの歴史に残るシーズン得点記録を目指しましょう"
+      },
+      "rewards": {
+        "agentReputation": "エージェントの評判",
+        "clubApproval": "クラブの信頼度",
+        "followerBoost": "フォロワー増加",
+        "mediaBoost": "メディアの評価",
+        "moraleBoost": "士気の向上",
+        "reputationBoost": "評判の向上",
+        "skillPoints": "スキルポイント",
+        "teamChemistry": "チームの結束力",
+        "title": "報酬",
+        "transferBudget": "移籍予算"
+      },
+      "sections": {
+        "career": "キャリア",
+        "chases": "記録への挑戦",
+        "promises": "約束",
+        "thisSeason": "今シーズン"
+      },
+      "severity": {
+        "high": "高優先度",
+        "low": "低優先度",
+        "medium": "中優先度"
+      },
+      "target": "目標",
+      "team": {
+        "leagueFinish": "リーグ順位目標",
+        "leagueFinishDesc": "チームが目標順位以上でリーグを終えるのに貢献する。"
+      }
+    },
+    "winContinentalCup": "{team} と共に大陸カップで優勝する",
+    "winWorldCup": "{country} と共にワールドトーナメントで優勝する"
+  }
+}

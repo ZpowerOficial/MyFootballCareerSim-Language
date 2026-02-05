@@ -1,0 +1,296 @@
+{
+  "attributes": {
+    "abbr": {
+      "AGI": "رشاقة",
+      "DEF": "دفع",
+      "DIV": "ارتم",
+      "DRI": "مرا",
+      "FIN": "إنهاء",
+      "HAN": "مسك",
+      "HEA": "رأس",
+      "INT": "اعترا",
+      "PAC": "سرعة",
+      "PAS": "تمر",
+      "PHY": "بدن",
+      "POS": "تمركز",
+      "REF": "رد",
+      "SHO": "تسد",
+      "STA": "لياق",
+      "STR": "قوة",
+      "VIS": "رؤية"
+    },
+    "acceleration": "التسارع",
+    "aerialControl": "التحكم الهوائي",
+    "age": "العمر",
+    "aggression": "العدوانية",
+    "agility": "الرشاقة",
+    "attacking": "الهجوم",
+    "attributeEvolution": "تطور الخصائص",
+    "balance": "التوازن",
+    "ballControl": "التحكم بالكرة",
+    "composure": "الهدوء",
+    "crossing": "العرضيات",
+    "currentAge": "العمر الحالي",
+    "currentOvr": "التقييم الحالي",
+    "curve": "الانحناء",
+    "defending": "الدفاع",
+    "dribbling": "المراوغة",
+    "finishing": "الإنهاء",
+    "flair": "الإبداع",
+    "foot": {
+      "left": "يسرى",
+      "right": "يمنى"
+    },
+    "footedness": "استخدام القدمين",
+    "freeKick": "دقة الركلات الحرة",
+    "gkDiving": "الارتماء (حارس)",
+    "gkHandling": "المسك (حارس)",
+    "gkKicking": "الركل (حارس)",
+    "gkPositioning": "التمركز (حارس)",
+    "gkReflexes": "ردود الفعل (حارس)",
+    "goalkeeping": "حراسة المرمى",
+    "growth": "النمو",
+    "heading": "دقة الرأسيات",
+    "interceptions": "الاعتراضات",
+    "jumping": "القفز",
+    "keyAttribute": "خاصية رئيسية",
+    "leadership": "القيادة",
+    "leftFinishing": "الإنهاء (يسرى)",
+    "legend": "أسطورة",
+    "longPassing": "تمرين طويل",
+    "longShots": "تسديدات بعيدة",
+    "marking": "الرقابة",
+    "mental": "ذهني",
+    "mentalAttributes": "خصائص ذهنية",
+    "overall": "الإجمالي",
+    "overallEvolution": "تطور الإجمالي",
+    "pace": "السرعة",
+    "passing": "التمرير",
+    "peakAge": "عمر الذروة",
+    "peakOvr": "ذروة التقييم",
+    "penalties": "ركلات الجزاء",
+    "physical": "بدني",
+    "physicalAttributes": "خصائص بدنية",
+    "positioning": "التمركز",
+    "preferredFoot": "القدم المفضلة",
+    "ratingColors": "ألوان التقييم",
+    "reactions": "ردود الفعل",
+    "rightFinishing": "الإنهاء (يمنى)",
+    "shooting": "التسديد",
+    "shortPassing": "تمرين قصير",
+    "shotPower": "قوة التسديد",
+    "slidingTackle": "انزلاق",
+    "sprintSpeed": "سرعة الجري",
+    "stamina": "التحمل",
+    "standingTackle": "تدخل واقف",
+    "strength": "القوة",
+    "technical": "فني",
+    "technicalAttributes": "خصائص فنية",
+    "vision": "الرؤية",
+    "volleys": "الكرات الطائرة",
+    "weakFoot": "القدم الضعيفة",
+    "workRate": "معدل العمل"
+  },
+  "characteristic": {
+    "Aerial Specialist": "متخصص ألعاب هوائية",
+    "Big Game Player": "لاعب مباريات كبرى",
+    "Clinical Finisher": "إنهاء حاسم",
+    "Dribbling Wizard": "ساحر المراوغة",
+    "Engine": "المحرك",
+    "Leader": "القائد",
+    "Playmaker": "صانع الألعاب",
+    "Speed Demon": "شيطان السرعة"
+  },
+  "expandedAttributes": {
+    "agility": {
+      "coordination": "التوافق",
+      "flexibility": "المرونة",
+      "lateralAgility": "الرشاقة الجانبية",
+      "reactionTime": "زمن رد الفعل"
+    },
+    "ballControl": {
+      "aerialControl": "التحكم الهوائي",
+      "firstTouchOrientated": "لمسة أولى موجهة",
+      "firstTouchUnderPressure": "لمسة أولى تحت الضغط",
+      "shielding": "التحجيز",
+      "trapping": "استلام"
+    },
+    "commanding": {
+      "aerialReach": "المدى الهوائي",
+      "claimingCrosses": "الإمساك بالعرضيات",
+      "commandOfArea": "السيطرة على المنطقة",
+      "communication": "التوجيه",
+      "punching": "اللكم"
+    },
+    "defending": {
+      "slidingTiming": "توقيت الانزلاق",
+      "standingTiming": "توقيت الوقوف"
+    },
+    "defensivePositioning": {
+      "backtracking": "التراجع",
+      "covering": "التغطية",
+      "defensiveAwareness": "الوعي الدفاعي",
+      "jockeying": "الاحتواء",
+      "positionRecovery": "استعادة المركز"
+    },
+    "distribution": {
+      "goalKicks": "ضربات المرمى",
+      "kicking": "الركل",
+      "passingLong": "تمرير طويل",
+      "passingShort": "تمرير قصير",
+      "throwing": "الرمي"
+    },
+    "dribbling": {
+      "closeControlDribbling": "مراوغة بتحكم وثيق",
+      "congestedSpaceDribbling": "مراوغة في الزحام",
+      "directionChange": "تغيير الاتجاه",
+      "flair": "لمسة جمالية",
+      "skillMoves": "حركات مهارية",
+      "speedDribbling": "مراوغة سريعة"
+    },
+    "endurance": {
+      "aerobicEndurance": "تحمل هوائي",
+      "anaerobicEndurance": "تحمل لاهوائي",
+      "stamina": "النفس",
+      "workRate": "المجهود"
+    },
+    "finishing": {
+      "finishingInsideBox": "إنهاء داخل المنطقة",
+      "finishingOnCounter": "إنهاء المرتدات",
+      "finishingOutsideBox": "إنهاء خارج المنطقة",
+      "finishingUnderPressure": "إنهاء تحت الضغط",
+      "headedAccuracy": "دقة الرأس",
+      "headingAccuracy": "دقة التوجيه بالرأس",
+      "headingPower": "قوة الرأسية",
+      "oneOnOneFinishing": "إنهاء الانفرادات",
+      "placedShotAccuracy": "دقة الركن",
+      "placedShots": "تسديدات مركونة",
+      "powerShotAccuracy": "دقة القذائف",
+      "shotAnticipation": "توقع التسديد",
+      "shotPower": "قوة التسديد",
+      "volleyTechnique": "تقنية الطائرة",
+      "volleysAndAcrobatic": "هوائيات وأكروبات"
+    },
+    "gameIntelligence": {
+      "anticipation": "التوقع",
+      "creativity": "الإبداع",
+      "decisions": "القرارات",
+      "offTheBallMovement": "تحرك بدون كرة",
+      "positioning": "التمركز",
+      "spatialAwareness": "إدراك المساحة",
+      "vision": "الرؤية"
+    },
+    "interception": {
+      "crossBlocking": "منع العرضيات",
+      "longPassInterception": "قطع كرات طويلة",
+      "readingOfPlay": "قراءة الملعب",
+      "shortPassInterception": "قطع كرات قصيرة",
+      "shotBlocking": "صد التسديدات"
+    },
+    "jumping": {
+      "headerTiming": "توقيت الارتقاء",
+      "runningVerticalJump": "قفز عمودي (جري)",
+      "standingVerticalJump": "قفز عمودي (ثبات)"
+    },
+    "marking": {
+      "closeDownSpeed": "سرعة الإغلاق",
+      "individualMarking": "رقابة فردية",
+      "trackingRuns": "مراقبة الانطلاقات",
+      "zonalMarking": "دفاع منطقة"
+    },
+    "mental": {
+      "concentration": "التركيز",
+      "decisions": "القرارات"
+    },
+    "mentalGK": {
+      "composure": "الهدوء",
+      "concentration": "التركيز",
+      "decisionMaking": "اتخاذ القرار",
+      "handling": "الإمساك بالكرة"
+    },
+    "passing": {
+      "crossingFromByline": "عزضيات من الخط",
+      "crossingFromDeep": "عرضيات عميقة",
+      "curveEffect": "تأثير الدوران",
+      "firstTimeCrossing": "عرضيات مباشرة",
+      "lobPassAccuracy": "دقة الكرات الساقطة",
+      "longDiagonalPass": "تمريرات قطرية طويلة",
+      "shortPassingSupport": "دعم التمرير القصير",
+      "shortPassingUnderPressure": "تمرير قصير تحت الضغط",
+      "throughBalls": "كرات بينية",
+      "verticalPassBreakingLines": "تمرير عمودي لكسر الخطوط",
+      "weightedPass": "تمريرة موزونة"
+    },
+    "performance": {
+      "adaptability": "التكيف",
+      "bigMatchPerformance": "الأداء في المباريات الكبرى",
+      "clutchFactor": "الحسم",
+      "consistency": "الثبات",
+      "pressureHandling": "التعامل مع الضغط"
+    },
+    "personality": {
+      "bravery": "الشجاعة",
+      "charismaOffPitch": "الكاريزما خارج الملعب",
+      "composure": "الهدوء",
+      "composureInFinishing": "الهدوء أمام المرمى",
+      "determination": "العزيمة",
+      "leadershipOnPitch": "القيادة في الملعب",
+      "professionalism": "الاحترافية",
+      "teamwork": "العمل الجماعي",
+      "temperament": "المزاج"
+    },
+    "positioning": {
+      "linePositioning": "التمركز على الخط",
+      "narrowingAngles": "تضييق الزوايا",
+      "positioning": "التمركز (حارس)",
+      "rushingOut": "الخروج من المرمى"
+    },
+    "pressing": {
+      "counterPressing": "الضغط العكسي",
+      "pressIntensity": "حدة الضغط",
+      "pressingTrigger": "محفز الضغط",
+      "sustainedPressing": "ضغط مستمر"
+    },
+    "robustness": {
+      "injuryResistance": "مقاومة الإصابة",
+      "naturalFitness": "اللياقة الطبيعية",
+      "physicalRobustness": "الصلابة البدنية",
+      "recoveryRate": "معدل التعافي"
+    },
+    "setPieces": {
+      "cornerKicking": "تنفيذ الركنيات",
+      "directFreeKickPlacement": "توجيه الركلات الحرة",
+      "directFreeKickPower": "قوة الركلات الحرة",
+      "indirectFreeKick": "ركلات حرة غير مباشرة",
+      "penaltyTaking": "تنفيذ ركلات الجزاء",
+      "throwIns": "رميات التماس"
+    },
+    "shotStopping": {
+      "closeRangeShotStopping": "تصدي للمسافات القريبة",
+      "diving": "الارتماء",
+      "longRangeShotStopping": "تصدي للمسافات البعيدة",
+      "oneOnOneStopping": "إيقاف الانفرادات",
+      "penaltySaving": "صد ركلات الجزاء",
+      "reflexes": "ردود الفعل"
+    },
+    "speed": {
+      "acceleration": "التسارع",
+      "accelerationInitial": "التسارع الأولي",
+      "accelerationMedium": "التسارع المتوسط",
+      "sprintSpeed": "سرعة الجري",
+      "topSpeed": "السرعة القصوى"
+    },
+    "strength": {
+      "balanceInContact": "التوازن عند الالتحام",
+      "bodyToBodyStrength": "القوة الجسدية",
+      "legStrength": "قوة الساقين",
+      "upperBodyStrength": "قوة الجذع"
+    },
+    "tackling": {
+      "cleanTackling": "افتكاك نظيف",
+      "slidingTackle": "تزحلق لاستخلاص الكرة",
+      "standingTackle": "تدخل وقوفاً",
+      "tackleTiming": "توقيت التدخل"
+    }
+  }
+}

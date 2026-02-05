@@ -13,14 +13,34 @@
     "leaguePOTY": "🏅 Melhor Jogador da Temporada na Liga!",
     "leaguePositional": "🏅 Eleito Melhor {position} da Temporada na Liga!",
     "playmaker": "🎯 Líder de Assistências da Liga ({assists} assistências)!",
-    "puskas": "⚽🔥 Vencedor do Prêmio de Gol do Ano!",
+    "puskas": "⚽🔥 Vencedor do prêmio Pintura do Ano!",
     "rookie": "⭐ Nomeado Revelação do Ano na Liga!",
     "shortlist": "⭐ Indicado para Troféu de Ouro.",
     "teamOfTheYear": "👕 Nomeado para a Seleção do Ano da Liga.",
     "worldCupGoldenBall": "🌍🏅 Vencedor da Troféu de Ouro da Torneio Mundial!",
     "worldCupGoldenBoot": "👟🌍 Vencedor da Chuteira de Ouro da Torneio Mundial!",
     "worldCupTOTT": "👕 Nomeado para a Seleção do Torneio Mundial!",
-    "worldPlayer": "🏆⭐ MELHOR JOGADOR DO MUNDO! Reconhecido como o melhor do planeta. Narrativa: {narrative}."
+    "worldPlayer": "🏆⭐ MELHOR JOGADOR DO MUNDO! Reconhecido como o melhor do planeta. Narrativa: {narrative}.",
+    "ballonDor": "Troféu de Ouro",
+    "ballonDorNomination": "Indicado - Troféu de Ouro",
+    "ballonDorRunnerUp": "Top 3 - Troféu de Ouro",
+    "comebackPlayerOfYear": "Retorno do Ano",
+    "continentalCompetitionTopScorer": "Artilheiro Continental",
+    "continentalCupPOTY": "MVP - Copa Continental",
+    "continentalPlayer": "Jogador Continental",
+    "cupGoldenBootShared": "Dividiu a Chuteira de Ouro da Copa com {goals} gols!",
+    "europeanGoldenShoe": "Chuteira de Ouro Europeia",
+    "goalOfTheYear": "Gol do Ano",
+    "goldenBootShared": "Dividiu a Chuteira de Ouro da Liga com {goals} gols!",
+    "leagueDefenderOfYear": "Defensor do Ano",
+    "leagueForwardOfYear": "Atacante do Ano",
+    "leagueMidfielderOfYear": "Meio-campo do Ano",
+    "leaguePlayerOfYear": "Craque da Liga",
+    "leaguePlaymaker": "Líder de Assistências",
+    "leagueRookieOfYear": "Revelação do Ano",
+    "leagueTopAssister": "Líder de Assistências",
+    "title": "Prêmio",
+    "worldCupBestGoalkeeper": "Luva de Ouro - Torneio Mundial"
   },
   "competitions": {
     "afcon": "Copa Africana de Nações",
@@ -47,7 +67,8 @@
   },
   "wcQualification": {
     "description": "Sua seleção está disputando as Eliminatórias da Copa do Mundo",
-    "title": "Eliminatórias da Copa do Mundo"
+    "title": "Eliminatórias da Copa do Mundo",
+    "failed": "Falha na Qualificação"
   },
   "contractTermination": {
     "alreadyTerminatedDesc": "Você já rescindiu um contrato nesta temporada. A rescisão de contrato é limitada a uma vez por temporada para manter a estabilidade da carreira.",
@@ -106,7 +127,7 @@
       "controversy": "Escândalo envolvendo {name} forçou uma mudança.",
       "eliteCall": "Uma agência de elite liderada por {name} fez uma proposta irrecusável.",
       "fallout": "Desentendimento irreconciliável com {name}.",
-      "improved": "Buscando novos patamares com a representação de {name}.",
+      "improved": "O agente acredita que o seu desempenho atual justifica uma melhoria contratual.",
       "merger": "A agência de {name} passou por uma fusão corporativa.",
       "none": "Nenhuma proposta de agente interessante no momento.",
       "special": "Um evento inesperado no mercado de agentes forçou uma mudança.",
@@ -195,7 +216,7 @@
       "leagueRookieOfYear": "Revelação do Ano",
       "leagueTopAssister": "Líder de Assistências",
       "playmaker": "Playmaker da Liga",
-      "puskas": "Prêmio Gol do Ano",
+      "puskas": "Pintura do Ano",
       "rookie": "Novato do Ano",
       "teamOfTheYear": "Seleção do Ano",
       "title": "Prêmio",
@@ -250,7 +271,7 @@
       "teamChemistry": "Química do Time"
     },
     "continental": {
-      "played": "🌍 Jogou {matches} partidas na {competition} ({goals} gols, {assists} assistências)"
+      "played": "🌍 Jogou {count} partidas na {competition} ({goals} gols, {assists} assistências)"
     },
     "continentalQualification": "Qualificação Continental Garantida",
     "contract": {
@@ -318,9 +339,9 @@
     "injury": {
       "careerEnding": "Sofreu uma trágica lesão que encerrou a carreira.",
       "description": "Você sofreu uma lesão",
-      "minor": "Lesão Leve",
+      "minor": "Leve ({type})",
       "missedSeason": "Perdeu parte significativa da temporada devido a lesão.",
-      "moderate": "Lesão Moderada",
+      "moderate": "Moderada ({type})",
       "recovery": "Recuperação",
       "recovery_serious": "Retornou de uma lesão grave - aliviado por estar de volta.",
       "recovery_normal": "Recuperado da lesão e de volta à forma física completa.",
@@ -448,7 +469,7 @@
       },
       "worldCupGroupExit": "Decepcionante eliminação na fase de grupos da Torneio Mundial. A seleção não se classificou para o mata-mata.",
       "worldCupHatTrick": "HAT-TRICK na Torneio Mundial {round} contra {opponent}! Performance lendária por {country}!",
-      "worldCupCallup": "Selecionado para a Torneio Mundial por {country}!"
+      "worldCupCallup": "Selecionado para o Torneio Mundial por {country}!"
     },
     "nightclub": {
       "choice_apologize": "Pedir desculpas publicamente",
@@ -995,6 +1016,14 @@
         "positive": "Entrevista carismática conquista fãs e mídia."
       },
       "skill": "Drible incrível compartilhado por milhões de fãs."
+    },
+    "goals": {
+      "achieved": "🎯 Objetivo Alcançado: {narrative}",
+      "newGoal": "🎯 Novo Objetivo Desbloqueado: {goal}"
+    },
+    "wcQualification": {
+      "description": "Sua seleção nacional está competindo por uma vaga no Torneio Mundial",
+      "title": "Eliminatórias do Torneio Mundial"
     }
   },
   "media": {
@@ -1406,6 +1435,40 @@
       "platinum": "Patrocinador Platina",
       "diamond": "Patrocinador Diamante"
     },
+    "matchEvents": {
+      "strayPass": {
+        "0": "{player} errou um passe",
+        "1": "Passe ruim de {player}"
+      },
+      "goodPass": {
+        "0": "Ótimo passe de {player}",
+        "1": "{player} encontra um companheiro"
+      },
+      "goal": {
+        "0": "GOL! {player} marca!",
+        "1": "Que finalização de {player}!"
+      },
+      "assist": {
+        "0": "Assistência de {player}",
+        "1": "Bela bola de {player}"
+      },
+      "yellowCard": {
+        "0": "Cartão amarelo para {player}",
+        "1": "{player} é advertido"
+      },
+      "redCard": {
+        "0": "Cartão vermelho! {player} é expulso!",
+        "1": "{player} vai para o chuveiro mais cedo"
+      },
+      "injury": {
+        "0": "{player} parece machucado",
+        "1": "{player} sai lesionado"
+      },
+      "substitution": {
+        "0": "Substituição: sai {out}, entra {in}",
+        "1": "{in} substitui {out}"
+      }
+    },
     "comments": {
       "minutesAgo": "há {count}m",
       "hoursAgo": "há {count}h",
@@ -1471,18 +1534,18 @@
       "watching": "Observando de perto... mostre-nos do que é capaz!"
     },
     "headlines": {
-      "awardNomination": "Indicação a prêmio recebida",
-      "awardWon": "Vencedor do prêmio!",
-      "badForm": "Lutando para encontrar a forma",
-      "cleanSheetStreak": "Muralha! Sequência sem sofrer gols",
+      "awardNomination": "{player} indicado a um prêmio de prestígio.",
+      "awardWon": "Vitória! {player} vence o prêmio!",
+      "badForm": "Dúvidas surgem sobre a fase recente de {player}.",
+      "cleanSheetStreak": "Mais um jogo sem sofrer gols para {player}!",
       "controversy": "Nos holofotes",
       "generic": "Fazendo manchetes",
-      "hatTrick": "Hat-trick do craque!",
-      "injuryReturn": "De volta e pronto!",
-      "nationalCallup": "Convocado para a seleção!",
-      "newContract": "Novo contrato assinado!",
-      "scoringStreak": "Em chamas! Sequência de gols continua",
-      "topScorer": "Liderando a artilharia",
+      "hatTrick": "{player} marca um hat-trick espetacular!",
+      "injuryReturn": "{player} retorna após período lesionado.",
+      "nationalCallup": "Convocação internacional para {player}.",
+      "newContract": "{player} assina novo contrato.",
+      "scoringStreak": "{player} não para de marcar gols!",
+      "topScorer": "{player} lidera a artilharia!",
       "transferred": "Novo capítulo começa"
     },
     "interview": {

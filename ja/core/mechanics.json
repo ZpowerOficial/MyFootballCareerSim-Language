@@ -1,0 +1,206 @@
+{
+  "form": {
+    "Average": "平均的",
+    "Excellent": "絶好調",
+    "Good": "好調",
+    "Injured": "負傷中",
+    "OnFire": "絶好調（全開）",
+    "Poor": "不調",
+    "Suspended": "出場停止",
+    "VeryPoor": "絶不調",
+    "average": "平均的",
+    "belowAverage": "平均以下",
+    "excellent": "絶好調",
+    "good": "好調",
+    "poor": "不調",
+    "terrible": "最悪",
+    "veryGood": "とても良い",
+    "worldClass": "ワールドクラス"
+  },
+  "morale": {
+    "Content": "満足",
+    "Ecstatic": "最高",
+    "Furious": "激怒",
+    "Happy": "幸せ",
+    "High": "高い",
+    "Low": "低い",
+    "Neutral": "普通",
+    "Normal": "普通",
+    "Unhappy": "不満",
+    "Very High": "非常に高い",
+    "Very Low": "非常に低い",
+    "_title": "士気"
+  },
+  "squadStatus": {
+    "Captain": "キャプテン",
+    "Club Legend": "クラブレジェンド",
+    "Franchise Player": "フランチャイズプレイヤー",
+    "Key Player": "キープレイヤー",
+    "Prospect": "プロスペクト",
+    "Reserve": "リザーブ",
+    "Rotation": "ローテーション",
+    "Squad Player": "スカッドプレイヤー",
+    "Starter": "スターター",
+    "Surplus": "戦力外",
+    "Veteran Leader": "ベテランリーダー",
+    "Veteran Rotation": "ベテランローテーション",
+    "Veteran Star": "ベテランスター",
+    "Vice-Captain": "副キャプテン",
+    "Youth Player": "ユース選手",
+    "_title": "チーム内序列"
+  },
+  "negotiation": {
+    "accept": "オファー受諾",
+    "propose": "条件提示",
+    "round": "ラウンド",
+    "subtitle": "契約交渉",
+    "title": "交渉"
+  },
+  "offer": {
+    "type": {
+      "loan": "レンタル",
+      "transfer": "完全移籍"
+    }
+  },
+  "offers": {
+    "accept": "受諾",
+    "closeAndStay": "終了して残留",
+    "contractLength": "契約期間",
+    "decline": "拒否",
+    "loanDuration": "レンタル期間",
+    "loanMove": "レンタル移籍",
+    "noOffers": "オファーなし",
+    "noOffersDescription": "今シーズンは移籍オファーが届いていません。",
+    "permanentTransfer": "完全移籍",
+    "reputation": "評価",
+    "season": "シーズン",
+    "seasons": "シーズン",
+    "tier": "ティア",
+    "transferOffers": "移籍オファー",
+    "wage": "給与",
+    "years": "年"
+  },
+  "personality": {
+    "Ambitious": "野心的",
+    "Balanced": "バランス型",
+    "Determined": "断固たる決意",
+    "Easygoing": "マイペース",
+    "Inconsistent": "ムラがある",
+    "Jovial": "陽気",
+    "Lazy": "怠惰",
+    "Leader": "リーダー",
+    "Loyal": "忠実",
+    "Media Darling": "メディアの寵児",
+    "Professional": "プロフェッショナル",
+    "Reserved": "控えめ",
+    "Temperamental": "感情的"
+  },
+  "playerStyle": {
+    "advancedPlaymaker": "アドバンスド・プレイメーカー",
+    "ballPlayingDefender": "ボールプレイング・ディフェンダー",
+    "ballWinningMidfielder": "ボールウィニング・ミッドフィルダー",
+    "boxToBox": "ボックス・トゥ・ボックス",
+    "completeForward": "コンプリート・フォワード",
+    "deepLyingPlaymaker": "ディープライイング・プレイメーカー",
+    "emergingTalent": "新星",
+    "false9": "フォルスナイン",
+    "insideForward": "インサイド・フォワード",
+    "invertedWinger": "インバーテッド・ウインガー",
+    "mezzala": "メッツァーラ",
+    "poacher": "ポーチャー",
+    "regista": "レジスタ",
+    "shotStopper": "ショット・ストッパー",
+    "speedDemon": "スピードスター",
+    "stopper": "ストッパー",
+    "sweeper": "スイーパー",
+    "sweeperKeeper": "スイーパーキーパー",
+    "targetMan": "ターゲットマン",
+    "traditionalWinger": "クラシック・ウインガー",
+    "versatilePlayer": "ユーティリティ・プレイヤー",
+    "widePlaymaker": "ワイド・プレイメーカー",
+    "wingBack": "ウイングバック"
+  },
+  "seasonFocus": {
+    "aerial": {
+      "description": "ヘディングや空中戦の強さを改善する",
+      "title": "空中戦強化"
+    },
+    "balanced": {
+      "description": "全分野での総合的な向上を目指す",
+      "title": "総合力"
+    },
+    "ballPlaying": {
+      "description": "後方からのパスや組み立てを改善する",
+      "title": "ビルドアップ"
+    },
+    "boxToBox": {
+      "description": "ピッチ全体をカバーし、攻守に貢献する",
+      "title": "ダイナモ"
+    },
+    "consistency": {
+      "description": "シーズンを通して安定したパフォーマンスを目指す",
+      "title": "一貫性"
+    },
+    "development": {
+      "description": "総合値と能力の向上に集中する",
+      "title": "能力開発"
+    },
+    "distribution": {
+      "description": "キックやスローイングによる配給を改善する",
+      "title": "配給能力"
+    },
+    "durationHint": "このフォーカスは {seasons} シーズン続きます",
+    "heading": {
+      "description": "ヘディングと空中戦の強さを改善する",
+      "title": "ヘッダー"
+    },
+    "leadership": {
+      "description": "リーダーシップとチームへの影響力を養う",
+      "title": "統率力"
+    },
+    "longShots": {
+      "description": "エリア外からのシュートを練習する",
+      "title": "ミドルシューター"
+    },
+    "marking": {
+      "description": "マンマークとポジショニングを改善する",
+      "title": "守備戦術"
+    },
+    "playmaking": {
+      "description": "アシストとチャンスメイクを優先する",
+      "title": "司令塔"
+    },
+    "positionHint": "{position} で利用可能なオプション",
+    "positioning": {
+      "description": "試合の流れを読む力とポジショニングを磨く",
+      "title": "戦術理解"
+    },
+    "reflexes": {
+      "description": "反応速度とセーブ能力を研ぎ澄ます",
+      "title": "反射神経"
+    },
+    "scoring": {
+      "description": "ゴールと決定力を優先する",
+      "title": "ストライカー"
+    },
+    "speed": {
+      "description": "ペースと素早い動きの向上に集中する",
+      "title": "スプリント"
+    },
+    "subtitle": "シーズンの目標と期待値を形成するフォーカスを選択してください。",
+    "title": "シーズンフォーカス",
+    "titles": {
+      "description": "トロフィー獲得に集中する。チームの勝利が最優先される。",
+      "title": "タイトル・ハンター"
+    }
+  },
+  "legend": {
+    "elite": "世界最高峰",
+    "lower": "下位",
+    "mid": "中堅",
+    "top": "トップ"
+  },
+  "status": {
+    "controversial": "賛否両論"
+  }
+}

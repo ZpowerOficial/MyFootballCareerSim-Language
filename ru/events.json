@@ -6,12 +6,81 @@
   "goals": {
     "achieved": "🎯 Цель достигнута: {narrative}",
     "newGoal": "🎯 Новая цель разблокирована: {goal}",
-    "completed": "Завершено"
+    "completed": "Завершено",
+    "100goals": "Score 100 career goals",
+    "ballonDor": "Win the Golden Trophy",
+    "becomeCaptain": "Become captain of {team}",
+    "becomeClubLegend": "Become a Club Legend",
+    "becomeStarter": "Become regular starter",
+    "breakGoalRecord": "Break goal record",
+    "firstCleanSheet": "Keep first clean sheet",
+    "firstGoal": "Score first professional goal",
+    "firstTrophy": "Win first major trophy",
+    "nationalTeamCallUp": "Get called up to national team",
+    "proDebut": "Make professional debut",
+    "reach100Caps": "Reach 100 International Caps",
+    "reachCareerAssists": "Reach career assists milestone",
+    "reachCareerGoals": "Reach career goals milestone",
+    "reachOverallRating": "Reach OVR target",
+    "winWorldCup": "Win the World Tournament"
   },
   "agent": {
     "contractExpired": "Ваш агентский контракт истек. Вы подписали соглашение с {name} ({reputation}).",
     "contractExtended": "Отличные отношения с вашим агентом {name}! Контракт продлен со сниженной комиссией.",
-    "promoted": "Ваш агент {name} получил статус {reputation}!"
+    "promoted": "Ваш агент {name} получил статус {reputation}!",
+    "reasons": {
+      "controversy": "Scandal involving {name} forced a change.",
+      "eliteCall": "An elite agency led by {name} made an irresistible offer.",
+      "fallout": "Irreconcilable falling out with {name}.",
+      "improved": "Seeking new heights under the representation of {name}.",
+      "merger": "The agency of {name} underwent a corporate merger.",
+      "none": "No interesting agent proposals at the moment.",
+      "special": "An unexpected event in the agent market forced a change.",
+      "starAttraction": "Your status at {team} attracted world-class agencies.",
+      "stay": "Decided to stay loyal to current agency."
+    },
+    "reputation": {
+      "Average": "Average",
+      "Good": "Good",
+      "Rookie": "Rookie",
+      "Super Agent": "Super Agent"
+    },
+    "specialty": {
+      "BrandBuilder": "Brand Builder",
+      "Negotiator": "Negotiator",
+      "Scout": "Scout",
+      "balanced": "Balanced",
+      "contract": "Contracts",
+      "sponsorship": "Sponsorships",
+      "transfer": "Transfers"
+    },
+    "style": {
+      "Adaptable": "Adaptable",
+      "Aggressive": "Aggressive",
+      "Ambitious": "Ambitious",
+      "Analytical": "Analytical",
+      "Calm": "Calm",
+      "Charismatic": "Charismatic",
+      "Dedicated": "Dedicated",
+      "Energetic": "Energetic",
+      "Experienced": "Experienced",
+      "Focused": "Focused",
+      "Friendly": "Friendly",
+      "Honest": "Honest",
+      "Innovative": "Innovative",
+      "Methodical": "Methodical",
+      "Motivated": "Motivated",
+      "Networked": "Networked",
+      "Passionate": "Passionate",
+      "Patient": "Patient",
+      "Persistent": "Persistent",
+      "Precise": "Precise",
+      "Professional": "Professional",
+      "Reliable": "Reliable",
+      "Strategic": "Strategic",
+      "Traditional": "Traditional",
+      "Visionary": "Visionary"
+    }
   },
   "eventNotifications": {
     "transferRequest": "Запрос на трансфер подан",
@@ -61,7 +130,7 @@
       "leagueRookieOfYear": "Новичок года",
       "leagueTopAssister": "Лучший ассистент",
       "playmaker": "Плеймейкер лиги",
-      "puskas": "Премия Пушкаша",
+      "puskas": "Лучший гол года",
       "rookie": "Новичок года",
       "teamOfTheYear": "Команда года",
       "title": "Награда",
@@ -400,7 +469,8 @@
       "naturalDecline": "Естественный спад",
       "peakPhysical": "Физический пик",
       "weightGain": "Набор веса",
-      "weightLoss": "Потеря веса"
+      "weightLoss": "Потеря веса",
+      "bodyTypeChange": "Body type changed"
     },
     "promotion": {
       "asProspect": "Переведен в основной состав {team} в возрасте {age} лет. Считается многообещающим талантом для будущего.",
@@ -798,7 +868,9 @@
       "title": "Командный досуг"
     },
     "training": {
-      "title": "Тренировка"
+      "title": "Тренировка",
+      "completed": "Completed Training",
+      "minor_injury": "Minor injury during training"
     },
     "trainingDecision": {
       "choice_balanced": "Следовать стандартному тренировочному плану",
@@ -883,6 +955,14 @@
         "positive": "Обаятельное интервью покорило фанатов и СМИ."
       },
       "skill": "Невероятный финт поделились миллионы фанатов."
+    },
+    "goals": {
+      "achieved": "🎯 Goal Achieved: {narrative}",
+      "newGoal": "🎯 New Goal Unlocked: {goal}"
+    },
+    "wcQualification": {
+      "description": "Your national team is competing for the World Tournament",
+      "title": "World Tournament Qualifiers"
     }
   },
   "contractTermination": {
@@ -1443,5 +1523,71 @@
     "warning_1": "Вынесено первое предупреждение по поводу поведения.",
     "warning_2": "Второе предупреждение: требуются немедленные улучшения.",
     "warning_3": "Последнее предупреждение перед выставлением на трансфер."
+  },
+  "award": {
+    "ballonDor": "Золотой Трофей",
+    "ballonDorNomination": "Номинация - Золотой Трофей",
+    "ballonDorRunnerUp": "Топ 3 - Золотой Трофей",
+    "comeback": "💪 Возвращение Года после восстановления от тяжелой травмы!",
+    "comebackPlayerOfYear": "Игрок Года: Возвращение",
+    "continentalCompTopScorer": "👟 Лучший Бомбардир {competition} ({goals} голов)!",
+    "continentalCompetitionTopScorer": "Лучший Бомбардир Континента",
+    "continentalCupPOTY": "MVP - Кубок Чемпионов",
+    "continentalPOTY": "⭐ Признан Лучшим Игроком {competition}!",
+    "continentalPlayer": "Игрок Континента",
+    "continentalTOTT": "👕 Включен в Команду Турнира {competition}!",
+    "cupGoldenBootShared": "Разделил Золотую Бутсу Кубка с {goals} голами!",
+    "cupTopScorer": "👟 Лучший Бомбардир Кубка ({goals} голов)!",
+    "europeanGoldenShoe": "Европейская Золотая Бутса",
+    "fifaBest": "🏆⭐ Признан Игроком Сезона!",
+    "goalOfTheYear": "Гол Года",
+    "goldenBoot": "👟 Лучший Бомбардир Лиги ({goals} голов)!",
+    "goldenBootShared": "Разделил Золотую Бутсу Лиги с {goals} голами!",
+    "goldenBoy": "🧒🏆 Молодой Игрок Года! Будущее за вами.",
+    "goldenGlove": "🧤 Обладатель Золотой Перчатки ({cleanSheets} сухих матчей)!",
+    "goldenShoe": "🥇 Обладатель Европейской Золотой Бутсы! ({goals} голов)",
+    "leagueDefenderOfYear": "Защитник Года",
+    "leagueForwardOfYear": "Нападающий Года",
+    "leagueMidfielderOfYear": "Полузащитник Года",
+    "leaguePOTY": "🏅 Игрок Сезона в Лиге!",
+    "leaguePlayerOfYear": "Игрок Года в Лиге",
+    "leaguePlaymaker": "Лидер по Ассистам",
+    "leaguePositional": "🏅 Признан Лучшим {position} Лиги!",
+    "leagueRookieOfYear": "Новичок Года",
+    "leagueTopAssister": "Лучший Ассистент",
+    "playmaker": "🎯 Лидер Лиги по Ассистам ({assists} передач)!",
+    "puskas": "⚽🔥 Обладатель премии Лучший гол года!",
+    "rookie": "⭐ Признан Новичком Года в Лиге!",
+    "shortlist": "⭐ Попал в шорт-лист на Золотой Трофей.",
+    "teamOfTheYear": "👕 Включен в Команду Года Лиги.",
+    "title": "Награда",
+    "worldCupBestGoalkeeper": "Золотая Перчатка - Мировой Турнир",
+    "worldCupGoldenBall": "🌍🏅 Обладатель Золотого Трофея Мирового Турнира!",
+    "worldCupGoldenBoot": "👟🌍 Обладатель Золотой Бутсы Мирового Турнира!",
+    "worldCupTOTT": "👕 Включен в Команду Мирового Турнира!",
+    "worldPlayer": "🏆⭐ ЛУЧШИЙ ИГРОК МИРА! Признан лучшим на планете. История: {narrative}."
+  },
+  "competitions": {
+    "afcon": "Кубок Африки",
+    "asianCup": "Кубок Азии",
+    "continentalCup": "Кубок Чемпионов",
+    "copaAmerica": "Кубок Америки",
+    "euro": "Кубок Европы",
+    "goldCup": "Золотой Кубок",
+    "nationsLeague": "Кубок Наций",
+    "oceaniaCup": "Кубок Океании",
+    "worldCup": "Кубок Мира",
+    "wcQualifiers": "Квалификация Кубка Мира"
+  },
+  "common": {
+    "rounds": {
+      "final": "Финал",
+      "groupStage": "Групповой Этап",
+      "qualifier": "Квалификация",
+      "quarterFinal": "Четвертьфинал",
+      "roundOf16": "1/8 Финала",
+      "semiFinal": "Полуфинал",
+      "winner": "Победитель"
+    }
   }
 }

@@ -1348,15 +1348,15 @@
     }
   },
   "retirement": {
+    "reason": {
+      "injury": "Recurring Injury"
+    },
     "future": {
       "academy": "Youth Academy Director",
       "ambassador": "Club Ambassador",
       "coaching": "Coaching Staff",
       "outside_football": "Life Outside Football",
       "punditry": "Media Punditry"
-    },
-    "reason": {
-      "injury": "Recurring Injury"
     },
     "tribute": {
       "defied_time": "Defied Time",
@@ -1372,19 +1372,58 @@
     }
   },
   "social": {
-    "socialMedia": "Social Media",
-    "viewComments": "View Comments",
     "engagement": "Engagement",
-    "viralMoments": "{count} Viral Moments!",
-    "recentComments": "Recent Comments",
+    "fans": "Fans",
     "followers": "Followers",
     "growth": "Growth",
+    "headlines": {
+      "controversy": "Controversy Erupts",
+      "generic": "Update",
+      "transferred": "Club Announcement",
+      "awardNomination": "{player} nominated for prestigious award.",
+      "awardWon": "Victory! {player} wins award!",
+      "badForm": "Questions raised over {player}'s recent form.",
+      "cleanSheetStreak": "Another clean sheet for {player}!",
+      "hatTrick": "{player} scores a stunning hat-trick!",
+      "injuryReturn": "{player} returns from injury layoff.",
+      "nationalCallup": "International duty calls for {player}.",
+      "newContract": "{player} signs new contract deal.",
+      "scoringStreak": "{player} can't stop scoring!",
+      "topScorer": "{player} leads the scoring charts!"
+    },
+    "interview": {
+      "q1": "How do you feel about your recent form?",
+      "q2": "What are your thoughts on the upcoming match?",
+      "q3": "Any message for the fans?"
+    },
+    "popularity": "Popularity",
+    "press": "Press",
+    "reactions": {
+      "assist1": "Great vision! 👀",
+      "assist2": "What a pass! 🎯",
+      "award1": "Well deserved! 🏆",
+      "award2": "Best in the world! 🌍",
+      "award3": "Finally recognized!",
+      "goal1": "Goal machine! ⚽",
+      "goal2": "What a hit! 🚀",
+      "goal3": "He can't stop scoring! 🔥",
+      "injury1": "Get well soon! 🙏",
+      "injury2": "Come back stronger! 💪",
+      "transfer1": "Welcome to the club! 🔵",
+      "transfer2": "Sad to see you go. Thanks for everything! ❤️"
+    },
+    "relationships": "Relationships",
+    "reply": "Reply",
+    "sponsors": "Sponsors",
+    "socialMedia": "Social Media",
+    "viewComments": "View Comments",
+    "viralMoments": "{count} Viral Moments!",
+    "recentComments": "Recent Comments",
     "noNews": "No recent news",
     "noSponsors": "No active sponsors",
     "pendingOffers": "{count} pending offers",
     "publicComments": "Public Comments",
     "noComments": "No comments yet",
-    "reply": "Reply",
     "pressInterview": "Press Interview",
     "selectQuestion": "Select a question to answer",
     "viewInterview": "View Interview results",
@@ -1394,11 +1433,6 @@
     "homeCountry": "Home Country Popularity",
     "currentCountry": "Current Country Popularity",
     "globalRating": "Global Rating",
-    "fans": "Fans",
-    "press": "Press",
-    "popularity": "Popularity",
-    "relationships": "Relationships",
-    "sponsors": "Sponsors",
     "teamChemistry": "Team Chemistry",
     "totalSponsorIncome": "Total Weekly Income",
     "contractUntil": "Contract until {season}",
@@ -1509,40 +1543,6 @@
       "nextGeneration": "The next generation is here. Impressive maturity from {name}.",
       "protect": "We need to protect this talent. He's the future of {team}.",
       "wonderkid": "Wonderkid alert! 💎 This kid is special."
-    },
-    "headlines": {
-      "awardNomination": "{player} nominated for prestigious award.",
-      "awardWon": "Victory! {player} wins award!",
-      "badForm": "Questions raised over {player}'s recent form.",
-      "cleanSheetStreak": "Another clean sheet for {player}!",
-      "controversy": "Breaking: {player} involved in controversy.",
-      "generic": "Update on {player}'s season.",
-      "hatTrick": "{player} scores a stunning hat-trick!",
-      "injuryReturn": "{player} returns from injury layoff.",
-      "nationalCallup": "International duty calls for {player}.",
-      "newContract": "{player} signs new contract deal.",
-      "scoringStreak": "{player} can't stop scoring!",
-      "topScorer": "{player} leads the scoring charts!",
-      "transferred": "Official: {player} completes transfer."
-    },
-    "interview": {
-      "q1": "How do you rate your performance?",
-      "q2": "What are your goals for next season?",
-      "q3": "Are you happy at the club?"
-    },
-    "reactions": {
-      "assist1": "Great vision! 👀",
-      "assist2": "What a pass! 🎯",
-      "award1": "Well deserved! 🏆",
-      "award2": "Best in the world! 🌍",
-      "award3": "Finally recognized!",
-      "goal1": "Goal machine! ⚽",
-      "goal2": "What a hit! 🚀",
-      "goal3": "He can't stop scoring! 🔥",
-      "injury1": "Get well soon! 🙏",
-      "injury2": "Come back stronger! 💪",
-      "transfer1": "Welcome to the club! 🔵",
-      "transfer2": "Sad to see you go. Thanks for everything! ❤️"
     }
   },
   "transfer": {

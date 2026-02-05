@@ -1,0 +1,104 @@
+{
+  "_meta": {
+    "patchable": true,
+    "description": "عناوين الأخبار وصف الأحداث - يدعم تعديلات المجتمع للمحتوى المترجم",
+    "interpolation": "يستخدم {variable} للقيم الديناميكية و {{ref:path}} للإشارات المرجعية"
+  },
+  "news": {
+    "assistMilestone": {
+      "1": "صانع ألعاب! {name} يصل إلى {assists} تمريرة حاسمة في المسيرة",
+      "2": "{name} يُحقق {assists} تمريرة حاسمة في مسيرة لامعة",
+      "3": "مُبدع بالفطرة: {name} لديه {assists} تمريرة حاسمة"
+    },
+    "ballonDor": {
+      "0": "{name} يفوز بـ {{ref:content.awards.ballonDor}} لعام {year}!",
+      "1": "عصر ذهبي: {name} يُتوج كأفضل لاعب في العالم",
+      "2": "رسمياً: {name} يحصد الجائزة الأكبر في عالم كرة القدم"
+    },
+    "championsLeague": {
+      "1": "ملوك القارة! {team} يفوز بـ {{ref:content.competitions.championsLeague}}",
+      "2": "ليلة المجد! {name} و {team} يسيطرون على القارة",
+      "3": "{team} يتوج بطلاً لدوري الأبطال"
+    },
+    "europaLeague": {
+      "1": "مجد كأس الأندية! {team} يفوز باللقب القاري",
+      "2": "{name} و {team} ينتصرون في {{ref:content.competitions.europaLeague}}",
+      "3": "نجاح قاري! {team} يرفع {{ref:content.competitions.europaLeague}}"
+    },
+    "goldenBoot": {
+      "0": "{name} الهداف! {goals} أهداف هذا الموسم",
+      "1": "الحذاء الذهبي لـ {name} برصيد {goals} هدف",
+      "2": "{name} يُنهي الموسم كأفضل قناص: {goals} هدف"
+    },
+    "leagueChampion": {
+      "0": "أبطال! {team} يفوز بالدوري مع {name}",
+      "1": "اللقب محسوم! {team} و {name} يحتفلون",
+      "2": "الكأس لنا! {team} يفوز بالبطولة الوطنية"
+    },
+    "transfer": {
+      "0": "عاجل! {name} هو التوقيع الجديد لـ {newTeam}",
+      "1": "رسمياً: {name} يوقع مع {newTeam}",
+      "2": "{newTeam} يعلن عن صفقة مدوية بضم {name}"
+    },
+    "worldCup": {
+      "0": "{team} أبطال العالم! الكأس لنا!",
+      "1": "على قمة العالم! {team} يقهر {{ref:content.competitions.worldCup}}",
+      "2": "المجد الأقصى! {team} يفوز بـ {{ref:content.competitions.worldCup}}"
+    },
+    "continentalQualification": {
+      "1": "كرة القدم القارية! {team} يتأهل لـ {competition}",
+      "2": "{name} يساعد {team} في الوصول إلى {competition}",
+      "3": "التحدي القاري ينتظر {team}"
+    },
+    "hatTrick": {
+      "1": "بطل الهاتريك! {name} يسجل ثلاثة أهداف",
+      "2": "{name} يوقع على هاتريك في فوز {team}",
+      "3": "ثلاثية رائعة! {name} يسجل ثلاثة أهداف"
+    },
+    "firstGoal": {
+      "1": "أول هدف! {name} يفتح سجله الاحترافي",
+      "2": "{name} يسجل أول هدف في مسيرته مع {team}",
+      "3": "انطلاقة التهديف! {name} يسجل هدف ظهوره الأول"
+    },
+    "professionalDebut": {
+      "1": "ظهور لأول مرة! {name} يشارك لأول مرة كمحترف",
+      "2": "البداية: {name} يظهر لأول مرة مع {team}",
+      "3": "{name} يُسجل ظهوره الاحترافي المنتظر"
+    },
+    "internationalDebut": {
+      "1": "ظهور دولي! {name} يمثل {country}",
+      "2": "{name} يحصل على أول مباراة دولية مع {country}",
+      "3": "لحظة فخر: {name} يظهر لأول مرة مع المنتخب الوطني"
+    },
+    "retirement": {
+      "0": "{name} يعلن اعتزاله. شكراً على كل شيء!",
+      "1": "نهاية حقبة: {name} يعلق حذاءه",
+      "2": "وداع الأسطورة: {name} يتقاعد"
+    },
+    "promotion": {
+      "1": "صعود! {team} يصعد إلى {league}",
+      "2": "{name} و {team} يتأهلون للصعود إلى {league}",
+      "3": "احتفالات! {team} يصعد إلى {league}"
+    },
+    "relegation": {
+      "0": "مأساة: {team} يهبط مع {name} في التشكيلة",
+      "1": "سقوط تاريخي: {team} يهبط للدرجة الثانية",
+      "2": "يوم حزين: {team} بقيادة {name} يسقط ويهبط"
+    }
+  },
+  "newsType": {
+    "assistMilestone": "إنجاز التمريرات الحاسمة",
+    "ballonDor": "{{ref:content.awards.ballonDor}}",
+    "championsLeague": "{{ref:content.competitions.championsLeague}}",
+    "cupWinner": "الفائز بالكأس",
+    "europaLeague": "{{ref:content.competitions.europaLeague}}",
+    "goldenBoot": "الحذاء الذهبي",
+    "hatTrick": "هاتريك",
+    "leagueChampion": "بطل الدوري",
+    "transfer": "انتقال",
+    "worldCup": "{{ref:content.competitions.worldCup}}",
+    "retirement": "اعتزال",
+    "promotion": "صعود",
+    "relegation": "هبوط"
+  }
+}

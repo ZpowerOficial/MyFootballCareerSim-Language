@@ -1,0 +1,206 @@
+{
+  "form": {
+    "Average": "Ortalama",
+    "Excellent": "Mükemmel",
+    "Good": "İyi",
+    "Injured": "Sakat",
+    "OnFire": "Formda",
+    "Poor": "Kötü",
+    "Suspended": "Cezalı",
+    "VeryPoor": "Çok Kötü",
+    "average": "ortalama",
+    "belowAverage": "ortalama altı",
+    "excellent": "mükemmel",
+    "good": "iyi",
+    "poor": "kötü",
+    "terrible": "berbat",
+    "veryGood": "çok iyi",
+    "worldClass": "dünya klası"
+  },
+  "morale": {
+    "Content": "Memnun",
+    "Ecstatic": "Çok Mutlu",
+    "Furious": "Öfkeli",
+    "Happy": "Mutlu",
+    "High": "Yüksek",
+    "Low": "Düşük",
+    "Neutral": "Nötr",
+    "Normal": "Normal",
+    "Unhappy": "Mutsuz",
+    "Very High": "Çok Yüksek",
+    "Very Low": "Çok Düşük",
+    "_title": "Moral"
+  },
+  "squadStatus": {
+    "Captain": "Kaptan",
+    "Club Legend": "Kulüp Efsanesi",
+    "Franchise Player": "Takımın Yıldızı",
+    "Key Player": "Kilit Oyuncu",
+    "Prospect": "Gelecek Vaadeden",
+    "Reserve": "Yedek",
+    "Rotation": "Rotasyon",
+    "Squad Player": "Kadrosu Oyuncusu",
+    "Starter": "As Oyuncu",
+    "Surplus": "Gözden Çıkarılmış",
+    "Veteran Leader": "Deneyimli Lider",
+    "Veteran Rotation": "Deneyimli Rotasyon",
+    "Veteran Star": "Deneyimli Yıldız",
+    "Vice-Captain": "İkinci Kaptan",
+    "Youth Player": "Genç Oyuncu",
+    "_title": "Kadro Statüsü"
+  },
+  "negotiation": {
+    "accept": "Teklifi Kabul Et",
+    "propose": "Şartları Öner",
+    "round": "Tur",
+    "subtitle": "Sözleşme Görüşmesi",
+    "title": "Görüşme"
+  },
+  "offer": {
+    "type": {
+      "loan": "Kiralık",
+      "transfer": "Transfer"
+    }
+  },
+  "offers": {
+    "accept": "Kabul Et",
+    "closeAndStay": "Kapat ve Kal",
+    "contractLength": "Sözleşme Süresi",
+    "decline": "Reddet",
+    "loanDuration": "Kiralama Süresi",
+    "loanMove": "Kiralık Transfer",
+    "noOffers": "Kullanılabilir teklif yok",
+    "noOffersDescription": "bu sezon henüz herhangi bir transfer teklifi almadın.",
+    "permanentTransfer": "Kalıcı Transfer",
+    "reputation": "İtibar",
+    "season": "sezon",
+    "seasons": "sezon",
+    "tier": "Klasman",
+    "transferOffers": "Transfer Teklifleri",
+    "wage": "Maaş",
+    "years": "yıl"
+  },
+  "personality": {
+    "Ambitious": "Hırslı",
+    "Balanced": "Dengeli",
+    "Determined": "Kararlı",
+    "Easygoing": "Uyumlu",
+    "Inconsistent": "İstikrarsız",
+    "Jovial": "Neşeli",
+    "Lazy": "Tembel",
+    "Leader": "Lider",
+    "Loyal": "Sadık",
+    "Media Darling": "Medya Gözdesi",
+    "Professional": "Profesyonel",
+    "Reserved": "Sakin",
+    "Temperamental": "Duygusal"
+  },
+  "playerStyle": {
+    "advancedPlaymaker": "Ofansif Oyun Kurucu",
+    "ballPlayingDefender": "Pasör Stoper",
+    "ballWinningMidfielder": "Top Kazanan Orta Saha",
+    "boxToBox": "İki Yönlü Orta Saha",
+    "completeForward": "Komple Forvet",
+    "deepLyingPlaymaker": "Geriden Oyun Kurucu",
+    "emergingTalent": "Parlayan Yetenek",
+    "false9": "Sahte 9",
+    "insideForward": "Ters Kanat Oyuncusu",
+    "invertedWinger": "İç Forvet",
+    "mezzala": "Mezzala",
+    "poacher": "Fırsatçı Golcü",
+    "regista": "Regista",
+    "shotStopper": "Refleks Kalecisi",
+    "speedDemon": "Hız Canavarı",
+    "stopper": "Stoper",
+    "sweeper": "Libero",
+    "sweeperKeeper": "Süpürücü Kaleci",
+    "targetMan": "Hedef Santrafor",
+    "traditionalWinger": "Klasik Kanat Oyuncusu",
+    "versatilePlayer": "Çok Yönlü Oyuncu",
+    "widePlaymaker": "Kanat Oyun Kurucu",
+    "wingBack": "Kanat Beki"
+  },
+  "seasonFocus": {
+    "aerial": {
+      "description": "Daha fazla kafa topu ve hava mücadelesi kazan",
+      "title": "Hava Hakimiyeti"
+    },
+    "balanced": {
+      "description": "Tüm alanlarda genel gelişime odaklan",
+      "title": "Dengeli Gelişim"
+    },
+    "ballPlaying": {
+      "description": "Geriden oyun kurma ve pas yeteneğini geliştir",
+      "title": "Pasör Oyun"
+    },
+    "boxToBox": {
+      "description": "Sahayı boydan boya kat et, hem hücuma hem defansa katkı ver",
+      "title": "İki Yönlü Oyun"
+    },
+    "consistency": {
+      "description": "Sezon boyunca sağlam ve güvenilir performans sergilemeye çalış.",
+      "title": "İstikrar"
+    },
+    "development": {
+      "description": "Bu sezon genel yeteneğini ve özelliklerini geliştirmeye odaklan.",
+      "title": "Gelişim"
+    },
+    "distribution": {
+      "description": "Degaj ve elle oyunu geliştir",
+      "title": "Top Dağıtımı"
+    },
+    "durationHint": "Bu odak {seasons} sezon sürecek",
+    "heading": {
+      "description": "Kafa vuruşlarını ve hava toplarını geliştir",
+      "title": "Hava Oyunu"
+    },
+    "leadership": {
+      "description": "Liderlik niteliklerini ve takım üzerindeki etkini geliştir",
+      "title": "Liderlik"
+    },
+    "longShots": {
+      "description": "Ceza sahası dışından şut denemeleri yap",
+      "title": "Uzaktan Şutlar"
+    },
+    "marking": {
+      "description": "Adam markajını ve yer tutmayı geliştir",
+      "title": "Defansif Markaj"
+    },
+    "playmaking": {
+      "description": "Asist yapmaya ve şans yaratmaya öncelik ver. Beklentiler kilit paslara odaklanır.",
+      "title": "Oyun Kurma"
+    },
+    "positionHint": "{position} pozisyonu için kullanılabilir seçenekler",
+    "positioning": {
+      "description": "Daha iyi oyun okuma ve pozisyon alma hissi",
+      "title": "Yer Tutma"
+    },
+    "reflexes": {
+      "description": "Reaksiyon süreni geliştir ve kurtarışları netleştir",
+      "title": "Refleksler"
+    },
+    "scoring": {
+      "description": "Gol atmaya ve bitiriciliğe öncelik ver. Kulüp beklentileri gollere odaklanacaktır.",
+      "title": "Gol Yollarında Etkinlik"
+    },
+    "speed": {
+      "description": "Hıza ve hızlı gelişime odaklan",
+      "title": "Hız ve Çeviklik"
+    },
+    "subtitle": "Sezon hikayeni ve beklentilerini şekillendirecek bir odak seç.",
+    "title": "Sezon Odağı",
+    "titles": {
+      "description": "Kupa kazanmaya odaklan. Takım beklentileri daha önemli hale gelir.",
+      "title": "Şampiyonluklar"
+    }
+  },
+  "legend": {
+    "elite": "Elit",
+    "lower": "Alt",
+    "mid": "Orta",
+    "top": "Üst"
+  },
+  "status": {
+    "controversial": "Tartışmalı"
+  }
+}

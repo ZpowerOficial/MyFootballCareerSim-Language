@@ -6,12 +6,81 @@
   "goals": {
     "achieved": "🎯 Goal Achieved: {narrative}",
     "newGoal": "ðŸŽ¯ New Goal Unlocked: {goal}",
-    "completed": "Selesai"
+    "completed": "Selesai",
+    "100goals": "Score 100 career goals",
+    "ballonDor": "Win the Golden Trophy",
+    "becomeCaptain": "Become captain of {team}",
+    "becomeClubLegend": "Become a Club Legend",
+    "becomeStarter": "Become regular starter",
+    "breakGoalRecord": "Break goal record",
+    "firstCleanSheet": "Keep first clean sheet",
+    "firstGoal": "Score first professional goal",
+    "firstTrophy": "Win first major trophy",
+    "nationalTeamCallUp": "Get called up to national team",
+    "proDebut": "Make professional debut",
+    "reach100Caps": "Reach 100 International Caps",
+    "reachCareerAssists": "Reach career assists milestone",
+    "reachCareerGoals": "Reach career goals milestone",
+    "reachOverallRating": "Reach OVR target",
+    "winWorldCup": "Menangkan Turnamen Dunia"
   },
   "agent": {
-    "contractExpired": "Your agent contract expired. You signed with {name} ({reputation}).",
-    "contractExtended": "Excellent relationship with your agent {name}! Contract extended with reduced commission.",
-    "promoted": "Your agent {name} has been promoted to {reputation} status!"
+    "contractExpired": "Kontrak agen Anda berakhir. Anda menandatangani kontrak dengan {name} ({reputation}).",
+    "contractExtended": "Hubungan sangat baik dengan agen {name}! Kontrak diperpanjang dengan komisi yang lebih rendah.",
+    "promoted": "Agen Anda {name} telah dipromosikan ke status {reputation}!",
+    "reasons": {
+      "controversy": "Skandal yang melibatkan {name} memaksa perubahan agen.",
+      "eliteCall": "Agensi elit yang dipimpin oleh {name} mengajukan tawaran yang tak tertolak.",
+      "fallout": "Perselisihan yang tak terdamaikan dengan {name}.",
+      "improved": "Mencari pencapaian baru di bawah representasi {name}.",
+      "merger": "Agensi {name} mengalami penggabungan perusahaan.",
+      "none": "Tidak ada proposal agen yang menarik saat ini.",
+      "special": "Peristiwa tak terduga di pasar agen memaksa perubahan.",
+      "starAttraction": "Status Anda di {team} menarik agensi kelas dunia.",
+      "stay": "Memutuskan untuk tetap setia pada agensi saat ini."
+    },
+    "reputation": {
+      "Average": "Rata-rata",
+      "Good": "Baik",
+      "Rookie": "Pemula",
+      "Super Agent": "Agen Super"
+    },
+    "specialty": {
+      "BrandBuilder": "Pembangun Merek",
+      "Negotiator": "Negosiator",
+      "Scout": "Pencari Bakat",
+      "balanced": "Seimbang",
+      "contract": "Kontrak",
+      "sponsorship": "Sponsor",
+      "transfer": "Transfer"
+    },
+    "style": {
+      "Adaptable": "Adaptif",
+      "Aggressive": "Agresif",
+      "Ambitious": "Ambisius",
+      "Analytical": "Analitis",
+      "Calm": "Tenang",
+      "Charismatic": "Karismatik",
+      "Dedicated": "Berdedikasi",
+      "Energetic": "Energik",
+      "Experienced": "Berpengalaman",
+      "Focused": "Fokus",
+      "Friendly": "Ramah",
+      "Honest": "Jujur",
+      "Innovative": "Inovatif",
+      "Methodical": "Metodis",
+      "Motivated": "Termotivasi",
+      "Networked": "Berjaringan",
+      "Passionate": "Bergairah",
+      "Patient": "Sabar",
+      "Persistent": "Gigih",
+      "Precise": "Presisi",
+      "Professional": "Profesional",
+      "Reliable": "Andal",
+      "Strategic": "Strategis",
+      "Traditional": "Tradisional",
+      "Visionary": "Visioner"
+    }
   },
   "eventNotifications": {
     "transferRequest": "Permintaan Transfer Diajukan",
@@ -38,17 +107,17 @@
       "comebackPlayerOfYear": "Pemain Comeback",
       "continentalCompTopScorer": "Sepatu Emas Kontinental",
       "continentalCompetitionTopScorer": "Sepatu Emas Kontinental",
-      "continentalCupPOTY": "MVP Piala Kontinental",
-      "continentalPOTY": "Pemain Terbaik Kontinental Tahun Ini",
+      "continentalCupPOTY": "MVP Piala Champions",
+      "continentalPOTY": "Pemain Terbaik Piala Champions",
       "continentalPlayer": "Pemain Kontinental",
-      "continentalTOTT": "Tim Terbaik Kontinental",
-      "cupGoldenBootShared": "Shared the Cup Golden Boot with {goals} goals!",
-      "cupTopScorer": "Sepatu Emas Piala",
+      "continentalTOTT": "Tim Terbaik Piala Champions",
+      "cupGoldenBootShared": "Berbagi Sepatu Emas Piala dengan {goals} gol!",
+      "cupTopScorer": "Sepatu Emas Piala ({goals} gol)!",
       "europeanGoldenShoe": "Sepatu Emas Eropa",
-      "fifaBest": "Pemain Terbaik Tahun Ini",
+      "fifaBest": "Pemain Terbaik Musim Ini 🏆⭐",
       "goalOfTheYear": "Gol Terbaik Tahun Ini",
-      "goldenBoot": "Sepatu Emas Liga",
-      "goldenBootShared": "Shared the League Golden Boot with {goals} goals!",
+      "goldenBoot": "Sepatu Emas Liga ({goals} gol)!",
+      "goldenBootShared": "Berbagi Sepatu Emas Liga dengan {goals} gol!",
       "goldenBoy": "Pemain Muda Terbaik Tahun Ini",
       "goldenGlove": "Kiper Terbaik",
       "goldenShoe": "Sepatu Emas",
@@ -61,7 +130,7 @@
       "leagueRookieOfYear": "Pemain Baru Terbaik Tahun Ini",
       "leagueTopAssister": "Pemberi Assist Terbaik",
       "playmaker": "Playmaker Liga",
-      "puskas": "PuskÃ¡s Award",
+      "puskas": "Gol Terbaik Tahun Ini",
       "rookie": "Pemain Baru Terbaik Tahun Ini",
       "teamOfTheYear": "Tim Terbaik Tahun Ini",
       "title": "Award",
@@ -400,7 +469,8 @@
       "naturalDecline": "Penurunan alami",
       "peakPhysical": "Puncak fisik",
       "weightGain": "Penambahan berat badan",
-      "weightLoss": "Penurunan Berat Badan"
+      "weightLoss": "Penurunan Berat Badan",
+      "bodyTypeChange": "Body type changed"
     },
     "promotion": {
       "asProspect": "Promoted to {team} senior squad at age {age}. Regarded as exciting prospect for the future.",
@@ -817,7 +887,9 @@
       "title": "Interaksi Rekan Setim"
     },
     "training": {
-      "title": "Training"
+      "title": "Training",
+      "completed": "Completed Training",
+      "minor_injury": "Minor injury during training"
     },
     "trainingDecision": {
       "choice_balanced": "Pendekatan seimbang",
@@ -901,6 +973,14 @@
         "positive": "Wawancara menawan memenangkan hati penggemar dan media."
       },
       "skill": "Gerakan skill luar biasa dibagikan jutaan penggemar."
+    },
+    "goals": {
+      "achieved": "🎯 Goal Achieved: {narrative}",
+      "newGoal": "🎯 New Goal Unlocked: {goal}"
+    },
+    "wcQualification": {
+      "description": "Your national team is competing for the World Tournament",
+      "title": "World Tournament Qualifiers"
     }
   },
   "contractTermination": {
@@ -1461,5 +1541,71 @@
     "warning_1": "Peringatan pertama dikeluarkan terkait perilaku.",
     "warning_2": "Peringatan kedua: perbaikan diperlukan segera.",
     "warning_3": "Peringatan terakhir sebelum masuk daftar jual."
+  },
+  "award": {
+    "ballonDor": "Golden Trophy",
+    "ballonDorNomination": "Nominated - Golden Trophy",
+    "ballonDorRunnerUp": "Top 3 - Golden Trophy",
+    "comeback": "💪 Comeback Player of the Year after recovering from major injury!",
+    "comebackPlayerOfYear": "Comeback Player of the Year",
+    "continentalCompTopScorer": "👟 {competition} Top Scorer ({goals} goals)!",
+    "continentalCompetitionTopScorer": "Continental Top Scorer",
+    "continentalCupPOTY": "MVP - Continental Cup",
+    "continentalPOTY": "⭐ Voted Best Player of the {competition}!",
+    "continentalPlayer": "Continental Player",
+    "continentalTOTT": "👕 Named in {competition} Team of the Tournament!",
+    "cupGoldenBootShared": "Shared Cup Golden Boot with {goals} goals!",
+    "cupTopScorer": "👟 Cup Top Scorer ({goals} goals)!",
+    "europeanGoldenShoe": "European Golden Shoe",
+    "fifaBest": "🏆⭐ Voted Player of the Season!",
+    "goalOfTheYear": "Goal of the Year",
+    "goldenBoot": "👟 League Top Scorer ({goals} goals)!",
+    "goldenBootShared": "Shared League Golden Boot with {goals} goals!",
+    "goldenBoy": "🧒🏆 Young Player of the Year! The future is yours.",
+    "goldenGlove": "🧤 Golden Glove Winner ({cleanSheets} clean sheets)!",
+    "goldenShoe": "🥇 European Golden Shoe Winner! ({goals} goals)",
+    "leagueDefenderOfYear": "Defender of the Year",
+    "leagueForwardOfYear": "Forward of the Year",
+    "leagueMidfielderOfYear": "Midfielder of the Year",
+    "leaguePOTY": "🏅 League Player of the Season!",
+    "leaguePlayerOfYear": "League Player of the Year",
+    "leaguePlaymaker": "Assist Leader",
+    "leaguePositional": "🏅 Voted League's Best {position}!",
+    "leagueRookieOfYear": "Rookie of the Year",
+    "leagueTopAssister": "Top Assister",
+    "playmaker": "🎯 League Assist Leader ({assists} assists)!",
+    "puskas": "⚽🔥 Pemenang Penghargaan Gol Terbaik Tahun Ini!",
+    "rookie": "⭐ Named League Rookie of the Year!",
+    "shortlist": "⭐ Shortlisted for Golden Trophy.",
+    "teamOfTheYear": "👕 Named in League Team of the Year.",
+    "title": "Award",
+    "worldCupBestGoalkeeper": "Golden Glove - World Tournament",
+    "worldCupGoldenBall": "🌍🏅 World Tournament Golden Trophy Winner!",
+    "worldCupGoldenBoot": "👟🌍 World Tournament Golden Boot Winner!",
+    "worldCupTOTT": "👕 Named in World Tournament Team!",
+    "worldPlayer": "🏆⭐ WORLD'S BEST PLAYER! Recognized as the best on the planet. Narrative: {narrative}."
+  },
+  "competitions": {
+    "afcon": "Piala Afrika",
+    "asianCup": "Piala Asia",
+    "continentalCup": "Piala Champions",
+    "copaAmerica": "Copa América",
+    "euro": "Piala Eropa",
+    "goldCup": "Piala Emas",
+    "nationsLeague": "Liga Negara",
+    "oceaniaCup": "Piala Oseania",
+    "worldCup": "Piala Dunia",
+    "wcQualifiers": "Kualifikasi Piala Dunia"
+  },
+  "common": {
+    "rounds": {
+      "final": "Final",
+      "groupStage": "Group Stage",
+      "qualifier": "Qualifier",
+      "quarterFinal": "Quarter-Final",
+      "roundOf16": "Round of 16",
+      "semiFinal": "Semi-Final",
+      "winner": "Winner"
+    }
   }
 }

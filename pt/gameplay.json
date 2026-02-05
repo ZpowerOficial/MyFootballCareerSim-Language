@@ -3,20 +3,20 @@
     "abbr": {
       "AGI": "AGI",
       "DEF": "DEF",
-      "DIV": "DIV",
+      "DIV": "PON",
       "DRI": "DRI",
       "FIN": "FIN",
-      "HAN": "HAN",
-      "HEA": "HEA",
+      "HAN": "SEG",
+      "HEA": "CAB",
       "INT": "INT",
-      "PAC": "PAC",
+      "PAC": "VEL",
       "PAS": "PAS",
-      "PHY": "PHY",
+      "PHY": "FIS",
       "POS": "POS",
       "REF": "REF",
-      "SHO": "SHO",
-      "STA": "STA",
-      "STR": "STR",
+      "SHO": "FIN",
+      "STA": "RES",
+      "STR": "FOR",
       "VIS": "VIS"
     },
     "acceleration": "Aceleração",
@@ -81,7 +81,7 @@
     "shotPower": "Potência de Chute",
     "slidingTackle": "Carrinho",
     "sprintSpeed": "Velocidade de Sprint",
-    "stamina": "Resistência",
+    "stamina": "Vigor",
     "standingTackle": "Desarme em Pé",
     "strength": "Força",
     "technical": "Técnico",
@@ -151,7 +151,7 @@
     "endurance": {
       "aerobicEndurance": "Resistência Aeróbica",
       "anaerobicEndurance": "Resistência Anaeróbica",
-      "stamina": "Estamina",
+      "stamina": "Vigor",
       "workRate": "Dedicação"
     },
     "finishing": {
@@ -476,7 +476,7 @@
     "Unhappy": "Infeliz",
     "Very High": "Muito Alto",
     "Very Low": "Muito Baixo",
-    "_title": "Morale"
+    "_title": "Moral"
   },
   "negotiation": {
     "accept": "Aceitar Oferta",
@@ -1112,7 +1112,7 @@
     },
     "finesse": {
       "description": "Jogador elegante e técnico que confia na habilidade ao invés da fisicalidade.",
-      "name": "Finesse"
+      "name": "Elegância"
     },
     "finesseShot": {
       "description": "Coloca finalizações com precisão e efeito em vez de potência bruta.",

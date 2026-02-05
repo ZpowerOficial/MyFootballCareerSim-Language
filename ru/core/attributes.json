@@ -1,0 +1,296 @@
+{
+  "attributes": {
+    "abbr": {
+      "AGI": "ЛОВ",
+      "DEF": "ЗАЩ",
+      "DIV": "НЫР",
+      "DRI": "ДРБ",
+      "FIN": "ЗАВ",
+      "HAN": "РУК",
+      "HEA": "ГОЛ",
+      "INT": "ПРХ",
+      "PAC": "СКР",
+      "PAS": "ПАС",
+      "PHY": "ФИЗ",
+      "POS": "ПОЗ",
+      "REF": "РЕФ",
+      "SHO": "УДА",
+      "STA": "ВЫН",
+      "STR": "СИЛ",
+      "VIS": "ВИД"
+    },
+    "acceleration": "Ускорение",
+    "aerialControl": "Контроль в воздухе",
+    "age": "Возраст",
+    "aggression": "Агрессия",
+    "agility": "Ловкость",
+    "attacking": "Атака",
+    "attributeEvolution": "Эволюция атрибутов",
+    "balance": "Баланс",
+    "ballControl": "Контроль мяча",
+    "composure": "Собранность",
+    "crossing": "Навесы",
+    "currentAge": "Текущий возраст",
+    "currentOvr": "Текущий ОБЩ",
+    "curve": "Подкрутка",
+    "defending": "Защита",
+    "dribbling": "Дриблинг",
+    "finishing": "Завершение",
+    "flair": "Талант",
+    "foot": {
+      "left": "Левая",
+      "right": "Правая"
+    },
+    "footedness": "Рабочая нога",
+    "freeKick": "Точность штрафных",
+    "gkDiving": "Нырки (ВРТ)",
+    "gkHandling": "Игра руками (ВРТ)",
+    "gkKicking": "Выносы (ВРТ)",
+    "gkPositioning": "Позиция (ВРТ)",
+    "gkReflexes": "Рефлексы (ВРТ)",
+    "goalkeeping": "Вратарь",
+    "growth": "Рост",
+    "heading": "Точность ударов головой",
+    "interceptions": "Перехваты",
+    "jumping": "Прыгучесть",
+    "keyAttribute": "Ключевой атрибут",
+    "leadership": "Лидерство",
+    "leftFinishing": "Завершение (Левая)",
+    "legend": "Легенда",
+    "longPassing": "Длинные пасы",
+    "longShots": "Дальние удары",
+    "marking": "Опека",
+    "mental": "Психология",
+    "mentalAttributes": "Психологические атрибуты",
+    "overall": "Общий рейтинг",
+    "overallEvolution": "Эволюция рейтинга",
+    "pace": "Скорость",
+    "passing": "Пасы",
+    "peakAge": "Пиковый возраст",
+    "peakOvr": "Пиковый ОБЩ",
+    "penalties": "Пенальти",
+    "physical": "Физика",
+    "physicalAttributes": "Физические атрибуты",
+    "positioning": "Позиция",
+    "preferredFoot": "Рабочая нога",
+    "ratingColors": "Цвета рейтинга",
+    "reactions": "Реакция",
+    "rightFinishing": "Завершение (Правая)",
+    "shooting": "Удары",
+    "shortPassing": "Короткие пасы",
+    "shotPower": "Сила удара",
+    "slidingTackle": "Подкаты",
+    "sprintSpeed": "Макс. скорость",
+    "stamina": "Выносливость",
+    "standingTackle": "Обычные отборы",
+    "strength": "Сила",
+    "technical": "Техника",
+    "technicalAttributes": "Технические атрибуты",
+    "vision": "Видение поля",
+    "volleys": "Удары с лёта",
+    "weakFoot": "Слабая нога",
+    "workRate": "Эффективность"
+  },
+  "characteristic": {
+    "Aerial Specialist": "Специалист по воздуху",
+    "Big Game Player": "Игрок больших матчей",
+    "Clinical Finisher": "Хладнокровный бомбардир",
+    "Dribbling Wizard": "Мастер дриблинга",
+    "Engine": "Мотор команды",
+    "Leader": "Лидер",
+    "Playmaker": "Плеймейкер",
+    "Speed Demon": "Демон скорости"
+  },
+  "expandedAttributes": {
+    "agility": {
+      "coordination": "Координация",
+      "flexibility": "Гибкость",
+      "lateralAgility": "Боковая ловкость",
+      "reactionTime": "Время реакции"
+    },
+    "ballControl": {
+      "aerialControl": "Контроль в воздухе",
+      "firstTouchOrientated": "Направленное первое касание",
+      "firstTouchUnderPressure": "Первое касание под давлением",
+      "shielding": "Укрывание мяча",
+      "trapping": "Остановка мяча"
+    },
+    "commanding": {
+      "aerialReach": "Зона досягаемости в воздухе",
+      "claimingCrosses": "Перехват навесов",
+      "commandOfArea": "Командование штрафной",
+      "communication": "Общение",
+      "punching": "Игра кулаками"
+    },
+    "defending": {
+      "slidingTiming": "Тайминг подкатов",
+      "standingTiming": "Тайминг отборов"
+    },
+    "defensivePositioning": {
+      "backtracking": "Отход назад",
+      "covering": "Подстраховка",
+      "defensiveAwareness": "Понимание обороны",
+      "jockeying": "Сдерживание",
+      "positionRecovery": "Возврат на позицию"
+    },
+    "distribution": {
+      "goalKicks": "Удары от ворот",
+      "kicking": "Выносы",
+      "passingLong": "Длинные пасы (ВРТ)",
+      "passingShort": "Короткие пасы (ВРТ)",
+      "throwing": "Ввод мяча рукой"
+    },
+    "dribbling": {
+      "closeControlDribbling": "Дриблинг с близким контролем",
+      "congestedSpaceDribbling": "Дриблинг в толпе",
+      "directionChange": "Смена направления",
+      "flair": "Артистизм",
+      "skillMoves": "Особые приемы",
+      "speedDribbling": "Скоростной дриблинг"
+    },
+    "endurance": {
+      "aerobicEndurance": "Аэробная выносливость",
+      "anaerobicEndurance": "Анаэробная выносливость",
+      "stamina": "Выносливость",
+      "workRate": "Индивидуальная эффективность"
+    },
+    "finishing": {
+      "finishingInsideBox": "Завершение в штрафной",
+      "finishingOnCounter": "Завершение в контратаке",
+      "finishingOutsideBox": "Завершение вне штрафной",
+      "finishingUnderPressure": "Завершение под давлением",
+      "headedAccuracy": "Точность удара головой",
+      "headingAccuracy": "Точность игры головой",
+      "headingPower": "Сила удара головой",
+      "oneOnOneFinishing": "Завершение 1 на 1",
+      "placedShotAccuracy": "Точность крученого удара",
+      "placedShots": "Крученые удары",
+      "powerShotAccuracy": "Точность мощного удара",
+      "shotAnticipation": "Предвосхищение удара",
+      "shotPower": "Сила удара",
+      "volleyTechnique": "Техника удара с лёта",
+      "volleysAndAcrobatic": "Удары с лёта и акробатика"
+    },
+    "gameIntelligence": {
+      "anticipation": "Предчувствие",
+      "creativity": "Креативность",
+      "decisions": "Решения",
+      "offTheBallMovement": "Движение без мяча",
+      "positioning": "Выбор позиции",
+      "spatialAwareness": "Чувство пространства",
+      "vision": "Видение поля"
+    },
+    "interception": {
+      "crossBlocking": "Блокировка навесов",
+      "longPassInterception": "Перехват длинных пасов",
+      "readingOfPlay": "Чтение игры",
+      "shortPassInterception": "Перехват коротких пасов",
+      "shotBlocking": "Блокировка ударов"
+    },
+    "jumping": {
+      "headerTiming": "Тайминг удара головой",
+      "runningVerticalJump": "Прыжок с разбега",
+      "standingVerticalJump": "Прыжок с места"
+    },
+    "marking": {
+      "closeDownSpeed": "Скорость сближения",
+      "individualMarking": "Персональная опека",
+      "trackingRuns": "Отслеживание рывков",
+      "zonalMarking": "Зональная опека"
+    },
+    "mental": {
+      "concentration": "Концентрация",
+      "decisions": "Решения"
+    },
+    "mentalGK": {
+      "composure": "Собранность (ВРТ)",
+      "concentration": "Концентрация (ВРТ)",
+      "decisionMaking": "Принятие решений (ВРТ)",
+      "handling": "Игра руками"
+    },
+    "passing": {
+      "crossingFromByline": "Навесы с лицевой",
+      "crossingFromDeep": "Навесы из глубины",
+      "curveEffect": "Подкрутка",
+      "firstTimeCrossing": "Навесы в касание",
+      "lobPassAccuracy": "Точность забросов",
+      "longDiagonalPass": "Диагональная передача",
+      "shortPassingSupport": "Поддержка в коротком пасе",
+      "shortPassingUnderPressure": "Короткие пасы под давлением",
+      "throughBalls": "Пасы вразрез",
+      "verticalPassBreakingLines": "Вертикальные пасы сквозь линии",
+      "weightedPass": "Выверенный пас"
+    },
+    "performance": {
+      "adaptability": "Адаптивность",
+      "bigMatchPerformance": "Игра в больших матчах",
+      "clutchFactor": "Х-фактор",
+      "consistency": "Стабильность",
+      "pressureHandling": "Игра под давлением"
+    },
+    "personality": {
+      "bravery": "Смелость",
+      "charismaOffPitch": "Харизма вне поля",
+      "composure": "Собранность",
+      "composureInFinishing": "Хладнокровие при завершении",
+      "determination": "Решительность",
+      "leadershipOnPitch": "Лидерство на поле",
+      "professionalism": "Профессионализм",
+      "teamwork": "Командная работа",
+      "temperament": "Темперамент"
+    },
+    "positioning": {
+      "linePositioning": "Позиция на линии",
+      "narrowingAngles": "Сокращение углов",
+      "positioning": "Позиция (ВРТ)",
+      "rushingOut": "Выходы из ворот"
+    },
+    "pressing": {
+      "counterPressing": "Контрпрессинг",
+      "pressIntensity": "Интенсивность прессинга",
+      "pressingTrigger": "Триггер прессинга",
+      "sustainedPressing": "Затяжной прессинг"
+    },
+    "robustness": {
+      "injuryResistance": "Стойкость к травмам",
+      "naturalFitness": "Природная выносливость",
+      "physicalRobustness": "Физическая мощь",
+      "recoveryRate": "Скорость восстановления"
+    },
+    "setPieces": {
+      "cornerKicking": "Подача угловых",
+      "directFreeKickPlacement": "Точность прямых штрафных",
+      "directFreeKickPower": "Сила прямых штрафных",
+      "indirectFreeKick": "Свободные удары",
+      "penaltyTaking": "Исполнение пенальти",
+      "throwIns": "Вбрасывания аутов"
+    },
+    "shotStopping": {
+      "closeRangeShotStopping": "Сейвы с близкой дистанции",
+      "diving": "Нырки (ВРТ)",
+      "longRangeShotStopping": "Сейвы с дальней дистанции",
+      "oneOnOneStopping": "Сейвы 1 на 1",
+      "penaltySaving": "Отражение пенальти",
+      "reflexes": "Рефлексы (ВРТ)"
+    },
+    "speed": {
+      "acceleration": "Ускорение",
+      "accelerationInitial": "Стартовый рывок",
+      "accelerationMedium": "Среднее ускорение",
+      "sprintSpeed": "Скорость рывка",
+      "topSpeed": "Максимальная скорость"
+    },
+    "strength": {
+      "balanceInContact": "Равновесие при контакте",
+      "bodyToBodyStrength": "Корпус в корпус",
+      "legStrength": "Сила ног",
+      "upperBodyStrength": "Сила верхней части тела"
+    },
+    "tackling": {
+      "cleanTackling": "Чистый отбор",
+      "slidingTackle": "Подкаты",
+      "standingTackle": "Обычный отбор",
+      "tackleTiming": "Тайминг отбора"
+    }
+  }
+}

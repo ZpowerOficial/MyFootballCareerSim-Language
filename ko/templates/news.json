@@ -1,0 +1,104 @@
+{
+  "_meta": {
+    "patchable": true,
+    "description": "뉴스 헤드라인 및 이벤트 설명 - 지역화된 콘텐츠를 위한 커뮤니티 패치 지원",
+    "interpolation": "동적 값에는 {variable}를, 상호 참조에는 {{ref:path}}를 사용합니다"
+  },
+  "news": {
+    "assistMilestone": {
+      "1": "플레이메이커! {name}이(가) 커리어 통산 {assists}도움을 달성했습니다",
+      "2": "{name}이(가) 환상적인 커리어에서 {assists}도움을 기록했습니다",
+      "3": "최고의 창조자: {name}, {assists}도움 달성"
+    },
+    "ballonDor": {
+      "0": "{name}, {year} {{ref:content.awards.ballonDor}} 수상!",
+      "1": "황금기: {name}, 세계 최고 선수로 선정",
+      "2": "오피셜: {name}, 축구계 최고의 영예를 안다"
+    },
+    "championsLeague": {
+      "1": "유럽의 왕! {team}, {{ref:content.competitions.championsLeague}} 우승",
+      "2": "영광의 밤! {name}와(과) {team}, 유럽을 정복하다",
+      "3": "{team}, 유럽 챔피언 등극"
+    },
+    "europaLeague": {
+      "1": "유럽 클럽 컵 영광! {team}, 유럽 트로피를 들어올리다",
+      "2": "{name}와(과) {team}, {{ref:content.competitions.europaLeague}} 우승 차지",
+      "3": "유럽에서의 성공! {team}, {{ref:content.competitions.europaLeague}} 우승"
+    },
+    "goldenBoot": {
+      "0": "{name}, 득점왕! 이번 시즌 {goals}골 기록",
+      "1": "{goals}골을 기록한 {name}, 골든 부트 수상",
+      "2": "{name}, {goals}골로 득점왕 등극"
+    },
+    "leagueChampion": {
+      "0": "챔피언! {team}, {name}와(과) 함께 리그 우승",
+      "1": "우승 확정! {team}와(과) {name}의 축제",
+      "2": "우리가 우승이다! {team}, 국내 리그 제패"
+    },
+    "transfer": {
+      "0": "속보! {name}, {newTeam}의 새로운 영입",
+      "1": "오피셜: {name}, {newTeam}와(과) 계약 체결",
+      "2": "{newTeam}, {name}의 대형 영입 발표"
+    },
+    "worldCup": {
+      "0": "{team}, 세계 챔피언! 우리가 우승했다!",
+      "1": "세계 정상! {team}, {{ref:content.competitions.worldCup}} 정복",
+      "2": "최고의 영광! {team}, {{ref:content.competitions.worldCup}} 우승"
+    },
+    "continentalQualification": {
+      "1": "대륙 대회 진출! {team}, {competition} 자격 획득",
+      "2": "{name}, {team}의 {competition} 진출에 기여",
+      "3": "대륙 무대가 {team}을(를) 기다립니다"
+    },
+    "hatTrick": {
+      "1": "해트트릭 히어로! {name}, 3골 폭발",
+      "2": "{name}, {team}의 승리 속 해트트릭 달성",
+      "3": "해트트릭의 기쁨! {name}, 3골 기록"
+    },
+    "firstGoal": {
+      "1": "첫 골! {name}, 프로 무대 마수걸이 골",
+      "2": "{name}, {team}에서의 커리어 첫 골 기록",
+      "3": "신고식 완료! {name}, 데뷔골 작렬"
+    },
+    "professionalDebut": {
+      "1": "데뷔! {name}, 첫 프로 무대 등장",
+      "2": "시작: {name}, {team}에서의 데뷔전",
+      "3": "{name}, 기다려온 프로 데뷔전 치러"
+    },
+    "internationalDebut": {
+      "1": "국가대표 데뷔! {name}, {country} 대표로 출전",
+      "2": "{name}, {country}에서 첫 번째 A매치 출전",
+      "3": "자랑스러운 순간: {name}, 국가대표 데뷔"
+    },
+    "retirement": {
+      "0": "{name}, 은퇴 발표. 모든 것에 감사합니다!",
+      "1": "한 시대의 종말: {name}, 축구화를 벗다",
+      "2": "전설의 작별: {name} 은퇴"
+    },
+    "promotion": {
+      "1": "승격! {team}, {league}(으)로 올라갑니다",
+      "2": "{name}와(과) {team}, {league} 승격 달성",
+      "3": "축제 분위기! {team}, {league} 승격 확정"
+    },
+    "relegation": {
+      "0": "비극: {team}, {name}와(과) 함께 강등",
+      "1": "충격의 강등: {team}, 2부 리그로 추락",
+      "2": "슬픈 날: {name}의 {team}, 강등을 피하지 못하다"
+    }
+  },
+  "newsType": {
+    "assistMilestone": "도움 기록",
+    "ballonDor": "{{ref:content.awards.ballonDor}}",
+    "championsLeague": "{{ref:content.competitions.championsLeague}}",
+    "cupWinner": "컵 우승자",
+    "europaLeague": "{{ref:content.competitions.europaLeague}}",
+    "goldenBoot": "골든 부트",
+    "hatTrick": "해트트릭",
+    "leagueChampion": "리그 챔피언",
+    "transfer": "이적",
+    "worldCup": "{{ref:content.competitions.worldCup}}",
+    "retirement": "은퇴",
+    "promotion": "승격",
+    "relegation": "강등"
+  }
+}

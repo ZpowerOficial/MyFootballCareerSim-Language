@@ -6,12 +6,81 @@
   "goals": {
     "achieved": "🎯 目標達成：{narrative}",
     "newGoal": "🎯 新しい目標がアンロックされました：{goal}",
-    "completed": "完了"
+    "completed": "完了",
+    "100goals": "キャリア通算100ゴールを達成",
+    "ballonDor": "ゴールデン・トロフィーを受賞",
+    "becomeCaptain": "{team} のキャプテンに就任",
+    "becomeClubLegend": "クラブレジェンドになる",
+    "becomeStarter": "レギュラーに定着",
+    "breakGoalRecord": "ゴール記録を更新",
+    "firstCleanSheet": "初のクリーンシートを達成",
+    "firstGoal": "プロ初ゴールを記録",
+    "firstTrophy": "初の主要タイトルを獲得",
+    "nationalTeamCallUp": "代表チームに招集される",
+    "proDebut": "プロデビューを果たす",
+    "reach100Caps": "国際Aマッチ100試合出場を達成",
+    "reachCareerAssists": "キャリア通算アシスト記録を達成",
+    "reachCareerGoals": "キャリア通算ゴール記録を達成",
+    "reachOverallRating": "目標総合評価（OVR）に到達",
+    "winWorldCup": "ワールドトーナメントで優勝"
   },
   "agent": {
     "contractExpired": "代理人との契約が満了しました。新たに {name} ({reputation}) と契約しました。",
     "contractExtended": "代理人の {name} と良好な関係を築いています！手数料が軽減され、契約が延長されました。",
-    "promoted": "代理人の {name} が {reputation} ステータスに昇格しました！"
+    "promoted": "代理人の {name} が {reputation} ステータスに昇格しました！",
+    "reasons": {
+      "controversy": "{name} を巡るスキャンダルにより、変更を余儀なくされました。",
+      "eliteCall": "{name} 率いるエリートエージェンシーから、魅力的なオファーが届きました。",
+      "fallout": "{name} との関係が修復不可能なほど悪化しました。",
+      "improved": "{name} のサポートの下、さらなる高みを目指します。",
+      "merger": "{name} の所属事務所が合併しました。",
+      "none": "現時点で魅力的なエージェントの提案はありません。",
+      "special": "エージェント市場での予期せぬ出来事により、変更を余儀なくされました。",
+      "starAttraction": "{team} での活躍により、ワールドクラスのエージェンシーから注目を集めています。",
+      "stay": "現在のエージェンシーへの忠誠を貫くことにしました。"
+    },
+    "reputation": {
+      "Average": "平均的",
+      "Good": "優良",
+      "Rookie": "新人",
+      "Super Agent": "スーパーエージェント"
+    },
+    "specialty": {
+      "BrandBuilder": "ブランド構築",
+      "Negotiator": "交渉人",
+      "Scout": "スカウト",
+      "balanced": "バランス",
+      "contract": "契約",
+      "sponsorship": "スポンサーシップ",
+      "transfer": "移籍"
+    },
+    "style": {
+      "Adaptable": "臨機応変",
+      "Aggressive": "アグレッシブ",
+      "Ambitious": "野心的",
+      "Analytical": "分析的",
+      "Calm": "冷静",
+      "Charismatic": "カリスマ",
+      "Dedicated": "献身的",
+      "Energetic": "エネルギッシュ",
+      "Experienced": "経験豊富",
+      "Focused": "集中",
+      "Friendly": "フレンドリー",
+      "Honest": "誠実",
+      "Innovative": "革新的",
+      "Methodical": "計画的",
+      "Motivated": "意欲的",
+      "Networked": "人脈豊富",
+      "Passionate": "情熱的",
+      "Patient": "忍耐強い",
+      "Persistent": "粘り強い",
+      "Precise": "正確",
+      "Professional": "プロフェッショナル",
+      "Reliable": "信頼できる",
+      "Strategic": "戦略的",
+      "Traditional": "伝統的",
+      "Visionary": "先見の明"
+    }
   },
   "eventNotifications": {
     "transferRequest": "移籍リクエスト提出済み",
@@ -61,7 +130,7 @@
       "leagueRookieOfYear": "新人王",
       "leagueTopAssister": "アシスト王",
       "playmaker": "リーグ最優秀プレーメーカー",
-      "puskas": "プスカシュ賞",
+      "puskas": "年間最優秀ゴール賞",
       "rookie": "新人王",
       "teamOfTheYear": "年間ベストイレブン",
       "title": "アウォード",
@@ -401,7 +470,8 @@
       "naturalDecline": "身体能力の自然な衰え",
       "peakPhysical": "身体能力のピーク",
       "weightGain": "体重が増加しました",
-      "weightLoss": "体重が減少しました"
+      "weightLoss": "体重が減少しました",
+      "bodyTypeChange": "体型が変化しました"
     },
     "promotion": {
       "asProspect": "{age}歳で {team} のトップチームに昇格しました。将来を有望視される期待の若手です。",
@@ -799,7 +869,9 @@
       "title": "チームメイトとの交流"
     },
     "training": {
-      "title": "トレーニング"
+      "title": "トレーニング",
+      "completed": "トレーニング完了",
+      "minor_injury": "トレーニング中に軽傷"
     },
     "trainingDecision": {
       "choice_balanced": "バランスを重視する",
@@ -883,6 +955,14 @@
         "positive": "魅力的なインタビューが、ファンとメディアの両方を魅了しています。"
       },
       "skill": "驚異的なスキルが、何百万人ものファンにシェアされています。"
+    },
+    "goals": {
+      "achieved": "🎯 目標達成：{narrative}",
+      "newGoal": "🎯 新しい目標がアンロック：{goal}"
+    },
+    "wcQualification": {
+      "description": "代表チームがワールドトーナメントへの出場権をかけて戦っています",
+      "title": "ワールドトーナメント予選"
     }
   },
   "contractTermination": {
@@ -1452,5 +1532,71 @@
     "warning_3": "移籍リストに入れられる前の最後の警告。"
   },
   "decisionMade": "決断が下されました",
-  "urgentDecision": "⚠️ 急ぎの決断が必要です！"
+  "urgentDecision": "⚠️ 急ぎの決断が必要です！",
+  "award": {
+    "ballonDor": "ゴールデン・トロフィー",
+    "ballonDorNomination": "ノミネート - ゴールデン・トロフィー",
+    "ballonDorRunnerUp": "トップ3 - ゴールデン・トロフィー",
+    "comeback": "💪 重傷から復帰し、年間カムバック賞を受賞！",
+    "comebackPlayerOfYear": "年間カムバック賞",
+    "continentalCompTopScorer": "👟 {competition} 得点王（{goals} ゴール）！",
+    "continentalCompetitionTopScorer": "大陸大会得点王",
+    "continentalCupPOTY": "MVP - コンチネンタルカップ",
+    "continentalPOTY": "⭐ {competition} の最優秀選手に選出！",
+    "continentalPlayer": "大陸最優秀選手",
+    "continentalTOTT": "👕 {competition} のベストイレブンに選出！",
+    "cupGoldenBootShared": "{goals} ゴールでカップ戦得点王を分け合いました！",
+    "cupTopScorer": "👟 カップ戦得点王（{goals} ゴール）！",
+    "europeanGoldenShoe": "ヨーロッパ・ゴールデンシュー",
+    "fifaBest": "🏆⭐ シーズン最優秀選手に選出！",
+    "goalOfTheYear": "年間最優秀ゴール",
+    "goldenBoot": "👟 リーグ得点王（{goals} ゴール）！",
+    "goldenBootShared": "{goals} ゴールでリーグ得点王を分け合いました！",
+    "goldenBoy": "🧒🏆 年間最優秀若手選手賞！ 未来は君のものだ。",
+    "goldenGlove": "🧤 ゴールデングラブ賞（{cleanSheets} クリーンシート）！",
+    "goldenShoe": "🥇 ヨーロッパ・ゴールデンシュー受賞！（{goals} ゴール）",
+    "leagueDefenderOfYear": "年間最優秀DF",
+    "leagueForwardOfYear": "年間最優秀FW",
+    "leagueMidfielderOfYear": "年間最優秀MF",
+    "leaguePOTY": "🏅 リーグ・シーズン最優秀選手！",
+    "leaguePlayerOfYear": "リーグ最優秀選手",
+    "leaguePlaymaker": "アシストリーダー",
+    "leaguePositional": "🏅 リーグ最高峰の {position} に選出！",
+    "leagueRookieOfYear": "新人王",
+    "leagueTopAssister": "アシスト王",
+    "playmaker": "🎯 リーグアシスト王（{assists} アシスト）！",
+    "puskas": "⚽🔥 年間最優秀ゴール賞受賞！",
+    "rookie": "⭐ リーグ新人王に選出！",
+    "shortlist": "⭐ ゴールデン・トロフィー候補にリストアップ。",
+    "teamOfTheYear": "👕 リーグベストイレブンに選出。",
+    "title": "アワード",
+    "worldCupBestGoalkeeper": "ゴールデングラブ - ワールドトーナメント",
+    "worldCupGoldenBall": "🌍🏅 ワールドトーナメント・ゴールデン・トロフィー受賞！",
+    "worldCupGoldenBoot": "👟🌍 ワールドトーナメント得点王受賞！",
+    "worldCupTOTT": "👕 ワールドトーナメント・ベストイレブンに選出！",
+    "worldPlayer": "🏆⭐ 世界最優秀選手！ 地球上で最高の選手として認められました。物語：{narrative}"
+  },
+  "competitions": {
+    "afcon": "アフリカ・ネーションズカップ",
+    "asianCup": "アジアカップ",
+    "continentalCup": "コンチネンタルカップ",
+    "copaAmerica": "コパ・アメリカ",
+    "euro": "欧州選手権",
+    "goldCup": "ゴールドカップ",
+    "nationsLeague": "ネーションズリーグ",
+    "oceaniaCup": "ネーションズカップ",
+    "worldCup": "ワールドカップ",
+    "wcQualifiers": "ワールドカップ予選"
+  },
+  "common": {
+    "rounds": {
+      "final": "決勝",
+      "groupStage": "グループステージ",
+      "qualifier": "予選",
+      "quarterFinal": "準々決勝",
+      "roundOf16": "ラウンド16",
+      "semiFinal": "準決勝",
+      "winner": "優勝"
+    }
+  }
 }

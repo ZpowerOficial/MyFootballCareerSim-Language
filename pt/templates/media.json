@@ -1,0 +1,162 @@
+{
+  "_meta": {
+    "patchable": true,
+    "description": "Reações de redes sociais e comentários de especialistas - suporta patches da comunidade",
+    "interpolation": "Usa {variable} para valores dinâmicos"
+  },
+  "media": {
+    "fan": {
+      "pos": {
+        "1": "Que atuação! {name} estava em todos os cantos hoje!",
+        "2": "Níveis acima de qualquer outro em campo. Joga muita bola.",
+        "3": "Podemos apreciar o {name} por um momento? Talento inacreditável.",
+        "4": "É exatamente disso que precisamos. {name} jogando com raça de verdade!",
+        "5": "Melhor em campo para mim. {name} controlou tudo.",
+        "6": "Volume de jogo incrível do {name}. Não parou de correr um segundo.",
+        "7": "É por isso que ele é titular sempre. Indispensável.",
+        "8": "Precisão, visão, execução. Uma aula do {name}.",
+        "9": "Joga muito. {name} faz parecer fácil.",
+        "10": "Se o {name} jogar assim toda semana, vamos ganhar tudo.",
+        "11": "{name} é simplesmente mágico. Um prazer de assistir.",
+        "12": "Mais um dia, mais um show do {name}.",
+        "13": "Montem o time em volta do {name}. Um verdadeiro motor no meio.",
+        "14": "{name} faz o futebol parecer arte.",
+        "15": "Temos sorte de ver o {name} nessa forma."
+      },
+      "neu": {
+        "1": "Jogo decente do {name}, mas nada de especial.",
+        "2": "{name} foi ok hoje. Cumpriu o papel.",
+        "3": "Atuação padrão. Nem mal, nem espetacular.",
+        "4": "Sólido o suficiente do {name}. Nota 6.",
+        "5": "Jogo discreto do {name}, mas não cometeu erros.",
+        "6": "Exibição mediana. Sabemos que o {name} pode render mais.",
+        "7": "Atuação segura, manteve o ritmo do jogo.",
+        "8": "{name} fez o básico bem feito.",
+        "9": "Nada de memorável do {name} hoje.",
+        "10": "Até esqueci que o {name} estava jogando por um tempo, mas foi sólido."
+      },
+      "neg": {
+        "1": "{name} estava invisível hoje. Só assistiu.",
+        "2": "Atuação horrorosa... o que o {name} estava fazendo?",
+        "3": "Precisa ir para o banco. {name} não está agregando nada agora.",
+        "4": "Frustrante ver o {name} entregando a bola o tempo todo.",
+        "5": "Não está no nível necessário. {name} precisa acordar.",
+        "6": "Atuação desastrosa do {name}. Doloroso de assistir.",
+        "7": "Por que o {name} ainda está em campo? É um a menos.",
+        "8": "{name} parecia completamente perdido lá dentro.",
+        "9": "Nível de várzea do {name} hoje. Constrangedor.",
+        "10": "Como o {name} continua sendo escalado? Pavoroso."
+      }
+    },
+    "hater": {
+      "shots": {
+        "1": "Superestimado. {name} some em jogo grande.",
+        "2": "Muito marketing, pouco futebol. Clássico {name}.",
+        "3": "{name} só joga bem contra time pequeno. Fabricador de estatística.",
+        "4": "Jogador de sistema. Coloca o {name} num time de meio de tabela e ele sofre.",
+        "5": "As pessoas acham mesmo que o {name} é craque?",
+        "6": "Um jogo bom em cada dez. Muito instável.",
+        "7": "{name} não cria nada sozinho. Precisa que o time carregue ele.",
+        "8": "{name} é uma farsa. Foi exposto hoje.",
+        "9": "O jogador mais protegido da liga. {name} não faz nada.",
+        "10": "Assista ao {name} de perto, ele não faz nada de efetivo."
+      }
+    },
+    "pundit": {
+      "pos": {
+        "1": "Atuação taticamente impecável do {name}. Leu o jogo perfeitamente.",
+        "2": "Uma exibição madura. {name} mostrou muita inteligência hoje.",
+        "3": "Excelência técnica. {name} é o sonho de qualquer treinador.",
+        "4": "Dominante. {name} ditou o ritmo do jogo completamente.",
+        "5": "Eficiência foi a chave. {name} mal errou um passe.",
+        "6": "Excelente posicionamento permitiu que {name} controlasse o meio-campo.",
+        "7": "{name} mostrou ótima leitura nas fases de transição.",
+        "8": "Uma atuação de manual na função de {position} do {name}."
+      },
+      "neu": {
+        "1": "Atuação funcional. {name} se ateve ao seu papel.",
+        "2": "Tecnicamente correto, mas faltou brilho.",
+        "3": "Disciplinado. {name} manteve bem a compactação.",
+        "4": "Esforço operário do {name} hoje.",
+        "5": "Fez o básico certo, nada além disso.",
+        "6": "{name} executou as instruções táticas sem inventar.",
+        "7": "Uma atuação segura, minimizou riscos, mas faltou criatividade."
+      },
+      "neg": {
+        "1": "Faltou intensidade. {name} foi batido com muita facilidade.",
+        "2": "Suspeito no posicionamento. {name} foi pego fora de lugar repetidamente.",
+        "3": "Desperdiçou a posse. {name} matou muitos ataques.",
+        "4": "Taticamente ingênuo. {name} não seguiu o plano de jogo.",
+        "5": "Dominado fisicamente. {name} não conseguiu lidar com a velocidade.",
+        "6": "{name} teve dificuldade em influenciar a partida de forma significativa.",
+        "7": "Tomadas de decisão ruins do {name} durante todo o jogo."
+      }
+    },
+    "overlay": {
+      "fan": {
+        "Prodigy": {
+          "1": "O moleque é diferenciado! Guardem esse nome!",
+          "2": "Talento geracional aqui. Protejam ele a todo custo!"
+        },
+        "OnTheRise": {
+          "1": "Melhorando a cada semana! Craque em formação!",
+          "2": "O potencial é absurdo. Só continuar evoluindo!"
+        },
+        "EstablishedStar": {
+          "1": "Classe mundial. Excelência consistente no nível mais alto.",
+          "2": "É assim que um craque joga. Semana sim, semana também."
+        },
+        "UnderPressure": {
+          "1": "Precisa render mais. A pressão está aumentando...",
+          "2": "Questionado pela torcida. Hora de mostrar serviço."
+        },
+        "VeteranLeader": {
+          "1": "Experiência que não se compra. Liderando pelo exemplo.",
+          "2": "A velha guarda mostrando aos jovens como se faz."
+        },
+        "CultHero": {
+          "1": "Lenda absoluta! Façam a estátua logo!",
+          "2": "Um de nós. Vive e respira este clube."
+        }
+      },
+      "pundit": {
+        "Prodigy": {
+          "1": "Maturidade notável para a idade dele. Potencial geracional."
+        },
+        "OnTheRise": {
+          "1": "A curva de desenvolvimento é impressionante. Um nome para observar de perto."
+        },
+        "EstablishedStar": {
+          "1": "Operando em nível de elite consistentemente. Jogador completo."
+        },
+        "UnderPressure": {
+          "1": "Os níveis de atuação caíram. Precisa de uma resposta imediata."
+        },
+        "VeteranLeader": {
+          "1": "A experiência é inestimável. Presença vital no vestiário."
+        },
+        "CultHero": {
+          "1": "A conexão com a torcida é extraordinária. Ícone do clube."
+        }
+      }
+    },
+    "earlyDays": {
+      "1": "Apenas começando. Deem tempo ao tempo.",
+      "2": "Sinais promissores, mas precisa de mais minutos.",
+      "3": "Difícil julgar tão cedo na temporada.",
+      "4": "Ganhando condição física e ritmo de jogo.",
+      "5": "Ainda se adaptando ao time."
+    },
+    "drought": {
+      "goals": {
+        "1": "O jejum de gols é preocupante. Precisa de um gol de canela pra destravar.",
+        "2": "A confiança parece baixa na cara do gol.",
+        "3": "Desesperado por um gol para quebrar a seca."
+      },
+      "assists": {
+        "1": "A criatividade secou ultimamente.",
+        "2": "Dificuldade em encontrar aquele último passe."
+      }
+    }
+  }
+}

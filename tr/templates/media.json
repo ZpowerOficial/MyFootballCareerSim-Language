@@ -1,0 +1,162 @@
+{
+  "_meta": {
+    "patchable": true,
+    "description": "Sosyal medya reaksiyonları ve yorumcu görüşleri - topluluk yamalarını destekler",
+    "interpolation": "Dinamik değerler için {variable} kullanılır"
+  },
+  "media": {
+    "fan": {
+      "pos": {
+        "1": "Ne performanstı ama! {name} bugün sahanın her yerindeydi!",
+        "2": "Sahanın en iyisiydi, diğerlerinden çok üstündü. Tam bir usta işi.",
+        "3": "{name}'yi bir anlık takdir edebilir miyiz? İnanılmaz bir yetenek.",
+        "4": "İhtiyacımız olan tam da buydu. {name} gerçek tutkusunu gösteriyor!",
+        "5": "Benim için maçın adamı {name}. Her şeyi o kontrol etti.",
+        "6": "{name} inanılmaz bir iş oranıyla oynadı. Hiç durmadı.",
+        "7": "Her maç neden ilk 11 başladığını gösterdi. Vazgeçilmez bir oyuncu.",
+        "8": "Hassasiyet, oyun görüşü ve uygulama. {name}'den bir başyapıt.",
+        "9": "Tam bir yetenek. {name} her şeyi çok kolay gösteriyor.",
+        "10": "Eğer {name} her hafta böyle oynarsa, kazanmadık kupa bırakmayız.",
+        "11": "{name} resmen büyü yapıyor. İzlemesi büyük keyif.",
+        "12": "Yeni bir gün, {name}'den yeni bir ders.",
+        "13": "Takımı {name}'nin etrafına kurun. Tam bir makine.",
+        "14": "{name} futbolu sanat gibi gösteriyor.",
+        "15": "{name}'yi bu formda izlediğimiz için çok şanslıyız."
+      },
+      "neu": {
+        "1": "{name}'den makul bir oyun, ama özel bir şey yoktu.",
+        "2": "{name} bugün fena değildi. Üzerine düşeni yaptı.",
+        "3": "Standart bir performans. Ne kötü, ne de harika.",
+        "4": "{name} yeterince sağlamdı. 10 üzerinden 6.",
+        "5": "{name} için sessiz bir maçtı ama hata da yapmadı.",
+        "6": "Ortalama bir gösteri. {name}'nin daha iyisini yapabileceğini biliyoruz.",
+        "7": "İstikrarlı bir performans, oyunun akışını bozmadı.",
+        "8": "{name} temel görevlerini yeterince yerine getirdi.",
+        "9": "Bugün {name} hakkında konuşulacak pek bir şey yoktu.",
+        "10": "{name}'nin oynadığını bir an unuttum ama genel olarak sağlamdı."
+      },
+      "neg": {
+        "1": "{name} bugün sahada hiç yoktu. Sadece bir yolcu gibiydi.",
+        "2": "Şaşırtıcı bir performans... {name} ne yapıyordu?",
+        "3": "Kadro dışı kalmalı. {name} şu an takıma hiçbir şey katmıyor.",
+        "4": "{name}'nin sürekli top kaybetmesini izlemek sinir bozucuydu.",
+        "5": "Bu seviye için yeterli değil. {name}'nin uyanması gerek.",
+        "6": "{name}'den bir kabus performansı daha. İzlemesi acı vericiydi.",
+        "7": "{name} neden hala sahada? Resmen bir yük.",
+        "8": "{name} sahada tamamen kaybolmuş gibiydi.",
+        "9": "{name} bugün amatör lig seviyesinde oynadı. Utanç verici.",
+        "10": "{name} nasıl hala seçiliyor anlamıyorum. Korkunçtu."
+      }
+    },
+    "hater": {
+      "shots": {
+        "1": "Abartılıyor. {name} büyük maçlarda kayboluyor.",
+        "2": "Hep reklam, hiç icraat yok. Klasik {name}.",
+        "3": "{name} sadece zayıf takımlara karşı iyi görünüyor. İstatistik kasıyor.",
+        "4": "Sistem oyuncusu. {name}'yi orta sıra bir takıma koyun, bocalasın.",
+        "5": "İnsanlar sahiden {name}'nin dünya klası olduğunu mu düşünüyor?",
+        "6": "On maçta bir iyi oynuyor. Çok istikrarsız.",
+        "7": "{name} tek başına hiçbir şey yaratamıyor. Beslenmesi lazım.",
+        "8": "{name} bir balon. Gerçek yüzü sonunda ortaya çıktı.",
+        "9": "Ligin en korumalı oyuncusu. {name} hiçbir şey sunmuyor.",
+        "10": "{name}'yi yakından izleyin, aslında etkili hiçbir şey yapmıyor."
+      }
+    },
+    "pundit": {
+      "pos": {
+        "1": "{name}'den taktiksel olarak kusursuz bir performans. Oyunu mükemmel okudu.",
+        "2": "Olgun bir oyun. {name} bugün gerçek zekasını gösterdi.",
+        "3": "Teknik mükemmellik. {name} her teknik direktörün hayalidir.",
+        "4": "Baskın bir oyun. {name} maçın temposunu tamamen belirledi.",
+        "5": "Anahtar verimlilikti. {name} neredeyse hiç top kaybetmedi.",
+        "6": "Mükemmel yer tutma, {name}'nin orta sahayı kontrol etmesini sağladı.",
+        "7": "{name} geçiş evrelerinde harika bir farkındalık gösterdi.",
+        "8": "{name}'den {position} rolünde derslik bir performans."
+      },
+      "neu": {
+        "1": "Görev odaklı bir performans. {name} rolüne sadık kaldı.",
+        "2": "Teknik olarak sağlam ama kıvılcımdan yoksundu.",
+        "3": "Disiplinliydi. {name} saha dizilişini iyi korudu.",
+        "4": "{name} bugün elinden geleni yaptı.",
+        "5": "Temel görevlerini yaptı, fazlasını değil.",
+        "6": "{name} taktiksel talimatları süslemeden uyguladı.",
+        "7": "Güvenli bir performans, riskleri minimize etti ama yaratıcılık eksikti."
+      },
+      "neg": {
+        "1": "Yoğunluk eksikti. {name} çok kolay geçildi.",
+        "2": "Pozisyon hatası yaptı. {name} defalarca oyundan düştü.",
+        "3": "Topla çok verimsizdi. {name} çok sayıda hücumu bitirdi.",
+        "4": "Taktiksel olarak toydu. {name} oyun planına uymadı.",
+        "5": "Fiziksel olarak ezildi. {name} tempoya ayak uyduramadı.",
+        "6": "{name} oyuna herhangi bir anlamlı etkide bulunmakta zorlandı.",
+        "7": "Maç boyunca {name}'den kötü kararlar izledik."
+      }
+    },
+    "overlay": {
+      "fan": {
+        "Prodigy": {
+          "1": "Bu çocuk özel! Adını unutmayın!",
+          "2": "İşte nesil yeteneği. Onu ne pahasına olursa olsun koru!"
+        },
+        "OnTheRise": {
+          "1": "Her hafta daha iyi oluyor! Geleceğin yıldızı yetişiyor!",
+          "2": "Potansiyel inanılmaz. Gelişmeye devam et!"
+        },
+        "EstablishedStar": {
+          "1": "Dünya klası. En üst seviyede istikrarlı bir mükemmellik.",
+          "2": "Elit oyuncu dediğin böyle olur. Her hafta aynı kalite."
+        },
+        "UnderPressure": {
+          "1": "Kendini göstermesi lazım. Baskı artıyor...",
+          "2": "Sorgulanmaya başladı. Teslim etme zamanı geldi."
+        },
+        "VeteranLeader": {
+          "1": "Parayla satın alınamayacak bir tecrübe. Örnek oluyor.",
+          "2": "Eski tüfekler gençlere bu işin nasıl yapılacağını gösteriyor."
+        },
+        "CultHero": {
+          "1": "Tam bir efsane! Heykelini dikin!",
+          "2": "Bizden biri. Bu kulüple yatıp bu kulüple kalkıyor."
+        }
+      },
+      "pundit": {
+        "Prodigy": {
+          "1": "Yaşına göre olağanüstü olgunluk. Nesil yeteneği potansiyeli."
+        },
+        "OnTheRise": {
+          "1": "Gelişim eğrisi etkileyici. Yakından takip edilmesi gerek."
+        },
+        "EstablishedStar": {
+          "1": "İstikrarlı bir şekilde elit seviyede oynuyor. Tam bir oyuncu."
+        },
+        "UnderPressure": {
+          "1": "Performans seviyesi düştü. Bir cevap vermesi gerekiyor."
+        },
+        "VeteranLeader": {
+          "1": "Tecrübe paha biçilemez. Soyunma odası varlığı çok önemli."
+        },
+        "CultHero": {
+          "1": "Taraftarlarla olan bağı olağanüstü. Kulüp ikonu."
+        }
+      }
+    },
+    "earlyDays": {
+      "1": "Daha yeni başlıyor. Ona zaman verin.",
+      "2": "Umut verici işaretler var ama daha fazla dakikaya ihtiyacı var.",
+      "3": "Sezonun bu kadar başında yargılamak zor.",
+      "4": "Kondisyon ve ritim inşa ediyor.",
+      "5": "Takımda hala yerini bulmaya çalışıyor."
+    },
+    "drought": {
+      "goals": {
+        "1": "Gol orucu endişe verici. Şans eseri bir gole ihtiyacı var.",
+        "2": "Kale önünde özgüveni bitmiş gibi görünüyor.",
+        "3": "Şanssızlığını kırmak için bir gole çok ihtiyacı var."
+      },
+      "assists": {
+        "1": "Son zamanlarda yaratıcılığı kurudu.",
+        "2": "O son pası bulmakta zorlanıyor."
+      }
+    }
+  }
+}

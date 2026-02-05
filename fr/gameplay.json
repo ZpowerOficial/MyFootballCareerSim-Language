@@ -46,21 +46,21 @@
   "attributes": {
     "abbr": {
       "AGI": "AGI",
-      "DEF": "DEF",
-      "DIV": "DIV",
+      "DEF": "DÉF",
+      "DIV": "PLO",
       "DRI": "DRI",
       "FIN": "FIN",
-      "HAN": "HAN",
-      "HEA": "HEA",
+      "HAN": "PDM",
+      "HEA": "TÊT",
       "INT": "INT",
-      "PAC": "PAC",
+      "PAC": "VIT",
       "PAS": "PAS",
       "PHY": "PHY",
-      "POS": "POS",
-      "REF": "REF",
-      "SHO": "SHO",
-      "STA": "STA",
-      "STR": "STR",
+      "POS": "PLC",
+      "REF": "RÉF",
+      "SHO": "TIR",
+      "STA": "END",
+      "STR": "FOR",
       "VIS": "VIS"
     },
     "acceleration": "Accélération",
@@ -241,7 +241,8 @@
     "vision": "Vision",
     "volleys": "Volées",
     "weakFoot": "Pied Faible",
-    "workRate": "Volume de Jeu"
+    "workRate": "Volume de Jeu",
+    "aerialControl": "Contrôle Aérien"
   },
   "characteristic": {
     "Aerial Specialist": "Spécialiste Aérien",
@@ -263,7 +264,17 @@
       "oneOnOneFinishing": "Finition en Face-à-Face",
       "placedShots": "Tirs Placés",
       "shotAnticipation": "Anticipation de Tir",
-      "volleyTechnique": "Technique de Volée"
+      "volleyTechnique": "Technique de Volée",
+      "finishingInsideBox": "Finition dans la surface",
+      "finishingOnCounter": "Finition en contre",
+      "finishingOutsideBox": "Finition hors surface",
+      "finishingUnderPressure": "Finition sous pression",
+      "headingAccuracy": "Précision de la tête",
+      "headingPower": "Puissance de la tête",
+      "placedShotAccuracy": "Précision tir placé",
+      "powerShotAccuracy": "Précision tir puissant",
+      "shotPower": "Puissance de tir",
+      "volleysAndAcrobatic": "Volées & Acrobatique"
     },
     "mental": {
       "concentration": "Concentration",
@@ -272,11 +283,167 @@
     "passing": {
       "lobPassAccuracy": "Précision des Passes Lobées",
       "throughBalls": "Passes en Profondeur",
-      "weightedPass": "Passe Appuyée"
+      "weightedPass": "Passe Appuyée",
+      "crossingFromByline": "Centres de la ligne de but",
+      "crossingFromDeep": "Centres profonds",
+      "curveEffect": "Effet brossé",
+      "firstTimeCrossing": "Centres en première intention",
+      "longDiagonalPass": "Longue transversale",
+      "shortPassingSupport": "Soutien jeu court",
+      "shortPassingUnderPressure": "Jeu court sous pression",
+      "verticalPassBreakingLines": "Passe verticale cassant les lignes"
     },
     "speed": {
       "acceleration": "Accélération",
-      "topSpeed": "Vitesse de Pointe"
+      "topSpeed": "Vitesse de Pointe",
+      "accelerationInitial": "Accélération Initiale",
+      "accelerationMedium": "Accélération Moyenne",
+      "sprintSpeed": "Vitesse de Sprint"
+    },
+    "agility": {
+      "coordination": "Coordination",
+      "flexibility": "Souplesse",
+      "lateralAgility": "Agilité Latérale",
+      "reactionTime": "Temps de Réaction"
+    },
+    "ballControl": {
+      "aerialControl": "Contrôle Aérien",
+      "firstTouchOrientated": "Contrôle Orienté",
+      "firstTouchUnderPressure": "Contrôle Sous Pression",
+      "shielding": "Protection de Balle",
+      "trapping": "Amorti"
+    },
+    "commanding": {
+      "aerialReach": "Portée Aérienne",
+      "claimingCrosses": "Captation des Centres",
+      "commandOfArea": "Commandement de la Surface",
+      "communication": "Communication",
+      "punching": "Dégagement aux Poings"
+    },
+    "defensivePositioning": {
+      "backtracking": "Repli Défensif",
+      "covering": "Couverture",
+      "defensiveAwareness": "Conscience Défensive",
+      "jockeying": "Cadrage",
+      "positionRecovery": "Retour de Position"
+    },
+    "distribution": {
+      "goalKicks": "Six Mètres",
+      "kicking": "Jeu au Pied",
+      "passingLong": "Jeu Long (GB)",
+      "passingShort": "Jeu Court (GB)",
+      "throwing": "Relance à la Main"
+    },
+    "dribbling": {
+      "closeControlDribbling": "Dribble Contrôle Rapproché",
+      "congestedSpaceDribbling": "Dribble Espace Réduit",
+      "directionChange": "Changement de Direction",
+      "flair": "Flair",
+      "skillMoves": "Gestes Techniques",
+      "speedDribbling": "Dribble de Vitesse"
+    },
+    "endurance": {
+      "aerobicEndurance": "Endurance Aérobie",
+      "anaerobicEndurance": "Endurance Anaérobie",
+      "stamina": "Endurance",
+      "workRate": "Volume de Jeu"
+    },
+    "gameIntelligence": {
+      "anticipation": "Anticipation",
+      "creativity": "Créativité",
+      "decisions": "Décisions",
+      "offTheBallMovement": "Appels de Balle",
+      "positioning": "Positionnement",
+      "spatialAwareness": "Conscience Spatiale",
+      "vision": "Vision"
+    },
+    "interception": {
+      "crossBlocking": "Contre de Centre",
+      "longPassInterception": "Interception Passe Longue",
+      "readingOfPlay": "Lecture du Jeu",
+      "shortPassInterception": "Interception Passe Courte",
+      "shotBlocking": "Contre de Tir"
+    },
+    "jumping": {
+      "headerTiming": "Timing Tête",
+      "runningVerticalJump": "Détente Sèche (Élan)",
+      "standingVerticalJump": "Détente Sèche (Sans Élan)"
+    },
+    "marking": {
+      "closeDownSpeed": "Vitesse de Sortie",
+      "individualMarking": "Marquage Individuel",
+      "trackingRuns": "Suivi des Appels",
+      "zonalMarking": "Marquage de Zone"
+    },
+    "mentalGK": {
+      "composure": "Sang-froid (GB)",
+      "concentration": "Concentration (GB)",
+      "decisionMaking": "Prise de Décision (GB)",
+      "handling": "Prise de Balle"
+    },
+    "performance": {
+      "adaptability": "Adaptabilité",
+      "bigMatchPerformance": "Grands Matchs",
+      "clutchFactor": "Mentalité Décisive",
+      "consistency": "Régularité",
+      "pressureHandling": "Gestion de la Pression"
+    },
+    "personality": {
+      "bravery": "Bravoure",
+      "charismaOffPitch": "Charisme",
+      "composure": "Sang-froid",
+      "composureInFinishing": "Sang-froid Finition",
+      "determination": "Détermination",
+      "leadershipOnPitch": "Leadership",
+      "professionalism": "Professionnalisme",
+      "teamwork": "Jeu d'Équipe",
+      "temperament": "Tempérament"
+    },
+    "positioning": {
+      "linePositioning": "Placement sur la Ligne",
+      "narrowingAngles": "Fermeture des Angles",
+      "positioning": "Placement (GB)",
+      "rushingOut": "Sorties"
+    },
+    "pressing": {
+      "counterPressing": "Contre-Pressing",
+      "pressIntensity": "Intensité Pressing",
+      "pressingTrigger": "Déclencheur Pressing",
+      "sustainedPressing": "Pressing Soutenu"
+    },
+    "robustness": {
+      "injuryResistance": "Résistance Blessure",
+      "naturalFitness": "Forme Naturelle",
+      "physicalRobustness": "Robustesse Physique",
+      "recoveryRate": "Vitesse Récupération"
+    },
+    "setPieces": {
+      "cornerKicking": "Corners",
+      "directFreeKickPlacement": "Précision Coup Franc",
+      "directFreeKickPower": "Puissance Coup Franc",
+      "indirectFreeKick": "Coup Franc Indirect",
+      "penaltyTaking": "Tirs au But",
+      "throwIns": "Touches"
+    },
+    "shotStopping": {
+      "closeRangeShotStopping": "Arrêt Courte Distance",
+      "diving": "Plongeon (GB)",
+      "longRangeShotStopping": "Arrêt Longue Distance",
+      "oneOnOneStopping": "Arrêt 1 contre 1",
+      "penaltySaving": "Arrêt Penalty",
+      "reflexes": "Réflexes (GB)"
+    },
+    "strength": {
+      "balanceInContact": "Équilibre au Contact",
+      "bodyToBodyStrength": "Puissance Physique",
+      "legStrength": "Puissance Jambes",
+      "upperBodyStrength": "Puissance Haut du Corps"
+    },
+    "tackling": {
+      "cleanTackling": "Tacle Propre",
+      "slidingTackle": "Tacle Glissé",
+      "standingTackle": "Tacle Debout",
+      "tackleTiming": "Timing Tacle"
     }
   },
   "form": {
@@ -488,9 +655,9 @@
     "noOffersDescription": "Vous n'avez reçu aucune offre de transfert cette saison.",
     "permanentTransfer": "Transfert Définitif",
     "reputation": "Réputation",
-    "season": "season",
-    "seasons": "seasons",
-    "tier": "Tier",
+    "season": "saison",
+    "seasons": "saisons",
+    "tier": "Division",
     "transferOffers": "Offres de Transfert",
     "wage": "Salaire",
     "years": "ans"
@@ -553,18 +720,18 @@
       "title": "Box-to-Box"
     },
     "consistency": {
-      "description": "Aim for strong average performances and reliability.",
-      "title": "Consistency"
+      "description": "Viser des performances moyennes solides et la fiabilité.",
+      "title": "Régularité"
     },
     "development": {
-      "description": "Focus on improving your overall and attributes this season.",
-      "title": "Development"
+      "description": "Se concentrer sur l'amélioration du global et des attributs.",
+      "title": "Développement"
     },
     "distribution": {
       "description": "Améliorer la distribution à la main et au pied",
       "title": "Distribution"
     },
-    "durationHint": "This focus will last {seasons} seasons",
+    "durationHint": "Ce focus durera {seasons} saisons",
     "heading": {
       "description": "Améliorer le jeu de tête et les duels aériens",
       "title": "Jeu Aérien"
@@ -582,10 +749,10 @@
       "title": "Marquage Défensif"
     },
     "playmaking": {
-      "description": "Prioritize assists and chance creation. Expectations lean toward assists.",
-      "title": "Playmaking"
+      "description": "Priorité aux passes décisives et à la création. Attentes élevées sur les assists.",
+      "title": "Création"
     },
-    "positionHint": "Options available for {position}",
+    "positionHint": "Options disponibles pour {position}",
     "positioning": {
       "description": "Mieux lire le jeu et améliorer le sens du placement",
       "title": "Placement"
@@ -595,22 +762,22 @@
       "title": "Réflexes"
     },
     "scoring": {
-      "description": "Prioritize goals and finishing. Club expectations will lean toward goal output.",
-      "title": "Scoring"
+      "description": "Priorité aux buts et à la finition. Le club attend des buts.",
+      "title": "Buteur"
     },
     "speed": {
       "description": "Se concentrer sur la vitesse et les améliorations rapides",
       "title": "Vitesse et Agilité"
     },
-    "subtitle": "Choose a focus to shape your season narrative and expectations.",
-    "title": "Season Focus",
+    "subtitle": "Choisissez un focus pour orienter votre saison et les attentes.",
+    "title": "Focus de Saison",
     "titles": {
-      "description": "Focus on winning trophies. Team expectations become more important.",
-      "title": "Titles"
+      "description": "Se concentrer sur les trophées. Les attentes de l'équipe deviennent plus importantes.",
+      "title": "Titres"
     },
     "ballPlaying": {
-      "description": "Improve passing and distribution from the back",
-      "title": "Ball Playing"
+      "description": "Améliorer les passes et la relance depuis l'arrière",
+      "title": "Relanceur"
     }
   },
   "squadStatus": {
@@ -635,14 +802,14 @@
     "controversial": "Controversé"
   },
   "training": {
-    "alreadyInvested": "You have already invested this season",
-    "balance": "Your Balance",
-    "cannotAfford": "Insufficient funds",
+    "alreadyInvested": "Vous avez déjà investi cette saison",
+    "balance": "Votre Solde",
+    "cannotAfford": "Fonds insuffisants",
     "cantAfford": "Fonds insuffisants pour l'investissement",
     "clubCovered": "Pris en charge par le club (saison débutant)",
     "clubCoveredHint": "Subvention première saison : aucun frais facturé.",
     "cost": "Coût de l'Entraînement",
-    "effectiveness": "efficacité",
+    "effectiveness": "Efficacité",
     "effectivenessFactors": "Facteurs d'Efficacité",
     "factor": {
       "age": "Âge",
@@ -664,21 +831,21 @@
       "low": "Basse",
       "medium": "Moyenne"
     },
-    "intensityExtreme": "Extreme",
-    "intensityHigh": "High",
-    "intensityLow": "Low",
-    "intensityMedium": "Medium",
-    "investBalance": "Your balance: €{balance}",
-    "investCost": "Cost: €{cost}",
-    "investNo": "No, thanks",
-    "investQuestion": "Would you like to invest in intensive preparation?",
-    "investTitle": "Performance Investment",
-    "investYes": "Invest",
+    "intensityExtreme": "Extrême",
+    "intensityHigh": "Haute",
+    "intensityLow": "Basse",
+    "intensityMedium": "Moyenne",
+    "investBalance": "Votre solde : {balance} €",
+    "investCost": "Coût : {cost} €",
+    "investNo": "Non, merci",
+    "investQuestion": "Voulez-vous investir dans une préparation intensive ?",
+    "investTitle": "Investissement de Performance",
+    "investYes": "Investir",
     "mental": "Mental",
-    "noTrainer": "No Trainer",
-    "noTrainerDesc": "Train alone without assistance",
-    "physical": "Physical",
-    "primaryFocus": "Focus Principal",
+    "noTrainer": "Pas d'Entraîneur",
+    "noTrainerDesc": "S'entraîner seul sans assistance",
+    "physical": "Physique",
+    "primaryFocus": "Objectif Principal",
     "recovery": "Récupération",
     "result": {
       "excellent": "Excellent entraînement ! Résultats impressionnants.",
@@ -693,21 +860,21 @@
     "resultPoor": "Vous vous sentez lourd et hors de rythme. Tout investissement ne garantit pas de retour.",
     "saveConfig": "Enregistrer la Configuration",
     "secondaryFocus": "Focus Secondaire",
-    "selectIntensity": "Intensity",
-    "selectTrainer": "Personal Trainer",
-    "selectType": "Training Type",
-    "skip": "Skip",
+    "selectIntensity": "Intensité",
+    "selectTrainer": "Entraîneur Personnel",
+    "selectType": "Type d'Entraînement",
+    "skip": "Passer",
     "slots": "emplacements",
-    "start": "Train",
+    "start": "S'entraîner",
     "tab": {
-      "info": "Info",
-      "trainer": "Trainer",
-      "training": "Training"
+      "info": "Infos",
+      "trainer": "Entraîneur",
+      "training": "Entraînement"
     },
-    "tactical": "Tactical",
-    "technical": "Technical",
-    "title": "Training Center",
-    "totalEffectiveness": "Total Effectiveness",
+    "tactical": "Tactique",
+    "technical": "Technique",
+    "title": "Centre d'Entraînement",
+    "totalEffectiveness": "Efficacité Totale",
     "trainer": {
       "basic": "Entraîneur de Base",
       "elite": "Entraîneur d'Élite",
