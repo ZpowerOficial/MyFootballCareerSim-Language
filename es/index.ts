@@ -1,0 +1,28 @@
+import trophies from './trophies.json';
+import ui from './ui.json';
+import events from './events.json';
+import news from './news.json';
+import database from './database.json';
+import stats from './stats.json';
+import gameplay from './gameplay.json';
+import legacy from './legacy.json';
+import media from './media.json';
+
+const files: Record<string, string | object>[] = [trophies, ui, events, news, database, stats, gameplay, legacy, media];
+const translations = files.reduce((acc, file) => {
+    Object.keys(file).forEach(key => {
+        if (typeof file[key] === 'object' && file[key] !== null && !Array.isArray(file[key])) {
+            const currentValue = acc[key];
+            const currentObject =
+                currentValue && typeof currentValue === 'object' && !Array.isArray(currentValue)
+                    ? currentValue
+                    : {};
+            acc[key] = { ...currentObject, ...file[key] };
+        } else {
+            acc[key] = file[key];
+        }
+    });
+    return acc;
+}, {} as any);
+
+export default translations;

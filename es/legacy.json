@@ -1,0 +1,246 @@
+{
+  "offersReceived": "Offers Received! [EN]",
+  "accept": "Accept [EN]",
+  "stayAt": "Stay at {team} [EN]",
+  "forcedMoveMessage": "You are out of contract or transfer-listed. You must choose a new club. [EN]",
+  "noNews": "No recent news [EN]",
+  "Africa": "Africa [EN]",
+  "Asia": "Asia [EN]",
+  "Europe": "Europe [EN]",
+  "Australia": "Australia [EN]",
+  "NorthAmerica": "North America [EN]",
+  "SouthAmerica": "South America [EN]",
+  "all": "All [EN]",
+  "club": "Club [EN]",
+  "clubHistory": "Club History [EN]",
+  "defending": "Defending [EN]",
+  "dribbling": "Dribbling [EN]",
+  "finishing": "Finishing [EN]",
+  "passing": "Passing [EN]",
+  "pos": "Pos [EN]",
+  "positioning": "Positioning [EN]",
+  "rating": "Rating [EN]",
+  "share": "Share [EN]",
+  "sprintSpeed": "Sprint Speed [EN]",
+  "stamina": "Stamina [EN]",
+  "yrs": "yrs [EN]",
+  "mental": "Mental [EN]",
+  "physical": "Physical [EN]",
+  "noCompetitionData": "No competition data available [EN]",
+  "noContinental": "No continental competition [EN]",
+  "noDomesticCup": "No domestic cup [EN]",
+  "noSpecialTraits": "No special traits [EN]",
+  "noTrophiesYet": "No trophies yet [EN]",
+  "competitionDetails": "Competition Details [EN]",
+  "trophy": {
+    "americasDerby": "Derbi de las Américas"
+  },
+  "trophiesSection": {
+    "trophy": {
+      "supercopaBrasil": "Supercopa de Brasil"
+    },
+    "americasDerby": "Derbi de las Americas",
+    "englishYouthLeague": "Liga Juvenil Inglesa",
+    "englishYouthCup": "Copa Juvenil Inglesa",
+    "spanishYouthLeague": "Liga Juvenil Espanola",
+    "spanishYouthCup": "Copa Juvenil Espanola",
+    "germanYouthLeague": "Liga Juvenil Alemana",
+    "germanYouthCup": "Copa Juvenil Alemana",
+    "italianYouthLeague": "Liga Juvenil Italiana",
+    "italianYouthCup": "Copa Juvenil Italiana",
+    "frenchYouthLeague": "Liga Juvenil Francesa",
+    "frenchYouthCup": "Copa Juvenil Francesa",
+    "portugueseYouthLeague": "Liga Juvenil Portuguesa",
+    "portugueseYouthCup": "Copa Juvenil Portuguesa",
+    "dutchYouthLeague": "Liga Juvenil Neerlandesa",
+    "dutchYouthCup": "Copa Juvenil Neerlandesa",
+    "brazilianU20League": "Liga Sub-20 de Brasil",
+    "brazilianU20Cup": "Copa Sub-20 de Brasil"
+  },
+  "common": {
+    "base": "Base",
+    "close": "Cerrar",
+    "club": "Club",
+    "error": "Error",
+    "total": "Total",
+    "no": "No",
+    "ok": "Aceptar",
+    "rounds": {
+      "final": "Final"
+    },
+    "pt-BR": "Portugues (BR)",
+    "en": "Ingles",
+    "fr": "Frances",
+    "id": "Indonesio",
+    "tr": "Turco"
+  },
+  "newsType": {
+    "championsLeague": "Continental",
+    "europaLeague": "Continental"
+  },
+  "profile": {
+    "tabMental": "Mental",
+    "natural": "Natural",
+    "archetype": "Arquetipo",
+    "naturalAbbr": "NAT",
+    "style": {
+      "carrilero": "Carrilero",
+      "mezzala": "Mezzala",
+      "regista": "Regista",
+      "trequartista": "Trequartista"
+    },
+    "personalityTypes": {
+      "Temperamental": "Temperamental"
+    }
+  },
+  "seasonModal": {
+    "club": "Club"
+  },
+  "setup": {
+    "normal": "Normal",
+    "xpBonus": "+{amount}% de XP",
+    "overallShort": "OVR"
+  },
+  "social": {
+    "fans": "Aficion"
+  },
+  "competition": {
+    "continental": "Continental",
+    "final": "Final",
+    "youthLeagueFormat": "Liga Juvenil {{country}}"
+  },
+  "competitionType": {
+    "Continental": "Continental"
+  },
+  "settings": {
+    "github": "GitHub"
+  },
+  "awards": {
+    "worldRankings": "Global",
+    "rankings": "Clasificaciones",
+    "topN": "Top {{position}}",
+    "ceremony": "Ceremonia de Premios",
+    "nextAward": "Siguiente Premio",
+    "skipAll": "Omitir Todo",
+    "yourResult": "Tu Resultado",
+    "awardOf": "Premio {current} de {total}",
+    "records": "Records de Carrera",
+    "totalWins": "Victorias",
+    "totalNominations": "Nominaciones",
+    "bestPosition": "Mejor Posicion",
+    "closeRaces": "Carreras Cerradas",
+    "consecutiveWins": "Consecutivos",
+    "topRival": "Maximo Rival",
+    "filterByRegion": "Filtrar por Region",
+    "filterByType": "Filtrar por Tipo",
+    "club": "Club",
+    "pts": "pts",
+    "region": {
+      "Asia": "Asia"
+    }
+  },
+  "rankings": {
+    "title": "Global",
+    "final": "Final",
+    "goalsFor": "GF",
+    "pts": "Pts",
+    "semiFinals": "SF",
+    "vs": "vs"
+  },
+  "competitions": {
+    "afcon": "Copa Africana de Naciones",
+    "asianCup": "Copa Asiática",
+    "copaAmerica": "Copa America",
+    "goldCup": "Copa Oro",
+    "oceaniaCup": "Copa de Naciones de la OFC"
+  },
+  "agentModal": {
+    "club": "Club",
+    "reasons": {
+      "none": "No hay agentes adecuados disponibles",
+      "stay": "Decidio quedarse con su agente actual",
+      "fallout": "Gran ruptura con tu agente {name} por estancamiento en tu carrera y mala comunicacion.",
+      "eliteCall": "El agente elite {name} se ha puesto en contacto personalmente con una oferta que no puedes rechazar.",
+      "starAttraction": "Como estrella en {team}, has atraido interes de agentes de primer nivel.",
+      "controversy": "Tu agente {name} se vio envuelto en una controversia que afecta su capacidad para representarte eficazmente.",
+      "merger": "Tu agencia se fusiono con otra firma. Te reasignaron con {name}.",
+      "improved": "Mejores perspectivas de carrera con {name} ({style} {specialty})",
+      "special": "Circunstancias especiales"
+    }
+  },
+  "goals": {
+    "expired": "Expirado"
+  },
+  "careerStart": {
+    "legalFiller1": "Este contrato es legalmente vinculante y esta sujeto a las leyes y regulaciones de la asociacion de futbol especificada. El jugador reconoce que los incentivos por rendimiento son discrecionales, salvo que se indiquen explicitamente.",
+    "legalFiller2": "Las clausulas de confidencialidad se aplican a todos los terminos financieros y asuntos internos del club. Cualquier incumplimiento puede resultar en terminacion inmediata sin compensacion."
+  },
+  "award": {
+    "continentalCompTopScorer": "👟 Maximo goleador de {competition} ({goals} goles)!",
+    "ballonDorWin": "¡Gano el Trofeo Dorado!",
+    "ballonDorPodium": "Alcanzo el podio final del Trofeo Dorado!",
+    "ballonDorTop10": "Nombrado en el Top 10 del Trofeo Dorado!",
+    "fifaBestWin": "Gano el premio al Mejor Jugador del Mundo!",
+    "goldenBoyWin": "Coronado como Mejor Joven! El mejor talento joven del mundo.",
+    "leagueMVPWin": "Votado como MVP de la liga de {country}!",
+    "positionalWin": "Nombrado como el mejor {position} de la temporada.",
+    "goldenBootWin": "Maximo goleador de la liga con {goals} goles!",
+    "goldenShoeWin": "Gano la Bota de Oro europea con {points} puntos!",
+    "goldenGloveWin": "Mas porterias a cero en la liga ({cleanSheets}).",
+    "topAssisterWin": "Maximo asistente de la liga con {assists} asistencias!",
+    "cupTopScorerWin": "Maximo goleador de copa con {goals} goles!",
+    "continentalTopScorerWin": "Maximo goleador continental con {goals} goles!",
+    "worldCupGoldenBallWin": "Gano el Balon de Oro del Torneo Mundial!",
+    "worldCupGoldenBootWin": "Maximo goleador del Torneo Mundial con {goals} goles!",
+    "continentalPOTYWin": "Jugador del Torneo Continental!",
+    "teamOfTheYearWin": "Incluido en el Equipo Mundial del Ano!",
+    "rookieOfYearWin": "Votado como Novato del Ano en la liga!",
+    "comebackPlayerWin": "Gano el premio al Jugador Revelacion de Regreso del Ano!",
+    "goalOfTheYearWin": "Ganador del premio al Gol del Ano!"
+  },
+  "news": {
+    "Asia": "Asia",
+    "club": "Club",
+    "competitionType": {
+      "Continental": "Continental"
+    },
+    "mental": "Mental",
+    "newsType": {
+      "debut": "Debut",
+      "general": "General"
+    },
+    "pos": "Pos"
+  },
+  "training": {
+    "intensityExtreme": "Extrema",
+    "intensityHigh": "Alta",
+    "intensityLow": "Baja",
+    "intensityMedium": "Media",
+    "mental": "Mental",
+    "physical": "Fisico",
+    "recovery": "Recuperacion",
+    "types": {
+      "sprints": "Sprints"
+    }
+  },
+  "attributes": {
+    "aerialControl": "Control aereo"
+  },
+  "competitionNames": {
+    "CONCACAF Nations League": "Torneo Norteamericano de Naciones",
+    "Nations League": "Torneo de Naciones",
+    "Youth African Access Cup": "Copa Juvenil Africana de Acceso",
+    "Youth Asian Access Cup": "Copa Juvenil Asiatica de Acceso",
+    "supercopaBrasil": "Supercopa de Brasil",
+    "Baiano": "Campeonato Baiano",
+    "Carioca": "Campeonato Carioca",
+    "Catarinense": "Campeonato Catarinense",
+    "Cearense": "Campeonato Cearense",
+    "Gaúcho": "Campeonato Gaúcho",
+    "Goiano": "Campeonato Goiano",
+    "Mineiro": "Campeonato Mineiro",
+    "Paranaense": "Campeonato Paranaense",
+    "Paulista": "Campeonato Paulista",
+    "Pernambucano": "Campeonato Pernambucano"
+  }
+}

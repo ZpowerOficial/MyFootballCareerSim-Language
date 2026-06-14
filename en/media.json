@@ -1,0 +1,185 @@
+{
+    "media": {
+        "fan": {
+            "pos": {
+                "1": "What a performance! {name} was everywhere today! 👏",
+                "2": "Levels above everyone else on the pitch. Class act. ⭐",
+                "3": "Can we just appreciate {name} for a moment? Unbelievable talent.",
+                "4": "This is exactly what we need. {name} showing real passion!",
+                "5": "Man of the match for me. {name} controlled everything.",
+                "6": "Incredible work rate from {name}. Never stopped running.",
+                "7": "That's why he starts every game. Indispensable.",
+                "8": "Precision, vision, execution. Masterclass from {name}.",
+                "9": "Serious baller. {name} makes it look easy.",
+                "10": "If {name} plays like this every week, we're winning everything.",
+                "11": "{name} is simply magic. A joy to watch.",
+                "12": "Another day, another masterclass from {name}. 🔥",
+                "13": "Build the team around {name}. Absolute engine.",
+                "14": "{name} makes football look like art. 🎨",
+                "15": "We are lucky to witness {name} in this form."
+            },
+            "neu": {
+                "1": "Decent game from {name}, but nothing special.",
+                "2": "{name} was okay today. Did the job.",
+                "3": "Standard performance. Not bad, not great.",
+                "4": "Solid enough from {name}. 6/10.",
+                "5": "Quiet game for {name}, but didn't make mistakes.",
+                "6": "Average display. We know {name} can do better.",
+                "7": "Steady performance, kept things ticking over.",
+                "8": "{name} did the basics well enough.",
+                "9": "Nothing to write home about for {name} today.",
+                "10": "Forgot {name} was playing for a bit, but solid overall."
+            },
+            "neg": {
+                "1": "{name} was invisible today. Passenger.",
+                "2": "Shocking performance... what was {name} doing?",
+                "3": "Needs to be dropped. {name} is offering nothing right now.",
+                "4": "Frustrating to watch {name} give the ball away constantly.",
+                "5": "Not good enough for this level. {name} needs to wake up.",
+                "6": "Disasterclass from {name}. painful to watch.",
+                "7": "Why is {name} still on the pitch? liability.",
+                "8": "{name} looked completely lost out there.",
+                "9": "Sunday league level from {name} today. Embarrassing.",
+                "10": "How does {name} keep getting selected? Dreadful."
+            }
+        },
+        "hater": {
+            "shots": {
+                "1": "Overrated. {name} ghosts in big games.",
+                "2": "All hype, no end product. Classic {name}.",
+                "3": "{name} only looks good against weak teams. Stat padder.",
+                "4": "System player. Put {name} in a mid-table team and he'd struggle.",
+                "5": "People actually think {name} is world class? 😂",
+                "6": "One good game in ten. Inconsistent.",
+                "7": "{name} creates nothing on his own. Needs service.",
+                "8": "{name} is a fraud. Exposed correctly.",
+                "9": "Most protected player in the league. {name} offers nothing.",
+                "10": "Watch {name} closely, he actually does nothing effective."
+            }
+        },
+        "pundit": {
+            "pos": {
+                "1": "Tactically astute performance from {name}. Read the game perfectly.",
+                "2": "A mature display. {name} showed real intelligence today.",
+                "3": "Technical excellence. {name} is a manager's dream.",
+                "4": "Dominant. {name} completely dictated the tempo.",
+                "5": "Efficiency was the key. {name} barely wasted a ball.",
+                "6": "Excellent positioning allowed {name} to control the midfield.",
+                "7": "{name} showed great awareness in transition phases.",
+                "8": "A textbook performance in the {position} role by {name}."
+            },
+            "neu": {
+                "1": "Functional performance. {name} stuck to the role.",
+                "2": "Technically sound, but lacked spark.",
+                "3": "Disciplined. {name} kept shape well.",
+                "4": "Workmanlike effort from {name} today.",
+                "5": "Did the basics right, nothing more.",
+                "6": "{name} executed the tactical instructions without flair.",
+                "7": "A safe performance, minimized risks but lacked creativity."
+            },
+            "neg": {
+                "1": "Lacked intensity. {name} was bypassed too easily.",
+                "2": "Positionally suspect. {name} was caught out repeatedly.",
+                "3": "Wasteful in possession. {name} killed too many attacks.",
+                "4": "Tactically naive. {name} didn't follow the game plan.",
+                "5": "Physically dominated. {name} couldn't cope with the pace.",
+                "6": "{name} struggled to influence proceedings in any meaningful way.",
+                "7": "Poor decision making from {name} throughout the match."
+            }
+        },
+        "overlay": {
+            "fan": {
+                "Prodigy": {
+                    "1": "The kid is special! Remember the name! 🌟",
+                    "2": "Generational talent right here. Protect him at all costs!"
+                },
+                "OnTheRise": {
+                    "1": "Getting better every week! Future star in the making! 📈",
+                    "2": "The potential is unreal. Keep developing!"
+                },
+                "EstablishedStar": {
+                    "1": "World class. Consistent excellence at the highest level. ⭐",
+                    "2": "This is what elite looks like. Week in, week out."
+                },
+                "UnderPressure": {
+                    "1": "Needs to step up. The pressure is mounting...",
+                    "2": "Questions being asked. Time to deliver."
+                },
+                "Journeyman": {
+                    "1": "Old school grittiness. Respect the hustle.",
+                    "2": "He's been everywhere, but he puts in a shift."
+                },
+                "VeteranLeader": {
+                    "1": "Experience you can't buy. Leading by example. 🍷",
+                    "2": "The old guard showing the youngsters how it's done."
+                },
+                "ForgottenMan": {
+                    "1": "Whatever happened to him? Barely see him anymore.",
+                    "2": "Needs a move to revive his career."
+                },
+                "Flop": {
+                    "1": "What a disappointment. Total waste of money. 🗑️",
+                    "2": "Remember when we thought he'd be good? 😂"
+                },
+                "ComebackKid": {
+                    "1": "Back from the dead! Never count him out! 💪",
+                    "2": "What a turnaround. Incredible resilience."
+                },
+                "CultHero": {
+                    "1": "Absolute legend! Build the statue! �",
+                    "2": "One of us. Lives and breathes this club. ❤️"
+                }
+            },
+            "pundit": {
+                "Prodigy": {
+                    "1": "Remarkable maturity for his age. Generational potential."
+                },
+                "OnTheRise": {
+                    "1": "Development curve is impressive. One to watch closely."
+                },
+                "EstablishedStar": {
+                    "1": "Operating at elite level consistently. Complete player."
+                },
+                "UnderPressure": {
+                    "1": "Performance levels have dropped. Needs to respond."
+                },
+                "Journeyman": {
+                    "1": "Brings valuable experience to the dressing room."
+                },
+                "VeteranLeader": {
+                    "1": "Experience is invaluable. Dressing room presence."
+                },
+                "ForgottenMan": {
+                    "1": "Career stagnating. Needs game time elsewhere."
+                },
+                "Flop": {
+                    "1": "Investment not paying off. Questions over recruitment."
+                },
+                "ComebackKid": {
+                    "1": "Remarkable recovery. Shows mental strength."
+                },
+                "CultHero": {
+                    "1": "Connection with fans is extraordinary. Club icon."
+                }
+            }
+        },
+        "earlyDays": {
+            "1": "Just getting started. Give him time.",
+            "2": "Promising signs, but needs more minutes.",
+            "3": "Hard to judge so early in the season.",
+            "4": "Building fitness and rhythm.",
+            "5": "Still finding his feet in the team."
+        },
+        "drought": {
+            "goals": {
+                "1": "Goal drought is worrying. Needs one off the shin.",
+                "2": "Confidence looks shot in front of goal.",
+                "3": "Desperate for a goal to break the duck."
+            },
+            "assists": {
+                "1": "Creativity has dried up lately.",
+                "2": "Struggling to find that final ball."
+            }
+        }
+    }
+}

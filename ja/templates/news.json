@@ -1,0 +1,107 @@
+{
+  "_meta": {
+    "patchable": true,
+    "description": "News headlines and event descriptions - supports community patches for localized content [EN]",
+    "interpolation": "Uses {variable} for dynamic values and {{ref:path}} for cross-references [EN]"
+  },
+  "news": {
+    "assistMilestone": {
+      "1": "PLAYMAKER! {name} reaches {assists} career assists [EN]",
+      "2": "{name} hits {assists} assists in brilliant career [EN]",
+      "3": "Creator supreme: {name} at {assists} assists [EN]"
+    },
+    "ballonDor": {
+      "0": "{name} WINS {year} {{ref:content.awards.ballonDor}}! [EN]",
+      "1": "GOLDEN ERA: {name} named world's best [EN]",
+      "2": "OFFICIAL: {name} takes football's biggest prize [EN]"
+    },
+    "championsLeague": {
+      "1": "KINGS OF EUROPE! {team} win {{ref:content.competitions.championsLeague}} [EN]",
+      "2": "GLORY NIGHT! {name} and {team} conquer Europe [EN]",
+      "3": "{team} crowned champions of Europe [EN]"
+    },
+    "europaLeague": {
+      "1": "EUROPEAN CLUB CUP GLORY! {team} win European trophy [EN]",
+      "2": "{name} and {team} triumph in {{ref:content.competitions.europaLeague}} [EN]",
+      "3": "European success! {team} lift {{ref:content.competitions.europaLeague}} [EN]"
+    },
+    "goldenBoot": {
+      "0": "{name} TOP SCORER! {goals} goals this season [EN]",
+      "1": "GOLDEN BOOT for {name} with {goals} goals [EN]",
+      "2": "{name} finishes as top marksman: {goals} goals [EN]"
+    },
+    "leagueChampion": {
+      "0": "CHAMPIONS! {team} wins the league with {name} [EN]",
+      "1": "Title secured! {team} and {name} celebrate [EN]",
+      "2": "The cup is ours! {team} wins national championship [EN]"
+    },
+    "transfer": {
+      "0": "BREAKING! {name} is the new signing for {newTeam} [EN]",
+      "1": "OFFICIAL: {name} signs with {newTeam} [EN]",
+      "2": "{newTeam} announces blockbuster signing of {name} [EN]"
+    },
+    "worldCup": {
+      "0": "{team} WORLD CHAMPIONS! THE CUP IS OURS! [EN]",
+      "1": "TOP OF THE WORLD! {team} conquers the {{ref:content.competitions.worldCup}} [EN]",
+      "2": "Maximum Glory! {team} wins the {{ref:content.competitions.worldCup}} [EN]"
+    },
+    "continentalQualification": {
+      "1": "EUROPEAN FOOTBALL! {team} qualify for {competition} [EN]",
+      "2": "{name} helps {team} reach {competition} [EN]",
+      "3": "Continental football awaits {team} [EN]"
+    },
+    "hatTrick": {
+      "1": "HAT-TRICK HERO! {name} scores three [EN]",
+      "2": "{name} bags hat-trick in {team} victory [EN]",
+      "3": "Treble treat! {name} scores three goals [EN]"
+    },
+    "firstGoal": {
+      "0": "待望の初ゴール！ {name} がプロとしての第一歩を刻む",
+      "1": "FIRST GOAL! {name} opens professional account [EN]",
+      "2": "{name} scores first career goal for {team} [EN]",
+      "3": "Off the mark! {name} nets debut goal [EN]"
+    },
+    "professionalDebut": {
+      "0": "デビュー！ {name} がプロ初出場を果たす",
+      "1": "DEBUT! {name} makes first professional appearance [EN]",
+      "2": "The beginning: {name} debuts for {team} [EN]",
+      "3": "{name} makes long-awaited professional debut [EN]"
+    },
+    "internationalDebut": {
+      "0": "代表デビュー！ {name} が {country} 代表として初キャップ",
+      "1": "INTERNATIONAL DEBUT! {name} represents {country} [EN]",
+      "2": "{name} earns first cap for {country} [EN]",
+      "3": "Proud moment: {name} debuts for national team [EN]"
+    },
+    "retirement": {
+      "0": "{name} ANNOUNCES RETIREMENT. Thanks for everything! [EN]",
+      "1": "End of an era: {name} hangs up boots [EN]",
+      "2": "Legend's goodbye: {name} retires [EN]"
+    },
+    "promotion": {
+      "1": "PROMOTED! {team} go up to {league} [EN]",
+      "2": "{name} and {team} earn promotion to {league} [EN]",
+      "3": "Celebrations! {team} promoted to {league} [EN]"
+    },
+    "relegation": {
+      "0": "TRAGEDY: {team} relegated with {name} in squad [EN]",
+      "1": "Historic drop: {team} falls to second division [EN]",
+      "2": "Sad day: {name}'s {team} cannot resist and falls [EN]"
+    }
+  },
+  "newsType": {
+    "assistMilestone": "Assist Milestone [EN]",
+    "ballonDor": "{{ref:content.awards.ballonDor}} [EN]",
+    "championsLeague": "{{ref:content.competitions.championsLeague}} [EN]",
+    "cupWinner": "Cup Winner [EN]",
+    "europaLeague": "{{ref:content.competitions.europaLeague}} [EN]",
+    "goldenBoot": "Golden Boot [EN]",
+    "hatTrick": "Hat-Trick [EN]",
+    "leagueChampion": "League Champion [EN]",
+    "transfer": "Transfer [EN]",
+    "worldCup": "{{ref:content.competitions.worldCup}} [EN]",
+    "retirement": "Retirement [EN]",
+    "promotion": "Promotion [EN]",
+    "relegation": "Relegation [EN]"
+  }
+}
