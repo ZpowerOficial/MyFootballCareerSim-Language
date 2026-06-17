@@ -1128,7 +1128,7 @@
     "overallShort": "OVR",
     "testSqlite": "Testar SQLite & Copiar Diagnóstico",
     "devNewsButton": "Novidades",
-    "devNewsTitle": "Novidades do Desenvolvedor",
+    "devNewsTitle": "Atualizações do Desenvolvedor",
     "devNewsClose": "Fechar",
     "devNewsLoading": "Buscando novidades...",
     "devNewsError": "Não foi possível carregar as novidades.",
@@ -1265,36 +1265,36 @@
     "daysAgo": "há {count}d",
     "matchEvents": {
       "assist": {
-        "0": "Assist by {player}",
-        "1": "Great pass from {player}"
+        "0": "Assistência de {player}",
+        "1": "Ótimo passe de {player}"
       },
       "goal": {
-        "0": "GOAL! {player} scores!",
-        "1": "What a finish by {player}!"
+        "0": "GOL! {player} marca!",
+        "1": "Que finalização de {player}!"
       },
       "goodPass": {
-        "0": "Great pass by {player}",
-        "1": "{player} finds a teammate"
+        "0": "Ótimo passe de {player}",
+        "1": "{player} encontra um companheiro"
       },
       "injury": {
-        "0": "{player} seems injured",
-        "1": "{player} goes off injured"
+        "0": "{player} parece lesionado",
+        "1": "{player} sai de campo lesionado"
       },
       "redCard": {
-        "0": "Red card! {player} is sent off!",
-        "1": "{player} is off early"
+        "0": "Cartão vermelho! {player} é expulso!",
+        "1": "{player} é expulso cedo"
       },
       "strayPass": {
-        "0": "{player} misplaced a pass",
-        "1": "Poor pass from {player}"
+        "0": "{player} errou o passe",
+        "1": "Passe ruim de {player}"
       },
       "substitution": {
-        "0": "Substitution: {out} off, {in} on",
-        "1": "{in} replaces {out}"
+        "0": "Substituição: {out} sai, {in} entra",
+        "1": "{in} substitui {out}"
       },
       "yellowCard": {
-        "0": "Yellow card for {player}",
-        "1": "{player} is booked"
+        "0": "Cartão amarelo para {player}",
+        "1": "{player} é advertido"
       }
     }
   },
@@ -1368,9 +1368,9 @@
   "yrs": "Anos",
   "supercopaBrasil": "Supercopa do Brasil",
   "awards": {
-    "worldRankings": "Global",
+    "worldRankings": "Ranking Mundial",
     "votingResults": "Resultados da Votação",
-    "rankings": "Rankings",
+    "rankings": "Rankings Mundiais",
     "history": "Histórico",
     "votingDetails": "Detalhes da Votação",
     "points": "pontos",
@@ -1383,7 +1383,7 @@
     "runnerUp": "Vice",
     "notNominated": "Não nomeado",
     "nominated": "Nomeado (Top 30)",
-    "topN": "Top {{position}}",
+    "topN": "Top {position}",
     "seasonN": "Temporada {{season}}",
     "regionalVotes": "Votos por Região",
     "candidateStats": "Estatísticas dos Candidatos",
@@ -1460,7 +1460,7 @@
     "recentMatches": "Partidas Recentes"
   },
   "rankings": {
-    "title": "Global",
+    "title": "Ranking Mundial",
     "lastSeason": "Última Temporada",
     "history": "Histórico",
     "position": "Posição",
@@ -1549,24 +1549,24 @@
   },
   "events": {
     "contract": {
-      "terminated": "Contract terminated with {team}."
+      "terminated": "Contrato encerrado com {team}."
     },
     "generated": {
-      "agent_meeting": "🤝 Your agent wants to discuss your future."
+      "agent_meeting": "🤝 Seu agente quer discutir seu futuro."
     }
   },
   "goals": {
-    "achieved": "🎯 Goal Achieved: {narrative}",
-    "newGoal": "🎯 New Goal Unlocked: {goal}"
+    "achieved": "🎯 Objetivo Alcançado: {narrative}",
+    "newGoal": "🎯 Novo Objetivo Desbloqueado: {goal}"
   },
   "trophiesSection": {
-    "Copa São Paulo de Futebol Júnior": "Sao Paulo Youth Cup",
+    "Copa São Paulo de Futebol Júnior": "Copa São Paulo de Futebol Júnior",
     "americasDerby": "Derby das Américas",
     "trophy": {
-      "supercopaBrasil": "Brazilian Super Cup"
+      "supercopaBrasil": "Supercopa do Brasil"
     }
   },
   "wcQualification": {
-    "failed": "Qualification Failed"
+    "failed": "Qualificação Não Alcançada"
   }
 }

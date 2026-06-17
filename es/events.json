@@ -1,801 +1,801 @@
 {
   "wcQualification": {
-    "description": "Your national team is competing for the World Tournament [EN]",
-    "title": "World Tournament Qualifiers [EN]",
+    "description": "Tu selección nacional está compitiendo por el Torneo Mundial",
+    "title": "Clasificatorios del Torneo Mundial",
     "failed": "Clasificación fallida"
   },
   "goals": {
     "achieved": "🎯 Objetivo logrado: {narrative}",
     "newGoal": "🎯 Nuevo objetivo desbloqueado: {goal}",
-    "completed": "Completed [EN]",
-    "100goals": "Score 100 career goals [EN]",
-    "ballonDor": "Win the Golden Trophy [EN]",
-    "becomeCaptain": "Become captain of {team} [EN]",
-    "becomeClubLegend": "Become a Club Legend [EN]",
-    "becomeStarter": "Become regular starter [EN]",
-    "breakGoalRecord": "Break goal record [EN]",
-    "firstCleanSheet": "Keep first clean sheet [EN]",
-    "firstGoal": "Score first professional goal [EN]",
-    "firstTrophy": "Win first major trophy [EN]",
-    "nationalTeamCallUp": "Get called up to national team [EN]",
-    "proDebut": "Make professional debut [EN]",
-    "reach100Caps": "Reach 100 International Caps [EN]",
-    "reachCareerAssists": "Reach career assists milestone [EN]",
-    "reachCareerGoals": "Reach career goals milestone [EN]",
-    "reachOverallRating": "Reach OVR target [EN]",
-    "winWorldCup": "Win the World Tournament [EN]"
+    "completed": "Terminado",
+    "100goals": "Marca 100 goles profesionales",
+    "ballonDor": "Gana el Trofeo de Oro",
+    "becomeCaptain": "Conviértete en capitán de {team}",
+    "becomeClubLegend": "Conviértete en una leyenda del club",
+    "becomeStarter": "Conviértete en titular habitual",
+    "breakGoalRecord": "Batir récord de goles",
+    "firstCleanSheet": "Mantener la primera portería a cero",
+    "firstGoal": "Marca el primer gol profesional",
+    "firstTrophy": "Gana el primer gran trofeo",
+    "nationalTeamCallUp": "Ser convocado a la selección nacional.",
+    "proDebut": "Hacer su debut profesional",
+    "reach100Caps": "Llega a 100 partidos internacionales",
+    "reachCareerAssists": "Alcanzar el hito de asistencias profesionales",
+    "reachCareerGoals": "Alcanzar el hito de los objetivos profesionales",
+    "reachOverallRating": "Alcanza el objetivo de OVR",
+    "winWorldCup": "Gana el torneo mundial"
   },
   "agent": {
-    "contractExpired": "Your contract with agent expired. You signed with {name} ({reputation}). [EN]",
-    "contractExtended": "Excellent relationship with your agent {name}! Contract extended with reduced commission. [EN]",
-    "promoted": "Your agent {name} has been promoted to {reputation} status! [EN]",
+    "contractExpired": "Su contrato con el agente expiró. Firmaste con {name} ({reputation}).",
+    "contractExtended": "¡Excelente relación con su agente {name}! Contrato ampliado con comisión reducida.",
+    "promoted": "¡Su agente {name} ha sido ascendido al estado {reputation}!",
     "reasons": {
-      "controversy": "Scandal involving {name} forced a change. [EN]",
-      "eliteCall": "An elite agency led by {name} made an irresistible offer. [EN]",
-      "fallout": "Irreconcilable falling out with {name}. [EN]",
-      "improved": "Seeking new heights under the representation of {name}. [EN]",
-      "merger": "The agency of {name} underwent a corporate merger. [EN]",
-      "none": "No interesting agent proposals at the moment. [EN]",
-      "special": "An unexpected event in the agent market forced a change. [EN]",
-      "starAttraction": "Your status at {team} attracted world-class agencies. [EN]",
-      "stay": "Decided to stay loyal to current agency. [EN]"
+      "controversy": "El escándalo que involucra a {name} obligó a un cambio.",
+      "eliteCall": "Una agencia de élite dirigida por {name} hizo una oferta irresistible.",
+      "fallout": "Pelea irreconciliable con {name}.",
+      "improved": "Buscando nuevas alturas bajo la representación de {name}.",
+      "merger": "La agencia {name} sufrió una fusión corporativa.",
+      "none": "No hay propuestas de agentes interesantes por el momento.",
+      "special": "Un hecho inesperado en el mercado de agentes obligó a un cambio.",
+      "starAttraction": "Su estatus en {team} atrajo a agencias de clase mundial.",
+      "stay": "Decidió permanecer leal a la agencia actual."
     },
     "reputation": {
-      "Average": "Average [EN]",
-      "Good": "Good [EN]",
-      "Rookie": "Rookie [EN]",
-      "Super Agent": "Super Agent [EN]"
+      "Average": "Promedio",
+      "Good": "Bien",
+      "Rookie": "Novato",
+      "Super Agent": "Súper agente"
     },
     "specialty": {
-      "BrandBuilder": "Brand Builder [EN]",
-      "Negotiator": "Negotiator [EN]",
-      "Scout": "Scout [EN]",
-      "balanced": "Balanced [EN]",
-      "contract": "Contracts [EN]",
-      "sponsorship": "Sponsorships [EN]",
-      "transfer": "Transfers [EN]"
+      "BrandBuilder": "Constructor de marca",
+      "Negotiator": "Negociador",
+      "Scout": "Explorar",
+      "balanced": "Equilibrado",
+      "contract": "Contratos",
+      "sponsorship": "Patrocinios",
+      "transfer": "Transferencias"
     },
     "style": {
-      "Adaptable": "Adaptable [EN]",
-      "Aggressive": "Aggressive [EN]",
-      "Ambitious": "Ambitious [EN]",
-      "Analytical": "Analytical [EN]",
-      "Calm": "Calm [EN]",
-      "Charismatic": "Charismatic [EN]",
-      "Dedicated": "Dedicated [EN]",
-      "Energetic": "Energetic [EN]",
-      "Experienced": "Experienced [EN]",
-      "Focused": "Focused [EN]",
-      "Friendly": "Friendly [EN]",
-      "Honest": "Honest [EN]",
-      "Innovative": "Innovative [EN]",
-      "Methodical": "Methodical [EN]",
-      "Motivated": "Motivated [EN]",
-      "Networked": "Networked [EN]",
-      "Passionate": "Passionate [EN]",
-      "Patient": "Patient [EN]",
-      "Persistent": "Persistent [EN]",
-      "Precise": "Precise [EN]",
-      "Professional": "Professional [EN]",
-      "Reliable": "Reliable [EN]",
-      "Strategic": "Strategic [EN]",
-      "Traditional": "Traditional [EN]",
-      "Visionary": "Visionary [EN]"
+      "Adaptable": "Adaptable",
+      "Aggressive": "Agresivo",
+      "Ambitious": "Ambicioso",
+      "Analytical": "Analítico",
+      "Calm": "Calma",
+      "Charismatic": "Carismático",
+      "Dedicated": "Dedicado",
+      "Energetic": "Energético",
+      "Experienced": "Experimentado",
+      "Focused": "enfocado",
+      "Friendly": "Amigable",
+      "Honest": "Honesto",
+      "Innovative": "Innovador",
+      "Methodical": "Metódico",
+      "Motivated": "motivado",
+      "Networked": "En red",
+      "Passionate": "Apasionado",
+      "Patient": "Paciente",
+      "Persistent": "Persistente",
+      "Precise": "Preciso",
+      "Professional": "Profesional",
+      "Reliable": "Confiable",
+      "Strategic": "Estratégico",
+      "Traditional": "Tradicional",
+      "Visionary": "Visionario"
     }
   },
   "eventNotifications": {
-    "transferRequest": "Transfer Request Submitted [EN]",
-    "trainingIntense": "Training Intensity Increased [EN]",
-    "trainingLight": "Training Intensity Reduced [EN]"
+    "transferRequest": "Solicitud de transferencia enviada",
+    "trainingIntense": "Incremento de la intensidad del entrenamiento",
+    "trainingLight": "Intensidad de entrenamiento reducida"
   },
   "status": {
-    "managerConflict": "Manager Conflict [EN]",
-    "teammateConflict": "Teammate Conflict [EN]"
+    "managerConflict": "Conflicto de gerente",
+    "teammateConflict": "Conflicto de compañeros de equipo"
   },
   "events": {
     "agentMeeting": {
-      "choice_contract": "Discuss contract improvements [EN]",
-      "choice_explore": "Explore other options [EN]",
-      "choice_focus": "Focus on current club [EN]",
-      "description": "Your agent wants to discuss your future. There might be interest from other clubs. [EN]",
-      "title": "Agent Meeting [EN]"
+      "choice_contract": "Discutir mejoras en el contrato",
+      "choice_explore": "Explora otras opciones",
+      "choice_focus": "Centrarse en el club actual",
+      "description": "Su agente quiere hablar sobre su futuro. Puede haber interés de otros clubes.",
+      "title": "Reunión de agentes"
     },
     "awardCelebration": {
-      "title": "Award Celebration [EN]",
-      "description": "You've won a prestigious award! Your agent is fielding calls about celebration plans. How do you mark the occasion? [EN]",
-      "choice_team_party": "Host a party for the squad [EN]",
-      "choice_charity": "Donate to charity in celebration [EN]",
-      "choice_low_key": "Quiet dinner with family [EN]"
+      "title": "Celebración de premios",
+      "description": "¡Has ganado un premio prestigioso! Su agente está respondiendo llamadas sobre planes de celebración. ¿Cómo celebras la ocasión?",
+      "choice_team_party": "Organiza una fiesta para el equipo.",
+      "choice_charity": "Done a organizaciones benéficas en celebración",
+      "choice_low_key": "Cena tranquila en familia"
     },
     "awardPressConference": {
-      "title": "Award Press Conference [EN]",
-      "description": "You just won a major individual award! The world's media is waiting for your reaction at the press conference. Cameras are rolling — what's your tone? [EN]",
-      "choice_humble": "Thank teammates and coaches [EN]",
-      "choice_confident": "Declare yourself the best [EN]",
-      "choice_controversial": "Call out the doubters [EN]"
+      "title": "Conferencia de prensa de premiación",
+      "description": "¡Acabas de ganar un importante premio individual! Los medios de todo el mundo esperan su reacción en la conferencia de prensa. Las cámaras están grabando: ¿cuál es tu tono?",
+      "choice_humble": "Agradecer a compañeros y entrenadores.",
+      "choice_confident": "Declarate el mejor",
+      "choice_controversial": "Llama a los que dudan"
     },
     "awardSnubReaction": {
-      "title": "Award Ceremony Snub [EN]",
-      "description": "You were nominated but didn't win. The cameras are on you as the winner is announced. Social media is already buzzing about your reaction. [EN]",
-      "choice_gracious": "Congratulate the winner publicly [EN]",
-      "choice_frustrated": "Express frustration to the media [EN]",
-      "choice_dismissive": "Skip the ceremony afterparty [EN]"
+      "title": "Desaire de la ceremonia de premiación",
+      "description": "Fuiste nominado pero no ganaste. Las cámaras están enfocadas en ti mientras se anuncia el ganador. Las redes sociales ya están hablando de tu reacción.",
+      "choice_gracious": "Felicitar públicamente al ganador",
+      "choice_frustrated": "Expresar frustración a los medios.",
+      "choice_dismissive": "Sáltate la fiesta posterior a la ceremonia"
     },
     "award": {
-      "ballonDor": "Golden Trophy [EN]",
-      "ballonDorNomination": "Nominated - Golden Trophy [EN]",
-      "ballonDorRunnerUp": "Top 3 - Golden Trophy [EN]",
-      "comeback": "Comeback of the Year [EN]",
-      "comebackPlayerOfYear": "Comeback Player of the Year [EN]",
-      "continentalCompTopScorer": "Continental Golden Boot [EN]",
-      "continentalCompetitionTopScorer": "Continental Top Scorer [EN]",
-      "continentalCupPOTY": "MVP - Continental Cup [EN]",
-      "continentalPOTY": "Continental Player of the Year [EN]",
-      "continentalPlayer": "Continental Player [EN]",
-      "continentalTOTT": "Team of the Tournament - Continental [EN]",
-      "cupGoldenBootShared": "Shared Cup Golden Boot with {goals} goals! [EN]",
-      "cupTopScorer": "Cup Golden Boot [EN]",
-      "europeanGoldenShoe": "European Golden Shoe [EN]",
-      "fifaBest": "World's Best [EN]",
-      "goalOfTheYear": "Goal of the Year [EN]",
-      "goldenBoot": "League Golden Boot [EN]",
-      "goldenBootShared": "Shared League Golden Boot with {goals} goals! [EN]",
-      "goldenBoy": "Young Player of the Year [EN]",
-      "goldenGlove": "Best Goalkeeper [EN]",
-      "goldenShoe": "Golden Shoe [EN]",
-      "leagueDefenderOfYear": "Defender of the Year [EN]",
-      "leagueForwardOfYear": "Forward of the Year [EN]",
-      "leagueMidfielderOfYear": "Midfielder of the Year [EN]",
-      "leaguePOTY": "League Player of the Year [EN]",
-      "leaguePlayerOfYear": "League Player of the Year [EN]",
-      "leaguePlaymaker": "Assist Leader [EN]",
-      "leagueRookieOfYear": "Rookie of the Year [EN]",
-      "leagueTopAssister": "Top Assister [EN]",
-      "playmaker": "League Playmaker [EN]",
-      "puskas": "Goal of the Year Award [EN]",
-      "rookie": "Rookie of the Year [EN]",
-      "teamOfTheYear": "Team of the Year [EN]",
-      "title": "Award [EN]",
-      "worldCupBestGoalkeeper": "Golden Glove - World Tournament [EN]",
-      "worldCupGoldenBall": "Golden Trophy - World Tournament [EN]",
-      "worldCupGoldenBoot": "Golden Boot - World Tournament [EN]",
-      "worldCupTOTT": "Team of the Tournament - World Tournament [EN]",
-      "worldPlayer": "World's Best [EN]"
+      "ballonDor": "Trofeo de oro",
+      "ballonDorNomination": "Nominado - Trofeo de Oro",
+      "ballonDorRunnerUp": "Top 3 - Trofeo de Oro",
+      "comeback": "Regreso del año",
+      "comebackPlayerOfYear": "Jugador Regreso del Año",
+      "continentalCompTopScorer": "Bota de Oro Continental",
+      "continentalCompetitionTopScorer": "Máximo goleador continental",
+      "continentalCupPOTY": "MVP - Copa Continental",
+      "continentalPOTY": "Jugador continental del año",
+      "continentalPlayer": "Jugador continental",
+      "continentalTOTT": "Equipo del Torneo - Continental",
+      "cupGoldenBootShared": "¡Bota de Oro de Copa compartida con goles {goals}!",
+      "cupTopScorer": "Bota de Oro de la Copa",
+      "europeanGoldenShoe": "Bota de Oro Europea",
+      "fifaBest": "Los mejores del mundo",
+      "goalOfTheYear": "Gol del año",
+      "goldenBoot": "Bota de Oro de la Liga",
+      "goldenBootShared": "¡Bota de Oro de Liga compartida con goles {goals}!",
+      "goldenBoy": "Jugador joven del año",
+      "goldenGlove": "Mejor portero",
+      "goldenShoe": "Zapato dorado",
+      "leagueDefenderOfYear": "Defensor del año",
+      "leagueForwardOfYear": "Delantero del año",
+      "leagueMidfielderOfYear": "Mediocampista del año",
+      "leaguePOTY": "Jugador de liga del año",
+      "leaguePlayerOfYear": "Jugador de liga del año",
+      "leaguePlaymaker": "Líder asistente",
+      "leagueRookieOfYear": "Novato del año",
+      "leagueTopAssister": "Asistente superior",
+      "playmaker": "Creador de juego de la liga",
+      "puskas": "Premio Gol del Año",
+      "rookie": "Novato del año",
+      "teamOfTheYear": "Equipo del año",
+      "title": "Otorgar",
+      "worldCupBestGoalkeeper": "Guante de Oro - Torneo Mundial",
+      "worldCupGoldenBall": "Trofeo de Oro - Torneo Mundial",
+      "worldCupGoldenBoot": "Bota de Oro - Torneo Mundial",
+      "worldCupTOTT": "Equipo del Torneo - Torneo Mundial",
+      "worldPlayer": "Los mejores del mundo"
     },
     "business": {
-      "choice_decline": "Focus on football [EN]",
-      "choice_invest": "Heavy investment [EN]",
-      "choice_partner": "Minority partner [EN]",
-      "description": "An entrepreneur wants you to invest in a new venture. Could be lucrative, but risky. [EN]",
-      "title": "Business Opportunity [EN]"
+      "choice_decline": "Centrarse en el fútbol",
+      "choice_invest": "Fuerte inversión",
+      "choice_partner": "Socio minoritario",
+      "description": "Un emprendedor quiere que inviertas en una nueva empresa. Podría ser lucrativo, pero arriesgado.",
+      "title": "Oportunidad de negocio"
     },
     "charity": {
-      "choice_decline": "Politely decline [EN]",
-      "choice_large": "Make large donation [EN]",
-      "choice_small": "Make modest donation [EN]",
-      "description": "A children's hospital asked you to be their ambassador. This could improve your image. [EN]",
-      "title": "Charity Opportunity [EN]"
+      "choice_decline": "Rechazar cortésmente",
+      "choice_large": "hacer una gran donación",
+      "choice_small": "Haz una modesta donación",
+      "description": "Un hospital infantil te pidió que fueras su embajador. Esto podría mejorar tu imagen.",
+      "title": "Oportunidad de caridad"
     },
     "chemistry": {
-      "belovedFigure": "Became a beloved figure in the dressing room! [EN]",
-      "clubLegend": "As a club legend, his presence is invaluable for team unity. [EN]",
-      "deterioratedSignificantly": "Team chemistry deteriorated significantly ({from} → {to}). [EN]",
-      "excellentForm": "Excellent form improved standing within the squad. [EN]",
-      "improvedDramatically": "Team chemistry improved dramatically ({from} → {to})! [EN]",
-      "injuryAbsence": "Long injury absence weakened connections with teammates. [EN]",
-      "lackPlayingTime": "Lack of playing time damaged relationships with teammates. [EN]",
-      "multipleTrophies": "Multiple trophies this season created an incredible team spirit! [EN]",
-      "promotion": "Promotion energized the entire squad! [EN]",
-      "relegation": "Relegation destroyed team morale and unity. [EN]",
-      "seriousIncident": "A serious incident isolated him from the squad. [EN]",
-      "trainingIncident": "Training ground incidents damaged squad relationships. [EN]",
-      "transferSaga": "Transfer saga created tension in the dressing room. [EN]",
-      "trophyWin": "Winning trophies brought the team closer together. [EN]"
+      "belovedFigure": "¡Conviértete en una figura querida en el vestuario!",
+      "clubLegend": "Como leyenda del club, su presencia es invaluable para la unidad del equipo.",
+      "deterioratedSignificantly": "La química del equipo se deterioró significativamente ({from} → {to}).",
+      "excellentForm": "Su excelente forma mejoró su posición dentro del equipo.",
+      "improvedDramatically": "¡La química del equipo mejoró dramáticamente ({from} → {to})!",
+      "injuryAbsence": "La larga ausencia por lesión debilitó las conexiones con los compañeros de equipo.",
+      "lackPlayingTime": "La falta de tiempo de juego dañó las relaciones con los compañeros de equipo.",
+      "multipleTrophies": "¡Múltiples trofeos esta temporada crearon un espíritu de equipo increíble!",
+      "promotion": "¡La promoción llenó de energía a todo el equipo!",
+      "relegation": "El descenso destruyó la moral y la unidad del equipo.",
+      "seriousIncident": "Un grave incidente lo aisló del plantel.",
+      "trainingIncident": "Los incidentes en el campo de entrenamiento dañaron las relaciones entre los escuadrones.",
+      "transferSaga": "La saga de traspasos generó tensión en el vestuario.",
+      "trophyWin": "Ganar trofeos acercó al equipo."
     },
     "consequences": {
-      "ambition": "Ambition [EN]",
-      "discipline": "Discipline [EN]",
-      "exposure": "Exposure [EN]",
-      "fans": "Relationship with Fans [EN]",
-      "followers": "Followers [EN]",
-      "form": "Form [EN]",
-      "generosity": "Generosity [EN]",
-      "loyalty": "Loyalty [EN]",
-      "morale": "Morale [EN]",
-      "press": "Relationship with Press [EN]",
-      "reputation": "Reputation [EN]",
-      "teamChemistry": "Team Chemistry [EN]"
+      "ambition": "Ambición",
+      "discipline": "Disciplina",
+      "exposure": "Exposición",
+      "fans": "Relación con los fans",
+      "followers": "Seguidores",
+      "form": "Forma",
+      "generosity": "Generosidad",
+      "loyalty": "Lealtad",
+      "morale": "Moral",
+      "press": "Relación con la prensa",
+      "reputation": "Reputación",
+      "teamChemistry": "Química del equipo"
     },
     "continental": {
-      "played": "🌍 Played {count} matches in {competition} ({goals} goals, {assists} assists) [EN]"
+      "played": "🌍 Jugó partidos {count} en {competition} (goles {goals}, asistencias {assists})"
     },
-    "continentalQualification": "Continental Qualification Secured [EN]",
+    "continentalQualification": "Clasificación continental asegurada",
     "contract": {
-      "extension": "Extended contract for {years} more years. [EN]",
-      "newProfessional": "Signed new professional contract for {years} years. [EN]",
-      "noOffer": "{team} did not offer a new contract. [EN]",
-      "parentExtended": "{team} extended your contract (Parent Club). [EN]",
-      "title": "Contract [EN]",
-      "terminated": "Contract terminated with {team}. [EN]"
+      "extension": "Contrato ampliado por {years} más años.",
+      "newProfessional": "Nuevo contrato profesional firmado por {years} años.",
+      "noOffer": "{team} no ofreció un nuevo contrato.",
+      "parentExtended": "{team} extendió su contrato (Parent Club).",
+      "title": "Contrato",
+      "terminated": "Contrato rescindido con {team}."
     },
-    "decisionMade": "Decision Made [EN]",
+    "decisionMade": "Decisión tomada",
     "discipline": {
-      "concernYellow": "⚠️ Disciplinary concerns: {count} yellow cards this season. [EN]",
-      "criticalRed": "🟥 CRITICAL disciplinary problems: {count} red cards - must improve! [EN]",
-      "majorYellow": "⚠️ Serious disciplinary problems: {count} yellow cards this season. [EN]",
-      "seriousRed": "🟥 Serious disciplinary problems: {count} red cards! [EN]"
+      "concernYellow": "⚠️ Preocupaciones disciplinarias: {count} tarjetas amarillas esta temporada.",
+      "criticalRed": "🟥 Problemas disciplinarios CRÍTICOS: tarjetas rojas {count}: ¡debe mejorar!",
+      "majorYellow": "⚠️ Graves problemas disciplinarios: {count} tarjetas amarillas esta temporada.",
+      "seriousRed": "🟥 Graves problemas disciplinarios: ¡tarjetas rojas {count}!"
     },
     "endorsement": {
-      "signed": "Signed endorsement deal of {duration} years with {brand} worth £{value}M per year! [EN]"
+      "signed": "¡Acuerdo de patrocinio firmado por {duration} años con {brand} por un valor de £{value}M por año!"
     },
     "fan": {
-      "choice_engage": "Attend to everyone [EN]",
-      "choice_ignore": "Ignore and move on [EN]",
-      "description": "A mob of fans surrounded you asking for autographs and photos. How do you handle it? [EN]",
-      "title": "Fan Interaction [EN]"
+      "choice_engage": "atender a todos",
+      "choice_ignore": "Ignora y sigue adelante",
+      "description": "Una multitud de fans te rodeó pidiendo autógrafos y fotos. ¿Cómo lo manejas?",
+      "title": "Interacción con los fans"
     },
     "fanEncounter": {
-      "choice_engage": "Spend time with them [EN]",
-      "choice_ignore": "Ignore and leave [EN]",
-      "choice_polite": "Quick photo and leave [EN]",
-      "description": "A group of fans recognized you in public and are asking for photos and autographs. [EN]",
-      "title": "Fan Encounter [EN]"
+      "choice_engage": "Pasa tiempo con ellos",
+      "choice_ignore": "Ignora y vete",
+      "choice_polite": "foto rapida y vete",
+      "description": "Un grupo de fans te reconoció en público y te pide fotos y autógrafos.",
+      "title": "Encuentro de fans"
     },
     "finance": {
-      "bankruptcyWarning": "⚠️ FINANCIAL CRISIS! Unable to cover expenses. Lifestyle must be adjusted. [EN]",
-      "charitableDonation": "🤝 Made a charitable donation of €{amount} [EN]",
-      "excellentHealth": "💰 Excellent financial health - wealth well managed! [EN]",
-      "forcedSale": "💔 Financial difficulties forced sale of {count} asset(s) [EN]",
-      "investmentMade": "📈 Made a {type} investment of €{amount} [EN]",
-      "monthsOfRunway": "Financial runway: {months} months of security [EN]",
-      "netWorthMilestone": "💎 Net worth reached €{amount}! [EN]",
-      "propertyPurchased": "🏠 Purchased a new property: {property} [EN]",
-      "taxesPaid": "Paid €{amount} in taxes this season. [EN]",
-      "vehiclePurchased": "🚗 Added a new vehicle to collection: {vehicle} [EN]"
+      "bankruptcyWarning": "⚠️¡CRISIS FINANCIERA! No poder cubrir los gastos. Es necesario ajustar el estilo de vida.",
+      "charitableDonation": "🤝 Hizo una donación benéfica de €{amount}",
+      "excellentHealth": "💰 Excelente salud financiera: ¡patrimonio bien administrado!",
+      "forcedSale": "💔 Las dificultades financieras obligaron a la venta de activos {count}",
+      "investmentMade": "📈 Hizo una inversión {type} de €{amount}",
+      "monthsOfRunway": "Pista financiera: {months} meses de seguridad",
+      "netWorthMilestone": "💎 ¡El patrimonio neto alcanzó €{amount}!",
+      "propertyPurchased": "🏠 Compró una nueva propiedad: {property}",
+      "taxesPaid": "Pagó €{amount} en impuestos esta temporada.",
+      "vehiclePurchased": "🚗 Se agregó un nuevo vehículo a la colección: {vehicle}"
     },
-    "firstTitle": "First Career Title [EN]",
+    "firstTitle": "Primer título profesional",
     "form": {
-      "poorStreak": "📉 {count} consecutive poor performances - worrying trend. [EN]",
-      "strongStreak": "🌟 {count} consecutive strong performances! [EN]"
+      "poorStreak": "📉 {count} malos resultados consecutivos: tendencia preocupante.",
+      "strongStreak": "🌟 ¡{count} fuertes actuaciones consecutivas!"
     },
     "generated": {
-      "agent_meeting": "🤝 Your agent wants to discuss your future. [EN]",
-      "award_celebration": "🎉 Time to celebrate your award win! [EN]",
-      "award_press_conference": "🏆 Post-award press conference awaits. [EN]",
-      "award_snub_reaction": "😤 Reaction needed after award snub. [EN]",
-      "business_opportunity": "💼 Business opportunity presented by investors. [EN]",
-      "charity_opportunity": "🤝 Opportunity to support charitable cause. [EN]",
-      "fan_interaction": "👥 Fans requesting interaction at public event. [EN]",
-      "interview_controversial": "🎤 Controversial question during interview. [EN]",
-      "manager_fallout": "😤 Fallout with manager. [EN]",
-      "mentor_opportunity": "🎓 Invited to mentor youth academy players. [EN]",
-      "nightclub_incident": "🌃 Nightclub incident reported in media. [EN]",
-      "party_scandal": "📸 Scandal! Party photos leaked to press. [EN]",
-      "relationship_drama": "💔 Relationship drama in headlines. [EN]",
-      "social_media_outburst": "📱 Social media controversy following emotional post. [EN]",
-      "tax_investigation": "📋 Tax authorities opened an investigation. [EN]",
-      "teammate_conflict": "⚔️ Tension with teammate in dressing room. [EN]",
-      "sponsorship_deal": "💰 A major brand wants to sponsor you. [EN]",
-      "documentary_offer": "🎬 A streaming platform wants to make a documentary about you. [EN]",
-      "injury_comeback": "🏥 Time to decide how to handle your return from injury. [EN]",
-      "international_callup": "🏳️ You've been called up to the national team! [EN]",
-      "dressing_room_speech": "🗣️ Time for a speech in the dressing room. [EN]",
-      "rival_provocation": "😤 A rival player called you out in the media. [EN]",
-      "academy_visit": "🏟️ Your club's youth academy invited you for a visit. [EN]",
-      "fashion_collab": "👔 A fashion brand wants to collaborate with you. [EN]",
-      "gaming_endorsement": "🎮 A gaming company wants you as their brand ambassador. [EN]",
-      "community_crisis": "🆘 A crisis has struck the community where you live. [EN]"
+      "agent_meeting": "🤝 Tu agente quiere hablar sobre tu futuro.",
+      "award_celebration": "🎉 ¡Es hora de celebrar tu premio!",
+      "award_press_conference": "🏆 Te espera la conferencia de prensa posterior a la premiación.",
+      "award_snub_reaction": "😤 Se necesita reacción tras desaire de adjudicación.",
+      "business_opportunity": "💼 Oportunidad de negocio presentada por inversores.",
+      "charity_opportunity": "🤝 Oportunidad de apoyar causa benéfica.",
+      "fan_interaction": "👥 Fans solicitando interacción en evento público.",
+      "interview_controversial": "🎤 Pregunta controvertida durante la entrevista.",
+      "manager_fallout": "😤 Fallo con el manager.",
+      "mentor_opportunity": "🎓 Invitado a mentorizar a jugadores de la academia juvenil.",
+      "nightclub_incident": "🌃 Incidente en discoteca reportado en medios.",
+      "party_scandal": "📸 ¡Escándalo! Fotos de la fiesta se filtraron a la prensa.",
+      "relationship_drama": "💔Drama de relaciones en los titulares.",
+      "social_media_outburst": "📱 Controversia en las redes sociales tras una emotiva publicación.",
+      "tax_investigation": "📋 Las autoridades fiscales abrieron una investigación.",
+      "teammate_conflict": "⚔️Tensión con compañero en vestuario.",
+      "sponsorship_deal": "💰 Una marca importante quiere patrocinarte.",
+      "documentary_offer": "🎬 Una plataforma de streaming quiere hacer un documental sobre ti.",
+      "injury_comeback": "🏥 Es hora de decidir cómo afrontar tu regreso de una lesión.",
+      "international_callup": "🏳️ ¡Te han convocado para la selección nacional!",
+      "dressing_room_speech": "🗣️ Hora del discurso en el vestuario.",
+      "rival_provocation": "😤 Un jugador rival te llamó la atención en los medios.",
+      "academy_visit": "🏟️ La academia juvenil de tu club te invitó a visitarnos.",
+      "fashion_collab": "👔 Una marca de moda quiere colaborar contigo.",
+      "gaming_endorsement": "🎮 Una empresa de juegos te quiere como embajador de su marca.",
+      "community_crisis": "🆘 Una crisis ha golpeado a la comunidad donde vives."
     },
-    "importantDecision": "This is an important decision [EN]",
+    "importantDecision": "Esta es una decisión importante.",
     "injury": {
-      "careerEnding": "Suffered a tragic career-ending injury. [EN]",
-      "description": "You suffered an injury [EN]",
-      "minor": "Minor {type} [EN]",
-      "missedSeason": "Missed significant part of the season due to injury. [EN]",
-      "moderate": "Moderate {type} [EN]",
-      "recovery": "Recovery [EN]",
-      "setback": "Suffered a setback in recovery - prolonged absence. [EN]",
-      "severe": "Suffered a severe {type} - out for {duration} months. [EN]",
-      "title": "Injury [EN]",
+      "careerEnding": "Sufrió una trágica lesión que puso fin a su carrera.",
+      "description": "Sufriste una lesión",
+      "minor": "Menor XPLACHOLDERX0X",
+      "missedSeason": "Se perdió gran parte de la temporada por lesión.",
+      "moderate": "Moderado XPLACHOLDERX0X",
+      "recovery": "Recuperación",
+      "setback": "Sufrió un revés en la recuperación: ausencia prolongada.",
+      "severe": "Sufrió un {type} grave: estuvo inactivo durante {duration} meses.",
+      "title": "Lesión",
       "types": {
-        "hamstring": "hamstring injury [EN]",
-        "groin": "groin strain [EN]",
-        "ankle_sprain": "ankle sprain [EN]",
-        "knee_problem": "knee problem [EN]",
-        "back": "back injury [EN]",
-        "knee": "knee injury [EN]",
-        "muscle_tear": "muscle tear [EN]",
-        "concussion": "concussion [EN]",
-        "ankle": "ankle injury [EN]",
-        "hamstring_tear": "hamstring tear [EN]",
-        "calf": "calf strain [EN]",
-        "finger": "finger injury [EN]",
-        "shoulder": "shoulder problem [EN]",
-        "hamstring_strain": "hamstring strain [EN]",
-        "groin_injury": "groin injury [EN]",
-        "ankle_problem": "ankle problem [EN]",
-        "calf_strain": "calf strain [EN]",
-        "thigh": "thigh injury [EN]",
-        "muscle_strain": "muscle strain [EN]",
-        "muscle": "muscle injury [EN]"
+        "hamstring": "lesión en el tendón de la corva",
+        "groin": "distensión de la ingle",
+        "ankle_sprain": "esguince de tobillo",
+        "knee_problem": "problema de rodilla",
+        "back": "lesión de espalda",
+        "knee": "lesión de rodilla",
+        "muscle_tear": "desgarro muscular",
+        "concussion": "conmoción cerebral",
+        "ankle": "lesión de tobillo",
+        "hamstring_tear": "desgarro del tendón de la corva",
+        "calf": "tensión en la pantorrilla",
+        "finger": "lesión en el dedo",
+        "shoulder": "problema de hombro",
+        "hamstring_strain": "distensión del tendón de la corva",
+        "groin_injury": "lesión en la ingle",
+        "ankle_problem": "problema de tobillo",
+        "calf_strain": "tensión en la pantorrilla",
+        "thigh": "lesión en el muslo",
+        "muscle_strain": "tensión muscular",
+        "muscle": "lesión muscular"
       },
-      "recovery_serious": "Returned from serious injury - relieved to be back. [EN]",
-      "recovery_normal": "Recovered from injury and back to full fitness. [EN]"
+      "recovery_serious": "Regresó de una lesión grave y aliviado de estar de regreso.",
+      "recovery_normal": "Recuperado de una lesión y de nuevo en plena forma."
     },
     "interview": {
-      "choice_diplomatic": "Be diplomatic [EN]",
-      "choice_honest": "Be brutally honest [EN]",
-      "choice_refuse": "Refuse to answer [EN]",
-      "description": "A journalist is asking tricky questions about teammates and manager. One wrong word could cause trouble. [EN]",
-      "title": "Controversial Interview [EN]"
+      "choice_diplomatic": "Sea diplomático",
+      "choice_honest": "Sea brutalmente honesto",
+      "choice_refuse": "Negarse a responder",
+      "description": "Un periodista hace preguntas difíciles sobre sus compañeros y su entrenador. Una palabra equivocada podría causar problemas.",
+      "title": "Entrevista controvertida"
     },
     "league": {
-      "playoffPromotionLost": "{team} lost the promotion playoff. [EN]",
-      "playoffPromotionWon": "{team} won the promotion playoff and was promoted! [EN]",
-      "playoffRelegationLost": "{team} lost the relegation playoff and was relegated. [EN]",
-      "playoffRelegationSurvived": "{team} won the relegation playoff and stays in the league! [EN]",
-      "promoted": "{team} was promoted to a higher league! [EN]",
-      "relegated": "{team} was relegated to a lower league. [EN]"
+      "playoffPromotionLost": "{team} perdió el playoff de ascenso.",
+      "playoffPromotionWon": "¡{team} ganó el playoff de ascenso y ascendió!",
+      "playoffRelegationLost": "{team} perdió el desempate de descenso y descendió.",
+      "playoffRelegationSurvived": "¡{team} ganó el playoff de descenso y permanece en la liga!",
+      "promoted": "¡{team} fue ascendido a una liga superior!",
+      "relegated": "{team} descendió a una liga inferior."
     },
     "loan": {
-      "becamePermanent": "Loan became permanent at {team} (parent club unavailable). [EN]",
-      "clubSeekingMove": "Club actively seeking a loan to ensure continued career development. [EN]",
-      "opportunitiesAvailable": "{count} loan opportunities available to ensure regular football. [EN]",
-      "returnedToClub": "Returned to {team} after loan spell. [EN]",
-      "returnedToSenior": "Returned to {team} senior squad after loan. [EN]",
-      "spellEnded": "Loan spell at {loanTeam} ended. Returning to {parentTeam}. [EN]"
+      "becamePermanent": "El préstamo se volvió permanente en {team} (club matriz no disponible).",
+      "clubSeekingMove": "El club busca activamente un préstamo para garantizar un desarrollo profesional continuo.",
+      "opportunitiesAvailable": "Oportunidades de préstamo {count} disponibles para garantizar un fútbol regular.",
+      "returnedToClub": "Devuelto a {team} después del período de préstamo.",
+      "returnedToSenior": "Regresó al equipo senior de {team} después del préstamo.",
+      "spellEnded": "Finalizó el período de préstamo en {loanTeam}. Volviendo a {parentTeam}."
     },
     "manager": {
-      "choice_accept": "Accept criticism [EN]",
-      "choice_defend": "Defend yourself [EN]",
-      "choice_transfer": "Request transfer [EN]",
-      "description": "The manager publicly criticized your performance. Did not go down well with you. [EN]",
-      "title": "Manager Fallout [EN]"
+      "choice_accept": "Aceptar críticas",
+      "choice_defend": "Defiéndete",
+      "choice_transfer": "Solicitar transferencia",
+      "description": "El directivo criticó públicamente su actuación. No te cayó bien.",
+      "title": "Gerente Fallout"
     },
     "managerConversation": {
-      "choice_accept": "Accept current role [EN]",
-      "choice_chances": "Ask for more opportunities [EN]",
-      "choice_commitment": "Show commitment to team [EN]",
-      "description": "The manager wants to talk about your role in the team. Could affect your playing time. [EN]",
-      "title": "Manager Conversation [EN]"
+      "choice_accept": "Aceptar rol actual",
+      "choice_chances": "Pregunta por más oportunidades",
+      "choice_commitment": "Mostrar compromiso con el equipo",
+      "description": "El entrenador quiere hablar sobre tu papel en el equipo. Podría afectar tu tiempo de juego.",
+      "title": "Conversación del gerente"
     },
     "sponsorship": {
-      "title": "Sponsorship Deal [EN]",
-      "description": "A major sports brand wants to sign you as their face. The deal could be very lucrative, but it means more media obligations and less free time. [EN]",
-      "choice_big": "Sign the full deal [EN]",
-      "choice_small": "Accept limited partnership [EN]",
-      "choice_decline": "Stay focused on football [EN]"
+      "title": "Acuerdo de patrocinio",
+      "description": "Una importante marca deportiva quiere contratarte como su rostro. El acuerdo podría ser muy lucrativo, pero significa más obligaciones con los medios y menos tiempo libre.",
+      "choice_big": "Firma el acuerdo completo",
+      "choice_small": "Aceptar sociedad limitada",
+      "choice_decline": "Manténgase concentrado en el fútbol"
     },
     "documentary": {
-      "title": "Documentary Offer [EN]",
-      "description": "A streaming platform wants to follow you with cameras for a behind-the-scenes documentary about your career. Could boost your brand massively. [EN]",
-      "choice_accept": "Full access, nothing to hide [EN]",
-      "choice_limited": "Limited access only [EN]",
-      "choice_decline": "No cameras, please [EN]"
+      "title": "Oferta Documental",
+      "description": "Una plataforma de streaming quiere seguirte con cámaras para un documental detrás de escena sobre tu carrera. Podría impulsar su marca enormemente.",
+      "choice_accept": "Acceso completo, nada que ocultar",
+      "choice_limited": "Sólo acceso limitado",
+      "choice_decline": "Sin cámaras, por favor."
     },
     "injuryComeback": {
-      "title": "Injury Recovery Decision [EN]",
-      "description": "You're recovering from an injury. The medical team says you need more time, but you feel ready. How do you approach your comeback? [EN]",
-      "choice_rush": "Push to return early [EN]",
-      "choice_patient": "Follow the rehab plan [EN]",
-      "choice_specialist": "Hire a private specialist [EN]"
+      "title": "Decisión de recuperación de lesiones",
+      "description": "Te estás recuperando de una lesión. El equipo médico dice que necesitas más tiempo, pero te sientes preparado. ¿Cómo afrontas tu regreso?",
+      "choice_rush": "Presionar para regresar temprano",
+      "choice_patient": "Sigue el plan de rehabilitación",
+      "choice_specialist": "Contrata a un especialista privado"
     },
     "internationalCallup": {
-      "title": "International Call-Up [EN]",
-      "description": "The national team coach has included you in the squad for the upcoming international window. Your club manager is worried about fatigue. [EN]",
-      "choice_enthusiastic": "Can't wait to represent my country! [EN]",
-      "choice_cautious": "Go but manage my minutes [EN]",
-      "choice_decline": "Withdraw citing fitness concerns [EN]"
+      "title": "Convocatoria Internacional",
+      "description": "El seleccionador nacional le ha incluido en la convocatoria para el próximo mercado internacional. El director de su club está preocupado por el cansancio.",
+      "choice_enthusiastic": "¡No puedo esperar para representar a mi país!",
+      "choice_cautious": "Ve pero gestiona mis minutos",
+      "choice_decline": "Retirarse citando preocupaciones sobre su estado físico"
     },
     "dressingRoom": {
-      "title": "Dressing Room Moment [EN]",
-      "description": "The team is going through a rough patch and the atmosphere in the dressing room is tense. As one of the senior players, everyone is looking at you. [EN]",
-      "choice_motivate": "Give an inspiring speech [EN]",
-      "choice_criticize": "Demand more from teammates [EN]",
-      "choice_quiet": "Stay quiet and lead by example [EN]"
+      "title": "Momento del vestidor",
+      "description": "El equipo pasa por un momento complicado y el ambiente en el vestuario es tenso. Como uno de los jugadores veteranos, todo el mundo te mira.",
+      "choice_motivate": "Da un discurso inspirador",
+      "choice_criticize": "Exigir más a los compañeros",
+      "choice_quiet": "Quédate callado y predica con el ejemplo."
     },
     "rivalProvocation": {
-      "title": "Rival Provocation [EN]",
-      "description": "A rival player has made provocative comments about you in a pre-match interview. The media is waiting for your response. [EN]",
-      "choice_fire_back": "Fire back in the media [EN]",
-      "choice_ignore": "Take the high road [EN]",
-      "choice_play": "Let my football do the talking [EN]"
+      "title": "Provocación rival",
+      "description": "Un jugador rival ha hecho comentarios provocativos sobre usted en una entrevista previa al partido. Los medios están esperando su respuesta.",
+      "choice_fire_back": "Contraataque en los medios",
+      "choice_ignore": "Toma el camino alto",
+      "choice_play": "Deja que mi fútbol hable por ti"
     },
     "academyVisit": {
-      "title": "Academy Visit [EN]",
-      "description": "Your club's youth academy has invited you to spend a day inspiring the next generation. The young players would love to train with you. [EN]",
-      "choice_full": "Spend the full day training with them [EN]",
-      "choice_brief": "Quick visit and photo session [EN]",
-      "choice_decline": "Too busy, maybe next time [EN]"
+      "title": "Visita a la Academia",
+      "description": "La academia juvenil de tu club te ha invitado a pasar un día inspirando a la próxima generación. A los jugadores jóvenes les encantaría entrenar contigo.",
+      "choice_full": "Pasa el día completo entrenando con ellos.",
+      "choice_brief": "Visita rápida y sesión de fotos.",
+      "choice_decline": "Demasiado ocupado, tal vez la próxima vez"
     },
     "fashionCollab": {
-      "title": "Fashion Collaboration [EN]",
-      "description": "A luxury fashion brand wants you to co-design a limited edition collection. Your agent says it could be huge for your personal brand. [EN]",
-      "choice_accept": "Sign the deal [EN]",
-      "choice_negotiate": "Try to negotiate better terms [EN]",
-      "choice_decline": "Not my thing [EN]"
+      "title": "Colaboración de moda",
+      "description": "Una marca de moda de lujo quiere que codiseñes una colección de edición limitada. Su agente dice que podría ser enorme para su marca personal.",
+      "choice_accept": "Firma el trato",
+      "choice_negotiate": "Intenta negociar mejores condiciones.",
+      "choice_decline": "no es lo mio"
     },
     "gamingEndorsement": {
-      "title": "Gaming Endorsement [EN]",
-      "description": "A major gaming company wants you as their ambassador. They're offering a deal that includes appearing in their next game and streaming. [EN]",
-      "choice_accept": "Accept the ambassador role [EN]",
-      "choice_stream": "Go all-in and start streaming too [EN]",
-      "choice_decline": "Gaming isn't for me [EN]"
+      "title": "Respaldo de juegos",
+      "description": "Una importante empresa de juegos te quiere como embajador. Están ofreciendo un trato que incluye aparecer en su próximo juego y transmitir.",
+      "choice_accept": "Aceptar el rol de embajador",
+      "choice_stream": "Haz todo lo posible y comienza a transmitir también",
+      "choice_decline": "Los juegos no son para mi"
     },
     "communityCrisis": {
-      "title": "Community in Crisis [EN]",
-      "description": "Your local community has been hit by a natural disaster. People are looking to public figures like you for help and support. [EN]",
-      "choice_big": "Make a major donation [EN]",
-      "choice_awareness": "Use your platform to raise awareness [EN]",
-      "choice_silent": "Stay out of it [EN]"
+      "title": "Comunidad en crisis",
+      "description": "Su comunidad local ha sido golpeada por un desastre natural. La gente busca ayuda y apoyo en figuras públicas como usted.",
+      "choice_big": "Haz una donación importante",
+      "choice_awareness": "Utilice su plataforma para crear conciencia",
+      "choice_silent": "Mantente fuera de esto"
     },
     "match": {
-      "title": "Match [EN]"
+      "title": "Fósforo"
     },
     "media": {
-      "narrativeChange": "The media narrative shifts to: '{narrative}' [EN]",
-      "objectiveFailed": "Press criticizes: objectives missed. [EN]",
-      "objectiveMet": "Press praises: objectives met. [EN]",
-      "title": "Media [EN]",
-      "youngTalent": "The media has acclaimed him as one of the most exciting young talents in football! [EN]"
+      "narrativeChange": "La narrativa de los medios cambia a: '{narrative}'",
+      "objectiveFailed": "La prensa critica: objetivos perdidos.",
+      "objectiveMet": "Elogios de la prensa: objetivos cumplidos.",
+      "title": "Medios de comunicación",
+      "youngTalent": "¡Los medios lo han aclamado como uno de los jóvenes talentos más interesantes del fútbol!"
     },
     "mediaInterview": {
-      "choice_confident": "Show confidence [EN]",
-      "choice_deflect": "Deflect questions [EN]",
-      "choice_humble": "Be humble [EN]",
-      "description": "The media wants to get to know you better. This is your chance to make a good impression. [EN]",
-      "title": "First Interview [EN]"
+      "choice_confident": "mostrar confianza",
+      "choice_deflect": "Desviar preguntas",
+      "choice_humble": "se humilde",
+      "description": "Los medios quieren conocerte mejor. Esta es tu oportunidad de causar una buena impresión.",
+      "title": "Primera entrevista"
     },
     "mentor": {
-      "choice_accept": "Accept gladly [EN]",
-      "choice_decline": "Politely decline [EN]",
-      "description": "The club wants you to mentor a young academy talent. Takes time, but strengthens image. [EN]",
-      "title": "Youth Mentor [EN]"
+      "choice_accept": "Aceptar con gusto",
+      "choice_decline": "Rechazar cortésmente",
+      "description": "El club quiere que seas mentor de un joven talento de la academia. Lleva tiempo, pero fortalece la imagen.",
+      "title": "Mentor juvenil"
     },
     "national": {
-      "150caps": "150 caps for {country}! One of the greatest of all time! [EN]",
-      "brace": "BRACE for {country} vs {opponent} in {type}! [EN]",
-      "centurion": "CENTURION! 100 caps for {country}! A legendary milestone! [EN]",
+      "150caps": "¡150 cápsulas para {country}! ¡Uno de los más grandes de todos los tiempos!",
+      "brace": "¡BRACE para {country} vs {opponent} en {type}!",
+      "centurion": "¡CENTURION! ¡100 cápsulas para {country}! ¡Un hito legendario!",
       "continentalCupExit": {
-        "genericDefeat": "Continental Cup exit {round} vs {opponent}. Heartbreak as the team is eliminated. [EN]",
-        "heroicDefeat": "Continental Cup exit {round} vs {opponent}. Despite a great individual performance, the team fell short. [EN]",
-        "disappointingDefeat": "Continental Cup exit {round} vs {opponent}. A disappointing collective display ends the tournament run. [EN]"
+        "genericDefeat": "Salida de la Copa Continental {round} vs {opponent}. Desamor cuando el equipo es eliminado.",
+        "heroicDefeat": "Salida de la Copa Continental {round} vs {opponent}. A pesar de una gran actuación individual, el equipo se quedó corto.",
+        "disappointingDefeat": "Salida de la Copa Continental {round} vs {opponent}. Una actuación colectiva decepcionante pone fin al torneo."
       },
-      "continentalCupGroupExit": "Failed to qualify from Continental Cup group stage. [EN]",
-      "continentalCupSelected": "Selected for Continental Cup squad! [EN]",
-      "demoted": "Demoted to squad rotation for {country}. [EN]",
-      "dropped": "Dropped from {country} squad. [EN]",
-      "firstCallUp": "Received first call-up to {country} national team! [EN]",
-      "hatTrick": "HAT-TRICK for {country} vs {opponent}! Historic performance in crucial {type} match! [EN]",
-      "lostCaptaincy": "Lost the captaincy of {country}. [EN]",
-      "milestone100caps": "Reached 100 international caps for {country}! A legendary achievement. [EN]",
-      "milestone25intGoals": "Scored 25th international goal for {country}! [EN]",
-      "milestone50caps": "Reached 50 international caps for {country}! [EN]",
-      "milestone50intGoals": "Scored 50th international goal for {country}! A historic achievement. [EN]",
-      "namedCaptain": "Named captain of {country}! A tremendous honor. [EN]",
+      "continentalCupGroupExit": "No pudo clasificarse en la fase de grupos de la Copa Continental.",
+      "continentalCupSelected": "¡Seleccionado para el equipo de la Copa Continental!",
+      "demoted": "Degradado a la rotación de escuadrón para {country}.",
+      "dropped": "Caído del equipo {country}.",
+      "firstCallUp": "¡Recibí la primera convocatoria para el equipo nacional {country}!",
+      "hatTrick": "¡HAT-TRICK para {country} vs {opponent}! ¡Actuación histórica en un partido crucial {type}!",
+      "lostCaptaincy": "Perdió la capitanía de {country}.",
+      "milestone100caps": "¡Alcanzó 100 partidos internacionales para {country}! Un logro legendario.",
+      "milestone25intGoals": "¡Marcó el gol número 25 internacional para {country}!",
+      "milestone50caps": "¡Alcanzó 50 partidos internacionales para {country}!",
+      "milestone50intGoals": "¡Marcó el gol número 50 internacional para {country}! Un logro histórico.",
+      "namedCaptain": "¡Nombrado capitán de {country}! Un tremendo honor.",
       "nationsLeagueDefeat": {
-        "genericDefeat": "Nations Tournament defeat {round} vs {opponent}. Heartbreak as the team is eliminated. [EN]",
-        "heroicDefeat": "Nations Tournament defeat {round} vs {opponent}. Despite a great individual performance, the team fell short. [EN]",
-        "disappointingDefeat": "Nations Tournament defeat {round} vs {opponent}. A disappointing collective display ends the tournament run. [EN]"
+        "genericDefeat": "Derrota en el Torneo de Naciones {round} vs {opponent}. Desamor cuando el equipo es eliminado.",
+        "heroicDefeat": "Derrota en el Torneo de Naciones {round} vs {opponent}. A pesar de una gran actuación individual, el equipo se quedó corto.",
+        "disappointingDefeat": "Derrota en el Torneo de Naciones {round} vs {opponent}. Una actuación colectiva decepcionante pone fin al torneo."
       },
-      "regularStarter": "Became a regular starter for {country}! [EN]",
-      "retirementAnnounced": "Announced retirement from international football after {caps} caps for {country}. End of an era. [EN]",
-      "seasonSummary": "Made {caps} appearances for {country}, scoring {goals} goals and {assists} assists (Avg Rating: {rating}/10). [EN]",
-      "squadPlayer": "Established as a squad player for {country}. [EN]",
-      "worldCupBrace": "BRACE in World Tournament {round} vs {opponent}! Decisive brilliance! [EN]",
+      "regularStarter": "¡Conviértete en un titular habitual de {country}!",
+      "retirementAnnounced": "Se anunció el retiro del fútbol internacional después de que {caps} fuera internacional con {country}. Fin de una era.",
+      "seasonSummary": "Hizo apariciones en {caps} para {country}, anotando goles {goals} y asistencias {assists} (calificación promedio: {rating}/10).",
+      "squadPlayer": "Establecido como jugador de escuadrón para {country}.",
+      "worldCupBrace": "¡BRACE en el Torneo Mundial {round} vs {opponent}! ¡Brillo decisivo!",
       "worldCupExit": {
-        "genericDefeat": "World Tournament exit {round} vs {opponent}. Heartbreak as the team is eliminated. [EN]",
-        "heroicDefeat": "World Tournament exit {round} vs {opponent}. Despite a great individual performance, the team fell short. [EN]",
-        "disappointingDefeat": "World Tournament exit {round} vs {opponent}. A disappointing collective display ends the tournament run. [EN]"
+        "genericDefeat": "Salida del Torneo Mundial {round} vs {opponent}. Desamor cuando el equipo es eliminado.",
+        "heroicDefeat": "Salida del Torneo Mundial {round} vs {opponent}. A pesar de una gran actuación individual, el equipo se quedó corto.",
+        "disappointingDefeat": "Salida del Torneo Mundial {round} vs {opponent}. Una actuación colectiva decepcionante pone fin al torneo."
       },
-      "worldCupGroupExit": "Disappointing elimination in World Tournament group stage. The team failed to qualify for knockouts. [EN]",
-      "worldCupHatTrick": "HAT-TRICK in World Tournament {round} vs {opponent}! Legendary performance for {country}! [EN]",
-      "worldCupCallup": "Selected for World Tournament squad for {country}! [EN]"
+      "worldCupGroupExit": "Decepcionante eliminación en la fase de grupos del Torneo Mundial. El equipo no logró clasificarse para los octavos de final.",
+      "worldCupHatTrick": "¡HAT-TRICK en el Torneo Mundial {round} vs {opponent}! ¡Rendimiento legendario para {country}!",
+      "worldCupCallup": "¡Seleccionado para el equipo del Torneo Mundial de {country}!"
     },
     "nightclub": {
-      "choice_apologize": "Publicly apologize [EN]",
-      "choice_blame": "Blame others [EN]",
-      "description": "A scuffle at a nightclub made the news. Witnesses say you were involved. [EN]",
-      "title": "Nightclub Incident [EN]"
+      "choice_apologize": "disculparse públicamente",
+      "choice_blame": "Culpar a los demás",
+      "description": "Una pelea en un club nocturno fue noticia. Los testigos dicen que usted estuvo involucrado.",
+      "title": "Incidente del club nocturno"
     },
     "outburst": {
-      "choice_delete": "Delete and apologize [EN]",
-      "choice_double_down": "Double down [EN]",
-      "description": "You posted something controversial on social media and it's going viral. Your agent won't stop calling. [EN]",
-      "title": "Social Media Outburst [EN]"
+      "choice_delete": "Eliminar y pedir disculpas",
+      "choice_double_down": "Doblar",
+      "description": "Publicaste algo controvertido en las redes sociales y se está volviendo viral. Su agente no dejará de llamar.",
+      "title": "Estallido de redes sociales"
     },
     "party_scandal": {
-      "choice_apologize": "Publicly apologize [EN]",
-      "choice_deny": "Deny everything [EN]",
-      "choice_ignore": "Stay silent [EN]",
-      "description": "Photos from a wild party leaked online. The media is having a field day, and the club is not happy. How do you respond? [EN]",
-      "title": "Party Scandal [EN]"
+      "choice_apologize": "disculparse públicamente",
+      "choice_deny": "negarlo todo",
+      "choice_ignore": "quédate en silencio",
+      "description": "Fotos de una fiesta salvaje filtradas en línea. Los medios se están divirtiendo y el club no está contento. ¿Cómo respondes?",
+      "title": "Escándalo de fiesta"
     },
     "performance": {
-      "disappointing": "Questions over future following disappointing campaign. [EN]",
-      "exceptional": "Exceptional season earns universal praise from pundits and fans! [EN]",
-      "needsImprovement": "Critics suggest significant improvement needed next season. [EN]",
-      "strong": "Strong performances throughout the season did not go unnoticed. [EN]"
+      "disappointing": "Preguntas sobre el futuro tras una campaña decepcionante.",
+      "exceptional": "¡Una temporada excepcional se gana el elogio universal de expertos y aficionados!",
+      "needsImprovement": "Los críticos sugieren que se necesitan mejoras significativas la próxima temporada.",
+      "strong": "Las buenas actuaciones a lo largo de la temporada no pasaron desapercibidas."
     },
     "personal": {
-      "title": "Personal [EN]"
+      "title": "Personal"
     },
     "personality": {
       "ambitious": {
-        "meltdown": "Publicly questioned club's ambition and transfer strategy. [EN]",
-        "transfer": "Frustrated with lack of ambition - considering transfer options. [EN]"
+        "meltdown": "Cuestionó públicamente la ambición y la estrategia de fichajes del club.",
+        "transfer": "Frustrado por la falta de ambición, considerando opciones de transferencia."
       },
       "determined": {
-        "overcome": "Showed incredible determination to overcome difficult period. [EN]",
-        "performance": "Determination pays off with decisive performance! [EN]"
+        "overcome": "Mostró una determinación increíble para superar un período difícil.",
+        "performance": "¡La determinación vale la pena con un desempeño decisivo!"
       },
       "inconsistent": {
-        "boost": "Suddenly in great form - looks unstoppable on his day! [EN]",
-        "slump": "Form abandons him again - another frustrating period. [EN]"
+        "boost": "De repente en gran forma: ¡parece imparable en su día!",
+        "slump": "La forma lo vuelve a abandonar: otro período frustrante."
       },
       "lazy": {
-        "criticism": "Manager criticizes attitude in training during press conference. [EN]",
-        "fallout": "Relationship with manager deteriorates due to work ethic issues. [EN]",
-        "late": "Fined by club for repeated lateness to training. [EN]"
+        "criticism": "Directivo critica actitud en entrenamiento durante conferencia de prensa.",
+        "fallout": "La relación con el gerente se deteriora debido a problemas de ética laboral.",
+        "late": "Multado por el club por reiteradas tardanzas en los entrenamientos."
       },
       "loyal": {
-        "banner": "Fans unveil banner celebrating loyalty to the club. [EN]",
-        "community": "Local community honors commitment to the region. [EN]",
-        "decade": "Fans vote him Player of the Decade. [EN]",
-        "legend": "Named club legend after years of dedicated service. [EN]",
-        "reject": "Rejected lucrative offers to stay at the club he loves. [EN]"
+        "banner": "Los aficionados revelan una pancarta que celebra la lealtad al club.",
+        "community": "La comunidad local honra el compromiso con la región.",
+        "decade": "Los fanáticos lo votan como Jugador de la Década.",
+        "legend": "Nombrada leyenda del club después de años de dedicado servicio.",
+        "reject": "Rechazó lucrativas ofertas para quedarse en el club que ama."
       },
       "mediaDarling": {
-        "criticism": "Struggling to deal with intense media scrutiny and criticism. [EN]",
-        "praise": "Charm and charisma make him a media sensation! [EN]"
+        "criticism": "Luchando por lidiar con el intenso escrutinio y crítica de los medios.",
+        "praise": "¡El encanto y el carisma lo convierten en una sensación en los medios!"
       },
       "professional": {
-        "award": "Named Club Professional of the Year by coaching staff. [EN]",
-        "contract": "Club eager to extend contract due to exemplary professionalism. [EN]",
-        "praise": "Praised by manager for exceptional professionalism and work ethic. [EN]",
-        "roleModel": "Teammates cite him as the perfect role model. [EN]",
-        "training": "Extra training sessions earning respect from entire squad. [EN]"
+        "award": "Nombrado Profesional del Año del Club por el cuerpo técnico.",
+        "contract": "Club con ganas de ampliar contrato por su ejemplar profesionalidad.",
+        "praise": "Elogiado por el gerente por su excepcional profesionalismo y ética de trabajo.",
+        "roleModel": "Sus compañeros de equipo lo citan como el modelo perfecto a seguir.",
+        "training": "Sesiones de entrenamiento adicionales para ganarse el respeto de todo el equipo."
       },
       "reserved": {
-        "recognition": "Quiet consistency finally gaining recognition from peers and pundits. [EN]",
-        "uncomfortable": "Uncomfortable with intense spotlight - prefers to let football do the talking. [EN]"
+        "recognition": "La coherencia silenciosa finalmente gana el reconocimiento de pares y expertos.",
+        "uncomfortable": "Se siente incómodo ante la intensa atención y prefiere dejar que el fútbol hable por sí solo."
       },
       "temperamental": {
-        "bustup": "Had a heated argument in training with a teammate. [EN]",
-        "fallout": "Public fallout with manager after being substituted. [EN]",
-        "fine": "Fined by club for disciplinary reasons. [EN]",
-        "media": "Stormed out of press conference after provocative questions. [EN]",
-        "redCard": "Sent off for violent conduct - lost control in crucial moment. [EN]",
-        "social": "Deleted social media post criticizing fans and media. [EN]"
+        "bustup": "Tuvo una acalorada discusión en el entrenamiento con un compañero.",
+        "fallout": "Repercusiones públicas con el entrenador después de ser sustituido.",
+        "fine": "Multado por el club por motivos disciplinarios.",
+        "media": "Salido furioso de la conferencia de prensa después de preguntas provocativas.",
+        "redCard": "Expulsado por conducta violenta; perdió el control en un momento crucial.",
+        "social": "Publicación eliminada en las redes sociales criticando a los fanáticos y a los medios."
       }
     },
     "physical": {
-      "heightGrowth": "Height Growth [EN]",
-      "injuryRecovery": "Injury Recovery [EN]",
-      "muscleGain": "Muscle Gain [EN]",
-      "naturalDecline": "Natural Decline [EN]",
-      "peakPhysical": "Physical Peak [EN]",
-      "weightGain": "Weight Gain [EN]",
-      "weightLoss": "Weight loss from training [EN]",
-      "bodyTypeChange": "Body type changed [EN]"
+      "heightGrowth": "Crecimiento en altura",
+      "injuryRecovery": "Recuperación de lesiones",
+      "muscleGain": "Ganancia muscular",
+      "naturalDecline": "Decadencia natural",
+      "peakPhysical": "Pico físico",
+      "weightGain": "Aumento de peso",
+      "weightLoss": "Pérdida de peso por entrenamiento",
+      "bodyTypeChange": "El tipo de cuerpo cambió"
     },
     "promotion": {
-      "asProspect": "Promoted to {team} senior squad at {age} years old. Seen as exciting prospect for the future. [EN]",
-      "asReserve": "Joined {team} senior squad at {age} years old. Starting in reserves with opportunities to prove worth. [EN]",
-      "fastTracked": "🏆 Fast-tracked to {team} senior squad at just {age} years old! Immediately integrated into first-team rotation. [EN]",
-      "toSeniors": "Promoted to {team} senior squad at {age} years old. [EN]"
+      "asProspect": "Ascendido al equipo senior de {team} a los {age} años. Visto como una perspectiva emocionante para el futuro.",
+      "asReserve": "Se unió al equipo senior de {team} cuando tenía {age} años. Empezando en reservas con oportunidades para demostrar su valía.",
+      "fastTracked": "🏆 ¡Avanzó rápidamente al equipo senior de {team} con solo {age} años! Integrado inmediatamente en la rotación del primer equipo.",
+      "toSeniors": "Ascendido al equipo senior de {team} a los {age} años."
     },
     "reactions": {
       "agent_meeting": {
         "contract": {
-          "headline1": "📰 {name} in renewal negotiations [EN]"
+          "headline1": "📰 {name} en negociaciones de renovación"
         },
         "explore": {
-          "fan1": "Abandoning us? After everything? 💔 [EN]",
-          "fan2": "If it's for a better project, I understand... [EN]",
-          "headline1": "📰 EXCLUSIVE: {name} evaluating offers from other clubs [EN]",
-          "headline2": "📰 {name}'s future is uncertain [EN]"
+          "fan1": "¿Abandonándonos? ¿Después de todo? 💔",
+          "fan2": "Si es para un mejor proyecto, lo entiendo...",
+          "headline1": "📰 EXCLUSIVO: {name} evaluando ofertas de otros clubes",
+          "headline2": "📰 El futuro de {name} es incierto"
         },
         "focus": {
-          "fan1": "Nice! Focus on pitch, rest follows! ⚽ [EN]"
+          "fan1": "¡Lindo! ¡Concéntrate en el tono, el descanso sigue! ⚽"
         }
       },
       "award_celebration": {
         "team_party": {
-          "fan1": "Love that he celebrated with the boys! Team player! 🎉 [EN]",
-          "headline1": "📰 {name} throws party for teammates after award win [EN]"
+          "fan1": "¡Me encanta que haya celebrado con los chicos! ¡Jugador de equipo! 🎉",
+          "headline1": "📰 {name} organiza una fiesta para sus compañeros de equipo después de ganar el premio"
         },
         "charity_donation": {
-          "fan1": "What a generous soul! More than just a footballer! ❤️ [EN]",
-          "fan2": "This is what role models look like! 🙏 [EN]",
-          "headline1": "📰 {name} donates award bonus to charity [EN]",
-          "headline2": "📰 Hearts of gold: {name}'s charitable gesture after winning award [EN]"
+          "fan1": "¡Qué alma tan generosa! ¡Más que un simple futbolista! ❤️",
+          "fan2": "¡Así son los modelos a seguir! 🙏",
+          "headline1": "📰 {name} dona un bono de premio a organizaciones benéficas",
+          "headline2": "📰 Corazones de oro: el gesto caritativo de {name} tras ganar el premio"
         },
         "low_key": {
-          "fan1": "Humble king. Family first! 👑 [EN]",
-          "headline1": "📰 {name} celebrates award win with quiet family dinner [EN]"
+          "fan1": "Rey humilde. ¡La familia primero! 👑",
+          "headline1": "📰 {name} celebra el premio con una tranquila cena familiar"
         }
       },
       "award_press_conference": {
         "humble": {
-          "fan1": "Class act! True champion mentality! 👏 [EN]",
-          "fan2": "This is what separates the greats from the rest! 🌟 [EN]",
-          "headline1": "📰 {name} credits team after collecting prestigious award [EN]"
+          "fan1": "¡Acto de clase! ¡Verdadera mentalidad de campeón! 👏",
+          "fan2": "¡Esto es lo que separa a los grandes del resto! 🌟",
+          "headline1": "📰 {name} le da crédito al equipo después de recibir un prestigioso premio"
         },
         "confident": {
-          "fan1": "He's earned the right to be confident! 💪 [EN]",
-          "fan2": "Bold words but can't argue with the talent! [EN]",
-          "headline1": "📰 {name} declares 'I'm the best' after winning award [EN]",
-          "headline2": "📰 BOLD: {name} makes statement at award ceremony [EN]"
+          "fan1": "¡Se ha ganado el derecho a tener confianza! 💪",
+          "fan2": "¡Palabras audaces pero no puedo discutir con el talento!",
+          "headline1": "📰 {name} declara 'Soy el mejor' después de ganar el premio",
+          "headline2": "📰 NEGRITA: {name} hace una declaración en la ceremonia de premiación"
         },
         "controversial": {
-          "fan1": "Wow, did he really just say that? 😱 [EN]",
-          "fan2": "Love him or hate him, he speaks his mind! [EN]",
-          "headline1": "📰 FIRESTORM! {name} causes uproar at awards ceremony [EN]",
-          "headline2": "📰 {name}'s controversial speech goes viral [EN]"
+          "fan1": "Vaya, ¿realmente acaba de decir eso? 😱",
+          "fan2": "Ámalo u ódialo, ¡él dice lo que piensa!",
+          "headline1": "📰 ¡TORMENTA DE FUEGO! {name} causa revuelo en la ceremonia de premiación",
+          "headline2": "📰 El polémico discurso de {name} se vuelve viral"
         }
       },
       "award_snub_reaction": {
         "gracious": {
-          "fan1": "Pure class even in defeat. Respect! 🤝 [EN]",
-          "headline1": "📰 {name} shows grace after missing out on award [EN]"
+          "fan1": "Pura clase incluso en la derrota. ¡Respeto! 🤝",
+          "headline1": "📰 {name} muestra gracia después de perderse el premio"
         },
         "frustrated": {
-          "fan1": "Can't blame him, he deserved it! 😤 [EN]",
-          "fan2": "Not a great look though... [EN]",
-          "headline1": "📰 {name} lashes out after award snub [EN]",
-          "headline2": "📰 FURIOUS: {name} questions voting process [EN]"
+          "fan1": "No puedo culparlo, ¡se lo merecía! 😤",
+          "fan2": "Aunque no tiene una gran pinta...",
+          "headline1": "📰 {name} arremete tras el desaire del premio",
+          "headline2": "📰 FURIOSO: {name} cuestiona el proceso de votación"
         },
         "dismissive": {
-          "fan1": "Silent treatment... he's clearly hurt 😔 [EN]",
-          "headline1": "📰 {name} boycotts award afterparty following snub [EN]"
+          "fan1": "Tratamiento silencioso... claramente está herido 😔",
+          "headline1": "📰 {name} boicotea la fiesta posterior al premio luego de un desaire"
         }
       },
       "charity": {
         "large": {
-          "fan1": "This is an incredible human being! Much more than a player! ❤️ [EN]",
-          "fan2": "Proud to support a guy like this! 🥹 [EN]",
-          "headline1": "📰 {name} makes millionaire donation to children's hospital [EN]",
-          "headline2": "📰 {name}'s generosity moves community [EN]"
+          "fan1": "¡Este es un ser humano increíble! ¡Mucho más que un jugador! ❤️",
+          "fan2": "¡Orgulloso de apoyar a un tipo así! 🥹",
+          "headline1": "📰 {name} realiza donación millonaria a hospital infantil",
+          "headline2": "📰 La generosidad de {name} conmueve a la comunidad"
         },
         "small": {
-          "fan1": "Every help counts! Congrats on initiative! 👏 [EN]",
-          "headline1": "📰 {name} contributes to charitable cause [EN]"
+          "fan1": "¡Cada ayuda cuenta! ¡Felicidades por la iniciativa! 👏",
+          "headline1": "📰 {name} contribuye a una causa benéfica"
         }
       },
       "fan_encounter": {
         "engage": {
-          "fan1": "Can't believe he stopped to take a photo with me! 😍 [EN]",
-          "fan2": "Stayed 20 minutes signing autographs! What a legend! ⭐ [EN]",
-          "fan3": "This guy is one of us. Humble 10/10! [EN]",
-          "headline1": "📰 {name} delights fans with attention and kindness [EN]"
+          "fan1": "¡No puedo creer que se haya detenido a tomarse una foto conmigo! 😍",
+          "fan2": "¡Me quedé 20 minutos firmando autógrafos! ¡Qué leyenda! ⭐",
+          "fan3": "Este tipo es uno de nosotros. Humilde 10/10!",
+          "headline1": "📰 {name} deleita a los fans con atención y amabilidad"
         },
         "ignore": {
-          "fan1": "What a disappointment... didn't even look at us 😢 [EN]",
-          "fan2": "Fame went to his head, apparently... [EN]",
-          "headline1": "📰 Fans complain of cold treatment from {name} [EN]"
+          "fan1": "Que decepción... ni siquiera nos miró 😢",
+          "fan2": "La fama se le subió a la cabeza, al parecer...",
+          "headline1": "📰 Los fanáticos se quejan del tratamiento con frío de {name}"
         },
         "polite": {
-          "fan1": "Got a quick photo! So happy! 📸 [EN]"
+          "fan1": "¡Tengo una foto rápida! ¡Qué feliz! 📸"
         }
       },
       "fan_interaction": {
         "engage": {
-          "fan1": "This player is different class! Attended everyone! 🌟 [EN]",
-          "fan2": "Thanks for making my son happy! ❤️ [EN]",
-          "headline1": "📰 {name} praised for treatment of fans [EN]"
+          "fan1": "¡Este jugador es de otra clase! ¡Asistieron todos! 🌟",
+          "fan2": "¡Gracias por hacer feliz a mi hijo! ❤️",
+          "headline1": "📰 {name} elogiado por el trato a los fans"
         },
         "ignore": {
-          "fan1": "Walked right past us as if we were invisible... 😔 [EN]"
+          "fan1": "Pasó junto a nosotros como si fuéramos invisibles... 😔"
         }
       },
       "manager_conversation": {
         "chances": {
-          "headline1": "📰 {name} wants more opportunities in team [EN]"
+          "headline1": "📰 {name} quiere más oportunidades en el equipo"
         },
         "commitment": {
-          "fan1": "That's it! Playing for the badge! 💚 [EN]",
-          "headline1": "📰 {name} reaffirms commitment to club [EN]"
+          "fan1": "¡Eso es todo! ¡Jugando por la insignia! 💚",
+          "headline1": "📰 {name} reafirma compromiso con el club"
         }
       },
       "manager_fallout": {
         "accept": {
-          "fan1": "This is maturity. Listen, accept and evolve! 👏 [EN]",
-          "headline1": "📰 {name} accepts criticism and promises to improve [EN]"
+          "fan1": "Esta es la madurez. ¡Escucha, acepta y evoluciona! 👏",
+          "headline1": "📰 {name} acepta críticas y promete mejorar"
         },
         "defend": {
-          "fan1": "Whoa! This is going to get messy... [EN]",
-          "headline1": "📰 Tension! {name} hits back at manager criticism [EN]"
+          "fan1": "¡Vaya! Esto se va a poner complicado...",
+          "headline1": "📰 ¡Tensión! {name} responde a las críticas del gerente"
         },
         "transfer": {
-          "fan1": "Don't go! Please don't go! 😭 [EN]",
-          "fan2": "If manager doesn't know how to use him, better to go... [EN]",
-          "headline1": "📰 BOMBSHELL! {name} asks to leave after row with manager [EN]",
-          "headline2": "📰 Relationship between {name} and manager untenable [EN]"
+          "fan1": "¡No te vayas! ¡Por favor no te vayas! 😭",
+          "fan2": "Si el manager no sabe cómo utilizarlo, mejor irse...",
+          "headline1": "📰 ¡BOMBA! {name} pide irse después de pelea con el gerente",
+          "headline2": "📰 Relación entre {name} y el administrador insostenible"
         }
       },
       "party_scandal": {
         "apologize": {
-          "fan1": "At least he owned up to it. Respect! 👏 [EN]",
-          "fan2": "Everyone makes mistakes, important thing is to recognize. Moving on! [EN]",
-          "headline1": "📰 {name} apologizes after party controversy [EN]",
-          "headline2": "📰 Player shows maturity by owning mistake [EN]"
+          "fan1": "Al menos lo reconoció. ¡Respeto! 👏",
+          "fan2": "Todo el mundo comete errores, lo importante es reconocerlos. ¡Adelante!",
+          "headline1": "📰 {name} se disculpa tras la controversia de la fiesta",
+          "headline2": "📰 El jugador muestra madurez al poseer un error"
         },
         "deny": {
-          "fan1": "No point denying, there are photos of everything! 🤦 [EN]",
-          "fan2": "Does he think we're stupid? [EN]",
-          "headline1": "📰 {name} denies involvement in controversial party [EN]",
-          "headline2": "📰 Player version contradicts witnesses [EN]"
+          "fan1": "¡No tiene sentido negarlo, hay fotos de todo! 🤦",
+          "fan2": "¿Cree que somos estúpidos?",
+          "headline1": "📰 {name} niega participación en fiesta controvertida",
+          "headline2": "📰 La versión del jugador contradice a los testigos"
         },
         "ignore": {
-          "fan1": "I think he was right not to give this oxygen. [EN]",
-          "headline1": "📰 {name} remains silent on controversy [EN]"
+          "fan1": "Creo que hizo bien en no darle oxígeno.",
+          "headline1": "📰 {name} guarda silencio ante la controversia"
         }
       },
       "teammate_conflict": {
         "apologize": {
-          "fan1": "Greatness is knowing how to apologize. Congrats! 👏 [EN]"
+          "fan1": "La grandeza es saber pedir disculpas. ¡Felicitaciones! 👏"
         },
         "escalate": {
-          "fan1": "Embarrassing! This can't happen! 😡 [EN]",
-          "headline1": "📰 Dressing room crisis! Fight between players leaks to media [EN]",
-          "headline2": "📰 Board concerned about squad atmosphere [EN]"
+          "fan1": "¡Embarazoso! ¡Esto no puede suceder! 😡",
+          "headline1": "📰 ¡Crisis de vestuario! Pelea entre jugadores se filtra a los medios",
+          "headline2": "📰 Directiva preocupada por el ambiente del plantel"
         },
         "stand": {
-          "fan1": "Hope they resolve this soon... [EN]",
-          "headline1": "📰 Tense atmosphere: {name} stands ground in internal conflict [EN]"
+          "fan1": "Ojalá solucionen esto pronto...",
+          "headline1": "📰 Atmósfera tensa: {name} se mantiene firme en el conflicto interno"
         }
       },
       "teammate_interaction": {
         "bond": {
-          "fan1": "Love seeing the squad united! Family! 🤝 [EN]"
+          "fan1": "¡Me encanta ver al equipo unido! ¡Familia! 🤝"
         }
       },
       "training_decision": {
         "extra": {
-          "fan1": "This is how you build a career! Total dedication! 💪 [EN]",
-          "headline1": "📰 {name} impresses with extra dedication in training [EN]"
+          "fan1": "¡Así es como se construye una carrera! ¡Dedicación total! 💪",
+          "headline1": "📰 {name} impresiona con una dedicación extra en el entrenamiento"
         },
         "rest": {
-          "fan1": "Is he really focused? 🤔 [EN]"
+          "fan1": "¿Está realmente concentrado? 🤔"
         }
       }
     },
     "relationship": {
-      "choice_private": "Keep private [EN]",
-      "choice_public": "Make public statement [EN]",
-      "description": "Your personal relationship has become tabloid fodder. Paparazzi are everywhere. [EN]",
-      "title": "Relationship Drama [EN]"
+      "choice_private": "Mantener privado",
+      "choice_public": "hacer una declaración pública",
+      "description": "Su relación personal se ha convertido en tema de prensa sensacionalista. Los paparazzi están por todas partes.",
+      "title": "Drama de relaciones"
     },
     "release": {
-      "fromAcademy": "Released from {team} academy at {age} years old. Failed to secure promotion to seniors. [EN]"
+      "fromAcademy": "Lanzado de la academia {team} a los {age} años. No se pudo asegurar el ascenso a personas mayores."
     },
-    "requiresMoney": "Requires €{amount} [EN]",
+    "requiresMoney": "Requiere €{amount}",
     "retirement": {
-      "careerEndingInjury": "Forced to announce retirement due to career-ending injury. A cruel end to a promising career. [EN]",
-      "centurion": "Centurion for {country} - a national hero. [EN]",
+      "careerEndingInjury": "Forced to announce retirement due to career-ending injury. Un final cruel para una carrera prometedora.",
+      "centurion": "Centurión para {country}: un héroe nacional.",
       "headlines": {
         "injury": {
-          "1": "💔 HEARTBREAKING! Career cut short by injury for {name}. [EN]",
-          "2": "🏥 Body said enough: {name} forced to retire by injury. [EN]",
-          "3": "😢 Cruel setback: Injury ends {name}'s career prematurely. [EN]",
-          "4": "🩹 Medical advice forces {name} to hang up boots. Football mourns. [EN]",
-          "5": "💉 Devastating blow: {name}'s career ends due to persistent injury. [EN]",
-          "6": "🦴 Body betrays: {name} forced into early retirement. [EN]",
-          "7": "⚕️ Doctors order end: {name} must retire for health. [EN]",
-          "8": "😞 Dreams shattered: Injury forces {name} to leave the game. [EN]",
-          "9": "🏨 Final diagnosis: {name}'s playing days over due to injury. [EN]",
-          "10": "💫 What could have been: {name} retires due to recurring injury. [EN]",
-          "11": "🩼 Moving on: {name} chooses health over continuing career. [EN]",
-          "12": "⚡ Lightning struck: {name}'s career ended by devastating injury. [EN]",
-          "13": "😔 Unfair ending: {name} forced to retire by injury setback. [EN]",
-          "14": "🆘 No recovery: {name} accepts injury has ended career. [EN]",
-          "15": "💭 If only: {name} retires wondering what might have been. [EN]",
-          "16": "🏃‍♂️ Can't play on: {name} retires after battle with injury. [EN]",
-          "17": "🎗️ Fighting spirit: {name} retires after losing battle with body. [EN]",
-          "18": "⏸️ Career paused permanently: {name} retires due to injury. [EN]",
-          "19": "🩺 Medical retirement: {name} forced to stop by doctor's orders. [EN]",
-          "20": "❤️‍🩹 Body couldn't take more: {name} announces medical retirement. [EN]",
+          "1": "💔 ¡ROMPIENDO EL CORAZÓN! La carrera de {name} se vio truncada por una lesión.",
+          "2": "🏥 El cuerpo dijo basta: {name} obligado a retirarse por lesión.",
+          "3": "😢 Cruel revés: Una lesión acaba prematuramente con la carrera de {name}.",
+          "4": "🩹 El consejo médico obliga a {name} a colgar las botas. El fútbol está de luto.",
+          "5": "💉 Golpe devastador: la carrera de {name} termina debido a una lesión persistente.",
+          "6": "🦴 El cuerpo traiciona: {name} obligado a jubilarse anticipadamente.",
+          "7": "⚕️ Fin de orden de médicos: {name} debe retirarse por motivos de salud.",
+          "8": "😞 Sueños destrozados: Una lesión obliga a {name} a abandonar el juego.",
+          "9": "🏨 Diagnóstico final: Los días de juego de {name} terminaron debido a una lesión.",
+          "10": "💫 Lo que pudo haber sido: {name} se retira por lesión recurrente.",
+          "11": "🩼 Continuando: {name} elige la salud en lugar de continuar con su carrera.",
+          "12": "⚡ Cayó un rayo: la carrera de {name} terminó por una lesión devastadora.",
+          "13": "😔 Final injusto: {name} obligado a retirarse por revés por lesión.",
+          "14": "🆘 Sin recuperación: {name} acepta que la lesión ha acabado con su carrera.",
+          "15": "💭 Si tan solo: {name} se retira preguntándose qué pudo haber sido.",
+          "16": "🏃‍♂️ No puedo seguir jugando: {name} se retira después de luchar contra una lesión.",
+          "17": "🎗️Espíritu de lucha: {name} se retira tras perder la batalla con el cuerpo.",
+          "18": "⏸️ Carrera en pausa permanente: {name} se retira por lesión.",
+          "19": "🩺 Retiro médico: {name} obligado a detenerse por orden del médico.",
+          "20": "❤️‍🩹 El ​​cuerpo no podría aguantar más: {name} anuncia retiro médico.",
           "types": {
             "hamstring": "lesión de isquiotibiales",
             "groin": "tirón en la ingle",
@@ -822,861 +822,861 @@
           "recovery_normal": "Recuperado de la lesión y de vuelta en plena forma."
         },
         "natural": {
-          "1": "👋 {name} announces retirement at perfect moment. A career well lived. [EN]",
-          "2": "⚽ End of an era: {name} hangs up boots after fulfilling career. [EN]",
-          "3": "🎬 Final whistle: {name} calls time on playing days. [EN]",
-          "4": "📖 Chapter closes: {name} retires from professional football. [EN]",
-          "5": "🌅 Sunset: {name} peacefully ends playing career. [EN]",
-          "6": "🎭 Standing ovation: {name} takes final bow after great career. [EN]",
-          "7": "📝 Perfect farewell: {name} retires with head held high. [EN]",
-          "8": "⏰ Right time: {name} knows moment has arrived to retire. [EN]",
-          "9": "💫 Complete career: {name} retires with nothing left to prove. [EN]",
-          "10": "🎖️ Mission accomplished: {name} hangs up boots satisfied. [EN]",
-          "11": "🏟️ Empty locker: {name} says goodbye to football. [EN]",
-          "12": "👏 Grateful exit: {name} thanks football and retires. [EN]",
-          "13": "🎯 Job done: {name} retires after hitting career goals. [EN]",
-          "14": "📅 As planned: {name} retires at right moment. [EN]",
-          "15": "🌟 Legacy secured: {name} walks away from the game. [EN]",
-          "16": "⚽ Last shot: {name} retires after fulfilling journey. [EN]",
-          "17": "🎪 Final performance: {name} says farewell to football. [EN]",
-          "18": "📻 Signing off: {name} announces retirement from football. [EN]",
-          "19": "🏃 Hung up boots: {name} retires after long and proud career. [EN]",
-          "20": "💎 Diamond career ends: {name} retires with treasury of memories. [EN]"
+          "1": "👋 {name} anuncia su retiro en el momento perfecto. Una carrera bien vivida.",
+          "2": "⚽ Fin de una era: {name} cuelga las botas tras cumplir carrera.",
+          "3": "🎬 Silbato final: {name} pide tiempo en los días de juego.",
+          "4": "📖Se cierra el capítulo: {name} se retira del fútbol profesional.",
+          "5": "🌅 Puesta de sol: {name} termina pacíficamente su carrera como jugador.",
+          "6": "🎭 Ovación de pie: {name} hace la reverencia final después de una gran carrera.",
+          "7": "📝 Despedida perfecta: {name} se retira con la frente en alto.",
+          "8": "⏰ Momento adecuado: {name} sabe que ha llegado el momento de retirarse.",
+          "9": "💫 Carrera completa: {name} se retira sin nada más que demostrar.",
+          "10": "🎖️ Misión cumplida: {name} cuelga las botas satisfecho.",
+          "11": "🏟️ Casillero vacío: {name} se despide del fútbol.",
+          "12": "👏 Salida agradecida: {name} agradece el fútbol y se retira.",
+          "13": "🎯 Trabajo hecho: {name} se retira después de alcanzar sus objetivos profesionales.",
+          "14": "📅 Según lo previsto: {name} se retira en el momento adecuado.",
+          "15": "🌟 Legado asegurado: {name} se aleja del juego.",
+          "16": "⚽ Último disparo: {name} se retira tras cumplir viaje.",
+          "17": "🎪 Actuación final: {name} se despide del fútbol.",
+          "18": "📻 Despedida: {name} anuncia su retiro del fútbol.",
+          "19": "🏃 Botas colgadas: {name} se retira después de una larga y orgullosa carrera.",
+          "20": "💎 Finaliza la carrera de Diamante: {name} se retira con un tesoro de recuerdos."
         },
         "peakLegend": {
           "general": {
-            "1": "⭐ Still at the peak! {name} retires while fans beg for one more season! [EN]",
-            "2": "💫 On his own terms: {name} chooses to leave while still elite! [EN]",
-            "3": "🎭 Curtain falls early: {name} retires with plenty still to offer! [EN]",
-            "4": "👏 Pure class: {name} leaves the stage still performing at highest level! [EN]",
-            "5": "🌟 Leaving as a star: {name} retires while still shining! [EN]",
-            "6": "💎 Quitting while ahead: {name} retires with legacy intact! [EN]",
-            "7": "🎯 Perfect timing: {name} knows when to say goodbye! [EN]",
-            "8": "👑 Bow to the king: {name} retires at height of powers! [EN]",
-            "9": "⚡ Going out strong: {name} retires still feared by opponents! [EN]",
-            "10": "🔥 Undiminished: {name} leaves game still at elite level! [EN]"
+            "1": "⭐ ¡Aún en la cima! ¡{name} se retira mientras los fanáticos ruegan por una temporada más!",
+            "2": "💫 En sus propios términos: ¡{name} elige irse cuando aún es élite!",
+            "3": "🎭 Curtain falls early: {name} retires with plenty still to offer!",
+            "4": "👏 Pura clase: ¡{name} sale del escenario todavía rindiendo al más alto nivel!",
+            "5": "🌟 Partiendo como estrella: ¡{name} se retira sin dejar de brillar!",
+            "6": "💎 Renunciar mientras está por delante: ¡{name} se retira con el legado intacto!",
+            "7": "🎯 Momento perfecto: ¡{name} sabe cuándo decir adiós!",
+            "8": "👑 Inclínate ante el rey: ¡{name} se retira en el apogeo de sus poderes!",
+            "9": "⚡ Saliendo fuerte: ¡{name} se retira aún temido por los oponentes!",
+            "10": "🔥 Sin disminución: ¡{name} deja el juego aún en el nivel élite!"
           },
           "trophy": {
-            "1": "⚽ SHOCKING THE WORLD! {name} hangs up boots while still at the peak! [EN]",
-            "2": "🏆 Going out on top: {name} retires immediately after winning title! [EN]",
-            "3": "👑 The perfect ending? {name} says goodbye at the summit! [EN]",
-            "4": "🌟 Champion to the end: {name} leaves with head held high after triumph! [EN]",
-            "5": "🎖️ Retiring a winner: {name} ends career at the apex! [EN]",
-            "6": "💫 Golden exit: {name} bids farewell as champion of champions! [EN]",
-            "7": "🥇 Last dance, best dance: {name} retires with trophy in hand! [EN]",
-            "8": "🏅 No better way: {name} leaves football as a champion! [EN]",
-            "9": "⭐ Fairytale ending: {name} retires after glory! [EN]",
-            "10": "🎭 Perfect final act: {name} exits stage with trophy! [EN]"
+            "1": "⚽ IMPACTANDO AL MUNDO! ¡{name} cuelga las botas estando todavía en la cima!",
+            "2": "🏆 Salir a la cima: ¡{name} se retira inmediatamente después de ganar el título!",
+            "3": "👑 ¿El final perfecto? ¡{name} se despide en la cumbre!",
+            "4": "🌟 Campeón hasta el final: ¡{name} se marcha con la cabeza en alto tras el triunfo!",
+            "5": "🎖️ Retirar a un ganador: ¡{name} finaliza su carrera en la cúspide!",
+            "6": "💫 Salida dorada: ¡{name} se despide como campeón de campeones!",
+            "7": "🥇 Último baile, mejor baile: ¡{name} se retira con trofeo en mano!",
+            "8": "🏅 No hay mejor manera: ¡{name} deja el fútbol como campeón!",
+            "9": "⭐ Final de cuento de hadas: ¡{name} se retira después de la gloria!",
+            "10": "🎭 Acto final perfecto: ¡{name} sale del escenario con trofeo!"
           }
         },
         "premature": {
-          "1": "❓ Family reasons cited as {name} makes surprise exit from football. [EN]",
-          "2": "💭 {name} loses passion for the game and retires early. [EN]",
-          "3": "🎯 New priorities: {name} shocks world with early retirement. [EN]",
-          "4": "🌅 Life beyond football: {name} walks away to pursue other dreams. [EN]",
-          "5": "👨‍👩‍👧 Family first: {name} retires young to focus on loved ones. [EN]",
-          "6": "🧘 Mental peace: {name} steps away from football pressure. [EN]",
-          "7": "📚 New chapter: {name} retires early to study. [EN]",
-          "8": "💼 Business calling: {name} leaves football for entrepreneurship. [EN]",
-          "9": "🌍 World traveler: {name} retires to explore life beyond sport. [EN]",
-          "10": "🎨 Creative pursuit: {name} walks away to follow artistic dreams. [EN]",
-          "11": "🏠 Heading home: {name} retires to return to roots. [EN]",
-          "12": "💡 Epiphany: {name} realizes football no longer fulfilling. [EN]",
-          "13": "🌱 Fresh start: {name} retires early seeking new purpose. [EN]",
-          "14": "🎭 Different stage: {name} leaves football for entertainment career. [EN]",
-          "15": "📖 Story continues elsewhere: {name} retires to write new chapter. [EN]",
-          "16": "🧠 Mental health first: {name} prioritizes well-being over career. [EN]",
-          "17": "⚖️ Work-life balance: {name} retires to find balance. [EN]",
-          "18": "🙏 Spiritual journey: {name} walks away to find inner peace. [EN]",
-          "19": "💝 Love wins: {name} retires for relationship priorities. [EN]",
-          "20": "🌟 Different dreams: {name} retires to pursue goals outside football. [EN]"
+          "1": "❓ Motivos familiares citados como {name} hace salida sorpresa del fútbol.",
+          "2": "💭 {name} pierde la pasión por el juego y se retira anticipadamente.",
+          "3": "🎯 Nuevas prioridades: {name} conmociona al mundo con la jubilación anticipada.",
+          "4": "🌅 La vida más allá del fútbol: {name} se aleja para perseguir otros sueños.",
+          "5": "👨‍👩‍👧 La familia primero: {name} se retira joven para centrarse en sus seres queridos.",
+          "6": "🧘 Paz mental: {name} se aleja de la presión futbolística.",
+          "7": "📚 Nuevo capítulo: {name} se retira temprano para estudiar.",
+          "8": "💼 Llamada empresarial: {name} deja el fútbol por emprender.",
+          "9": "🌍 Viajero mundial: {name} se retira para explorar la vida más allá del deporte.",
+          "10": "🎨 Búsqueda creativa: {name} se aleja para seguir sueños artísticos.",
+          "11": "🏠 De regreso a casa: {name} se retira para volver a las raíces.",
+          "12": "💡 Epifanía: {name} se da cuenta de que el fútbol ya no satisface.",
+          "13": "🌱 Nuevo comienzo: {name} se retira anticipadamente en busca de un nuevo propósito.",
+          "14": "🎭 Etapa diferente: {name} deja el fútbol por la carrera del entretenimiento.",
+          "15": "📖 La historia continúa en otro lugar: {name} se retira para escribir un nuevo capítulo.",
+          "16": "🧠 La salud mental es lo primero: {name} prioriza el bienestar sobre la carrera.",
+          "17": "⚖️ Equilibrio entre vida personal y laboral: {name} se jubila para encontrar el equilibrio.",
+          "18": "🙏 Viaje espiritual: {name} se aleja para encontrar la paz interior.",
+          "19": "💝 El amor gana: {name} se retira por prioridades de relación.",
+          "20": "🌟 Sueños diferentes: {name} se retira para perseguir objetivos fuera del fútbol."
         },
         "tooLong": {
-          "1": "📉 Finally over. {name} announces retirement after difficult season. [EN]",
-          "2": "🔚 A quiet end to a loud career: {name} retires. [EN]",
-          "3": "💭 Critics say it was time: {name} leaves the field after struggles. [EN]",
-          "4": "📰 The twilight: {name}'s career comes to an end after seasons of decline. [EN]",
-          "5": "⏰ One season too many? {name} finally ends career. [EN]",
-          "6": "🌅 Sun sets on {name}'s career after difficult final chapter. [EN]",
-          "7": "📊 Numbers don't lie: {name} retires after statistical decline. [EN]",
-          "8": "⚡ Legs finally gave out: {name} announces retirement. [EN]",
-          "9": "🪫 Empty tank: {name} retires after struggling to keep up. [EN]",
-          "10": "📉 From hero to struggling: {name} retires after tough times. [EN]",
-          "11": "🚪 Delayed exit: {name} finally hangs up boots after pressure. [EN]",
-          "12": "⌛ Time caught up: {name} retires after time wins. [EN]",
-          "13": "💤 Energy depleted: {name} ends career after exhausting journey. [EN]",
-          "14": "🎭 Final bow: {name} leaves after fans questioned if end was overdue. [EN]",
-          "15": "📝 Writing on the wall: {name} retires after difficult final years. [EN]",
-          "16": "🔕 Departing quietly: {name} drifts into retirement after decline. [EN]",
-          "17": "⚽ No more magic: {name} retires as skills fade. [EN]",
-          "18": "🏃 Couldn't compete anymore: {name} reluctantly retires. [EN]",
-          "19": "📅 Match postponed: {name} finally accepts career is over. [EN]",
-          "20": "🎬 Credits roll: {name}'s story ends with faded chapter. [EN]"
+          "1": "📉Finalmente terminado. {name} anuncia su retiro tras una temporada difícil.",
+          "2": "🔚 Un final tranquilo para una carrera ruidosa: {name} se retira.",
+          "3": "💭 Los críticos dicen que ya era hora: {name} abandona el campo después de luchas.",
+          "4": "📰 El crepúsculo: la carrera de {name} llega a su fin después de temporadas de declive.",
+          "5": "⏰ ¿Una temporada demasiada? {name} finalmente termina su carrera.",
+          "6": "🌅 Se pone el sol en la carrera de {name} después de un difícil capítulo final.",
+          "7": "📊 Los números no mienten: {name} se retira tras caída estadística.",
+          "8": "⚡ Las piernas finalmente cedieron: {name} anuncia su retiro.",
+          "9": "🪫 Tanque vacío: {name} se retira después de luchar por mantener el ritmo.",
+          "10": "📉 De héroe a luchador: {name} se retira después de tiempos difíciles.",
+          "11": "🚪 Salida retrasada: {name} finalmente cuelga las botas tras la presión.",
+          "12": "⌛ Tiempo recuperado: {name} se retira después de que gana el tiempo.",
+          "13": "💤 Energía agotada: {name} termina su carrera después de un viaje agotador.",
+          "14": "🎭 Reverencia final: {name} se va después de que los fanáticos cuestionaran si el final estaba retrasado.",
+          "15": "📝 Escribiendo en la pared: {name} se retira después de últimos años difíciles.",
+          "16": "🔕 Partiendo silenciosamente: {name} se retira después del declive.",
+          "17": "⚽ No más magia: {name} se retira a medida que las habilidades se desvanecen.",
+          "18": "🏃 Ya no pudo competir: {name} se retira a regañadientes.",
+          "19": "📅 Partido pospuesto: {name} finalmente acepta que su carrera ha terminado.",
+          "20": "🎬 Créditos: la historia de {name} termina con un capítulo desvaído."
         }
       },
-      "icon": "⭐ {name} announces retirement after remarkable career. {matches} matches, {goals} goals, {trophies} major titles. An inspiration to many. [EN]",
-      "journeyman": "{name} announces retirement. {reason}. Made {matches} appearances across {clubs} clubs. [EN]",
-      "legend": "🏆 LEGEND RETIRES! {name} hangs up boots after extraordinary career that inspired a generation. {awards} individual awards, {trophies} trophies. A true football icon. [EN]",
-      "oneClubLegend": "A one-club legend. Such loyalty is rare in modern football. [EN]",
-      "professional": "{name} ends career after {matches} professional matches. {reason}. Proud of a solid career. [EN]",
+      "icon": "⭐ {name} anuncia su retiro después de una carrera notable. Partidos {matches}, goles {goals}, títulos importantes {trophies}. Una inspiración para muchos.",
+      "journeyman": "{name} anuncia su retiro. {reason}. Hizo apariciones en {matches} en los clubes {clubs}.",
+      "legend": "🏆 ¡LA LEYENDA SE RETIRA! {name} cuelga las botas después de una carrera extraordinaria que inspiró a una generación. Premios individuales {awards}, trofeos {trophies}. Un auténtico icono del fútbol.",
+      "oneClubLegend": "Una leyenda de un solo club. Esa lealtad es poco común en el fútbol moderno.",
+      "professional": "{name} termina su carrera después de los partidos profesionales de {matches}. {reason}. Orgulloso de una sólida carrera.",
       "rumors": {
         "general": {
-          "1": "💼 {name} seen meeting with financial advisors about life after football. [EN]",
-          "2": "📅 End in sight? {name} reportedly weighing retirement options. [EN]",
-          "3": "🏠 Sources close to {name} hint at possible retirement announcement. [EN]",
-          "4": "📰 Speculation mounts over {name}'s future as career enters twilight. [EN]",
-          "5": "🎙️ Agent refuses to deny retirement rumors involving {name}. [EN]",
-          "6": "📝 {name} reportedly discussing testimonial match arrangements. [EN]",
-          "7": "🏟️ Empty locker? {name} seen clearing personal items from stadium. [EN]",
-          "8": "💭 Philosophical {name} talks 'life after football' in interview. [EN]",
-          "9": "📊 Contract expiring, {name} reportedly not seeking renewal. [EN]",
-          "10": "🌅 Sunset approaching? {name}'s career may be reaching natural conclusion. [EN]"
+          "1": "💼 Se ve a {name} reuniéndose con asesores financieros sobre la vida después del fútbol.",
+          "2": "📅 ¿Final a la vista? {name} supuestamente está sopesando las opciones de jubilación.",
+          "3": "🏠 Fuentes cercanas a {name} insinúan un posible anuncio de retiro.",
+          "4": "📰 La especulación aumenta sobre el futuro de {name} a medida que su carrera entra en ocaso.",
+          "5": "🎙️ El agente se niega a negar los rumores de retiro que involucran a {name}.",
+          "6": "📝 {name} supuestamente está discutiendo acuerdos de coincidencia testimonial.",
+          "7": "🏟️ ¿Casillero vacío? Se ve a {name} retirando artículos personales del estadio.",
+          "8": "💭 El filosófico {name} habla sobre la 'vida después del fútbol' en una entrevista.",
+          "9": "📊 El contrato vence y, según se informa, {name} no busca la renovación.",
+          "10": "🌅¿Se acerca el atardecer? La carrera de {name} puede estar llegando a su conclusión natural."
         },
         "highOvr": {
-          "1": "🤔 Pundits debate: Can {name} maintain this level for another year? [EN]",
-          "2": "💭 Sources say {name} wants to go out on top. [EN]",
-          "3": "📰 Will {name} bow out as champion? Retirement whispers grow. [EN]",
-          "4": "🎙️ Legend status secured - but will {name} call it a day? [EN]",
-          "5": "⭐ Still world class, but {name} reportedly considering options. [EN]",
-          "6": "🏆 One more trophy or retirement? {name} ponders future. [EN]",
-          "7": "💬 Agent quiet on {name}'s plans amidst speculation. [EN]",
-          "8": "📊 Elite stats, but {name} pondering life after football. [EN]",
-          "9": "🎯 Peak performance raises questions about {name}'s next move. [EN]",
-          "10": "👑 King of the game, but {name}'s throne may be vacant soon. [EN]"
+          "1": "🤔 Debate de expertos: ¿{name} podrá mantener este nivel un año más?",
+          "2": "💭 Las fuentes dicen que {name} quiere llegar a la cima.",
+          "3": "📰 ¿{name} se retirará como campeón? Crecen los rumores sobre la jubilación.",
+          "4": "🎙️ Estado de leyenda asegurado, pero ¿{name} terminará el día?",
+          "5": "⭐ Sigue siendo de clase mundial, pero se informa que {name} está considerando opciones.",
+          "6": "🏆¿Un trofeo más o retiro? {name} reflexiona sobre el futuro.",
+          "7": "💬 El agente no dice nada sobre los planes de {name} en medio de especulaciones.",
+          "8": "📊 Estadísticas de élite, pero {name} reflexionando sobre la vida después del fútbol.",
+          "9": "🎯 El rendimiento máximo plantea dudas sobre el próximo movimiento de {name}.",
+          "10": "👑 Rey del juego, pero el trono de {name} puede quedar vacante pronto."
         },
         "poorForm": {
-          "1": "📉 Fans start to question if {name} still has the legs. [EN]",
-          "2": "💬 Rumors of dressing room fatigue involving {name}. [EN]",
-          "3": "🗣️ Critics suggest {name}'s best days are behind him. [EN]",
-          "4": "⚽ Struggling for form - is it time for {name} to retire? [EN]",
-          "5": "📰 Pundits openly question {name}'s ability to continue. [EN]",
-          "6": "🪫 Running on empty? {name} faces retirement pressure. [EN]",
-          "7": "📊 Stats decline as {name}'s future becomes uncertain. [EN]",
-          "8": "💤 Old sparkle fading - rumors of {name}'s retirement grow. [EN]",
-          "9": "⏰ Time catching up? {name} under scrutiny after poor run. [EN]",
-          "10": "🎭 Final act approaching? {name}'s form generates retirement talk. [EN]"
+          "1": "📉 Los fanáticos comienzan a preguntarse si {name} todavía tiene piernas.",
+          "2": "💬 Rumores de fatiga en el vestuario que involucran a {name}.",
+          "3": "🗣️ Los críticos sugieren que los mejores días de {name} han quedado atrás.",
+          "4": "⚽ Luchando por mantener la forma: ¿es hora de que {name} se retire?",
+          "5": "📰 Los expertos cuestionan abiertamente la capacidad de {name} para continuar.",
+          "6": "🪫 ¿Se está quedando vacío? {name} enfrenta presión de jubilación.",
+          "7": "📊 Las estadísticas disminuyen a medida que el futuro de {name} se vuelve incierto.",
+          "8": "💤 El viejo brillo se desvanece: crecen los rumores sobre el retiro de {name}.",
+          "9": "⏰ ¿Es hora de ponerse al día? {name} bajo escrutinio después de una mala ejecución.",
+          "10": "🎭 ¿Se acerca el acto final? El formulario de {name} genera conversaciones sobre jubilación."
         }
       },
-      "shirtRetired": "{team} announces plans to retire jersey number {number} in honor of club legend {name}. [EN]",
-      "star": "{name} retires after successful career. {matches} matches, {goals} goals at {clubs} clubs. A respected professional who realized his dreams. [EN]",
-      "testimonialMatch": "{team} will honor them with a testimonial match. [EN]",
-      "worldCupChampion": "Will forever be remembered as a World Tournament champion. [EN]"
+      "shirtRetired": "{team} anuncia planes para retirar el número de camiseta {number} en honor a la leyenda del club {name}.",
+      "star": "{name} se retira después de una carrera exitosa. Partidos {matches}, goles {goals} en clubes {clubs}. Un profesional respetado que hizo realidad sus sueños.",
+      "testimonialMatch": "{team} los honrará con una coincidencia testimonial.",
+      "worldCupChampion": "Siempre será recordado como campeón del Torneo Mundial."
     },
     "role": {
-      "promiseBroken": "Squad role promise was broken. [EN]",
-      "promiseHonored": "Club honors promise: {status} status guaranteed this season. [EN]",
-      "promisePeriodEnded": "Role promise period ended. [EN]"
+      "promiseBroken": "La promesa del rol del equipo se rompió.",
+      "promiseHonored": "Promesa de honores del club: estatus {status} garantizado esta temporada.",
+      "promisePeriodEnded": "El período de promesa de rol finalizó."
     },
     "season": {
-      "aerialDominance": "🗼 AERIAL DOMINANCE! {count} headed goals - a true target man! [EN]",
-      "aerialDominant": "🗼 Dominant in the air! {count} headed goals! [EN]",
-      "clutchPlayer": "🏆 CLUTCH PLAYER! {count} winning goals - always delivers when it matters! [EN]",
-      "completeForward": "🌟 COMPLETE FORWARD! {goals}G + {assists}A = {total} goal contributions! [EN]",
-      "elitePlaymaking": "👑 Elite playmaking with {assists} assists! [EN]",
-      "excellentGoals": "✨ Excellent goalscoring season with {goals} goals! [EN]",
-      "legendaryGoals": "🔥 LEGENDARY SEASON! {goals} goals in {matches} matches - one for the history books! [EN]",
-      "longRangeThreat": "⚡ Long range threat! {count} goals from distance! [EN]",
-      "longShotSpecialist": "🚀 LONG SHOT SPECIALIST! {count} goals from outside the box! [EN]",
-      "matchWinner": "💪 Match winner! {count} decisive goals! [EN]",
-      "outstandingGoals": "🎯 Outstanding season with {goals} goals! [EN]",
-      "phenomenal": "💫 PHENOMENAL! {goals}G + {assists}A = {total} goal contributions - legendary! [EN]",
-      "playmakerMasterclass": "🎨 PLAYMAKER MASTERCLASS! {assists} assists - creativity personified! [EN]",
-      "spectacularGolacos": "🚀 SPECTACULAR SEASONS! {count} screamers - nominated for Goal of the Year! [EN]",
-      "strongContributions": "⚡ Strong season! {goals}G + {assists}A = {total} goal contributions. [EN]",
-      "wonderGoals": "⚡ Spectacular forward! {count} wonder goals this season! [EN]",
-      "worldClassGoals": "⭐ WORLD CLASS! {goals} goals - an incredible campaign! [EN]"
+      "aerialDominance": "🗼 ¡DOMINIO AÉREO! Objetivos de cabeza {count}: ¡un verdadero objetivo!",
+      "aerialDominant": "🗼 ¡Dominante en el aire! ¡{count} goles de cabeza!",
+      "clutchPlayer": "🏆 ¡JUGADOR DE CLUTCH! Objetivos ganadores de {count}: ¡siempre cumple cuando importa!",
+      "completeForward": "🌟¡ADELANTE COMPLETO! {goals}G + {assists}A = ¡{total} contribuciones de objetivos!",
+      "elitePlaymaking": "👑 ¡Creación de juego de élite con asistencias {assists}!",
+      "excellentGoals": "✨ ¡Excelente temporada goleadora con goles {goals}!",
+      "legendaryGoals": "🔥¡TEMPORADA LEGENDARIA! Goles de {goals} en partidos de {matches}: ¡uno para los libros de historia!",
+      "longRangeThreat": "⚡ ¡Amenaza de largo alcance! ¡{count} goles desde lejos!",
+      "longShotSpecialist": "🚀 ¡ESPECIALISTA EN TIRO LARGO! ¡{count} goles desde fuera del área!",
+      "matchWinner": "💪 ¡Ganador del partido! {count} ¡Goles decisivos!",
+      "outstandingGoals": "🎯 ¡Temporada excepcional con goles {goals}!",
+      "phenomenal": "💫 ¡FENOMENAL! {goals}G + {assists}A = {total} contribuciones de objetivos: ¡legendarias!",
+      "playmakerMasterclass": "🎨 ¡MASTERCLASS DE PLAYMAKER! Ayuda {assists}: ¡creatividad personificada!",
+      "spectacularGolacos": "🚀 ¡ESTACIONES ESPECTACULARES! {count} Screamers: ¡nominados al Gol del año!",
+      "strongContributions": "⚡ ¡Temporada fuerte! {goals}G + {assists}A = {total} contribuciones de objetivos.",
+      "wonderGoals": "⚡ ¡Espectacular delantera! ¡{count} marca goles maravillosos esta temporada!",
+      "worldClassGoals": "⭐ CLASE MUNDIAL! Objetivos de {goals}: ¡una campaña increíble!"
     },
     "severity": {
-      "critical": "Critical [EN]",
-      "major": "Major [EN]",
-      "minor": "Minor [EN]",
-      "moderate": "Moderate [EN]"
+      "critical": "Crítico",
+      "major": "Importante",
+      "minor": "Menor",
+      "moderate": "Moderado"
     },
     "stat": {
-      "clinicalConversion": "🎯 Clinical finisher! Conversion rate of {rate}%. [EN]",
-      "exceptionalPassing": "🎯 Exceptional passing accuracy: {rate}% [EN]",
-      "xGElite": "🎯 CLINICAL FINISHER! Outperformed xG by {percent}% - elite efficiency! [EN]",
-      "xGGood": "🎯 Clinical finisher! Outperformed xG expectations by {percent}% [EN]"
+      "clinicalConversion": "🎯¡Finalizador clínico! Tasa de conversión de {rate}%.",
+      "exceptionalPassing": "🎯 Precisión de pase excepcional: {rate}%",
+      "xGElite": "🎯 FINALIZADOR CLÍNICO! Superado xG por {percent}%: ¡eficiencia de élite!",
+      "xGGood": "🎯¡Finalizador clínico! Superó las expectativas de xG en {percent}%"
     },
     "suspension": {
-      "redCard": "Received {count} red card(s) in {competition}. Will serve {count} match suspension in the upcoming season. [EN]"
+      "redCard": "Se recibió tarjeta(s) roja(s) {count} en {competition}. Cumplirá la suspensión del partido {count} en la próxima temporada."
     },
     "tax": {
-      "choice_cooperate": "Cooperate fully [EN]",
-      "choice_fight": "Contest allegations [EN]",
-      "choice_settle": "Settle quietly [EN]",
-      "description": "Tax authorities are investigating your finances. This could get serious if not handled properly. [EN]",
-      "title": "Tax Investigation [EN]"
+      "choice_cooperate": "Cooperar plenamente",
+      "choice_fight": "Acusaciones de concurso",
+      "choice_settle": "Establecerse tranquilamente",
+      "description": "Las autoridades fiscales están investigando sus finanzas. Esto podría volverse grave si no se maneja adecuadamente.",
+      "title": "Investigación Fiscal"
     },
     "team": {
-      "title": "Team [EN]"
+      "title": "Equipo"
     },
     "teammate": {
-      "choice_apologize": "Apologize [EN]",
-      "choice_escalate": "Escalate conflict [EN]",
-      "choice_stand": "Stand your ground [EN]",
-      "description": "Argument with a teammate heated up in the dressing room. Tension is high. [EN]",
-      "title": "Teammate Conflict [EN]"
+      "choice_apologize": "Disculparse",
+      "choice_escalate": "Escalar el conflicto",
+      "choice_stand": "Mantente firme",
+      "description": "La discusión con un compañero se caldeó en el vestuario. La tensión es alta.",
+      "title": "Conflicto de compañeros de equipo"
     },
     "teammateInteraction": {
-      "choice_bond": "Spend quality time together [EN]",
-      "choice_compete": "Suggest competitive challenge [EN]",
-      "choice_professional": "Keep it professional [EN]",
-      "description": "A teammate invites you out after training. Could strengthen the bond. [EN]",
-      "title": "Teammate Interaction [EN]"
+      "choice_bond": "Pasar tiempo de calidad juntos",
+      "choice_compete": "Sugerir desafío competitivo.",
+      "choice_professional": "Mantenlo profesional",
+      "description": "Un compañero de equipo te invita a salir después del entrenamiento. Podría fortalecer el vínculo.",
+      "title": "Interacción con compañeros de equipo"
     },
     "training": {
-      "title": "Training [EN]",
-      "completed": "Completed Training [EN]",
-      "minor_injury": "Minor injury during training [EN]"
+      "title": "Capacitación",
+      "completed": "Entrenamiento completado",
+      "minor_injury": "Lesión menor durante el entrenamiento."
     },
     "trainingDecision": {
-      "choice_balanced": "Balanced approach [EN]",
-      "choice_extra": "Extra sessions every day [EN]",
-      "choice_rest": "Prioritize rest [EN]",
-      "description": "The manager is offering optional extra training sessions. How much effort do you want to dedicate? [EN]",
-      "title": "Training Decision [EN]"
+      "choice_balanced": "Enfoque equilibrado",
+      "choice_extra": "Sesiones extra todos los días.",
+      "choice_rest": "Priorizar el descanso",
+      "description": "El director ofrece sesiones de formación adicionales opcionales. ¿Cuánto esfuerzo quieres dedicar?",
+      "title": "Decisión de formación"
     },
     "trait": {
-      "bigGamePlayer": "Proven track record in finals and crucial matches earned 'Big Game Player' trait. [EN]",
-      "clinicalFinisher": "A lethal season in front of goal earned 'Clinical Finisher' trait. [EN]",
-      "composure": "Ice-cold mentality in pressure situations earned 'Composure' trait. [EN]",
-      "discipline": "Exemplary conduct on pitch earned 'Discipline' trait. [EN]",
-      "dribblingWizard": "Mesmerizing dribbling displays earned 'Dribbling Wizard' trait. [EN]",
-      "engine": "Relentless pace all season earned 'Engine' trait. [EN]",
-      "injuryProne": "A worrying history of injuries resulted in 'Injury Prone' trait. [EN]",
-      "injuryProneLost": "Dedicated conditioning work overcame previous injury concerns. [EN]",
-      "leadership": "Developed into a natural leader, earning 'Leadership' trait. [EN]",
-      "oneClubMan": "Became a true club legend, earning 'One Club Man' trait after years of loyal service. [EN]",
-      "playmaker": "Orchestrated attacks all season, earning 'Playmaker' trait. [EN]",
-      "powerHeader": "Aerial dominance throughout the season earned 'Power Header' trait. [EN]",
-      "setpieceSpecialist": "Dominance in set-pieces earned 'Set-Piece Specialist' trait. [EN]",
-      "speedMerchant": "Impressive speed became trademark, earning 'Speedster' trait. [EN]",
-      "twoFooted": "Years of practice perfected weaker foot, earning 'Two-Footed' trait. [EN]",
-      "versatile": "Years playing in different roles earned 'Versatile' trait. [EN]",
-      "weakFootLost": "Practice significantly improved weaker foot. [EN]"
+      "bigGamePlayer": "Su trayectoria comprobada en finales y partidos cruciales le valió el rasgo de \"jugador importante\".",
+      "clinicalFinisher": "Una temporada letal de cara a la portería le valió el rasgo de 'Rematador clínico'.",
+      "composure": "La mentalidad helada en situaciones de presión obtuvo el rasgo de \"Compostura\".",
+      "discipline": "La conducta ejemplar en el campo le valió el rasgo de \"Disciplina\".",
+      "dribblingWizard": "Las fascinantes exhibiciones de regate obtuvieron el rasgo \"Mago del regate\".",
+      "engine": "El ritmo implacable durante toda la temporada le valió el rasgo \"Motor\".",
+      "injuryProne": "Un historial preocupante de lesiones resultó en el rasgo de \"propenso a sufrir lesiones\".",
+      "injuryProneLost": "El trabajo de acondicionamiento dedicado superó los problemas de lesiones anteriores.",
+      "leadership": "Se convirtió en un líder natural y obtuvo el rasgo de \"Liderazgo\".",
+      "oneClubMan": "Se convirtió en una verdadera leyenda del club y obtuvo el rasgo de 'One Club Man' después de años de leal servicio.",
+      "playmaker": "Ataques orquestados durante toda la temporada, lo que le otorga el rasgo \"Creador de jugadas\".",
+      "powerHeader": "El dominio aéreo durante toda la temporada le valió el rasgo 'Power Header'.",
+      "setpieceSpecialist": "El dominio en las jugadas a balón parado obtuvo el rasgo de \"Especialista en jugadas a balón parado\".",
+      "speedMerchant": "La impresionante velocidad se convirtió en su marca registrada y obtuvo el rasgo de 'Velocista'.",
+      "twoFooted": "Años de práctica perfeccionaron el pie más débil y obtuvieron el rasgo de \"dos pies\".",
+      "versatile": "Años desempeñando diferentes roles le valieron el rasgo \"Versátil\".",
+      "weakFootLost": "Practica mejorar significativamente el pie más débil."
     },
     "transfer": {
-      "ambitiousWantsMove": "Ambitious nature drives desire to compete at the highest level - wants transfer to a bigger club. [EN]",
-      "crisis": "💔 CRISIS! After {seasons} seasons with minimal playing time, the relationship with the club has deteriorated irreparably. Transfer is inevitable. [EN]",
-      "historicRival": "HISTORIC RIVAL [EN]",
-      "loanConversion": "Signed permanently by {team} after loan. Fee: £{fee}M [EN]",
-      "loaned": "Loaned to {team} for {duration} season(s). [EN]",
-      "loyalQuestioningFuture": "Despite loyalty, starting to question future at the club following lack of opportunities. [EN]",
-      "playerRequestedMove": "✈️ Player publicly requested transfer! After a season without movement, the club was forced to negotiate his exit. [EN]",
-      "playerWantsOut": "Player expressed desire to leave the club. Agent is exploring transfer options. [EN]",
-      "regular": "Transferred to {toTeam}. [EN]",
-      "rival": "RIVAL [EN]",
-      "rivalMove": "💥 HISTORIC TRANSFER! Swapped {fromTeam} for arch-rivals {toTeam}! The fans are furious! [EN]",
-      "signedFreeAgent": "Signed with {team} on a free transfer. [EN]",
-      "temperamentalOutburst": "Temperamental outburst! Demanded immediate transfer after training ground incident. [EN]",
-      "title": "Transfer [EN]",
-      "traitor": "TRAITOR [EN]",
-      "transferred": "Transferred to {team} for €{fee}M. [EN]",
+      "ambitiousWantsMove": "La naturaleza ambiciosa impulsa el deseo de competir al más alto nivel: quiere pasar a un club más grande.",
+      "crisis": "💔 ¡CRISIS! Después de temporadas de {seasons} con un tiempo de juego mínimo, la relación con el club se ha deteriorado irreparablemente. La transferencia es inevitable.",
+      "historicRival": "RIVAL HISTÓRICO",
+      "loanConversion": "Firmado permanentemente por {team} después del préstamo. Tarifa: £{fee}M",
+      "loaned": "Cedido a {team} para la(s) temporada(s) de {duration}.",
+      "loyalQuestioningFuture": "A pesar de la fidelidad, empieza a cuestionarse el futuro en el club por la falta de oportunidades.",
+      "playerRequestedMove": "✈️ ¡El jugador solicitó públicamente la transferencia! Tras una temporada sin movimiento, el club se vio obligado a negociar su salida.",
+      "playerWantsOut": "El jugador expresó su deseo de dejar el club. El agente está explorando opciones de transferencia.",
+      "regular": "Transferido a {toTeam}.",
+      "rival": "RIVAL",
+      "rivalMove": "💥 ¡TRASPASO HISTÓRICO! ¡Se cambió {fromTeam} por su archirrival {toTeam}! ¡Los fanáticos están furiosos!",
+      "signedFreeAgent": "Firmado con {team} en una transferencia gratuita.",
+      "temperamentalOutburst": "¡Arrebato temperamental! Exigió un traslado inmediato después del incidente en el campo de entrenamiento.",
+      "title": "Transferir",
+      "traitor": "TRAIDOR",
+      "transferred": "Transferido a {team} por €{fee}M.",
       "homecoming": {
-        "originClub": "🏠 HOMECOMING! The prodigal son returns to {team}! An emotional return to where it all began. [EN]",
-        "homeCountry": "🏠 Returns to {country} football! Signed with {team} to continue career in home nation. [EN]",
-        "freeReturn": "🏠 FREE TRANSFER HOME! Returns to {team} on a free transfer, closing a beautiful chapter. [EN]"
+        "originClub": "🏠 ¡REGRESO A CASA! ¡El hijo pródigo regresa a {team}! Un emotivo regreso a donde todo empezó.",
+        "homeCountry": "🏠 ¡Vuelve al fútbol {country}! Firmó con {team} para continuar su carrera en su país de origen.",
+        "freeReturn": "🏠¡TRASLADO GRATIS A DOMICILIO! Regresa a {team} en una transferencia gratuita, cerrando un hermoso capítulo."
       },
-      "retirementLeague": "✈️ NEW ADVENTURE! Signed with {team} in {country} for €{wage}K/week. A lucrative move to wind down an illustrious career. [EN]"
+      "retirementLeague": "✈️ ¡NUEVA AVENTURA! Firmado con {team} en {country} por €{wage}K/semana. Un movimiento lucrativo para poner fin a una carrera ilustre."
     },
     "trophy": {
-      "clubWorldCup": "🏆 Club World Tournament Winners! [EN]",
-      "continental": "🏆 {competition} Winners! [EN]",
+      "clubWorldCup": "🏆 ¡Ganadores del Torneo Mundial de Clubes!",
+      "continental": "🏆 ¡Ganadores de {competition}!",
       "continentalCupChampions": {
-        "brace": "🏆 {country} won the Continental Cup! Incredible performance with {goals} goals helped seal the victory! [EN]",
-        "crucialGoal": "🏆 {country} won the Continental Cup! Crucial goal in a hard-fought victory! [EN]",
-        "commandingDisplay": "🏆 {country} won the Continental Cup! A commanding display leading to a deserved win! [EN]",
-        "tenseBattle": "🏆 {country} won the Continental Cup! The team advances after a tense battle! [EN]",
-        "importantVictory": "🏆 {country} won the Continental Cup! An important team victory keeps the journey alive! [EN]"
+        "brace": "🏆 ¡{country} ganó la Copa Continental! ¡Una actuación increíble con los goles de {goals} ayudó a sellar la victoria!",
+        "crucialGoal": "🏆 ¡{country} ganó la Copa Continental! ¡Gol crucial en una victoria muy reñida!",
+        "commandingDisplay": "🏆 ¡{country} ganó la Copa Continental! ¡Una exhibición imponente que condujo a una merecida victoria!",
+        "tenseBattle": "🏆 ¡{country} ganó la Copa Continental! ¡El equipo avanza después de una tensa batalla!",
+        "importantVictory": "🏆 ¡{country} ganó la Copa Continental! ¡Una importante victoria del equipo mantiene vivo el viaje!"
       },
-      "cup": "🏆 Cup Winners! [EN]",
-      "league": "🏆 League Champions with {team}! [EN]",
-      "nationsLeague": "🏆 Nations Tournament Winners! [EN]",
+      "cup": "🏆¡Ganadores de Copa!",
+      "league": "🏆 ¡Campeones de Liga con {team}!",
+      "nationsLeague": "🏆 ¡Ganadores del Torneo de Naciones!",
       "nationsLeagueChampions": {
-        "brace": "🏆 NATIONS TOURNAMENT CHAMPIONS! {country} defeated {opponent}! Incredible performance with {goals} goals helped seal the victory! [EN]",
-        "crucialGoal": "🏆 NATIONS TOURNAMENT CHAMPIONS! {country} defeated {opponent}! Crucial goal in a hard-fought victory! [EN]",
-        "commandingDisplay": "🏆 NATIONS TOURNAMENT CHAMPIONS! {country} defeated {opponent}! A commanding display leading to a deserved win! [EN]",
-        "tenseBattle": "🏆 NATIONS TOURNAMENT CHAMPIONS! {country} defeated {opponent}! The team advances after a tense battle! [EN]",
-        "importantVictory": "🏆 NATIONS TOURNAMENT CHAMPIONS! {country} defeated {opponent}! An important team victory keeps the journey alive! [EN]"
+        "brace": "🏆 ¡CAMPEONES DEL TORNEO DE NACIONES! ¡{country} derrotó a {opponent}! ¡Una actuación increíble con los goles de {goals} ayudó a sellar la victoria!",
+        "crucialGoal": "🏆 ¡CAMPEONES DEL TORNEO DE NACIONES! ¡{country} derrotó a {opponent}! ¡Gol crucial en una victoria muy reñida!",
+        "commandingDisplay": "🏆 ¡CAMPEONES DEL TORNEO DE NACIONES! ¡{country} derrotó a {opponent}! ¡Una exhibición imponente que condujo a una merecida victoria!",
+        "tenseBattle": "🏆 ¡CAMPEONES DEL TORNEO DE NACIONES! ¡{country} derrotó a {opponent}! ¡El equipo avanza después de una tensa batalla!",
+        "importantVictory": "🏆 ¡CAMPEONES DEL TORNEO DE NACIONES! ¡{country} derrotó a {opponent}! ¡Una importante victoria del equipo mantiene vivo el viaje!"
       },
-      "won": "🏆 {competition} Winners! [EN]",
-      "wonYouth": "🏆 Won the Youth Competition! [EN]",
-      "worldCup": "🌍🏆 WORLD TOURNAMENT CHAMPIONS! A Legend is Born! [EN]",
-      "worldCupChampions": "🏆 {country} won the World Tournament! [EN]"
+      "won": "🏆 ¡Ganadores de {competition}!",
+      "wonYouth": "🏆 ¡Ganó el Concurso Juvenil!",
+      "worldCup": "🌍🏆 ¡CAMPEONES DEL TORNEO MUNDIAL! ¡Ha nacido una leyenda!",
+      "worldCupChampions": "🏆 ¡{country} ganó el Torneo Mundial!"
     },
-    "urgentDecision": "⚠️ Urgent decision required! [EN]",
+    "urgentDecision": "⚠️ ¡Se requiere decisión urgente!",
     "viral": {
-      "celebration": "Iconic celebration becomes a new internet trend. [EN]",
-      "charity": "Charity gesture widely praised on social media. [EN]",
-      "controversy": "Involved in viral controversy that divided opinions. [EN]",
-      "fashion": "Fashion choice at public event becomes a talking point. [EN]",
-      "gaming": "Gaming stream attracts huge audience and new fans. [EN]",
-      "goal": "Scored a spectacular goal that went viral on social media! [EN]",
+      "celebration": "La celebración icónica se convierte en una nueva tendencia en Internet.",
+      "charity": "Gesto de caridad ampliamente elogiado en las redes sociales.",
+      "controversy": "Involucrado en polémica viral que dividió opiniones.",
+      "fashion": "La elección de la moda en un evento público se convierte en un tema de conversación.",
+      "gaming": "La transmisión de juegos atrae a una gran audiencia y nuevos fanáticos.",
+      "goal": "¡Marcó un gol espectacular que se volvió viral en las redes sociales!",
       "interview": {
-        "negative": "Controversial comments spark heated debate online. [EN]",
-        "positive": "Charismatic interview wins over fans and media. [EN]"
+        "negative": "Comentarios controvertidos provocan un acalorado debate en línea.",
+        "positive": "La carismática entrevista conquista a los fans y a los medios."
       },
-      "skill": "Incredible dribble shared by millions of fans. [EN]"
+      "skill": "Increíble regate compartido por millones de aficionados."
     },
     "goals": {
-      "achieved": "🎯 Goal Achieved: {narrative} [EN]",
-      "newGoal": "🎯 New Goal Unlocked: {goal} [EN]"
+      "achieved": "🎯 Objetivo logrado: {narrative}",
+      "newGoal": "🎯 Nuevo objetivo desbloqueado: {goal}"
     },
     "wcQualification": {
-      "description": "Your national team is competing for the World Tournament [EN]",
-      "title": "World Tournament Qualifiers [EN]"
+      "description": "Tu selección nacional está compitiendo por el Torneo Mundial",
+      "title": "Clasificatorios del Torneo Mundial"
     }
   },
   "contractTermination": {
-    "alreadyTerminatedDesc": "You have already terminated a contract during this season. FIFA regulations prevent multiple contract terminations within the same registration period. [EN]",
-    "alreadyTerminatedTitle": "Already Terminated [EN]",
-    "back": "Back [EN]",
-    "blockedTitle": "Termination Blocked [EN]",
-    "cancel": "Cancel [EN]",
-    "club": "Current Club [EN]",
-    "confirmButton": "Confirm Termination [EN]",
-    "confirmQuestion": "Are you sure you want to terminate? [EN]",
-    "contractRemaining": "Contract Remaining [EN]",
-    "processing": "Processing... [EN]",
-    "simpleConsequenceDesc": "Unilaterally terminating your contract is a serious breach of professional obligations. [EN]",
-    "simpleConsequenceTitle": "Warning: Severe Consequences [EN]",
-    "subtitle": "Terminate your current contract to become a Free Agent [EN]",
-    "title": "Contract Termination [EN]",
-    "understood": "Understood [EN]",
-    "waitNextSeasonHint": "You must wait until next season to use this clause again. [EN]",
-    "warningFreeAgent": "You will become a Free Agent immediately [EN]",
-    "warningLessInterest": "Top clubs may be reluctant to sign you [EN]",
-    "warningLowerWages": "Future offers may have significantly lower wages [EN]",
-    "year": "year [EN]",
-    "years": "years [EN]",
-    "yearsAtClub": "Time at Club [EN]"
+    "alreadyTerminatedDesc": "Ya ha rescindido contrato durante esta temporada. La normativa de la FIFA impide múltiples rescisiones de contratos dentro del mismo periodo de inscripción.",
+    "alreadyTerminatedTitle": "Ya terminado",
+    "back": "Atrás",
+    "blockedTitle": "Terminación bloqueada",
+    "cancel": "Cancelar",
+    "club": "Club actual",
+    "confirmButton": "Confirmar terminación",
+    "confirmQuestion": "¿Está seguro de que desea cancelar?",
+    "contractRemaining": "Contrato restante",
+    "processing": "Tratamiento...",
+    "simpleConsequenceDesc": "Rescindir unilateralmente su contrato constituye un incumplimiento grave de las obligaciones profesionales.",
+    "simpleConsequenceTitle": "Advertencia: consecuencias graves",
+    "subtitle": "Rescinda su contrato actual para convertirse en agente libre",
+    "title": "Terminación del contrato",
+    "understood": "Comprendido",
+    "waitNextSeasonHint": "Deberá esperar hasta la próxima temporada para volver a utilizar esta cláusula.",
+    "warningFreeAgent": "Te convertirás en agente libre inmediatamente",
+    "warningLessInterest": "Los mejores clubes pueden mostrarse reacios a ficharte",
+    "warningLowerWages": "Las ofertas futuras pueden tener salarios significativamente más bajos",
+    "year": "año",
+    "years": "años",
+    "yearsAtClub": "Tiempo en el club"
   },
-  "debut": "Professional Debut [EN]",
+  "debut": "Debut profesional",
   "media": {
     "drought": {
       "assists": {
-        "1": "Creativity crisis? No assists in 5 games. [EN]",
-        "2": "Where is the final ball? Playmaker struggling. [EN]"
+        "1": "¿Crisis de creatividad? Sin asistencias en 5 juegos.",
+        "2": "¿Dónde está la bola final? El creador de juego está luchando."
       },
       "goals": {
-        "1": "Goal drought continues: 5 games without scoring. [EN]",
-        "2": "Striker firing blanks: Is confidence the issue? [EN]",
-        "3": "Ten games, zero goals. Crisis for number 9. [EN]",
+        "1": "Continúa la sequía de goles: 5 partidos sin marcar.",
+        "2": "El delantero dispara balas de fogueo: ¿Es la confianza el problema?",
+        "3": "Diez partidos, cero goles. Crisis para el número 9.",
         "completed": "Completado"
       }
     },
     "fan": {
       "neg": {
-        "1": "Not good enough for this shirt. 😡 [EN]",
-        "2": "Waste of money. [EN]",
-        "3": "Bench him! [EN]",
-        "4": "Invisible today. [EN]",
-        "5": "My grandmother runs faster. [EN]",
-        "6": "Get out of my club! [EN]",
-        "7": "Disgraceful performance. [EN]"
+        "1": "No es lo suficientemente bueno para esta camisa. 😡",
+        "2": "Desperdicio de dinero.",
+        "3": "¡Banquelo!",
+        "4": "Invisibles hoy.",
+        "5": "Mi abuela corre más rápido.",
+        "6": "¡Sal de mi club!",
+        "7": "Actuación vergonzosa."
       },
       "neu": {
-        "1": "Average today. [EN]",
-        "2": "Needs to do more. [EN]",
-        "3": "Quiet game. [EN]",
-        "4": "Decent effort, lacking quality. [EN]",
-        "5": "Could be better. [EN]",
-        "6": "Nothing special. [EN]",
-        "7": "Meh. [EN]"
+        "1": "Promedio hoy.",
+        "2": "Necesita hacer más.",
+        "3": "Juego tranquilo.",
+        "4": "Esfuerzo decente, falta calidad.",
+        "5": "Podría ser mejor.",
+        "6": "Nada especial.",
+        "7": "Bueno."
       },
       "pos": {
-        "1": "What a player! 😍 [EN]",
-        "2": "World class! [EN]",
-        "3": "Build the statue now! [EN]",
-        "4": "Man of the match for sure. [EN]",
-        "5": "Incredible performance! [EN]",
-        "6": "Worth every penny! [EN]",
-        "7": "King of the pitch! 👑 [EN]",
-        "8": "Unstoppable! [EN]",
-        "9": "Magic! ✨ [EN]",
-        "10": "Top quality. [EN]"
+        "1": "¡Qué jugador! 😍",
+        "2": "¡Clase mundial!",
+        "3": "¡Construye la estatua ahora!",
+        "4": "El jugador del partido, sin duda.",
+        "5": "¡Increíble actuación!",
+        "6": "¡Vale la pena cada centavo!",
+        "7": "¡Rey del campo! 👑",
+        "8": "¡Imparable!",
+        "9": "¡Magia! ✨",
+        "10": "Calidad superior."
       }
     },
     "hater": {
       "shots": {
-        "1": "Overrated. [EN]",
-        "2": "One season wonder. [EN]",
-        "3": "Only scores tap-ins. [EN]",
-        "4": "Stat padder. [EN]",
-        "5": "Ghost in big games. [EN]",
-        "6": "Can't pass. [EN]",
-        "7": "Finished player. [EN]"
+        "1": "Sobrevalorado.",
+        "2": "Maravilla de una temporada.",
+        "3": "Sólo puntúa tap-ins.",
+        "4": "Relleno de estadísticas.",
+        "5": "Fantasma en los grandes partidos.",
+        "6": "No puedo pasar.",
+        "7": "Jugador terminado."
       }
     },
     "pundit": {
       "neg": {
-        "1": "Disappointing display. [EN]",
-        "2": "Failed to impact the game. [EN]",
-        "3": "Looked lost out there. [EN]",
-        "4": "Tactically undisciplined. [EN]",
-        "5": "Needs to work harder. [EN]"
+        "1": "Visualización decepcionante.",
+        "2": "No se pudo impactar el juego.",
+        "3": "Parecía perdido ahí fuera.",
+        "4": "Tácticamente indisciplinado.",
+        "5": "Necesita trabajar más duro."
       },
       "neu": {
-        "1": "Solid but unspectacular. [EN]",
-        "2": "Did the basics right. [EN]",
-        "3": "Kept things ticking over. [EN]",
-        "4": "Average performance. [EN]",
-        "5": "Quiet afternoon. [EN]"
+        "1": "Sólido pero nada espectacular.",
+        "2": "Hizo bien lo básico.",
+        "3": "Mantuvo las cosas funcionando.",
+        "4": "Rendimiento medio.",
+        "5": "Tarde tranquila."
       },
       "pos": {
-        "1": "Masterclass performance. [EN]",
-        "2": "Controlled the game perfectly. [EN]",
-        "3": "A joy to watch. [EN]",
-        "4": "Difference maker. [EN]",
-        "5": "Outstanding contribution. [EN]"
+        "1": "Actuación de clase magistral.",
+        "2": "Controló el juego a la perfección.",
+        "3": "Un placer verlo.",
+        "4": "Hacedor de diferencias.",
+        "5": "Destacada contribución."
       }
     },
     "narrativeChange": {
-      "Prodigy": "The media narrative shifts to: 'Prodigy' [EN]",
-      "OntheRise": "The media narrative shifts to: 'On the Rise' [EN]",
-      "EstablishedStar": "The media narrative shifts to: 'Established Star' [EN]",
-      "UnderPressure": "The media narrative shifts to: 'Under Pressure' [EN]",
-      "Journeyman": "The media narrative shifts to: 'Journeyman' [EN]",
-      "VeteranLeader": "The media narrative shifts to: 'Veteran Leader' [EN]",
-      "VeteranStar": "The media narrative shifts to: 'Veteran Star' [EN]",
-      "VeteranRotation": "The media narrative shifts to: 'Veteran Rotation' [EN]",
-      "ForgottenMan": "The media narrative shifts to: 'Forgotten Man' [EN]",
-      "Flop": "The media narrative shifts to: 'Flop' [EN]",
-      "ComebackKid": "The media narrative shifts to: 'Comeback Kid' [EN]",
-      "CultHero": "The media narrative shifts to: 'Cult Hero' [EN]",
-      "HometownHero": "The media narrative shifts to: 'Hometown Hero' [EN]",
-      "PolarizingFigure": "The media narrative shifts to: 'Polarizing Figure' [EN]",
-      "PressDarling": "The media narrative shifts to: 'Press Darling' [EN]",
-      "SystemPlayer": "The media narrative shifts to: 'System Player' [EN]",
-      "InjuryComeback": "The media narrative shifts to: 'Injury Comeback' [EN]"
+      "Prodigy": "La narrativa de los medios cambia a: 'Prodigio'",
+      "OntheRise": "La narrativa de los medios cambia a: 'En aumento'",
+      "EstablishedStar": "La narrativa de los medios cambia a: 'Estrella establecida'",
+      "UnderPressure": "La narrativa de los medios cambia a: \"Bajo presión\"",
+      "Journeyman": "La narrativa de los medios cambia a: 'Journeyman'",
+      "VeteranLeader": "La narrativa de los medios cambia a: 'Líder veterano'",
+      "VeteranStar": "La narrativa de los medios cambia a: 'Estrella veterana'",
+      "VeteranRotation": "La narrativa de los medios cambia a: 'Rotación de veteranos'",
+      "ForgottenMan": "La narrativa de los medios cambia a: 'El hombre olvidado'",
+      "Flop": "La narrativa de los medios cambia a: 'Flop'",
+      "ComebackKid": "La narrativa de los medios cambia a: 'Comeback Kid'",
+      "CultHero": "La narrativa de los medios cambia a: 'Héroe de culto'",
+      "HometownHero": "La narrativa de los medios cambia a: 'Héroe local'",
+      "PolarizingFigure": "La narrativa de los medios cambia a: 'Figura polarizadora'",
+      "PressDarling": "La narrativa de los medios cambia a: 'Press Darling'",
+      "SystemPlayer": "La narrativa de los medios cambia a: 'System Player'",
+      "InjuryComeback": "La narrativa de los medios cambia a: 'Regreso de las lesiones'"
     }
   },
   "mediaNarrative": {
     "ComebackKid": {
-      "description": "Praised for defying the odds to return to form. [EN]",
-      "name": "Comeback Kid [EN]",
-      "quote1": "How does it feel to be back at the top after so many doubts? [EN]",
-      "quote2": "The fans never stopped believing. What does their support mean to you? [EN]",
-      "quote3": "Is this the start of a second peak for your career? [EN]"
+      "description": "Elogiado por desafiar las probabilidades para volver a estar en forma.",
+      "name": "Niño de regreso",
+      "quote1": "¿Qué se siente volver a estar en lo más alto después de tantas dudas?",
+      "quote2": "La afición nunca dejó de creer. ¿Qué significa para usted su apoyo?",
+      "quote3": "¿Es este el comienzo de un segundo pico en su carrera?"
     },
     "CultHero": {
-      "description": "Adored by the fanbase for his unique connection with the club. [EN]",
-      "name": "Cult Hero [EN]",
-      "quote1": "The connection you have with this club is unique. Can you explain it? [EN]",
-      "quote2": "You've become a symbol for the fans. Does that add extra pressure? [EN]",
-      "quote3": "What makes this particular club feel like home for you? [EN]"
+      "description": "Adorado por la afición por su conexión única con el club.",
+      "name": "Héroe de culto",
+      "quote1": "La conexión que tienes con este club es única. ¿Puedes explicarlo?",
+      "quote2": "Te has convertido en un símbolo para los fans. ¿Eso añade presión extra?",
+      "quote3": "¿Qué hace que este club en particular se sienta como en casa para usted?"
     },
     "EstablishedStar": {
-      "description": "Recognized as an elite performer at the peak of his powers. [EN]",
-      "name": "Established Star [EN]",
-      "quote1": "As one of the league's top stars, what are your goals this season? [EN]",
-      "quote2": "Many young players look up to you. How do you handle that role? [EN]",
-      "quote3": "Do you feel any extra pressure to perform in the big games? [EN]"
+      "description": "Reconocido como un artista de élite en la cima de sus poderes.",
+      "name": "Estrella establecida",
+      "quote1": "Como una de las principales estrellas de la liga, ¿cuáles son tus objetivos esta temporada?",
+      "quote2": "Muchos jugadores jóvenes te admiran. ¿Cómo manejas ese papel?",
+      "quote3": "¿Sientes alguna presión extra para rendir en los partidos importantes?"
     },
     "Flop": {
-      "description": "Labeled a significant transfer market failure by critics. [EN]",
-      "name": "Flop [EN]",
-      "quote1": "Critics have been harsh. Do you feel you've had a fair chance? [EN]",
-      "quote2": "What would you say to those who labeled you a transfer failure? [EN]",
-      "quote3": "How are you working to turn your fortunes around at the club? [EN]"
+      "description": "Los críticos lo calificaron como una falla significativa en el mercado de transferencias.",
+      "name": "Fracaso",
+      "quote1": "Las críticas han sido duras. ¿Sientes que has tenido una oportunidad justa?",
+      "quote2": "¿Qué les diría a quienes lo tildaron de fracaso de transferencia?",
+      "quote3": "¿Cómo estás trabajando para cambiar tu suerte en el club?"
     },
     "ForgottenMan": {
-      "description": "Struggling for minutes and largely ignored by the manager. [EN]",
-      "name": "Forgotten Man [EN]",
-      "quote1": "It's been a while since we've seen you on the pitch. How are you feeling? [EN]",
-      "quote2": "Do you feel you still have a future under this management? [EN]",
-      "quote3": "Are you considering a move to get more playing time elsewhere? [EN]"
+      "description": "Luchando por conseguir minutos y en gran medida ignorado por el técnico.",
+      "name": "hombre olvidado",
+      "quote1": "Ha pasado un tiempo desde que te vimos en el campo. ¿Cómo te sientes?",
+      "quote2": "¿Siente que todavía tiene futuro bajo esta dirección?",
+      "quote3": "¿Está considerando mudarse para tener más tiempo de juego en otro lugar?"
     },
     "HometownHero": {
-      "description": "Celebrated as a local success story representing his community. [EN]",
-      "name": "Hometown Hero [EN]",
-      "quote1": "Representing your hometown must be special. How is the feeling? [EN]",
-      "quote2": "You're a role model for local kids. What is your message to them? [EN]",
-      "quote3": "Do you see yourself staying here for the long term? [EN]"
+      "description": "Celebrado como una historia de éxito local que representa a su comunidad.",
+      "name": "Héroe local",
+      "quote1": "Representar a tu ciudad natal debe ser especial. ¿Cómo es el sentimiento?",
+      "quote2": "Eres un modelo a seguir para los niños locales. ¿Cuál es tu mensaje para ellos?",
+      "quote3": "¿Se ve quedándose aquí a largo plazo?"
     },
     "InjuryComeback": {
-      "description": "Focus is on his return to fitness after a long layoff. [EN]",
-      "name": "Injury Comeback [EN]",
-      "quote1": "It's been a long recovery. How physically ready do you feel? [EN]",
-      "quote2": "What was the hardest part about being away from the pitch? [EN]",
-      "quote3": "Are you taking extra precautions to avoid another setback? [EN]"
+      "description": "La atención se centra en su regreso a la forma física después de un largo descanso.",
+      "name": "Regreso de la lesión",
+      "quote1": "Ha sido una larga recuperación. ¿Qué tan preparado te sientes físicamente?",
+      "quote2": "¿Qué fue lo más difícil de estar fuera de la cancha?",
+      "quote3": "¿Está tomando precauciones adicionales para evitar otro revés?"
     },
     "Journeyman": {
-      "description": "Seen as an experienced traveler of the football world. [EN]",
-      "name": "Journeyman [EN]",
-      "quote1": "You've played in many places. How do you adapt so quickly? [EN]",
-      "quote2": "What's the most valuable lesson you've learned from your travels? [EN]",
-      "quote3": "Are you looking for more stability, or do you enjoy the variety? [EN]"
+      "description": "Visto como un viajero experimentado del mundo del fútbol.",
+      "name": "Oficial",
+      "quote1": "Has tocado en muchos lugares. ¿Cómo te adaptas tan rápido?",
+      "quote2": "¿Cuál es la lección más valiosa que has aprendido de tus viajes?",
+      "quote3": "¿Buscas más estabilidad o disfrutas de la variedad?"
     },
     "OntheRise": {
-      "description": "Identified as one of the hottest prospects in the league. [EN]",
-      "name": "On the Rise [EN]",
-      "quote1": "Your performance has caught everyone's eye. How are you handling the hype? [EN]",
-      "quote2": "Many big clubs are reportedly watching you. Does that distract you? [EN]",
-      "quote3": "What's the next step in your development as a player? [EN]"
+      "description": "Identificado como uno de los mejores prospectos de la liga.",
+      "name": "En aumento",
+      "quote1": "Tu actuación ha llamado la atención de todos. ¿Cómo estás manejando el hype?",
+      "quote2": "Se dice que muchos grandes clubes te están observando. ¿Eso te distrae?",
+      "quote3": "¿Cuál es el siguiente paso en tu desarrollo como jugador?"
     },
     "PolarizingFigure": {
-      "description": "A divisive figure who splits opinion among experts and fans. [EN]",
-      "name": "Polarizing Figure [EN]",
-      "quote1": "You seem to split opinion. Why do you think that is? [EN]",
-      "quote2": "Does the criticism you receive affect your game at all? [EN]",
-      "quote3": "Do you feel misunderstood by the media and the public? [EN]"
+      "description": "Una figura divisiva que divide opiniones entre expertos y fanáticos.",
+      "name": "Figura polarizadora",
+      "quote1": "Pareces tener opiniones divididas. ¿Por qué crees que es así?",
+      "quote2": "¿Las críticas que recibes afectan en algo tu juego?",
+      "quote3": "¿Se siente incomprendido por los medios y el público?"
     },
     "PressDarling": {
-      "description": "Enjoying a very favorable relationship with the media. [EN]",
-      "name": "Press Darling [EN]",
-      "quote1": "The media seems to love you. Does that help your confidence? [EN]",
-      "quote2": "You're always in the headlines for good reasons. What's the secret? [EN]",
-      "quote3": "How important is it for a player to maintain a good image? [EN]"
+      "description": "Gozando de una relación muy favorable con los medios de comunicación.",
+      "name": "prensa cariño",
+      "quote1": "Los medios parecen amarte. ¿Eso ayuda a tu confianza?",
+      "quote2": "Siempre estás en los titulares por buenas razones. ¿Cuál es el secreto?",
+      "quote3": "¿Qué importancia tiene para un jugador mantener una buena imagen?"
     },
     "Prodigy": {
-      "description": "Labeled as a generational talent by major outlets. [EN]",
-      "name": "Prodigy [EN]",
-      "quote1": "Being called a 'prodigy' at such a young age—how does it feel? [EN]",
-      "quote2": "Expectations are sky-high. Can you live up to the 'generational' label? [EN]",
-      "quote3": "What is your main focus as you start this promising career? [EN]"
+      "description": "Etiquetado como talento generacional por los principales medios.",
+      "name": "Prodigio",
+      "quote1": "Que te llamen \"prodigio\" a una edad tan temprana, ¿cómo se siente?",
+      "quote2": "Las expectativas están por las nubes. ¿Puedes estar a la altura de la etiqueta 'generacional'?",
+      "quote3": "¿Cuál es su enfoque principal al comenzar esta prometedora carrera?"
     },
     "SystemPlayer": {
-      "description": "Questions remain if he can perform outside this specific tactical setup. [EN]",
-      "name": "System Player [EN]",
-      "quote1": "You fit this system perfectly. Are you worried about other tactics? [EN]",
-      "quote2": "Some say you only look this good because of the setup. Reactions? [EN]",
-      "quote3": "Can you adapt your game if the manager changes the approach? [EN]"
+      "description": "Quedan dudas sobre si puede desempeñarse fuera de esta configuración táctica específica.",
+      "name": "Reproductor del sistema",
+      "quote1": "Encajas perfectamente en este sistema. ¿Le preocupan otras tácticas?",
+      "quote2": "Algunos dicen que solo te ves así de bien gracias a la configuración. ¿Reacciones?",
+      "quote3": "¿Puedes adaptar tu juego si el entrenador cambia el enfoque?"
     },
     "UnderPressure": {
-      "description": "Scrutinized heavily by critics due to recent performances. [EN]",
-      "name": "Under Pressure [EN]",
-      "quote1": "Performances haven't been at your usual level. What's going on? [EN]",
-      "quote2": "The fans are starting to get restless. Do you feel you're being treated fairly? [EN]",
-      "quote3": "How do you plan to silence the critics in the upcoming matches? [EN]"
+      "description": "Muy examinado por la crítica debido a actuaciones recientes.",
+      "name": "Bajo presión",
+      "quote1": "Las actuaciones no han estado al nivel habitual. ¿Qué está sucediendo?",
+      "quote2": "Los fanáticos comienzan a inquietarse. ¿Sientes que estás siendo tratado de manera justa?",
+      "quote3": "¿Cómo piensas silenciar a las críticas en los próximos partidos?"
     },
     "VeteranLeader": {
-      "description": "Highlighted for his leadership qualities and dressing room influence. [EN]",
-      "name": "Veteran Leader [EN]",
-      "quote1": "Your experience is vital for this young squad. How do you lead them? [EN]",
-      "quote2": "How much longer do you see yourself playing at this high level? [EN]",
-      "quote3": "What is the most important advice you give to the young players? [EN]"
+      "description": "Destacado por sus cualidades de liderazgo e influencia en el vestuario.",
+      "name": "Líder veterano",
+      "quote1": "Tu experiencia es vital para este joven equipo. ¿Cómo los conduces?",
+      "quote2": "¿Cuánto tiempo más te ves jugando a este alto nivel?",
+      "quote3": "¿Cuál es el consejo más importante que les da a los jugadores jóvenes?"
     },
     "VeteranRotation": {
-      "description": "Experienced veteran providing reliable depth and leadership in rotation. [EN]",
-      "name": "Veteran Rotation [EN]",
-      "quote1": "You've moved into a rotation role. How do you maintain your sharpness between games? [EN]",
-      "quote2": "Your experience is vital for the squad. How are you helping the younger players? [EN]",
-      "quote3": "Are you happy with your current role, or do you still feel you should be starting? [EN]"
+      "description": "Veterano experimentado que brinda profundidad confiable y liderazgo en la rotación.",
+      "name": "Rotación de veteranos",
+      "quote1": "Has pasado a un rol de rotación. ¿Cómo mantienes tu agudeza entre juegos?",
+      "quote2": "Tu experiencia es vital para el equipo. ¿Cómo estás ayudando a los jugadores más jóvenes?",
+      "quote3": "¿Está satisfecho con su puesto actual o todavía cree que debería comenzar?"
     },
     "VeteranStar": {
-      "description": "Elite veteran continuing to deliver star-level performances. [EN]",
-      "name": "Veteran Star [EN]",
-      "quote1": "You're still outperforming players half your age. What's the secret to your longevity? [EN]",
-      "quote2": "Many expected you to decline, yet you're playing some of your best football. How? [EN]",
-      "quote3": "As a veteran star, do you feel more responsibility in the big moments? [EN]"
+      "description": "El veterano de élite continúa ofreciendo actuaciones de nivel estelar.",
+      "name": "Estrella veterana",
+      "quote1": "Aún estás superando a jugadores que tienen la mitad de tu edad. ¿Cuál es el secreto de tu longevidad?",
+      "quote2": "Muchos esperaban que declinaras, pero estás jugando tu mejor fútbol. ¿Cómo?",
+      "quote3": "Como estrella veterana, ¿sientes más responsabilidad en los grandes momentos?"
     }
   },
   "news": {
-    "retirement": "Retirement Announcement [EN]",
-    "toty": "Team of the Year Announced [EN]",
-    "transfer": "Transfer News [EN]"
+    "retirement": "Anuncio de jubilación",
+    "toty": "Equipo del año anunciado",
+    "transfer": "Transferir noticias"
   },
   "performance": {
-    "below_expectations": "Below Expectations [EN]",
-    "excellent_season": "Excellent Season [EN]",
-    "outstanding_season": "Outstanding Season [EN]"
+    "below_expectations": "Por debajo de las expectativas",
+    "excellent_season": "Excelente temporada",
+    "outstanding_season": "Temporada excepcional"
   },
   "progression": {
-    "age_decline": "Age Decline [EN]",
-    "exceptional_development": "Exceptional Development [EN]",
-    "maintained_fitness": "Maintained Fitness [EN]",
-    "physical_decline": "Physical Decline [EN]",
-    "strong_development": "Strong Development [EN]",
-    "struggled_development": "Struggled Development [EN]"
+    "age_decline": "Disminución de la edad",
+    "exceptional_development": "Desarrollo excepcional",
+    "maintained_fitness": "Fitness mantenido",
+    "physical_decline": "Declive físico",
+    "strong_development": "Fuerte desarrollo",
+    "struggled_development": "Desarrollo difícil"
   },
   "reactions": {
     "business": {
       "invest": {
-        "headline1": "Player Invests in Local Business [EN]"
+        "headline1": "Jugador invierte en negocios locales"
       }
     },
     "interview": {
       "diplomatic": {
-        "headline1": "Diplomatic Response Calms Tensions [EN]"
+        "headline1": "La respuesta diplomática calma las tensiones"
       },
       "honest": {
-        "fan1": "Love the honesty! 👏 [EN]",
-        "fan2": "Finally someone speaks the truth. [EN]",
-        "headline1": "Player Speaks Truth in Explosive Interview [EN]",
-        "headline2": "Honest comments spark debate [EN]"
+        "fan1": "¡Me encanta la honestidad! 👏",
+        "fan2": "Por fin alguien dice la verdad.",
+        "headline1": "El jugador dice la verdad en una entrevista explosiva",
+        "headline2": "Los comentarios honestos provocan debate"
       },
       "refuse": {
-        "headline1": "Player Storms Out of Interview [EN]"
+        "headline1": "El jugador sale furioso de la entrevista"
       }
     },
     "media_interview": {
       "confident": {
-        "fan1": "That's the confidence we need! 💪 [EN]",
-        "headline1": "Confident Player Ready for Challenge [EN]"
+        "fan1": "¡Esa es la confianza que necesitamos! 💪",
+        "headline1": "Jugador confiado listo para el desafío"
       },
       "humble": {
-        "fan1": "So humble despite the talent. ❤️ [EN]",
-        "headline1": "Humble Player Praises Teammates [EN]"
+        "fan1": "Tan humilde a pesar del talento. ❤️",
+        "headline1": "Un jugador humilde elogia a sus compañeros"
       }
     },
     "mentor": {
       "accept": {
-        "fan1": "Great role model for the kids! [EN]",
-        "headline1": "Player Takes Youth Under Wing [EN]"
+        "fan1": "¡Gran modelo a seguir para los niños!",
+        "headline1": "El jugador toma a la juventud bajo su ala"
       }
     },
     "nightclub": {
       "apologize": {
-        "fan1": "Apology accepted. Move on. [EN]",
-        "headline1": "Player Apologizes for Night out [EN]"
+        "fan1": "Disculpa aceptada. Siga adelante.",
+        "headline1": "El jugador se disculpa por la noche de fiesta"
       },
       "blame": {
-        "fan1": "Always blaming others... 😒 [EN]",
-        "headline1": "Player Denies Responsibility in Nightclub Row [EN]",
-        "headline2": "Witnesses Contradict Player Statement [EN]"
+        "fan1": "Siempre culpando a los demás... 😒",
+        "headline1": "Jugador niega responsabilidad en Nightclub Row",
+        "headline2": "Testigos contradicen la declaración del jugador"
       }
     },
     "outburst": {
       "delete": {
-        "fan1": "Screenshot lasts forever! 😂 [EN]",
-        "headline1": "Player Deletes Controversial Tweet [EN]"
+        "fan1": "¡La captura de pantalla dura para siempre! 😂",
+        "headline1": "Jugador elimina tuit controvertido"
       },
       "double_down": {
-        "fan1": "He's not backing down! 🍿 [EN]",
-        "fan2": "This is getting embarrassing... [EN]",
-        "headline1": "Player Defends Controversial Comments [EN]",
-        "headline2": "Social Media Storm Intensifies [EN]"
+        "fan1": "¡Él no va a retroceder! 🍿",
+        "fan2": "Esto se está poniendo vergonzoso...",
+        "headline1": "Jugador defiende comentarios polémicos",
+        "headline2": "La tormenta en las redes sociales se intensifica"
       }
     },
     "relationship": {
       "private": {
-        "fan1": "Right to privacy. Respect. [EN]"
+        "fan1": "Derecho a la privacidad. Respeto."
       },
       "public": {
-        "fan1": "Couple goals! 😍 [EN]",
-        "fan2": "Who cares? Play football. [EN]",
-        "headline1": "Player Goes Public with Relationship [EN]"
+        "fan1": "¡Goles de pareja! 😍",
+        "fan2": "¿A quién le importa? Juega al fútbol.",
+        "headline1": "El jugador hace pública su relación"
       }
     },
     "tax": {
       "cooperate": {
-        "headline1": "Player Cooperates with Authorities [EN]"
+        "headline1": "El jugador coopera con las autoridades"
       },
       "fight": {
-        "fan1": "Fight the system! ✊ [EN]",
-        "headline1": "Player Contests Tax Allegations [EN]"
+        "fan1": "¡Lucha contra el sistema! ✊",
+        "headline1": "Acusaciones de impuestos sobre concursos de jugadores"
       },
       "settle": {
-        "headline1": "Tax Case Settled out of Court [EN]"
+        "headline1": "Caso fiscal resuelto extrajudicialmente"
       }
     },
     "transfer": {
-      "agitation_1": "unsettled at club [EN]",
-      "agitation_2": "pushing for move [EN]",
-      "agitation_3": "demands transfer [EN]",
-      "warning_1": "Club Warning [EN]",
-      "warning_2": "Final Warning [EN]",
-      "warning_3": "Disciplinary Action [EN]"
+      "agitation_1": "inquieto en el club",
+      "agitation_2": "empujando para moverse",
+      "agitation_3": "exige transferencia",
+      "warning_1": "Advertencia del club",
+      "warning_2": "Advertencia final",
+      "warning_3": "Acción disciplinaria"
     }
   },
   "retirement": {
     "future": {
-      "academy": "Youth Academy Director [EN]",
-      "ambassador": "Club Ambassador [EN]",
-      "coaching": "Coaching Staff [EN]",
-      "outside_football": "Life Outside Football [EN]",
-      "punditry": "Media Punditry [EN]"
+      "academy": "Directora de la Academia Juvenil",
+      "ambassador": "Embajador del club",
+      "coaching": "Cuerpo Técnico",
+      "outside_football": "La vida fuera del fútbol",
+      "punditry": "Expertos en medios"
     },
     "reason": {
-      "injury": "Recurring Injury [EN]"
+      "injury": "Lesión recurrente"
     },
     "tribute": {
-      "defied_time": "Defied Time [EN]",
-      "early_injury": "Career Cut Short [EN]",
-      "great_injury": "Tragic End to Greatness [EN]",
-      "icon": "Football Icon [EN]",
-      "journeyman": "Football Traveller [EN]",
-      "legend": "Club Legend [EN]",
-      "professional": "Model Professional [EN]",
-      "star": "Star Player [EN]",
-      "unfortunate_end": "Unfortunate Ending [EN]",
-      "very_early_injury": "Heartbreaking Early Retirement [EN]"
+      "defied_time": "Tiempo desafiado",
+      "early_injury": "Carrera acortada",
+      "great_injury": "Trágico final de la grandeza",
+      "icon": "Icono de fútbol",
+      "journeyman": "Viajero de fútbol",
+      "legend": "Leyenda del club",
+      "professional": "Modelo Profesional",
+      "star": "Jugador estrella",
+      "unfortunate_end": "Final desafortunado",
+      "very_early_injury": "Jubilación anticipada desgarradora"
     }
   },
   "social": {
-    "socialMedia": "Social Media [EN]",
-    "viewComments": "View Comments [EN]",
-    "engagement": "Engagement [EN]",
-    "viralMoments": "{count} Viral Moments! [EN]",
-    "recentComments": "Recent Comments [EN]",
-    "followers": "Followers [EN]",
-    "growth": "Growth [EN]",
-    "noNews": "No recent news [EN]",
-    "noSponsors": "No active sponsors [EN]",
-    "pendingOffers": "{count} pending offers [EN]",
-    "publicComments": "Public Comments [EN]",
-    "noComments": "No comments yet [EN]",
-    "reply": "Reply [EN]",
-    "pressInterview": "Press Interview [EN]",
-    "selectQuestion": "Select a question to answer [EN]",
-    "viewInterview": "View Interview results [EN]",
-    "newsFeed": "News Feed [EN]",
-    "recentHeadlines": "Recent Headlines [EN]",
-    "seasonWeek": "Season {season}, Week {week} [EN]",
-    "homeCountry": "Home Country Popularity [EN]",
-    "currentCountry": "Current Country Popularity [EN]",
-    "globalRating": "Global Rating [EN]",
-    "fans": "Fans [EN]",
-    "press": "Press [EN]",
-    "popularity": "Popularity [EN]",
-    "relationships": "Relationships [EN]",
-    "sponsors": "Sponsors [EN]",
-    "totalSponsorIncome": "Total Weekly Income [EN]",
-    "contractUntil": "Contract until {season} [EN]",
-    "totalSponsors": "{count} sponsors [EN]",
-    "perWeek": "/week [EN]",
-    "noSponsorsYet": "No sponsors yet [EN]",
-    "teamChemistry": "Team Chemistry [EN]",
+    "socialMedia": "Redes Sociales",
+    "viewComments": "Ver comentarios",
+    "engagement": "Compromiso",
+    "viralMoments": "{count} ¡Momentos virales!",
+    "recentComments": "Comentarios recientes",
+    "followers": "Seguidores",
+    "growth": "Crecimiento",
+    "noNews": "Sin noticias recientes",
+    "noSponsors": "Sin patrocinadores activos",
+    "pendingOffers": "{count} ofertas pendientes",
+    "publicComments": "Comentarios públicos",
+    "noComments": "Aún no hay comentarios",
+    "reply": "Responder",
+    "pressInterview": "Entrevista de prensa",
+    "selectQuestion": "Seleccione una pregunta para responder",
+    "viewInterview": "Ver resultados de la entrevista",
+    "newsFeed": "Noticias",
+    "recentHeadlines": "Titulares recientes",
+    "seasonWeek": "Temporada {season}, Semana {week}",
+    "homeCountry": "Popularidad del país de origen",
+    "currentCountry": "Popularidad actual del país",
+    "globalRating": "Calificación global",
+    "fans": "aficionados",
+    "press": "Prensa",
+    "popularity": "Popularidad",
+    "relationships": "Relaciones",
+    "sponsors": "Patrocinadores",
+    "totalSponsorIncome": "Ingreso Semanal Total",
+    "contractUntil": "Contrato hasta {season}",
+    "totalSponsors": "Patrocinadores de {count}",
+    "perWeek": "/semana",
+    "noSponsorsYet": "Aún no hay patrocinadores",
+    "teamChemistry": "Química del equipo",
     "level": {
-      "unknown": "Unknown [EN]",
-      "local": "Local Hero [EN]",
-      "regional": "Regional Star [EN]",
-      "national": "National Icon [EN]",
-      "continental": "Continental Superstar [EN]",
-      "global": "Global Legend [EN]",
-      "legend": "Living Legend [EN]"
+      "unknown": "Desconocido",
+      "local": "Héroe local",
+      "regional": "estrella regional",
+      "national": "Icono Nacional",
+      "continental": "Superestrella continental",
+      "global": "Leyenda global",
+      "legend": "Leyenda viviente"
     },
     "relationship": {
-      "hated": "Hated [EN]",
-      "disliked": "Disliked [EN]",
-      "neutral": "Neutral [EN]",
-      "liked": "Liked [EN]",
-      "adored": "Adored [EN]",
-      "loved": "Loved [EN]"
+      "hated": "Odiado",
+      "disliked": "No me gustó",
+      "neutral": "Neutral",
+      "liked": "Apreciado",
+      "adored": "Adorado",
+      "loved": "Amado"
     },
     "tier": {
-      "bronze": "Bronze Partner [EN]",
-      "silver": "Silver Partner [EN]",
-      "gold": "Gold Partner [EN]",
-      "platinum": "Platinum Partner [EN]",
-      "diamond": "Diamond Partner [EN]"
+      "bronze": "Socio Bronce",
+      "silver": "Socio Plata",
+      "gold": "Socio Oro",
+      "platinum": "Socio Platino",
+      "diamond": "Socio Diamante"
     },
     "comments": {
-      "daysAgo": "{count}d ago [EN]",
-      "hoursAgo": "{count}h ago [EN]",
-      "minutesAgo": "{count}m ago [EN]"
+      "daysAgo": "XPLACEHOLDERX0Hace Xd",
+      "hoursAgo": "XPLACEHOLDER Hace X0Xh",
+      "minutesAgo": "XPLACEHOLDERX0Hace Xm"
     },
     "seasonComments": {
-      "excited": "So excited for the new season! Let's go {team}! 🔥 [EN]",
-      "expectations": "Big expectations for {name} this year. Can he deliver? [EN]",
-      "newSeason": "New season, new goals. Time to shine! [EN]"
+      "excited": "¡Muy emocionado por la nueva temporada! ¡Vamos {team}! 🔥",
+      "expectations": "Grandes expectativas para {name} este año. ¿Puede entregar?",
+      "newSeason": "Nueva temporada, nuevos objetivos. ¡Es hora de brillar!"
     },
     "formComments": {
-      "bestPlayer": "Is there anyone better than {name} right now? Unbelievable form! [EN]",
-      "disappointed": "Disappointing form lately. We know you can do better! [EN]",
-      "incredible": "Incredible performance again. Consistency is key. [EN]",
-      "needsRest": "Looks a bit tired out there. Maybe a rest would help? [EN]",
-      "onFire": "{name} is on fire lately! 🔥 [EN]",
-      "sellHim": "Time to look for other options. This isn't working. [EN]",
-      "struggling": "{name} is struggling to find his rhythm. Needs to step up. [EN]",
-      "worldClass": "World class player! ⭐ {name} is showing why he is elite. [EN]"
+      "bestPlayer": "¿Hay alguien mejor que {name} en este momento? ¡Forma increíble!",
+      "disappointed": "Forma decepcionante últimamente. ¡Sabemos que puedes hacerlo mejor!",
+      "incredible": "Increíble actuación de nuevo. La coherencia es clave.",
+      "needsRest": "Parece un poco cansado ahí fuera. ¿Quizás un descanso ayudaría?",
+      "onFire": "¡{name} está en llamas últimamente! 🔥",
+      "sellHim": "Es hora de buscar otras opciones. Esto no funciona.",
+      "struggling": "{name} está luchando por encontrar su ritmo. Necesita dar un paso al frente.",
+      "worldClass": "¡Jugador de clase mundial! ⭐ {name} está demostrando por qué es élite."
     },
     "goalComments": {
-      "goldenBoot": "Golden Boot in sight? {name} is unstoppable! [EN]",
-      "hatTrickHero": "Another hat-trick? {name} is writing history! [EN]",
-      "machineMode": "Goal machine mode: ACTIVATED! 🤖⚽ [EN]",
-      "unstoppable": "You just can't stop {name} when he's in this mood. [EN]"
+      "goldenBoot": "¿Bota de Oro a la vista? ¡{name} es imparable!",
+      "hatTrickHero": "¿Otro triplete? ¡{name} está escribiendo historia!",
+      "machineMode": "Modo máquina de goles: ¡ACTIVADO! 🤖⚽",
+      "unstoppable": "Simplemente no puedes detener a {name} cuando está de este humor."
     },
     "youthComments": {
-      "futurestar": "The future is bright! {name} is a star in the making. ⭐ [EN]",
-      "nextGeneration": "The next generation is here. Impressive maturity from {name}. [EN]",
-      "protect": "We need to protect this talent. He's the future of {team}. [EN]",
-      "wonderkid": "Wonderkid alert! 💎 This kid is special. [EN]"
+      "futurestar": "¡El futuro es brillante! {name} es una estrella en ciernes. ⭐",
+      "nextGeneration": "La próxima generación está aquí. Impresionante madurez de {name}.",
+      "protect": "Necesitamos proteger este talento. Él es el futuro de {team}.",
+      "wonderkid": "¡Alerta niño maravilla! 💎 Este niño es especial."
     },
     "veteranComments": {
-      "experience": "You can see his influence on the pitch. Pure leadership. [EN]",
-      "legend": "Absolute legend. Experience is something you can't buy. 🍷 [EN]",
-      "retire": "Maybe it's time to hang up the boots... past his peak. [EN]",
-      "stillGotIt": "{age} and still showing the youngsters how it's done! [EN]"
+      "experience": "Se nota su influencia en el campo. Liderazgo puro.",
+      "legend": "Leyenda absoluta. La experiencia es algo que no se puede comprar. 🍷",
+      "retire": "Tal vez sea hora de colgar las botas... más allá de su apogeo.",
+      "stillGotIt": "¡{age} y sigo mostrándoles a los jóvenes cómo se hace!"
     },
     "injuryComments": {
-      "comeBack": "Come back stronger! We're all rooting for you. 💪 [EN]",
-      "getWell": "Get well soon {name}! The team needs you. 🙏 [EN]",
-      "missYou": "Football isn't the same without you on the pitch. Heartbreak. [EN]"
+      "comeBack": "¡Vuelve más fuerte! Todos te apoyamos. 💪",
+      "getWell": "¡Que te mejores pronto {name}! El equipo te necesita. 🙏",
+      "missYou": "El fútbol no es lo mismo sin ti en el campo. Desamor."
     },
     "transferComments": {
-      "goodLuck": "Good luck in your next chapter. Thanks for the memories! [EN]",
-      "stayPlease": "Please don't leave us, {name}! You're a hero here. ❤️ [EN]",
-      "traitor": "How could you? Traitor! 🐍 [EN]",
-      "understand": "I understand the move, but it still hurts to see you go. [EN]"
+      "goodLuck": "Buena suerte en tu próximo capítulo. ¡Gracias por los recuerdos!",
+      "stayPlease": "¡Por favor no nos dejes, {name}! Eres un héroe aquí. ❤️",
+      "traitor": "¿Cómo pudiste? ¡Traidor! 🐍",
+      "understand": "Entiendo el movimiento, pero todavía me duele verte partir."
     },
     "eventComments": {
-      "autograph": "Got an autograph from {name}! My life is complete. ⭐ [EN]",
-      "dedication": "Love the dedication {name} shows in every training session. [EN]",
-      "goodPerson": "Off the pitch, {name} is an even better person. Role model! ❤️ [EN]",
-      "hardWorker": "Always the first one in and last one out. Hard worker! 💪 [EN]",
-      "metHim": "Just met {name}! What a humble guy. Legend! 😍 [EN]",
-      "roleModel": "Great to see players giving back to the community. Respect! [EN]",
-      "soNice": "Saw {name} today, he took photos with everyone. So nice! [EN]"
+      "autograph": "¡Obtuve un autógrafo de {name}! Mi vida está completa. ⭐",
+      "dedication": "Me encanta la dedicación que {name} muestra en cada sesión de entrenamiento.",
+      "goodPerson": "Fuera del campo, {name} es una persona aún mejor. ¡Modelo a seguir! ❤️",
+      "hardWorker": "Siempre el primero en entrar y el último en salir. ¡Trabajador duro! 💪",
+      "metHim": "¡Acabo de conocer {name}! Que tipo tan humilde. ¡Leyenda! 😍",
+      "roleModel": "Es genial ver a los jugadores retribuir a la comunidad. ¡Respeto!",
+      "soNice": "Vi {name} hoy y se tomó fotos con todos. ¡Qué lindo!"
     },
     "generalComments": {
-      "letGo": "Sometimes you just have to let the football do the talking. [EN]",
-      "proud": "So proud of your journey so far. Keep making us happy! [EN]",
-      "support": "Always supporting you, {name}! Keep going! 👏 [EN]",
-      "watching": "Watching closely... show us what you've got! [EN]"
+      "letGo": "A veces hay que dejar que el fútbol hable por sí solo.",
+      "proud": "Estoy muy orgulloso de tu viaje hasta ahora. ¡Sigue haciéndonos felices!",
+      "support": "¡Siempre apoyándote, {name}! ¡Sigue adelante! 👏",
+      "watching": "Observando de cerca... ¡muéstranos lo que tienes!"
     },
     "headlines": {
-      "awardNomination": "{player} nominated for prestigious award. [EN]",
-      "awardWon": "Victory! {player} wins award! [EN]",
-      "badForm": "Questions raised over {player}'s recent form. [EN]",
-      "cleanSheetStreak": "Another clean sheet for {player}! [EN]",
-      "controversy": "Controversy Erupts [EN]",
-      "generic": "Update [EN]",
-      "hatTrick": "{player} scores a stunning hat-trick! [EN]",
-      "injuryReturn": "{player} returns from injury layoff. [EN]",
-      "nationalCallup": "International duty calls for {player}. [EN]",
-      "newContract": "{player} signs new contract deal. [EN]",
-      "scoringStreak": "{player} can't stop scoring! [EN]",
-      "topScorer": "{player} leads the scoring charts! [EN]",
-      "transferred": "Club Announcement [EN]"
+      "awardNomination": "{player} nominado a un prestigioso premio.",
+      "awardWon": "¡Victoria! ¡{player} gana el premio!",
+      "badForm": "Surgieron preguntas sobre la forma reciente de {player}.",
+      "cleanSheetStreak": "¡Otra portería a cero para {player}!",
+      "controversy": "Estalla la controversia",
+      "generic": "Actualizar",
+      "hatTrick": "¡{player} logra un impresionante hat-trick!",
+      "injuryReturn": "{player} regresa de un descanso por lesión.",
+      "nationalCallup": "El deber internacional exige {player}.",
+      "newContract": "{player} firma un nuevo contrato.",
+      "scoringStreak": "¡{player} no puede parar de anotar!",
+      "topScorer": "¡{player} lidera las listas de puntuación!",
+      "transferred": "Anuncio del club"
     },
     "interview": {
-      "q1": "How do you feel about your recent form? [EN]",
-      "q2": "What are your thoughts on the upcoming match? [EN]",
-      "q3": "Any message for the fans? [EN]"
+      "q1": "¿Cómo te sientes acerca de tu forma reciente?",
+      "q2": "¿Qué piensas sobre el próximo partido?",
+      "q3": "¿Algún mensaje para los fans?"
     },
     "narrative": {
-      "ComebackKid": "What a turnaround! Never doubted him! 😉 [EN]",
-      "CultHero": "Build the statue already! Absolute legend! 🗿 [EN]",
-      "EstablishedStar": "Consistency personified. Always delivers. 👏 [EN]",
-      "Flop": "Total waste of money. Get him out! 🗑️ [EN]",
-      "ForgottenMan": "I completely forgot he still played for us... [EN]",
-      "HometownHero": "One of our own! Living the dream! ❤️ [EN]",
-      "InjuryComeback": "So happy to see him back on the grass! 🙏 [EN]",
-      "Journeyman": "Another club? Guy has more stamps in his passport than a pilot! ✈️ [EN]",
-      "OntheRise": "He just keeps getting better every week! 📈 [EN]",
-      "PolarizingFigure": "You either love him or hate him. There is no in-between. [EN]",
-      "PressDarling": "Media loves him, but does he do it on the pitch? 🤔 [EN]",
-      "Prodigy": "Generational talent! We are witnessing greatness! 🌟 [EN]",
-      "SystemPlayer": "Only looks good because of the system. Overrated. [EN]",
-      "UnderPressure": "He's crumbling under the weight of expectations... [EN]",
-      "VeteranLeader": "True leader on the pitch. We need his experience. [EN]"
+      "ComebackKid": "¡Qué cambio! ¡Nunca dudé de él! 😉",
+      "CultHero": "¡Construye la estatua ya! ¡Leyenda absoluta! 🗿",
+      "EstablishedStar": "La coherencia personificada. Siempre cumple. 👏",
+      "Flop": "Desperdicio total de dinero. ¡Sáquenlo! 🗑️",
+      "ForgottenMan": "Olvidé por completo que todavía jugaba para nosotros...",
+      "HometownHero": "¡Uno de los nuestros! ¡Viviendo el sueño! ❤️",
+      "InjuryComeback": "¡Qué feliz de verlo de nuevo en el césped! 🙏",
+      "Journeyman": "¿Otro club? ¡Un tipo tiene más sellos en su pasaporte que un piloto! ✈️",
+      "OntheRise": "¡Sigue mejorando cada semana! 📈",
+      "PolarizingFigure": "O lo amas o lo odias. No hay término medio.",
+      "PressDarling": "Los medios lo adoran, pero ¿lo hace en el campo? 🤔",
+      "Prodigy": "¡Talento generacional! ¡Estamos siendo testigos de la grandeza! 🌟",
+      "SystemPlayer": "Sólo se ve bien gracias al sistema. Sobrevalorado.",
+      "UnderPressure": "Se está desmoronando bajo el peso de las expectativas...",
+      "VeteranLeader": "Verdadero líder en el campo. Necesitamos su experiencia."
     },
     "reactions": {
-      "assist1": "Great vision! 👀 [EN]",
-      "assist2": "What a pass! 🎯 [EN]",
-      "award1": "Well deserved! 🏆 [EN]",
-      "award2": "Best in the world! 🌍 [EN]",
-      "award3": "Finally recognized! [EN]",
-      "goal1": "Goal machine! ⚽ [EN]",
-      "goal2": "What a hit! 🚀 [EN]",
-      "goal3": "He can't stop scoring! 🔥 [EN]",
-      "injury1": "Get well soon! 🙏 [EN]",
-      "injury2": "Come back stronger! 💪 [EN]",
-      "transfer1": "Welcome to the club! 🔵 [EN]",
-      "transfer2": "Sad to see you go. Thanks for everything! ❤️ [EN]"
+      "assist1": "¡Gran visión! 👀",
+      "assist2": "¡Qué pasada! 🎯",
+      "award1": "¡Bien merecido! 🏆",
+      "award2": "¡Lo mejor del mundo! 🌍",
+      "award3": "¡Finalmente reconocido!",
+      "goal1": "¡Máquina de goles! ⚽",
+      "goal2": "¡Qué éxito! 🚀",
+      "goal3": "¡No puede parar de anotar! 🔥",
+      "injury1": "¡Que te mejores pronto! 🙏",
+      "injury2": "¡Vuelve más fuerte! 💪",
+      "transfer1": "¡Bienvenido al club! 🔵",
+      "transfer2": "Es triste verte partir. ¡Gracias por todo! ❤️"
     },
     "matchEvents": {
       "assist": {
@@ -1714,101 +1714,101 @@
     }
   },
   "transfer": {
-    "agitation_1": "Growing frustration prompts transfer rumors. [EN]",
-    "agitation_2": "Relationship with club reaches breaking point. [EN]",
-    "agitation_3": "Formal transfer request submitted. [EN]",
-    "warning_1": "First warning issued regarding conduct. [EN]",
-    "warning_2": "Second warning: improvement required immediately. [EN]",
-    "warning_3": "Final warning before transfer listing. [EN]"
+    "agitation_1": "La creciente frustración genera rumores de transferencias.",
+    "agitation_2": "La relación con el club llega a un punto de ruptura.",
+    "agitation_3": "Solicitud de transferencia formal enviada.",
+    "warning_1": "Primera advertencia emitida sobre conducta.",
+    "warning_2": "Segunda advertencia: se requiere mejora inmediata.",
+    "warning_3": "Advertencia final antes de la inclusión en la lista de transferencias."
   },
   "award": {
-    "ballonDor": "Golden Trophy [EN]",
-    "ballonDorNomination": "Nominated - Golden Trophy [EN]",
-    "ballonDorRunnerUp": "Top 3 - Golden Trophy [EN]",
-    "comeback": "💪 Comeback Player of the Year after recovering from major injury! [EN]",
-    "comebackPlayerOfYear": "Comeback Player of the Year [EN]",
-    "continentalCompTopScorer": "👟 {competition} Top Scorer ({goals} goals)! [EN]",
-    "continentalCompetitionTopScorer": "Continental Top Scorer [EN]",
-    "continentalCupPOTY": "MVP - Continental Cup [EN]",
-    "continentalPOTY": "⭐ Voted Best Player of the {competition}! [EN]",
-    "continentalPlayer": "Continental Player [EN]",
-    "continentalTOTT": "👕 Named in {competition} Team of the Tournament! [EN]",
-    "cupGoldenBootShared": "Shared Cup Golden Boot with {goals} goals! [EN]",
-    "cupTopScorer": "👟 Cup Top Scorer ({goals} goals)! [EN]",
-    "europeanGoldenShoe": "European Golden Shoe [EN]",
-    "fifaBest": "🏆⭐ Voted Player of the Season! [EN]",
-    "goalOfTheYear": "Goal of the Year [EN]",
-    "goldenBoot": "👟 League Top Scorer ({goals} goals)! [EN]",
-    "goldenBootShared": "Shared League Golden Boot with {goals} goals! [EN]",
-    "goldenBoy": "🧒🏆 Young Player of the Year! The future is yours. [EN]",
-    "goldenGlove": "🧤 Golden Glove Winner ({cleanSheets} clean sheets)! [EN]",
-    "goldenShoe": "🥇 European Golden Shoe Winner! ({goals} goals) [EN]",
-    "leagueDefenderOfYear": "Defender of the Year [EN]",
-    "leagueForwardOfYear": "Forward of the Year [EN]",
-    "leagueMidfielderOfYear": "Midfielder of the Year [EN]",
-    "leaguePOTY": "🏅 League Player of the Season! [EN]",
-    "leaguePlayerOfYear": "League Player of the Year [EN]",
-    "leaguePlaymaker": "Assist Leader [EN]",
-    "leaguePositional": "🏅 Voted League's Best {position}! [EN]",
-    "leagueRookieOfYear": "Rookie of the Year [EN]",
-    "leagueTopAssister": "Top Assister [EN]",
-    "playmaker": "🎯 League Assist Leader ({assists} assists)! [EN]",
-    "puskas": "⚽🔥 Goal of the Year Award Winner! [EN]",
-    "rookie": "⭐ Named League Rookie of the Year! [EN]",
-    "shortlist": "⭐ Shortlisted for Golden Trophy. [EN]",
-    "teamOfTheYear": "👕 Named in League Team of the Year. [EN]",
-    "title": "Award [EN]",
-    "worldCupBestGoalkeeper": "Golden Glove - World Tournament [EN]",
-    "worldCupGoldenBall": "🌍🏅 World Tournament Golden Trophy Winner! [EN]",
-    "worldCupGoldenBoot": "👟🌍 World Tournament Golden Boot Winner! [EN]",
-    "worldCupTOTT": "👕 Named in World Tournament Team! [EN]",
-    "worldPlayer": "🏆⭐ WORLD'S BEST PLAYER! Recognized as the best on the planet. Narrative: {narrative}. [EN]",
-    "ballonDorWin": "Won the Golden Trophy! [EN]",
-    "ballonDorPodium": "Reached the final podium for the Golden Trophy! [EN]",
-    "ballonDorTop10": "Named in the Top 10 for the Golden Trophy! [EN]",
-    "fifaBestWin": "Won the World Best Player award! [EN]",
-    "goldenBoyWin": "Crowned Best Young Player! The best young talent in the world. [EN]",
-    "leagueMVPWin": "Voted as the MVP of the {country} League! [EN]",
-    "positionalWin": "Named as the Best {position} of the season. [EN]",
-    "goldenBootWin": "League Top Scorer with {goals} goals! [EN]",
-    "goldenShoeWin": "Won the European Golden Shoe with {points} points! [EN]",
-    "goldenGloveWin": "Most clean sheets in the league ({cleanSheets}). [EN]",
-    "topAssisterWin": "League Top Assister with {assists} assists! [EN]",
-    "cupTopScorerWin": "Cup Top Scorer with {goals} goals! [EN]",
-    "continentalTopScorerWin": "Continental Competition Top Scorer with {goals} goals! [EN]",
-    "worldCupGoldenBallWin": "Won the World Tournament Golden Ball! [EN]",
-    "worldCupGoldenBootWin": "World Tournament Top Scorer with {goals} goals! [EN]",
-    "continentalPOTYWin": "Player of the Continental Tournament! [EN]",
-    "teamOfTheYearWin": "Named in the World Team of the Year! [EN]",
-    "rookieOfYearWin": "Voted as the League Rookie of the Year! [EN]",
-    "comebackPlayerWin": "Won the Comeback Player of the Year award! [EN]",
-    "goalOfTheYearWin": "Winner of the Goal of the Year award! [EN]"
+    "ballonDor": "Trofeo de oro",
+    "ballonDorNomination": "Nominado - Trofeo de Oro",
+    "ballonDorRunnerUp": "Top 3 - Trofeo de Oro",
+    "comeback": "💪 ¡Jugador del año que regresa después de recuperarse de una lesión importante!",
+    "comebackPlayerOfYear": "Jugador Regreso del Año",
+    "continentalCompTopScorer": "👟 ¡Máximo goleador de {competition} (goles de {goals})!",
+    "continentalCompetitionTopScorer": "Máximo goleador continental",
+    "continentalCupPOTY": "MVP - Copa Continental",
+    "continentalPOTY": "⭐ ¡Votado como el mejor jugador de {competition}!",
+    "continentalPlayer": "Jugador continental",
+    "continentalTOTT": "👕 ¡Nombrado en el Equipo del Torneo {competition}!",
+    "cupGoldenBootShared": "¡Bota de Oro de Copa compartida con goles {goals}!",
+    "cupTopScorer": "👟 ¡Máximo goleador de la Copa ({goals} goles)!",
+    "europeanGoldenShoe": "Bota de Oro Europea",
+    "fifaBest": "🏆⭐ ¡Elegido Jugador de la Temporada!",
+    "goalOfTheYear": "Gol del año",
+    "goldenBoot": "👟 ¡Máximo goleador de la liga ({goals} goles)!",
+    "goldenBootShared": "¡Bota de Oro de Liga compartida con goles {goals}!",
+    "goldenBoy": "🧒🏆 ¡Jugador Joven del Año! El futuro es tuyo.",
+    "goldenGlove": "🧤 ¡Ganador del Guante de Oro ({cleanSheets} porterías a cero)!",
+    "goldenShoe": "🥇 ¡Ganador de la Bota de Oro Europea! ({goals} objetivos)",
+    "leagueDefenderOfYear": "Defensor del año",
+    "leagueForwardOfYear": "Delantero del año",
+    "leagueMidfielderOfYear": "Mediocampista del año",
+    "leaguePOTY": "🏅 ¡Jugador de la Liga de la Temporada!",
+    "leaguePlayerOfYear": "Jugador de liga del año",
+    "leaguePlaymaker": "Líder asistente",
+    "leaguePositional": "🏅 ¡Votado como el mejor {position} de la liga!",
+    "leagueRookieOfYear": "Novato del año",
+    "leagueTopAssister": "Asistente superior",
+    "playmaker": "🎯 ¡Líder de asistencia de liga (asistencias {assists})!",
+    "puskas": "⚽🔥 ¡Ganador del premio Gol del Año!",
+    "rookie": "⭐ ¡Nombrado Novato del Año de la Liga!",
+    "shortlist": "⭐ Seleccionado para el Trofeo de Oro.",
+    "teamOfTheYear": "👕 Nombrado en el Equipo del Año de la Liga.",
+    "title": "Otorgar",
+    "worldCupBestGoalkeeper": "Guante de Oro - Torneo Mundial",
+    "worldCupGoldenBall": "🌍🏅 ¡Ganador del Trofeo de Oro del Torneo Mundial!",
+    "worldCupGoldenBoot": "👟🌍 ¡Ganador de la Bota de Oro del Torneo Mundial!",
+    "worldCupTOTT": "👕 ¡Nombrado en el Equipo del Torneo Mundial!",
+    "worldPlayer": "🏆⭐¡EL MEJOR JUGADOR DEL MUNDO! Reconocido como el mejor del planeta. Narrativa: {narrative}.",
+    "ballonDorWin": "¡Ganó el Trofeo de Oro!",
+    "ballonDorPodium": "¡Alcanzamos el podio final del Trofeo de Oro!",
+    "ballonDorTop10": "¡Nombrado entre los 10 mejores para el Trofeo de Oro!",
+    "fifaBestWin": "¡Ganó el premio al Mejor Jugador del Mundo!",
+    "goldenBoyWin": "¡Coronado como Mejor Jugador Joven! El mejor talento joven del mundo.",
+    "leagueMVPWin": "¡Votado como MVP de la Liga {country}!",
+    "positionalWin": "Nombrado como el Mejor {position} de la temporada.",
+    "goldenBootWin": "¡Máximo goleador de la liga con goles {goals}!",
+    "goldenShoeWin": "¡Gana la Bota de Oro europea con puntos {points}!",
+    "goldenGloveWin": "Mayor portería a cero en la liga ({cleanSheets}).",
+    "topAssisterWin": "¡El mejor asistente de la liga con asistencias {assists}!",
+    "cupTopScorerWin": "¡Máximo goleador de la Copa con goles {goals}!",
+    "continentalTopScorerWin": "¡Máximo goleador de la competición continental con goles {goals}!",
+    "worldCupGoldenBallWin": "¡Ganó el Balón de Oro del Torneo Mundial!",
+    "worldCupGoldenBootWin": "¡Máximo goleador del torneo mundial con goles {goals}!",
+    "continentalPOTYWin": "¡Jugador del Torneo Continental!",
+    "teamOfTheYearWin": "¡Nombrado en el Equipo Mundial del Año!",
+    "rookieOfYearWin": "¡Votado como el Novato del Año de la Liga!",
+    "comebackPlayerWin": "¡Ganó el premio al Jugador Regreso del Año!",
+    "goalOfTheYearWin": "¡Ganador del premio Gol del Año!"
   },
   "competitions": {
-    "afcon": "African Cup of Nations [EN]",
-    "asianCup": "Asian Cup [EN]",
-    "continentalCup": "Continental Cup [EN]",
-    "copaAmerica": "Copa América [EN]",
-    "euro": "European Championship [EN]",
-    "goldCup": "Gold Cup [EN]",
-    "nationsLeague": "Nations Tournament [EN]",
-    "oceaniaCup": "Nations Cup [EN]",
-    "worldCup": "World Tournament [EN]",
-    "wcQualifiers": "World Tournament Qualifiers [EN]"
+    "afcon": "Copa Africana de Naciones",
+    "asianCup": "Copa Asiática",
+    "continentalCup": "Copa Continental",
+    "copaAmerica": "Copa América",
+    "euro": "Campeonato de Europa",
+    "goldCup": "Copa de Oro",
+    "nationsLeague": "Torneo de Naciones",
+    "oceaniaCup": "Copa de Naciones",
+    "worldCup": "Torneo Mundial",
+    "wcQualifiers": "Clasificatorios del Torneo Mundial"
   },
   "common": {
     "rounds": {
-      "final": "Final [EN]",
-      "groupStage": "Group Stage [EN]",
-      "qualifier": "Qualifier [EN]",
-      "quarterFinal": "Quarter-Final [EN]",
-      "roundOf16": "Round of 16 [EN]",
-      "semiFinal": "Semi-Final [EN]",
-      "winner": "Winner [EN]"
+      "final": "Final",
+      "groupStage": "Fase de grupos",
+      "qualifier": "Índice",
+      "quarterFinal": "Cuarto de final",
+      "roundOf16": "octavos de final",
+      "semiFinal": "Semifinal",
+      "winner": "Ganador"
     }
   },
   "contract": {
-    "terminated": "Terminated contract with {team}. [EN]"
+    "terminated": "Contrato rescindido con {team}."
   },
   "competition": {
     "americasDerby": "Derbi de las Américas"

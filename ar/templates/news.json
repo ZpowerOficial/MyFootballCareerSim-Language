@@ -1,104 +1,104 @@
 {
   "_meta": {
     "patchable": true,
-    "description": "News headlines and event descriptions - supports community patches for localized content [EN]",
-    "interpolation": "Uses {variable} for dynamic values and {{ref:path}} for cross-references [EN]"
+    "description": "عناوين الأخبار وأوصاف الأحداث - تدعم تصحيحات المجتمع للمحتوى المترجم",
+    "interpolation": "يستخدم {variable} للقيم الديناميكية و{{ref:path}} للإسنادات الترافقية"
   },
   "news": {
     "assistMilestone": {
-      "1": "PLAYMAKER! {name} reaches {assists} career assists [EN]",
-      "2": "{name} hits {assists} assists in brilliant career [EN]",
-      "3": "Creator supreme: {name} at {assists} assists [EN]"
+      "1": "صانع الألعاب! يصل {name} إلى المساعدة المهنية لـ {assists}",
+      "2": "{name} يضرب {assists} ويساعد في مسيرة مهنية رائعة",
+      "3": "الخالق الأعلى: يساعد {name} في {assists}"
     },
     "ballonDor": {
-      "0": "{name} WINS {year} {{ref:content.awards.ballonDor}}! [EN]",
-      "1": "GOLDEN ERA: {name} named world's best [EN]",
-      "2": "OFFICIAL: {name} takes football's biggest prize [EN]"
+      "0": "{name} يفوز بـ {year} {{ref:content.awards.ballonDor}}!",
+      "1": "العصر الذهبي: تم اختيار {name} كأفضل لاعب في العالم",
+      "2": "رسميًا: {name} يحصل على أكبر جائزة في كرة القدم"
     },
     "championsLeague": {
-      "1": "KINGS OF EUROPE! {team} win {{ref:content.competitions.championsLeague}} [EN]",
-      "2": "GLORY NIGHT! {name} and {team} conquer Europe [EN]",
-      "3": "{team} crowned champions of Europe [EN]"
+      "1": "ملوك أوروبا! فوز {team} بـ {{ref:content.competitions.championsLeague}}",
+      "2": "ليلة مجيدة! {name} و{team} يغزوان أوروبا",
+      "3": "{team} يتوج بطلاً لأوروبا"
     },
     "europaLeague": {
-      "1": "EUROPEAN CLUB CUP GLORY! {team} win European trophy [EN]",
-      "2": "{name} and {team} triumph in {{ref:content.competitions.europaLeague}} [EN]",
-      "3": "European success! {team} lift {{ref:content.competitions.europaLeague}} [EN]"
+      "1": "مجد كأس الأندية الأوروبية! {team} يفوز بالكأس الأوروبية",
+      "2": "{name} و{team} ينتصران في {{ref:content.competitions.europaLeague}}",
+      "3": "النجاح الأوروبي! رفع {team} {{ref:content.competitions.europaLeague}}"
     },
     "goldenBoot": {
-      "0": "{name} TOP SCORER! {goals} goals this season [EN]",
-      "1": "GOLDEN BOOT for {name} with {goals} goals [EN]",
-      "2": "{name} finishes as top marksman: {goals} goals [EN]"
+      "0": "{name} أعلى الهدافين! أهداف {goals} هذا الموسم",
+      "1": "الحذاء الذهبي لـ {name} مع أهداف {goals}",
+      "2": "أنهى {name} كأفضل هداف: أهداف {goals}"
     },
     "leagueChampion": {
-      "0": "CHAMPIONS! {team} wins the league with {name} [EN]",
-      "1": "Title secured! {team} and {name} celebrate [EN]",
-      "2": "The cup is ours! {team} wins national championship [EN]"
+      "0": "الأبطال! {team} يفوز بالدوري مع {name}",
+      "1": "العنوان مضمون! {team} و{name} يحتفلان",
+      "2": "الكأس لنا! {team} يفوز بالبطولة الوطنية"
     },
     "transfer": {
-      "0": "BREAKING! {name} is the new signing for {newTeam} [EN]",
-      "1": "OFFICIAL: {name} signs with {newTeam} [EN]",
-      "2": "{newTeam} announces blockbuster signing of {name} [EN]"
+      "0": "كسر! {name} هو التوقيع الجديد لـ {newTeam}",
+      "1": "رسميًا: {name} يوقع بـ {newTeam}",
+      "2": "تعلن شركة {newTeam} عن التوقيع الرائج لـ {name}"
     },
     "worldCup": {
-      "0": "{team} WORLD CHAMPIONS! THE CUP IS OURS! [EN]",
-      "1": "TOP OF THE WORLD! {team} conquers the {{ref:content.competitions.worldCup}} [EN]",
-      "2": "Maximum Glory! {team} wins the {{ref:content.competitions.worldCup}} [EN]"
+      "0": "أبطال العالم {team}! الكأس لنا!",
+      "1": "قمة العالم! {team} ينتصر على {{ref:content.competitions.worldCup}}",
+      "2": "أقصى المجد! {team} يفوز بـ {{ref:content.competitions.worldCup}}"
     },
     "continentalQualification": {
-      "1": "EUROPEAN FOOTBALL! {team} qualify for {competition} [EN]",
-      "2": "{name} helps {team} reach {competition} [EN]",
-      "3": "Continental football awaits {team} [EN]"
+      "1": "كرة القدم الأوروبية! {team} مؤهل لـ {competition}",
+      "2": "يساعد {name} {team} في الوصول إلى {competition}",
+      "3": "كرة القدم القارية تنتظر {team}"
     },
     "hatTrick": {
-      "1": "HAT-TRICK HERO! {name} scores three [EN]",
-      "2": "{name} bags hat-trick in {team} victory [EN]",
-      "3": "Treble treat! {name} scores three goals [EN]"
+      "1": "بطل الهاتريك! حصل {name} على ثلاثة نقاط",
+      "2": "{name} يسجل ثلاثية في انتصار {team}",
+      "3": "علاج ثلاثي! {name} يسجل ثلاثة أهداف"
     },
     "firstGoal": {
-      "1": "FIRST GOAL! {name} opens professional account [EN]",
-      "2": "{name} scores first career goal for {team} [EN]",
-      "3": "Off the mark! {name} nets debut goal [EN]"
+      "1": "الهدف الأول! يفتح {name} حسابًا احترافيًا",
+      "2": "{name} يسجل أول هدف في مسيرته لـ {team}",
+      "3": "خارج العلامة! {name} يسجل هدفه الأول"
     },
     "professionalDebut": {
-      "1": "DEBUT! {name} makes first professional appearance [EN]",
-      "2": "The beginning: {name} debuts for {team} [EN]",
-      "3": "{name} makes long-awaited professional debut [EN]"
+      "1": "أول مرة! يظهر {name} لأول مرة بمظهر احترافي",
+      "2": "البداية: ظهور {name} لأول مرة لـ {team}",
+      "3": "{name} يظهر لأول مرة على المستوى الاحترافي الذي طال انتظاره"
     },
     "internationalDebut": {
-      "1": "INTERNATIONAL DEBUT! {name} represents {country} [EN]",
-      "2": "{name} earns first cap for {country} [EN]",
-      "3": "Proud moment: {name} debuts for national team [EN]"
+      "1": "الظهور الدولي لأول مرة! يمثل {name} {country}",
+      "2": "حصل {name} على الحد الأقصى الأول لـ {country}",
+      "3": "لحظة فخر: ظهور {name} لأول مرة مع المنتخب الوطني"
     },
     "retirement": {
-      "0": "{name} ANNOUNCES RETIREMENT. Thanks for everything! [EN]",
-      "1": "End of an era: {name} hangs up boots [EN]",
-      "2": "Legend's goodbye: {name} retires [EN]"
+      "0": "يعلن {name} عن التقاعد. شكرا على كل شيء!",
+      "1": "نهاية حقبة: يقوم {name} بتعليق حذائه",
+      "2": "وداع الأسطورة: يتقاعد {name}"
     },
     "promotion": {
-      "1": "PROMOTED! {team} go up to {league} [EN]",
-      "2": "{name} and {team} earn promotion to {league} [EN]",
-      "3": "Celebrations! {team} promoted to {league} [EN]"
+      "1": "ترقية! {team} انتقل إلى {league}",
+      "2": "حصل كل من {name} و{team} على ترقية إلى {league}",
+      "3": "احتفالات! تمت ترقية {team} إلى {league}"
     },
     "relegation": {
-      "0": "TRAGEDY: {team} relegated with {name} in squad [EN]",
-      "1": "Historic drop: {team} falls to second division [EN]",
-      "2": "Sad day: {name}'s {team} cannot resist and falls [EN]"
+      "0": "المأساة: هبط {team} مع وجود {name} في الفريق",
+      "1": "هبوط تاريخي: سقوط فريق {team} إلى الدرجة الثانية",
+      "2": "يوم حزين: {team} الخاص بـ {name} لا يمكنه المقاومة ويسقط"
     }
   },
   "newsType": {
-    "assistMilestone": "Assist Milestone [EN]",
-    "ballonDor": "{{ref:content.awards.ballonDor}} [EN]",
-    "championsLeague": "{{ref:content.competitions.championsLeague}} [EN]",
-    "cupWinner": "Cup Winner [EN]",
-    "europaLeague": "{{ref:content.competitions.europaLeague}} [EN]",
-    "goldenBoot": "Golden Boot [EN]",
-    "hatTrick": "Hat-Trick [EN]",
-    "leagueChampion": "League Champion [EN]",
-    "transfer": "Transfer [EN]",
-    "worldCup": "{{ref:content.competitions.worldCup}} [EN]",
-    "retirement": "Retirement [EN]",
-    "promotion": "Promotion [EN]",
-    "relegation": "Relegation [EN]"
+    "assistMilestone": "مساعدة معلم",
+    "ballonDor": "{{ref:content.awards.ballonDor}}",
+    "championsLeague": "{{ref:content.competitions.championsLeague}}",
+    "cupWinner": "الفائز بالكأس",
+    "europaLeague": "{{ref:content.competitions.europaLeague}}",
+    "goldenBoot": "الحذاء الذهبي",
+    "hatTrick": "إنتصار ثلاثي",
+    "leagueChampion": "بطل الدوري",
+    "transfer": "تحويل",
+    "worldCup": "{{ref:content.competitions.worldCup}}",
+    "retirement": "التقاعد",
+    "promotion": "ترقية",
+    "relegation": "الهبوط"
   }
 }
