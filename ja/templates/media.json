@@ -1,161 +1,161 @@
 {
   "_meta": {
     "patchable": true,
-    "description": "Social media reactions and pundit commentary - supports community patches [EN]",
-    "interpolation": "Uses {variable} for dynamic values [EN]"
+    "description": "ソーシャルメディアの反応と専門家によるコメント - コミュニティパッチをサポート",
+    "interpolation": "動的値には{variable}を使用します"
   },
   "media": {
     "fan": {
       "pos": {
-        "1": "What a performance! {name} was everywhere today! [EN]",
-        "2": "Levels above everyone else on the pitch. Class act. [EN]",
-        "3": "Can we just appreciate {name} for a moment? Unbelievable talent. [EN]",
-        "4": "This is exactly what we need. {name} showing real passion! [EN]",
-        "5": "Man of the match for me. {name} controlled everything. [EN]",
-        "6": "Incredible work rate from {name}. Never stopped running. [EN]",
-        "7": "That's why he starts every game. Indispensable. [EN]",
-        "8": "Precision, vision, execution. Masterclass from {name}. [EN]",
-        "9": "Serious baller. {name} makes it look easy. [EN]",
-        "10": "If {name} plays like this every week, we're winning everything. [EN]",
-        "11": "{name} is simply magic. A joy to watch. [EN]",
-        "12": "Another day, another masterclass from {name}. [EN]",
-        "13": "Build the team around {name}. Absolute engine. [EN]",
-        "14": "{name} makes football look like art. [EN]",
-        "15": "We are lucky to witness {name} in this form. [EN]"
+        "1": "なんというパフォーマンスでしょう！今日は{name}があちこちにありました！",
+        "2": "ピッチ上の他の誰よりも高いレベル。クラス行為。",
+        "3": "ちょっとの間、{name} を評価してもいいでしょうか?信じられないほどの才能。",
+        "4": "これこそまさに私たちが必要としているものです。本物の情熱を示す{name}!",
+        "5": "私にとってマン・オブ・ザ・マッチ。 {name} がすべてを制御していました。",
+        "6": "{name} の驚異的な作業率。決して走りを止めなかった。",
+        "7": "だからこそ彼は毎試合先発出場するのだ。不可欠です。",
+        "8": "正確さ、ビジョン、実行力。 {name} のマスタークラス。",
+        "9": "真剣なボーラー。 {name} を使えば簡単に見えます。",
+        "10": "{name} が毎週このようにプレイすれば、すべてに勝利したことになります。",
+        "11": "{name} はまさに魔法です。見るのが楽しい。",
+        "12": "別の日、{name} からの別のマスタークラス。",
+        "13": "{name} を中心にチームを構築します。絶対的なエンジン。",
+        "14": "{name} はサッカーをアートのように見せます。",
+        "15": "この形で {name} を目撃できたのは幸運でした。"
       },
       "neu": {
-        "1": "Decent game from {name}, but nothing special. [EN]",
-        "2": "{name} was okay today. Did the job. [EN]",
-        "3": "Standard performance. Not bad, not great. [EN]",
-        "4": "Solid enough from {name}. 6/10. [EN]",
-        "5": "Quiet game for {name}, but didn't make mistakes. [EN]",
-        "6": "Average display. We know {name} can do better. [EN]",
-        "7": "Steady performance, kept things ticking over. [EN]",
-        "8": "{name} did the basics well enough. [EN]",
-        "9": "Nothing to write home about for {name} today. [EN]",
-        "10": "Forgot {name} was playing for a bit, but solid overall. [EN]"
+        "1": "{name} のまともなゲームですが、特別なことは何もありません。",
+        "2": "今日は{name}は大丈夫でした。仕事はやり遂げた。",
+        "3": "標準的な性能。悪くはありませんが、素晴らしくはありません。",
+        "4": "{name} から十分しっかりしています。 6/10。",
+        "5": "{name} にとっては静かなゲームでしたが、ミスはありませんでした。",
+        "6": "平均的な表示。 {name} のほうが優れていることがわかっています。",
+        "7": "安定したパフォーマンスで、物事は順調に進みました。",
+        "8": "{name} は基本的な機能を十分に備えていました。",
+        "9": "今日の {name} に関して特筆すべきことは何もありません。",
+        "10": "{name} が少しだけプレイしていたことを忘れていましたが、全体的には安定していました。"
       },
       "neg": {
-        "1": "{name} was invisible today. Passenger. [EN]",
-        "2": "Shocking performance... what was {name} doing? [EN]",
-        "3": "Needs to be dropped. {name} is offering nothing right now. [EN]",
-        "4": "Frustrating to watch {name} give the ball away constantly. [EN]",
-        "5": "Not good enough for this level. {name} needs to wake up. [EN]",
-        "6": "Disasterclass from {name}. Painful to watch. [EN]",
-        "7": "Why is {name} still on the pitch? Liability. [EN]",
-        "8": "{name} looked completely lost out there. [EN]",
-        "9": "Sunday league level from {name} today. Embarrassing. [EN]",
-        "10": "How does {name} keep getting selected? Dreadful. [EN]"
+        "1": "今日は{name}が見えなくなりました。乗客。",
+        "2": "衝撃的なパフォーマンス...{name} は何をしていたのでしょうか?",
+        "3": "ドロップする必要があります。 {name} は現在何も提供していません。",
+        "4": "{name} が頻繁にボールを与えてしまうのを見るのはイライラします。",
+        "5": "このレベルでは物足りない。 {name} を起動する必要があります。",
+        "6": "{name} の災害クラス。見るのが苦痛だ。",
+        "7": "なぜ{name}はまだピッチにいるのですか?責任。",
+        "8": "{name} は完全にそこで道に迷ってしまったように見えました。",
+        "9": "今日の{name}からのサンデーリーグレベル。恥ずかしい。",
+        "10": "{name} はどのようにして選択され続けるのでしょうか?恐ろしい。"
       }
     },
     "hater": {
       "shots": {
-        "1": "Overrated. {name} ghosts in big games. [EN]",
-        "2": "All hype, no end product. Classic {name}. [EN]",
-        "3": "{name} only looks good against weak teams. Stat padder. [EN]",
-        "4": "System player. Put {name} in a mid-table team and he'd struggle. [EN]",
-        "5": "People actually think {name} is world class? [EN]",
-        "6": "One good game in ten. Inconsistent. [EN]",
-        "7": "{name} creates nothing on his own. Needs service. [EN]",
-        "8": "{name} is a fraud. Exposed correctly. [EN]",
-        "9": "Most protected player in the league. {name} offers nothing. [EN]",
-        "10": "Watch {name} closely, he actually does nothing effective. [EN]"
+        "1": "過大評価されています。ビッグゲームにおける{name}ゴースト。",
+        "2": "誇大広告ばかりで、最終製品はありません。クラシックな{name}。",
+        "3": "{name} は弱いチームに対してのみ効果を発揮します。ステータスパダー。",
+        "4": "システムプレーヤー。 {name} を中間テーブルのチームに置くと、彼は苦戦するでしょう。",
+        "5": "{name} が世界クラスだと実際に考えている人はいるでしょうか?",
+        "6": "10試合に1試合は良い試合だった。一貫性がありません。",
+        "7": "{name} 自体は何も作成しません。サービスが必要です。",
+        "8": "{name} は詐欺です。正しく露出されました。",
+        "9": "リーグで最も守られた選手。 {name} は何も提供しません。",
+        "10": "{name} を注意深く観察してください。実際には、彼は効果的なことを何もしていません。"
       }
     },
     "pundit": {
       "pos": {
-        "1": "Tactically astute performance from {name}. Read the game perfectly. [EN]",
-        "2": "A mature display. {name} showed real intelligence today. [EN]",
-        "3": "Technical excellence. {name} is a manager's dream. [EN]",
-        "4": "Dominant. {name} completely dictated the tempo. [EN]",
-        "5": "Efficiency was the key. {name} barely wasted a ball. [EN]",
-        "6": "Excellent positioning allowed {name} to control the midfield. [EN]",
-        "7": "{name} showed great awareness in transition phases. [EN]",
-        "8": "A textbook performance in the {position} role by {name}. [EN]"
+        "1": "{name} の戦術的に鋭いパフォーマンス。ゲームを完璧に読んでください。",
+        "2": "大人っぽいディスプレイ。今日、{name} は真のインテリジェンスを示しました。",
+        "3": "技術的な卓越性。 {name} は管理者の夢です。",
+        "4": "支配的な。 {name} はテンポを完全に決定しました。",
+        "5": "効率が鍵でした。 {name} はボールをほとんど無駄にしませんでした。",
+        "6": "優れたポジショニングにより、{name} が中盤をコントロールすることができました。",
+        "7": "{name} は移行段階で優れた認識を示しました。",
+        "8": "{name} による、{position} ロールでの教科書的なパフォーマンス。"
       },
       "neu": {
-        "1": "Functional performance. {name} stuck to the role. [EN]",
-        "2": "Technically sound, but lacked spark. [EN]",
-        "3": "Disciplined. {name} kept shape well. [EN]",
-        "4": "Workmanlike effort from {name} today. [EN]",
-        "5": "Did the basics right, nothing more. [EN]",
-        "6": "{name} executed the tactical instructions without flair. [EN]",
-        "7": "A safe performance, minimized risks but lacked creativity. [EN]"
+        "1": "機能的なパフォーマンス。 {name} は役割にこだわりました。",
+        "2": "技術的には健全だが、スパークに欠けていた。",
+        "3": "規律正しい。 {name} は形状を良好に保ちました。",
+        "4": "今日の{name}の職人的な努力。",
+        "5": "基本は正しくできましたが、それ以上のものはありません。",
+        "6": "{name} は戦術指示を軽率に実行しました。",
+        "7": "安全なパフォーマンスでリスクは最小限に抑えられましたが、創造性が欠けていました。"
       },
       "neg": {
-        "1": "Lacked intensity. {name} was bypassed too easily. [EN]",
-        "2": "Positionally suspect. {name} was caught out repeatedly. [EN]",
-        "3": "Wasteful in possession. {name} killed too many attacks. [EN]",
-        "4": "Tactically naive. {name} didn't follow the game plan. [EN]",
-        "5": "Physically dominated. {name} couldn't cope with the pace. [EN]",
-        "6": "{name} struggled to influence proceedings in any meaningful way. [EN]",
-        "7": "Poor decision making from {name} throughout the match. [EN]"
+        "1": "強度に欠けていた。 {name} はあまりにも簡単にバイパスされました。",
+        "2": "位置的に疑わしい。 {name} が繰り返しバレました。",
+        "3": "所有しても無駄。 {name} による攻撃が多すぎます。",
+        "4": "戦術的にはナイーブ。 {name} はゲームプランに従いませんでした。",
+        "5": "物理的に支配されている。 {name} はそのペースに対応できませんでした。",
+        "6": "{name} は、有意義な方法で訴訟に影響を与えるのに苦労しました。",
+        "7": "試合全体を通して、{name} による意思決定の悪さ。"
       }
     },
     "overlay": {
       "fan": {
         "Prodigy": {
-          "1": "The kid is special! Remember the name! [EN]",
-          "2": "Generational talent right here. Protect him at all costs! [EN]"
+          "1": "あの子は特別だよ！名前を覚えておいてください！",
+          "2": "世代を超えた才能がここにあります。何としても彼を守りましょう！"
         },
         "OnTheRise": {
-          "1": "Getting better every week! Future star in the making! [EN]",
-          "2": "The potential is unreal. Keep developing! [EN]"
+          "1": "毎週良くなっていきます！未来のスターが誕生中！",
+          "2": "その可能性は非現実的です。開発を続けてください！"
         },
         "EstablishedStar": {
-          "1": "World class. Consistent excellence at the highest level. [EN]",
-          "2": "This is what elite looks like. Week in, week out. [EN]"
+          "1": "ワールドクラス。最高レベルの一貫した卓越性。",
+          "2": "これがエリートの姿です。毎週、毎週。"
         },
         "UnderPressure": {
-          "1": "Needs to step up. The pressure is mounting... [EN]",
-          "2": "Questions being asked. Time to deliver. [EN]"
+          "1": "ステップアップする必要があります。プレッシャーが高まってきています…",
+          "2": "質問が行われています。配達の時間です。"
         },
         "VeteranLeader": {
-          "1": "Experience you can't buy. Leading by example. [EN]",
-          "2": "The old guard showing the youngsters how it's done. [EN]"
+          "1": "買えない経験。模範を示す。",
+          "2": "若者たちにそのやり方を教える老衛兵。"
         },
         "CultHero": {
-          "1": "Absolute legend! Build the statue! [EN]",
-          "2": "One of us. Lives and breathes this club. [EN]"
+          "1": "まさに伝説！銅像を建てよう！",
+          "2": "私たちのうちの一人です。このクラブに生き、息づいています。"
         }
       },
       "pundit": {
         "Prodigy": {
-          "1": "Remarkable maturity for his age. Generational potential. [EN]"
+          "1": "彼の年齢の割には驚くべき成熟度。世代的なポテンシャル。"
         },
         "OnTheRise": {
-          "1": "Development curve is impressive. One to watch closely. [EN]"
+          "1": "発展曲線は印象的です。注意深く見守るべきもの。"
         },
         "EstablishedStar": {
-          "1": "Operating at elite level consistently. Complete player. [EN]"
+          "1": "一貫してエリートレベルで動作します。完全なプレーヤー。"
         },
         "UnderPressure": {
-          "1": "Performance levels have dropped. Needs to respond. [EN]"
+          "1": "パフォーマンスレベルが低下しました。対応する必要がある。"
         },
         "VeteranLeader": {
-          "1": "Experience is invaluable. Dressing room presence. [EN]"
+          "1": "経験は非常に貴重です。脱衣所の存在感。"
         },
         "CultHero": {
-          "1": "Connection with fans is extraordinary. Club icon. [EN]"
+          "1": "ファンとのつながりは格別です。クラブのアイコン。"
         }
       }
     },
     "earlyDays": {
-      "1": "Just getting started. Give him time. [EN]",
-      "2": "Promising signs, but needs more minutes. [EN]",
-      "3": "Hard to judge so early in the season. [EN]",
-      "4": "Building fitness and rhythm. [EN]",
-      "5": "Still finding his feet in the team. [EN]"
+      "1": "始めたばかりです。彼に時間を与えてください。",
+      "2": "有望な兆しはあるが、さらに時間がかかる。",
+      "3": "シーズン初期に判断するのは難しい。",
+      "4": "フィットネスとリズムを構築します。",
+      "5": "まだチームに足を踏み入れていない。"
     },
     "drought": {
       "goals": {
-        "1": "Goal drought is worrying. Needs one off the shin. [EN]",
-        "2": "Confidence looks shot in front of goal. [EN]",
-        "3": "Desperate for a goal to break the duck. [EN]"
+        "1": "目標干ばつが心配だ。すねから1つ外す必要があります。",
+        "2": "自信を持ってゴール前でシュートを放ったようだ。",
+        "3": "アヒルを破るゴールを目指して必死だ。"
       },
       "assists": {
-        "1": "Creativity has dried up lately. [EN]",
-        "2": "Struggling to find that final ball. [EN]"
+        "1": "最近、創造性が枯渇してきました。",
+        "2": "最後のボールを見つけるのに苦労しています。"
       }
     }
   }
