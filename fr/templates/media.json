@@ -1,161 +1,161 @@
 {
   "_meta": {
     "patchable": true,
-    "description": "Social media reactions and pundit commentary - supports community patches [EN]",
-    "interpolation": "Uses {variable} for dynamic values [EN]"
+    "description": "Réactions sur les réseaux sociaux et commentaires d'experts - prend en charge les correctifs communautaires",
+    "interpolation": "Utilise {variable} pour les valeurs dynamiques"
   },
   "media": {
     "fan": {
       "pos": {
-        "1": "What a performance! {name} was everywhere today! [EN]",
-        "2": "Levels above everyone else on the pitch. Class act. [EN]",
-        "3": "Can we just appreciate {name} for a moment? Unbelievable talent. [EN]",
-        "4": "This is exactly what we need. {name} showing real passion! [EN]",
-        "5": "Man of the match for me. {name} controlled everything. [EN]",
-        "6": "Incredible work rate from {name}. Never stopped running. [EN]",
-        "7": "That's why he starts every game. Indispensable. [EN]",
-        "8": "Precision, vision, execution. Masterclass from {name}. [EN]",
-        "9": "Serious baller. {name} makes it look easy. [EN]",
-        "10": "If {name} plays like this every week, we're winning everything. [EN]",
-        "11": "{name} is simply magic. A joy to watch. [EN]",
-        "12": "Another day, another masterclass from {name}. [EN]",
-        "13": "Build the team around {name}. Absolute engine. [EN]",
-        "14": "{name} makes football look like art. [EN]",
-        "15": "We are lucky to witness {name} in this form. [EN]"
+        "1": "Quelle performance ! {name} était partout aujourd'hui !",
+        "2": "Des niveaux au-dessus de tous les autres sur le terrain. Acte de classe.",
+        "3": "Pouvons-nous simplement apprécier {name} pendant un instant ? Un talent incroyable.",
+        "4": "C'est exactement ce dont nous avons besoin. {name} fait preuve d'une vraie passion !",
+        "5": "Homme du match pour moi. {name} contrôlait tout.",
+        "6": "Taux de travail incroyable de {name}. Je n'ai jamais arrêté de courir.",
+        "7": "C'est pourquoi il commence chaque match. Indispensable.",
+        "8": "Précision, vision, exécution. Classe de maître de {name}.",
+        "9": "Joueur sérieux. {name} donne l'impression que cela est facile.",
+        "10": "Si {name} joue ainsi chaque semaine, nous gagnons tout.",
+        "11": "{name} est tout simplement magique. Un bonheur à regarder.",
+        "12": "Un autre jour, une autre masterclass de {name}.",
+        "13": "Construisez l’équipe autour de {name}. Moteur absolu.",
+        "14": "{name} donne au football une allure artistique.",
+        "15": "Nous avons la chance d'être témoins de {name} sous cette forme."
       },
       "neu": {
-        "1": "Decent game from {name}, but nothing special. [EN]",
-        "2": "{name} was okay today. Did the job. [EN]",
-        "3": "Standard performance. Not bad, not great. [EN]",
-        "4": "Solid enough from {name}. 6/10. [EN]",
-        "5": "Quiet game for {name}, but didn't make mistakes. [EN]",
-        "6": "Average display. We know {name} can do better. [EN]",
-        "7": "Steady performance, kept things ticking over. [EN]",
-        "8": "{name} did the basics well enough. [EN]",
-        "9": "Nothing to write home about for {name} today. [EN]",
-        "10": "Forgot {name} was playing for a bit, but solid overall. [EN]"
+        "1": "Jeu décent de {name}, mais rien de spécial.",
+        "2": "{name} allait bien aujourd'hui. J'ai fait le travail.",
+        "3": "Performances standards. Pas mal, pas génial.",
+        "4": "Assez solide de {name}. 6/10.",
+        "5": "Jeu silencieux pour {name}, mais n'a pas commis d'erreurs.",
+        "6": "Affichage moyen. Nous savons que {name} peut faire mieux.",
+        "7": "Des performances stables, qui ont fait avancer les choses.",
+        "8": "{name} a assez bien fait les bases.",
+        "9": "Rien d’extraordinaire pour {name} aujourd’hui.",
+        "10": "J'ai oublié que {name} jouait un peu, mais globalement solide."
       },
       "neg": {
-        "1": "{name} was invisible today. Passenger. [EN]",
-        "2": "Shocking performance... what was {name} doing? [EN]",
-        "3": "Needs to be dropped. {name} is offering nothing right now. [EN]",
-        "4": "Frustrating to watch {name} give the ball away constantly. [EN]",
-        "5": "Not good enough for this level. {name} needs to wake up. [EN]",
-        "6": "Disasterclass from {name}. Painful to watch. [EN]",
-        "7": "Why is {name} still on the pitch? Liability. [EN]",
-        "8": "{name} looked completely lost out there. [EN]",
-        "9": "Sunday league level from {name} today. Embarrassing. [EN]",
-        "10": "How does {name} keep getting selected? Dreadful. [EN]"
+        "1": "{name} était invisible aujourd’hui. Passager.",
+        "2": "Des performances choquantes... que faisait {name} ?",
+        "3": "Doit être abandonné. {name} n'offre rien pour le moment.",
+        "4": "Frustrant de voir {name} donner le ballon constamment.",
+        "5": "Pas assez bien pour ce niveau. {name} doit se réveiller.",
+        "6": "Classe catastrophe de {name}. Pénible à regarder.",
+        "7": "Pourquoi {name} est-il toujours sur le terrain ? Responsabilité.",
+        "8": "{name} avait l'air complètement perdu.",
+        "9": "Niveau de ligue du dimanche de {name} aujourd'hui. Embarrassant.",
+        "10": "Comment {name} continue-t-il d'être sélectionné ? Terrible."
       }
     },
     "hater": {
       "shots": {
-        "1": "Overrated. {name} ghosts in big games. [EN]",
-        "2": "All hype, no end product. Classic {name}. [EN]",
-        "3": "{name} only looks good against weak teams. Stat padder. [EN]",
-        "4": "System player. Put {name} in a mid-table team and he'd struggle. [EN]",
-        "5": "People actually think {name} is world class? [EN]",
-        "6": "One good game in ten. Inconsistent. [EN]",
-        "7": "{name} creates nothing on his own. Needs service. [EN]",
-        "8": "{name} is a fraud. Exposed correctly. [EN]",
-        "9": "Most protected player in the league. {name} offers nothing. [EN]",
-        "10": "Watch {name} closely, he actually does nothing effective. [EN]"
+        "1": "Surestimé. {name} fantômes dans les grands jeux.",
+        "2": "Tout du battage médiatique, pas de produit final. Classique {name}.",
+        "3": "{name} n'a ​​l'air bon que contre les équipes faibles. Paddeur de statistiques.",
+        "4": "Lecteur système. Mettez {name} dans une équipe de milieu de table et il aurait du mal.",
+        "5": "Les gens pensent réellement que {name} est de classe mondiale ?",
+        "6": "Un bon match sur dix. Incompatible.",
+        "7": "{name} ne crée rien par lui-même. A besoin de service.",
+        "8": "{name} est une fraude. Exposé correctement.",
+        "9": "Joueur le plus protégé de la ligue. {name} n'offre rien.",
+        "10": "Surveillez attentivement {name}, il ne fait en réalité rien d'efficace."
       }
     },
     "pundit": {
       "pos": {
-        "1": "Tactically astute performance from {name}. Read the game perfectly. [EN]",
-        "2": "A mature display. {name} showed real intelligence today. [EN]",
-        "3": "Technical excellence. {name} is a manager's dream. [EN]",
-        "4": "Dominant. {name} completely dictated the tempo. [EN]",
-        "5": "Efficiency was the key. {name} barely wasted a ball. [EN]",
-        "6": "Excellent positioning allowed {name} to control the midfield. [EN]",
-        "7": "{name} showed great awareness in transition phases. [EN]",
-        "8": "A textbook performance in the {position} role by {name}. [EN]"
+        "1": "Performance tactiquement astucieuse de {name}. Lisez parfaitement le jeu.",
+        "2": "Un affichage mature. {name} a fait preuve d’une réelle intelligence aujourd’hui.",
+        "3": "Excellence technique. {name} est le rêve de tout manager.",
+        "4": "Dominant. {name} a complètement dicté le tempo.",
+        "5": "L'efficacité était la clé. {name} a à peine perdu une balle.",
+        "6": "Un excellent positionnement a permis à {name} de contrôler le milieu de terrain.",
+        "7": "{name} a fait preuve d’une grande conscience dans les phases de transition.",
+        "8": "Une performance de manuel dans le rôle {position} par {name}."
       },
       "neu": {
-        "1": "Functional performance. {name} stuck to the role. [EN]",
-        "2": "Technically sound, but lacked spark. [EN]",
-        "3": "Disciplined. {name} kept shape well. [EN]",
-        "4": "Workmanlike effort from {name} today. [EN]",
-        "5": "Did the basics right, nothing more. [EN]",
-        "6": "{name} executed the tactical instructions without flair. [EN]",
-        "7": "A safe performance, minimized risks but lacked creativity. [EN]"
+        "1": "Performances fonctionnelles. {name} est resté fidèle au rôle.",
+        "2": "Techniquement solide, mais manquait d'étincelle.",
+        "3": "Discipliné. {name} a bien conservé sa forme.",
+        "4": "Effort professionnel de {name} aujourd'hui.",
+        "5": "J'ai bien fait les bases, rien de plus.",
+        "6": "{name} a exécuté les instructions tactiques sans flair.",
+        "7": "Une performance sûre, avec des risques minimisés mais qui manquait de créativité."
       },
       "neg": {
-        "1": "Lacked intensity. {name} was bypassed too easily. [EN]",
-        "2": "Positionally suspect. {name} was caught out repeatedly. [EN]",
-        "3": "Wasteful in possession. {name} killed too many attacks. [EN]",
-        "4": "Tactically naive. {name} didn't follow the game plan. [EN]",
-        "5": "Physically dominated. {name} couldn't cope with the pace. [EN]",
-        "6": "{name} struggled to influence proceedings in any meaningful way. [EN]",
-        "7": "Poor decision making from {name} throughout the match. [EN]"
+        "1": "Manquait d'intensité. {name} a été contourné trop facilement.",
+        "2": "Positionnement suspect. {name} a été surpris à plusieurs reprises.",
+        "3": "Gaspillage en possession. {name} a tué trop d'attaques.",
+        "4": "Tactiquement naïf. {name} n'a ​​pas suivi le plan de jeu.",
+        "5": "Physiquement dominé. {name} n'a ​​pas pu suivre le rythme.",
+        "6": "{name} a eu du mal à influencer les débats de manière significative.",
+        "7": "Mauvaise prise de décision de {name} tout au long du match."
       }
     },
     "overlay": {
       "fan": {
         "Prodigy": {
-          "1": "The kid is special! Remember the name! [EN]",
-          "2": "Generational talent right here. Protect him at all costs! [EN]"
+          "1": "L'enfant est spécial ! Rappelez-vous le nom!",
+          "2": "Talent générationnel ici. Protégez-le à tout prix !"
         },
         "OnTheRise": {
-          "1": "Getting better every week! Future star in the making! [EN]",
-          "2": "The potential is unreal. Keep developing! [EN]"
+          "1": "Je m'améliore chaque semaine ! Future star en devenir !",
+          "2": "Le potentiel est irréel. Continuez à vous développer !"
         },
         "EstablishedStar": {
-          "1": "World class. Consistent excellence at the highest level. [EN]",
-          "2": "This is what elite looks like. Week in, week out. [EN]"
+          "1": "Classe mondiale. Excellence constante au plus haut niveau.",
+          "2": "Voilà à quoi ressemble l’élite. Semaine après semaine."
         },
         "UnderPressure": {
-          "1": "Needs to step up. The pressure is mounting... [EN]",
-          "2": "Questions being asked. Time to deliver. [EN]"
+          "1": "Il faut intensifier. La pression monte...",
+          "2": "Questions posées. Il est temps de livrer."
         },
         "VeteranLeader": {
-          "1": "Experience you can't buy. Leading by example. [EN]",
-          "2": "The old guard showing the youngsters how it's done. [EN]"
+          "1": "Une expérience que vous ne pouvez pas acheter. Montrer l’exemple.",
+          "2": "La vieille garde montre aux jeunes comment on fait."
         },
         "CultHero": {
-          "1": "Absolute legend! Build the statue! [EN]",
-          "2": "One of us. Lives and breathes this club. [EN]"
+          "1": "Légende absolue ! Construisez la statue !",
+          "2": "L'un de nous. Vit et respire ce club."
         }
       },
       "pundit": {
         "Prodigy": {
-          "1": "Remarkable maturity for his age. Generational potential. [EN]"
+          "1": "Maturité remarquable pour son âge. Potentiel générationnel."
         },
         "OnTheRise": {
-          "1": "Development curve is impressive. One to watch closely. [EN]"
+          "1": "La courbe de développement est impressionnante. A surveiller de près."
         },
         "EstablishedStar": {
-          "1": "Operating at elite level consistently. Complete player. [EN]"
+          "1": "Opérer de manière cohérente au niveau élite. Joueur complet."
         },
         "UnderPressure": {
-          "1": "Performance levels have dropped. Needs to respond. [EN]"
+          "1": "Les niveaux de performances ont baissé. Il faut répondre."
         },
         "VeteranLeader": {
-          "1": "Experience is invaluable. Dressing room presence. [EN]"
+          "1": "L'expérience est inestimable. Présence dans le vestiaire."
         },
         "CultHero": {
-          "1": "Connection with fans is extraordinary. Club icon. [EN]"
+          "1": "La connexion avec les fans est extraordinaire. Icône du club."
         }
       }
     },
     "earlyDays": {
-      "1": "Just getting started. Give him time. [EN]",
-      "2": "Promising signs, but needs more minutes. [EN]",
-      "3": "Hard to judge so early in the season. [EN]",
-      "4": "Building fitness and rhythm. [EN]",
-      "5": "Still finding his feet in the team. [EN]"
+      "1": "Je viens juste de commencer. Donnez-lui du temps.",
+      "2": "Des signes prometteurs, mais il faut plus de minutes.",
+      "3": "Difficile de juger si tôt dans la saison.",
+      "4": "Développer la forme physique et le rythme.",
+      "5": "Il trouve toujours ses marques dans l'équipe."
     },
     "drought": {
       "goals": {
-        "1": "Goal drought is worrying. Needs one off the shin. [EN]",
-        "2": "Confidence looks shot in front of goal. [EN]",
-        "3": "Desperate for a goal to break the duck. [EN]"
+        "1": "La sécheresse des buts est inquiétante. Il en faut un sur le tibia.",
+        "2": "La confiance semble tirée devant le but.",
+        "3": "Désespéré d'avoir un but pour casser le canard."
       },
       "assists": {
-        "1": "Creativity has dried up lately. [EN]",
-        "2": "Struggling to find that final ball. [EN]"
+        "1": "La créativité s’est tarie ces derniers temps.",
+        "2": "J'ai du mal à trouver cette dernière balle."
       }
     }
   }

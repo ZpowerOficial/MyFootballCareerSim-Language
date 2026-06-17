@@ -1,104 +1,104 @@
 {
   "_meta": {
     "patchable": true,
-    "description": "News headlines and event descriptions - supports community patches for localized content [EN]",
-    "interpolation": "Uses {variable} for dynamic values and {{ref:path}} for cross-references [EN]"
+    "description": "Judul berita dan deskripsi acara - mendukung patch komunitas untuk konten yang dilokalkan",
+    "interpolation": "Menggunakan {variable} untuk nilai dinamis dan {{ref:path}} untuk referensi silang"
   },
   "news": {
     "assistMilestone": {
-      "1": "PLAYMAKER! {name} reaches {assists} career assists [EN]",
-      "2": "{name} hits {assists} assists in brilliant career [EN]",
-      "3": "Creator supreme: {name} at {assists} assists [EN]"
+      "1": "PEMAIN PEMAIN! {name} mencapai bantuan karier {assists}",
+      "2": "{name} memberikan assist {assists} dalam karir cemerlang",
+      "3": "Pencipta tertinggi: {name} dan bantuan {assists}"
     },
     "ballonDor": {
-      "0": "{name} WINS {year} {{ref:content.awards.ballonDor}}! [EN]",
-      "1": "GOLDEN ERA: {name} named world's best [EN]",
-      "2": "OFFICIAL: {name} takes football's biggest prize [EN]"
+      "0": "{name} MENANGKAN {year} {{ref:content.awards.ballonDor}}!",
+      "1": "ERA EMAS: {name} dinobatkan sebagai yang terbaik di dunia",
+      "2": "RESMI: {name} mengambil hadiah sepakbola terbesar"
     },
     "championsLeague": {
-      "1": "KINGS OF EUROPE! {team} win {{ref:content.competitions.championsLeague}} [EN]",
-      "2": "GLORY NIGHT! {name} and {team} conquer Europe [EN]",
-      "3": "{team} crowned champions of Europe [EN]"
+      "1": "RAJA EROPA! {team} menang {{ref:content.competitions.championsLeague}}",
+      "2": "MALAM KEMULIAAN! {name} dan {team} menaklukkan Eropa",
+      "3": "{team} dinobatkan sebagai juara Eropa"
     },
     "europaLeague": {
-      "1": "EUROPEAN CLUB CUP GLORY! {team} win European trophy [EN]",
-      "2": "{name} and {team} triumph in {{ref:content.competitions.europaLeague}} [EN]",
-      "3": "European success! {team} lift {{ref:content.competitions.europaLeague}} [EN]"
+      "1": "KEMULIAAN PIALA KLUB EROPA! {team} memenangkan trofi Eropa",
+      "2": "{name} dan {team} menang di {{ref:content.competitions.europaLeague}}",
+      "3": "Kesuksesan Eropa! {team} angkat {{ref:content.competitions.europaLeague}}"
     },
     "goldenBoot": {
-      "0": "{name} TOP SCORER! {goals} goals this season [EN]",
-      "1": "GOLDEN BOOT for {name} with {goals} goals [EN]",
-      "2": "{name} finishes as top marksman: {goals} goals [EN]"
+      "0": "{name} PENCETAK GOL TERATAS! {goals} gol musim ini",
+      "1": "SEPATU EMAS untuk {name} dengan gol {goals}",
+      "2": "{name} finis sebagai penembak jitu teratas: {goals} gol"
     },
     "leagueChampion": {
-      "0": "CHAMPIONS! {team} wins the league with {name} [EN]",
-      "1": "Title secured! {team} and {name} celebrate [EN]",
-      "2": "The cup is ours! {team} wins national championship [EN]"
+      "0": "JUARA! {team} memenangkan liga dengan {name}",
+      "1": "Judul diamankan! {team} dan {name} merayakannya",
+      "2": "Piala itu milik kita! {team} memenangkan kejuaraan nasional"
     },
     "transfer": {
-      "0": "BREAKING! {name} is the new signing for {newTeam} [EN]",
-      "1": "OFFICIAL: {name} signs with {newTeam} [EN]",
-      "2": "{newTeam} announces blockbuster signing of {name} [EN]"
+      "0": "PEMECAHAN! {name} adalah penandatanganan baru untuk {newTeam}",
+      "1": "RESMI: {name} menandatangani dengan {newTeam}",
+      "2": "{newTeam} mengumumkan penandatanganan blockbuster {name}"
     },
     "worldCup": {
-      "0": "{team} WORLD CHAMPIONS! THE CUP IS OURS! [EN]",
-      "1": "TOP OF THE WORLD! {team} conquers the {{ref:content.competitions.worldCup}} [EN]",
-      "2": "Maximum Glory! {team} wins the {{ref:content.competitions.worldCup}} [EN]"
+      "0": "{team} JUARA DUNIA! PIALA ADALAH MILIK KITA!",
+      "1": "TERATAS DUNIA! {team} menaklukkan {{ref:content.competitions.worldCup}}",
+      "2": "Kemuliaan Maksimal! {team} memenangkan {{ref:content.competitions.worldCup}}"
     },
     "continentalQualification": {
-      "1": "EUROPEAN FOOTBALL! {team} qualify for {competition} [EN]",
-      "2": "{name} helps {team} reach {competition} [EN]",
-      "3": "Continental football awaits {team} [EN]"
+      "1": "SEPAKBOLA EROPA! {team} memenuhi syarat untuk {competition}",
+      "2": "{name} membantu {team} mencapai {competition}",
+      "3": "Sepak bola kontinental menunggu {team}"
     },
     "hatTrick": {
-      "1": "HAT-TRICK HERO! {name} scores three [EN]",
-      "2": "{name} bags hat-trick in {team} victory [EN]",
-      "3": "Treble treat! {name} scores three goals [EN]"
+      "1": "PAHLAWAN HAT-TRIK! {name} mendapat skor tiga",
+      "2": "{name} mengantongi hat-trick dalam kemenangan {team}",
+      "3": "Suguhan tiga kali lipat! {name} mencetak tiga gol"
     },
     "firstGoal": {
-      "1": "FIRST GOAL! {name} opens professional account [EN]",
-      "2": "{name} scores first career goal for {team} [EN]",
-      "3": "Off the mark! {name} nets debut goal [EN]"
+      "1": "GOL PERTAMA! {name} membuka akun profesional",
+      "2": "{name} mencetak gol karir pertama untuk {team}",
+      "3": "Melenceng! {name} menjaringkan gol debutnya"
     },
     "professionalDebut": {
-      "1": "DEBUT! {name} makes first professional appearance [EN]",
-      "2": "The beginning: {name} debuts for {team} [EN]",
-      "3": "{name} makes long-awaited professional debut [EN]"
+      "1": "DEBUT! {name} membuat penampilan profesional pertama",
+      "2": "Awal: {name} debut untuk {team}",
+      "3": "{name} membuat debut profesional yang telah lama ditunggu-tunggu"
     },
     "internationalDebut": {
-      "1": "INTERNATIONAL DEBUT! {name} represents {country} [EN]",
-      "2": "{name} earns first cap for {country} [EN]",
-      "3": "Proud moment: {name} debuts for national team [EN]"
+      "1": "DEBUT INTERNASIONAL! {name} mewakili {country}",
+      "2": "{name} mendapatkan batas pertama untuk {country}",
+      "3": "Momen yang membanggakan: {name} debut untuk tim nasional"
     },
     "retirement": {
-      "0": "{name} ANNOUNCES RETIREMENT. Thanks for everything! [EN]",
-      "1": "End of an era: {name} hangs up boots [EN]",
-      "2": "Legend's goodbye: {name} retires [EN]"
+      "0": "{name} MENGUMUMKAN PENSIUN. Terima kasih untuk semuanya!",
+      "1": "Akhir dari sebuah era: {name} gantung sepatu",
+      "2": "Selamat tinggal legenda: {name} pensiun"
     },
     "promotion": {
-      "1": "PROMOTED! {team} go up to {league} [EN]",
-      "2": "{name} and {team} earn promotion to {league} [EN]",
-      "3": "Celebrations! {team} promoted to {league} [EN]"
+      "1": "DIPROMOSIKAN! {team} naik ke {league}",
+      "2": "{name} dan {team} mendapatkan promosi menjadi {league}",
+      "3": "Perayaan! {team} dipromosikan menjadi {league}"
     },
     "relegation": {
-      "0": "TRAGEDY: {team} relegated with {name} in squad [EN]",
-      "1": "Historic drop: {team} falls to second division [EN]",
-      "2": "Sad day: {name}'s {team} cannot resist and falls [EN]"
+      "0": "TRAGEDI: {team} terdegradasi dengan {name} di skuad",
+      "1": "Penurunan bersejarah: {team} jatuh ke divisi dua",
+      "2": "Hari yang menyedihkan: {team} {name} tidak dapat menahan diri dan terjatuh"
     }
   },
   "newsType": {
-    "assistMilestone": "Assist Milestone [EN]",
-    "ballonDor": "{{ref:content.awards.ballonDor}} [EN]",
-    "championsLeague": "{{ref:content.competitions.championsLeague}} [EN]",
-    "cupWinner": "Cup Winner [EN]",
-    "europaLeague": "{{ref:content.competitions.europaLeague}} [EN]",
-    "goldenBoot": "Golden Boot [EN]",
-    "hatTrick": "Hat-Trick [EN]",
-    "leagueChampion": "League Champion [EN]",
-    "transfer": "Transfer [EN]",
-    "worldCup": "{{ref:content.competitions.worldCup}} [EN]",
-    "retirement": "Retirement [EN]",
-    "promotion": "Promotion [EN]",
-    "relegation": "Relegation [EN]"
+    "assistMilestone": "Bantuan Pencapaian",
+    "ballonDor": "{{ref:content.awards.ballonDor}}",
+    "championsLeague": "{{ref:content.competitions.championsLeague}}",
+    "cupWinner": "Pemenang Piala",
+    "europaLeague": "{{ref:content.competitions.europaLeague}}",
+    "goldenBoot": "Sepatu Emas",
+    "hatTrick": "Hat-Trick",
+    "leagueChampion": "Juara Liga",
+    "transfer": "Transfer",
+    "worldCup": "{{ref:content.competitions.worldCup}}",
+    "retirement": "Masa pensiun",
+    "promotion": "Promosi",
+    "relegation": "Degradasi"
   }
 }

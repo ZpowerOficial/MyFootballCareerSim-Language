@@ -1,104 +1,104 @@
 {
   "_meta": {
     "patchable": true,
-    "description": "News headlines and event descriptions - supports community patches for localized content [EN]",
-    "interpolation": "Uses {variable} for dynamic values and {{ref:path}} for cross-references [EN]"
+    "description": "Titres d'actualité et descriptions d'événements - prend en charge les correctifs communautaires pour le contenu localisé",
+    "interpolation": "Utilise {variable} pour les valeurs dynamiques et {{ref:path}} pour les références croisées"
   },
   "news": {
     "assistMilestone": {
-      "1": "PLAYMAKER! {name} reaches {assists} career assists [EN]",
-      "2": "{name} hits {assists} assists in brilliant career [EN]",
-      "3": "Creator supreme: {name} at {assists} assists [EN]"
+      "1": "MAITRE DE JEU ! {name} atteint les aides de carrière {assists}",
+      "2": "{name} frappe {assists} participe à une brillante carrière",
+      "3": "Créateur suprême : {name} et {assists} assistent"
     },
     "ballonDor": {
-      "0": "{name} WINS {year} {{ref:content.awards.ballonDor}}! [EN]",
-      "1": "GOLDEN ERA: {name} named world's best [EN]",
-      "2": "OFFICIAL: {name} takes football's biggest prize [EN]"
+      "0": "{name} GAGNE {year} {{ref:content.awards.ballonDor}} !",
+      "1": "GOLDEN ERA : {name} nommé meilleur au monde",
+      "2": "OFFICIEL : {name} remporte le plus gros prix du football"
     },
     "championsLeague": {
-      "1": "KINGS OF EUROPE! {team} win {{ref:content.competitions.championsLeague}} [EN]",
-      "2": "GLORY NIGHT! {name} and {team} conquer Europe [EN]",
-      "3": "{team} crowned champions of Europe [EN]"
+      "1": "ROIS D'EUROPE ! {team} gagne {{ref:content.competitions.championsLeague}}",
+      "2": "SOIRÉE DE GLOIRE ! {name} et {team} conquièrent l'Europe",
+      "3": "{team} sacré champion d'Europe"
     },
     "europaLeague": {
-      "1": "EUROPEAN CLUB CUP GLORY! {team} win European trophy [EN]",
-      "2": "{name} and {team} triumph in {{ref:content.competitions.europaLeague}} [EN]",
-      "3": "European success! {team} lift {{ref:content.competitions.europaLeague}} [EN]"
+      "1": "GLOIRE DE LA COUPE DES CLUB D'EUROPE ! {team} remporte le trophée européen",
+      "2": "{name} et {team} triomphent dans {{ref:content.competitions.europaLeague}}",
+      "3": "Succès européen ! {team} soulever {{ref:content.competitions.europaLeague}}"
     },
     "goldenBoot": {
-      "0": "{name} TOP SCORER! {goals} goals this season [EN]",
-      "1": "GOLDEN BOOT for {name} with {goals} goals [EN]",
-      "2": "{name} finishes as top marksman: {goals} goals [EN]"
+      "0": "{name} MEILLEUR BUTEUR ! {goals} buts cette saison",
+      "1": "GOLDEN BOOT pour {name} avec des objectifs {goals}",
+      "2": "{name} termine meilleur buteur : buts de {goals}"
     },
     "leagueChampion": {
-      "0": "CHAMPIONS! {team} wins the league with {name} [EN]",
-      "1": "Title secured! {team} and {name} celebrate [EN]",
-      "2": "The cup is ours! {team} wins national championship [EN]"
+      "0": "CHAMPIONS ! {team} remporte la ligue avec {name}",
+      "1": "Titre sécurisé ! {team} et {name} célèbrent",
+      "2": "La coupe est à nous ! {team} remporte le championnat national"
     },
     "transfer": {
-      "0": "BREAKING! {name} is the new signing for {newTeam} [EN]",
-      "1": "OFFICIAL: {name} signs with {newTeam} [EN]",
-      "2": "{newTeam} announces blockbuster signing of {name} [EN]"
+      "0": "RUPTURE! {name} est la nouvelle signature de {newTeam}",
+      "1": "OFFICIEL : {name} signe avec {newTeam}",
+      "2": "{newTeam} annonce la signature à succès de {name}"
     },
     "worldCup": {
-      "0": "{team} WORLD CHAMPIONS! THE CUP IS OURS! [EN]",
-      "1": "TOP OF THE WORLD! {team} conquers the {{ref:content.competitions.worldCup}} [EN]",
-      "2": "Maximum Glory! {team} wins the {{ref:content.competitions.worldCup}} [EN]"
+      "0": "{team} CHAMPIONS DU MONDE ! LA COUPE EST À NOUS !",
+      "1": "HAUT DU MONDE ! {team} conquiert le {{ref:content.competitions.worldCup}}",
+      "2": "Gloire maximale ! {team} remporte le {{ref:content.competitions.worldCup}}"
     },
     "continentalQualification": {
-      "1": "EUROPEAN FOOTBALL! {team} qualify for {competition} [EN]",
-      "2": "{name} helps {team} reach {competition} [EN]",
-      "3": "Continental football awaits {team} [EN]"
+      "1": "LE FOOTBALL EUROPÉEN ! {team} se qualifie pour {competition}",
+      "2": "{name} aide {team} à atteindre {competition}",
+      "3": "Le football continental attend {team}"
     },
     "hatTrick": {
-      "1": "HAT-TRICK HERO! {name} scores three [EN]",
-      "2": "{name} bags hat-trick in {team} victory [EN]",
-      "3": "Treble treat! {name} scores three goals [EN]"
+      "1": "HÉROS DU HAT-TRICE ! {name} en marque trois",
+      "2": "{name} réalise un triplé lors de la victoire de {team}",
+      "3": "Un triple régal ! {name} marque trois buts"
     },
     "firstGoal": {
-      "1": "FIRST GOAL! {name} opens professional account [EN]",
-      "2": "{name} scores first career goal for {team} [EN]",
-      "3": "Off the mark! {name} nets debut goal [EN]"
+      "1": "PREMIER BUT ! {name} ouvre un compte professionnel",
+      "2": "{name} marque le premier but en carrière de {team}",
+      "3": "Hors de question ! {name} marque son premier but"
     },
     "professionalDebut": {
-      "1": "DEBUT! {name} makes first professional appearance [EN]",
-      "2": "The beginning: {name} debuts for {team} [EN]",
-      "3": "{name} makes long-awaited professional debut [EN]"
+      "1": "DÉBUT! {name} fait sa première apparition professionnelle",
+      "2": "Le début : {name} fait ses débuts pour {team}",
+      "3": "{name} fait ses débuts professionnels tant attendus"
     },
     "internationalDebut": {
-      "1": "INTERNATIONAL DEBUT! {name} represents {country} [EN]",
-      "2": "{name} earns first cap for {country} [EN]",
-      "3": "Proud moment: {name} debuts for national team [EN]"
+      "1": "DÉBUT INTERNATIONAL ! {name} représente {country}",
+      "2": "{name} remporte le premier plafond pour {country}",
+      "3": "Moment de fierté : {name} fait ses débuts en équipe nationale"
     },
     "retirement": {
-      "0": "{name} ANNOUNCES RETIREMENT. Thanks for everything! [EN]",
-      "1": "End of an era: {name} hangs up boots [EN]",
-      "2": "Legend's goodbye: {name} retires [EN]"
+      "0": "{name} ANNONCE SA RETRAITE. Merci pour tout !",
+      "1": "Fin d'une époque : {name} raccroche les bottes",
+      "2": "Au revoir à la légende : {name} prend sa retraite"
     },
     "promotion": {
-      "1": "PROMOTED! {team} go up to {league} [EN]",
-      "2": "{name} and {team} earn promotion to {league} [EN]",
-      "3": "Celebrations! {team} promoted to {league} [EN]"
+      "1": "PROMU ! {team} va jusqu'à {league}",
+      "2": "{name} et {team} obtiennent une promotion au rang de {league}.",
+      "3": "Célébrations ! {team} promu {league}"
     },
     "relegation": {
-      "0": "TRAGEDY: {team} relegated with {name} in squad [EN]",
-      "1": "Historic drop: {team} falls to second division [EN]",
-      "2": "Sad day: {name}'s {team} cannot resist and falls [EN]"
+      "0": "TRAGÉDIE : {team} relégué avec {name} dans l'équipe",
+      "1": "Baisse historique : {team} tombe en deuxième division",
+      "2": "Triste jour : {team} de {name} ne peut pas résister et tombe"
     }
   },
   "newsType": {
-    "assistMilestone": "Assist Milestone [EN]",
-    "ballonDor": "{{ref:content.awards.ballonDor}} [EN]",
-    "championsLeague": "{{ref:content.competitions.championsLeague}} [EN]",
-    "cupWinner": "Cup Winner [EN]",
-    "europaLeague": "{{ref:content.competitions.europaLeague}} [EN]",
-    "goldenBoot": "Golden Boot [EN]",
-    "hatTrick": "Hat-Trick [EN]",
-    "leagueChampion": "League Champion [EN]",
-    "transfer": "Transfer [EN]",
-    "worldCup": "{{ref:content.competitions.worldCup}} [EN]",
-    "retirement": "Retirement [EN]",
-    "promotion": "Promotion [EN]",
-    "relegation": "Relegation [EN]"
+    "assistMilestone": "Étape d'assistance",
+    "ballonDor": "{{ref:content.awards.ballonDor}}",
+    "championsLeague": "{{ref:content.competitions.championsLeague}}",
+    "cupWinner": "Vainqueur de la Coupe",
+    "europaLeague": "{{ref:content.competitions.europaLeague}}",
+    "goldenBoot": "Soulier d'Or",
+    "hatTrick": "Tour de chapeau",
+    "leagueChampion": "Champion de la Ligue",
+    "transfer": "Transfert",
+    "worldCup": "{{ref:content.competitions.worldCup}}",
+    "retirement": "Retraite",
+    "promotion": "Promotion",
+    "relegation": "Relégation"
   }
 }
