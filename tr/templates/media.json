@@ -1,161 +1,161 @@
 {
   "_meta": {
     "patchable": true,
-    "description": "Social media reactions and pundit commentary - supports community patches [EN]",
-    "interpolation": "Uses {variable} for dynamic values [EN]"
+    "description": "Sosyal medya tepkileri ve uzman yorumları - topluluk yamalarını destekler",
+    "interpolation": "Dinamik değerler için {variable}'i kullanır"
   },
   "media": {
     "fan": {
       "pos": {
-        "1": "What a performance! {name} was everywhere today! [EN]",
-        "2": "Levels above everyone else on the pitch. Class act. [EN]",
-        "3": "Can we just appreciate {name} for a moment? Unbelievable talent. [EN]",
-        "4": "This is exactly what we need. {name} showing real passion! [EN]",
-        "5": "Man of the match for me. {name} controlled everything. [EN]",
-        "6": "Incredible work rate from {name}. Never stopped running. [EN]",
-        "7": "That's why he starts every game. Indispensable. [EN]",
-        "8": "Precision, vision, execution. Masterclass from {name}. [EN]",
-        "9": "Serious baller. {name} makes it look easy. [EN]",
-        "10": "If {name} plays like this every week, we're winning everything. [EN]",
-        "11": "{name} is simply magic. A joy to watch. [EN]",
-        "12": "Another day, another masterclass from {name}. [EN]",
-        "13": "Build the team around {name}. Absolute engine. [EN]",
-        "14": "{name} makes football look like art. [EN]",
-        "15": "We are lucky to witness {name} in this form. [EN]"
+        "1": "Ne performans! {name} bugün her yerdeydi!",
+        "2": "Sahadaki herkesin üstünde seviyeler var. Sınıf eylemi.",
+        "3": "{name}'in kıymetini bir anlığına takdir edebilir miyiz? İnanılmaz yetenek.",
+        "4": "Bu tam olarak ihtiyacımız olan şey. {name} gerçek tutkuyu gösteriyor!",
+        "5": "Benim için maçın adamı. {name} her şeyi kontrol ediyordu.",
+        "6": "{name}'ten inanılmaz çalışma oranı. Koşmayı hiç bırakmadım.",
+        "7": "Bu yüzden her maça başlıyor. Vazgeçilmez.",
+        "8": "Hassasiyet, vizyon, uygulama. {name}'ten ustalık sınıfı.",
+        "9": "Ciddi topçu. {name} bunun kolay görünmesini sağlar.",
+        "10": "{name} her hafta böyle oynarsa her şeyi kazanıyoruz.",
+        "11": "{name} tek kelimeyle sihirdir. İzlemesi bir keyif.",
+        "12": "Başka bir gün, {name}'ten başka bir ustalık sınıfı.",
+        "13": "Ekibinizi {name} etrafında oluşturun. Mutlak motor.",
+        "14": "{name} futbolu sanat gibi gösteriyor.",
+        "15": "{name}'in bu formuna tanık olduğumuz için şanslıyız."
       },
       "neu": {
-        "1": "Decent game from {name}, but nothing special. [EN]",
-        "2": "{name} was okay today. Did the job. [EN]",
-        "3": "Standard performance. Not bad, not great. [EN]",
-        "4": "Solid enough from {name}. 6/10. [EN]",
-        "5": "Quiet game for {name}, but didn't make mistakes. [EN]",
-        "6": "Average display. We know {name} can do better. [EN]",
-        "7": "Steady performance, kept things ticking over. [EN]",
-        "8": "{name} did the basics well enough. [EN]",
-        "9": "Nothing to write home about for {name} today. [EN]",
-        "10": "Forgot {name} was playing for a bit, but solid overall. [EN]"
+        "1": "{name}'ten iyi bir oyun, ancak özel bir şey yok.",
+        "2": "{name} bugün iyiydi. İşi yaptım.",
+        "3": "Standart performans. Fena değil, harika değil.",
+        "4": "{name}'ten yeterince sağlam. 6/10.",
+        "5": "{name} için sessiz bir oyun ama hata yapmadı.",
+        "6": "Ortalama ekran. {name}'in daha iyisini yapabileceğini biliyoruz.",
+        "7": "İstikrarlı performans, işlerin ilerlemesini sağladı.",
+        "8": "{name} temelleri yeterince iyi yaptı.",
+        "9": "Bugün {name} için yazılacak bir şey yok.",
+        "10": "{name}'in bir süre oynadığını unuttum ama genel olarak sağlamdı."
       },
       "neg": {
-        "1": "{name} was invisible today. Passenger. [EN]",
-        "2": "Shocking performance... what was {name} doing? [EN]",
-        "3": "Needs to be dropped. {name} is offering nothing right now. [EN]",
-        "4": "Frustrating to watch {name} give the ball away constantly. [EN]",
-        "5": "Not good enough for this level. {name} needs to wake up. [EN]",
-        "6": "Disasterclass from {name}. Painful to watch. [EN]",
-        "7": "Why is {name} still on the pitch? Liability. [EN]",
-        "8": "{name} looked completely lost out there. [EN]",
-        "9": "Sunday league level from {name} today. Embarrassing. [EN]",
-        "10": "How does {name} keep getting selected? Dreadful. [EN]"
+        "1": "{name} bugün görünmezdi. Yolcu.",
+        "2": "Şok edici performans... {name} ne yapıyordu?",
+        "3": "Düşürülmesi gerekiyor. {name} şu anda hiçbir şey sunmuyor.",
+        "4": "{name}'in sürekli topu ele geçirmesini izlemek sinir bozucu.",
+        "5": "Bu seviye için yeterince iyi değil. {name}'in uyanması gerekiyor.",
+        "6": "{name}'ten felaket sınıfı. İzlemesi acı verici.",
+        "7": "{name} neden hala sahada? Yükümlülük.",
+        "8": "{name} orada tamamen kaybolmuş görünüyordu.",
+        "9": "Bugün {name}'ten Pazar ligi seviyesi. Utandırıcı.",
+        "10": "{name} nasıl seçilmeye devam ediyor? Korkunç."
       }
     },
     "hater": {
       "shots": {
-        "1": "Overrated. {name} ghosts in big games. [EN]",
-        "2": "All hype, no end product. Classic {name}. [EN]",
-        "3": "{name} only looks good against weak teams. Stat padder. [EN]",
-        "4": "System player. Put {name} in a mid-table team and he'd struggle. [EN]",
-        "5": "People actually think {name} is world class? [EN]",
-        "6": "One good game in ten. Inconsistent. [EN]",
-        "7": "{name} creates nothing on his own. Needs service. [EN]",
-        "8": "{name} is a fraud. Exposed correctly. [EN]",
-        "9": "Most protected player in the league. {name} offers nothing. [EN]",
-        "10": "Watch {name} closely, he actually does nothing effective. [EN]"
+        "1": "Abartılmış. Büyük oyunlarda {name} hayaletleri.",
+        "2": "Hepsi abartı, son ürün yok. Klasik {name}.",
+        "3": "{name} yalnızca zayıf takımlara karşı iyi görünüyor. İstatistik dolgusu.",
+        "4": "Sistem oynatıcısı. {name}'i orta sıradaki bir takıma koyarsanız mücadele edecektir.",
+        "5": "İnsanlar gerçekten {name}'in birinci sınıf olduğunu mu düşünüyor?",
+        "6": "Onda bir iyi oyun. Tutarsız.",
+        "7": "{name} kendi başına hiçbir şey yaratmaz. Servise ihtiyacı var.",
+        "8": "{name} bir sahtekarlıktır. Doğru şekilde açığa çıkarıldı.",
+        "9": "Ligin en çok korunan oyuncusu. {name} hiçbir şey sunmuyor.",
+        "10": "{name}'i yakından izleyin, aslında etkili hiçbir şey yapmıyor."
       }
     },
     "pundit": {
       "pos": {
-        "1": "Tactically astute performance from {name}. Read the game perfectly. [EN]",
-        "2": "A mature display. {name} showed real intelligence today. [EN]",
-        "3": "Technical excellence. {name} is a manager's dream. [EN]",
-        "4": "Dominant. {name} completely dictated the tempo. [EN]",
-        "5": "Efficiency was the key. {name} barely wasted a ball. [EN]",
-        "6": "Excellent positioning allowed {name} to control the midfield. [EN]",
-        "7": "{name} showed great awareness in transition phases. [EN]",
-        "8": "A textbook performance in the {position} role by {name}. [EN]"
+        "1": "{name}'ten taktik açıdan akıllı performans. Oyunu mükemmel bir şekilde okuyun.",
+        "2": "Olgun bir gösteri. {name} bugün gerçek zekayı gösterdi.",
+        "3": "Teknik mükemmellik. {name} bir yöneticinin hayalidir.",
+        "4": "Baskın. {name} tempoyu tamamen belirledi.",
+        "5": "Verimlilik önemliydi. {name} zar zor topu boşa harcadı.",
+        "6": "Mükemmel konumlandırma {name}'in orta sahayı kontrol etmesine olanak sağladı.",
+        "7": "{name} geçiş aşamalarında büyük farkındalık gösterdi.",
+        "8": "{name}'in {position} rolündeki ders kitabı performansı."
       },
       "neu": {
-        "1": "Functional performance. {name} stuck to the role. [EN]",
-        "2": "Technically sound, but lacked spark. [EN]",
-        "3": "Disciplined. {name} kept shape well. [EN]",
-        "4": "Workmanlike effort from {name} today. [EN]",
-        "5": "Did the basics right, nothing more. [EN]",
-        "6": "{name} executed the tactical instructions without flair. [EN]",
-        "7": "A safe performance, minimized risks but lacked creativity. [EN]"
+        "1": "Fonksiyonel performans. {name} rolüne sadık kaldı.",
+        "2": "Teknik olarak sağlam, ancak kıvılcım eksikti.",
+        "3": "Disiplinli. {name} şeklini iyi korudu.",
+        "4": "{name}'in bugün ustaca çabası.",
+        "5": "Temelleri doğru yaptım, başka bir şey değil.",
+        "6": "{name} taktiksel talimatları yeteneksizce yerine getirdi.",
+        "7": "Güvenli bir performans, minimuma indirilmiş riskler ancak yaratıcılıktan yoksundu."
       },
       "neg": {
-        "1": "Lacked intensity. {name} was bypassed too easily. [EN]",
-        "2": "Positionally suspect. {name} was caught out repeatedly. [EN]",
-        "3": "Wasteful in possession. {name} killed too many attacks. [EN]",
-        "4": "Tactically naive. {name} didn't follow the game plan. [EN]",
-        "5": "Physically dominated. {name} couldn't cope with the pace. [EN]",
-        "6": "{name} struggled to influence proceedings in any meaningful way. [EN]",
-        "7": "Poor decision making from {name} throughout the match. [EN]"
+        "1": "Yoğunluk eksikliği. {name} çok kolay bir şekilde atlandı.",
+        "2": "Konumsal olarak şüpheli. {name} defalarca yakalandı.",
+        "3": "Sahip olmak israf. {name} çok fazla saldırıyı öldürdü.",
+        "4": "Taktiksel olarak saf. {name} oyun planına uymadı.",
+        "5": "Fiziksel olarak hakim. {name} bu tempoya ayak uyduramadı.",
+        "6": "{name}, duruşmaları anlamlı bir şekilde etkilemek için mücadele etti.",
+        "7": "{name}'in maç boyunca kötü kararlar vermesi."
       }
     },
     "overlay": {
       "fan": {
         "Prodigy": {
-          "1": "The kid is special! Remember the name! [EN]",
-          "2": "Generational talent right here. Protect him at all costs! [EN]"
+          "1": "Çocuk özeldir! Adını hatırla!",
+          "2": "Nesil yetenek burada. Onu ne pahasına olursa olsun koruyun!"
         },
         "OnTheRise": {
-          "1": "Getting better every week! Future star in the making! [EN]",
-          "2": "The potential is unreal. Keep developing! [EN]"
+          "1": "Her hafta daha iyiye gidiyoruz! Geleceğin yıldızı yapım aşamasında!",
+          "2": "Potansiyel gerçek değil. Gelişmeye devam edin!"
         },
         "EstablishedStar": {
-          "1": "World class. Consistent excellence at the highest level. [EN]",
-          "2": "This is what elite looks like. Week in, week out. [EN]"
+          "1": "Dünya standartlarında. En üst düzeyde tutarlı mükemmellik.",
+          "2": "Elitlerin görünüşü budur. Hafta içi, hafta dışı."
         },
         "UnderPressure": {
-          "1": "Needs to step up. The pressure is mounting... [EN]",
-          "2": "Questions being asked. Time to deliver. [EN]"
+          "1": "Adım atılması gerekiyor. Basınç artıyor...",
+          "2": "Sorular soruluyor. Teslim etme zamanı."
         },
         "VeteranLeader": {
-          "1": "Experience you can't buy. Leading by example. [EN]",
-          "2": "The old guard showing the youngsters how it's done. [EN]"
+          "1": "Satın alamayacağınız deneyim. Örnek olarak liderlik etmek.",
+          "2": "Yaşlı muhafız gençlere işin nasıl yapıldığını gösteriyor."
         },
         "CultHero": {
-          "1": "Absolute legend! Build the statue! [EN]",
-          "2": "One of us. Lives and breathes this club. [EN]"
+          "1": "Mutlak efsane! Heykeli inşa et!",
+          "2": "Bizden biri. Bu kulüpte yaşıyor ve nefes alıyor."
         }
       },
       "pundit": {
         "Prodigy": {
-          "1": "Remarkable maturity for his age. Generational potential. [EN]"
+          "1": "Yaşına göre olağanüstü bir olgunluk. Nesil potansiyeli."
         },
         "OnTheRise": {
-          "1": "Development curve is impressive. One to watch closely. [EN]"
+          "1": "Gelişim eğrisi etkileyici. Yakından izlenmesi gereken biri."
         },
         "EstablishedStar": {
-          "1": "Operating at elite level consistently. Complete player. [EN]"
+          "1": "Sürekli olarak elit seviyede faaliyet gösteriyoruz. Komple oyuncu."
         },
         "UnderPressure": {
-          "1": "Performance levels have dropped. Needs to respond. [EN]"
+          "1": "Performans seviyeleri düştü. Yanıt vermesi gerekiyor."
         },
         "VeteranLeader": {
-          "1": "Experience is invaluable. Dressing room presence. [EN]"
+          "1": "Deneyim paha biçilmezdir. Soyunma odasının varlığı."
         },
         "CultHero": {
-          "1": "Connection with fans is extraordinary. Club icon. [EN]"
+          "1": "Hayranlarla olan bağ olağanüstü. Kulüp simgesi."
         }
       }
     },
     "earlyDays": {
-      "1": "Just getting started. Give him time. [EN]",
-      "2": "Promising signs, but needs more minutes. [EN]",
-      "3": "Hard to judge so early in the season. [EN]",
-      "4": "Building fitness and rhythm. [EN]",
-      "5": "Still finding his feet in the team. [EN]"
+      "1": "Daha yeni başlıyorum. Ona zaman ver.",
+      "2": "Umut verici işaretler var ama daha fazla dakikaya ihtiyaç var.",
+      "3": "Sezon başında bu kadar erken bir değerlendirme yapmak zor.",
+      "4": "Fitness ve ritim oluşturmak.",
+      "5": "Hala takımda kendine yer buluyor."
     },
     "drought": {
       "goals": {
-        "1": "Goal drought is worrying. Needs one off the shin. [EN]",
-        "2": "Confidence looks shot in front of goal. [EN]",
-        "3": "Desperate for a goal to break the duck. [EN]"
+        "1": "Gol kuraklığı endişe verici. Bir tanesine ihtiyacı var.",
+        "2": "Güven kalenin önünde vurulmuş gibi görünüyor.",
+        "3": "Ördeği kıracak bir gol için çaresiz."
       },
       "assists": {
-        "1": "Creativity has dried up lately. [EN]",
-        "2": "Struggling to find that final ball. [EN]"
+        "1": "Yaratıcılık son zamanlarda kurudu.",
+        "2": "Son topu bulmakta zorlanıyoruz."
       }
     }
   }

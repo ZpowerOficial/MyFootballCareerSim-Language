@@ -1,731 +1,731 @@
 {
   "wcQualification": {
-    "description": "Your national team is competing for the World Tournament [EN]",
-    "title": "World Tournament Qualifiers [EN]",
+    "description": "Milli takımınız Dünya Turnuvası için yarışıyor",
+    "title": "Dünya Turnuvası Elemeleri",
     "failed": "Eleme başarısız"
   },
   "goals": {
     "achieved": "🎯 Hedef Tamamlandı: {narrative}",
     "newGoal": "🎯 Yeni Hedef Açıldı: {goal}",
-    "completed": "Completed [EN]",
-    "100goals": "Score 100 career goals [EN]",
-    "ballonDor": "Win the Golden Trophy [EN]",
-    "becomeCaptain": "Become captain of {team} [EN]",
-    "becomeClubLegend": "Become a Club Legend [EN]",
-    "becomeStarter": "Become regular starter [EN]",
-    "breakGoalRecord": "Break goal record [EN]",
-    "firstCleanSheet": "Keep first clean sheet [EN]",
-    "firstGoal": "Score first professional goal [EN]",
-    "firstTrophy": "Win first major trophy [EN]",
-    "nationalTeamCallUp": "Get called up to national team [EN]",
-    "proDebut": "Make professional debut [EN]",
-    "reach100Caps": "Reach 100 International Caps [EN]",
-    "reachCareerAssists": "Reach career assists milestone [EN]",
-    "reachCareerGoals": "Reach career goals milestone [EN]",
-    "reachOverallRating": "Reach OVR target [EN]",
-    "winWorldCup": "Win the World Tournament [EN]"
+    "completed": "Tamamlanmış",
+    "100goals": "100 kariyer golü at",
+    "ballonDor": "Altın Kupayı Kazanın",
+    "becomeCaptain": "{team}'in kaptanı olun",
+    "becomeClubLegend": "Kulüp Efsanesi Olun",
+    "becomeStarter": "Düzenli başlangıç ​​ol",
+    "breakGoalRecord": "Gol rekorunu kır",
+    "firstCleanSheet": "İlk temiz sayfayı saklayın",
+    "firstGoal": "İlk profesyonel golü atın",
+    "firstTrophy": "İlk büyük kupayı kazanın",
+    "nationalTeamCallUp": "Milli takıma çağrıldı",
+    "proDebut": "Profesyonel olarak ilk kez sahneye çıkın",
+    "reach100Caps": "100 Uluslararası Kupaya Ulaşın",
+    "reachCareerAssists": "Kariyer asistlerine ulaşma kilometre taşı",
+    "reachCareerGoals": "Kariyer hedeflerine ulaşma dönüm noktasına ulaşın",
+    "reachOverallRating": "OVR hedefine ulaşın",
+    "winWorldCup": "Dünya Turnuvasını Kazanın"
   },
   "agent": {
-    "contractExpired": "Your contract with agent expired. You signed with {name} ({reputation}). [EN]",
-    "contractExtended": "Excellent relationship with your agent {name}! Contract extended with reduced commission. [EN]",
-    "promoted": "Your agent {name} has been promoted to {reputation} status! [EN]",
+    "contractExpired": "Temsilciyle olan sözleşmeniz sona erdi. {name} ({reputation}) ile imzaladınız.",
+    "contractExtended": "Temsilciniz {name} ile mükemmel ilişki! Sözleşme indirimli komisyonla uzatıldı.",
+    "promoted": "Temsilciniz {name}, {reputation} statüsüne yükseltildi!",
     "reasons": {
-      "controversy": "Scandal involving {name} forced a change. [EN]",
-      "eliteCall": "An elite agency led by {name} made an irresistible offer. [EN]",
-      "fallout": "Irreconcilable falling out with {name}. [EN]",
-      "improved": "Seeking new heights under the representation of {name}. [EN]",
-      "merger": "The agency of {name} underwent a corporate merger. [EN]",
-      "none": "No interesting agent proposals at the moment. [EN]",
-      "special": "An unexpected event in the agent market forced a change. [EN]",
-      "starAttraction": "Your status at {team} attracted world-class agencies. [EN]",
-      "stay": "Decided to stay loyal to current agency. [EN]"
+      "controversy": "{name}'in dahil olduğu skandal, bir değişikliği zorunlu kıldı.",
+      "eliteCall": "{name} liderliğindeki elit bir ajans, karşı konulamaz bir teklifte bulundu.",
+      "fallout": "{name} ile uzlaşmaz bir ayrılık.",
+      "improved": "{name}'in temsili altında yeni zirveler arıyoruz.",
+      "merger": "{name} ajansı kurumsal bir birleşme sürecinden geçti.",
+      "none": "Şu anda ilginç bir temsilci teklifi yok.",
+      "special": "Acente pazarında beklenmedik bir olay, değişikliği zorunlu kıldı.",
+      "starAttraction": "{team}'teki durumunuz birinci sınıf acentelerin ilgisini çekti.",
+      "stay": "Mevcut ajansa sadık kalmaya karar verdim."
     },
     "reputation": {
-      "Average": "Average [EN]",
-      "Good": "Good [EN]",
-      "Rookie": "Rookie [EN]",
-      "Super Agent": "Super Agent [EN]"
+      "Average": "Ortalama",
+      "Good": "İyi",
+      "Rookie": "Çaylak",
+      "Super Agent": "Süper Temsilci"
     },
     "specialty": {
-      "BrandBuilder": "Brand Builder [EN]",
-      "Negotiator": "Negotiator [EN]",
-      "Scout": "Scout [EN]",
-      "balanced": "Balanced [EN]",
-      "contract": "Contracts [EN]",
-      "sponsorship": "Sponsorships [EN]",
-      "transfer": "Transfers [EN]"
+      "BrandBuilder": "Marka Oluşturucu",
+      "Negotiator": "müzakereci",
+      "Scout": "izci",
+      "balanced": "Dengeli",
+      "contract": "Sözleşmeler",
+      "sponsorship": "Sponsorluklar",
+      "transfer": "Transferler"
     },
     "style": {
-      "Adaptable": "Adaptable [EN]",
-      "Aggressive": "Aggressive [EN]",
-      "Ambitious": "Ambitious [EN]",
-      "Analytical": "Analytical [EN]",
-      "Calm": "Calm [EN]",
-      "Charismatic": "Charismatic [EN]",
-      "Dedicated": "Dedicated [EN]",
-      "Energetic": "Energetic [EN]",
-      "Experienced": "Experienced [EN]",
-      "Focused": "Focused [EN]",
-      "Friendly": "Friendly [EN]",
-      "Honest": "Honest [EN]",
-      "Innovative": "Innovative [EN]",
-      "Methodical": "Methodical [EN]",
-      "Motivated": "Motivated [EN]",
-      "Networked": "Networked [EN]",
-      "Passionate": "Passionate [EN]",
-      "Patient": "Patient [EN]",
-      "Persistent": "Persistent [EN]",
-      "Precise": "Precise [EN]",
-      "Professional": "Professional [EN]",
-      "Reliable": "Reliable [EN]",
-      "Strategic": "Strategic [EN]",
-      "Traditional": "Traditional [EN]",
-      "Visionary": "Visionary [EN]"
+      "Adaptable": "Uyarlanabilir",
+      "Aggressive": "Agresif",
+      "Ambitious": "Hırslı",
+      "Analytical": "Analitik",
+      "Calm": "Sakinlik",
+      "Charismatic": "Karizmatik",
+      "Dedicated": "Özel",
+      "Energetic": "Enerjik",
+      "Experienced": "Deneyimli",
+      "Focused": "Odaklanmış",
+      "Friendly": "Arkadaşça",
+      "Honest": "Dürüst",
+      "Innovative": "Yenilikçi",
+      "Methodical": "metodik",
+      "Motivated": "Motivasyonlu",
+      "Networked": "Ağ bağlantılı",
+      "Passionate": "Tutkulu",
+      "Patient": "Hasta",
+      "Persistent": "Israrcı",
+      "Precise": "Kesin",
+      "Professional": "Profesyonel",
+      "Reliable": "Güvenilir",
+      "Strategic": "Stratejik",
+      "Traditional": "Geleneksel",
+      "Visionary": "Vizyoner"
     }
   },
   "eventNotifications": {
-    "transferRequest": "Transfer Request Submitted [EN]",
-    "trainingIntense": "Training Intensity Increased [EN]",
-    "trainingLight": "Training Intensity Reduced [EN]"
+    "transferRequest": "Transfer Talebi Gönderildi",
+    "trainingIntense": "Eğitim Yoğunluğu Artırıldı",
+    "trainingLight": "Eğitim Yoğunluğu Azaltıldı"
   },
   "status": {
-    "managerConflict": "Manager Conflict [EN]",
-    "teammateConflict": "Teammate Conflict [EN]"
+    "managerConflict": "Yönetici Anlaşmazlığı",
+    "teammateConflict": "Takım Arkadaşı Çatışması"
   },
   "events": {
     "agentMeeting": {
-      "choice_contract": "Discuss contract improvements [EN]",
-      "choice_explore": "Explore other options [EN]",
-      "choice_focus": "Focus on current club [EN]",
-      "description": "Your agent wants to discuss your future. There might be interest from other clubs. [EN]",
-      "title": "Agent Meeting [EN]"
+      "choice_contract": "Sözleşme iyileştirmelerini tartışın",
+      "choice_explore": "Diğer seçenekleri keşfedin",
+      "choice_focus": "Mevcut kulübe odaklanın",
+      "description": "Temsilciniz geleceğinizi tartışmak istiyor. Başka kulüplerden de ilgi gelebilir.",
+      "title": "Temsilci Toplantısı"
     },
     "awardCelebration": {
-      "title": "Award Celebration [EN]",
-      "description": "You've won a prestigious award! Your agent is fielding calls about celebration plans. How do you mark the occasion? [EN]",
-      "choice_team_party": "Host a party for the squad [EN]",
-      "choice_charity": "Donate to charity in celebration [EN]",
-      "choice_low_key": "Quiet dinner with family [EN]"
+      "title": "Ödül Kutlaması",
+      "description": "Prestijli bir ödül kazandınız! Temsilciniz kutlama planlarıyla ilgili aramalar yapıyor. Bu olayı nasıl işaretlersiniz?",
+      "choice_team_party": "Ekip için bir parti düzenleyin",
+      "choice_charity": "Kutlamalarda hayır kurumuna bağış yapın",
+      "choice_low_key": "Ailenizle sessiz akşam yemeği"
     },
     "awardPressConference": {
-      "title": "Award Press Conference [EN]",
-      "description": "You just won a major individual award! The world's media is waiting for your reaction at the press conference. Cameras are rolling — what's your tone? [EN]",
-      "choice_humble": "Thank teammates and coaches [EN]",
-      "choice_confident": "Declare yourself the best [EN]",
-      "choice_controversial": "Call out the doubters [EN]"
+      "title": "Ödül Basın Toplantısı",
+      "description": "Az önce büyük bir bireysel ödül kazandınız! Dünya medyası basın toplantısında tepkinizi bekliyor. Kameralar çalışıyor; ses tonunuz nedir?",
+      "choice_humble": "Takım arkadaşlarına ve antrenörlere teşekkür ediyorum",
+      "choice_confident": "Kendinizi en iyi ilan edin",
+      "choice_controversial": "Şüphelileri çağırın"
     },
     "awardSnubReaction": {
-      "title": "Award Ceremony Snub [EN]",
-      "description": "You were nominated but didn't win. The cameras are on you as the winner is announced. Social media is already buzzing about your reaction. [EN]",
-      "choice_gracious": "Congratulate the winner publicly [EN]",
-      "choice_frustrated": "Express frustration to the media [EN]",
-      "choice_dismissive": "Skip the ceremony afterparty [EN]"
+      "title": "Ödül Töreni Küçümseme",
+      "description": "Aday gösterildiniz ama kazanamadınız. Kazanan açıklanırken kameralar sizin üzerinizde. Sosyal medyada tepkiniz zaten çalkalanıyor.",
+      "choice_gracious": "Kazananı herkesin önünde tebrik edin",
+      "choice_frustrated": "Hayal kırıklığını medyaya ifade edin",
+      "choice_dismissive": "Tören sonrası partiyi atlayın"
     },
     "award": {
-      "ballonDor": "Golden Trophy [EN]",
-      "ballonDorNomination": "Nominated - Golden Trophy [EN]",
-      "ballonDorRunnerUp": "Top 3 - Golden Trophy [EN]",
-      "comeback": "Comeback of the Year [EN]",
-      "comebackPlayerOfYear": "Comeback Player of the Year [EN]",
-      "continentalCompTopScorer": "Continental Golden Boot [EN]",
-      "continentalCompetitionTopScorer": "Continental Top Scorer [EN]",
-      "continentalCupPOTY": "MVP - Continental Cup [EN]",
-      "continentalPOTY": "Continental Player of the Year [EN]",
-      "continentalPlayer": "Continental Player [EN]",
-      "continentalTOTT": "Team of the Tournament - Continental [EN]",
-      "cupGoldenBootShared": "Shared Cup Golden Boot with {goals} goals! [EN]",
-      "cupTopScorer": "Cup Golden Boot [EN]",
-      "europeanGoldenShoe": "European Golden Shoe [EN]",
-      "fifaBest": "World's Best [EN]",
-      "goalOfTheYear": "Goal of the Year [EN]",
-      "goldenBoot": "League Golden Boot [EN]",
-      "goldenBootShared": "Shared League Golden Boot with {goals} goals! [EN]",
-      "goldenBoy": "Young Player of the Year [EN]",
-      "goldenGlove": "Best Goalkeeper [EN]",
-      "goldenShoe": "Golden Shoe [EN]",
-      "leagueDefenderOfYear": "Defender of the Year [EN]",
-      "leagueForwardOfYear": "Forward of the Year [EN]",
-      "leagueMidfielderOfYear": "Midfielder of the Year [EN]",
-      "leaguePOTY": "League Player of the Year [EN]",
-      "leaguePlayerOfYear": "League Player of the Year [EN]",
-      "leaguePlaymaker": "Assist Leader [EN]",
-      "leagueRookieOfYear": "Rookie of the Year [EN]",
-      "leagueTopAssister": "Top Assister [EN]",
-      "playmaker": "League Playmaker [EN]",
-      "puskas": "Goal of the Year Award [EN]",
-      "rookie": "Rookie of the Year [EN]",
-      "teamOfTheYear": "Team of the Year [EN]",
-      "title": "Award [EN]",
-      "worldCupBestGoalkeeper": "Golden Glove - World Tournament [EN]",
-      "worldCupGoldenBall": "Golden Trophy - World Tournament [EN]",
-      "worldCupGoldenBoot": "Golden Boot - World Tournament [EN]",
-      "worldCupTOTT": "Team of the Tournament - World Tournament [EN]",
-      "worldPlayer": "World's Best [EN]"
+      "ballonDor": "Altın Kupa",
+      "ballonDorNomination": "Aday Gösterildi - Altın Kupa",
+      "ballonDorRunnerUp": "İlk 3 - Altın Kupa",
+      "comeback": "Yılın Geri Dönüşü",
+      "comebackPlayerOfYear": "Yılın Geri Dönüş Oyuncusu",
+      "continentalCompTopScorer": "Kıta Altın Çizme",
+      "continentalCompetitionTopScorer": "Kıta Gol Kralı",
+      "continentalCupPOTY": "MVP - Kıta Kupası",
+      "continentalPOTY": "Kıtada Yılın Oyuncusu",
+      "continentalPlayer": "Kıta Oyuncusu",
+      "continentalTOTT": "Turnuvanın Takımı - Continental",
+      "cupGoldenBootShared": "{goals} golleriyle Paylaşılan Kupa Altın Ayakkabı!",
+      "cupTopScorer": "Kupa Altın Ayakkabı",
+      "europeanGoldenShoe": "Avrupa Altın Ayakkabı",
+      "fifaBest": "Dünyanın En İyisi",
+      "goalOfTheYear": "Yılın Golü",
+      "goldenBoot": "Lig Altın Ayakkabı",
+      "goldenBootShared": "{goals} golleriyle Paylaşılan Lig Altın Ayakkabı!",
+      "goldenBoy": "Yılın Genç Oyuncusu",
+      "goldenGlove": "En İyi Kaleci",
+      "goldenShoe": "Altın Ayakkabı",
+      "leagueDefenderOfYear": "Yılın Savunucusu",
+      "leagueForwardOfYear": "Yılın Forveti",
+      "leagueMidfielderOfYear": "Yılın Orta Saha Oyuncusu",
+      "leaguePOTY": "Yılın Lig Oyuncusu",
+      "leaguePlayerOfYear": "Yılın Lig Oyuncusu",
+      "leaguePlaymaker": "Yardımcı Lider",
+      "leagueRookieOfYear": "Yılın Çaylağı",
+      "leagueTopAssister": "En İyi Yardımcı",
+      "playmaker": "Lig Oyun Kurucusu",
+      "puskas": "Yılın Golü Ödülü",
+      "rookie": "Yılın Çaylağı",
+      "teamOfTheYear": "Yılın Takımı",
+      "title": "Ödül",
+      "worldCupBestGoalkeeper": "Altın Eldiven - Dünya Turnuvası",
+      "worldCupGoldenBall": "Altın Kupa - Dünya Turnuvası",
+      "worldCupGoldenBoot": "Altın Ayakkabı - Dünya Turnuvası",
+      "worldCupTOTT": "Turnuvanın Takımı - Dünya Turnuvası",
+      "worldPlayer": "Dünyanın En İyisi"
     },
     "business": {
-      "choice_decline": "Focus on football [EN]",
-      "choice_invest": "Heavy investment [EN]",
-      "choice_partner": "Minority partner [EN]",
-      "description": "An entrepreneur wants you to invest in a new venture. Could be lucrative, but risky. [EN]",
-      "title": "Business Opportunity [EN]"
+      "choice_decline": "Futbola odaklan",
+      "choice_invest": "Ağır yatırım",
+      "choice_partner": "Azınlık ortağı",
+      "description": "Bir girişimci sizden yeni bir girişime yatırım yapmanızı istiyor. Kazançlı olabilir ama riskli.",
+      "title": "İş Fırsatı"
     },
     "charity": {
-      "choice_decline": "Politely decline [EN]",
-      "choice_large": "Make large donation [EN]",
-      "choice_small": "Make modest donation [EN]",
-      "description": "A children's hospital asked you to be their ambassador. This could improve your image. [EN]",
-      "title": "Charity Opportunity [EN]"
+      "choice_decline": "Kibarca reddet",
+      "choice_large": "Büyük bağış yapın",
+      "choice_small": "Mütevazı bağış yapın",
+      "description": "Bir çocuk hastanesi senden elçi olmanı istedi. Bu imajınızı geliştirebilir.",
+      "title": "Yardım Fırsatı"
     },
     "chemistry": {
-      "belovedFigure": "Became a beloved figure in the dressing room! [EN]",
-      "clubLegend": "As a club legend, his presence is invaluable for team unity. [EN]",
-      "deterioratedSignificantly": "Team chemistry deteriorated significantly ({from} → {to}). [EN]",
-      "excellentForm": "Excellent form improved standing within the squad. [EN]",
-      "improvedDramatically": "Team chemistry improved dramatically ({from} → {to})! [EN]",
-      "injuryAbsence": "Long injury absence weakened connections with teammates. [EN]",
-      "lackPlayingTime": "Lack of playing time damaged relationships with teammates. [EN]",
-      "multipleTrophies": "Multiple trophies this season created an incredible team spirit! [EN]",
-      "promotion": "Promotion energized the entire squad! [EN]",
-      "relegation": "Relegation destroyed team morale and unity. [EN]",
-      "seriousIncident": "A serious incident isolated him from the squad. [EN]",
-      "trainingIncident": "Training ground incidents damaged squad relationships. [EN]",
-      "transferSaga": "Transfer saga created tension in the dressing room. [EN]",
-      "trophyWin": "Winning trophies brought the team closer together. [EN]"
+      "belovedFigure": "Soyunma odasında sevilen bir figür oldu!",
+      "clubLegend": "Bir kulüp efsanesi olarak onun varlığı takım birliği açısından çok değerli.",
+      "deterioratedSignificantly": "Takımın kimyası önemli ölçüde kötüleşti ({from} → {to}).",
+      "excellentForm": "Mükemmel form, takım içindeki duruşu geliştirdi.",
+      "improvedDramatically": "Takım kimyası önemli ölçüde gelişti ({from} → {to})!",
+      "injuryAbsence": "Uzun süreli sakatlık yokluğu takım arkadaşlarıyla olan bağları zayıflattı.",
+      "lackPlayingTime": "Oyun süresinin olmaması takım arkadaşlarıyla ilişkilere zarar verdi.",
+      "multipleTrophies": "Bu sezon çok sayıda kupa inanılmaz bir takım ruhu yarattı!",
+      "promotion": "Terfi tüm takıma enerji verdi!",
+      "relegation": "Düşme, takımın moralini ve birliğini bozdu.",
+      "seriousIncident": "Ciddi bir olay onu takımdan ayırdı.",
+      "trainingIncident": "Antrenman sahasında yaşanan olaylar takım ilişkilerine zarar verdi.",
+      "transferSaga": "Transfer efsanesi soyunma odasında gerginlik yarattı.",
+      "trophyWin": "Kazanılan kupalar takımı birbirine daha da yakınlaştırdı."
     },
     "consequences": {
-      "ambition": "Ambition [EN]",
-      "discipline": "Discipline [EN]",
-      "exposure": "Exposure [EN]",
-      "fans": "Relationship with Fans [EN]",
-      "followers": "Followers [EN]",
-      "form": "Form [EN]",
-      "generosity": "Generosity [EN]",
-      "loyalty": "Loyalty [EN]",
-      "morale": "Morale [EN]",
-      "press": "Relationship with Press [EN]",
-      "reputation": "Reputation [EN]",
-      "teamChemistry": "Team Chemistry [EN]"
+      "ambition": "Tutku",
+      "discipline": "Disiplin",
+      "exposure": "Maruziyet",
+      "fans": "Hayranlarla İlişki",
+      "followers": "Takipçiler",
+      "form": "Biçim",
+      "generosity": "Cömertlik",
+      "loyalty": "Bağlılık",
+      "morale": "Moral",
+      "press": "Basınla İlişki",
+      "reputation": "İtibar",
+      "teamChemistry": "Takım Kimyası"
     },
     "continental": {
-      "played": "🌍 Played {count} matches in {competition} ({goals} goals, {assists} assists) [EN]"
+      "played": "🌍 {competition}'te {count} maçları oynandı ({goals} gol, {assists} asist)"
     },
-    "continentalQualification": "Continental Qualification Secured [EN]",
+    "continentalQualification": "Kıta Yeterliliği Güvence Altına Alındı",
     "contract": {
-      "extension": "Extended contract for {years} more years. [EN]",
-      "newProfessional": "Signed new professional contract for {years} years. [EN]",
-      "noOffer": "{team} did not offer a new contract. [EN]",
-      "parentExtended": "{team} extended your contract (Parent Club). [EN]",
-      "title": "Contract [EN]",
-      "terminated": "Contract terminated with {team}. [EN]"
+      "extension": "{years} için sözleşme bir yıl daha uzatıldı.",
+      "newProfessional": "{years} yılı için yeni profesyonel sözleşme imzalandı.",
+      "noOffer": "{team} yeni bir sözleşme teklif etmedi.",
+      "parentExtended": "{team} sözleşmenizi uzattı (Ebeveyn Kulübü).",
+      "title": "Sözleşme",
+      "terminated": "{team} ile sözleşme feshedildi."
     },
-    "decisionMade": "Decision Made [EN]",
+    "decisionMade": "Alınan Karar",
     "discipline": {
-      "concernYellow": "⚠️ Disciplinary concerns: {count} yellow cards this season. [EN]",
-      "criticalRed": "🟥 CRITICAL disciplinary problems: {count} red cards - must improve! [EN]",
-      "majorYellow": "⚠️ Serious disciplinary problems: {count} yellow cards this season. [EN]",
-      "seriousRed": "🟥 Serious disciplinary problems: {count} red cards! [EN]"
+      "concernYellow": "⚠️ Disiplin kaygıları: {count} bu sezon sarı kart gördü.",
+      "criticalRed": "🟥 KRİTİK disiplin sorunları: {count} kırmızı kartlar - geliştirilmeli!",
+      "majorYellow": "⚠️ Ciddi disiplin sorunları: {count} bu sezon sarı kart gördü.",
+      "seriousRed": "🟥 Ciddi disiplin sorunları: {count} kırmızı kartlar!"
     },
     "endorsement": {
-      "signed": "Signed endorsement deal of {duration} years with {brand} worth £{value}M per year! [EN]"
+      "signed": "{brand} ile yıllık {value}M £ değerinde {duration} yıllık ciro anlaşması imzalandı!"
     },
     "fan": {
-      "choice_engage": "Attend to everyone [EN]",
-      "choice_ignore": "Ignore and move on [EN]",
-      "description": "A mob of fans surrounded you asking for autographs and photos. How do you handle it? [EN]",
-      "title": "Fan Interaction [EN]"
+      "choice_engage": "Herkese katılmak",
+      "choice_ignore": "Yoksay ve devam et",
+      "description": "İmza ve fotoğraf isteyen bir grup hayran etrafınızı sardı. Bunu nasıl hallediyorsun?",
+      "title": "Hayran Etkileşimi"
     },
     "fanEncounter": {
-      "choice_engage": "Spend time with them [EN]",
-      "choice_ignore": "Ignore and leave [EN]",
-      "choice_polite": "Quick photo and leave [EN]",
-      "description": "A group of fans recognized you in public and are asking for photos and autographs. [EN]",
-      "title": "Fan Encounter [EN]"
+      "choice_engage": "Onlarla vakit geçirin",
+      "choice_ignore": "Yoksay ve ayrıl",
+      "choice_polite": "Hızlı fotoğraf ve ayrıl",
+      "description": "Bir grup hayran sizi herkesin önünde tanıdı ve fotoğraf ve imza istiyor.",
+      "title": "Hayran Buluşması"
     },
     "finance": {
-      "bankruptcyWarning": "⚠️ FINANCIAL CRISIS! Unable to cover expenses. Lifestyle must be adjusted. [EN]",
-      "charitableDonation": "🤝 Made a charitable donation of €{amount} [EN]",
-      "excellentHealth": "💰 Excellent financial health - wealth well managed! [EN]",
-      "forcedSale": "💔 Financial difficulties forced sale of {count} asset(s) [EN]",
-      "investmentMade": "📈 Made a {type} investment of €{amount} [EN]",
-      "monthsOfRunway": "Financial runway: {months} months of security [EN]",
-      "netWorthMilestone": "💎 Net worth reached €{amount}! [EN]",
-      "propertyPurchased": "🏠 Purchased a new property: {property} [EN]",
-      "taxesPaid": "Paid €{amount} in taxes this season. [EN]",
-      "vehiclePurchased": "🚗 Added a new vehicle to collection: {vehicle} [EN]"
+      "bankruptcyWarning": "⚠️MALİ KRİZ! Masrafları karşılayamıyoruz. Yaşam tarzının ayarlanması gerekiyor.",
+      "charitableDonation": "🤝 €{amount} tutarında hayır amaçlı bağışta bulundum",
+      "excellentHealth": "💰 Mükemmel finansal sağlık - iyi yönetilen servet!",
+      "forcedSale": "💔 Mali zorluklar {count} varlık(lar)ının satışına neden oldu",
+      "investmentMade": "📈 €{amount} değerinde {type} yatırımı yapıldı",
+      "monthsOfRunway": "Finansal pist: {months} ay güvenlik",
+      "netWorthMilestone": "💎 Net değer €{amount}'e ulaştı!",
+      "propertyPurchased": "🏠 Yeni bir mülk satın aldı: {property}",
+      "taxesPaid": "Bu sezon {amount} € vergi ödedi.",
+      "vehiclePurchased": "🚗 Koleksiyona yeni bir araç eklendi: {vehicle}"
     },
-    "firstTitle": "First Career Title [EN]",
+    "firstTitle": "İlk Kariyer Unvanı",
     "form": {
-      "poorStreak": "📉 {count} consecutive poor performances - worrying trend. [EN]",
-      "strongStreak": "🌟 {count} consecutive strong performances! [EN]"
+      "poorStreak": "📉 {count}'in art arda kötü performans göstermesi endişe verici bir trend.",
+      "strongStreak": "🌟 {count} ardı ardına güçlü performanslar!"
     },
     "generated": {
-      "business_opportunity": "💼 Business opportunity presented by investors. [EN]",
-      "charity_opportunity": "🤝 Opportunity to support charitable cause. [EN]",
-      "fan_interaction": "👥 Fans requesting interaction at public event. [EN]",
-      "interview_controversial": "🎤 Controversial question during interview. [EN]",
-      "manager_fallout": "😤 Fallout with manager. [EN]",
-      "mentor_opportunity": "🎓 Invited to mentor youth academy players. [EN]",
-      "nightclub_incident": "🌃 Nightclub incident reported in media. [EN]",
-      "party_scandal": "📸 Scandal! Party photos leaked to press. [EN]",
-      "relationship_drama": "💔 Relationship drama in headlines. [EN]",
-      "social_media_outburst": "📱 Social media controversy following emotional post. [EN]",
-      "tax_investigation": "📋 Tax authorities opened an investigation. [EN]",
-      "teammate_conflict": "⚔️ Tension with teammate in dressing room. [EN]",
-      "award_celebration": "🎉 Time to celebrate your award win! [EN]",
-      "award_press_conference": "🏆 Post-award press conference awaits. [EN]",
-      "award_snub_reaction": "😤 Reaction needed after award snub. [EN]",
-      "sponsorship_deal": "💰 A major brand wants to sponsor you. [EN]",
-      "documentary_offer": "🎬 A streaming platform wants to make a documentary about you. [EN]",
-      "injury_comeback": "🏥 Time to decide how to handle your return from injury. [EN]",
-      "international_callup": "🏳️ You've been called up to the national team! [EN]",
-      "dressing_room_speech": "🗣️ Time for a speech in the dressing room. [EN]",
-      "rival_provocation": "😤 A rival player called you out in the media. [EN]",
-      "academy_visit": "🏟️ Your club's youth academy invited you for a visit. [EN]",
-      "fashion_collab": "👔 A fashion brand wants to collaborate with you. [EN]",
-      "gaming_endorsement": "🎮 A gaming company wants you as their brand ambassador. [EN]",
-      "community_crisis": "🆘 A crisis has struck the community where you live. [EN]",
-      "agent_meeting": "🤝 Your agent wants to discuss your future. [EN]"
+      "business_opportunity": "💼 Yatırımcıların sunduğu iş fırsatı.",
+      "charity_opportunity": "🤝 Hayırseverlik amacına destek olma fırsatı.",
+      "fan_interaction": "👥 Hayranlar halka açık etkinlikte etkileşim talep ediyor.",
+      "interview_controversial": "🎤 Röportaj sırasında tartışmalı soru.",
+      "manager_fallout": "😤 Yöneticiyle aramız bozuldu.",
+      "mentor_opportunity": "🎓Gençlik akademisi oyuncularına mentorluk yapmaya davet edildi.",
+      "nightclub_incident": "🌃 Gece kulübü olayı medyada yer aldı.",
+      "party_scandal": "📸 Skandal! Parti fotoğrafları basına sızdırıldı.",
+      "relationship_drama": "💔 Manşetlerde ilişki draması.",
+      "social_media_outburst": "📱Duygusal paylaşımın ardından sosyal medyada tartışma çıktı.",
+      "tax_investigation": "📋Vergi yetkilileri soruşturma başlattı.",
+      "teammate_conflict": "⚔️Soyunma odasında takım arkadaşıyla gerginlik.",
+      "award_celebration": "🎉 Ödül kazanmanızı kutlama zamanı!",
+      "award_press_conference": "🏆 Ödül sonrası basın toplantısı sizi bekliyor.",
+      "award_snub_reaction": "😤 Ödülün reddedilmesinin ardından tepki gerekiyordu.",
+      "sponsorship_deal": "💰 Büyük bir marka size sponsor olmak istiyor.",
+      "documentary_offer": "🎬 Bir yayın platformu sizin hakkınızda bir belgesel yapmak istiyor.",
+      "injury_comeback": "🏥Sakatlıktan dönüşünüzü nasıl halledeceğinize karar verme zamanı.",
+      "international_callup": "🏳️Milli takıma çağrıldınız!",
+      "dressing_room_speech": "🗣️ Soyunma odasında konuşma zamanı.",
+      "rival_provocation": "😤 Rakip bir oyuncu medyada size seslendi.",
+      "academy_visit": "🏟️Kulübünüzün altyapı akademisi sizi ziyarete davet etti.",
+      "fashion_collab": "👔 Bir moda markası sizinle işbirliği yapmak istiyor.",
+      "gaming_endorsement": "🎮 Bir oyun şirketi sizi marka elçisi olarak istiyor.",
+      "community_crisis": "🆘 Yaşadığınız toplumda bir kriz yaşandı.",
+      "agent_meeting": "🤝 Temsilciniz geleceğinizi tartışmak istiyor."
     },
-    "importantDecision": "This is an important decision [EN]",
+    "importantDecision": "Bu önemli bir karar",
     "injury": {
-      "careerEnding": "Suffered a tragic career-ending injury. [EN]",
-      "description": "You suffered an injury [EN]",
-      "minor": "Minor {type} [EN]",
-      "missedSeason": "Missed significant part of the season due to injury. [EN]",
-      "moderate": "Moderate {type} [EN]",
-      "recovery": "Recovery [EN]",
-      "setback": "Suffered a setback in recovery - prolonged absence. [EN]",
-      "severe": "Suffered a severe {type} - out for {duration} months. [EN]",
-      "title": "Injury [EN]",
+      "careerEnding": "Kariyerini sonlandıran trajik bir sakatlık geçirdi.",
+      "description": "Yaralandın",
+      "minor": "Küçük {type}",
+      "missedSeason": "Sakatlık nedeniyle sezonun önemli bir bölümünü kaçırdık.",
+      "moderate": "Orta {type}",
+      "recovery": "İyileşmek",
+      "setback": "İyileşmede bir aksaklık yaşandı - uzun süreli devamsızlık.",
+      "severe": "{duration} ay boyunca ciddi bir {type} sorunu yaşadı.",
+      "title": "Yaralanma",
       "types": {
-        "hamstring": "hamstring injury [EN]",
-        "groin": "groin strain [EN]",
-        "ankle_sprain": "ankle sprain [EN]",
-        "knee_problem": "knee problem [EN]",
-        "back": "back injury [EN]",
-        "knee": "knee injury [EN]",
-        "muscle_tear": "muscle tear [EN]",
-        "concussion": "concussion [EN]",
-        "ankle": "ankle injury [EN]",
-        "hamstring_tear": "hamstring tear [EN]",
-        "calf": "calf strain [EN]",
-        "finger": "finger injury [EN]",
-        "shoulder": "shoulder problem [EN]",
-        "hamstring_strain": "hamstring strain [EN]",
-        "groin_injury": "groin injury [EN]",
-        "ankle_problem": "ankle problem [EN]",
-        "calf_strain": "calf strain [EN]",
-        "thigh": "thigh injury [EN]",
-        "muscle_strain": "muscle strain [EN]",
-        "muscle": "muscle injury [EN]"
+        "hamstring": "hamstring yaralanması",
+        "groin": "kasık gerginliği",
+        "ankle_sprain": "ayak bileği burkulması",
+        "knee_problem": "diz sorunu",
+        "back": "sırt yaralanması",
+        "knee": "diz yaralanması",
+        "muscle_tear": "kas yırtılması",
+        "concussion": "beyin sarsıntısı",
+        "ankle": "ayak bileği yaralanması",
+        "hamstring_tear": "hamstring yırtığı",
+        "calf": "buzağı suşu",
+        "finger": "parmak yaralanması",
+        "shoulder": "omuz sorunu",
+        "hamstring_strain": "hamstring gerilimi",
+        "groin_injury": "kasık yaralanması",
+        "ankle_problem": "ayak bileği sorunu",
+        "calf_strain": "buzağı suşu",
+        "thigh": "uyluk yaralanması",
+        "muscle_strain": "kas gerginliği",
+        "muscle": "kas yaralanması"
       },
-      "recovery_serious": "Returned from serious injury - relieved to be back. [EN]",
-      "recovery_normal": "Recovered from injury and back to full fitness. [EN]"
+      "recovery_serious": "Ciddi yaralanmadan döndü, geri döndüğü için rahatladı.",
+      "recovery_normal": "Sakatlıktan kurtuldu ve tam formuna geri döndü."
     },
     "interview": {
-      "choice_diplomatic": "Be diplomatic [EN]",
-      "choice_honest": "Be brutally honest [EN]",
-      "choice_refuse": "Refuse to answer [EN]",
-      "description": "A journalist is asking tricky questions about teammates and manager. One wrong word could cause trouble. [EN]",
-      "title": "Controversial Interview [EN]"
+      "choice_diplomatic": "Diplomatik olun",
+      "choice_honest": "Acımasızca dürüst ol",
+      "choice_refuse": "Cevap vermeyi reddet",
+      "description": "Bir gazeteci takım arkadaşları ve menajer hakkında zor sorular soruyor. Yanlış bir kelime sorun yaratabilir.",
+      "title": "Tartışmalı Röportaj"
     },
     "league": {
-      "playoffPromotionLost": "{team} lost the promotion playoff. [EN]",
-      "playoffPromotionWon": "{team} won the promotion playoff and was promoted! [EN]",
-      "playoffRelegationLost": "{team} lost the relegation playoff and was relegated. [EN]",
-      "playoffRelegationSurvived": "{team} won the relegation playoff and stays in the league! [EN]",
-      "promoted": "{team} was promoted to a higher league! [EN]",
-      "relegated": "{team} was relegated to a lower league. [EN]"
+      "playoffPromotionLost": "{team} yükselme play-off'unu kaybetti.",
+      "playoffPromotionWon": "{team} terfi play-off'unu kazandı ve yükseldi!",
+      "playoffRelegationLost": "{team} küme düşme play-off'unu kaybetti ve küme düştü.",
+      "playoffRelegationSurvived": "{team} küme düşme play-off'unu kazandı ve ligde kaldı!",
+      "promoted": "{team} daha yüksek bir lige yükseldi!",
+      "relegated": "{team} bir alt lige düştü."
     },
     "loan": {
-      "becamePermanent": "Loan became permanent at {team} (parent club unavailable). [EN]",
-      "clubSeekingMove": "Club actively seeking a loan to ensure continued career development. [EN]",
-      "opportunitiesAvailable": "{count} loan opportunities available to ensure regular football. [EN]",
-      "returnedToClub": "Returned to {team} after loan spell. [EN]",
-      "returnedToSenior": "Returned to {team} senior squad after loan. [EN]",
-      "spellEnded": "Loan spell at {loanTeam} ended. Returning to {parentTeam}. [EN]"
+      "becamePermanent": "Kredi {team}'te kalıcı hale geldi (ebeveyn kulübü mevcut değil).",
+      "clubSeekingMove": "Kulüp, kariyer gelişiminin devamını sağlamak için aktif olarak kredi arayışında.",
+      "opportunitiesAvailable": "Düzenli futbol sağlamak için {count} kredi fırsatları mevcut.",
+      "returnedToClub": "Ödünç alma büyüsünün ardından {team}'e geri döndü.",
+      "returnedToSenior": "Kiralandıktan sonra {team} kıdemli kadrosuna geri döndü.",
+      "spellEnded": "{loanTeam}'teki ödünç verme büyüsü sona erdi. {parentTeam}'e geri dönüyoruz."
     },
     "manager": {
-      "choice_accept": "Accept criticism [EN]",
-      "choice_defend": "Defend yourself [EN]",
-      "choice_transfer": "Request transfer [EN]",
-      "description": "The manager publicly criticized your performance. Did not go down well with you. [EN]",
-      "title": "Manager Fallout [EN]"
+      "choice_accept": "Eleştiriyi kabul et",
+      "choice_defend": "Kendini savun",
+      "choice_transfer": "Aktarım iste",
+      "description": "Yönetici performansınızı herkesin önünde eleştirdi. Seninle pek iyi gitmedi.",
+      "title": "Yönetici Serpintisi"
     },
     "managerConversation": {
-      "choice_accept": "Accept current role [EN]",
-      "choice_chances": "Ask for more opportunities [EN]",
-      "choice_commitment": "Show commitment to team [EN]",
-      "description": "The manager wants to talk about your role in the team. Could affect your playing time. [EN]",
-      "title": "Manager Conversation [EN]"
+      "choice_accept": "Mevcut rolü kabul et",
+      "choice_chances": "Daha fazla fırsat isteyin",
+      "choice_commitment": "Takıma bağlılık gösterin",
+      "description": "Yönetici takımdaki rolünüz hakkında konuşmak istiyor. Oyun sürenizi etkileyebilir.",
+      "title": "Yönetici Konuşması"
     },
     "match": {
-      "title": "Match [EN]"
+      "title": "Kibrit"
     },
     "media": {
-      "narrativeChange": "The media narrative shifts to: '{narrative}' [EN]",
-      "objectiveFailed": "Press criticizes: objectives missed. [EN]",
-      "objectiveMet": "Press praises: objectives met. [EN]",
-      "title": "Media [EN]",
-      "youngTalent": "The media has acclaimed him as one of the most exciting young talents in football! [EN]"
+      "narrativeChange": "Medya anlatımı şu şekilde değişiyor: '{narrative}'",
+      "objectiveFailed": "Basın eleştiriyor: Hedefler kaçırılıyor.",
+      "objectiveMet": "Basın övüyor: hedeflere ulaşıldı.",
+      "title": "Medya",
+      "youngTalent": "Medya onu futbolun en heyecan verici genç yeteneklerinden biri olarak ilan etti!"
     },
     "mediaInterview": {
-      "choice_confident": "Show confidence [EN]",
-      "choice_deflect": "Deflect questions [EN]",
-      "choice_humble": "Be humble [EN]",
-      "description": "The media wants to get to know you better. This is your chance to make a good impression. [EN]",
-      "title": "First Interview [EN]"
+      "choice_confident": "Güven göster",
+      "choice_deflect": "Soruları saptır",
+      "choice_humble": "Mütevazı ol",
+      "description": "Medya sizi daha iyi tanımak istiyor. Bu, iyi bir izlenim bırakma şansınızdır.",
+      "title": "İlk Görüşme"
     },
     "mentor": {
-      "choice_accept": "Accept gladly [EN]",
-      "choice_decline": "Politely decline [EN]",
-      "description": "The club wants you to mentor a young academy talent. Takes time, but strengthens image. [EN]",
-      "title": "Youth Mentor [EN]"
+      "choice_accept": "Memnuniyetle kabul et",
+      "choice_decline": "Kibarca reddet",
+      "description": "Kulüp senden genç bir akademi yeteneğine mentorluk yapmanı istiyor. Zaman alır ama imajı güçlendirir.",
+      "title": "Gençlik Mentoru"
     },
     "national": {
-      "150caps": "150 caps for {country}! One of the greatest of all time! [EN]",
-      "brace": "BRACE for {country} vs {opponent} in {type}! [EN]",
-      "centurion": "CENTURION! 100 caps for {country}! A legendary milestone! [EN]",
+      "150caps": "{country} için 150 kapak! Tüm zamanların en iyilerinden biri!",
+      "brace": "{type}'te {country} ve {opponent} için BRACE!",
+      "centurion": "YÜZBAŞI! {country} için 100 kapak! Efsanevi bir dönüm noktası!",
       "continentalCupExit": {
-        "genericDefeat": "Continental Cup exit {round} vs {opponent}. Heartbreak as the team is eliminated. [EN]",
-        "heroicDefeat": "Continental Cup exit {round} vs {opponent}. Despite a great individual performance, the team fell short. [EN]",
-        "disappointingDefeat": "Continental Cup exit {round} vs {opponent}. A disappointing collective display ends the tournament run. [EN]"
+        "genericDefeat": "Kıta Kupası çıkışı {round} ve {opponent}. Takım elenirken kalp kırıklığı yaşanıyor.",
+        "heroicDefeat": "Kıta Kupası çıkışı {round} ve {opponent}. Bireysel performansı çok iyi olmasına rağmen takım yetersiz kaldı.",
+        "disappointingDefeat": "Kıta Kupası çıkışı {round} ve {opponent}. Hayal kırıklığı yaratan bir toplu gösteri, turnuva koşusunu sona erdirir."
       },
-      "continentalCupGroupExit": "Failed to qualify from Continental Cup group stage. [EN]",
-      "continentalCupSelected": "Selected for Continental Cup squad! [EN]",
-      "demoted": "Demoted to squad rotation for {country}. [EN]",
-      "dropped": "Dropped from {country} squad. [EN]",
-      "firstCallUp": "Received first call-up to {country} national team! [EN]",
-      "hatTrick": "HAT-TRICK for {country} vs {opponent}! Historic performance in crucial {type} match! [EN]",
-      "lostCaptaincy": "Lost the captaincy of {country}. [EN]",
-      "milestone100caps": "Reached 100 international caps for {country}! A legendary achievement. [EN]",
-      "milestone25intGoals": "Scored 25th international goal for {country}! [EN]",
-      "milestone50caps": "Reached 50 international caps for {country}! [EN]",
-      "milestone50intGoals": "Scored 50th international goal for {country}! A historic achievement. [EN]",
-      "namedCaptain": "Named captain of {country}! A tremendous honor. [EN]",
+      "continentalCupGroupExit": "Kıta Kupası grup aşamasından çıkılamadı.",
+      "continentalCupSelected": "Kıta Kupası kadrosuna seçildi!",
+      "demoted": "{country} için kadro rotasyonuna düşürüldü.",
+      "dropped": "{country} kadrosundan çıkarıldı.",
+      "firstCallUp": "{country} milli takımına ilk çağrı alındı!",
+      "hatTrick": "{country} ve {opponent} için HAT-TRICK! Kritik {type} maçında tarihi performans!",
+      "lostCaptaincy": "{country}'in kaptanlığını kaybettik.",
+      "milestone100caps": "{country} için 100 uluslararası sınıra ulaşıldı! Efsanevi bir başarı.",
+      "milestone25intGoals": "{country} ile 25. uluslararası golü attı!",
+      "milestone50caps": "{country} için 50 uluslararası sınıra ulaşıldı!",
+      "milestone50intGoals": "{country} ile 50. uluslararası golü attı! Tarihi bir başarı.",
+      "namedCaptain": "{country}'in kaptanı seçildi! Çok büyük bir onur.",
       "nationsLeagueDefeat": {
-        "genericDefeat": "Nations Tournament defeat {round} vs {opponent}. Heartbreak as the team is eliminated. [EN]",
-        "heroicDefeat": "Nations Tournament defeat {round} vs {opponent}. Despite a great individual performance, the team fell short. [EN]",
-        "disappointingDefeat": "Nations Tournament defeat {round} vs {opponent}. A disappointing collective display ends the tournament run. [EN]"
+        "genericDefeat": "Uluslar Turnuvası {round} ile {opponent}'i yendi. Takım elenirken kalp kırıklığı yaşanıyor.",
+        "heroicDefeat": "Uluslar Turnuvası {round} ile {opponent}'i yendi. Bireysel performansı çok iyi olmasına rağmen takım yetersiz kaldı.",
+        "disappointingDefeat": "Uluslar Turnuvası {round} ile {opponent}'i yendi. Hayal kırıklığı yaratan bir toplu gösteri, turnuva koşusunu sona erdirir."
       },
-      "regularStarter": "Became a regular starter for {country}! [EN]",
-      "retirementAnnounced": "Announced retirement from international football after {caps} caps for {country}. End of an era. [EN]",
-      "seasonSummary": "Made {caps} appearances for {country}, scoring {goals} goals and {assists} assists (Avg Rating: {rating}/10). [EN]",
-      "squadPlayer": "Established as a squad player for {country}. [EN]",
-      "worldCupBrace": "BRACE in World Tournament {round} vs {opponent}! Decisive brilliance! [EN]",
+      "regularStarter": "{country} için düzenli bir başlangıç ​​oldu!",
+      "retirementAnnounced": "{country} için {caps} sınırlamalarının ardından uluslararası futboldan emekli olduğu açıklandı. Bir dönemin sonu.",
+      "seasonSummary": "{country} adına {caps} forma giydi, {goals} gol ve {assists} asist yaptı (Ort. Puan: {rating}/10).",
+      "squadPlayer": "{country} için takım oyuncusu olarak kuruldu.",
+      "worldCupBrace": "BRACE Dünya Turnuvasında {round} ve {opponent}! Belirleyici parlaklık!",
       "worldCupExit": {
-        "genericDefeat": "World Tournament exit {round} vs {opponent}. Heartbreak as the team is eliminated. [EN]",
-        "heroicDefeat": "World Tournament exit {round} vs {opponent}. Despite a great individual performance, the team fell short. [EN]",
-        "disappointingDefeat": "World Tournament exit {round} vs {opponent}. A disappointing collective display ends the tournament run. [EN]"
+        "genericDefeat": "Dünya Turnuvası çıkışı {round} ve {opponent}. Takım elenirken kalp kırıklığı yaşanıyor.",
+        "heroicDefeat": "Dünya Turnuvası çıkışı {round} ve {opponent}. Bireysel performansı çok iyi olmasına rağmen takım yetersiz kaldı.",
+        "disappointingDefeat": "Dünya Turnuvası çıkışı {round} ve {opponent}. Hayal kırıklığı yaratan bir toplu gösteri, turnuva koşusunu sona erdirir."
       },
-      "worldCupGroupExit": "Disappointing elimination in World Tournament group stage. The team failed to qualify for knockouts. [EN]",
-      "worldCupHatTrick": "HAT-TRICK in World Tournament {round} vs {opponent}! Legendary performance for {country}! [EN]",
-      "worldCupCallup": "Selected for World Tournament squad for {country}! [EN]"
+      "worldCupGroupExit": "Dünya Turnuvası grup aşamasında hayal kırıklığı yaratan eleme. Takım nakavt için hak kazanamadı.",
+      "worldCupHatTrick": "Dünya Turnuvasında HAT-TRICK {round} ve {opponent}! {country} için efsanevi performans!",
+      "worldCupCallup": "{country} için Dünya Turnuvası kadrosuna seçildi!"
     },
     "nightclub": {
-      "choice_apologize": "Publicly apologize [EN]",
-      "choice_blame": "Blame others [EN]",
-      "description": "A scuffle at a nightclub made the news. Witnesses say you were involved. [EN]",
-      "title": "Nightclub Incident [EN]"
+      "choice_apologize": "Kamuoyundan özür dileriz",
+      "choice_blame": "Başkalarını suçla",
+      "description": "Bir gece kulübünde yaşanan kavga haber konusu oldu. Tanıklar senin de bu işe karıştığını söylüyor.",
+      "title": "Gece Kulübü Olayı"
     },
     "outburst": {
-      "choice_delete": "Delete and apologize [EN]",
-      "choice_double_down": "Double down [EN]",
-      "description": "You posted something controversial on social media and it's going viral. Your agent won't stop calling. [EN]",
-      "title": "Social Media Outburst [EN]"
+      "choice_delete": "Sil ve özür dile",
+      "choice_double_down": "İkiye katla",
+      "description": "Sosyal medyada tartışmalı bir şey paylaştınız ve bu viral oluyor. Temsilciniz aramayı bırakmayacak.",
+      "title": "Sosyal Medya Patlaması"
     },
     "party_scandal": {
-      "choice_apologize": "Publicly apologize [EN]",
-      "choice_deny": "Deny everything [EN]",
-      "choice_ignore": "Stay silent [EN]",
-      "description": "Photos from a wild party leaked online. The media is having a field day, and the club is not happy. How do you respond? [EN]",
-      "title": "Party Scandal [EN]"
+      "choice_apologize": "Kamuoyundan özür dileriz",
+      "choice_deny": "Her şeyi inkar et",
+      "choice_ignore": "Sessiz kal",
+      "description": "Çılgın bir partinin fotoğrafları internete sızdırıldı. Medya sahada bir gün geçiriyor ve kulüp mutlu değil. Nasıl yanıt verirsiniz?",
+      "title": "Parti Skandalı"
     },
     "performance": {
-      "disappointing": "Questions over future following disappointing campaign. [EN]",
-      "exceptional": "Exceptional season earns universal praise from pundits and fans! [EN]",
-      "needsImprovement": "Critics suggest significant improvement needed next season. [EN]",
-      "strong": "Strong performances throughout the season did not go unnoticed. [EN]"
+      "disappointing": "Hayal kırıklığı yaratan kampanyanın ardından geleceğe dair sorular.",
+      "exceptional": "Olağanüstü sezon, uzmanlardan ve hayranlardan evrensel övgü alıyor!",
+      "needsImprovement": "Eleştirmenler gelecek sezon önemli iyileştirmelere ihtiyaç duyulduğunu öne sürüyor.",
+      "strong": "Sezon boyunca gösterilen güçlü performanslar gözden kaçmadı."
     },
     "personal": {
-      "title": "Personal [EN]"
+      "title": "Kişisel"
     },
     "personality": {
       "ambitious": {
-        "meltdown": "Publicly questioned club's ambition and transfer strategy. [EN]",
-        "transfer": "Frustrated with lack of ambition - considering transfer options. [EN]"
+        "meltdown": "Kulübün hırsı ve transfer stratejisi kamuoyu önünde sorgulandı.",
+        "transfer": "Transfer seçeneklerini göz önünde bulundurduğumuzda hırs eksikliğinden dolayı hayal kırıklığına uğradık."
       },
       "determined": {
-        "overcome": "Showed incredible determination to overcome difficult period. [EN]",
-        "performance": "Determination pays off with decisive performance! [EN]"
+        "overcome": "Zor dönemi aşmak için inanılmaz bir kararlılık gösterdi.",
+        "performance": "Kararlılık, kararlı performansla karşılığını verir!"
       },
       "inconsistent": {
-        "boost": "Suddenly in great form - looks unstoppable on his day! [EN]",
-        "slump": "Form abandons him again - another frustrating period. [EN]"
+        "boost": "Aniden harika bir formda - gününde durdurulamaz görünüyor!",
+        "slump": "Form onu ​​yine terk eder; yine sinir bozucu bir dönem."
       },
       "lazy": {
-        "criticism": "Manager criticizes attitude in training during press conference. [EN]",
-        "fallout": "Relationship with manager deteriorates due to work ethic issues. [EN]",
-        "late": "Fined by club for repeated lateness to training. [EN]"
+        "criticism": "Yönetici basın toplantısı sırasında antrenmandaki tutumu eleştiriyor.",
+        "fallout": "İş ahlakı sorunları nedeniyle yöneticiyle ilişkiler bozulur.",
+        "late": "Antrenmana tekrar tekrar geç kaldığı için kulüp tarafından para cezasına çarptırıldı."
       },
       "loyal": {
-        "banner": "Fans unveil banner celebrating loyalty to the club. [EN]",
-        "community": "Local community honors commitment to the region. [EN]",
-        "decade": "Fans vote him Player of the Decade. [EN]",
-        "legend": "Named club legend after years of dedicated service. [EN]",
-        "reject": "Rejected lucrative offers to stay at the club he loves. [EN]"
+        "banner": "Taraftarlar kulübe bağlılıklarını kutlayan pankart açtı.",
+        "community": "Yerel topluluk bölgeye olan bağlılığı onurlandırır.",
+        "decade": "Taraftarlar onu On Yılın Oyuncusu olarak seçiyor.",
+        "legend": "Yıllarca süren özverili hizmetinden sonra kulübün efsanesi olarak adlandırıldı.",
+        "reject": "Sevdiği kulüpte kalmak için yapılan kazançlı teklifleri reddetti."
       },
       "mediaDarling": {
-        "criticism": "Struggling to deal with intense media scrutiny and criticism. [EN]",
-        "praise": "Charm and charisma make him a media sensation! [EN]"
+        "criticism": "Yoğun medya incelemesi ve eleştirisiyle başa çıkmakta zorlanıyoruz.",
+        "praise": "Cazibe ve karizma onu medyanın sansasyonu haline getiriyor!"
       },
       "professional": {
-        "award": "Named Club Professional of the Year by coaching staff. [EN]",
-        "contract": "Club eager to extend contract due to exemplary professionalism. [EN]",
-        "praise": "Praised by manager for exceptional professionalism and work ethic. [EN]",
-        "roleModel": "Teammates cite him as the perfect role model. [EN]",
-        "training": "Extra training sessions earning respect from entire squad. [EN]"
+        "award": "Koçluk personeli tarafından Yılın Kulüp Profesyoneli seçildi.",
+        "contract": "Kulüp, örnek teşkil eden profesyonelliği nedeniyle sözleşmeyi uzatmak istiyor.",
+        "praise": "Olağanüstü profesyonellik ve iş ahlakı nedeniyle yönetici tarafından övüldü.",
+        "roleModel": "Takım arkadaşları onu mükemmel bir rol model olarak gösteriyor.",
+        "training": "Tüm takımın saygısını kazandıran ekstra antrenman seansları."
       },
       "reserved": {
-        "recognition": "Quiet consistency finally gaining recognition from peers and pundits. [EN]",
-        "uncomfortable": "Uncomfortable with intense spotlight - prefers to let football do the talking. [EN]"
+        "recognition": "Sessiz tutarlılık nihayet meslektaşların ve uzmanların takdirini kazanıyor.",
+        "uncomfortable": "Yoğun ilgiden rahatsızdır; konuşmayı futbola bırakmayı tercih eder."
       },
       "temperamental": {
-        "bustup": "Had a heated argument in training with a teammate. [EN]",
-        "fallout": "Public fallout with manager after being substituted. [EN]",
-        "fine": "Fined by club for disciplinary reasons. [EN]",
-        "media": "Stormed out of press conference after provocative questions. [EN]",
-        "redCard": "Sent off for violent conduct - lost control in crucial moment. [EN]",
-        "social": "Deleted social media post criticizing fans and media. [EN]"
+        "bustup": "Antrenmanda takım arkadaşıyla hararetli bir tartışma yaşandı.",
+        "fallout": "Değiştirildikten sonra yöneticiyle kamuoyu arasında yaşanan tartışma.",
+        "fine": "Disiplin nedeniyle kulüp tarafından para cezasına çarptırıldı.",
+        "media": "Provokatif soruların ardından basın toplantısını terk etti.",
+        "redCard": "Şiddet içeren hareketten ihraç edildi; kritik anda kontrolü kaybetti.",
+        "social": "Hayranları ve medyayı eleştiren sosyal medya gönderisi silindi."
       }
     },
     "physical": {
-      "heightGrowth": "Height Growth [EN]",
-      "injuryRecovery": "Injury Recovery [EN]",
-      "muscleGain": "Muscle Gain [EN]",
-      "naturalDecline": "Natural Decline [EN]",
-      "peakPhysical": "Physical Peak [EN]",
-      "weightGain": "Weight Gain [EN]",
-      "weightLoss": "Weight loss from training [EN]",
-      "bodyTypeChange": "Body type changed [EN]"
+      "heightGrowth": "Boy Büyümesi",
+      "injuryRecovery": "Yaralanma İyileşmesi",
+      "muscleGain": "Kas Kazanımı",
+      "naturalDecline": "Doğal Düşüş",
+      "peakPhysical": "Fiziksel Zirve",
+      "weightGain": "Kilo Alma",
+      "weightLoss": "Antrenmandan kilo kaybı",
+      "bodyTypeChange": "Vücut tipi değişti"
     },
     "promotion": {
-      "asProspect": "Promoted to {team} senior squad at {age} years old. Seen as exciting prospect for the future. [EN]",
-      "asReserve": "Joined {team} senior squad at {age} years old. Starting in reserves with opportunities to prove worth. [EN]",
-      "fastTracked": "🏆 Fast-tracked to {team} senior squad at just {age} years old! Immediately integrated into first-team rotation. [EN]",
-      "toSeniors": "Promoted to {team} senior squad at {age} years old. [EN]"
+      "asProspect": "{age} yaşında {team} kıdemli kadrosuna terfi etti. Gelecek için heyecan verici bir beklenti olarak görülüyor.",
+      "asReserve": "{age} yaşında {team} kıdemli kadrosuna katıldı. Değerini kanıtlama fırsatlarıyla yedeklerden başlamak.",
+      "fastTracked": "🏆 Henüz {age} yaşında olan {team} kıdemli kadrosuna hızlı bir şekilde dahil edildi! Hemen birinci takım rotasyonuna entegre edildi.",
+      "toSeniors": "{age} yaşında {team} kıdemli kadrosuna terfi etti."
     },
     "reactions": {
       "agent_meeting": {
         "contract": {
-          "headline1": "📰 {name} in renewal negotiations [EN]"
+          "headline1": "📰 {name} yenileme görüşmelerinde"
         },
         "explore": {
-          "fan1": "Abandoning us? After everything? 💔 [EN]",
-          "fan2": "If it's for a better project, I understand... [EN]",
-          "headline1": "📰 EXCLUSIVE: {name} evaluating offers from other clubs [EN]",
-          "headline2": "📰 {name}'s future is uncertain [EN]"
+          "fan1": "Bizi terk mi ediyorsunuz? Her şeyden sonra mı? 💔",
+          "fan2": "Daha iyi bir proje içinse, anlıyorum...",
+          "headline1": "📰 ÖZEL: {name} diğer kulüplerden gelen teklifleri değerlendiriyor",
+          "headline2": "📰 {name}'in geleceği belirsiz"
         },
         "focus": {
-          "fan1": "Nice! Focus on pitch, rest follows! ⚽ [EN]"
+          "fan1": "Güzel! Sahaya odaklanın, gerisi gelir! ⚽"
         }
       },
       "award_celebration": {
         "team_party": {
-          "fan1": "Love that he celebrated with the boys! Team player! 🎉 [EN]",
-          "headline1": "📰 {name} throws party for teammates after award win [EN]"
+          "fan1": "Çocuklarla kutlamasına bayıldım! Takım oyuncusu! 🎉",
+          "headline1": "📰 {name} ödül kazandıktan sonra takım arkadaşları için parti veriyor"
         },
         "charity_donation": {
-          "fan1": "What a generous soul! More than just a footballer! ❤️ [EN]",
-          "fan2": "This is what role models look like! 🙏 [EN]",
-          "headline1": "📰 {name} donates award bonus to charity [EN]",
-          "headline2": "📰 Hearts of gold: {name}'s charitable gesture after winning award [EN]"
+          "fan1": "Ne kadar cömert bir ruh! Bir futbolcudan daha fazlası! ❤️",
+          "fan2": "Rol modeller böyle görünüyor! 🙏",
+          "headline1": "📰 {name} ödül bonusunu hayır kurumuna bağışladı",
+          "headline2": "📰 Altın kalpler: {name}'in ödülü kazandıktan sonra yaptığı hayırsever jest"
         },
         "low_key": {
-          "fan1": "Humble king. Family first! 👑 [EN]",
-          "headline1": "📰 {name} celebrates award win with quiet family dinner [EN]"
+          "fan1": "Alçakgönüllü kral. Önce aile! 👑",
+          "headline1": "📰 {name}, ödül kazanmasını sessiz bir aile yemeğiyle kutluyor"
         }
       },
       "award_press_conference": {
         "humble": {
-          "fan1": "Class act! True champion mentality! 👏 [EN]",
-          "fan2": "This is what separates the greats from the rest! 🌟 [EN]",
-          "headline1": "📰 {name} credits team after collecting prestigious award [EN]"
+          "fan1": "Sınıf eylemi! Gerçek şampiyon zihniyeti! 👏",
+          "fan2": "Büyükleri diğerlerinden ayıran şey budur! 🌟",
+          "headline1": "📰 {name} prestijli ödülü aldıktan sonra ekibine teşekkür etti"
         },
         "confident": {
-          "fan1": "He's earned the right to be confident! 💪 [EN]",
-          "fan2": "Bold words but can't argue with the talent! [EN]",
-          "headline1": "📰 {name} declares 'I'm the best' after winning award [EN]",
-          "headline2": "📰 BOLD: {name} makes statement at award ceremony [EN]"
+          "fan1": "Kendine güvenme hakkını kazandı! 💪",
+          "fan2": "Cesur sözler ama yetenekle tartışılamaz!",
+          "headline1": "📰 {name} ödülü kazandıktan sonra 'En iyisi benim' dedi",
+          "headline2": "📰 BOLD: {name} ödül töreninde açıklama yapıyor"
         },
         "controversial": {
-          "fan1": "Wow, did he really just say that? 😱 [EN]",
-          "fan2": "Love him or hate him, he speaks his mind! [EN]",
-          "headline1": "📰 FIRESTORM! {name} causes uproar at awards ceremony [EN]",
-          "headline2": "📰 {name}'s controversial speech goes viral [EN]"
+          "fan1": "Vay, gerçekten bunu mu söyledi? 😱",
+          "fan2": "Onu sevin ya da ondan nefret edin, o fikrini söylüyor!",
+          "headline1": "📰 ATEŞ FIRTINASI! {name} ödül töreninde kargaşaya neden oldu",
+          "headline2": "📰 {name}'in tartışmalı konuşması viral oluyor"
         }
       },
       "award_snub_reaction": {
         "gracious": {
-          "fan1": "Pure class even in defeat. Respect! 🤝 [EN]",
-          "headline1": "📰 {name} shows grace after missing out on award [EN]"
+          "fan1": "Yenilgide bile saf sınıf. Saygı! 🤝",
+          "headline1": "📰 {name}, ödülü kaçırdıktan sonra zarafetini gösteriyor"
         },
         "frustrated": {
-          "fan1": "Can't blame him, he deserved it! 😤 [EN]",
-          "fan2": "Not a great look though... [EN]",
-          "headline1": "📰 {name} lashes out after award snub [EN]",
-          "headline2": "📰 FURIOUS: {name} questions voting process [EN]"
+          "fan1": "Onu suçlayamam, o bunu hak etti! 😤",
+          "fan2": "Yine de harika bir görünüm değil...",
+          "headline1": "📰 {name}, ödülün reddedilmesinin ardından öfkeyle saldırdı",
+          "headline2": "📰 ÖFKELİ: {name} oylama sürecini sorguluyor"
         },
         "dismissive": {
-          "fan1": "Silent treatment... he's clearly hurt 😔 [EN]",
-          "headline1": "📰 {name} boycotts award afterparty following snub [EN]"
+          "fan1": "Sessiz muamele... açıkça incinmiş 😔",
+          "headline1": "📰 {name}, küçümsemenin ardından ödül partisini boykot etti"
         }
       },
       "charity": {
         "large": {
-          "fan1": "This is an incredible human being! Much more than a player! ❤️ [EN]",
-          "fan2": "Proud to support a guy like this! 🥹 [EN]",
-          "headline1": "📰 {name} makes millionaire donation to children's hospital [EN]",
-          "headline2": "📰 {name}'s generosity moves community [EN]"
+          "fan1": "Bu inanılmaz bir insan! Bir oyuncudan çok daha fazlası! ❤️",
+          "fan2": "Böyle bir adamı desteklemekten gurur duyuyorum! 🥹",
+          "headline1": "📰 {name} çocuk hastanesine milyoner bağışı yaptı",
+          "headline2": "📰 {name}'in cömertliği topluluğu harekete geçiriyor"
         },
         "small": {
-          "fan1": "Every help counts! Congrats on initiative! 👏 [EN]",
-          "headline1": "📰 {name} contributes to charitable cause [EN]"
+          "fan1": "Her yardım önemlidir! Girişiminiz için tebrikler! 👏",
+          "headline1": "📰 {name} hayır işlerine katkıda bulunuyor"
         }
       },
       "fan_encounter": {
         "engage": {
-          "fan1": "Can't believe he stopped to take a photo with me! 😍 [EN]",
-          "fan2": "Stayed 20 minutes signing autographs! What a legend! ⭐ [EN]",
-          "fan3": "This guy is one of us. Humble 10/10! [EN]",
-          "headline1": "📰 {name} delights fans with attention and kindness [EN]"
+          "fan1": "Benimle fotoğraf çektirmek için durduğuna inanamıyorum! 😍",
+          "fan2": "İmza vermek için 20 dakika kaldı! Ne efsane! ⭐",
+          "fan3": "Bu adam bizden biri. Mütevazi 10/10!",
+          "headline1": "📰 {name}, ilgi ve nezaketiyle hayranlarını memnun ediyor"
         },
         "ignore": {
-          "fan1": "What a disappointment... didn't even look at us 😢 [EN]",
-          "fan2": "Fame went to his head, apparently... [EN]",
-          "headline1": "📰 Fans complain of cold treatment from {name} [EN]"
+          "fan1": "Ne hayal kırıklığı... bize bakmadı bile 😢",
+          "fan2": "Görünüşe göre şöhret başını döndürdü...",
+          "headline1": "📰 Hayranlar {name}'in soğuk uygulamasından şikayetçi"
         },
         "polite": {
-          "fan1": "Got a quick photo! So happy! 📸 [EN]"
+          "fan1": "Hızlı bir fotoğraf buldum! Çok mutlu! 📸"
         }
       },
       "fan_interaction": {
         "engage": {
-          "fan1": "This player is different class! Attended everyone! 🌟 [EN]",
-          "fan2": "Thanks for making my son happy! ❤️ [EN]",
-          "headline1": "📰 {name} praised for treatment of fans [EN]"
+          "fan1": "Bu oyuncu farklı sınıftan! Herkes katıldı! 🌟",
+          "fan2": "Oğlumu mutlu ettiğiniz için teşekkürler! ❤️",
+          "headline1": "📰 {name} hayranlarına davranışından dolayı övgü aldı"
         },
         "ignore": {
-          "fan1": "Walked right past us as if we were invisible... 😔 [EN]"
+          "fan1": "Sanki görünmezmişiz gibi yanımızdan geçip gitti... 😔"
         }
       },
       "manager_conversation": {
         "chances": {
-          "headline1": "📰 {name} wants more opportunities in team [EN]"
+          "headline1": "📰 {name} takımda daha fazla fırsat istiyor"
         },
         "commitment": {
-          "fan1": "That's it! Playing for the badge! 💚 [EN]",
-          "headline1": "📰 {name} reaffirms commitment to club [EN]"
+          "fan1": "İşte bu! Rozet için oynuyoruz! 💚",
+          "headline1": "📰 {name} kulübe olan bağlılığını yeniden teyit ediyor"
         }
       },
       "manager_fallout": {
         "accept": {
-          "fan1": "This is maturity. Listen, accept and evolve! 👏 [EN]",
-          "headline1": "📰 {name} accepts criticism and promises to improve [EN]"
+          "fan1": "Bu olgunluktur. Dinleyin, kabul edin ve gelişin! 👏",
+          "headline1": "📰 {name} eleştirileri kabul ediyor ve gelişme sözü veriyor"
         },
         "defend": {
-          "fan1": "Whoa! This is going to get messy... [EN]",
-          "headline1": "📰 Tension! {name} hits back at manager criticism [EN]"
+          "fan1": "Vay! Bu işler iyice karışacak...",
+          "headline1": "📰 Gerilim! {name} yönetici eleştirilerine yanıt verdi"
         },
         "transfer": {
-          "fan1": "Don't go! Please don't go! 😭 [EN]",
-          "fan2": "If manager doesn't know how to use him, better to go... [EN]",
-          "headline1": "📰 BOMBSHELL! {name} asks to leave after row with manager [EN]",
-          "headline2": "📰 Relationship between {name} and manager untenable [EN]"
+          "fan1": "Gitme! Lütfen gitmeyin! 😭",
+          "fan2": "Yönetici onu nasıl kullanacağını bilmiyorsa, gitsen iyi olur...",
+          "headline1": "📰 BOMBA! {name} menajerle tartıştıktan sonra ayrılmak istiyor",
+          "headline2": "📰 {name} ile yönetici arasındaki ilişki savunulamaz"
         }
       },
       "party_scandal": {
         "apologize": {
-          "fan1": "At least he owned up to it. Respect! 👏 [EN]",
-          "fan2": "Everyone makes mistakes, important thing is to recognize. Moving on! [EN]",
-          "headline1": "📰 {name} apologizes after party controversy [EN]",
-          "headline2": "📰 Player shows maturity by owning mistake [EN]"
+          "fan1": "En azından buna sahip çıkıyordu. Saygı! 👏",
+          "fan2": "Herkes hata yapar, önemli olan farkına varmaktır. Devam ediyorum!",
+          "headline1": "📰 {name} parti tartışmasından sonra özür diler",
+          "headline2": "📰 Oyuncu hatasını sahiplenerek olgunluk gösterir"
         },
         "deny": {
-          "fan1": "No point denying, there are photos of everything! 🤦 [EN]",
-          "fan2": "Does he think we're stupid? [EN]",
-          "headline1": "📰 {name} denies involvement in controversial party [EN]",
-          "headline2": "📰 Player version contradicts witnesses [EN]"
+          "fan1": "İnkar etmenin anlamı yok, her şeyin fotoğrafı var! 🤦",
+          "fan2": "Bizim aptal olduğumuzu mu düşünüyor?",
+          "headline1": "📰 {name} tartışmalı partiye katıldığını yalanladı",
+          "headline2": "📰 Oyuncu versiyonu tanıklarla çelişiyor"
         },
         "ignore": {
-          "fan1": "I think he was right not to give this oxygen. [EN]",
-          "headline1": "📰 {name} remains silent on controversy [EN]"
+          "fan1": "Bu oksijeni vermemekle haklı olduğunu düşünüyorum.",
+          "headline1": "📰 {name} tartışmalara sessiz kalıyor"
         }
       },
       "teammate_conflict": {
         "apologize": {
-          "fan1": "Greatness is knowing how to apologize. Congrats! 👏 [EN]"
+          "fan1": "Büyüklük özür dilemeyi bilmektir. Tebrikler! 👏"
         },
         "escalate": {
-          "fan1": "Embarrassing! This can't happen! 😡 [EN]",
-          "headline1": "📰 Dressing room crisis! Fight between players leaks to media [EN]",
-          "headline2": "📰 Board concerned about squad atmosphere [EN]"
+          "fan1": "Utandırıcı! Bu olamaz! 😡",
+          "headline1": "📰 Soyunma odası krizi! Oyuncular arasındaki kavga medyaya sızdı",
+          "headline2": "📰 Yönetim kurulu takım atmosferinden endişeli"
         },
         "stand": {
-          "fan1": "Hope they resolve this soon... [EN]",
-          "headline1": "📰 Tense atmosphere: {name} stands ground in internal conflict [EN]"
+          "fan1": "Umarım yakın zamanda bu sorunu çözerler...",
+          "headline1": "📰 Gergin atmosfer: {name} iç çatışmada ayakta duruyor"
         }
       },
       "teammate_interaction": {
         "bond": {
-          "fan1": "Love seeing the squad united! Family! 🤝 [EN]"
+          "fan1": "Takımı bir arada görmeyi seviyorum! Aile! 🤝"
         }
       },
       "training_decision": {
         "extra": {
-          "fan1": "This is how you build a career! Total dedication! 💪 [EN]",
-          "headline1": "📰 {name} impresses with extra dedication in training [EN]"
+          "fan1": "Bu şekilde bir kariyer inşa edersiniz! Tam özveri! 💪",
+          "headline1": "📰 {name} eğitimdeki ekstra özverisiyle etkileyicidir"
         },
         "rest": {
-          "fan1": "Is he really focused? 🤔 [EN]"
+          "fan1": "Gerçekten odaklanmış mı? 🤔"
         }
       }
     },
     "relationship": {
-      "choice_private": "Keep private [EN]",
-      "choice_public": "Make public statement [EN]",
-      "description": "Your personal relationship has become tabloid fodder. Paparazzi are everywhere. [EN]",
-      "title": "Relationship Drama [EN]"
+      "choice_private": "Gizli kal",
+      "choice_public": "Kamuya açıklama yapın",
+      "description": "Kişisel ilişkiniz tabloid yemi haline geldi. Paparazziler her yerde.",
+      "title": "İlişki Dramı"
     },
     "release": {
-      "fromAcademy": "Released from {team} academy at {age} years old. Failed to secure promotion to seniors. [EN]"
+      "fromAcademy": "{age} yaşında {team} akademisinden yayınlandı. Yaşlılara terfi sağlanamadı."
     },
-    "requiresMoney": "Requires €{amount} [EN]",
+    "requiresMoney": "€{amount} gerektirir",
     "retirement": {
-      "careerEndingInjury": "Forced to announce retirement due to career-ending injury. A cruel end to a promising career. [EN]",
-      "centurion": "Centurion for {country} - a national hero. [EN]",
+      "careerEndingInjury": "Kariyerini sonlandıran sakatlık nedeniyle emekliliğini duyurmak zorunda kaldı. Gelecek vaat eden bir kariyerin acımasız sonu.",
+      "centurion": "{country} için Centurion - ulusal bir kahraman.",
       "headlines": {
         "injury": {
-          "1": "💔 HEARTBREAKING! Career cut short by injury for {name}. [EN]",
-          "2": "🏥 Body said enough: {name} forced to retire by injury. [EN]",
-          "3": "😢 Cruel setback: Injury ends {name}'s career prematurely. [EN]",
-          "4": "🩹 Medical advice forces {name} to hang up boots. Football mourns. [EN]",
-          "5": "💉 Devastating blow: {name}'s career ends due to persistent injury. [EN]",
-          "6": "🦴 Body betrays: {name} forced into early retirement. [EN]",
-          "7": "⚕️ Doctors order end: {name} must retire for health. [EN]",
-          "8": "😞 Dreams shattered: Injury forces {name} to leave the game. [EN]",
-          "9": "🏨 Final diagnosis: {name}'s playing days over due to injury. [EN]",
-          "10": "💫 What could have been: {name} retires due to recurring injury. [EN]",
-          "11": "🩼 Moving on: {name} chooses health over continuing career. [EN]",
-          "12": "⚡ Lightning struck: {name}'s career ended by devastating injury. [EN]",
-          "13": "😔 Unfair ending: {name} forced to retire by injury setback. [EN]",
-          "14": "🆘 No recovery: {name} accepts injury has ended career. [EN]",
-          "15": "💭 If only: {name} retires wondering what might have been. [EN]",
-          "16": "🏃‍♂️ Can't play on: {name} retires after battle with injury. [EN]",
-          "17": "🎗️ Fighting spirit: {name} retires after losing battle with body. [EN]",
-          "18": "⏸️ Career paused permanently: {name} retires due to injury. [EN]",
-          "19": "🩺 Medical retirement: {name} forced to stop by doctor's orders. [EN]",
-          "20": "❤️‍🩹 Body couldn't take more: {name} announces medical retirement. [EN]",
+          "1": "💔KALBİ KIRICI! {name}'in kariyeri sakatlık nedeniyle yarıda kaldı.",
+          "2": "🏥 Beden yeter dedi: {name} sakatlık nedeniyle emekli olmak zorunda kaldı.",
+          "3": "😢 Acımasız yenilgi: Sakatlık {name}'in kariyerini vaktinden önce sonlandırır.",
+          "4": "🩹 Tıbbi tavsiye {name}'i botları asmaya zorluyor. Futbol yas tutuyor.",
+          "5": "💉 Yıkıcı darbe: {name}'in kariyeri, kalıcı sakatlık nedeniyle sona eriyor.",
+          "6": "🦴 Beden ihanetleri: {name} erken emekliliğe zorlandı.",
+          "7": "⚕️Doktorların talimatı sona erdi: {name} sağlık açısından emekli olmalı.",
+          "8": "😞 Hayaller paramparça oldu: Sakatlık {name}'i oyunu terk etmeye zorladı.",
+          "9": "🏨 Son teşhis: {name}'in sakatlık nedeniyle maç günleri sona erdi.",
+          "10": "💫 Ne olabilirdi: {name} tekrarlayan sakatlık nedeniyle emekli oldu.",
+          "11": "🩼 Devam ediyoruz: {name}, devam eden kariyer yerine sağlığı seçer.",
+          "12": "⚡ Yıldırım düştü: {name}'in kariyeri yıkıcı bir sakatlıkla sona erdi.",
+          "13": "😔 Haksız son: {name}, sakatlık nedeniyle emekli olmaya zorlandı.",
+          "14": "🆘 İyileşme yok: {name} sakatlığın kariyerini sonlandırdığını kabul ediyor.",
+          "15": "💭 Keşke: {name} ne olabileceğini merak ederek emekli oluyor.",
+          "16": "🏃‍♂️ Oynayamıyor: {name}, sakatlık nedeniyle mücadeleden sonra emekli oluyor.",
+          "17": "🎗️ Mücadeleci ruh: {name}, bedeniyle savaşı kaybettikten sonra emekliye ayrılır.",
+          "18": "⏸️ Kariyer kalıcı olarak duraklatıldı: {name} sakatlık nedeniyle emekli oluyor.",
+          "19": "🩺 Tıbbi emeklilik: {name} doktor talimatıyla durmak zorunda kaldı.",
+          "20": "❤️‍🩹 Vücut daha fazlasına dayanamadı: {name} tıbbi emekliliğini duyurdu.",
           "types": {
             "hamstring": "arka adale sakatlığı",
             "groin": "kasık çekmesi",
@@ -752,931 +752,931 @@
           "recovery_normal": "Sakatlıktan kurtuldu ve tam formuna kavuştu."
         },
         "natural": {
-          "1": "👋 {name} announces retirement at perfect moment. A career well lived. [EN]",
-          "2": "⚽ End of an era: {name} hangs up boots after fulfilling career. [EN]",
-          "3": "🎬 Final whistle: {name} calls time on playing days. [EN]",
-          "4": "📖 Chapter closes: {name} retires from professional football. [EN]",
-          "5": "🌅 Sunset: {name} peacefully ends playing career. [EN]",
-          "6": "🎭 Standing ovation: {name} takes final bow after great career. [EN]",
-          "7": "📝 Perfect farewell: {name} retires with head held high. [EN]",
-          "8": "⏰ Right time: {name} knows moment has arrived to retire. [EN]",
-          "9": "💫 Complete career: {name} retires with nothing left to prove. [EN]",
-          "10": "🎖️ Mission accomplished: {name} hangs up boots satisfied. [EN]",
-          "11": "🏟️ Empty locker: {name} says goodbye to football. [EN]",
-          "12": "👏 Grateful exit: {name} thanks football and retires. [EN]",
-          "13": "🎯 Job done: {name} retires after hitting career goals. [EN]",
-          "14": "📅 As planned: {name} retires at right moment. [EN]",
-          "15": "🌟 Legacy secured: {name} walks away from the game. [EN]",
-          "16": "⚽ Last shot: {name} retires after fulfilling journey. [EN]",
-          "17": "🎪 Final performance: {name} says farewell to football. [EN]",
-          "18": "📻 Signing off: {name} announces retirement from football. [EN]",
-          "19": "🏃 Hung up boots: {name} retires after long and proud career. [EN]",
-          "20": "💎 Diamond career ends: {name} retires with treasury of memories. [EN]"
+          "1": "👋 {name} mükemmel bir anda emekliliğini duyurdu. İyi yaşanmış bir kariyer.",
+          "2": "⚽ Bir dönemin sonu: {name}, kariyerini tamamladıktan sonra botları asıyor.",
+          "3": "🎬 Son düdük: {name} oyun günlerinde süreyi çağırır.",
+          "4": "📖 Bölüm kapanıyor: {name} profesyonel futbolu bırakıyor.",
+          "5": "🌅 Gün Batımı: {name} oyunculuk kariyerini huzur içinde bitirir.",
+          "6": "🎭 Ayakta alkışlanıyor: {name} harika kariyerinin ardından son selamını veriyor.",
+          "7": "📝 Mükemmel veda: {name} başı dik bir şekilde emekli oluyor.",
+          "8": "⏰ Doğru zaman: {name} emekli olma anının geldiğini biliyor.",
+          "9": "💫 Kariyerini tamamla: {name}, kanıtlayacak hiçbir şeyi kalmadan emekli oluyor.",
+          "10": "🎖️ Görev tamamlandı: {name} botları memnun bir şekilde kapatıyor.",
+          "11": "🏟️ Boş dolap: {name} futbola veda ediyor.",
+          "12": "👏 Minnet dolu çıkış: {name} futbola teşekkür ediyor ve emekli oluyor.",
+          "13": "🎯 İş tamamlandı: {name}, kariyer hedeflerine ulaştıktan sonra emekli oluyor.",
+          "14": "📅 Planlandığı gibi: {name} doğru zamanda kullanımdan kaldırılıyor.",
+          "15": "🌟 Miras güvence altına alındı: {name} oyundan ayrılıyor.",
+          "16": "⚽ Son atış: {name} yolculuğu tamamladıktan sonra emekliye ayrılıyor.",
+          "17": "🎪 Son performans: {name} futbola veda ediyor.",
+          "18": "📻 İmzalar: {name} futbolu bıraktığını duyurdu.",
+          "19": "🏃 Asılmış botlar: {name}, uzun ve gururlu kariyerinin ardından emekli oluyor.",
+          "20": "💎 Elmas kariyeri sona eriyor: {name}, hatıra hazinesiyle emekli oluyor."
         },
         "peakLegend": {
           "general": {
-            "1": "⭐ Still at the peak! {name} retires while fans beg for one more season! [EN]",
-            "2": "💫 On his own terms: {name} chooses to leave while still elite! [EN]",
-            "3": "🎭 Curtain falls early: {name} retires with plenty still to offer! [EN]",
-            "4": "👏 Pure class: {name} leaves the stage still performing at highest level! [EN]",
-            "5": "🌟 Leaving as a star: {name} retires while still shining! [EN]",
-            "6": "💎 Quitting while ahead: {name} retires with legacy intact! [EN]",
-            "7": "🎯 Perfect timing: {name} knows when to say goodbye! [EN]",
-            "8": "👑 Bow to the king: {name} retires at height of powers! [EN]",
-            "9": "⚡ Going out strong: {name} retires still feared by opponents! [EN]",
-            "10": "🔥 Undiminished: {name} leaves game still at elite level! [EN]"
+            "1": "⭐ Hala zirvede! Hayranlar bir sezon daha için yalvarırken {name} emekli oluyor!",
+            "2": "💫 Kendi şartlarıyla: {name} hâlâ elitken ayrılmayı seçiyor!",
+            "3": "🎭 Perde erken kalkıyor: {name} emekliye ayrılıyor ve daha sunabileceği çok şey var!",
+            "4": "👏 Saf sınıf: {name} sahneden hâlâ en yüksek seviyede performansla ayrılıyor!",
+            "5": "🌟 Bir yıldız olarak ayrılıyoruz: {name} hâlâ parlarken emekli oluyor!",
+            "6": "💎 İlerideyken vazgeçmek: {name} mirası bozulmadan kullanımdan kaldırılıyor!",
+            "7": "🎯 Mükemmel zamanlama: {name} ne zaman elveda diyeceğini biliyor!",
+            "8": "👑 Kralın önünde eğilin: {name} güçlerinin doruğunda emekliye ayrılıyor!",
+            "9": "⚡ Güçlü bir şekilde ortaya çıkıyor: {name} emekli oluyor ve rakipleri hâlâ korkuyor!",
+            "10": "🔥 Eksiksiz: {name} oyundan hala elit seviyede çıkıyor!"
           },
           "trophy": {
-            "1": "⚽ SHOCKING THE WORLD! {name} hangs up boots while still at the peak! [EN]",
-            "2": "🏆 Going out on top: {name} retires immediately after winning title! [EN]",
-            "3": "👑 The perfect ending? {name} says goodbye at the summit! [EN]",
-            "4": "🌟 Champion to the end: {name} leaves with head held high after triumph! [EN]",
-            "5": "🎖️ Retiring a winner: {name} ends career at the apex! [EN]",
-            "6": "💫 Golden exit: {name} bids farewell as champion of champions! [EN]",
-            "7": "🥇 Last dance, best dance: {name} retires with trophy in hand! [EN]",
-            "8": "🏅 No better way: {name} leaves football as a champion! [EN]",
-            "9": "⭐ Fairytale ending: {name} retires after glory! [EN]",
-            "10": "🎭 Perfect final act: {name} exits stage with trophy! [EN]"
+            "1": "⚽ DÜNYAYI ŞOK EDİYORUZ! {name} hala zirvedeyken botları asıyor!",
+            "2": "🏆 Zirveye çıkmak: {name} şampiyonluğu kazandıktan hemen sonra emekli oluyor!",
+            "3": "👑 Mükemmel son mu? {name} zirvede veda ediyor!",
+            "4": "🌟Sonuna kadar şampiyon: {name} zaferden sonra başı dik bir şekilde ayrılıyor!",
+            "5": "🎖️ Kazananı emekliye ayırmak: {name} kariyerini zirvede bitiriyor!",
+            "6": "💫 Altın çıkış: {name} şampiyonların şampiyonu olarak veda ediyor!",
+            "7": "🥇 Son dans, en iyi dans: {name} elinde kupayla emekli oluyor!",
+            "8": "🏅 Daha iyi bir yol yok: {name} futbolu şampiyon olarak bırakıyor!",
+            "9": "⭐ Peri masalı sonu: {name} zaferden sonra emekliye ayrılıyor!",
+            "10": "🎭 Mükemmel son hareket: {name} sahneden kupayla çıkıyor!"
           }
         },
         "premature": {
-          "1": "❓ Family reasons cited as {name} makes surprise exit from football. [EN]",
-          "2": "💭 {name} loses passion for the game and retires early. [EN]",
-          "3": "🎯 New priorities: {name} shocks world with early retirement. [EN]",
-          "4": "🌅 Life beyond football: {name} walks away to pursue other dreams. [EN]",
-          "5": "👨‍👩‍👧 Family first: {name} retires young to focus on loved ones. [EN]",
-          "6": "🧘 Mental peace: {name} steps away from football pressure. [EN]",
-          "7": "📚 New chapter: {name} retires early to study. [EN]",
-          "8": "💼 Business calling: {name} leaves football for entrepreneurship. [EN]",
-          "9": "🌍 World traveler: {name} retires to explore life beyond sport. [EN]",
-          "10": "🎨 Creative pursuit: {name} walks away to follow artistic dreams. [EN]",
-          "11": "🏠 Heading home: {name} retires to return to roots. [EN]",
-          "12": "💡 Epiphany: {name} realizes football no longer fulfilling. [EN]",
-          "13": "🌱 Fresh start: {name} retires early seeking new purpose. [EN]",
-          "14": "🎭 Different stage: {name} leaves football for entertainment career. [EN]",
-          "15": "📖 Story continues elsewhere: {name} retires to write new chapter. [EN]",
-          "16": "🧠 Mental health first: {name} prioritizes well-being over career. [EN]",
-          "17": "⚖️ Work-life balance: {name} retires to find balance. [EN]",
-          "18": "🙏 Spiritual journey: {name} walks away to find inner peace. [EN]",
-          "19": "💝 Love wins: {name} retires for relationship priorities. [EN]",
-          "20": "🌟 Different dreams: {name} retires to pursue goals outside football. [EN]"
+          "1": "❓Ailesel nedenler olarak gösterilen {name} futboldan sürpriz çıkış yapıyor.",
+          "2": "💭 {name} oyuna olan tutkusunu kaybeder ve erken emekli olur.",
+          "3": "🎯 Yeni öncelikler: {name} erken emeklilikle dünyayı şok ediyor.",
+          "4": "🌅 Futbolun ötesinde yaşam: {name} başka hayallerin peşinden koşmak için ayrılıyor.",
+          "5": "👨‍👩‍👧 Önce aile: {name}, sevdiklerine odaklanmak için genç yaşta emekli oluyor.",
+          "6": "🧘 Zihinsel huzur: {name} futbol baskısından bir adım uzaklaşır.",
+          "7": "📚 Yeni bölüm: {name} çalışmak için erken emekli oluyor.",
+          "8": "💼 İş görüşmesi: {name} futbolu girişimciliğe bırakıyor.",
+          "9": "🌍 Dünya gezgini: {name}, sporun ötesindeki hayatı keşfetmek için emekli oluyor.",
+          "10": "🎨 Yaratıcı arayış: {name} sanatsal hayallerin peşinden gidiyor.",
+          "11": "🏠 Eve dönüş: {name} köklerine dönmek için emekli oluyor.",
+          "12": "💡 Epiphany: {name}, futbolun artık tatmin edici olmadığını fark ediyor.",
+          "13": "🌱 Yeni başlangıç: {name} yeni bir amaç arayarak erken emekli oluyor.",
+          "14": "🎭 Farklı aşama: {name}, eğlence kariyeri için futbolu bırakıyor.",
+          "15": "📖 Hikaye başka bir yerde devam ediyor: {name} yeni bölüm yazmak için emekli oluyor.",
+          "16": "🧠 Önce akıl sağlığı: {name}, refahı kariyerden daha ön planda tutar.",
+          "17": "⚖️ İş-yaşam dengesi: {name} dengeyi bulmak için emekli oluyor.",
+          "18": "🙏 Ruhsal yolculuk: {name} iç huzuru bulmak için uzaklaşır.",
+          "19": "💝 Aşk kazanır: {name} ilişki öncelikleri nedeniyle emekli olur.",
+          "20": "🌟 Farklı hayaller: {name}, futbol dışındaki hedeflerin peşinde koşmak için emekli oluyor."
         },
         "tooLong": {
-          "1": "📉 Finally over. {name} announces retirement after difficult season. [EN]",
-          "2": "🔚 A quiet end to a loud career: {name} retires. [EN]",
-          "3": "💭 Critics say it was time: {name} leaves the field after struggles. [EN]",
-          "4": "📰 The twilight: {name}'s career comes to an end after seasons of decline. [EN]",
-          "5": "⏰ One season too many? {name} finally ends career. [EN]",
-          "6": "🌅 Sun sets on {name}'s career after difficult final chapter. [EN]",
-          "7": "📊 Numbers don't lie: {name} retires after statistical decline. [EN]",
-          "8": "⚡ Legs finally gave out: {name} announces retirement. [EN]",
-          "9": "🪫 Empty tank: {name} retires after struggling to keep up. [EN]",
-          "10": "📉 From hero to struggling: {name} retires after tough times. [EN]",
-          "11": "🚪 Delayed exit: {name} finally hangs up boots after pressure. [EN]",
-          "12": "⌛ Time caught up: {name} retires after time wins. [EN]",
-          "13": "💤 Energy depleted: {name} ends career after exhausting journey. [EN]",
-          "14": "🎭 Final bow: {name} leaves after fans questioned if end was overdue. [EN]",
-          "15": "📝 Writing on the wall: {name} retires after difficult final years. [EN]",
-          "16": "🔕 Departing quietly: {name} drifts into retirement after decline. [EN]",
-          "17": "⚽ No more magic: {name} retires as skills fade. [EN]",
-          "18": "🏃 Couldn't compete anymore: {name} reluctantly retires. [EN]",
-          "19": "📅 Match postponed: {name} finally accepts career is over. [EN]",
-          "20": "🎬 Credits roll: {name}'s story ends with faded chapter. [EN]"
+          "1": "📉 Sonunda bitti. {name} zorlu sezonun ardından emekliliğini duyurdu.",
+          "2": "🔚 Gürültülü bir kariyere sessiz bir son: {name} emekli oluyor.",
+          "3": "💭 Eleştirmenler artık zamanın geldiğini söylüyor: {name}, mücadelelerin ardından sahayı terk ediyor.",
+          "4": "📰 Alacakaranlık: {name}'in kariyeri, düşüş sezonlarının ardından sona eriyor.",
+          "5": "⏰ Bir sezon çok mu fazla? {name} sonunda kariyerine son veriyor.",
+          "6": "🌅 Zorlu son bölümün ardından {name}'in kariyerinde güneş batıyor.",
+          "7": "📊 Rakamlar yalan söylemez: {name} istatistiksel düşüşün ardından emekliye ayrılıyor.",
+          "8": "⚡ Bacaklar nihayet pes etti: {name} emekliliğini duyurdu.",
+          "9": "🪫 Boş tank: {name}, ayak uydurmak için çabaladıktan sonra emekli oluyor.",
+          "10": "📉 Kahramanlıktan mücadeleye: {name} zor zamanların ardından emekli oluyor.",
+          "11": "🚪 Gecikmeli çıkış: {name} sonunda baskıdan sonra botları kapatıyor.",
+          "12": "⌛ Yakalanan süre: {name}, süre kazandıktan sonra emekli olur.",
+          "13": "💤 Enerji tükendi: {name}, yorucu bir yolculuğun ardından kariyerine son veriyor.",
+          "14": "🎭 Son selamlama: {name}, hayranların bitişin gecikip gecikmediğini sorgulamasının ardından ayrıldı.",
+          "15": "📝 Duvara yazı: {name} zorlu son yılların ardından emekli oluyor.",
+          "16": "🔕 Sessizce ayrılıyor: {name} düşüşten sonra emekliliğe sürükleniyor.",
+          "17": "⚽ Artık sihir yok: {name}, beceriler azaldıkça emekliye ayrılıyor.",
+          "18": "🏃 Artık rekabet edemedi: {name} isteksizce emekli oluyor.",
+          "19": "📅 Maç ertelendi: {name} sonunda kariyerinin bittiğini kabul ediyor.",
+          "20": "🎬 Kredi listesi: {name}'in hikayesi soluk bir bölümle bitiyor."
         }
       },
-      "icon": "⭐ {name} announces retirement after remarkable career. {matches} matches, {goals} goals, {trophies} major titles. An inspiration to many. [EN]",
-      "journeyman": "{name} announces retirement. {reason}. Made {matches} appearances across {clubs} clubs. [EN]",
-      "legend": "🏆 LEGEND RETIRES! {name} hangs up boots after extraordinary career that inspired a generation. {awards} individual awards, {trophies} trophies. A true football icon. [EN]",
-      "oneClubLegend": "A one-club legend. Such loyalty is rare in modern football. [EN]",
-      "professional": "{name} ends career after {matches} professional matches. {reason}. Proud of a solid career. [EN]",
+      "icon": "⭐ {name} olağanüstü kariyerinin ardından emekliliğini duyurdu. {matches} maçları, {goals} golleri, {trophies} önemli şampiyonlukları. Birçok kişiye ilham kaynağı.",
+      "journeyman": "{name} kullanımdan kaldırıldığını duyurdu. {reason}. {clubs} kulüplerinde {matches} kez sahneye çıktı.",
+      "legend": "🏆 EFSANE EMEKLİ! {name}, bir nesle ilham veren olağanüstü kariyerinin ardından botlarını asıyor. {awards} bireysel ödülleri, {trophies} ödülleri. Gerçek bir futbol ikonu.",
+      "oneClubLegend": "Tek kulüp efsanesi. Böyle bir sadakat modern futbolda nadirdir.",
+      "professional": "{name}, {matches} profesyonel maçlarının ardından kariyerine son veriyor. {reason}. Sağlam bir kariyerden gurur duyuyorum.",
       "rumors": {
         "general": {
-          "1": "💼 {name} seen meeting with financial advisors about life after football. [EN]",
-          "2": "📅 End in sight? {name} reportedly weighing retirement options. [EN]",
-          "3": "🏠 Sources close to {name} hint at possible retirement announcement. [EN]",
-          "4": "📰 Speculation mounts over {name}'s future as career enters twilight. [EN]",
-          "5": "🎙️ Agent refuses to deny retirement rumors involving {name}. [EN]",
-          "6": "📝 {name} reportedly discussing testimonial match arrangements. [EN]",
-          "7": "🏟️ Empty locker? {name} seen clearing personal items from stadium. [EN]",
-          "8": "💭 Philosophical {name} talks 'life after football' in interview. [EN]",
-          "9": "📊 Contract expiring, {name} reportedly not seeking renewal. [EN]",
-          "10": "🌅 Sunset approaching? {name}'s career may be reaching natural conclusion. [EN]"
+          "1": "💼 {name}, mali danışmanlarla futboldan sonraki hayat hakkında toplantı yaparken görüldü.",
+          "2": "📅 Görünürde sonu var mı? {name}'in emeklilik seçeneklerini değerlendirdiği bildiriliyor.",
+          "3": "🏠 {name}'e yakın kaynaklar olası emeklilik duyurusuna işaret ediyor.",
+          "4": "📰 Kariyer alacakaranlığa girerken {name}'in geleceği hakkında spekülasyonlar artıyor.",
+          "5": "🎙️ Temsilci, {name} ile ilgili emeklilik söylentilerini inkar etmeyi reddediyor.",
+          "6": "📝 {name}'in referans maçı düzenlemelerini tartıştığı bildirildi.",
+          "7": "🏟️Dolap boş mu? {name} kişisel eşyalarını stadyumdan temizlerken görüldü.",
+          "8": "💭 Felsefi {name} röportajında ​​'futboldan sonraki hayat'tan bahsediyor.",
+          "9": "📊 Sözleşmenin süresi doluyor, {name}'in yenileme talebinde bulunmadığı bildiriliyor.",
+          "10": "🌅Gün batımı yaklaşıyor mu? {name}'in kariyeri doğal bir sonuca ulaşıyor olabilir."
         },
         "highOvr": {
-          "1": "🤔 Pundits debate: Can {name} maintain this level for another year? [EN]",
-          "2": "💭 Sources say {name} wants to go out on top. [EN]",
-          "3": "📰 Will {name} bow out as champion? Retirement whispers grow. [EN]",
-          "4": "🎙️ Legend status secured - but will {name} call it a day? [EN]",
-          "5": "⭐ Still world class, but {name} reportedly considering options. [EN]",
-          "6": "🏆 One more trophy or retirement? {name} ponders future. [EN]",
-          "7": "💬 Agent quiet on {name}'s plans amidst speculation. [EN]",
-          "8": "📊 Elite stats, but {name} pondering life after football. [EN]",
-          "9": "🎯 Peak performance raises questions about {name}'s next move. [EN]",
-          "10": "👑 King of the game, but {name}'s throne may be vacant soon. [EN]"
+          "1": "🤔 Uzmanlar tartışıyor: {name} bu seviyeyi bir yıl daha koruyabilir mi?",
+          "2": "💭 Kaynaklar {name}'in zirveye çıkmak istediğini söylüyor.",
+          "3": "📰 {name} şampiyon olarak sahneye çıkacak mı? Emeklilik fısıltıları büyüyor.",
+          "4": "🎙️ Efsane durumu güvence altına alındı ​​- peki {name} bunu bir gün arayacak mı?",
+          "5": "⭐ Hala birinci sınıf, ancak {name}'in seçenekleri değerlendirdiği bildiriliyor.",
+          "6": "🏆 Bir kupa daha mı yoksa emeklilik mi? {name} geleceği düşünüyor.",
+          "7": "💬 Ajan spekülasyonların ortasında {name}'in planları hakkında sessiz kalıyor.",
+          "8": "📊 Elit istatistikler, ancak {name} futboldan sonraki hayatı düşünüyor.",
+          "9": "🎯 Zirve performansı, {name}'in bir sonraki hamlesine ilişkin soruları gündeme getiriyor.",
+          "10": "👑 Oyunun kralı ama {name}'in tahtı yakında boşalabilir."
         },
         "poorForm": {
-          "1": "📉 Fans start to question if {name} still has the legs. [EN]",
-          "2": "💬 Rumors of dressing room fatigue involving {name}. [EN]",
-          "3": "🗣️ Critics suggest {name}'s best days are behind him. [EN]",
-          "4": "⚽ Struggling for form - is it time for {name} to retire? [EN]",
-          "5": "📰 Pundits openly question {name}'s ability to continue. [EN]",
-          "6": "🪫 Running on empty? {name} faces retirement pressure. [EN]",
-          "7": "📊 Stats decline as {name}'s future becomes uncertain. [EN]",
-          "8": "💤 Old sparkle fading - rumors of {name}'s retirement grow. [EN]",
-          "9": "⏰ Time catching up? {name} under scrutiny after poor run. [EN]",
-          "10": "🎭 Final act approaching? {name}'s form generates retirement talk. [EN]"
+          "1": "📉 Hayranlar {name}'in hala bacaklarının olup olmadığını sorgulamaya başlıyor.",
+          "2": "💬 {name}'in de dahil olduğu soyunma odası yorgunluğu söylentileri.",
+          "3": "🗣️ Eleştirmenler {name}'in en iyi günlerinin geride kaldığını öne sürüyor.",
+          "4": "⚽ Form için mücadele ediyoruz - {name}'in emekli olma zamanı geldi mi?",
+          "5": "📰 Uzmanlar {name}'in devam etme yeteneğini açıkça sorguluyor.",
+          "6": "🪫 Boşta mı çalışıyorsun? {name} emeklilik baskısıyla karşı karşıya.",
+          "7": "📊 {name}'in geleceği belirsizleştikçe istatistikler düşüyor.",
+          "8": "💤 Eski ışıltının solması - {name}'in emekli olacağına dair söylentiler artıyor.",
+          "9": "⏰ Yetişme zamanı mı geldi? {name}, kötü çalışmanın ardından inceleme altında.",
+          "10": "🎭Son sahne yaklaşıyor mu? {name}'in formu emeklilik konuşmaları yaratıyor."
         }
       },
-      "shirtRetired": "{team} announces plans to retire jersey number {number} in honor of club legend {name}. [EN]",
-      "star": "{name} retires after successful career. {matches} matches, {goals} goals at {clubs} clubs. A respected professional who realized his dreams. [EN]",
-      "testimonialMatch": "{team} will honor them with a testimonial match. [EN]",
-      "worldCupChampion": "Will forever be remembered as a World Tournament champion. [EN]"
+      "shirtRetired": "{team}, kulüp efsanesi {name} onuruna {number} numaralı formayı emekliye ayırma planlarını duyurdu.",
+      "star": "{name} başarılı kariyerinin ardından emekli oluyor. {matches} maçları, {goals}, {clubs} kulüplerinde gol atıyor. Hayallerini gerçekleştiren saygın bir profesyonel.",
+      "testimonialMatch": "{team} onları bir referans maçıyla onurlandıracak.",
+      "worldCupChampion": "Sonsuza kadar Dünya Turnuvası şampiyonu olarak hatırlanacak."
     },
     "role": {
-      "promiseBroken": "Squad role promise was broken. [EN]",
-      "promiseHonored": "Club honors promise: {status} status guaranteed this season. [EN]",
-      "promisePeriodEnded": "Role promise period ended. [EN]"
+      "promiseBroken": "Kadro rolü vaadi bozuldu.",
+      "promiseHonored": "Kulübün onur sözü: Bu sezon {status} statüsü garanti edildi.",
+      "promisePeriodEnded": "Rol söz verme süresi sona erdi."
     },
     "season": {
-      "aerialDominance": "🗼 AERIAL DOMINANCE! {count} headed goals - a true target man! [EN]",
-      "aerialDominant": "🗼 Dominant in the air! {count} headed goals! [EN]",
-      "clutchPlayer": "🏆 CLUTCH PLAYER! {count} winning goals - always delivers when it matters! [EN]",
-      "completeForward": "🌟 COMPLETE FORWARD! {goals}G + {assists}A = {total} goal contributions! [EN]",
-      "elitePlaymaking": "👑 Elite playmaking with {assists} assists! [EN]",
-      "excellentGoals": "✨ Excellent goalscoring season with {goals} goals! [EN]",
-      "legendaryGoals": "🔥 LEGENDARY SEASON! {goals} goals in {matches} matches - one for the history books! [EN]",
-      "longRangeThreat": "⚡ Long range threat! {count} goals from distance! [EN]",
-      "longShotSpecialist": "🚀 LONG SHOT SPECIALIST! {count} goals from outside the box! [EN]",
-      "matchWinner": "💪 Match winner! {count} decisive goals! [EN]",
-      "outstandingGoals": "🎯 Outstanding season with {goals} goals! [EN]",
-      "phenomenal": "💫 PHENOMENAL! {goals}G + {assists}A = {total} goal contributions - legendary! [EN]",
-      "playmakerMasterclass": "🎨 PLAYMAKER MASTERCLASS! {assists} assists - creativity personified! [EN]",
-      "spectacularGolacos": "🚀 SPECTACULAR SEASONS! {count} screamers - nominated for Goal of the Year! [EN]",
-      "strongContributions": "⚡ Strong season! {goals}G + {assists}A = {total} goal contributions. [EN]",
-      "wonderGoals": "⚡ Spectacular forward! {count} wonder goals this season! [EN]",
-      "worldClassGoals": "⭐ WORLD CLASS! {goals} goals - an incredible campaign! [EN]"
+      "aerialDominance": "🗼 HAVA HAKİMİYETİ! {count} kafa kafalı goller - gerçek bir hedef adam!",
+      "aerialDominant": "🗼 Havada dominant! {count} kafayla gol attı!",
+      "clutchPlayer": "🏆 DEBRİYAJ OYUNCU! {count} kazandıran goller - her zaman önemli olduğunda başarır!",
+      "completeForward": "🌟İLERİ TAMAMLAYIN! {goals}G + {assists}A = {total} hedefe katkı!",
+      "elitePlaymaking": "👑 {assists} asistleriyle elit oyun kuruculuk!",
+      "excellentGoals": "✨ {goals} golleriyle mükemmel gol atma sezonu!",
+      "legendaryGoals": "🔥 EFSANEVİ SEZON! {matches} maçlarında {goals} golleri - tarih kitaplarına geçecek bir gol!",
+      "longRangeThreat": "⚡ Uzun menzilli tehdit! {count} uzaktan gol!",
+      "longShotSpecialist": "🚀UZAK ATIŞ UZMANI! {count} ceza sahası dışından gol!",
+      "matchWinner": "💪 Maçın galibi! {count} belirleyici hedefler!",
+      "outstandingGoals": "🎯 {goals} golleriyle olağanüstü sezon!",
+      "phenomenal": "💫 FENOMEN! {goals}G + {assists}A = {total} gol katkıları - efsanevi!",
+      "playmakerMasterclass": "🎨 OYUNCU UZMANLIK SINIFI! {assists} asistleri - yaratıcılığın kişileşmesi!",
+      "spectacularGolacos": "🚀 MUHTEŞEM SEZONLAR! {count} çığlık atan oyuncular - Yılın Golü'ne aday gösterildi!",
+      "strongContributions": "⚡ Güçlü sezon! {goals}G + {assists}A = {total} hedefe katkı.",
+      "wonderGoals": "⚡ Muhteşem forvet! {count} bu sezon harika goller attı!",
+      "worldClassGoals": "⭐ DÜNYA STANDARTINDA! {goals} hedefleri - inanılmaz bir kampanya!"
     },
     "severity": {
-      "critical": "Critical [EN]",
-      "major": "Major [EN]",
-      "minor": "Minor [EN]",
-      "moderate": "Moderate [EN]"
+      "critical": "Kritik",
+      "major": "Ana",
+      "minor": "Küçük",
+      "moderate": "Ilıman"
     },
     "stat": {
-      "clinicalConversion": "🎯 Clinical finisher! Conversion rate of {rate}%. [EN]",
-      "exceptionalPassing": "🎯 Exceptional passing accuracy: {rate}% [EN]",
-      "xGElite": "🎯 CLINICAL FINISHER! Outperformed xG by {percent}% - elite efficiency! [EN]",
-      "xGGood": "🎯 Clinical finisher! Outperformed xG expectations by {percent}% [EN]"
+      "clinicalConversion": "🎯 Klinik bitirici! Dönüşüm oranı %{rate}.",
+      "exceptionalPassing": "🎯 Olağanüstü geçiş doğruluğu: {rate}%",
+      "xGElite": "🎯 KLİNİK SONLANDIRICI! xG'den %{percent} daha iyi performans - seçkin verimlilik!",
+      "xGGood": "🎯 Klinik bitirici! xG beklentilerini %{percent} oranında aştı"
     },
     "suspension": {
-      "redCard": "Received {count} red card(s) in {competition}. Will serve {count} match suspension in the upcoming season. [EN]"
+      "redCard": "{competition}'te {count} kırmızı kart(lar)ı alındı. Önümüzdeki sezon {count} maç cezasına çarptırılacak."
     },
     "tax": {
-      "choice_cooperate": "Cooperate fully [EN]",
-      "choice_fight": "Contest allegations [EN]",
-      "choice_settle": "Settle quietly [EN]",
-      "description": "Tax authorities are investigating your finances. This could get serious if not handled properly. [EN]",
-      "title": "Tax Investigation [EN]"
+      "choice_cooperate": "Tam işbirliği yapın",
+      "choice_fight": "Yarışma iddiaları",
+      "choice_settle": "Sessizce yerleş",
+      "description": "Vergi makamları mali durumunuzu araştırıyor. Doğru şekilde ele alınmazsa bu durum ciddileşebilir.",
+      "title": "Vergi Soruşturması"
     },
     "team": {
-      "title": "Team [EN]"
+      "title": "Takım"
     },
     "teammate": {
-      "choice_apologize": "Apologize [EN]",
-      "choice_escalate": "Escalate conflict [EN]",
-      "choice_stand": "Stand your ground [EN]",
-      "description": "Argument with a teammate heated up in the dressing room. Tension is high. [EN]",
-      "title": "Teammate Conflict [EN]"
+      "choice_apologize": "Özür dilemek",
+      "choice_escalate": "Çatışmayı tırmandırın",
+      "choice_stand": "Yerinizi koruyun",
+      "description": "Soyunma odasında takım arkadaşıyla tartışma alevlendi. Gerilim yüksek.",
+      "title": "Takım Arkadaşı Çatışması"
     },
     "teammateInteraction": {
-      "choice_bond": "Spend quality time together [EN]",
-      "choice_compete": "Suggest competitive challenge [EN]",
-      "choice_professional": "Keep it professional [EN]",
-      "description": "A teammate invites you out after training. Could strengthen the bond. [EN]",
-      "title": "Teammate Interaction [EN]"
+      "choice_bond": "Birlikte kaliteli zaman geçirin",
+      "choice_compete": "Rekabetçi meydan okuma önerin",
+      "choice_professional": "Profesyonel tutun",
+      "description": "Bir takım arkadaşınız antrenmandan sonra sizi dışarı davet ediyor. Bağı güçlendirebilir.",
+      "title": "Takım Arkadaşı Etkileşimi"
     },
     "training": {
-      "title": "Training [EN]",
-      "completed": "Completed Training [EN]",
-      "minor_injury": "Minor injury during training [EN]"
+      "title": "Eğitim",
+      "completed": "Tamamlanan Eğitim",
+      "minor_injury": "Antrenman sırasında hafif yaralanma"
     },
     "trainingDecision": {
-      "choice_balanced": "Balanced approach [EN]",
-      "choice_extra": "Extra sessions every day [EN]",
-      "choice_rest": "Prioritize rest [EN]",
-      "description": "The manager is offering optional extra training sessions. How much effort do you want to dedicate? [EN]",
-      "title": "Training Decision [EN]"
+      "choice_balanced": "Dengeli yaklaşım",
+      "choice_extra": "Her gün ekstra seanslar",
+      "choice_rest": "Dinlenmeye öncelik verin",
+      "description": "Yönetici isteğe bağlı ekstra eğitim oturumları sunuyor. Ne kadar çaba harcamak istiyorsunuz?",
+      "title": "Eğitim Kararı"
     },
     "trait": {
-      "bigGamePlayer": "Proven track record in finals and crucial matches earned 'Big Game Player' trait. [EN]",
-      "clinicalFinisher": "A lethal season in front of goal earned 'Clinical Finisher' trait. [EN]",
-      "composure": "Ice-cold mentality in pressure situations earned 'Composure' trait. [EN]",
-      "discipline": "Exemplary conduct on pitch earned 'Discipline' trait. [EN]",
-      "dribblingWizard": "Mesmerizing dribbling displays earned 'Dribbling Wizard' trait. [EN]",
-      "engine": "Relentless pace all season earned 'Engine' trait. [EN]",
-      "injuryProne": "A worrying history of injuries resulted in 'Injury Prone' trait. [EN]",
-      "injuryProneLost": "Dedicated conditioning work overcame previous injury concerns. [EN]",
-      "leadership": "Developed into a natural leader, earning 'Leadership' trait. [EN]",
-      "oneClubMan": "Became a true club legend, earning 'One Club Man' trait after years of loyal service. [EN]",
-      "playmaker": "Orchestrated attacks all season, earning 'Playmaker' trait. [EN]",
-      "powerHeader": "Aerial dominance throughout the season earned 'Power Header' trait. [EN]",
-      "setpieceSpecialist": "Dominance in set-pieces earned 'Set-Piece Specialist' trait. [EN]",
-      "speedMerchant": "Impressive speed became trademark, earning 'Speedster' trait. [EN]",
-      "twoFooted": "Years of practice perfected weaker foot, earning 'Two-Footed' trait. [EN]",
-      "versatile": "Years playing in different roles earned 'Versatile' trait. [EN]",
-      "weakFootLost": "Practice significantly improved weaker foot. [EN]"
+      "bigGamePlayer": "Finallerde ve önemli maçlarda kanıtlanmış performansı, 'Büyük Oyuncu' özelliğini kazandırdı.",
+      "clinicalFinisher": "Kale önünde geçen ölümcül sezon, 'Klinik Bitirici' özelliğini kazandırdı.",
+      "composure": "Baskı durumlarında buz gibi zihniyet, 'Soğukkanlılık' özelliğini kazandı.",
+      "discipline": "Sahada örnek davranış, 'Disiplin' özelliğini kazandırdı.",
+      "dribblingWizard": "Büyüleyici top sürme, kazanılan 'Dribbling Sihirbazı' özelliğini gösterir.",
+      "engine": "Tüm sezon boyunca aralıksız tempo, 'Motor' özelliğini kazandı.",
+      "injuryProne": "Endişe verici bir yaralanma geçmişi 'Yaralanmaya Eğilimli' özelliğiyle sonuçlandı.",
+      "injuryProneLost": "Özel kondisyon çalışması önceki yaralanma endişelerinin üstesinden geldi.",
+      "leadership": "'Liderlik' özelliğini kazanan, doğal bir lider haline geldi.",
+      "oneClubMan": "Yıllar süren sadık hizmetin ardından 'Tek Kulüp Adamı' özelliğini kazanarak gerçek bir kulüp efsanesi haline geldi.",
+      "playmaker": "Tüm sezon boyunca planlanmış saldırılar, 'Oyun Kurucu' özelliğini kazandırır.",
+      "powerHeader": "Sezon boyunca hava hakimiyeti, 'Güç Başlığı' özelliğini kazandı.",
+      "setpieceSpecialist": "Duran toplardaki hakimiyet, 'Duran Top Uzmanı' özelliğini kazandırdı.",
+      "speedMerchant": "Etkileyici hız marka haline geldi ve 'Speedster' özelliğini kazandı.",
+      "twoFooted": "Yıllar süren pratik, zayıf ayağı mükemmelleştirdi ve 'İki Ayaklı' özelliğini kazandı.",
+      "versatile": "Farklı rollerde oynadığı yıllar 'Çok Yönlü' özelliğini kazandı.",
+      "weakFootLost": "Daha zayıf olan ayağınızı önemli ölçüde geliştirerek uygulayın."
     },
     "transfer": {
-      "ambitiousWantsMove": "Ambitious nature drives desire to compete at the highest level - wants transfer to a bigger club. [EN]",
-      "crisis": "💔 CRISIS! After {seasons} seasons with minimal playing time, the relationship with the club has deteriorated irreparably. Transfer is inevitable. [EN]",
-      "historicRival": "HISTORIC RIVAL [EN]",
-      "loanConversion": "Signed permanently by {team} after loan. Fee: £{fee}M [EN]",
-      "loaned": "Loaned to {team} for {duration} season(s). [EN]",
-      "loyalQuestioningFuture": "Despite loyalty, starting to question future at the club following lack of opportunities. [EN]",
-      "playerRequestedMove": "✈️ Player publicly requested transfer! After a season without movement, the club was forced to negotiate his exit. [EN]",
-      "playerWantsOut": "Player expressed desire to leave the club. Agent is exploring transfer options. [EN]",
-      "regular": "Transferred to {toTeam}. [EN]",
-      "rival": "RIVAL [EN]",
-      "rivalMove": "💥 HISTORIC TRANSFER! Swapped {fromTeam} for arch-rivals {toTeam}! The fans are furious! [EN]",
-      "signedFreeAgent": "Signed with {team} on a free transfer. [EN]",
-      "temperamentalOutburst": "Temperamental outburst! Demanded immediate transfer after training ground incident. [EN]",
-      "title": "Transfer [EN]",
-      "traitor": "TRAITOR [EN]",
-      "transferred": "Transferred to {team} for €{fee}M. [EN]",
+      "ambitiousWantsMove": "Hırslı doğası, en üst düzeyde rekabet etme arzusunu harekete geçirir; daha büyük bir kulübe transfer olmak ister.",
+      "crisis": "💔KRİZ! Minimum oyun süresine sahip {seasons} sezonlarının ardından kulüple ilişkiler onarılamaz bir şekilde kötüleşti. Transfer kaçınılmazdır.",
+      "historicRival": "TARİHİ RAKİP",
+      "loanConversion": "Ödünç alındıktan sonra {team} tarafından kalıcı olarak imzalandı. Ücret: £{fee}M",
+      "loaned": "{duration} sezonu için {team}'e kiralandı.",
+      "loyalQuestioningFuture": "Sadakatine rağmen fırsatların olmayışı nedeniyle kulüpte gelecek sorgulanmaya başlandı.",
+      "playerRequestedMove": "✈️ Oyuncu açıkça transfer talebinde bulundu! Hareketsiz geçen bir sezonun ardından kulüp, onun ayrılması için pazarlık yapmak zorunda kaldı.",
+      "playerWantsOut": "Oyuncu, kulüpten ayrılma isteğini dile getirdi. Temsilci transfer seçeneklerini araştırıyor.",
+      "regular": "{toTeam}'e aktarıldı.",
+      "rival": "RAKİP",
+      "rivalMove": "💥TARİHİ TRANSFER! {fromTeam}, ezeli rakipleri {toTeam} ile değiştirildi! Taraftarlar öfkeli!",
+      "signedFreeAgent": "{team} ile ücretsiz transferle imzalandı.",
+      "temperamentalOutburst": "Mizaç patlaması! Antrenman sahasındaki olaydan sonra derhal transfer talep edildi.",
+      "title": "Aktarım",
+      "traitor": "HAİN",
+      "transferred": "€{fee}M karşılığında {team}'e aktarıldı.",
       "homecoming": {
-        "originClub": "🏠 HOMECOMING! The prodigal son returns to {team}! An emotional return to where it all began. [EN]",
-        "homeCountry": "🏠 Returns to {country} football! Signed with {team} to continue career in home nation. [EN]",
-        "freeReturn": "🏠 FREE TRANSFER HOME! Returns to {team} on a free transfer, closing a beautiful chapter. [EN]"
+        "originClub": "🏠 EVE DÖNÜŞ! Müsrif oğul {team}'e geri dönüyor! Her şeyin başladığı yere duygusal bir dönüş.",
+        "homeCountry": "🏠 {country} futboluna geri dönüyor! Kariyerine kendi ülkesinde devam etmek için {team} ile anlaştı.",
+        "freeReturn": "🏠 EVE ÜCRETSİZ TRANSFER! Güzel bir bölümü kapatarak {team}'e ücretsiz transferle geri dönüyor."
       },
-      "retirementLeague": "✈️ NEW ADVENTURE! Signed with {team} in {country} for €{wage}K/week. A lucrative move to wind down an illustrious career. [EN]"
+      "retirementLeague": "✈️ YENİ MACERA! {country}'te {team} ile haftalık €{wage}K karşılığında imzalandı. Şanlı bir kariyeri sona erdirmek için kazançlı bir hamle."
     },
     "trophy": {
-      "clubWorldCup": "🏆 Club World Tournament Winners! [EN]",
-      "continental": "🏆 {competition} Winners! [EN]",
+      "clubWorldCup": "🏆 Kulüp Dünya Turnuvası Kazananları!",
+      "continental": "🏆 {competition} Kazananlar!",
       "continentalCupChampions": {
-        "brace": "🏆 {country} won the Continental Cup! Incredible performance with {goals} goals helped seal the victory! [EN]",
-        "crucialGoal": "🏆 {country} won the Continental Cup! Crucial goal in a hard-fought victory! [EN]",
-        "commandingDisplay": "🏆 {country} won the Continental Cup! A commanding display leading to a deserved win! [EN]",
-        "tenseBattle": "🏆 {country} won the Continental Cup! The team advances after a tense battle! [EN]",
-        "importantVictory": "🏆 {country} won the Continental Cup! An important team victory keeps the journey alive! [EN]"
+        "brace": "🏆 {country} Kıta Kupasını kazandı! {goals} golleriyle inanılmaz performans zaferin mühürlenmesine yardımcı oldu!",
+        "crucialGoal": "🏆 {country} Kıta Kupasını kazandı! Zorlu bir galibiyette kritik gol!",
+        "commandingDisplay": "🏆 {country} Kıta Kupasını kazandı! Hak edilmiş bir galibiyete yol açan etkileyici bir gösteri!",
+        "tenseBattle": "🏆 {country} Kıta Kupasını kazandı! Ekip gergin bir savaşın ardından ilerliyor!",
+        "importantVictory": "🏆 {country} Kıta Kupasını kazandı! Önemli bir takım zaferi yolculuğu canlı tutar!"
       },
-      "cup": "🏆 Cup Winners! [EN]",
-      "league": "🏆 League Champions with {team}! [EN]",
-      "nationsLeague": "🏆 Nations Tournament Winners! [EN]",
+      "cup": "🏆 Kupa Kazananları!",
+      "league": "🏆 {team} ile Lig Şampiyonları!",
+      "nationsLeague": "🏆 Uluslar Turnuvası Kazananları!",
       "nationsLeagueChampions": {
-        "brace": "🏆 NATIONS TOURNAMENT CHAMPIONS! {country} defeated {opponent}! Incredible performance with {goals} goals helped seal the victory! [EN]",
-        "crucialGoal": "🏆 NATIONS TOURNAMENT CHAMPIONS! {country} defeated {opponent}! Crucial goal in a hard-fought victory! [EN]",
-        "commandingDisplay": "🏆 NATIONS TOURNAMENT CHAMPIONS! {country} defeated {opponent}! A commanding display leading to a deserved win! [EN]",
-        "tenseBattle": "🏆 NATIONS TOURNAMENT CHAMPIONS! {country} defeated {opponent}! The team advances after a tense battle! [EN]",
-        "importantVictory": "🏆 NATIONS TOURNAMENT CHAMPIONS! {country} defeated {opponent}! An important team victory keeps the journey alive! [EN]"
+        "brace": "🏆 ULUSLAR TURNUVASI ŞAMPİYONLARI! {country}, {opponent}'i yendi! {goals} golleriyle inanılmaz performans zaferin mühürlenmesine yardımcı oldu!",
+        "crucialGoal": "🏆 ULUSLAR TURNUVASI ŞAMPİYONLARI! {country}, {opponent}'i yendi! Zorlu bir galibiyette kritik gol!",
+        "commandingDisplay": "🏆 ULUSLAR TURNUVASI ŞAMPİYONLARI! {country}, {opponent}'i yendi! Hak edilmiş bir galibiyete yol açan etkileyici bir gösteri!",
+        "tenseBattle": "🏆 ULUSLAR TURNUVASI ŞAMPİYONLARI! {country}, {opponent}'i yendi! Ekip gergin bir savaşın ardından ilerliyor!",
+        "importantVictory": "🏆 ULUSLAR TURNUVASI ŞAMPİYONLARI! {country}, {opponent}'i yendi! Önemli bir takım zaferi yolculuğu canlı tutar!"
       },
-      "won": "🏆 {competition} Winners! [EN]",
-      "wonYouth": "🏆 Won the Youth Competition! [EN]",
-      "worldCup": "🌍🏆 WORLD TOURNAMENT CHAMPIONS! A Legend is Born! [EN]",
-      "worldCupChampions": "🏆 {country} won the World Tournament! [EN]"
+      "won": "🏆 {competition} Kazananlar!",
+      "wonYouth": "🏆Gençlik Yarışmasını Kazandık!",
+      "worldCup": "🌍🏆 DÜNYA TURNUVASI ŞAMPİYONLARI! Bir Efsane Doğuyor!",
+      "worldCupChampions": "🏆 {country} Dünya Turnuvasını kazandı!"
     },
-    "urgentDecision": "⚠️ Urgent decision required! [EN]",
+    "urgentDecision": "⚠️ Acil karar gerekli!",
     "viral": {
-      "celebration": "Iconic celebration becomes a new internet trend. [EN]",
-      "charity": "Charity gesture widely praised on social media. [EN]",
-      "controversy": "Involved in viral controversy that divided opinions. [EN]",
-      "fashion": "Fashion choice at public event becomes a talking point. [EN]",
-      "gaming": "Gaming stream attracts huge audience and new fans. [EN]",
-      "goal": "Scored a spectacular goal that went viral on social media! [EN]",
+      "celebration": "İkonik kutlama yeni bir internet trendi haline geliyor.",
+      "charity": "Yardımseverlik jesti sosyal medyada büyük beğeni topladı.",
+      "controversy": "Fikirleri bölen viral tartışmalara karıştı.",
+      "fashion": "Halka açık bir etkinlikte moda seçimi bir konuşma konusu haline geliyor.",
+      "gaming": "Oyun akışı büyük izleyici kitlesinin ve yeni hayranların ilgisini çekiyor.",
+      "goal": "Sosyal medyada viral olan muhteşem gol!",
       "interview": {
-        "negative": "Controversial comments spark heated debate online. [EN]",
-        "positive": "Charismatic interview wins over fans and media. [EN]"
+        "negative": "Tartışmalı yorumlar internette hararetli tartışmalara yol açıyor.",
+        "positive": "Karizmatik röportaj hayranların ve medyanın beğenisini kazandı."
       },
-      "skill": "Incredible dribble shared by millions of fans. [EN]"
+      "skill": "Milyonlarca hayran tarafından paylaşılan inanılmaz top sürme."
     },
     "goals": {
-      "achieved": "🎯 Goal Achieved: {narrative} [EN]",
-      "newGoal": "🎯 New Goal Unlocked: {goal} [EN]"
+      "achieved": "🎯 Hedefe Ulaşıldı: {narrative}",
+      "newGoal": "🎯 Yeni Hedefin Kilidi Açıldı: {goal}"
     },
     "wcQualification": {
-      "description": "Your national team is competing for the World Tournament [EN]",
-      "title": "World Tournament Qualifiers [EN]"
+      "description": "Milli takımınız Dünya Turnuvası için yarışıyor",
+      "title": "Dünya Turnuvası Elemeleri"
     },
     "sponsorship": {
-      "title": "Sponsorship Deal [EN]",
-      "description": "A major sports brand wants to sign you as their face. The deal could be very lucrative, but it means more media obligations and less free time. [EN]",
-      "choice_big": "Sign the full deal [EN]",
-      "choice_small": "Accept limited partnership [EN]",
-      "choice_decline": "Stay focused on football [EN]"
+      "title": "Sponsorluk Anlaşması",
+      "description": "Büyük bir spor markası sizi yüzü olarak görmek istiyor. Anlaşma çok kazançlı olabilir ancak bu, daha fazla medya yükümlülüğü ve daha az boş zaman anlamına geliyor.",
+      "choice_big": "Anlaşmanın tamamını imzalayın",
+      "choice_small": "Sınırlı ortaklığı kabul et",
+      "choice_decline": "Futbola odaklanın"
     },
     "documentary": {
-      "title": "Documentary Offer [EN]",
-      "description": "A streaming platform wants to follow you with cameras for a behind-the-scenes documentary about your career. Could boost your brand massively. [EN]",
-      "choice_accept": "Full access, nothing to hide [EN]",
-      "choice_limited": "Limited access only [EN]",
-      "choice_decline": "No cameras, please [EN]"
+      "title": "Belgesel Teklifi",
+      "description": "Bir yayın platformu, kariyerinizle ilgili bir kamera arkası belgeseli için sizi kameralarla takip etmek istiyor. Markanızı büyük ölçüde artırabilir.",
+      "choice_accept": "Tam erişim, saklanacak bir şey yok",
+      "choice_limited": "Yalnızca sınırlı erişim",
+      "choice_decline": "Kamera yok lütfen"
     },
     "injuryComeback": {
-      "title": "Injury Recovery Decision [EN]",
-      "description": "You're recovering from an injury. The medical team says you need more time, but you feel ready. How do you approach your comeback? [EN]",
-      "choice_rush": "Push to return early [EN]",
-      "choice_patient": "Follow the rehab plan [EN]",
-      "choice_specialist": "Hire a private specialist [EN]"
+      "title": "Yaralanmanın İyileştirilmesi Kararı",
+      "description": "Bir sakatlığın ardından iyileşiyorsun. Sağlık ekibi daha fazla zamana ihtiyacın olduğunu söylüyor ama sen hazır hissediyorsun. Geri dönüşünüze nasıl yaklaşıyorsunuz?",
+      "choice_rush": "Erken dönmek için bastırın",
+      "choice_patient": "Rehabilitasyon planını takip edin",
+      "choice_specialist": "Özel bir uzman kiralayın"
     },
     "internationalCallup": {
-      "title": "International Call-Up [EN]",
-      "description": "The national team coach has included you in the squad for the upcoming international window. Your club manager is worried about fatigue. [EN]",
-      "choice_enthusiastic": "Can't wait to represent my country! [EN]",
-      "choice_cautious": "Go but manage my minutes [EN]",
-      "choice_decline": "Withdraw citing fitness concerns [EN]"
+      "title": "Uluslararası Çağrı",
+      "description": "Milli takım koçu sizi yaklaşan uluslararası pencere için kadroya dahil etti. Kulüp yöneticiniz yorgunluktan endişe ediyor.",
+      "choice_enthusiastic": "Ülkemi temsil etmek için sabırsızlanıyorum!",
+      "choice_cautious": "Git ama dakikalarımı yönet",
+      "choice_decline": "Fitness endişelerini öne sürerek geri çekilin"
     },
     "dressingRoom": {
-      "title": "Dressing Room Moment [EN]",
-      "description": "The team is going through a rough patch and the atmosphere in the dressing room is tense. As one of the senior players, everyone is looking at you. [EN]",
-      "choice_motivate": "Give an inspiring speech [EN]",
-      "choice_criticize": "Demand more from teammates [EN]",
-      "choice_quiet": "Stay quiet and lead by example [EN]"
+      "title": "Soyunma Odası Anı",
+      "description": "Takım zorlu bir süreçten geçiyor ve soyunma odasında gergin bir atmosfer var. Kıdemli oyunculardan biri olarak herkes sana bakıyor.",
+      "choice_motivate": "İlham verici bir konuşma yapın",
+      "choice_criticize": "Takım arkadaşlarından daha fazlasını talep edin",
+      "choice_quiet": "Sessiz kalın ve örnek olun"
     },
     "rivalProvocation": {
-      "title": "Rival Provocation [EN]",
-      "description": "A rival player has made provocative comments about you in a pre-match interview. The media is waiting for your response. [EN]",
-      "choice_fire_back": "Fire back in the media [EN]",
-      "choice_ignore": "Take the high road [EN]",
-      "choice_play": "Let my football do the talking [EN]"
+      "title": "Rakip Provokasyon",
+      "description": "Rakip bir oyuncu, maç öncesi röportajında ​​hakkınızda kışkırtıcı yorumlarda bulundu. Medya yanıtınızı bekliyor.",
+      "choice_fire_back": "Medyaya ateş açıldı",
+      "choice_ignore": "Yüksek yola çıkın",
+      "choice_play": "Bırakın futbolum konuşsun"
     },
     "academyVisit": {
-      "title": "Academy Visit [EN]",
-      "description": "Your club's youth academy has invited you to spend a day inspiring the next generation. The young players would love to train with you. [EN]",
-      "choice_full": "Spend the full day training with them [EN]",
-      "choice_brief": "Quick visit and photo session [EN]",
-      "choice_decline": "Too busy, maybe next time [EN]"
+      "title": "Akademi Ziyareti",
+      "description": "Kulübünüzün gençlik akademisi sizi gelecek nesle ilham veren bir gün geçirmeye davet etti. Genç oyuncular sizinle antrenman yapmak istiyor.",
+      "choice_full": "Tüm gün eğitiminizi onlarla geçirin",
+      "choice_brief": "Hızlı ziyaret ve fotoğraf çekimi",
+      "choice_decline": "Çok meşgul, belki bir dahaki sefere"
     },
     "fashionCollab": {
-      "title": "Fashion Collaboration [EN]",
-      "description": "A luxury fashion brand wants you to co-design a limited edition collection. Your agent says it could be huge for your personal brand. [EN]",
-      "choice_accept": "Sign the deal [EN]",
-      "choice_negotiate": "Try to negotiate better terms [EN]",
-      "choice_decline": "Not my thing [EN]"
+      "title": "Moda İşbirliği",
+      "description": "Lüks bir moda markası, sınırlı sayıda üretilen bir koleksiyonu birlikte tasarlamanızı istiyor. Temsilciniz bunun kişisel markanız için çok önemli olabileceğini söylüyor.",
+      "choice_accept": "Anlaşmayı imzala",
+      "choice_negotiate": "Daha iyi şartlar üzerinde pazarlık yapmayı deneyin",
+      "choice_decline": "Benim işim değil"
     },
     "gamingEndorsement": {
-      "title": "Gaming Endorsement [EN]",
-      "description": "A major gaming company wants you as their ambassador. They're offering a deal that includes appearing in their next game and streaming. [EN]",
-      "choice_accept": "Accept the ambassador role [EN]",
-      "choice_stream": "Go all-in and start streaming too [EN]",
-      "choice_decline": "Gaming isn't for me [EN]"
+      "title": "Oyun Onayı",
+      "description": "Büyük bir oyun şirketi sizi elçi olarak istiyor. Bir sonraki oyunlarında yer almayı ve yayın yapmayı içeren bir anlaşma teklif ediyorlar.",
+      "choice_accept": "Büyükelçi rolünü kabul edin",
+      "choice_stream": "Her şeyi bir arada yapın ve akışa da başlayın",
+      "choice_decline": "Oyun bana göre değil"
     },
     "communityCrisis": {
-      "title": "Community in Crisis [EN]",
-      "description": "Your local community has been hit by a natural disaster. People are looking to public figures like you for help and support. [EN]",
-      "choice_big": "Make a major donation [EN]",
-      "choice_awareness": "Use your platform to raise awareness [EN]",
-      "choice_silent": "Stay out of it [EN]"
+      "title": "Krizdeki Topluluk",
+      "description": "Yerel topluluğunuz doğal bir felaketten etkilendi. İnsanlar yardım ve destek için sizin gibi tanınmış kişilere bakıyor.",
+      "choice_big": "Büyük bir bağış yapın",
+      "choice_awareness": "Farkındalığı artırmak için platformunuzu kullanın",
+      "choice_silent": "Bunun dışında kal"
     }
   },
   "contractTermination": {
-    "alreadyTerminatedDesc": "You have already terminated a contract during this season. FIFA regulations prevent multiple contract terminations within the same registration period. [EN]",
-    "alreadyTerminatedTitle": "Already Terminated [EN]",
-    "back": "Back [EN]",
-    "blockedTitle": "Termination Blocked [EN]",
-    "cancel": "Cancel [EN]",
-    "club": "Current Club [EN]",
-    "confirmButton": "Confirm Termination [EN]",
-    "confirmQuestion": "Are you sure you want to terminate? [EN]",
-    "contractRemaining": "Contract Remaining [EN]",
-    "processing": "Processing... [EN]",
-    "simpleConsequenceDesc": "Unilaterally terminating your contract is a serious breach of professional obligations. [EN]",
-    "simpleConsequenceTitle": "Warning: Severe Consequences [EN]",
-    "subtitle": "Terminate your current contract to become a Free Agent [EN]",
-    "title": "Contract Termination [EN]",
-    "understood": "Understood [EN]",
-    "waitNextSeasonHint": "You must wait until next season to use this clause again. [EN]",
-    "warningFreeAgent": "You will become a Free Agent immediately [EN]",
-    "warningLessInterest": "Top clubs may be reluctant to sign you [EN]",
-    "warningLowerWages": "Future offers may have significantly lower wages [EN]",
-    "year": "year [EN]",
-    "years": "years [EN]",
-    "yearsAtClub": "Time at Club [EN]"
+    "alreadyTerminatedDesc": "Bu sezon sözleşmenizi zaten feshettiniz. FIFA düzenlemeleri, aynı kayıt dönemi içinde birden fazla sözleşmenin feshedilmesini engellemektedir.",
+    "alreadyTerminatedTitle": "Zaten Feshedildi",
+    "back": "Geri",
+    "blockedTitle": "Fesih Engellendi",
+    "cancel": "İptal etmek",
+    "club": "Mevcut Kulüp",
+    "confirmButton": "Fesih Onayı",
+    "confirmQuestion": "Sonlandırmak istediğinizden emin misiniz?",
+    "contractRemaining": "Kalan Sözleşme",
+    "processing": "İşleme...",
+    "simpleConsequenceDesc": "Sözleşmenizi tek taraflı olarak feshetmek mesleki yükümlülüklerin ciddi bir ihlalidir.",
+    "simpleConsequenceTitle": "Uyarı: Ciddi Sonuçlar",
+    "subtitle": "Serbest Temsilci olmak için mevcut sözleşmenizi feshedin",
+    "title": "Sözleşmenin Feshi",
+    "understood": "Anlaşıldı",
+    "waitNextSeasonHint": "Bu maddeyi tekrar kullanabilmek için gelecek sezona kadar beklemeniz gerekiyor.",
+    "warningFreeAgent": "Hemen Serbest Temsilci olacaksınız",
+    "warningLessInterest": "En iyi kulüpler sizinle sözleşme imzalamak konusunda isteksiz olabilir",
+    "warningLowerWages": "Gelecekteki teklifler önemli ölçüde daha düşük ücretlere sahip olabilir",
+    "year": "yıl",
+    "years": "yıllar",
+    "yearsAtClub": "Kulüpte Zaman"
   },
-  "debut": "Professional Debut [EN]",
+  "debut": "Profesyonel Başlangıç",
   "media": {
     "drought": {
       "assists": {
-        "1": "Creativity crisis? No assists in 5 games. [EN]",
-        "2": "Where is the final ball? Playmaker struggling. [EN]"
+        "1": "Yaratıcılık krizi mi? 5 maçta asist yapmadı",
+        "2": "Son top nerede? Oyun kurucu zorlanıyor."
       },
       "goals": {
-        "1": "Goal drought continues: 5 games without scoring. [EN]",
-        "2": "Striker firing blanks: Is confidence the issue? [EN]",
-        "3": "Ten games, zero goals. Crisis for number 9. [EN]",
+        "1": "Gol kuraklığı devam ediyor: 5 maç gol atmadan.",
+        "2": "Forvet boş yere ateş ediyor: Sorun güven mi?",
+        "3": "10 maç, sıfır gol. 9 numara için kriz.",
         "completed": "Tamamlandı"
       }
     },
     "fan": {
       "neg": {
-        "1": "Not good enough for this shirt. 😡 [EN]",
-        "2": "Waste of money. [EN]",
-        "3": "Bench him! [EN]",
-        "4": "Invisible today. [EN]",
-        "5": "My grandmother runs faster. [EN]",
-        "6": "Get out of my club! [EN]",
-        "7": "Disgraceful performance. [EN]"
+        "1": "Bu gömlek için yeterince iyi değil. 😡",
+        "2": "Para israfı.",
+        "3": "Onu kenara koyun!",
+        "4": "Bugün görünmez.",
+        "5": "Büyükannem daha hızlı koşar.",
+        "6": "Kulübümden çık!",
+        "7": "Utanç verici bir performans."
       },
       "neu": {
-        "1": "Average today. [EN]",
-        "2": "Needs to do more. [EN]",
-        "3": "Quiet game. [EN]",
-        "4": "Decent effort, lacking quality. [EN]",
-        "5": "Could be better. [EN]",
-        "6": "Nothing special. [EN]",
-        "7": "Meh. [EN]"
+        "1": "Bugün ortalama.",
+        "2": "Daha fazlasını yapması gerekiyor.",
+        "3": "Sessiz oyun.",
+        "4": "Yeterli çaba, kaliteden yoksun.",
+        "5": "Daha iyi olabilir.",
+        "6": "Özel bir şey yok.",
+        "7": "Meh."
       },
       "pos": {
-        "1": "What a player! 😍 [EN]",
-        "2": "World class! [EN]",
-        "3": "Build the statue now! [EN]",
-        "4": "Man of the match for sure. [EN]",
-        "5": "Incredible performance! [EN]",
-        "6": "Worth every penny! [EN]",
-        "7": "King of the pitch! 👑 [EN]",
-        "8": "Unstoppable! [EN]",
-        "9": "Magic! ✨ [EN]",
-        "10": "Top quality. [EN]"
+        "1": "Ne oyuncu! 😍",
+        "2": "Dünya standartlarında!",
+        "3": "Hemen heykeli inşa edin!",
+        "4": "Kesinlikle maçın adamı.",
+        "5": "İnanılmaz performans!",
+        "6": "Her kuruşa değer!",
+        "7": "Sahanın kralı! 👑",
+        "8": "Durdurulamaz!",
+        "9": "Büyü! ✨",
+        "10": "En kaliteli."
       }
     },
     "hater": {
       "shots": {
-        "1": "Overrated. [EN]",
-        "2": "One season wonder. [EN]",
-        "3": "Only scores tap-ins. [EN]",
-        "4": "Stat padder. [EN]",
-        "5": "Ghost in big games. [EN]",
-        "6": "Can't pass. [EN]",
-        "7": "Finished player. [EN]"
+        "1": "Abartılmış.",
+        "2": "Bir sezon harikası.",
+        "3": "Yalnızca dokunuşları puanlar.",
+        "4": "İstatistik dolgusu.",
+        "5": "Büyük oyunlarda hayalet.",
+        "6": "Geçemiyorum.",
+        "7": "Bitmiş oyuncu."
       }
     },
     "pundit": {
       "neg": {
-        "1": "Disappointing display. [EN]",
-        "2": "Failed to impact the game. [EN]",
-        "3": "Looked lost out there. [EN]",
-        "4": "Tactically undisciplined. [EN]",
-        "5": "Needs to work harder. [EN]"
+        "1": "Hayal kırıklığı yaratan görüntü.",
+        "2": "Oyunu etkilemek başarısız oldu.",
+        "3": "Orada kaybolmuş görünüyordu.",
+        "4": "Taktiksel olarak disiplinsiz.",
+        "5": "Daha çok çalışması gerekiyor."
       },
       "neu": {
-        "1": "Solid but unspectacular. [EN]",
-        "2": "Did the basics right. [EN]",
-        "3": "Kept things ticking over. [EN]",
-        "4": "Average performance. [EN]",
-        "5": "Quiet afternoon. [EN]"
+        "1": "Sağlam ama olağanüstü.",
+        "2": "Temelleri doğru yaptım.",
+        "3": "İşlerin ilerlemesini sağladım.",
+        "4": "Ortalama performans.",
+        "5": "Sessiz öğleden sonra."
       },
       "pos": {
-        "1": "Masterclass performance. [EN]",
-        "2": "Controlled the game perfectly. [EN]",
-        "3": "A joy to watch. [EN]",
-        "4": "Difference maker. [EN]",
-        "5": "Outstanding contribution. [EN]"
+        "1": "Masterclass performansı.",
+        "2": "Oyunu mükemmel bir şekilde kontrol etti.",
+        "3": "İzlemesi bir keyif.",
+        "4": "Fark yaratan.",
+        "5": "Olağanüstü katkı."
       }
     },
     "narrativeChange": {
-      "Prodigy": "The media narrative shifts to: 'Prodigy' [EN]",
-      "OntheRise": "The media narrative shifts to: 'On the Rise' [EN]",
-      "EstablishedStar": "The media narrative shifts to: 'Established Star' [EN]",
-      "UnderPressure": "The media narrative shifts to: 'Under Pressure' [EN]",
-      "Journeyman": "The media narrative shifts to: 'Journeyman' [EN]",
-      "VeteranLeader": "The media narrative shifts to: 'Veteran Leader' [EN]",
-      "VeteranStar": "The media narrative shifts to: 'Veteran Star' [EN]",
-      "VeteranRotation": "The media narrative shifts to: 'Veteran Rotation' [EN]",
-      "ForgottenMan": "The media narrative shifts to: 'Forgotten Man' [EN]",
-      "Flop": "The media narrative shifts to: 'Flop' [EN]",
-      "ComebackKid": "The media narrative shifts to: 'Comeback Kid' [EN]",
-      "CultHero": "The media narrative shifts to: 'Cult Hero' [EN]",
-      "HometownHero": "The media narrative shifts to: 'Hometown Hero' [EN]",
-      "PolarizingFigure": "The media narrative shifts to: 'Polarizing Figure' [EN]",
-      "PressDarling": "The media narrative shifts to: 'Press Darling' [EN]",
-      "SystemPlayer": "The media narrative shifts to: 'System Player' [EN]",
-      "InjuryComeback": "The media narrative shifts to: 'Injury Comeback' [EN]"
+      "Prodigy": "Medya anlatısı şu şekilde değişiyor: 'Dahi'",
+      "OntheRise": "Medya anlatısı şu şekilde değişiyor: 'Yükselişte'",
+      "EstablishedStar": "Medya anlatısı şu şekilde değişiyor: 'Kurulu Yıldız'",
+      "UnderPressure": "Medya anlatısı şu şekilde değişiyor: 'Baskı Altında'",
+      "Journeyman": "Medya anlatısı şu şekilde değişiyor: 'Yolcu'",
+      "VeteranLeader": "Medya anlatısı şu şekilde değişiyor: 'Kıdemli Lider'",
+      "VeteranStar": "Medya anlatısı şu şekilde değişiyor: 'Kıdemli Yıldız'",
+      "VeteranRotation": "Medya anlatısı şu şekilde değişiyor: 'Emekli Rotasyonu'",
+      "ForgottenMan": "Medya anlatısı şu şekilde değişiyor: 'Unutulmuş Adam'",
+      "Flop": "Medya anlatısı şu şekilde değişiyor: 'Flop'",
+      "ComebackKid": "Medya anlatısı şu şekilde değişiyor: 'Geri Dönüş Çocuğu'",
+      "CultHero": "Medya anlatısı şu şekilde değişiyor: 'Kült Kahraman'",
+      "HometownHero": "Medya anlatısı şu şekilde değişiyor: 'Memleket Kahramanı'",
+      "PolarizingFigure": "Medya anlatısı şu şekilde değişiyor: 'Kutuplaştırıcı Şekil'",
+      "PressDarling": "Medya anlatısı şu şekilde değişiyor: 'Basın Sevgilim'",
+      "SystemPlayer": "Medya anlatımı şu şekilde değişiyor: 'Sistem Oynatıcısı'",
+      "InjuryComeback": "Medya anlatısı şu şekilde değişiyor: 'Sakatlığın Geri Dönüşü'"
     }
   },
   "mediaNarrative": {
     "ComebackKid": {
-      "quote1": "How does it feel to be back at the top after so many doubts? [EN]",
-      "quote2": "The fans never stopped believing. What does their support mean to you? [EN]",
-      "quote3": "Is this the start of a second peak for your career? [EN]",
-      "name": "Comeback Kid [EN]",
-      "description": "Praised for defying the odds to return to form. [EN]"
+      "quote1": "Bu kadar şüpheden sonra tekrar zirveye çıkmak nasıl bir duygu?",
+      "quote2": "Taraftarlar inanmaktan asla vazgeçmediler. Onların desteği sizin için ne ifade ediyor?",
+      "quote3": "Bu kariyeriniz için ikinci bir zirvenin başlangıcı mı?",
+      "name": "Geri Dönüş Çocuğu",
+      "description": "Forma dönme ihtimaline meydan okuduğu için övüldü."
     },
     "CultHero": {
-      "quote1": "The connection you have with this club is unique. Can you explain it? [EN]",
-      "quote2": "You've become a symbol for the fans. Does that add extra pressure? [EN]",
-      "quote3": "What makes this particular club feel like home for you? [EN]",
-      "name": "Cult Hero [EN]",
-      "description": "Adored by the fanbase for his unique connection with the club. [EN]"
+      "quote1": "Bu kulüple aranızdaki bağ benzersizdir. Açıklayabilir misin?",
+      "quote2": "Hayranların sembolü oldun. Bu ekstra baskı yaratıyor mu?",
+      "quote3": "Bu özel kulübü sizin için evinizdeymiş gibi hissettiren şey nedir?",
+      "name": "Kült Kahraman",
+      "description": "Kulüple olan benzersiz bağlantısı nedeniyle hayran kitlesi tarafından çok beğenildi."
     },
     "EstablishedStar": {
-      "quote1": "As one of the league's top stars, what are your goals this season? [EN]",
-      "quote2": "Many young players look up to you. How do you handle that role? [EN]",
-      "quote3": "Do you feel any extra pressure to perform in the big games? [EN]",
-      "name": "Established Star [EN]",
-      "description": "Recognized as an elite performer at the peak of his powers. [EN]"
+      "quote1": "Ligin en iyi yıldızlarından biri olarak bu sezon hedefleriniz neler?",
+      "quote2": "Birçok genç oyuncu sana hayranlık duyuyor. Bu rolü nasıl üstleniyorsunuz?",
+      "quote3": "Büyük maçlarda performans sergilemek için ekstra bir baskı hissediyor musunuz?",
+      "name": "Kurulan Yıldız",
+      "description": "Gücünün zirvesinde olan elit bir sanatçı olarak tanınıyor."
     },
     "Flop": {
-      "quote1": "Critics have been harsh. Do you feel you've had a fair chance? [EN]",
-      "quote2": "What would you say to those who labeled you a transfer failure? [EN]",
-      "quote3": "How are you working to turn your fortunes around at the club? [EN]",
-      "name": "Flop [EN]",
-      "description": "Labeled a significant transfer market failure by critics. [EN]"
+      "quote1": "Eleştirmenler sert oldu. Adil bir şansın olduğunu düşünüyor musun?",
+      "quote2": "Seni transfer başarısızı olarak etiketleyenlere ne söylersin?",
+      "quote3": "Kulüpte kaderinizi tersine çevirmek için nasıl çalışıyorsunuz?",
+      "name": "Başarısızlık",
+      "description": "Eleştirmenler tarafından önemli bir transfer piyasası başarısızlığı olarak etiketlendi."
     },
     "ForgottenMan": {
-      "quote1": "It's been a while since we've seen you on the pitch. How are you feeling? [EN]",
-      "quote2": "Do you feel you still have a future under this management? [EN]",
-      "quote3": "Are you considering a move to get more playing time elsewhere? [EN]",
-      "name": "Forgotten Man [EN]",
-      "description": "Struggling for minutes and largely ignored by the manager. [EN]"
+      "quote1": "Seni sahada görmeyeli uzun zaman oldu. Nasıl hissediyorsun?",
+      "quote2": "Bu yönetim altında hâlâ bir geleceğinizin olduğunu düşünüyor musunuz?",
+      "quote3": "Başka bir yerde daha fazla oyun süresi elde etmek için bir hamle yapmayı düşünüyor musunuz?",
+      "name": "Unutulmuş Adam",
+      "description": "Dakikalarca uğraşılıyor ve yönetici tarafından büyük ölçüde görmezden geliniyor."
     },
     "HometownHero": {
-      "quote1": "Representing your hometown must be special. How is the feeling? [EN]",
-      "quote2": "You're a role model for local kids. What is your message to them? [EN]",
-      "quote3": "Do you see yourself staying here for the long term? [EN]",
-      "name": "Hometown Hero [EN]",
-      "description": "Celebrated as a local success story representing his community. [EN]"
+      "quote1": "Memleketinizi temsil etmek özel olmalı. Duygu nasıl?",
+      "quote2": "Yerel çocuklara rol model oluyorsunuz. Onlara mesajınız nedir?",
+      "quote3": "Uzun vadede burada kalmayı düşünüyor musun?",
+      "name": "Memleket Kahramanı",
+      "description": "Topluluğunu temsil eden yerel bir başarı öyküsü olarak kutlandı."
     },
     "InjuryComeback": {
-      "quote1": "It's been a long recovery. How physically ready do you feel? [EN]",
-      "quote2": "What was the hardest part about being away from the pitch? [EN]",
-      "quote3": "Are you taking extra precautions to avoid another setback? [EN]",
-      "name": "Injury Comeback [EN]",
-      "description": "Focus is on his return to fitness after a long layoff. [EN]"
+      "quote1": "Uzun bir iyileşme oldu. Fiziksel olarak ne kadar hazır hissediyorsunuz?",
+      "quote2": "Sahadan uzak olmanın en zor kısmı neydi?",
+      "quote3": "Başka bir aksiliği önlemek için ekstra önlemler alıyor musunuz?",
+      "name": "Yaralanma Geri Dönüşü",
+      "description": "Uzun bir aradan sonra kondisyona dönüşüne odaklanılıyor."
     },
     "Journeyman": {
-      "quote1": "You've played in many places. How do you adapt so quickly? [EN]",
-      "quote2": "What's the most valuable lesson you've learned from your travels? [EN]",
-      "quote3": "Are you looking for more stability, or do you enjoy the variety? [EN]",
-      "name": "Journeyman [EN]",
-      "description": "Seen as an experienced traveler of the football world. [EN]"
+      "quote1": "Birçok yerde oynadınız. Nasıl bu kadar çabuk adapte oluyorsunuz?",
+      "quote2": "Seyahatlerinizden öğrendiğiniz en değerli ders nedir?",
+      "quote3": "Daha fazla istikrar mı arıyorsunuz yoksa çeşitlilikten mi hoşlanıyorsunuz?",
+      "name": "Kalfa",
+      "description": "Futbol dünyasının deneyimli bir gezgini olarak görülüyor."
     },
     "OntheRise": {
-      "quote1": "Your performance has caught everyone's eye. How are you handling the hype? [EN]",
-      "quote2": "Many big clubs are reportedly watching you. Does that distract you? [EN]",
-      "quote3": "What's the next step in your development as a player? [EN]",
-      "name": "On the Rise [EN]",
-      "description": "Identified as one of the hottest prospects in the league. [EN]"
+      "quote1": "Performansınız herkesin dikkatini çekti. Bu heyecanla nasıl baş ediyorsunuz?",
+      "quote2": "Birçok büyük kulübün sizi izlediği söyleniyor. Bu dikkatinizi dağıtıyor mu?",
+      "quote3": "Bir oyuncu olarak gelişiminizin bir sonraki adımı nedir?",
+      "name": "Yükselişte",
+      "description": "Ligin en sıcak adaylarından biri olarak tanımlanıyor."
     },
     "PolarizingFigure": {
-      "quote1": "You seem to split opinion. Why do you think that is? [EN]",
-      "quote2": "Does the criticism you receive affect your game at all? [EN]",
-      "quote3": "Do you feel misunderstood by the media and the public? [EN]",
-      "name": "Polarizing Figure [EN]",
-      "description": "A divisive figure who splits opinion among experts and fans. [EN]"
+      "quote1": "Görüşleri bölüyor gibisin. Sizce neden öyle?",
+      "quote2": "Aldığınız eleştiriler oyununuzu etkiliyor mu?",
+      "quote3": "Medya ve halk tarafından yanlış anlaşıldığınızı mı düşünüyorsunuz?",
+      "name": "Polarize Şekil",
+      "description": "Uzmanlar ve hayranlar arasında fikir ayrılıklarına yol açan bölücü bir figür."
     },
     "PressDarling": {
-      "quote1": "The media seems to love you. Does that help your confidence? [EN]",
-      "quote2": "You're always in the headlines for good reasons. What's the secret? [EN]",
-      "quote3": "How important is it for a player to maintain a good image? [EN]",
-      "name": "Press Darling [EN]",
-      "description": "Enjoying a very favorable relationship with the media. [EN]"
+      "quote1": "Medya seni seviyor gibi görünüyor. Bu kendinize olan güveninize yardımcı oluyor mu?",
+      "quote2": "İyi sebeplerden dolayı her zaman manşetlerdesin. İşin sırrı nedir?",
+      "quote3": "Bir oyuncunun iyi bir imaja sahip olması ne kadar önemlidir?",
+      "name": "Basın Sevgilim",
+      "description": "Medyayla çok olumlu bir ilişkimiz var."
     },
     "Prodigy": {
-      "quote1": "Being called a 'prodigy' at such a young age—how does it feel? [EN]",
-      "quote2": "Expectations are sky-high. Can you live up to the 'generational' label? [EN]",
-      "quote3": "What is your main focus as you start this promising career? [EN]",
-      "name": "Prodigy [EN]",
-      "description": "Labeled as a generational talent by major outlets. [EN]"
+      "quote1": "Bu kadar genç yaşta 'dahi' olarak anılmak nasıl bir duygu?",
+      "quote2": "Beklentiler tavan yapmış durumda. 'Nesil' etiketine uygun yaşayabilir misiniz?",
+      "quote3": "Gelecek vaat eden bu kariyere başlarken ana odak noktanız nedir?",
+      "name": "Dahi",
+      "description": "Büyük satış noktaları tarafından nesillerin yeteneği olarak etiketlendi."
     },
     "SystemPlayer": {
-      "quote1": "You fit this system perfectly. Are you worried about other tactics? [EN]",
-      "quote2": "Some say you only look this good because of the setup. Reactions? [EN]",
-      "quote3": "Can you adapt your game if the manager changes the approach? [EN]",
-      "name": "System Player [EN]",
-      "description": "Questions remain if he can perform outside this specific tactical setup. [EN]"
+      "quote1": "Bu sisteme mükemmel uyum sağladınız. Diğer taktikler konusunda endişeleniyor musunuz?",
+      "quote2": "Bazıları sadece düzen yüzünden bu kadar iyi göründüğünü söylüyor. Tepkiler mi?",
+      "quote3": "Teknik direktör yaklaşımı değiştirirse oyununuzu uyarlayabilir misiniz?",
+      "name": "Sistem Oynatıcısı",
+      "description": "Bu özel taktik kurulumun dışında performans gösterip gösteremeyeceği konusunda soru işaretleri var."
     },
     "UnderPressure": {
-      "quote1": "Performances haven't been at your usual level. What's going on? [EN]",
-      "quote2": "The fans are starting to get restless. Do you feel you're being treated fairly? [EN]",
-      "quote3": "How do you plan to silence the critics in the upcoming matches? [EN]",
-      "name": "Under Pressure [EN]",
-      "description": "Scrutinized heavily by critics due to recent performances. [EN]"
+      "quote1": "Performanslar her zamanki seviyede değil. Neler oluyor?",
+      "quote2": "Taraftarlar huzursuz olmaya başladı. Size adil davranıldığını düşünüyor musunuz?",
+      "quote3": "Önümüzdeki maçlarda eleştirmenleri nasıl susturmayı planlıyorsunuz?",
+      "name": "Baskı Altında",
+      "description": "Son performansları nedeniyle eleştirmenler tarafından yoğun bir şekilde incelendi."
     },
     "VeteranLeader": {
-      "quote1": "Your experience is vital for this young squad. How do you lead them? [EN]",
-      "quote2": "How much longer do you see yourself playing at this high level? [EN]",
-      "quote3": "What is the most important advice you give to the young players? [EN]",
-      "name": "Veteran Leader [EN]",
-      "description": "Highlighted for his leadership qualities and dressing room influence. [EN]"
+      "quote1": "Tecrübeniz bu genç kadro için hayati önem taşıyor. Onlara nasıl liderlik ediyorsunuz?",
+      "quote2": "Kendinizi daha ne kadar bu yüksek seviyede oynarken görüyorsunuz?",
+      "quote3": "Genç oyunculara vereceğiniz en önemli tavsiye nedir?",
+      "name": "Kıdemli Lider",
+      "description": "Liderlik nitelikleri ve soyunma odasındaki etkisi ile öne çıktı."
     },
     "VeteranRotation": {
-      "name": "Veteran Rotation [EN]",
-      "description": "Experienced veteran providing reliable depth and leadership in rotation. [EN]",
-      "quote1": "You've moved into a rotation role. How do you maintain your sharpness between games? [EN]",
-      "quote2": "Your experience is vital for the squad. How are you helping the younger players? [EN]",
-      "quote3": "Are you happy with your current role, or do you still feel you should be starting? [EN]"
+      "name": "Kıdemli Rotasyonu",
+      "description": "Rotasyonda güvenilir derinlik ve liderlik sağlayan deneyimli emektar.",
+      "quote1": "Bir rotasyon rolüne geçtiniz. Oyunlar arasında keskinliğinizi nasıl koruyorsunuz?",
+      "quote2": "Deneyiminiz takım için hayati önem taşıyor. Genç oyunculara nasıl yardımcı oluyorsunuz?",
+      "quote3": "Şu anki pozisyonunuzdan memnun musunuz, yoksa hala başlamanız gerektiğini mi düşünüyorsunuz?"
     },
     "VeteranStar": {
-      "name": "Veteran Star [EN]",
-      "description": "Elite veteran continuing to deliver star-level performances. [EN]",
-      "quote1": "You're still outperforming players half your age. What's the secret to your longevity? [EN]",
-      "quote2": "Many expected you to decline, yet you're playing some of your best football. How? [EN]",
-      "quote3": "As a veteran star, do you feel more responsibility in the big moments? [EN]"
+      "name": "Kıdemli Yıldız",
+      "description": "Elit emektar, yıldız düzeyinde performanslar sunmaya devam ediyor.",
+      "quote1": "Hala senin yarı yaşındaki oyunculardan daha iyi performans gösteriyorsun. Uzun yaşamanızın sırrı nedir?",
+      "quote2": "Çoğu kişi senin reddetmeni bekliyordu ama sen en iyi futbolunu oynuyorsun. Nasıl?",
+      "quote3": "Kıdemli bir yıldız olarak büyük anlarda daha fazla sorumluluk hissediyor musunuz?"
     }
   },
   "news": {
-    "retirement": "Retirement Announcement [EN]",
-    "toty": "Team of the Year Announced [EN]",
-    "transfer": "Transfer News [EN]"
+    "retirement": "Emeklilik Duyurusu",
+    "toty": "Yılın Takımı Açıklandı",
+    "transfer": "Transfer Haberleri"
   },
   "performance": {
-    "below_expectations": "Below Expectations [EN]",
-    "excellent_season": "Excellent Season [EN]",
-    "outstanding_season": "Outstanding Season [EN]"
+    "below_expectations": "Beklentilerin Altında",
+    "excellent_season": "Mükemmel Sezon",
+    "outstanding_season": "Olağanüstü Sezon"
   },
   "progression": {
-    "age_decline": "Age Decline [EN]",
-    "exceptional_development": "Exceptional Development [EN]",
-    "maintained_fitness": "Maintained Fitness [EN]",
-    "physical_decline": "Physical Decline [EN]",
-    "strong_development": "Strong Development [EN]",
-    "struggled_development": "Struggled Development [EN]"
+    "age_decline": "Yaş Düşüşü",
+    "exceptional_development": "Olağanüstü Gelişim",
+    "maintained_fitness": "Sürdürülebilir Fitness",
+    "physical_decline": "Fiziksel Düşüş",
+    "strong_development": "Güçlü Gelişim",
+    "struggled_development": "Zorluklarla Mücadele Edilen Kalkınma"
   },
   "reactions": {
     "business": {
       "invest": {
-        "headline1": "Player Invests in Local Business [EN]"
+        "headline1": "Oyuncu Yerel İşletmeye Yatırım Yapıyor"
       }
     },
     "interview": {
       "diplomatic": {
-        "headline1": "Diplomatic Response Calms Tensions [EN]"
+        "headline1": "Diplomatik Tepki Gerginliği Yatıştırdı"
       },
       "honest": {
-        "fan1": "Love the honesty! 👏 [EN]",
-        "fan2": "Finally someone speaks the truth. [EN]",
-        "headline1": "Player Speaks Truth in Explosive Interview [EN]",
-        "headline2": "Honest comments spark debate [EN]"
+        "fan1": "Dürüstlüğü seviyorum! 👏",
+        "fan2": "Sonunda biri doğruyu söylüyor.",
+        "headline1": "Oyuncu Patlayıcı Röportajda Gerçeği Konuşuyor",
+        "headline2": "Dürüst yorumlar tartışma yarattı"
       },
       "refuse": {
-        "headline1": "Player Storms Out of Interview [EN]"
+        "headline1": "Oyuncu Röportajdan Çıktı"
       }
     },
     "media_interview": {
       "confident": {
-        "fan1": "That's the confidence we need! 💪 [EN]",
-        "headline1": "Confident Player Ready for Challenge [EN]"
+        "fan1": "İhtiyacımız olan güven bu! 💪",
+        "headline1": "Kendine Güvenen Oyuncu Mücadeleye Hazır"
       },
       "humble": {
-        "fan1": "So humble despite the talent. ❤️ [EN]",
-        "headline1": "Humble Player Praises Teammates [EN]"
+        "fan1": "Yeteneğine rağmen çok mütevazı. ❤️",
+        "headline1": "Mütevazi Oyuncu Takım Arkadaşlarını Övdü"
       }
     },
     "mentor": {
       "accept": {
-        "fan1": "Great role model for the kids! [EN]",
-        "headline1": "Player Takes Youth Under Wing [EN]"
+        "fan1": "Çocuklara harika bir rol model!",
+        "headline1": "Oyuncu Gençliği Kanat Altına Aldı"
       }
     },
     "nightclub": {
       "apologize": {
-        "fan1": "Apology accepted. Move on. [EN]",
-        "headline1": "Player Apologizes for Night out [EN]"
+        "fan1": "Özür kabul edildi. Devam et.",
+        "headline1": "Oyuncu Gece Dışarı Çıktığı İçin Özür Diledi"
       },
       "blame": {
-        "fan1": "Always blaming others... 😒 [EN]",
-        "headline1": "Player Denies Responsibility in Nightclub Row [EN]",
-        "headline2": "Witnesses Contradict Player Statement [EN]"
+        "fan1": "Hep başkalarını suçluyor... 😒",
+        "headline1": "Oyuncu Gece Kulübü Sırasında Sorumluluğu Reddetti",
+        "headline2": "Tanıklar Oyuncunun İfadesiyle Çelişiyor"
       }
     },
     "outburst": {
       "delete": {
-        "fan1": "Screenshot lasts forever! 😂 [EN]",
-        "headline1": "Player Deletes Controversial Tweet [EN]"
+        "fan1": "Ekran görüntüsü sonsuza kadar sürer! 😂",
+        "headline1": "Oyuncu Tartışmalı Tweeti Siliyor"
       },
       "double_down": {
-        "fan1": "He's not backing down! 🍿 [EN]",
-        "fan2": "This is getting embarrassing... [EN]",
-        "headline1": "Player Defends Controversial Comments [EN]",
-        "headline2": "Social Media Storm Intensifies [EN]"
+        "fan1": "Geri adım atmıyor! 🍿",
+        "fan2": "Bu utanç verici olmaya başladı...",
+        "headline1": "Oyuncu Tartışmalı Yorumları Savundu",
+        "headline2": "Sosyal Medya Fırtınası Şiddetleniyor"
       }
     },
     "relationship": {
       "private": {
-        "fan1": "Right to privacy. Respect. [EN]"
+        "fan1": "Gizlilik hakkı. Saygı."
       },
       "public": {
-        "fan1": "Couple goals! 😍 [EN]",
-        "fan2": "Who cares? Play football. [EN]",
-        "headline1": "Player Goes Public with Relationship [EN]"
+        "fan1": "Çift gol! 😍",
+        "fan2": "Kimin umurunda? Futbol oyna.",
+        "headline1": "Oyuncu İlişkiyle Halka Açıklaşıyor"
       }
     },
     "tax": {
       "cooperate": {
-        "headline1": "Player Cooperates with Authorities [EN]"
+        "headline1": "Oyuncu Yetkililerle İşbirliği Yapıyor"
       },
       "fight": {
-        "fan1": "Fight the system! ✊ [EN]",
-        "headline1": "Player Contests Tax Allegations [EN]"
+        "fan1": "Sisteme karşı savaşın! ✊",
+        "headline1": "Oyuncu Yarışmaları Vergi İddiaları"
       },
       "settle": {
-        "headline1": "Tax Case Settled out of Court [EN]"
+        "headline1": "Vergi Davası Mahkemeden Çözüldü"
       }
     },
     "transfer": {
-      "agitation_1": "unsettled at club [EN]",
-      "agitation_2": "pushing for move [EN]",
-      "agitation_3": "demands transfer [EN]",
-      "warning_1": "Club Warning [EN]",
-      "warning_2": "Final Warning [EN]",
-      "warning_3": "Disciplinary Action [EN]"
+      "agitation_1": "kulüpte huzursuz",
+      "agitation_2": "hareket için bastırıyor",
+      "agitation_3": "transfer talep ediyor",
+      "warning_1": "Kulüp Uyarısı",
+      "warning_2": "Son Uyarı",
+      "warning_3": "Disiplin Cezası"
     }
   },
   "retirement": {
     "future": {
-      "academy": "Youth Academy Director [EN]",
-      "ambassador": "Club Ambassador [EN]",
-      "coaching": "Coaching Staff [EN]",
-      "outside_football": "Life Outside Football [EN]",
-      "punditry": "Media Punditry [EN]"
+      "academy": "Gençlik Akademisi Direktörü",
+      "ambassador": "Kulüp Elçisi",
+      "coaching": "Koçluk Personeli",
+      "outside_football": "Futbolun Dışındaki Yaşam",
+      "punditry": "Medya Uzmanlığı"
     },
     "reason": {
-      "injury": "Recurring Injury [EN]"
+      "injury": "Tekrarlayan Yaralanma"
     },
     "tribute": {
-      "defied_time": "Defied Time [EN]",
-      "early_injury": "Career Cut Short [EN]",
-      "great_injury": "Tragic End to Greatness [EN]",
-      "icon": "Football Icon [EN]",
-      "journeyman": "Football Traveller [EN]",
-      "legend": "Club Legend [EN]",
-      "professional": "Model Professional [EN]",
-      "star": "Star Player [EN]",
-      "unfortunate_end": "Unfortunate Ending [EN]",
-      "very_early_injury": "Heartbreaking Early Retirement [EN]"
+      "defied_time": "Meydan Okunan Zaman",
+      "early_injury": "Kariyer Kısa Kesim",
+      "great_injury": "Büyüklüğün Trajik Sonu",
+      "icon": "Futbol Simgesi",
+      "journeyman": "Futbol Gezgini",
+      "legend": "Kulüp Efsanesi",
+      "professional": "Model Profesyoneli",
+      "star": "Yıldız Oyuncu",
+      "unfortunate_end": "Talihsiz Son",
+      "very_early_injury": "Yürek parçalayan erken emeklilik"
     }
   },
   "social": {
-    "socialMedia": "Social Media [EN]",
-    "viewComments": "View Comments [EN]",
-    "engagement": "Engagement [EN]",
-    "viralMoments": "{count} Viral Moments! [EN]",
-    "recentComments": "Recent Comments [EN]",
-    "followers": "Followers [EN]",
-    "growth": "Growth [EN]",
-    "noNews": "No recent news [EN]",
-    "noSponsors": "No active sponsors [EN]",
-    "pendingOffers": "{count} pending offers [EN]",
-    "publicComments": "Public Comments [EN]",
-    "noComments": "No comments yet [EN]",
-    "reply": "Reply [EN]",
-    "pressInterview": "Press Interview [EN]",
-    "selectQuestion": "Select a question to answer [EN]",
-    "viewInterview": "View Interview results [EN]",
-    "newsFeed": "News Feed [EN]",
-    "recentHeadlines": "Recent Headlines [EN]",
-    "seasonWeek": "Season {season}, Week {week} [EN]",
-    "homeCountry": "Home Country Popularity [EN]",
-    "currentCountry": "Current Country Popularity [EN]",
-    "globalRating": "Global Rating [EN]",
-    "fans": "Fans [EN]",
-    "press": "Press [EN]",
-    "popularity": "Popularity [EN]",
-    "relationships": "Relationships [EN]",
-    "sponsors": "Sponsors [EN]",
-    "totalSponsorIncome": "Total Weekly Income [EN]",
-    "contractUntil": "Contract until {season} [EN]",
-    "totalSponsors": "{count} sponsors [EN]",
-    "perWeek": "/week [EN]",
-    "noSponsorsYet": "No sponsors yet [EN]",
-    "teamChemistry": "Team Chemistry [EN]",
+    "socialMedia": "Sosyal Medya",
+    "viewComments": "Yorumları Görüntüle",
+    "engagement": "Nişanlanmak",
+    "viralMoments": "{count} Viral Anlar!",
+    "recentComments": "Son Yorumlar",
+    "followers": "Takipçiler",
+    "growth": "Büyüme",
+    "noNews": "Yeni haber yok",
+    "noSponsors": "Aktif sponsor yok",
+    "pendingOffers": "{count} bekleyen teklifler",
+    "publicComments": "Herkese Açık Yorumlar",
+    "noComments": "Henüz yorum yok",
+    "reply": "Cevap vermek",
+    "pressInterview": "Basın Röportajı",
+    "selectQuestion": "Cevaplamak için bir soru seçin",
+    "viewInterview": "Mülakat sonuçlarını görüntüle",
+    "newsFeed": "Haber Akışı",
+    "recentHeadlines": "Son Başlıklar",
+    "seasonWeek": "{season} Sezonu, {week} Haftası",
+    "homeCountry": "Bulunduğunuz Ülke Popülerliği",
+    "currentCountry": "Mevcut Ülke Popülerliği",
+    "globalRating": "Küresel Derecelendirme",
+    "fans": "Hayranlar",
+    "press": "Basmak",
+    "popularity": "Popülerlik",
+    "relationships": "İlişkiler",
+    "sponsors": "Sponsorlar",
+    "totalSponsorIncome": "Toplam Haftalık Gelir",
+    "contractUntil": "{season}'e kadar sözleşme",
+    "totalSponsors": "{count} sponsorları",
+    "perWeek": "/hafta",
+    "noSponsorsYet": "Henüz sponsor yok",
+    "teamChemistry": "Takım Kimyası",
     "level": {
-      "unknown": "Unknown [EN]",
-      "local": "Local Hero [EN]",
-      "regional": "Regional Star [EN]",
-      "national": "National Icon [EN]",
-      "continental": "Continental Superstar [EN]",
-      "global": "Global Legend [EN]",
-      "legend": "Living Legend [EN]"
+      "unknown": "Bilinmiyor",
+      "local": "Yerel Kahraman",
+      "regional": "Bölgesel Yıldız",
+      "national": "Ulusal Simge",
+      "continental": "Kıta Süperstarı",
+      "global": "Küresel Efsane",
+      "legend": "Yaşayan Efsane"
     },
     "relationship": {
-      "hated": "Hated [EN]",
-      "disliked": "Disliked [EN]",
-      "neutral": "Neutral [EN]",
-      "liked": "Liked [EN]",
-      "adored": "Adored [EN]",
-      "loved": "Loved [EN]"
+      "hated": "Nefret edilen",
+      "disliked": "Beğenmedim",
+      "neutral": "Doğal",
+      "liked": "Beğendim",
+      "adored": "hayran kaldım",
+      "loved": "Sevilen"
     },
     "tier": {
-      "bronze": "Bronze Partner [EN]",
-      "silver": "Silver Partner [EN]",
-      "gold": "Gold Partner [EN]",
-      "platinum": "Platinum Partner [EN]",
-      "diamond": "Diamond Partner [EN]"
+      "bronze": "Bronz Ortak",
+      "silver": "Gümüş Ortak",
+      "gold": "Altın Ortak",
+      "platinum": "Platin Ortak",
+      "diamond": "Elmas Ortak"
     },
     "comments": {
-      "minutesAgo": "{count}m ago [EN]",
-      "hoursAgo": "{count}h ago [EN]",
-      "daysAgo": "{count}d ago [EN]"
+      "minutesAgo": "{count} dk önce",
+      "hoursAgo": "XPLACEHOLDERX0 saat önce",
+      "daysAgo": "XPLACEHOLDERX0 gün önce"
     },
     "seasonComments": {
-      "excited": "So excited for the new season! Let's go {team}! 🔥 [EN]",
-      "expectations": "Big expectations for {name} this year. Can he deliver? [EN]",
-      "newSeason": "New season, new goals. Time to shine! [EN]"
+      "excited": "Yeni sezon için o kadar heyecanlıyım ki! Haydi {team}'e gidelim! 🔥",
+      "expectations": "Bu yıl {name} için büyük beklentiler var. Teslim edebilir mi?",
+      "newSeason": "Yeni sezon, yeni hedefler. Parlama zamanı!"
     },
     "formComments": {
-      "bestPlayer": "Is there anyone better than {name} right now? Unbelievable form! [EN]",
-      "disappointed": "Disappointing form lately. We know you can do better! [EN]",
-      "incredible": "Incredible performance again. Consistency is key. [EN]",
-      "needsRest": "Looks a bit tired out there. Maybe a rest would help? [EN]",
-      "onFire": "{name} is on fire lately! 🔥 [EN]",
-      "sellHim": "Time to look for other options. This isn't working. [EN]",
-      "struggling": "{name} is struggling to find his rhythm. Needs to step up. [EN]",
-      "worldClass": "World class player! ⭐ {name} is showing why he is elite. [EN]"
+      "bestPlayer": "Şu anda {name}'ten daha iyi biri var mı? İnanılmaz form!",
+      "disappointed": "Son zamanlarda hayal kırıklığı yaratan bir form. Daha iyisini yapabileceğinizi biliyoruz!",
+      "incredible": "Yine inanılmaz performans. Tutarlılık çok önemlidir.",
+      "needsRest": "Dışarısı biraz yorgun görünüyor. Belki dinlenmenin faydası olur?",
+      "onFire": "{name} son zamanlarda yanıyor! 🔥",
+      "sellHim": "Diğer seçenekleri aramanın zamanı geldi. Bu işe yaramıyor.",
+      "struggling": "{name} ritmini bulmakta zorlanıyor. Adım atılması gerekiyor.",
+      "worldClass": "Dünya çapında bir oyuncu! ⭐{name} neden elit olduğunu gösteriyor."
     },
     "goalComments": {
-      "goldenBoot": "Golden Boot in sight? {name} is unstoppable! [EN]",
-      "hatTrickHero": "Another hat-trick? {name} is writing history! [EN]",
-      "machineMode": "Goal machine mode: ACTIVATED! 🤖⚽ [EN]",
-      "unstoppable": "You just can't stop {name} when he's in this mood. [EN]"
+      "goldenBoot": "Altın Ayakkabı görünürde mi? {name} durdurulamaz!",
+      "hatTrickHero": "Bir hat-trick daha mı? {name} tarih yazıyor!",
+      "machineMode": "Hedef makinesi modu: ETKİNLEŞTİRİLDİ! 🤖⚽",
+      "unstoppable": "{name}'i bu ruh halindeyken durduramazsınız."
     },
     "youthComments": {
-      "futurestar": "The future is bright! {name} is a star in the making. ⭐ [EN]",
-      "nextGeneration": "The next generation is here. Impressive maturity from {name}. [EN]",
-      "protect": "We need to protect this talent. He's the future of {team}. [EN]",
-      "wonderkid": "Wonderkid alert! 💎 This kid is special. [EN]"
+      "futurestar": "Gelecek parlak! {name} yapım aşamasındaki bir yıldızdır. ⭐",
+      "nextGeneration": "Yeni nesil burada. {name}'ten etkileyici olgunluk.",
+      "protect": "Bu yeteneği korumamız lazım. O, {team}'in geleceği.",
+      "wonderkid": "Wonderkid uyarısı! 💎Bu çocuk özeldir."
     },
     "veteranComments": {
-      "experience": "You can see his influence on the pitch. Pure leadership. [EN]",
-      "legend": "Absolute legend. Experience is something you can't buy. 🍷 [EN]",
-      "retire": "Maybe it's time to hang up the boots... past his peak. [EN]",
-      "stillGotIt": "{age} and still showing the youngsters how it's done! [EN]"
+      "experience": "Sahadaki etkisini görebiliyoruz. Saf liderlik.",
+      "legend": "Mutlak efsane. Deneyim satın alamayacağınız bir şeydir. 🍷",
+      "retire": "Belki çizmeleri asmanın zamanı gelmiştir... zirveye kadar.",
+      "stillGotIt": "{age} ve hala gençlere bunun nasıl yapıldığını gösteriyor!"
     },
     "injuryComments": {
-      "comeBack": "Come back stronger! We're all rooting for you. 💪 [EN]",
-      "getWell": "Get well soon {name}! The team needs you. 🙏 [EN]",
-      "missYou": "Football isn't the same without you on the pitch. Heartbreak. [EN]"
+      "comeBack": "Daha güçlü geri dön! Hepimiz seni destekliyoruz. 💪",
+      "getWell": "Geçmiş olsun {name}! Takımın sana ihtiyacı var. 🙏",
+      "missYou": "Futbol, ​​sen olmadan sahada aynı değil. Kalp kırıklığı."
     },
     "transferComments": {
-      "goodLuck": "Good luck in your next chapter. Thanks for the memories! [EN]",
-      "stayPlease": "Please don't leave us, {name}! You're a hero here. ❤️ [EN]",
-      "traitor": "How could you? Traitor! 🐍 [EN]",
-      "understand": "I understand the move, but it still hurts to see you go. [EN]"
+      "goodLuck": "Bir sonraki bölümde başarılar. Anılar için teşekkürler!",
+      "stayPlease": "Lütfen bizi bırakmayın {name}! Sen burada bir kahramansın. ❤️",
+      "traitor": "Nasıl yapabildin? Hain! 🐍",
+      "understand": "Hareketini anlıyorum ama gidişini görmek yine de acı veriyor."
     },
     "eventComments": {
-      "autograph": "Got an autograph from {name}! My life is complete. ⭐ [EN]",
-      "dedication": "Love the dedication {name} shows in every training session. [EN]",
-      "goodPerson": "Off the pitch, {name} is an even better person. Role model! ❤️ [EN]",
-      "hardWorker": "Always the first one in and last one out. Hard worker! 💪 [EN]",
-      "metHim": "Just met {name}! What a humble guy. Legend! 😍 [EN]",
-      "roleModel": "Great to see players giving back to the community. Respect! [EN]",
-      "soNice": "Saw {name} today, he took photos with everyone. So nice! [EN]"
+      "autograph": "{name}'ten imza aldım! Hayatım tamamlandı. ⭐",
+      "dedication": "{name}'in her eğitim oturumunda gösterdiği özveriyi seviyorum.",
+      "goodPerson": "{name} saha dışında çok daha iyi bir insan. Rol modeli! ❤️",
+      "hardWorker": "Her zaman ilk giren ve son çıkan. Çalışkan! 💪",
+      "metHim": "{name} ile yeni tanıştım! Ne kadar mütevazı bir adam. Efsane! 😍",
+      "roleModel": "Oyuncuların topluluğa katkı sağladığını görmek harika. Saygı!",
+      "soNice": "Bugün {name}'i gördüm, herkesle fotoğraf çektirdi. Çok güzel!"
     },
     "generalComments": {
-      "letGo": "Sometimes you just have to let the football do the talking. [EN]",
-      "proud": "So proud of your journey so far. Keep making us happy! [EN]",
-      "support": "Always supporting you, {name}! Keep going! 👏 [EN]",
-      "watching": "Watching closely... show us what you've got! [EN]"
+      "letGo": "Bazen futbolun konuşmayı yapmasına izin vermelisin.",
+      "proud": "Şu ana kadarki yolculuğunuzla gurur duyuyorum. Bizi mutlu etmeye devam edin!",
+      "support": "Her zaman seni destekliyoruz {name}! Devam etmek! 👏",
+      "watching": "Yakından izliyoruz... bize neler taşıdığınızı gösterin!"
     },
     "headlines": {
-      "awardNomination": "{player} nominated for prestigious award. [EN]",
-      "awardWon": "Victory! {player} wins award! [EN]",
-      "badForm": "Questions raised over {player}'s recent form. [EN]",
-      "cleanSheetStreak": "Another clean sheet for {player}! [EN]",
-      "controversy": "Controversy Erupts [EN]",
-      "generic": "Update [EN]",
-      "hatTrick": "{player} scores a stunning hat-trick! [EN]",
-      "injuryReturn": "{player} returns from injury layoff. [EN]",
-      "nationalCallup": "International duty calls for {player}. [EN]",
-      "newContract": "{player} signs new contract deal. [EN]",
-      "scoringStreak": "{player} can't stop scoring! [EN]",
-      "topScorer": "{player} leads the scoring charts! [EN]",
-      "transferred": "Club Announcement [EN]"
+      "awardNomination": "{player} prestijli ödüle aday gösterildi.",
+      "awardWon": "Zafer! {player} ödülü kazandı!",
+      "badForm": "{player}'in son formuyla ilgili sorulan sorular.",
+      "cleanSheetStreak": "{player} için temiz bir sayfa daha!",
+      "controversy": "Tartışma Çıkıyor",
+      "generic": "Güncelleme",
+      "hatTrick": "{player} muhteşem bir hat-trick yaptı!",
+      "injuryReturn": "{player} sakatlık nedeniyle işten çıkarıldı.",
+      "nationalCallup": "Uluslararası görev {player}'i gerektiriyor.",
+      "newContract": "{player} yeni sözleşme imzaladı.",
+      "scoringStreak": "{player} puanlamayı durduramıyor!",
+      "topScorer": "{player} skor tablolarında lider!",
+      "transferred": "Kulüp Duyurusu"
     },
     "interview": {
-      "q1": "How do you feel about your recent form? [EN]",
-      "q2": "What are your thoughts on the upcoming match? [EN]",
-      "q3": "Any message for the fans? [EN]"
+      "q1": "Son formunuz hakkında ne düşünüyorsunuz?",
+      "q2": "Yaklaşan maç hakkında düşünceleriniz neler?",
+      "q3": "Taraftarlara bir mesajınız var mı?"
     },
     "narrative": {
-      "ComebackKid": "What a turnaround! Never doubted him! 😉 [EN]",
-      "CultHero": "Build the statue already! Absolute legend! 🗿 [EN]",
-      "EstablishedStar": "Consistency personified. Always delivers. 👏 [EN]",
-      "Flop": "Total waste of money. Get him out! 🗑️ [EN]",
-      "ForgottenMan": "I completely forgot he still played for us... [EN]",
-      "HometownHero": "One of our own! Living the dream! ❤️ [EN]",
-      "InjuryComeback": "So happy to see him back on the grass! 🙏 [EN]",
-      "Journeyman": "Another club? Guy has more stamps in his passport than a pilot! ✈️ [EN]",
-      "OntheRise": "He just keeps getting better every week! 📈 [EN]",
-      "PolarizingFigure": "You either love him or hate him. There is no in-between. [EN]",
-      "PressDarling": "Media loves him, but does he do it on the pitch? 🤔 [EN]",
-      "Prodigy": "Generational talent! We are witnessing greatness! 🌟 [EN]",
-      "SystemPlayer": "Only looks good because of the system. Overrated. [EN]",
-      "UnderPressure": "He's crumbling under the weight of expectations... [EN]",
-      "VeteranLeader": "True leader on the pitch. We need his experience. [EN]"
+      "ComebackKid": "Ne büyük bir dönüş! Ondan asla şüphe etmedim! 😉",
+      "CultHero": "Heykeli şimdiden inşa edin! Mutlak efsane! 🗿",
+      "EstablishedStar": "Tutarlılık kişiselleştirildi. Her zaman sunar. 👏",
+      "Flop": "Toplam para kaybı. Onu dışarı çıkarın! 🗑️",
+      "ForgottenMan": "Hala bizim için oynadığını tamamen unutmuşum...",
+      "HometownHero": "Bizden biri! Rüyayı yaşamak! ❤️",
+      "InjuryComeback": "Onu tekrar çimlerin üzerinde gördüğüme çok sevindim! 🙏",
+      "Journeyman": "Başka bir kulüp mü? Adamın pasaportunda bir pilottan daha fazla pul var! ✈️",
+      "OntheRise": "Her hafta daha da iyiye gidiyor! 📈",
+      "PolarizingFigure": "Onu ya seviyorsun ya da ondan nefret ediyorsun. Arası yoktur.",
+      "PressDarling": "Medya onu seviyor ama bunu sahada yapıyor mu? 🤔",
+      "Prodigy": "Nesil yetenek! Büyüklüğe tanık oluyoruz! 🌟",
+      "SystemPlayer": "Sadece sistem yüzünden iyi görünüyor. Abartılmış.",
+      "UnderPressure": "Beklentilerin ağırlığı altında eziliyor...",
+      "VeteranLeader": "Sahada gerçek lider. Onun tecrübesine ihtiyacımız var."
     },
     "reactions": {
-      "assist1": "Great vision! 👀 [EN]",
-      "assist2": "What a pass! 🎯 [EN]",
-      "award1": "Well deserved! 🏆 [EN]",
-      "award2": "Best in the world! 🌍 [EN]",
-      "award3": "Finally recognized! [EN]",
-      "goal1": "Goal machine! ⚽ [EN]",
-      "goal2": "What a hit! 🚀 [EN]",
-      "goal3": "He can't stop scoring! 🔥 [EN]",
-      "injury1": "Get well soon! 🙏 [EN]",
-      "injury2": "Come back stronger! 💪 [EN]",
-      "transfer1": "Welcome to the club! 🔵 [EN]",
-      "transfer2": "Sad to see you go. Thanks for everything! ❤️ [EN]"
+      "assist1": "Harika bir vizyon! 👀",
+      "assist2": "Ne güzel bir pas! 🎯",
+      "award1": "Hak edilmiş! 🏆",
+      "award2": "Dünyanın en iyisi! 🌍",
+      "award3": "Sonunda tanındı!",
+      "goal1": "Gol makinesi! ⚽",
+      "goal2": "Ne vuruş! 🚀",
+      "goal3": "Gol atmayı bırakamıyor! 🔥",
+      "injury1": "Acil şifalar dilerim! 🙏",
+      "injury2": "Daha güçlü geri dön! 💪",
+      "transfer1": "Kulübe hoş geldiniz! 🔵",
+      "transfer2": "Gittiğini görmek üzücü. Her şey için teşekkürler! ❤️"
     },
     "matchEvents": {
       "assist": {
@@ -1714,101 +1714,101 @@
     }
   },
   "transfer": {
-    "agitation_1": "Growing frustration prompts transfer rumors. [EN]",
-    "agitation_2": "Relationship with club reaches breaking point. [EN]",
-    "agitation_3": "Formal transfer request submitted. [EN]",
-    "warning_1": "First warning issued regarding conduct. [EN]",
-    "warning_2": "Second warning: improvement required immediately. [EN]",
-    "warning_3": "Final warning before transfer listing. [EN]"
+    "agitation_1": "Artan hayal kırıklığı transfer söylentilerine yol açar.",
+    "agitation_2": "Kulüple ilişkiler kopma noktasına geldi.",
+    "agitation_3": "Resmi transfer talebi gönderildi.",
+    "warning_1": "Davranışla ilgili ilk uyarı yapıldı.",
+    "warning_2": "İkinci uyarı: Derhal iyileştirme yapılması gerekiyor.",
+    "warning_3": "Transfer listelemesinden önce son uyarı."
   },
   "award": {
-    "ballonDor": "Golden Trophy [EN]",
-    "ballonDorNomination": "Nominated - Golden Trophy [EN]",
-    "ballonDorRunnerUp": "Top 3 - Golden Trophy [EN]",
-    "comeback": "💪 Comeback Player of the Year after recovering from major injury! [EN]",
-    "comebackPlayerOfYear": "Comeback Player of the Year [EN]",
-    "continentalCompTopScorer": "👟 {competition} Top Scorer ({goals} goals)! [EN]",
-    "continentalCompetitionTopScorer": "Continental Top Scorer [EN]",
-    "continentalCupPOTY": "MVP - Continental Cup [EN]",
-    "continentalPOTY": "⭐ Voted Best Player of the {competition}! [EN]",
-    "continentalPlayer": "Continental Player [EN]",
-    "continentalTOTT": "👕 Named in {competition} Team of the Tournament! [EN]",
-    "cupGoldenBootShared": "Shared Cup Golden Boot with {goals} goals! [EN]",
-    "cupTopScorer": "👟 Cup Top Scorer ({goals} goals)! [EN]",
-    "europeanGoldenShoe": "European Golden Shoe [EN]",
-    "fifaBest": "🏆⭐ Voted Player of the Season! [EN]",
-    "goalOfTheYear": "Goal of the Year [EN]",
-    "goldenBoot": "👟 League Top Scorer ({goals} goals)! [EN]",
-    "goldenBootShared": "Shared League Golden Boot with {goals} goals! [EN]",
-    "goldenBoy": "🧒🏆 Young Player of the Year! The future is yours. [EN]",
-    "goldenGlove": "🧤 Golden Glove Winner ({cleanSheets} clean sheets)! [EN]",
-    "goldenShoe": "🥇 European Golden Shoe Winner! ({goals} goals) [EN]",
-    "leagueDefenderOfYear": "Defender of the Year [EN]",
-    "leagueForwardOfYear": "Forward of the Year [EN]",
-    "leagueMidfielderOfYear": "Midfielder of the Year [EN]",
-    "leaguePOTY": "🏅 League Player of the Season! [EN]",
-    "leaguePlayerOfYear": "League Player of the Year [EN]",
-    "leaguePlaymaker": "Assist Leader [EN]",
-    "leaguePositional": "🏅 Voted League's Best {position}! [EN]",
-    "leagueRookieOfYear": "Rookie of the Year [EN]",
-    "leagueTopAssister": "Top Assister [EN]",
-    "playmaker": "🎯 League Assist Leader ({assists} assists)! [EN]",
-    "puskas": "⚽🔥 Goal of the Year Award Winner! [EN]",
-    "rookie": "⭐ Named League Rookie of the Year! [EN]",
-    "shortlist": "⭐ Shortlisted for Golden Trophy. [EN]",
-    "teamOfTheYear": "👕 Named in League Team of the Year. [EN]",
-    "title": "Award [EN]",
-    "worldCupBestGoalkeeper": "Golden Glove - World Tournament [EN]",
-    "worldCupGoldenBall": "🌍🏅 World Tournament Golden Trophy Winner! [EN]",
-    "worldCupGoldenBoot": "👟🌍 World Tournament Golden Boot Winner! [EN]",
-    "worldCupTOTT": "👕 Named in World Tournament Team! [EN]",
-    "worldPlayer": "🏆⭐ WORLD'S BEST PLAYER! Recognized as the best on the planet. Narrative: {narrative}. [EN]",
-    "ballonDorWin": "Won the Golden Trophy! [EN]",
-    "ballonDorPodium": "Reached the final podium for the Golden Trophy! [EN]",
-    "ballonDorTop10": "Named in the Top 10 for the Golden Trophy! [EN]",
-    "fifaBestWin": "Won the World Best Player award! [EN]",
-    "goldenBoyWin": "Crowned Best Young Player! The best young talent in the world. [EN]",
-    "leagueMVPWin": "Voted as the MVP of the {country} League! [EN]",
-    "positionalWin": "Named as the Best {position} of the season. [EN]",
-    "goldenBootWin": "League Top Scorer with {goals} goals! [EN]",
-    "goldenShoeWin": "Won the European Golden Shoe with {points} points! [EN]",
-    "goldenGloveWin": "Most clean sheets in the league ({cleanSheets}). [EN]",
-    "topAssisterWin": "League Top Assister with {assists} assists! [EN]",
-    "cupTopScorerWin": "Cup Top Scorer with {goals} goals! [EN]",
-    "continentalTopScorerWin": "Continental Competition Top Scorer with {goals} goals! [EN]",
-    "worldCupGoldenBallWin": "Won the World Tournament Golden Ball! [EN]",
-    "worldCupGoldenBootWin": "World Tournament Top Scorer with {goals} goals! [EN]",
-    "continentalPOTYWin": "Player of the Continental Tournament! [EN]",
-    "teamOfTheYearWin": "Named in the World Team of the Year! [EN]",
-    "rookieOfYearWin": "Voted as the League Rookie of the Year! [EN]",
-    "comebackPlayerWin": "Won the Comeback Player of the Year award! [EN]",
-    "goalOfTheYearWin": "Winner of the Goal of the Year award! [EN]"
+    "ballonDor": "Altın Kupa",
+    "ballonDorNomination": "Aday Gösterildi - Altın Kupa",
+    "ballonDorRunnerUp": "İlk 3 - Altın Kupa",
+    "comeback": "💪 Büyük bir sakatlığın ardından iyileşen Yılın Geri Dönüş Oyuncusu!",
+    "comebackPlayerOfYear": "Yılın Geri Dönüş Oyuncusu",
+    "continentalCompTopScorer": "👟 {competition} En Golcü ({goals} gol)!",
+    "continentalCompetitionTopScorer": "Kıta Gol Kralı",
+    "continentalCupPOTY": "MVP - Kıta Kupası",
+    "continentalPOTY": "⭐ {competition}'in En İyi Oyuncusu Seçildi!",
+    "continentalPlayer": "Kıta Oyuncusu",
+    "continentalTOTT": "👕 {competition} Turnuvanın Takımı'na seçildiniz!",
+    "cupGoldenBootShared": "{goals} golleriyle Paylaşılan Kupa Altın Ayakkabı!",
+    "cupTopScorer": "👟 Kupa Gol Kralı ({goals} gol)!",
+    "europeanGoldenShoe": "Avrupa Altın Ayakkabı",
+    "fifaBest": "🏆⭐ Sezonun Seçilmiş Oyuncusu!",
+    "goalOfTheYear": "Yılın Golü",
+    "goldenBoot": "👟 Ligin En Golcü Oyuncusu ({goals} gol)!",
+    "goldenBootShared": "{goals} golleriyle Paylaşılan Lig Altın Ayakkabı!",
+    "goldenBoy": "🧒🏆 Yılın Genç Oyuncusu! Gelecek sizindir.",
+    "goldenGlove": "🧤 Altın Eldiven Kazananı ({cleanSheets} temiz çarşaflar)!",
+    "goldenShoe": "🥇Avrupa Altın Ayakkabı Kazananı! ({goals} gol)",
+    "leagueDefenderOfYear": "Yılın Savunucusu",
+    "leagueForwardOfYear": "Yılın Forveti",
+    "leagueMidfielderOfYear": "Yılın Orta Saha Oyuncusu",
+    "leaguePOTY": "🏅 Ligde Sezonun Oyuncusu!",
+    "leaguePlayerOfYear": "Yılın Lig Oyuncusu",
+    "leaguePlaymaker": "Yardımcı Lider",
+    "leaguePositional": "🏅 Ligin En İyi {position}'i Oylandı!",
+    "leagueRookieOfYear": "Yılın Çaylağı",
+    "leagueTopAssister": "En İyi Yardımcı",
+    "playmaker": "🎯 Lig Asist Lideri ({assists} asist)!",
+    "puskas": "⚽🔥 Yılın Golü Ödülü Sahibi!",
+    "rookie": "⭐ Ligde Yılın Çaylağı Seçildi!",
+    "shortlist": "⭐ Altın Kupa için kısa listeye alındı.",
+    "teamOfTheYear": "👕 Yılın Lig Takımı'na seçildi.",
+    "title": "Ödül",
+    "worldCupBestGoalkeeper": "Altın Eldiven - Dünya Turnuvası",
+    "worldCupGoldenBall": "🌍🏅 Dünya Turnuvası Altın Kupa Kazananı!",
+    "worldCupGoldenBoot": "👟🌍 Dünya Turnuvası Altın Ayakkabı Kazananı!",
+    "worldCupTOTT": "👕 Dünya Turnuvası Takımına Girildi!",
+    "worldPlayer": "🏆⭐ DÜNYANIN EN İYİ OYUNCUSU! Gezegendeki en iyi olarak kabul edildi. Anlatım: {narrative}.",
+    "ballonDorWin": "Altın Kupayı kazandı!",
+    "ballonDorPodium": "Altın Kupa'da son podyuma çıktı!",
+    "ballonDorTop10": "Altın Kupa'da ilk 10'da yer aldı!",
+    "fifaBestWin": "Dünyanın En İyi Oyuncusu ödülünü kazandı!",
+    "goldenBoyWin": "En İyi Genç Oyuncu Ödülünü Kazandı! Dünyanın en iyi genç yeteneği.",
+    "leagueMVPWin": "{country} Liginin MVP'si seçildi!",
+    "positionalWin": "Sezonun En İyi {position}'i seçildi.",
+    "goldenBootWin": "{goals} golle Ligin En Golcü Oyuncusu!",
+    "goldenShoeWin": "{points} puanıyla Avrupa Altın Ayakkabısını kazandı!",
+    "goldenGloveWin": "Ligdeki en çok gol yemeyen takım ({cleanSheets}).",
+    "topAssisterWin": "{assists} asistleriyle Ligin En İyi Asisti!",
+    "cupTopScorerWin": "{goals} golle Kupa Gol Kralı!",
+    "continentalTopScorerWin": "Continental Competition'ın {goals} golleriyle en golcü oyuncusu!",
+    "worldCupGoldenBallWin": "Dünya Turnuvası Altın Topunu Kazandı!",
+    "worldCupGoldenBootWin": "{goals} golleriyle Dünya Turnuvasının En Golcü Oyuncusu!",
+    "continentalPOTYWin": "Kıta Turnuvasının Oyuncusu!",
+    "teamOfTheYearWin": "Yılın Dünya Takımı'na seçildi!",
+    "rookieOfYearWin": "Yılın Lig Çaylağı seçildi!",
+    "comebackPlayerWin": "Yılın Geri Dönüş Oyuncusu ödülünü kazandı!",
+    "goalOfTheYearWin": "Yılın Golü ödülünün sahibi!"
   },
   "competitions": {
-    "afcon": "African Cup of Nations [EN]",
-    "asianCup": "Asian Cup [EN]",
-    "continentalCup": "Continental Cup [EN]",
-    "copaAmerica": "Copa América [EN]",
-    "euro": "European Championship [EN]",
-    "goldCup": "Gold Cup [EN]",
-    "nationsLeague": "Nations Tournament [EN]",
-    "oceaniaCup": "Nations Cup [EN]",
-    "worldCup": "World Tournament [EN]",
-    "wcQualifiers": "World Tournament Qualifiers [EN]"
+    "afcon": "Afrika Uluslar Kupası",
+    "asianCup": "Asya Kupası",
+    "continentalCup": "Kıta Kupası",
+    "copaAmerica": "Copa Amerika",
+    "euro": "Avrupa Şampiyonası",
+    "goldCup": "Altın Kupa",
+    "nationsLeague": "Milletler Turnuvası",
+    "oceaniaCup": "Milletler Kupası",
+    "worldCup": "Dünya Turnuvası",
+    "wcQualifiers": "Dünya Turnuvası Elemeleri"
   },
   "common": {
     "rounds": {
-      "final": "Final [EN]",
-      "groupStage": "Group Stage [EN]",
-      "qualifier": "Qualifier [EN]",
-      "quarterFinal": "Quarter-Final [EN]",
-      "roundOf16": "Round of 16 [EN]",
-      "semiFinal": "Semi-Final [EN]",
-      "winner": "Winner [EN]"
+      "final": "Final",
+      "groupStage": "Grup Aşaması",
+      "qualifier": "Niteleyici",
+      "quarterFinal": "Çeyrek Final",
+      "roundOf16": "16. Tur",
+      "semiFinal": "Yarı final",
+      "winner": "Kazanan"
     }
   },
   "contract": {
-    "terminated": "Terminated contract with {team}. [EN]"
+    "terminated": "{team} ile sözleşme feshedildi."
   },
   "competition": {
     "americasDerby": "Amerikalar Derbisi"

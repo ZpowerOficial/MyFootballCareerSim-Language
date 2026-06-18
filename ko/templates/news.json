@@ -1,104 +1,104 @@
 {
   "_meta": {
     "patchable": true,
-    "description": "News headlines and event descriptions - supports community patches for localized content [EN]",
-    "interpolation": "Uses {variable} for dynamic values and {{ref:path}} for cross-references [EN]"
+    "description": "뉴스 헤드라인 및 이벤트 설명 - 현지화된 콘텐츠에 대한 커뮤니티 패치 지원",
+    "interpolation": "동적 값에는 {variable}를 사용하고 상호 참조에는 {{ref:path}}를 사용합니다."
   },
   "news": {
     "assistMilestone": {
-      "1": "PLAYMAKER! {name} reaches {assists} career assists [EN]",
-      "2": "{name} hits {assists} assists in brilliant career [EN]",
-      "3": "Creator supreme: {name} at {assists} assists [EN]"
+      "1": "플레이메이커! {name}가 {assists} 커리어 어시스트에 도달",
+      "2": "{name}, {assists} 히트로 화려한 커리어 어시스트",
+      "3": "크리에이터 최고: {assists} 어시스트의 {name}"
     },
     "ballonDor": {
-      "0": "{name} WINS {year} {{ref:content.awards.ballonDor}}! [EN]",
-      "1": "GOLDEN ERA: {name} named world's best [EN]",
-      "2": "OFFICIAL: {name} takes football's biggest prize [EN]"
+      "0": "{name}가 {year} {{ref:content.awards.ballonDor}}를 획득했습니다!",
+      "1": "황금시대: {name}, 세계 최고로 선정",
+      "2": "공식: {name}가 축구계 최대 상을 받았습니다."
     },
     "championsLeague": {
-      "1": "KINGS OF EUROPE! {team} win {{ref:content.competitions.championsLeague}} [EN]",
-      "2": "GLORY NIGHT! {name} and {team} conquer Europe [EN]",
-      "3": "{team} crowned champions of Europe [EN]"
+      "1": "유럽의 왕! {team}가 {{ref:content.competitions.championsLeague}} 승리",
+      "2": "영광의 밤! {name} 및 {team}가 유럽을 정복했습니다.",
+      "3": "{team}, 유럽 챔피언 선정"
     },
     "europaLeague": {
-      "1": "EUROPEAN CLUB CUP GLORY! {team} win European trophy [EN]",
-      "2": "{name} and {team} triumph in {{ref:content.competitions.europaLeague}} [EN]",
-      "3": "European success! {team} lift {{ref:content.competitions.europaLeague}} [EN]"
+      "1": "유럽 ​​클럽컵 영광! {team}, 유럽 트로피 획득",
+      "2": "{name} 및 {team}가 {{ref:content.competitions.europaLeague}에서 승리}",
+      "3": "유럽의 성공! {team} 리프트 {{ref:content.competitions.europaLeague}}"
     },
     "goldenBoot": {
-      "0": "{name} TOP SCORER! {goals} goals this season [EN]",
-      "1": "GOLDEN BOOT for {name} with {goals} goals [EN]",
-      "2": "{name} finishes as top marksman: {goals} goals [EN]"
+      "0": "{name} 최고 득점자! 이번 시즌 {goals} 목표",
+      "1": "{goals} 목표를 갖춘 {name}용 GOLDEN BOOT",
+      "2": "{name}가 최고 사수로 마무리: {goals} 목표"
     },
     "leagueChampion": {
-      "0": "CHAMPIONS! {team} wins the league with {name} [EN]",
-      "1": "Title secured! {team} and {name} celebrate [EN]",
-      "2": "The cup is ours! {team} wins national championship [EN]"
+      "0": "챔피언! {team}가 {name}로 리그 우승",
+      "1": "타이틀 확보! {team} 및 {name} 축하",
+      "2": "그 컵은 우리꺼야! {team}, 전국 챔피언십 우승"
     },
     "transfer": {
-      "0": "BREAKING! {name} is the new signing for {newTeam} [EN]",
-      "1": "OFFICIAL: {name} signs with {newTeam} [EN]",
-      "2": "{newTeam} announces blockbuster signing of {name} [EN]"
+      "0": "파괴! {name}는 {newTeam}의 새로운 서명입니다.",
+      "1": "공식: {name}가 {newTeam}와 서명",
+      "2": "{newTeam}, {name}의 블록버스터 계약 발표"
     },
     "worldCup": {
-      "0": "{team} WORLD CHAMPIONS! THE CUP IS OURS! [EN]",
-      "1": "TOP OF THE WORLD! {team} conquers the {{ref:content.competitions.worldCup}} [EN]",
-      "2": "Maximum Glory! {team} wins the {{ref:content.competitions.worldCup}} [EN]"
+      "0": "{team} 세계 챔피언! 컵은 우리 것입니다!",
+      "1": "세계 최고! {team}가 {{ref:content.competitions.worldCup}를 정복했습니다.}",
+      "2": "최대의 영광! {team}가 {{ref:content.competitions.worldCup}를 이겼습니다.}"
     },
     "continentalQualification": {
-      "1": "EUROPEAN FOOTBALL! {team} qualify for {competition} [EN]",
-      "2": "{name} helps {team} reach {competition} [EN]",
-      "3": "Continental football awaits {team} [EN]"
+      "1": "유럽축구! {team}는 {competition}에 적합합니다.",
+      "2": "{name}는 {team}가 {competition}에 도달하도록 도와줍니다.",
+      "3": "대륙 축구가 {team}를 기다리고 있습니다"
     },
     "hatTrick": {
-      "1": "HAT-TRICK HERO! {name} scores three [EN]",
-      "2": "{name} bags hat-trick in {team} victory [EN]",
-      "3": "Treble treat! {name} scores three goals [EN]"
+      "1": "해트트릭 히어로! {name} 점수 3점",
+      "2": "{name} 가방 {team} 승리의 해트트릭",
+      "3": "고음 치료! {name}가 3골을 기록했습니다."
     },
     "firstGoal": {
-      "1": "FIRST GOAL! {name} opens professional account [EN]",
-      "2": "{name} scores first career goal for {team} [EN]",
-      "3": "Off the mark! {name} nets debut goal [EN]"
+      "1": "첫 번째 목표! {name}는 전문 계정을 개설합니다",
+      "2": "{name}, {team}의 통산 첫 골 기록",
+      "3": "마크에서 벗어났습니다! {name}, 데뷔 골 달성"
     },
     "professionalDebut": {
-      "1": "DEBUT! {name} makes first professional appearance [EN]",
-      "2": "The beginning: {name} debuts for {team} [EN]",
-      "3": "{name} makes long-awaited professional debut [EN]"
+      "1": "데뷔! {name}, 최초의 전문 등장",
+      "2": "시작: {name}가 {team}로 데뷔합니다.",
+      "3": "{name}, 오랫동안 기다려온 프로 데뷔"
     },
     "internationalDebut": {
-      "1": "INTERNATIONAL DEBUT! {name} represents {country} [EN]",
-      "2": "{name} earns first cap for {country} [EN]",
-      "3": "Proud moment: {name} debuts for national team [EN]"
+      "1": "국제 데뷔! {name}는 {country}를 나타냅니다.",
+      "2": "{name}, {country}에 대한 첫 번째 한도 획득",
+      "3": "자랑스러운 순간: {name}의 국가대표팀 데뷔"
     },
     "retirement": {
-      "0": "{name} ANNOUNCES RETIREMENT. Thanks for everything! [EN]",
-      "1": "End of an era: {name} hangs up boots [EN]",
-      "2": "Legend's goodbye: {name} retires [EN]"
+      "0": "{name}가 은퇴를 발표합니다. 모든 것에 감사드립니다!",
+      "1": "시대의 끝: {name}가 부츠를 끊습니다.",
+      "2": "전설의 작별 인사: {name}의 은퇴"
     },
     "promotion": {
-      "1": "PROMOTED! {team} go up to {league} [EN]",
-      "2": "{name} and {team} earn promotion to {league} [EN]",
-      "3": "Celebrations! {team} promoted to {league} [EN]"
+      "1": "프로모션됨! {team}는 {league}로 올라갑니다.",
+      "2": "{name} 및 {team}는 {league}로 승격됩니다.",
+      "3": "축하합니다! {team}가 {league}로 승격되었습니다."
     },
     "relegation": {
-      "0": "TRAGEDY: {team} relegated with {name} in squad [EN]",
-      "1": "Historic drop: {team} falls to second division [EN]",
-      "2": "Sad day: {name}'s {team} cannot resist and falls [EN]"
+      "0": "비극: {team}가 스쿼드에서 {name}로 강등되었습니다.",
+      "1": "역사적인 하락: {team}가 2부 리그로 떨어졌습니다.",
+      "2": "슬픈 날: {name}의 {team}가 저항하지 못하고 넘어졌습니다."
     }
   },
   "newsType": {
-    "assistMilestone": "Assist Milestone [EN]",
-    "ballonDor": "{{ref:content.awards.ballonDor}} [EN]",
-    "championsLeague": "{{ref:content.competitions.championsLeague}} [EN]",
-    "cupWinner": "Cup Winner [EN]",
-    "europaLeague": "{{ref:content.competitions.europaLeague}} [EN]",
-    "goldenBoot": "Golden Boot [EN]",
-    "hatTrick": "Hat-Trick [EN]",
-    "leagueChampion": "League Champion [EN]",
-    "transfer": "Transfer [EN]",
-    "worldCup": "{{ref:content.competitions.worldCup}} [EN]",
-    "retirement": "Retirement [EN]",
-    "promotion": "Promotion [EN]",
-    "relegation": "Relegation [EN]"
+    "assistMilestone": "지원 마일스톤",
+    "ballonDor": "{{ref:content.awards.ballonDor}}",
+    "championsLeague": "{{ref:content.competitions.championsLeague}}",
+    "cupWinner": "컵 우승자",
+    "europaLeague": "{{ref:content.competitions.europaLeague}}",
+    "goldenBoot": "골든 부트",
+    "hatTrick": "해트트릭",
+    "leagueChampion": "리그 챔피언",
+    "transfer": "옮기다",
+    "worldCup": "{{ref:content.competitions.worldCup}}",
+    "retirement": "퇴직",
+    "promotion": "홍보",
+    "relegation": "좌천"
   }
 }
