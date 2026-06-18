@@ -6,99 +6,99 @@
   },
   "news": {
     "assistMilestone": {
-      "1": "JOGADOR! {name} alcança assistências de carreira {assists}",
-      "2": "{name} atinge {assists} auxilia em carreira brilhante",
-      "3": "Criador supremo: {name} em {assists} auxilia"
+      "1": "GARÇOM! {name} alcança a marca de {assists} assistências na carreira",
+      "2": "{name} atinge {assists} passes para gol em uma carreira brilhante",
+      "3": "Mestre dos passes: {name} chega a {assists} assistências"
     },
     "ballonDor": {
-      "0": "{name} GANHA {year} {{ref:content.awards.ballonDor}}!",
-      "1": "ERA DE OURO: {name} eleito o melhor do mundo",
-      "2": "OFICIAL: {name} leva o maior prêmio do futebol"
+      "0": "{name} VENCE A {{ref:content.awards.ballonDor}} de {year}!",
+      "1": "ERA DE OURO: {name} é eleito o melhor do mundo",
+      "2": "OFICIAL: {name} leva o prêmio máximo do futebol mundial"
     },
     "championsLeague": {
-      "1": "REIS DA EUROPA! {team} ganha {{ref:content.competitions.championsLeague}}",
+      "1": "REIS DA EUROPA! {team} conquista a {{ref:content.competitions.championsLeague}}",
       "2": "NOITE DE GLÓRIA! {name} e {team} conquistam a Europa",
-      "3": "{team} coroado campeão da Europa"
+      "3": "{team} é coroado campeão da Europa"
     },
     "europaLeague": {
-      "1": "GLÓRIA DA COPA EUROPEIA DE CLUBE! {team} ganha troféu europeu",
-      "2": "{name} e {team} triunfam em {{ref:content.competitions.europaLeague}}",
-      "3": "Sucesso europeu! {team} elevador {{ref:content.competitions.europaLeague}}"
+      "1": "GLÓRIA EUROPEIA! {team} conquista a copa continental",
+      "2": "{name} e {team} triunfam na {{ref:content.competitions.europaLeague}}",
+      "3": "Sucesso europeu! {team} ergue a {{ref:content.competitions.europaLeague}}"
     },
     "goldenBoot": {
-      "0": "{name} MELHOR ARTILHEIRO! {goals} gols nesta temporada",
-      "1": "BOTA DE OURO para {name} com objetivos {goals}",
-      "2": "{name} termina como melhor atirador: gols {goals}"
+      "0": "{name} É O ARTILHEIRO! {goals} gols nesta temporada",
+      "1": "CHUTEIRA DE OURO para {name} com seus {goals} gols",
+      "2": "{name} termina como o grande goleador: {goals} gols"
     },
     "leagueChampion": {
-      "0": "CAMPEÕES! {team} vence a liga com {name}",
-      "1": "Título garantido! {team} e {name} comemoram",
-      "2": "A taça é nossa! {team} vence campeonato nacional"
+      "0": "CAMPEÕES! {team} vence a liga com {name} no elenco",
+      "1": "Título garantido! A festa é de {team} e de {name}",
+      "2": "O título é nosso! {team} vence o campeonato nacional"
     },
     "transfer": {
-      "0": "QUEBRA! {name} é a nova assinatura de {newTeam}",
-      "1": "OFICIAL: {name} assina com {newTeam}",
-      "2": "{newTeam} anuncia assinatura de grande sucesso de {name}"
+      "0": "URGENTE! {name} é o novo reforço do {newTeam}",
+      "1": "OFICIAL: {name} assina contrato com o {newTeam}",
+      "2": "{newTeam} anuncia a contratação bombástica de {name}"
     },
     "worldCup": {
-      "0": "CAMPEÕES MUNDIAIS {team}! A COPA É NOSSA!",
-      "1": "TOPO DO MUNDO! {team} conquista o {{ref:content.competitions.worldCup}}",
-      "2": "Máxima Glória! {team} ganha o {{ref:content.competitions.worldCup}}"
+      "0": "CAMPEÕES DO MUNDO! O {team} LEVA A COPA!",
+      "1": "NO TOPO DO MUNDO! {team} conquista o {{ref:content.competitions.worldCup}}",
+      "2": "Glória Máxima! {team} vence o {{ref:content.competitions.worldCup}}"
     },
     "continentalQualification": {
-      "1": "FUTEBOL EUROPEU! {team} se qualifica para {competition}",
-      "2": "{name} ajuda {team} a alcançar {competition}",
-      "3": "Futebol continental aguarda {team}"
+      "1": "VAGA GARANTIDA! {team} se classifica para a {competition}",
+      "2": "{name} brilha e ajuda {team} a chegar à {competition}",
+      "3": "O futebol continental espera pelo {team}"
     },
     "hatTrick": {
-      "1": "HERÓI DO HAT-TRICK! {name} marca três",
-      "2": "{name} consegue três gols na vitória de {team}",
-      "3": "Delícia tripla! {name} marca três gols"
+      "1": "DONO DO JOGO! {name} anota um hat-trick e marca três",
+      "2": "{name} faz três gols na grande vitória do {team}",
+      "3": "Show de bola! {name} pede música após marcar três gols"
     },
     "firstGoal": {
-      "1": "PRIMEIRO GOL! {name} abre conta profissional",
-      "2": "{name} marca primeiro gol na carreira para {team}",
-      "3": "Fora do alvo! {name} marca gol de estreia"
+      "1": "PRIMEIRO GOL! {name} desencanta no futebol profissional",
+      "2": "{name} marca o primeiro gol da sua carreira pelo {team}",
+      "3": "Pé direito! {name} marca seu gol de estreia"
     },
     "professionalDebut": {
-      "1": "ESTRÉIA! {name} faz primeira aparição profissional",
-      "2": "O início: {name} estreia para {team}",
-      "3": "{name} faz a tão esperada estreia profissional"
+      "1": "ESTREIA! {name} faz sua primeira partida como profissional",
+      "2": "O início de tudo: {name} faz sua estreia pelo {team}",
+      "3": "{name} faz sua tão esperada estreia no futebol profissional"
     },
     "internationalDebut": {
-      "1": "ESTREIA INTERNACIONAL! {name} representa {country}",
-      "2": "{name} ganha primeiro limite para {country}",
-      "3": "Momento de orgulho: {name} estreia pela seleção"
+      "1": "ESTREIA PELA SELEÇÃO! {name} representa a equipe nacional do {country}",
+      "2": "{name} veste a camisa do {country} pela primeira vez",
+      "3": "Momento de orgulho: {name} faz sua estreia pela seleção do país"
     },
     "retirement": {
       "0": "{name} ANUNCIA APOSENTADORIA. Obrigado por tudo!",
-      "1": "Fim de uma era: {name} pendura botas",
-      "2": "Adeus da lenda: {name} se aposenta"
+      "1": "Fim de uma era: {name} pendura as chuteiras",
+      "2": "Despedida de uma lenda: {name} se aposenta dos gramados"
     },
     "promotion": {
-      "1": "PROMOVIDO! {team} vai até {league}",
-      "2": "{name} e {team} ganham promoção para {league}",
-      "3": "Comemorações! {team} promovido a {league}"
+      "1": "ACESSO GARANTIDO! {team} sobe para a {league}",
+      "2": "{name} e {team} conquistam a promoção para a {league}",
+      "3": "Muita festa! {team} sobe de divisão e vai para a {league}"
     },
     "relegation": {
-      "0": "TRAGÉDIA: {team} rebaixado com {name} no elenco",
-      "1": "Queda histórica: {team} cai para segunda divisão",
-      "2": "Dia triste: {name} de {team} não resiste e cai"
+      "0": "TRAGÉDIA: {team} é rebaixado com {name} no elenco",
+      "1": "Queda histórica: {team} cai para a divisão inferior",
+      "2": "Dia triste: {name} e {team} não resistem e são rebaixados"
     }
   },
   "newsType": {
-    "assistMilestone": "Marco de assistência",
+    "assistMilestone": "Marco de assistências",
     "ballonDor": "{{ref:content.awards.ballonDor}}",
     "championsLeague": "{{ref:content.competitions.championsLeague}}",
     "cupWinner": "Vencedor da Copa",
     "europaLeague": "{{ref:content.competitions.europaLeague}}",
-    "goldenBoot": "Bota de Ouro",
-    "hatTrick": "Carta da manga",
+    "goldenBoot": "Artilharia",
+    "hatTrick": "Hat-Trick",
     "leagueChampion": "Campeão da Liga",
-    "transfer": "Transferir",
+    "transfer": "Transferência",
     "worldCup": "{{ref:content.competitions.worldCup}}",
     "retirement": "Aposentadoria",
-    "promotion": "Promoção",
+    "promotion": "Acesso",
     "relegation": "Rebaixamento"
   }
 }
