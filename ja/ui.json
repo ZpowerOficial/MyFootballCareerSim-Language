@@ -66,6 +66,14 @@
     }
   },
   "assistsShort": "A",
+  "bootstrap": {
+    "step1": "選手データと書類を準備中...",
+    "step2": "世界中に4,000以上のクラブを創設中...",
+    "step3": "何千人もの選手と未来のライバルを生成中...",
+    "step4": "グループ抽選とシーズン日程を編成中...",
+    "step5": "準備完了！ロッカールームへ向かっています...",
+    "footerNote": "あなたのキャリア世界を生成するため、リーグ、チーム編成、変動するカレンダーを計算しています。数秒かかる場合があります。"
+  },
   "careerModal": {
     "age": "年齢",
     "assistsPerMatch": "アシスト/試合",
@@ -1571,5 +1579,16 @@
   },
   "wcQualification": {
     "failed": "Qualification Failed"
+  },
+  "alerts": {
+    "failedAcceptTransfer": "ネイティブでの移籍承諾に失敗しました。",
+    "saveCorrupted": "セーブファイルを読み取れませんでした。データが破損している可能性があります。",
+    "saveMissingPlayer": "セーブファイルに選手データがありません。",
+    "failedLoadSave": "セーブの読み込みに失敗しました。もう一度試すか、新しいキャリアを開始してください。",
+    "failedDeleteSave": "セーブの削除に失敗しました。もう一度試してください。",
+    "nativeMatchSimFailed": "ネイティブの試合シミュレーションに失敗しました：{error}"
+  },
+  "socialMedia": {
+    "seeMore": "もっと見る"
   }
 }

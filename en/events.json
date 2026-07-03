@@ -156,6 +156,8 @@
     },
     "specialty": {
       "BrandBuilder": "Brand Builder",
+      "Brand Builder": "Brand Builder",
+      "Mastermind": "Mastermind",
       "Negotiator": "Negotiator",
       "Scout": "Scout",
       "balanced": "Balanced",
@@ -168,15 +170,24 @@
       "Aggressive": "Aggressive",
       "Ambitious": "Ambitious",
       "Analytical": "Analytical",
+      "Balanced": "Balanced",
       "Calm": "Calm",
       "Charismatic": "Charismatic",
+      "Cautious": "Cautious",
+      "Connected": "Connected",
       "Dedicated": "Dedicated",
+      "Determined": "Determined",
+      "Direct": "Direct",
+      "Eager": "Eager",
       "Energetic": "Energetic",
+      "Enthusiastic": "Enthusiastic",
       "Experienced": "Experienced",
       "Focused": "Focused",
       "Friendly": "Friendly",
       "Honest": "Honest",
+      "Hungry": "Hungry",
       "Innovative": "Innovative",
+      "Mastermind": "Mastermind",
       "Methodical": "Methodical",
       "Motivated": "Motivated",
       "Networked": "Networked",
@@ -188,6 +199,7 @@
       "Reliable": "Reliable",
       "Strategic": "Strategic",
       "Traditional": "Traditional",
+      "Unpredictable": "Unpredictable",
       "Visionary": "Visionary"
     }
   },
@@ -1157,7 +1169,9 @@
         "homeCountry": "🏠 Returns to {country} football! Signed with {team} to continue career in home nation.",
         "freeReturn": "🏠 FREE TRANSFER HOME! Returns to {team} on a free transfer, closing a beautiful chapter."
       },
-      "retirementLeague": "✈️ NEW ADVENTURE! Signed with {team} in {country} for €{wage}K/week. A lucrative move to wind down an illustrious career."
+      "retirementLeague": "✈️ NEW ADVENTURE! Signed with {team} in {country} for €{wage}K/week. A lucrative move to wind down an illustrious career.",
+      "window_opened": "🪟 {windowType} transfer window opened in {country} (week {weekNumber}).",
+      "window_closed": "🪟 {windowType} transfer window closed in {country} (week {weekNumber})."
     },
     "trophy": {
       "clubWorldCup": "🏆 Club World Tournament Winners!",

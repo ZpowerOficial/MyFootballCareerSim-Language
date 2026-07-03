@@ -9,6 +9,7 @@
     "confirmRenew": "Confirmar Renovação",
     "contractDetails": "Detalhes do Contrato",
     "contractYears": "Anos de Contrato",
+    "current": "Atual",
     "duration": "Duração",
     "expiringSoon": "Expira em Breve",
     "finances": "Finanças",
@@ -20,6 +21,7 @@
     "renewAgent": "Renovar Agente",
     "renewDesc": "Renovar contrato com {name} por mais 2 anos?",
     "selectAgent": "Selecionar Agente",
+    "special": "Especial",
     "squadStatus": "Status no Elenco",
     "styleDesc": {
       "Adaptable": "Ajusta estratégia conforme a situação.",
@@ -31,13 +33,21 @@
       "Careerfocused": "Prioriza desenvolvimento de carreira e oportunidades.",
       "Charismatic": "Usa carisma para conquistar dirigentes.",
       "Conservative": "Prioriza estabilidade e segurança nas negociações.",
+      "Cautious": "Evita movimentos arriscados.",
+      "Connected": "Usa uma rede forte de contatos.",
       "Dedicated": "Totalmente focado no sucesso do jogador.",
+      "Determined": "Insiste mesmo em negociações difíceis.",
+      "Direct": "Vai direto ao ponto.",
+      "Eager": "Busca oportunidades com intensidade.",
       "Energetic": "Trabalha incansavelmente por seus clientes.",
+      "Enthusiastic": "Leva energia positiva para cada acordo.",
       "Experienced": "Usa anos de experiência a seu favor.",
       "Focused": "Focado exclusivamente nos objetivos do jogador.",
       "Friendly": "Constrói relacionamentos amigáveis com clubes.",
       "Honest": "Sempre transparente em suas ações.",
+      "Hungry": "Está sempre buscando o próximo grande passo.",
       "Innovative": "Busca soluções criativas para contratos.",
+      "Mastermind": "Enxerga várias jogadas à frente.",
       "Methodical": "Analisa cada detalhe antes de agir.",
       "Moneyfocused": "Foco total no salário e bônus financeiros.",
       "Motivated": "Extremamente motivado a conseguir bons acordos.",
@@ -50,8 +60,13 @@
       "Reliable": "Cumpre todas as promessas feitas.",
       "Strategic": "Planeja cuidadosamente cada movimento de carreira.",
       "Traditional": "Prefere métodos tradicionais de negociação.",
+      "Unpredictable": "Mantém os clubes sempre em dúvida.",
       "Visionary": "Pensa a longo prazo sobre a carreira do jogador."
     },
+    "unlockDescriptions": {
+      "oliverTree": "Apenas a elite absoluta. Exige 90+ OVR, 3+ temporadas profissionais, 10+ convocações internacionais e 2+ troféus."
+    },
+    "unlockProgress": "Progresso de desbloqueio",
     "weeklySalary": "Salário Semanal",
     "reasons": {
       "none": "Nenhum agente adequado disponível",
@@ -66,6 +81,14 @@
     }
   },
   "assistsShort": "A",
+  "bootstrap": {
+    "step1": "Preparando seus dados e documentos de atleta...",
+    "step2": "Fundando mais de 4.000 clubes ao redor do mundo...",
+    "step3": "Gerando milhares de jogadores e futuros rivais...",
+    "step4": "Sorteando grupos e definindo o calendário da temporada...",
+    "step5": "Tudo pronto! Entrando no vestiário...",
+    "footerNote": "A geração do universo da sua carreira calcula ligas, elencos e calendários dinâmicos. Isso pode levar alguns segundos."
+  },
   "careerModal": {
     "age": "Idade",
     "assistsPerMatch": "Assist./Jogo",
@@ -298,17 +321,39 @@
     "stars": "estrelas",
     "outOf": "de",
     "disclaimer": "Este jogo é uma obra de ficção e não possui qualquer afiliação oficial, patrocínio ou endosso de ligas, clubes, federações ou entidades esportivas reais. Todos os nomes de clubes são utilizados apenas para fins de entretenimento e simulação. Nomes de ligas, competições e prêmios são genéricos ou fictícios. Quaisquer semelhanças com organizações reais são meramente coincidência.",
-    "disclaimerTitle": "Disclaimer Legal",
+    "disclaimerTitle": "Aviso Legal",
     "clear": "Limpar",
     "round": "Rodada",
     "youthAcademy": "Categoria de Base",
-    "pt": "Português"
+    "pt": "Português",
+    "scheduled": "Agendado",
+    "complete": "Concluído",
+    "championLabel": "Campeão: ",
+    "seeMore": "Ver mais",
+    "player": "Jogador",
+    "instagram": "Instagram",
+    "discord": "Discord",
+    "minAbbreviation": "' Min",
+    "npcNotFound": "NPC não encontrado.",
+    "preSeason": "Pré-Temporada",
+    "regularSeason": "Temporada Regular",
+    "postSeason": "Pós-Temporada",
+    "promotion": "Promoção",
+    "relegation": "Rebaixamento",
+    "qualification": "Classificação",
+    "friendly": "Amistoso",
+    "round64": "64 Avos de Final",
+    "round32": "32 Avos de Final",
+    "round16": "Oitavas de Final",
+    "quarterFinal": "Quartas de Final",
+    "semiFinal": "Semifinal",
+    "final": "Final"
   },
   "continents": {
     "Africa": "África",
     "Asia": "Ásia",
     "Europe": "Europa",
-    "Australia": "Oceania",
+    "Australia": "Austrália",
     "North America": "América do Norte",
     "South America": "América do Sul"
   },
@@ -348,7 +393,7 @@
     "form": "Forma",
     "goals": "Gols",
     "goalsPerGame": "Gols/Jogo",
-    "goalsTab": "Metas",
+    "goalsTab": "Gols",
     "high": "Alto",
     "history": "Histórico",
     "historyTab": "Histórico → Honras",
@@ -647,7 +692,7 @@
     "disciplineStats": "Disciplina",
     "distancePerGame": "Distância/Jogo",
     "distribution": "Distribuição",
-    "diving": "Mergulho",
+    "diving": "Defesa em Mergulho",
     "dribbles": "Dribles",
     "dribbling": "Drible",
     "duelStats": "Duelos e Dribles",
@@ -857,14 +902,14 @@
       "floatsBetweenLines": "Flutua Entre Linhas",
       "hugsTouchline": "Abraça a Linha Lateral",
       "makesOverlappingRuns": "Faz Sobreposições",
-      "makesUnderlappingRuns": "Faz Inversões",
+      "makesUnderlappingRuns": "Faz ultrapassagens por dentro",
       "roamsFromPosition": "Vagueia da Posição",
       "staysCentral": "Permanece Central"
     },
     "throughBalls": "Bola Enfiada",
     "throughBallsCompleted": "Bolas Enfiadas",
-    "throwIns": "Arremessos",
-    "throwing": "Arremesso",
+    "throwIns": "Laterais",
+    "throwing": "Lançamento com as Mãos",
     "topSpeed": "Velocidade Máxima",
     "totalTouches": "Toques Totais",
     "touchesInBox": "Toques na Área Adv.",
@@ -879,7 +924,7 @@
     "waitForPro": "Suba para o time principal para começar a rastrear estatísticas detalhadas",
     "weakFoot": "Pé Fraco",
     "weight": "Peso",
-    "workRate": "Taxa de Trabalho",
+    "workRate": "Intensidade",
     "yellowCards": "Cartões Amarelos",
     "youthNoStats": "Estatísticas de carreira disponíveis apenas para jogadores profissionais",
     "zonalMarking": "Marcação por Zona",
@@ -903,7 +948,7 @@
       "TopProspect": "Grande Promessa",
       "SolidProfessional": "Profissional Sólido",
       "TheEngine": "O Motor",
-      "LateBloomer": "Desabrochar Tardio",
+      "LateBloomer": "Revelação Tardia",
       "TechnicalMaestro": "Maestro Técnico",
       "TargetMan": "Homem de Área",
       "Journeyman": "Viajante"
@@ -926,7 +971,7 @@
     "TopProspect": "Grande Promessa",
     "SolidProfessional": "Profissional Sólido",
     "TheEngine": "O Motor",
-    "LateBloomer": "Desabrochar Tardio",
+    "LateBloomer": "Revelação Tardia",
     "TechnicalMaestro": "Maestro Técnico",
     "TargetMan": "Homem de Área",
     "Journeyman": "Viajante"
@@ -969,7 +1014,7 @@
     "Big Game Player": "Jogador Decisivo"
   },
   "reports": {
-    "assistantCoach": "Relatório do Adjunto"
+    "assistantCoach": "Relatório do Auxiliar Técnico"
   },
   "ratingShort": "AVA",
   "seasonModal": {
@@ -1160,7 +1205,9 @@
     "away": "FORA",
     "noMatches": "Nenhum jogo disputado ainda",
     "matchHistory": "Histórico de Jogos",
-    "simulating": "Simulando..."
+    "simulating": "Simulando...",
+    "loadingTacticalBuffer": "Carregando buffer tático...",
+    "minuteByMinute": "Simulação Minuto a Minuto"
   },
   "shareCard": {
     "assists": "Assistências",
@@ -1568,5 +1615,22 @@
   },
   "wcQualification": {
     "failed": "Qualificação Não Alcançada"
+  },
+  "alerts": {
+    "failedAcceptTransfer": "Falha ao aceitar transferência nativamente.",
+    "saveCorrupted": "O arquivo de save não pôde ser lido. Os dados podem estar corrompidos.",
+    "saveMissingPlayer": "O arquivo de save não possui dados do jogador.",
+    "failedLoadSave": "Falha ao carregar o save. Tente novamente ou inicie uma nova carreira.",
+    "failedDeleteSave": "Falha ao deletar o save. Tente novamente.",
+    "nativeMatchSimFailed": "Simulação de partida nativa falhou: {error}"
+  },
+  "errors": {
+    "criticalRenderError": "Erro Crítico de Renderização React",
+    "noStackTrace": "Nenhum stack trace disponível",
+    "reloadStrategy": "Estratégia de Recarga",
+    "nativeSeasonAdvance": "Avanço de temporada nativa não retornou dados de save atualizados"
+  },
+  "socialMedia": {
+    "seeMore": "Ver mais"
   }
 }

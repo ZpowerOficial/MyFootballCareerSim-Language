@@ -3,11 +3,11 @@
     "Average": "Média",
     "Excellent": "Excelente",
     "Good": "Bom",
-    "Injured": "Ferido",
+    "Injured": "Lesionado",
     "OnFire": "Em chamas",
-    "Poor": "Pobre",
+    "Poor": "Fraco",
     "Suspended": "Suspenso",
-    "VeryPoor": "Muito pobre",
+    "VeryPoor": "Muito Fraco",
     "average": "Média",
     "belowAverage": "Abaixo da média",
     "excellent": "Excelente",
@@ -36,39 +36,39 @@
     "Club Legend": "Lenda do clube",
     "Franchise Player": "Jogador de franquia",
     "Key Player": "Jogador-chave",
-    "Prospect": "Cliente em potencial",
+    "Prospect": "Promessa",
     "Reserve": "Reserva",
     "Rotation": "Rotação",
     "Squad Player": "Jogador do time",
-    "Starter": "Iniciante",
+    "Starter": "Titular",
     "Surplus": "Excedente",
     "Veteran Leader": "Líder Veterano",
     "Veteran Rotation": "Rotação de veteranos",
     "Veteran Star": "Estrela Veterana",
     "Vice-Captain": "Vice-Capitão",
     "Youth Player": "Jogador Juvenil",
-    "_title": "Status do esquadrão"
+    "_title": "Status do elenco"
   },
   "negotiation": {
     "accept": "Aceitar oferta",
     "propose": "Propor Termos",
-    "round": "Redondo",
+    "round": "Rodada",
     "subtitle": "Negociação de Contrato",
     "title": "Negociação"
   },
   "offer": {
     "type": {
       "loan": "Empréstimo",
-      "transfer": "Transferir"
+      "transfer": "Transferência"
     }
   },
   "offers": {
     "accept": "Aceitar",
     "closeAndStay": "Fechar e ficar",
     "contractLength": "Duração do contrato",
-    "decline": "Declínio",
+    "decline": "Recusar",
     "loanDuration": "Duração do empréstimo",
-    "loanMove": "Movimento de empréstimo",
+    "loanMove": "Empréstimo",
     "noOffers": "Nenhuma oferta disponível",
     "noOffersDescription": "Você não recebeu nenhuma oferta de transferência nesta temporada.",
     "permanentTransfer": "Transferência Permanente",
@@ -77,7 +77,7 @@
     "seasons": "temporadas",
     "tier": "Nível",
     "transferOffers": "Ofertas de transferência",
-    "wage": "Remuneração",
+    "wage": "Salário",
     "years": "anos"
   },
   "personality": {
@@ -97,28 +97,28 @@
   },
   "playerStyle": {
     "advancedPlaymaker": "Criador de jogo avançado",
-    "ballPlayingDefender": "Defensor jogando bola",
+    "ballPlayingDefender": "Zagueiro Construtor",
     "ballWinningMidfielder": "Meio-campista vencedor de bola",
-    "boxToBox": "Caixa a caixa",
-    "completeForward": "Concluir avanço",
-    "deepLyingPlaymaker": "Criador de jogo profundamente mentiroso",
+    "boxToBox": "Box-to-Box",
+    "completeForward": "Atacante Completo",
+    "deepLyingPlaymaker": "Meia Armador",
     "emergingTalent": "Talento emergente",
     "false9": "Falso 9",
-    "insideForward": "Dentro da frente",
-    "invertedWinger": "Extremo Invertido",
+    "insideForward": "Ponta Invertido",
+    "invertedWinger": "Ponta invertido",
     "mezzala": "Mezzala",
-    "poacher": "Caçador furtivo",
-    "regista": "Registrador",
-    "shotStopper": "Rolha de tiro",
+    "poacher": "Oportunista",
+    "regista": "Regista",
+    "shotStopper": "Paredão",
     "speedDemon": "Demônio da Velocidade",
-    "stopper": "Rolha",
-    "sweeper": "Varredor",
-    "sweeperKeeper": "Varredor",
-    "targetMan": "Homem alvo",
-    "traditionalWinger": "Extremo Tradicional",
+    "stopper": "Zagueiro marcador",
+    "sweeper": "Líbero",
+    "sweeperKeeper": "Goleiro-Líbero",
+    "targetMan": "Pivô",
+    "traditionalWinger": "Ponta tradicional",
     "versatilePlayer": "Jogador versátil",
-    "widePlaymaker": "Criador de jogo amplo",
-    "wingBack": "Asa de volta"
+    "widePlaymaker": "Armador de Lado",
+    "wingBack": "Ala"
   },
   "seasonFocus": {
     "aerial": {
@@ -135,7 +135,7 @@
     },
     "boxToBox": {
       "description": "Cubra todo o campo e contribua para o ataque e a defesa",
-      "title": "Caixa a caixa"
+      "title": "Box-to-Box"
     },
     "consistency": {
       "description": "Busque desempenhos sólidos e confiáveis ​​ao longo da temporada.",
@@ -149,7 +149,7 @@
       "description": "Melhorar a distribuição de chutes e arremessos",
       "title": "Distribuição"
     },
-    "durationHint": "Este foco durará temporadas {seasons}",
+    "durationHint": "Este foco durará {seasons} temporadas",
     "heading": {
       "description": "Melhore o cabeceamento e os duelos aéreos",
       "title": "Jogo Aéreo"
@@ -176,12 +176,12 @@
       "title": "Posicionamento"
     },
     "reflexes": {
-      "description": "Aumente o tempo de reação e economize",
+      "description": "Aprimore tempo de reação e defesas",
       "title": "Reflexos"
     },
     "scoring": {
-      "description": "Priorize gols e finalizações. As expectativas do clube se concentrarão nos objetivos.",
-      "title": "Gol"
+      "description": "Priorize gols e finalização. As expectativas do clube focarão em gols.",
+      "title": "Artilharia"
     },
     "speed": {
       "description": "Concentre-se no ritmo e nas melhorias rápidas",

@@ -66,6 +66,14 @@
     }
   },
   "assistsShort": "PD",
+  "bootstrap": {
+    "step1": "Préparation de vos données et documents de joueur...",
+    "step2": "Création de plus de 4 000 clubs à travers le monde...",
+    "step3": "Génération de milliers de joueurs et de futurs rivaux...",
+    "step4": "Tirage des groupes et mise en place du calendrier de la saison...",
+    "step5": "Tout est prêt ! Entrée dans le vestiaire...",
+    "footerNote": "La génération de l'univers de votre carrière calcule les ligues, les effectifs et les calendriers dynamiques. Cela peut prendre quelques secondes."
+  },
   "careerModal": {
     "age": "Âge",
     "assistsPerMatch": "PD/Match",
@@ -1620,5 +1628,16 @@
   },
   "wcQualification": {
     "failed": "Qualification Failed"
+  },
+  "alerts": {
+    "failedAcceptTransfer": "Impossible d'accepter le transfert en mode natif.",
+    "saveCorrupted": "Le fichier de sauvegarde n'a pas pu être lu. Les données sont peut-être corrompues.",
+    "saveMissingPlayer": "Il manque les données du joueur dans le fichier de sauvegarde.",
+    "failedLoadSave": "Impossible de charger la sauvegarde. Réessayez ou démarrez une nouvelle carrière.",
+    "failedDeleteSave": "Impossible de supprimer la sauvegarde. Réessayez.",
+    "nativeMatchSimFailed": "La simulation native du match a échoué : {error}"
+  },
+  "socialMedia": {
+    "seeMore": "Voir plus"
   }
 }

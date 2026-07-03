@@ -66,6 +66,14 @@
     }
   },
   "assistsShort": "A",
+  "bootstrap": {
+    "step1": "Menyiapkan data dan dokumen atletmu...",
+    "step2": "Mendirikan lebih dari 4.000 klub di seluruh dunia...",
+    "step3": "Melahirkan ribuan pemain dan calon rival...",
+    "step4": "Mengundi grup dan menyusun kalender musim...",
+    "step5": "Semua siap! Memasuki ruang ganti...",
+    "footerNote": "Pembuatan semesta kariermu menghitung liga, skuad, dan kalender dinamis. Ini mungkin membutuhkan beberapa detik."
+  },
   "careerModal": {
     "age": "Umur",
     "assistsPerMatch": "Assist/Laga",
@@ -1571,5 +1579,16 @@
   },
   "wcQualification": {
     "failed": "Qualification Failed"
+  },
+  "alerts": {
+    "failedAcceptTransfer": "Gagal menerima transfer secara native.",
+    "saveCorrupted": "File save tidak dapat dibaca. Data mungkin rusak.",
+    "saveMissingPlayer": "File save tidak memiliki data pemain.",
+    "failedLoadSave": "Gagal memuat save. Coba lagi atau mulai karier baru.",
+    "failedDeleteSave": "Gagal menghapus save. Coba lagi.",
+    "nativeMatchSimFailed": "Simulasi pertandingan native gagal: {error}"
+  },
+  "socialMedia": {
+    "seeMore": "Lihat lainnya"
   }
 }

@@ -4,23 +4,23 @@
     "almostThere": "Quase lá!",
     "ballonDor": "Ganhe o Troféu de Ouro",
     "becomeCaptain": "Torne-se capitão do {team}",
-    "becomeClubLegend": "Torne-se uma lenda do {team} (aplicativos {matches}/200)",
+    "becomeClubLegend": "Torne-se lenda do {team} ({matches}/200 jogos)",
     "becomeStarter": "Torne-se titular regular em {team}",
-    "breakGoalRecord": "Quebre o recorde de meta {team} ({current}/{record})",
+    "breakGoalRecord": "Quebre o recorde de gols do {team} ({current}/{record})",
     "completed": "Concluído",
     "desc": {
       "becomeCaptain": "Torne-se capitão da equipe",
       "becomeClubLegend": "Torne-se uma lenda do clube",
-      "becomeRegularStarter": "Torne-se um iniciante regular",
+      "becomeRegularStarter": "Torne-se titular regular",
       "breakClubRecord": "Quebre um recorde do clube",
       "earnCallUp": "Ganhe convocação para a seleção nacional",
-      "firstCleanSheet": "Manter a primeira folha limpa",
+      "firstCleanSheet": "Manter o primeiro jogo sem sofrer gols",
       "firstProGoal": "Marque o primeiro gol profissional",
       "makeDebut": "Faça sua estreia profissional",
       "playTopTier": "Jogue no nível superior",
       "reach100Caps": "Alcance 100 partidas internacionais",
       "reachCareerAssists": "Alcance o marco de assistências na carreira",
-      "reachCareerGoals": "Alcance o marco das metas de carreira",
+      "reachCareerGoals": "Alcance a marca de gols na carreira",
       "reachOverall": "Alcance a meta OVR",
       "score100CareerGoals": "Marque 100 gols na carreira",
       "spend10Years": "Passe 10 anos no clube",
@@ -32,7 +32,7 @@
     "emptyDescription": "Toda lenda tem um começo. Continue jogando e novos objetivos aparecerão pelo caminho.",
     "emptyTitle": "Sua jornada começa aqui",
     "expired": "Expirado",
-    "firstCleanSheet": "Manter a primeira folha limpa",
+    "firstCleanSheet": "Manter o primeiro jogo sem sofrer gols",
     "firstGoal": "Marque o primeiro gol profissional",
     "firstTrophy": "Ganhe o primeiro grande troféu",
     "legacyOther": "Outros objetivos",
@@ -40,9 +40,9 @@
     "percentComplete": "completo",
     "proDebut": "Faça sua estreia profissional",
     "progress": "Progresso",
-    "reach100Caps": "Alcance 100 cápsulas para {country}",
+    "reach100Caps": "Alcance 100 jogos por {country}",
     "reachCareerAssists": "Alcance assistências de carreira {count}",
-    "reachCareerGoals": "Alcance objetivos de carreira {count}",
+    "reachCareerGoals": "Alcance {count} gols na carreira",
     "reachOverallRating": "Alcance {rating}+ geral",
     "rewards": {
       "agentReputation": "Reputação do agente",
@@ -72,14 +72,14 @@
         "assistsLeague": "Alvo de assistências da liga",
         "assistsLeagueDesc": "Forneça um número específico de assistências na liga nesta temporada.",
         "chancesCreated": "Chances criadas",
-        "cleanSheets": "Alvo de folha limpa",
+        "cleanSheets": "Alvo de jogo sem sofrer gols",
         "conceded": "Limite de gols sofridos",
         "consistency": "Mantenha a consistência",
         "consistencyDesc": "Mantenha desempenhos consistentes",
         "dribblesCompleted": "Dribles concluídos",
         "gkRating": "Classificação do goleiro",
         "gkRatingDesc": "Manter uma classificação média alta como Goleiro.",
-        "goalsLeague": "Meta de gols da liga",
+        "goalsLeague": "Meta de Gols na Liga",
         "goalsLeagueDesc": "Marque um número específico de gols na liga nesta temporada.",
         "interceptions": "Interceptações",
         "manOfTheMatch": "Homem do jogo",
@@ -90,16 +90,16 @@
       },
       "expired": "Expirado",
       "milestones": {
-        "careerGoals": "Metas de carreira",
+        "careerGoals": "Gols na Carreira",
         "careerGoalsDesc": "Descrição das metas de carreira"
       },
       "origin": {
         "agent": "Agente",
         "club": "Clube",
-        "coach": "Gerente",
+        "coach": "Técnico",
         "fans": "Fãs",
         "press": "Imprensa",
-        "self": "Auto"
+        "self": "Você"
       },
       "progress": "Progresso",
       "promises": {
@@ -107,8 +107,8 @@
         "roleGuaranteeDesc": "Certifique-se de receber o tempo de jogo prometido em seu contrato."
       },
       "records": {
-        "clubSeasonGoals": "Metas da Temporada do Clube",
-        "clubSeasonGoalsBroken": "Metas da temporada do clube quebradas",
+        "clubSeasonGoals": "Gols do Clube na Temporada",
+        "clubSeasonGoalsBroken": "Recorde de Gols do Clube Quebrado",
         "clubSeasonGoalsBrokenDesc": "Descrição quebrada das metas da temporada do clube",
         "clubSeasonGoalsDesc": "Descrição das metas da temporada de clubes",
         "historicSeasonGoals": "Gols históricos da temporada",
@@ -128,7 +128,7 @@
       },
       "sections": {
         "career": "Carreira",
-        "chases": "Gravar perseguições",
+        "chases": "Caças a Recordes",
         "promises": "Promessas",
         "thisSeason": "Esta temporada"
       },
@@ -139,7 +139,7 @@
       },
       "target": "Alvo",
       "team": {
-        "leagueFinish": "Meta de finalização da liga",
+        "leagueFinish": "Meta de Posição na Liga",
         "leagueFinishDesc": "Ajude a equipe a alcançar esta posição na liga ou melhor."
       }
     },

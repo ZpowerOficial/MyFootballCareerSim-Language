@@ -66,6 +66,14 @@
     }
   },
   "assistsShort": "A",
+  "bootstrap": {
+    "step1": "Sporcu verilerin ve belgelerin hazırlanıyor...",
+    "step2": "Dünyanın dört bir yanında 4.000'den fazla kulüp kuruluyor...",
+    "step3": "Binlerce oyuncu ve gelecekteki rakipler oluşturuluyor...",
+    "step4": "Gruplar çekiliyor ve sezon takvimi hazırlanıyor...",
+    "step5": "Her şey hazır! Soyunma odasına giriliyor...",
+    "footerNote": "Kariyer evrenin oluşturulurken ligler, kadrolar ve dinamik takvimler hesaplanır. Bu birkaç saniye sürebilir."
+  },
   "careerModal": {
     "age": "Yaş",
     "assistsPerMatch": "Asist/Maç",
@@ -1573,5 +1581,16 @@
   },
   "wcQualification": {
     "failed": "Qualification Failed"
+  },
+  "alerts": {
+    "failedAcceptTransfer": "Transfer yerel olarak kabul edilemedi.",
+    "saveCorrupted": "Kayıt dosyası okunamadı. Veriler bozulmuş olabilir.",
+    "saveMissingPlayer": "Kayıt dosyasında oyuncu verisi eksik.",
+    "failedLoadSave": "Kayıt yüklenemedi. Lütfen tekrar deneyin veya yeni bir kariyer başlatın.",
+    "failedDeleteSave": "Kayıt silinemedi. Lütfen tekrar deneyin.",
+    "nativeMatchSimFailed": "Yerel maç simülasyonu başarısız oldu: {error}"
+  },
+  "socialMedia": {
+    "seeMore": "Daha fazla göster"
   }
 }

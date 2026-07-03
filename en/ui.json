@@ -9,6 +9,7 @@
     "confirmRenew": "Confirm Renewal",
     "contractDetails": "Contract Details",
     "contractYears": "Years",
+    "current": "Current",
     "duration": "Duration",
     "expiringSoon": "Expiring Soon",
     "finances": "Finances",
@@ -20,6 +21,7 @@
     "renewAgent": "Renew Agent",
     "renewDesc": "Renew with {name} for 2 years?",
     "selectAgent": "Select Agent",
+    "special": "Special",
     "squadStatus": "Status",
     "styleDesc": {
       "Adaptable": "Adjusts to any situation.",
@@ -31,13 +33,21 @@
       "Careerfocused": "Prioritizes development and minutes.",
       "Charismatic": "Charms directors into better deals.",
       "Conservative": "Prioritizes stability and safety.",
+      "Cautious": "Avoids risky moves.",
+      "Connected": "Uses a strong network of contacts.",
       "Dedicated": "Fully focused on client success.",
+      "Determined": "Pushes through difficult negotiations.",
+      "Direct": "Gets straight to the point.",
+      "Eager": "Hungry for opportunities.",
       "Energetic": "Works tirelessly.",
+      "Enthusiastic": "Brings positive energy to every deal.",
       "Experienced": "Leverages years of know-how.",
       "Focused": "Client-first mentality.",
       "Friendly": "Builds good relationships.",
       "Honest": "Transparent in all dealings.",
+      "Hungry": "Always chasing the next big move.",
       "Innovative": "Finds creative solutions.",
+      "Mastermind": "Sees several moves ahead.",
       "Methodical": "Analyzes every detail.",
       "Moneyfocused": "Maximizes financial package.",
       "Motivated": "Driven to succeed.",
@@ -50,8 +60,13 @@
       "Reliable": "Delivers on promises.",
       "Strategic": "Plans long-term moves carefully.",
       "Traditional": "Prefers old-school methods.",
+      "Unpredictable": "Keeps clubs guessing.",
       "Visionary": "Focuses on long-term legacy."
     },
+    "unlockDescriptions": {
+      "oliverTree": "Only the absolute elite. Requires 90+ OVR, 3+ pro seasons, 10+ international caps, and 2+ trophies."
+    },
+    "unlockProgress": "Unlock Progress",
     "weeklySalary": "Weekly Wage",
     "reasons": {
       "none": "No suitable agents available",
@@ -66,6 +81,14 @@
     }
   },
   "assistsShort": "A",
+  "bootstrap": {
+    "step1": "Preparing your athlete data and documents...",
+    "step2": "Founding more than 4,000 clubs around the world...",
+    "step3": "Generating thousands of players and future rivals...",
+    "step4": "Drawing groups and setting the season calendar...",
+    "step5": "All set! Entering the dressing room...",
+    "footerNote": "Your career universe generation calculates leagues, squads, and dynamic calendars. This may take a few seconds."
+  },
   "careerModal": {
     "age": "Age",
     "assistsPerMatch": "Ast/90",
@@ -302,7 +325,29 @@
     "clear": "Clear",
     "round": "Round",
     "youthAcademy": "Youth Academy",
-    "pt": "Português"
+    "pt": "Português",
+    "scheduled": "Scheduled",
+    "complete": "Complete",
+    "championLabel": "Champion: ",
+    "seeMore": "See more",
+    "player": "Player",
+    "instagram": "Instagram",
+    "discord": "Discord",
+    "minAbbreviation": "' Min",
+    "npcNotFound": "NPC not found.",
+    "preSeason": "Pre-Season",
+    "regularSeason": "Regular Season",
+    "postSeason": "Post-Season",
+    "promotion": "Promotion",
+    "relegation": "Relegation",
+    "qualification": "Qualification",
+    "friendly": "Friendly",
+    "round64": "Round of 64",
+    "round32": "Round of 32",
+    "round16": "Round of 16",
+    "quarterFinal": "Quarter-Final",
+    "semiFinal": "Semi-Final",
+    "final": "Final"
   },
   "continents": {
     "Africa": "Africa",
@@ -1160,7 +1205,9 @@
     "away": "AWAY",
     "noMatches": "No matches played yet",
     "matchHistory": "Match History",
-    "simulating": "Simulating..."
+    "simulating": "Simulating...",
+    "loadingTacticalBuffer": "Loading tactical buffer...",
+    "minuteByMinute": "Minute by Minute Simulation"
   },
   "shareCard": {
     "assists": "Assists",
@@ -1565,5 +1612,22 @@
   },
   "wcQualification": {
     "failed": "Qualification Failed"
+  },
+  "alerts": {
+    "failedAcceptTransfer": "Failed to accept transfer natively.",
+    "saveCorrupted": "Save file could not be read. The data may be corrupted.",
+    "saveMissingPlayer": "Save file is missing player data.",
+    "failedLoadSave": "Failed to load save. Please try again or start a new career.",
+    "failedDeleteSave": "Failed to delete save. Please try again.",
+    "nativeMatchSimFailed": "Native match simulation failed: {error}"
+  },
+  "errors": {
+    "criticalRenderError": "Critical React Render Error",
+    "noStackTrace": "No stack trace available",
+    "reloadStrategy": "Reload Strategy",
+    "nativeSeasonAdvance": "Native season advance did not return updated save data"
+  },
+  "socialMedia": {
+    "seeMore": "See more"
   }
 }
