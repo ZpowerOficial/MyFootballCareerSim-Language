@@ -22,7 +22,7 @@
     "acceleration": "Aceleração",
     "aerialControl": "Controle Aéreo",
     "age": "Idade",
-    "aggression": "Agressão",
+    "aggression": "Agressividade",
     "agility": "Agilidade",
     "attacking": "Ataque",
     "attributeEvolution": "Evolução de Atributos",
@@ -39,9 +39,9 @@
     "flair": "Talento",
     "foot": {
       "left": "Esquerda",
-      "right": "Direito"
+      "right": "Direita"
     },
-    "footedness": "Pés",
+    "footedness": "Pé dominante",
     "freeKick": "Precisão de cobrança de falta",
     "gkDiving": "Defesa (GK)",
     "gkHandling": "Segurança (GK)",
@@ -55,7 +55,7 @@
     "jumping": "Salto",
     "keyAttribute": "Atributo chave",
     "leadership": "Liderança",
-    "leftFinishing": "Acabamento (Esquerda)",
+    "leftFinishing": "Finalização (esquerda)",
     "legend": "Lenda",
     "longPassing": "Passe Longo",
     "longShots": "Chutes de longe",
@@ -73,12 +73,12 @@
     "physicalAttributes": "Atributos Físicos",
     "positioning": "Posicionamento",
     "preferredFoot": "Pé preferido",
-    "ratingColors": "Classificação de cores",
+    "ratingColors": "Cores da avaliação",
     "reactions": "Reações",
-    "rightFinishing": "Acabamento (direita)",
+    "rightFinishing": "Finalização (direita)",
     "shooting": "Chute",
     "shortPassing": "Passe Curto",
-    "shotPower": "Poder de tiro",
+    "shotPower": "Força do chute",
     "slidingTackle": "Carrinho",
     "sprintSpeed": "Velocidade de corrida",
     "stamina": "Vigor",
@@ -95,7 +95,7 @@
     "Aerial Specialist": "Especialista Aéreo",
     "Big Game Player": "Grande jogador",
     "Clinical Finisher": "Finalizador Clínico",
-    "Dribbling Wizard": "Assistente de Drible",
+    "Dribbling Wizard": "Mago do Drible",
     "Engine": "Motor",
     "Leader": "Líder",
     "Playmaker": "Criador de jogo",
@@ -110,9 +110,9 @@
     },
     "ballControl": {
       "aerialControl": "Controle Aéreo",
-      "firstTouchOrientated": "Orientado ao primeiro toque",
+      "firstTouchOrientated": "Primeiro Toque Orientado",
       "firstTouchUnderPressure": "Primeiro toque sob pressão",
-      "shielding": "Blindagem",
+      "shielding": "Proteção de bola",
       "trapping": "Domínio"
     },
     "commanding": {
@@ -130,12 +130,12 @@
       "backtracking": "Retrocesso",
       "covering": "Cobertura",
       "defensiveAwareness": "Consciência Defensiva",
-      "jockeying": "Jockey",
+      "jockeying": "Contenção",
       "positionRecovery": "Recuperação de posição"
     },
     "distribution": {
       "goalKicks": "Chutes de meta",
-      "kicking": "Chutando",
+      "kicking": "Reposição com os pés",
       "passingLong": "Passe Longo (GR)",
       "passingShort": "Passe Curto (GR)",
       "throwing": "Arremesso"
@@ -157,17 +157,17 @@
     "finishing": {
       "finishingInsideBox": "Finalização dentro da Área",
       "finishingOnCounter": "Finalização em Contra-ataque",
-      "finishingOutsideBox": "Acabamento Fora da Caixa",
-      "finishingUnderPressure": "Acabamento sob pressão",
+      "finishingOutsideBox": "Finalização fora da área",
+      "finishingUnderPressure": "Finalização sob pressão",
       "headedAccuracy": "Precisão de Cabeça",
       "headingAccuracy": "Precisão de cabeceio",
       "headingPower": "Força do cabeceio",
       "oneOnOneFinishing": "Finalização 1v1",
-      "placedShotAccuracy": "Precisão do tiro colocado",
-      "placedShots": "Tiros Colocados",
-      "powerShotAccuracy": "Precisão de tiro poderoso",
-      "shotAnticipation": "Antecipação de Tiro",
-      "shotPower": "Poder de tiro",
+      "placedShotAccuracy": "Precisão do chute colocado",
+      "placedShots": "Chutes colocados",
+      "powerShotAccuracy": "Precisão do chute potente",
+      "shotAnticipation": "Antecipação de chute",
+      "shotPower": "Força do chute",
       "volleyTechnique": "Técnica de Voleio",
       "volleysAndAcrobatic": "Voleios e Acrobática"
     },
@@ -181,21 +181,21 @@
       "vision": "Visão"
     },
     "interception": {
-      "crossBlocking": "Bloqueio Cruzado",
+      "crossBlocking": "Bloqueio de cruzamento",
       "longPassInterception": "Interceptação de passe longo",
       "readingOfPlay": "Leitura de Jogo",
       "shortPassInterception": "Interceptação de passe curto",
-      "shotBlocking": "Bloqueio de tiro"
+      "shotBlocking": "Bloqueio de chute"
     },
     "jumping": {
-      "headerTiming": "Tempo do cabeçalho",
-      "runningVerticalJump": "Correndo Salto Vertical",
-      "standingVerticalJump": "Salto vertical em pé"
+      "headerTiming": "Timing de cabeceio",
+      "runningVerticalJump": "Salto Vertical em Movimento",
+      "standingVerticalJump": "Salto Vertical Parado"
     },
     "marking": {
       "closeDownSpeed": "Velocidade de fechamento",
       "individualMarking": "Marcação Individual",
-      "trackingRuns": "Rastreamento de execuções",
+      "trackingRuns": "Acompanhamento de corridas",
       "zonalMarking": "Marcação Zonal"
     },
     "mental": {
@@ -204,9 +204,9 @@
     },
     "mentalGK": {
       "composure": "Compostura (GK)",
-      "concentration": "Concentração (GC)",
+      "concentration": "Concentração (GK)",
       "decisionMaking": "Tomada de Decisão (GK)",
-      "handling": "Manuseio"
+      "handling": "Segurança"
     },
     "passing": {
       "crossingFromByline": "Cruzamento pela Linha de Fundo",
@@ -214,25 +214,25 @@
       "curveEffect": "Efeito Curva",
       "firstTimeCrossing": "Cruzamento de primeira",
       "lobPassAccuracy": "Precisão do passe Lob",
-      "longDiagonalPass": "Passe diagonal longo",
+      "longDiagonalPass": "Passe Diagonal Longo",
       "shortPassingSupport": "Suporte para passes curtos",
-      "shortPassingUnderPressure": "Passagem Curta Sob Pressão",
+      "shortPassingUnderPressure": "Passe curto sob pressão",
       "throughBalls": "Bolas Enfiadas",
-      "verticalPassBreakingLines": "Linhas de quebra de passagem vertical",
-      "weightedPass": "Passe Ponderado"
+      "verticalPassBreakingLines": "Passe vertical entre linhas",
+      "weightedPass": "Passe dosado"
     },
     "performance": {
       "adaptability": "Adaptabilidade",
       "bigMatchPerformance": "Desempenho em grandes partidas",
       "clutchFactor": "Fator Decisivo",
       "consistency": "Consistência",
-      "pressureHandling": "Manuseio de Pressão"
+      "pressureHandling": "Controle sob pressão"
     },
     "personality": {
       "bravery": "Bravura",
       "charismaOffPitch": "Carisma fora do campo",
       "composure": "Compostura",
-      "composureInFinishing": "Compostura no acabamento",
+      "composureInFinishing": "Compostura na finalização",
       "determination": "Determinação",
       "leadershipOnPitch": "Liderança em campo",
       "professionalism": "Profissionalismo",
@@ -243,33 +243,33 @@
       "linePositioning": "Posicionamento de linha",
       "narrowingAngles": "Estreitando Ângulos",
       "positioning": "Posicionamento do GK",
-      "rushingOut": "Correndo para fora"
+      "rushingOut": "Saída do gol"
     },
     "pressing": {
       "counterPressing": "Contrapressão",
       "pressIntensity": "Intensidade de Pressão",
-      "pressingTrigger": "Pressionando o gatilho",
+      "pressingTrigger": "Gatilho de pressão",
       "sustainedPressing": "Pressão Sustentada"
     },
     "robustness": {
       "injuryResistance": "Resistência a lesões",
-      "naturalFitness": "Aptidão Natural",
+      "naturalFitness": "Condicionamento natural",
       "physicalRobustness": "Robustez Física",
       "recoveryRate": "Taxa de recuperação"
     },
     "setPieces": {
-      "cornerKicking": "Chute de canto",
+      "cornerKicking": "Cobrança de escanteio",
       "directFreeKickPlacement": "Colocação de cobrança de falta direta",
-      "directFreeKickPower": "Poder de chute livre direto",
-      "indirectFreeKick": "Tiro Livre Indireto",
-      "penaltyTaking": "Penalidade",
+      "directFreeKickPower": "Força em faltas diretas",
+      "indirectFreeKick": "Falta indireta",
+      "penaltyTaking": "Cobrança de pênaltis",
       "throwIns": "Lançamentos"
     },
     "shotStopping": {
-      "closeRangeShotStopping": "Parada de tiro de curta distância",
-      "diving": "Mergulho GK",
-      "longRangeShotStopping": "Parada de tiro de longa distância",
-      "oneOnOneStopping": "Parada 1v1",
+      "closeRangeShotStopping": "Defesa em chutes de curta distância",
+      "diving": "Defesa em salto (GK)",
+      "longRangeShotStopping": "Defesa em chutes de longa distância",
+      "oneOnOneStopping": "Defesa no 1v1",
       "penaltySaving": "Defesa de pênaltis",
       "reflexes": "Reflexos GK"
     },

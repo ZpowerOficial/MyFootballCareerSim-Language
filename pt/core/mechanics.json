@@ -12,7 +12,7 @@
     "belowAverage": "Abaixo da média",
     "excellent": "Excelente",
     "good": "Bom",
-    "poor": "Pobre",
+    "poor": "Ruim",
     "terrible": "Terrível",
     "veryGood": "Muito bom",
     "worldClass": "Classe Mundial"
@@ -34,12 +34,12 @@
   "squadStatus": {
     "Captain": "Capitão",
     "Club Legend": "Lenda do clube",
-    "Franchise Player": "Jogador de franquia",
+    "Franchise Player": "Jogador-símbolo",
     "Key Player": "Jogador-chave",
     "Prospect": "Promessa",
     "Reserve": "Reserva",
     "Rotation": "Rotação",
-    "Squad Player": "Jogador do time",
+    "Squad Player": "Jogador do elenco",
     "Starter": "Titular",
     "Surplus": "Excedente",
     "Veteran Leader": "Líder Veterano",
@@ -84,13 +84,13 @@
     "Ambitious": "Ambicioso",
     "Balanced": "Equilibrado",
     "Determined": "Determinado",
-    "Easygoing": "Maleável",
+    "Easygoing": "Tranquilo",
     "Inconsistent": "Inconsistente",
     "Jovial": "Jovial",
     "Lazy": "Preguiçoso",
     "Leader": "Líder",
     "Loyal": "Leal",
-    "Media Darling": "Querida da mídia",
+    "Media Darling": "Queridinho da mídia",
     "Professional": "Profissional",
     "Reserved": "Reservado",
     "Temperamental": "Temperamental"
@@ -98,7 +98,7 @@
   "playerStyle": {
     "advancedPlaymaker": "Criador de jogo avançado",
     "ballPlayingDefender": "Zagueiro Construtor",
-    "ballWinningMidfielder": "Meio-campista vencedor de bola",
+    "ballWinningMidfielder": "Volante recuperador",
     "boxToBox": "Box-to-Box",
     "completeForward": "Atacante Completo",
     "deepLyingPlaymaker": "Meia Armador",
@@ -114,7 +114,7 @@
     "stopper": "Zagueiro marcador",
     "sweeper": "Líbero",
     "sweeperKeeper": "Goleiro-Líbero",
-    "targetMan": "Pivô",
+    "targetMan": "Homem de Área",
     "traditionalWinger": "Ponta tradicional",
     "versatilePlayer": "Jogador versátil",
     "widePlaymaker": "Armador de Lado",
@@ -131,7 +131,7 @@
     },
     "ballPlaying": {
       "description": "Melhorar o passe e a distribuição na retaguarda",
-      "title": "Jogar bola"
+      "title": "Saída de bola"
     },
     "boxToBox": {
       "description": "Cubra todo o campo e contribua para o ataque e a defesa",
@@ -146,7 +146,7 @@
       "title": "Desenvolvimento"
     },
     "distribution": {
-      "description": "Melhorar a distribuição de chutes e arremessos",
+      "description": "Melhorar reposições com os pés e com as mãos",
       "title": "Distribuição"
     },
     "durationHint": "Este foco durará {seasons} temporadas",
@@ -163,7 +163,7 @@
       "title": "Chutes de longe"
     },
     "marking": {
-      "description": "Melhorar a marcação e o posicionamento do homem",
+      "description": "Melhorar a marcação individual e o posicionamento",
       "title": "Marcação Defensiva"
     },
     "playmaking": {
@@ -196,9 +196,9 @@
   },
   "legend": {
     "elite": "Elite",
-    "lower": "Mais baixo",
-    "mid": "Meio",
-    "top": "Principal"
+    "lower": "Baixo",
+    "mid": "Médio",
+    "top": "Alto"
   },
   "status": {
     "controversial": "Controverso"

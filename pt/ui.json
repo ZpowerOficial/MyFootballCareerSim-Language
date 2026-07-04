@@ -83,7 +83,7 @@
   "assistsShort": "A",
   "bootstrap": {
     "step1": "Preparando seus dados e documentos de atleta...",
-    "step2": "Fundando mais de 4.000 clubes ao redor do mundo...",
+    "step2": "Criando mais de 4.000 clubes ao redor do mundo...",
     "step3": "Gerando milhares de jogadores e futuros rivais...",
     "step4": "Sorteando grupos e definindo o calendário da temporada...",
     "step5": "Tudo pronto! Entrando no vestiário...",
@@ -592,7 +592,7 @@
   "pauseMenu": {
     "confirmMainMenu": "Tem certeza que deseja voltar ao menu principal? O progresso atual não salvo será perdido.",
     "confirmNewCareer": "Tem certeza que deseja iniciar uma nova carreira? O progresso atual não salvo será perdido.",
-    "leaderboard": "Placar de Líderes",
+    "leaderboard": "Ranking",
     "mainMenu": "Menu Principal",
     "newCareer": "Nova Carreira",
     "resume": "Continuar Jogando",
@@ -656,7 +656,7 @@
     "closeControl": "Controle Curto",
     "closeDownSpeed": "Velocidade de Aproximação",
     "closeRangeShots": "Chutes de Perto",
-    "clutchFactor": "Fator Clutch",
+    "clutchFactor": "Fator decisivo",
     "clutchGoals": "Gols Decisivos",
     "commandOfArea": "Domínio da Área",
     "commanding": "Comando de Área",
@@ -728,9 +728,9 @@
     "goals75to90": "Gols (75-90+')",
     "goalsByPeriod": "Gols por Período",
     "goalsOnCounter": "Gols de Contra-Ataque",
-    "goalsWhenBehind": "Gols Perdendo/Empatando",
+    "goalsWhenBehind": "Gols perdendo/empatando",
     "golazos": "Golaços",
-    "groundDuels": "Duelos Terrestres",
+    "groundDuels": "Duelos pelo chão",
     "handling": "Segurança",
     "headerTiming": "Timing de Cabeceio",
     "headingAccuracy": "Cabeceio",
@@ -742,7 +742,7 @@
     "jockeying": "Contenção",
     "jumping": "Salto",
     "keyPassesPer90": "Passes Chave/90",
-    "kicking": "Tiro de Meta",
+    "kicking": "Reposição com os pés",
     "lateralAgility": "Agilidade Lateral",
     "leadership": "Liderança",
     "league": "Liga",
@@ -761,7 +761,7 @@
     "narrowingAngles": "Fechar Ângulos",
     "nationality": "Nacionalidade",
     "natural": "Natural",
-    "naturalFitness": "Fitness Natural",
+    "naturalFitness": "Condicionamento natural",
     "noSecondaryPositions": "Sem posições secundárias",
     "noTendencies": "Sem tendências definidas",
     "notAvailable": "Dados expandidos não disponíveis",
@@ -792,7 +792,7 @@
     "pressIntensity": "Intensidade",
     "pressing": "Pressão",
     "pressingTrigger": "Gatilho de Pressão",
-    "pressureHandling": "Lidar com Pressão",
+    "pressureHandling": "Controle sob pressão",
     "pressuresPer90": "Pressões/90",
     "pressuresSuccessful": "Pressões Bem-sucedidas",
     "primaryPosition": "Posição Principal",
@@ -803,7 +803,7 @@
     "punching": "Socos",
     "reactionTime": "Tempo de Reação",
     "readingOfPlay": "Leitura de Jogo",
-    "recoveries": "Recuperações Ofensivas",
+    "recoveries": "Recuperações",
     "recoveryRate": "Taxa de Recuperação",
     "redCards": "Cartões Vermelhos",
     "reflexes": "Reflexos",
@@ -872,7 +872,7 @@
       "stopper": "Zagueiro de Contenção",
       "sweeper": "Líbero",
       "sweeperKeeper": "Goleiro-Líbero",
-      "targetMan": "Pivô",
+      "targetMan": "Homem de Área",
       "traditionalKeeper": "Goleiro Clássico",
       "traditionalWinger": "Ponta Clássico",
       "trequartista": "Trequartista",
@@ -951,7 +951,7 @@
       "LateBloomer": "Revelação Tardia",
       "TechnicalMaestro": "Maestro Técnico",
       "TargetMan": "Homem de Área",
-      "Journeyman": "Viajante"
+      "Journeyman": "Jogador rodado"
     }
   },
   "personality": {
@@ -974,7 +974,7 @@
     "LateBloomer": "Revelação Tardia",
     "TechnicalMaestro": "Maestro Técnico",
     "TargetMan": "Homem de Área",
-    "Journeyman": "Viajante"
+    "Journeyman": "Jogador rodado"
   },
   "traitStyles": {
     "Aerial Dominance": "Domínio Aéreo",
@@ -1276,10 +1276,10 @@
     "clubOffer": "Proposta do Clube",
     "baseSalary": "Salário Base",
     "contractLength": "Duração do Contrato",
-    "salaryDemand": "Demanda Salarial",
+    "salaryDemand": "Pedido salarial",
     "imageRights": "Direitos de Imagem",
-    "clubKeeps": "Clube Fica",
-    "youKeep": "Você Fica",
+    "clubKeeps": "Clube mantém",
+    "youKeep": "Você mantém",
     "walkAway": "Encerrar Negociação",
     "dealAccepted": "Negócio Fechado!",
     "clubAgreed": "O clube aceitou seus termos.",
@@ -1429,8 +1429,8 @@
     "winner": "Vencedor",
     "runnerUp": "Vice",
     "notNominated": "Não nomeado",
-    "nominated": "Nomeado (Top 30)",
-    "topN": "Top {position}",
+    "nominated": "Indicado (Top 30)",
+    "topN": "Top {{position}}",
     "seasonN": "Temporada {{season}}",
     "regionalVotes": "Votos por Região",
     "candidateStats": "Estatísticas dos Candidatos",
@@ -1614,7 +1614,7 @@
     }
   },
   "wcQualification": {
-    "failed": "Qualificação Não Alcançada"
+    "failed": "Não se classificou"
   },
   "alerts": {
     "failedAcceptTransfer": "Falha ao aceitar transferência nativamente.",
