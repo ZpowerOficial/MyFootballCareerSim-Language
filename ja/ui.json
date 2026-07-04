@@ -50,7 +50,16 @@
       "Reliable": "交わしたすべての約束を守ります。",
       "Strategic": "あらゆるキャリアの動きを注意深く計画します。",
       "Traditional": "伝統的な交渉方法を好みます。",
-      "Visionary": "選手のキャリアについて長期的に考えます。"
+      "Visionary": "選手のキャリアについて長期的に考えます。",
+      "Cautious": "リスクを避けるスタイル",
+      "Connected": "強力な人脈ネットワークを活用",
+      "Determined": "困難な交渉でも押し切る",
+      "Direct": "率直に本題に入る",
+      "Eager": "機会に貪欲",
+      "Enthusiastic": "前向きなエネルギーをもたらす",
+      "Hungry": "常に次のビッグムーブを追う",
+      "Mastermind": "数手先を見据える",
+      "Unpredictable": "クラブの予測を裏切る"
     },
     "weeklySalary": "週給",
     "reasons": {
@@ -63,6 +72,12 @@
       "merger": "所属事務所が合併しました。あなたの担当は {name} に変更されました。",
       "special": "特別な事情",
       "improved": "{name} との契約でキャリアの展望が開けました（{style} {specialty}）"
+    },
+    "current": "現在",
+    "special": "特殊",
+    "unlockProgress": "解除進行度",
+    "unlockDescriptions": {
+      "oliverTree": "絶対的なエリートのみ。OVR 90以上、プロ3シーズン以上、代表10キャップ以上、トロフィー2つ以上が必要。"
     }
   },
   "assistsShort": "A",
@@ -291,14 +306,33 @@
     "tr": "Türkçe",
     "ar": "العربية",
     "supportProject": "プロジェクトを支援",
-    "round": "Round",
+    "round": "ラウンド",
     "youthAcademy": "ユースアカデミー",
     "assist": "アシスト",
     "goal": "ゴール",
     "winShort": "勝",
     "drawShort": "分",
     "lossShort": "敗",
-    "pt": "Português"
+    "pt": "Português",
+    "player": "選手",
+    "scheduled": "予定",
+    "complete": "完了",
+    "championLabel": "チャンピオン: ",
+    "seeMore": "もっと見る",
+    "instagram": "Instagram",
+    "discord": "Discord",
+    "minAbbreviation": "分",
+    "npcNotFound": "NPCが見つかりません。",
+    "preSeason": "プレシーズン",
+    "regularSeason": "レギュラーシーズン",
+    "postSeason": "ポストシーズン",
+    "promotion": "昇格",
+    "relegation": "降格",
+    "qualification": "予選",
+    "friendly": "親善試合",
+    "quarterFinal": "準々決勝",
+    "semiFinal": "準決勝",
+    "final": "決勝"
   },
   "commonExtra": {
     "ageYearsShort": "{age} 歳",
@@ -1056,14 +1090,14 @@
     "slotEmpty": "空のスロット",
     "slotOccupied": "使用中のスロット",
     "testSqlite": "SQLiteテストと診断コピー",
-    "birthDate": "Birth Date",
-    "devNewsButton": "What's New",
-    "devNewsTitle": "Developer Updates",
-    "devNewsClose": "Close",
-    "devNewsLoading": "Checking for updates...",
-    "devNewsError": "Could not load news.",
-    "devNewsOpenDiscord": "Join Discord",
-    "devNewsNoNews": "No news available."
+    "birthDate": "生年月日",
+    "devNewsButton": "新着情報",
+    "devNewsTitle": "開発アップデート",
+    "devNewsClose": "閉じる",
+    "devNewsLoading": "アップデートを確認中...",
+    "devNewsError": "ニュースを読み込めませんでした。",
+    "devNewsOpenDiscord": "Discordに参加",
+    "devNewsNoNews": "利用可能なニュースはありません。"
   },
   "matchPanel": {
     "title": "試合をシミュレート",
@@ -1090,7 +1124,9 @@
     "away": "アウェー",
     "noMatches": "まだ試合は行われていません",
     "matchHistory": "試合履歴",
-    "simulating": "シミュレーション中..."
+    "simulating": "シミュレーション中...",
+    "loadingTacticalBuffer": "戦術バッファを読み込み中...",
+    "minuteByMinute": "ミニット・バイ・ミニットシミュレーション"
   },
   "shareCard": {
     "assists": "アシスト",
@@ -1216,36 +1252,36 @@
     },
     "matchEvents": {
       "assist": {
-        "0": "Assist by {player}",
-        "1": "Great pass from {player}"
+        "0": "{player}のアシスト",
+        "1": "{player}の素晴らしいパス"
       },
       "goal": {
-        "0": "GOAL! {player} scores!",
-        "1": "What a finish by {player}!"
+        "0": "ゴール！{player}が決めた！",
+        "1": "{player}の素晴らしいフィニッシュ！"
       },
       "goodPass": {
-        "0": "Great pass by {player}",
-        "1": "{player} finds a teammate"
+        "0": "{player}の素晴らしいパス",
+        "1": "{player}が味方を見つける"
       },
       "injury": {
-        "0": "{player} seems injured",
-        "1": "{player} goes off injured"
+        "0": "{player}が負傷した模様",
+        "1": "{player}が負傷で退場"
       },
       "redCard": {
-        "0": "Red card! {player} is sent off!",
-        "1": "{player} is off early"
+        "0": "レッドカード！{player}が退場！",
+        "1": "{player}が早期退場"
       },
       "strayPass": {
-        "0": "{player} misplaced a pass",
-        "1": "Poor pass from {player}"
+        "0": "{player}のパスミス",
+        "1": "{player}の悪いパス"
       },
       "substitution": {
-        "0": "Substitution: {out} off, {in} on",
-        "1": "{in} replaces {out}"
+        "0": "交代：{out} → {in}",
+        "1": "{in}が{out}と交代"
       },
       "yellowCard": {
-        "0": "Yellow card for {player}",
-        "1": "{player} is booked"
+        "0": "{player}にイエローカード",
+        "1": "{player}が警告を受ける"
       }
     }
   },
@@ -1311,7 +1347,7 @@
     "BRONZE": "ブロンズ",
     "SILVER": "シルバー",
     "GOLD": "ゴールド",
-    "PLATINUM": "[MISSING] Platinum",
+    "PLATINUM": "プラチナム",
     "DIAMOND": "ダイヤモンド"
   },
   "noSpecialTraits": "特別な特性なし",
@@ -1378,30 +1414,29 @@
     "assistantCoach": "アシスタントコーチのレポート"
   },
   "awards": {
-    "_TODO": "Translate World Rankings UI",
-    "worldRankings": "Global",
-    "votingResults": "Voting Results",
-    "rankings": "Rankings",
-    "history": "History",
-    "votingDetails": "Voting Details",
-    "points": "points",
-    "voters": "voters",
-    "margin": "Margin",
-    "closeRace": "Close race!",
-    "landslide": "Dominant victory!",
-    "you": "YOU",
-    "winner": "Winner",
-    "runnerUp": "Runner-up",
-    "notNominated": "Not nominated",
-    "nominated": "Nominated (Top 30)",
-    "topN": "Top {{position}}",
-    "seasonN": "Season {{season}}",
-    "regionalVotes": "Votes by Region",
-    "candidateStats": "Candidate Statistics",
-    "viewDetails": "View Voting Details",
-    "viewHistory": "View History",
-    "pointsBehind": "{{points}} points behind",
-    "pointsAhead": "{{points}} points ahead",
+    "worldRankings": "世界ランキング",
+    "votingResults": "投票結果",
+    "rankings": "ランキング",
+    "history": "履歴",
+    "votingDetails": "投票詳細",
+    "points": "ポイント",
+    "voters": "投票者",
+    "margin": "差",
+    "closeRace": "接戦！",
+    "landslide": "圧勝！",
+    "you": "あなた",
+    "winner": "勝者",
+    "runnerUp": "準優勝",
+    "notNominated": "ノミネートなし",
+    "nominated": "ノミネート (トップ30)",
+    "topN": "トップ{{position}}",
+    "seasonN": "シーズン{{season}}",
+    "regionalVotes": "地域別投票",
+    "candidateStats": "候補者統計",
+    "viewDetails": "投票詳細を表示",
+    "viewHistory": "履歴を表示",
+    "pointsBehind": "{{points}}ポイント差",
+    "pointsAhead": "{{points}}ポイント先行",
     "goals": "ゴール",
     "assists": "アシスト",
     "cleanSheets": "クリーンシート",
@@ -1439,39 +1474,41 @@
     "youLabel": "あなた",
     "pts": "pts",
     "nthPlace": "{n}位",
-    "ceremony": "Award Ceremony",
-    "nextAward": "Next Award",
-    "skipAll": "Skip All",
-    "yourResult": "Your Result",
-    "awardOf": "Award {current} of {total}",
-    "records": "Career Records",
-    "totalWins": "Wins",
-    "totalNominations": "Nominations",
-    "bestPosition": "Best Position",
-    "closeRaces": "Close Races",
-    "consecutiveWins": "Consecutive",
-    "topRival": "Top Rival",
-    "filterByRegion": "Filter by Region",
-    "filterByType": "Filter by Type",
-    "hallOfFame": "Hall of Fame",
-    "noWinnersYet": "No winners recorded yet",
-    "viewPlayerDetails": "View details of {name}",
+    "ceremony": "表彰式",
+    "nextAward": "次の賞",
+    "skipAll": "すべてスキップ",
+    "yourResult": "あなたの結果",
+    "awardOf": "賞 {current}/{total}",
+    "records": "キャリア記録",
+    "totalWins": "勝利",
+    "totalNominations": "ノミネート",
+    "bestPosition": "最適ポジション",
+    "closeRaces": "接戦",
+    "consecutiveWins": "連続",
+    "topRival": "最大のライバル",
+    "filterByRegion": "地域でフィルター",
+    "filterByType": "タイプでフィルター",
+    "hallOfFame": "殿堂",
+    "noWinnersYet": "まだ記録なし",
+    "viewPlayerDetails": "{name}の詳細を表示",
     "seasonStats": "シーズン成績",
-    "achievementsLabel": "Achievements",
-    "prizeHistory": "Award History",
-    "npcCareer": "Player Profile",
-    "age": "Age",
+    "achievementsLabel": "実績",
+    "prizeHistory": "受賞歴",
+    "npcCareer": "選手プロフィール",
+    "age": "年齢",
     "overall": "総合",
-    "club": "Club",
-    "nationality": "Nationality",
-    "firstPlaceVotes": "1st place votes",
-    "totalPoints": "Total Points",
+    "club": "クラブ",
+    "nationality": "国籍",
+    "firstPlaceVotes": "1位票数",
+    "totalPoints": "総ポイント",
     "noVotingResults": "投票結果はありません",
     "rating": "評価",
     "recentMatches": "最近の試合"
   },
   "rankings": {
-    "title": "Global",
+    "title": "グローバル",
+    "thisSeason": "今シーズン",
+    "champions": "チャンピオンズ",
     "lastSeason": "昨シーズン",
     "history": "履歴",
     "position": "順位",
@@ -1480,7 +1517,7 @@
     "yourPosition": "あなたの順位",
     "viewVotingResults": "投票結果と履歴を表示",
     "completeSeasonFirst": "世界ランキングの結果を見るには最初のシーズンを終了してください",
-    "hallOfFame": "Hall of Fame",
+    "hallOfFame": "殿堂",
     "season": "シーズン",
     "allTime": "通算",
     "standings": "順位表",
@@ -1560,25 +1597,25 @@
   },
   "events": {
     "contract": {
-      "terminated": "Contract terminated with {team}."
+      "terminated": "{team}との契約が終了しました。"
     },
     "generated": {
-      "agent_meeting": "🤝 Your agent wants to discuss your future."
+      "agent_meeting": "🤝 エージェントが将来について話し合いたいと考えています。"
     }
   },
   "goals": {
-    "achieved": "🎯 Goal Achieved: {narrative}",
-    "newGoal": "🎯 New Goal Unlocked: {goal}"
+    "achieved": "🎯 目標達成: {narrative}",
+    "newGoal": "🎯 新しい目標解放: {goal}"
   },
   "trophiesSection": {
-    "Copa São Paulo de Futebol Júnior": "Sao Paulo Youth Cup",
+    "Copa São Paulo de Futebol Júnior": "サンパウロユースカップ",
     "trophy": {
-      "supercopaBrasil": "Brazilian Super Cup"
+      "supercopaBrasil": "ブラジルスーパーカップ"
     },
-    "americasDerby": "Americas Derby"
+    "americasDerby": "アメリカ大陸ダービー"
   },
   "wcQualification": {
-    "failed": "Qualification Failed"
+    "failed": "予選敗退"
   },
   "alerts": {
     "failedAcceptTransfer": "ネイティブでの移籍承諾に失敗しました。",
@@ -1590,5 +1627,11 @@
   },
   "socialMedia": {
     "seeMore": "もっと見る"
+  },
+  "errors": {
+    "criticalRenderError": "重大なレンダリングエラー",
+    "noStackTrace": "スタックトレースなし",
+    "reloadStrategy": "リロード方法",
+    "nativeSeasonAdvance": "ネイティブシーズン進行が更新されたセーブデータを返しませんでした"
   }
 }

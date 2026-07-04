@@ -50,19 +50,34 @@
       "Reliable": "Держит все свои обещания.",
       "Strategic": "Тщательно планирует каждый шаг в карьере.",
       "Traditional": "Предпочитает традиционные методы переговоров.",
-      "Visionary": "Думает о долгосрочной перспективе карьеры игрока."
+      "Visionary": "Думает о долгосрочной перспективе карьеры игрока.",
+      "Cautious": "Избегает рискованных ходов.",
+      "Connected": "Использует прочную сеть контактов.",
+      "Determined": "Продавливает сложные переговоры.",
+      "Direct": "Переходит прямо к делу.",
+      "Eager": "Жаждет возможностей.",
+      "Enthusiastic": "Приносит позитивную энергию в каждую сделку.",
+      "Hungry": "Всегда в поисках следующего большого шага.",
+      "Mastermind": "Видит на несколько ходов вперед.",
+      "Unpredictable": "Держит клубы в недоумении."
     },
     "weeklySalary": "Недельная зарплата",
     "reasons": {
-      "none": "No suitable agents available",
-      "stay": "Decided to stay with current agent",
-      "fallout": "Major fallout with your agent {name} due to career stagnation and poor communication.",
-      "eliteCall": "Elite agent {name} has personally reached out with an offer you can't refuse.",
-      "starAttraction": "As a star at {team}, you've attracted interest from top-tier agents.",
-      "controversy": "Your agent {name} has been involved in a controversy that affects their ability to represent you effectively.",
-      "merger": "Your agency has merged with another firm. You've been reassigned to {name}.",
-      "special": "Special circumstances",
-      "improved": "Improved career prospects with {name} ({style} {specialty})"
+      "none": "Нет подходящих агентов",
+      "stay": "Решил остаться с текущим агентом",
+      "fallout": "Серьёзный конфликт с агентом {name} из-за застоя в карьере и плохой коммуникации.",
+      "eliteCall": "Элитный агент {name} лично связался с предложением, от которого нельзя отказаться.",
+      "starAttraction": "Будучи звездой {team}, вы привлекли внимание топ-агентов.",
+      "controversy": "Ваш агент {name} оказался в центре скандала, влияющего на его способность эффективно вас представлять.",
+      "merger": "Ваше агентство объединилось с другой фирмой. Вы переведены к {name}.",
+      "special": "Особые обстоятельства",
+      "improved": "Улучшенные карьерные перспективы с {name} ({style} {specialty})"
+    },
+    "current": "Текущий",
+    "special": "Особый",
+    "unlockProgress": "Прогресс разблокировки",
+    "unlockDescriptions": {
+      "oliverTree": "Только для абсолютной элиты. Требуется 90+ ОВР, 3+ профессиональных сезона, 10+ международных матчей и 2+ трофея."
     }
   },
   "assistsShort": "А",
@@ -103,8 +118,8 @@
     "startCareer": "Начать карьеру",
     "toClub": "В {team}",
     "welcome": "ДОБРО ПОЖАЛОВАТЬ",
-    "legalFiller1": "This contract is legally binding and subject to the laws and regulations of the specified football association. The player acknowledges that performance-based incentives are discretionary unless explicitly stated.",
-    "legalFiller2": "Confidentiality clauses apply to all financial terms and internal club matters. Any breach may result in immediate termination without compensation."
+    "legalFiller1": "Этот контракт имеет юридическую силу и регулируется законами указанной футбольной ассоциации. Игрок признаёт, что бонусы за выступление являются дискреционными, если не указано иное.",
+    "legalFiller2": "Положения о конфиденциальности распространяются на все финансовые условия и внутренние дела клуба. Нарушение может привести к немедленному расторжению без компенсации."
   },
   "cleanSheetsShort": "СМ",
   "clubsCount": "{n} клубов",
@@ -131,7 +146,7 @@
     "cleanSheets": "Сухие матчи",
     "cleanSheetsAbbr": "СМ",
     "cleanSheetsShort": "СМ",
-    "close": "Close",
+    "close": "Закрыть",
     "club": "Клуб",
     "clubHistory": "История клубов",
     "clubsCount": "{n} клубов",
@@ -272,13 +287,13 @@
     "leagueTierCompact": "T{n}",
     "stars": "звёзд",
     "outOf": "из",
-    "disclaimer": "This game is a work of fiction and has no official affiliation, sponsorship, or endorsement from real leagues, clubs, federations, or sports entities. All club names are used for entertainment and simulation purposes only. Names of leagues, competitions, and awards are generic or fictitious. Any resemblances to real organizations are purely coincidental.",
-    "disclaimerTitle": "Legal Disclaimer",
-    "clear": "Clear",
+    "disclaimer": "Эта игра является вымышленной и не имеет официальной принадлежности, спонсорства или одобрения реальных лиг, клубов, федераций или спортивных организаций. Все названия клубов используются только в развлекательных и симуляционных целях. Названия лиг, соревнований и наград являются общими или вымышленными. Любые совпадения с реальными организациями являются случайными.",
+    "disclaimerTitle": "Юридическое предупреждение",
+    "clear": "Очистить",
     "share": {
-      "title": "Share Your Career",
-      "text": "Check out my football career in My Football Career Sim! I played for {team} and reached {ovr} OVR at age {age}.",
-      "dialogTitle": "Share Career Card"
+      "title": "Поделиться карьерой",
+      "text": "Зацените мою футбольную карьеру в My Football Career Sim! Я играл за {team} и достиг {ovr} OVR в возрасте {age} лет.",
+      "dialogTitle": "Поделиться карточкой"
     },
     "pt-BR": "Português (BR)",
     "en": "English",
@@ -290,8 +305,8 @@
     "ru": "Русский",
     "tr": "Türkçe",
     "ar": "العربية",
-    "supportProject": "Support Project",
-    "round": "Round",
+    "supportProject": "Поддержать проект",
+    "round": "Раунд",
     "youthAcademy": "Молодежная академия",
     "assist": "Голевой пас",
     "goal": "Гол",
@@ -549,7 +564,7 @@
   "playGames": {
     "achievements": "Достижения",
     "androidOnly": "Google Play Игры доступны только на Android устройствах.",
-    "debugAchievements": "Debug Achievements",
+    "debugAchievements": "Отладка достижений",
     "devModeDescription": "Google Play Games отключен в ознакомительных версиях. Используйте полную версию для достижений и рейтингов.",
     "devModeTitle": "🔧 Тестовый режим",
     "leaderboards": "Таблицы лидеров",
@@ -560,8 +575,8 @@
     "testScoreFailed": "Не удалось отправить счёт. Проверьте вход в аккаунт.",
     "testScoreSuccess": "Тестовый счёт успешно отправлен! Проверьте рейтинги через несколько минут.",
     "title": "Google Play Игры",
-    "debugLog": "Achievements Debug Log",
-    "noLogs": "No logs yet. Simulate a season to see achievements logs."
+    "debugLog": "Журнал отладки достижений",
+    "noLogs": "Пока нет записей. Симулируйте сезон, чтобы увидеть логи достижений."
   },
   "profile": {
     "accelerationInitial": "Стартовое ускорение",
@@ -878,27 +893,27 @@
     "zonalMarking": "Зонная опека",
     "naturalAbbr": "NAT",
     "personalityTypes": {
-      "Ambitious": "Ambitious",
-      "Lazy": "Lazy",
-      "Professional": "Professional",
-      "Temperamental": "Temperamental",
-      "Loyal": "Loyal",
-      "Determined": "Determined",
-      "MediaDarling": "Media Darling",
-      "Reserved": "Reserved",
-      "Inconsistent": "Inconsistent"
+      "Ambitious": "Амбициозный",
+      "Lazy": "Ленивый",
+      "Professional": "Профессионал",
+      "Temperamental": "Темпераментный",
+      "Loyal": "Лояльный",
+      "Determined": "Решительный",
+      "MediaDarling": "Любимец СМИ",
+      "Reserved": "Сдержанный",
+      "Inconsistent": "Нестабильный"
     },
-    "archetype": "Archetype",
+    "archetype": "Архетип",
     "archetypeTypes": {
-      "GenerationalTalent": "Generational Talent",
-      "Wonderkid": "Wonderkid",
-      "TopProspect": "Top Prospect",
-      "SolidProfessional": "Solid Professional",
-      "TheEngine": "The Engine",
-      "LateBloomer": "Late Bloomer",
-      "TechnicalMaestro": "Technical Maestro",
-      "TargetMan": "Target Man",
-      "Journeyman": "Journeyman"
+      "GenerationalTalent": "Талант поколения",
+      "Wonderkid": "Вундеркинд",
+      "TopProspect": "Лучший проспект",
+      "SolidProfessional": "Надёжный профессионал",
+      "TheEngine": "Двигатель",
+      "LateBloomer": "Поздно раскрывшийся",
+      "TechnicalMaestro": "Технический маэстро",
+      "TargetMan": "Столб",
+      "Journeyman": "Странник"
     }
   },
   "ratingShort": "РЕЙТ",
@@ -1025,11 +1040,11 @@
     "version": "Версия {version}",
     "weight": "Вес",
     "xpBonus": "+{amount}% XP",
-    "randomDesc": "Let fate decide",
-    "stats": "Stats",
-    "subtitle": "Track your football path",
-    "surpriseMe": "Surprise Me!",
-    "totalCareers": "careers started",
+    "randomDesc": "Пусть судьба решит",
+    "stats": "Характеристики",
+    "subtitle": "Отслеживайте свой футбольный путь",
+    "surpriseMe": "Удиви меня!",
+    "totalCareers": "карьер начато",
     "chooseMode": "Выберите режим игры",
     "chooseSlot": "Выберите слот",
     "comingSoonLabel": "СКОРО",
@@ -1056,14 +1071,14 @@
     "slotEmpty": "Пустой слот",
     "slotOccupied": "Занятый слот",
     "testSqlite": "Тест SQLite и копирование диагностики",
-    "birthDate": "Birth Date",
-    "devNewsButton": "What's New",
-    "devNewsTitle": "Developer Updates",
-    "devNewsClose": "Close",
-    "devNewsLoading": "Checking for updates...",
-    "devNewsError": "Could not load news.",
-    "devNewsOpenDiscord": "Join Discord",
-    "devNewsNoNews": "No news available."
+    "birthDate": "Дата рождения",
+    "devNewsButton": "Что нового",
+    "devNewsTitle": "Обновления разработчика",
+    "devNewsClose": "Закрыть",
+    "devNewsLoading": "Проверка обновлений...",
+    "devNewsError": "Не удалось загрузить новости.",
+    "devNewsOpenDiscord": "Присоединиться к Discord",
+    "devNewsNoNews": "Новостей нет."
   },
   "matchPanel": {
     "title": "Симулировать матч",
@@ -1151,106 +1166,106 @@
     "updateNow": "Обновить сейчас",
     "whatsNew": "Что нового:"
   },
-  "matchesShort": "Mtchs",
+  "matchesShort": "Матчи",
   "pos": "Pos",
-  "trophy": "Trophy",
-  "clubHistory": "Club History",
+  "trophy": "Трофеи",
+  "clubHistory": "История клубов",
   "yrs": "Yrs",
-  "competition": "Competition",
-  "competitionDetails": "Competition Details: {country}",
-  "noDomesticCup": "No Domestic Cup",
-  "noContinental": "No Continental",
-  "noCompetitionData": "No competition data available.",
+  "competition": "Турнир",
+  "competitionDetails": "Детали турнира: {country}",
+  "noDomesticCup": "Нет внутреннего кубка",
+  "noContinental": "Нет еврокубков",
+  "noCompetitionData": "Нет данных о турнире.",
   "competitionType": {
-    "League": "League",
-    "Cup": "Cup",
-    "Continental": "Continental"
+    "League": "Лига",
+    "Cup": "Кубок",
+    "Continental": "Еврокубок"
   },
   "legend": {
-    "elite": "Elite",
-    "top": "Top",
-    "mid": "Mid",
-    "lower": "Lower"
+    "elite": "Элита",
+    "top": "Топ",
+    "mid": "Средний",
+    "lower": "Низший"
   },
   "negotiation": {
-    "clubOffer": "Club Offer",
-    "baseSalary": "Base Salary",
-    "contractLength": "Contract Length",
-    "salaryDemand": "Salary Demand",
-    "imageRights": "Image Rights",
-    "clubKeeps": "Club Keeps",
-    "youKeep": "You Keep",
-    "walkAway": "Walk Away",
-    "dealAccepted": "Deal Accepted!",
-    "clubAgreed": "The club has agreed to your terms.",
-    "imageRightsRetained": "Image Rights Retained",
-    "signContract": "Sign Contract",
-    "counterOffer": "Counter Offer",
-    "clubCountered": "Club Counter Offer",
-    "theirMaxOffer": "This is their maximum offer.",
-    "negotiateMore": "Negotiate More",
-    "dealCollapsed": "Deal Collapsed",
-    "tooGreedy": "The club withdrew their interest due to high demands.",
+    "clubOffer": "Предложение клуба",
+    "baseSalary": "Базовая зарплата",
+    "contractLength": "Длительность контракта",
+    "salaryDemand": "Требуемая зарплата",
+    "imageRights": "Права на изображение",
+    "clubKeeps": "Остаётся клубу",
+    "youKeep": "Остаётся вам",
+    "walkAway": "Уйти",
+    "dealAccepted": "Сделка принята!",
+    "clubAgreed": "Клуб согласился на ваши условия.",
+    "imageRightsRetained": "Права на изображение сохранены",
+    "signContract": "Подписать контракт",
+    "counterOffer": "Встречное предложение",
+    "clubCountered": "Встречное предложение клуба",
+    "theirMaxOffer": "Это их максимальное предложение.",
+    "negotiateMore": "Торговаться",
+    "dealCollapsed": "Сделка сорвалась",
+    "tooGreedy": "Клуб отозвал интерес из-за завышенных требований.",
     "title": "Переговоры по контракту",
     "subtitle": "Обеспечьте свое будущее",
     "round": "Раунд",
     "propose": "Предложить условия"
   },
   "social": {
-    "publicComments": "Public Comments",
-    "noComments": "No comments yet.",
-    "reply": "Reply",
-    "pressInterview": "Press Interview",
-    "selectQuestion": "Select a question to answer",
-    "daysAgo": "{count}d ago",
+    "publicComments": "Публичные комментарии",
+    "noComments": "Пока нет комментариев.",
+    "reply": "Ответить",
+    "pressInterview": "Интервью прессе",
+    "selectQuestion": "Выберите вопрос для ответа",
+    "daysAgo": "{count}д назад",
     "comments": {
-      "goodForm": "{name} is in incredible form right now! 🔥",
-      "badForm": "Rough patch for {name}. Needs to step up. 📉",
+      "goodForm": "{name} сейчас в невероятной форме! 🔥",
+      "badForm": "Тяжёлый период для {name}. Нужно прибавлять. 📉",
       "highOverall": "World class talent. Simply unmatched. 🏆",
       "lowOverall": "Still has a lot to prove at this level.",
-      "youngTalent": "Only {age}? The future is bright! ✨",
-      "veteranPlayer": "Experience is everything. {age} and still going strong. 🍷",
-      "generalSupport": "Keep fighting for {team}! ❤️",
-      "hoursAgo": "{count}h ago",
-      "daysAgo": "{count}d ago"
+      "youngTalent": "Всего {age}? Будущее светлое! ✨",
+      "veteranPlayer": "Опыт — это всё. {age} и всё ещё в отличной форме. 🍷",
+      "generalSupport": "Продолжай бороться за {team}! ❤️",
+      "hoursAgo": "{count}ч назад",
+      "daysAgo": "{count}д назад"
     },
     "matchEvents": {
       "assist": {
-        "0": "Assist by {player}",
-        "1": "Great pass from {player}"
+        "0": "Ассист {player}",
+        "1": "Отличная передача от {player}"
       },
       "goal": {
-        "0": "GOAL! {player} scores!",
-        "1": "What a finish by {player}!"
+        "0": "ГОЛ! {player} забивает!",
+        "1": "Какой удар от {player}!"
       },
       "goodPass": {
-        "0": "Great pass by {player}",
-        "1": "{player} finds a teammate"
+        "0": "Отличный пас от {player}",
+        "1": "{player} находит партнёра"
       },
       "injury": {
-        "0": "{player} seems injured",
-        "1": "{player} goes off injured"
+        "0": "{player} получил травму",
+        "1": "{player} покидает поле из-за травмы"
       },
       "redCard": {
-        "0": "Red card! {player} is sent off!",
-        "1": "{player} is off early"
+        "0": "Красная! {player} удалён!",
+        "1": "{player} покидает поле раньше"
       },
       "strayPass": {
-        "0": "{player} misplaced a pass",
-        "1": "Poor pass from {player}"
+        "0": "{player} ошибся в передаче",
+        "1": "Плохая передача от {player}"
       },
       "substitution": {
-        "0": "Substitution: {out} off, {in} on",
-        "1": "{in} replaces {out}"
+        "0": "Замена: {out} уходит, {in} выходит",
+        "1": "{in} заменяет {out}"
       },
       "yellowCard": {
-        "0": "Yellow card for {player}",
-        "1": "{player} is booked"
+        "0": "Жёлтая карточка {player}",
+        "1": "{player} получает карточку"
       }
     }
   },
   "dev": {
-    "duplicatesRemoved": "Removed {count} duplicate events (Dev only)"
+    "duplicatesRemoved": "Удалено {count} дублирующихся событий (только для разработчика)"
   },
   "supercopaBrasil": "Supercopa do Brasil",
   "tierMovement": {
@@ -1308,11 +1323,11 @@
     "South America": "Южная Америка"
   },
   "tier": {
-    "BRONZE": "Bronze",
-    "SILVER": "Silver",
-    "GOLD": "Gold",
-    "PLATINUM": "[MISSING] Platinum",
-    "DIAMOND": "Diamond"
+    "BRONZE": "Бронза",
+    "SILVER": "Серебро",
+    "GOLD": "Золото",
+    "PLATINUM": "Платина",
+    "DIAMOND": "Бриллиант"
   },
   "noSpecialTraits": "Нет особых черт",
   "personality": {
@@ -1379,29 +1394,29 @@
   },
   "awards": {
     "_TODO": "Translate World Rankings UI",
-    "worldRankings": "Global",
-    "votingResults": "Voting Results",
-    "rankings": "Rankings",
-    "history": "History",
-    "votingDetails": "Voting Details",
-    "points": "points",
-    "voters": "voters",
-    "margin": "Margin",
-    "closeRace": "Close race!",
-    "landslide": "Dominant victory!",
-    "you": "YOU",
-    "winner": "Winner",
-    "runnerUp": "Runner-up",
-    "notNominated": "Not nominated",
-    "nominated": "Nominated (Top 30)",
-    "topN": "Top {{position}}",
-    "seasonN": "Season {{season}}",
-    "regionalVotes": "Votes by Region",
-    "candidateStats": "Candidate Statistics",
-    "viewDetails": "View Voting Details",
-    "viewHistory": "View History",
-    "pointsBehind": "{{points}} points behind",
-    "pointsAhead": "{{points}} points ahead",
+    "worldRankings": "Мир",
+    "votingResults": "Результаты голосования",
+    "rankings": "Рейтинг",
+    "history": "История",
+    "votingDetails": "Детали голосования",
+    "points": "очков",
+    "voters": "голосовавших",
+    "margin": "Отрыв",
+    "closeRace": "Борьба была упорной!",
+    "landslide": "Уверенная победа!",
+    "you": "ВЫ",
+    "winner": "Победитель",
+    "runnerUp": "2-е место",
+    "notNominated": "Не номинирован",
+    "nominated": "Номинирован (Топ-30)",
+    "topN": "Топ {{position}}",
+    "seasonN": "Сезон {{season}}",
+    "regionalVotes": "Голоса по регионам",
+    "candidateStats": "Статистика кандидата",
+    "viewDetails": "Посмотреть детали голосования",
+    "viewHistory": "Посмотреть историю",
+    "pointsBehind": "{{points}} очков позади",
+    "pointsAhead": "{{points}} очков впереди",
     "goals": "голы",
     "assists": "ассисты",
     "cleanSheets": "сухие матчи",
@@ -1439,39 +1454,41 @@
     "youLabel": "ВЫ",
     "pts": "очков",
     "nthPlace": "{n}-й",
-    "ceremony": "Award Ceremony",
-    "nextAward": "Next Award",
-    "skipAll": "Skip All",
-    "yourResult": "Your Result",
-    "awardOf": "Award {current} of {total}",
-    "records": "Career Records",
-    "totalWins": "Wins",
-    "totalNominations": "Nominations",
-    "bestPosition": "Best Position",
-    "closeRaces": "Close Races",
-    "consecutiveWins": "Consecutive",
-    "topRival": "Top Rival",
-    "filterByRegion": "Filter by Region",
-    "filterByType": "Filter by Type",
-    "hallOfFame": "Hall of Fame",
-    "noWinnersYet": "No winners recorded yet",
-    "viewPlayerDetails": "View details of {name}",
+    "ceremony": "Церемония награждения",
+    "nextAward": "Следующая награда",
+    "skipAll": "Пропустить всё",
+    "yourResult": "Ваш результат",
+    "awardOf": "Награда {current} из {total}",
+    "records": "Карьерные рекорды",
+    "totalWins": "Победы",
+    "totalNominations": "Номинации",
+    "bestPosition": "Лучшая позиция",
+    "closeRaces": "Упорные борьбы",
+    "consecutiveWins": "Подряд",
+    "topRival": "Главный соперник",
+    "filterByRegion": "Фильтр по региону",
+    "filterByType": "Фильтр по типу",
+    "hallOfFame": "Зал славы",
+    "noWinnersYet": "Победители ещё не записаны",
+    "viewPlayerDetails": "Посмотреть детали {name}",
     "seasonStats": "Статистика Сезона",
-    "achievementsLabel": "Achievements",
-    "prizeHistory": "Award History",
-    "npcCareer": "Player Profile",
-    "age": "Age",
+    "achievementsLabel": "Достижения",
+    "prizeHistory": "История наград",
+    "npcCareer": "Профиль игрока",
+    "age": "Возраст",
     "overall": "Общая",
-    "club": "Club",
-    "nationality": "Nationality",
-    "firstPlaceVotes": "1st place votes",
-    "totalPoints": "Total Points",
+    "club": "Клуб",
+    "nationality": "Национальность",
+    "firstPlaceVotes": "Голоса за 1-е место",
+    "totalPoints": "Всего очков",
     "noVotingResults": "Результаты голосования недоступны",
     "rating": "Рейтинг",
     "recentMatches": "Последние Матчи"
   },
   "rankings": {
-    "title": "Global",
+    "title": "Мир",
+    "thisSeason": "Этот сезон",
+    "champions": "Чемпионы",
     "lastSeason": "Прошлый сезон",
     "history": "История",
     "position": "Позиция",
@@ -1480,7 +1497,7 @@
     "yourPosition": "Ваша позиция",
     "viewVotingResults": "Просмотр результатов и истории голосования",
     "completeSeasonFirst": "Завершите свой первый сезон, чтобы увидеть результаты мирового рейтинга",
-    "hallOfFame": "Hall of Fame",
+    "hallOfFame": "Зал славы",
     "season": "Сезон",
     "allTime": "За всё время",
     "standings": "Таблица",
@@ -1560,25 +1577,25 @@
   },
   "events": {
     "contract": {
-      "terminated": "Contract terminated with {team}."
+      "terminated": "Контракт расторгнут с {team}."
     },
     "generated": {
-      "agent_meeting": "🤝 Your agent wants to discuss your future."
+      "agent_meeting": "🤝 Ваш агент хочет обсудить ваше будущее."
     }
   },
   "goals": {
-    "achieved": "🎯 Goal Achieved: {narrative}",
-    "newGoal": "🎯 New Goal Unlocked: {goal}"
+    "achieved": "🎯 Цель достигнута: {narrative}",
+    "newGoal": "🎯 Новая цель разблокирована: {goal}"
   },
   "trophiesSection": {
-    "Copa São Paulo de Futebol Júnior": "Sao Paulo Youth Cup",
+    "Copa São Paulo de Futebol Júnior": "Молодёжный кубок Сан-Паулу",
     "trophy": {
-      "supercopaBrasil": "Brazilian Super Cup"
+      "supercopaBrasil": "Суперкубок Бразилии"
     },
-    "americasDerby": "Americas Derby"
+    "americasDerby": "Американское дерби"
   },
   "wcQualification": {
-    "failed": "Qualification Failed"
+    "failed": "Квалификация провалена"
   },
   "alerts": {
     "failedAcceptTransfer": "Не удалось принять трансфер через нативный модуль.",

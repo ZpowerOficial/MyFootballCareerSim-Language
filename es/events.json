@@ -49,11 +49,11 @@
     "specialty": {
       "BrandBuilder": "Constructor de marca",
       "Negotiator": "Negociador",
-      "Scout": "Explorar",
+      "Scout": "Ojeador",
       "balanced": "Equilibrado",
       "contract": "Contratos",
       "sponsorship": "Patrocinios",
-      "transfer": "Transferencias"
+      "transfer": "Traspasos"
     },
     "style": {
       "Adaptable": "Adaptable",
@@ -155,7 +155,7 @@
       "puskas": "Premio Gol del Año",
       "rookie": "Novato del año",
       "teamOfTheYear": "Equipo del año",
-      "title": "Otorgar",
+      "title": "Premio",
       "worldCupBestGoalkeeper": "Guante de Oro - Torneo Mundial",
       "worldCupGoldenBall": "Trofeo de Oro - Torneo Mundial",
       "worldCupGoldenBoot": "Bota de Oro - Torneo Mundial",
@@ -350,7 +350,7 @@
       "choice_defend": "Defiéndete",
       "choice_transfer": "Solicitar transferencia",
       "description": "El directivo criticó públicamente su actuación. No te cayó bien.",
-      "title": "Gerente Fallout"
+      "title": "Enfrentamiento con el Entrenador"
     },
     "managerConversation": {
       "choice_accept": "Aceptar rol actual",
@@ -430,7 +430,7 @@
       "choice_silent": "Mantente fuera de esto"
     },
     "match": {
-      "title": "Fósforo"
+      "title": "Partido"
     },
     "media": {
       "narrativeChange": "La narrativa de los medios cambia a: '{narrative}'",
@@ -847,7 +847,7 @@
           "general": {
             "1": "⭐ ¡Aún en la cima! ¡{name} se retira mientras los fanáticos ruegan por una temporada más!",
             "2": "💫 En sus propios términos: ¡{name} elige irse cuando aún es élite!",
-            "3": "🎭 Curtain falls early: {name} retires with plenty still to offer!",
+            "3": "🎭 El telón cae temprano: ¡{name} se retira con mucho aún por ofrecer!",
             "4": "👏 Pura clase: ¡{name} sale del escenario todavía rindiendo al más alto nivel!",
             "5": "🌟 Partiendo como estrella: ¡{name} se retira sin dejar de brillar!",
             "6": "💎 Renunciar mientras está por delante: ¡{name} se retira con el legado intacto!",
@@ -1026,7 +1026,7 @@
       "title": "Interacción con compañeros de equipo"
     },
     "training": {
-      "title": "Capacitación",
+      "title": "Entrenamiento",
       "completed": "Entrenamiento completado",
       "minor_injury": "Lesión menor durante el entrenamiento."
     },
@@ -1070,7 +1070,7 @@
       "rivalMove": "💥 ¡TRASPASO HISTÓRICO! ¡Se cambió {fromTeam} por su archirrival {toTeam}! ¡Los fanáticos están furiosos!",
       "signedFreeAgent": "Firmado con {team} en una transferencia gratuita.",
       "temperamentalOutburst": "¡Arrebato temperamental! Exigió un traslado inmediato después del incidente en el campo de entrenamiento.",
-      "title": "Transferir",
+      "title": "Traspaso",
       "traitor": "TRAIDOR",
       "transferred": "Transferido a {team} por €{fee}M.",
       "homecoming": {
@@ -1255,7 +1255,7 @@
   "mediaNarrative": {
     "ComebackKid": {
       "description": "Elogiado por desafiar las probabilidades para volver a estar en forma.",
-      "name": "Niño de regreso",
+      "name": "Niño del Regreso",
       "quote1": "¿Qué se siente volver a estar en lo más alto después de tantas dudas?",
       "quote2": "La afición nunca dejó de creer. ¿Qué significa para usted su apoyo?",
       "quote3": "¿Es este el comienzo de un segundo pico en su carrera?"
@@ -1283,7 +1283,7 @@
     },
     "ForgottenMan": {
       "description": "Luchando por conseguir minutos y en gran medida ignorado por el técnico.",
-      "name": "hombre olvidado",
+      "name": "Hombre Olvidado",
       "quote1": "Ha pasado un tiempo desde que te vimos en el campo. ¿Cómo te sientes?",
       "quote2": "¿Siente que todavía tiene futuro bajo esta dirección?",
       "quote3": "¿Está considerando mudarse para tener más tiempo de juego en otro lugar?"
@@ -1304,14 +1304,14 @@
     },
     "Journeyman": {
       "description": "Visto como un viajero experimentado del mundo del fútbol.",
-      "name": "Oficial",
+      "name": "Trotamundos",
       "quote1": "Has tocado en muchos lugares. ¿Cómo te adaptas tan rápido?",
       "quote2": "¿Cuál es la lección más valiosa que has aprendido de tus viajes?",
       "quote3": "¿Buscas más estabilidad o disfrutas de la variedad?"
     },
     "OntheRise": {
       "description": "Identificado como uno de los mejores prospectos de la liga.",
-      "name": "En aumento",
+      "name": "En Ascenso",
       "quote1": "Tu actuación ha llamado la atención de todos. ¿Cómo estás manejando el hype?",
       "quote2": "Se dice que muchos grandes clubes te están observando. ¿Eso te distrae?",
       "quote3": "¿Cuál es el siguiente paso en tu desarrollo como jugador?"
@@ -1339,7 +1339,7 @@
     },
     "SystemPlayer": {
       "description": "Quedan dudas sobre si puede desempeñarse fuera de esta configuración táctica específica.",
-      "name": "Reproductor del sistema",
+      "name": "Jugador de Sistema",
       "quote1": "Encajas perfectamente en este sistema. ¿Le preocupan otras tácticas?",
       "quote2": "Algunos dicen que solo te ves así de bien gracias a la configuración. ¿Reacciones?",
       "quote3": "¿Puedes adaptar tu juego si el entrenador cambia el enfoque?"
@@ -1564,9 +1564,9 @@
       "diamond": "Socio Diamante"
     },
     "comments": {
-      "daysAgo": "XPLACEHOLDERX0Hace Xd",
-      "hoursAgo": "XPLACEHOLDER Hace X0Xh",
-      "minutesAgo": "XPLACEHOLDERX0Hace Xm"
+      "daysAgo": "hace {count}d",
+      "hoursAgo": "hace {count}h",
+      "minutesAgo": "hace {count}m"
     },
     "seasonComments": {
       "excited": "¡Muy emocionado por la nueva temporada! ¡Vamos {team}! 🔥",
@@ -1757,7 +1757,7 @@
     "rookie": "⭐ ¡Nombrado Novato del Año de la Liga!",
     "shortlist": "⭐ Seleccionado para el Trofeo de Oro.",
     "teamOfTheYear": "👕 Nombrado en el Equipo del Año de la Liga.",
-    "title": "Otorgar",
+    "title": "Premio",
     "worldCupBestGoalkeeper": "Guante de Oro - Torneo Mundial",
     "worldCupGoldenBall": "🌍🏅 ¡Ganador del Trofeo de Oro del Torneo Mundial!",
     "worldCupGoldenBoot": "👟🌍 ¡Ganador de la Bota de Oro del Torneo Mundial!",
@@ -1813,10 +1813,10 @@
   "competition": {
     "americasDerby": "Derbi de las Américas"
   },
-  "youthDebut": "Youth Team Debut",
-  "firstYouthGoal": "First Goal in Youth Team",
-  "firstYouthAssist": "First Assist in Youth Team",
-  "firstProGoal": "First Professional Goal",
-  "firstProAssist": "First Professional Assist",
-  "intlDebut": "International Debut"
+  "youthDebut": "Debut en el Equipo Juvenil",
+  "firstYouthGoal": "Primer Gol en el Equipo Juvenil",
+  "firstYouthAssist": "Primera Asistencia en el Equipo Juvenil",
+  "firstProGoal": "Primer Gol Profesional",
+  "firstProAssist": "Primera Asistencia Profesional",
+  "intlDebut": "Debut Internacional"
 }

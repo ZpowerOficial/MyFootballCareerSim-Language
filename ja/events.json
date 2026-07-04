@@ -53,7 +53,9 @@
       "balanced": "バランスの取れた",
       "contract": "契約",
       "sponsorship": "スポンサーシップ",
-      "transfer": "転送"
+      "transfer": "転送",
+      "Brand Builder": "ブランドビルダー",
+      "Mastermind": "マスターマインド"
     },
     "style": {
       "Adaptable": "適応性のある",
@@ -80,7 +82,17 @@
       "Reliable": "信頼性のある",
       "Strategic": "戦略的",
       "Traditional": "伝統的",
-      "Visionary": "先見の明のある人"
+      "Visionary": "先見の明のある人",
+      "Balanced": "バランス型",
+      "Cautious": "慎重型",
+      "Connected": "コネクション型",
+      "Determined": "決断型",
+      "Direct": "率直型",
+      "Eager": "積極型",
+      "Enthusiastic": "熱血型",
+      "Hungry": "貪欲型",
+      "Mastermind": "策略型",
+      "Unpredictable": "予測不能型"
     }
   },
   "eventNotifications": {
@@ -426,7 +438,7 @@
     "nightclub": {
       "choice_apologize": "公の場で謝罪する",
       "choice_blame": "他人を責める",
-      "description": "A scuffle at a nightclub made the news. Witnesses say you were involved.",
+      "description": "ナイトクラブでの騒動がニュースに。目撃者によると、あなたが関与していたとのことです。",
       "title": "ナイトクラブ事件"
     },
     "outburst": {
@@ -586,7 +598,7 @@
         "large": {
           "fan1": "これは信じられないほどの人間だ！単なるプレイヤーを超えた存在です！ ❤️",
           "fan2": "こんな選手を応援できることを誇りに思います！ 🥹",
-          "headline1": "📰 {name} が小児病院に億万長者を寄付",
+          "headline1": "📰 {name} が小児病院に数百万を寄付",
           "headline2": "📰 {name} の寛大さがコミュニティを動かす"
         },
         "small": {
@@ -881,9 +893,9 @@
           "3": "🗣️ 批評家は、{name} の最良の時代は過ぎ去ったと示唆しています。",
           "4": "⚽ 調子を整えるのに苦労しています - {name} が引退する時期が来ましたか?",
           "5": "📰 専門家は、{name} の継続能力に公然と疑問を抱いています。",
-          "6": "🪫 空で実行していますか? {name} faces retirement pressure.",
+          "6": "🪫 空で実行していますか? {name} は引退のプレッシャーに直面.",
           "7": "📊 {name} の将来が不確実になるにつれて、統計が低下します。",
-          "8": "💤 Old sparkle fading - rumors of {name}'s retirement grow.",
+          "8": "💤 かつての輝きが薄れていく - {name}の引退の噂が広がる。",
           "9": "⏰ 時間が追いつきましたか？ {name} は動作不良により精査中。",
           "10": "🎭 最終幕が近づいていますか？ {name} のフォームからは引退の話が生まれます。"
         }
@@ -1009,7 +1021,9 @@
         "homeCountry": "🏠{country} サッカーに戻ります!母国でキャリアを続けるために{team}と契約。",
         "freeReturn": "🏠無料送迎！フリートランスファーで{team}に戻り、美しい章を閉じます。"
       },
-      "retirementLeague": "✈️ 新しい冒険! {country} で {team} と週あたり €{wage}K で署名しました。輝かしいキャリアに終止符を打つための有利な行動。"
+      "retirementLeague": "✈️ 新しい冒険! {country} で {team} と週あたり €{wage}K で署名しました。輝かしいキャリアに終止符を打つための有利な行動。",
+      "window_opened": "🪟 {country}で{windowType}移籍市場が開幕（第{weekNumber}週）",
+      "window_closed": "🪟 {country}で{windowType}移籍市場が終了（第{weekNumber}週）"
     },
     "trophy": {
       "clubWorldCup": "🏆クラブ世界トーナメント優勝者!",
@@ -1532,7 +1546,7 @@
     "viewInterview": "インタビュー結果を見る",
     "newsFeed": "ニュースフィード",
     "recentHeadlines": "最近の見出し",
-    "seasonWeek": "Season {season}, Week {week}",
+    "seasonWeek": "シーズン{season}、第{week}週",
     "homeCountry": "母国の人気",
     "currentCountry": "現在の国の人気",
     "globalRating": "グローバル評価",
@@ -1823,10 +1837,10 @@
   "competition": {
     "americasDerby": "アメリカス・ダービー"
   },
-  "youthDebut": "Youth Team Debut",
-  "firstYouthGoal": "First Goal in Youth Team",
-  "firstYouthAssist": "First Assist in Youth Team",
-  "firstProGoal": "First Professional Goal",
-  "firstProAssist": "First Professional Assist",
-  "intlDebut": "International Debut"
+  "youthDebut": "ユースデビュー戦",
+  "firstYouthGoal": "ユース初ゴール",
+  "firstYouthAssist": "ユース初アシスト",
+  "firstProGoal": "プロ初ゴール",
+  "firstProAssist": "プロ初アシスト",
+  "intlDebut": "代表デビュー"
 }

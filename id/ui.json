@@ -50,7 +50,16 @@
       "Reliable": "Menepati semua janji.",
       "Strategic": "Merencanakan setiap langkah karir hati-hati.",
       "Traditional": "Lebih suka metode negosiasi tradisional.",
-      "Visionary": "Berpikir jangka panjang tentang karir."
+      "Visionary": "Berpikir jangka panjang tentang karir.",
+      "Cautious": "Menghindari langkah berisiko.",
+      "Connected": "Menggunakan jaringan kontak yang kuat.",
+      "Determined": "Mendesak dalam negosiasi sulit.",
+      "Direct": "Langsung ke pokok permasalahan.",
+      "Eager": "Memburu peluang.",
+      "Enthusiastic": "Membawa energi positif ke setiap kesepakatan.",
+      "Hungry": "Selalu mengejar langkah besar berikutnya.",
+      "Mastermind": "Melihat beberapa langkah ke depan.",
+      "Unpredictable": "Membuat klub terus menebak."
     },
     "weeklySalary": "Gaji Mingguan",
     "reasons": {
@@ -63,6 +72,12 @@
       "merger": "Agensi Anda bergabung dengan firma lain. Anda dialihkan ke {name}.",
       "special": "Keadaan khusus",
       "improved": "Prospek karier meningkat dengan {name} ({style} {specialty})"
+    },
+    "current": "Saat ini",
+    "special": "Khusus",
+    "unlockProgress": "Progres Pembukaan",
+    "unlockDescriptions": {
+      "oliverTree": "Hanya elit absolut. Membutuhkan 90+ OVR, 3+ musim pro, 10+ caps internasional, dan 2+ trofi."
     }
   },
   "assistsShort": "A",
@@ -128,7 +143,7 @@
     "cancel": "Batal",
     "champion": "Juara",
     "cleanSheetRatioAbbr": "%CS",
-    "cleanSheets": "Clean Sheet",
+    "cleanSheets": "Tanpa Kebobolan",
     "cleanSheetsAbbr": "CS",
     "cleanSheetsShort": "CS",
     "close": "Tutup",
@@ -670,7 +685,7 @@
     "gkMental": "Mental (Kiper)",
     "gkNotAvailable": "Atribut kiper tidak tersedia",
     "gkPositioning": "Posisi (Kiper)",
-    "goalKicks": "Restart",
+    "goalKicks": "Mulai Ulang",
     "goals0to15": "Gol (0-15')",
     "goals75to90": "Gol (75-90+')",
     "goalsByPeriod": "Gol per Periode",
@@ -1056,14 +1071,14 @@
     "slotEmpty": "Slot kosong",
     "slotOccupied": "Slot terisi",
     "testSqlite": "Uji SQLite & Salin Diagnostik",
-    "birthDate": "Birth Date",
-    "devNewsButton": "What's New",
-    "devNewsTitle": "Developer Updates",
-    "devNewsClose": "Close",
-    "devNewsLoading": "Checking for updates...",
-    "devNewsError": "Could not load news.",
-    "devNewsOpenDiscord": "Join Discord",
-    "devNewsNoNews": "No news available."
+    "birthDate": "Tanggal Lahir",
+    "devNewsButton": "Apa yang Baru",
+    "devNewsTitle": "Pembaruan Pengembang",
+    "devNewsClose": "Tutup",
+    "devNewsLoading": "Memeriksa pembaruan...",
+    "devNewsError": "Tidak dapat memuat berita.",
+    "devNewsOpenDiscord": "Gabung Discord",
+    "devNewsNoNews": "Tidak ada berita tersedia."
   },
   "matchPanel": {
     "title": "Simulasikan pertandingan",
@@ -1100,7 +1115,7 @@
     "career": "Karier",
     "careerHighlights": "Sorotan Karier",
     "careerJourney": "Perjalanan Karier",
-    "cleanSheets": "Clean Sheet",
+    "cleanSheets": "Tanpa Kebobolan",
     "copied": "Tautan Disalin!",
     "download": "Unduh Gambar",
     "error": "Gagal membuat",
@@ -1216,15 +1231,15 @@
     },
     "matchEvents": {
       "assist": {
-        "0": "Assist by {player}",
-        "1": "Great pass from {player}"
+        "0": "Assist oleh {player}",
+        "1": "Umpan bagus dari {player}"
       },
       "goal": {
-        "0": "GOAL! {player} scores!",
-        "1": "What a finish by {player}!"
+        "0": "GOL! {player} mencetak gol!",
+        "1": "Penyelesaian yang luar biasa oleh {player}!"
       },
       "goodPass": {
-        "0": "Great pass by {player}",
+        "0": "Umpan bagus oleh {player}",
         "1": "{player} finds a teammate"
       },
       "injury": {
@@ -1232,19 +1247,19 @@
         "1": "{player} goes off injured"
       },
       "redCard": {
-        "0": "Red card! {player} is sent off!",
+        "0": "Kartu merah! {player} diusir!",
         "1": "{player} is off early"
       },
       "strayPass": {
         "0": "{player} misplaced a pass",
-        "1": "Poor pass from {player}"
+        "1": "Umpan buruk dari {player}"
       },
       "substitution": {
-        "0": "Substitution: {out} off, {in} on",
+        "0": "Pergantian: {out} keluar, {in} masuk",
         "1": "{in} replaces {out}"
       },
       "yellowCard": {
-        "0": "Yellow card for {player}",
+        "0": "Kartu kuning untuk {player}",
         "1": "{player} is booked"
       }
     }
@@ -1472,6 +1487,8 @@
   },
   "rankings": {
     "title": "Dunia",
+    "thisSeason": "Musim Ini",
+    "champions": "Juara",
     "lastSeason": "Musim Lalu",
     "history": "Riwayat",
     "position": "Posisi",
@@ -1560,7 +1577,7 @@
   },
   "events": {
     "contract": {
-      "terminated": "Contract terminated with {team}."
+      "terminated": "Kontrak diakhiri dengan {team}."
     },
     "generated": {
       "agent_meeting": "🤝 Your agent wants to discuss your future."
@@ -1571,14 +1588,14 @@
     "newGoal": "🎯 New Goal Unlocked: {goal}"
   },
   "trophiesSection": {
-    "Copa São Paulo de Futebol Júnior": "Sao Paulo Youth Cup",
+    "Copa São Paulo de Futebol Júnior": "Piala Pemuda São Paulo",
     "trophy": {
-      "supercopaBrasil": "Brazilian Super Cup"
+      "supercopaBrasil": "Piala Super Brasil"
     },
-    "americasDerby": "Americas Derby"
+    "americasDerby": "Derby Amerika"
   },
   "wcQualification": {
-    "failed": "Qualification Failed"
+    "failed": "Kualifikasi Gagal"
   },
   "alerts": {
     "failedAcceptTransfer": "Gagal menerima transfer secara native.",

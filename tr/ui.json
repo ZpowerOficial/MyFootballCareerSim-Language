@@ -50,7 +50,16 @@
       "Reliable": "Verdiği tüm sözleri tutar.",
       "Strategic": "Her kariyer hamlesini dikkatlice planlar.",
       "Traditional": "Geleneksel pazarlık yöntemlerini tercih eder.",
-      "Visionary": "Oyuncunun kariyeri hakkında uzun vadeli düşünür."
+      "Visionary": "Oyuncunun kariyeri hakkında uzun vadeli düşünür.",
+      "Cautious": "Riskli hamlelerden kaçınır.",
+      "Connected": "Geniş bir iletişim ağı kullanır.",
+      "Determined": "Zorlu müzakereleri zorlar.",
+      "Direct": "Doğrudan konuya girer.",
+      "Eager": "Fırsatların peşindedir.",
+      "Enthusiastic": "Her anlaşmaya pozitif enerji getirir.",
+      "Hungry": "Sürekli bir sonraki büyük hamleyi kovalar.",
+      "Mastermind": "Birkaç hamle ilerisini görür.",
+      "Unpredictable": "Kulüpleri şaşırtır."
     },
     "weeklySalary": "Haftalık Maaş",
     "reasons": {
@@ -63,6 +72,12 @@
       "merger": "Ajansınız başka bir firma ile birleşti. Yeni temsilciniz: {name}.",
       "special": "Özel durumlar",
       "improved": "{name} ({style} {specialty}) ile gelişmiş kariyer fırsatları"
+    },
+    "current": "Mevcut",
+    "special": "Özel",
+    "unlockProgress": "Açılma İlerlemesi",
+    "unlockDescriptions": {
+      "oliverTree": "Yalnızca mutlak elit. 90+ OVR, 3+ profesyonel sezon, 10+ milli maç ve 2+ kupa gerektirir."
     }
   },
   "assistsShort": "A",
@@ -131,7 +146,7 @@
     "cleanSheets": "Gol Yemeden",
     "cleanSheetsAbbr": "GY",
     "cleanSheetsShort": "GY",
-    "close": "Close",
+    "close": "Kapat",
     "club": "Kulüp",
     "clubHistory": "Kulüp Geçmişi",
     "clubsCount": "{n} kulüp",
@@ -284,7 +299,7 @@
     "en": "English",
     "es": "Español",
     "fr": "Français",
-    "id": "Bahasa Indonesia",
+    "id": "Endonezce",
     "ja": "日本語",
     "ko": "한국어",
     "ru": "Русский",
@@ -967,7 +982,7 @@
       "en": "English",
       "es": "Español",
       "fr": "Français",
-      "id": "Bahasa Indonesia",
+      "id": "Endonezce",
       "ja": "日本語",
       "ko": "한국어",
       "pt": "Português",
@@ -1058,14 +1073,14 @@
     "slotEmpty": "Boş yuva",
     "slotOccupied": "Dolu yuva",
     "testSqlite": "SQLite'ı Test Et ve Teşhisi Kopyala",
-    "birthDate": "Birth Date",
-    "devNewsButton": "What's New",
-    "devNewsTitle": "Developer Updates",
-    "devNewsClose": "Close",
-    "devNewsLoading": "Checking for updates...",
-    "devNewsError": "Could not load news.",
-    "devNewsOpenDiscord": "Join Discord",
-    "devNewsNoNews": "No news available."
+    "birthDate": "Doğum Tarihi",
+    "devNewsButton": "Yenilikler",
+    "devNewsTitle": "Geliştirici Güncellemeleri",
+    "devNewsClose": "Kapat",
+    "devNewsLoading": "Güncellemeler kontrol ediliyor...",
+    "devNewsError": "Haberler yüklenemedi.",
+    "devNewsOpenDiscord": "Discord'a Katıl",
+    "devNewsNoNews": "Haber bulunamadı."
   },
   "matchPanel": {
     "title": "Maçı simüle et",
@@ -1218,42 +1233,42 @@
     },
     "matchEvents": {
       "assist": {
-        "0": "Assist by {player}",
-        "1": "Great pass from {player}"
+        "0": "{player} asist yaptı",
+        "1": "Harika pas {player}'den"
       },
       "goal": {
-        "0": "GOAL! {player} scores!",
-        "1": "What a finish by {player}!"
+        "0": "GOL! {player} skor!",
+        "1": "Ne bitiriş {player}'den!"
       },
       "goodPass": {
-        "0": "Great pass by {player}",
-        "1": "{player} finds a teammate"
+        "0": "Harika pas {player}'den",
+        "1": "{player} takım arkadaşını buldu"
       },
       "injury": {
-        "0": "{player} seems injured",
-        "1": "{player} goes off injured"
+        "0": "{player} sakatlanmış görünüyor",
+        "1": "{player} sakatlanarak çıkıyor"
       },
       "redCard": {
-        "0": "Red card! {player} is sent off!",
-        "1": "{player} is off early"
+        "0": "Kırmızı kart! {player} oyundan atıldı!",
+        "1": "{player} erken çıktı"
       },
       "strayPass": {
-        "0": "{player} misplaced a pass",
-        "1": "Poor pass from {player}"
+        "0": "{player} pasını veremedi",
+        "1": "Zayıf pas {player}'den"
       },
       "substitution": {
-        "0": "Substitution: {out} off, {in} on",
+        "0": "Oyuncu değişikliği: {out} çıkıyor, {in} giriyor",
         "1": "{in} replaces {out}"
       },
       "yellowCard": {
-        "0": "Yellow card for {player}",
-        "1": "{player} is booked"
+        "0": "{player}'e sarı kart",
+        "1": "{player} kart gördü"
       }
     }
   },
   "supercopaBrasil": "Supercopa do Brasil",
   "dev": {
-    "duplicatesRemoved": "Removed {count} duplicate events (Dev only)"
+    "duplicatesRemoved": "{count} mükerrer olay silindi (Sadece Geliştirici)"
   },
   "tierMovement": {
     "relegation": "Kademe {from}->{to} küme düşme dengesizliği: beklenen {expected}, bulunan {found}",
@@ -1382,28 +1397,28 @@
   "awards": {
     "_TODO": "Translate World Rankings UI",
     "worldRankings": "Global",
-    "votingResults": "Voting Results",
-    "rankings": "Rankings",
-    "history": "History",
-    "votingDetails": "Voting Details",
-    "points": "points",
-    "voters": "voters",
-    "margin": "Margin",
-    "closeRace": "Close race!",
-    "landslide": "Dominant victory!",
-    "you": "YOU",
-    "winner": "Winner",
-    "runnerUp": "Runner-up",
-    "notNominated": "Not nominated",
-    "nominated": "Nominated (Top 30)",
-    "topN": "Top {{position}}",
-    "seasonN": "Season {{season}}",
-    "regionalVotes": "Votes by Region",
-    "candidateStats": "Candidate Statistics",
-    "viewDetails": "View Voting Details",
-    "viewHistory": "View History",
-    "pointsBehind": "{{points}} points behind",
-    "pointsAhead": "{{points}} points ahead",
+    "votingResults": "Oylama Sonuçları",
+    "rankings": "Sıralamalar",
+    "history": "Geçmiş",
+    "votingDetails": "Oylama Detayları",
+    "points": "puan",
+    "voters": "seçmen",
+    "margin": "Fark",
+    "closeRace": "Yakın yarış!",
+    "landslide": "Ezici zafer!",
+    "you": "SEN",
+    "winner": "Kazanan",
+    "runnerUp": "İkinci",
+    "notNominated": "Aday gösterilmedi",
+    "nominated": "Aday (İlk 30)",
+    "topN": "İlk {{position}}",
+    "seasonN": "Sezon {{season}}",
+    "regionalVotes": "Bölgelere Göre Oylar",
+    "candidateStats": "Aday İstatistikleri",
+    "viewDetails": "Oylama Detaylarını Gör",
+    "viewHistory": "Geçmişi Gör",
+    "pointsBehind": "{{points}} puan geride",
+    "pointsAhead": "{{points}} puan önde",
     "goals": "goller",
     "assists": "asistler",
     "cleanSheets": "gol yememe",
@@ -1441,39 +1456,41 @@
     "youLabel": "SEN",
     "pts": "pts",
     "nthPlace": "{n}.",
-    "ceremony": "Award Ceremony",
-    "nextAward": "Next Award",
-    "skipAll": "Skip All",
-    "yourResult": "Your Result",
-    "awardOf": "Award {current} of {total}",
-    "records": "Career Records",
-    "totalWins": "Wins",
-    "totalNominations": "Nominations",
-    "bestPosition": "Best Position",
-    "closeRaces": "Close Races",
-    "consecutiveWins": "Consecutive",
-    "topRival": "Top Rival",
-    "filterByRegion": "Filter by Region",
-    "filterByType": "Filter by Type",
-    "hallOfFame": "Hall of Fame",
-    "noWinnersYet": "No winners recorded yet",
-    "viewPlayerDetails": "View details of {name}",
+    "ceremony": "Ödül Töreni",
+    "nextAward": "Sonraki Ödül",
+    "skipAll": "Tümünü Geç",
+    "yourResult": "Sonucun",
+    "awardOf": "Ödül {current}/{total}",
+    "records": "Kariyer Rekorları",
+    "totalWins": "Galibiyet",
+    "totalNominations": "Adaylıklar",
+    "bestPosition": "En İyi Mevki",
+    "closeRaces": "Yakın Yarışlar",
+    "consecutiveWins": "Art Arda",
+    "topRival": "En Büyük Rakip",
+    "filterByRegion": "Bölgeye Göre Filtrele",
+    "filterByType": "Türe Göre Filtrele",
+    "hallOfFame": "Şöhretler Müzesi",
+    "noWinnersYet": "Henüz kayıtlı kazanan yok",
+    "viewPlayerDetails": "{name} detaylarını gör",
     "seasonStats": "Sezon İstatistikleri",
-    "achievementsLabel": "Achievements",
-    "prizeHistory": "Award History",
-    "npcCareer": "Player Profile",
-    "age": "Age",
+    "achievementsLabel": "Başarımlar",
+    "prizeHistory": "Ödül Geçmişi",
+    "npcCareer": "Oyuncu Profili",
+    "age": "Yaş",
     "overall": "Genel",
-    "club": "Club",
-    "nationality": "Nationality",
-    "firstPlaceVotes": "1st place votes",
-    "totalPoints": "Total Points",
+    "club": "Kulüp",
+    "nationality": "Uyruk",
+    "firstPlaceVotes": "1. sıra oyları",
+    "totalPoints": "Toplam Puan",
     "noVotingResults": "Oylama sonucu bulunmuyor",
     "rating": "Puan",
     "recentMatches": "Son Maçlar"
   },
   "rankings": {
     "title": "Global",
+    "thisSeason": "Bu Sezon",
+    "champions": "Şampiyonlar",
     "lastSeason": "Geçen Sezon",
     "history": "Geçmiş",
     "position": "Sıralama",
@@ -1482,7 +1499,7 @@
     "yourPosition": "Sıralamanız",
     "viewVotingResults": "Oylama sonuçlarını ve geçmişi görüntüle",
     "completeSeasonFirst": "Dünya sıralaması sonuçlarını görmek için ilk sezonunuzu tamamlayın",
-    "hallOfFame": "Hall of Fame",
+    "hallOfFame": "Şöhretler Müzesi",
     "season": "Sezon",
     "allTime": "Tüm Zamanlar",
     "standings": "Puan Durumu",
@@ -1562,25 +1579,25 @@
   },
   "events": {
     "contract": {
-      "terminated": "Contract terminated with {team}."
+      "terminated": "{team} ile sözleşme feshedildi."
     },
     "generated": {
-      "agent_meeting": "🤝 Your agent wants to discuss your future."
+      "agent_meeting": "🤝 Menajeriniz geleceğiniz hakkında konuşmak istiyor."
     }
   },
   "goals": {
-    "achieved": "🎯 Goal Achieved: {narrative}",
-    "newGoal": "🎯 New Goal Unlocked: {goal}"
+    "achieved": "🎯 Hedefe Ulaşıldı: {narrative}",
+    "newGoal": "🎯 Yeni Hedef Açıldı: {goal}"
   },
   "trophiesSection": {
-    "Copa São Paulo de Futebol Júnior": "Sao Paulo Youth Cup",
+    "Copa São Paulo de Futebol Júnior": "São Paulo Gençlik Kupası",
     "trophy": {
-      "supercopaBrasil": "Brazilian Super Cup"
+      "supercopaBrasil": "Brezilya Süper Kupası"
     },
-    "americasDerby": "Americas Derby"
+    "americasDerby": "Amerika Derbisi"
   },
   "wcQualification": {
-    "failed": "Qualification Failed"
+    "failed": "Elemeler Başarısız"
   },
   "alerts": {
     "failedAcceptTransfer": "Transfer yerel olarak kabul edilemedi.",

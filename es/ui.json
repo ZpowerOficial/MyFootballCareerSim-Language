@@ -50,7 +50,16 @@
       "Reliable": "Cumple todas las promesas hechas.",
       "Strategic": "Planifica cuidadosamente cada movimiento de carrera.",
       "Traditional": "Prefiere métodos tradicionales de negociación.",
-      "Visionary": "Piensa a largo plazo sobre la carrera del jugador."
+      "Visionary": "Piensa a largo plazo sobre la carrera del jugador.",
+      "Cautious": "Evita movimientos arriesgados.",
+      "Connected": "Usa una sólida red de contactos.",
+      "Determined": "Persiste en negociaciones difíciles.",
+      "Direct": "Va directo al grano.",
+      "Eager": "Ávido de oportunidades.",
+      "Enthusiastic": "Aporta energía positiva a cada trato.",
+      "Hungry": "Siempre buscando el próximo gran movimiento.",
+      "Mastermind": "Ve varios movimientos por delante.",
+      "Unpredictable": "Mantiene a los clubes adivinando."
     },
     "weeklySalary": "Salario Semanal",
     "reasons": {
@@ -63,6 +72,12 @@
       "merger": "Tu agencia se fusionó con otra firma. Te reasignaron a {name}.",
       "improved": "Mejores perspectivas de carrera con {name} ({style} {specialty})",
       "special": "Circunstancias especiales"
+    },
+    "current": "Actual",
+    "special": "Especial",
+    "unlockProgress": "Progreso de desbloqueo",
+    "unlockDescriptions": {
+      "oliverTree": "Solo la élite absoluta. Requiere 90+ OVR, 3+ temporadas pro, 10+ partidos internacionales y 2+ trofeos."
     }
   },
   "assistsShort": "A",
@@ -324,7 +339,7 @@
     "BRONZE": "Bronce",
     "SILVER": "Plata",
     "GOLD": "Oro",
-    "PLATINUM": "[MISSING] Platinum",
+    "PLATINUM": "Platino",
     "DIAMOND": "Diamante"
   },
   "noSpecialTraits": "Sin rasgos especiales",
@@ -352,7 +367,7 @@
     "contract": "Contrato",
     "contribution": "Contribución",
     "csRatio": "Ratio PI",
-    "current": "Current",
+    "current": "Actual",
     "form": "Forma",
     "goals": "Goles",
     "goalsPerGame": "Goles/Partido",
@@ -491,7 +506,7 @@
     "allRegions": "Todas las regiones",
     "assists": "Asistencias",
     "backToMenu": "Volver al menú",
-    "cleanSheets": "Sábanas limpias",
+    "cleanSheets": "Porterías a Cero",
     "clearAll": "Borrar todo",
     "clearFiltersTryAgain": "Borra los filtros y vuelve a intentarlo.",
     "continent": "Región",
@@ -740,7 +755,7 @@
     "penaltiesWon": "Penaltis provocados",
     "penaltySaving": "Parada de penaltis",
     "performance": "Rendimiento",
-    "archetype": "Archetype",
+    "archetype": "Arquetipo",
     "traits": "Rasgos",
     "physicalProfile": "Perfil físico",
     "physicalRobustness": "Robustez física",
@@ -1135,7 +1150,7 @@
     "slotEmpty": "Ranura vacía",
     "slotOccupied": "Ranura ocupada",
     "testSqlite": "Probar SQLite y copiar diagnóstico",
-    "birthDate": "Birth Date",
+    "birthDate": "Fecha de Nacimiento",
     "devNewsButton": "Novedades",
     "devNewsTitle": "Novedades del Desarrollador",
     "devNewsClose": "Cerrar",
@@ -1274,36 +1289,36 @@
     "daysAgo": "hace {count}d",
     "matchEvents": {
       "assist": {
-        "0": "Assist by {player}",
-        "1": "Great pass from {player}"
+        "0": "Asistencia de {player}",
+        "1": "Gran pase de {player}"
       },
       "goal": {
-        "0": "GOAL! {player} scores!",
-        "1": "What a finish by {player}!"
+        "0": "¡GOL! ¡Marca {player}!",
+        "1": "¡Qué definición de {player}!"
       },
       "goodPass": {
-        "0": "Great pass by {player}",
-        "1": "{player} finds a teammate"
+        "0": "Gran pase de {player}",
+        "1": "{player} encuentra a un compañero"
       },
       "injury": {
-        "0": "{player} seems injured",
-        "1": "{player} goes off injured"
+        "0": "{player} parece lesionado",
+        "1": "{player} se retira lesionado"
       },
       "redCard": {
-        "0": "Red card! {player} is sent off!",
-        "1": "{player} is off early"
+        "0": "¡Tarjeta roja! ¡{player} expulsado!",
+        "1": "{player} se va antes de tiempo"
       },
       "strayPass": {
-        "0": "{player} misplaced a pass",
-        "1": "Poor pass from {player}"
+        "0": "{player} falló un pase",
+        "1": "Mal pase de {player}"
       },
       "substitution": {
-        "0": "Substitution: {out} off, {in} on",
-        "1": "{in} replaces {out}"
+        "0": "Cambio: sale {out}, entra {in}",
+        "1": "{in} sustituye a {out}"
       },
       "yellowCard": {
-        "0": "Yellow card for {player}",
-        "1": "{player} is booked"
+        "0": "Tarjeta amarilla para {player}",
+        "1": "{player} es amonestado"
       }
     }
   },
@@ -1437,20 +1452,20 @@
     "youLabel": "TÚ",
     "pts": "pts",
     "nthPlace": "{n}º",
-    "ceremony": "Award Ceremony",
-    "nextAward": "Next Award",
-    "skipAll": "Skip All",
-    "yourResult": "Your Result",
+    "ceremony": "Ceremonia de Premios",
+    "nextAward": "Siguiente Premio",
+    "skipAll": "Saltar Todo",
+    "yourResult": "Tu Resultado",
     "awardOf": "Award {current} of {total}",
-    "records": "Career Records",
-    "totalWins": "Wins",
-    "totalNominations": "Nominations",
-    "bestPosition": "Best Position",
-    "closeRaces": "Close Races",
-    "consecutiveWins": "Consecutive",
-    "topRival": "Top Rival",
-    "filterByRegion": "Filter by Region",
-    "filterByType": "Filter by Type",
+    "records": "Récords de Carrera",
+    "totalWins": "Victorias",
+    "totalNominations": "Nominaciones",
+    "bestPosition": "Mejor Posición",
+    "closeRaces": "Competencia Reñida",
+    "consecutiveWins": "Consecutivos",
+    "topRival": "Gran Rival",
+    "filterByRegion": "Filtrar por Región",
+    "filterByType": "Filtrar por Tipo",
     "hallOfFame": "Salón de la Fama",
     "noWinnersYet": "Aún no hay ganadores registrados",
     "viewPlayerDetails": "Ver detalles de {name}",
@@ -1470,6 +1485,8 @@
   },
   "rankings": {
     "title": "Global",
+    "thisSeason": "Esta Temporada",
+    "champions": "Campeones",
     "lastSeason": "Última Temporada",
     "history": "Historial",
     "position": "Posición",
@@ -1558,25 +1575,25 @@
   },
   "events": {
     "contract": {
-      "terminated": "Contract terminated with {team}."
+      "terminated": "Contrato rescindido con {team}."
     },
     "generated": {
-      "agent_meeting": "🤝 Your agent wants to discuss your future."
+      "agent_meeting": "🤝 Tu agente quiere hablar sobre tu futuro."
     }
   },
   "goals": {
-    "achieved": "🎯 Goal Achieved: {narrative}",
-    "newGoal": "🎯 New Goal Unlocked: {goal}"
+    "achieved": "🎯 Objetivo Logrado: {narrative}",
+    "newGoal": "🎯 Nuevo Objetivo Desbloqueado: {goal}"
   },
   "trophiesSection": {
-    "Copa São Paulo de Futebol Júnior": "Sao Paulo Youth Cup",
+    "Copa São Paulo de Futebol Júnior": "Copa São Paulo de Futebol Júnior",
     "trophy": {
-      "supercopaBrasil": "Brazilian Super Cup"
+      "supercopaBrasil": "Supercopa de Brasil"
     },
-    "americasDerby": "Americas Derby"
+    "americasDerby": "Clásico de las Américas"
   },
   "wcQualification": {
-    "failed": "Qualification Failed"
+    "failed": "Clasificación Fallida"
   },
   "alerts": {
     "failedAcceptTransfer": "No se pudo aceptar la transferencia de forma nativa.",

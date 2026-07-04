@@ -50,7 +50,16 @@
       "Reliable": "한 모든 약속을 지킵니다.",
       "Strategic": "모든 커리어 행보를 신중하게 계획합니다.",
       "Traditional": "전통적인 협상 방식을 선호합니다.",
-      "Visionary": "선수의 커리어에 대해 장기적으로 생각합니다."
+      "Visionary": "선수의 커리어에 대해 장기적으로 생각합니다.",
+      "Cautious": "위험한 움직임을 피합니다.",
+      "Connected": "강력한 인맥을 활용합니다.",
+      "Determined": "어려운 협상을 밍어붐니다.",
+      "Direct": "직접적으로 요점을 파흔름니다.",
+      "Eager": "기회를 즐깃게 잡습니다.",
+      "Enthusiastic": "모든 거래에 즐거운 애너지를 불어넣습니다.",
+      "Hungry": "헕상 다음 빅 무브를 추격합니다.",
+      "Mastermind": "몇 갱을 미리 내다봅니다.",
+      "Unpredictable": "클럽을 어리징게 만듭니다."
     },
     "weeklySalary": "주급",
     "reasons": {
@@ -63,6 +72,12 @@
       "merger": "당신의 에이전시가 다른 회사와 합병되었습니다. 당신의 담당이 {name}(으)로 변경되었습니다.",
       "special": "특별한 상황",
       "improved": "{name} ({style} {specialty})와(과) 함께 더 나은 커리어 전망을 기대할 수 있습니다"
+    },
+    "current": "현재",
+    "special": "특별",
+    "unlockProgress": "잠금 해제 진행도",
+    "unlockDescriptions": {
+      "oliverTree": "오직 최상위 엘리트만 가능합니다. 90+ OVR, 3+ 프로 시즌, 10+ 국가대표 출장, 2+ 우승이 필요합니다."
     }
   },
   "assistsShort": "도",
@@ -284,14 +299,14 @@
     "en": "English",
     "es": "Español",
     "fr": "Français",
-    "id": "Bahasa Indonesia",
+    "id": "인도네시아어",
     "ja": "日本語",
     "ko": "한국어",
     "ru": "Русский",
     "tr": "Türkçe",
     "ar": "العربية",
     "supportProject": "프로젝트 후원",
-    "round": "Round",
+    "round": "라운드",
     "youthAcademy": "유스 아카데미",
     "assist": "도움",
     "goal": "골",
@@ -549,7 +564,7 @@
   "playGames": {
     "achievements": "업적",
     "androidOnly": "Google Play 게임은 Android 기기에서만 사용할 수 있습니다.",
-    "debugAchievements": "Debug Achievements",
+    "debugAchievements": "업적 디버그",
     "devModeDescription": "개발 버전에서는 Google Play 게임이 비활성화됩니다. 업적과 순위에 접근하려면 정식 버전을 사용하세요.",
     "devModeTitle": "🔧 테스트 모드",
     "leaderboards": "리더보드",
@@ -560,8 +575,8 @@
     "testScoreFailed": "점수 전송 실패. 로그인 여부를 확인하세요.",
     "testScoreSuccess": "테스트 점수가 성공적으로 전송되었습니다! 잠시 후 순위를 확인하세요.",
     "title": "Google Play 게임",
-    "debugLog": "Achievements Debug Log",
-    "noLogs": "No logs yet. Simulate a season to see achievements logs."
+    "debugLog": "업적 디버그 로그",
+    "noLogs": "아직 로그가 없습니다. 시즌을 시뮬레이션하여 업적 로그를 확인하세요."
   },
   "profile": {
     "accelerationInitial": "초기 가속",
@@ -965,7 +980,7 @@
       "en": "English",
       "es": "Español",
       "fr": "Français",
-      "id": "Bahasa Indonesia",
+      "id": "인도네시아어",
       "ja": "日本語",
       "ko": "한국어",
       "pt": "Português",
@@ -1056,14 +1071,14 @@
     "slotEmpty": "빈 슬롯",
     "slotOccupied": "사용 중인 슬롯",
     "testSqlite": "SQLite 테스트 및 진단 복사",
-    "birthDate": "Birth Date",
-    "devNewsButton": "What's New",
-    "devNewsTitle": "Developer Updates",
-    "devNewsClose": "Close",
-    "devNewsLoading": "Checking for updates...",
-    "devNewsError": "Could not load news.",
-    "devNewsOpenDiscord": "Join Discord",
-    "devNewsNoNews": "No news available."
+    "birthDate": "생년월일",
+    "devNewsButton": "새로운 소식",
+    "devNewsTitle": "개발자 업데이트",
+    "devNewsClose": "닫기",
+    "devNewsLoading": "업데이트 확인 중...",
+    "devNewsError": "뉴스를 불러올 수 없습니다.",
+    "devNewsOpenDiscord": "디스코드 참여",
+    "devNewsNoNews": "이용 가능한 소식이 없습니다."
   },
   "matchPanel": {
     "title": "경기 시뮬레이션",
@@ -1167,10 +1182,10 @@
     "Continental": "대륙"
   },
   "legend": {
-    "elite": "Elite",
-    "top": "Top",
-    "mid": "Mid",
-    "lower": "Lower"
+    "elite": "엘리트",
+    "top": "탑",
+    "mid": "미드",
+    "lower": "로어"
   },
   "negotiation": {
     "clubOffer": "클럽 제안",
@@ -1216,47 +1231,47 @@
     },
     "matchEvents": {
       "assist": {
-        "0": "Assist by {player}",
-        "1": "Great pass from {player}"
+        "0": "{player}의 도움",
+        "1": "{player}의 좋은 패스"
       },
       "goal": {
-        "0": "GOAL! {player} scores!",
-        "1": "What a finish by {player}!"
+        "0": "GOAL! {player} 득점!",
+        "1": "{player}의 환상적인 마무리!"
       },
       "goodPass": {
-        "0": "Great pass by {player}",
-        "1": "{player} finds a teammate"
+        "0": "{player}의 훌륭한 패스",
+        "1": "{player}가 동료에게 연결"
       },
       "injury": {
-        "0": "{player} seems injured",
-        "1": "{player} goes off injured"
+        "0": "{player}가 부상당한 듯 보입니다",
+        "1": "{player}가 부상으로 교체됩니다"
       },
       "redCard": {
-        "0": "Red card! {player} is sent off!",
-        "1": "{player} is off early"
+        "0": "레드카드! {player} 퇴장!",
+        "1": "{player}가 조기 퇴장합니다"
       },
       "strayPass": {
-        "0": "{player} misplaced a pass",
-        "1": "Poor pass from {player}"
+        "0": "{player}의 패스 미스",
+        "1": "{player}의 실수한 패스"
       },
       "substitution": {
-        "0": "Substitution: {out} off, {in} on",
-        "1": "{in} replaces {out}"
+        "0": "교체: {out} 아웃, {in} 인",
+        "1": "{in}이(가) {out}을(를) 교체"
       },
       "yellowCard": {
-        "0": "Yellow card for {player}",
-        "1": "{player} is booked"
+        "0": "{player} 경고",
+        "1": "{player} 경고 기록"
       }
     }
   },
   "dev": {
-    "duplicatesRemoved": "Removed {count} duplicate events (Dev only)"
+    "duplicatesRemoved": "중복 이벤트 {count}개 제거됨 (개발자 전용)"
   },
   "supercopaBrasil": "Supercopa do Brasil",
   "tierMovement": {
-    "relegation": "Tier {from}->{to} relegation imbalance: expected {expected}, found {found}",
-    "promotion": "Tier {from}->{to} promotion imbalance: expected {expected}, found {found}",
-    "movement": "Movement {from}->{to}"
+    "relegation": "티어 {from}->{to} 강등 불균형: 예상 {expected}, 실제 {found}",
+    "promotion": "티어 {from}->{to} 승격 불균형: 예상 {expected}, 실제 {found}",
+    "movement": "이동 {from}->{to}"
   },
   "patchManager": {
     "title": "커뮤니티 패치",
@@ -1308,13 +1323,13 @@
     "South America": "남미"
   },
   "tier": {
-    "BRONZE": "Bronze",
-    "SILVER": "Silver",
-    "GOLD": "Gold",
-    "PLATINUM": "[MISSING] Platinum",
-    "DIAMOND": "Diamond"
+    "BRONZE": "브론즈",
+    "SILVER": "실버",
+    "GOLD": "골드",
+    "PLATINUM": "플래티넘",
+    "DIAMOND": "다이아몬드"
   },
-  "noSpecialTraits": "No special traits",
+  "noSpecialTraits": "특별 특성 없음",
   "personality": {
     "Ambitious": "야망 있는",
     "Lazy": "게으른",
@@ -1349,17 +1364,17 @@
     "Shot Stopper": "슛 스토퍼",
     "Penalty Saver": "페널티 세이버",
     "Big Game Player": "빅매치 플레이어",
-    "aerialDominance": "Aerial Dominance",
-    "clinicalFinisher": "Clinical Finisher",
-    "dribblingWizard": "Dribbling Wizard",
-    "oneClubMan": "One-Club Man",
-    "setPieceSpecialist": "Set-piece Specialist",
-    "tirelessRunner": "Tireless Runner",
-    "speedMerchant": "Speed Merchant",
-    "playmaker": "Playmaker",
-    "shotStopper": "Shot Stopper",
-    "penaltySaver": "Penalty Saver",
-    "bigGamePlayer": "Big Game Player"
+    "aerialDominance": "공중 장악력",
+    "clinicalFinisher": "클리니컬 피니셔",
+    "dribblingWizard": "드리블 위자드",
+    "oneClubMan": "원클럽맨",
+    "setPieceSpecialist": "세트피스 스페셜리스트",
+    "tirelessRunner": "지치지 않는 주자",
+    "speedMerchant": "스피드 머천트",
+    "playmaker": "플레이메이커",
+    "shotStopper": "슛 스토퍼",
+    "penaltySaver": "페널티 세이버",
+    "bigGamePlayer": "빅게임 플레이어"
   },
   "traits": {
     "Aerial Dominance": "공중볼 장악",
@@ -1379,27 +1394,27 @@
   },
   "awards": {
     "_TODO": "Translate World Rankings UI",
-    "worldRankings": "Global",
-    "votingResults": "Voting Results",
-    "rankings": "Rankings",
-    "history": "History",
-    "votingDetails": "Voting Details",
-    "points": "points",
-    "voters": "voters",
-    "margin": "Margin",
-    "closeRace": "Close race!",
-    "landslide": "Dominant victory!",
-    "you": "YOU",
-    "winner": "Winner",
-    "runnerUp": "Runner-up",
-    "notNominated": "Not nominated",
-    "nominated": "Nominated (Top 30)",
+    "worldRankings": "글로벌",
+    "votingResults": "투표 결과",
+    "rankings": "순위",
+    "history": "기록",
+    "votingDetails": "투표 상세",
+    "points": "포인트",
+    "voters": "투표자",
+    "margin": "격차",
+    "closeRace": "접전!",
+    "landslide": "압도적 승리!",
+    "you": "나",
+    "winner": "우승자",
+    "runnerUp": "준수상자",
+    "notNominated": "미지명",
+    "nominated": "지명됨 (Top 30)",
     "topN": "Top {{position}}",
-    "seasonN": "Season {{season}}",
-    "regionalVotes": "Votes by Region",
-    "candidateStats": "Candidate Statistics",
-    "viewDetails": "View Voting Details",
-    "viewHistory": "View History",
+    "seasonN": "시즌 {{season}}",
+    "regionalVotes": "지역별 투표",
+    "candidateStats": "후보 통계",
+    "viewDetails": "투표 상세 보기",
+    "viewHistory": "기록 보기",
     "pointsBehind": "{{points}} points behind",
     "pointsAhead": "{{points}} points ahead",
     "goals": "골",
@@ -1439,39 +1454,41 @@
     "youLabel": "나",
     "pts": "pts",
     "nthPlace": "{n}위",
-    "ceremony": "Award Ceremony",
-    "nextAward": "Next Award",
-    "skipAll": "Skip All",
-    "yourResult": "Your Result",
-    "awardOf": "Award {current} of {total}",
-    "records": "Career Records",
-    "totalWins": "Wins",
-    "totalNominations": "Nominations",
-    "bestPosition": "Best Position",
-    "closeRaces": "Close Races",
-    "consecutiveWins": "Consecutive",
-    "topRival": "Top Rival",
-    "filterByRegion": "Filter by Region",
-    "filterByType": "Filter by Type",
-    "hallOfFame": "Hall of Fame",
-    "noWinnersYet": "No winners recorded yet",
-    "viewPlayerDetails": "View details of {name}",
+    "ceremony": "시상식",
+    "nextAward": "다음 수상",
+    "skipAll": "모두 건너뛰기",
+    "yourResult": "내 결과",
+    "awardOf": "수상 {current}/{total}",
+    "records": "커리어 기록",
+    "totalWins": "승리",
+    "totalNominations": "지명",
+    "bestPosition": "최적 포지션",
+    "closeRaces": "접전",
+    "consecutiveWins": "연속",
+    "topRival": "최대 라이벌",
+    "filterByRegion": "지역별 필터",
+    "filterByType": "유형별 필터",
+    "hallOfFame": "명예의 전당",
+    "noWinnersYet": "아직 기록된 수상자가 없습니다",
+    "viewPlayerDetails": "{name}의 상세 보기",
     "seasonStats": "시즌 기록",
-    "achievementsLabel": "Achievements",
-    "prizeHistory": "Award History",
-    "npcCareer": "Player Profile",
-    "age": "Age",
+    "achievementsLabel": "업적",
+    "prizeHistory": "수상 내역",
+    "npcCareer": "선수 프로필",
+    "age": "나이",
     "overall": "종합",
-    "club": "Club",
-    "nationality": "Nationality",
-    "firstPlaceVotes": "1st place votes",
-    "totalPoints": "Total Points",
+    "club": "클럽",
+    "nationality": "국적",
+    "firstPlaceVotes": "1위 표",
+    "totalPoints": "총 포인트",
     "noVotingResults": "투표 결과가 없습니다",
     "rating": "평점",
     "recentMatches": "최근 경기"
   },
   "rankings": {
-    "title": "Global",
+    "title": "글로벌",
+    "thisSeason": "이번 시즌",
+    "champions": "챔피언스",
     "lastSeason": "지난 시즌",
     "history": "기록",
     "position": "순위",
@@ -1480,7 +1497,7 @@
     "yourPosition": "당신의 순위",
     "viewVotingResults": "투표 결과 및 기록 보기",
     "completeSeasonFirst": "세계 랭킹 결과를 보려면 첫 시즌을 완료하세요",
-    "hallOfFame": "Hall of Fame",
+    "hallOfFame": "명예의 전당",
     "season": "시즌",
     "allTime": "통산",
     "standings": "순위표",
@@ -1560,25 +1577,25 @@
   },
   "events": {
     "contract": {
-      "terminated": "Contract terminated with {team}."
+      "terminated": "{team}과(와) 계약이 종료되었습니다."
     },
     "generated": {
-      "agent_meeting": "🤝 Your agent wants to discuss your future."
+      "agent_meeting": "🤝 에이전트가 당신의 미래에 대해 논의하길 원합니다."
     }
   },
   "goals": {
-    "achieved": "🎯 Goal Achieved: {narrative}",
-    "newGoal": "🎯 New Goal Unlocked: {goal}"
+    "achieved": "🎯 목표 달성: {narrative}",
+    "newGoal": "🎯 새 목표 해제: {goal}"
   },
   "trophiesSection": {
-    "Copa São Paulo de Futebol Júnior": "Sao Paulo Youth Cup",
+    "Copa São Paulo de Futebol Júnior": "상파울루 유스컵",
     "trophy": {
-      "supercopaBrasil": "Brazilian Super Cup"
+      "supercopaBrasil": "브라질 슈퍼컵"
     },
-    "americasDerby": "Americas Derby"
+    "americasDerby": "아메리카 더비"
   },
   "wcQualification": {
-    "failed": "Qualification Failed"
+    "failed": "예선 탈락"
   },
   "alerts": {
     "failedAcceptTransfer": "네이티브 환경에서 이적 수락에 실패했습니다.",

@@ -50,7 +50,16 @@
       "Reliable": "Tient toutes ses promesses.",
       "Strategic": "Planifie soigneusement chaque étape de carrière.",
       "Traditional": "Préfère les méthodes de négociation traditionnelles.",
-      "Visionary": "Pense à long terme pour la carrière du joueur."
+      "Visionary": "Pense à long terme pour la carrière du joueur.",
+      "Cautious": "Évite les mouvements risqués.",
+      "Connected": "Utilise un solide réseau de contacts.",
+      "Determined": "Persiste dans les négociations difficiles.",
+      "Direct": "Va droit au but.",
+      "Eager": "À l'affût des opportunités.",
+      "Enthusiastic": "Apporte de l'énergie positive à chaque affaire.",
+      "Hungry": "Toujours à la recherche du prochain grand projet.",
+      "Mastermind": "Anticipe plusieurs coups à l'avance.",
+      "Unpredictable": "Surprend les clubs."
     },
     "weeklySalary": "Salaire Hebdomadaire",
     "reasons": {
@@ -63,6 +72,12 @@
       "merger": "Votre agence a fusionné. Vous avez été réaffecté à {name}.",
       "special": "Circonstances spéciales",
       "improved": "Perspectives de carrière améliorées avec {name} ({style} {specialty})"
+    },
+    "current": "Actuel",
+    "special": "Spécial",
+    "unlockProgress": "Progression de déblocage",
+    "unlockDescriptions": {
+      "oliverTree": "Réservé à l'élite absolue. Nécessite 90+ OVR, 3+ saisons pro, 10+ sélections internationales et 2+ trophées."
     }
   },
   "assistsShort": "PD",
@@ -130,7 +145,7 @@
   "common": {
     "accept": "Accepter",
     "actions": "Actions",
-    "age": "Age",
+    "age": "Âge",
     "all": "Tout",
     "and": "et",
     "appNameLine1": "My Football Career Sim",
@@ -185,7 +200,7 @@
     "goalsAbbr": "B",
     "goalsShort": "B",
     "groupStage": "Phase de Groupes",
-    "info": "Info",
+    "info": "Infos",
     "interceptionsAbbr": "INT",
     "keyPassesAbbr": "PC",
     "knockoutStage": "Phase Finale",
@@ -347,7 +362,7 @@
     "contribution": "Contribution",
     "csRatio": "Ratio CS",
     "current": "Actuel",
-    "form": "Form",
+    "form": "Forme",
     "goals": "Objectifs",
     "goalsPerGame": "Buts/Match",
     "goalsTab": "Objectifs",
@@ -455,7 +470,7 @@
   "goalsShort": "B",
   "journey": {
     "acceptChallenge": "Accepter le Défi",
-    "challenge": "Challenges",
+    "challenge": "Défis",
     "challengeCompleted": "Défi complété!",
     "completed": "Terminé",
     "continents": "Continents",
@@ -464,7 +479,7 @@
     "genders": "Modes",
     "menuButton": "Mon Parcours",
     "nextChallenge": "Revenez demain pour un nouveau défi",
-    "positions": "Positions",
+    "positions": "Postes",
     "randomCareer": "Carrière Aléatoire",
     "randomDesc": "Laissez le destin décider pour vous",
     "stats": "Statistiques",
@@ -708,7 +723,7 @@
     "individualMarking": "Marquage Individuel",
     "injuryResistance": "Résistance aux Blessures",
     "interception": "Interception",
-    "jockeying": "Jockeying",
+    "jockeying": "Jockey",
     "jumping": "Détente",
     "keyPassesPer90": "Passes Clés/90",
     "kicking": "Dégagements (GB)",
@@ -754,7 +769,7 @@
     "position": "Position",
     "positionRecovery": "Récupération de Position",
     "positioning": "Placement",
-    "positions": "Positions",
+    "positions": "Postes",
     "potential": "Potentiel",
     "preAssists": "Pré-Passes Décisives",
     "pressIntensity": "Intensité du Pressing",
@@ -791,7 +806,7 @@
     },
     "runningStyleLabel": "Style de Course",
     "rushingOut": "Sortie Rapide",
-    "seasonStats": "Season Stats",
+    "seasonStats": "Statistiques de la saison",
     "secondYellows": "Deuxièmes Jaunes",
     "secondaryStyle": "Style Secondaire",
     "setPieces": "Coups de Pied Arrêtés",
@@ -1078,7 +1093,7 @@
     "slotEmpty": "Slot vide",
     "slotOccupied": "Slot occupé",
     "testSqlite": "Tester SQLite & Copier le diagnostic",
-    "birthDate": "Birth Date",
+    "birthDate": "Date de naissance",
     "devNewsButton": "Nouveautés",
     "devNewsTitle": "Nouvelles du Développeur",
     "devNewsClose": "Fermer",
@@ -1245,7 +1260,7 @@
     "tooGreedy": "Le club s'est retiré en raison d'exigences trop élevées.",
     "title": "Négociation de Contrat",
     "subtitle": "Sécurisez votre avenir",
-    "round": "Round",
+    "round": "Tour",
     "propose": "Proposer des Termes"
   },
   "social": {
@@ -1268,36 +1283,36 @@
     },
     "matchEvents": {
       "assist": {
-        "0": "Assist by {player}",
-        "1": "Great pass from {player}"
+        "0": "Passe décisive de {player}",
+        "1": "Belle passe de {player}"
       },
       "goal": {
-        "0": "GOAL! {player} scores!",
-        "1": "What a finish by {player}!"
+        "0": "BUT ! {player} marque !",
+        "1": "Quelle finition de {player} !"
       },
       "goodPass": {
-        "0": "Great pass by {player}",
-        "1": "{player} finds a teammate"
+        "0": "Belle passe de {player}",
+        "1": "{player} trouve un coéquipier"
       },
       "injury": {
-        "0": "{player} seems injured",
-        "1": "{player} goes off injured"
+        "0": "{player} semble blessé",
+        "1": "{player} sort sur blessure"
       },
       "redCard": {
-        "0": "Red card! {player} is sent off!",
-        "1": "{player} is off early"
+        "0": "Carton rouge ! {player} est expulsé !",
+        "1": "{player} quitte le terrain tôt"
       },
       "strayPass": {
-        "0": "{player} misplaced a pass",
-        "1": "Poor pass from {player}"
+        "0": "{player} a mal ajusté sa passe",
+        "1": "Mauvaise passe de {player}"
       },
       "substitution": {
-        "0": "Substitution: {out} off, {in} on",
-        "1": "{in} replaces {out}"
+        "0": "Remplacement : {out} sort, {in} entre",
+        "1": "{in} remplace {out}"
       },
       "yellowCard": {
-        "0": "Yellow card for {player}",
-        "1": "{player} is booked"
+        "0": "Carton jaune pour {player}",
+        "1": "{player} est averti"
       }
     }
   },
@@ -1361,7 +1376,7 @@
     "BRONZE": "Bronze",
     "SILVER": "Argent",
     "GOLD": "Or",
-    "PLATINUM": "[MISSING] Platinum",
+    "PLATINUM": "Platine",
     "DIAMOND": "Diamant"
   },
   "noSpecialTraits": "Aucun trait spécial",
@@ -1428,7 +1443,7 @@
     "assistantCoach": "Rapport de l'Entraîneur Adjoint"
   },
   "awards": {
-    "worldRankings": "Global",
+    "worldRankings": "Mondial",
     "votingResults": "Résultats du Vote",
     "rankings": "Classements",
     "history": "Historique",
@@ -1488,21 +1503,21 @@
     "youLabel": "VOUS",
     "pts": "pts",
     "nthPlace": "{n}e",
-    "ceremony": "Award Ceremony",
-    "nextAward": "Next Award",
-    "skipAll": "Skip All",
-    "yourResult": "Your Result",
-    "awardOf": "Award {current} of {total}",
-    "records": "Career Records",
-    "totalWins": "Wins",
+    "ceremony": "Cérémonie des récompenses",
+    "nextAward": "Prochaine récompense",
+    "skipAll": "Tout passer",
+    "yourResult": "Votre résultat",
+    "awardOf": "Prix {current} sur {total}",
+    "records": "Records de carrière",
+    "totalWins": "Victoires",
     "totalNominations": "Nominations",
-    "bestPosition": "Best Position",
-    "closeRaces": "Close Races",
-    "consecutiveWins": "Consecutive",
-    "topRival": "Top Rival",
-    "filterByRegion": "Filter by Region",
-    "filterByType": "Filter by Type",
-    "hallOfFame": "Hall of Fame",
+    "bestPosition": "Meilleur poste",
+    "closeRaces": "Classements serrés",
+    "consecutiveWins": "Consécutifs",
+    "topRival": "Principal rival",
+    "filterByRegion": "Filtrer par région",
+    "filterByType": "Filtrer par type",
+    "hallOfFame": "Temple de la renommée",
     "noWinnersYet": "Aucun lauréat enregistré",
     "viewPlayerDetails": "Voir les détails de {name}",
     "seasonStats": "Statistiques de Saison",
@@ -1520,7 +1535,9 @@
     "recentMatches": "Derniers Matchs"
   },
   "rankings": {
-    "title": "Global",
+    "title": "Mondial",
+    "thisSeason": "Cette Saison",
+    "champions": "Champions",
     "lastSeason": "Saison Dernière",
     "history": "Historique",
     "position": "Position",
@@ -1529,7 +1546,7 @@
     "yourPosition": "Votre Position",
     "viewVotingResults": "Voir les résultats et l'historique des votes",
     "completeSeasonFirst": "Terminez votre première saison pour voir les résultats du classement mondial",
-    "hallOfFame": "Hall of Fame",
+    "hallOfFame": "Temple de la renommée",
     "season": "Saison",
     "allTime": "Historique",
     "standings": "Classement",
@@ -1609,25 +1626,25 @@
   },
   "events": {
     "contract": {
-      "terminated": "Contract terminated with {team}."
+      "terminated": "Contrat résilié avec {team}."
     },
     "generated": {
-      "agent_meeting": "🤝 Your agent wants to discuss your future."
+      "agent_meeting": "🤝 Votre agent veut discuter de votre avenir."
     }
   },
   "goals": {
-    "achieved": "🎯 Goal Achieved: {narrative}",
-    "newGoal": "🎯 New Goal Unlocked: {goal}"
+    "achieved": "🎯 Objectif atteint : {narrative}",
+    "newGoal": "🎯 Nouvel objectif débloqué : {goal}"
   },
   "trophiesSection": {
-    "Copa São Paulo de Futebol Júnior": "Sao Paulo Youth Cup",
+    "Copa São Paulo de Futebol Júnior": "Coupe São Paulo de Futebol Júnior",
     "trophy": {
-      "supercopaBrasil": "Brazilian Super Cup"
+      "supercopaBrasil": "Supercoupe du Brésil"
     },
-    "americasDerby": "Americas Derby"
+    "americasDerby": "Derby des Amériques"
   },
   "wcQualification": {
-    "failed": "Qualification Failed"
+    "failed": "Échec de la qualification"
   },
   "alerts": {
     "failedAcceptTransfer": "Impossible d'accepter le transfert en mode natif.",

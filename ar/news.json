@@ -167,8 +167,8 @@
     "clubsCount": "نوادي {n}",
     "competitionDetails": "تفاصيل المسابقة",
     "competitionType": {
-      "Continental": "كونتيننتال",
-      "Cup": "كوب",
+      "Continental": "قاري",
+      "Cup": "كأس",
       "League": "الدوري"
     },
     "continentalQualification": {
@@ -259,18 +259,18 @@
       "19": "صافرة النهاية فرحة! {team} يفوز بـ {cup}",
       "20": "ينتمي {cup} إلى {team} و{name}"
     },
-    "defending": "يحفظ",
+    "defending": "الدفاع",
     "development": {
       "exceptionalSeason": "🌟 كان لديك موسم تطوير استثنائي!",
       "struggledSeason": "⚠️ واجه صعوبة في التطور هذا الموسم."
     },
-    "dribbling": "سال لعابه",
+    "dribbling": "المراوغة",
     "europaLeague": {
       "1": "🏆 مجد {competition}! {team} يفوز بالكأس الأوروبية",
       "2": "{name} و{team} ينتصران في {competition}",
       "3": "النجاح الأوروبي! {team} ارفع {competition}",
       "4": "توج {team} بأبطال {competition}",
-      "5": "أدوات فضية كونتيننتال لـ {team}",
+      "5": "أدوات فضية قاري لـ {team}",
       "6": "{name} يحتفل بانتصار {competition}",
       "7": "أكمل {team} حملة {competition} بأناقة",
       "8": "الليالي الأوروبية تؤتي ثمارها لـ {team}",
@@ -334,11 +334,11 @@
         "finishingOnCounter": "التشطيب على العداد",
         "finishingOutsideBox": "تشطيب الصندوق الخارجي",
         "finishingUnderPressure": "التشطيب تحت الضغط",
-        "headingAccuracy": "دقة العنوان",
-        "headingPower": "قوة العنوان",
+        "headingAccuracy": "دقة الرأسية",
+        "headingPower": "قوة الرأسية",
         "oneOnOneFinishing": "واحد على واحد التشطيب",
         "placedShotAccuracy": "دقة التسديدة الموضوعة",
-        "powerShotAccuracy": "دقة قوة النار",
+        "powerShotAccuracy": "دقة التسديدات القوية",
         "shotPower": "قوة التسديد",
         "volleysAndAcrobatic": "الكرات الهوائية والبهلوانية"
       },
@@ -346,8 +346,8 @@
         "anticipation": "الترقب",
         "creativity": "إِبداع",
         "decisions": "القرارات",
-        "offTheBallMovement": "حركة خارج الكرة",
-        "positioning": "تحديد المواقع",
+        "offTheBallMovement": "حركة بدون كرة",
+        "positioning": "التمركز",
         "spatialAwareness": "الوعي المكاني",
         "vision": "رؤية"
       },
@@ -361,20 +361,20 @@
         "standingVerticalJump": "القفز العمودي الدائم"
       },
       "marking": {
-        "individualMarking": "العلامات الفردية",
+        "individualMarking": "الرقابة الفردية",
         "trackingRuns": "تشغيل التتبع",
-        "zonalMarking": "وضع العلامات على المناطق"
+        "zonalMarking": "الرقابة المنطقة"
       },
       "passing": {
-        "crossingFromByline": "العبور من الخط الثانوي",
+        "crossingFromByline": "التمرير العرضي من خط المرمى",
         "crossingFromDeep": "العبور من العمق",
         "longDiagonalPass": "تمريرة قطرية طويلة",
         "longPassAccuracy": "دقة التمريرة الطويلة",
         "mediumPassAccuracy": "دقة تمرير متوسطة",
         "shortPassAccuracy": "دقة التمريرات القصيرة",
-        "throughBallAccuracy": "من خلال دقة الكرة",
+        "throughBallAccuracy": "دقة التمريرة البينية",
         "verticalPassBreakingLines": "خطوط كسر التمرير العمودية",
-        "weightedPass": "تمريرة مرجحة"
+        "weightedPass": "تمريرة موزونة"
       },
       "performance": {
         "adaptability": "القدرة على التكيف",
@@ -421,13 +421,13 @@
       },
       "strength": {
         "balanceInContact": "التوازن في الاتصال",
-        "bodyToBodyStrength": "قوة الجسم إلى الجسم",
+        "bodyToBodyStrength": "القوة البدنية في الاحتكاك",
         "legStrength": "قوة الساق",
         "upperBodyStrength": "قوة الجزء العلوي من الجسم"
       },
       "tackling": {
-        "slidingTackle": "معالجة انزلاقية",
-        "standingTackle": "معالجة الوقوف",
+        "slidingTackle": "تدخل انزلاقي",
+        "standingTackle": "تدخل وقوف",
         "tackleTiming": "معالجة التوقيت"
       }
     },
@@ -836,7 +836,7 @@
       "20": "ينتهي موسم الأحلام بجائزة أفضل لاعب في العام لـ{name}"
     },
     "pos": "نقاط البيع",
-    "positioning": "تحديد المواقع",
+    "positioning": "التمركز",
     "professionalDebut": {
       "1": "🌟 لاول مرة! يظهر {name} لأول مرة بمظهر احترافي",
       "2": "البداية: ظهور {name} لأول مرة لـ {team}",

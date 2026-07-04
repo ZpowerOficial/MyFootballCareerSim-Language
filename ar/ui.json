@@ -50,7 +50,16 @@
       "Reliable": "يفي بجميع الوعود التي قطعها.",
       "Strategic": "يخطط بعناية لكل خطوة في المسيرة المهنية.",
       "Traditional": "يفضل طرق التفاوض التقليدية.",
-      "Visionary": "يفكر على المدى الطويل في مسيرة اللاعب المهنية."
+      "Visionary": "يفكر على المدى الطويل في مسيرة اللاعب المهنية.",
+      "Cautious": "يتجنب الحركات المحفوفة بالمخاطر.",
+      "Connected": "يستخدم شبكة قوية من العلاقات.",
+      "Determined": "يدفع بقوة في المفاوضات الصعبة.",
+      "Direct": "يذهب مباشرة إلى النقطة.",
+      "Eager": "يتطلع بشوق للفرص.",
+      "Enthusiastic": "يجلب الطاقة الإيجابية لكل صفقة.",
+      "Hungry": "يسعى دائمًا وراء الخطوة الكبيرة التالية.",
+      "Mastermind": "يرى عدة خطوات قبل الحدوث.",
+      "Unpredictable": "يبقي الأندية تتساءل."
     },
     "weeklySalary": "الراتب الأسبوعي",
     "reasons": {
@@ -63,6 +72,12 @@
       "merger": "دمجت وكالتك مع شركة أخرى. تم تعيينك لـ {name}.",
       "special": "ظروف خاصة",
       "improved": "آفاق مهنية محسنة مع {name} ({style} {specialty})"
+    },
+    "current": "الحالي",
+    "special": "مميز",
+    "unlockProgress": "تقدم الفتح",
+    "unlockDescriptions": {
+      "oliverTree": "فقط للنخبة المطلقة. يتطلب 90+ OVR، 3+ مواسم محترفة، 10+ مباريات دولية، و 2+ بطولات."
     }
   },
   "assistsShort": "ت",
@@ -291,14 +306,33 @@
     "tr": "Türkçe",
     "ar": "العربية",
     "supportProject": "دعم المشروع",
-    "round": "Round",
+    "round": "جولة",
     "youthAcademy": "أكاديمية الشباب",
     "assist": "تمريرة حاسمة",
     "goal": "هدف",
     "winShort": "ف",
     "drawShort": "ت",
     "lossShort": "خ",
-    "pt": "Português"
+    "pt": "Português",
+    "scheduled": "مجدول",
+    "complete": "مكتمل",
+    "championLabel": "البطل: ",
+    "seeMore": "عرض المزيد",
+    "player": "لاعب",
+    "instagram": "إنستغرام",
+    "discord": "ديسكورد",
+    "minAbbreviation": "' د",
+    "npcNotFound": "لم يتم العثور على اللاعب.",
+    "preSeason": "ما قبل الموسم",
+    "regularSeason": "الموسم العادي",
+    "postSeason": "ما بعد الموسم",
+    "promotion": "صعود",
+    "relegation": "هبوط",
+    "qualification": "تأهل",
+    "friendly": "ودية",
+    "quarterFinal": "ربع النهائي",
+    "semiFinal": "نصف النهائي",
+    "final": "النهائي"
   },
   "commonExtra": {
     "ageYearsShort": "{age} سنة",
@@ -1056,14 +1090,14 @@
     "slotEmpty": "خانة فارغة",
     "slotOccupied": "خانة مشغولة",
     "testSqlite": "اختبار SQLite ونسخ التشخيص",
-    "birthDate": "Birth Date",
-    "devNewsButton": "What's New",
-    "devNewsTitle": "Developer Updates",
-    "devNewsClose": "Close",
-    "devNewsLoading": "Checking for updates...",
-    "devNewsError": "Could not load news.",
-    "devNewsOpenDiscord": "Join Discord",
-    "devNewsNoNews": "No news available."
+    "birthDate": "تاريخ الميلاد",
+    "devNewsButton": "ما الجديد",
+    "devNewsTitle": "تحديثات المطور",
+    "devNewsClose": "إغلاق",
+    "devNewsLoading": "جارٍ التحقق من التحديثات...",
+    "devNewsError": "تعذر تحميل الأخبار.",
+    "devNewsOpenDiscord": "انضم إلى ديسكورد",
+    "devNewsNoNews": "لا توجد أخبار متاحة."
   },
   "matchPanel": {
     "title": "محاكاة المباراة",
@@ -1216,36 +1250,36 @@
     },
     "matchEvents": {
       "assist": {
-        "0": "Assist by {player}",
-        "1": "Great pass from {player}"
+        "0": "تمريرة حاسمة من {player}",
+        "1": "تمريرة رائعة من {player}"
       },
       "goal": {
-        "0": "GOAL! {player} scores!",
-        "1": "What a finish by {player}!"
+        "0": "هدف! {player} يسجل!",
+        "1": "يا له من إنهاء رائع من {player}!"
       },
       "goodPass": {
-        "0": "Great pass by {player}",
-        "1": "{player} finds a teammate"
+        "0": "تمريرة رائعة من {player}",
+        "1": "{player} يجد زميله"
       },
       "injury": {
-        "0": "{player} seems injured",
-        "1": "{player} goes off injured"
+        "0": "{player} يبدو مصاباً",
+        "1": "{player} يغادر مصاباً"
       },
       "redCard": {
-        "0": "Red card! {player} is sent off!",
-        "1": "{player} is off early"
+        "0": "بطاقة حمراء! {player} يُطرد!",
+        "1": "{player} يغادر مبكراً"
       },
       "strayPass": {
-        "0": "{player} misplaced a pass",
-        "1": "Poor pass from {player}"
+        "0": "{player} أخطأ في تمرير الكرة",
+        "1": "تمريرة سيئة من {player}"
       },
       "substitution": {
-        "0": "Substitution: {out} off, {in} on",
-        "1": "{in} replaces {out}"
+        "0": "تبديل: {out} خارج، {in} داخل",
+        "1": "{in} يحل محل {out}"
       },
       "yellowCard": {
-        "0": "Yellow card for {player}",
-        "1": "{player} is booked"
+        "0": "بطاقة صفراء لـ {player}",
+        "1": "{player} يتلقى إنذاراً"
       }
     }
   },
@@ -1311,7 +1345,7 @@
     "BRONZE": "برونزي",
     "SILVER": "فضي",
     "GOLD": "ذهبي",
-    "PLATINUM": "[MISSING] Platinum",
+    "PLATINUM": "بلاتيني",
     "DIAMOND": "ماسي"
   },
   "noSpecialTraits": "لا سمات خاصة",
@@ -1379,29 +1413,29 @@
   },
   "awards": {
     "_TODO": "Translate العالم Rankings UI",
-    "worldRankings": "Global",
-    "votingResults": "Voting Results",
-    "rankings": "Rankings",
-    "history": "History",
-    "votingDetails": "Voting Details",
-    "points": "points",
-    "voters": "voters",
-    "margin": "Margin",
-    "closeRace": "Close race!",
-    "landslide": "Dominant victory!",
-    "you": "YOU",
-    "winner": "Winner",
-    "runnerUp": "Runner-up",
-    "notNominated": "Not nominated",
-    "nominated": "Nominated (Top 30)",
-    "topN": "Top {{position}}",
-    "seasonN": "Season {{season}}",
-    "regionalVotes": "Votes by Region",
-    "candidateStats": "Candidate Statistics",
-    "viewDetails": "View Voting Details",
-    "viewHistory": "View History",
-    "pointsBehind": "{{points}} points behind",
-    "pointsAhead": "{{points}} points ahead",
+    "worldRankings": "التصنيفات العالمية",
+    "votingResults": "نتائج التصويت",
+    "rankings": "التصنيفات",
+    "history": "التاريخ",
+    "votingDetails": "تفاصيل التصويت",
+    "points": "نقطة",
+    "voters": "مصوّت",
+    "margin": "الفارق",
+    "closeRace": "سباق متقارب!",
+    "landslide": "فوز ساحق!",
+    "you": "أنت",
+    "winner": "الفائز",
+    "runnerUp": "الوصيف",
+    "notNominated": "غير مرشح",
+    "nominated": "مرشح (أفضل 30)",
+    "topN": "أفضل {{position}}",
+    "seasonN": "الموسم {{season}}",
+    "regionalVotes": "الأصوات حسب المنطقة",
+    "candidateStats": "إحصائيات المرشحين",
+    "viewDetails": "عرض تفاصيل التصويت",
+    "viewHistory": "عرض التاريخ",
+    "pointsBehind": "متأخر بـ {{points}} نقطة",
+    "pointsAhead": "متقدم بـ {{points}} نقطة",
     "goals": "أهداف",
     "assists": "تمريرات حاسمة",
     "cleanSheets": "شباك نظيفة",
@@ -1439,39 +1473,41 @@
     "youLabel": "أنت",
     "pts": "نقطة",
     "nthPlace": "{n}",
-    "ceremony": "Award Ceremony",
-    "nextAward": "Next Award",
-    "skipAll": "Skip All",
-    "yourResult": "Your Result",
-    "awardOf": "Award {current} of {total}",
-    "records": "Career Records",
-    "totalWins": "Wins",
-    "totalNominations": "Nominations",
-    "bestPosition": "أفضل Position",
-    "closeRaces": "Close Races",
-    "consecutiveWins": "Consecutive",
-    "topRival": "Top Rival",
-    "filterByRegion": "Filter by Region",
-    "filterByType": "Filter by Type",
-    "hallOfFame": "Hall of Fame",
-    "noWinnersYet": "No winners recorded yet",
-    "viewPlayerDetails": "View details of {name}",
+    "ceremony": "حفل توزيع الجوائز",
+    "nextAward": "الجائزة التالية",
+    "skipAll": "تخطي الكل",
+    "yourResult": "نتيجتك",
+    "awardOf": "الجائزة {current} من {total}",
+    "records": "سجلات المسيرة",
+    "totalWins": "فوز",
+    "totalNominations": "ترشيحات",
+    "bestPosition": "أفضل مركز",
+    "closeRaces": "سباقات متقاربة",
+    "consecutiveWins": "متتالية",
+    "topRival": "أفضل منافس",
+    "filterByRegion": "تصفية حسب المنطقة",
+    "filterByType": "تصفية حسب النوع",
+    "hallOfFame": "قاعة المشاهير",
+    "noWinnersYet": "لم يتم تسجيل فائزين بعد",
+    "viewPlayerDetails": "عرض تفاصيل {name}",
     "seasonStats": "إحصائيات الموسم",
-    "achievementsLabel": "Achievements",
-    "prizeHistory": "Award History",
-    "npcCareer": "لاعب Profile",
-    "age": "Age",
+    "achievementsLabel": "الإنجازات",
+    "prizeHistory": "تاريخ الجوائز",
+    "npcCareer": "ملف اللاعب",
+    "age": "العمر",
     "overall": "الأداء العام",
-    "club": "Club",
-    "nationality": "Nationality",
-    "firstPlaceVotes": "1st place votes",
-    "totalPoints": "Total Points",
+    "club": "النادي",
+    "nationality": "الجنسية",
+    "firstPlaceVotes": "أصوات المركز الأول",
+    "totalPoints": "إجمالي النقاط",
     "noVotingResults": "لا توجد نتائج تصويت متاحة",
     "rating": "التقييم",
     "recentMatches": "المباريات الأخيرة"
   },
   "rankings": {
-    "title": "Global",
+    "title": "العالمي",
+    "thisSeason": "هذا الموسم",
+    "champions": "الأبطال",
     "lastSeason": "الموسم الماضي",
     "history": "التاريخ",
     "position": "المركز",
@@ -1480,7 +1516,7 @@
     "yourPosition": "مركزك",
     "viewVotingResults": "عرض نتائج وتاريخ التصويت",
     "completeSeasonFirst": "أنهِ موسمك الأول لرؤية نتائج التصنيف العالمي",
-    "hallOfFame": "Hall of Fame",
+    "hallOfFame": "قاعة المشاهير",
     "season": "الموسم",
     "allTime": "جميع الأوقات",
     "standings": "الترتيب",
@@ -1560,25 +1596,25 @@
   },
   "events": {
     "contract": {
-      "terminated": "Contract terminated with {team}."
+      "terminated": "تم إنهاء العقد مع {team}."
     },
     "generated": {
-      "agent_meeting": "🤝 Your agent wants to discuss your future."
+      "agent_meeting": "🤝 وكيلك يريد مناقشة مستقبلك."
     }
   },
   "goals": {
-    "achieved": "🎯 Goal Achieved: {narrative}",
-    "newGoal": "🎯 New Goal Unlocked: {goal}"
+    "achieved": "🎯 تم تحقيق الهدف: {narrative}",
+    "newGoal": "🎯 تم فتح هدف جديد: {goal}"
   },
   "trophiesSection": {
-    "Copa São Paulo de Futebol Júnior": "Sao Paulo Youth كأس",
+    "Copa São Paulo de Futebol Júnior": "كأس ساو باولو للشباب",
     "trophy": {
-      "supercopaBrasil": "Brazilian كأس السوبر"
+      "supercopaBrasil": "كأس السوبر البرازيلي"
     },
-    "americasDerby": "Americas Derby"
+    "americasDerby": "ديربي الأمريكتين"
   },
   "wcQualification": {
-    "failed": "Qualification Failed"
+    "failed": "فشل التأهل"
   },
   "alerts": {
     "failedAcceptTransfer": "فشل قبول الانتقال محليًا.",

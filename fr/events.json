@@ -20,7 +20,7 @@
     "nationalTeamCallUp": "Soyez appelé en équipe nationale",
     "proDebut": "Faire ses débuts professionnels",
     "reach100Caps": "Atteindre 100 sélections internationales",
-    "reachCareerAssists": "Atteindre le jalon des aides à la carrière",
+    "reachCareerAssists": "Atteindre le jalon des passes décisives en carrière",
     "reachCareerGoals": "Atteindre les objectifs de carrière",
     "reachOverallRating": "Atteindre l'objectif OVR",
     "winWorldCup": "Gagnez le tournoi mondial"
@@ -33,8 +33,8 @@
       "controversy": "Le scandale impliquant {name} a forcé un changement.",
       "eliteCall": "Une agence d'élite dirigée par {name} a fait une offre irrésistible.",
       "fallout": "Brouille irréconciliable avec {name}.",
-      "improved": "À la recherche de nouveaux sommets sous la représentation de {name}.",
-      "merger": "L'agence {name} a subi une fusion d'entreprise.",
+      "improved": "À la recherche de nouveaux sommets représenté par {name}.",
+      "merger": "L'agence {name} a connu une fusion d'entreprise.",
       "none": "Aucune proposition d'agent intéressante pour le moment.",
       "special": "Un événement inattendu sur le marché des agents a forcé un changement.",
       "starAttraction": "Votre statut chez {team} a attiré des agences de classe mondiale.",
@@ -198,7 +198,7 @@
       "exposure": "Exposition",
       "fans": "Relation avec les fans",
       "followers": "Abonnés",
-      "form": "Formulaire",
+      "form": "Forme",
       "generosity": "Générosité",
       "loyalty": "Loyauté",
       "morale": "Moral",
@@ -383,9 +383,9 @@
       "title": "Mentor jeunesse"
     },
     "national": {
-      "150caps": "150 casquettes pour {country} ! L'un des plus grands de tous les temps !",
-      "brace": "PRÉPAREZ-VOUS pour {country} vs {opponent} dans {type} !",
-      "centurion": "CENTURION ! 100 casquettes pour {country} ! Une étape légendaire !",
+      "150caps": "150 sélections pour {country} ! L'un des plus grands de tous les temps !",
+      "brace": "DOUBLÉ pour {country} vs {opponent} dans {type} !",
+      "centurion": "CENTURION ! 100 sélections pour {country} ! Une étape légendaire !",
       "continentalCupExit": {
         "genericDefeat": "Sortie de la Coupe Continentale {round} vs {opponent}. Chagrin car l’équipe est éliminée.",
         "heroicDefeat": "Sortie de la Coupe Continentale {round} vs {opponent}. Malgré une belle performance individuelle, l’équipe n’a pas réussi.",
@@ -601,7 +601,7 @@
           "headline1": "📰 {name} ravit les fans avec attention et bienveillance"
         },
         "ignore": {
-          "fan1": "Quelle déception... je ne nous ai même pas regardé 😢",
+          "fan1": "Quelle déception... Il ne nous a même pas regardés 😢",
           "fan2": "La renommée lui est montée à la tête, apparemment...",
           "headline1": "📰 Les fans se plaignent du traitement par le froid de {name}"
         },
@@ -720,7 +720,7 @@
       "headlines": {
         "injury": {
           "1": "💔 DÉCOUPANT ! Carrière écourtée par une blessure pour {name}.",
-          "2": "🏥 Le corps en a assez dit : {name} contraint à l'abandon sur blessure.",
+          "2": "🏥 Le corps n'en pouvait plus : {name} contraint à l'abandon sur blessure.",
           "3": "😢 Cruel revers : Une blessure met fin prématurément à la carrière de {name}.",
           "4": "🩹 Un avis médical oblige {name} à raccrocher les bottes. Le football est en deuil.",
           "5": "💉 Coup dévastateur : la carrière de {name} se termine à cause d'une blessure persistante.",
@@ -1174,7 +1174,7 @@
     "drought": {
       "assists": {
         "1": "Crise de créativité ? Aucune passe décisive en 5 matchs.",
-        "2": "Où est le bal final ? Meneur de jeu en difficulté."
+        "2": "Où sont les passes décisives ? Meneur de jeu en difficulté."
       },
       "goals": {
         "1": "La sécheresse de buts continue : 5 matchs sans marquer.",
@@ -1190,7 +1190,7 @@
         "3": "Mettez-le au banc !",
         "4": "Invisible aujourd'hui.",
         "5": "Ma grand-mère court plus vite.",
-        "6": "Sortez de mon club !",
+        "6": "Sors de mon club !",
         "7": "Prestation honteuse."
       },
       "neu": {
@@ -1200,7 +1200,7 @@
         "4": "Effort décent, manquant de qualité.",
         "5": "Cela pourrait être mieux.",
         "6": "Rien de spécial.",
-        "7": "Meh."
+        "7": "Bof."
       },
       "pos": {
         "1": "Quel joueur ! 😍",
@@ -1511,7 +1511,7 @@
     },
     "nightclub": {
       "apologize": {
-        "fan1": "Excuses acceptées. Passez.",
+        "fan1": "Excuses acceptées. Passons à autre chose.",
         "headline1": "Le joueur s'excuse pour sa soirée"
       },
       "blame": {
@@ -1838,7 +1838,7 @@
   },
   "common": {
     "rounds": {
-      "final": "Final",
+      "final": "Finale",
       "groupStage": "Phase de groupes",
       "qualifier": "Qualificatif",
       "quarterFinal": "Quart de finale",
@@ -1853,10 +1853,10 @@
   "competition": {
     "americasDerby": "Derby des Amériques"
   },
-  "youthDebut": "Youth Team Debut",
-  "firstYouthGoal": "First Goal in Youth Team",
-  "firstYouthAssist": "First Assist in Youth Team",
-  "firstProGoal": "First Professional Goal",
-  "firstProAssist": "First Professional Assist",
-  "intlDebut": "International Debut"
+  "youthDebut": "Débuts en équipe de jeunes",
+  "firstYouthGoal": "Premier but en équipe de jeunes",
+  "firstYouthAssist": "Première passe décisive en équipe de jeunes",
+  "firstProGoal": "Premier but professionnel",
+  "firstProAssist": "Première passe décisive pro",
+  "intlDebut": "Première sélection"
 }
