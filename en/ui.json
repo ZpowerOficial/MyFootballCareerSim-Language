@@ -78,7 +78,9 @@
       "merger": "Your agency has merged with another firm. You've been reassigned to {name}.",
       "improved": "Improved career prospects with {name} ({style} {specialty})",
       "special": "Special circumstances"
-    }
+    },
+    "fireAgent": "Fire Agent",
+    "yourAgent": "Your Agent"
   },
   "assistsShort": "A",
   "bootstrap": {
@@ -119,7 +121,8 @@
     "toClub": "to {team}",
     "welcome": "Welcome",
     "legalFiller1": "This contract is legally binding and subject to the laws and regulations of the specified football association. The player acknowledges that performance-based incentives are discretionary unless explicitly stated.",
-    "legalFiller2": "Confidentiality clauses apply to all financial terms and internal club matters. Any breach may result in immediate termination without compensation."
+    "legalFiller2": "Confidentiality clauses apply to all financial terms and internal club matters. Any breach may result in immediate termination without compensation.",
+    "choosingTeam": "Choosing team..."
   },
   "cleanSheetsShort": "CS",
   "clubsCount": "{n} clubs",
@@ -342,12 +345,15 @@
     "relegation": "Relegation",
     "qualification": "Qualification",
     "friendly": "Friendly",
-    "round64": "Round of 64",
-    "round32": "Round of 32",
-    "round16": "Round of 16",
     "quarterFinal": "Quarter-Final",
     "semiFinal": "Semi-Final",
-    "final": "Final"
+    "final": "Final",
+    "deleting": "Deleting…",
+    "draw": "Draw",
+    "loss": "Loss",
+    "result": "Result",
+    "showMore": "Show more",
+    "win": "Win"
   },
   "continents": {
     "Africa": "Africa",
@@ -476,12 +482,27 @@
       "passes": "Passes",
       "shots": "Shots",
       "tackles": "Tackles",
-      "dribbles": "Dribbles"
+      "dribbles": "Dribbles",
+      "benchedNoEntry": "Benched — did not enter the match",
+      "cameOnAt": "Came on at {minute}'",
+      "injured": "Injured",
+      "subbedOffAt": "Subbed off at {minute}'",
+      "suspended": "Suspended",
+      "timeline": "Timeline",
+      "weekLabel": "Week {week}"
     },
     "endSeason": "End Season",
     "trainingPhase": "Training & Development Phase",
     "waitingProContract": "Waiting for Pro Contract",
-    "endSeasonToProgress": "Simulate to the end of the season to receive contract offers and turn pro."
+    "endSeasonToProgress": "Simulate to the end of the season to receive contract offers and turn pro.",
+    "advanceBenched": "Benched",
+    "advanceInjured": "Injured",
+    "advanceNotSelected": "Not selected",
+    "advanceSuspended": "Suspended",
+    "advanceTired": "Tired ({fitness}%)",
+    "club": "Current Club",
+    "fitness": "Fitness",
+    "winner": "Winner"
   },
   "goalsShort": "G",
   "journey": {
@@ -1248,7 +1269,12 @@
     "reviewingTactics": "Tactics...",
     "runningDrills": "Training...",
     "scoutingTalents": "Scouting...",
-    "title": "Simulating..."
+    "title": "Simulating...",
+    "matchesSimulated": "{count} matches simulated",
+    "recentResults": "Recent Results",
+    "seasonTitle": "Simulating Season",
+    "stopping": "Stopping…",
+    "weekProgress": "Week {week} · {done}/{total}"
   },
   "statusModal": {
     "approvalDescription": "Board and fan perception.",
@@ -1501,7 +1527,8 @@
     "totalPoints": "Total Points",
     "noVotingResults": "No voting results available",
     "rating": "Rating",
-    "recentMatches": "Recent Matches"
+    "recentMatches": "Recent Matches",
+    "achievements": "Achievements"
   },
   "rankings": {
     "title": "Global",
@@ -1550,7 +1577,16 @@
     "cupWinners": "Cup Winners",
     "matchResults": "Match Results",
     "vs": "vs",
-    "leaguePhase": "League Phase"
+    "leaguePhase": "League Phase",
+    "bySeason": "By Season",
+    "directQualification": "Direct to R16",
+    "npcRankings": "Top",
+    "playoffSpot": "Playoff",
+    "playoffs": "Playoffs",
+    "results": "Games",
+    "simulateFirst": "Simulate a season to see standings",
+    "teams": "teams",
+    "titleRanking": "Title Ranking"
   },
   "seasonEvents": {
     "title": "Season Events",
@@ -1575,7 +1611,9 @@
     "reasonPerformance": "Performance",
     "reasonAge": "Age Decline",
     "reasonSquad": "Squad Balance",
-    "reasonYouth": "Youth Promise"
+    "reasonYouth": "Youth Promise",
+    "biggestFee": "Biggest Fee",
+    "noTransfers": "No transfers this window"
   },
   "roundResults": {
     "matchday": "Matchday",
@@ -1631,5 +1669,17 @@
   },
   "socialMedia": {
     "seeMore": "See more"
+  },
+  "saveSlots": {
+    "confirmDelete": "Delete Save?",
+    "deleteWarning": "This action cannot be undone. All progress in this slot will be permanently lost.",
+    "migrate": "Migrate Save",
+    "migrationDesc": "An existing save was detected. Tap to migrate it to Slot 1.",
+    "migrationFound": "Old save found"
+  },
+  "status": {
+    "charityActive": "Charity Active",
+    "extraTraining": "Extra Training",
+    "wantsTransfer": "Wants Transfer"
   }
 }

@@ -78,7 +78,9 @@
     "unlockProgress": "解除進行度",
     "unlockDescriptions": {
       "oliverTree": "絶対的なエリートのみ。OVR 90以上、プロ3シーズン以上、代表10キャップ以上、トロフィー2つ以上が必要。"
-    }
+    },
+    "fireAgent": "エージェントを解雇",
+    "yourAgent": "あなたのエージェント"
   },
   "assistsShort": "A",
   "bootstrap": {
@@ -119,7 +121,8 @@
     "toClub": "{team} へ",
     "welcome": "ようこそ",
     "legalFiller1": "この契約は指定されたサッカー協会の法律および規制に準拠し、法的拘束力を持ちます。選手は、明記されていない限り、成果報酬が裁量によるものであることに同意します。",
-    "legalFiller2": "すべての金銭的条件およびクラブの内部事項には守秘義務が適用されます。違反した場合、補償なしで即時解雇される可能性があります。"
+    "legalFiller2": "すべての金銭的条件およびクラブの内部事項には守秘義務が適用されます。違反した場合、補償なしで即時解雇される可能性があります。",
+    "choosingTeam": "チームを選択中..."
   },
   "cleanSheetsShort": "無失点",
   "clubsCount": "{n} クラブ",
@@ -295,7 +298,7 @@
       "text": "My Football Career Simで私のサッカーキャリアをチェック！ {team} でプレーし、{age} 歳で総合評価 {ovr} に到達しました。",
       "dialogTitle": "キャリアカードを共有"
     },
-    "pt-BR": "ポルトガル語 (ブラジル)",
+    "pt-BR": "Português (BR)",
     "en": "English",
     "es": "Español",
     "fr": "Français",
@@ -332,7 +335,13 @@
     "friendly": "親善試合",
     "quarterFinal": "準々決勝",
     "semiFinal": "準決勝",
-    "final": "決勝"
+    "final": "決勝",
+    "deleting": "削除中…",
+    "draw": "引き分け",
+    "loss": "敗北",
+    "result": "結果",
+    "showMore": "もっと見る",
+    "win": "勝利"
   },
   "commonExtra": {
     "ageYearsShort": "{age} 歳",
@@ -445,12 +454,27 @@
       "shots": "シュート",
       "tackles": "タックル",
       "dribbles": "ドリブル",
-      "finished": "完了"
+      "finished": "完了",
+      "benchedNoEntry": "ベンチ — 出場なし",
+      "cameOnAt": "{minute}分に投入",
+      "injured": "負傷",
+      "subbedOffAt": "{minute}分に交代",
+      "suspended": "出場停止",
+      "timeline": "タイムライン",
+      "weekLabel": "第{week}節"
     },
     "endSeason": "シーズン終了",
     "trainingPhase": "トレーニングと育成フェーズ",
     "waitingProContract": "プロ契約待ち",
-    "endSeasonToProgress": "シーズンの終わりまでシミュレートしてオファーを受け取り、プロになる。"
+    "endSeasonToProgress": "シーズンの終わりまでシミュレートしてオファーを受け取り、プロになる。",
+    "advanceBenched": "ベンチ",
+    "advanceInjured": "負傷",
+    "advanceNotSelected": "選外",
+    "advanceSuspended": "出場停止",
+    "advanceTired": "疲労 ({fitness}%)",
+    "club": "現在のクラブ",
+    "fitness": "コンディション",
+    "winner": "優勝者"
   },
   "donation": {
     "benefit1": "新機能",
@@ -1167,7 +1191,12 @@
     "reviewingTactics": "戦術を再検討中...",
     "runningDrills": "トレーニング中...",
     "scoutingTalents": "タレントをスカウト中...",
-    "title": "シーズンをシミュレーション中..."
+    "title": "シーズンをシミュレーション中...",
+    "matchesSimulated": "{count}試合をシミュレート済み",
+    "recentResults": "最近の結果",
+    "seasonTitle": "シーズンをシミュレート中",
+    "stopping": "停止中…",
+    "weekProgress": "第{week}週 · {done}/{total}"
   },
   "statusModal": {
     "approvalDescription": "理事会とファンがあなたのパフォーマンスをどう見ているか。",
@@ -1503,7 +1532,8 @@
     "totalPoints": "総ポイント",
     "noVotingResults": "投票結果はありません",
     "rating": "評価",
-    "recentMatches": "最近の試合"
+    "recentMatches": "最近の試合",
+    "achievements": "実績"
   },
   "rankings": {
     "title": "グローバル",
@@ -1552,7 +1582,16 @@
     "vs": "vs",
     "leaguePhase": "リーグフェーズ",
     "seasonFilter": "シーズンフィルター",
-    "currentSeason": "現在のシーズン"
+    "currentSeason": "現在のシーズン",
+    "bySeason": "シーズン別",
+    "directQualification": "ラウンド16へ直接進出",
+    "npcRankings": "トップ",
+    "playoffSpot": "プレーオフ",
+    "playoffs": "プレーオフ",
+    "results": "試合",
+    "simulateFirst": "順位表を見るにはシーズンをシミュレートしてください",
+    "teams": "チーム",
+    "titleRanking": "タイトルランキング"
   },
   "seasonEvents": {
     "title": "シーズンイベント",
@@ -1577,7 +1616,9 @@
     "reasonPerformance": "パフォーマンス",
     "reasonAge": "年齢による衰え",
     "reasonSquad": "スカッド調整",
-    "reasonYouth": "若手の台頭"
+    "reasonYouth": "若手の台頭",
+    "biggestFee": "最高移籍金",
+    "noTransfers": "この移籍期間の移籍はありません"
   },
   "roundResults": {
     "matchday": "節",
@@ -1633,5 +1674,17 @@
     "noStackTrace": "スタックトレースなし",
     "reloadStrategy": "リロード方法",
     "nativeSeasonAdvance": "ネイティブシーズン進行が更新されたセーブデータを返しませんでした"
+  },
+  "saveSlots": {
+    "confirmDelete": "セーブを削除しますか？",
+    "deleteWarning": "この操作は元に戻せません。このスロットの進行状況はすべて失われます。",
+    "migrate": "セーブを移行",
+    "migrationDesc": "既存のセーブが検出されました。タップしてスロット1へ移行します。",
+    "migrationFound": "古いセーブが見つかりました"
+  },
+  "status": {
+    "charityActive": "チャリティー活動中",
+    "extraTraining": "追加トレーニング",
+    "wantsTransfer": "移籍希望"
   }
 }

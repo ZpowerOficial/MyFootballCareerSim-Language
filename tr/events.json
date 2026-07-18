@@ -53,7 +53,9 @@
       "balanced": "Dengeli",
       "contract": "Sözleşmeler",
       "sponsorship": "Sponsorluklar",
-      "transfer": "Transferler"
+      "transfer": "Transferler",
+      "Brand Builder": "Marka Kurucu",
+      "Mastermind": "Stratejist"
     },
     "style": {
       "Adaptable": "Uyarlanabilir",
@@ -80,7 +82,17 @@
       "Reliable": "Güvenilir",
       "Strategic": "Stratejik",
       "Traditional": "Geleneksel",
-      "Visionary": "Vizyoner"
+      "Visionary": "Vizyoner",
+      "Balanced": "Dengeli",
+      "Cautious": "Temkinli",
+      "Connected": "Bağlantılı",
+      "Determined": "Kararlı",
+      "Direct": "Doğrudan",
+      "Eager": "İstekli",
+      "Enthusiastic": "Hevesli",
+      "Hungry": "Açgözlü",
+      "Mastermind": "Stratejist",
+      "Unpredictable": "Öngörülemez"
     }
   },
   "eventNotifications": {
@@ -689,6 +701,11 @@
         "rest": {
           "fan1": "Gerçekten odaklanmış mı? 🤔"
         }
+      },
+      "outburst": {
+        "double_down": {
+          "fan1": "Geri adım atmıyor! 🍿"
+        }
       }
     },
     "relationship": {
@@ -1008,7 +1025,9 @@
         "homeCountry": "🏠 {country} futboluna geri dönüyor! Kariyerine kendi ülkesinde devam etmek için {team} ile anlaştı.",
         "freeReturn": "🏠 EVE ÜCRETSİZ TRANSFER! Güzel bir bölümü kapatarak {team}'e ücretsiz transferle geri dönüyor."
       },
-      "retirementLeague": "✈️ YENİ MACERA! {country}'te {team} ile haftalık €{wage}K karşılığında imzalandı. Şanlı bir kariyeri sona erdirmek için kazançlı bir hamle."
+      "retirementLeague": "✈️ YENİ MACERA! {country}'te {team} ile haftalık €{wage}K karşılığında imzalandı. Şanlı bir kariyeri sona erdirmek için kazançlı bir hamle.",
+      "window_opened": "🪟 {country} {windowType} transfer penceresi açıldı ({weekNumber}. hafta).",
+      "window_closed": "🪟 {country} {windowType} transfer penceresi kapandı ({weekNumber}. hafta)."
     },
     "trophy": {
       "clubWorldCup": "🏆 Kulüp Dünya Turnuvası Kazananları!",
@@ -1126,6 +1145,12 @@
       "choice_big": "Büyük bir bağış yapın",
       "choice_awareness": "Farkındalığı artırmak için platformunuzu kullanın",
       "choice_silent": "Bunun dışında kal"
+    },
+    "careerEndingInjury": {
+      "title": "Kariyeri Bitiren Sakatlık",
+      "description": "Doktorlar bu sakatlığın sizi emekliliğe zorlayabileceğini söylüyor. Emekliliği kabul edebilir veya riskli bir iyileşme deneyebilirsiniz.",
+      "acceptRetirement": "Emekliliği Kabul Et",
+      "attemptRecovery": "İyileşmeyi Dene"
     }
   },
   "contractTermination": {
@@ -1565,8 +1590,8 @@
     },
     "comments": {
       "minutesAgo": "{count} dk önce",
-      "hoursAgo": "XPLACEHOLDERX0 saat önce",
-      "daysAgo": "XPLACEHOLDERX0 gün önce"
+      "hoursAgo": "{count} sa. önce",
+      "daysAgo": "{count} g. önce"
     },
     "seasonComments": {
       "excited": "Yeni sezon için o kadar heyecanlıyım ki! Haydi {team}'e gidelim! 🔥",

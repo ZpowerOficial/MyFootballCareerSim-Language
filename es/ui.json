@@ -78,7 +78,9 @@
     "unlockProgress": "Progreso de desbloqueo",
     "unlockDescriptions": {
       "oliverTree": "Solo la élite absoluta. Requiere 90+ OVR, 3+ temporadas pro, 10+ partidos internacionales y 2+ trofeos."
-    }
+    },
+    "fireAgent": "Despedir Agente",
+    "yourAgent": "Tu Agente"
   },
   "assistsShort": "A",
   "bootstrap": {
@@ -119,7 +121,8 @@
     "toClub": "AL {team}",
     "welcome": "BIENVENIDO",
     "legalFiller1": "Este contrato es legalmente vinculante y está sujeto a las leyes y regulaciones de la asociación de fútbol especificada. El jugador reconoce que los incentivos por rendimiento son discrecionales, salvo que se indiquen explícitamente.",
-    "legalFiller2": "Las cláusulas de confidencialidad se aplican a todos los términos financieros y asuntos internos del club. Cualquier incumplimiento puede resultar en la terminación inmediata sin compensación."
+    "legalFiller2": "Las cláusulas de confidencialidad se aplican a todos los términos financieros y asuntos internos del club. Cualquier incumplimiento puede resultar en la terminación inmediata sin compensación.",
+    "choosingTeam": "Eligiendo equipo..."
   },
   "cleanSheetsShort": "PI",
   "clubsCount": "{n} clubes",
@@ -325,7 +328,32 @@
     "winShort": "V",
     "drawShort": "E",
     "lossShort": "D",
-    "pt": "Português"
+    "pt": "Português",
+    "deleting": "Eliminando…",
+    "draw": "Empate",
+    "loss": "Derrota",
+    "result": "Resultado",
+    "showMore": "Mostrar más",
+    "win": "Victoria",
+    "scheduled": "Programado",
+    "complete": "Completado",
+    "championLabel": "Campeón: ",
+    "seeMore": "Ver más",
+    "player": "Jugador",
+    "instagram": "Instagram",
+    "discord": "Discord",
+    "minAbbreviation": "' Min",
+    "npcNotFound": "NPC no encontrado.",
+    "preSeason": "Pretemporada",
+    "regularSeason": "Temporada regular",
+    "postSeason": "Postemporada",
+    "promotion": "Ascenso",
+    "relegation": "Descenso",
+    "qualification": "Clasificación",
+    "friendly": "Amistoso",
+    "quarterFinal": "Cuartos de final",
+    "semiFinal": "Semifinal",
+    "final": "Final"
   },
   "continents": {
     "Africa": "África",
@@ -455,12 +483,27 @@
       "shots": "Tiros",
       "tackles": "Entradas",
       "dribbles": "Regates",
-      "finished": "Finalizado"
+      "finished": "Finalizado",
+      "benchedNoEntry": "En el banquillo — no entró al partido",
+      "cameOnAt": "Entró al {minute}'",
+      "injured": "Lesionado",
+      "subbedOffAt": "Salió al {minute}'",
+      "suspended": "Suspendido",
+      "timeline": "Línea de tiempo",
+      "weekLabel": "Semana {week}"
     },
     "endSeason": "Finalizar Temporada",
     "trainingPhase": "Fase de Entrenamiento y Desarrollo",
     "waitingProContract": "Esperando Contrato Profesional",
-    "endSeasonToProgress": "Simula hasta el final de la temporada para recibir ofertas y hacerte profesional."
+    "endSeasonToProgress": "Simula hasta el final de la temporada para recibir ofertas y hacerte profesional.",
+    "advanceBenched": "En el banquillo",
+    "advanceInjured": "Lesionado",
+    "advanceNotSelected": "No convocado",
+    "advanceSuspended": "Suspendido",
+    "advanceTired": "Cansado ({fitness}%)",
+    "club": "Club Actual",
+    "fitness": "Estado físico",
+    "winner": "Ganador"
   },
   "goalsShort": "G",
   "journey": {
@@ -1184,7 +1227,9 @@
     "away": "VISITANTE",
     "noMatches": "Aún no se han jugado partidos",
     "matchHistory": "Historial de partidos",
-    "simulating": "Simulando..."
+    "simulating": "Simulando...",
+    "loadingTacticalBuffer": "Cargando buffer táctico...",
+    "minuteByMinute": "Minuto a minuto"
   },
   "shareCard": {
     "assists": "Asistencias",
@@ -1225,7 +1270,12 @@
     "reviewingTactics": "Revisando tácticas...",
     "runningDrills": "Entrenando...",
     "scoutingTalents": "Ojeando talentos...",
-    "title": "Simulando..."
+    "title": "Simulando...",
+    "matchesSimulated": "{count} partidos simulados",
+    "recentResults": "Resultados recientes",
+    "seasonTitle": "Simulando temporada",
+    "stopping": "Deteniendo…",
+    "weekProgress": "Semana {week} · {done}/{total}"
   },
   "statusModal": {
     "approvalDescription": "Cómo te ven la directiva y la afición.",
@@ -1481,7 +1531,8 @@
     "totalPoints": "Puntos Totales",
     "noVotingResults": "No hay resultados de votación disponibles",
     "rating": "Calificación",
-    "recentMatches": "Partidos Recientes"
+    "recentMatches": "Partidos Recientes",
+    "achievements": "Logros"
   },
   "rankings": {
     "title": "Global",
@@ -1530,7 +1581,16 @@
     "cupWinners": "Ganadores de Copa",
     "matchResults": "Resultados",
     "vs": "vs",
-    "leaguePhase": "Fase de Liga"
+    "leaguePhase": "Fase de Liga",
+    "bySeason": "Por Temporada",
+    "directQualification": "Directo a octavos",
+    "npcRankings": "Top",
+    "playoffSpot": "Playoff",
+    "playoffs": "Playoffs",
+    "results": "Partidos",
+    "simulateFirst": "Simula una temporada para ver la clasificación",
+    "teams": "equipos",
+    "titleRanking": "Ranking de Títulos"
   },
   "seasonEvents": {
     "title": "Eventos de la Temporada",
@@ -1555,7 +1615,9 @@
     "reasonPerformance": "Rendimiento",
     "reasonAge": "Declive por Edad",
     "reasonSquad": "Equilibrio de Plantilla",
-    "reasonYouth": "Promesa Juvenil"
+    "reasonYouth": "Promesa Juvenil",
+    "biggestFee": "Mayor ficha",
+    "noTransfers": "Sin traspasos en esta ventana"
   },
   "roundResults": {
     "matchday": "Jornada",
@@ -1605,5 +1667,23 @@
   },
   "socialMedia": {
     "seeMore": "Ver más"
+  },
+  "saveSlots": {
+    "confirmDelete": "¿Eliminar partida?",
+    "deleteWarning": "Esta acción no se puede deshacer. Todo el progreso de esta ranura se perderá permanentemente.",
+    "migrate": "Migrar partida",
+    "migrationDesc": "Se detectó una partida existente. Toca para migrarla a la Ranura 1.",
+    "migrationFound": "Partida antigua encontrada"
+  },
+  "status": {
+    "charityActive": "Caridad activa",
+    "extraTraining": "Entrenamiento extra",
+    "wantsTransfer": "Quiere traspaso"
+  },
+  "errors": {
+    "criticalRenderError": "Error crítico de renderizado de React",
+    "noStackTrace": "No hay stack trace disponible",
+    "reloadStrategy": "Estrategia de recarga",
+    "nativeSeasonAdvance": "El avance de temporada nativo no devolvió datos de guardado actualizados"
   }
 }

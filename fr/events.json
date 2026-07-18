@@ -53,7 +53,9 @@
       "balanced": "Équilibré",
       "contract": "Contrats",
       "sponsorship": "Parrainages",
-      "transfer": "Transferts"
+      "transfer": "Transferts",
+      "Brand Builder": "Bâtisseur de marque",
+      "Mastermind": "Stratège"
     },
     "style": {
       "Adaptable": "Adaptable",
@@ -80,7 +82,17 @@
       "Reliable": "Fiable",
       "Strategic": "Stratégique",
       "Traditional": "Traditionnel",
-      "Visionary": "Visionnaire"
+      "Visionary": "Visionnaire",
+      "Balanced": "Équilibré",
+      "Cautious": "Prudent",
+      "Connected": "Bien connecté",
+      "Determined": "Déterminé",
+      "Direct": "Direct",
+      "Eager": "Enthousiaste",
+      "Enthusiastic": "Enthousiaste",
+      "Hungry": "Affamé de succès",
+      "Mastermind": "Stratège",
+      "Unpredictable": "Imprévisible"
     }
   },
   "eventNotifications": {
@@ -702,6 +714,11 @@
         "rest": {
           "fan1": "Est-il vraiment concentré ? 🤔"
         }
+      },
+      "outburst": {
+        "double_down": {
+          "fan1": "Il ne recule pas ! 🍿"
+        }
       }
     },
     "relationship": {
@@ -1025,7 +1042,9 @@
         "homeCountry": "🏠Retour au football {country} ! Signé avec {team} pour poursuivre sa carrière dans son pays d'origine.",
         "freeReturn": "🏠 TRANSFERT GRATUIT À LA MAISON ! Revient à {team} via un transfert gratuit, clôturant un beau chapitre."
       },
-      "retirementLeague": "✈️ NOUVELLE AVENTURE ! Signé avec {team} dans {country} pour €{wage}K/semaine. Une décision lucrative pour mettre un terme à une illustre carrière."
+      "retirementLeague": "✈️ NOUVELLE AVENTURE ! Signé avec {team} dans {country} pour €{wage}K/semaine. Une décision lucrative pour mettre un terme à une illustre carrière.",
+      "window_opened": "🪟 Marché des transferts {windowType} ouvert en {country} (semaine {weekNumber}).",
+      "window_closed": "🪟 Marché des transferts {windowType} fermé en {country} (semaine {weekNumber})."
     },
     "trophy": {
       "clubWorldCup": "🏆 Gagnants du tournoi mondial des clubs !",
@@ -1143,6 +1162,12 @@
       "choice_big": "Faites un don majeur",
       "choice_awareness": "Utilisez votre plateforme pour sensibiliser",
       "choice_silent": "Reste en dehors de ça"
+    },
+    "careerEndingInjury": {
+      "title": "Blessure de fin de carrière",
+      "description": "Les médecins indiquent que cette blessure pourrait forcer votre retraite. Vous pouvez accepter de prendre votre retraite ou tenter une récupération risquée.",
+      "acceptRetirement": "Accepter la retraite",
+      "attemptRecovery": "Tenter la récupération"
     }
   },
   "contractTermination": {

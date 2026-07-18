@@ -53,7 +53,9 @@
       "balanced": "Equilibrado",
       "contract": "Contratos",
       "sponsorship": "Patrocinios",
-      "transfer": "Traspasos"
+      "transfer": "Traspasos",
+      "Brand Builder": "Constructor de marca",
+      "Mastermind": "Estratega"
     },
     "style": {
       "Adaptable": "Adaptable",
@@ -80,7 +82,17 @@
       "Reliable": "Confiable",
       "Strategic": "Estratégico",
       "Traditional": "Tradicional",
-      "Visionary": "Visionario"
+      "Visionary": "Visionario",
+      "Balanced": "Equilibrado",
+      "Cautious": "Cauteloso",
+      "Connected": "Bien conectado",
+      "Determined": "Determinado",
+      "Direct": "Directo",
+      "Eager": "Entusiasta",
+      "Enthusiastic": "Entusiasta",
+      "Hungry": "Ambicioso",
+      "Mastermind": "Estratega",
+      "Unpredictable": "Impredecible"
     }
   },
   "eventNotifications": {
@@ -290,9 +302,9 @@
     "injury": {
       "careerEnding": "Sufrió una trágica lesión que puso fin a su carrera.",
       "description": "Sufriste una lesión",
-      "minor": "Menor XPLACHOLDERX0X",
+      "minor": "Menor {type}",
       "missedSeason": "Se perdió gran parte de la temporada por lesión.",
-      "moderate": "Moderado XPLACHOLDERX0X",
+      "moderate": "Moderado {type}",
       "recovery": "Recuperación",
       "setback": "Sufrió un revés en la recuperación: ausencia prolongada.",
       "severe": "Sufrió un {type} grave: estuvo inactivo durante {duration} meses.",
@@ -759,6 +771,11 @@
         "rest": {
           "fan1": "¿Está realmente concentrado? 🤔"
         }
+      },
+      "outburst": {
+        "double_down": {
+          "fan1": "¡No da marcha atrás! 🍿"
+        }
       }
     },
     "relationship": {
@@ -1078,7 +1095,9 @@
         "homeCountry": "🏠 ¡Vuelve al fútbol {country}! Firmó con {team} para continuar su carrera en su país de origen.",
         "freeReturn": "🏠¡TRASLADO GRATIS A DOMICILIO! Regresa a {team} en una transferencia gratuita, cerrando un hermoso capítulo."
       },
-      "retirementLeague": "✈️ ¡NUEVA AVENTURA! Firmado con {team} en {country} por €{wage}K/semana. Un movimiento lucrativo para poner fin a una carrera ilustre."
+      "retirementLeague": "✈️ ¡NUEVA AVENTURA! Firmado con {team} en {country} por €{wage}K/semana. Un movimiento lucrativo para poner fin a una carrera ilustre.",
+      "window_opened": "🪟 Ventana de fichajes {windowType} abierta en {country} (semana {weekNumber}).",
+      "window_closed": "🪟 Ventana de fichajes {windowType} cerrada en {country} (semana {weekNumber})."
     },
     "trophy": {
       "clubWorldCup": "🏆 ¡Ganadores del Torneo Mundial de Clubes!",
@@ -1126,6 +1145,12 @@
     "wcQualification": {
       "description": "Tu selección nacional está compitiendo por el Torneo Mundial",
       "title": "Clasificatorios del Torneo Mundial"
+    },
+    "careerEndingInjury": {
+      "title": "Lesión que termina la carrera",
+      "description": "Los médicos dicen que esta lesión podría obligarte a retirarte. Puedes aceptar la retirada o intentar una recuperación arriesgada.",
+      "acceptRetirement": "Aceptar retirada",
+      "attemptRecovery": "Intentar recuperación"
     }
   },
   "contractTermination": {

@@ -78,7 +78,9 @@
     "unlockProgress": "Açılma İlerlemesi",
     "unlockDescriptions": {
       "oliverTree": "Yalnızca mutlak elit. 90+ OVR, 3+ profesyonel sezon, 10+ milli maç ve 2+ kupa gerektirir."
-    }
+    },
+    "fireAgent": "Menajeri Kov",
+    "yourAgent": "Menajerin"
   },
   "assistsShort": "A",
   "bootstrap": {
@@ -119,7 +121,8 @@
     "toClub": "{team} İLE",
     "welcome": "HOŞ GELDİN",
     "legalFiller1": "Bu sözleşme yasal olarak bağlayıcıdır ve belirtilen futbol federasyonu yasalarına tabidir. Oyuncu, performansa dayalı teşviklerin aksi belirtilmedikçe isteğe bağlı olduğunu kabul eder.",
-    "legalFiller2": "Gizlilik maddeleri tüm finansal şartlar ve kulüp içi konular için geçerlidir. Herhangi bir ihlal, tazminatsız derhal fesih ile sonuçlanabilir."
+    "legalFiller2": "Gizlilik maddeleri tüm finansal şartlar ve kulüp içi konular için geçerlidir. Herhangi bir ihlal, tazminatsız derhal fesih ile sonuçlanabilir.",
+    "choosingTeam": "Takım seçiliyor..."
   },
   "cleanSheetsShort": "CS",
   "clubsCount": "{n} kulüp",
@@ -299,7 +302,7 @@
     "en": "English",
     "es": "Español",
     "fr": "Français",
-    "id": "Endonezce",
+    "id": "Bahasa Indonesia",
     "ja": "日本語",
     "ko": "한국어",
     "ru": "Русский",
@@ -313,7 +316,32 @@
     "winShort": "G",
     "drawShort": "B",
     "lossShort": "M",
-    "pt": "Português"
+    "pt": "Português",
+    "deleting": "Siliniyor…",
+    "draw": "Beraberlik",
+    "loss": "Mağlubiyet",
+    "result": "Sonuç",
+    "showMore": "Daha fazla",
+    "win": "Galibiyet",
+    "scheduled": "Planlandı",
+    "complete": "Tamamlandı",
+    "championLabel": "Şampiyon: ",
+    "seeMore": "Daha fazla",
+    "player": "Oyuncu",
+    "instagram": "Instagram",
+    "discord": "Discord",
+    "minAbbreviation": "' Dk",
+    "npcNotFound": "NPC bulunamadı.",
+    "preSeason": "Sezon öncesi",
+    "regularSeason": "Normal sezon",
+    "postSeason": "Sezon sonrası",
+    "promotion": "Yükselme",
+    "relegation": "Düşme",
+    "qualification": "Eleme",
+    "friendly": "Hazırlık",
+    "quarterFinal": "Çeyrek final",
+    "semiFinal": "Yarı final",
+    "final": "Final"
   },
   "commonExtra": {
     "ageYearsShort": "{age} yaşında",
@@ -426,12 +454,27 @@
       "shots": "Şutlar",
       "tackles": "Müdahaleler",
       "dribbles": "Çalımlar",
-      "finished": "Tamamlandı"
+      "finished": "Tamamlandı",
+      "benchedNoEntry": "Yedek — maça girmedi",
+      "cameOnAt": "{minute}. dakikada girdi",
+      "injured": "Sakat",
+      "subbedOffAt": "{minute}. dakikada çıktı",
+      "suspended": "Cezalı",
+      "timeline": "Zaman çizelgesi",
+      "weekLabel": "{week}. hafta"
     },
     "endSeason": "Sezonu Bitir",
     "trainingPhase": "Antrenman ve Gelişim Aşaması",
     "waitingProContract": "Profesyonel Sözleşme Bekliyor",
-    "endSeasonToProgress": "Sözleşme teklifleri almak ve profesyonel olmak için sezon sonuna kadar simüle et."
+    "endSeasonToProgress": "Sözleşme teklifleri almak ve profesyonel olmak için sezon sonuna kadar simüle et.",
+    "advanceBenched": "Yedek",
+    "advanceInjured": "Sakat",
+    "advanceNotSelected": "Kadroda değil",
+    "advanceSuspended": "Cezalı",
+    "advanceTired": "Yorgun ({fitness}%)",
+    "club": "Mevcut Kulüp",
+    "fitness": "Form",
+    "winner": "Kazanan"
   },
   "donation": {
     "benefit1": "Yeni özellikler",
@@ -1107,7 +1150,9 @@
     "away": "DEPLASMAN",
     "noMatches": "Henüz maç oynanmadı",
     "matchHistory": "Maç geçmişi",
-    "simulating": "Simüle ediliyor..."
+    "simulating": "Simüle ediliyor...",
+    "loadingTacticalBuffer": "Taktik arabelleği yükleniyor...",
+    "minuteByMinute": "Dakika dakika"
   },
   "shareCard": {
     "assists": "Asistler",
@@ -1148,7 +1193,12 @@
     "reviewingTactics": "Taktikler gözden geçiriliyor...",
     "runningDrills": "Antrenman yapılıyor...",
     "scoutingTalents": "Yeni yetenekler izleniyor...",
-    "title": "Sezon Simüle Ediliyor..."
+    "title": "Sezon Simüle Ediliyor...",
+    "matchesSimulated": "{count} maç simüle edildi",
+    "recentResults": "Son Sonuçlar",
+    "seasonTitle": "Sezon Simüle Ediliyor",
+    "stopping": "Durduruluyor…",
+    "weekProgress": "{week}. hafta · {done}/{total}"
   },
   "statusModal": {
     "approvalDescription": "Yönetim ve taraftarların performansına bakışı.",
@@ -1485,7 +1535,8 @@
     "totalPoints": "Toplam Puan",
     "noVotingResults": "Oylama sonucu bulunmuyor",
     "rating": "Puan",
-    "recentMatches": "Son Maçlar"
+    "recentMatches": "Son Maçlar",
+    "achievements": "Başarımlar"
   },
   "rankings": {
     "title": "Global",
@@ -1534,7 +1585,16 @@
     "vs": "vs",
     "leaguePhase": "Lig Aşaması",
     "seasonFilter": "Sezon Filtresi",
-    "currentSeason": "Mevcut Sezon"
+    "currentSeason": "Mevcut Sezon",
+    "bySeason": "Sezona göre",
+    "directQualification": "Doğrudan son 16",
+    "npcRankings": "Üst",
+    "playoffSpot": "Play-off",
+    "playoffs": "Play-offlar",
+    "results": "Maçlar",
+    "simulateFirst": "Puan durumunu görmek için bir sezon simüle edin",
+    "teams": "takım",
+    "titleRanking": "Unvan Sıralaması"
   },
   "seasonEvents": {
     "title": "Sezon Olayları",
@@ -1559,7 +1619,9 @@
     "reasonPerformance": "Performans",
     "reasonAge": "Yaş Düşüşü",
     "reasonSquad": "Kadro Dengesi",
-    "reasonYouth": "Genç Yetenek"
+    "reasonYouth": "Genç Yetenek",
+    "biggestFee": "En yüksek bonservis",
+    "noTransfers": "Bu pencerede transfer yok"
   },
   "roundResults": {
     "matchday": "Hafta",
@@ -1609,5 +1671,23 @@
   },
   "socialMedia": {
     "seeMore": "Daha fazla göster"
+  },
+  "saveSlots": {
+    "confirmDelete": "Kayıt silinsin mi?",
+    "deleteWarning": "Bu işlem geri alınamaz. Bu yuvadaki tüm ilerleme kalıcı olarak silinir.",
+    "migrate": "Kaydı Taşı",
+    "migrationDesc": "Mevcut bir kayıt algılandı. Yuva 1'e taşımak için dokunun.",
+    "migrationFound": "Eski kayıt bulundu"
+  },
+  "status": {
+    "charityActive": "Hayır işi aktif",
+    "extraTraining": "Ekstra antrenman",
+    "wantsTransfer": "Transfer istiyor"
+  },
+  "errors": {
+    "criticalRenderError": "Kritik React render hatası",
+    "noStackTrace": "Yığın izi yok",
+    "reloadStrategy": "Yeniden yükleme stratejisi",
+    "nativeSeasonAdvance": "Yerel sezon ilerlemesi güncel kayıt verisi döndürmedi"
   }
 }

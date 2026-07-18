@@ -78,7 +78,9 @@
     "unlockProgress": "Прогресс разблокировки",
     "unlockDescriptions": {
       "oliverTree": "Только для абсолютной элиты. Требуется 90+ ОВР, 3+ профессиональных сезона, 10+ международных матчей и 2+ трофея."
-    }
+    },
+    "fireAgent": "Уволить агента",
+    "yourAgent": "Ваш агент"
   },
   "assistsShort": "А",
   "bootstrap": {
@@ -119,7 +121,8 @@
     "toClub": "В {team}",
     "welcome": "ДОБРО ПОЖАЛОВАТЬ",
     "legalFiller1": "Этот контракт имеет юридическую силу и регулируется законами указанной футбольной ассоциации. Игрок признаёт, что бонусы за выступление являются дискреционными, если не указано иное.",
-    "legalFiller2": "Положения о конфиденциальности распространяются на все финансовые условия и внутренние дела клуба. Нарушение может привести к немедленному расторжению без компенсации."
+    "legalFiller2": "Положения о конфиденциальности распространяются на все финансовые условия и внутренние дела клуба. Нарушение может привести к немедленному расторжению без компенсации.",
+    "choosingTeam": "Выбор команды..."
   },
   "cleanSheetsShort": "СМ",
   "clubsCount": "{n} клубов",
@@ -313,7 +316,32 @@
     "winShort": "В",
     "drawShort": "Н",
     "lossShort": "П",
-    "pt": "Português"
+    "pt": "Português",
+    "deleting": "Удаление…",
+    "draw": "Ничья",
+    "loss": "Поражение",
+    "result": "Результат",
+    "showMore": "Показать ещё",
+    "win": "Победа",
+    "scheduled": "Запланировано",
+    "complete": "Завершено",
+    "championLabel": "Чемпион: ",
+    "seeMore": "Ещё",
+    "player": "Игрок",
+    "instagram": "Instagram",
+    "discord": "Discord",
+    "minAbbreviation": "' мин",
+    "npcNotFound": "NPC не найден.",
+    "preSeason": "Предсезонка",
+    "regularSeason": "Регулярный сезон",
+    "postSeason": "Постсезон",
+    "promotion": "Повышение",
+    "relegation": "Вылет",
+    "qualification": "Квалификация",
+    "friendly": "Товарищеский",
+    "quarterFinal": "1/4 финала",
+    "semiFinal": "1/2 финала",
+    "final": "Финал"
   },
   "commonExtra": {
     "ageYearsShort": "{age} лет",
@@ -426,12 +454,27 @@
       "shots": "Удары",
       "tackles": "Отборы",
       "dribbles": "Обводки",
-      "finished": "Завершено"
+      "finished": "Завершено",
+      "benchedNoEntry": "В запасе — не вышел на поле",
+      "cameOnAt": "Вышел на {minute}'",
+      "injured": "Травмирован",
+      "subbedOffAt": "Заменён на {minute}'",
+      "suspended": "Дисквалифицирован",
+      "timeline": "Хронология",
+      "weekLabel": "Неделя {week}"
     },
     "endSeason": "Завершить сезон",
     "trainingPhase": "Этап тренировок и развития",
     "waitingProContract": "Ожидание профессионального контракта",
-    "endSeasonToProgress": "Симулируйте до конца сезона, чтобы получить предложения и стать профи."
+    "endSeasonToProgress": "Симулируйте до конца сезона, чтобы получить предложения и стать профи.",
+    "advanceBenched": "В запасе",
+    "advanceInjured": "Травмирован",
+    "advanceNotSelected": "Не выбран",
+    "advanceSuspended": "Дисквалифицирован",
+    "advanceTired": "Устал ({fitness}%)",
+    "club": "Текущий клуб",
+    "fitness": "Форма",
+    "winner": "Победитель"
   },
   "donation": {
     "benefit1": "Новые функции",
@@ -1105,7 +1148,9 @@
     "away": "В ГОСТЯХ",
     "noMatches": "Матчи еще не сыграны",
     "matchHistory": "История матчей",
-    "simulating": "Симуляция..."
+    "simulating": "Симуляция...",
+    "loadingTacticalBuffer": "Загрузка тактического буфера...",
+    "minuteByMinute": "Минута за минутой"
   },
   "shareCard": {
     "assists": "Голевые передачи",
@@ -1146,7 +1191,12 @@
     "reviewingTactics": "Разбор тактики...",
     "runningDrills": "Проведение тренировок...",
     "scoutingTalents": "Поиск талантов...",
-    "title": "Симуляция сезона..."
+    "title": "Симуляция сезона...",
+    "matchesSimulated": "Сымитировано матчей: {count}",
+    "recentResults": "Недавние результаты",
+    "seasonTitle": "Симуляция сезона",
+    "stopping": "Остановка…",
+    "weekProgress": "Неделя {week} · {done}/{total}"
   },
   "statusModal": {
     "approvalDescription": "Как руководство и болельщики оценивают ваше выступление.",
@@ -1483,7 +1533,8 @@
     "totalPoints": "Всего очков",
     "noVotingResults": "Результаты голосования недоступны",
     "rating": "Рейтинг",
-    "recentMatches": "Последние Матчи"
+    "recentMatches": "Последние Матчи",
+    "achievements": "Достижения"
   },
   "rankings": {
     "title": "Мир",
@@ -1532,7 +1583,16 @@
     "vs": "vs",
     "leaguePhase": "Групповой этап",
     "seasonFilter": "Фильтр сезона",
-    "currentSeason": "Текущий сезон"
+    "currentSeason": "Текущий сезон",
+    "bySeason": "По сезонам",
+    "directQualification": "Напрямую в 1/8",
+    "npcRankings": "Топ",
+    "playoffSpot": "Плей-офф",
+    "playoffs": "Плей-офф",
+    "results": "Матчи",
+    "simulateFirst": "Сымитируйте сезон, чтобы увидеть таблицу",
+    "teams": "команд",
+    "titleRanking": "Рейтинг титулов"
   },
   "seasonEvents": {
     "title": "События Сезона",
@@ -1557,7 +1617,9 @@
     "reasonPerformance": "Результативность",
     "reasonAge": "Возрастной Спад",
     "reasonSquad": "Баланс Состава",
-    "reasonYouth": "Молодой Талант"
+    "reasonYouth": "Молодой Талант",
+    "biggestFee": "Крупнейший трансфер",
+    "noTransfers": "Нет трансферов в это окно"
   },
   "roundResults": {
     "matchday": "Тур",
@@ -1607,5 +1669,23 @@
   },
   "socialMedia": {
     "seeMore": "Показать ещё"
+  },
+  "saveSlots": {
+    "confirmDelete": "Удалить сохранение?",
+    "deleteWarning": "Это действие нельзя отменить. Весь прогресс в этом слоте будет безвозвратно утерян.",
+    "migrate": "Перенести сохранение",
+    "migrationDesc": "Обнаружено существующее сохранение. Нажмите, чтобы перенести его в слот 1.",
+    "migrationFound": "Найдено старое сохранение"
+  },
+  "status": {
+    "charityActive": "Благотворительность",
+    "extraTraining": "Доп. тренировки",
+    "wantsTransfer": "Хочет трансфер"
+  },
+  "errors": {
+    "criticalRenderError": "Критическая ошибка рендера React",
+    "noStackTrace": "Стек вызовов недоступен",
+    "reloadStrategy": "Стратегия перезагрузки",
+    "nativeSeasonAdvance": "Нативное продвижение сезона не вернуло обновлённые данные сохранения"
   }
 }

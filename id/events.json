@@ -53,7 +53,9 @@
       "balanced": "Seimbang",
       "contract": "Kontrak",
       "sponsorship": "Sponsor",
-      "transfer": "Transfer"
+      "transfer": "Transfer",
+      "Brand Builder": "Pembangun Merek",
+      "Mastermind": "Strategis"
     },
     "style": {
       "Adaptable": "Dapat beradaptasi",
@@ -80,7 +82,17 @@
       "Reliable": "Dapat diandalkan",
       "Strategic": "Strategis",
       "Traditional": "Tradisional",
-      "Visionary": "Visioner"
+      "Visionary": "Visioner",
+      "Balanced": "Seimbang",
+      "Cautious": "Hati-hati",
+      "Connected": "Berjejaring",
+      "Determined": "Tekun",
+      "Direct": "Langsung",
+      "Eager": "Antusias",
+      "Enthusiastic": "Antusias",
+      "Hungry": "Ambisius",
+      "Mastermind": "Strategis",
+      "Unpredictable": "Tidak terduga"
     }
   },
   "eventNotifications": {
@@ -689,6 +701,11 @@
         "rest": {
           "fan1": "Apakah dia benar-benar fokus? 🤔"
         }
+      },
+      "outburst": {
+        "double_down": {
+          "fan1": "Dia tidak mundur! 🍿"
+        }
       }
     },
     "relationship": {
@@ -1027,7 +1044,9 @@
         "homeCountry": "🏠 Kembali ke sepak bola {country}! Ditandatangani dengan {team} untuk melanjutkan karir di negara asal.",
         "freeReturn": "🏠 TRANSFER RUMAH GRATIS! Kembali ke {team} dengan transfer gratis, menutup bab yang indah."
       },
-      "retirementLeague": "✈️ PETUALANGAN BARU! Ditandatangani dengan {team} di {country} seharga €{wage}K/minggu. Sebuah langkah yang menguntungkan untuk mengakhiri karier yang termasyhur."
+      "retirementLeague": "✈️ PETUALANGAN BARU! Ditandatangani dengan {team} di {country} seharga €{wage}K/minggu. Sebuah langkah yang menguntungkan untuk mengakhiri karier yang termasyhur.",
+      "window_opened": "🪟 Jendela transfer {windowType} dibuka di {country} (pekan {weekNumber}).",
+      "window_closed": "🪟 Jendela transfer {windowType} ditutup di {country} (pekan {weekNumber})."
     },
     "trophy": {
       "clubWorldCup": "🏆 Pemenang Turnamen Dunia Antarklub!",
@@ -1145,6 +1164,12 @@
       "choice_big": "Berikan sumbangan besar",
       "choice_awareness": "Gunakan platform Anda untuk meningkatkan kesadaran",
       "choice_silent": "Jangan ikut campur"
+    },
+    "careerEndingInjury": {
+      "title": "Cedera yang Mengakhiri Karier",
+      "description": "Dokter mengatakan cedera ini bisa memaksa Anda pensiun. Anda dapat menerima pensiun atau mencoba pemulihan berisiko.",
+      "acceptRetirement": "Terima Pensiun",
+      "attemptRecovery": "Coba Pulih"
     }
   },
   "contractTermination": {

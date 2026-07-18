@@ -78,7 +78,9 @@
     "unlockProgress": "Progression de déblocage",
     "unlockDescriptions": {
       "oliverTree": "Réservé à l'élite absolue. Nécessite 90+ OVR, 3+ saisons pro, 10+ sélections internationales et 2+ trophées."
-    }
+    },
+    "fireAgent": "Licencier l'agent",
+    "yourAgent": "Votre agent"
   },
   "assistsShort": "PD",
   "bootstrap": {
@@ -119,7 +121,8 @@
     "toClub": "POUR {team}",
     "welcome": "BIENVENUE",
     "legalFiller1": "Ce contrat est juridiquement contraignant et soumis aux lois de l'association de football spécifiée.",
-    "legalFiller2": "Les clauses de confidentialité s'appliquent à toutes les conditions financières et affaires internes du club."
+    "legalFiller2": "Les clauses de confidentialité s'appliquent à toutes les conditions financières et affaires internes du club.",
+    "choosingTeam": "Choix de l'équipe..."
   },
   "cleanSheetsShort": "CS",
   "clubsCount": "{n} clubs",
@@ -335,7 +338,32 @@
     "winShort": "V",
     "drawShort": "N",
     "lossShort": "D",
-    "pt": "Português"
+    "pt": "Português",
+    "deleting": "Suppression…",
+    "draw": "Match nul",
+    "loss": "Défaite",
+    "result": "Résultat",
+    "showMore": "Voir plus",
+    "win": "Victoire",
+    "scheduled": "Programmé",
+    "complete": "Terminé",
+    "championLabel": "Champion : ",
+    "seeMore": "Voir plus",
+    "player": "Joueur",
+    "instagram": "Instagram",
+    "discord": "Discord",
+    "minAbbreviation": "' Min",
+    "npcNotFound": "PNJ introuvable.",
+    "preSeason": "Pré-saison",
+    "regularSeason": "Saison régulière",
+    "postSeason": "Post-saison",
+    "promotion": "Promotion",
+    "relegation": "Relégation",
+    "qualification": "Qualification",
+    "friendly": "Amical",
+    "quarterFinal": "Quart de finale",
+    "semiFinal": "Demi-finale",
+    "final": "Finale"
   },
   "commonExtra": {
     "ageYearsShort": "{age} ans",
@@ -448,12 +476,27 @@
       "shots": "Tirs",
       "tackles": "Tacles",
       "dribbles": "Dribbles",
-      "finished": "Terminé"
+      "finished": "Terminé",
+      "benchedNoEntry": "Remplaçant — n'est pas entré en jeu",
+      "cameOnAt": "Entré à la {minute}'",
+      "injured": "Blessé",
+      "subbedOffAt": "Sorti à la {minute}'",
+      "suspended": "Suspendu",
+      "timeline": "Chronologie",
+      "weekLabel": "Semaine {week}"
     },
     "endSeason": "Fin de Saison",
     "trainingPhase": "Phase d'Entraînement et de Développement",
     "waitingProContract": "En attente de Contrat Pro",
-    "endSeasonToProgress": "Simulez jusqu'à la fin de la saison pour recevoir des offres et passer pro."
+    "endSeasonToProgress": "Simulez jusqu'à la fin de la saison pour recevoir des offres et passer pro.",
+    "advanceBenched": "Remplaçant",
+    "advanceInjured": "Blessé",
+    "advanceNotSelected": "Non sélectionné",
+    "advanceSuspended": "Suspendu",
+    "advanceTired": "Fatigué ({fitness}%)",
+    "club": "Club actuel",
+    "fitness": "Forme",
+    "winner": "Vainqueur"
   },
   "donation": {
     "benefit1": "Nouvelles fonctionnalités",
@@ -1127,7 +1170,9 @@
     "away": "EXTÉRIEUR",
     "noMatches": "Aucun match joué pour le moment",
     "matchHistory": "Historique des matchs",
-    "simulating": "Simulation..."
+    "simulating": "Simulation...",
+    "loadingTacticalBuffer": "Chargement du buffer tactique...",
+    "minuteByMinute": "Minute par minute"
   },
   "shareCard": {
     "assists": "Passes D.",
@@ -1168,7 +1213,12 @@
     "reviewingTactics": "Révision des tactiques...",
     "runningDrills": "Exécution des exercices d'entraînement...",
     "scoutingTalents": "Repérage de nouveaux talents...",
-    "title": "Simulation de la Saison..."
+    "title": "Simulation de la Saison...",
+    "matchesSimulated": "{count} matchs simulés",
+    "recentResults": "Résultats récents",
+    "seasonTitle": "Simulation de la saison",
+    "stopping": "Arrêt…",
+    "weekProgress": "Semaine {week} · {done}/{total}"
   },
   "tutorial": {
     "agent": {
@@ -1532,7 +1582,8 @@
     "totalPoints": "Points Totaux",
     "noVotingResults": "Aucun résultat de vote disponible",
     "rating": "Note",
-    "recentMatches": "Derniers Matchs"
+    "recentMatches": "Derniers Matchs",
+    "achievements": "Succès"
   },
   "rankings": {
     "title": "Mondial",
@@ -1581,7 +1632,16 @@
     "vs": "vs",
     "leaguePhase": "Phase de Ligue",
     "seasonFilter": "Filtre de saison",
-    "currentSeason": "Saison actuelle"
+    "currentSeason": "Saison actuelle",
+    "bySeason": "Par saison",
+    "directQualification": "Direct en 8es",
+    "npcRankings": "Top",
+    "playoffSpot": "Barrages",
+    "playoffs": "Playoffs",
+    "results": "Matchs",
+    "simulateFirst": "Simulez une saison pour voir le classement",
+    "teams": "équipes",
+    "titleRanking": "Classement des titres"
   },
   "seasonEvents": {
     "title": "Événements de Saison",
@@ -1606,7 +1666,9 @@
     "reasonPerformance": "Performance",
     "reasonAge": "Déclin lié à l'âge",
     "reasonSquad": "Équilibre de l'Effectif",
-    "reasonYouth": "Espoir Jeune"
+    "reasonYouth": "Espoir Jeune",
+    "biggestFee": "Plus gros transfert",
+    "noTransfers": "Aucun transfert pendant cette fenêtre"
   },
   "roundResults": {
     "matchday": "Journée",
@@ -1656,5 +1718,23 @@
   },
   "socialMedia": {
     "seeMore": "Voir plus"
+  },
+  "saveSlots": {
+    "confirmDelete": "Supprimer la sauvegarde ?",
+    "deleteWarning": "Cette action est irréversible. Toute la progression de cet emplacement sera perdue définitivement.",
+    "migrate": "Migrer la sauvegarde",
+    "migrationDesc": "Une sauvegarde existante a été détectée. Appuyez pour la migrer vers l'emplacement 1.",
+    "migrationFound": "Ancienne sauvegarde trouvée"
+  },
+  "status": {
+    "charityActive": "Charité active",
+    "extraTraining": "Entraînement supplémentaire",
+    "wantsTransfer": "Veut un transfert"
+  },
+  "errors": {
+    "criticalRenderError": "Erreur critique de rendu React",
+    "noStackTrace": "Aucune stack trace disponible",
+    "reloadStrategy": "Stratégie de rechargement",
+    "nativeSeasonAdvance": "L'avancement de saison natif n'a pas renvoyé de données de sauvegarde mises à jour"
   }
 }

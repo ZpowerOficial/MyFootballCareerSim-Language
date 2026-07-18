@@ -53,7 +53,9 @@
       "balanced": "균형 잡힌",
       "contract": "계약",
       "sponsorship": "후원",
-      "transfer": "환승"
+      "transfer": "환승",
+      "Brand Builder": "브랜드 빌더",
+      "Mastermind": "마스터마인드"
     },
     "style": {
       "Adaptable": "적응할 수 있는",
@@ -80,7 +82,17 @@
       "Reliable": "믿을 수 있는",
       "Strategic": "전략적",
       "Traditional": "전통적인",
-      "Visionary": "공상가"
+      "Visionary": "공상가",
+      "Balanced": "균형",
+      "Cautious": "신중",
+      "Connected": "인맥 넓음",
+      "Determined": "결단력",
+      "Direct": "직설적",
+      "Eager": "열정적",
+      "Enthusiastic": "열정적",
+      "Hungry": "갈망",
+      "Mastermind": "전략가",
+      "Unpredictable": "예측 불가"
     }
   },
   "eventNotifications": {
@@ -689,6 +701,11 @@
         "rest": {
           "fan1": "그 사람 정말 집중하고 있는 걸까? 🤔"
         }
+      },
+      "outburst": {
+        "double_down": {
+          "fan1": "물러서지 않네! 🍿"
+        }
       }
     },
     "relationship": {
@@ -1011,7 +1028,9 @@
         "homeCountry": "🏠 {country} 축구로 돌아왔습니다! 본국에서 경력을 계속하기 위해 {team}와 계약했습니다.",
         "freeReturn": "🏠 집으로 무료 환승! 무료 전송으로 {team}로 돌아가 아름다운 장을 마무리합니다."
       },
-      "retirementLeague": "✈️ 새로운 모험! {country}에서 {team}로 주당 €{wage}K에 서명했습니다. 빛나는 경력을 마무리하기 위한 수익성 있는 움직임입니다."
+      "retirementLeague": "✈️ 새로운 모험! {country}에서 {team}로 주당 €{wage}K에 서명했습니다. 빛나는 경력을 마무리하기 위한 수익성 있는 움직임입니다.",
+      "window_opened": "🪟 {country}에서 {windowType} 이적 시장이 열렸습니다 ({weekNumber}주차).",
+      "window_closed": "🪟 {country}에서 {windowType} 이적 시장이 닫혔습니다 ({weekNumber}주차)."
     },
     "trophy": {
       "clubWorldCup": "🏆 클럽 월드 토너먼트 우승자!",
@@ -1129,6 +1148,12 @@
       "choice_big": "큰 기부를 하세요",
       "choice_awareness": "플랫폼을 사용하여 인지도 제고",
       "choice_silent": "그것에서 벗어나십시오"
+    },
+    "careerEndingInjury": {
+      "title": "커리어 종료 부상",
+      "description": "의사들은 이 부상으로 은퇴해야 할 수 있다고 합니다. 은퇴를 받아들이거나 위험한 회복을 시도할 수 있습니다.",
+      "acceptRetirement": "은퇴 수락",
+      "attemptRecovery": "회복 시도"
     }
   },
   "contractTermination": {

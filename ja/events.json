@@ -702,6 +702,11 @@
         "rest": {
           "fan1": "彼は本当に集中しているのでしょうか？ 🤔"
         }
+      },
+      "outburst": {
+        "double_down": {
+          "fan1": "引かないぞ！🍿"
+        }
       }
     },
     "relationship": {
@@ -918,8 +923,8 @@
       "elitePlaymaking": "👑 {assists} アシストによるエリートのプレイメイク!",
       "excellentGoals": "✨ {goals} ゴールで素晴らしい得点シーズンとなりました!",
       "legendaryGoals": "🔥 伝説のシーズン！ {matches} 試合での {goals} ゴール - 歴史に残る 1 つ!",
-      "longRangeThreat": "⚡ 長距離の脅威！ XPLACEHOLDERX遠くから0Xゴール!",
-      "longShotSpecialist": "🚀 ロングショットのスペシャリスト! XPLACEHOLDERXボックス外から0Xゴール！",
+      "longRangeThreat": "⚡ 長距離の脅威！ 遠距離から{count}ゴール！",
+      "longShotSpecialist": "🚀 ロングショットのスペシャリスト! ボックス外から{count}ゴール！",
       "matchWinner": "💪 試合の勝者！ {count} 決定的なゴール!",
       "outstandingGoals": "🎯 {goals} ゴールで素晴らしいシーズンを過ごしました!",
       "phenomenal": "💫 驚異的！ {goals}G + {assists}A = {total} ゴール貢献 - 伝説的!",
@@ -1141,6 +1146,12 @@
       "choice_big": "多額の寄付をする",
       "choice_awareness": "プラットフォームを使用して意識を高める",
       "choice_silent": "近づかないでください"
+    },
+    "careerEndingInjury": {
+      "title": "キャリアを脅かす怪我",
+      "description": "医師によれば、この怪我で引退を余儀なくされる可能性があります。引退を受け入れるか、リスクのある回復を試みるかを選んでください。",
+      "acceptRetirement": "引退を受け入れる",
+      "attemptRecovery": "回復を試みる"
     }
   },
   "contractTermination": {

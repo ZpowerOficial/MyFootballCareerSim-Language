@@ -145,7 +145,7 @@
     "international": "Internacional",
     "knockoutStage": "Fase eliminatória",
     "laLiga": "Liga Espanhola",
-    "leagueFormat": "{{country}} Liga {{tier}}",
+    "leagueFormat": "{{country}} {{tier}}",
     "libertadores": "Copa dos Campeões Sul-Americanos",
     "ligue1": "Liga Francesa",
     "nationsLeague": "Torneio das Nações",
@@ -164,7 +164,8 @@
     "unknownLeague": "Liga Desconhecida",
     "worldCup": "Torneio Mundial",
     "youthLeagueFormat": "{{country}} Juvenil",
-    "americasderby": "Clássico das Américas"
+    "americasderby": "Clássico das Américas",
+    "unknownCup": "Copa Desconhecida"
   },
   "competitionNames": {
     "African Champions Cup": "Copa Africana dos Campeões",
@@ -945,7 +946,25 @@
     }
   },
   "prepositions": {
-    "default": "em"
+    "Brazil": "do",
+    "Portugal": "de",
+    "Spain": "da",
+    "France": "da",
+    "England": "da",
+    "Germany": "da",
+    "Italy": "da",
+    "Netherlands": "da",
+    "Belgium": "da",
+    "Argentina": "da",
+    "USA": "dos",
+    "UnitedStates": "dos",
+    "Mexico": "do",
+    "Japan": "do",
+    "SouthKorea": "da",
+    "China": "da",
+    "SaudiArabia": "da",
+    "Australia": "da",
+    "default": "de"
   },
   "qualifiers": {
     "eliminated": "Eliminado",

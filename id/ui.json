@@ -78,7 +78,9 @@
     "unlockProgress": "Progres Pembukaan",
     "unlockDescriptions": {
       "oliverTree": "Hanya elit absolut. Membutuhkan 90+ OVR, 3+ musim pro, 10+ caps internasional, dan 2+ trofi."
-    }
+    },
+    "fireAgent": "Pecat Agen",
+    "yourAgent": "Agen Anda"
   },
   "assistsShort": "A",
   "bootstrap": {
@@ -119,7 +121,8 @@
     "toClub": "KE {team}",
     "welcome": "SELAMAT DATANG",
     "legalFiller1": "Kontrak ini mengikat secara hukum dan tunduk pada hukum serta peraturan asosiasi sepak bola yang ditentukan. Pemain mengakui bahwa insentif berbasis performa bersifat diskresioner kecuali dinyatakan secara eksplisit.",
-    "legalFiller2": "Klausul kerahasiaan berlaku untuk semua ketentuan finansial dan urusan internal klub. Setiap pelanggaran dapat mengakibatkan pemutusan segera tanpa kompensasi."
+    "legalFiller2": "Klausul kerahasiaan berlaku untuk semua ketentuan finansial dan urusan internal klub. Setiap pelanggaran dapat mengakibatkan pemutusan segera tanpa kompensasi.",
+    "choosingTeam": "Memilih tim..."
   },
   "cleanSheetsShort": "CS",
   "clubsCount": "{n} klub",
@@ -295,7 +298,7 @@
       "text": "Lihat perjalanan karier sepak bolaku di My Football Career Sim! Aku bermain untuk {team} dan mencapai OVR {ovr} di usia {age}.",
       "dialogTitle": "Bagikan Kartu Karier"
     },
-    "pt-BR": "Portugis (BR)",
+    "pt-BR": "Português (BR)",
     "en": "English",
     "es": "Español",
     "fr": "Français",
@@ -313,7 +316,32 @@
     "winShort": "M",
     "drawShort": "S",
     "lossShort": "K",
-    "pt": "Português"
+    "pt": "Português",
+    "deleting": "Menghapus…",
+    "draw": "Seri",
+    "loss": "Kalah",
+    "result": "Hasil",
+    "showMore": "Tampilkan lebih",
+    "win": "Menang",
+    "scheduled": "Dijadwalkan",
+    "complete": "Selesai",
+    "championLabel": "Juara: ",
+    "seeMore": "Lihat lebih",
+    "player": "Pemain",
+    "instagram": "Instagram",
+    "discord": "Discord",
+    "minAbbreviation": "' Mnt",
+    "npcNotFound": "NPC tidak ditemukan.",
+    "preSeason": "Pra-Musim",
+    "regularSeason": "Musim Reguler",
+    "postSeason": "Pasca-Musim",
+    "promotion": "Promosi",
+    "relegation": "Degradasi",
+    "qualification": "Kualifikasi",
+    "friendly": "Persahabatan",
+    "quarterFinal": "Perempat Final",
+    "semiFinal": "Semifinal",
+    "final": "Final"
   },
   "commonExtra": {
     "ageYearsShort": "{age} tahun",
@@ -426,12 +454,27 @@
       "shots": "Tembakan",
       "tackles": "Tekel",
       "dribbles": "Dribel",
-      "finished": "Selesai"
+      "finished": "Selesai",
+      "benchedNoEntry": "Cadangan — tidak masuk lapangan",
+      "cameOnAt": "Masuk pada menit {minute}",
+      "injured": "Cedera",
+      "subbedOffAt": "Diganti pada menit {minute}",
+      "suspended": "Diskors",
+      "timeline": "Linimasa",
+      "weekLabel": "Pekan {week}"
     },
     "endSeason": "Akhiri Musim",
     "trainingPhase": "Fase Pelatihan & Pengembangan",
     "waitingProContract": "Menunggu Kontrak Profesional",
-    "endSeasonToProgress": "Simulasikan hingga akhir musim untuk menerima tawaran dan menjadi profesional."
+    "endSeasonToProgress": "Simulasikan hingga akhir musim untuk menerima tawaran dan menjadi profesional.",
+    "advanceBenched": "Cadangan",
+    "advanceInjured": "Cedera",
+    "advanceNotSelected": "Tidak dipilih",
+    "advanceSuspended": "Diskors",
+    "advanceTired": "Lelah ({fitness}%)",
+    "club": "Klub Saat Ini",
+    "fitness": "Kebugaran",
+    "winner": "Pemenang"
   },
   "donation": {
     "benefit1": "Fitur baru",
@@ -1105,7 +1148,9 @@
     "away": "TANDANG",
     "noMatches": "Belum ada pertandingan yang dimainkan",
     "matchHistory": "Riwayat pertandingan",
-    "simulating": "Menyimulasikan..."
+    "simulating": "Menyimulasikan...",
+    "loadingTacticalBuffer": "Memuat buffer taktis...",
+    "minuteByMinute": "Menit demi Menit"
   },
   "shareCard": {
     "assists": "Assist",
@@ -1146,7 +1191,12 @@
     "reviewingTactics": "Meninjau taktik...",
     "runningDrills": "Menjalankan latihan...",
     "scoutingTalents": "Mencari talenta baru...",
-    "title": "Mensimulasikan Musim..."
+    "title": "Mensimulasikan Musim...",
+    "matchesSimulated": "{count} pertandingan disimulasikan",
+    "recentResults": "Hasil Terbaru",
+    "seasonTitle": "Mensimulasikan Musim",
+    "stopping": "Menghentikan…",
+    "weekProgress": "Pekan {week} · {done}/{total}"
   },
   "statusModal": {
     "approvalDescription": "Bagaimana dewan dan fans menilai performa Anda.",
@@ -1483,7 +1533,8 @@
     "totalPoints": "Total Poin",
     "noVotingResults": "Tidak ada hasil pemungutan suara yang tersedia",
     "rating": "Penilaian",
-    "recentMatches": "Pertandingan Terakhir"
+    "recentMatches": "Pertandingan Terakhir",
+    "achievements": "Pencapaian"
   },
   "rankings": {
     "title": "Dunia",
@@ -1532,7 +1583,16 @@
     "vs": "lawan",
     "leaguePhase": "Fase Liga",
     "seasonFilter": "Filter Musim",
-    "currentSeason": "Musim Saat Ini"
+    "currentSeason": "Musim Saat Ini",
+    "bySeason": "Per Musim",
+    "directQualification": "Langsung ke 16 besar",
+    "npcRankings": "Top",
+    "playoffSpot": "Playoff",
+    "playoffs": "Playoff",
+    "results": "Pertandingan",
+    "simulateFirst": "Simulasikan satu musim untuk melihat klasemen",
+    "teams": "tim",
+    "titleRanking": "Peringkat Gelar"
   },
   "seasonEvents": {
     "title": "Peristiwa Musim Ini",
@@ -1557,7 +1617,9 @@
     "reasonPerformance": "Performa",
     "reasonAge": "Penurunan Usia",
     "reasonSquad": "Keseimbangan Skuad",
-    "reasonYouth": "Harapan Muda"
+    "reasonYouth": "Harapan Muda",
+    "biggestFee": "Biaya Terbesar",
+    "noTransfers": "Tidak ada transfer di jendela ini"
   },
   "roundResults": {
     "matchday": "Pekan",
@@ -1607,5 +1669,23 @@
   },
   "socialMedia": {
     "seeMore": "Lihat lainnya"
+  },
+  "saveSlots": {
+    "confirmDelete": "Hapus Save?",
+    "deleteWarning": "Tindakan ini tidak dapat dibatalkan. Semua progres di slot ini akan hilang permanen.",
+    "migrate": "Migrasi Save",
+    "migrationDesc": "Save lama terdeteksi. Ketuk untuk memigrasikannya ke Slot 1.",
+    "migrationFound": "Save lama ditemukan"
+  },
+  "status": {
+    "charityActive": "Amal Aktif",
+    "extraTraining": "Latihan Ekstra",
+    "wantsTransfer": "Ingin Transfer"
+  },
+  "errors": {
+    "criticalRenderError": "Error Render React Kritis",
+    "noStackTrace": "Tidak ada stack trace",
+    "reloadStrategy": "Strategi Muat Ulang",
+    "nativeSeasonAdvance": "Kemajuan musim native tidak mengembalikan data save yang diperbarui"
   }
 }

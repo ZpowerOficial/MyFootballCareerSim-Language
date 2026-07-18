@@ -53,7 +53,9 @@
       "balanced": "متوازن",
       "contract": "العقود",
       "sponsorship": "الرعاية",
-      "transfer": "التحويلات"
+      "transfer": "التحويلات",
+      "Brand Builder": "باني العلامة التجارية",
+      "Mastermind": "عقل مدبر"
     },
     "style": {
       "Adaptable": "قابلة للتكيف",
@@ -80,7 +82,17 @@
       "Reliable": "موثوق",
       "Strategic": "استراتيجي",
       "Traditional": "تقليدي",
-      "Visionary": "البصيرة"
+      "Visionary": "البصيرة",
+      "Balanced": "متوازن",
+      "Cautious": "حذر",
+      "Connected": "واسع العلاقات",
+      "Determined": "حازم",
+      "Direct": "مباشر",
+      "Eager": "متحمس",
+      "Enthusiastic": "حماسي",
+      "Hungry": "طموح",
+      "Mastermind": "عقل مدبر",
+      "Unpredictable": "غير متوقع"
     }
   },
   "eventNotifications": {
@@ -689,6 +701,11 @@
         "rest": {
           "fan1": "هل هو مركز حقا؟ 🤔"
         }
+      },
+      "outburst": {
+        "double_down": {
+          "fan1": "لن يتراجع! 🍿"
+        }
       }
     },
     "relationship": {
@@ -1011,7 +1028,9 @@
         "homeCountry": "🏠 العودة إلى كرة القدم {country}! تم التوقيع مع {team} لمواصلة مسيرته المهنية في وطنه.",
         "freeReturn": "🏠 انتقال مجاني إلى المنزل! يعود إلى {team} بعملية نقل مجانية، ويختتم فصلًا جميلاً."
       },
-      "retirementLeague": "✈️ مغامرة جديدة! تم التوقيع مع {team} في {country} مقابل €{wage}K/الأسبوع. خطوة مربحة لإنهاء مهنة لامعة."
+      "retirementLeague": "✈️ مغامرة جديدة! تم التوقيع مع {team} في {country} مقابل €{wage}K/الأسبوع. خطوة مربحة لإنهاء مهنة لامعة.",
+      "window_opened": "🪟 نافذة الانتقالات {windowType} فُتحت في {country} (الأسبوع {weekNumber}).",
+      "window_closed": "🪟 نافذة الانتقالات {windowType} أُغلقت في {country} (الأسبوع {weekNumber})."
     },
     "trophy": {
       "clubWorldCup": "🏆 الفائزون في بطولة العالم للأندية!",
@@ -1129,6 +1148,12 @@
       "choice_big": "تقديم تبرع كبير",
       "choice_awareness": "استخدم منصتك لزيادة الوعي",
       "choice_silent": "البقاء بعيدا عن ذلك"
+    },
+    "careerEndingInjury": {
+      "title": "إصابة تُنهي المسيرة",
+      "description": "يقول الأطباء إن هذه الإصابة قد تجبرك على الاعتزال. يمكنك قبول الاعتزال أو محاولة تعافٍ محفوف بالمخاطر.",
+      "acceptRetirement": "قبول الاعتزال",
+      "attemptRecovery": "محاولة التعافي"
     }
   },
   "contractTermination": {

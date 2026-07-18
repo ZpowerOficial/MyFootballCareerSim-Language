@@ -81,7 +81,7 @@ This means if you set `universal.competitionNames.championsLeague = "UEFA CL"` a
 | `countries` | Country names | `"Brazil": "Brasil do Samba"` |
 | `nationality` | Nationality adjectives | `"brazilian": "Brasileiro"` |
 | `continents` | Continent names | `"southAmerica": "América do Sul"` |
-| `leagues` | League names by country | `"Brazil": "Brasileirão"` |
+| `leagues` | League names by country **and tier** | nested `tier1` / `tier2`, or `"Brazil": "Name {tier}"` |
 | `cups` | Domestic cup names | `"Brazil": "Copa do Brasil"` |
 | `competitionNames` | Competition display names | `"championsLeague": "UEFA Champions League"` |
 | `competition` | Competition-related text | Competition descriptions |
@@ -188,7 +188,18 @@ These will cause validation errors:
 }
 ```
 
-### Example 4: Real League Names
+### Example 4: Real League Names (per tier)
+
+Default in-game format is always **`{Country} {Tier}`** (e.g. `Brasil 1`, `Germany 2`).
+Patches override that when present.
+
+**Priority (highest → lowest):**
+1. `leagues.{Country}.tier{N}` — exact tier (recommended)
+2. `leagues.{Country}.{N}` — numeric tier key
+3. `leagues.{Country}` string:
+   - if it contains `{tier}` or `{{tier}}` → used for **all** tiers
+   - plain string (no tier placeholder) → **tier 1 only** (other tiers keep `Country N`)
+4. Universal format: `{TranslatedCountry} {Tier}`
 
 ```json
 {
@@ -199,12 +210,36 @@ These will cause validation errors:
   },
   "universal": {
     "leagues": {
-      "England": "Premier League",
-      "Spain": "La Liga",
-      "Germany": "Bundesliga",
-      "Italy": "Serie A",
-      "France": "Ligue 1",
-      "Brazil": "Brasileirão Série A"
+      "England": {
+        "tier1": "Premier League",
+        "tier2": "Championship",
+        "tier3": "League One",
+        "tier4": "League Two"
+      },
+      "Spain": {
+        "tier1": "La Liga",
+        "tier2": "La Liga 2"
+      },
+      "Germany": {
+        "tier1": "Bundesliga",
+        "tier2": "2. Bundesliga",
+        "tier3": "3. Liga"
+      },
+      "Italy": {
+        "tier1": "Serie A",
+        "tier2": "Serie B"
+      },
+      "France": {
+        "tier1": "Ligue 1",
+        "tier2": "Ligue 2"
+      },
+      "Brazil": {
+        "tier1": "Brasileirão Série A",
+        "tier2": "Brasileirão Série B",
+        "tier3": "Brasileirão Série C",
+        "tier4": "Brasileirão Série D"
+      },
+      "Portugal": "Primeira Liga {tier}"
     },
     "cups": {
       "England": "FA Cup",

@@ -876,6 +876,11 @@
         "rest": {
           "fan1": "Ele está realmente focado? 🤔"
         }
+      },
+      "outburst": {
+        "double_down": {
+          "fan1": "Ele não está recuando! 🍿"
+        }
       }
     },
     "relationship": {
@@ -1221,6 +1226,12 @@
     "wcQualification": {
       "description": "Sua seleção nacional está competindo pelo Torneio Mundial",
       "title": "Eliminatórias para o Torneio Mundial"
+    },
+    "careerEndingInjury": {
+      "title": "Lesão que Encerra a Carreira",
+      "description": "Os médicos dizem que esta lesão pode forçar sua aposentadoria. Você pode aceitar se aposentar ou tentar uma recuperação arriscada.",
+      "acceptRetirement": "Aceitar Aposentadoria",
+      "attemptRecovery": "Tentar Recuperação"
     }
   },
   "media": {
@@ -1566,7 +1577,7 @@
       "early_injury": "Carreira abreviada",
       "great_injury": "Fim trágico da grandeza",
       "icon": "Ícone de futebol",
-    "journeyman": "Jogador rodado",
+      "journeyman": "Jogador rodado",
       "legend": "Lenda do clube",
       "professional": "Modelo Profissional",
       "star": "Jogador estrela",

@@ -78,7 +78,9 @@
     "unlockProgress": "تقدم الفتح",
     "unlockDescriptions": {
       "oliverTree": "فقط للنخبة المطلقة. يتطلب 90+ OVR، 3+ مواسم محترفة، 10+ مباريات دولية، و 2+ بطولات."
-    }
+    },
+    "fireAgent": "فصل الوكيل",
+    "yourAgent": "وكيلك"
   },
   "assistsShort": "ت",
   "bootstrap": {
@@ -119,7 +121,8 @@
     "toClub": "في {team}",
     "welcome": "أهلاً بك",
     "legalFiller1": "هذا العقد ملزم قانونياً ويخضع لقوانين ولوائح اتحاد كرة القدم المحدد. يقر اللاعب بأن الحوافز القائمة على الأداء تقديرية ما لم ينص على خلاف ذلك.",
-    "legalFiller2": "تطبق بنود السرية على جميع الشروط المالية وشؤون النادي الداخلية. أي خرق قد يؤدي إلى إنهاء فوري دون تعويض."
+    "legalFiller2": "تطبق بنود السرية على جميع الشروط المالية وشؤون النادي الداخلية. أي خرق قد يؤدي إلى إنهاء فوري دون تعويض.",
+    "choosingTeam": "جارٍ اختيار الفريق..."
   },
   "cleanSheetsShort": "نش",
   "clubsCount": "{n} أندية",
@@ -332,7 +335,13 @@
     "friendly": "ودية",
     "quarterFinal": "ربع النهائي",
     "semiFinal": "نصف النهائي",
-    "final": "النهائي"
+    "final": "النهائي",
+    "deleting": "جارٍ الحذف…",
+    "draw": "تعادل",
+    "loss": "خسارة",
+    "result": "النتيجة",
+    "showMore": "عرض المزيد",
+    "win": "فوز"
   },
   "commonExtra": {
     "ageYearsShort": "{age} سنة",
@@ -445,12 +454,27 @@
       "shots": "تسديدات",
       "tackles": "تدخلات",
       "dribbles": "مراوغات",
-      "finished": "مكتمل"
+      "finished": "مكتمل",
+      "benchedNoEntry": "على مقاعد البدلاء — لم يشارك",
+      "cameOnAt": "دخل في الدقيقة {minute}",
+      "injured": "مصاب",
+      "subbedOffAt": "خرج في الدقيقة {minute}",
+      "suspended": "موقوف",
+      "timeline": "الخط الزمني",
+      "weekLabel": "الأسبوع {week}"
     },
     "endSeason": "إنهاء الموسم",
     "trainingPhase": "مرحلة التدريب والتطوير",
     "waitingProContract": "في انتظار عقد احترافي",
-    "endSeasonToProgress": "قم بالمحاكاة حتى نهاية الموسم لتلقي عروض العقود وتصبح محترفًا."
+    "endSeasonToProgress": "قم بالمحاكاة حتى نهاية الموسم لتلقي عروض العقود وتصبح محترفًا.",
+    "advanceBenched": "على مقاعد البدلاء",
+    "advanceInjured": "مصاب",
+    "advanceNotSelected": "غير مختار",
+    "advanceSuspended": "موقوف",
+    "advanceTired": "مرهق ({fitness}%)",
+    "club": "النادي الحالي",
+    "fitness": "اللياقة",
+    "winner": "الفائز"
   },
   "donation": {
     "benefit1": "ميزات جديدة",
@@ -1124,7 +1148,9 @@
     "away": "خارج الأرض",
     "noMatches": "لم تُلعب أي مباريات بعد",
     "matchHistory": "سجل المباريات",
-    "simulating": "جارٍ المحاكاة..."
+    "simulating": "جارٍ المحاكاة...",
+    "loadingTacticalBuffer": "جارٍ تحميل المخزن التكتيكي...",
+    "minuteByMinute": "دقيقة بدقيقة"
   },
   "shareCard": {
     "assists": "التمريرات الحاسمة",
@@ -1165,7 +1191,12 @@
     "reviewingTactics": "مراجعة التكتيكات...",
     "runningDrills": "إجراء تمارين التدريب...",
     "scoutingTalents": "استكشاف المواهب الجديدة...",
-    "title": "محاكاة الموسم..."
+    "title": "محاكاة الموسم...",
+    "matchesSimulated": "تمت محاكاة {count} مباراة",
+    "recentResults": "النتائج الأخيرة",
+    "seasonTitle": "جارٍ محاكاة الموسم",
+    "stopping": "جارٍ الإيقاف…",
+    "weekProgress": "الأسبوع {week} · {done}/{total}"
   },
   "statusModal": {
     "approvalDescription": "كيف يرى مجلس الإدارة والمشجعون أداءك.",
@@ -1502,7 +1533,8 @@
     "totalPoints": "إجمالي النقاط",
     "noVotingResults": "لا توجد نتائج تصويت متاحة",
     "rating": "التقييم",
-    "recentMatches": "المباريات الأخيرة"
+    "recentMatches": "المباريات الأخيرة",
+    "achievements": "الإنجازات"
   },
   "rankings": {
     "title": "العالمي",
@@ -1551,7 +1583,16 @@
     "vs": "ضد",
     "leaguePhase": "مرحلة الدوري",
     "seasonFilter": "فلتر الموسم",
-    "currentSeason": "الموسم الحالي"
+    "currentSeason": "الموسم الحالي",
+    "bySeason": "حسب الموسم",
+    "directQualification": "مباشرة إلى دور الـ16",
+    "npcRankings": "الأعلى",
+    "playoffSpot": "ملحق",
+    "playoffs": "التصفيات",
+    "results": "المباريات",
+    "simulateFirst": "قم بمحاكاة موسم لعرض الترتيب",
+    "teams": "فرق",
+    "titleRanking": "ترتيب الألقاب"
   },
   "seasonEvents": {
     "title": "أحداث الموسم",
@@ -1576,7 +1617,9 @@
     "reasonPerformance": "أداء",
     "reasonAge": "تراجع عمري",
     "reasonSquad": "توازن الفريق",
-    "reasonYouth": "موهبة شابة"
+    "reasonYouth": "موهبة شابة",
+    "biggestFee": "أعلى رسوم",
+    "noTransfers": "لا انتقالات في هذه النافذة"
   },
   "roundResults": {
     "matchday": "الجولة",
@@ -1626,5 +1669,23 @@
   },
   "socialMedia": {
     "seeMore": "عرض المزيد"
+  },
+  "saveSlots": {
+    "confirmDelete": "حذف الحفظ؟",
+    "deleteWarning": "لا يمكن التراجع عن هذا الإجراء. سيتم فقدان كل التقدم في هذه الفتحة نهائيًا.",
+    "migrate": "ترحيل الحفظ",
+    "migrationDesc": "تم اكتشاف حفظ موجود. اضغط لترحيله إلى الفتحة 1.",
+    "migrationFound": "تم العثور على حفظ قديم"
+  },
+  "status": {
+    "charityActive": "عمل خيري نشط",
+    "extraTraining": "تدريب إضافي",
+    "wantsTransfer": "يريد الانتقال"
+  },
+  "errors": {
+    "criticalRenderError": "خطأ حرج في عرض React",
+    "noStackTrace": "لا يوجد تتبع للمكدس",
+    "reloadStrategy": "استراتيجية إعادة التحميل",
+    "nativeSeasonAdvance": "تقدم الموسم الأصلي لم يُرجع بيانات حفظ محدثة"
   }
 }

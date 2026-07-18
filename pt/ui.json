@@ -78,7 +78,9 @@
       "merger": "Sua agência se fundiu com outra firma. Você foi realocado para {name}.",
       "improved": "Melhores perspectivas de carreira com {name} ({style} {specialty})",
       "special": "Circunstâncias especiais"
-    }
+    },
+    "fireAgent": "Dispensar Agente",
+    "yourAgent": "Seu Agente"
   },
   "assistsShort": "A",
   "bootstrap": {
@@ -119,7 +121,8 @@
     "toClub": "para {team}",
     "welcome": "Bem-vindo",
     "legalFiller1": "Este contrato é legalmente vinculativo e sujeito às leis e regulamentos da associação de futebol especificada. O jogador reconhece que incentivos baseados em desempenho são discricionários, a menos que explicitamente declarado.",
-    "legalFiller2": "Cláusulas de confidencialidade aplicam-se a todos os termos financeiros e assuntos internos do clube. Qualquer violação pode resultar em rescisão imediata sem compensação."
+    "legalFiller2": "Cláusulas de confidencialidade aplicam-se a todos os termos financeiros e assuntos internos do clube. Qualquer violação pode resultar em rescisão imediata sem compensação.",
+    "choosingTeam": "Escolhendo time..."
   },
   "cleanSheetsShort": "SG",
   "clubsCount": "{n} clubes",
@@ -344,13 +347,19 @@
     "friendly": "Amistoso",
     "quarterFinal": "Quartas de Final",
     "semiFinal": "Semifinal",
-    "final": "Final"
+    "final": "Final",
+    "deleting": "Excluindo…",
+    "draw": "Empate",
+    "loss": "Derrota",
+    "result": "Resultado",
+    "showMore": "Mostrar mais",
+    "win": "Vitória"
   },
   "continents": {
     "Africa": "África",
     "Asia": "Ásia",
     "Europe": "Europa",
-    "Australia": "Austrália",
+    "Australia": "Oceania",
     "North America": "América do Norte",
     "South America": "América do Sul"
   },
@@ -473,12 +482,27 @@
       "passes": "Passes",
       "shots": "Chutes",
       "tackles": "Desarmes",
-      "dribbles": "Dribles"
+      "dribbles": "Dribles",
+      "benchedNoEntry": "No banco — não entrou em campo",
+      "cameOnAt": "Entrou aos {minute}'",
+      "injured": "Lesionado",
+      "subbedOffAt": "Saiu aos {minute}'",
+      "suspended": "Suspenso",
+      "timeline": "Linha do Tempo",
+      "weekLabel": "Semana {week}"
     },
     "endSeason": "Encerrar Temporada",
     "trainingPhase": "Fase de Treinamento e Evolução",
     "waitingProContract": "Aguardando Contrato Profissional",
-    "endSeasonToProgress": "Simule até o fim da temporada para receber propostas e virar profissional."
+    "endSeasonToProgress": "Simule até o fim da temporada para receber propostas e virar profissional.",
+    "advanceBenched": "No banco",
+    "advanceInjured": "Lesionado",
+    "advanceNotSelected": "Não convocado",
+    "advanceSuspended": "Suspenso",
+    "advanceTired": "Cansado ({fitness}%)",
+    "club": "Clube Atual",
+    "fitness": "Condicionamento",
+    "winner": "Vencedor"
   },
   "goalsShort": "G",
   "journey": {
@@ -1245,7 +1269,12 @@
     "reviewingTactics": "Revisando táticas...",
     "runningDrills": "Executando treinos...",
     "scoutingTalents": "Observando novos talentos...",
-    "title": "Simulando Temporada..."
+    "title": "Simulando Temporada...",
+    "matchesSimulated": "{count} partidas simuladas",
+    "recentResults": "Resultados Recentes",
+    "seasonTitle": "Simulando Temporada",
+    "stopping": "Parando…",
+    "weekProgress": "Semana {week} · {done}/{total}"
   },
   "statusModal": {
     "approvalDescription": "Como a diretoria e torcida veem seu desempenho.",
@@ -1501,7 +1530,8 @@
     "totalPoints": "Pontos Totais",
     "noVotingResults": "Nenhum resultado de votação disponível",
     "rating": "Avaliação",
-    "recentMatches": "Partidas Recentes"
+    "recentMatches": "Partidas Recentes",
+    "achievements": "Conquistas"
   },
   "rankings": {
     "title": "Ranking Mundial",
@@ -1550,7 +1580,16 @@
     "cupWinners": "Vencedores da Copa",
     "matchResults": "Resultados",
     "vs": "vs",
-    "leaguePhase": "Fase de Liga"
+    "leaguePhase": "Fase de Liga",
+    "bySeason": "Por Temporada",
+    "directQualification": "Direto às Oitavas",
+    "npcRankings": "Top",
+    "playoffSpot": "Playoff",
+    "playoffs": "Playoffs",
+    "results": "Jogos",
+    "simulateFirst": "Simule uma temporada para ver a classificação",
+    "teams": "times",
+    "titleRanking": "Ranking de Títulos"
   },
   "seasonEvents": {
     "title": "Eventos da Temporada",
@@ -1575,7 +1614,9 @@
     "reasonPerformance": "Desempenho",
     "reasonAge": "Declínio por Idade",
     "reasonSquad": "Equilíbrio do Elenco",
-    "reasonYouth": "Promessa Jovem"
+    "reasonYouth": "Promessa Jovem",
+    "biggestFee": "Maior Taxa",
+    "noTransfers": "Nenhuma transferência nesta janela"
   },
   "roundResults": {
     "matchday": "Rodada",
@@ -1631,5 +1672,17 @@
   },
   "socialMedia": {
     "seeMore": "Ver mais"
+  },
+  "saveSlots": {
+    "confirmDelete": "Excluir Save?",
+    "deleteWarning": "Esta ação não pode ser desfeita. Todo o progresso deste slot será perdido permanentemente.",
+    "migrate": "Migrar Save",
+    "migrationDesc": "Um save existente foi detectado. Toque para migrá-lo para o Slot 1.",
+    "migrationFound": "Save antigo encontrado"
+  },
+  "status": {
+    "charityActive": "Caridade Ativa",
+    "extraTraining": "Treino Extra",
+    "wantsTransfer": "Quer Transferência"
   }
 }

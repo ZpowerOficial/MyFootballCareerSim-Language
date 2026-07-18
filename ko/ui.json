@@ -78,7 +78,9 @@
     "unlockProgress": "잠금 해제 진행도",
     "unlockDescriptions": {
       "oliverTree": "오직 최상위 엘리트만 가능합니다. 90+ OVR, 3+ 프로 시즌, 10+ 국가대표 출장, 2+ 우승이 필요합니다."
-    }
+    },
+    "fireAgent": "에이전트 해고",
+    "yourAgent": "내 에이전트"
   },
   "assistsShort": "도",
   "bootstrap": {
@@ -119,7 +121,8 @@
     "toClub": "{team} (으)로",
     "welcome": "환영합니다",
     "legalFiller1": "본 계약은 법적 구속력이 있으며 지정된 축구 협회의 법률 및 규정을 따릅니다. 선수는 명시되지 않는 한 성과 기반 인센티브가 재량 사항임을 인정합니다.",
-    "legalFiller2": "모든 재무 조건 및 내부 클럽 문제에는 비밀 유지 조항이 적용됩니다. 이를 위반할 경우 보상 없이 즉시 계약이 해지될 수 있습니다."
+    "legalFiller2": "모든 재무 조건 및 내부 클럽 문제에는 비밀 유지 조항이 적용됩니다. 이를 위반할 경우 보상 없이 즉시 계약이 해지될 수 있습니다.",
+    "choosingTeam": "팀 선택 중..."
   },
   "cleanSheetsShort": "CS",
   "clubsCount": "{n}개 클럽",
@@ -299,7 +302,7 @@
     "en": "English",
     "es": "Español",
     "fr": "Français",
-    "id": "인도네시아어",
+    "id": "Bahasa Indonesia",
     "ja": "日本語",
     "ko": "한국어",
     "ru": "Русский",
@@ -313,7 +316,32 @@
     "winShort": "승",
     "drawShort": "무",
     "lossShort": "패",
-    "pt": "Português"
+    "pt": "Português",
+    "deleting": "삭제 중…",
+    "draw": "무승부",
+    "loss": "패배",
+    "result": "결과",
+    "showMore": "더 보기",
+    "win": "승리",
+    "scheduled": "예정됨",
+    "complete": "완료",
+    "championLabel": "챔피언: ",
+    "seeMore": "더 보기",
+    "player": "선수",
+    "instagram": "Instagram",
+    "discord": "Discord",
+    "minAbbreviation": "' 분",
+    "npcNotFound": "NPC를 찾을 수 없습니다.",
+    "preSeason": "프리시즌",
+    "regularSeason": "정규 시즌",
+    "postSeason": "포스트시즌",
+    "promotion": "승격",
+    "relegation": "강등",
+    "qualification": "예선",
+    "friendly": "친선 경기",
+    "quarterFinal": "8강",
+    "semiFinal": "준결승",
+    "final": "결승"
   },
   "commonExtra": {
     "ageYearsShort": "{age}세",
@@ -426,12 +454,27 @@
       "shots": "슈팅",
       "tackles": "태클",
       "dribbles": "드리블",
-      "finished": "완료"
+      "finished": "완료",
+      "benchedNoEntry": "벤치 — 출전하지 않음",
+      "cameOnAt": "{minute}분에 투입",
+      "injured": "부상",
+      "subbedOffAt": "{minute}분에 교체 아웃",
+      "suspended": "출장 정지",
+      "timeline": "타임라인",
+      "weekLabel": "{week}주차"
     },
     "endSeason": "시즌 종료",
     "trainingPhase": "훈련 및 개발 단계",
     "waitingProContract": "프로 계약 대기 중",
-    "endSeasonToProgress": "시즌 끝까지 시뮬레이션하여 제안을 받고 프로가 되십시오."
+    "endSeasonToProgress": "시즌 끝까지 시뮬레이션하여 제안을 받고 프로가 되십시오.",
+    "advanceBenched": "벤치",
+    "advanceInjured": "부상",
+    "advanceNotSelected": "미선발",
+    "advanceSuspended": "출장 정지",
+    "advanceTired": "피로 ({fitness}%)",
+    "club": "현재 클럽",
+    "fitness": "컨디션",
+    "winner": "우승자"
   },
   "donation": {
     "benefit1": "새로운 기능",
@@ -1105,7 +1148,9 @@
     "away": "원정",
     "noMatches": "아직 진행된 경기가 없습니다",
     "matchHistory": "경기 기록",
-    "simulating": "시뮬레이션 중..."
+    "simulating": "시뮬레이션 중...",
+    "loadingTacticalBuffer": "전술 버퍼 로딩 중...",
+    "minuteByMinute": "분 단위 시뮬레이션"
   },
   "shareCard": {
     "assists": "도움",
@@ -1146,7 +1191,12 @@
     "reviewingTactics": "전술 검토 중...",
     "runningDrills": "훈련 드릴 실행 중...",
     "scoutingTalents": "신재능 스카우팅 중...",
-    "title": "시즌 시뮬레이션 중..."
+    "title": "시즌 시뮬레이션 중...",
+    "matchesSimulated": "{count}경기 시뮬레이션됨",
+    "recentResults": "최근 결과",
+    "seasonTitle": "시즌 시뮬레이션 중",
+    "stopping": "중지 중…",
+    "weekProgress": "{week}주차 · {done}/{total}"
   },
   "statusModal": {
     "approvalDescription": "이사회와 팬들이 당신의 활약을 어떻게 보는지 나타냅니다.",
@@ -1483,7 +1533,8 @@
     "totalPoints": "총 포인트",
     "noVotingResults": "투표 결과가 없습니다",
     "rating": "평점",
-    "recentMatches": "최근 경기"
+    "recentMatches": "최근 경기",
+    "achievements": "업적"
   },
   "rankings": {
     "title": "글로벌",
@@ -1532,7 +1583,16 @@
     "vs": "vs",
     "leaguePhase": "리그 페이즈",
     "seasonFilter": "시즌 필터",
-    "currentSeason": "현재 시즌"
+    "currentSeason": "현재 시즌",
+    "bySeason": "시즌별",
+    "directQualification": "16강 직행",
+    "npcRankings": "상위",
+    "playoffSpot": "플레이오프",
+    "playoffs": "플레이오프",
+    "results": "경기",
+    "simulateFirst": "순위표를 보려면 시즌을 시뮬레이션하세요",
+    "teams": "팀",
+    "titleRanking": "타이틀 순위"
   },
   "seasonEvents": {
     "title": "시즌 이벤트",
@@ -1557,7 +1617,9 @@
     "reasonPerformance": "퍼포먼스",
     "reasonAge": "노화",
     "reasonSquad": "스쿼드 균형",
-    "reasonYouth": "유망주"
+    "reasonYouth": "유망주",
+    "biggestFee": "최고 이적료",
+    "noTransfers": "이번 이적 시장에 이적이 없습니다"
   },
   "roundResults": {
     "matchday": "라운드",
@@ -1607,5 +1669,23 @@
   },
   "socialMedia": {
     "seeMore": "더 보기"
+  },
+  "saveSlots": {
+    "confirmDelete": "세이브를 삭제할까요?",
+    "deleteWarning": "이 작업은 취소할 수 없습니다. 이 슬롯의 모든 진행 상황이 영구적으로 삭제됩니다.",
+    "migrate": "세이브 이전",
+    "migrationDesc": "기존 세이브가 감지되었습니다. 탭하여 슬롯 1로 이전하세요.",
+    "migrationFound": "이전 세이브 발견"
+  },
+  "status": {
+    "charityActive": "자선 활동 중",
+    "extraTraining": "추가 훈련",
+    "wantsTransfer": "이적 희망"
+  },
+  "errors": {
+    "criticalRenderError": "치명적인 React 렌더 오류",
+    "noStackTrace": "스택 트레이스 없음",
+    "reloadStrategy": "다시 로드 전략",
+    "nativeSeasonAdvance": "네이티브 시즌 진행이 업데이트된 세이브 데이터를 반환하지 않았습니다"
   }
 }
