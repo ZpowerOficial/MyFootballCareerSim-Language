@@ -228,7 +228,8 @@
       "noOffer": "{team} yeni bir sözleşme teklif etmedi.",
       "parentExtended": "{team} sözleşmenizi uzattı (Ebeveyn Kulübü).",
       "title": "Sözleşme",
-      "terminated": "{team} ile sözleşme feshedildi."
+      "terminated": "{team} ile sözleşme feshedildi.",
+      "warning": "Sözleşmen yakında bitiyor. Yenilemeye veya yeni kulüp aramaya karar ver."
     },
     "decisionMade": "Alınan Karar",
     "discipline": {
@@ -432,7 +433,11 @@
       },
       "worldCupGroupExit": "Dünya Turnuvası grup aşamasında hayal kırıklığı yaratan eleme. Takım nakavt için hak kazanamadı.",
       "worldCupHatTrick": "Dünya Turnuvasında HAT-TRICK {round} ve {opponent}! {country} için efsanevi performans!",
-      "worldCupCallup": "{country} için Dünya Turnuvası kadrosuna seçildi!"
+      "worldCupCallup": "{country} için Dünya Turnuvası kadrosuna seçildi!",
+      "continentalCallup": "Kıtasal kupa kadrosuna seçildi!",
+      "failedQualification": "Büyük turnuvaya katılım hakkı kaçtı.",
+      "groupStageExit": "Turnuvada grup aşamasında elendi.",
+      "retirement": "{country} formasıyla {caps} maçtan sonra millî takım kariyerini noktaladığını açıkladı."
     },
     "nightclub": {
       "choice_apologize": "Kamuoyundan özür dileriz",
@@ -907,7 +912,11 @@
       "shirtRetired": "{team}, kulüp efsanesi {name} onuruna {number} numaralı formayı emekliye ayırma planlarını duyurdu.",
       "star": "{name} başarılı kariyerinin ardından emekli oluyor. {matches} maçları, {goals}, {clubs} kulüplerinde gol atıyor. Hayallerini gerçekleştiren saygın bir profesyonel.",
       "testimonialMatch": "{team} onları bir referans maçıyla onurlandıracak.",
-      "worldCupChampion": "Sonsuza kadar Dünya Turnuvası şampiyonu olarak hatırlanacak."
+      "worldCupChampion": "Sonsuza kadar Dünya Turnuvası şampiyonu olarak hatırlanacak.",
+      "tooOld": "{age} yaşında zaman yetişti. Uzun bir kariyer doğal olarak sona eriyor.",
+      "tragicEarlyInjury": "Sadece {age} yaşında, kariyeri bitiren sakatlık {name}i çok erken emekliliğe zorluyor. Vaat dolu bir nesil yarım kaldı.",
+      "earlyInjurySupport": "{age} yaşında kariyeri bitiren sakatlığın ardından {name}e destek yağıyor.",
+      "earlyCareerEndingInjury": "Kariyeri bitiren sakatlık {name}in zirve yıllarını {age} yaşında sonlandırdı. Futbol kesilen yeteneğe yas tutuyor."
     },
     "role": {
       "promiseBroken": "Kadro rolü vaadi bozuldu.",
@@ -1027,7 +1036,8 @@
       },
       "retirementLeague": "✈️ YENİ MACERA! {country}'te {team} ile haftalık €{wage}K karşılığında imzalandı. Şanlı bir kariyeri sona erdirmek için kazançlı bir hamle.",
       "window_opened": "🪟 {country} {windowType} transfer penceresi açıldı ({weekNumber}. hafta).",
-      "window_closed": "🪟 {country} {windowType} transfer penceresi kapandı ({weekNumber}. hafta)."
+      "window_closed": "🪟 {country} {windowType} transfer penceresi kapandı ({weekNumber}. hafta).",
+      "completed": "Transfer tamamlandı: {team} ile anlaştı."
     },
     "trophy": {
       "clubWorldCup": "🏆 Kulüp Dünya Turnuvası Kazananları!",
@@ -1151,7 +1161,14 @@
       "description": "Doktorlar bu sakatlığın sizi emekliliğe zorlayabileceğini söylüyor. Emekliliği kabul edebilir veya riskli bir iyileşme deneyebilirsiniz.",
       "acceptRetirement": "Emekliliği Kabul Et",
       "attemptRecovery": "İyileşmeyi Dene"
-    }
+    },
+    "debut": "Profesyonel ilk maç",
+    "youthDebut": "Altyapı ilk maçı",
+    "firstProGoal": "İlk profesyonel gol",
+    "firstProAssist": "İlk profesyonel asist",
+    "firstYouthGoal": "Altyapıda ilk gol",
+    "firstYouthAssist": "Altyapıda ilk asist",
+    "intlDebut": "Millî takım ilk maçı"
   },
   "contractTermination": {
     "alreadyTerminatedDesc": "Bu sezon sözleşmenizi zaten feshettiniz. FIFA düzenlemeleri, aynı kayıt dönemi içinde birden fazla sözleşmenin feshedilmesini engellemektedir.",
@@ -1687,7 +1704,9 @@
       "Prodigy": "Nesil yetenek! Büyüklüğe tanık oluyoruz! 🌟",
       "SystemPlayer": "Sadece sistem yüzünden iyi görünüyor. Abartılmış.",
       "UnderPressure": "Beklentilerin ağırlığı altında eziliyor...",
-      "VeteranLeader": "Sahada gerçek lider. Onun tecrübesine ihtiyacımız var."
+      "VeteranLeader": "Sahada gerçek lider. Onun tecrübesine ihtiyacımız var.",
+      "VeteranStar": "Kariyerinin son döneminde hâlâ yıldız gibi performans! ⭐",
+      "VeteranRotation": "Rotasyonda tecrübeli kafa — hâlâ güvenilir. 🔄"
     },
     "reactions": {
       "assist1": "Harika bir vizyon! 👀",
@@ -1730,7 +1749,7 @@
       },
       "substitution": {
         "0": "Değişiklik: {out} çıktı, {in} girdi",
-        "1": "{in}, {out} yerine oyuna girdi"
+        "1": "{in}, {out} yerine girdi"
       },
       "yellowCard": {
         "0": "{player} için sarı kart",

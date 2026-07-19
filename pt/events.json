@@ -333,7 +333,8 @@
       "newProfessional": "Assinou novo contrato profissional para os anos {years}.",
       "noOffer": "{team} não ofereceu um novo contrato.",
       "parentExtended": "{team} estendeu seu contrato (Clube de origem).",
-      "title": "Contrato"
+      "title": "Contrato",
+      "warning": "Seu contrato está perto do fim. Decida se renova ou busca um novo clube."
     },
     "decisionMade": "Decisão tomada",
     "discipline": {
@@ -607,7 +608,11 @@
       },
       "worldCupGroupExit": "Eliminação decepcionante na fase de grupos do Torneio Mundial. A equipe não conseguiu se classificar para as eliminatórias.",
       "worldCupHatTrick": "HAT-TRICK no Torneio Mundial {round} vs {opponent}! Desempenho lendário para {country}!",
-      "worldCupCallup": "Selecionado para o time do Torneio Mundial para {country}!"
+      "worldCupCallup": "Selecionado para o time do Torneio Mundial para {country}!",
+      "continentalCallup": "Convocado para a seleção no torneio continental!",
+      "failedQualification": "A seleção não se classificou para o grande torneio.",
+      "groupStageExit": "Eliminação na fase de grupos do torneio.",
+      "retirement": "Anunciou a aposentadoria da seleção após {caps} jogos por {country}."
     },
     "nightclub": {
       "choice_apologize": "Pedir desculpas publicamente",
@@ -1058,7 +1063,11 @@
       "shirtRetired": "{team} anuncia planos de aposentar a camisa número {number} em homenagem à lenda do clube {name}.",
       "star": "{name} se aposenta após carreira de sucesso. Partidas {matches}, gols {goals} em clubes {clubs}. Um profissional respeitado que realizou seus sonhos.",
       "testimonialMatch": "{team} fará uma partida de homenagem para eles.",
-      "worldCupChampion": "Será para sempre lembrado como campeão do Torneio Mundial."
+      "worldCupChampion": "Será para sempre lembrado como campeão do Torneio Mundial.",
+      "tooOld": "Aos {age} anos, o tempo chegou. Uma longa carreira chega ao fim natural.",
+      "tragicEarlyInjury": "Com apenas {age} anos, uma lesão encerra a carreira de {name} cedo demais. Uma geração de promessa interrompida.",
+      "earlyInjurySupport": "Onda de apoio a {name} após lesão que encerrou a carreira aos {age} anos.",
+      "earlyCareerEndingInjury": "Uma lesão encerra o auge de {name} aos {age} anos. O futebol lamenta um talento interrompido."
     },
     "role": {
       "promiseBroken": "A promessa de papel no seleção foi quebrada.",
@@ -1178,7 +1187,8 @@
       },
       "retirementLeague": "✈️ NOVA AVENTURA! Assinado com {team} em {country} por €{wage}K/semana. Um movimento lucrativo para encerrar uma carreira ilustre.",
       "window_opened": "🪟 Janela de transferências {windowType} aberta em {country} (semana {weekNumber}).",
-      "window_closed": "🪟 Janela de transferências {windowType} fechada em {country} (semana {weekNumber})."
+      "window_closed": "🪟 Janela de transferências {windowType} fechada em {country} (semana {weekNumber}).",
+      "completed": "Transferência concluída: acertou com {team}."
     },
     "trophy": {
       "clubWorldCup": "🏆 Vencedores do Torneio Mundial de Clubes!",
@@ -1232,7 +1242,14 @@
       "description": "Os médicos dizem que esta lesão pode forçar sua aposentadoria. Você pode aceitar se aposentar ou tentar uma recuperação arriscada.",
       "acceptRetirement": "Aceitar Aposentadoria",
       "attemptRecovery": "Tentar Recuperação"
-    }
+    },
+    "debut": "Estreia Profissional",
+    "youthDebut": "Estreia na Equipe de Base",
+    "firstProGoal": "Primeiro Gol Profissional",
+    "firstProAssist": "Primeira Assistência Profissional",
+    "firstYouthGoal": "Primeiro Gol na Base",
+    "firstYouthAssist": "Primeira Assistência na Base",
+    "intlDebut": "Estreia Internacional"
   },
   "media": {
     "drought": {
@@ -1776,7 +1793,9 @@
       "Prodigy": "Talento geracional! Estamos testemunhando grandeza! 🌟",
       "SystemPlayer": "Só parece bom por causa do sistema. Superestimado.",
       "UnderPressure": "Ele está desmoronando sob o peso das expectativas...",
-      "VeteranLeader": "Verdadeiro líder em campo. Precisamos da experiência dele."
+      "VeteranLeader": "Verdadeiro líder em campo. Precisamos da experiência dele.",
+      "VeteranStar": "Ainda entregando atuações de estrela na reta final da carreira! ⭐",
+      "VeteranRotation": "Cabeça experiente na rotação — ainda confiável. 🔄"
     },
     "reactions": {
       "assist1": "Ótima visão! 👀",

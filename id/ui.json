@@ -876,7 +876,7 @@
       "stopper": "Stopper (Penghenti Serangan)",
       "sweeper": "Sweeper (Penyapu)",
       "sweeperKeeper": "Kiper Penyapu",
-      "targetMan": "Penyerang Target",
+      "targetMan": "Target Man",
       "traditionalKeeper": "Kiper Tradisional",
       "traditionalWinger": "Winger Tradisional",
       "trequartista": "Trequartista (Playmaker Bebas)",
@@ -955,7 +955,7 @@
       "TheEngine": "Mesin Tim",
       "LateBloomer": "Berkembang Terlambat",
       "TechnicalMaestro": "Maestro Teknik",
-      "TargetMan": "Penyerang Target",
+      "TargetMan": "Target Man",
       "Journeyman": "Pemain Pengelana"
     }
   },
@@ -1221,7 +1221,9 @@
   "trophy": "Trofi",
   "clubHistory": "Riwayat Klub",
   "yrs": "Thn",
-  "competition": "Kompetisi",
+  "competition": {
+    "unknownCup": "Piala tidak dikenal"
+  },
   "competitionDetails": "Detail Kompetisi: {country}",
   "noDomesticCup": "Tidak Ada Piala Domestik",
   "noContinental": "Tidak Ada Kompetisi Kontinental",
@@ -1290,27 +1292,27 @@
       },
       "goodPass": {
         "0": "Umpan bagus oleh {player}",
-        "1": "{player} finds a teammate"
+        "1": "{player} menemukan rekan setim"
       },
       "injury": {
-        "0": "{player} seems injured",
-        "1": "{player} goes off injured"
+        "0": "{player} tampak cedera",
+        "1": "{player} diganti karena cedera"
       },
       "redCard": {
         "0": "Kartu merah! {player} diusir!",
-        "1": "{player} is off early"
+        "1": "{player} keluar lebih awal"
       },
       "strayPass": {
-        "0": "{player} misplaced a pass",
+        "0": "{player} salah mengoper",
         "1": "Umpan buruk dari {player}"
       },
       "substitution": {
         "0": "Pergantian: {out} keluar, {in} masuk",
-        "1": "{in} replaces {out}"
+        "1": "{in} menggantikan {out}"
       },
       "yellowCard": {
         "0": "Kartu kuning untuk {player}",
-        "1": "{player} is booked"
+        "1": "{player} mendapat kartu"
       }
     }
   },
@@ -1459,7 +1461,7 @@
     "runnerUp": "Peringkat Kedua",
     "notNominated": "Tidak dinominasikan",
     "nominated": "Dinominasi (30 Besar)",
-    "topN": "Posisi {{position}}",
+    "topN": "Top {{position}}",
     "seasonN": "Musim {{season}}",
     "regionalVotes": "Suara per Wilayah",
     "candidateStats": "Statistik Kandidat",
@@ -1642,12 +1644,12 @@
       "terminated": "Kontrak diakhiri dengan {team}."
     },
     "generated": {
-      "agent_meeting": "🤝 Your agent wants to discuss your future."
+      "agent_meeting": "🤝 Agen Anda ingin membahas masa depan Anda."
     }
   },
   "goals": {
-    "achieved": "🎯 Goal Achieved: {narrative}",
-    "newGoal": "🎯 New Goal Unlocked: {goal}"
+    "achieved": "🎯 Sasaran Tercapai: {narrative}",
+    "newGoal": "🎯 Sasaran Baru Terbuka: {goal}"
   },
   "trophiesSection": {
     "Copa São Paulo de Futebol Júnior": "Piala Pemuda São Paulo",

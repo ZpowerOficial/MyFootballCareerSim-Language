@@ -367,7 +367,7 @@
     "BRONZE": "Bronze",
     "SILVER": "Silver",
     "GOLD": "Gold",
-    "PLATINUM": "[MISSING] Platinum",
+    "PLATINUM": "Platinum",
     "DIAMOND": "Diamond"
   },
   "noSpecialTraits": "No special traits",
@@ -1374,7 +1374,9 @@
   "matchesShort": "Mtchs",
   "trophy": "Trophy",
   "clubHistory": "Club History",
-  "competition": "Competition",
+  "competition": {
+    "unknownCup": "Unknown Cup"
+  },
   "competitionDetails": "Competition Details: {country}",
   "noDomesticCup": "No Domestic Cup",
   "noContinental": "No Continental",

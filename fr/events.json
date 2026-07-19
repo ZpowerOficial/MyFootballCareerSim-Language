@@ -44,7 +44,7 @@
       "Average": "Moyenne",
       "Good": "Bien",
       "Rookie": "Débutant",
-      "Super Agent": "Super-Agent"
+      "Super Agent": "Super agent"
     },
     "specialty": {
       "BrandBuilder": "Créateur de marque",
@@ -228,7 +228,8 @@
       "noOffer": "{team} n'a ​​pas proposé de nouveau contrat.",
       "parentExtended": "{team} a prolongé votre contrat (Club Parent).",
       "title": "Contracter",
-      "terminated": "Contrat résilié avec {team}."
+      "terminated": "Contrat résilié avec {team}.",
+      "warning": "Votre contrat expire bientôt. Décidez de renouveler ou de chercher un nouveau club."
     },
     "decisionMade": "Décision prise",
     "discipline": {
@@ -432,7 +433,11 @@
       },
       "worldCupGroupExit": "Élimination décevante en phase de groupes du Tournoi mondial. L'équipe n'a pas réussi à se qualifier pour les huitièmes de finale.",
       "worldCupHatTrick": "HAT-TRICK dans le tournoi mondial {round} contre {opponent} ! Performances légendaires pour {country} !",
-      "worldCupCallup": "Sélectionné pour l'équipe du tournoi mondial pour {country} !"
+      "worldCupCallup": "Sélectionné pour l'équipe du tournoi mondial pour {country} !",
+      "continentalCallup": "Sélectionné pour la Coupe continentale !",
+      "failedQualification": "Échec de la qualification pour le grand tournoi.",
+      "groupStageExit": "Élimination en phase de groupes.",
+      "retirement": "Annonce sa retraite internationale après {caps} sélections pour {country}."
     },
     "nightclub": {
       "choice_apologize": "S'excuser publiquement",
@@ -924,7 +929,11 @@
       "shirtRetired": "{team} annonce son intention de retirer le maillot numéro {number} en l'honneur de la légende du club {name}.",
       "star": "{name} prend sa retraite après une carrière réussie. Matchs {matches}, buts {goals} dans les clubs {clubs}. Un professionnel respecté qui a réalisé ses rêves.",
       "testimonialMatch": "{team} leur rendra hommage avec un match de témoignage.",
-      "worldCupChampion": "Il restera à jamais dans les mémoires comme un champion du tournoi mondial."
+      "worldCupChampion": "Il restera à jamais dans les mémoires comme un champion du tournoi mondial.",
+      "tooOld": "À {age} ans, le temps a fait son œuvre. Une longue carrière s'achève naturellement.",
+      "tragicEarlyInjury": "À seulement {age} ans, une blessure force {name} à prendre sa retraite trop tôt. Une génération de promesses brisées.",
+      "earlyInjurySupport": "Élan de soutien pour {name} après une blessure de fin de carrière à {age} ans.",
+      "earlyCareerEndingInjury": "Une blessure met fin à la plénitude de {name} à {age} ans. Le football pleure un talent fauché."
     },
     "role": {
       "promiseBroken": "La promesse du rôle dans l’équipe n’a pas été respectée.",
@@ -1044,7 +1053,8 @@
       },
       "retirementLeague": "✈️ NOUVELLE AVENTURE ! Signé avec {team} dans {country} pour €{wage}K/semaine. Une décision lucrative pour mettre un terme à une illustre carrière.",
       "window_opened": "🪟 Marché des transferts {windowType} ouvert en {country} (semaine {weekNumber}).",
-      "window_closed": "🪟 Marché des transferts {windowType} fermé en {country} (semaine {weekNumber})."
+      "window_closed": "🪟 Marché des transferts {windowType} fermé en {country} (semaine {weekNumber}).",
+      "completed": "Transfert conclu : a rejoint {team}."
     },
     "trophy": {
       "clubWorldCup": "🏆 Gagnants du tournoi mondial des clubs !",
@@ -1168,7 +1178,14 @@
       "description": "Les médecins indiquent que cette blessure pourrait forcer votre retraite. Vous pouvez accepter de prendre votre retraite ou tenter une récupération risquée.",
       "acceptRetirement": "Accepter la retraite",
       "attemptRecovery": "Tenter la récupération"
-    }
+    },
+    "debut": "Débuts professionnels",
+    "youthDebut": "Débuts en équipe jeune",
+    "firstProGoal": "Premier but professionnel",
+    "firstProAssist": "Première passe décisive pro",
+    "firstYouthGoal": "Premier but en jeunes",
+    "firstYouthAssist": "Première passe décisive en jeunes",
+    "intlDebut": "Débuts internationaux"
   },
   "contractTermination": {
     "alreadyTerminatedDesc": "Vous avez déjà résilié un contrat au cours de cette saison. Les règlements de la FIFA empêchent les résiliations multiples de contrat au cours de la même période d'inscription.",
@@ -1703,7 +1720,9 @@
       "Prodigy": "Talent générationnel ! Nous sommes témoins de grandeur ! 🌟",
       "SystemPlayer": "Cela n'a l'air bien que grâce au système. Surestimé.",
       "UnderPressure": "Il croule sous le poids des attentes...",
-      "VeteranLeader": "Véritable leader sur le terrain. Nous avons besoin de son expérience."
+      "VeteranLeader": "Véritable leader sur le terrain. Nous avons besoin de son expérience.",
+      "VeteranStar": "Toujours des perfs de star en fin de carrière ! ⭐",
+      "VeteranRotation": "Tête expérimentée dans la rotation — toujours fiable. 🔄"
     },
     "reactions": {
       "assist1": "Superbe vision ! 👀",

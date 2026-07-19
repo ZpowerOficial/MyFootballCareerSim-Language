@@ -228,7 +228,8 @@
       "noOffer": "{team} tidak menawarkan kontrak baru.",
       "parentExtended": "{team} memperpanjang kontrak Anda (Klub Induk).",
       "title": "Kontrak",
-      "terminated": "Kontrak diakhiri dengan {team}."
+      "terminated": "Kontrak diakhiri dengan {team}.",
+      "warning": "Kontrak Anda akan segera berakhir. Putuskan untuk perpanjang atau cari klub baru."
     },
     "decisionMade": "Keputusan Dibuat",
     "discipline": {
@@ -296,7 +297,7 @@
       "fashion_collab": "👔 Sebuah merek fesyen ingin berkolaborasi dengan Anda.",
       "gaming_endorsement": "🎮 Sebuah perusahaan game menginginkan Anda sebagai duta merek mereka.",
       "community_crisis": "🆘 Krisis sedang melanda komunitas tempat Anda tinggal.",
-      "agent_meeting": "🤝 Agen Anda ingin mendiskusikan masa depan Anda."
+      "agent_meeting": "🤝 Agen Anda ingin membahas masa depan Anda."
     },
     "importantDecision": "Ini adalah keputusan penting",
     "injury": {
@@ -432,7 +433,11 @@
       },
       "worldCupGroupExit": "Eliminasi yang mengecewakan di babak penyisihan grup Turnamen Dunia. Tim gagal lolos ke sistem gugur.",
       "worldCupHatTrick": "HAT-TRICK di Turnamen Dunia {round} vs {opponent}! Performa legendaris untuk {country}!",
-      "worldCupCallup": "Terpilih untuk skuad Turnamen Dunia untuk {country}!"
+      "worldCupCallup": "Terpilih untuk skuad Turnamen Dunia untuk {country}!",
+      "continentalCallup": "Dipanggil ke skuad Piala Kontinental!",
+      "failedQualification": "Gagal lolos ke turnamen besar.",
+      "groupStageExit": "Tersingkir di fase grup turnamen.",
+      "retirement": "Mengumumkan pensiun internasional setelah {caps} caps untuk {country}."
     },
     "nightclub": {
       "choice_apologize": "Meminta maaf secara terbuka",
@@ -907,7 +912,11 @@
       "shirtRetired": "{team} mengumumkan rencana untuk mempensiunkan nomor punggung {number} untuk menghormati legenda klub {name}.",
       "star": "{name} pensiun setelah karir yang sukses. Pertandingan {matches}, gol {goals} di klub {clubs}. Seorang profesional terhormat yang mewujudkan mimpinya.",
       "testimonialMatch": "{team} akan menghormati mereka dengan pertandingan testimonial.",
-      "worldCupChampion": "Akan selamanya dikenang sebagai juara Turnamen Dunia."
+      "worldCupChampion": "Akan selamanya dikenang sebagai juara Turnamen Dunia.",
+      "tooOld": "Di usia {age}, waktu telah tiba. Karier panjang berakhir secara alami.",
+      "tragicEarlyInjury": "Baru berusia {age}, cedera memaksa {name} pensiun terlalu dini. Generasi janji yang terhenti.",
+      "earlyInjurySupport": "Dukungan besar untuk {name} setelah cedera yang mengakhiri karier di usia {age}.",
+      "earlyCareerEndingInjury": "Cedera mengakhiri masa puncak {name} di usia {age}. Sepak bola berduka atas bakat yang terpotong."
     },
     "role": {
       "promiseBroken": "Janji peran regu dilanggar.",
@@ -1046,7 +1055,8 @@
       },
       "retirementLeague": "✈️ PETUALANGAN BARU! Ditandatangani dengan {team} di {country} seharga €{wage}K/minggu. Sebuah langkah yang menguntungkan untuk mengakhiri karier yang termasyhur.",
       "window_opened": "🪟 Jendela transfer {windowType} dibuka di {country} (pekan {weekNumber}).",
-      "window_closed": "🪟 Jendela transfer {windowType} ditutup di {country} (pekan {weekNumber})."
+      "window_closed": "🪟 Jendela transfer {windowType} ditutup di {country} (pekan {weekNumber}).",
+      "completed": "Transfer selesai: bergabung dengan {team}."
     },
     "trophy": {
       "clubWorldCup": "🏆 Pemenang Turnamen Dunia Antarklub!",
@@ -1170,7 +1180,14 @@
       "description": "Dokter mengatakan cedera ini bisa memaksa Anda pensiun. Anda dapat menerima pensiun atau mencoba pemulihan berisiko.",
       "acceptRetirement": "Terima Pensiun",
       "attemptRecovery": "Coba Pulih"
-    }
+    },
+    "debut": "Debut profesional",
+    "youthDebut": "Debut tim muda",
+    "firstProGoal": "Gol profesional pertama",
+    "firstProAssist": "Assist profesional pertama",
+    "firstYouthGoal": "Gol pertama di tim muda",
+    "firstYouthAssist": "Assist pertama di tim muda",
+    "intlDebut": "Debut internasional"
   },
   "contractTermination": {
     "alreadyTerminatedDesc": "Anda telah mengakhiri kontrak selama musim ini. Peraturan FIFA melarang pemutusan kontrak berulang kali dalam periode pendaftaran yang sama.",
@@ -1706,7 +1723,9 @@
       "Prodigy": "Bakat generasi! Kami menyaksikan kehebatan! 🌟",
       "SystemPlayer": "Hanya terlihat bagus karena sistemnya. Dinilai terlalu tinggi.",
       "UnderPressure": "Dia hancur karena beban ekspektasi...",
-      "VeteranLeader": "Pemimpin sejati di lapangan. Kami membutuhkan pengalamannya."
+      "VeteranLeader": "Pemimpin sejati di lapangan. Kami membutuhkan pengalamannya.",
+      "VeteranStar": "Masih tampil seperti bintang di akhir karier! ⭐",
+      "VeteranRotation": "Pemain berpengalaman di rotasi — masih andal. 🔄"
     },
     "reactions": {
       "assist1": "Visi yang bagus! 👀",
@@ -1737,7 +1756,7 @@
       },
       "injury": {
         "0": "{player} tampak cedera",
-        "1": "{player} ditarik keluar karena cedera"
+        "1": "{player} diganti karena cedera"
       },
       "redCard": {
         "0": "Kartu merah! {player} diusir!",
@@ -1832,7 +1851,7 @@
     "afcon": "Piala Afrika",
     "asianCup": "Piala Asia",
     "continentalCup": "Piala Kontinental",
-    "copaAmerica": "Copa Amerika",
+    "copaAmerica": "Copa América",
     "euro": "Kejuaraan Eropa",
     "goldCup": "Piala Emas",
     "nationsLeague": "Turnamen Bangsa",

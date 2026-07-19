@@ -1084,7 +1084,7 @@
     "title_part2": "Futbol Kariyer Simülasyonu",
     "version": "Sürüm {version}",
     "weight": "Kilo",
-    "xpBonus": "+%{amount} TP",
+    "xpBonus": "+{amount}% XP",
     "randomDesc": "Bırak kader karar versin",
     "stats": "İstatistikler",
     "subtitle": "Futbol yolculuğunu takip et",
@@ -1223,7 +1223,9 @@
   "trophy": "Kupa",
   "clubHistory": "Kulüp Geçmişi",
   "yrs": "Yıl",
-  "competition": "Turnuva",
+  "competition": {
+    "unknownCup": "Bilinmeyen kupa"
+  },
   "competitionDetails": "Turnuva Detayları: {country}",
   "noDomesticCup": "Yerel Kupa Yok",
   "noContinental": "Kıtasal Turnuva Yok",
@@ -1308,7 +1310,7 @@
       },
       "substitution": {
         "0": "Oyuncu değişikliği: {out} çıkıyor, {in} giriyor",
-        "1": "{in} replaces {out}"
+        "1": "{in}, {out} yerine girdi"
       },
       "yellowCard": {
         "0": "{player}'e sarı kart",
@@ -1316,7 +1318,7 @@
       }
     }
   },
-  "supercopaBrasil": "Supercopa do Brasil",
+  "supercopaBrasil": "Brezilya Süper Kupası",
   "dev": {
     "duplicatesRemoved": "{count} mükerrer olay silindi (Sadece Geliştirici)"
   },
@@ -1378,7 +1380,7 @@
     "BRONZE": "Bronz",
     "SILVER": "Gümüş",
     "GOLD": "Altın",
-    "PLATINUM": "[MISSING] Platinum",
+    "PLATINUM": "Platin",
     "DIAMOND": "Elmas"
   },
   "noSpecialTraits": "Özel yetenek yok",
@@ -1461,7 +1463,7 @@
     "runnerUp": "İkinci",
     "notNominated": "Aday gösterilmedi",
     "nominated": "Aday (İlk 30)",
-    "topN": "İlk {{position}}",
+    "topN": "Top {{position}}",
     "seasonN": "Sezon {{season}}",
     "regionalVotes": "Bölgelere Göre Oylar",
     "candidateStats": "Aday İstatistikleri",

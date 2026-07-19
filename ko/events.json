@@ -228,7 +228,8 @@
       "noOffer": "{team}는 새로운 계약을 제안하지 않았습니다.",
       "parentExtended": "{team}가 계약을 연장했습니다(부모클럽).",
       "title": "계약",
-      "terminated": "{team}와 계약이 종료되었습니다."
+      "terminated": "{team}와 계약이 종료되었습니다.",
+      "warning": "계약이 곧 만료됩니다. 재계약할지 새 클럽을 찾을지 결정하세요."
     },
     "decisionMade": "결정이 내려졌다",
     "discipline": {
@@ -432,7 +433,11 @@
       },
       "worldCupGroupExit": "월드 토너먼트 조별 예선에서 실망스러운 탈락. 팀은 녹아웃 자격을 얻지 못했습니다.",
       "worldCupHatTrick": "월드 토너먼트 {round} 대 {opponent}의 해트트릭! {country}의 전설적인 성능!",
-      "worldCupCallup": "{country} 월드 토너먼트 팀에 선정되었습니다!"
+      "worldCupCallup": "{country} 월드 토너먼트 팀에 선정되었습니다!",
+      "continentalCallup": "대륙컵 대표 명단에 선발!",
+      "failedQualification": "메이저 대회 본선 진출에 실패했다.",
+      "groupStageExit": "조별리그에서 탈락했다.",
+      "retirement": "{country} 대표로 {caps}캡을 기록한 뒤 국제 무대 은퇴를 선언했다."
     },
     "nightclub": {
       "choice_apologize": "공개적으로 사과하라",
@@ -907,7 +912,11 @@
       "shirtRetired": "{team}는 클럽 레전드 {name}를 기리기 위해 저지 번호 {number}를 폐기할 계획을 발표했습니다.",
       "star": "{name}는 성공적인 경력을 쌓은 후 은퇴합니다. {matches} 경기, {clubs} 클럽의 {goals} 목표. 자신의 꿈을 실현한 존경받는 전문가.",
       "testimonialMatch": "{team}는 추천 매치로 그들을 기릴 것입니다.",
-      "worldCupChampion": "월드 토너먼트 챔피언으로 영원히 기억될 것입니다."
+      "worldCupChampion": "월드 토너먼트 챔피언으로 영원히 기억될 것입니다.",
+      "tooOld": "{age}세, 시간이 닿았다. 긴 커리어가 자연스럽게 끝난다.",
+      "tragicEarlyInjury": "겨우 {age}세에 커리어를 끝내는 부상으로 {name}이(가) 너무 일찍 은퇴한다. 약속된 세대가 끊겼다.",
+      "earlyInjurySupport": "{age}세에 커리어를 끝내는 부상 이후 {name}을(를) 향한 응원이 이어진다.",
+      "earlyCareerEndingInjury": "커리어를 끝내는 부상으로 {name}의 전성기가 {age}세에 끝났다. 축구계가 잘린 재능을 애도한다."
     },
     "role": {
       "promiseBroken": "분대 역할 약속이 깨졌습니다.",
@@ -1030,7 +1039,8 @@
       },
       "retirementLeague": "✈️ 새로운 모험! {country}에서 {team}로 주당 €{wage}K에 서명했습니다. 빛나는 경력을 마무리하기 위한 수익성 있는 움직임입니다.",
       "window_opened": "🪟 {country}에서 {windowType} 이적 시장이 열렸습니다 ({weekNumber}주차).",
-      "window_closed": "🪟 {country}에서 {windowType} 이적 시장이 닫혔습니다 ({weekNumber}주차)."
+      "window_closed": "🪟 {country}에서 {windowType} 이적 시장이 닫혔습니다 ({weekNumber}주차).",
+      "completed": "이적 완료: {team} 입단."
     },
     "trophy": {
       "clubWorldCup": "🏆 클럽 월드 토너먼트 우승자!",
@@ -1154,7 +1164,14 @@
       "description": "의사들은 이 부상으로 은퇴해야 할 수 있다고 합니다. 은퇴를 받아들이거나 위험한 회복을 시도할 수 있습니다.",
       "acceptRetirement": "은퇴 수락",
       "attemptRecovery": "회복 시도"
-    }
+    },
+    "debut": "프로 데뷔",
+    "youthDebut": "유스 데뷔",
+    "firstProGoal": "프로 첫 골",
+    "firstProAssist": "프로 첫 도움",
+    "firstYouthGoal": "유스 첫 골",
+    "firstYouthAssist": "유스 첫 도움",
+    "intlDebut": "국가대표 데뷔"
   },
   "contractTermination": {
     "alreadyTerminatedDesc": "이번 시즌에 이미 계약을 해지했습니다. FIFA 규정은 동일한 등록 기간 내에 여러 계약이 종료되는 것을 방지합니다.",
@@ -1814,7 +1831,9 @@
       "Prodigy": "세대적 재능! 우리는 위대함을 목격하고 있습니다! 🌟",
       "SystemPlayer": "시스템 때문에 좋아 보이는 것 뿐이죠. 과대평가됐다.",
       "UnderPressure": "그는 기대의 무게에 무너지고 있다...",
-      "VeteranLeader": "현장의 진정한 리더. 우리는 그의 경험이 필요합니다."
+      "VeteranLeader": "현장의 진정한 리더. 우리는 그의 경험이 필요합니다.",
+      "VeteranStar": "커리어 말년에도 스타급 활약! ⭐",
+      "VeteranRotation": "로테이션의 경험 많은 베테랑 — 여전히 믿을 만하다. 🔄"
     },
     "reactions": {
       "assist1": "훌륭한 비전! 🙌",

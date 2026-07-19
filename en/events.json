@@ -327,7 +327,8 @@
       "newProfessional": "Signed new professional contract for {years} years.",
       "noOffer": "{team} did not offer a new contract.",
       "parentExtended": "{team} extended your contract (Parent Club).",
-      "title": "Contract"
+      "title": "Contract",
+      "warning": "Your contract is expiring soon. Decide whether to renew or seek a new club."
     },
     "decisionMade": "Decision Made",
     "discipline": {
@@ -605,7 +606,11 @@
       },
       "worldCupGroupExit": "Disappointing elimination in World Tournament group stage. The team failed to qualify for knockouts.",
       "worldCupHatTrick": "HAT-TRICK in World Tournament {round} vs {opponent}! Legendary performance for {country}!",
-      "worldCupCallup": "Selected for World Tournament squad for {country}!"
+      "worldCupCallup": "Selected for World Tournament squad for {country}!",
+      "continentalCallup": "Selected for the Continental Cup squad!",
+      "failedQualification": "Failed to qualify for the major tournament.",
+      "groupStageExit": "Exited the tournament at the group stage.",
+      "retirement": "Announced retirement from international football after {caps} caps for {country}."
     },
     "nightclub": {
       "choice_apologize": "Publicly apologize",
@@ -1056,7 +1061,11 @@
       "shirtRetired": "{team} announces plans to retire jersey number {number} in honor of club legend {name}.",
       "star": "{name} retires after successful career. {matches} matches, {goals} goals at {clubs} clubs. A respected professional who realized his dreams.",
       "testimonialMatch": "{team} will honor them with a testimonial match.",
-      "worldCupChampion": "Will forever be remembered as a World Tournament champion."
+      "worldCupChampion": "Will forever be remembered as a World Tournament champion.",
+      "tooOld": "At age {age}, time has caught up. A long career comes to a natural end.",
+      "tragicEarlyInjury": "At just {age}, a career-ending injury forces {name} to retire far too soon. A generation of promise unfulfilled.",
+      "earlyInjurySupport": "An outpouring of support for {name} after a career-ending injury at age {age}.",
+      "earlyCareerEndingInjury": "A career-ending injury ends {name}'s prime years at age {age}. Football mourns a talent cut short."
     },
     "role": {
       "promiseBroken": "Squad role promise was broken.",
@@ -1176,7 +1185,8 @@
       },
       "retirementLeague": "✈️ NEW ADVENTURE! Signed with {team} in {country} for €{wage}K/week. A lucrative move to wind down an illustrious career.",
       "window_opened": "🪟 {windowType} transfer window opened in {country} (week {weekNumber}).",
-      "window_closed": "🪟 {windowType} transfer window closed in {country} (week {weekNumber})."
+      "window_closed": "🪟 {windowType} transfer window closed in {country} (week {weekNumber}).",
+      "completed": "Transfer completed: joined {team}."
     },
     "trophy": {
       "clubWorldCup": "🏆 Club World Tournament Winners!",
@@ -1226,7 +1236,14 @@
       "description": "Doctors say this injury could force you to retire. You can accept retirement or attempt a risky recovery.",
       "acceptRetirement": "Accept Retirement",
       "attemptRecovery": "Attempt Recovery"
-    }
+    },
+    "debut": "Professional Debut",
+    "youthDebut": "Youth Team Debut",
+    "firstProGoal": "First Professional Goal",
+    "firstProAssist": "First Professional Assist",
+    "firstYouthGoal": "First Goal in Youth Team",
+    "firstYouthAssist": "First Assist in Youth Team",
+    "intlDebut": "International Debut"
   },
   "media": {
     "drought": {
@@ -1727,7 +1744,9 @@
       "Prodigy": "Generational talent! We are witnessing greatness! 🌟",
       "SystemPlayer": "Only looks good because of the system. Overrated.",
       "UnderPressure": "He's crumbling under the weight of expectations...",
-      "VeteranLeader": "True leader on the pitch. We need his experience."
+      "VeteranLeader": "True leader on the pitch. We need his experience.",
+      "VeteranStar": "Still delivering star performances in the twilight years! ⭐",
+      "VeteranRotation": "Experienced head in the rotation — still reliable. 🔄"
     },
     "seasonComments": {
       "excited": "So excited for the new season! Let's go {team}! 🔥",

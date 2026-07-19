@@ -1082,7 +1082,7 @@
     "title_part2": "محاكاة مهنة كرة القدم",
     "version": "الإصدار {version}",
     "weight": "الوزن",
-    "xpBonus": "+{amount}% نقاط خبرة",
+    "xpBonus": "+{amount}% XP",
     "randomDesc": "دعه للقدر",
     "stats": "الإحصائيات",
     "subtitle": "تتبع مسارك الكروي",
@@ -1221,7 +1221,9 @@
   "trophy": "بطولة",
   "clubHistory": "تاريخ النادي",
   "yrs": "سنة",
-  "competition": "مسابقة",
+  "competition": {
+    "unknownCup": "كأس غير معروف"
+  },
   "competitionDetails": "تفاصيل المسابقة: {country}",
   "noDomesticCup": "لا كأس محلية",
   "noContinental": "لا مسابقة قارية",
@@ -1317,7 +1319,7 @@
   "dev": {
     "duplicatesRemoved": "تمت إزالة {count} أحداث مكررة (للمطورين فقط)"
   },
-  "supercopaBrasil": "Supercopa do Brasil",
+  "supercopaBrasil": "كأس السوبر البرازيلي",
   "tierMovement": {
     "relegation": "اختلال الهبوط من المستوى {from}->{to}: المتوقع {expected}، الموجود {found}",
     "promotion": "اختلال الصعود من المستوى {from}->{to}: المتوقع {expected}، الموجود {found}",
@@ -1459,7 +1461,7 @@
     "runnerUp": "الوصيف",
     "notNominated": "غير مرشح",
     "nominated": "مرشح (أفضل 30)",
-    "topN": "أفضل {{position}}",
+    "topN": "Top {{position}}",
     "seasonN": "الموسم {{season}}",
     "regionalVotes": "الأصوات حسب المنطقة",
     "candidateStats": "إحصائيات المرشحين",

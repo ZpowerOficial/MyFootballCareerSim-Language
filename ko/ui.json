@@ -1082,7 +1082,7 @@
     "title_part2": "축구 커리어 시뮬레이션",
     "version": "버전 {version}",
     "weight": "몸무게",
-    "xpBonus": "+{amount}% XP 보너스",
+    "xpBonus": "+{amount}% XP",
     "randomDesc": "운명에 맡기세요",
     "stats": "통계",
     "subtitle": "축구 여정을 추적하세요",
@@ -1221,7 +1221,9 @@
   "trophy": "트로피",
   "clubHistory": "클럽 기록",
   "yrs": "년",
-  "competition": "대회",
+  "competition": {
+    "unknownCup": "알 수 없는 컵 대회"
+  },
   "competitionDetails": "대회 상세 정보: {country}",
   "noDomesticCup": "국내 컵 대회 없음",
   "noContinental": "대륙 대회 없음",
@@ -1317,7 +1319,7 @@
   "dev": {
     "duplicatesRemoved": "중복 이벤트 {count}개 제거됨 (개발자 전용)"
   },
-  "supercopaBrasil": "Supercopa do Brasil",
+  "supercopaBrasil": "브라질 슈퍼컵",
   "tierMovement": {
     "relegation": "티어 {from}->{to} 강등 불균형: 예상 {expected}, 실제 {found}",
     "promotion": "티어 {from}->{to} 승격 불균형: 예상 {expected}, 실제 {found}",
@@ -1465,8 +1467,8 @@
     "candidateStats": "후보 통계",
     "viewDetails": "투표 상세 보기",
     "viewHistory": "기록 보기",
-    "pointsBehind": "{{points}} points behind",
-    "pointsAhead": "{{points}} points ahead",
+    "pointsBehind": "{{points}}점 뒤처짐",
+    "pointsAhead": "{{points}}점 앞서감",
     "goals": "골",
     "assists": "어시스트",
     "cleanSheets": "클린 시트",

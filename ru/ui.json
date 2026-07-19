@@ -1221,7 +1221,9 @@
   "trophy": "Трофеи",
   "clubHistory": "История клубов",
   "yrs": "Yrs",
-  "competition": "Турнир",
+  "competition": {
+    "unknownCup": "Неизвестный кубок"
+  },
   "competitionDetails": "Детали турнира: {country}",
   "noDomesticCup": "Нет внутреннего кубка",
   "noContinental": "Нет еврокубков",
@@ -1317,7 +1319,7 @@
   "dev": {
     "duplicatesRemoved": "Удалено {count} дублирующихся событий (только для разработчика)"
   },
-  "supercopaBrasil": "Supercopa do Brasil",
+  "supercopaBrasil": "Суперкубок Бразилии",
   "tierMovement": {
     "relegation": "Дисбаланс вылета с Уровня {from}->{to}: ожидалось {expected}, найдено {found}",
     "promotion": "Дисбаланс повышения с Уровня {from}->{to}: ожидалось {expected}, найдено {found}",
@@ -1459,7 +1461,7 @@
     "runnerUp": "2-е место",
     "notNominated": "Не номинирован",
     "nominated": "Номинирован (Топ-30)",
-    "topN": "Топ {{position}}",
+    "topN": "Top {{position}}",
     "seasonN": "Сезон {{season}}",
     "regionalVotes": "Голоса по регионам",
     "candidateStats": "Статистика кандидата",

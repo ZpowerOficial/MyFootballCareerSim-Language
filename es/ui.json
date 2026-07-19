@@ -1375,7 +1375,9 @@
   "matchesShort": "Part",
   "trophy": "Trofeo",
   "clubHistory": "Historial de Clubes",
-  "competition": "Competición",
+  "competition": {
+    "unknownCup": "Copa desconocida"
+  },
   "competitionDetails": "Detalles de la Competición: {country}",
   "noDomesticCup": "Sin Copa Nacional",
   "noContinental": "Sin Competición Continental",
@@ -1506,7 +1508,7 @@
     "nextAward": "Siguiente Premio",
     "skipAll": "Saltar Todo",
     "yourResult": "Tu Resultado",
-    "awardOf": "Award {current} of {total}",
+    "awardOf": "Premio {current} de {total}",
     "records": "Récords de Carrera",
     "totalWins": "Victorias",
     "totalNominations": "Nominaciones",

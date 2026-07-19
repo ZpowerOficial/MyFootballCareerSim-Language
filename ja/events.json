@@ -228,7 +228,8 @@
       "noOffer": "{team} は新規契約を提案しませんでした。",
       "parentExtended": "{team} は契約を延長しました (親クラブ)。",
       "title": "契約",
-      "terminated": "{team} で契約が終了しました。"
+      "terminated": "{team} で契約が終了しました。",
+      "warning": "契約期限が近づいています。更新するか新天地を探すか決めましょう。"
     },
     "decisionMade": "意思決定",
     "discipline": {
@@ -433,7 +434,11 @@
       },
       "worldCupGroupExit": "世界大会グループステージで残念ながら敗退。チームはノックアウトの資格を得ることができなかった。",
       "worldCupHatTrick": "世界トーナメント{round} vs {opponent}でハットトリック！ {country} の伝説的なパフォーマンス!",
-      "worldCupCallup": "{country}の世界大会代表チームに選出されました！"
+      "worldCupCallup": "{country}の世界大会代表チームに選出されました！",
+      "continentalCallup": "大陸選手権の代表メンバーに選出！",
+      "failedQualification": "主要大会への出場権を逃した。",
+      "groupStageExit": "グループステージで敗退。",
+      "retirement": "{country}代表として{caps}キャップを記録し、国際舞台からの引退を発表。"
     },
     "nightclub": {
       "choice_apologize": "公の場で謝罪する",
@@ -908,7 +913,11 @@
       "shirtRetired": "{team} は、クラブのレジェンドである {name} に敬意を表し、背番号 {number} を永久欠番にする計画を発表しました。",
       "star": "{name} は成功したキャリアを経て引退します。 {matches} 試合、{clubs} クラブでの {goals} ゴール。夢を実現した尊敬されるプロフェッショナル。",
       "testimonialMatch": "{team} は、証言マッチで彼らを讃えます。",
-      "worldCupChampion": "世界大会チャンピオンとして永遠に記憶されるだろう。"
+      "worldCupChampion": "世界大会チャンピオンとして永遠に記憶されるだろう。",
+      "tooOld": "{age}歳。長いキャリアが自然に幕を閉じる。",
+      "tragicEarlyInjury": "わずか{age}歳で、キャリアを絶つ怪我により{name}が早すぎる引退へ。約束された才能が途切れた。",
+      "earlyInjurySupport": "{age}歳でのキャリア終了の怪我に、{name}への支援が広がる。",
+      "earlyCareerEndingInjury": "キャリアを絶つ怪我により{name}の全盛期が{age}歳で終わる。サッカー界が才能の喪失を悼む。"
     },
     "role": {
       "promiseBroken": "分隊の役割の約束は破られた。",
@@ -1028,7 +1037,8 @@
       },
       "retirementLeague": "✈️ 新しい冒険! {country} で {team} と週あたり €{wage}K で署名しました。輝かしいキャリアに終止符を打つための有利な行動。",
       "window_opened": "🪟 {country}で{windowType}移籍市場が開幕（第{weekNumber}週）",
-      "window_closed": "🪟 {country}で{windowType}移籍市場が終了（第{weekNumber}週）"
+      "window_closed": "🪟 {country}で{windowType}移籍市場が終了（第{weekNumber}週）",
+      "completed": "移籍完了：{team}へ加入。"
     },
     "trophy": {
       "clubWorldCup": "🏆クラブ世界トーナメント優勝者!",
@@ -1152,7 +1162,14 @@
       "description": "医師によれば、この怪我で引退を余儀なくされる可能性があります。引退を受け入れるか、リスクのある回復を試みるかを選んでください。",
       "acceptRetirement": "引退を受け入れる",
       "attemptRecovery": "回復を試みる"
-    }
+    },
+    "debut": "プロデビュー",
+    "youthDebut": "ユースデビュー",
+    "firstProGoal": "プロ初ゴール",
+    "firstProAssist": "プロ初アシスト",
+    "firstYouthGoal": "ユース初ゴール",
+    "firstYouthAssist": "ユース初アシスト",
+    "intlDebut": "代表デビュー"
   },
   "contractTermination": {
     "alreadyTerminatedDesc": "あなたはすでに今シーズン中に契約を終了しました。 FIFA の規定により、同じ登録期間内に複数の契約を解除することは禁止されています。",
@@ -1695,7 +1712,9 @@
       "Prodigy": "世代の才能！私たちは偉大さを目撃しています！ 🌟",
       "SystemPlayer": "システムのおかげで見た目が良くなっただけです。過大評価されています。",
       "UnderPressure": "期待の重みで彼は崩れ去る…",
-      "VeteranLeader": "ピッチ上の真のリーダー。私たちは彼の経験を必要としています。"
+      "VeteranLeader": "ピッチ上の真のリーダー。私たちは彼の経験を必要としています。",
+      "VeteranStar": "キャリア終盤でもスター級の活躍！⭐",
+      "VeteranRotation": "ローテーションの経験豊富な戦力 — まだまだ頼りになる。🔄"
     },
     "reactions": {
       "assist1": "素晴らしいビジョン！ 👀",

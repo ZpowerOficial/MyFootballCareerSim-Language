@@ -1082,7 +1082,7 @@
     "title_part2": "サッカーキャリアシミュレーション",
     "version": "バージョン {version}",
     "weight": "体重",
-    "xpBonus": "+{amount}% 経験値ボーナス",
+    "xpBonus": "+{amount}% XP",
     "randomDesc": "運命に任せる",
     "stats": "統計",
     "subtitle": "サッカーキャリアを追跡する",
@@ -1221,7 +1221,9 @@
   "trophy": "トロフィー",
   "clubHistory": "クラブ履歴",
   "yrs": "年",
-  "competition": "大会",
+  "competition": {
+    "unknownCup": "不明なカップ戦"
+  },
   "competitionDetails": "大会詳細: {country}",
   "noDomesticCup": "国内カップなし",
   "noContinental": "大陸大会なし",
@@ -1458,7 +1460,7 @@
     "runnerUp": "準優勝",
     "notNominated": "ノミネートなし",
     "nominated": "ノミネート (トップ30)",
-    "topN": "トップ{{position}}",
+    "topN": "Top {{position}}",
     "seasonN": "シーズン{{season}}",
     "regionalVotes": "地域別投票",
     "candidateStats": "候補者統計",
