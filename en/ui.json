@@ -198,6 +198,8 @@
     "goals": "Goals",
     "goalsAbbr": "G",
     "goalsShort": "G",
+    "shareCard": "Share Image",
+    "sharing": "Sharing...",
     "groupStage": "Group Stage",
     "info": "Info",
     "interceptionsAbbr": "INT",
@@ -494,7 +496,26 @@
       "subbedOffAt": "Subbed off at {minute}'",
       "suspended": "Suspended",
       "timeline": "Timeline",
-      "weekLabel": "Week {week}"
+      "weekLabel": "Week {week}",
+      "detailedComparison": "Detailed Statistics Comparison",
+      "dominanceGraph": "Match Dominance Graph",
+      "graphSubtitle": "Minute-by-minute pressure and intensity during 90 minutes.",
+      "keyEventsSummary": "Key Match Highlights",
+      "momentum": "Momentum",
+      "noKeyEvents": "No cards or goals recorded in this match.",
+      "player": "Your Performance",
+      "stats": "Statistics",
+      "yourClubHome": "Your club (home)",
+      "yourClubAway": "Your club (away)",
+      "opponent": "Opponent",
+      "substitution": "Substitution",
+      "dataUnavailable": "Advanced data unavailable",
+      "legacyDataUnavailable": "Old careers may lack advanced data",
+      "minutes": "Minutes",
+      "corners": "Corners",
+      "fouls": "Fouls",
+      "chronological": "Chronological",
+      "grouped": "Grouped"
     },
     "endSeason": "End Season",
     "trainingPhase": "Training & Development Phase",
@@ -1264,6 +1285,9 @@
     "saves": "Saves",
     "seasons": "Seasons",
     "shareNow": "Share",
+    "fixedRatioNotice": "Standard 4:5 Fixed Aspect Card",
+    "viewBreakdown": "Detailed Breakdown",
+    "legacyFormula": "Balanced formula based on honors, awards, performance, longevity, and reputation.",
     "title": "Share Career",
     "trophies": "Trophies"
   },
@@ -1445,6 +1469,7 @@
     }
   },
   "awards": {
+    "youthCategoryNotice": "Youth Category Awards",
     "worldRankings": "Global",
     "votingResults": "Voting Results",
     "rankings": "Rankings",
@@ -1606,7 +1631,9 @@
     "biggestMove": "Biggest Move",
     "more": "more",
     "moreTransfers": "more transfers",
-    "noEvents": "No events this season"
+    "noEvents": "No events this season",
+    "inProgressTitle": "Season In Progress",
+    "inProgressNotice": "Season-end highlights (breakthroughs, major transfers, and retirements) will compile at the end of the season."
   },
   "transfers": {
     "title": "Transfer Window",

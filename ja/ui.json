@@ -341,7 +341,9 @@
     "loss": "敗北",
     "result": "結果",
     "showMore": "もっと見る",
-    "win": "勝利"
+    "win": "勝利",
+    "shareCard": "Share Image",
+    "sharing": "Sharing..."
   },
   "commonExtra": {
     "ageYearsShort": "{age} 歳",
@@ -466,7 +468,26 @@
       "subbedOffAt": "{minute}分に交代",
       "suspended": "出場停止",
       "timeline": "タイムライン",
-      "weekLabel": "第{week}節"
+      "weekLabel": "第{week}節",
+      "detailedComparison": "Detailed Statistics Comparison",
+      "dominanceGraph": "Match Dominance Graph",
+      "graphSubtitle": "Minute-by-minute pressure and intensity during 90 minutes.",
+      "keyEventsSummary": "Key Match Highlights",
+      "momentum": "Momentum",
+      "noKeyEvents": "No cards or goals recorded in this match.",
+      "player": "Your Performance",
+      "stats": "Statistics",
+      "yourClubHome": "自クラブ（ホーム）",
+      "yourClubAway": "自クラブ（アウェイ）",
+      "opponent": "対戦相手",
+      "substitution": "選手交代",
+      "dataUnavailable": "詳細データは利用できません",
+      "legacyDataUnavailable": "古いキャリアには詳細データがない場合があります",
+      "minutes": "出場時間",
+      "corners": "コーナーキック",
+      "fouls": "ファウル",
+      "chronological": "時系列",
+      "grouped": "大会別"
     },
     "endSeason": "シーズン終了",
     "trainingPhase": "トレーニングと育成フェーズ",
@@ -1187,7 +1208,10 @@
     "seasons": "シーズン数",
     "shareNow": "今すぐシェア",
     "title": "キャリアをシェア",
-    "trophies": "タイトル"
+    "trophies": "タイトル",
+    "fixedRatioNotice": "Standard 4:5 Fixed Aspect Card",
+    "viewBreakdown": "Detailed Breakdown",
+    "legacyFormula": "タイトル、受賞、成績、キャリアの長さ、評判に基づくバランスの取れた計算式です。"
   },
   "simulating": {
     "analyzingMatch": "試合パフォーマンスを分析中...",
@@ -1540,7 +1564,8 @@
     "noVotingResults": "投票結果はありません",
     "rating": "評価",
     "recentMatches": "最近の試合",
-    "achievements": "実績"
+    "achievements": "実績",
+    "youthCategoryNotice": "Youth Category Awards"
   },
   "rankings": {
     "title": "グローバル",
@@ -1611,7 +1636,9 @@
     "biggestMove": "最大の移籍",
     "more": "その他",
     "moreTransfers": "その他の移籍",
-    "noEvents": "今シーズンのイベントはありません"
+    "noEvents": "今シーズンのイベントはありません",
+    "inProgressTitle": "Season In Progress",
+    "inProgressNotice": "Season-end highlights will compile at the end of the season."
   },
   "transfers": {
     "title": "移籍市場",

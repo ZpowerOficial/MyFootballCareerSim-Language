@@ -652,6 +652,7 @@
     "controversial": "Polêmico"
   },
   "training": {
+    "aiRecommend": "Treino IA",
     "alreadyInvested": "Você já investiu nesta temporada",
     "balance": "Seu Saldo",
     "cannotAfford": "Fundos insuficientes",
@@ -676,15 +677,21 @@
     "infraBonus": "Bônus de Instalações",
     "infrastructure": "Instalações do Clube",
     "intensity": {
-      "extreme": "Extremo",
+      "extreme": "Exhaustivo",
       "high": "Alto",
-      "low": "Baixo",
+      "low": "Leve",
       "medium": "Médio"
     },
-    "intensityExtreme": "Extremo",
+    "intensityExtreme": "Exhaustivo",
+    "intensityExtremeDesc": "Evolução: 160% | Custo: +100% | Fôlego: -4%/semana | Lesão: ~25% risco",
+    "intensityGuideTitle": "Guia de Intensidades de Treino",
+    "intensityHelp": "Informações de Intensidade",
     "intensityHigh": "Alto",
-    "intensityLow": "Baixo",
+    "intensityHighDesc": "Evolução: 130% | Custo: +50% | Fôlego: -2%/semana | Lesão: ~12% risco",
+    "intensityLow": "Leve",
+    "intensityLowDesc": "Evolução: 60% | Custo: -50% | Fôlego: 0%/semana | Lesão: Risco reduzido (0%)",
     "intensityMedium": "Médio",
+    "intensityMediumDesc": "Evolução: 100% | Custo: Normal | Fôlego: -1%/semana | Lesão: ~5% risco",
     "investBalance": "Seu saldo: €{balance}",
     "investCost": "Custo: €{cost}",
     "investNo": "Não, obrigado",

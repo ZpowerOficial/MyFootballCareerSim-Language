@@ -196,6 +196,8 @@
     "goals": "Goles",
     "goalsAbbr": "G",
     "goalsShort": "G",
+    "shareCard": "Share Image",
+    "sharing": "Sharing...",
     "groupStage": "Fase de Grupos",
     "info": "Información",
     "interceptionsAbbr": "INT",
@@ -495,7 +497,26 @@
       "subbedOffAt": "Salió al {minute}'",
       "suspended": "Suspendido",
       "timeline": "Línea de tiempo",
-      "weekLabel": "Semana {week}"
+      "weekLabel": "Semana {week}",
+      "detailedComparison": "Detailed Statistics Comparison",
+      "dominanceGraph": "Match Dominance Graph",
+      "graphSubtitle": "Minute-by-minute pressure and intensity during 90 minutes.",
+      "keyEventsSummary": "Key Match Highlights",
+      "momentum": "Momentum",
+      "noKeyEvents": "No cards or goals recorded in this match.",
+      "player": "Your Performance",
+      "stats": "Statistics",
+      "yourClubHome": "Tu club (local)",
+      "yourClubAway": "Tu club (visitante)",
+      "opponent": "Rival",
+      "substitution": "Sustitución",
+      "dataUnavailable": "Datos avanzados no disponibles",
+      "legacyDataUnavailable": "Las carreras antiguas pueden no tener datos avanzados",
+      "minutes": "Minutos",
+      "corners": "Córners",
+      "fouls": "Faltas",
+      "chronological": "Cronológico",
+      "grouped": "Agrupado"
     },
     "endSeason": "Finalizar Temporada",
     "trainingPhase": "Fase de Entrenamiento y Desarrollo",
@@ -1266,7 +1287,10 @@
     "seasons": "Temporadas",
     "shareNow": "Compartir",
     "title": "Compartir Carrera",
-    "trophies": "Títulos"
+    "trophies": "Títulos",
+    "fixedRatioNotice": "Tarjeta Social Fija 4:5",
+    "viewBreakdown": "Desglose Detallado",
+    "legacyFormula": "Fórmula equilibrada basada en títulos, premios, rendimiento, longevidad y reputación."
   },
   "simulating": {
     "analyzingMatch": "Analizando partidos...",
@@ -1539,7 +1563,8 @@
     "noVotingResults": "No hay resultados de votación disponibles",
     "rating": "Calificación",
     "recentMatches": "Partidos Recientes",
-    "achievements": "Logros"
+    "achievements": "Logros",
+    "youthCategoryNotice": "Youth Category Awards"
   },
   "rankings": {
     "title": "Global",
@@ -1610,7 +1635,9 @@
     "biggestMove": "Fichaje Estrella",
     "more": "más",
     "moreTransfers": "más fichajes",
-    "noEvents": "Sin eventos esta temporada"
+    "noEvents": "Sin eventos esta temporada",
+    "inProgressTitle": "Season In Progress",
+    "inProgressNotice": "Season-end highlights will compile at the end of the season."
   },
   "transfers": {
     "title": "Mercado de Fichajes",

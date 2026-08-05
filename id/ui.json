@@ -341,7 +341,9 @@
     "friendly": "Persahabatan",
     "quarterFinal": "Perempat Final",
     "semiFinal": "Semifinal",
-    "final": "Final"
+    "final": "Final",
+    "shareCard": "Share Image",
+    "sharing": "Sharing..."
   },
   "commonExtra": {
     "ageYearsShort": "{age} tahun",
@@ -466,7 +468,26 @@
       "subbedOffAt": "Diganti pada menit {minute}",
       "suspended": "Diskors",
       "timeline": "Linimasa",
-      "weekLabel": "Pekan {week}"
+      "weekLabel": "Pekan {week}",
+      "detailedComparison": "Detailed Statistics Comparison",
+      "dominanceGraph": "Match Dominance Graph",
+      "graphSubtitle": "Minute-by-minute pressure and intensity during 90 minutes.",
+      "keyEventsSummary": "Key Match Highlights",
+      "momentum": "Momentum",
+      "noKeyEvents": "No cards or goals recorded in this match.",
+      "player": "Your Performance",
+      "stats": "Statistics",
+      "yourClubHome": "Klub Anda (kandang)",
+      "yourClubAway": "Klub Anda (tandang)",
+      "opponent": "Lawan",
+      "substitution": "Pergantian",
+      "dataUnavailable": "Data lanjutan tidak tersedia",
+      "legacyDataUnavailable": "Karier lama mungkin tidak memiliki data lanjutan",
+      "minutes": "Menit",
+      "corners": "Tendangan sudut",
+      "fouls": "Pelanggaran",
+      "chronological": "Kronologis",
+      "grouped": "Dikelompokkan"
     },
     "endSeason": "Akhiri Musim",
     "trainingPhase": "Fase Pelatihan & Pengembangan",
@@ -1187,7 +1208,10 @@
     "seasons": "Musim",
     "shareNow": "Bagikan Sekarang",
     "title": "Bagikan Karier",
-    "trophies": "Trofi"
+    "trophies": "Trofi",
+    "fixedRatioNotice": "Standard 4:5 Fixed Aspect Card",
+    "viewBreakdown": "Detailed Breakdown",
+    "legacyFormula": "Formula seimbang berdasarkan gelar, penghargaan, performa, umur karier, dan reputasi."
   },
   "simulating": {
     "analyzingMatch": "Menganalisis performa pertandingan...",
@@ -1541,7 +1565,8 @@
     "noVotingResults": "Tidak ada hasil pemungutan suara yang tersedia",
     "rating": "Penilaian",
     "recentMatches": "Pertandingan Terakhir",
-    "achievements": "Pencapaian"
+    "achievements": "Pencapaian",
+    "youthCategoryNotice": "Youth Category Awards"
   },
   "rankings": {
     "title": "Dunia",
@@ -1612,7 +1637,9 @@
     "biggestMove": "Transfer Terbesar",
     "more": "lainnya",
     "moreTransfers": "transfer lainnya",
-    "noEvents": "Tidak ada peristiwa musim ini"
+    "noEvents": "Tidak ada peristiwa musim ini",
+    "inProgressTitle": "Season In Progress",
+    "inProgressNotice": "Season-end highlights will compile at the end of the season."
   },
   "transfers": {
     "title": "Jendela Transfer",

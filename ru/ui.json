@@ -341,7 +341,9 @@
     "friendly": "Товарищеский",
     "quarterFinal": "1/4 финала",
     "semiFinal": "1/2 финала",
-    "final": "Финал"
+    "final": "Финал",
+    "shareCard": "Share Image",
+    "sharing": "Sharing..."
   },
   "commonExtra": {
     "ageYearsShort": "{age} лет",
@@ -466,7 +468,26 @@
       "subbedOffAt": "Заменён на {minute}'",
       "suspended": "Дисквалифицирован",
       "timeline": "Хронология",
-      "weekLabel": "Неделя {week}"
+      "weekLabel": "Неделя {week}",
+      "detailedComparison": "Detailed Statistics Comparison",
+      "dominanceGraph": "Match Dominance Graph",
+      "graphSubtitle": "Minute-by-minute pressure and intensity during 90 minutes.",
+      "keyEventsSummary": "Key Match Highlights",
+      "momentum": "Momentum",
+      "noKeyEvents": "No cards or goals recorded in this match.",
+      "player": "Your Performance",
+      "stats": "Statistics",
+      "yourClubHome": "Ваш клуб (дома)",
+      "yourClubAway": "Ваш клуб (в гостях)",
+      "opponent": "Соперник",
+      "substitution": "Замена",
+      "dataUnavailable": "Расширенные данные недоступны",
+      "legacyDataUnavailable": "В старых карьерах расширенные данные могут отсутствовать",
+      "minutes": "Минуты",
+      "corners": "Угловые",
+      "fouls": "Фолы",
+      "chronological": "По хронологии",
+      "grouped": "По турнирам"
     },
     "endSeason": "Завершить сезон",
     "trainingPhase": "Этап тренировок и развития",
@@ -1187,7 +1208,10 @@
     "seasons": "Сезоны",
     "shareNow": "Поделиться",
     "title": "Поделиться карьерой",
-    "trophies": "Трофеи"
+    "trophies": "Трофеи",
+    "fixedRatioNotice": "Standard 4:5 Fixed Aspect Card",
+    "viewBreakdown": "Detailed Breakdown",
+    "legacyFormula": "Сбалансированная формула с учетом титулов, наград, результатов, долголетия и репутации."
   },
   "simulating": {
     "analyzingMatch": "Анализ выступления в матче...",
@@ -1541,7 +1565,8 @@
     "noVotingResults": "Результаты голосования недоступны",
     "rating": "Рейтинг",
     "recentMatches": "Последние Матчи",
-    "achievements": "Достижения"
+    "achievements": "Достижения",
+    "youthCategoryNotice": "Youth Category Awards"
   },
   "rankings": {
     "title": "Мир",
@@ -1612,7 +1637,9 @@
     "biggestMove": "Главный Трансфер",
     "more": "ещё",
     "moreTransfers": "ещё трансферов",
-    "noEvents": "Нет событий в этом сезоне"
+    "noEvents": "Нет событий в этом сезоне",
+    "inProgressTitle": "Season In Progress",
+    "inProgressNotice": "Season-end highlights will compile at the end of the season."
   },
   "transfers": {
     "title": "Трансферное Окно",

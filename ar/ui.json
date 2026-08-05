@@ -341,7 +341,9 @@
     "loss": "خسارة",
     "result": "النتيجة",
     "showMore": "عرض المزيد",
-    "win": "فوز"
+    "win": "فوز",
+    "shareCard": "Share Image",
+    "sharing": "Sharing..."
   },
   "commonExtra": {
     "ageYearsShort": "{age} سنة",
@@ -466,7 +468,26 @@
       "subbedOffAt": "خرج في الدقيقة {minute}",
       "suspended": "موقوف",
       "timeline": "الخط الزمني",
-      "weekLabel": "الأسبوع {week}"
+      "weekLabel": "الأسبوع {week}",
+      "detailedComparison": "Detailed Statistics Comparison",
+      "dominanceGraph": "Match Dominance Graph",
+      "graphSubtitle": "Minute-by-minute pressure and intensity during 90 minutes.",
+      "keyEventsSummary": "Key Match Highlights",
+      "momentum": "Momentum",
+      "noKeyEvents": "No cards or goals recorded in this match.",
+      "player": "Your Performance",
+      "stats": "Statistics",
+      "yourClubHome": "ناديك (على أرضه)",
+      "yourClubAway": "ناديك (خارج أرضه)",
+      "opponent": "الخصم",
+      "substitution": "تبديل",
+      "dataUnavailable": "البيانات المتقدمة غير متاحة",
+      "legacyDataUnavailable": "قد لا تحتوي المسيرات القديمة على بيانات متقدمة",
+      "minutes": "الدقائق",
+      "corners": "الركنيات",
+      "fouls": "الأخطاء",
+      "chronological": "زمني",
+      "grouped": "مجمّع"
     },
     "endSeason": "إنهاء الموسم",
     "trainingPhase": "مرحلة التدريب والتطوير",
@@ -1187,7 +1208,10 @@
     "seasons": "المواسم",
     "shareNow": "شارك الآن",
     "title": "مشاركة المسيرة",
-    "trophies": "البطولات"
+    "trophies": "البطولات",
+    "fixedRatioNotice": "Standard 4:5 Fixed Aspect Card",
+    "viewBreakdown": "Detailed Breakdown",
+    "legacyFormula": "معادلة متوازنة تعتمد على الألقاب والجوائز والأداء وطول المسيرة والسمعة."
   },
   "simulating": {
     "analyzingMatch": "تحليل أداء المباراة...",
@@ -1541,7 +1565,8 @@
     "noVotingResults": "لا توجد نتائج تصويت متاحة",
     "rating": "التقييم",
     "recentMatches": "المباريات الأخيرة",
-    "achievements": "الإنجازات"
+    "achievements": "الإنجازات",
+    "youthCategoryNotice": "Youth Category Awards"
   },
   "rankings": {
     "title": "العالمي",
@@ -1612,7 +1637,9 @@
     "biggestMove": "أكبر انتقال",
     "more": "المزيد",
     "moreTransfers": "المزيد من الانتقالات",
-    "noEvents": "لا أحداث هذا الموسم"
+    "noEvents": "لا أحداث هذا الموسم",
+    "inProgressTitle": "Season In Progress",
+    "inProgressNotice": "Season-end highlights will compile at the end of the season."
   },
   "transfers": {
     "title": "سوق الانتقالات",

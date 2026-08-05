@@ -341,7 +341,9 @@
     "friendly": "Hazırlık",
     "quarterFinal": "Çeyrek final",
     "semiFinal": "Yarı final",
-    "final": "Final"
+    "final": "Final",
+    "shareCard": "Share Image",
+    "sharing": "Sharing..."
   },
   "commonExtra": {
     "ageYearsShort": "{age} yaşında",
@@ -466,7 +468,26 @@
       "subbedOffAt": "{minute}. dakikada çıktı",
       "suspended": "Cezalı",
       "timeline": "Zaman çizelgesi",
-      "weekLabel": "{week}. hafta"
+      "weekLabel": "{week}. hafta",
+      "detailedComparison": "Detailed Statistics Comparison",
+      "dominanceGraph": "Match Dominance Graph",
+      "graphSubtitle": "Minute-by-minute pressure and intensity during 90 minutes.",
+      "keyEventsSummary": "Key Match Highlights",
+      "momentum": "Momentum",
+      "noKeyEvents": "No cards or goals recorded in this match.",
+      "player": "Your Performance",
+      "stats": "Statistics",
+      "yourClubHome": "Kulübün (ev sahibi)",
+      "yourClubAway": "Kulübün (deplasman)",
+      "opponent": "Rakip",
+      "substitution": "Oyuncu değişikliği",
+      "dataUnavailable": "Gelişmiş veriler kullanılamıyor",
+      "legacyDataUnavailable": "Eski kariyerlerde gelişmiş veriler bulunmayabilir",
+      "minutes": "Dakika",
+      "corners": "Kornerler",
+      "fouls": "Fauller",
+      "chronological": "Kronolojik",
+      "grouped": "Gruplandırılmış"
     },
     "endSeason": "Sezonu Bitir",
     "trainingPhase": "Antrenman ve Gelişim Aşaması",
@@ -1189,7 +1210,10 @@
     "seasons": "Sezonlar",
     "shareNow": "Şimdi Paylaş",
     "title": "Kariyer Paylaş",
-    "trophies": "Kupalar"
+    "trophies": "Kupalar",
+    "fixedRatioNotice": "Standard 4:5 Fixed Aspect Card",
+    "viewBreakdown": "Detailed Breakdown",
+    "legacyFormula": "Kupalar, ödüller, performans, kariyer süresi ve itibara dayalı dengeli formül."
   },
   "simulating": {
     "analyzingMatch": "Maç performansı analiz ediliyor...",
@@ -1543,7 +1567,8 @@
     "noVotingResults": "Oylama sonucu bulunmuyor",
     "rating": "Puan",
     "recentMatches": "Son Maçlar",
-    "achievements": "Başarımlar"
+    "achievements": "Başarımlar",
+    "youthCategoryNotice": "Youth Category Awards"
   },
   "rankings": {
     "title": "Global",
@@ -1614,7 +1639,9 @@
     "biggestMove": "En Büyük Transfer",
     "more": "daha fazla",
     "moreTransfers": "daha fazla transfer",
-    "noEvents": "Bu sezon olay yok"
+    "noEvents": "Bu sezon olay yok",
+    "inProgressTitle": "Season In Progress",
+    "inProgressNotice": "Season-end highlights will compile at the end of the season."
   },
   "transfers": {
     "title": "Transfer Penceresi",
