@@ -343,7 +343,9 @@
     "semiFinal": "준결승",
     "final": "결승",
     "shareCard": "Share Image",
-    "sharing": "Sharing..."
+    "sharing": "Sharing...",
+    "firstLeg": "1차전",
+    "secondLeg": "2차전"
   },
   "commonExtra": {
     "ageYearsShort": "{age}세",
@@ -487,7 +489,15 @@
       "corners": "코너킥",
       "fouls": "파울",
       "chronological": "시간순",
-      "grouped": "그룹별"
+      "grouped": "그룹별",
+      "matchdayShort": "라운드",
+      "foulEvent": "파울",
+      "penaltyAwarded": "페널티킥 선언",
+      "penaltyMissed": "페널티킥 실축",
+      "penaltySaved": "페널티킥 선방",
+      "penaltyGoal": "페널티킥 득점",
+      "secondYellowCard": "두 번째 옐로카드",
+      "injury": "부상"
     },
     "endSeason": "시즌 종료",
     "trainingPhase": "훈련 및 개발 단계",
@@ -618,7 +628,8 @@
     "transfer": "이적",
     "worldCup": "국제",
     "worldCupQualification": "국제",
-    "youthPromotion": "승격"
+    "youthPromotion": "승격",
+    "socialFeedback": "팬 반응"
   },
   "pauseMenu": {
     "confirmMainMenu": "메인 메뉴로 돌아가시겠습니까? 저장되지 않은 진행 상황이 손실됩니다.",
@@ -1176,7 +1187,9 @@
     "matchHistory": "경기 기록",
     "simulating": "시뮬레이션 중...",
     "loadingTacticalBuffer": "전술 버퍼 로딩 중...",
-    "minuteByMinute": "분 단위 시뮬레이션"
+    "minuteByMinute": "분 단위 시뮬레이션",
+    "awaitingEvent": "경기가 진행 중입니다. 아직 이벤트가 없습니다.",
+    "skip": "건너뛰기"
   },
   "shareCard": {
     "assists": "도움",
@@ -1211,7 +1224,10 @@
     "trophies": "트로피",
     "fixedRatioNotice": "Standard 4:5 Fixed Aspect Card",
     "viewBreakdown": "Detailed Breakdown",
-    "legacyFormula": "우승, 수상, 경기력, 활동 기간과 명성을 반영한 균형 잡힌 공식입니다."
+    "legacyFormula": "우승, 수상, 경기력, 활동 기간과 명성을 반영한 균형 잡힌 공식입니다.",
+    "season": "시즌",
+    "secondLeg": "2차전",
+    "selected": "선정됨"
   },
   "simulating": {
     "analyzingMatch": "경기 성과 분석 중...",
@@ -1225,7 +1241,9 @@
     "recentResults": "최근 결과",
     "seasonTitle": "시즌 시뮬레이션 중",
     "stopping": "중지 중…",
-    "weekProgress": "{week}주차 · {done}/{total}"
+    "weekProgress": "{week}주차 · {done}/{total}",
+    "weekOnly": "{week}주차",
+    "worldProgress": "세계 대회 마무리 중 · {week}/{total}주차"
   },
   "statusModal": {
     "approvalDescription": "이사회와 팬들이 당신의 활약을 어떻게 보는지 나타냅니다.",

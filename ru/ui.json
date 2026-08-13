@@ -343,7 +343,9 @@
     "semiFinal": "1/2 финала",
     "final": "Финал",
     "shareCard": "Share Image",
-    "sharing": "Sharing..."
+    "sharing": "Sharing...",
+    "firstLeg": "Первый матч",
+    "secondLeg": "Ответный матч"
   },
   "commonExtra": {
     "ageYearsShort": "{age} лет",
@@ -487,7 +489,15 @@
       "corners": "Угловые",
       "fouls": "Фолы",
       "chronological": "По хронологии",
-      "grouped": "По турнирам"
+      "grouped": "По турнирам",
+      "matchdayShort": "Тур",
+      "foulEvent": "Фол",
+      "penaltyAwarded": "Пенальти назначен",
+      "penaltyMissed": "Пенальти не реализован",
+      "penaltySaved": "Пенальти отражён",
+      "penaltyGoal": "Гол с пенальти",
+      "secondYellowCard": "Вторая жёлтая карточка",
+      "injury": "Травма"
     },
     "endSeason": "Завершить сезон",
     "trainingPhase": "Этап тренировок и развития",
@@ -618,7 +628,8 @@
     "transfer": "Трансфер",
     "worldCup": "Международный",
     "worldCupQualification": "Международный",
-    "youthPromotion": "Повышение"
+    "youthPromotion": "Повышение",
+    "socialFeedback": "Реакция болельщиков"
   },
   "pauseMenu": {
     "confirmMainMenu": "Вы уверены, что хотите вернуться в главное меню? Несохраненный прогресс будет потерян.",
@@ -1176,7 +1187,9 @@
     "matchHistory": "История матчей",
     "simulating": "Симуляция...",
     "loadingTacticalBuffer": "Загрузка тактического буфера...",
-    "minuteByMinute": "Минута за минутой"
+    "minuteByMinute": "Минута за минутой",
+    "awaitingEvent": "Матч продолжается. Событий пока нет.",
+    "skip": "Пропустить"
   },
   "shareCard": {
     "assists": "Голевые передачи",
@@ -1211,7 +1224,10 @@
     "trophies": "Трофеи",
     "fixedRatioNotice": "Standard 4:5 Fixed Aspect Card",
     "viewBreakdown": "Detailed Breakdown",
-    "legacyFormula": "Сбалансированная формула с учетом титулов, наград, результатов, долголетия и репутации."
+    "legacyFormula": "Сбалансированная формула с учетом титулов, наград, результатов, долголетия и репутации.",
+    "season": "Сезон",
+    "secondLeg": "Ответный матч",
+    "selected": "Выбран"
   },
   "simulating": {
     "analyzingMatch": "Анализ выступления в матче...",
@@ -1225,7 +1241,9 @@
     "recentResults": "Недавние результаты",
     "seasonTitle": "Симуляция сезона",
     "stopping": "Остановка…",
-    "weekProgress": "Неделя {week} · {done}/{total}"
+    "weekProgress": "Неделя {week} · {done}/{total}",
+    "weekOnly": "Неделя {week}",
+    "worldProgress": "Завершение мировых турниров · Неделя {week}/{total}"
   },
   "statusModal": {
     "approvalDescription": "Как руководство и болельщики оценивают ваше выступление.",

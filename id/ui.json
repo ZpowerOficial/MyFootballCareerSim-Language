@@ -343,7 +343,9 @@
     "semiFinal": "Semifinal",
     "final": "Final",
     "shareCard": "Share Image",
-    "sharing": "Sharing..."
+    "sharing": "Sharing...",
+    "firstLeg": "Leg pertama",
+    "secondLeg": "Leg kedua"
   },
   "commonExtra": {
     "ageYearsShort": "{age} tahun",
@@ -487,7 +489,15 @@
       "corners": "Tendangan sudut",
       "fouls": "Pelanggaran",
       "chronological": "Kronologis",
-      "grouped": "Dikelompokkan"
+      "grouped": "Dikelompokkan",
+      "matchdayShort": "Pekan pertandingan",
+      "foulEvent": "Pelanggaran",
+      "penaltyAwarded": "Penalti diberikan",
+      "penaltyMissed": "Penalti gagal",
+      "penaltySaved": "Penalti diselamatkan",
+      "penaltyGoal": "Gol penalti",
+      "secondYellowCard": "Kartu kuning kedua",
+      "injury": "Cedera"
     },
     "endSeason": "Akhiri Musim",
     "trainingPhase": "Fase Pelatihan & Pengembangan",
@@ -618,7 +628,8 @@
     "transfer": "Pindah Klub",
     "worldCup": "Internasional",
     "worldCupQualification": "Internasional",
-    "youthPromotion": "Promosi Pemain Muda"
+    "youthPromotion": "Promosi Pemain Muda",
+    "socialFeedback": "Reaksi suporter"
   },
   "pauseMenu": {
     "confirmMainMenu": "Apakah Anda yakin ingin kembali ke menu utama? Progres yang belum disimpan akan hilang.",
@@ -1176,7 +1187,9 @@
     "matchHistory": "Riwayat pertandingan",
     "simulating": "Menyimulasikan...",
     "loadingTacticalBuffer": "Memuat buffer taktis...",
-    "minuteByMinute": "Menit demi Menit"
+    "minuteByMinute": "Menit demi Menit",
+    "awaitingEvent": "Pertandingan sedang berlangsung. Belum ada peristiwa.",
+    "skip": "Lewati"
   },
   "shareCard": {
     "assists": "Assist",
@@ -1211,7 +1224,10 @@
     "trophies": "Trofi",
     "fixedRatioNotice": "Standard 4:5 Fixed Aspect Card",
     "viewBreakdown": "Detailed Breakdown",
-    "legacyFormula": "Formula seimbang berdasarkan gelar, penghargaan, performa, umur karier, dan reputasi."
+    "legacyFormula": "Formula seimbang berdasarkan gelar, penghargaan, performa, umur karier, dan reputasi.",
+    "season": "Musim",
+    "secondLeg": "Leg kedua",
+    "selected": "Terpilih"
   },
   "simulating": {
     "analyzingMatch": "Menganalisis performa pertandingan...",
@@ -1225,7 +1241,9 @@
     "recentResults": "Hasil Terbaru",
     "seasonTitle": "Mensimulasikan Musim",
     "stopping": "Menghentikan…",
-    "weekProgress": "Pekan {week} · {done}/{total}"
+    "weekProgress": "Pekan {week} · {done}/{total}",
+    "weekOnly": "Pekan {week}",
+    "worldProgress": "Menyelesaikan kompetisi dunia · Pekan {week}/{total}"
   },
   "statusModal": {
     "approvalDescription": "Bagaimana dewan dan fans menilai performa Anda.",

@@ -343,7 +343,9 @@
     "semiFinal": "Yarı final",
     "final": "Final",
     "shareCard": "Share Image",
-    "sharing": "Sharing..."
+    "sharing": "Sharing...",
+    "firstLeg": "İlk mac",
+    "secondLeg": "Rovans"
   },
   "commonExtra": {
     "ageYearsShort": "{age} yaşında",
@@ -487,7 +489,15 @@
       "corners": "Kornerler",
       "fouls": "Fauller",
       "chronological": "Kronolojik",
-      "grouped": "Gruplandırılmış"
+      "grouped": "Gruplandırılmış",
+      "matchdayShort": "Mac haftasi",
+      "foulEvent": "Faul",
+      "penaltyAwarded": "Penaltı kararı",
+      "penaltyMissed": "Kaçan penaltı",
+      "penaltySaved": "Kurtarılan penaltı",
+      "penaltyGoal": "Penaltı golü",
+      "secondYellowCard": "İkinci sarı kart",
+      "injury": "Sakatlık"
     },
     "endSeason": "Sezonu Bitir",
     "trainingPhase": "Antrenman ve Gelişim Aşaması",
@@ -618,7 +628,8 @@
     "transfer": "Transfer",
     "worldCup": "Dünya Kupası",
     "worldCupQualification": "Dünya Kupası Elemeleri",
-    "youthPromotion": "Altyapıdan Yükselme"
+    "youthPromotion": "Altyapıdan Yükselme",
+    "socialFeedback": "Taraftar tepkisi"
   },
   "pauseMenu": {
     "confirmMainMenu": "Ana menüye dönmek istediğinizden emin misiniz? Kaydedilmemiş ilerleme kaybolacak.",
@@ -1178,7 +1189,9 @@
     "matchHistory": "Maç geçmişi",
     "simulating": "Simüle ediliyor...",
     "loadingTacticalBuffer": "Taktik arabelleği yükleniyor...",
-    "minuteByMinute": "Dakika dakika"
+    "minuteByMinute": "Dakika dakika",
+    "awaitingEvent": "Maç devam ediyor. Henüz bir olay yok.",
+    "skip": "Atla"
   },
   "shareCard": {
     "assists": "Asistler",
@@ -1213,7 +1226,10 @@
     "trophies": "Kupalar",
     "fixedRatioNotice": "Standard 4:5 Fixed Aspect Card",
     "viewBreakdown": "Detailed Breakdown",
-    "legacyFormula": "Kupalar, ödüller, performans, kariyer süresi ve itibara dayalı dengeli formül."
+    "legacyFormula": "Kupalar, ödüller, performans, kariyer süresi ve itibara dayalı dengeli formül.",
+    "season": "Sezon",
+    "secondLeg": "Rovans",
+    "selected": "Secildi"
   },
   "simulating": {
     "analyzingMatch": "Maç performansı analiz ediliyor...",
@@ -1227,7 +1243,9 @@
     "recentResults": "Son Sonuçlar",
     "seasonTitle": "Sezon Simüle Ediliyor",
     "stopping": "Durduruluyor…",
-    "weekProgress": "{week}. hafta · {done}/{total}"
+    "weekProgress": "{week}. hafta · {done}/{total}",
+    "weekOnly": "{week}. hafta",
+    "worldProgress": "Dünya müsabakaları tamamlanıyor · {week}/{total}. hafta"
   },
   "statusModal": {
     "approvalDescription": "Yönetim ve taraftarların performansına bakışı.",

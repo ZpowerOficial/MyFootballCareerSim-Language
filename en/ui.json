@@ -190,6 +190,8 @@
     "error": "Error",
     "filter": "Filter",
     "finalist": "Finalist",
+    "firstLeg": "1st Leg",
+    "secondLeg": "2nd Leg",
     "followers": "Followers",
     "formLast10": "Form (Last 10)",
     "free": "Free",
@@ -467,6 +469,7 @@
       "viewFullCalendar": "View Full Calendar",
       "matchCalendar": "Match Calendar",
       "matchdayProgress": "Matchday {current} / {total}",
+      "matchdayShort": "Matchday",
       "simulating": "Simulating...",
       "seasonEnded": "Season Ended - Last Match",
       "simulation": "Simulation",
@@ -515,7 +518,14 @@
       "corners": "Corners",
       "fouls": "Fouls",
       "chronological": "Chronological",
-      "grouped": "Grouped"
+      "grouped": "Grouped",
+      "foulEvent": "Foul",
+      "penaltyAwarded": "Penalty awarded",
+      "penaltyMissed": "Penalty missed",
+      "penaltySaved": "Penalty saved",
+      "penaltyGoal": "Penalty goal",
+      "secondYellowCard": "Second yellow card",
+      "injury": "Injury"
     },
     "endSeason": "End Season",
     "trainingPhase": "Training & Development Phase",
@@ -634,7 +644,8 @@
     "transfer": "Transfer",
     "worldCup": "International",
     "worldCupQualification": "International",
-    "youthPromotion": "Promotion"
+    "youthPromotion": "Promotion",
+    "socialFeedback": "Supporter reaction"
   },
   "pauseMenu": {
     "confirmMainMenu": "Return to main menu? Unsaved progress will be lost.",
@@ -1254,7 +1265,9 @@
     "matchHistory": "Match History",
     "simulating": "Simulating...",
     "loadingTacticalBuffer": "Loading tactical buffer...",
-    "minuteByMinute": "Minute by Minute Simulation"
+    "minuteByMinute": "Minute by Minute Simulation",
+    "awaitingEvent": "The match is underway. No event yet.",
+    "skip": "Skip"
   },
   "shareCard": {
     "assists": "Assists",
@@ -1283,8 +1296,9 @@
     "rating": "Rating",
     "retired": "Retired",
     "saves": "Saves",
-    "seasons": "Seasons",
-    "shareNow": "Share",
+    "season": "Season",
+    "secondLeg": "2nd Leg",
+    "selected": "Selected",
     "fixedRatioNotice": "Standard 4:5 Fixed Aspect Card",
     "viewBreakdown": "Detailed Breakdown",
     "legacyFormula": "Balanced formula based on honors, awards, performance, longevity, and reputation.",
@@ -1303,7 +1317,9 @@
     "recentResults": "Recent Results",
     "seasonTitle": "Simulating Season",
     "stopping": "Stopping…",
-    "weekProgress": "Week {week} · {done}/{total}"
+    "weekProgress": "Week {week} · {done}/{total}",
+    "weekOnly": "Week {week}",
+    "worldProgress": "Finalizing world competitions · Week {week}/{total}"
   },
   "statusModal": {
     "approvalDescription": "Board and fan perception.",

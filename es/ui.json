@@ -355,7 +355,9 @@
     "friendly": "Amistoso",
     "quarterFinal": "Cuartos de final",
     "semiFinal": "Semifinal",
-    "final": "Final"
+    "final": "Final",
+    "firstLeg": "Ida",
+    "secondLeg": "Vuelta"
   },
   "continents": {
     "Africa": "África",
@@ -516,7 +518,15 @@
       "corners": "Córners",
       "fouls": "Faltas",
       "chronological": "Cronológico",
-      "grouped": "Agrupado"
+      "grouped": "Agrupado",
+      "matchdayShort": "Jornada",
+      "foulEvent": "Falta",
+      "penaltyAwarded": "Penalti señalado",
+      "penaltyMissed": "Penalti fallado",
+      "penaltySaved": "Penalti detenido",
+      "penaltyGoal": "Gol de penalti",
+      "secondYellowCard": "Segunda tarjeta amarilla",
+      "injury": "Lesión"
     },
     "endSeason": "Finalizar Temporada",
     "trainingPhase": "Fase de Entrenamiento y Desarrollo",
@@ -635,7 +645,8 @@
     "transfer": "Fichaje",
     "worldCup": "Mundial",
     "worldCupQualification": "Clasificación Mundial",
-    "youthPromotion": "Ascenso del Juvenil"
+    "youthPromotion": "Ascenso del Juvenil",
+    "socialFeedback": "Reacción de la afición"
   },
   "pauseMenu": {
     "confirmMainMenu": "¿Estás seguro de que quieres volver al menú principal? Se perderá el progreso no guardado.",
@@ -1255,7 +1266,9 @@
     "matchHistory": "Historial de partidos",
     "simulating": "Simulando...",
     "loadingTacticalBuffer": "Cargando buffer táctico...",
-    "minuteByMinute": "Minuto a minuto"
+    "minuteByMinute": "Minuto a minuto",
+    "awaitingEvent": "El partido está en juego. Aún no hay eventos.",
+    "skip": "Saltar"
   },
   "shareCard": {
     "assists": "Asistencias",
@@ -1290,7 +1303,10 @@
     "trophies": "Títulos",
     "fixedRatioNotice": "Tarjeta Social Fija 4:5",
     "viewBreakdown": "Desglose Detallado",
-    "legacyFormula": "Fórmula equilibrada basada en títulos, premios, rendimiento, longevidad y reputación."
+    "legacyFormula": "Fórmula equilibrada basada en títulos, premios, rendimiento, longevidad y reputación.",
+    "season": "Temporada",
+    "secondLeg": "Vuelta",
+    "selected": "Seleccionado"
   },
   "simulating": {
     "analyzingMatch": "Analizando partidos...",
@@ -1304,7 +1320,9 @@
     "recentResults": "Resultados recientes",
     "seasonTitle": "Simulando temporada",
     "stopping": "Deteniendo…",
-    "weekProgress": "Semana {week} · {done}/{total}"
+    "weekProgress": "Semana {week} · {done}/{total}",
+    "weekOnly": "Semana {week}",
+    "worldProgress": "Finalizando competiciones mundiales · Semana {week}/{total}"
   },
   "statusModal": {
     "approvalDescription": "Cómo te ven la directiva y la afición.",

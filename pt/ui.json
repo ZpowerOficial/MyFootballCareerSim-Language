@@ -355,7 +355,9 @@
     "loss": "Derrota",
     "result": "Resultado",
     "showMore": "Mostrar mais",
-    "win": "Vitória"
+    "win": "Vitória",
+    "firstLeg": "Primeiro jogo",
+    "secondLeg": "Segundo jogo"
   },
   "continents": {
     "Africa": "África",
@@ -515,7 +517,15 @@
       "corners": "Escanteios",
       "fouls": "Faltas",
       "chronological": "Cronológico",
-      "grouped": "Agrupado"
+      "grouped": "Agrupado",
+      "matchdayShort": "Rodada",
+      "foulEvent": "Falta",
+      "penaltyAwarded": "Pênalti assinalado",
+      "penaltyMissed": "Pênalti perdido",
+      "penaltySaved": "Pênalti defendido",
+      "penaltyGoal": "Gol de pênalti",
+      "secondYellowCard": "Segundo cartão amarelo",
+      "injury": "Lesão"
     },
     "endSeason": "Encerrar Temporada",
     "trainingPhase": "Fase de Treinamento e Evolução",
@@ -634,7 +644,8 @@
     "transfer": "Transferência",
     "worldCup": "Internacional",
     "worldCupQualification": "Internacional",
-    "youthPromotion": "Promoção"
+    "youthPromotion": "Promoção",
+    "socialFeedback": "Reação da torcida"
   },
   "pauseMenu": {
     "confirmMainMenu": "Tem certeza que deseja voltar ao menu principal? O progresso atual não salvo será perdido.",
@@ -1254,7 +1265,9 @@
     "matchHistory": "Histórico de Jogos",
     "simulating": "Simulando...",
     "loadingTacticalBuffer": "Carregando buffer tático...",
-    "minuteByMinute": "Simulação Minuto a Minuto"
+    "minuteByMinute": "Simulação Minuto a Minuto",
+    "awaitingEvent": "A partida está em andamento. Nenhum evento ainda.",
+    "skip": "Pular"
   },
   "shareCard": {
     "assists": "Assistências",
@@ -1289,7 +1302,10 @@
     "viewBreakdown": "Pontuação Detalhada",
     "legacyFormula": "Fórmula balanceada baseada em títulos, prêmios, desempenho, longevidade e reputação.",
     "title": "Compartilhar Carreira",
-    "trophies": "Troféus"
+    "trophies": "Troféus",
+    "season": "Temporada",
+    "secondLeg": "Segundo jogo",
+    "selected": "Selecionado"
   },
   "simulating": {
     "analyzingMatch": "Analisando desempenho em partidas...",
@@ -1303,7 +1319,9 @@
     "recentResults": "Resultados Recentes",
     "seasonTitle": "Simulando Temporada",
     "stopping": "Parando…",
-    "weekProgress": "Semana {week} · {done}/{total}"
+    "weekProgress": "Semana {week} · {done}/{total}",
+    "weekOnly": "Semana {week}",
+    "worldProgress": "Finalizando competições mundiais · Semana {week}/{total}"
   },
   "statusModal": {
     "approvalDescription": "Como a diretoria e torcida veem seu desempenho.",

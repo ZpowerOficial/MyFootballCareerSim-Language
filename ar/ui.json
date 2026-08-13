@@ -343,7 +343,9 @@
     "showMore": "عرض المزيد",
     "win": "فوز",
     "shareCard": "Share Image",
-    "sharing": "Sharing..."
+    "sharing": "Sharing...",
+    "firstLeg": "مباراة الذهاب",
+    "secondLeg": "مباراة الإياب"
   },
   "commonExtra": {
     "ageYearsShort": "{age} سنة",
@@ -487,7 +489,15 @@
       "corners": "الركنيات",
       "fouls": "الأخطاء",
       "chronological": "زمني",
-      "grouped": "مجمّع"
+      "grouped": "مجمّع",
+      "matchdayShort": "الجولة",
+      "foulEvent": "خطأ",
+      "penaltyAwarded": "احتساب ركلة جزاء",
+      "penaltyMissed": "ركلة جزاء مهدرة",
+      "penaltySaved": "ركلة جزاء متصدى لها",
+      "penaltyGoal": "هدف من ركلة جزاء",
+      "secondYellowCard": "البطاقة الصفراء الثانية",
+      "injury": "إصابة"
     },
     "endSeason": "إنهاء الموسم",
     "trainingPhase": "مرحلة التدريب والتطوير",
@@ -618,7 +628,8 @@
     "transfer": "انتقال",
     "worldCup": "البطولة العالمية",
     "worldCupQualification": "التأهل للبطولة العالمية",
-    "youthPromotion": "تصعيد من الشباب"
+    "youthPromotion": "تصعيد من الشباب",
+    "socialFeedback": "رد فعل الجماهير"
   },
   "pauseMenu": {
     "confirmMainMenu": "هل أنت متأكد أنك تريد العودة للقائمة الرئيسية؟ سيتم فقدان التقدم غير المحفوظ.",
@@ -1176,7 +1187,9 @@
     "matchHistory": "سجل المباريات",
     "simulating": "جارٍ المحاكاة...",
     "loadingTacticalBuffer": "جارٍ تحميل المخزن التكتيكي...",
-    "minuteByMinute": "دقيقة بدقيقة"
+    "minuteByMinute": "دقيقة بدقيقة",
+    "awaitingEvent": "المباراة جارية. لا توجد أحداث بعد.",
+    "skip": "تخطي"
   },
   "shareCard": {
     "assists": "التمريرات الحاسمة",
@@ -1211,7 +1224,10 @@
     "trophies": "البطولات",
     "fixedRatioNotice": "Standard 4:5 Fixed Aspect Card",
     "viewBreakdown": "Detailed Breakdown",
-    "legacyFormula": "معادلة متوازنة تعتمد على الألقاب والجوائز والأداء وطول المسيرة والسمعة."
+    "legacyFormula": "معادلة متوازنة تعتمد على الألقاب والجوائز والأداء وطول المسيرة والسمعة.",
+    "season": "الموسم",
+    "secondLeg": "مباراة الإياب",
+    "selected": "مختار"
   },
   "simulating": {
     "analyzingMatch": "تحليل أداء المباراة...",
@@ -1225,7 +1241,9 @@
     "recentResults": "النتائج الأخيرة",
     "seasonTitle": "جارٍ محاكاة الموسم",
     "stopping": "جارٍ الإيقاف…",
-    "weekProgress": "الأسبوع {week} · {done}/{total}"
+    "weekProgress": "الأسبوع {week} · {done}/{total}",
+    "weekOnly": "الأسبوع {week}",
+    "worldProgress": "جارٍ إنهاء البطولات العالمية · الأسبوع {week}/{total}"
   },
   "statusModal": {
     "approvalDescription": "كيف يرى مجلس الإدارة والمشجعون أداءك.",

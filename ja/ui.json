@@ -343,7 +343,9 @@
     "showMore": "もっと見る",
     "win": "勝利",
     "shareCard": "Share Image",
-    "sharing": "Sharing..."
+    "sharing": "Sharing...",
+    "firstLeg": "第1戦",
+    "secondLeg": "第2戦"
   },
   "commonExtra": {
     "ageYearsShort": "{age} 歳",
@@ -487,7 +489,15 @@
       "corners": "コーナーキック",
       "fouls": "ファウル",
       "chronological": "時系列",
-      "grouped": "大会別"
+      "grouped": "大会別",
+      "matchdayShort": "節",
+      "foulEvent": "ファウル",
+      "penaltyAwarded": "PK獲得",
+      "penaltyMissed": "PK失敗",
+      "penaltySaved": "PKセーブ",
+      "penaltyGoal": "PKによるゴール",
+      "secondYellowCard": "2枚目のイエローカード",
+      "injury": "負傷"
     },
     "endSeason": "シーズン終了",
     "trainingPhase": "トレーニングと育成フェーズ",
@@ -618,7 +628,8 @@
     "transfer": "移籍",
     "worldCup": "ワールドカップ",
     "worldCupQualification": "ワールドカップ予選",
-    "youthPromotion": "ユース昇格"
+    "youthPromotion": "ユース昇格",
+    "socialFeedback": "サポーターの反応"
   },
   "pauseMenu": {
     "confirmMainMenu": "メインメニューに戻りますか？ 保存されていない進捗は失われます。",
@@ -1176,7 +1187,9 @@
     "matchHistory": "試合履歴",
     "simulating": "シミュレーション中...",
     "loadingTacticalBuffer": "戦術バッファを読み込み中...",
-    "minuteByMinute": "ミニット・バイ・ミニットシミュレーション"
+    "minuteByMinute": "ミニット・バイ・ミニットシミュレーション",
+    "awaitingEvent": "試合が進行中です。まだイベントはありません。",
+    "skip": "スキップ"
   },
   "shareCard": {
     "assists": "アシスト",
@@ -1211,7 +1224,10 @@
     "trophies": "タイトル",
     "fixedRatioNotice": "Standard 4:5 Fixed Aspect Card",
     "viewBreakdown": "Detailed Breakdown",
-    "legacyFormula": "タイトル、受賞、成績、キャリアの長さ、評判に基づくバランスの取れた計算式です。"
+    "legacyFormula": "タイトル、受賞、成績、キャリアの長さ、評判に基づくバランスの取れた計算式です。",
+    "season": "シーズン",
+    "secondLeg": "第2戦",
+    "selected": "選出"
   },
   "simulating": {
     "analyzingMatch": "試合パフォーマンスを分析中...",
@@ -1225,7 +1241,9 @@
     "recentResults": "最近の結果",
     "seasonTitle": "シーズンをシミュレート中",
     "stopping": "停止中…",
-    "weekProgress": "第{week}週 · {done}/{total}"
+    "weekProgress": "第{week}週 · {done}/{total}",
+    "weekOnly": "第{week}週",
+    "worldProgress": "世界大会を完了中 · 第{week}/{total}週"
   },
   "statusModal": {
     "approvalDescription": "理事会とファンがあなたのパフォーマンスをどう見ているか。",

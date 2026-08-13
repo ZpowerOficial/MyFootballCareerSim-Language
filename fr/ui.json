@@ -365,7 +365,9 @@
     "friendly": "Amical",
     "quarterFinal": "Quart de finale",
     "semiFinal": "Demi-finale",
-    "final": "Finale"
+    "final": "Finale",
+    "firstLeg": "Match aller",
+    "secondLeg": "Match retour"
   },
   "commonExtra": {
     "ageYearsShort": "{age} ans",
@@ -509,7 +511,15 @@
       "corners": "Corners",
       "fouls": "Fautes",
       "chronological": "Chronologique",
-      "grouped": "Groupé"
+      "grouped": "Groupé",
+      "matchdayShort": "Journee",
+      "foulEvent": "Faute",
+      "penaltyAwarded": "Penalty accordé",
+      "penaltyMissed": "Penalty manqué",
+      "penaltySaved": "Penalty arrêté",
+      "penaltyGoal": "But sur penalty",
+      "secondYellowCard": "Deuxième carton jaune",
+      "injury": "Blessure"
     },
     "endSeason": "Fin de Saison",
     "trainingPhase": "Phase d'Entraînement et de Développement",
@@ -640,7 +650,8 @@
     "transfer": "Transfert",
     "worldCup": "Tournoi Mondial",
     "worldCupQualification": "International",
-    "youthPromotion": "Promotion Jeunes"
+    "youthPromotion": "Promotion Jeunes",
+    "socialFeedback": "Réaction des supporters"
   },
   "pauseMenu": {
     "confirmMainMenu": "Êtes-vous sûr de vouloir retourner au menu principal ? Toute progression non sauvegardée sera perdue.",
@@ -1198,7 +1209,9 @@
     "matchHistory": "Historique des matchs",
     "simulating": "Simulation...",
     "loadingTacticalBuffer": "Chargement du buffer tactique...",
-    "minuteByMinute": "Minute par minute"
+    "minuteByMinute": "Minute par minute",
+    "awaitingEvent": "Le match est en cours. Aucun événement pour le moment.",
+    "skip": "Passer"
   },
   "shareCard": {
     "assists": "Passes D.",
@@ -1233,7 +1246,10 @@
     "trophies": "Trophées",
     "fixedRatioNotice": "Carte Sociale Fixe 4:5",
     "viewBreakdown": "Détail du Score",
-    "legacyFormula": "Formule équilibrée fondée sur les titres, les récompenses, les performances, la longévité et la réputation."
+    "legacyFormula": "Formule équilibrée fondée sur les titres, les récompenses, les performances, la longévité et la réputation.",
+    "season": "Saison",
+    "secondLeg": "Match retour",
+    "selected": "Selectionne"
   },
   "simulating": {
     "analyzingMatch": "Analyse des performances de match...",
@@ -1247,7 +1263,9 @@
     "recentResults": "Résultats récents",
     "seasonTitle": "Simulation de la saison",
     "stopping": "Arrêt…",
-    "weekProgress": "Semaine {week} · {done}/{total}"
+    "weekProgress": "Semaine {week} · {done}/{total}",
+    "weekOnly": "Semaine {week}",
+    "worldProgress": "Finalisation des compétitions mondiales · Semaine {week}/{total}"
   },
   "tutorial": {
     "agent": {
