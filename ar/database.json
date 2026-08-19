@@ -107,7 +107,9 @@
     "golden_boy": "أفضل لاعب شاب في العام",
     "league_mvp": "أفضل لاعب في الدوري",
     "league_team_of_the_season": "تشكيلة الموسم في الدوري",
-    "team_of_the_year": "فريق العام"
+    "team_of_the_year": "فريق العام",
+    "titleCount": "الألقاب",
+    "achievements": "الجوائز"
   },
   "careerPhases": {
     "breakthrough": "البداية في كرة القدم الاحترافية",
@@ -140,7 +142,7 @@
     "continental": "قاري",
     "copaSudamericana": "كوبا سود أمريكانا",
     "copasudamericana": "كوبا سود أمريكانا",
-    "cupFormat": "{{country}} كأس",
+    "cupFormat": "كأس {{country}}",
     "europaLeague": "الدوري الأوروبي",
     "fifa": "العالم لكرة القدم",
     "fifaBest": "الأفضل في العالم",
@@ -171,8 +173,10 @@
     "superCupFormat": "{{country}} كأس السوبر",
     "unknownLeague": "دوري غير معروف",
     "worldCup": "كأس العالم",
-    "youthLeagueFormat": "Youth دوري {{country}}",
-    "unknownCup": "كأس غير معروفة"
+    "youthLeagueFormat": "{{country}} {{youth}}",
+    "unknownCup": "كأس غير معروفة",
+    "youthCupFormat": "كأس {{country}} للشباب",
+    "youth": "الشباب"
   },
   "competitionNames": {
     "African Champions Cup": "كأس أبطال أفريقيا",
@@ -1165,5 +1169,8 @@
     "oceaniaCup": "كأس أمم أوقيانوسيا",
     "worldCup": "كأس العالم",
     "nationsLeague": "دوري الأمم"
+  },
+  "common": {
+    "youth": "الشباب"
   }
 }

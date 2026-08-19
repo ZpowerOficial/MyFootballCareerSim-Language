@@ -108,7 +108,9 @@
     "golden_boy": "Молодой игрок года",
     "league_mvp": "Лучший игрок лиги",
     "league_team_of_the_season": "Сборная сезона лиги",
-    "team_of_the_year": "Команда года"
+    "team_of_the_year": "Команда года",
+    "titleCount": "титулы",
+    "achievements": "Трофеи"
   },
   "careerPhases": {
     "breakthrough": "Прорыв в профессиональный футбол",
@@ -141,7 +143,7 @@
     "continental": "Континентальный",
     "copaSudamericana": "Клубный кубок Южной Америки",
     "copasudamericana": "Клубный кубок Южной Америки",
-    "cupFormat": "{{country}} Кубок",
+    "cupFormat": "Кубок {{country}}",
     "europaLeague": "Клубный Кубок Европы",
     "fifa": "Мировой футбол",
     "fifaBest": "Лучший в мире",
@@ -172,8 +174,10 @@
     "superCupFormat": "{{country}} Суперкубок",
     "unknownLeague": "Неизвестная лига",
     "worldCup": "Мировой турнир",
-    "youthLeagueFormat": "Молодежная лига {{country}}",
-    "unknownCup": "Неизвестный кубок"
+    "youthLeagueFormat": "{{country}} {{youth}}",
+    "unknownCup": "Неизвестный кубок",
+    "youthCupFormat": "Кубок {{country}} {{youth}}",
+    "youth": "Молодежный"
   },
   "competitionNames": {
     "African Champions Cup": "Кубок чемпионов Африки",
@@ -1256,5 +1260,8 @@
     "oceaniaCup": "Кубок наций ОФК",
     "worldCup": "Чемпионат мира",
     "nationsLeague": "Лига Наций"
+  },
+  "common": {
+    "youth": "Молодежный"
   }
 }

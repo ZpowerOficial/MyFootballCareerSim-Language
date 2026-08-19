@@ -107,7 +107,9 @@
     "golden_boy": "Jeune Joueur de l'Année",
     "league_mvp": "Meilleur Joueur du Championnat",
     "league_team_of_the_season": "Équipe de la Saison du Championnat",
-    "team_of_the_year": "Équipe de l'Année"
+    "team_of_the_year": "Équipe de l'Année",
+    "titleCount": "titres",
+    "achievements": "Trophées"
   },
   "careerPhases": {
     "breakthrough": "Se lancer dans le football professionnel",
@@ -140,7 +142,7 @@
     "continental": "Continental",
     "copaSudamericana": "Coupe sud-américaine des clubs",
     "copasudamericana": "Coupe sud-américaine des clubs",
-    "cupFormat": "{{country}} Tasse",
+    "cupFormat": "Coupe {{country}}",
     "europaLeague": "Coupe d'Europe des clubs",
     "fifa": "Football mondial",
     "fifaBest": "Le meilleur du monde",
@@ -171,8 +173,10 @@
     "superCupFormat": "{{country}} Super Coupe",
     "unknownLeague": "Ligue inconnue",
     "worldCup": "Tournoi mondial",
-    "youthLeagueFormat": "Ligue des jeunes {{country}}",
-    "unknownCup": "Coupe inconnue"
+    "youthLeagueFormat": "{{country}} {{youth}}",
+    "unknownCup": "Coupe inconnue",
+    "youthCupFormat": "Coupe {{country}} {{youth}}",
+    "youth": "Jeunes"
   },
   "competitionNames": {
     "African Champions Cup": "Coupe des Champions d'Afrique",
@@ -1165,5 +1169,8 @@
     "oceaniaCup": "Coupe des Nations de l'OFC",
     "worldCup": "Coupe du monde",
     "nationsLeague": "Ligue des Nations"
+  },
+  "common": {
+    "youth": "Jeunes"
   }
 }

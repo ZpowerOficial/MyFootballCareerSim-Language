@@ -333,7 +333,7 @@
     "pt": "Português",
     "scheduled": "Agendado",
     "complete": "Concluído",
-    "championLabel": "Campeão: ",
+    "championLabel": "Campeão:",
     "seeMore": "Ver mais",
     "player": "Jogador",
     "instagram": "Instagram",
@@ -460,6 +460,53 @@
     "rankings": "Rankings",
     "transfers": "Transferências",
     "seasonSummary": "Resumo da Temporada",
+    "weeklyTransparency": {
+      "title": "Relatório Semanal",
+      "macroOverview": "Balanço Macro Semanal",
+      "balance": "Saldo líquido",
+      "netCashFlow": "Fluxo Semanal Líquido",
+      "salary": "Salário",
+      "grossWage": "Salário Bruto",
+      "netWage": "Salário Líquido",
+      "agent": "Agente",
+      "sponsors": "Patrocínios",
+      "activeSponsorsCount": "{count} contratos ativos",
+      "commercialDecision": "Decisão comercial",
+      "agentAccepted": "Seu agente aceitou {sponsor} por {amount}/semana.",
+      "agentDeclined": "Seu agente recusou {sponsor} ({amount}/semana).",
+      "trainingCost": "Treino",
+      "trainingIntensity": "Intensidade {intensity}",
+      "bankBalance": "Saldo em Banco",
+      "fitnessTitle": "Extrato Físico e de Condição",
+      "currentFitness": "Condicionamento Atual",
+      "fitnessDrain": "Desgaste em Jogos",
+      "fitnessRecovery": "Recuperação Semanal",
+      "fitnessNet": "Saldo Físico Semanal",
+      "drainDetail": "Partidas ({matches}) + Treino ({training})",
+      "recoveryDetail": "Descanso e Fisioterapia",
+      "statusExcellent": "Excelente",
+      "statusGood": "Bom",
+      "statusTired": "Desgastado",
+      "statusExhausted": "Exausto",
+      "matches": "Jogos & condição",
+      "match": "jogo",
+      "matchesWord": "jogos",
+      "fitness": "Fitness (jogos + recuperação)",
+      "fitnessNote": "Os valores exibidos são as alterações realmente aplicadas pelo motor de simulação.",
+      "moraleTitle": "Moral & reputação",
+      "morale": "Moral",
+      "reputation": "Reputação",
+      "followers": "Seguidores",
+      "overall": "Overall",
+      "attributes": "Principais atributos",
+      "noChanges": "Nenhuma mudança de atributo recente.",
+      "financeTitle": "Extrato Financeiro Semanal",
+      "trainer": "Preparador",
+      "matchesPlayed": "Jogos disputados",
+      "minutesPlayed": "Minutos",
+      "actualFitnessDelta": "Variação real do condicionamento",
+      "noReportYet": "Simule uma semana para gerar o primeiro relatório exato."
+    },
     "matchPanel": {
       "simulateMatch": "Simular Partida",
       "penultimateMatch": "Penúltimo Jogo (Rod {matchday})",
@@ -538,7 +585,13 @@
     "advanceTired": "Cansado ({fitness}%)",
     "club": "Clube Atual",
     "fitness": "Condicionamento",
-    "winner": "Vencedor"
+    "winner": "Vencedor",
+    "weeklyReport": "Relatório Semanal"
+  },
+  "fitness": {
+    "injuryRiskLow": "Risco Baixo",
+    "injuryRiskModerate": "Risco Moderado",
+    "injuryRiskHigh": "Risco Alto"
   },
   "goalsShort": "G",
   "journey": {
@@ -662,7 +715,7 @@
     "androidOnly": "Google Play Games está disponível apenas em dispositivos Android.",
     "debugAchievements": "Debug de Conquistas",
     "devModeDescription": "O Google Play Games está desativado em versões de desenvolvimento. Use a versão de produção para acessar conquistas e rankings.",
-    "devModeTitle": "🔧 Modo de Teste",
+    "devModeTitle": "Modo de Teste",
     "leaderboards": "Placares",
     "signIn": "Entrar",
     "signedInAs": "Conectado como",
@@ -1188,7 +1241,7 @@
     },
     "startCareer": "Iniciar Carreira",
     "startingContinent": "Continente de Início",
-    "randomCountry": "🎲 Aleatório",
+    "randomCountry": "Aleatório",
     "startingAge": "Idade Inicial",
     "selectCountry": "Selecionar País",
     "selectPosition": "Selecione a Posição",
@@ -1367,13 +1420,13 @@
   },
   "social": {
     "comments": {
-      "highOverall": "Talento de classe mundial. Simplesmente inigualável. 🏆",
+      "highOverall": "Talento de classe mundial. Simplesmente inigualável.",
       "lowOverall": "Ainda tem muito a provar neste nível.",
-      "goodForm": "{name} está em uma forma incrível agora! 🔥",
-      "badForm": "Fase difícil para {name}. Precisa melhorar. 📉",
-      "youngTalent": "Apenas {age}? O futuro é brilhante! ✨",
-      "veteranPlayer": "Experiência é tudo. {age} e continua firme. 🍷",
-      "generalSupport": "Continue lutando pelo {team}! ❤️",
+      "goodForm": "{name} está em uma forma incrível agora!",
+      "badForm": "Fase difícil para {name}. Precisa melhorar.",
+      "youngTalent": "Apenas {age}? O futuro é brilhante!",
+      "veteranPlayer": "Experiência é tudo. {age} e continua firme.",
+      "generalSupport": "Continue lutando pelo {team}!",
       "hoursAgo": "há {count}h",
       "daysAgo": "há {count}d"
     },
@@ -1691,12 +1744,12 @@
       "terminated": "Contrato encerrado com {team}."
     },
     "generated": {
-      "agent_meeting": "🤝 Seu agente quer discutir seu futuro."
+      "agent_meeting": "Seu agente quer discutir seu futuro."
     }
   },
   "goals": {
-    "achieved": "🎯 Objetivo Alcançado: {narrative}",
-    "newGoal": "🎯 Novo Objetivo Desbloqueado: {goal}"
+    "achieved": "Objetivo Alcançado: {narrative}",
+    "newGoal": "Novo Objetivo Desbloqueado: {goal}"
   },
   "trophiesSection": {
     "Copa São Paulo de Futebol Júnior": "Copa São Paulo de Futebol Júnior",

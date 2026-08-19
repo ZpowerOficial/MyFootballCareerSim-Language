@@ -335,7 +335,7 @@
     "pt": "Português",
     "scheduled": "Scheduled",
     "complete": "Complete",
-    "championLabel": "Champion: ",
+    "championLabel": "Champion:",
     "seeMore": "See more",
     "player": "Player",
     "instagram": "Instagram",
@@ -460,6 +460,53 @@
     "rankings": "Rankings",
     "transfers": "Transfers",
     "seasonSummary": "Season Summary",
+    "weeklyTransparency": {
+      "title": "Weekly Report",
+      "macroOverview": "Weekly Macro Overview",
+      "balance": "Net balance",
+      "netCashFlow": "Net Weekly Flow",
+      "salary": "Salary",
+      "grossWage": "Gross Salary",
+      "netWage": "Net Salary",
+      "agent": "Agent",
+      "sponsors": "Sponsors",
+      "activeSponsorsCount": "{count} active contracts",
+      "commercialDecision": "Commercial decision",
+      "agentAccepted": "Your agent accepted {sponsor} for {amount}/week.",
+      "agentDeclined": "Your agent declined {sponsor} ({amount}/week).",
+      "trainingCost": "Training",
+      "trainingIntensity": "{intensity} intensity",
+      "bankBalance": "Bank Balance",
+      "fitnessTitle": "Physical & Fitness Statement",
+      "currentFitness": "Current Fitness",
+      "fitnessDrain": "Match Fitness Drain",
+      "fitnessRecovery": "Weekly Recovery",
+      "fitnessNet": "Weekly Fitness Balance",
+      "drainDetail": "Matches ({matches}) + Training ({training})",
+      "recoveryDetail": "Rest & Physiotherapy",
+      "statusExcellent": "Excellent",
+      "statusGood": "Good",
+      "statusTired": "Tired",
+      "statusExhausted": "Exhausted",
+      "matches": "Matches & condition",
+      "match": "match",
+      "matchesWord": "matches",
+      "fitness": "Fitness (matches + recovery)",
+      "fitnessNote": "Values shown are the changes actually applied by the simulation engine.",
+      "moraleTitle": "Morale & reputation",
+      "morale": "Morale",
+      "reputation": "Reputação",
+      "followers": "Followers",
+      "overall": "Overall",
+      "attributes": "Top attributes",
+      "noChanges": "No recent attribute changes.",
+      "financeTitle": "Weekly Financial Statement",
+      "trainer": "Trainer",
+      "matchesPlayed": "Matches played",
+      "minutesPlayed": "Minutes",
+      "actualFitnessDelta": "Actual fitness change",
+      "noReportYet": "Simulate a week to generate the first exact report."
+    },
     "matchPanel": {
       "simulateMatch": "Simulate Match",
       "penultimateMatch": "Penultimate Match (Round {matchday})",
@@ -538,7 +585,13 @@
     "advanceTired": "Tired ({fitness}%)",
     "club": "Current Club",
     "fitness": "Fitness",
-    "winner": "Winner"
+    "winner": "Winner",
+    "weeklyReport": "Weekly Report"
+  },
+  "fitness": {
+    "injuryRiskLow": "Low Risk",
+    "injuryRiskModerate": "Moderate Risk",
+    "injuryRiskHigh": "High Risk"
   },
   "goalsShort": "G",
   "journey": {
@@ -662,7 +715,7 @@
     "androidOnly": "Google Play Games is Android only.",
     "debugAchievements": "Debug Achievements",
     "devModeDescription": "Google Play Games disabled in dev. Use production build for achievements.",
-    "devModeTitle": "🔧 Test Mode",
+    "devModeTitle": "Test Mode",
     "leaderboards": "Leaderboards",
     "signIn": "Sign In",
     "signedInAs": "Signed in as",
@@ -1212,7 +1265,7 @@
     "season": "Season",
     "overallShort": "OVR",
     "randomFoot": "Random",
-    "randomCountry": "🎲 Random",
+    "randomCountry": "Random",
     "randomName": "Random Name",
     "randomize": "Randomize",
     "right": "Right",
@@ -1367,11 +1420,11 @@
     "comments": {
       "highOverall": "What a player! World class.",
       "lowOverall": "Needs to improve to play at this level.",
-      "goodForm": "{name} is in incredible form right now! 🔥",
-      "badForm": "Rough patch for {name}. Needs to step up. 📉",
-      "youngTalent": "Only {age}? The future is bright! ✨",
-      "veteranPlayer": "Experience is everything. {age} and still going strong. 🍷",
-      "generalSupport": "Keep fighting for {team}! ❤️",
+      "goodForm": "{name} is in incredible form right now!",
+      "badForm": "Rough patch for {name}. Needs to step up.",
+      "youngTalent": "Only {age}? The future is bright!",
+      "veteranPlayer": "Experience is everything. {age} and still going strong.",
+      "generalSupport": "Keep fighting for {team}!",
       "hoursAgo": "{count}h ago",
       "daysAgo": "{count}d ago"
     },
@@ -1686,12 +1739,12 @@
       "terminated": "Contract terminated with {team}."
     },
     "generated": {
-      "agent_meeting": "🤝 Your agent wants to discuss your future."
+      "agent_meeting": "Your agent wants to discuss your future."
     }
   },
   "goals": {
-    "achieved": "🎯 Goal Achieved: {narrative}",
-    "newGoal": "🎯 New Goal Unlocked: {goal}"
+    "achieved": "Goal Achieved: {narrative}",
+    "newGoal": "New Goal Unlocked: {goal}"
   },
   "trophiesSection": {
     "Copa São Paulo de Futebol Júnior": "Sao Paulo Youth Cup",

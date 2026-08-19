@@ -109,7 +109,9 @@
     "golden_boy": "Jovem Jogador do Ano",
     "league_mvp": "Melhor Jogador da Liga",
     "league_team_of_the_season": "Seleção da Liga",
-    "team_of_the_year": "Equipe do Ano"
+    "team_of_the_year": "Equipe do Ano",
+    "titleCount": "títulos",
+    "achievements": "Troféus"
   },
   "careerPhases": {
     "breakthrough": "Entrando no futebol profissional",
@@ -173,9 +175,11 @@
     "superCupFormat": "{{country}} Supertaça",
     "unknownLeague": "Liga Desconhecida",
     "worldCup": "Torneio Mundial",
-    "youthLeagueFormat": "{{country}} Juvenil",
+    "youthLeagueFormat": "{{country}} {{youth}}",
     "americasderby": "Clássico das Américas",
-    "unknownCup": "Copa Desconhecida"
+    "unknownCup": "Copa Desconhecida",
+    "youthCupFormat": "Copa {{country}} {{youth}}",
+    "youth": "Juvenil"
   },
   "competitionNames": {
     "African Champions Cup": "Copa Africana dos Campeões",
@@ -1191,5 +1195,8 @@
     "oceaniaCup": "Copa das Nações da OFC",
     "worldCup": "Copa do Mundo",
     "nationsLeague": "Liga das Nações"
+  },
+  "common": {
+    "youth": "Juvenil"
   }
 }

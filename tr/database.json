@@ -107,7 +107,9 @@
     "golden_boy": "Yılın Genç Oyuncusu",
     "league_mvp": "Ligin En İyi Oyuncusu",
     "league_team_of_the_season": "Ligde Yılın Takımı",
-    "team_of_the_year": "Yılın Takımı"
+    "team_of_the_year": "Yılın Takımı",
+    "titleCount": "şampiyonluk",
+    "achievements": "Kupa"
   },
   "careerPhases": {
     "breakthrough": "Profesyonel futbola geçiş",
@@ -171,8 +173,10 @@
     "superCupFormat": "{{country}} Süper Kupa",
     "unknownLeague": "Bilinmeyen Lig",
     "worldCup": "Dünya Turnuvası",
-    "youthLeagueFormat": "Gençlik Ligi {{country}}",
-    "unknownCup": "Bilinmeyen Kupa"
+    "youthLeagueFormat": "{{country}} {{youth}}",
+    "unknownCup": "Bilinmeyen Kupa",
+    "youthCupFormat": "{{country}} {{youth}} Kupası",
+    "youth": "Gençlik"
   },
   "competitionNames": {
     "African Champions Cup": "Afrika Şampiyonlar Kupası",
@@ -1165,5 +1169,8 @@
     "oceaniaCup": "OFC Uluslar Kupası",
     "worldCup": "Dünya kupası",
     "nationsLeague": "Milletler Ligi"
+  },
+  "common": {
+    "youth": "Gençlik"
   }
 }

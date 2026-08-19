@@ -107,7 +107,9 @@
     "golden_boy": "Pemain Muda Terbaik Tahun Ini",
     "league_mvp": "Pemain Terbaik Liga",
     "league_team_of_the_season": "Tim Terbaik Musim Liga",
-    "team_of_the_year": "Tim Terbaik Tahun Ini"
+    "team_of_the_year": "Tim Terbaik Tahun Ini",
+    "titleCount": "gelar",
+    "achievements": "Piala"
   },
   "careerPhases": {
     "breakthrough": "Menembus sepak bola profesional",
@@ -171,8 +173,10 @@
     "superCupFormat": "{{country}} Piala Super",
     "unknownLeague": "Liga Tidak Dikenal",
     "worldCup": "Turnamen Dunia",
-    "youthLeagueFormat": "Liga Pemuda {{country}}",
-    "unknownCup": "Piala Tidak Dikenal"
+    "youthLeagueFormat": "{{country}} {{youth}}",
+    "unknownCup": "Piala Tidak Dikenal",
+    "youthCupFormat": "Piala {{country}} {{youth}}",
+    "youth": "Junior"
   },
   "competitionNames": {
     "African Champions Cup": "Piala Champions Afrika",
@@ -1165,5 +1169,8 @@
     "oceaniaCup": "Piala Negara OFC",
     "worldCup": "Piala Dunia",
     "nationsLeague": "Liga Bangsa-Bangsa"
+  },
+  "common": {
+    "youth": "Junior"
   }
 }

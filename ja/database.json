@@ -107,7 +107,9 @@
     "golden_boy": "若手最優秀選手賞",
     "league_mvp": "リーグ最優秀選手",
     "league_team_of_the_season": "リーグベストイレブン",
-    "team_of_the_year": "年間ベストイレブン"
+    "team_of_the_year": "年間ベストイレブン",
+    "titleCount": "優勝",
+    "achievements": "トロフィー"
   },
   "careerPhases": {
     "breakthrough": "プロサッカー界への参入",
@@ -140,7 +142,7 @@
     "continental": "コンチネンタル",
     "copaSudamericana": "南米クラブカップ",
     "copasudamericana": "南米クラブカップ",
-    "cupFormat": "{{country}} カップ",
+    "cupFormat": "{{country}}カップ",
     "europaLeague": "ヨーロッパクラブカップ",
     "fifa": "ワールドフットボール",
     "fifaBest": "世界最高",
@@ -171,8 +173,10 @@
     "superCupFormat": "{{country}} スーパー カップ",
     "unknownLeague": "未知のリーグ",
     "worldCup": "世界大会",
-    "youthLeagueFormat": "ユースリーグ{{country}}",
-    "unknownCup": "不明なカップ"
+    "youthLeagueFormat": "{{country}} {{youth}}",
+    "unknownCup": "不明なカップ",
+    "youthCupFormat": "{{country}}{{youth}}カップ",
+    "youth": "ユース"
   },
   "competitionNames": {
     "African Champions Cup": "アフリカチャンピオンズカップ",
@@ -1165,5 +1169,8 @@
     "oceaniaCup": "OFCネイションズカップ",
     "worldCup": "ワールドカップ",
     "nationsLeague": "ネーションズリーグ"
+  },
+  "common": {
+    "youth": "ユース"
   }
 }

@@ -107,7 +107,9 @@
     "golden_boy": "올해의 젊은 선수",
     "league_mvp": "리그 최우수 선수",
     "league_team_of_the_season": "리그 시즌 베스트 11",
-    "team_of_the_year": "올해의 팀"
+    "team_of_the_year": "올해의 팀",
+    "titleCount": "우승",
+    "achievements": "트로피"
   },
   "careerPhases": {
     "breakthrough": "프로축구에 진출하다",
@@ -174,8 +176,10 @@
     "superCupFormat": "{{country}} 슈퍼컵",
     "unknownLeague": "알 수 없는 리그",
     "worldCup": "월드 토너먼트",
-    "youthLeagueFormat": "청소년 리그 {{country}}",
-    "unknownCup": "알 수 없는 컵"
+    "youthLeagueFormat": "{{country}} {{youth}}",
+    "unknownCup": "알 수 없는 컵",
+    "youthCupFormat": "{{country}} {{youth}} 컵",
+    "youth": "유스"
   },
   "competitionNames": {
     "African Champions Cup": "아프리카 챔피언스컵",
@@ -1258,5 +1262,8 @@
     "oceaniaCup": "OFC 네이션스 컵",
     "worldCup": "월드컵",
     "nationsLeague": "네이션스 리그"
+  },
+  "common": {
+    "youth": "유스"
   }
 }

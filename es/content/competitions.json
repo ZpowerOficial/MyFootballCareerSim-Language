@@ -137,7 +137,7 @@
     "conferenceLeague": "Copa de Europa de Acceso",
     "continental": "Continental",
     "copaSudamericana": "Copa Sudamericana de Clubes",
-    "cupFormat": "{{country}} Copa",
+    "cupFormat": "Copa {{country}}",
     "europaLeague": "Copa de Europa de clubes",
     "fifa": "futbol mundial",
     "fifaBest": "Los mejores del mundo",
@@ -169,8 +169,9 @@
     "superCupFormat": "{{country}} Supercopa",
     "unknownLeague": "Liga Desconocida",
     "worldCup": "Torneo Mundial",
-    "youthLeagueFormat": "Liga Juvenil {{country}}",
-    "nationsTournament": "Torneo de Naciones"
+    "youthLeagueFormat": "{{country}} {{youth}}",
+    "nationsTournament": "Torneo de Naciones",
+    "youthCupFormat": "Copa {{country}} {{youth}}"
   },
   "Nations Tournament": "Nations Tournament",
   "nationsTournament": "Nations Tournament"

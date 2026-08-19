@@ -107,7 +107,9 @@
     "golden_boy": "Young Player of the Year",
     "league_mvp": "League Player of the Year",
     "league_team_of_the_season": "League Team of the Season",
-    "team_of_the_year": "Team of the Year"
+    "team_of_the_year": "Team of the Year",
+    "titleCount": "titles",
+    "achievements": "Trophies"
   },
   "careerPhases": {
     "breakthrough": "Breaking into professional football",
@@ -171,8 +173,10 @@
     "superCupFormat": "{{country}} Super Cup",
     "unknownLeague": "Unknown League",
     "worldCup": "World Tournament",
-    "youthLeagueFormat": "Youth League {{country}}",
-    "unknownCup": "Unknown Cup"
+    "youthLeagueFormat": "{{country}} {{youth}}",
+    "unknownCup": "Unknown Cup",
+    "youthCupFormat": "{{country}} {{youth}} Cup",
+    "youth": "Youth"
   },
   "competitionNames": {
     "global_replacements": "Global Replacements",
@@ -1165,5 +1169,8 @@
     "oceaniaCup": "OFC Nations Cup",
     "worldCup": "World Cup",
     "nationsLeague": "Nations League"
+  },
+  "common": {
+    "youth": "Youth"
   }
 }
