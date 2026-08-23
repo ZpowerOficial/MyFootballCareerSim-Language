@@ -136,7 +136,11 @@
     "benefit4": "mi eterna gratitud",
     "donate": "hacer una donación",
     "notNow": "no quiero ayudar",
-    "securePayment": "Pago seguro a través de Stripe"
+    "securePayment": "Pago seguro a través de Stripe",
+    "oneTime": "Donación Única",
+    "monthly": "Apoyo Mensual",
+    "oneTimeDesc": "Elige cualquier monto",
+    "monthlyDesc": "Suscripción mensual recurrente"
   },
   "common": {
     "accept": "Aceptar",
@@ -526,7 +530,8 @@
       "penaltySaved": "Penalti detenido",
       "penaltyGoal": "Gol de penalti",
       "secondYellowCard": "Segunda tarjeta amarilla",
-      "injury": "Lesión"
+      "injury": "Lesión",
+      "ownGoal": "Gol en propia puerta (PP)"
     },
     "endSeason": "Finalizar Temporada",
     "trainingPhase": "Fase de Entrenamiento y Desarrollo",
@@ -541,7 +546,7 @@
     "fitness": "Estado físico",
     "winner": "Ganador",
     "weeklyTransparency": {
-      "title": "Informe Semanal",
+      "title": "Previsión Semanal",
       "balance": "Balance neto",
       "salary": "Salario",
       "agent": "Agente",
@@ -562,14 +567,14 @@
       "overall": "Overall",
       "attributes": "Atributos principales",
       "noChanges": "Sin cambios de atributos esta semana.",
-      "financeTitle": "Extracto Financiero Semanal",
-      "netCashFlow": "Flujo Semanal Neto",
+      "financeTitle": "Previsión Financiera Exacta",
+      "netCashFlow": "Balance Semanal Exacto",
       "grossWage": "Salario Bruto",
       "trainer": "Preparador",
       "activeSponsorsCount": "{count} contratos activos",
       "trainingIntensity": "Intensidad {intensity}",
       "bankBalance": "Saldo Bancario",
-      "fitnessTitle": "Extracto Físico y de Condición",
+      "fitnessTitle": "Previsión de Condición",
       "currentFitness": "Condición Actual",
       "fitnessDrain": "Desgaste en Partidos",
       "fitnessRecovery": "Recuperación Semanal",
@@ -582,7 +587,15 @@
       "statusGood": "Bueno",
       "statusTired": "Cansado",
       "statusExhausted": "Agotado",
-      "noReportYet": "Simula una semana para generar el primer informe exacto."
+      "noReportYet": "Simula una semana para generar el primer informe exacto.",
+      "weeklyFitnessRange": "Variación de Condición",
+      "trainingFitnessDrain": "Carga Fija de Entrenamiento",
+      "matchFitnessRange": "Rango de Carga en Partidos",
+      "finalFitnessRange": "Condición Final Esperada",
+      "forecastNote": "Las finanzas y la carga de entrenamiento son exactas. La carga de los partidos varía según los minutos jugados.",
+      "macroOverview": "Resumen Macro Semanal",
+      "netWage": "Salario Neto",
+      "drainDetail": "Partidos ({matches}) + Entrenamiento ({training})"
     },
     "weeklyReport": "Informe Semanal"
   },
@@ -1199,9 +1212,9 @@
     "male": "Masculino",
     "midfielders": "Centrocampistas",
     "modeDynamic": "Dinámico",
-    "modeDynamicDesc": "Simulación rápida. Las decisiones se toman automáticamente.",
+    "modeDynamicDesc": "Simulación más automática donde las decisiones en el campo fluyen directamente de tus atributos y la dinámica del equipo.",
     "modeTactical": "Táctico",
-    "modeTacticalDesc": "El juego se pausa en momentos clave para tus decisiones.",
+    "modeTacticalDesc": "Experiencia inmersiva de partido con profundidad táctica e intervenciones estratégicas en momentos decisivos.",
     "newCareer": "Nueva carrera",
     "normal": "Normal",
     "optional": "opcional",
@@ -1265,10 +1278,10 @@
     "overwriteConfirm": "¿Estás seguro?",
     "overwriteWarning": "Se perderá la carrera de {name} en {club}.",
     "season": "Temporada",
-    "simMatch": "Por partido",
-    "simMatchDesc": "Avanza partido a partido en el panel (inmersivo)",
-    "simSeason": "Por temporada",
-    "simSeasonDesc": "Simula toda la temporada de una vez (rápido)",
+    "simMatch": "Por Partido",
+    "simMatchDesc": "Sigue partido a partido en el panel con control detallado e inmersión",
+    "simSeason": "Por Temporada",
+    "simSeasonDesc": "Simulación continua de la temporada de forma fluida y directa",
     "simulationMode": "Modo de simulación",
     "slot": "Ranura",
     "slotCreateNew": "Crear nueva carrera",
@@ -1282,7 +1295,20 @@
     "devNewsLoading": "Buscando novedades...",
     "devNewsError": "No se pudieron cargar las novedades.",
     "devNewsOpenDiscord": "Entrar al Discord",
-    "devNewsNoNews": "No hay novedades disponibles."
+    "devNewsNoNews": "No hay novedades disponibles.",
+    "classicCareer": "Clásico",
+    "classicCareerDesc": "Dinámico · Temporada · Ligero",
+    "simulationDetailsTitle": "Detalle de Simulación",
+    "simulationDetailsSubtitle": "Define el ritmo y la profundidad de tu carrera",
+    "simPaceSection": "Ritmo de Simulación",
+    "simDepthSection": "Profundidad de Simulación",
+    "simDetailLiteDesc": "Procesamiento ligero y enfocado, ideal para la evolución de tu carrera.",
+    "simDetailFullDesc": "Estadísticas completas y telemetría profunda de todo el fútbol mundial.",
+    "stepSlot": "Ranura",
+    "stepMode": "Modo",
+    "stepSimulation": "Simulación",
+    "stepPlayer": "Jugador",
+    "continue": "Continuar"
   },
   "matchPanel": {
     "title": "Simular partido",
@@ -1782,5 +1808,10 @@
     "noStackTrace": "No hay stack trace disponible",
     "reloadStrategy": "Estrategia de recarga",
     "nativeSeasonAdvance": "El avance de temporada nativo no devolvió datos de guardado actualizados"
+  },
+  "fitness": {
+    "injuryRiskLow": "Riesgo Bajo",
+    "injuryRiskModerate": "Riesgo Moderado",
+    "injuryRiskHigh": "Riesgo Alto"
   }
 }

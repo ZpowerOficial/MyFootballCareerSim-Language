@@ -497,7 +497,8 @@
       "penaltySaved": "페널티킥 선방",
       "penaltyGoal": "페널티킥 득점",
       "secondYellowCard": "두 번째 옐로카드",
-      "injury": "부상"
+      "injury": "부상",
+      "ownGoal": "자책골 (OG)"
     },
     "endSeason": "시즌 종료",
     "trainingPhase": "훈련 및 개발 단계",
@@ -512,7 +513,7 @@
     "fitness": "컨디션",
     "winner": "우승자",
     "weeklyTransparency": {
-      "title": "주간 보고서",
+      "title": "주간 예측",
       "balance": "순 잔액",
       "salary": "급여",
       "agent": "에이전트",
@@ -533,14 +534,14 @@
       "overall": "종합",
       "attributes": "주요 스탯",
       "noChanges": "이번 주 스탯 변화 없음.",
-      "financeTitle": "주간 재정 명세",
-      "netCashFlow": "주간 순현금 흐름",
+      "financeTitle": "정확한 재정 예측",
+      "netCashFlow": "정확한 주간 잔액",
       "grossWage": "총 급여",
       "trainer": "트레이너",
       "activeSponsorsCount": "활성 계약 {count}개",
       "trainingIntensity": "강도 {intensity}",
       "bankBalance": "은행 잔액",
-      "fitnessTitle": "주간 체력 명세",
+      "fitnessTitle": "체력 예측",
       "currentFitness": "현재 체력",
       "fitnessDrain": "경기 체력 소모",
       "fitnessRecovery": "주간 회복",
@@ -553,7 +554,15 @@
       "statusGood": "좋음",
       "statusTired": "피곤함",
       "statusExhausted": "탈진",
-      "noReportYet": "첫 번째 정확한 보고서를 만들려면 한 주를 시뮬레이션하세요."
+      "noReportYet": "첫 번째 정확한 보고서를 만들려면 한 주를 시뮬레이션하세요.",
+      "weeklyFitnessRange": "체력 변화",
+      "trainingFitnessDrain": "고정 훈련 부하",
+      "matchFitnessRange": "경기 부하 범위",
+      "finalFitnessRange": "예상 최종 체력",
+      "forecastNote": "재정과 훈련 부하는 정확합니다. 경기 부하는 출전 시간에 따라 달라집니다.",
+      "macroOverview": "주간 매크로 개요",
+      "netWage": "세후 급여",
+      "drainDetail": "경기 ({matches}) + 훈련 ({training})"
     },
     "weeklyReport": "주간 보고서"
   },
@@ -567,7 +576,11 @@
     "notNow": "도움을 주고 싶지 않습니다",
     "securePayment": "Stripe을 통한 안전한 결제",
     "supportProject": "프로젝트 후원",
-    "title": "프로젝트 후원"
+    "title": "프로젝트 후원",
+    "oneTime": "1회성 후원",
+    "monthly": "월간 후원",
+    "oneTimeDesc": "원하는 금액 선택",
+    "monthlyDesc": "정기 월간 후원"
   },
   "goalsShort": "골",
   "journey": {
@@ -1120,9 +1133,9 @@
     "male": "남성",
     "midfielders": "미드필더",
     "modeDynamic": "다이나믹",
-    "modeDynamicDesc": "빠른 시뮬레이션. 결정이 자동으로 내려집니다.",
+    "modeDynamicDesc": "경기장 내 결정이 능력치와 팀 연계에 따라 자동으로 전개되는 매끄러운 시뮬레이션.",
     "modeTactical": "택티컬",
-    "modeTacticalDesc": "당신의 결정을 위해 주요 순간에 게임이 일시정지됩니다.",
+    "modeTacticalDesc": "결정적인 순간에 전술적 개입과 전략적 판단을 즐기는 몰입감 높은 경기 경험.",
     "newCareer": "새 커리어",
     "normal": "보통",
     "optional": "선택 사항",
@@ -1187,9 +1200,9 @@
     "overwriteWarning": "{club}에서의 {name} 커리어가 사라집니다.",
     "season": "시즌",
     "simMatch": "경기별",
-    "simMatchDesc": "대시보드에서 경기별로 진행 (몰입형)",
+    "simMatchDesc": "대시보드에서 경기별로 깊이 있는 제어와 몰입감을 경험하며 진행",
     "simSeason": "시즌별",
-    "simSeasonDesc": "시즌 전체를 한 번에 시뮬레이션 (빠름)",
+    "simSeasonDesc": "매끄러운 흐름으로 시즌 전체를 연속 시뮬레이션",
     "simulationMode": "시뮬레이션 모드",
     "slot": "슬롯",
     "slotCreateNew": "새 커리어 생성",
@@ -1203,7 +1216,20 @@
     "devNewsLoading": "업데이트 확인 중...",
     "devNewsError": "뉴스를 불러올 수 없습니다.",
     "devNewsOpenDiscord": "디스코드 참여",
-    "devNewsNoNews": "이용 가능한 소식이 없습니다."
+    "devNewsNoNews": "이용 가능한 소식이 없습니다.",
+    "classicCareer": "클래식",
+    "classicCareerDesc": "다이내믹 · 시즌 · 라이트",
+    "simulationDetailsTitle": "시뮬레이션 상세",
+    "simulationDetailsSubtitle": "커리어의 속도와 상세 수준을 설정하세요",
+    "simPaceSection": "시뮬레이션 속도",
+    "simDepthSection": "시뮬레이션 깊이",
+    "simDetailLiteDesc": "선수 커리어 성장에 집중된 가볍고 쾌적한 처리.",
+    "simDetailFullDesc": "세계 축구 전반의 상세한 통계와 깊이 있는 경기 텔레메트리.",
+    "stepSlot": "슬롯",
+    "stepMode": "모드",
+    "stepSimulation": "시뮬레이션",
+    "stepPlayer": "선수",
+    "continue": "계속"
   },
   "matchPanel": {
     "title": "경기 시뮬레이션",
@@ -1784,5 +1810,10 @@
     "noStackTrace": "스택 트레이스 없음",
     "reloadStrategy": "다시 로드 전략",
     "nativeSeasonAdvance": "네이티브 시즌 진행이 업데이트된 세이브 데이터를 반환하지 않았습니다"
+  },
+  "fitness": {
+    "injuryRiskLow": "낮은 위험",
+    "injuryRiskModerate": "보통 위험",
+    "injuryRiskHigh": "높은 위험"
   }
 }

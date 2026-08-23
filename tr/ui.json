@@ -497,7 +497,8 @@
       "penaltySaved": "Kurtarılan penaltı",
       "penaltyGoal": "Penaltı golü",
       "secondYellowCard": "İkinci sarı kart",
-      "injury": "Sakatlık"
+      "injury": "Sakatlık",
+      "ownGoal": "Kendi kalesine gol (KK)"
     },
     "endSeason": "Sezonu Bitir",
     "trainingPhase": "Antrenman ve Gelişim Aşaması",
@@ -512,7 +513,7 @@
     "fitness": "Form",
     "winner": "Kazanan",
     "weeklyTransparency": {
-      "title": "Haftalık Rapor",
+      "title": "Haftalık Tahmin",
       "balance": "Net bakiye",
       "salary": "Maaş",
       "agent": "Menajer",
@@ -533,14 +534,14 @@
       "overall": "Overall",
       "attributes": "Ana özellikler",
       "noChanges": "Bu hafta özellik değişmedi.",
-      "financeTitle": "Haftalık Mali Döküm",
-      "netCashFlow": "Haftalık Net Akış",
+      "financeTitle": "Kesin Mali Tahmin",
+      "netCashFlow": "Kesin Haftalık Bakiye",
       "grossWage": "Brüt Maaş",
       "trainer": "Antrenör",
       "activeSponsorsCount": "{count} aktif sözleşme",
       "trainingIntensity": "{intensity} yoğunluk",
       "bankBalance": "Banka Bakiyesi",
-      "fitnessTitle": "Fiziksel Durum Dökümü",
+      "fitnessTitle": "Kondisyon Tahmini",
       "currentFitness": "Mevcut Kondisyon",
       "fitnessDrain": "Maç Kondisyon Kaybı",
       "fitnessRecovery": "Haftalık Toparlanma",
@@ -553,7 +554,15 @@
       "statusGood": "İyi",
       "statusTired": "Yorgun",
       "statusExhausted": "Tükenmiş",
-      "noReportYet": "İlk kesin raporu oluşturmak için bir hafta simüle et."
+      "noReportYet": "İlk kesin raporu oluşturmak için bir hafta simüle et.",
+      "weeklyFitnessRange": "Kondisyon Değişimi",
+      "trainingFitnessDrain": "Sabit Antrenman Yükü",
+      "matchFitnessRange": "Maç Yükü Aralığı",
+      "finalFitnessRange": "Beklenen Son Kondisyon",
+      "forecastNote": "Mali durum ve antrenman yükü kesindir. Maç yükü oynanan dakikaya göre değişir.",
+      "macroOverview": "Haftalık Makro Genel Bakış",
+      "netWage": "Net Maaş",
+      "drainDetail": "Maçlar ({matches}) + Antrenman ({training})"
     },
     "weeklyReport": "Haftalık Rapor"
   },
@@ -567,7 +576,11 @@
     "notNow": "Yardım etmek istemiyorum",
     "securePayment": "Stripe ile güvenli ödeme",
     "supportProject": "Projeyi Destekle",
-    "title": "Projeyi Destekle"
+    "title": "Projeyi Destekle",
+    "oneTime": "Tek Seferlik Bağış",
+    "monthly": "Aylık Destek",
+    "oneTimeDesc": "İstediğiniz tutarı seçin",
+    "monthlyDesc": "Düzenli aylık katkı"
   },
   "goalsShort": "G",
   "journey": {
@@ -1122,9 +1135,9 @@
     "male": "Erkek",
     "midfielders": "Orta Sahalar",
     "modeDynamic": "Dinamik",
-    "modeDynamicDesc": "Hızlı simülasyon. Kararlar otomatik alınır.",
+    "modeDynamicDesc": "Sahadaki kararların özelliklerinize ve takım dinamiğine göre otomatik olarak şekillendiği akıcı simülasyon.",
     "modeTactical": "Taktiksel",
-    "modeTacticalDesc": "Oyun kararlarınız için önemli anlarda duraklar.",
+    "modeTacticalDesc": "Kritik anlarda stratejik müdahaleler ve taktiksel derinlik sunan sürükleyici maç deneyimi.",
     "newCareer": "Yeni Kariyer",
     "normal": "Normal",
     "optional": "isteğe bağlı",
@@ -1188,10 +1201,10 @@
     "overwriteConfirm": "Emin misiniz?",
     "overwriteWarning": "{club} kulübündeki {name} kariyeri kaybolacak.",
     "season": "Sezon",
-    "simMatch": "Maç başına",
-    "simMatchDesc": "Gösterge panelinde maç maç ilerle (sürükleyici)",
-    "simSeason": "Sezon başına",
-    "simSeasonDesc": "Tüm sezonu tek seferde simüle et (hızlı)",
+    "simMatch": "Maç Başına",
+    "simMatchDesc": "Kontrol panelinden derin kontrol ve tam sürükleyicilikle maç maç ilerleyin",
+    "simSeason": "Sezonluk",
+    "simSeasonDesc": "Tüm sezonu akıcı ve pratik bir şekilde kesintisiz simüle edin",
     "simulationMode": "Simülasyon modu",
     "slot": "Yuva",
     "slotCreateNew": "Yeni kariyer oluştur",
@@ -1205,7 +1218,20 @@
     "devNewsLoading": "Güncellemeler kontrol ediliyor...",
     "devNewsError": "Haberler yüklenemedi.",
     "devNewsOpenDiscord": "Discord'a Katıl",
-    "devNewsNoNews": "Haber bulunamadı."
+    "devNewsNoNews": "Haber bulunamadı.",
+    "classicCareer": "Klasik",
+    "classicCareerDesc": "Dinamik · Sezon · Hafif",
+    "simulationDetailsTitle": "Simülasyon Detayı",
+    "simulationDetailsSubtitle": "Kariyerinizin hızını ve derinliğini belirleyin",
+    "simPaceSection": "Simülasyon Hızı",
+    "simDepthSection": "Simülasyon Derinliği",
+    "simDetailLiteDesc": "Kariyerinizin gelişimine odaklanan hafif ve pratik işleme.",
+    "simDetailFullDesc": "Dünya futbolu genelinde kapsamlı istatistikler ve derin maç telemetrisi.",
+    "stepSlot": "Yuva",
+    "stepMode": "Mod",
+    "stepSimulation": "Simülasyon",
+    "stepPlayer": "Oyuncu",
+    "continue": "Devam Et"
   },
   "matchPanel": {
     "title": "Maçı simüle et",
@@ -1786,5 +1812,10 @@
     "noStackTrace": "Yığın izi yok",
     "reloadStrategy": "Yeniden yükleme stratejisi",
     "nativeSeasonAdvance": "Yerel sezon ilerlemesi güncel kayıt verisi döndürmedi"
+  },
+  "fitness": {
+    "injuryRiskLow": "Düşük Risk",
+    "injuryRiskModerate": "Orta Risk",
+    "injuryRiskHigh": "Yüksek Risk"
   }
 }

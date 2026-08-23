@@ -497,7 +497,8 @@
       "penaltySaved": "Penalti diselamatkan",
       "penaltyGoal": "Gol penalti",
       "secondYellowCard": "Kartu kuning kedua",
-      "injury": "Cedera"
+      "injury": "Cedera",
+      "ownGoal": "Gol bunuh diri (BD)"
     },
     "endSeason": "Akhiri Musim",
     "trainingPhase": "Fase Pelatihan & Pengembangan",
@@ -512,7 +513,7 @@
     "fitness": "Kebugaran",
     "winner": "Pemenang",
     "weeklyTransparency": {
-      "title": "Laporan Mingguan",
+      "title": "Prakiraan Mingguan",
       "balance": "Saldo bersih",
       "salary": "Gaji",
       "agent": "Agen",
@@ -533,14 +534,14 @@
       "overall": "Overall",
       "attributes": "Atribut utama",
       "noChanges": "Tidak ada perubahan atribut minggu ini.",
-      "financeTitle": "Laporan Keuangan Mingguan",
-      "netCashFlow": "Arus Bersih Mingguan",
+      "financeTitle": "Prakiraan Keuangan Tepat",
+      "netCashFlow": "Saldo Mingguan Tepat",
       "grossWage": "Gaji Kotor",
       "trainer": "Pelatih",
       "activeSponsorsCount": "{count} kontrak aktif",
       "trainingIntensity": "Intensitas {intensity}",
       "bankBalance": "Saldo Bank",
-      "fitnessTitle": "Laporan Fisik dan Kebugaran",
+      "fitnessTitle": "Prakiraan Kebugaran",
       "currentFitness": "Kebugaran Saat Ini",
       "fitnessDrain": "Penurunan akibat Pertandingan",
       "fitnessRecovery": "Pemulihan Mingguan",
@@ -553,7 +554,15 @@
       "statusGood": "Baik",
       "statusTired": "Lelah",
       "statusExhausted": "Kelelahan",
-      "noReportYet": "Simulasikan satu pekan untuk membuat laporan akurat pertama."
+      "noReportYet": "Simulasikan satu pekan untuk membuat laporan akurat pertama.",
+      "weeklyFitnessRange": "Perubahan Kebugaran",
+      "trainingFitnessDrain": "Beban Latihan Tetap",
+      "matchFitnessRange": "Rentang Beban Pertandingan",
+      "finalFitnessRange": "Kebugaran Akhir yang Diharapkan",
+      "forecastNote": "Keuangan dan beban latihan bersifat tepat. Beban pertandingan berubah sesuai menit bermain.",
+      "macroOverview": "Ikhtisar Makro Mingguan",
+      "netWage": "Gaji Bersih",
+      "drainDetail": "Pertandingan ({matches}) + Latihan ({training})"
     },
     "weeklyReport": "Laporan Mingguan"
   },
@@ -567,7 +576,11 @@
     "notNow": "Saya tidak ingin membantu",
     "securePayment": "Pembayaran aman via Stripe",
     "supportProject": "Dukung Proyek",
-    "title": "Dukung Proyek"
+    "title": "Dukung Proyek",
+    "oneTime": "Donasi Sekali",
+    "monthly": "Dukungan Bulanan",
+    "oneTimeDesc": "Pilih jumlah donasi",
+    "monthlyDesc": "Langganan bulanan berulang"
   },
   "goalsShort": "G",
   "journey": {
@@ -1120,9 +1133,9 @@
     "male": "Pria",
     "midfielders": "Gelandang",
     "modeDynamic": "Dinamis",
-    "modeDynamicDesc": "Fast simulation. Decisions are made automatically.",
+    "modeDynamicDesc": "Simulasi yang lebih otomatis di mana keputusan di lapangan mengalir langsung dari atribut Anda dan dinamika tim.",
     "modeTactical": "Taktis",
-    "modeTacticalDesc": "Game pauses at key moments for your decisions.",
+    "modeTacticalDesc": "Pengalaman pertandingan yang imersif dengan kedalaman taktis dan intervensi strategis di momen-momen krusial.",
     "newCareer": "Karir Baru",
     "normal": "Biasa",
     "optional": "opsional",
@@ -1186,10 +1199,10 @@
     "overwriteConfirm": "Apakah Anda yakin?",
     "overwriteWarning": "Karier {name} di {club} akan hilang.",
     "season": "Musim",
-    "simMatch": "Per pertandingan",
-    "simMatchDesc": "Lanjutkan pertandingan demi pertandingan di dashboard (imersif)",
-    "simSeason": "Per musim",
-    "simSeasonDesc": "Simulasikan seluruh musim sekaligus (cepat)",
+    "simMatch": "Per Pertandingan",
+    "simMatchDesc": "Ikuti pertandingan demi pertandingan di dasbor dengan kontrol penuh dan imersif",
+    "simSeason": "Per Musim",
+    "simSeasonDesc": "Simulasi musim secara berkelanjutan dengan alur yang mulus dan efisien",
     "simulationMode": "Mode simulasi",
     "slot": "Slot Karier",
     "slotCreateNew": "Buat karier baru",
@@ -1203,7 +1216,20 @@
     "devNewsLoading": "Memeriksa pembaruan...",
     "devNewsError": "Tidak dapat memuat berita.",
     "devNewsOpenDiscord": "Gabung Discord",
-    "devNewsNoNews": "Tidak ada berita tersedia."
+    "devNewsNoNews": "Tidak ada berita tersedia.",
+    "classicCareer": "Klasik",
+    "classicCareerDesc": "Dinamis · Musim · Ringan",
+    "simulationDetailsTitle": "Detail Simulasi",
+    "simulationDetailsSubtitle": "Tentukan kecepatan dan kedalaman karier Anda",
+    "simPaceSection": "Kecepatan Simulasi",
+    "simDepthSection": "Kedalaman Simulasi",
+    "simDetailLiteDesc": "Pemrosesan ringan dan terfokus, ideal untuk perkembangan karier Anda.",
+    "simDetailFullDesc": "Statistik lengkap dan telemetri mendalam dari seluruh dunia sepak bola.",
+    "stepSlot": "Slot",
+    "stepMode": "Mode",
+    "stepSimulation": "Simulasi",
+    "stepPlayer": "Pemain",
+    "continue": "Lanjutkan"
   },
   "matchPanel": {
     "title": "Simulasikan pertandingan",
@@ -1784,5 +1810,10 @@
     "noStackTrace": "Tidak ada stack trace",
     "reloadStrategy": "Strategi Muat Ulang",
     "nativeSeasonAdvance": "Kemajuan musim native tidak mengembalikan data save yang diperbarui"
+  },
+  "fitness": {
+    "injuryRiskLow": "Risiko Rendah",
+    "injuryRiskModerate": "Risiko Sedang",
+    "injuryRiskHigh": "Risiko Tinggi"
   }
 }

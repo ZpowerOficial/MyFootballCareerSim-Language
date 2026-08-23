@@ -497,7 +497,8 @@
       "penaltySaved": "Пенальти отражён",
       "penaltyGoal": "Гол с пенальти",
       "secondYellowCard": "Вторая жёлтая карточка",
-      "injury": "Травма"
+      "injury": "Травма",
+      "ownGoal": "Автогол (АГ)"
     },
     "endSeason": "Завершить сезон",
     "trainingPhase": "Этап тренировок и развития",
@@ -512,7 +513,7 @@
     "fitness": "Форма",
     "winner": "Победитель",
     "weeklyTransparency": {
-      "title": "Еженедельный отчет",
+      "title": "Прогноз на Неделю",
       "balance": "Чистый баланс",
       "salary": "Зарплата",
       "agent": "Агент",
@@ -533,14 +534,14 @@
       "overall": "Общий рейтинг",
       "attributes": "Основные атрибуты",
       "noChanges": "На этой неделе атрибуты не менялись.",
-      "financeTitle": "Еженедельный Финансовый Отчёт",
-      "netCashFlow": "Чистый Поток за Неделю",
+      "financeTitle": "Точный Финансовый Прогноз",
+      "netCashFlow": "Точный Баланс за Неделю",
       "grossWage": "Зарплата до Вычетов",
       "trainer": "Тренер",
       "activeSponsorsCount": "Активных контрактов: {count}",
       "trainingIntensity": "Интенсивность: {intensity}",
       "bankBalance": "Баланс Счёта",
-      "fitnessTitle": "Отчёт о Физической Форме",
+      "fitnessTitle": "Прогноз Формы",
       "currentFitness": "Текущая Форма",
       "fitnessDrain": "Расход Сил в Матчах",
       "fitnessRecovery": "Восстановление за Неделю",
@@ -553,7 +554,15 @@
       "statusGood": "Хорошо",
       "statusTired": "Устал",
       "statusExhausted": "Истощён",
-      "noReportYet": "Симулируйте неделю, чтобы создать первый точный отчёт."
+      "noReportYet": "Симулируйте неделю, чтобы создать первый точный отчёт.",
+      "weeklyFitnessRange": "Изменение Формы",
+      "trainingFitnessDrain": "Фиксированная Нагрузка от Тренировок",
+      "matchFitnessRange": "Диапазон Нагрузки в Матчах",
+      "finalFitnessRange": "Ожидаемая Итоговая Форма",
+      "forecastNote": "Финансы и нагрузка от тренировок точны. Нагрузка в матчах зависит от сыгранных минут.",
+      "macroOverview": "Еженедельный макрообзор",
+      "netWage": "Чистая зарплата",
+      "drainDetail": "Матчи ({matches}) + Тренировка ({training})"
     },
     "weeklyReport": "Еженедельный отчет"
   },
@@ -567,7 +576,11 @@
     "notNow": "Я не хочу помогать",
     "securePayment": "Безопасный платёж через Stripe",
     "supportProject": "Поддержать проект",
-    "title": "Поддержать проект"
+    "title": "Поддержать проект",
+    "oneTime": "Разовое пожертвование",
+    "monthly": "Ежемесячная поддержка",
+    "oneTimeDesc": "Выберите любую сумму",
+    "monthlyDesc": "Ежемесячная подписка"
   },
   "goalsShort": "Г",
   "journey": {
@@ -1120,9 +1133,9 @@
     "male": "Мужской",
     "midfielders": "Полузащитники",
     "modeDynamic": "Динамический",
-    "modeDynamicDesc": "Быстрая симуляция. Решения принимаются автоматически.",
+    "modeDynamicDesc": "Более автоматическая симуляция, где решения на поле напрямую зависят от ваших характеристик и командной игры.",
     "modeTactical": "Тактический",
-    "modeTacticalDesc": "Игра останавливается в ключевые моменты для принятия решений.",
+    "modeTacticalDesc": "Глубокий иммерсивный опыт матча с тактической глубиной и стратегическими решениями в решающие моменты.",
     "newCareer": "Новая карьера",
     "normal": "Нормально",
     "optional": "опционально",
@@ -1186,10 +1199,10 @@
     "overwriteConfirm": "Вы уверены?",
     "overwriteWarning": "Карьера {name} в {club} будет потеряна.",
     "season": "Сезон",
-    "simMatch": "По матчу",
-    "simMatchDesc": "Продвигайтесь матч за матчем на панели (иммерсивно)",
-    "simSeason": "По сезону",
-    "simSeasonDesc": "Симулируйте весь сезон сразу (быстро)",
+    "simMatch": "По матчам",
+    "simMatchDesc": "Следите за каждым матчем на панели управления с полным контролем и погружением",
+    "simSeason": "По сезонам",
+    "simSeasonDesc": "Непрерывная симуляция всего сезона в плавном и удобном формате",
     "simulationMode": "Режим симуляции",
     "slot": "Слот",
     "slotCreateNew": "Создать новую карьеру",
@@ -1203,7 +1216,20 @@
     "devNewsLoading": "Проверка обновлений...",
     "devNewsError": "Не удалось загрузить новости.",
     "devNewsOpenDiscord": "Присоединиться к Discord",
-    "devNewsNoNews": "Новостей нет."
+    "devNewsNoNews": "Новостей нет.",
+    "classicCareer": "Классический",
+    "classicCareerDesc": "Динамичный · Сезон · Легкий",
+    "simulationDetailsTitle": "Детали симуляции",
+    "simulationDetailsSubtitle": "Выберите темп и глубину вашей карьеры",
+    "simPaceSection": "Темп симуляции",
+    "simDepthSection": "Глубина симуляции",
+    "simDetailLiteDesc": "Легкая и сфокусированная обработка, идеальная для развития вашей карьеры.",
+    "simDetailFullDesc": "Полная статистика и глубокая телеметрия матчей по всему мировому футболу.",
+    "stepSlot": "Слот",
+    "stepMode": "Режим",
+    "stepSimulation": "Симуляция",
+    "stepPlayer": "Игрок",
+    "continue": "Продолжить"
   },
   "matchPanel": {
     "title": "Симулировать матч",
@@ -1784,5 +1810,10 @@
     "noStackTrace": "Стек вызовов недоступен",
     "reloadStrategy": "Стратегия перезагрузки",
     "nativeSeasonAdvance": "Нативное продвижение сезона не вернуло обновлённые данные сохранения"
+  },
+  "fitness": {
+    "injuryRiskLow": "Низкий риск",
+    "injuryRiskModerate": "Умеренный риск",
+    "injuryRiskHigh": "Высокий риск"
   }
 }

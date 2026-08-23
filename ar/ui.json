@@ -497,7 +497,8 @@
       "penaltySaved": "ركلة جزاء متصدى لها",
       "penaltyGoal": "هدف من ركلة جزاء",
       "secondYellowCard": "البطاقة الصفراء الثانية",
-      "injury": "إصابة"
+      "injury": "إصابة",
+      "ownGoal": "هدف في مرماه (هدف ذاتي)"
     },
     "endSeason": "إنهاء الموسم",
     "trainingPhase": "مرحلة التدريب والتطوير",
@@ -512,7 +513,7 @@
     "fitness": "اللياقة",
     "winner": "الفائز",
     "weeklyTransparency": {
-      "title": "التقرير الأسبوعي",
+      "title": "توقعات الأسبوع",
       "balance": "الرصيد الصافي",
       "salary": "الراتب",
       "agent": "الوكيل",
@@ -533,14 +534,14 @@
       "overall": "الإجمالي",
       "attributes": "أبرز الصفات",
       "noChanges": "لا تغييرات في الصفات هذا الأسبوع.",
-      "financeTitle": "الكشف المالي الأسبوعي",
-      "netCashFlow": "صافي التدفق الأسبوعي",
+      "financeTitle": "توقعات مالية دقيقة",
+      "netCashFlow": "الرصيد الأسبوعي الدقيق",
       "grossWage": "الراتب الإجمالي",
       "trainer": "المدرب",
       "activeSponsorsCount": "{count} عقود نشطة",
       "trainingIntensity": "شدة {intensity}",
       "bankBalance": "الرصيد البنكي",
-      "fitnessTitle": "كشف اللياقة والحالة البدنية",
+      "fitnessTitle": "توقعات اللياقة",
       "currentFitness": "اللياقة الحالية",
       "fitnessDrain": "استنزاف اللياقة في المباريات",
       "fitnessRecovery": "التعافي الأسبوعي",
@@ -553,7 +554,15 @@
       "statusGood": "جيد",
       "statusTired": "متعب",
       "statusExhausted": "منهك",
-      "noReportYet": "حاكِ أسبوعًا لإنشاء أول تقرير دقيق."
+      "noReportYet": "حاكِ أسبوعًا لإنشاء أول تقرير دقيق.",
+      "weeklyFitnessRange": "تغير اللياقة",
+      "trainingFitnessDrain": "حمل التدريب الثابت",
+      "matchFitnessRange": "نطاق حمل المباريات",
+      "finalFitnessRange": "اللياقة النهائية المتوقعة",
+      "forecastNote": "الأموال وحمل التدريب دقيقان. يختلف حمل المباريات حسب الدقائق الملعوبة.",
+      "macroOverview": "نظرة عامة أسبوعية",
+      "netWage": "صافي الراتب",
+      "drainDetail": "المباريات ({matches}) + التدريب ({training})"
     },
     "weeklyReport": "التقرير الأسبوعي"
   },
@@ -567,7 +576,11 @@
     "notNow": "لا أريد المساعدة",
     "securePayment": "دفع آمن عبر Stripe",
     "supportProject": "ادعم المشروع",
-    "title": "ادعم المشروع"
+    "title": "ادعم المشروع",
+    "oneTime": "تبرع لمرة واحدة",
+    "monthly": "دعم شهري",
+    "oneTimeDesc": "اختر أي مبلغ",
+    "monthlyDesc": "مساهمة شهرية متكررة"
   },
   "goalsShort": "أ",
   "journey": {
@@ -1120,9 +1133,9 @@
     "male": "ذكر",
     "midfielders": "لاعبو الوسط",
     "modeDynamic": "ديناميكي",
-    "modeDynamicDesc": "محاكاة سريعة. القرارات تتخذ تلقائياً.",
+    "modeDynamicDesc": "محاكاة أكثر تلقائية حيث تتدفق القرارات على أرض الملعب مباشرة من سماتك وديناميكية الفريق.",
     "modeTactical": "تكتيكي",
-    "modeTacticalDesc": "تتوقف اللعبة في اللحظات الحاسمة لقراراتك.",
+    "modeTacticalDesc": "تجربة مباراة غامرة بعمق تكتيكي وتدخلات استراتيجية في اللحظات الحاسمة.",
     "newCareer": "مسيرة جديدة",
     "normal": "عادي",
     "optional": "اختياري",
@@ -1187,9 +1200,9 @@
     "overwriteWarning": "سيتم فقدان مسيرة {name} مع {club}.",
     "season": "الموسم",
     "simMatch": "لكل مباراة",
-    "simMatchDesc": "تقدّم مباراة بمباراة في لوحة التحكم (تجربة غامرة)",
+    "simMatchDesc": "تابع مباراة تلو الأخرى من لوحة التحكم مع تحكم عميق وانغماس كامل",
     "simSeason": "لكل موسم",
-    "simSeasonDesc": "حاكِ الموسم كاملًا دفعة واحدة (سريع)",
+    "simSeasonDesc": "محاكاة مستمرة للموسم بأكمله بأسلوب سلس ومباشر",
     "simulationMode": "وضع المحاكاة",
     "slot": "خانة",
     "slotCreateNew": "إنشاء مسيرة جديدة",
@@ -1203,7 +1216,20 @@
     "devNewsLoading": "جارٍ التحقق من التحديثات...",
     "devNewsError": "تعذر تحميل الأخبار.",
     "devNewsOpenDiscord": "انضم إلى ديسكورد",
-    "devNewsNoNews": "لا توجد أخبار متاحة."
+    "devNewsNoNews": "لا توجد أخبار متاحة.",
+    "classicCareer": "كلاسيكي",
+    "classicCareerDesc": "ديناميكي · موسم · خفيف",
+    "simulationDetailsTitle": "تفاصيل المحاكاة",
+    "simulationDetailsSubtitle": "حدد وتيرة وعمق مسيرتك المهنية",
+    "simPaceSection": "وتيرة المحاكاة",
+    "simDepthSection": "عمق المحاكاة",
+    "simDetailLiteDesc": "معالجة خفيفة ومركزة ومثالية لتطور مسيرتك المهنية.",
+    "simDetailFullDesc": "إحصائيات شاملة ومفصلة وبيانات عميقة لكرة القدم في جميع أنحاء العالم.",
+    "stepSlot": "الفتحة",
+    "stepMode": "الوضع",
+    "stepSimulation": "المحاكاة",
+    "stepPlayer": "اللاعب",
+    "continue": "متابعة"
   },
   "matchPanel": {
     "title": "محاكاة المباراة",
@@ -1784,5 +1810,10 @@
     "noStackTrace": "لا يوجد تتبع للمكدس",
     "reloadStrategy": "استراتيجية إعادة التحميل",
     "nativeSeasonAdvance": "تقدم الموسم الأصلي لم يُرجع بيانات حفظ محدثة"
+  },
+  "fitness": {
+    "injuryRiskLow": "خطر منخفض",
+    "injuryRiskModerate": "خطر معتدل",
+    "injuryRiskHigh": "خطر مرتفع"
   }
 }

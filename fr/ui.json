@@ -519,7 +519,8 @@
       "penaltySaved": "Penalty arrêté",
       "penaltyGoal": "But sur penalty",
       "secondYellowCard": "Deuxième carton jaune",
-      "injury": "Blessure"
+      "injury": "Blessure",
+      "ownGoal": "But contre son camp (CSC)"
     },
     "endSeason": "Fin de Saison",
     "trainingPhase": "Phase d'Entraînement et de Développement",
@@ -534,7 +535,7 @@
     "fitness": "Forme",
     "winner": "Vainqueur",
     "weeklyTransparency": {
-      "title": "Rapport Hebdomadaire",
+      "title": "Prévision Hebdomadaire",
       "balance": "Solde net",
       "salary": "Salaire",
       "agent": "Agent",
@@ -555,14 +556,14 @@
       "overall": "Général",
       "attributes": "Principaux attributs",
       "noChanges": "Aucun attribut ne change cette semaine.",
-      "financeTitle": "Relevé Financier Hebdomadaire",
-      "netCashFlow": "Flux Hebdomadaire Net",
+      "financeTitle": "Prévision Financière Exacte",
+      "netCashFlow": "Solde Hebdomadaire Exact",
       "grossWage": "Salaire Brut",
       "trainer": "Préparateur",
       "activeSponsorsCount": "{count} contrats actifs",
       "trainingIntensity": "Intensité {intensity}",
       "bankBalance": "Solde Bancaire",
-      "fitnessTitle": "Relevé Physique et de Forme",
+      "fitnessTitle": "Prévision de Forme",
       "currentFitness": "Forme Actuelle",
       "fitnessDrain": "Usure des Matchs",
       "fitnessRecovery": "Récupération Hebdomadaire",
@@ -575,7 +576,15 @@
       "statusGood": "Bon",
       "statusTired": "Fatigué",
       "statusExhausted": "Épuisé",
-      "noReportYet": "Simulez une semaine pour générer le premier rapport exact."
+      "noReportYet": "Simulez une semaine pour générer le premier rapport exact.",
+      "weeklyFitnessRange": "Variation de Forme",
+      "trainingFitnessDrain": "Charge Fixe d'Entraînement",
+      "matchFitnessRange": "Plage de Charge des Matchs",
+      "finalFitnessRange": "Forme Finale Prévue",
+      "forecastNote": "Les finances et la charge d'entraînement sont exactes. La charge des matchs varie selon les minutes jouées.",
+      "macroOverview": "Aperçu Macro Hebdomadaire",
+      "netWage": "Salaire Net",
+      "drainDetail": "Matchs ({matches}) + Entraînement ({training})"
     },
     "weeklyReport": "Rapport Hebdomadaire"
   },
@@ -589,7 +598,11 @@
     "notNow": "Je ne veux pas aider",
     "securePayment": "Paiement sécurisé via Stripe",
     "supportProject": "Soutenir le Projet",
-    "title": "Soutenir le Projet"
+    "title": "Soutenir le Projet",
+    "oneTime": "Don Unique",
+    "monthly": "Soutien Mensuel",
+    "oneTimeDesc": "Choisissez votre montant",
+    "monthlyDesc": "Abonnement mensuel récurrent"
   },
   "goalsShort": "B",
   "journey": {
@@ -1142,9 +1155,9 @@
     "male": "Homme",
     "midfielders": "Milieux",
     "modeDynamic": "Dynamique",
-    "modeDynamicDesc": "Simulation rapide. Les décisions sont prises automatiquement.",
+    "modeDynamicDesc": "Simulation plus automatique où les décisions sur le terrain découlent directement de vos attributs et de la dynamique d’équipe.",
     "modeTactical": "Tactique",
-    "modeTacticalDesc": "Le jeu s'arrête aux moments clés pour vos décisions.",
+    "modeTacticalDesc": "Une expérience de match immersive avec une grande profondeur tactique et des interventions stratégiques aux moments décisifs.",
     "newCareer": "Nouvelle Carrière",
     "normal": "Normal",
     "optional": "optionnel",
@@ -1208,10 +1221,10 @@
     "overwriteConfirm": "Êtes-vous sûr ?",
     "overwriteWarning": "La carrière de {name} à {club} sera perdue.",
     "season": "Saison",
-    "simMatch": "Par match",
-    "simMatchDesc": "Avancez match par match sur le tableau de bord (immersif)",
-    "simSeason": "Par saison",
-    "simSeasonDesc": "Simulez toute la saison d’un coup (rapide)",
+    "simMatch": "Par Match",
+    "simMatchDesc": "Suivez match après match sur le tableau de bord avec contrôle et immersion",
+    "simSeason": "Par Saison",
+    "simSeasonDesc": "Simulation continue de la saison de manière fluide et directe",
     "simulationMode": "Mode de simulation",
     "slot": "Slot",
     "slotCreateNew": "Créer une nouvelle carrière",
@@ -1225,7 +1238,20 @@
     "devNewsLoading": "Recherche de nouveautés...",
     "devNewsError": "Impossible de charger les nouvelles.",
     "devNewsOpenDiscord": "Rejoindre Discord",
-    "devNewsNoNews": "Aucune nouvelle disponible."
+    "devNewsNoNews": "Aucune nouvelle disponible.",
+    "classicCareer": "Classique",
+    "classicCareerDesc": "Dynamique · Saison · Léger",
+    "simulationDetailsTitle": "Détails de Simulation",
+    "simulationDetailsSubtitle": "Définissez le rythme et la profondeur de votre carrière",
+    "simPaceSection": "Rythme de Simulation",
+    "simDepthSection": "Profondeur de Simulation",
+    "simDetailLiteDesc": "Traitement léger et ciblé, idéal pour l’évolution de votre carrière.",
+    "simDetailFullDesc": "Statistiques complètes et télémétrie approfondie du football mondial.",
+    "stepSlot": "Emplacement",
+    "stepMode": "Mode",
+    "stepSimulation": "Simulation",
+    "stepPlayer": "Joueur",
+    "continue": "Continuer"
   },
   "matchPanel": {
     "title": "Simuler le match",
@@ -1833,5 +1859,10 @@
     "noStackTrace": "Aucune stack trace disponible",
     "reloadStrategy": "Stratégie de rechargement",
     "nativeSeasonAdvance": "L'avancement de saison natif n'a pas renvoyé de données de sauvegarde mises à jour"
+  },
+  "fitness": {
+    "injuryRiskLow": "Risque Faible",
+    "injuryRiskModerate": "Risque Modéré",
+    "injuryRiskHigh": "Risque Élevé"
   }
 }

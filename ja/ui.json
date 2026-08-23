@@ -497,7 +497,8 @@
       "penaltySaved": "PKセーブ",
       "penaltyGoal": "PKによるゴール",
       "secondYellowCard": "2枚目のイエローカード",
-      "injury": "負傷"
+      "injury": "負傷",
+      "ownGoal": "オウンゴール (OG)"
     },
     "endSeason": "シーズン終了",
     "trainingPhase": "トレーニングと育成フェーズ",
@@ -512,7 +513,7 @@
     "fitness": "コンディション",
     "winner": "優勝者",
     "weeklyTransparency": {
-      "title": "週間レポート",
+      "title": "週間予測",
       "balance": "純残高",
       "salary": "給料",
       "agent": "代理人",
@@ -533,14 +534,14 @@
       "overall": "総合",
       "attributes": "主なステータス",
       "noChanges": "今週はステータスに変化なし。",
-      "financeTitle": "週間収支明細",
-      "netCashFlow": "週間純収支",
+      "financeTitle": "正確な週間収支予測",
+      "netCashFlow": "正確な週間収支",
       "grossWage": "総給与",
       "trainer": "トレーナー",
       "activeSponsorsCount": "有効な契約 {count}件",
       "trainingIntensity": "強度 {intensity}",
       "bankBalance": "銀行残高",
-      "fitnessTitle": "週間コンディション明細",
+      "fitnessTitle": "フィットネス予測",
       "currentFitness": "現在のコンディション",
       "fitnessDrain": "試合による消耗",
       "fitnessRecovery": "週間回復",
@@ -553,7 +554,15 @@
       "statusGood": "良好",
       "statusTired": "疲労",
       "statusExhausted": "消耗",
-      "noReportYet": "1週間シミュレートすると最初の正確なレポートが作成されます。"
+      "noReportYet": "1週間シミュレートすると最初の正確なレポートが作成されます。",
+      "weeklyFitnessRange": "フィットネス変化",
+      "trainingFitnessDrain": "固定トレーニング負荷",
+      "matchFitnessRange": "試合負荷の範囲",
+      "finalFitnessRange": "予想最終フィットネス",
+      "forecastNote": "収支とトレーニング負荷は正確です。試合負荷は出場時間によって変動します。",
+      "macroOverview": "週間マクロ概要",
+      "netWage": "手取り給与",
+      "drainDetail": "試合 ({matches}) + 練習 ({training})"
     },
     "weeklyReport": "週間レポート"
   },
@@ -567,7 +576,11 @@
     "notNow": "今は結構です",
     "securePayment": "Stripeによる安全な支払い",
     "supportProject": "プロジェクトを支援する",
-    "title": "プロジェクトを支援する"
+    "title": "プロジェクトを支援する",
+    "oneTime": "単発寄付",
+    "monthly": "月額サポート",
+    "oneTimeDesc": "金額を自由に選択",
+    "monthlyDesc": "毎月の継続サポート"
   },
   "goalsShort": "G",
   "journey": {
@@ -1120,9 +1133,9 @@
     "male": "男性",
     "midfielders": "ミッドフィルダー",
     "modeDynamic": "ダイナミック",
-    "modeDynamicDesc": "高速シミュレーション。意思決定は自動的に行われます。",
+    "modeDynamicDesc": "ピッチ上の判断が能力値とチームの連係から自動的に展開される、スムーズなシミュレーション。",
     "modeTactical": "タクティカル",
-    "modeTacticalDesc": "重要な場面でゲームが停止し、プレイヤーが意思決定を行います。",
+    "modeTacticalDesc": "決定的な瞬間での戦術的介入と深い駆け引きを楽しめる、没入感あふれる試合体験。",
     "newCareer": "新規キャリア",
     "normal": "中級",
     "optional": "任意",
@@ -1186,10 +1199,10 @@
     "overwriteConfirm": "本当によろしいですか？",
     "overwriteWarning": "{club}での{name}のキャリアは失われます。",
     "season": "シーズン",
-    "simMatch": "1試合ごと",
-    "simMatchDesc": "ダッシュボードで試合ごとに進行（没入型）",
-    "simSeason": "1シーズンごと",
-    "simSeasonDesc": "シーズン全体を一括シミュレーション（高速）",
+    "simMatch": "試合単位",
+    "simMatchDesc": "ダッシュボードで1試合ずつ詳細な管理と没入感を味わいながら進行",
+    "simSeason": "シーズン単位",
+    "simSeasonDesc": "スムーズな進行でシーズン全体を連続シミュレーション",
     "simulationMode": "シミュレーションモード",
     "slot": "スロット",
     "slotCreateNew": "新しいキャリアを作成",
@@ -1203,7 +1216,20 @@
     "devNewsLoading": "アップデートを確認中...",
     "devNewsError": "ニュースを読み込めませんでした。",
     "devNewsOpenDiscord": "Discordに参加",
-    "devNewsNoNews": "利用可能なニュースはありません。"
+    "devNewsNoNews": "利用可能なニュースはありません。",
+    "classicCareer": "クラシック",
+    "classicCareerDesc": "ダイナミック · シーズン · 軽量",
+    "simulationDetailsTitle": "シミュレーション詳細",
+    "simulationDetailsSubtitle": "キャリアのペースと詳細度を設定します",
+    "simPaceSection": "シミュレーションペース",
+    "simDepthSection": "シミュレーション詳細度",
+    "simDetailLiteDesc": "選手のキャリア成長に特化した、軽量で快適な処理。",
+    "simDetailFullDesc": "世界の全サッカーシーンを網羅する詳細な統計と完全なテレメトリ。",
+    "stepSlot": "スロット",
+    "stepMode": "モード",
+    "stepSimulation": "シミュレーション",
+    "stepPlayer": "選手",
+    "continue": "続ける"
   },
   "matchPanel": {
     "title": "試合をシミュレート",
@@ -1783,5 +1809,10 @@
     "charityActive": "チャリティー活動中",
     "extraTraining": "追加トレーニング",
     "wantsTransfer": "移籍希望"
+  },
+  "fitness": {
+    "injuryRiskLow": "低リスク",
+    "injuryRiskModerate": "中リスク",
+    "injuryRiskHigh": "高リスク"
   }
 }
