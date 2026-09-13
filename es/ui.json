@@ -361,7 +361,12 @@
     "semiFinal": "Semifinal",
     "final": "Final",
     "firstLeg": "Ida",
-    "secondLeg": "Vuelta"
+    "secondLeg": "Vuelta",
+    "notAvailable": "No disponible",
+    "competition": "Competición",
+    "skill": "Habilidad",
+    "team": "Equipo",
+    "traits": "Rasgos"
   },
   "continents": {
     "Africa": "África",
@@ -369,7 +374,9 @@
     "Europe": "Europa",
     "Australia": "Oceanía",
     "North America": "Norteamérica",
-    "South America": "Sudamérica"
+    "South America": "Sudamérica",
+    "seasonFilter": "Filtro de Temporada",
+    "currentSeason": "Temporada Actual"
   },
   "tier": {
     "BRONZE": "Bronce",
@@ -597,7 +604,9 @@
       "netWage": "Salario Neto",
       "drainDetail": "Partidos ({matches}) + Entrenamiento ({training})"
     },
-    "weeklyReport": "Informe Semanal"
+    "weeklyReport": "Informe Semanal",
+    "transfersLocked": "Fichajes bloqueados en la cantera",
+    "seasonSummaryLocked": "Disponible al final de la temporada"
   },
   "goalsShort": "G",
   "journey": {
@@ -1069,7 +1078,9 @@
       "TechnicalMaestro": "Maestro Técnico",
       "TargetMan": "Hombre Objetivo",
       "Journeyman": "Jornalero"
-    }
+    },
+    "bodyTypeChange": "Tipo físico modificado",
+    "weightLoss": "Pérdida de peso"
   },
   "personality": {
     "Ambitious": "Ambicioso",
@@ -1308,7 +1319,8 @@
     "stepMode": "Modo",
     "stepSimulation": "Simulación",
     "stepPlayer": "Jugador",
-    "continue": "Continuar"
+    "continue": "Continuar",
+    "momentumUnavailableLite": "El momentum no está disponible en el modo Ligero."
   },
   "matchPanel": {
     "title": "Simular partido",
@@ -1402,7 +1414,9 @@
     "formDescription": "El estado de forma influye en el rendimiento.",
     "mental": "Mental",
     "moraleDescription": "La moral influye en el desarrollo y tus decisiones.",
-    "squadStatus": "Rol en el equipo"
+    "squadStatus": "Rol en el equipo",
+    "seasonFilter": "Filtro de Temporada",
+    "currentSeason": "Temporada Actual"
   },
   "update": {
     "description": "¡Una nueva versión del juego está disponible con mejoras y correcciones!",
@@ -1813,5 +1827,52 @@
     "injuryRiskLow": "Riesgo Bajo",
     "injuryRiskModerate": "Riesgo Moderado",
     "injuryRiskHigh": "Riesgo Alto"
+  },
+  "transferModal": {
+    "acceptOffer": "Aceptar Oferta",
+    "annualSalary": "Salario Anual",
+    "club": "Club",
+    "contract": "Contrato de Jugador",
+    "deadline": "Cierre de Mercado",
+    "duration": "Años de Contrato",
+    "interest": "Interés",
+    "marketValue": "Valor de Mercado",
+    "noOffers": "No se han recibido ofertas de traspaso por el momento.",
+    "offerDetails": "Detalles de la Oferta",
+    "potentialRating": "Potencial",
+    "rejectOffer": "Rechazar Oferta",
+    "role": "Rol en la Plantilla",
+    "signContract": "Firmar Contrato",
+    "title": "Mercado de Fichajes",
+    "transferFee": "Cuota de Traspaso",
+    "weeklySalary": "Salario Semanal"
+  },
+  "tutorial": {
+    "agent": {
+      "description": "Tu agente negocia tus contratos, busca patrocinadores y gestiona nuevos fichajes.",
+      "title": "El Agente"
+    },
+    "attributes": {
+      "description": "Tus atributos mejoran mediante el entrenamiento y grandes actuaciones en los partidos.",
+      "title": "Atributos y Progresión"
+    },
+    "dashboard": {
+      "description": "Consulta tu estado actual, próximos partidos y objetivos de la temporada aquí.",
+      "title": "Resumen de Carrera"
+    },
+    "energy": {
+      "description": "Gestiona tu energía. Jugar demasiados partidos sin descansar aumenta el riesgo de lesiones.",
+      "title": "Energía y Condición"
+    },
+    "skip": "Saltar Tutorial",
+    "social": {
+      "description": "Aumenta tu base de seguidores, interactúa con aficionados y haz crecer tu fama mundial.",
+      "title": "Redes Sociales"
+    },
+    "title": "¡Bienvenido a la Élite!",
+    "training": {
+      "description": "Elige tus sesiones de entrenamiento semanales para mejorar tus atributos y dominar rasgos.",
+      "title": "Entrenamiento Semanal"
+    }
   }
 }

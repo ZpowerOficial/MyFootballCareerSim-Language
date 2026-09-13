@@ -1,19 +1,21 @@
 {
   "agent": {
     "reputation": {
-      "Average": "Средняя",
-      "Good": "Хорошая",
+      "Average": "Средний",
+      "Good": "Хороший",
       "Rookie": "Новичок",
-      "Super Agent": "Супер-агент"
+      "Super Agent": "Суперагент"
     },
     "specialty": {
-      "BrandBuilder": "Строитель бренда",
+      "BrandBuilder": "Создатель бренда",
       "Negotiator": "Переговорщик",
       "Scout": "Скаут",
       "balanced": "Сбалансированный",
       "contract": "Контракты",
       "sponsorship": "Спонсорство",
-      "transfer": "Трансферы"
+      "transfer": "Трансферы",
+      "Brand Builder": "Создатель бренда",
+      "Mastermind": "Стратег"
     },
     "style": {
       "Adaptable": "Адаптивный",
@@ -37,10 +39,11 @@
       "Persistent": "Настойчивый",
       "Precise": "Точный",
       "Professional": "Профессиональный",
-      "Reliable": "Надёжный",
+      "Reliable": "Надежный",
       "Strategic": "Стратегический",
       "Traditional": "Традиционный",
-      "Visionary": "Визионерский"
+      "Visionary": "Провидец",
+      "Pragmatic": "Прагматичный"
     }
   },
   "attributes": {
@@ -191,7 +194,8 @@
     "flair": "чутье",
     "foot": {
       "left": "Левый",
-      "right": "Верно"
+      "right": "Верно",
+      "both": "Обе ноги"
     },
     "footedness": "стопа",
     "freeKick": "Точность штрафного удара",

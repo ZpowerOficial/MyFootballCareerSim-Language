@@ -361,7 +361,12 @@
     "loss": "Loss",
     "result": "Result",
     "showMore": "Show more",
-    "win": "Win"
+    "win": "Win",
+    "notAvailable": "Not available",
+    "competition": "Competition",
+    "skill": "Skill",
+    "team": "Team",
+    "traits": "Traits"
   },
   "continents": {
     "Africa": "Africa",
@@ -369,7 +374,9 @@
     "Europe": "Europe",
     "Australia": "Australia",
     "North America": "North America",
-    "South America": "South America"
+    "South America": "South America",
+    "seasonFilter": "Season Filter",
+    "currentSeason": "Current Season"
   },
   "tier": {
     "BRONZE": "Bronze",
@@ -598,7 +605,8 @@
     "club": "Current Club",
     "fitness": "Fitness",
     "winner": "Winner",
-    "weeklyReport": "Weekly Report"
+    "weeklyReport": "Weekly Report",
+    "birthYear": "Birth Year: {year}"
   },
   "fitness": {
     "injuryRiskLow": "Low Risk",
@@ -1075,7 +1083,9 @@
       "Reserved": "Reserved",
       "Temperamental": "Temperamental"
     },
-    "value": "Value"
+    "value": "Value",
+    "bodyTypeChange": "Body type changed",
+    "weightLoss": "Weight loss"
   },
   "personality": {
     "Ambitious": "Ambitious",
@@ -1382,7 +1392,9 @@
     "viewBreakdown": "Detailed Breakdown",
     "legacyFormula": "Balanced formula based on honors, awards, performance, longevity, and reputation.",
     "title": "Share Career",
-    "trophies": "Trophies"
+    "trophies": "Trophies",
+    "seasons": "Seasons",
+    "shareNow": "Share Now"
   },
   "simulating": {
     "analyzingMatch": "Analyzing matches...",
@@ -1407,7 +1419,9 @@
     "formDescription": "Form affects match performance.",
     "mental": "Mental",
     "moraleDescription": "Morale affects development and decisions.",
-    "squadStatus": "Squad Status"
+    "squadStatus": "Squad Status",
+    "seasonFilter": "Season Filter",
+    "currentSeason": "Current Season"
   },
   "update": {
     "description": "New version available with improvements!",
@@ -1810,5 +1824,55 @@
     "charityActive": "Charity Active",
     "extraTraining": "Extra Training",
     "wantsTransfer": "Wants Transfer"
+  },
+  "pos": "Pos",
+  "yrs": "Yrs",
+  "supercopaBrasil": "Brazilian Super Cup",
+  "transferModal": {
+    "acceptOffer": "Accept Offer",
+    "annualSalary": "Annual Salary",
+    "club": "Club",
+    "contract": "Player Contract",
+    "deadline": "Transfer Deadline",
+    "duration": "Contract Years",
+    "interest": "Interest",
+    "marketValue": "Market Value",
+    "noOffers": "No transfer offers received at this time.",
+    "offerDetails": "Offer Details",
+    "potentialRating": "Potential",
+    "rejectOffer": "Reject Offer",
+    "role": "Squad Role",
+    "signContract": "Sign Contract",
+    "title": "Transfer Market",
+    "transferFee": "Transfer Fee",
+    "weeklySalary": "Weekly Salary"
+  },
+  "tutorial": {
+    "agent": {
+      "description": "Your agent negotiates contracts, secures sponsors, and finds new transfer opportunities.",
+      "title": "The Agent"
+    },
+    "attributes": {
+      "description": "Your attributes grow with dedicated training and strong match performances.",
+      "title": "Attributes & Progression"
+    },
+    "dashboard": {
+      "description": "Monitor your current status, upcoming fixtures, and season objectives here.",
+      "title": "Career Overview"
+    },
+    "energy": {
+      "description": "Manage your stamina wisely. Overplaying risks fatigue and costly injuries.",
+      "title": "Energy & Fitness"
+    },
+    "skip": "Skip Tutorial",
+    "social": {
+      "description": "Build your fanbase, interact with followers, and boost your worldwide fame.",
+      "title": "Social Media"
+    },
+    "title": "Welcome to the Elite!",
+    "training": {
+      "description": "Choose your weekly training drills to improve your attributes and master traits.",
+      "title": "Weekly Training"
+    }
   }
 }

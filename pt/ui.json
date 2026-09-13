@@ -361,7 +361,12 @@
     "showMore": "Mostrar mais",
     "win": "Vitória",
     "firstLeg": "Primeiro jogo",
-    "secondLeg": "Segundo jogo"
+    "secondLeg": "Segundo jogo",
+    "notAvailable": "Indisponível",
+    "competition": "Competição",
+    "skill": "Habilidade",
+    "team": "Time",
+    "traits": "Características"
   },
   "continents": {
     "Africa": "África",
@@ -369,7 +374,9 @@
     "Europe": "Europa",
     "Australia": "Oceania",
     "North America": "América do Norte",
-    "South America": "América do Sul"
+    "South America": "América do Sul",
+    "seasonFilter": "Filtrar por Temporada",
+    "currentSeason": "Temporada Atual"
   },
   "tier": {
     "BRONZE": "Bronze",
@@ -598,7 +605,8 @@
     "club": "Clube Atual",
     "fitness": "Condicionamento",
     "winner": "Vencedor",
-    "weeklyReport": "Relatório Semanal"
+    "weeklyReport": "Relatório Semanal",
+    "birthYear": "Ano de nascimento: {year}"
   },
   "fitness": {
     "injuryRiskLow": "Risco Baixo",
@@ -1075,7 +1083,9 @@
       "TechnicalMaestro": "Maestro Técnico",
       "TargetMan": "Homem de Área",
       "Journeyman": "Jogador rodado"
-    }
+    },
+    "bodyTypeChange": "Tipo físico alterado",
+    "weightLoss": "Perda de peso"
   },
   "personality": {
     "Ambitious": "Ambicioso",
@@ -1409,7 +1419,9 @@
     "formDescription": "A forma afeta seu desempenho em campo. Jogue bem para melhorar!",
     "mental": "Mental",
     "moraleDescription": "O moral afeta motivação, treino e decisões de carreira.",
-    "squadStatus": "Status no Elenco"
+    "squadStatus": "Status no Elenco",
+    "seasonFilter": "Filtrar por Temporada",
+    "currentSeason": "Temporada Atual"
   },
   "update": {
     "description": "Uma nova versão do jogo está disponível com melhorias e correções!",
@@ -1815,5 +1827,52 @@
     "charityActive": "Caridade Ativa",
     "extraTraining": "Treino Extra",
     "wantsTransfer": "Quer Transferência"
+  },
+  "transferModal": {
+    "acceptOffer": "Aceitar Proposta",
+    "annualSalary": "Salário Anual",
+    "club": "Clube",
+    "contract": "Contrato do Jogador",
+    "deadline": "Fechamento da Janela",
+    "duration": "Anos de Contrato",
+    "interest": "Interesse",
+    "marketValue": "Valor de Mercado",
+    "noOffers": "Nenhuma proposta de transferência recebida no momento.",
+    "offerDetails": "Detalhes da Proposta",
+    "potentialRating": "Potencial",
+    "rejectOffer": "Recusar Proposta",
+    "role": "Papel no Elenco",
+    "signContract": "Assinar Contrato",
+    "title": "Mercado de Transferências",
+    "transferFee": "Valor da Transferência",
+    "weeklySalary": "Salário Semanal"
+  },
+  "tutorial": {
+    "agent": {
+      "description": "Seu empresário negocia contratos, garante patrocinadores e busca novas oportunidades de transferência.",
+      "title": "O Empresário"
+    },
+    "attributes": {
+      "description": "Seus atributos evoluem através de treinos focados e boas atuações nas partidas.",
+      "title": "Atributos & Evolução"
+    },
+    "dashboard": {
+      "description": "Acompanhe seu status atual, próximas partidas e objetivos da temporada aqui.",
+      "title": "Visão Geral da Carreira"
+    },
+    "energy": {
+      "description": "Gerencie sua energia. Excesso de partidas sem descanso aumenta o risco de lesões.",
+      "title": "Energia & Condicionamento"
+    },
+    "skip": "Pular Tutorial",
+    "social": {
+      "description": "Construa sua base de fãs, interaja com seguidores e aumente sua popularidade mundial.",
+      "title": "Redes Sociais"
+    },
+    "title": "Bem-vindo ao Topo!",
+    "training": {
+      "description": "Escolha seus treinos semanais para aprimorar seus atributos e dominar novas características.",
+      "title": "Treinamento Semanal"
+    }
   }
 }

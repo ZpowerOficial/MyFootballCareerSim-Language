@@ -2,9 +2,9 @@
   "agent": {
     "reputation": {
       "Average": "Promedio",
-      "Good": "Buena",
+      "Good": "Bueno",
       "Rookie": "Novato",
-      "Super Agent": "Súper agente"
+      "Super Agent": "Superagente"
     },
     "specialty": {
       "BrandBuilder": "Constructor de marca",
@@ -13,34 +13,37 @@
       "balanced": "Equilibrado",
       "contract": "Contratos",
       "sponsorship": "Patrocinios",
-      "transfer": "Traspasos"
+      "transfer": "Fichajes",
+      "Brand Builder": "Constructor de marca",
+      "Mastermind": "Estratega"
     },
     "style": {
       "Adaptable": "Adaptable",
-      "Aggressive": "Agresiva",
-      "Ambitious": "Ambiciosa",
-      "Analytical": "Analítica",
-      "Calm": "Serenidad",
-      "Charismatic": "Carismática",
-      "Dedicated": "Dedicada",
-      "Energetic": "Energética",
-      "Experienced": "Experimentada",
-      "Focused": "Enfocada",
-      "Friendly": "Amistosa",
-      "Honest": "Honesta",
-      "Innovative": "Innovadora",
-      "Methodical": "Metódica",
-      "Motivated": "Motivada",
-      "Networked": "En red",
-      "Passionate": "Apasionada",
+      "Aggressive": "Agresivo",
+      "Ambitious": "Ambicioso",
+      "Analytical": "Analítico",
+      "Calm": "Tranquilo",
+      "Charismatic": "Carismático",
+      "Dedicated": "Dedicado",
+      "Energetic": "Enérgico",
+      "Experienced": "Experimentado",
+      "Focused": "Concentrado",
+      "Friendly": "Amigable",
+      "Honest": "Honesto",
+      "Innovative": "Innovador",
+      "Methodical": "Metódico",
+      "Motivated": "Motivado",
+      "Networked": "Bien relacionado",
+      "Passionate": "Apasionado",
       "Patient": "Paciente",
       "Persistent": "Persistente",
-      "Precise": "Precisa",
+      "Precise": "Preciso",
       "Professional": "Profesional",
       "Reliable": "Confiable",
-      "Strategic": "Estratégica",
+      "Strategic": "Estratégico",
       "Traditional": "Tradicional",
-      "Visionary": "Visionaria"
+      "Visionary": "Visionario",
+      "Pragmatic": "Pragmático"
     }
   },
   "attributes": {
@@ -191,7 +194,8 @@
     "flair": "Clase",
     "foot": {
       "left": "Izquierda",
-      "right": "Derecha"
+      "right": "Derecha",
+      "both": "Ambidiestro"
     },
     "footedness": "Pies",
     "freeKick": "Precisión de tiro libre",

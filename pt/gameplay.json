@@ -39,7 +39,8 @@
     "flair": "Estilo",
     "foot": {
       "left": "Esquerdo",
-      "right": "Direito"
+      "right": "Direito",
+      "both": "Ambidestro"
     },
     "footedness": "Pé Dominante",
     "freeKick": "Precisão em Faltas",
@@ -89,7 +90,116 @@
     "vision": "Visão",
     "volleys": "Voleios",
     "weakFoot": "Pé Fraco",
-    "workRate": "Taxa de Trabalho"
+    "workRate": "Taxa de Trabalho",
+    "events": {
+      "award": {
+        "comeback": "Retorno do Ano após lesão!",
+        "continentalCompTopScorer": "Artilheiro de {competition} ({goals} gols)!",
+        "continentalPOTY": "Melhor Jogador do Torneio {competition}!",
+        "continentalTOTT": "Selecionado na Equipe Ideal de {competition}!",
+        "cupTopScorer": "Artilheiro da Copa ({goals} gols)!",
+        "fifaBest": "Eleito o Melhor do Mundo!",
+        "goldenBoot": "Artilheiro da Liga ({goals} gols)!",
+        "goldenBoy": "Vencedor do Golden Boy!",
+        "goldenGlove": "Melhor Goleiro do Ano!",
+        "goldenShoe": "Vencedor da Chuteira de Ouro!",
+        "leaguePOTY": "Craque do Campeonato!",
+        "leaguePositional": "Melhor {position} do campeonato!",
+        "playmaker": "Líder em Assistências da Temporada!",
+        "puskas": "Gol do Ano!",
+        "rookie": "Revelação do Ano!",
+        "shortlist": "Finalista para {award}!",
+        "teamOfTheYear": "Selecionado para a Seleção do Ano!",
+        "worldCupGoldenBall": "Bola de Ouro da Copa do Mundo!",
+        "worldCupGoldenBoot": "Chuteira de Ouro da Copa ({goals} gols)!",
+        "worldCupTOTT": "Seleção da Copa do Mundo!",
+        "worldPlayer": "Melhor Jogador do Mundo!"
+      },
+      "debut": "Débuts professionnels effectués",
+      "firstTitle": "Premier titre en carrière remporté",
+      "performance": {
+        "below_expectations": "Saison en dessous des attentes",
+        "excellent_season": "Excellente saison",
+        "outstanding_season": "Saison exceptionnelle"
+      },
+      "physical": {
+        "bodyTypeChange": "Changement de corpulence",
+        "weightLoss": "Perte de poids liée à l'entraînement"
+      },
+      "progression": {
+        "age_decline": "Déclin lié à l'âge",
+        "exceptional_development": "Développement exceptionnel",
+        "maintained_fitness": "Maintien du niveau de forme",
+        "physical_decline": "Déclin physique noté",
+        "strong_development": "Fort développement",
+        "struggled_development": "Difficultés à progresser"
+      },
+      "retirement": {
+        "earlyCareerEndingInjury": "Carrière brisée par une blessure",
+        "earlyInjurySupport": "Soutien reçu après une blessure",
+        "future": {
+          "academy": "Travaille avec l'académie des jeunes",
+          "ambassador": "Rôle d'ambassadeur du club",
+          "coaching": "Poursuit une carrière d'entraîneur",
+          "outside_football": "Poursuit des intérêts hors football",
+          "punditry": "Devient consultant"
+        },
+        "reason": {
+          "injury": "Retraite pour cause de blessure"
+        },
+        "tooOld": "Retraite pour cause d'âge",
+        "tragicEarlyInjury": "Blessure tragique mettant fin prématurément à la carrière",
+        "tribute": {
+          "defied_time": "A défié le temps par sa longévité",
+          "early_injury": "Carrière terminée par une blessure prématurée",
+          "great_injury": "Grande carrière brisée par une blessure",
+          "icon": "Retraite en tant qu'Icône du Football",
+          "journeyman": "Retraite après une carrière de baroudeur",
+          "legend": "Retraite en tant que Légende du Club",
+          "professional": "Retraite en tant que Vrai Professionnel",
+          "star": "Retraite en tant que Star du Football",
+          "unfortunate_end": "Fin de carrière malheureuse",
+          "very_early_injury": "Blessure très précoce mettant fin à la carrière"
+        }
+      },
+      "transfer": {
+        "agitation_1": "Montre des signes d'agitation",
+        "agitation_2": "De plus en plus mécontent au club",
+        "agitation_3": "Demande un transfert",
+        "historicRival": "RIVAL",
+        "rival": "RIVAL",
+        "traitor": "TRAÎTRE",
+        "warning_1": "Le club a émis un premier avertissement",
+        "warning_2": "Le club a émis un deuxième avertissement",
+        "warning_3": "Dernier avertissement du club"
+      },
+      "trophy": {
+        "continental": "Vainqueur de la {competition} !",
+        "cup": "Vainqueur de la Coupe !",
+        "league": "Champion de Ligue avec {team} !",
+        "worldCup": "CHAMPION DU TOURNOI MONDIAL ! Une légende est née !"
+      },
+      "viral": {
+        "celebration": "La célébration devient une sensation virale !",
+        "charity": "Travail caritatif reçoit éloges et admiration !",
+        "controversy": "Impliqué dans une controverse dominant les titres !",
+        "fashion": "Choix mode font des vagues sur les réseaux !",
+        "gaming": "Contenu gaming connecte avec le jeune public !",
+        "goal": "But incroyable devient viral avec {views}M de vues !",
+        "interview": {
+          "negative": "Commentaires controversés déclenchent un vif débat !",
+          "positive": "Interview honnête séduit les fans !"
+        },
+        "skill": "Geste technique époustouflant casse internet !"
+      },
+      "youth": {
+        "loanRecommended": "Prêt recommandé pour le développement",
+        "promotedAfterExcellentSeason": "Promu après une excellente saison",
+        "promotedToFirstTeam": "Promu en Équipe Première",
+        "promotedToReserve": "Promu en Réserve",
+        "releasedToProfessional": "Libéré pour une carrière professionnelle"
+      }
+    }
   },
   "characteristic": {
     "Aerial Specialist": "Especialista Aéreo",
@@ -1578,5 +1688,52 @@
   "intensity": {
     "extreme": "Extremo"
   },
-  "intensityExtreme": "Extremo"
+  "intensityExtreme": "Extremo",
+  "agent": {
+    "reputation": {
+      "Average": "Médio",
+      "Good": "Bom",
+      "Rookie": "Iniciante",
+      "Super Agent": "Super Agente"
+    },
+    "specialty": {
+      "BrandBuilder": "Construtor de Marca",
+      "Brand Builder": "Construtor de Marca",
+      "Mastermind": "Estrategista",
+      "Negotiator": "Negociador",
+      "Scout": "Olheiro",
+      "balanced": "Equilibrado",
+      "contract": "Contratos",
+      "sponsorship": "Patrocínios",
+      "transfer": "Transferências"
+    },
+    "style": {
+      "Adaptable": "Adaptável",
+      "Aggressive": "Agressivo",
+      "Ambitious": "Ambicioso",
+      "Analytical": "Analítico",
+      "Calm": "Calmo",
+      "Charismatic": "Carismático",
+      "Dedicated": "Dedicado",
+      "Energetic": "Enérgico",
+      "Experienced": "Experiente",
+      "Focused": "Focado",
+      "Friendly": "Amigável",
+      "Honest": "Honesto",
+      "Innovative": "Inovador",
+      "Methodical": "Metódico",
+      "Motivated": "Motivado",
+      "Networked": "Bem Conectado",
+      "Passionate": "Apaixonado",
+      "Patient": "Paciente",
+      "Persistent": "Persistente",
+      "Precise": "Preciso",
+      "Professional": "Profissional",
+      "Reliable": "Confiável",
+      "Strategic": "Estratégico",
+      "Traditional": "Tradicional",
+      "Visionary": "Visionário",
+      "Pragmatic": "Pragmático"
+    }
+  }
 }

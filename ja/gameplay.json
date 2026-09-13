@@ -2,31 +2,33 @@
   "agent": {
     "reputation": {
       "Average": "普通",
-      "Good": "良好",
+      "Good": "優秀",
       "Rookie": "ルーキー",
       "Super Agent": "スーパーエージェント"
     },
     "specialty": {
-      "BrandBuilder": "ブランドビルダー",
+      "BrandBuilder": "ブランド構築",
       "Negotiator": "交渉人",
       "Scout": "スカウト",
       "balanced": "バランス型",
-      "contract": "契約交渉",
+      "contract": "契約重視",
       "sponsorship": "スポンサーシップ",
-      "transfer": "移籍"
+      "transfer": "移籍重視",
+      "Brand Builder": "ブランド構築",
+      "Mastermind": "マスターマインド"
     },
     "style": {
       "Adaptable": "適応力",
-      "Aggressive": "アグレッシブ",
+      "Aggressive": "攻撃的",
       "Ambitious": "野心的",
       "Analytical": "分析的",
       "Calm": "冷静",
-      "Charismatic": "カリスマ性",
+      "Charismatic": "カリスマ的",
       "Dedicated": "献身的",
-      "Energetic": "エネルギッシュ",
+      "Energetic": "精力的",
       "Experienced": "経験豊富",
       "Focused": "集中力",
-      "Friendly": "親善試合",
+      "Friendly": "親しみやすい",
       "Honest": "誠実",
       "Innovative": "革新的",
       "Methodical": "几帳面",
@@ -35,12 +37,13 @@
       "Passionate": "情熱的",
       "Patient": "忍耐強い",
       "Persistent": "粘り強い",
-      "Precise": "正確",
+      "Precise": "精密",
       "Professional": "プロフェッショナル",
       "Reliable": "信頼できる",
       "Strategic": "戦略的",
-      "Traditional": "伝統的",
-      "Visionary": "先見の明"
+      "Traditional": "伝統重視",
+      "Visionary": "先見の明",
+      "Pragmatic": "現実主義"
     }
   },
   "attributes": {
@@ -191,7 +194,8 @@
     "flair": "フレア",
     "foot": {
       "left": "左",
-      "right": "右"
+      "right": "右",
+      "both": "両足"
     },
     "footedness": "足つき",
     "freeKick": "フリーキックの精度",

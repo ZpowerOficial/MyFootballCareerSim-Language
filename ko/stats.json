@@ -14,7 +14,7 @@
     "shotsLabel": "샷"
   },
   "careerStats": {
-    "accurateCrosses": "정확한 십자가",
+    "accurateCrosses": "정확한 크로스",
     "accurateLongBalls": "정확한 롱볼",
     "accurateThroughBalls": "정확한 스루볼",
     "aerialDuelsWon": "공중 결투 승리",
@@ -64,7 +64,7 @@
   },
   "detailedStats": {
     "acc": "acc.",
-    "accurateCrosses": "정확한 십자가",
+    "accurateCrosses": "정확한 크로스",
     "accurateLongBalls": "정확한 롱볼",
     "accurateThroughBalls": "정확한 스루볼",
     "aerialDuels": "공중 결투",
@@ -309,7 +309,8 @@
     "workRateMovement": "작업 속도 및 이동",
     "workRateMovementTitle": "작업 속도 및 이동",
     "xgPrevented": "xG 방지",
-    "yellowCards": "옐로카드"
+    "yellowCards": "옐로카드",
+    "forwardPassesCompletedLong": "정확한 전방 롱패스"
   },
   "history": {
     "active": "활동적인",
@@ -393,7 +394,19 @@
     "worldCups": "월드 토너먼트",
     "years": "연령",
     "youthCareer": "청소년 경력",
-    "youthClubHistory": "청소년클럽 연혁"
+    "youthClubHistory": "청소년클럽 연혁",
+    "misc": {
+      "attendance": "평균 관중",
+      "avgRating": "평균 평점",
+      "awards": "수상 내역",
+      "cleanSheets": "클린시트",
+      "goalsConceded": "실점",
+      "manOfTheMatch": "경기 최우수 선수",
+      "passCompletion": "패스 정확도",
+      "possession": "평균 점유율",
+      "redCards": "퇴장",
+      "yellowCards": "경고"
+    }
   },
   "historyExtra": {
     "current": "현재의",
@@ -424,7 +437,7 @@
     }
   },
   "stats": {
-    "accurateCrosses": "정확한 십자가",
+    "accurateCrosses": "정확한 크로스",
     "accurateLongBalls": "정확한 롱볼",
     "accurateThroughBalls": "정확한 스루볼",
     "aerialDuelsWon": "공중 결투 승리",

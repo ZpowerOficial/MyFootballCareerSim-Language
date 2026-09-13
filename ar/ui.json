@@ -345,7 +345,12 @@
     "shareCard": "Share Image",
     "sharing": "Sharing...",
     "firstLeg": "مباراة الذهاب",
-    "secondLeg": "مباراة الإياب"
+    "secondLeg": "مباراة الإياب",
+    "notAvailable": "غير متوفر",
+    "competition": "البطولة",
+    "skill": "المهارة",
+    "team": "الفريق",
+    "traits": "السمات"
   },
   "commonExtra": {
     "ageYearsShort": "{age} سنة",
@@ -564,7 +569,10 @@
       "netWage": "صافي الراتب",
       "drainDetail": "المباريات ({matches}) + التدريب ({training})"
     },
-    "weeklyReport": "التقرير الأسبوعي"
+    "weeklyReport": "التقرير الأسبوعي",
+    "transfersLocked": "الانتقالات مقفلة في أكاديمية الشباب",
+    "seasonSummaryLocked": "متاح في نهاية الموسم",
+    "birthYear": "سنة الميلاد: {year}"
   },
   "donation": {
     "benefit1": "ميزات جديدة",
@@ -1052,7 +1060,9 @@
       "TechnicalMaestro": "مايسترو تقني",
       "TargetMan": "المهاجم المحطة",
       "Journeyman": "رحالة"
-    }
+    },
+    "bodyTypeChange": "تغير نوع الجسم",
+    "weightLoss": "فقدان الوزن"
   },
   "ratingShort": "تقييم",
   "seasonModal": {
@@ -1229,7 +1239,8 @@
     "stepMode": "الوضع",
     "stepSimulation": "المحاكاة",
     "stepPlayer": "اللاعب",
-    "continue": "متابعة"
+    "continue": "متابعة",
+    "momentumUnavailableLite": "الزخم غير متوفر في الوضع الخفيف."
   },
   "matchPanel": {
     "title": "محاكاة المباراة",
@@ -1323,7 +1334,9 @@
     "formDescription": "تؤثر اللياقة الفنية على أدائك في الملعب. العب جيداً لتتحسن!",
     "mental": "ذهني",
     "moraleDescription": "تؤثر الروح المعنوية على التحفيز والتدريب وقرارات المسيرة المهنية.",
-    "squadStatus": "حالة الفريق"
+    "squadStatus": "حالة الفريق",
+    "seasonFilter": "تصفية الموسم",
+    "currentSeason": "الموسم الحالي"
   },
   "update": {
     "description": "نسخة جديدة من اللعبة متاحة مع تحسينات وإصلاحات!",
@@ -1563,7 +1576,6 @@
     "assistantCoach": "تقرير المساعد"
   },
   "awards": {
-    "_TODO": "Translate العالم Rankings UI",
     "worldRankings": "التصنيفات العالمية",
     "votingResults": "نتائج التصويت",
     "rankings": "التصنيفات",
@@ -1815,5 +1827,52 @@
     "injuryRiskLow": "خطر منخفض",
     "injuryRiskModerate": "خطر معتدل",
     "injuryRiskHigh": "خطر مرتفع"
+  },
+  "transferModal": {
+    "acceptOffer": "قبول العرض",
+    "annualSalary": "الراتب السنوي",
+    "club": "النادي",
+    "contract": "عقد اللاعب",
+    "deadline": "الموعد النهائي للانتقالات",
+    "duration": "سنوات العقد",
+    "interest": "الاهتمام",
+    "marketValue": "القيمة السوقية",
+    "noOffers": "لم يتم استلام أي عروض انتقال في الوقت الحالي.",
+    "offerDetails": "تفاصيل العرض",
+    "potentialRating": "الإمكانيات",
+    "rejectOffer": "رفض العرض",
+    "role": "الدور في الفريق",
+    "signContract": "توقيع العقد",
+    "title": "سوق الانتقالات",
+    "transferFee": "رسوم الانتقال",
+    "weeklySalary": "الراتب الأسبوعي"
+  },
+  "tutorial": {
+    "agent": {
+      "description": "يتولى وكيلك التفاوض على العقود وجلب عقود الرعاية والبحث عن فرص انتقال جديدة.",
+      "title": "وكيل الأعمال"
+    },
+    "attributes": {
+      "description": "تتطور سماتك من خلال التدريب المستمر والأداء المميز في المباريات.",
+      "title": "السمات والتطور"
+    },
+    "dashboard": {
+      "description": "هنا يمكنك متابعة حالتك الحالية والمباريات القادمة وأهداف الموسم.",
+      "title": "نظرة عامة على المسيرة"
+    },
+    "energy": {
+      "description": "تحكم في طاقتك بحكمة. لعب الكثير من المباريات دون راحة يزيد من خطر الإصابات.",
+      "title": "الطاقة واللياقة"
+    },
+    "skip": "تخطي البرنامج التعليمي",
+    "social": {
+      "description": "ابنِ قاعدتك الجماهيرية وتفاعل مع المتابعين وعزز شهرتك العالمية.",
+      "title": "وسائل التواصل الاجتماعي"
+    },
+    "title": "مرحبًا بك في القمة!",
+    "training": {
+      "description": "اختر تدريباتك الأسبوعية لتطوير سماتك واكتساب مهارات جديدة.",
+      "title": "التدريب الأسبوعي"
+    }
   }
 }

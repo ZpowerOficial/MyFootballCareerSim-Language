@@ -367,7 +367,9 @@
     "semiFinal": "Demi-finale",
     "final": "Finale",
     "firstLeg": "Match aller",
-    "secondLeg": "Match retour"
+    "secondLeg": "Match retour",
+    "notAvailable": "Non disponible",
+    "competition": "Compétition"
   },
   "commonExtra": {
     "ageYearsShort": "{age} ans",
@@ -586,7 +588,10 @@
       "netWage": "Salaire Net",
       "drainDetail": "Matchs ({matches}) + Entraînement ({training})"
     },
-    "weeklyReport": "Rapport Hebdomadaire"
+    "weeklyReport": "Rapport Hebdomadaire",
+    "transfersLocked": "Transferts bloqués au centre de formation",
+    "seasonSummaryLocked": "Disponible en fin de saison",
+    "birthYear": "Année de naissance : {year}"
   },
   "donation": {
     "benefit1": "Nouvelles fonctionnalités",
@@ -1074,7 +1079,9 @@
       "TechnicalMaestro": "Maestro Technique",
       "TargetMan": "Point d'Appui",
       "Journeyman": "Globe-Trotter"
-    }
+    },
+    "bodyTypeChange": "Morphologie modifiée",
+    "weightLoss": "Perte de poids"
   },
   "ratingShort": "NOTE",
   "seasonModal": {
@@ -1251,7 +1258,8 @@
     "stepMode": "Mode",
     "stepSimulation": "Simulation",
     "stepPlayer": "Joueur",
-    "continue": "Continuer"
+    "continue": "Continuer",
+    "momentumUnavailableLite": "Le Momentum n'est pas disponible en mode Léger."
   },
   "matchPanel": {
     "title": "Simuler le match",
@@ -1340,29 +1348,29 @@
   },
   "tutorial": {
     "agent": {
-      "description": "Votre agent négocie vos contrats et gère votre image de marque.",
+      "description": "Votre agent négocie vos contrats et gère les opportunités de transferts et de sponsoring.",
       "title": "L'Agent"
     },
     "attributes": {
-      "description": "Vos attributs s'améliorent via l'entraînement et l'expérience en match.",
+      "description": "Vos attributs s'améliorent via l'entraînement et de bonnes prestations en match.",
       "title": "Attributs & Progression"
     },
     "dashboard": {
-      "description": "Ici, vous pouvez voir votre statut actuel, votre moral et les prochaines étapes.",
+      "description": "Ici, vous pouvez voir votre statut actuel, les prochains matchs et vos objectifs.",
       "title": "Aperçu de la Carrière"
     },
     "energy": {
-      "description": "Gérez votre énergie. Jouer trop de matchs sans repos peut entraîner des blessures.",
+      "description": "Gérez votre énergie. Enchaîner trop de matchs sans repos augmente le risque de blessures.",
       "title": "Énergie & Condition"
     },
     "skip": "Passer le Tutoriel",
     "social": {
-      "description": "Interagissez avec les réseaux sociaux pour augmenter votre réputation et décrocher des sponsors.",
+      "description": "Interagissez avec les réseaux sociaux pour développer votre notoriété et vos fans.",
       "title": "Médias Sociaux"
     },
     "title": "Bienvenue au Sommet !",
     "training": {
-      "description": "Choisissez vos séances d'entraînement hebdomadaires pour vous concentrer sur des domaines spécifiques.",
+      "description": "Choisissez vos séances d'entraînement hebdomadaires pour faire progresser vos attributs.",
       "title": "Entraînement Hebdomadaire"
     }
   },
@@ -1540,7 +1548,9 @@
     "Europe": "Europe",
     "Australia": "Océanie",
     "North America": "Amérique du Nord",
-    "South America": "Amérique du Sud"
+    "South America": "Amérique du Sud",
+    "seasonFilter": "Filtre de saison",
+    "currentSeason": "Saison actuelle"
   },
   "tier": {
     "BRONZE": "Bronze",

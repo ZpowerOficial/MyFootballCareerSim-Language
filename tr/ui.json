@@ -345,7 +345,12 @@
     "shareCard": "Share Image",
     "sharing": "Sharing...",
     "firstLeg": "İlk mac",
-    "secondLeg": "Rovans"
+    "secondLeg": "Rovans",
+    "notAvailable": "Mevcut değil",
+    "competition": "Turnuva",
+    "skill": "Beceri",
+    "team": "Takım",
+    "traits": "Özellikler"
   },
   "commonExtra": {
     "ageYearsShort": "{age} yaşında",
@@ -564,7 +569,10 @@
       "netWage": "Net Maaş",
       "drainDetail": "Maçlar ({matches}) + Antrenman ({training})"
     },
-    "weeklyReport": "Haftalık Rapor"
+    "weeklyReport": "Haftalık Rapor",
+    "transfersLocked": "Altyapı akademisinde transferler kilitli",
+    "seasonSummaryLocked": "Sezon sonunda kullanılabilir",
+    "birthYear": "Doğum yılı: {year}"
   },
   "donation": {
     "benefit1": "Yeni özellikler",
@@ -1231,7 +1239,8 @@
     "stepMode": "Mod",
     "stepSimulation": "Simülasyon",
     "stepPlayer": "Oyuncu",
-    "continue": "Devam Et"
+    "continue": "Devam Et",
+    "momentumUnavailableLite": "Hafif modda momentum kullanılamaz."
   },
   "matchPanel": {
     "title": "Maçı simüle et",
@@ -1325,7 +1334,9 @@
     "formDescription": "Form sahadaki performansını etkiler. Gelişmek için iyi oyna!",
     "mental": "Zihinsel",
     "moraleDescription": "Moral motivasyonu, antrenmanı ve kariyer kararlarını etkiler.",
-    "squadStatus": "Kadro Durumu"
+    "squadStatus": "Kadro Durumu",
+    "seasonFilter": "Sezon Filtresi",
+    "currentSeason": "Mevcut Sezon"
   },
   "update": {
     "description": "Oyunun yeni bir sürümü iyileştirmeler ve düzeltmelerle mevcut!",
@@ -1565,7 +1576,6 @@
     "assistantCoach": "Yardımcı Antrenör Raporu"
   },
   "awards": {
-    "_TODO": "Translate World Rankings UI",
     "worldRankings": "Global",
     "votingResults": "Oylama Sonuçları",
     "rankings": "Sıralamalar",
@@ -1817,5 +1827,52 @@
     "injuryRiskLow": "Düşük Risk",
     "injuryRiskModerate": "Orta Risk",
     "injuryRiskHigh": "Yüksek Risk"
+  },
+  "transferModal": {
+    "acceptOffer": "Teklifi Kabul Et",
+    "annualSalary": "Yıllık Maaş",
+    "club": "Kulüp",
+    "contract": "Oyuncu Sözleşmesi",
+    "deadline": "Transfer Kapanış Tarihi",
+    "duration": "Sözleşme Süresi",
+    "interest": "İlgi",
+    "marketValue": "Piyasa Değeri",
+    "noOffers": "Şu anda herhangi bir transfer teklifi alınmadı.",
+    "offerDetails": "Teklif Detayları",
+    "potentialRating": "Potansiyel",
+    "rejectOffer": "Teklifi Reddet",
+    "role": "Kadro Rolü",
+    "signContract": "Sözleşme İmzala",
+    "title": "Transfer Pazarı",
+    "transferFee": "Bonservis Bedeli",
+    "weeklySalary": "Haftalık Maaş"
+  },
+  "tutorial": {
+    "agent": {
+      "description": "Menajeriniz sözleşmelerinizi müzakere eder, sponsorlar bulur ve yeni transfer fırsatları sunar.",
+      "title": "Menajer"
+    },
+    "attributes": {
+      "description": "Özellikleriniz, disiplinli antrenmanlar ve başarılı maç performanslarıyla gelişir.",
+      "title": "Özellikler ve Gelişim"
+    },
+    "dashboard": {
+      "description": "Mevcut durumunuzu, yaklaşan maçları ve sezon hedeflerinizi buradan takip edin.",
+      "title": "Kariyere Genel Bakış"
+    },
+    "energy": {
+      "description": "Enerjinizi iyi yönetin. Dinlenmeden çok fazla maça çıkmak sakatlık riskini artırır.",
+      "title": "Enerji ve Kondisyon"
+    },
+    "skip": "Öğreticiyi Geç",
+    "social": {
+      "description": "Hayran kitlenizi büyütün, takipçilerle etkileşim kurun ve küresel ününüzü artırın.",
+      "title": "Sosyal Medya"
+    },
+    "title": "Zirveye Hoş Geldiniz!",
+    "training": {
+      "description": "Özelliklerinizi geliştirmek ve yeni yetenekler kazanmak için haftalık antrenmanlarınızı seçin.",
+      "title": "Haftalık Antrenman"
+    }
   }
 }

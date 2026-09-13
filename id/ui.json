@@ -345,7 +345,12 @@
     "shareCard": "Share Image",
     "sharing": "Sharing...",
     "firstLeg": "Leg pertama",
-    "secondLeg": "Leg kedua"
+    "secondLeg": "Leg kedua",
+    "notAvailable": "Tidak tersedia",
+    "competition": "Kompetisi",
+    "skill": "Keahlian",
+    "team": "Tim",
+    "traits": "Karakteristik"
   },
   "commonExtra": {
     "ageYearsShort": "{age} tahun",
@@ -564,7 +569,10 @@
       "netWage": "Gaji Bersih",
       "drainDetail": "Pertandingan ({matches}) + Latihan ({training})"
     },
-    "weeklyReport": "Laporan Mingguan"
+    "weeklyReport": "Laporan Mingguan",
+    "transfersLocked": "Transfer terkunci di akademi muda",
+    "seasonSummaryLocked": "Tersedia di akhir musim",
+    "birthYear": "Tahun lahir: {year}"
   },
   "donation": {
     "benefit1": "Fitur baru",
@@ -1052,7 +1060,9 @@
       "TechnicalMaestro": "Maestro Teknik",
       "TargetMan": "Target Man",
       "Journeyman": "Pemain Pengelana"
-    }
+    },
+    "bodyTypeChange": "Tipe tubuh berubah",
+    "weightLoss": "Penurunan berat badan"
   },
   "ratingShort": "RTG",
   "seasonModal": {
@@ -1229,7 +1239,8 @@
     "stepMode": "Mode",
     "stepSimulation": "Simulasi",
     "stepPlayer": "Pemain",
-    "continue": "Lanjutkan"
+    "continue": "Lanjutkan",
+    "momentumUnavailableLite": "Momentum tidak tersedia dalam mode Ringan."
   },
   "matchPanel": {
     "title": "Simulasikan pertandingan",
@@ -1323,7 +1334,9 @@
     "formDescription": "Performa memengaruhi penampilan Anda di lapangan. Main bagus untuk meningkat!",
     "mental": "Mentalitas",
     "moraleDescription": "Moral memengaruhi motivasi, latihan, dan keputusan karier.",
-    "squadStatus": "Status Skuad"
+    "squadStatus": "Status Skuad",
+    "seasonFilter": "Filter Musim",
+    "currentSeason": "Musim Ini"
   },
   "update": {
     "description": "Versi baru game tersedia dengan peningkatan dan perbaikan!",
@@ -1563,7 +1576,6 @@
     "assistantCoach": "Laporan Asisten Pelatih"
   },
   "awards": {
-    "_TODO": "Translate World Rankings UI",
     "worldRankings": "Dunia",
     "votingResults": "Hasil Pemungutan Suara",
     "rankings": "Peringkat",
@@ -1815,5 +1827,52 @@
     "injuryRiskLow": "Risiko Rendah",
     "injuryRiskModerate": "Risiko Sedang",
     "injuryRiskHigh": "Risiko Tinggi"
+  },
+  "transferModal": {
+    "acceptOffer": "Terima Tawaran",
+    "annualSalary": "Gaji Tahunan",
+    "club": "Klub",
+    "contract": "Kontrak Pemain",
+    "deadline": "Batas Waktu Transfer",
+    "duration": "Durasi Kontrak (Tahun)",
+    "interest": "Minat",
+    "marketValue": "Nilai Pasar",
+    "noOffers": "Tidak ada tawaran transfer yang diterima saat ini.",
+    "offerDetails": "Detail Tawaran",
+    "potentialRating": "Potensi",
+    "rejectOffer": "Tolak Tawaran",
+    "role": "Peran dalam Skuad",
+    "signContract": "Tandatangani Kontrak",
+    "title": "Bursa Transfer",
+    "transferFee": "Biaya Transfer",
+    "weeklySalary": "Gaji Mingguan"
+  },
+  "tutorial": {
+    "agent": {
+      "description": "Agen Anda menegosiasikan kontrak, mendatangkan sponsor, dan mencari peluang transfer baru.",
+      "title": "Agen Pemain"
+    },
+    "attributes": {
+      "description": "Atribut Anda berkembang melalui latihan rutin dan performa gemilang di lapangan.",
+      "title": "Atribut & Perkembangan"
+    },
+    "dashboard": {
+      "description": "Pantau status terkini, jadwal mendatang, dan target musim Anda di sini.",
+      "title": "Ikhtisar Karier"
+    },
+    "energy": {
+      "description": "Kelola stamina Anda dengan bijak. Terlalu banyak bertanding tanpa istirahat meningkatkan risiko cedera.",
+      "title": "Energi & Kebugaran"
+    },
+    "skip": "Lewati Tutorial",
+    "social": {
+      "description": "Bangun basis penggemar Anda, berinteraksi dengan pengikut, dan tingkatkan popularitas global.",
+      "title": "Media Sosial"
+    },
+    "title": "Selamat Datang di Puncak!",
+    "training": {
+      "description": "Pilih sesi latihan mingguan Anda untuk meningkatkan atribut dan menguasai karakteristik baru.",
+      "title": "Latihan Mingguan"
+    }
   }
 }

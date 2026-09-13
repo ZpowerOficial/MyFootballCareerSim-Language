@@ -1017,7 +1017,29 @@
           "17": "Espírito de luta: {name} se aposenta após perder a batalha contra o corpo.",
           "18": "Carreira pausada permanentemente: {name} se aposenta devido a lesão.",
           "19": "Aposentadoria médica: {name} forçado a parar por ordem médica.",
-          "20": "O corpo não aguentava mais: {name} anuncia aposentadoria médica."
+          "20": "O corpo não aguentava mais: {name} anuncia aposentadoria médica.",
+          "types": {
+            "hamstring": "lesão no posterior da coxa",
+            "groin": "dores na virilha",
+            "ankle_sprain": "entorse no tornozelo",
+            "knee_problem": "problema no joelho",
+            "back": "lesão nas costas",
+            "knee": "lesão no joelho",
+            "muscle_tear": "ruptura muscular",
+            "concussion": "concussão",
+            "ankle": "lesão no tornozelo",
+            "hamstring_tear": "estiramento grave no posterior",
+            "calf": "estiramento na panturrilha",
+            "finger": "lesão no dedo",
+            "shoulder": "problema no ombro",
+            "hamstring_strain": "estiramento no posterior da coxa",
+            "groin_injury": "lesão na virilha",
+            "ankle_problem": "problema no tornozelo",
+            "calf_strain": "distensão na panturrilha",
+            "thigh": "lesão na coxa",
+            "muscle_strain": "estiramento muscular",
+            "muscle": "lesão muscular"
+          }
         },
         "natural": {
           "1": "{name} anuncia aposentadoria no momento perfeito. Uma carreira bem vivida.",
@@ -2363,6 +2385,13 @@
       "quote1": "Você ainda está superando jogadores com metade da sua idade. Qual é o segredo da sua longevidade?",
       "quote2": "Muitos esperavam que você recusasse, mas você está jogando o seu melhor futebol. Como?",
       "quote3": "Como estrela veterana, você sente mais responsabilidade nos grandes momentos?"
+    },
+    "Wonderkid": {
+      "name": "Garoto Prodígio",
+      "description": "Jovem talento excepcional cotado para dominar o futebol mundial.",
+      "quote1": "Muitos o veem como um futuro vencedor da Bola de Ouro. O que você acha disso?",
+      "quote2": "Rumores ligam você aos maiores clubes do mundo. Você tem uma transferência dos sonhos?",
+      "quote3": "Nesta fase da sua carreira, qual aspecto do seu jogo você mais quer aprimorar?"
     }
   },
   "news": {

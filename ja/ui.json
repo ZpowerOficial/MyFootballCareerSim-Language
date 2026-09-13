@@ -345,7 +345,12 @@
     "shareCard": "Share Image",
     "sharing": "Sharing...",
     "firstLeg": "第1戦",
-    "secondLeg": "第2戦"
+    "secondLeg": "第2戦",
+    "notAvailable": "利用不可",
+    "competition": "大会",
+    "skill": "スキル",
+    "team": "チーム",
+    "traits": "特性"
   },
   "commonExtra": {
     "ageYearsShort": "{age} 歳",
@@ -564,7 +569,10 @@
       "netWage": "手取り給与",
       "drainDetail": "試合 ({matches}) + 練習 ({training})"
     },
-    "weeklyReport": "週間レポート"
+    "weeklyReport": "週間レポート",
+    "transfersLocked": "ユースアカデミーでは移籍がロックされています",
+    "seasonSummaryLocked": "シーズン終了時に利用可能",
+    "birthYear": "生年: {year}"
   },
   "donation": {
     "benefit1": "新機能",
@@ -1052,7 +1060,9 @@
       "TechnicalMaestro": "テクニカル・マエストロ",
       "TargetMan": "ターゲットマン",
       "Journeyman": "ジャーニーマン"
-    }
+    },
+    "bodyTypeChange": "体型が変化",
+    "weightLoss": "体重減少"
   },
   "ratingShort": "評点",
   "seasonModal": {
@@ -1229,7 +1239,8 @@
     "stepMode": "モード",
     "stepSimulation": "シミュレーション",
     "stepPlayer": "選手",
-    "continue": "続ける"
+    "continue": "続ける",
+    "momentumUnavailableLite": "ライトモードではモメンタムを利用できません。"
   },
   "matchPanel": {
     "title": "試合をシミュレート",
@@ -1323,7 +1334,9 @@
     "formDescription": "調子はピッチ上のパフォーマンスに影響します。 調子を上げるために良いプレーをしましょう！",
     "mental": "メンタル",
     "moraleDescription": "士気はモチベーション、トレーニング、キャリアの決断に影響します。",
-    "squadStatus": "チーム内状況"
+    "squadStatus": "チーム内状況",
+    "seasonFilter": "シーズンフィルター",
+    "currentSeason": "現在のシーズン"
   },
   "update": {
     "description": "改善と修正が含まれたゲームの新しいバージョンが利用可能です！",
@@ -1814,5 +1827,52 @@
     "injuryRiskLow": "低リスク",
     "injuryRiskModerate": "中リスク",
     "injuryRiskHigh": "高リスク"
+  },
+  "transferModal": {
+    "acceptOffer": "オファーを受諾",
+    "annualSalary": "年俸",
+    "club": "クラブ",
+    "contract": "選手契約",
+    "deadline": "移籍期限",
+    "duration": "契約年数",
+    "interest": "関心度",
+    "marketValue": "市場価値",
+    "noOffers": "現在、移籍オファーは届いていません。",
+    "offerDetails": "オファー詳細",
+    "potentialRating": "ポテンシャル",
+    "rejectOffer": "オファーを拒否",
+    "role": "チーム内の役割",
+    "signContract": "契約に署名",
+    "title": "移籍市場",
+    "transferFee": "移籍金",
+    "weeklySalary": "週給"
+  },
+  "tutorial": {
+    "agent": {
+      "description": "代理人は契約交渉やスポンサー契約、新たな移籍のチャンスを見つけ出してくれます。",
+      "title": "代理人"
+    },
+    "attributes": {
+      "description": "能力値は熱心なトレーニングと試合での好パフォーマンスによって向上します。",
+      "title": "能力値と成長"
+    },
+    "dashboard": {
+      "description": "現在のステータス、次の試合、シーズンの目標をここで確認できます。",
+      "title": "キャリア概要"
+    },
+    "energy": {
+      "description": "体力を賢く管理しましょう。休養なしの連戦は疲労と負傷のリスクを高めます。",
+      "title": "体力とコンディション"
+    },
+    "skip": "チュートリアルをスキップ",
+    "social": {
+      "description": "ファンベースを拡大し、フォロワーと交流して世界的な知名度を高めましょう。",
+      "title": "ソーシャルメディア"
+    },
+    "title": "トップリーグへようこそ！",
+    "training": {
+      "description": "能力値を高め、プレイスタイルを磨くために毎回の練習メニューを選択しましょう。",
+      "title": "週間トレーニング"
+    }
   }
 }

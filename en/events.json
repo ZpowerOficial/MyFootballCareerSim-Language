@@ -79,7 +79,9 @@
     "reachCareerAssists": "Reach career assists milestone",
     "reachCareerGoals": "Reach career goals milestone",
     "reachOverallRating": "Reach OVR target",
-    "winWorldCup": "Win the World Tournament"
+    "winWorldCup": "Win the World Tournament",
+    "achieved": "Objective Achieved: {narrative}",
+    "newGoal": "New Objective Unlocked: {goal}"
   },
   "competitions": {
     "afcon": "African Cup of Nations",
@@ -106,7 +108,8 @@
   },
   "wcQualification": {
     "description": "Your national team is competing for the World Tournament",
-    "title": "World Tournament Qualifiers"
+    "title": "World Tournament Qualifiers",
+    "failed": "Qualification Failed"
   },
   "contractTermination": {
     "alreadyTerminatedDesc": "You have already terminated a contract during this season. FIFA regulations prevent multiple contract terminations within the same registration period.",
@@ -1015,7 +1018,29 @@
           "17": "Fighting spirit: {name} retires after losing battle with body.",
           "18": "Career paused permanently: {name} retires due to injury.",
           "19": "Medical retirement: {name} forced to stop by doctor's orders.",
-          "20": "Body couldn't take more: {name} announces medical retirement."
+          "20": "Body couldn't take more: {name} announces medical retirement.",
+          "types": {
+            "hamstring": "hamstring injury",
+            "groin": "groin pain",
+            "ankle_sprain": "sprained ankle",
+            "knee_problem": "knee issue",
+            "back": "back injury",
+            "knee": "knee injury",
+            "muscle_tear": "muscle tear",
+            "concussion": "concussion",
+            "ankle": "ankle injury",
+            "hamstring_tear": "torn hamstring",
+            "calf": "calf strain",
+            "finger": "finger injury",
+            "shoulder": "shoulder problem",
+            "hamstring_strain": "hamstring strain",
+            "groin_injury": "groin injury",
+            "ankle_problem": "ankle problem",
+            "calf_strain": "calf strain",
+            "thigh": "thigh injury",
+            "muscle_strain": "muscle strain",
+            "muscle": "muscle injury"
+          }
         },
         "natural": {
           "1": "{name} announces retirement at perfect moment. A career well lived.",
@@ -2357,6 +2382,13 @@
       "quote1": "You're still outperforming players half your age. What's the secret to your longevity?",
       "quote2": "Many expected you to decline, yet you're playing some of your best football. How?",
       "quote3": "As a veteran star, do you feel more responsibility in the big moments?"
+    },
+    "Wonderkid": {
+      "name": "Wonderkid",
+      "description": "Exceptional young talent tipped to dominate world football.",
+      "quote1": "Many see you as a future World Player of the Year. What are your thoughts?",
+      "quote2": "Rumors link you with the world's biggest clubs. Do you have a dream transfer?",
+      "quote3": "At this stage in your career, what part of your game are you focusing on most?"
     }
   },
   "news": {

@@ -345,7 +345,12 @@
     "shareCard": "Share Image",
     "sharing": "Sharing...",
     "firstLeg": "Первый матч",
-    "secondLeg": "Ответный матч"
+    "secondLeg": "Ответный матч",
+    "notAvailable": "Недоступно",
+    "competition": "Турнир",
+    "skill": "Навык",
+    "team": "Команда",
+    "traits": "Особенности"
   },
   "commonExtra": {
     "ageYearsShort": "{age} лет",
@@ -564,7 +569,10 @@
       "netWage": "Чистая зарплата",
       "drainDetail": "Матчи ({matches}) + Тренировка ({training})"
     },
-    "weeklyReport": "Еженедельный отчет"
+    "weeklyReport": "Еженедельный отчет",
+    "transfersLocked": "Трансферы заблокированы в юношеской академии",
+    "seasonSummaryLocked": "Доступно в конце сезона",
+    "birthYear": "Год рождения: {year}"
   },
   "donation": {
     "benefit1": "Новые функции",
@@ -1052,7 +1060,9 @@
       "TechnicalMaestro": "Технический маэстро",
       "TargetMan": "Столб",
       "Journeyman": "Странник"
-    }
+    },
+    "bodyTypeChange": "Телосложение изменилось",
+    "weightLoss": "Снижение веса"
   },
   "ratingShort": "РЕЙТ",
   "seasonModal": {
@@ -1229,7 +1239,8 @@
     "stepMode": "Режим",
     "stepSimulation": "Симуляция",
     "stepPlayer": "Игрок",
-    "continue": "Продолжить"
+    "continue": "Продолжить",
+    "momentumUnavailableLite": "Моментум недоступен в легком режиме."
   },
   "matchPanel": {
     "title": "Симулировать матч",
@@ -1323,7 +1334,9 @@
     "formDescription": "Форма влияет на игру на поле. Играйте хорошо, чтобы улучшить ее!",
     "mental": "Ментальность",
     "moraleDescription": "Мораль влияет на мотивацию, тренировки и карьерные решения.",
-    "squadStatus": "Статус в составе"
+    "squadStatus": "Статус в составе",
+    "seasonFilter": "Фильтр сезонов",
+    "currentSeason": "Текущий сезон"
   },
   "update": {
     "description": "Доступна новая версия игры с улучшениями и исправлениями!",
@@ -1563,7 +1576,6 @@
     "assistantCoach": "Отчет Ассистента"
   },
   "awards": {
-    "_TODO": "Translate World Rankings UI",
     "worldRankings": "Мир",
     "votingResults": "Результаты голосования",
     "rankings": "Рейтинг",
@@ -1815,5 +1827,52 @@
     "injuryRiskLow": "Низкий риск",
     "injuryRiskModerate": "Умеренный риск",
     "injuryRiskHigh": "Высокий риск"
+  },
+  "transferModal": {
+    "acceptOffer": "Принять предложение",
+    "annualSalary": "Годовая зарплата",
+    "club": "Клуб",
+    "contract": "Контракт игрока",
+    "deadline": "Дедлайн трансферов",
+    "duration": "Срок контракта (лет)",
+    "interest": "Интерес",
+    "marketValue": "Рыночная стоимость",
+    "noOffers": "На данный момент предложений по трансферу нет.",
+    "offerDetails": "Детали предложения",
+    "potentialRating": "Потенциал",
+    "rejectOffer": "Отклонить предложение",
+    "role": "Роль в составе",
+    "signContract": "Подписать контракт",
+    "title": "Трансферный рынок",
+    "transferFee": "Сумма трансфера",
+    "weeklySalary": "Недельная зарплата"
+  },
+  "tutorial": {
+    "agent": {
+      "description": "Агент ведет переговоры по контрактам, привлекает спонсоров и ищет варианты трансфера.",
+      "title": "Агент"
+    },
+    "attributes": {
+      "description": "Ваши характеристики растут благодаря тренировкам и хорошей игре в матчах.",
+      "title": "Атрибуты и развитие"
+    },
+    "dashboard": {
+      "description": "Здесь вы можете отслеживать текущий статус, предстоящие матчи и цели на сезон.",
+      "title": "Обзор карьеры"
+    },
+    "energy": {
+      "description": "Грамотно распределяйте силы. Перегрузки и игра без отдыха чреваты травмами.",
+      "title": "Энергия и форма"
+    },
+    "skip": "Пропустить обучение",
+    "social": {
+      "description": "Развивайте фан-базу, общайтесь с подписчиками и повышайте мировую известность.",
+      "title": "Социальные сети"
+    },
+    "title": "Добро пожаловать на вершину!",
+    "training": {
+      "description": "Выбирайте еженедельные тренировки для прокачки характеристик и освоения черт.",
+      "title": "Еженедельные тренировки"
+    }
   }
 }

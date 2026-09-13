@@ -2,28 +2,30 @@
   "agent": {
     "reputation": {
       "Average": "Rata-rata",
-      "Good": "Baik",
+      "Good": "Bagus",
       "Rookie": "Pemula",
-      "Super Agent": "Super Agen"
+      "Super Agent": "Agen Super"
     },
     "specialty": {
       "BrandBuilder": "Pembangun Merek",
       "Negotiator": "Negosiator",
-      "Scout": "Pramuka",
+      "Scout": "Pemandu Bakat",
       "balanced": "Seimbang",
       "contract": "Kontrak",
       "sponsorship": "Sponsor",
-      "transfer": "Transfer"
+      "transfer": "Transfer",
+      "Brand Builder": "Pembangun Merek",
+      "Mastermind": "Ahli Strategi"
     },
     "style": {
-      "Adaptable": "Adaptif",
+      "Adaptable": "Mudah Beradaptasi",
       "Aggressive": "Agresif",
       "Ambitious": "Ambisius",
       "Analytical": "Analitis",
       "Calm": "Tenang",
       "Charismatic": "Karismatik",
       "Dedicated": "Berdedikasi",
-      "Energetic": "Energik",
+      "Energetic": "Penuh Energi",
       "Experienced": "Berpengalaman",
       "Focused": "Fokus",
       "Friendly": "Ramah",
@@ -31,16 +33,17 @@
       "Innovative": "Inovatif",
       "Methodical": "Metodis",
       "Motivated": "Termotivasi",
-      "Networked": "Berjaringan",
-      "Passionate": "Bergairah",
+      "Networked": "Memiliki Jaringan Luas",
+      "Passionate": "Penuh Gairah",
       "Patient": "Sabar",
-      "Persistent": "Persisten",
-      "Precise": "Presisi",
+      "Persistent": "Gigih",
+      "Precise": "Tepat",
       "Professional": "Profesional",
-      "Reliable": "Andal",
+      "Reliable": "Dapat Diandalkan",
       "Strategic": "Strategis",
       "Traditional": "Tradisional",
-      "Visionary": "Visioner"
+      "Visionary": "Visioner",
+      "Pragmatic": "Pragmatis"
     }
   },
   "attributes": {
@@ -191,7 +194,8 @@
     "flair": "Bakat",
     "foot": {
       "left": "Kiri",
-      "right": "Benar"
+      "right": "Benar",
+      "both": "Kedua Kaki"
     },
     "footedness": "Kecerobohan",
     "freeKick": "Akurasi Tendangan Bebas",

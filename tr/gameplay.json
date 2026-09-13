@@ -7,13 +7,15 @@
       "Super Agent": "Süper Menajer"
     },
     "specialty": {
-      "BrandBuilder": "Marka Yapıcı",
+      "BrandBuilder": "Marka Oluşturucu",
       "Negotiator": "Müzakereci",
-      "Scout": "İzci",
+      "Scout": "Gözlemci",
       "balanced": "Dengeli",
-      "contract": "Sözleşmeler",
-      "sponsorship": "Sponsorluklar",
-      "transfer": "Transferler"
+      "contract": "Sözleşme",
+      "sponsorship": "Sponsorluk",
+      "transfer": "Transfer",
+      "Brand Builder": "Marka Oluşturucu",
+      "Mastermind": "Stratejist"
     },
     "style": {
       "Adaptable": "Uyumlu",
@@ -22,16 +24,16 @@
       "Analytical": "Analitik",
       "Calm": "Sakin",
       "Charismatic": "Karizmatik",
-      "Dedicated": "Adanmış",
+      "Dedicated": "Özverili",
       "Energetic": "Enerjik",
       "Experienced": "Deneyimli",
       "Focused": "Odaklanmış",
-      "Friendly": "Arkadaş Canlısı",
+      "Friendly": "Dost canlısı",
       "Honest": "Dürüst",
       "Innovative": "Yenilikçi",
       "Methodical": "Metodik",
       "Motivated": "Motive",
-      "Networked": "Bağlantılı",
+      "Networked": "Geniş Çevreye Sahip",
       "Passionate": "Tutkulu",
       "Patient": "Sabırlı",
       "Persistent": "Israrcı",
@@ -40,7 +42,8 @@
       "Reliable": "Güvenilir",
       "Strategic": "Stratejik",
       "Traditional": "Geleneksel",
-      "Visionary": "Vizyoner"
+      "Visionary": "Vizyoner",
+      "Pragmatic": "Pragmatik"
     }
   },
   "attributes": {
@@ -191,7 +194,8 @@
     "flair": "Yetenek",
     "foot": {
       "left": "Sol",
-      "right": "Sağ"
+      "right": "Sağ",
+      "both": "Her iki ayak"
     },
     "footedness": "Ayaklılık",
     "freeKick": "Serbest Vuruş Doğruluğu",

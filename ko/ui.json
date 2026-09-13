@@ -345,7 +345,12 @@
     "shareCard": "Share Image",
     "sharing": "Sharing...",
     "firstLeg": "1차전",
-    "secondLeg": "2차전"
+    "secondLeg": "2차전",
+    "notAvailable": "해당 없음",
+    "competition": "대회",
+    "skill": "스킬",
+    "team": "팀",
+    "traits": "특성"
   },
   "commonExtra": {
     "ageYearsShort": "{age}세",
@@ -564,7 +569,10 @@
       "netWage": "세후 급여",
       "drainDetail": "경기 ({matches}) + 훈련 ({training})"
     },
-    "weeklyReport": "주간 보고서"
+    "weeklyReport": "주간 보고서",
+    "transfersLocked": "유스 아카데미에서는 이적이 잠겨 있습니다",
+    "seasonSummaryLocked": "시즌 종료 시 확인 가능",
+    "birthYear": "출생 연도: {year}"
   },
   "donation": {
     "benefit1": "새로운 기능",
@@ -1052,7 +1060,9 @@
       "TechnicalMaestro": "기술적 마에스트로",
       "TargetMan": "타겟맨",
       "Journeyman": "저니맨"
-    }
+    },
+    "bodyTypeChange": "체형 변화",
+    "weightLoss": "체중 감량"
   },
   "ratingShort": "RTG",
   "seasonModal": {
@@ -1229,7 +1239,8 @@
     "stepMode": "모드",
     "stepSimulation": "시뮬레이션",
     "stepPlayer": "선수",
-    "continue": "계속"
+    "continue": "계속",
+    "momentumUnavailableLite": "라이트 모드에서는 모멘텀을 사용할 수 없습니다."
   },
   "matchPanel": {
     "title": "경기 시뮬레이션",
@@ -1323,7 +1334,9 @@
     "formDescription": "폼은 경기장에서의 경기력에 영향을 미칩니다. 잘 플레이해서 높여보세요!",
     "mental": "정신력",
     "moraleDescription": "사기는 동기부여, 훈련 및 커리어 결정에 영향을 미칩니다.",
-    "squadStatus": "스쿼드 상태"
+    "squadStatus": "스쿼드 상태",
+    "seasonFilter": "시즌 필터",
+    "currentSeason": "현재 시즌"
   },
   "update": {
     "description": "개선 사항과 수정 사항이 포함된 게임의 새로운 버전을 사용할 수 있습니다!",
@@ -1563,7 +1576,6 @@
     "assistantCoach": "수석 코치 보고서"
   },
   "awards": {
-    "_TODO": "Translate World Rankings UI",
     "worldRankings": "글로벌",
     "votingResults": "투표 결과",
     "rankings": "순위",
@@ -1815,5 +1827,52 @@
     "injuryRiskLow": "낮은 위험",
     "injuryRiskModerate": "보통 위험",
     "injuryRiskHigh": "높은 위험"
+  },
+  "transferModal": {
+    "acceptOffer": "제안 수락",
+    "annualSalary": "연봉",
+    "club": "클럽",
+    "contract": "선수 계약",
+    "deadline": "이적 마감일",
+    "duration": "계약 기간",
+    "interest": "관심도",
+    "marketValue": "시장 가치",
+    "noOffers": "현재 접수된 이적 제안이 없습니다.",
+    "offerDetails": "제안 세부사항",
+    "potentialRating": "잠재력",
+    "rejectOffer": "제안 거절",
+    "role": "스쿼드 내 역할",
+    "signContract": "계약 체결",
+    "title": "이적 시장",
+    "transferFee": "이적료",
+    "weeklySalary": "주급"
+  },
+  "tutorial": {
+    "agent": {
+      "description": "에이전트는 계약 협상, 스폰서 유치 및 새로운 이적 기회를 주선합니다.",
+      "title": "에이전트"
+    },
+    "attributes": {
+      "description": "능력치는 꾸준한 훈련과 경기에서의 뛰어난 활약을 통해 성장합니다.",
+      "title": "능력치 및 성장"
+    },
+    "dashboard": {
+      "description": "현재 상태, 다가오는 경기 일정 및 시즌 목표를 여기서 확인하세요.",
+      "title": "커리어 개요"
+    },
+    "energy": {
+      "description": "체력을 현명하게 관리하세요. 휴식 없이 너무 많은 경기를 소화하면 부상 위험이 커집니다.",
+      "title": "에너지 및 피지컬"
+    },
+    "skip": "튜토리얼 건너뛰기",
+    "social": {
+      "description": "팬층을 구축하고 팔로워들과 소통하며 전 세계적인 인지도를 높이세요.",
+      "title": "소셜 미디어"
+    },
+    "title": "정상에 오신 것을 환영합니다!",
+    "training": {
+      "description": "능력치를 키우고 특성을 습득하기 위해 매주 훈련 세션을 선택하세요.",
+      "title": "주간 훈련"
+    }
   }
 }
