@@ -68,14 +68,14 @@
     },
     "acceleration": "Percepatan",
     "age": "Usia",
-    "aggression": "Agresi",
+    "aggression": "Agresivitas",
     "agility": "Kelincahan",
     "attacking": "Menyerang",
     "attributeEvolution": "Evolusi Atribut",
     "balance": "Keseimbangan",
     "ballControl": "Kontrol Bola",
     "composure": "Ketenangan",
-    "crossing": "Persimpangan",
+    "crossing": "Umpan Silang",
     "currentAge": "Usia Saat Ini",
     "currentOvr": "OVR saat ini",
     "curve": "Melengkung",
@@ -91,17 +91,17 @@
         "fifaBest": "Terpilih sebagai Pemain Terbaik Musim Ini!",
         "goldenBoot": "Pencetak Gol Terbanyak Liga ({goals} gol)!",
         "goldenBoy": "Pemain Muda Terbaik Tahun Ini! Masa depan cerah untukmu.",
-        "goldenGlove": "Pemenang Sarung Tangan Emas ({cleanSheets} clean sheet)!",
-        "goldenShoe": "Pemenang Sepatu Emas Eropa! ({goals} gol)",
+        "goldenGlove": "Pemenang Sarung Tangan Emas ({cleanSheets} tanpa kebobolan)!",
+        "goldenShoe": "Pemenang Sepatu Emas Eropa ({goals} gol)!",
         "leaguePOTY": "Pemain Terbaik Liga Musim Ini!",
-        "leaguePositional": "Terpilih sebagai {position} Terbaik Liga!",
-        "playmaker": "Pemimpin Assist Liga ({assists} assist)!",
+        "leaguePositional": "Terpilih sebagai {position} Terbaik Musim Ini di {league}!",
+        "playmaker": "Raja Assist Liga ({assists} assist)!",
         "puskas": "Pemenang Penghargaan Gol Terbaik Tahun Ini!",
         "rookie": "Dinobatkan sebagai Rookie Terbaik Liga Tahun Ini!",
-        "shortlist": "Masuk daftar pendek Trofi Emas.",
+        "shortlist": "Masuk daftar pendek nominasi {award}!",
         "teamOfTheYear": "Masuk dalam Tim Terbaik Liga Tahun Ini.",
         "worldCupGoldenBall": "Pemenang Trofi Emas Turnamen Dunia!",
-        "worldCupGoldenBoot": "Pemenang Sepatu Emas Turnamen Dunia!",
+        "worldCupGoldenBoot": "Sepatu Emas Piala Dunia ({goals} gol)!",
         "worldCupTOTT": "Masuk dalam Tim Terbaik Turnamen Dunia!",
         "worldPlayer": "PEMAIN TERBAIK DUNIA! Diakui sebagai yang terbaik di planet ini. Narasi: {narrative}."
       },
@@ -190,8 +190,8 @@
         "releasedToProfessional": "Dilepas untuk karir profesional"
       }
     },
-    "finishing": "Penyelesaian",
-    "flair": "Bakat",
+    "finishing": "Penyelesaian Akhir",
+    "flair": "Kreativitas",
     "foot": {
       "left": "Kiri",
       "right": "Benar",
@@ -200,13 +200,13 @@
     "footedness": "Kecerobohan",
     "freeKick": "Akurasi Tendangan Bebas",
     "gkDiving": "Menyelam GK",
-    "gkHandling": "Penanganan GK",
+    "gkHandling": "Tangkapan Bola (Kiper)",
     "gkKicking": "Tendangan GK",
-    "gkPositioning": "Penentuan Posisi GK",
+    "gkPositioning": "Penempatan Posisi (Kiper)",
     "gkReflexes": "Refleks GK",
     "goalkeeping": "Penjaga gawang",
     "growth": "Pertumbuhan",
-    "heading": "Akurasi Judul",
+    "heading": "Akurasi Sundulan",
     "interceptions": "Intersepsi",
     "jumping": "Melompat",
     "keyAttribute": "Atribut Kunci",
@@ -215,48 +215,52 @@
     "legend": "Legenda",
     "longPassing": "Umpan Panjang",
     "longShots": "Tembakan Jauh",
-    "marking": "Menandai",
+    "marking": "Penjagaan",
     "mental": "Mental",
     "mentalAttributes": "Atribut Mental",
     "overall": "Keseluruhan",
     "overallEvolution": "Evolusi Keseluruhan",
-    "pace": "Laju",
-    "passing": "Lewat",
+    "pace": "Kecepatan (Pace)",
+    "passing": "Umpan",
     "peakAge": "Usia Puncak",
     "peakOvr": "Puncak OVR",
     "penalties": "Penalti",
     "physical": "Fisik",
     "physicalAttributes": "Atribut Fisik",
-    "positioning": "Penentuan posisi",
+    "positioning": "Penempatan Posisi",
     "preferredFoot": "Kaki Pilihan",
     "ratingColors": "Warna Peringkat",
     "reactions": "Reaksi",
     "rightFinishing": "Penyelesaian (Kanan)",
-    "shooting": "Penembakan",
+    "shooting": "Tembakan",
     "shortPassing": "Passing Pendek",
     "shotPower": "Kekuatan Tembakan",
-    "slidingTackle": "Cegatan",
+    "slidingTackle": "Tekel Meluncur",
     "sprintSpeed": "Kecepatan Lari",
     "stamina": "Daya tahan",
     "standingTackle": "Tekel Berdiri",
     "strength": "Kekuatan",
     "technical": "Teknis",
     "technicalAttributes": "Atribut Teknis",
-    "vision": "Penglihatan",
-    "volleys": "tembakan",
+    "vision": "Visi permainan",
+    "volleys": "Tendangan Voli",
     "weakFoot": "Kaki Lemah",
-    "workRate": "Tingkat Kerja",
+    "workRate": "Work Rate (Etos Kerja)",
     "aerialControl": "Kontrol Udara"
   },
   "characteristic": {
     "Aerial Specialist": "Spesialis Udara",
-    "Big Game Player": "Pemain Game Besar",
-    "Clinical Finisher": "Penyelesai Klinis",
-    "Dribbling Wizard": "Penyihir Menggiring Bola",
+    "Big Game Player": "Pemain Laga Besar",
+    "Clinical Finisher": "Penyelesai Dingin",
+    "Dribbling Wizard": "Pesulap Dribel",
     "Engine": "Mesin",
     "Leader": "Pemimpin",
     "Playmaker": "Pembuat permainan",
-    "Speed Demon": "Jago ngebut"
+    "Speed Demon": "Setan Kecepatan",
+    "aerialDominance": "Memenangi hampir setiap duel udara berkat penempatan posisi dan timing lompatan yang luar biasa.",
+    "ballPlayingDefender": "Nyaman menguasai bola dan ahli memprakarsai serangan dari lini pertahanan.",
+    "ballWinner": "Pemain pekerja keras yang piawai memutus serangan lawan dan merebut bola.",
+    "bigGamePlayer": "Selalu tampil luar biasa dan menjadi penentu dalam laga final serta duel krusial."
   },
   "expandedAttributes": {
     "defending": {
@@ -264,21 +268,21 @@
       "standingTiming": "Waktu Berdiri"
     },
     "finishing": {
-      "headedAccuracy": "Akurasi Menuju",
+      "headedAccuracy": "Akurasi Sundulan",
       "oneOnOneFinishing": "Penyelesaian 1v1",
       "placedShots": "Tembakan yang Ditempatkan",
       "shotAnticipation": "Antisipasi Tembakan",
       "volleyTechnique": "Teknik Voli",
-      "finishingInsideBox": "Finishing Di Dalam Kotak",
-      "finishingOnCounter": "Menyelesaikan Di Konter",
-      "finishingOutsideBox": "Finishing Luar Kotak",
+      "finishingInsideBox": "Penyelesaian di Kotak Penalti",
+      "finishingOnCounter": "Penyelesaian Serangan Balik",
+      "finishingOutsideBox": "Penyelesaian Luar Kotak",
       "finishingUnderPressure": "Menyelesaikan Di Bawah Tekanan",
-      "headingAccuracy": "Akurasi Judul",
-      "headingPower": "Kekuatan Pos",
+      "headingAccuracy": "Akurasi Sundulan Kepala",
+      "headingPower": "Kekuatan Sundulan",
       "placedShotAccuracy": "Akurasi Tembakan yang Ditempatkan",
       "powerShotAccuracy": "Akurasi Kekuatan Tembakan",
       "shotPower": "Kekuatan Tembakan",
-      "volleysAndAcrobatic": "Voli & Akrobatik"
+      "volleysAndAcrobatic": "Tendangan Voli & Akrobatik"
     },
     "mental": {
       "concentration": "Konsentrasi",
@@ -286,16 +290,16 @@
     },
     "passing": {
       "lobPassAccuracy": "Akurasi Lob Pass",
-      "throughBalls": "Melalui Bola",
+      "throughBalls": "Umpan Terobosan",
       "weightedPass": "Lulus Tertimbang",
-      "crossingFromByline": "Menyeberang Dari Byline",
-      "crossingFromDeep": "Menyeberang Dari Dalam",
+      "crossingFromByline": "Umpan Silang dari Garis Akhir",
+      "crossingFromDeep": "Umpan Silang dari Kedalaman",
       "curveEffect": "Efek Kurva",
-      "firstTimeCrossing": "Penyeberangan Pertama Kali",
+      "firstTimeCrossing": "Umpan Silang Langsung",
       "longDiagonalPass": "Umpan Diagonal Panjang",
       "shortPassingSupport": "Dukungan Passing Pendek",
       "shortPassingUnderPressure": "Umpan Pendek Di Bawah Tekanan",
-      "verticalPassBreakingLines": "Garis Pemutus Lintasan Vertikal"
+      "verticalPassBreakingLines": "Umpan Vertikal Pemecah Lini"
     },
     "speed": {
       "acceleration": "Percepatan",
@@ -314,21 +318,21 @@
       "aerialControl": "Kontrol Udara",
       "firstTouchOrientated": "Berorientasi Sentuhan Pertama",
       "firstTouchUnderPressure": "Sentuhan Pertama Di Bawah Tekanan",
-      "shielding": "Perisai",
+      "shielding": "Melindungi Bola",
       "trapping": "Penangkapan"
     },
     "commanding": {
       "aerialReach": "Jangkauan Udara",
-      "claimingCrosses": "Mengklaim Salib",
+      "claimingCrosses": "Menangkap Umpan Silang",
       "commandOfArea": "Komando Daerah",
       "communication": "Komunikasi",
-      "punching": "Meninju"
+      "punching": "Tinju Bola (Kiper)"
     },
     "defensivePositioning": {
       "backtracking": "Mundur",
-      "covering": "Penutup",
+      "covering": "Cover Pertahanan",
       "defensiveAwareness": "Kesadaran Defensif",
-      "jockeying": "perebutan",
+      "jockeying": "Menjaga Ruang / Jockeying",
       "positionRecovery": "Pemulihan Posisi"
     },
     "distribution": {
@@ -342,7 +346,7 @@
       "closeControlDribbling": "Tutup Kontrol Menggiring Bola",
       "congestedSpaceDribbling": "Dribbling Ruang Padat",
       "directionChange": "Perubahan Arah",
-      "flair": "Bakat",
+      "flair": "Kreativitas",
       "skillMoves": "Gerakan Keterampilan",
       "speedDribbling": "Menggiring Bola dengan Kecepatan"
     },
@@ -357,9 +361,9 @@
       "creativity": "Kreativitas",
       "decisions": "Keputusan",
       "offTheBallMovement": "Gerakan Off The Ball",
-      "positioning": "Penentuan posisi",
+      "positioning": "Penempatan Posisi",
       "spatialAwareness": "Kesadaran Spasial",
-      "vision": "Penglihatan"
+      "vision": "Visi permainan"
     },
     "interception": {
       "crossBlocking": "Pemblokiran Silang",
@@ -383,12 +387,12 @@
       "composure": "Ketenangan (GK)",
       "concentration": "Konsentrasi (GK)",
       "decisionMaking": "Pengambilan Keputusan (GK)",
-      "handling": "Penanganan"
+      "handling": "Tangkapan Kiper"
     },
     "performance": {
       "adaptability": "Kemampuan beradaptasi",
       "bigMatchPerformance": "Performa Pertandingan Besar",
-      "clutchFactor": "Faktor Kopling",
+      "clutchFactor": "Mental Penentu Kemenangan",
       "consistency": "Konsistensi",
       "pressureHandling": "Penanganan Tekanan"
     },
@@ -400,19 +404,19 @@
       "determination": "Tekad",
       "leadershipOnPitch": "Kepemimpinan Di Lapangan",
       "professionalism": "Profesionalisme",
-      "teamwork": "Kerja sama",
+      "teamwork": "Kerja Sama Tim",
       "temperament": "Perangai"
     },
     "positioning": {
       "linePositioning": "Penentuan Posisi Garis",
       "narrowingAngles": "Sudut yang Menyempit",
-      "positioning": "Penentuan Posisi GK",
+      "positioning": "Penempatan Posisi (Kiper)",
       "rushingOut": "Bergegas Keluar"
     },
     "pressing": {
       "counterPressing": "Penekanan Kontra",
       "pressIntensity": "Intensitas Tekan",
-      "pressingTrigger": "Menekan Pemicu",
+      "pressingTrigger": "Pemicu Pressing",
       "sustainedPressing": "Penekanan Berkelanjutan"
     },
     "robustness": {
@@ -422,7 +426,7 @@
       "recoveryRate": "Tingkat Pemulihan"
     },
     "setPieces": {
-      "cornerKicking": "Tendangan Sudut",
+      "cornerKicking": "Eksekusi Tendangan Sudut",
       "directFreeKickPlacement": "Penempatan Tendangan Bebas Langsung",
       "directFreeKickPower": "Kekuatan Tendangan Bebas Langsung",
       "indirectFreeKick": "Tendangan Bebas Tidak Langsung",
@@ -438,26 +442,26 @@
       "reflexes": "Refleks GK"
     },
     "strength": {
-      "balanceInContact": "Saldo Dalam Kontak",
+      "balanceInContact": "Keseimbangan Saat Benturan Fisik",
       "bodyToBodyStrength": "Kekuatan Tubuh ke Tubuh",
       "legStrength": "Kekuatan Kaki",
       "upperBodyStrength": "Kekuatan Tubuh Bagian Atas"
     },
     "tackling": {
       "cleanTackling": "Tekel Bersih",
-      "slidingTackle": "Cegatan",
+      "slidingTackle": "Tekel Meluncur",
       "standingTackle": "Tekel Berdiri",
-      "tackleTiming": "Waktu Mengatasi"
+      "tackleTiming": "Timing Tekel"
     }
   },
   "form": {
     "Average": "Rata-rata",
     "Excellent": "Bagus sekali",
     "Good": "Bagus",
-    "Injured": "Terluka",
+    "Injured": "Cedera",
     "OnFire": "Terbakar",
     "Poor": "Miskin",
-    "Suspended": "Tergantung",
+    "Suspended": "Diskors",
     "VeryPoor": "Sangat Buruk",
     "average": "Rata-rata",
     "belowAverage": "Di Bawah Rata-Rata",
@@ -483,7 +487,7 @@
       "becomeRegularStarter": "Menjadi starter reguler",
       "breakClubRecord": "Pecahkan Rekor Klub",
       "earnCallUp": "Dapatkan panggilan tim nasional",
-      "firstCleanSheet": "Pertahankan clean sheet pertama",
+      "firstCleanSheet": "Pertahankan tanpa kebobolan pertama",
       "firstProGoal": "Cetak gol profesional pertama",
       "makeDebut": "Lakukan debut profesional",
       "playTopTier": "Bermain di tingkat atas",
@@ -501,7 +505,7 @@
     "emptyDescription": "Setiap legenda mempunyai permulaan. Teruslah bermain dan tujuan baru akan muncul di sepanjang jalan.",
     "emptyTitle": "Perjalanan Anda dimulai di sini",
     "expired": "Kedaluwarsa",
-    "firstCleanSheet": "Pertahankan clean sheet pertama",
+    "firstCleanSheet": "Pertahankan tanpa kebobolan pertama",
     "firstGoal": "Cetak gol profesional pertama",
     "firstTrophy": "Menangkan trofi besar pertama",
     "legacyOther": "Tujuan Lainnya",
@@ -565,7 +569,7 @@
       "origin": {
         "agent": "Agen",
         "club": "Klub",
-        "coach": "Manajer",
+        "coach": "Pelatih",
         "fans": "Penggemar",
         "press": "Tekan",
         "self": "Diri sendiri"
@@ -681,35 +685,35 @@
     "Lazy": "Malas",
     "Leader": "Pemimpin",
     "Loyal": "Setia",
-    "Media Darling": "Media Sayang",
+    "Media Darling": "Favorit Media",
     "Professional": "Profesional",
     "Reserved": "Disimpan",
     "Temperamental": "Emosional"
   },
   "playerStyle": {
-    "advancedPlaymaker": "Playmaker Tingkat Lanjut",
-    "ballPlayingDefender": "Bek Bermain Bola",
-    "ballWinningMidfielder": "Gelandang Pemenang Bola",
-    "boxToBox": "Kotak-ke-Kotak",
-    "completeForward": "Selesaikan Maju",
-    "deepLyingPlaymaker": "Playmaker Berbohong Dalam",
-    "emergingTalent": "Bakat yang Muncul",
-    "false9": "Salah 9",
-    "insideForward": "Dalam ke Depan",
-    "invertedWinger": "Pemain Sayap Terbalik",
+    "advancedPlaymaker": "Playmaker Serang",
+    "ballPlayingDefender": "Bek Pengumpan",
+    "ballWinningMidfielder": "Gelandang Perebut Bola",
+    "boxToBox": "Box-to-Box",
+    "completeForward": "Penyerang Lengkap",
+    "deepLyingPlaymaker": "Playmaker Dalam",
+    "emergingTalent": "Talenta Muda",
+    "false9": "Penyerang Palsu",
+    "insideForward": "Penyerang Sayap Dalam",
+    "invertedWinger": "Winger Terbalik",
     "mezzala": "Mezzala",
-    "poacher": "Pemburu gelap",
+    "poacher": "Pemangsa Gol",
     "regista": "Registrasi",
     "shotStopper": "Penghenti Tembakan",
-    "speedDemon": "Jago ngebut",
+    "speedDemon": "Setan Kecepatan",
     "stopper": "Sumbat",
     "sweeper": "Penyapu",
-    "sweeperKeeper": "Penjaga Penyapu",
-    "targetMan": "Manusia Sasaran",
-    "traditionalWinger": "Pemain Sayap Tradisional",
+    "sweeperKeeper": "Kiper Penyapu",
+    "targetMan": "Penyerang Target",
+    "traditionalWinger": "Winger Tradisional",
     "versatilePlayer": "Pemain Serbaguna",
-    "widePlaymaker": "Playmaker Lebar",
-    "wingBack": "Sayap Belakang"
+    "widePlaymaker": "Playmaker Sayap",
+    "wingBack": "Bek Sayap"
   },
   "seasonFocus": {
     "aerial": {
@@ -726,7 +730,7 @@
     },
     "boxToBox": {
       "description": "Menutupi seluruh lapangan dan berkontribusi pada serangan dan pertahanan",
-      "title": "Kotak-ke-Kotak"
+      "title": "Box-to-Box"
     },
     "consistency": {
       "description": "Bertujuan untuk penampilan yang solid dan andal sepanjang musim.",
@@ -764,7 +768,7 @@
     "positionHint": "Opsi tersedia untuk {position}",
     "positioning": {
       "description": "Pembacaan permainan dan kepekaan posisi yang lebih baik",
-      "title": "Penentuan posisi"
+      "title": "Penempatan Posisi"
     },
     "reflexes": {
       "description": "Mempertajam waktu reaksi dan menghemat",
@@ -782,7 +786,11 @@
     "title": "Fokus Musim",
     "titles": {
       "description": "Fokus pada memenangi trofi. Harapan tim menjadi lebih penting.",
-      "title": "Judul"
+      "title": "Gelar"
+    },
+    "ballplaying": {
+      "description": "Meningkatkan passing dan distribusi dari belakang",
+      "title": "Bermain Bola"
     }
   },
   "squadStatus": {
@@ -883,7 +891,7 @@
     "tab": {
       "info": "Informasi",
       "trainer": "Pelatih",
-      "training": "Pelatihan"
+      "training": "Latihan"
     },
     "tactical": "Taktis",
     "technical": "Teknis",
@@ -899,21 +907,21 @@
     "types": {
       "activeRest": "Pemulihan Aktif",
       "activeRestDesc": "Sesi pemulihan ringan untuk memulihkan energi",
-      "aerialDefense": "Pertahanan Udara",
+      "aerialDefense": "Pertahanan bola udara",
       "aerialDefenseDesc": "Sundulan dan bola-bola tinggi",
       "agility": "Kelincahan",
       "agilityDesc": "Perubahan arah dan gerak kaki yang cepat",
       "balanced": "Seimbang",
       "balancedDesc": "Pembangunan yang seimbang secara keseluruhan",
-      "boxToBox": "Kotak ke Kotak",
+      "boxToBox": "Gelandang box-to-box",
       "boxToBoxDesc": "Pelatihan gelandang lengkap",
       "clubTraining": "Pelatihan Klub",
       "clubTrainingDesc": "Berlatih dengan pasukan. Gratis, efektivitas berdasarkan fasilitas",
       "counterAttack": "Serangan Balik",
       "counterAttackDesc": "Permainan transisi cepat",
-      "covering": "Penutup",
+      "covering": "Cover",
       "coveringDesc": "Kesadaran dan posisi defensif",
-      "crossing": "Persimpangan",
+      "crossing": "Umpan silang",
       "crossingDesc": "Latihan pemain sayap untuk memberikan umpan silang",
       "defensiveMid": "Pertahanan Tengah",
       "defensiveMidDesc": "Perlindungan dan pemulihan bola",
@@ -927,27 +935,27 @@
       "flexibilityDesc": "Peregangan dan mobilitas bekerja",
       "fullback": "Bek Penuh",
       "fullbackDesc": "Menyerang dukungan dan pertahanan",
-      "gkCrosses": "Persilangan GK",
+      "gkCrosses": "Menghadapi umpan silang",
       "gkCrossesDesc": "Mengklaim umpan silang dan bola tinggi",
       "gkDistribution": "Distribusi GK",
       "gkDistributionDesc": "Kontrol bola dan passing",
-      "gkDiving": "Menyelam GK",
+      "gkDiving": "Diving kiper",
       "gkDivingDesc": "Teknik penyelamatan dan penyelaman",
       "gkMentality": "Mentalitas GK",
       "gkMentalityDesc": "Fokus dan konsentrasi",
       "gkOneOnOne": "GK 1v1",
       "gkOneOnOneDesc": "Situasi satu lawan satu",
-      "gkPositioning": "Penentuan Posisi GK",
+      "gkPositioning": "Penempatan Posisi (Kiper)",
       "gkPositioningDesc": "Positioning dan antisipasi",
       "gkReflexes": "Refleks GK",
       "gkReflexesDesc": "Reaksi cepat menghemat",
       "gym": "gimnasium",
       "gymDesc": "Latihan kekuatan dan angkat beban",
-      "heading": "Menuju",
+      "heading": "Sundulan",
       "headingDesc": "Pelatihan kemampuan udara",
       "longshots": "Tembakan Jauh",
       "longshotsDesc": "Teknik menembak jarak jauh",
-      "marking": "Menandai",
+      "marking": "Penjagaan",
       "markingDesc": "Penandaan dan cakupan pertahanan",
       "physical": "Fisik",
       "physicalDesc": "Kecepatan, kekuatan dan stamina",
@@ -955,19 +963,19 @@
       "playmakerDesc": "Visi kreatif dan passing",
       "playmaking": "Pembuatan permainan",
       "playmakingDesc": "Passing, visi dan penciptaan peluang",
-      "poacher": "Pemburu gelap",
+      "poacher": "Pemangsa Gol",
       "poacherDesc": "Kehadiran dan penyelesaian kotak",
       "position": "Posisi",
       "positionDesc": "Pelatihan untuk perubahan posisi",
-      "positioning": "Penentuan posisi",
+      "positioning": "Penempatan Posisi",
       "positioningDesc": "Gerakan dan serangan berjalan",
-      "pressing": "Mendesak",
+      "pressing": "Pressing",
       "pressingDesc": "Pekerjaan defensif intensitas tinggi",
       "scrimmage": "Pergumulan",
       "scrimmageDesc": "Latih pertandingan dengan fokus pada passing dan dribbling",
       "setpieces": "Atur Potongan",
       "setpiecesDesc": "Tendangan bebas dan tendangan sudut",
-      "shooting": "Penembakan",
+      "shooting": "Tembakan ke gawang",
       "shootingDesc": "Fokus pada finishing, positioning dan akurasi",
       "skillMoves": "Gerakan Keterampilan",
       "skillMovesDesc": "Dribbling dan trik tingkat lanjut",
@@ -977,7 +985,7 @@
       "tacklesDesc": "Teknik memenangkan bola",
       "tactical": "Taktis",
       "tacticalDesc": "Penempatan posisi bertahan dan pembacaan permainan",
-      "targetMan": "Manusia Sasaran",
+      "targetMan": "Penyerang Target",
       "targetManDesc": "Permainan bertahan dan ancaman udara",
       "technique": "Teknik",
       "techniqueDesc": "Menggiring bola, menguasai bola, dan keterampilan",
@@ -999,7 +1007,7 @@
     },
     "Argues With Officials": {
       "description": "Sering menentang keputusan wasit.",
-      "name": "Berdebat Dengan Pejabat"
+      "name": "Sering Berdebat dengan Wasit"
     },
     "Avoids Using Weaker Foot": {
       "description": "Menghindari penggunaan kaki yang buruk.",
@@ -1011,15 +1019,15 @@
     },
     "Big Game Player": {
       "description": "Berkinerja lebih baik di pertandingan besar.",
-      "name": "Pemain Game Besar"
+      "name": "Pemain Laga Besar"
     },
     "Captain Material": {
       "description": "Pemimpin alami di lapangan.",
-      "name": "Kapten Bahan"
+      "name": "Calon Kapten"
     },
     "Cautious With Crosses": {
       "description": "Ragu untuk meninggalkan garis pada salib.",
-      "name": "Hati-hati Dengan Salib"
+      "name": "Hati-hati Keluar Gawang"
     },
     "Chip Shot": {
       "description": "Kemampuan untuk melakukan lob kepada kiper dengan sentuhan halus.",
@@ -1027,15 +1035,15 @@
     },
     "Comes For Crosses": {
       "description": "Mendominasi wilayah udara.",
-      "name": "Persilangan Klaim"
+      "name": "Menguasai Umpan Silang"
     },
     "Dives Into Tackles": {
       "description": "Melemparkan tubuh ke dalam tantangan.",
-      "name": "Menyelam ke dalam Tekel"
+      "name": "Nekat Melakukan Tekel"
     },
     "Driven": {
       "description": "Keinginan yang tak tergoyahkan untuk menang.",
-      "name": "Didorong"
+      "name": "Termotivasi"
     },
     "Early Adopter": {
       "description": "Pelajari taktik baru dengan cepat.",
@@ -1047,27 +1055,27 @@
     },
     "Finesse Shot": {
       "description": "Ahli dalam menempatkan bidikan melengkung.",
-      "name": "Tembakan Kemahiran"
+      "name": "Tembakan Finesse"
     },
     "GK Flat Kick": {
       "description": "Distribusi cepat dan rendah.",
-      "name": "Tendangan Datar GK"
+      "name": "Tendangan Datar Kiper"
     },
     "GK Long Throw": {
       "description": "Meluncurkan counter dengan tangan.",
-      "name": "Lemparan Jauh GK"
+      "name": "Lemparan Jauh Kiper"
     },
     "Giant Throw-In": {
       "description": "Melakukan lemparan seperti tendangan sudut.",
-      "name": "Lemparan ke Dalam Raksasa"
+      "name": "Lemparan ke Dalam Jauh"
     },
     "Inflexible": {
       "description": "Kesulitan bermain di luar posisi atau taktik.",
-      "name": "Tidak fleksibel"
+      "name": "Tidak Fleksibel"
     },
     "Injury Concern": {
       "description": "Rawan sering mengalami cedera.",
-      "name": "Kekhawatiran Cedera"
+      "name": "Riwayat Cedera"
     },
     "Injury Prone": {
       "description": "Risiko cedera lebih tinggi.",
@@ -1075,11 +1083,11 @@
     },
     "Iron Man": {
       "description": "Jarang terluka.",
-      "name": "Manusia Besi"
+      "name": "Pemain Tahan Banting"
     },
     "Late Bloomer": {
       "description": "Mencapai potensi di kemudian hari dalam karier.",
-      "name": "Kesalahan Besar Terlambat"
+      "name": "Berkembang Lambat"
     },
     "Left-Footed Maestro": {
       "description": "Keterampilan luar biasa dengan kaki kiri.",
@@ -1091,15 +1099,15 @@
     },
     "Media Darling": {
       "description": "Menarik liputan media yang positif.",
-      "name": "Media Sayang"
+      "name": "Favorit Media"
     },
     "One-Club Man": {
       "description": "Setia pada klub, bonus chemistry.",
-      "name": "Manusia Satu Klub"
+      "name": "Ikon Klub"
     },
     "One-on-One Rush": {
       "description": "Cepat menutup ruang dalam 1v1s.",
-      "name": "1v1 Terburu-buru"
+      "name": "Sergapan 1v1"
     },
     "One-on-One Specialist": {
       "description": "Mematikan ketika melewati gawang melawan kiper.",
@@ -1111,23 +1119,23 @@
     },
     "Pinpoint Crossing": {
       "description": "Umpan silang akurat untuk penyerang.",
-      "name": "Persimpangan Tepat"
+      "name": "Umpan Silang Akurat"
     },
     "Play Simple": {
       "description": "Menghindari risiko yang tidak perlu.",
-      "name": "Dimainkan Sederhana"
+      "name": "Bermain Sederhana"
     },
     "Power House": {
       "description": "Kekuatan fisik yang mengesankan.",
-      "name": "Gardu listrik"
+      "name": "Bertubuh Kuat"
     },
     "Power Shot": {
       "description": "Menyerang bola dengan kekuatan dahsyat.",
-      "name": "Tembakan Kekuatan"
+      "name": "Tembakan Keras"
     },
     "Punches Fists": {
       "description": "Lebih suka memukul bola dengan jelas.",
-      "name": "Pons"
+      "name": "Kiper Peninju Bola"
     },
     "Right-Footed Sniper": {
       "description": "Presisi mematikan dengan kaki kanan.",
@@ -1135,7 +1143,7 @@
     },
     "Rushes Out Of Goal": {
       "description": "Penjaga yang bergegas keluar untuk menghilangkan bahaya.",
-      "name": "Bergegas Keluar"
+      "name": "Keluar dari Gawang"
     },
     "Selfish": {
       "description": "Sering mengabaikan rekan satu tim yang posisinya lebih baik.",
@@ -1143,19 +1151,19 @@
     },
     "Slide Tackle": {
       "description": "Tackle geser yang akurat.",
-      "name": "Penangkal Geser"
+      "name": "Tekel Menjatuhkan Diri"
     },
     "Speed Dribbler": {
       "description": "Mengendarai bola dengan kecepatan tinggi tanpa kehilangan kendali.",
-      "name": "Penggiring Kecepatan"
+      "name": "Penggiring Cepat"
     },
     "Speed Merchant": {
       "description": "Kecepatan mentah untuk membakar pemain bertahan.",
-      "name": "Kendaraan cepat"
+      "name": "Pelari Cepat"
     },
     "Tackles Back": {
       "description": "Penyerang yang membantu merebut kembali bola.",
-      "name": "Melacak Kembali"
+      "name": "Turut Membantu Bertahan"
     },
     "Team Player": {
       "description": "Memprioritaskan tim daripada diri sendiri.",
@@ -1167,7 +1175,7 @@
     },
     "Through Ball": {
       "description": "Visi untuk umpan-umpan yang membelah pertahanan.",
-      "name": "Melalui Bola"
+      "name": "Umpan Terobos"
     },
     "Trickster": {
       "description": "Menggunakan keterampilan dan tipuan untuk menipu pembela.",
@@ -1179,10 +1187,10 @@
     },
     "Wonderkid": {
       "description": "Perkembangan pesat ketika masih muda.",
-      "name": "anak ajaib"
+      "name": "Keajaiban Muda"
     },
     "acrobaticFinisher": {
-      "description": "Mampu mencetak tendangan voli spektakuler, tendangan sepeda, dan gol akrobatik.",
+      "description": "Mencetak gol spektakuler melalui tendangan salto, voli keras, dan aksi udara memukau.",
       "name": "Penyelesai Akrobatik"
     },
     "aerialDominance": {
@@ -1194,8 +1202,8 @@
       "name": "Ancaman Udara"
     },
     "arguesWithOfficials": {
-      "description": "Sering menentang keputusan wasit, mempertaruhkan kartu.",
-      "name": "Berdebat Dengan Pejabat"
+      "description": "Kerap memperdebatkan keputusan wasit dan berisiko mendapatkan kartu yang tidak perlu.",
+      "name": "Sering Berdebat dengan Wasit"
     },
     "avoidsUsingWeakerFoot": {
       "description": "Sangat menyukai kaki dominan bahkan dalam situasi sulit.",
@@ -1207,39 +1215,39 @@
     },
     "ballPlayingDefender": {
       "description": "Nyaman menguasai bola dan memulai serangan dari belakang.",
-      "name": "Bek Bermain Bola"
+      "name": "Bek Pengumpan"
     },
     "ballWinner": {
-      "description": "Tekel agresif yang memecah serangan lawan.",
-      "name": "Pemenang Bola"
+      "description": "Gelandang pekerja keras yang memutus aliran serangan lawan lewat tekel bersih.",
+      "name": "Perebut Bola"
     },
     "bigGamePlayer": {
       "description": "Berkembang di final piala dan pertandingan yang menentukan.",
-      "name": "Pemain Game Besar"
+      "name": "Pemain Laga Besar"
     },
     "boxToBox": {
       "description": "Menutupi setiap helai rumput, berkontribusi pada pertahanan dan serangan.",
-      "name": "Kotak-ke-Kotak"
+      "name": "Box-to-Box"
     },
     "cautiousWithCrosses": {
-      "description": "Ragu datang untuk meminta umpan silang, lebih memilih untuk tetap online.",
-      "name": "Hati-hati Dengan Salib"
+      "description": "Ragu keluar memotong umpan silang dan lebih memilih bertahan di garis gawang.",
+      "name": "Hati-hati Keluar Gawang"
     },
     "chipShot": {
-      "description": "Kuasai serangan halus atas kiper dalam situasi 1v1.",
+      "description": "Melambungkan bola secara elegan melewati kiper yang keluar dari sarangnya.",
       "name": "Tembakan Chip"
     },
     "clinicalFinisher": {
       "description": "Unggul dalam situasi satu lawan satu dan mengubah peluang dengan presisi.",
-      "name": "Penyelesai Klinis"
+      "name": "Penyelesai Dingin"
     },
     "comesForCrosses": {
-      "description": "Proaktif dalam menangkap umpan silang sebelum striker dapat mencapainya.",
-      "name": "Persilangan Klaim"
+      "description": "Proaktif keluar untuk menangkap umpan silang sebelum disambar penyerang.",
+      "name": "Keluar Menjemput Silang"
     },
     "commandOfArea": {
       "description": "Mendominasi kotak penalti, melakukan umpan silang dan mengatur pertahanan.",
-      "name": "Komando Daerah"
+      "name": "Penguasaan Daerah Gawang"
     },
     "composure": {
       "description": "Tetap tenang di bawah tekanan dan membuat keputusan yang lebih baik pada momen-momen penting.",
@@ -1251,11 +1259,11 @@
     },
     "crossingSpecialist": {
       "description": "Memberikan umpan silang berbahaya dari area luas dengan cambuk dan kecepatan.",
-      "name": "Spesialis Penyeberangan"
+      "name": "Spesialis Umpan Silang"
     },
     "deepLyingPlaymaker": {
-      "description": "Mengontrol tempo dari posisi dalam dengan passing dan visi.",
-      "name": "Playmaker Berbohong"
+      "description": "Mendikte tempo permainan dari kedalaman lewat umpan akurat dan visi luar biasa.",
+      "name": "Playmaker Dalam"
     },
     "discipline": {
       "description": "Jarang melakukan pelanggaran yang tidak perlu atau menerima kartu.",
@@ -1263,15 +1271,15 @@
     },
     "divesIntoTackles": {
       "description": "Gaya tekel agresif yang memenangkan bola tetapi berisiko melakukan pelanggaran.",
-      "name": "Menyelam ke dalam Tekel"
+      "name": "Nekat Melakukan Tekel"
     },
     "dribblingWizard": {
       "description": "Kontrol bola yang luar biasa dan kemampuan melewati banyak pemain bertahan.",
-      "name": "Penyihir Menggiring Bola"
+      "name": "Pesulap Dribel"
     },
     "driven": {
       "description": "Sangat termotivasi untuk meningkatkan dan mencapai kesuksesan.",
-      "name": "Didorong"
+      "name": "Termotivasi"
     },
     "earlyAdopter": {
       "description": "Cepat mempelajari taktik baru dan beradaptasi dengan sistem yang berbeda.",
@@ -1287,35 +1295,35 @@
     },
     "finesseShot": {
       "description": "Menempatkan bidikan dengan presisi dan melengkung, bukan dengan kekuatan mentah.",
-      "name": "Tembakan Kemahiran"
+      "name": "Tembakan Finesse"
     },
     "flair": {
       "description": "Pemain kreatif alami yang berupaya spektakuler dan menghibur penonton.",
-      "name": "Bakat"
+      "name": "Kreativitas"
     },
     "flairPlayer": {
       "description": "Tidak dapat diprediksi dan kreatif dengan berbagai trik dan keterampilan.",
-      "name": "Pemain Bakat"
+      "name": "Pemain Kreatif"
     },
     "giantThrowIn": {
       "description": "Dapat melakukan lemparan ke dalam kotak yang jauh seperti sepak pojok.",
-      "name": "Lemparan ke Dalam Raksasa"
+      "name": "Lemparan ke Dalam Jauh"
     },
     "gkFlatKick": {
       "description": "Memberikan tendangan rendah dan terdorong ke rekan satu tim di lini depan.",
-      "name": "Tendangan Datar GK"
+      "name": "Tendangan Datar Kiper"
     },
     "gkLongThrow": {
       "description": "Mendistribusikan bola sangat jauh untuk memulai serangan balik.",
-      "name": "Lemparan Jauh GK"
+      "name": "Lemparan Jauh Kiper"
     },
     "inflexible": {
       "description": "Berjuang untuk beradaptasi dengan posisi atau taktik baru.",
-      "name": "Tidak fleksibel"
+      "name": "Tidak Fleksibel"
     },
     "injuryConcern": {
       "description": "Riwayat cedera menimbulkan pertanyaan tentang ketersediaan jangka panjang.",
-      "name": "Kekhawatiran Cedera"
+      "name": "Riwayat Cedera"
     },
     "injuryProne": {
       "description": "Rapuh secara fisik dengan kerentanan lebih tinggi terhadap cedera.",
@@ -1323,11 +1331,11 @@
     },
     "interceptor": {
       "description": "Membaca permainan dengan baik dan memotong umpan sebelum bahaya berkembang.",
-      "name": "Pencegat"
+      "name": "Pemotong Bola"
     },
     "lastMan": {
       "description": "Garis pertahanan terakhir yang andal dengan posisi yang sangat baik.",
-      "name": "Orang Terakhir"
+      "name": "Bek Terakhir"
     },
     "leadership": {
       "description": "Pemimpin alami yang mengatur dan memotivasi rekan satu tim.",
@@ -1339,7 +1347,7 @@
     },
     "longPasser": {
       "description": "Beralih bermain dan menemukan rekan satu tim dengan distribusi jarak jauh yang tepat.",
-      "name": "Pelintas Panjang"
+      "name": "Pengumpan Jauh"
     },
     "longShotTaker": {
       "description": "Secara teratur mencoba dan mengubah upaya jangka panjang.",
@@ -1347,15 +1355,15 @@
     },
     "longShots": {
       "description": "Mampu mencetak gol spektakuler dari jarak jauh dengan kekuatan dan akurasi.",
-      "name": "Pengambil Tembakan Jauh"
+      "name": "Penembak Jarak Jauh"
     },
     "longThrow": {
       "description": "Dapat meluncurkan bola dalam jarak yang luar biasa dengan lemparan yang kuat.",
-      "name": "Lemparan Jauh"
+      "name": "Lemparan ke Dalam Jauh"
     },
     "marking": {
       "description": "Menempel erat pada lawan dan meniadakan ancaman serangan mereka.",
-      "name": "Penanda Manusia"
+      "name": "Penjaga Ketat"
     },
     "naturalFitness": {
       "description": "Jarang terluka dan cepat pulih dari benturan ringan.",
@@ -1363,16 +1371,16 @@
     },
     "negative": "Negatif",
     "noNonsenseDefender": {
-      "description": "Bek yang berfisik dan agresif yang mampu mengatasi bahaya dengan tegas.",
-      "name": "Pembela yang Sungguh-sungguh"
+      "description": "Pemain bertahan yang disiplin dan agresif, menyapu bola menjauh dari bahaya tanpa kompromi.",
+      "name": "Bek Tanpa Basa-Basi"
     },
     "oneClubMan": {
       "description": "Legenda setia yang mendedikasikan karirnya untuk satu klub.",
-      "name": "Manusia Satu Klub"
+      "name": "Ikon Klub"
     },
     "oneOnOneRush": {
       "description": "Agresif dalam menutup striker dengan cepat.",
-      "name": "1v1 Terburu-buru"
+      "name": "Sergapan 1v1"
     },
     "oneOnOneSpecialist": {
       "description": "Sangat tenang saat mencapai tujuan.",
@@ -1383,44 +1391,44 @@
       "name": "hal sepele"
     },
     "penaltySaver": {
-      "description": "Ahli dalam menyelamatkan penalti dengan antisipasi dan reaksi yang baik.",
-      "name": "Penghemat Penalti"
+      "description": "Kiper dengan insting luar biasa dalam membaca arah bola sepakan dua belas pas.",
+      "name": "Ahli Penalti"
     },
     "pinpointCrossing": {
       "description": "Mengincar penyerang dengan pengiriman berpemandu laser dari sayap.",
-      "name": "Persimpangan Tepat"
+      "name": "Umpan Silang Akurat"
     },
     "playSimple": {
       "description": "Menjaga segala sesuatunya tetap sederhana dan jarang mengambil risiko yang tidak perlu.",
-      "name": "Dimainkan Sederhana"
+      "name": "Bermain Sederhana"
     },
     "playmaker": {
       "description": "Mengatur serangan dengan visi dan jangkauan passing.",
       "name": "Pembuat permainan"
     },
     "poacher": {
-      "description": "Penyelesai naluriah yang menemukan ruang di dalam kotak untuk melakukan tap-in dan rebound.",
-      "name": "Pemburu gelap"
+      "description": "Finisher bertalenta tinggi di kotak penalti yang ahli memanfaatkan bola muntah dan sontekan.",
+      "name": "Pemangsa Gol"
     },
     "positioning": {
       "description": "Selalu di tempat yang tepat pada waktu yang tepat.",
-      "name": "Penentuan posisi"
+      "name": "Penempatan Posisi"
     },
     "powerHeader": {
-      "description": "Mendominasi duel udara dan mencetak sundulan penting dari umpan silang dan bola mati.",
-      "name": "Tajuk Daya"
+      "description": "Mampu melepaskan sundulan deras dan akurat yang sangat sulit ditepis penjaga gawang.",
+      "name": "Sundulan Keras"
     },
     "powerHouse": {
-      "description": "Memaksakan kehadiran fisik yang menindas lawan.",
-      "name": "Gardu listrik"
+      "description": "Pemain dengan kekuatan fisik eksplosif yang memenangi hampir semua adu badan.",
+      "name": "Bertubuh Kuat"
     },
     "powerShot": {
       "description": "Memukul bola dengan racun yang luar biasa, sehingga menyulitkan penjaga gawang untuk menahannya.",
-      "name": "Tembakan Kekuatan"
+      "name": "Tembakan Keras"
     },
     "punchesFists": {
       "description": "Lebih suka melakukan pukulan silang dengan jelas daripada menangkap.",
-      "name": "Pons"
+      "name": "Kiper Peninju Bola"
     },
     "rightFootedSniper": {
       "description": "Ketepatan yang mematikan dalam penyelesaian akhir dengan kaki kanan.",
@@ -1428,7 +1436,7 @@
     },
     "rushesOutOfGoal": {
       "description": "Cepat keluar jalur untuk meredam situasi 1v1.",
-      "name": "Bergegas Keluar"
+      "name": "Keluar dari Gawang"
     },
     "secondWind": {
       "description": "Mendapatkan peningkatan stamina di tahap akhir pertandingan.",
@@ -1440,43 +1448,43 @@
     },
     "setPieceSpecialist": {
       "description": "Menguasai situasi tendangan bebas, tendangan sudut, dan bola mati.",
-      "name": "Spesialis Set-Piece"
+      "name": "Spesialis Bola Mati"
     },
     "shotStopper": {
-      "description": "Refleks luar biasa dan kemampuan menyelamatkan.",
+      "description": "Penjaga gawang dengan reflek sensasional dalam menepis tembakan jarak dekat.",
       "name": "Penghenti Tembakan"
     },
     "slideTackle": {
       "description": "Ahli dalam mengatur waktu tekel geser untuk memenangkan bola dengan bersih.",
-      "name": "Penangkal Geser"
+      "name": "Tekel Menjatuhkan Diri"
     },
     "solidPlayer": {
       "description": "Pemain yang andal dan konsisten dari minggu ke minggu.",
-      "name": "Pemain Solid"
+      "name": "Pemain Andal"
     },
     "speedDribbler": {
       "description": "Menggunakan kecepatan dan ketangkasan untuk melewati pemain bertahan dengan kecepatan tinggi.",
-      "name": "Penggiring Kecepatan"
+      "name": "Penggiring Cepat"
     },
     "speedMerchant": {
       "description": "Kecepatannya memungkinkan dia mengalahkan pemain bertahan dan memanfaatkan ruang di belakang garis.",
-      "name": "Kendaraan cepat"
+      "name": "Pelari Cepat"
     },
     "strength": {
       "description": "Kekuatan fisik membantu memenangkan duel dan menahan lawan.",
       "name": "Kekuatan"
     },
     "sweeperKeeper": {
-      "description": "Nyaman bergegas keluar untuk menghalau umpan terobosan dan bertindak sebagai bek tambahan.",
-      "name": "Penjaga Penyapu"
+      "description": "Nyaman keluar jauh dari sarangnya untuk memotong umpan terobosan layaknya bek tambahan.",
+      "name": "Kiper Penyapu"
     },
     "tacklesBack": {
       "description": "Rajin kembali membantu pertahanan ketika penguasaan bola hilang.",
-      "name": "Melacak Kembali"
+      "name": "Turut Membantu Bertahan"
     },
     "targetMan": {
-      "description": "Kehadiran fisik yang menahan permainan dan membawa rekan satu tim untuk menyerang.",
-      "name": "Manusia Sasaran"
+      "description": "Penyerang berpostur kokoh yang menahan bola dan melibatkan rekan tim dalam serangan.",
+      "name": "Penyerang Target"
     },
     "teamPlayer": {
       "description": "Selalu menempatkan kebutuhan tim di atas kejayaan pribadi.",
@@ -1484,7 +1492,7 @@
     },
     "teamwork": {
       "description": "Sangat baik dalam menggabungkan dengan rekan satu tim dan bermain secara kohesif.",
-      "name": "Kerja sama"
+      "name": "Kerja Sama Tim"
     },
     "technicalDribbler": {
       "description": "Penggiring bola yang sabar yang menggunakan tipuan tubuh dan kontrol jarak dekat untuk menavigasi pertahanan.",
@@ -1492,11 +1500,11 @@
     },
     "throughBall": {
       "description": "Mengkhususkan diri dalam membelah pertahanan dengan umpan-umpan yang berbobot sempurna.",
-      "name": "Melalui Bola"
+      "name": "Umpan Terobos"
     },
     "tirelessRunner": {
       "description": "Stamina yang luar biasa memungkinkan terjadinya intensitas tinggi sepanjang pertandingan.",
-      "name": "Tak kenal lelah"
+      "name": "Tak Kenal Lelah"
     },
     "trickster": {
       "description": "Menikmati juggling dan melakukan keterampilan pamer perahu.",
@@ -1504,7 +1512,7 @@
     },
     "twoFooted": {
       "description": "Menembak dan mengoper dengan kualitas yang setara dengan kedua kaki.",
-      "name": "Berkaki Dua"
+      "name": "Dua Kaki Seimbang"
     },
     "versatile": {
       "description": "Mampu memainkan banyak posisi secara efisien.",
@@ -1512,88 +1520,220 @@
     },
     "vision": {
       "description": "Melihat tembakan yang tidak dilakukan pemain lain dan menciptakan peluang dengan umpan tajam.",
-      "name": "Penglihatan"
+      "name": "Visi permainan"
     },
     "weakFoot": {
       "description": "Berjuang ketika terpaksa menggunakan kaki yang lebih lemah.",
       "name": "Kaki Lemah"
+    },
+    "Box-to-Box": {
+      "description": "Menutupi setiap helai rumput, berkontribusi pada pertahanan dan serangan.",
+      "name": "Box-to-Box"
+    },
+    "Ball Winner": {
+      "description": "Gelandang pekerja keras yang memutus aliran serangan lawan lewat tekel bersih.",
+      "name": "Perebut Bola"
+    },
+    "Ball-Playing Defender": {
+      "description": "Nyaman menguasai bola dan memulai serangan dari belakang.",
+      "name": "Bek Pengumpan"
+    },
+    "Deep-Lying Playmaker": {
+      "description": "Mendikte tempo permainan dari kedalaman lewat umpan akurat dan visi luar biasa.",
+      "name": "Playmaker Dalam"
+    },
+    "Crossing Specialist": {
+      "description": "Memberikan umpan silang berbahaya dari area luas dengan cambuk dan kecepatan.",
+      "name": "Spesialis Umpan Silang"
+    },
+    "Dribbling Wizard": {
+      "description": "Kontrol bola yang luar biasa dan kemampuan melewati banyak pemain bertahan.",
+      "name": "Pesulap Dribel"
+    },
+    "Command of Area": {
+      "description": "Mendominasi kotak penalti, melakukan umpan silang dan mengatur pertahanan.",
+      "name": "Penguasaan Daerah Gawang"
+    },
+    "Claims Crosses": {
+      "description": "Proaktif keluar untuk menangkap umpan silang sebelum disambar penyerang.",
+      "name": "Keluar Menjemput Silang"
+    },
+    "Clinical Finisher": {
+      "description": "Unggul dalam situasi satu lawan satu dan mengubah peluang dengan presisi.",
+      "name": "Penyelesai Dingin"
+    },
+    "Power Header": {
+      "description": "Mampu melepaskan sundulan deras dan akurat yang sangat sulit ditepis penjaga gawang.",
+      "name": "Sundulan Keras"
+    },
+    "Long Passer": {
+      "description": "Beralih bermain dan menemukan rekan satu tim dengan distribusi jarak jauh yang tepat.",
+      "name": "Pengumpan Jauh"
+    },
+    "Puncher": {
+      "description": "Lebih suka melakukan pukulan silang dengan jelas daripada menangkap.",
+      "name": "Kiper Peninju Bola"
+    },
+    "Distance Shooter": {
+      "description": "Secara teratur mencoba dan mengubah upaya jangka panjang.",
+      "name": "Penembak Jarak Jauh"
+    },
+    "Speedster": {
+      "description": "Kecepatannya memungkinkan dia mengalahkan pemain bertahan dan memanfaatkan ruang di belakang garis.",
+      "name": "Pelari Cepat"
+    },
+    "Aerial Dominance": {
+      "description": "Memenangkan hampir setiap duel udara dengan posisi dan waktu yang unggul.",
+      "name": "Dominasi Udara"
+    },
+    "Dribbler": {
+      "description": "Kontrol bola yang luar biasa dan kemampuan melewati banyak pemain bertahan.",
+      "name": "Pesulap Dribel"
+    },
+    "Playmaker": {
+      "description": "Mengatur serangan dengan visi dan jangkauan passing.",
+      "name": "Pembuat permainan"
+    },
+    "Leader": {
+      "description": "Pemimpin alami yang mengatur dan memotivasi rekan satu tim.",
+      "name": "Kepemimpinan"
+    },
+    "Early Crosser": {
+      "description": "Mengincar penyerang dengan pengiriman berpemandu laser dari sayap.",
+      "name": "Umpan Silang Akurat"
+    },
+    "Long Ball Taker": {
+      "description": "Beralih bermain dan menemukan rekan satu tim dengan distribusi jarak jauh yang tepat.",
+      "name": "Pengumpan Jauh"
+    },
+    "One Club Player": {
+      "description": "Legenda setia yang mendedikasikan karirnya untuk satu klub.",
+      "name": "Ikon Klub"
+    },
+    "Save With Feet": {
+      "description": "Penjaga gawang dengan reflek sensasional dalam menepis tembakan jarak dekat.",
+      "name": "Penghenti Tembakan"
+    },
+    "Solid Player": {
+      "description": "Pemain yang andal dan konsisten dari minggu ke minggu.",
+      "name": "Pemain Andal"
+    },
+    "Leadership": {
+      "description": "Pemimpin alami yang mengatur dan memotivasi rekan satu tim.",
+      "name": "Kepemimpinan"
+    },
+    "Engine": {
+      "description": "Pelari tak kenal lelah yang tidak pernah berhenti bekerja untuk tim.",
+      "name": "Mesin"
+    },
+    "Composure": {
+      "description": "Tetap tenang di bawah tekanan dan membuat keputusan yang lebih baik pada momen-momen penting.",
+      "name": "Ketenangan"
+    },
+    "Consistency": {
+      "description": "Mempertahankan performa tingkat tinggi pertandingan demi pertandingan.",
+      "name": "Konsistensi"
+    },
+    "Flair": {
+      "description": "Pemain kreatif alami yang berupaya spektakuler dan menghibur penonton.",
+      "name": "Kreativitas"
+    },
+    "Power Free-Kick": {
+      "name": "Tendangan Bebas Keras",
+      "description": "Mampu melepaskan tendangan bebas jarak jauh yang sangat deras dan keras."
+    },
+    "Swerves Shot": {
+      "name": "Tembakan Melengkung",
+      "description": "Mampu melepaskan tembakan dengan lengkungan tajam yang sulit ditebak kiper."
+    },
+    "Takes Powerful Driven Free Kicks": {
+      "name": "Tendangan Bebas Keras",
+      "description": "Spesialis tendangan bebas mendatar yang keras menembus pagar betis lawan."
+    },
+    "Tries To Beat Offside Trap": {
+      "name": "Menembus Perangkap Offside",
+      "description": "Bermain cerdik di garis terakhir pertahanan untuk lolos dari jebakan offside."
+    },
+    "Second Wind": {
+      "name": "Angin Kedua",
+      "description": "Memperoleh lonjakan energi ekstra saat kelelahan melanda di menit-menit akhir."
     }
   },
   "traitStyles": {
     "aerialDominance": "Memenangkan hampir semua header",
     "ballPlayingDefender": "Nyaman menguasai bola dan membangun dari belakang",
-    "ballWinner": "Agresif dan efektif dalam memenangkan bola",
-    "bigGamePlayer": "Tampil di pertandingan krusial",
-    "boxToBox": "Meliputi lapangan dan berkontribusi di kedua kotak",
-    "clinicalFinisher": "Finishing luar biasa di depan gawang",
-    "commandOfArea": "Mendominasi area penalti",
+    "ballWinner": "Agresif dan efektif merebut bola",
+    "bigGamePlayer": "Tampil apik di laga krusial",
+    "boxToBox": "Menjelajah seluruh lapangan dan berkontribusi di kedua kotak",
+    "clinicalFinisher": "Penyelesaian luar biasa di depan gawang",
+    "commandOfArea": "Menguasai kotak penalti",
     "composure": "Tenang di bawah tekanan",
-    "crossingSpecialist": "Memberikan persilangan berkualitas",
-    "decentLevel": "baik",
-    "deepLyingPlaymaker": "Orkestrasi bermain dari dalam",
-    "dribblingWizard": "Kontrol jarak dekat dan dribbling yang luar biasa",
+    "crossingSpecialist": "Memberi umpan silang berkualitas",
+    "decentLevel": "layak",
+    "deepLyingPlaymaker": "Mengatur permainan dari lini belakang",
+    "dribblingWizard": "Kontrol ketat dan dribel luar biasa",
     "engine": "Kecepatan tanpa henti selama 90 menit",
-    "everPresent": "Pemain yang dapat diandalkan dari minggu ke minggu",
-    "excellentLevel": "bagus sekali",
-    "exceptionalLevel": "luar biasa",
-    "flairPlayer": "Tidak dapat diprediksi dan kreatif dengan bola",
-    "goodLevel": "Bagus",
-    "injuryProne": "Rentan terhadap masalah fisik yang sering terjadi",
-    "interceptor": "Membaca permainan dan mencegat operan",
-    "lastMan": "Garis pertahanan terakhir yang andal",
-    "leadership": "Pemimpin alami di dalam dan di luar lapangan",
-    "leftFootedMaestro": "Teknik halus dan kontrol dengan kaki kiri",
-    "longShots": "Mencetak gol dari jarak jauh dengan akurasi yang baik",
-    "naturalFitness": "Jarang ban atau cedera",
-    "noNonsenseDefender": "Fisik dan langsung dalam pertahanan",
-    "penaltySaver": "Kuat dalam menyelamatkan penalti",
-    "playmaker": "Visi luar biasa dan jangkauan passing",
-    "poacher": "Posisi luar biasa di dalam kotak",
-    "powerHeader": "Kemampuan duel udara yang luar biasa",
-    "quietProfessional": "Jarang dipesan",
-    "rightFootedSniper": "Finishing mematikan dan presisi dengan kaki kanan",
-    "secondWind": "Mempertahankan energi di akhir permainan",
-    "setpieceSpecialist": "Berbahaya di tendangan sudut dan tendangan bebas",
-    "shotStopper": "Spesialis refleks di antara mistar gawang",
-    "speedMerchant": "Kecepatan listrik saat menghidupkan dan mematikan bola",
-    "sweeperKeeper": "Penjaga modern yang nyaman di luar kotak",
-    "targetMan": "Permainan penahan yang luar biasa dan kehadiran di udara",
+    "everPresent": "Tampil andal dari pekan ke pekan",
+    "excellentLevel": "luar biasa",
+    "exceptionalLevel": "istimewa",
+    "flairPlayer": "Tak terduga dan kreatif dengan bola",
+    "goodLevel": "bagus",
+    "injuryProne": "Rentan masalah fisik berulang",
+    "interceptor": "Membaca permainan dan memotong operan",
+    "lastMan": "Lini pertahanan terakhir yang andal",
+    "leadership": "Pemimpin alami di dalam dan luar lapangan",
+    "leftFootedMaestro": "Teknik dan kontrol halus dengan kaki kiri",
+    "longShots": "Mencetak gol dari jarak jauh dengan akurasi baik",
+    "naturalFitness": "Jarang lelah atau cedera",
+    "noNonsenseDefender": "Fisik dan lugas dalam bertahan",
+    "penaltySaver": "Kuat dalam menahan penalti",
+    "playmaker": "Visi dan jangkauan operan luar biasa",
+    "poacher": "Penempatan posisi luar biasa di kotak penalti",
+    "powerHeader": "Kemampuan duel udara luar biasa",
+    "quietProfessional": "Jarang mendapat kartu",
+    "rightFootedSniper": "Penyelesaian mematikan dan presisi kaki kanan",
+    "secondWind": "Menjaga energi di akhir pertandingan",
+    "setpieceSpecialist": "Berbahaya pada sepak pojok dan tendangan bebas",
+    "shotStopper": "Spesialis refleks di bawah mistar",
+    "speedMerchant": "Kecepatan luar biasa dengan dan tanpa bola",
+    "sweeperKeeper": "Kiper modern yang nyaman di luar kotak",
+    "targetMan": "Menguasai bola dan kuat di udara",
     "tirelessRunner": "Tidak pernah berhenti berlari",
-    "twoFooted": "Sama-sama nyaman dengan kedua kaki",
-    "versatile": "Bisa bermain di berbagai posisi",
-    "vision": "Kemampuan luar biasa untuk menemukan umpan"
+    "twoFooted": "Sama nyaman dengan kedua kaki",
+    "versatile": "Bisa bermain di banyak posisi",
+    "vision": "Kemampuan luar biasa menemukan operan"
   },
   "traits": {
     "Ambitions_desc": "Berambisi dan bertekad untuk mencapai puncak",
-    "Argues With Officials": "Berdebat Dengan Pejabat",
+    "Argues With Officials": "Sering Berdebat dengan Wasit",
     "Argues With Officials_desc": "Kecenderungan untuk mengeluh kepada wasit, mempertaruhkan kartu",
-    "Big Game Player": "Pemain Game Besar",
+    "Big Game Player": "Pemain Laga Besar",
     "Big Game Player_desc": "Meningkatkan level di pertandingan besar",
-    "Clinical Finisher": "Penyelesai Klinis",
+    "Clinical Finisher": "Penyelesai Dingin",
     "Clinical Finisher_desc": "Tingkat konversi yang tinggi pada peluang",
     "Composure": "Ketenangan",
     "Composure_desc": "Tetap tenang di bawah tekanan",
     "Consistency": "Konsistensi",
     "Consistency_desc": "Performa stabil pertandingan demi pertandingan",
-    "Dirty Player": "Pemain Kotor",
+    "Dirty Player": "Pemain Kasar",
     "Dirty Player_desc": "Rentan terhadap pelanggaran keras dan permainan kotor",
-    "Dribbling Wizard": "Penyihir Menggiring Bola",
+    "Dribbling Wizard": "Pesulap Dribel",
     "Dribbling Wizard_desc": "Keterampilan luar biasa dengan bola di kaki",
-    "Driven": "Didorong",
+    "Driven": "Termotivasi",
     "Driven_desc": "Sangat termotivasi untuk sukses",
     "Early Adopter": "Inovator",
     "Early Adopter_desc": "Cepat beradaptasi dengan teknik dan taktik baru",
     "Engine": "Mesin",
     "Engine_desc": "Tak kenal lelah, mencakup seluruh lapangan",
-    "Flair": "Bakat",
+    "Flair": "Kreativitas",
     "Flair_desc": "Gerakan yang kreatif dan tidak dapat diprediksi",
     "Free Kick Specialist": "Spesialis Tendangan Bebas",
     "Free Kick Specialist_desc": "Pengambil tendangan bebas yang luar biasa",
-    "Hard Working": "Kerja Keras",
+    "Hard Working": "Pekerja Keras",
     "Hard Working_desc": "Selalu memberikan 100% di lapangan",
-    "Header Expert": "Pakar Tajuk",
+    "Header Expert": "Ahli Sundulan",
     "Header Expert_desc": "Dominan di udara",
-    "Hot Head": "Kepala Panas",
+    "Hot Head": "Cepat Emosi",
     "Hot Head_desc": "Kehilangan ketenangan dengan mudah",
     "Injury Prone": "Rawan Cedera",
     "Injury Prone_desc": "Risiko cedera lebih tinggi",
@@ -1603,21 +1743,21 @@
     "Leadership_desc": "Terlahir sebagai pemimpin di lapangan",
     "Left-Footed Maestro": "Maestro Kaki Kiri",
     "Left-Footed Maestro_desc": "Teknik halus dengan kaki kiri",
-    "Long Shot Taker": "Pengambil Tembakan Jauh",
+    "Long Shot Taker": "Penembak Jarak Jauh",
     "Long Shot Taker_desc": "Berbahaya dari jarak jauh",
-    "Long Throw": "Lemparan Jauh",
+    "Long Throw": "Lemparan ke Dalam Jauh",
     "Long Throw_desc": "Lemparan jauh seperti bola mati",
     "Loyal": "Setia",
     "Loyal_desc": "Setia pada klub",
-    "Media Darling": "Media Sayang",
+    "Media Darling": "Favorit Media",
     "Media Darling_desc": "Hubungan baik dengan pers",
-    "Media Shy": "Media Malu",
+    "Media Shy": "Menghindari Media",
     "Media Shy_desc": "Hindari sorotan dan wawancara",
     "Mercenary": "Mata duitan",
     "Mercenary_desc": "Mengutamakan uang",
     "Natural Fitness": "Kebugaran Alami",
     "Natural Fitness_desc": "Jarang lelah dan cepat pulih",
-    "One Club Player": "Satu Pemain Klub",
+    "One Club Player": "Pemain Satu Klub",
     "One Club Player_desc": "Loyalitas ekstrim kepada klub",
     "One-Club Man": "Ikon Klub",
     "One-Club Man_desc": "Mendedikasikan seluruh karirnya untuk klub yang sama",
@@ -1625,29 +1765,29 @@
     "Penalty Expert_desc": "Pengambil penalti yang andal",
     "Playmaker": "Pembuat permainan",
     "Playmaker_desc": "Menciptakan peluang bagi tim",
-    "Poacher": "Pemburu gelap",
+    "Poacher": "Pemangsa Gol",
     "Poacher_desc": "Selalu berada di tempat yang tepat untuk mencetak gol",
-    "Power Header": "Tajuk Daya",
+    "Power Header": "Sundulan Keras",
     "Power Header_desc": "Kuat dalam serangan udara",
     "Professional": "Profesional",
     "Professional_desc": "Perilaku teladan di dalam dan di luar lapangan",
     "Right-Footed Sniper": "Penembak Jitu Kaki Kanan",
     "Right-Footed Sniper_desc": "Penyelesaian mematikan dengan kaki kanan",
-    "Set Piece Specialist": "Spesialis Potongan Set",
+    "Set Piece Specialist": "Spesialis Bola Mati",
     "Set Piece Specialist_desc": "Unggul dalam tendangan sudut, tendangan bebas, dan penalti",
     "Set-piece Specialist": "Spesialis Bola Mati",
     "Set-piece Specialist_desc": "Unggul dalam tendangan bebas dan tendangan sudut",
-    "Showboat": "Berlagak",
+    "Showboat": "Suka Pamer",
     "Showboat_desc": "Suka melakukan trik",
-    "Speed Demon": "Jago ngebut",
+    "Speed Demon": "Setan Kecepatan",
     "Speed Demon_desc": "Akselerasi yang sangat cepat",
-    "Speed Merchant": "Kendaraan cepat",
+    "Speed Merchant": "Pelari Cepat",
     "Speed Merchant_desc": "Kecepatan dan akselerasi yang luar biasa",
     "Stamina Beast": "Binatang Stamina",
     "Stamina Beast_desc": "Tidak pernah lelah selama pertandingan",
-    "Strong Tackler": "Penangkal yang Kuat",
+    "Strong Tackler": "Tekel Kuat",
     "Strong Tackler_desc": "Sangat baik dalam menangani dan memenangkan bola",
-    "Sweeper Keeper": "Penjaga Penyapu",
+    "Sweeper Keeper": "Kiper Penyapu",
     "Sweeper Keeper_desc": "Penjaga yang bertindak sebagai bek terakhir",
     "Team Player": "Pemain Tim",
     "Team Player_desc": "Memprioritaskan tim daripada diri sendiri",
@@ -1655,50 +1795,50 @@
     "Technical_desc": "Kemampuan teknis yang halus",
     "Temperamental": "Emosional",
     "Temperamental_desc": "Bisa kehilangan akal",
-    "Two-Footed": "Berkaki Dua",
+    "Two-Footed": "Dua Kaki Seimbang",
     "Two-Footed_desc": "Sama kuatnya dengan kedua kakinya",
     "Versatile": "Serbaguna",
-    "Versatile_desc": "Bisa bermain di berbagai posisi",
-    "Vocal Leader": "Pemimpin Vokal",
+    "Versatile_desc": "Bisa bermain di banyak posisi",
+    "Vocal Leader": "Pemimpin Bersuara",
     "Vocal Leader_desc": "Berkomunikasi dan mengatur tim di lapangan",
     "aerialDominance": "Dominasi Udara",
-    "ballPlayingDefender": "Bek Bermain Bola",
-    "ballWinner": "Pemenang Bola",
-    "bigGamePlayer": "Pemain Game Besar",
-    "boxToBox": "Kotak-ke-Kotak",
-    "clinicalFinisher": "Penyelesai Klinis",
-    "commandOfArea": "Komando Daerah",
+    "ballPlayingDefender": "Bek Pengumpan",
+    "ballWinner": "Perebut Bola",
+    "bigGamePlayer": "Pemain Laga Besar",
+    "boxToBox": "Box-to-Box",
+    "clinicalFinisher": "Penyelesai Dingin",
+    "commandOfArea": "Penguasaan Daerah Gawang",
     "composure": "Ketenangan",
-    "crossingSpecialist": "Spesialis Penyeberangan",
+    "crossingSpecialist": "Spesialis Umpan Silang",
     "decentLevel": "Tingkat yang Layak",
-    "deepLyingPlaymaker": "Playmaker Berbohong",
-    "dribblingWizard": "Penyihir Menggiring Bola",
+    "deepLyingPlaymaker": "Playmaker Dalam",
+    "dribblingWizard": "Pesulap Dribel",
     "engine": "Mesin",
-    "everPresent": "Selalu Hadir",
+    "everPresent": "Selalu Tampil",
     "excellentLevel": "Tingkat Luar Biasa",
     "exceptionalLevel": "Tingkat Luar Biasa",
-    "flairPlayer": "Pemain Bakat",
+    "flairPlayer": "Pemain Kreatif",
     "goodLevel": "Tingkat Bagus",
-    "interceptor": "Pencegat",
-    "lastMan": "Orang Terakhir",
+    "interceptor": "Pemotong Bola",
+    "lastMan": "Bek Terakhir",
     "leadership": "Kepemimpinan",
-    "longShots": "Pengambil Tembakan Jauh",
+    "longShots": "Penembak Jarak Jauh",
     "naturalFitness": "Kebugaran Alami",
-    "noNonsenseDefender": "Pembela yang Sungguh-sungguh",
+    "noNonsenseDefender": "Bek Tanpa Basa-Basi",
     "penaltySaver": "Ahli Penalti",
     "playmaker": "Pembuat permainan",
-    "poacher": "Pemburu gelap",
-    "powerHeader": "Tajuk Daya",
-    "quietProfessional": "Profesional yang Tenang",
+    "poacher": "Pemangsa Gol",
+    "powerHeader": "Sundulan Keras",
+    "quietProfessional": "Profesional Pendiam",
     "secondWind": "Angin Kedua",
-    "setpieceSpecialist": "Spesialis Set-Piece",
+    "setpieceSpecialist": "Spesialis Bola Mati",
     "shotStopper": "Penghenti Tembakan",
-    "speedMerchant": "Kendaraan cepat",
-    "sweeperKeeper": "Penjaga Penyapu",
-    "targetMan": "Manusia Sasaran",
-    "tirelessRunner": "Tak kenal lelah",
+    "speedMerchant": "Pelari Cepat",
+    "sweeperKeeper": "Kiper Penyapu",
+    "targetMan": "Penyerang Target",
+    "tirelessRunner": "Tak Kenal Lelah",
     "versatile": "Serbaguna",
-    "vision": "Penglihatan"
+    "vision": "Visi permainan"
   },
   "trophy": {
     "afcChampionsLeague": "Piala Champions Asia",
@@ -1713,7 +1853,7 @@
     "concacafChampionsCup": "Piala Champions Amerika Utara",
     "conferenceLeague": "Piala Akses Eropa",
     "copaSudamericana": "Piala Klub Amerika Selatan",
-    "cup": "Cangkir",
+    "cup": "Piala",
     "europaLeague": "Piala Klub Eropa",
     "intercontinentalCup": "Piala Antarbenua",
     "league": "Liga",
@@ -1723,7 +1863,9 @@
     "orientalPlayoff": "Playoff Timur",
     "recopaSudamericana": "Piala Super Amerika Selatan",
     "supercup": "Piala Super",
-    "worldCup": "Turnamen Dunia"
+    "worldCup": "Turnamen Dunia",
+    "afcChallengeCup": "Piala Tantangan Asia",
+    "americasClassic": "Klasik Amerika"
   },
   "injury": {
     "oneMonth": "1 Bulan",
@@ -1731,5 +1873,11 @@
     "seasonEnding": "Akhir Musim",
     "days": "{count} Hari",
     "months": "{count} Bulan"
-  }
+  },
+  "intensity": {
+    "extreme": "Extreme"
+  },
+  "intensityExtreme": "Extreme",
+  "winContinentalCup": "Memenangkan Piala Kontinental bersama {team}",
+  "winWorldCup": "Memenangkan Turnamen Dunia bersama {country}"
 }

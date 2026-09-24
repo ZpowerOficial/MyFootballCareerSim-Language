@@ -22,21 +22,21 @@
     "acceleration": "Accélération",
     "aerialControl": "Contrôle aérien",
     "age": "Âge",
-    "aggression": "Agression",
+    "aggression": "Agressivité",
     "agility": "Agilité",
     "attacking": "Attaquer",
     "attributeEvolution": "Évolution des attributs",
     "balance": "Équilibre",
     "ballControl": "Contrôle du ballon",
     "composure": "Calme",
-    "crossing": "Passage",
+    "crossing": "Centres",
     "currentAge": "Âge actuel",
     "currentOvr": "OVR actuel",
     "curve": "Courbe",
     "defending": "Défendre",
     "dribbling": "Dribble",
     "finishing": "Finition",
-    "flair": "Fleur",
+    "flair": "Fantaisie",
     "foot": {
       "left": "Gauche",
       "right": "Droite"
@@ -44,18 +44,18 @@
     "footedness": "Pieds",
     "freeKick": "Précision des coups francs",
     "gkDiving": "GK Plongée",
-    "gkHandling": "Manutention GK",
+    "gkHandling": "Prise de Balle (GB)",
     "gkKicking": "Coup de pied de GK",
-    "gkPositioning": "Positionnement GK",
+    "gkPositioning": "Placement (GB)",
     "gkReflexes": "Réflexes GK",
     "goalkeeping": "Gardien de but",
     "growth": "Croissance",
-    "heading": "Précision du cap",
+    "heading": "Précision de Tête",
     "interceptions": "Interceptions",
     "jumping": "Sauter",
     "keyAttribute": "Attribut clé",
-    "leadership": "Direction",
-    "leftFinishing": "Finition (gauche)",
+    "leadership": "Leadership",
+    "leftFinishing": "Finition (Gauche)",
     "legend": "Légende",
     "longPassing": "Longue passe",
     "longShots": "Plans longs",
@@ -64,25 +64,25 @@
     "mentalAttributes": "Attributs mentaux",
     "overall": "Dans l'ensemble",
     "overallEvolution": "Évolution globale",
-    "pace": "Rythme",
-    "passing": "Passage",
+    "pace": "Vitesse",
+    "passing": "Passes",
     "peakAge": "Âge de pointe",
     "peakOvr": "OVR maximal",
-    "penalties": "Pénalités",
+    "penalties": "Penalties",
     "physical": "Physique",
     "physicalAttributes": "Attributs physiques",
-    "positioning": "Positionnement",
+    "positioning": "Placement",
     "preferredFoot": "Pied préféré",
     "ratingColors": "Couleurs de notation",
     "reactions": "Réactions",
-    "rightFinishing": "Finition (à droite)",
-    "shooting": "Tournage",
+    "rightFinishing": "Finition (Droite)",
+    "shooting": "Tir",
     "shortPassing": "Passe courte",
     "shotPower": "Puissance de tir",
-    "slidingTackle": "Matériel coulissant",
+    "slidingTackle": "Tacle Glissé",
     "sprintSpeed": "Vitesse de sprint",
     "stamina": "Endurance",
-    "standingTackle": "Plaquage debout",
+    "standingTackle": "Tacle Debout",
     "strength": "Force",
     "technical": "Technique",
     "technicalAttributes": "Attributs techniques",
@@ -90,16 +90,16 @@
     "volleys": "Volées",
     "weakFoot": "Pied faible",
     "wordClass": "Classe Mondiale",
-    "workRate": "Taux de travail",
+    "workRate": "Volume de Jeu",
     "worldClass": "Classe Mondiale"
   },
   "characteristic": {
     "Aerial Specialist": "Spécialiste aérien",
-    "Big Game Player": "Joueur de gros gibier",
-    "Clinical Finisher": "Finisseur Clinique",
-    "Dribbling Wizard": "Assistant de dribble",
+    "Big Game Player": "Joueur des grands matchs",
+    "Clinical Finisher": "Finisseur impitoyable",
+    "Dribbling Wizard": "Magicien du dribble",
     "Engine": "Moteur",
-    "Leader": "Chef",
+    "Leader": "Leader",
     "Playmaker": "Meneur de jeu",
     "Speed Demon": "Démon de vitesse"
   },
@@ -114,15 +114,15 @@
       "aerialControl": "Contrôle aérien",
       "firstTouchOrientated": "Orienté premier contact",
       "firstTouchUnderPressure": "Premier contact sous pression",
-      "shielding": "Blindage",
+      "shielding": "Protection du Ballon",
       "trapping": "Piégeage"
     },
     "commanding": {
       "aerialReach": "Portée aérienne",
-      "claimingCrosses": "Réclamer des croix",
+      "claimingCrosses": "Interception des Centres",
       "commandOfArea": "Commandement de la zone",
       "communication": "Communication",
-      "punching": "Perforation"
+      "punching": "Dégagement aux Poings"
     },
     "defending": {
       "slidingTiming": "Synchronisation glissante",
@@ -130,9 +130,9 @@
     },
     "defensivePositioning": {
       "backtracking": "Retour en arrière",
-      "covering": "Revêtement",
+      "covering": "Couverture Défensive",
       "defensiveAwareness": "Conscience défensive",
-      "jockeying": "Jockey",
+      "jockeying": "Cadrage / Temporisation",
       "positionRecovery": "Récupération de position"
     },
     "distribution": {
@@ -146,7 +146,7 @@
       "closeControlDribbling": "Dribble de contrôle rapproché",
       "congestedSpaceDribbling": "Dribble dans un espace encombré",
       "directionChange": "Changement de direction",
-      "flair": "Fleur",
+      "flair": "Fantaisie",
       "skillMoves": "Mouvements de compétences",
       "speedDribbling": "Dribble rapide"
     },
@@ -157,13 +157,13 @@
       "workRate": "Taux de travail"
     },
     "finishing": {
-      "finishingInsideBox": "Finition à l'intérieur de la boîte",
-      "finishingOnCounter": "Finition sur comptoir",
-      "finishingOutsideBox": "Finition à l'extérieur de la boîte",
+      "finishingInsideBox": "Finition dans la Surface",
+      "finishingOnCounter": "Finition en Contre-Attaque",
+      "finishingOutsideBox": "Finition Hors de la Surface",
       "finishingUnderPressure": "Finir sous pression",
-      "headedAccuracy": "Précision dirigée",
-      "headingAccuracy": "Précision du cap",
-      "headingPower": "Puissance de cap",
+      "headedAccuracy": "Précision des Coups de Tête",
+      "headingAccuracy": "Précision de Tête",
+      "headingPower": "Puissance du Coup de Tête",
       "oneOnOneFinishing": "Finition 1v1",
       "placedShotAccuracy": "Précision du tir placé",
       "placedShots": "Tirs placés",
@@ -171,21 +171,21 @@
       "shotAnticipation": "Anticipation du tir",
       "shotPower": "Puissance de tir",
       "volleyTechnique": "Technique de volée",
-      "volleysAndAcrobatic": "Volées et acrobaties"
+      "volleysAndAcrobatic": "Volées et Gestes Acrobatiques"
     },
     "gameIntelligence": {
       "anticipation": "Anticipation",
       "creativity": "Créativité",
       "decisions": "Décisions",
       "offTheBallMovement": "Mouvement hors du ballon",
-      "positioning": "Positionnement",
+      "positioning": "Placement",
       "spatialAwareness": "Conscience spatiale",
       "vision": "Vision"
     },
     "interception": {
       "crossBlocking": "Blocage croisé",
       "longPassInterception": "Interception longue passe",
-      "readingOfPlay": "Lecture du jeu",
+      "readingOfPlay": "Lecture du Jeu",
       "shortPassInterception": "Interception de passe courte",
       "shotBlocking": "Blocage de tir"
     },
@@ -208,25 +208,25 @@
       "composure": "Calme (GK)",
       "concentration": "Concentration (GB)",
       "decisionMaking": "Prise de décision (GK)",
-      "handling": "Manutention"
+      "handling": "Sûreté de Prise de Balle"
     },
     "passing": {
-      "crossingFromByline": "Traversée de la signature",
-      "crossingFromDeep": "Traversée des profondeurs",
+      "crossingFromByline": "Centre depuis la Ligne de Fond",
+      "crossingFromDeep": "Centre Reculé (en Profondeur)",
       "curveEffect": "Effet de courbe",
-      "firstTimeCrossing": "Première traversée",
+      "firstTimeCrossing": "Centre en Première Intention",
       "lobPassAccuracy": "Précision des passes lobées",
       "longDiagonalPass": "Longue passe diagonale",
       "shortPassingSupport": "Prise en charge des passes courtes",
       "shortPassingUnderPressure": "Passes courtes sous pression",
-      "throughBalls": "À travers les balles",
-      "verticalPassBreakingLines": "Lignes de rupture de passage vertical",
+      "throughBalls": "Passes en Profondeur",
+      "verticalPassBreakingLines": "Passe Verticale Cassant les Lignes",
       "weightedPass": "Passe pondérée"
     },
     "performance": {
       "adaptability": "Adaptabilité",
       "bigMatchPerformance": "Performances dans les grands matchs",
-      "clutchFactor": "Facteur d'embrayage",
+      "clutchFactor": "Capacité Décisive (Clutch)",
       "consistency": "Cohérence",
       "pressureHandling": "Gestion de la pression"
     },
@@ -238,29 +238,29 @@
       "determination": "Détermination",
       "leadershipOnPitch": "Leadership sur le terrain",
       "professionalism": "Professionnalisme",
-      "teamwork": "Travail d'équipe",
+      "teamwork": "Esprit d'équipe",
       "temperament": "Tempérament"
     },
     "positioning": {
       "linePositioning": "Positionnement de la ligne",
       "narrowingAngles": "Angles de rétrécissement",
-      "positioning": "Positionnement GK",
+      "positioning": "Placement (GB)",
       "rushingOut": "Se précipiter"
     },
     "pressing": {
       "counterPressing": "Contre-pressage",
       "pressIntensity": "Intensité de la presse",
-      "pressingTrigger": "Appuyer sur la gâchette",
+      "pressingTrigger": "Déclencheur du Pressing",
       "sustainedPressing": "Pressage soutenu"
     },
     "robustness": {
       "injuryResistance": "Résistance aux blessures",
-      "naturalFitness": "Remise en forme naturelle",
+      "naturalFitness": "Endurance naturelle",
       "physicalRobustness": "Robustesse physique",
       "recoveryRate": "Taux de récupération"
     },
     "setPieces": {
-      "cornerKicking": "Coup de pied de coin",
+      "cornerKicking": "Tir de Corner",
       "directFreeKickPlacement": "Placement direct des coups francs",
       "directFreeKickPower": "Puissance de coup franc direct",
       "indirectFreeKick": "Coup franc indirect",
@@ -283,16 +283,16 @@
       "topSpeed": "Vitesse maximale"
     },
     "strength": {
-      "balanceInContact": "Solde en contact",
+      "balanceInContact": "Équilibre au Duel",
       "bodyToBodyStrength": "Force corps à corps",
       "legStrength": "Force des jambes",
       "upperBodyStrength": "Force du haut du corps"
     },
     "tackling": {
       "cleanTackling": "S'attaquer proprement",
-      "slidingTackle": "Matériel coulissant",
-      "standingTackle": "Plaquage debout",
-      "tackleTiming": "Synchronisation des tacles"
+      "slidingTackle": "Tacle Glissé",
+      "standingTackle": "Tacle Debout",
+      "tackleTiming": "Timing du Tacle"
     }
   }
 }

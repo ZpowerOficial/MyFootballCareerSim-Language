@@ -14,7 +14,7 @@
     "becomeClubLegend": "Menjadi Legenda Klub",
     "becomeStarter": "Menjadi starter reguler",
     "breakGoalRecord": "Pecahkan rekor gol",
-    "firstCleanSheet": "Pertahankan clean sheet pertama",
+    "firstCleanSheet": "Pertahankan tanpa kebobolan pertama",
     "firstGoal": "Cetak gol profesional pertama",
     "firstTrophy": "Menangkan trofi besar pertama",
     "nationalTeamCallUp": "Dipanggil ke tim nasional",
@@ -23,7 +23,10 @@
     "reachCareerAssists": "Mencapai pencapaian bantuan karir",
     "reachCareerGoals": "Mencapai tonggak tujuan karir",
     "reachOverallRating": "Mencapai target OVR",
-    "winWorldCup": "Menangkan Turnamen Dunia"
+    "winWorldCup": "Menangkan Turnamen Dunia",
+    "spendDecade": "Bertahan 10 tahun di {team}",
+    "topTierLeague": "Bermain di liga elit",
+    "winContinentalCup": "Menangkan Piala Kontinental bersama {team}"
   },
   "agent": {
     "contractExpired": "Kontrak Anda dengan agen telah berakhir. Anda menandatangani dengan {name} ({reputation}).",
@@ -210,7 +213,7 @@
       "exposure": "Paparan",
       "fans": "Hubungan dengan Penggemar",
       "followers": "Pengikut",
-      "form": "Membentuk",
+      "form": "Performa",
       "generosity": "Kemurahan hati",
       "loyalty": "Loyalitas",
       "morale": "Moral",
@@ -236,7 +239,8 @@
       "concernYellow": "Masalah disiplin: kartu kuning {count} musim ini.",
       "criticalRed": "Masalah disiplin yang KRITIS: kartu merah {count} - harus ditingkatkan!",
       "majorYellow": "Masalah disiplin yang serius: kartu kuning {count} musim ini.",
-      "seriousRed": "Masalah disiplin yang serius: kartu merah {count}!"
+      "seriousRed": "Masalah disiplin yang serius: kartu merah {count}!",
+      "title": "Disiplin"
     },
     "endorsement": {
       "signed": "Menandatangani kesepakatan dukungan {duration} tahun dengan {brand} senilai £{value}M per tahun!"
@@ -373,7 +377,7 @@
       "title": "Percakapan Manajer"
     },
     "match": {
-      "title": "Cocok"
+      "title": "Pertandingan"
     },
     "media": {
       "narrativeChange": "Narasi media beralih ke: '{narrative}'",
@@ -567,7 +571,7 @@
         "humble": {
           "fan1": "Tindakan kelas! Mental juara sejati!",
           "fan2": "Inilah yang membedakan yang hebat dari yang lain!",
-          "headline1": "Tim kredit {name} setelah mengumpulkan penghargaan bergengsi"
+          "headline1": "{name} memuji kerja keras tim setelah meraih penghargaan bergengsi"
         },
         "confident": {
           "fan1": "Dia berhak untuk percaya diri!",
@@ -633,7 +637,9 @@
           "headline1": "{name} dipuji atas perlakuannya terhadap penggemar"
         },
         "ignore": {
-          "fan1": "Berjalan melewati kami seolah-olah kami tidak terlihat..."
+          "fan1": "Berjalan melewati kami seolah-olah kami tidak terlihat...",
+          "fan2": "Popularitas sudah membuatnya besar kepala. Sangat disayangkan.",
+          "headline1": "{name} mengabaikan fans yang menunggu, menuai kecaman keras"
         }
       },
       "manager_conversation": {
@@ -710,6 +716,17 @@
       "outburst": {
         "double_down": {
           "fan1": "Dia tidak mundur!"
+        }
+      },
+      "mentor_opportunity": {
+        "accept": {
+          "fan1": "Panutan sejati bagi pemain akademi kita!",
+          "headline1": "{name} akan membimbing para pemain muda akademi",
+          "press1": "Pengalaman {name} akan sangat berharga bagi pembinaan pemain muda."
+        },
+        "decline": {
+          "fan1": "Dia hanya memikirkan dirinya sendiri...",
+          "headline1": "{name} menolak undangan untuk membimbing bibit muda akademi"
         }
       }
     },
@@ -864,7 +881,9 @@
           "18": "Tidak dapat bersaing lagi: {name} dengan enggan pensiun.",
           "19": "Pertandingan ditunda: {name} akhirnya menerima bahwa karier telah berakhir.",
           "20": "Kredit bergulir: Kisah {name} berakhir dengan bab yang memudar."
-        }
+        },
+        "testimonialMatch": "{team} akan menghormati {name} dengan laga penghormatan perpisahan.",
+        "shirtRetired": "{team} mengumumkan rencana memensiunkan nomor punggung {number} untuk menghormati legenda klub {name}."
       },
       "icon": "{name} mengumumkan pensiun setelah karir yang luar biasa. Pertandingan {matches}, gol {goals}, gelar utama {trophies}. Sebuah inspirasi bagi banyak orang.",
       "journeyman": "{name} mengumumkan pengunduran diri. {reason}. Membuat penampilan {matches} di klub {clubs}.",
@@ -878,7 +897,7 @@
           "3": "Sumber yang dekat dengan {name} memberi petunjuk tentang kemungkinan pengumuman pensiun.",
           "4": "Spekulasi meningkat mengenai masa depan {name} saat karier memasuki masa senja.",
           "5": "Agen menolak untuk menyangkal rumor pensiun yang melibatkan {name}.",
-          "6": "{name} dikabarkan membahas pengaturan pertandingan testimonial.",
+          "6": "{name} dikabarkan sedang membahas rencana laga penghormatan (perpisahan).",
           "7": "Loker kosong? {name} terlihat membersihkan barang-barang pribadi dari stadion.",
           "8": "{name} yang filosofis berbicara tentang 'kehidupan setelah sepak bola' dalam wawancara.",
           "9": "Kontrak berakhir, {name} dilaporkan tidak meminta perpanjangan.",
@@ -906,7 +925,7 @@
           "7": "Statistik menurun karena masa depan {name} menjadi tidak pasti.",
           "8": "Kilauan lama memudar - rumor pensiunnya {name} semakin berkembang.",
           "9": "Waktunya mengejar ketertinggalan? {name} dalam pengawasan setelah kinerja buruk.",
-          "10": "Babak terakhir semakin dekat? Formulir {name} menghasilkan pembicaraan pensiun."
+          "10": "Babak terakhir semakin dekat? Penampilan {name} menghasilkan pembicaraan pensiun."
         }
       },
       "shirtRetired": "{team} mengumumkan rencana untuk mempensiunkan nomor punggung {number} untuk menghormati legenda klub {name}.",
@@ -951,7 +970,7 @@
     "social": {
       "choice_ignore": "Biarkan saja",
       "choice_respond": "Kirim respons berapi-api",
-      "description": "Seorang punding TV menyebut Anda 'sangat dinilai berlebihan' di media sosial. Ini sedang tren.",
+      "description": "Seorang pundit TV menyebut Anda 'sangat dinilai berlebihan' di media sosial. Ini sedang tren.",
       "title": "Kritik Media Sosial"
     },
     "specialTraining": {
@@ -1001,7 +1020,7 @@
       "title": "Interaksi Rekan Tim"
     },
     "training": {
-      "title": "Pelatihan",
+      "title": "Latihan",
       "completed": "Pelatihan Selesai",
       "minor_injury": "Cedera ringan saat latihan"
     },
@@ -1081,7 +1100,8 @@
       "won": "Pemenang {competition}!",
       "wonYouth": "Memenangkan Kompetisi Pemuda!",
       "worldCup": "JUARA TURNAMEN DUNIA! Legenda Telah Lahir!",
-      "worldCupChampions": "{country} memenangkan Turnamen Dunia!"
+      "worldCupChampions": "{country} memenangkan Turnamen Dunia!",
+      "continentalQualification": "Kualifikasi untuk {competition} berhasil diamankan!"
     },
     "urgentDecision": "Diperlukan keputusan mendesak!",
     "viral": {
@@ -1284,804 +1304,884 @@
       "choice_home": "Pulang dengan sopan untuk istirahat menghadapi laga mendatang"
     },
     "press_conference_var_1": {
-      "title": "Press Conference: TACTICAL SYSTEM INQUIRY",
-      "description": "Journalists present questions regarding your team's tactical system inquiry.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Konferensi Pers: SISTEM TAKTIK",
+      "description": "Wartawan di ruang media mencecar Anda dengan berbagai pertanyaan seputar tim.",
+      "choice_1": "Berikan penjelasan taktis yang mendalam dan berbobot",
+      "choice_2": "Tegaskan tanggung jawab individu dan pentingnya etos kerja",
+      "choice_3": "Beri pernyataan berani untuk mematahkan narasi media",
+      "choice_4": "Jawab secara diplomatis, sopan, dan singkat"
     },
     "press_conference_var_2": {
-      "title": "Press Conference: MID-SEASON FORM REVIEW",
-      "description": "Journalists present questions regarding your team's mid-season form review.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Konferensi Pers: EVALUASI PERFORMA",
+      "description": "Wartawan di ruang media mencecar Anda dengan berbagai pertanyaan seputar tim.",
+      "choice_1": "Berikan penjelasan taktis yang mendalam dan berbobot",
+      "choice_2": "Tegaskan tanggung jawab individu dan pentingnya etos kerja",
+      "choice_3": "Beri pernyataan berani untuk mematahkan narasi media",
+      "choice_4": "Jawab secara diplomatis, sopan, dan singkat"
     },
     "press_conference_var_3": {
-      "title": "Press Conference: CONTINENTAL COMPETITION EXPECTATIONS",
-      "description": "Journalists present questions regarding your team's continental competition expectations.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Konferensi Pers: TARGET KONTINENTAL",
+      "description": "Wartawan di ruang media mencecar Anda dengan berbagai pertanyaan seputar tim.",
+      "choice_1": "Berikan penjelasan taktis yang mendalam dan berbobot",
+      "choice_2": "Tegaskan tanggung jawab individu dan pentingnya etos kerja",
+      "choice_3": "Beri pernyataan berani untuk mematahkan narasi media",
+      "choice_4": "Jawab secara diplomatis, sopan, dan singkat"
     },
     "press_conference_var_4": {
-      "title": "Press Conference: SQUAD ROTATION DEBATE",
-      "description": "Journalists present questions regarding your team's squad rotation debate.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Konferensi Pers: ROTASI SKUAD",
+      "description": "Wartawan di ruang media mencecar Anda dengan berbagai pertanyaan seputar tim.",
+      "choice_1": "Berikan penjelasan taktis yang mendalam dan berbobot",
+      "choice_2": "Tegaskan tanggung jawab individu dan pentingnya etos kerja",
+      "choice_3": "Beri pernyataan berani untuk mematahkan narasi media",
+      "choice_4": "Jawab secara diplomatis, sopan, dan singkat"
     },
     "press_conference_var_5": {
-      "title": "Press Conference: YOUNG TALENT INTEGRATION",
-      "description": "Journalists present questions regarding your team's young talent integration.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Konferensi Pers: ORANG MUDA AKADEMI",
+      "description": "Wartawan di ruang media mencecar Anda dengan berbagai pertanyaan seputar tim.",
+      "choice_1": "Berikan penjelasan taktis yang mendalam dan berbobot",
+      "choice_2": "Tegaskan tanggung jawab individu dan pentingnya etos kerja",
+      "choice_3": "Beri pernyataan berani untuk mematahkan narasi media",
+      "choice_4": "Jawab secara diplomatis, sopan, dan singkat"
     },
     "press_conference_var_6": {
-      "title": "Press Conference: DISCIPLINARY RECORD DISCUSSION",
-      "description": "Journalists present questions regarding your team's disciplinary record discussion.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Konferensi Pers: DISIPLIN PEMAIN",
+      "description": "Wartawan di ruang media mencecar Anda dengan berbagai pertanyaan seputar tim.",
+      "choice_1": "Berikan penjelasan taktis yang mendalam dan berbobot",
+      "choice_2": "Tegaskan tanggung jawab individu dan pentingnya etos kerja",
+      "choice_3": "Beri pernyataan berani untuk mematahkan narasi media",
+      "choice_4": "Jawab secara diplomatis, sopan, dan singkat"
     },
     "press_conference_var_7": {
-      "title": "Press Conference: FIXTURE CONGESTION SCHEDULE",
-      "description": "Journalists present questions regarding your team's fixture congestion schedule.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Konferensi Pers: JADWAL PADAT",
+      "description": "Wartawan di ruang media mencecar Anda dengan berbagai pertanyaan seputar tim.",
+      "choice_1": "Berikan penjelasan taktis yang mendalam dan berbobot",
+      "choice_2": "Tegaskan tanggung jawab individu dan pentingnya etos kerja",
+      "choice_3": "Beri pernyataan berani untuk mematahkan narasi media",
+      "choice_4": "Jawab secara diplomatis, sopan, dan singkat"
     },
     "press_conference_var_8": {
-      "title": "Press Conference: AWAY RECORD PERFORMANCE",
-      "description": "Journalists present questions regarding your team's away record performance.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Konferensi Pers: REKOR TANDANG",
+      "description": "Wartawan di ruang media mencecar Anda dengan berbagai pertanyaan seputar tim.",
+      "choice_1": "Berikan penjelasan taktis yang mendalam dan berbobot",
+      "choice_2": "Tegaskan tanggung jawab individu dan pentingnya etos kerja",
+      "choice_3": "Beri pernyataan berani untuk mematahkan narasi media",
+      "choice_4": "Jawab secara diplomatis, sopan, dan singkat"
     },
     "press_conference_var_9": {
-      "title": "Press Conference: VAR CONTROVERSY STANCE",
-      "description": "Journalists present questions regarding your team's VAR controversy stance.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Konferensi Pers: KONTROVERSI VAR",
+      "description": "Wartawan di ruang media mencecar Anda dengan berbagai pertanyaan seputar tim.",
+      "choice_1": "Berikan penjelasan taktis yang mendalam dan berbobot",
+      "choice_2": "Tegaskan tanggung jawab individu dan pentingnya etos kerja",
+      "choice_3": "Beri pernyataan berani untuk mematahkan narasi media",
+      "choice_4": "Jawab secara diplomatis, sopan, dan singkat"
     },
     "press_conference_var_10": {
-      "title": "Press Conference: NATIONAL TEAM SELECTION RUMOR",
-      "description": "Journalists present questions regarding your team's national team selection rumor.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Konferensi Pers: PANGGILAN TIMNAS",
+      "description": "Wartawan di ruang media mencecar Anda dengan berbagai pertanyaan seputar tim.",
+      "choice_1": "Berikan penjelasan taktis yang mendalam dan berbobot",
+      "choice_2": "Tegaskan tanggung jawab individu dan pentingnya etos kerja",
+      "choice_3": "Beri pernyataan berani untuk mematahkan narasi media",
+      "choice_4": "Jawab secara diplomatis, sopan, dan singkat"
     },
     "press_conference_var_11": {
-      "title": "Press Conference: CAPTAINCY LEADERSHIP DUTIES",
-      "description": "Journalists present questions regarding your team's captaincy leadership duties.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Konferensi Pers: TUGAS KAPTEN",
+      "description": "Wartawan di ruang media mencecar Anda dengan berbagai pertanyaan seputar tim.",
+      "choice_1": "Berikan penjelasan taktis yang mendalam dan berbobot",
+      "choice_2": "Tegaskan tanggung jawab individu dan pentingnya etos kerja",
+      "choice_3": "Beri pernyataan berani untuk mematahkan narasi media",
+      "choice_4": "Jawab secara diplomatis, sopan, dan singkat"
     },
     "press_conference_var_12": {
-      "title": "Press Conference: TACTICAL FLEXIBILITY TEST",
-      "description": "Journalists present questions regarding your team's tactical flexibility test.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Konferensi Pers: FLEKSIBILITAS TAKTIK",
+      "description": "Wartawan di ruang media mencecar Anda dengan berbagai pertanyaan seputar tim.",
+      "choice_1": "Berikan penjelasan taktis yang mendalam dan berbobot",
+      "choice_2": "Tegaskan tanggung jawab individu dan pentingnya etos kerja",
+      "choice_3": "Beri pernyataan berani untuk mematahkan narasi media",
+      "choice_4": "Jawab secara diplomatis, sopan, dan singkat"
     },
     "press_conference_var_13": {
-      "title": "Press Conference: DEFENSIVE SOLIDITY BREAKDOWN",
-      "description": "Journalists present questions regarding your team's defensive solidity breakdown.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Konferensi Pers: KETANGGUHAN BEK",
+      "description": "Wartawan di ruang media mencecar Anda dengan berbagai pertanyaan seputar tim.",
+      "choice_1": "Berikan penjelasan taktis yang mendalam dan berbobot",
+      "choice_2": "Tegaskan tanggung jawab individu dan pentingnya etos kerja",
+      "choice_3": "Beri pernyataan berani untuk mematahkan narasi media",
+      "choice_4": "Jawab secara diplomatis, sopan, dan singkat"
     },
     "press_conference_var_14": {
-      "title": "Press Conference: ATTACKING EFFICIENCY ANALYSIS",
-      "description": "Journalists present questions regarding your team's attacking efficiency analysis.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Konferensi Pers: EFEKTIVITAS GOL",
+      "description": "Wartawan di ruang media mencecar Anda dengan berbagai pertanyaan seputar tim.",
+      "choice_1": "Berikan penjelasan taktis yang mendalam dan berbobot",
+      "choice_2": "Tegaskan tanggung jawab individu dan pentingnya etos kerja",
+      "choice_3": "Beri pernyataan berani untuk mematahkan narasi media",
+      "choice_4": "Jawab secara diplomatis, sopan, dan singkat"
     },
     "press_conference_var_15": {
-      "title": "Press Conference: SET-PIECE SPECIALIZATION",
-      "description": "Journalists present questions regarding your team's set-piece specialization.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Konferensi Pers: BOLA MATI BERBAHAYA",
+      "description": "Wartawan di ruang media mencecar Anda dengan berbagai pertanyaan seputar tim.",
+      "choice_1": "Berikan penjelasan taktis yang mendalam dan berbobot",
+      "choice_2": "Tegaskan tanggung jawab individu dan pentingnya etos kerja",
+      "choice_3": "Beri pernyataan berani untuk mematahkan narasi media",
+      "choice_4": "Jawab secara diplomatis, sopan, dan singkat"
     },
     "press_conference_var_16": {
-      "title": "Press Conference: FAN PRESSURE REACTION",
-      "description": "Journalists present questions regarding your team's fan pressure reaction.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Konferensi Pers: TEKANAN SUPORTER",
+      "description": "Wartawan di ruang media mencecar Anda dengan berbagai pertanyaan seputar tim.",
+      "choice_1": "Berikan penjelasan taktis yang mendalam dan berbobot",
+      "choice_2": "Tegaskan tanggung jawab individu dan pentingnya etos kerja",
+      "choice_3": "Beri pernyataan berani untuk mematahkan narasi media",
+      "choice_4": "Jawab secara diplomatis, sopan, dan singkat"
     },
     "press_conference_var_17": {
-      "title": "Press Conference: TRANSFER BUDGET SPECULATION",
-      "description": "Journalists present questions regarding your team's transfer budget speculation.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Konferensi Pers: BURSA TRANSFER",
+      "description": "Wartawan di ruang media mencecar Anda dengan berbagai pertanyaan seputar tim.",
+      "choice_1": "Berikan penjelasan taktis yang mendalam dan berbobot",
+      "choice_2": "Tegaskan tanggung jawab individu dan pentingnya etos kerja",
+      "choice_3": "Beri pernyataan berani untuk mematahkan narasi media",
+      "choice_4": "Jawab secara diplomatis, sopan, dan singkat"
     },
     "press_conference_var_18": {
-      "title": "Press Conference: STADIUM ATMOSPHERE IMPACT",
-      "description": "Journalists present questions regarding your team's stadium atmosphere impact.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Konferensi Pers: ATMOSFER STADION",
+      "description": "Wartawan di ruang media mencecar Anda dengan berbagai pertanyaan seputar tim.",
+      "choice_1": "Berikan penjelasan taktis yang mendalam dan berbobot",
+      "choice_2": "Tegaskan tanggung jawab individu dan pentingnya etos kerja",
+      "choice_3": "Beri pernyataan berani untuk mematahkan narasi media",
+      "choice_4": "Jawab secara diplomatis, sopan, dan singkat"
     },
     "press_conference_var_19": {
-      "title": "Press Conference: DERBY HISTORICAL RIVALRY",
-      "description": "Journalists present questions regarding your team's derby historical rivalry.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Konferensi Pers: GENGSI DERBI",
+      "description": "Wartawan di ruang media mencecar Anda dengan berbagai pertanyaan seputar tim.",
+      "choice_1": "Berikan penjelasan taktis yang mendalam dan berbobot",
+      "choice_2": "Tegaskan tanggung jawab individu dan pentingnya etos kerja",
+      "choice_3": "Beri pernyataan berani untuk mematahkan narasi media",
+      "choice_4": "Jawab secara diplomatis, sopan, dan singkat"
     },
     "press_conference_var_20": {
-      "title": "Press Conference: END OF SEASON TARGET",
-      "description": "Journalists present questions regarding your team's end of season target.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Konferensi Pers: TARGET AKHIR MUSIM",
+      "description": "Wartawan di ruang media mencecar Anda dengan berbagai pertanyaan seputar tim.",
+      "choice_1": "Berikan penjelasan taktis yang mendalam dan berbobot",
+      "choice_2": "Tegaskan tanggung jawab individu dan pentingnya etos kerja",
+      "choice_3": "Beri pernyataan berani untuk mematahkan narasi media",
+      "choice_4": "Jawab secara diplomatis, sopan, dan singkat"
     },
     "tactical_meeting_1": {
-      "title": "Tactical Briefing: HIGH PRESS SYSTEM",
-      "description": "The coaching staff presents new tactical adjustments focusing on high press system.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "Pertemuan Taktis: PRESSING TINGGI",
+      "description": "Staf pelatih memaparkan taktik baru yang berfokus pada penyesuaian taktik baru yang berfokus pada garis pertahanan tinggi.",
+      "choice_1": "Kuasai instruksi taktis dengan komitmen penuh",
+      "choice_2": "Minta kebebasan berimprovisasi dalam sistem tim",
+      "choice_3": "Bantu rekan tim memahami pergerakan dan posisi mereka",
+      "choice_4": "Tingkatkan intensitas fisik demi menjalankan taktik"
     },
     "tactical_meeting_2": {
-      "title": "Tactical Briefing: LOW BLOCK DEFENSE",
-      "description": "The coaching staff presents new tactical adjustments focusing on low block defense.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "Pertemuan Taktis: BLOK RENDAH",
+      "description": "Staf pelatih memaparkan taktik baru yang berfokus pada disiplin pertahanan rapat dan penutupan ruang di garis belakang.",
+      "choice_1": "Kuasai instruksi taktis dengan komitmen penuh",
+      "choice_2": "Minta kebebasan berimprovisasi dalam sistem tim",
+      "choice_3": "Bantu rekan tim memahami pergerakan dan posisi mereka",
+      "choice_4": "Tingkatkan intensitas fisik demi menjalankan taktik"
     },
     "tactical_meeting_3": {
-      "title": "Tactical Briefing: COUNTER-ATTACK SPEED",
-      "description": "The coaching staff presents new tactical adjustments focusing on counter-attack speed.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "Pertemuan Taktis: SERANGAN BALIK CEPAT",
+      "description": "Staf pelatih memaparkan taktik baru yang berfokus pada kecepatan transisi menyerang vertikal segera setelah merebut bola.",
+      "choice_1": "Kuasai instruksi taktis dengan komitmen penuh",
+      "choice_2": "Minta kebebasan berimprovisasi dalam sistem tim",
+      "choice_3": "Bantu rekan tim memahami pergerakan dan posisi mereka",
+      "choice_4": "Tingkatkan intensitas fisik demi menjalankan taktik"
     },
     "tactical_meeting_4": {
-      "title": "Tactical Briefing: POSSESSION CONTROL",
-      "description": "The coaching staff presents new tactical adjustments focusing on possession control.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "Pertemuan Taktis: PENGUASAAN BOLA",
+      "description": "Staf pelatih memaparkan taktik baru yang berfokus pada kontrol tempo pertandingan melalui sirkulasi bola yang sabar.",
+      "choice_1": "Kuasai instruksi taktis dengan komitmen penuh",
+      "choice_2": "Minta kebebasan berimprovisasi dalam sistem tim",
+      "choice_3": "Bantu rekan tim memahami pergerakan dan posisi mereka",
+      "choice_4": "Tingkatkan intensitas fisik demi menjalankan taktik"
     },
     "tactical_meeting_5": {
-      "title": "Tactical Briefing: WING OVERLOAD",
-      "description": "The coaching staff presents new tactical adjustments focusing on wing overload.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "Pertemuan Taktis: OVERLOAD SAYAP",
+      "description": "Staf pelatih memaparkan taktik baru yang berfokus pada menciptakan keunggulan jumlah pemain di sektor sayap untuk melepas umpan.",
+      "choice_1": "Kuasai instruksi taktis dengan komitmen penuh",
+      "choice_2": "Minta kebebasan berimprovisasi dalam sistem tim",
+      "choice_3": "Bantu rekan tim memahami pergerakan dan posisi mereka",
+      "choice_4": "Tingkatkan intensitas fisik demi menjalankan taktik"
     },
     "tactical_meeting_6": {
-      "title": "Tactical Briefing: SET-PIECE ROUTINE",
-      "description": "The coaching staff presents new tactical adjustments focusing on set-piece routine.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "Pertemuan Taktis: SKEMA BOLA MATI",
+      "description": "Staf pelatih memaparkan taktik baru yang berfokus pada skema taktis terencana pada tendangan bebas dan sepak pojok.",
+      "choice_1": "Kuasai instruksi taktis dengan komitmen penuh",
+      "choice_2": "Minta kebebasan berimprovisasi dalam sistem tim",
+      "choice_3": "Bantu rekan tim memahami pergerakan dan posisi mereka",
+      "choice_4": "Tingkatkan intensitas fisik demi menjalankan taktik"
     },
     "tactical_meeting_7": {
-      "title": "Tactical Briefing: INVERTED FULLBACKS",
-      "description": "The coaching staff presents new tactical adjustments focusing on inverted fullbacks.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "Pertemuan Taktis: INVERTED FULLBACK",
+      "description": "Staf pelatih memaparkan taktik baru yang berfokus pada bek sayap yang bergerak ke tengah lapangan untuk menambah opsi umpan.",
+      "choice_1": "Kuasai instruksi taktis dengan komitmen penuh",
+      "choice_2": "Minta kebebasan berimprovisasi dalam sistem tim",
+      "choice_3": "Bantu rekan tim memahami pergerakan dan posisi mereka",
+      "choice_4": "Tingkatkan intensitas fisik demi menjalankan taktik"
     },
     "tactical_meeting_8": {
-      "title": "Tactical Briefing: FALSE NINE ROLE",
-      "description": "The coaching staff presents new tactical adjustments focusing on false nine role.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "Pertemuan Taktis: PERAN FALSE 9",
+      "description": "Staf pelatih memaparkan taktik baru yang berfokus pada penyerang turun menjemput bola untuk menarik bek dan membuka ruang tembak.",
+      "choice_1": "Kuasai instruksi taktis dengan komitmen penuh",
+      "choice_2": "Minta kebebasan berimprovisasi dalam sistem tim",
+      "choice_3": "Bantu rekan tim memahami pergerakan dan posisi mereka",
+      "choice_4": "Tingkatkan intensitas fisik demi menjalankan taktik"
     },
     "tactical_meeting_9": {
-      "title": "Tactical Briefing: TRANSITION AGGRESSION",
-      "description": "The coaching staff presents new tactical adjustments focusing on transition aggression.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "Pertemuan Taktis: GEGENPRESSING",
+      "description": "Staf pelatih memaparkan taktik baru yang berfokus pada tekanan agresif seketika setelah kehilangan bola untuk memotong serangan lawan.",
+      "choice_1": "Kuasai instruksi taktis dengan komitmen penuh",
+      "choice_2": "Minta kebebasan berimprovisasi dalam sistem tim",
+      "choice_3": "Bantu rekan tim memahami pergerakan dan posisi mereka",
+      "choice_4": "Tingkatkan intensitas fisik demi menjalankan taktik"
     },
     "tactical_meeting_10": {
-      "title": "Tactical Briefing: ZONAL MARKING",
-      "description": "The coaching staff presents new tactical adjustments focusing on zonal marking.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "Pertemuan Taktis: MARKAJ ZONA",
+      "description": "Staf pelatih memaparkan taktik baru yang berfokus pada disiplin mengawal area dan koordinasi pergeseran blok pertahanan.",
+      "choice_1": "Kuasai instruksi taktis dengan komitmen penuh",
+      "choice_2": "Minta kebebasan berimprovisasi dalam sistem tim",
+      "choice_3": "Bantu rekan tim memahami pergerakan dan posisi mereka",
+      "choice_4": "Tingkatkan intensitas fisik demi menjalankan taktik"
     },
     "dressing_room_1": {
-      "title": "Dressing Room Scenario 1",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "Skenario Ruang Ganti 1",
+      "description": "Situasi ruang ganti muncul melibatkan kekompakan dan fokus tim.",
+      "choice_1": "Bangkitkan semangat skuad lewat pidato inspiratif",
+      "choice_2": "Beri teladan tanpa banyak bicara lewat kerja keras",
+      "choice_3": "Atasi perselisihan internal secara langsung",
+      "choice_4": "Adakan makan malam bersama untuk mempererat kekompakan"
     },
     "dressing_room_2": {
-      "title": "Dressing Room Scenario 2",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "Skenario Ruang Ganti 2",
+      "description": "Situasi ruang ganti muncul melibatkan kekompakan dan fokus tim.",
+      "choice_1": "Bangkitkan semangat skuad lewat pidato inspiratif",
+      "choice_2": "Beri teladan tanpa banyak bicara lewat kerja keras",
+      "choice_3": "Atasi perselisihan internal secara langsung",
+      "choice_4": "Adakan makan malam bersama untuk mempererat kekompakan"
     },
     "dressing_room_3": {
-      "title": "Dressing Room Scenario 3",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "Skenario Ruang Ganti 3",
+      "description": "Situasi ruang ganti muncul melibatkan kekompakan dan fokus tim.",
+      "choice_1": "Bangkitkan semangat skuad lewat pidato inspiratif",
+      "choice_2": "Beri teladan tanpa banyak bicara lewat kerja keras",
+      "choice_3": "Atasi perselisihan internal secara langsung",
+      "choice_4": "Adakan makan malam bersama untuk mempererat kekompakan"
     },
     "dressing_room_4": {
-      "title": "Dressing Room Scenario 4",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "Skenario Ruang Ganti 4",
+      "description": "Situasi ruang ganti muncul melibatkan kekompakan dan fokus tim.",
+      "choice_1": "Bangkitkan semangat skuad lewat pidato inspiratif",
+      "choice_2": "Beri teladan tanpa banyak bicara lewat kerja keras",
+      "choice_3": "Atasi perselisihan internal secara langsung",
+      "choice_4": "Adakan makan malam bersama untuk mempererat kekompakan"
     },
     "dressing_room_5": {
-      "title": "Dressing Room Scenario 5",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "Skenario Ruang Ganti 5",
+      "description": "Situasi ruang ganti muncul melibatkan kekompakan dan fokus tim.",
+      "choice_1": "Bangkitkan semangat skuad lewat pidato inspiratif",
+      "choice_2": "Beri teladan tanpa banyak bicara lewat kerja keras",
+      "choice_3": "Atasi perselisihan internal secara langsung",
+      "choice_4": "Adakan makan malam bersama untuk mempererat kekompakan"
     },
     "dressing_room_6": {
-      "title": "Dressing Room Scenario 6",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "Skenario Ruang Ganti 6",
+      "description": "Situasi ruang ganti muncul melibatkan kekompakan dan fokus tim.",
+      "choice_1": "Bangkitkan semangat skuad lewat pidato inspiratif",
+      "choice_2": "Beri teladan tanpa banyak bicara lewat kerja keras",
+      "choice_3": "Atasi perselisihan internal secara langsung",
+      "choice_4": "Adakan makan malam bersama untuk mempererat kekompakan"
     },
     "dressing_room_7": {
-      "title": "Dressing Room Scenario 7",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "Skenario Ruang Ganti 7",
+      "description": "Situasi ruang ganti muncul melibatkan kekompakan dan fokus tim.",
+      "choice_1": "Bangkitkan semangat skuad lewat pidato inspiratif",
+      "choice_2": "Beri teladan tanpa banyak bicara lewat kerja keras",
+      "choice_3": "Atasi perselisihan internal secara langsung",
+      "choice_4": "Adakan makan malam bersama untuk mempererat kekompakan"
     },
     "dressing_room_8": {
-      "title": "Dressing Room Scenario 8",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "Skenario Ruang Ganti 8",
+      "description": "Situasi ruang ganti muncul melibatkan kekompakan dan fokus tim.",
+      "choice_1": "Bangkitkan semangat skuad lewat pidato inspiratif",
+      "choice_2": "Beri teladan tanpa banyak bicara lewat kerja keras",
+      "choice_3": "Atasi perselisihan internal secara langsung",
+      "choice_4": "Adakan makan malam bersama untuk mempererat kekompakan"
     },
     "dressing_room_9": {
-      "title": "Dressing Room Scenario 9",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "Skenario Ruang Ganti 9",
+      "description": "Situasi ruang ganti muncul melibatkan kekompakan dan fokus tim.",
+      "choice_1": "Bangkitkan semangat skuad lewat pidato inspiratif",
+      "choice_2": "Beri teladan tanpa banyak bicara lewat kerja keras",
+      "choice_3": "Atasi perselisihan internal secara langsung",
+      "choice_4": "Adakan makan malam bersama untuk mempererat kekompakan"
     },
     "dressing_room_10": {
-      "title": "Dressing Room Scenario 10",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "Skenario Ruang Ganti 10",
+      "description": "Situasi ruang ganti muncul melibatkan kekompakan dan fokus tim.",
+      "choice_1": "Bangkitkan semangat skuad lewat pidato inspiratif",
+      "choice_2": "Beri teladan tanpa banyak bicara lewat kerja keras",
+      "choice_3": "Atasi perselisihan internal secara langsung",
+      "choice_4": "Adakan makan malam bersama untuk mempererat kekompakan"
     },
     "manager_talk_1": {
-      "title": "Manager Discussion 1",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "Diskusi Bersama Pelatih 1",
+      "description": "Pelatih meminta pertemuan empat mata untuk mengevaluasi peran dan perkembangan terkini Anda.",
+      "choice_1": "Tunjukkan kepercayaan penuh pada visi pelatih",
+      "choice_2": "Minta penyesuaian taktik untuk posisi bermain Anda",
+      "choice_3": "Minta kebebasan menyerang lebih leluasa di lapangan",
+      "choice_4": "Berjanji menambah porsi latihan mandiri ekstra"
     },
     "manager_talk_2": {
-      "title": "Manager Discussion 2",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "Diskusi Bersama Pelatih 2",
+      "description": "Pelatih meminta pertemuan empat mata untuk mengevaluasi peran dan perkembangan terkini Anda.",
+      "choice_1": "Tunjukkan kepercayaan penuh pada visi pelatih",
+      "choice_2": "Minta penyesuaian taktik untuk posisi bermain Anda",
+      "choice_3": "Minta kebebasan menyerang lebih leluasa di lapangan",
+      "choice_4": "Berjanji menambah porsi latihan mandiri ekstra"
     },
     "manager_talk_3": {
-      "title": "Manager Discussion 3",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "Diskusi Bersama Pelatih 3",
+      "description": "Pelatih meminta pertemuan empat mata untuk mengevaluasi peran dan perkembangan terkini Anda.",
+      "choice_1": "Tunjukkan kepercayaan penuh pada visi pelatih",
+      "choice_2": "Minta penyesuaian taktik untuk posisi bermain Anda",
+      "choice_3": "Minta kebebasan menyerang lebih leluasa di lapangan",
+      "choice_4": "Berjanji menambah porsi latihan mandiri ekstra"
     },
     "manager_talk_4": {
-      "title": "Manager Discussion 4",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "Diskusi Bersama Pelatih 4",
+      "description": "Pelatih meminta pertemuan empat mata untuk mengevaluasi peran dan perkembangan terkini Anda.",
+      "choice_1": "Tunjukkan kepercayaan penuh pada visi pelatih",
+      "choice_2": "Minta penyesuaian taktik untuk posisi bermain Anda",
+      "choice_3": "Minta kebebasan menyerang lebih leluasa di lapangan",
+      "choice_4": "Berjanji menambah porsi latihan mandiri ekstra"
     },
     "manager_talk_5": {
-      "title": "Manager Discussion 5",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "Diskusi Bersama Pelatih 5",
+      "description": "Pelatih meminta pertemuan empat mata untuk mengevaluasi peran dan perkembangan terkini Anda.",
+      "choice_1": "Tunjukkan kepercayaan penuh pada visi pelatih",
+      "choice_2": "Minta penyesuaian taktik untuk posisi bermain Anda",
+      "choice_3": "Minta kebebasan menyerang lebih leluasa di lapangan",
+      "choice_4": "Berjanji menambah porsi latihan mandiri ekstra"
     },
     "manager_talk_6": {
-      "title": "Manager Discussion 6",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "Diskusi Bersama Pelatih 6",
+      "description": "Pelatih meminta pertemuan empat mata untuk mengevaluasi peran dan perkembangan terkini Anda.",
+      "choice_1": "Tunjukkan kepercayaan penuh pada visi pelatih",
+      "choice_2": "Minta penyesuaian taktik untuk posisi bermain Anda",
+      "choice_3": "Minta kebebasan menyerang lebih leluasa di lapangan",
+      "choice_4": "Berjanji menambah porsi latihan mandiri ekstra"
     },
     "manager_talk_7": {
-      "title": "Manager Discussion 7",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "Diskusi Bersama Pelatih 7",
+      "description": "Pelatih meminta pertemuan empat mata untuk mengevaluasi peran dan perkembangan terkini Anda.",
+      "choice_1": "Tunjukkan kepercayaan penuh pada visi pelatih",
+      "choice_2": "Minta penyesuaian taktik untuk posisi bermain Anda",
+      "choice_3": "Minta kebebasan menyerang lebih leluasa di lapangan",
+      "choice_4": "Berjanji menambah porsi latihan mandiri ekstra"
     },
     "manager_talk_8": {
-      "title": "Manager Discussion 8",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "Diskusi Bersama Pelatih 8",
+      "description": "Pelatih meminta pertemuan empat mata untuk mengevaluasi peran dan perkembangan terkini Anda.",
+      "choice_1": "Tunjukkan kepercayaan penuh pada visi pelatih",
+      "choice_2": "Minta penyesuaian taktik untuk posisi bermain Anda",
+      "choice_3": "Minta kebebasan menyerang lebih leluasa di lapangan",
+      "choice_4": "Berjanji menambah porsi latihan mandiri ekstra"
     },
     "manager_talk_9": {
-      "title": "Manager Discussion 9",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "Diskusi Bersama Pelatih 9",
+      "description": "Pelatih meminta pertemuan empat mata untuk mengevaluasi peran dan perkembangan terkini Anda.",
+      "choice_1": "Tunjukkan kepercayaan penuh pada visi pelatih",
+      "choice_2": "Minta penyesuaian taktik untuk posisi bermain Anda",
+      "choice_3": "Minta kebebasan menyerang lebih leluasa di lapangan",
+      "choice_4": "Berjanji menambah porsi latihan mandiri ekstra"
     },
     "manager_talk_10": {
-      "title": "Manager Discussion 10",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "Diskusi Bersama Pelatih 10",
+      "description": "Pelatih meminta pertemuan empat mata untuk mengevaluasi peran dan perkembangan terkini Anda.",
+      "choice_1": "Tunjukkan kepercayaan penuh pada visi pelatih",
+      "choice_2": "Minta penyesuaian taktik untuk posisi bermain Anda",
+      "choice_3": "Minta kebebasan menyerang lebih leluasa di lapangan",
+      "choice_4": "Berjanji menambah porsi latihan mandiri ekstra"
     },
     "agent_negotiation_1": {
-      "title": "Agent Strategy Session 1",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "Sesi Strategi Bersama Agen 1",
+      "description": "Agen Anda memaparkan peluang kontrak baru dan kerja sama komersial untuk karier Anda.",
+      "choice_1": "Prioritaskan stabilitas olahraga dan keberlanjutan karier jangka panjang",
+      "choice_2": "Instruksikan agen untuk menjajaki minat dari klub-klub papan atas",
+      "choice_3": "Fokus memaksimalkan pemasukan sponsor komersial saat ini",
+      "choice_4": "Tetap fokus penuh pada target tim musim ini"
     },
     "agent_negotiation_2": {
-      "title": "Agent Strategy Session 2",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "Sesi Strategi Bersama Agen 2",
+      "description": "Agen Anda memaparkan peluang kontrak baru dan kerja sama komersial untuk karier Anda.",
+      "choice_1": "Prioritaskan stabilitas olahraga dan keberlanjutan karier jangka panjang",
+      "choice_2": "Instruksikan agen untuk menjajaki minat dari klub-klub papan atas",
+      "choice_3": "Fokus memaksimalkan pemasukan sponsor komersial saat ini",
+      "choice_4": "Tetap fokus penuh pada target tim musim ini"
     },
     "agent_negotiation_3": {
-      "title": "Agent Strategy Session 3",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "Sesi Strategi Bersama Agen 3",
+      "description": "Agen Anda memaparkan peluang kontrak baru dan kerja sama komersial untuk karier Anda.",
+      "choice_1": "Prioritaskan stabilitas olahraga dan keberlanjutan karier jangka panjang",
+      "choice_2": "Instruksikan agen untuk menjajaki minat dari klub-klub papan atas",
+      "choice_3": "Fokus memaksimalkan pemasukan sponsor komersial saat ini",
+      "choice_4": "Tetap fokus penuh pada target tim musim ini"
     },
     "agent_negotiation_4": {
-      "title": "Agent Strategy Session 4",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "Sesi Strategi Bersama Agen 4",
+      "description": "Agen Anda memaparkan peluang kontrak baru dan kerja sama komersial untuk karier Anda.",
+      "choice_1": "Prioritaskan stabilitas olahraga dan keberlanjutan karier jangka panjang",
+      "choice_2": "Instruksikan agen untuk menjajaki minat dari klub-klub papan atas",
+      "choice_3": "Fokus memaksimalkan pemasukan sponsor komersial saat ini",
+      "choice_4": "Tetap fokus penuh pada target tim musim ini"
     },
     "agent_negotiation_5": {
-      "title": "Agent Strategy Session 5",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "Sesi Strategi Bersama Agen 5",
+      "description": "Agen Anda memaparkan peluang kontrak baru dan kerja sama komersial untuk karier Anda.",
+      "choice_1": "Prioritaskan stabilitas olahraga dan keberlanjutan karier jangka panjang",
+      "choice_2": "Instruksikan agen untuk menjajaki minat dari klub-klub papan atas",
+      "choice_3": "Fokus memaksimalkan pemasukan sponsor komersial saat ini",
+      "choice_4": "Tetap fokus penuh pada target tim musim ini"
     },
     "agent_negotiation_6": {
-      "title": "Agent Strategy Session 6",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "Sesi Strategi Bersama Agen 6",
+      "description": "Agen Anda memaparkan peluang kontrak baru dan kerja sama komersial untuk karier Anda.",
+      "choice_1": "Prioritaskan stabilitas olahraga dan keberlanjutan karier jangka panjang",
+      "choice_2": "Instruksikan agen untuk menjajaki minat dari klub-klub papan atas",
+      "choice_3": "Fokus memaksimalkan pemasukan sponsor komersial saat ini",
+      "choice_4": "Tetap fokus penuh pada target tim musim ini"
     },
     "agent_negotiation_7": {
-      "title": "Agent Strategy Session 7",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "Sesi Strategi Bersama Agen 7",
+      "description": "Agen Anda memaparkan peluang kontrak baru dan kerja sama komersial untuk karier Anda.",
+      "choice_1": "Prioritaskan stabilitas olahraga dan keberlanjutan karier jangka panjang",
+      "choice_2": "Instruksikan agen untuk menjajaki minat dari klub-klub papan atas",
+      "choice_3": "Fokus memaksimalkan pemasukan sponsor komersial saat ini",
+      "choice_4": "Tetap fokus penuh pada target tim musim ini"
     },
     "agent_negotiation_8": {
-      "title": "Agent Strategy Session 8",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "Sesi Strategi Bersama Agen 8",
+      "description": "Agen Anda memaparkan peluang kontrak baru dan kerja sama komersial untuk karier Anda.",
+      "choice_1": "Prioritaskan stabilitas olahraga dan keberlanjutan karier jangka panjang",
+      "choice_2": "Instruksikan agen untuk menjajaki minat dari klub-klub papan atas",
+      "choice_3": "Fokus memaksimalkan pemasukan sponsor komersial saat ini",
+      "choice_4": "Tetap fokus penuh pada target tim musim ini"
     },
     "agent_negotiation_9": {
-      "title": "Agent Strategy Session 9",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "Sesi Strategi Bersama Agen 9",
+      "description": "Agen Anda memaparkan peluang kontrak baru dan kerja sama komersial untuk karier Anda.",
+      "choice_1": "Prioritaskan stabilitas olahraga dan keberlanjutan karier jangka panjang",
+      "choice_2": "Instruksikan agen untuk menjajaki minat dari klub-klub papan atas",
+      "choice_3": "Fokus memaksimalkan pemasukan sponsor komersial saat ini",
+      "choice_4": "Tetap fokus penuh pada target tim musim ini"
     },
     "agent_negotiation_10": {
-      "title": "Agent Strategy Session 10",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "Sesi Strategi Bersama Agen 10",
+      "description": "Agen Anda memaparkan peluang kontrak baru dan kerja sama komersial untuk karier Anda.",
+      "choice_1": "Prioritaskan stabilitas olahraga dan keberlanjutan karier jangka panjang",
+      "choice_2": "Instruksikan agen untuk menjajaki minat dari klub-klub papan atas",
+      "choice_3": "Fokus memaksimalkan pemasukan sponsor komersial saat ini",
+      "choice_4": "Tetap fokus penuh pada target tim musim ini"
     },
     "fan_community_1": {
-      "title": "Community Event 1",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "Kegiatan Komunitas Klub 1",
+      "description": "Anda berkesempatan untuk berpartisipasi dalam bakti sosial dan aksi amal klub.",
+      "choice_1": "Hadiri dengan antusias dan berbaur ramah bersama suporter",
+      "choice_2": "Berikan sumbangan donasi finansial yang besar",
+      "choice_3": "Promosikan kampanye sosial ini di media sosial Anda",
+      "choice_4": "Selesaikan acara secukupnya agar bisa istirahat untuk laga"
     },
     "fan_community_2": {
-      "title": "Community Event 2",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "Kegiatan Komunitas Klub 2",
+      "description": "Anda berkesempatan untuk berpartisipasi dalam bakti sosial dan aksi amal klub.",
+      "choice_1": "Hadiri dengan antusias dan berbaur ramah bersama suporter",
+      "choice_2": "Berikan sumbangan donasi finansial yang besar",
+      "choice_3": "Promosikan kampanye sosial ini di media sosial Anda",
+      "choice_4": "Selesaikan acara secukupnya agar bisa istirahat untuk laga"
     },
     "fan_community_3": {
-      "title": "Community Event 3",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "Kegiatan Komunitas Klub 3",
+      "description": "Anda berkesempatan untuk berpartisipasi dalam bakti sosial dan aksi amal klub.",
+      "choice_1": "Hadiri dengan antusias dan berbaur ramah bersama suporter",
+      "choice_2": "Berikan sumbangan donasi finansial yang besar",
+      "choice_3": "Promosikan kampanye sosial ini di media sosial Anda",
+      "choice_4": "Selesaikan acara secukupnya agar bisa istirahat untuk laga"
     },
     "fan_community_4": {
-      "title": "Community Event 4",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "Kegiatan Komunitas Klub 4",
+      "description": "Anda berkesempatan untuk berpartisipasi dalam bakti sosial dan aksi amal klub.",
+      "choice_1": "Hadiri dengan antusias dan berbaur ramah bersama suporter",
+      "choice_2": "Berikan sumbangan donasi finansial yang besar",
+      "choice_3": "Promosikan kampanye sosial ini di media sosial Anda",
+      "choice_4": "Selesaikan acara secukupnya agar bisa istirahat untuk laga"
     },
     "fan_community_5": {
-      "title": "Community Event 5",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "Kegiatan Komunitas Klub 5",
+      "description": "Anda berkesempatan untuk berpartisipasi dalam bakti sosial dan aksi amal klub.",
+      "choice_1": "Hadiri dengan antusias dan berbaur ramah bersama suporter",
+      "choice_2": "Berikan sumbangan donasi finansial yang besar",
+      "choice_3": "Promosikan kampanye sosial ini di media sosial Anda",
+      "choice_4": "Selesaikan acara secukupnya agar bisa istirahat untuk laga"
     },
     "fan_community_6": {
-      "title": "Community Event 6",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "Kegiatan Komunitas Klub 6",
+      "description": "Anda berkesempatan untuk berpartisipasi dalam bakti sosial dan aksi amal klub.",
+      "choice_1": "Hadiri dengan antusias dan berbaur ramah bersama suporter",
+      "choice_2": "Berikan sumbangan donasi finansial yang besar",
+      "choice_3": "Promosikan kampanye sosial ini di media sosial Anda",
+      "choice_4": "Selesaikan acara secukupnya agar bisa istirahat untuk laga"
     },
     "fan_community_7": {
-      "title": "Community Event 7",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "Kegiatan Komunitas Klub 7",
+      "description": "Anda berkesempatan untuk berpartisipasi dalam bakti sosial dan aksi amal klub.",
+      "choice_1": "Hadiri dengan antusias dan berbaur ramah bersama suporter",
+      "choice_2": "Berikan sumbangan donasi finansial yang besar",
+      "choice_3": "Promosikan kampanye sosial ini di media sosial Anda",
+      "choice_4": "Selesaikan acara secukupnya agar bisa istirahat untuk laga"
     },
     "fan_community_8": {
-      "title": "Community Event 8",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "Kegiatan Komunitas Klub 8",
+      "description": "Anda berkesempatan untuk berpartisipasi dalam bakti sosial dan aksi amal klub.",
+      "choice_1": "Hadiri dengan antusias dan berbaur ramah bersama suporter",
+      "choice_2": "Berikan sumbangan donasi finansial yang besar",
+      "choice_3": "Promosikan kampanye sosial ini di media sosial Anda",
+      "choice_4": "Selesaikan acara secukupnya agar bisa istirahat untuk laga"
     },
     "fan_community_9": {
-      "title": "Community Event 9",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "Kegiatan Komunitas Klub 9",
+      "description": "Anda berkesempatan untuk berpartisipasi dalam bakti sosial dan aksi amal klub.",
+      "choice_1": "Hadiri dengan antusias dan berbaur ramah bersama suporter",
+      "choice_2": "Berikan sumbangan donasi finansial yang besar",
+      "choice_3": "Promosikan kampanye sosial ini di media sosial Anda",
+      "choice_4": "Selesaikan acara secukupnya agar bisa istirahat untuk laga"
     },
     "fan_community_10": {
-      "title": "Community Event 10",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "Kegiatan Komunitas Klub 10",
+      "description": "Anda berkesempatan untuk berpartisipasi dalam bakti sosial dan aksi amal klub.",
+      "choice_1": "Hadiri dengan antusias dan berbaur ramah bersama suporter",
+      "choice_2": "Berikan sumbangan donasi finansial yang besar",
+      "choice_3": "Promosikan kampanye sosial ini di media sosial Anda",
+      "choice_4": "Selesaikan acara secukupnya agar bisa istirahat untuk laga"
     },
     "sponsorship_brand_1": {
-      "title": "Brand Offer 1",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "Tawaran Sponsor 1",
+      "description": "Sebuah merek global mengajukan proposal kerja sama sponsor komersial.",
+      "choice_1": "Tandatangani kontrak kerja sama sponsor",
+      "choice_2": "Negosiasikan bonus performa yang lebih tinggi",
+      "choice_3": "Tolak tawaran demi fokus murni pada sepak bola",
+      "choice_4": "Minta klausul donasi amal dalam kesepakatan"
     },
     "sponsorship_brand_2": {
-      "title": "Brand Offer 2",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "Tawaran Sponsor 2",
+      "description": "Sebuah merek global mengajukan proposal kerja sama sponsor komersial.",
+      "choice_1": "Tandatangani kontrak kerja sama sponsor",
+      "choice_2": "Negosiasikan bonus performa yang lebih tinggi",
+      "choice_3": "Tolak tawaran demi fokus murni pada sepak bola",
+      "choice_4": "Minta klausul donasi amal dalam kesepakatan"
     },
     "sponsorship_brand_3": {
-      "title": "Brand Offer 3",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "Tawaran Sponsor 3",
+      "description": "Sebuah merek global mengajukan proposal kerja sama sponsor komersial.",
+      "choice_1": "Tandatangani kontrak kerja sama sponsor",
+      "choice_2": "Negosiasikan bonus performa yang lebih tinggi",
+      "choice_3": "Tolak tawaran demi fokus murni pada sepak bola",
+      "choice_4": "Minta klausul donasi amal dalam kesepakatan"
     },
     "sponsorship_brand_4": {
-      "title": "Brand Offer 4",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "Tawaran Sponsor 4",
+      "description": "Sebuah merek global mengajukan proposal kerja sama sponsor komersial.",
+      "choice_1": "Tandatangani kontrak kerja sama sponsor",
+      "choice_2": "Negosiasikan bonus performa yang lebih tinggi",
+      "choice_3": "Tolak tawaran demi fokus murni pada sepak bola",
+      "choice_4": "Minta klausul donasi amal dalam kesepakatan"
     },
     "sponsorship_brand_5": {
-      "title": "Brand Offer 5",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "Tawaran Sponsor 5",
+      "description": "Sebuah merek global mengajukan proposal kerja sama sponsor komersial.",
+      "choice_1": "Tandatangani kontrak kerja sama sponsor",
+      "choice_2": "Negosiasikan bonus performa yang lebih tinggi",
+      "choice_3": "Tolak tawaran demi fokus murni pada sepak bola",
+      "choice_4": "Minta klausul donasi amal dalam kesepakatan"
     },
     "sponsorship_brand_6": {
-      "title": "Brand Offer 6",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "Tawaran Sponsor 6",
+      "description": "Sebuah merek global mengajukan proposal kerja sama sponsor komersial.",
+      "choice_1": "Tandatangani kontrak kerja sama sponsor",
+      "choice_2": "Negosiasikan bonus performa yang lebih tinggi",
+      "choice_3": "Tolak tawaran demi fokus murni pada sepak bola",
+      "choice_4": "Minta klausul donasi amal dalam kesepakatan"
     },
     "sponsorship_brand_7": {
-      "title": "Brand Offer 7",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "Tawaran Sponsor 7",
+      "description": "Sebuah merek global mengajukan proposal kerja sama sponsor komersial.",
+      "choice_1": "Tandatangani kontrak kerja sama sponsor",
+      "choice_2": "Negosiasikan bonus performa yang lebih tinggi",
+      "choice_3": "Tolak tawaran demi fokus murni pada sepak bola",
+      "choice_4": "Minta klausul donasi amal dalam kesepakatan"
     },
     "sponsorship_brand_8": {
-      "title": "Brand Offer 8",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "Tawaran Sponsor 8",
+      "description": "Sebuah merek global mengajukan proposal kerja sama sponsor komersial.",
+      "choice_1": "Tandatangani kontrak kerja sama sponsor",
+      "choice_2": "Negosiasikan bonus performa yang lebih tinggi",
+      "choice_3": "Tolak tawaran demi fokus murni pada sepak bola",
+      "choice_4": "Minta klausul donasi amal dalam kesepakatan"
     },
     "sponsorship_brand_9": {
-      "title": "Brand Offer 9",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "Tawaran Sponsor 9",
+      "description": "Sebuah merek global mengajukan proposal kerja sama sponsor komersial.",
+      "choice_1": "Tandatangani kontrak kerja sama sponsor",
+      "choice_2": "Negosiasikan bonus performa yang lebih tinggi",
+      "choice_3": "Tolak tawaran demi fokus murni pada sepak bola",
+      "choice_4": "Minta klausul donasi amal dalam kesepakatan"
     },
     "sponsorship_brand_10": {
-      "title": "Brand Offer 10",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "Tawaran Sponsor 10",
+      "description": "Sebuah merek global mengajukan proposal kerja sama sponsor komersial.",
+      "choice_1": "Tandatangani kontrak kerja sama sponsor",
+      "choice_2": "Negosiasikan bonus performa yang lebih tinggi",
+      "choice_3": "Tolak tawaran demi fokus murni pada sepak bola",
+      "choice_4": "Minta klausul donasi amal dalam kesepakatan"
     },
     "lifestyle_media_1": {
-      "title": "Media Spotlight 1",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "Sorotan Media 1",
+      "description": "Sebuah media olahraga terkemuka meminta liputan profil eksklusif tentang Anda.",
+      "choice_1": "Bagikan pandangan jujur tentang disiplin dan latihan Anda",
+      "choice_2": "Tampilkan citra merek pribadi dan gaya hidup keren Anda",
+      "choice_3": "Arahkan wawancara hanya pada target juara tim",
+      "choice_4": "Tolak wawancara demi menjaga privasi kehidupan pribadi"
     },
     "lifestyle_media_2": {
-      "title": "Media Spotlight 2",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "Sorotan Media 2",
+      "description": "Sebuah media olahraga terkemuka meminta liputan profil eksklusif tentang Anda.",
+      "choice_1": "Bagikan pandangan jujur tentang disiplin dan latihan Anda",
+      "choice_2": "Tampilkan citra merek pribadi dan gaya hidup keren Anda",
+      "choice_3": "Arahkan wawancara hanya pada target juara tim",
+      "choice_4": "Tolak wawancara demi menjaga privasi kehidupan pribadi"
     },
     "lifestyle_media_3": {
-      "title": "Media Spotlight 3",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "Sorotan Media 3",
+      "description": "Sebuah media olahraga terkemuka meminta liputan profil eksklusif tentang Anda.",
+      "choice_1": "Bagikan pandangan jujur tentang disiplin dan latihan Anda",
+      "choice_2": "Tampilkan citra merek pribadi dan gaya hidup keren Anda",
+      "choice_3": "Arahkan wawancara hanya pada target juara tim",
+      "choice_4": "Tolak wawancara demi menjaga privasi kehidupan pribadi"
     },
     "lifestyle_media_4": {
-      "title": "Media Spotlight 4",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "Sorotan Media 4",
+      "description": "Sebuah media olahraga terkemuka meminta liputan profil eksklusif tentang Anda.",
+      "choice_1": "Bagikan pandangan jujur tentang disiplin dan latihan Anda",
+      "choice_2": "Tampilkan citra merek pribadi dan gaya hidup keren Anda",
+      "choice_3": "Arahkan wawancara hanya pada target juara tim",
+      "choice_4": "Tolak wawancara demi menjaga privasi kehidupan pribadi"
     },
     "lifestyle_media_5": {
-      "title": "Media Spotlight 5",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "Sorotan Media 5",
+      "description": "Sebuah media olahraga terkemuka meminta liputan profil eksklusif tentang Anda.",
+      "choice_1": "Bagikan pandangan jujur tentang disiplin dan latihan Anda",
+      "choice_2": "Tampilkan citra merek pribadi dan gaya hidup keren Anda",
+      "choice_3": "Arahkan wawancara hanya pada target juara tim",
+      "choice_4": "Tolak wawancara demi menjaga privasi kehidupan pribadi"
     },
     "lifestyle_media_6": {
-      "title": "Media Spotlight 6",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "Sorotan Media 6",
+      "description": "Sebuah media olahraga terkemuka meminta liputan profil eksklusif tentang Anda.",
+      "choice_1": "Bagikan pandangan jujur tentang disiplin dan latihan Anda",
+      "choice_2": "Tampilkan citra merek pribadi dan gaya hidup keren Anda",
+      "choice_3": "Arahkan wawancara hanya pada target juara tim",
+      "choice_4": "Tolak wawancara demi menjaga privasi kehidupan pribadi"
     },
     "lifestyle_media_7": {
-      "title": "Media Spotlight 7",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "Sorotan Media 7",
+      "description": "Sebuah media olahraga terkemuka meminta liputan profil eksklusif tentang Anda.",
+      "choice_1": "Bagikan pandangan jujur tentang disiplin dan latihan Anda",
+      "choice_2": "Tampilkan citra merek pribadi dan gaya hidup keren Anda",
+      "choice_3": "Arahkan wawancara hanya pada target juara tim",
+      "choice_4": "Tolak wawancara demi menjaga privasi kehidupan pribadi"
     },
     "lifestyle_media_8": {
-      "title": "Media Spotlight 8",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "Sorotan Media 8",
+      "description": "Sebuah media olahraga terkemuka meminta liputan profil eksklusif tentang Anda.",
+      "choice_1": "Bagikan pandangan jujur tentang disiplin dan latihan Anda",
+      "choice_2": "Tampilkan citra merek pribadi dan gaya hidup keren Anda",
+      "choice_3": "Arahkan wawancara hanya pada target juara tim",
+      "choice_4": "Tolak wawancara demi menjaga privasi kehidupan pribadi"
     },
     "lifestyle_media_9": {
-      "title": "Media Spotlight 9",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "Sorotan Media 9",
+      "description": "Sebuah media olahraga terkemuka meminta liputan profil eksklusif tentang Anda.",
+      "choice_1": "Bagikan pandangan jujur tentang disiplin dan latihan Anda",
+      "choice_2": "Tampilkan citra merek pribadi dan gaya hidup keren Anda",
+      "choice_3": "Arahkan wawancara hanya pada target juara tim",
+      "choice_4": "Tolak wawancara demi menjaga privasi kehidupan pribadi"
     },
     "lifestyle_media_10": {
-      "title": "Media Spotlight 10",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "Sorotan Media 10",
+      "description": "Sebuah media olahraga terkemuka meminta liputan profil eksklusif tentang Anda.",
+      "choice_1": "Bagikan pandangan jujur tentang disiplin dan latihan Anda",
+      "choice_2": "Tampilkan citra merek pribadi dan gaya hidup keren Anda",
+      "choice_3": "Arahkan wawancara hanya pada target juara tim",
+      "choice_4": "Tolak wawancara demi menjaga privasi kehidupan pribadi"
     },
     "rivalry_drama_1": {
-      "title": "Rivalry Encounter 1",
-      "description": "Tensions flare during a heated derby buildup with opponent players.",
-      "choice_1": "Maintain composure and answer on the pitch",
-      "choice_2": "Respond fiercely to defend club pride",
-      "choice_3": "De-escalate tension through captain leadership",
-      "choice_4": "Use energy as motivation for extra training"
+      "title": "Tensi Laga Derbi 1",
+      "description": "Tensi memanas jelang laga panas melawan rival abadi lewat perang urat saraf.",
+      "choice_1": "Tetap tenang dan buktikan segalanya di atas lapangan",
+      "choice_2": "Balas dengan tegas untuk membela martabat dan harga diri klub",
+      "choice_3": "Redakan ketegangan dengan menunjukkan kepemimpinan kapten",
+      "choice_4": "Jadikan provokasi lawan sebagai amunisi latihan ekstra"
     },
     "rivalry_drama_2": {
-      "title": "Rivalry Encounter 2",
-      "description": "Tensions flare during a heated derby buildup with opponent players.",
-      "choice_1": "Maintain composure and answer on the pitch",
-      "choice_2": "Respond fiercely to defend club pride",
-      "choice_3": "De-escalate tension through captain leadership",
-      "choice_4": "Use energy as motivation for extra training"
+      "title": "Tensi Laga Derbi 2",
+      "description": "Tensi memanas jelang laga panas melawan rival abadi lewat perang urat saraf.",
+      "choice_1": "Tetap tenang dan buktikan segalanya di atas lapangan",
+      "choice_2": "Balas dengan tegas untuk membela martabat dan harga diri klub",
+      "choice_3": "Redakan ketegangan dengan menunjukkan kepemimpinan kapten",
+      "choice_4": "Jadikan provokasi lawan sebagai amunisi latihan ekstra"
     },
     "rivalry_drama_3": {
-      "title": "Rivalry Encounter 3",
-      "description": "Tensions flare during a heated derby buildup with opponent players.",
-      "choice_1": "Maintain composure and answer on the pitch",
-      "choice_2": "Respond fiercely to defend club pride",
-      "choice_3": "De-escalate tension through captain leadership",
-      "choice_4": "Use energy as motivation for extra training"
+      "title": "Tensi Laga Derbi 3",
+      "description": "Tensi memanas jelang laga panas melawan rival abadi lewat perang urat saraf.",
+      "choice_1": "Tetap tenang dan buktikan segalanya di atas lapangan",
+      "choice_2": "Balas dengan tegas untuk membela martabat dan harga diri klub",
+      "choice_3": "Redakan ketegangan dengan menunjukkan kepemimpinan kapten",
+      "choice_4": "Jadikan provokasi lawan sebagai amunisi latihan ekstra"
     },
     "rivalry_drama_4": {
-      "title": "Rivalry Encounter 4",
-      "description": "Tensions flare during a heated derby buildup with opponent players.",
-      "choice_1": "Maintain composure and answer on the pitch",
-      "choice_2": "Respond fiercely to defend club pride",
-      "choice_3": "De-escalate tension through captain leadership",
-      "choice_4": "Use energy as motivation for extra training"
+      "title": "Tensi Laga Derbi 4",
+      "description": "Tensi memanas jelang laga panas melawan rival abadi lewat perang urat saraf.",
+      "choice_1": "Tetap tenang dan buktikan segalanya di atas lapangan",
+      "choice_2": "Balas dengan tegas untuk membela martabat dan harga diri klub",
+      "choice_3": "Redakan ketegangan dengan menunjukkan kepemimpinan kapten",
+      "choice_4": "Jadikan provokasi lawan sebagai amunisi latihan ekstra"
     },
     "rivalry_drama_5": {
-      "title": "Rivalry Encounter 5",
-      "description": "Tensions flare during a heated derby buildup with opponent players.",
-      "choice_1": "Maintain composure and answer on the pitch",
-      "choice_2": "Respond fiercely to defend club pride",
-      "choice_3": "De-escalate tension through captain leadership",
-      "choice_4": "Use energy as motivation for extra training"
+      "title": "Tensi Laga Derbi 5",
+      "description": "Tensi memanas jelang laga panas melawan rival abadi lewat perang urat saraf.",
+      "choice_1": "Tetap tenang dan buktikan segalanya di atas lapangan",
+      "choice_2": "Balas dengan tegas untuk membela martabat dan harga diri klub",
+      "choice_3": "Redakan ketegangan dengan menunjukkan kepemimpinan kapten",
+      "choice_4": "Jadikan provokasi lawan sebagai amunisi latihan ekstra"
     },
     "veteran_mentorship_1": {
-      "title": "Mentorship Session 1",
-      "description": "An experienced squad veteran offers advice on positioning and game reading.",
-      "choice_1": "Absorb advice greedily and practice techniques",
-      "choice_2": "Discuss tactical concepts in depth",
-      "choice_3": "Express gratitude and offer to mentor academy players",
-      "choice_4": "Focus on applying lessons in next match"
+      "title": "Bimbingan Pemain Senior 1",
+      "description": "Pemain senior berpengalaman memberi Anda wejangan tentang penempatan posisi dan membaca laga.",
+      "choice_1": "Serap ilmu tersebut dan latih tekniknya dengan tekun",
+      "choice_2": "Bahas konsep taktis secara mendalam bersamanya",
+      "choice_3": "Ucapkan terima kasih dan tawarkan diri membimbing pemain akademi",
+      "choice_4": "Fokus mempraktikkan pelajaran tersebut di pertandingan berikutnya"
     },
     "veteran_mentorship_2": {
-      "title": "Mentorship Session 2",
-      "description": "An experienced squad veteran offers advice on positioning and game reading.",
-      "choice_1": "Absorb advice greedily and practice techniques",
-      "choice_2": "Discuss tactical concepts in depth",
-      "choice_3": "Express gratitude and offer to mentor academy players",
-      "choice_4": "Focus on applying lessons in next match"
+      "title": "Bimbingan Pemain Senior 2",
+      "description": "Pemain senior berpengalaman memberi Anda wejangan tentang penempatan posisi dan membaca laga.",
+      "choice_1": "Serap ilmu tersebut dan latih tekniknya dengan tekun",
+      "choice_2": "Bahas konsep taktis secara mendalam bersamanya",
+      "choice_3": "Ucapkan terima kasih dan tawarkan diri membimbing pemain akademi",
+      "choice_4": "Fokus mempraktikkan pelajaran tersebut di pertandingan berikutnya"
     },
     "veteran_mentorship_3": {
-      "title": "Mentorship Session 3",
-      "description": "An experienced squad veteran offers advice on positioning and game reading.",
-      "choice_1": "Absorb advice greedily and practice techniques",
-      "choice_2": "Discuss tactical concepts in depth",
-      "choice_3": "Express gratitude and offer to mentor academy players",
-      "choice_4": "Focus on applying lessons in next match"
+      "title": "Bimbingan Pemain Senior 3",
+      "description": "Pemain senior berpengalaman memberi Anda wejangan tentang penempatan posisi dan membaca laga.",
+      "choice_1": "Serap ilmu tersebut dan latih tekniknya dengan tekun",
+      "choice_2": "Bahas konsep taktis secara mendalam bersamanya",
+      "choice_3": "Ucapkan terima kasih dan tawarkan diri membimbing pemain akademi",
+      "choice_4": "Fokus mempraktikkan pelajaran tersebut di pertandingan berikutnya"
     },
     "veteran_mentorship_4": {
-      "title": "Mentorship Session 4",
-      "description": "An experienced squad veteran offers advice on positioning and game reading.",
-      "choice_1": "Absorb advice greedily and practice techniques",
-      "choice_2": "Discuss tactical concepts in depth",
-      "choice_3": "Express gratitude and offer to mentor academy players",
-      "choice_4": "Focus on applying lessons in next match"
+      "title": "Bimbingan Pemain Senior 4",
+      "description": "Pemain senior berpengalaman memberi Anda wejangan tentang penempatan posisi dan membaca laga.",
+      "choice_1": "Serap ilmu tersebut dan latih tekniknya dengan tekun",
+      "choice_2": "Bahas konsep taktis secara mendalam bersamanya",
+      "choice_3": "Ucapkan terima kasih dan tawarkan diri membimbing pemain akademi",
+      "choice_4": "Fokus mempraktikkan pelajaran tersebut di pertandingan berikutnya"
     },
     "veteran_mentorship_5": {
-      "title": "Mentorship Session 5",
-      "description": "An experienced squad veteran offers advice on positioning and game reading.",
-      "choice_1": "Absorb advice greedily and practice techniques",
-      "choice_2": "Discuss tactical concepts in depth",
-      "choice_3": "Express gratitude and offer to mentor academy players",
-      "choice_4": "Focus on applying lessons in next match"
+      "title": "Bimbingan Pemain Senior 5",
+      "description": "Pemain senior berpengalaman memberi Anda wejangan tentang penempatan posisi dan membaca laga.",
+      "choice_1": "Serap ilmu tersebut dan latih tekniknya dengan tekun",
+      "choice_2": "Bahas konsep taktis secara mendalam bersamanya",
+      "choice_3": "Ucapkan terima kasih dan tawarkan diri membimbing pemain akademi",
+      "choice_4": "Fokus mempraktikkan pelajaran tersebut di pertandingan berikutnya"
+    },
+    "rivalry_drama_6": {
+      "title": "Tensi Laga Derbi 6",
+      "description": "Tensi memanas jelang laga panas melawan rival abadi lewat perang urat saraf.",
+      "choice_1": "Tetap tenang dan buktikan segalanya di atas lapangan",
+      "choice_2": "Balas dengan tegas untuk membela martabat dan harga diri klub",
+      "choice_3": "Redakan ketegangan dengan menunjukkan kepemimpinan kapten",
+      "choice_4": "Jadikan provokasi lawan sebagai amunisi latihan ekstra"
+    },
+    "rivalry_drama_7": {
+      "title": "Tensi Laga Derbi 7",
+      "description": "Tensi memanas jelang laga panas melawan rival abadi lewat perang urat saraf.",
+      "choice_1": "Tetap tenang dan buktikan segalanya di atas lapangan",
+      "choice_2": "Balas dengan tegas untuk membela martabat dan harga diri klub",
+      "choice_3": "Redakan ketegangan dengan menunjukkan kepemimpinan kapten",
+      "choice_4": "Jadikan provokasi lawan sebagai amunisi latihan ekstra"
+    },
+    "rivalry_drama_8": {
+      "title": "Tensi Laga Derbi 8",
+      "description": "Tensi memanas jelang laga panas melawan rival abadi lewat perang urat saraf.",
+      "choice_1": "Tetap tenang dan buktikan segalanya di atas lapangan",
+      "choice_2": "Balas dengan tegas untuk membela martabat dan harga diri klub",
+      "choice_3": "Redakan ketegangan dengan menunjukkan kepemimpinan kapten",
+      "choice_4": "Jadikan provokasi lawan sebagai amunisi latihan ekstra"
+    },
+    "rivalry_drama_9": {
+      "title": "Tensi Laga Derbi 9",
+      "description": "Tensi memanas jelang laga panas melawan rival abadi lewat perang urat saraf.",
+      "choice_1": "Tetap tenang dan buktikan segalanya di atas lapangan",
+      "choice_2": "Balas dengan tegas untuk membela martabat dan harga diri klub",
+      "choice_3": "Redakan ketegangan dengan menunjukkan kepemimpinan kapten",
+      "choice_4": "Jadikan provokasi lawan sebagai amunisi latihan ekstra"
+    },
+    "rivalry_drama_10": {
+      "title": "Tensi Laga Derbi 10",
+      "description": "Tensi memanas jelang laga panas melawan rival abadi lewat perang urat saraf.",
+      "choice_1": "Tetap tenang dan buktikan segalanya di atas lapangan",
+      "choice_2": "Balas dengan tegas untuk membela martabat dan harga diri klub",
+      "choice_3": "Redakan ketegangan dengan menunjukkan kepemimpinan kapten",
+      "choice_4": "Jadikan provokasi lawan sebagai amunisi latihan ekstra"
+    },
+    "veteran_mentorship_6": {
+      "title": "Bimbingan Pemain Senior 6",
+      "description": "Pemain senior berpengalaman memberi Anda wejangan tentang penempatan posisi dan membaca laga.",
+      "choice_1": "Serap ilmu tersebut dan latih tekniknya dengan tekun",
+      "choice_2": "Bahas konsep taktis secara mendalam bersamanya",
+      "choice_3": "Ucapkan terima kasih dan tawarkan diri membimbing pemain akademi",
+      "choice_4": "Fokus mempraktikkan pelajaran tersebut di pertandingan berikutnya"
+    },
+    "veteran_mentorship_7": {
+      "title": "Bimbingan Pemain Senior 7",
+      "description": "Pemain senior berpengalaman memberi Anda wejangan tentang penempatan posisi dan membaca laga.",
+      "choice_1": "Serap ilmu tersebut dan latih tekniknya dengan tekun",
+      "choice_2": "Bahas konsep taktis secara mendalam bersamanya",
+      "choice_3": "Ucapkan terima kasih dan tawarkan diri membimbing pemain akademi",
+      "choice_4": "Fokus mempraktikkan pelajaran tersebut di pertandingan berikutnya"
+    },
+    "veteran_mentorship_8": {
+      "title": "Bimbingan Pemain Senior 8",
+      "description": "Pemain senior berpengalaman memberi Anda wejangan tentang penempatan posisi dan membaca laga.",
+      "choice_1": "Serap ilmu tersebut dan latih tekniknya dengan tekun",
+      "choice_2": "Bahas konsep taktis secara mendalam bersamanya",
+      "choice_3": "Ucapkan terima kasih dan tawarkan diri membimbing pemain akademi",
+      "choice_4": "Fokus mempraktikkan pelajaran tersebut di pertandingan berikutnya"
+    },
+    "veteran_mentorship_9": {
+      "title": "Bimbingan Pemain Senior 9",
+      "description": "Pemain senior berpengalaman memberi Anda wejangan tentang penempatan posisi dan membaca laga.",
+      "choice_1": "Serap ilmu tersebut dan latih tekniknya dengan tekun",
+      "choice_2": "Bahas konsep taktis secara mendalam bersamanya",
+      "choice_3": "Ucapkan terima kasih dan tawarkan diri membimbing pemain akademi",
+      "choice_4": "Fokus mempraktikkan pelajaran tersebut di pertandingan berikutnya"
+    },
+    "veteran_mentorship_10": {
+      "title": "Bimbingan Pemain Senior 10",
+      "description": "Pemain senior berpengalaman memberi Anda wejangan tentang penempatan posisi dan membaca laga.",
+      "choice_1": "Serap ilmu tersebut dan latih tekniknya dengan tekun",
+      "choice_2": "Bahas konsep taktis secara mendalam bersamanya",
+      "choice_3": "Ucapkan terima kasih dan tawarkan diri membimbing pemain akademi",
+      "choice_4": "Fokus mempraktikkan pelajaran tersebut di pertandingan berikutnya"
     }
   },
   "contractTermination": {
@@ -2145,7 +2245,7 @@
         "1": "Pemain yang luar biasa!",
         "2": "Kelas dunia!",
         "3": "Bangun patung itu sekarang!",
-        "4": "Man of the match pastinya.",
+        "4": "Pemain Terbaik pastinya.",
         "5": "Performa luar biasa!",
         "6": "Bernilai setiap sen!",
         "7": "Raja lapangan!",
@@ -2189,7 +2289,7 @@
       }
     },
     "narrativeChange": {
-      "Prodigy": "Narasi media beralih ke: 'Keajaiban'",
+      "Prodigy": "Narasi media beralih ke: 'Anak Berbakat'",
       "OntheRise": "Narasi media beralih ke: 'Sedang Naik Daun'",
       "EstablishedStar": "Narasi media beralih ke: 'Bintang Terbentuk'",
       "UnderPressure": "Narasi media beralih ke: 'Di Bawah Tekanan'",
@@ -2199,19 +2299,19 @@
       "VeteranRotation": "Narasi media beralih ke: 'Rotasi Veteran'",
       "ForgottenMan": "Narasi media beralih ke: 'Orang yang Terlupakan'",
       "Flop": "Narasi media bergeser ke: 'Gagal'",
-      "ComebackKid": "Narasi media beralih ke: 'Comeback Kid'",
+      "ComebackKid": "Narasi media beralih ke: 'Sang Comeback'",
       "CultHero": "Narasi media beralih ke: 'Pahlawan Kultus'",
       "HometownHero": "Narasi media beralih ke: 'Pahlawan Kampung Halaman'",
-      "PolarizingFigure": "Narasi media bergeser ke: 'Polarisasi Tokoh'",
-      "PressDarling": "Narasi media beralih ke: 'Press Darling'",
-      "SystemPlayer": "Narasi media bergeser ke: 'Pemain Sistem'",
+      "PolarizingFigure": "Narasi media beralih ke: 'Figur Kontroversial'",
+      "PressDarling": "Narasi media beralih ke: 'Favorit Pers'",
+      "SystemPlayer": "Narasi media beralih ke: 'Pemain Sistem'",
       "InjuryComeback": "Narasi media beralih ke: 'Kembalinya Cedera'"
     }
   },
   "mediaNarrative": {
     "ComebackKid": {
       "description": "Dipuji karena menentang rintangan untuk kembali ke bentuk semula.",
-      "name": "Kembalilah Nak",
+      "name": "Sang Comeback",
       "quote1": "Bagaimana rasanya kembali ke puncak setelah banyak keraguan?",
       "quote2": "Para penggemar tidak pernah berhenti percaya. Apa arti dukungan mereka bagi Anda?",
       "quote3": "Apakah ini awal dari puncak kedua karier Anda?"
@@ -2260,7 +2360,7 @@
     },
     "Journeyman": {
       "description": "Terlihat sebagai seorang penjelajah berpengalaman di dunia sepak bola.",
-      "name": "Pekerja harian",
+      "name": "Pemain Keliling",
       "quote1": "Anda telah bermain di banyak tempat. Bagaimana Anda beradaptasi begitu cepat?",
       "quote2": "Apa pelajaran paling berharga yang Anda pelajari dari perjalanan Anda?",
       "quote3": "Apakah Anda mencari stabilitas lebih, atau Anda menikmati variasinya?"
@@ -2274,28 +2374,28 @@
     },
     "PolarizingFigure": {
       "description": "Sosok pemecah belah yang membagi pendapat di antara para ahli dan penggemar.",
-      "name": "Gambar Polarisasi",
+      "name": "Figur Kontroversial",
       "quote1": "Anda sepertinya berbeda pendapat. Menurut Anda mengapa demikian?",
       "quote2": "Apakah kritik yang Anda terima memengaruhi permainan Anda?",
       "quote3": "Apakah Anda merasa disalahpahami oleh media dan publik?"
     },
     "PressDarling": {
       "description": "Menikmati hubungan yang sangat baik dengan media.",
-      "name": "Tekan Sayang",
+      "name": "Favorit Pers",
       "quote1": "Media sepertinya mencintaimu. Apakah itu membantu kepercayaan diri Anda?",
       "quote2": "Anda selalu menjadi berita utama karena alasan yang bagus. Apa rahasianya?",
       "quote3": "Seberapa pentingkah bagi seorang pemain untuk menjaga citra baik?"
     },
     "Prodigy": {
       "description": "Dilabeli sebagai talenta generasi oleh outlet-outlet besar.",
-      "name": "Keajaiban",
+      "name": "Anak Berbakat",
       "quote1": "Disebut 'anak ajaib' di usia yang begitu muda—bagaimana rasanya?",
       "quote2": "Harapannya setinggi langit. Bisakah Anda memenuhi label 'generasi'?",
       "quote3": "Apa fokus utama Anda saat memulai karir yang menjanjikan ini?"
     },
     "SystemPlayer": {
       "description": "Masih ada pertanyaan apakah dia bisa tampil di luar pengaturan taktis khusus ini.",
-      "name": "Pemutar Sistem",
+      "name": "Pemain Sistem",
       "quote1": "Anda sangat cocok dengan sistem ini. Apakah Anda khawatir tentang taktik lain?",
       "quote2": "Ada yang mengatakan Anda hanya terlihat sebagus ini karena pengaturannya. Reaksi?",
       "quote3": "Bisakah Anda menyesuaikan permainan Anda jika manajer mengubah pendekatannya?"
@@ -2329,7 +2429,7 @@
       "quote3": "Sebagai bintang veteran, apakah Anda merasa lebih bertanggung jawab di momen-momen besar?"
     },
     "Wonderkid": {
-      "name": "Bocah Ajaib",
+      "name": "Keajaiban Muda",
       "description": "Bakat muda luar biasa yang diprediksi akan mendominasi sepak bola dunia.",
       "quote1": "Banyak yang melihat Anda sebagai calon peraih Ballon d'Or. Apa pendapat Anda?",
       "quote2": "Rumor mengaitkan Anda dengan klub-klub terbesar dunia. Apakah ada transfer impian?",
@@ -2368,7 +2468,7 @@
         "fan1": "Cintai kejujuran!",
         "fan2": "Akhirnya seseorang mengatakan yang sebenarnya.",
         "headline1": "Pemain Berbicara Kebenaran dalam Wawancara Eksplosif",
-        "headline2": "Komentar jujur ​​memicu perdebatan"
+        "headline2": "Komentar jujur memicu perdebatan"
       },
       "refuse": {
         "headline1": "Pemain Keluar dari Wawancara"
@@ -2433,6 +2533,11 @@
       },
       "settle": {
         "headline1": "Kasus Pajak Diselesaikan di Luar Pengadilan"
+      },
+      "relationship_drama": {
+        "headline1": "Kehidupan pribadi terekspos: badai baru menerpa {name}",
+        "press1": "Kehidupan pribadinya tampak memengaruhi performanya di atas lapangan.",
+        "press2": "Media gosip terus menguntit kehidupan sang pemain."
       }
     },
     "transfer": {
@@ -2442,6 +2547,141 @@
       "warning_1": "Peringatan Klub",
       "warning_2": "Peringatan Terakhir",
       "warning_3": "Tindakan Disiplin"
+    },
+    "media": {
+      "interviews": {
+        "clashWithManager": {
+          "question": "Tersiar kabar ada ketegangan dengan pelatih di sesi latihan. Bagaimana hubungan kalian sekarang?",
+          "answers": {
+            "apologetic": "Saya menyesal hal itu terjadi. Saya sudah merenung dan tetap 100% berkomitmen pada tim ini.",
+            "defiant": "Saya mengatakan apa yang perlu dikatakan. Saya memegang prinsip dan standar saya.",
+            "focused": "Ada target lebih besar di depan. Saya lebih suka berbicara di lapangan."
+          }
+        },
+        "contractRenewal": {
+          "question": "Bagaimana rasanya mengikat masa depan jangka panjangmu dengan {team} lewat kontrak baru ini?",
+          "answers": {
+            "ambitious": "Saya ingin mengangkat trofi besar di sini. Perpanjangan ini membuktikan kami sedang membangun sesuatu yang istimewa.",
+            "grateful": "Saya bersyukur atas kepercayaan penuh {team} kepada saya. Tempat ini terasa seperti rumah.",
+            "loyal": "Klub lain tak pernah menggoyahkan pilihan saya. Hati saya sepenuhnya milik {team}."
+          }
+        },
+        "derbyWin": {
+          "question": "Kamu baru saja menang di derby yang mendebarkan! Bagaimana rasanya?",
+          "answers": {
+            "ecstatic": "Malam yang luar biasa! Kami tahu betapa berarti derby ini bagi para penggemar. Malam ini kota ini milik kami!",
+            "humble": "Tiga poin besar, tapi musim masih panjang. Bangga dengan skuad, besok kami kembali bekerja.",
+            "passionate": "Inilah arti sepak bola derby! Kami memperjuangkan setiap bola 50-50 dan lebih menginginkannya."
+          }
+        },
+        "firstCallUp": {
+          "question": "Apa yang terlintas di pikiranmu saat menerima panggilan pertama ke timnas senior?",
+          "answers": {
+            "determined": "Saya tidak di sini hanya untuk melengkapi jumlah. Saya siap membuktikan saya pantas di level ini.",
+            "emotional": "Mimpi masa kecil jadi kenyataan. Terpikir keluarga dan semua yang percaya pada saya.",
+            "honored": "Memakai kaus timnas adalah kehormatan terbesar seorang pesepak bola. Siap memberikan segalanya."
+          }
+        },
+        "firstProfessionalGoal": {
+          "question": "Selamat atas gol profesional pertamamu! Bagaimana rasanya melihat bola masuk ke gawang?",
+          "answers": {
+            "hungry": "Perasaan yang tak terlupakan, tapi ini baru permulaan. Saya ingin banyak lagi.",
+            "joyful": "Euforia murni! Saya membayangkan momen itu ribuan kali dalam latihan.",
+            "teamFirst": "Senang bisa mencetak gol, tapi yang terpenting membantu tim mengamankan hasil."
+          }
+        },
+        "futureAmbitions": {
+          "question": "Ke depan, apa target jangka panjang utama Anda di sepak bola?",
+          "answers": {
+            "legend": "Saya ingin dikenang sebagai salah satu yang terbaik sepanjang masa di sepak bola dunia.",
+            "silverware": "Trofi menentukan karier. Saya ingin menjuarai liga dan Piala Champions Eropa.",
+            "stepByStep": "Saya fokus meningkatkan diri di setiap latihan. Warisan akan terbentuk sendiri."
+          }
+        },
+        "goalDrought": {
+          "question": "Sudah {count} pertandingan tanpa gol. Bagaimana Anda menghadapi sorotan dari luar?",
+          "answers": {
+            "confident": "Setiap penyerang mengalami masa kering. Pergerakan saya tetap tajam, gol akan datang.",
+            "frustrated": "Tentu saja menjengkelkan, tapi saya menilai diri dari kontribusi keseluruhan untuk tim.",
+            "patient": "Saya tidak panik. Terus masuk ke area berbahaya dan keberuntungan akan berbalik."
+          }
+        },
+        "injuryComeback": {
+          "question": "Akhirnya Anda kembali ke lapangan setelah rehabilitasi berat. Bagaimana kondisi fisik Anda?",
+          "answers": {
+            "relieved": "Hari-hari terkelam masa rehabilitasi sudah lewat. Mendengar gemuruh penonton saja membuat saya merinding.",
+            "stronger": "Cedera menguji mental. Saya bekerja tanpa henti dan kembali dalam kondisi fisik puncak.",
+            "cautious": "Bagus bisa menambah menit bermain, saya jalani laga demi laga untuk menemukan ritme."
+          }
+        },
+        "leagueTitleWin": {
+          "question": "Juara liga! Setelah 38 pertandingan berat, trofi jadi milikmu. Betapa manisnya momen ini?",
+          "answers": {
+            "triumphant": "Juara! Kami membuktikan semua peragu salah lewat konsistensi dan kebersamaan.",
+            "emotional": "Setahun penuh pengorbanan memuncak di momen ini. Air mata kebahagiaan murni.",
+            "hungryForMore": "Nikmati malam ini, tapi skuad ini dibangun untuk mendominasi. Kami ingin juara berturut-turut."
+          }
+        },
+        "majorTrophyLoss": {
+          "question": "Kekalahan menyakitkan di final. Bagaimana suasana di ruang ganti?",
+          "answers": {
+            "devastated": "Sulit diungkapkan. Mendekat sejauh ini lalu pulang tanpa hasil sangat menyakitkan.",
+            "resilient": "Kekalahan menyakitkan, tapi rasa sakit ini akan memacu hasrat kami untuk kembali dan menang tahun depan.",
+            "proud": "Kecewa dengan hasilnya, tapi sangat bangga dengan keberanian yang ditunjukkan para pemain."
+          }
+        },
+        "postMatch": {
+          "question": "Peluit akhir baru saja berbunyi. Bagaimana penilaian langsung Anda atas penampilan hari ini?",
+          "answers": {
+            "satisfied": "Kami menjalankan rencana permainan dengan brilian sejak menit pertama. Hasil yang sepenuhnya pantas.",
+            "critical": "Kami meraih poin, tapi standar kami lebih tinggi. Banyak detail yang harus diasah.",
+            "drained": "Pertarungan sengit dari awal hingga akhir. Kami mengerahkan segalanya dan menunjukkan karakter."
+          }
+        },
+        "retirementAnnouncement": {
+          "question": "Anda resmi mengumumkan pensiun dari sepak bola profesional. Emosi apa yang mendominasi?",
+          "answers": {
+            "peaceful": "Saya meninggalkan sepak bola dengan hati penuh dan tanpa penyesalan. Waktunya menyingkir.",
+            "nostalgic": "Dari mimpi akademi masa kecil hingga stadion dunia—perjalanan yang magis.",
+            "grateful": "Rasa syukur yang besar untuk setiap pelatih, rekan setim, dan penggemar yang berbagi jalan ini dengan saya."
+          }
+        },
+        "teammateFallingOut": {
+          "question": "Dilaporkan ada ketegangan antara Anda dan rekan setim {player}. Apakah ada perpecahan di skuad?",
+          "answers": {
+            "dismissive": "Kebisingan media yang sensasional. Di ruang ganti yang kompetitif, debat selalu terjadi.",
+            "united": "Kami profesional yang mengejar tujuan yang sama. Ruang ganti solid.",
+            "honest": "Kami berbeda pandangan saat pertandingan, tapi kami menyelesaikannya dengan dewasa dan melangkah maju."
+          }
+        },
+        "transferRumours": {
+          "question": "Rumor terus mengaitkan Anda dengan kepindahan besar. Sudahkah Anda memutuskan masa depan?",
+          "answers": {
+            "focused": "Pikiran saya 100% fokus pada {team}. Segala pembicaraan ada di antara klub dan agen saya.",
+            "open": "Di sepak bola modern, masa depan tak pernah pasti. Saya membuka semua opsi.",
+            "committed": "Saya sepenuhnya berkomitmen pada {team}. Jangan percaya semua yang Anda baca di kolom gosip."
+          }
+        },
+        "worldCupWin": {
+          "question": "Juara dunia! Anda telah mencapai puncak tertinggi sepak bola dunia. Bisakah Anda mengungkapkannya?",
+          "answers": {
+            "immortal": "Kami juara dunia! Nama kami akan terukir selamanya dalam sejarah bangsa!",
+            "surreal": "Berdiri di podium sambil memegang Piala Dunia terasa seperti mimpi di luar tubuh.",
+            "patriotic": "Trofi ini milik setiap warga negara kita. Kami membawanya pulang!"
+          }
+        }
+      }
+    },
+    "nightclub_incident": {
+      "apologize": {
+        "headline1": "{name} meminta maaf secara terbuka menyusul insiden di klub malam",
+        "press1": "Langkah awal yang baik, meski reputasinya tercoreng."
+      },
+      "blame": {
+        "fan1": "Biasa, selalu orang lain yang disalahkan...",
+        "headline1": "{name} menyalahkan orang lain setelah pertikaian di klub malam",
+        "press1": "Pembelaan ini kemungkinan besar tidak memuaskan suporter."
+      }
     }
   },
   "retirement": {
@@ -2594,7 +2834,7 @@
       "awardNomination": "{player} dinominasikan untuk penghargaan bergengsi.",
       "awardWon": "Kemenangan! {player} memenangkan penghargaan!",
       "badForm": "Pertanyaan muncul mengenai formulir terbaru {player}.",
-      "cleanSheetStreak": "Satu lagi clean sheet untuk {player}!",
+      "cleanSheetStreak": "Satu lagi tanpa kebobolan untuk {player}!",
       "controversy": "Kontroversi Meletus",
       "generic": "Memperbarui",
       "hatTrick": "{player} mencetak hat-trick menakjubkan!",
@@ -2706,7 +2946,7 @@
     "goldenBoot": "Pencetak Gol Terbanyak Liga ({goals} gol)!",
     "goldenBootShared": "Sepatu Emas Liga Bersama dengan gol {goals}!",
     "goldenBoy": "Pemain Muda Terbaik Tahun Ini! Masa depan adalah milikmu.",
-    "goldenGlove": "Pemenang Sarung Tangan Emas (clean sheet {cleanSheets})!",
+    "goldenGlove": "Pemenang Sarung Tangan Emas (tanpa kebobolan {cleanSheets})!",
     "goldenShoe": "Pemenang Sepatu Emas Eropa! ({goals} gol)",
     "leagueDefenderOfYear": "Pembela Terbaik Tahun Ini",
     "leagueForwardOfYear": "Maju Tahun Ini",
@@ -2783,5 +3023,12 @@
   "firstYouthAssist": "Assist Pertama di Tim Muda",
   "firstProGoal": "Gol Profesional Pertama",
   "firstProAssist": "Assist Profesional Pertama",
-  "intlDebut": "Debut Internasional"
+  "intlDebut": "Debut Internasional",
+  "youthAcademy": {
+    "promoted": "Dipromosikan dari akademi muda ke tim utama senior!",
+    "released": "Dilepas dari akademi muda setelah gagal mendapatkan promosi ke tim utama.",
+    "staying": "Bertahan di akademi muda satu musim lagi untuk terus mengasah kemampuan."
+  },
+  "decisionMade": "Keputusan Dibuat",
+  "urgentDecision": "Diperlukan keputusan mendesak!"
 }

@@ -14,7 +14,8 @@
     "teamOfTheYear": "فريق العام",
     "topScorerAward": "الهداف",
     "worldCupBestPlayer": "أفضل لاعب في كأس العالم",
-    "worldPlayerAward": "الأفضل في العالم"
+    "worldPlayerAward": "الأفضل في العالم",
+    "ballonDOr": "الكرة الذهبية"
   },
   "awardGroups": {
     "bestGoalkeeper": "أفضل حارس مرمى",
@@ -110,7 +111,9 @@
     "league_team_of_the_season": "تشكيلة الموسم في الدوري",
     "team_of_the_year": "فريق العام",
     "titleCount": "الألقاب",
-    "achievements": "الجوائز"
+    "achievements": "الجوائز",
+    "eccFinalist": "وصيف كأس أبطال أوروبا",
+    "eccSemifinal": "نصف نهائي كأس أبطال أوروبا"
   },
   "careerPhases": {
     "breakthrough": "البداية في كرة القدم الاحترافية",
@@ -126,7 +129,7 @@
     "allTimeGreat": "عظيم تاريخي",
     "elite": "النخبة",
     "establishedPro": "محترف ثابت",
-    "journeyman": "رحالة",
+    "journeyman": "رحّالة",
     "legend": "أسطورة",
     "star": "نجم",
     "worldClass": "عالمي المستوى"
@@ -138,7 +141,7 @@
     "challengerCup": "مباراة نصف الكرة",
     "championsLeague": "دوري أبطال أوروبا",
     "clubWorldCup": "كأس العالم للأندية",
-    "concacafChampionsCup": "Concacaf الأبطال كأس",
+    "concacafChampionsCup": "كأس أبطال الكونكاكاف",
     "conferenceLeague": "دوري المؤتمر الأوروبي",
     "continental": "قاري",
     "copaSudamericana": "كوبا سود أمريكانا",
@@ -160,7 +163,7 @@
     "libertadores": "كوبا ليبرتادوريس",
     "ligue1": "الدوري الفرنسي",
     "nationsLeague": "دوري الأمم",
-    "orientalCup": "Eastern كأس",
+    "orientalCup": "كأس الشرق",
     "orientalPlayoff": "الملحق الشرقي",
     "premierLeague": "الدوري الإنجليزي",
     "qualifier": "تصفيات",
@@ -176,11 +179,12 @@
     "worldCup": "كأس العالم",
     "youthLeagueFormat": "{{country}} {{youth}}",
     "unknownCup": "كأس غير معروفة",
-    "youthCupFormat": "كأس {{country}} للشباب",
+    "youthCupFormat": "كأس {{country}} {{youth}}",
     "youth": "الشباب",
     "left": "يسار",
     "leftFoot": "القدم اليسرى",
-    "lastName": "اسم العائلة"
+    "lastName": "اسم العائلة",
+    "americasDerby": "ديربي الأمريكتين"
   },
   "competitionNames": {
     "African Champions Cup": "كأس أبطال أفريقيا",
@@ -190,7 +194,7 @@
     "Asian Championship": "كأس الوصول الآسيوي",
     "Asian Club Cup": "كأس أندية آسيا",
     "Baiano": "Baiano",
-    "CONCACAF Nations League": "North American دوري الأمم",
+    "CONCACAF Nations League": "بطولة أمم أمريكا الشمالية",
     "Carioca": "Carioca",
     "Catarinense": "Catarinense",
     "Cearense": "Cearense",
@@ -215,7 +219,7 @@
     "South American Champions Cup": "كأس أبطال أمريكا الجنوبية",
     "South American Championship": "كأس الوصول لأمريكا الجنوبية",
     "South American Club Cup": "كأس أندية أمريكا الجنوبية",
-    "World Cup": "كأس العالم",
+    "World Cup": "البطولة العالمية",
     "Youth African Access Cup": "أفريقيا للشباب",
     "Youth African Champions Cup": "أفريقيا للشباب",
     "Youth African Championship": "أفريقيا للشباب",
@@ -232,16 +236,16 @@
     "Youth Friendly": "ودية الشباب",
     "Youth International League": "دوري أمم الشباب",
     "Youth League": "دوري الشباب",
-    "Youth North American Champions Cup": "USA للشباب",
-    "Youth North American Championship": "USA للشباب",
-    "Youth North American Nations Cup": "USA للشباب",
+    "Youth North American Champions Cup": "كأس أبطال أمريكا الشمالية للشباب",
+    "Youth North American Championship": "كأس وصول أمريكا الشمالية للشباب",
+    "Youth North American Nations Cup": "كأس أمم أمريكا الشمالية للشباب",
     "Youth Qualifier": "تصفيات الشباب",
-    "Youth South American Champions Cup": "USA للشباب",
-    "Youth South American Championship": "USA للشباب",
-    "Youth South American Club Cup": "USA للشباب",
+    "Youth South American Champions Cup": "كأس أبطال أمريكا الجنوبية للشباب",
+    "Youth South American Championship": "كأس وصول أمريكا الجنوبية للشباب",
+    "Youth South American Club Cup": "كأس أندية أمريكا الجنوبية للشباب",
     "Youth State Cup": "كأس ولاية الشباب",
     "Youth Super Cup": "كأس السوبر للشباب",
-    "Youth World Cup": "كأس العالم للشباب",
+    "Youth World Cup": "البطولة العالمية للشباب",
     "fifaClubWorldCup": "كأس العالم للأندية",
     "global_replacements": "استبدالات عالمية",
     "key_enforcement": "فرض المفاتيح",
@@ -1157,7 +1161,8 @@
     "youthContinental": "كأس الشباب القارية",
     "youthCup": "كأس الشباب",
     "youthLeague": "دوري الشباب",
-    "youthSpecialTournament": "بطولة شباب خاصة"
+    "youthSpecialTournament": "بطولة شباب خاصة",
+    "americasDerby": "ديربي الأمريكتين"
   },
   "trophy": {
     "Argentine Youth Cup": "كأس الأرجنتين للشباب",
@@ -1252,7 +1257,8 @@
     "youthContinental": "قاري للشباب",
     "youthCup": "كأس الشباب",
     "youthLeague": "دوري الشباب",
-    "youthSpecialTournament": "بطولة شباب خاصة"
+    "youthSpecialTournament": "بطولة شباب خاصة",
+    "americasDerby": "ديربي الأمريكتين"
   },
   "competitions": {
     "euro": "البطولة الأوروبية",

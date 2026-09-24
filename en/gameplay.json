@@ -101,11 +101,11 @@
         "fifaBest": "Named World Player of the Year!",
         "goldenBoot": "League Top Scorer ({goals} goals)!",
         "goldenBoy": "Winner of the Golden Boy award!",
-        "goldenGlove": "Goalkeeper of the Year!",
-        "goldenShoe": "European Golden Shoe Winner!",
+        "goldenGlove": "Goalkeeper of the Year ({cleanSheets} clean sheets)!",
+        "goldenShoe": "European Golden Shoe Winner ({goals} goals)!",
         "leaguePOTY": "League Player of the Year!",
         "leaguePositional": "{position} of the Year in {league}!",
-        "playmaker": "Playmaker of the Year!",
+        "playmaker": "League Playmaker of the Year ({assists} assists)!",
         "puskas": "Goal of the Year Winner!",
         "rookie": "Rookie of the Year!",
         "shortlist": "Shortlisted for {award}!",
@@ -113,91 +113,91 @@
         "worldCupGoldenBall": "World Cup Golden Ball Winner!",
         "worldCupGoldenBoot": "World Cup Top Scorer ({goals} goals)!",
         "worldCupTOTT": "Selected in the World Cup Team of the Tournament!",
-        "worldPlayer": "World Player of the Year Winner!"
+        "worldPlayer": "WORLD PLAYER OF THE YEAR! Recognized as the best on the planet. Narrative: {narrative}."
       },
-      "debut": "Débuts professionnels effectués",
-      "firstTitle": "Premier titre en carrière remporté",
+      "debut": "Senior professional debut completed",
+      "firstTitle": "First career trophy lifted",
       "performance": {
-        "below_expectations": "Saison en dessous des attentes",
-        "excellent_season": "Excellente saison",
-        "outstanding_season": "Saison exceptionnelle"
+        "below_expectations": "Season below expectations",
+        "excellent_season": "Excellent season",
+        "outstanding_season": "Outstanding season"
       },
       "physical": {
-        "bodyTypeChange": "Changement de corpulence",
-        "weightLoss": "Perte de poids liée à l'entraînement"
+        "bodyTypeChange": "Physique modification",
+        "weightLoss": "Weight loss from training"
       },
       "progression": {
-        "age_decline": "Déclin lié à l'âge",
-        "exceptional_development": "Développement exceptionnel",
-        "maintained_fitness": "Maintien du niveau de forme",
-        "physical_decline": "Déclin physique noté",
-        "strong_development": "Fort développement",
-        "struggled_development": "Difficultés à progresser"
+        "age_decline": "Natural age-related decline",
+        "exceptional_development": "Exceptional development",
+        "maintained_fitness": "Peak physical fitness maintained",
+        "physical_decline": "Physical decline observed",
+        "strong_development": "Strong progression",
+        "struggled_development": "Development struggles"
       },
       "retirement": {
-        "earlyCareerEndingInjury": "Carrière brisée par une blessure",
-        "earlyInjurySupport": "Soutien reçu après une blessure",
+        "earlyCareerEndingInjury": "Career tragically cut short by injury",
+        "earlyInjurySupport": "Support received following career-ending injury",
         "future": {
-          "academy": "Travaille avec l'académie des jeunes",
-          "ambassador": "Rôle d'ambassadeur du club",
-          "coaching": "Poursuit une carrière d'entraîneur",
-          "outside_football": "Poursuit des intérêts hors football",
-          "punditry": "Devient consultant"
+          "academy": "Working with youth academy prospects",
+          "ambassador": "Serving as global club ambassador",
+          "coaching": "Pursuing a managerial coaching career",
+          "punditry": "Transitioning to television punditry",
+          "outside_football": "Pursuing interests outside of football"
         },
         "reason": {
-          "injury": "Retraite pour cause de blessure"
+          "injury": "Retirement forced by injury"
         },
-        "tooOld": "Retraite pour cause d'âge",
-        "tragicEarlyInjury": "Blessure tragique mettant fin prématurément à la carrière",
+        "tooOld": "Natural retirement due to age",
+        "tragicEarlyInjury": "Tragic injury ending promising career",
         "tribute": {
-          "defied_time": "A défié le temps par sa longévité",
-          "early_injury": "Carrière terminée par une blessure prématurée",
-          "great_injury": "Grande carrière brisée par une blessure",
-          "icon": "Retraite en tant qu'Icône du Football",
-          "journeyman": "Retraite après une carrière de baroudeur",
-          "legend": "Retraite en tant que Légende du Club",
-          "professional": "Retraite en tant que Vrai Professionnel",
-          "star": "Retraite en tant que Star du Football",
-          "unfortunate_end": "Fin de carrière malheureuse",
-          "very_early_injury": "Blessure très précoce mettant fin à la carrière"
+          "defied_time": "Defied time through incredible longevity",
+          "early_injury": "Career ended by untimely injury",
+          "great_injury": "Great career broken by persistent injury",
+          "icon": "Retiring as a Global Football Icon",
+          "journeyman": "Retiring after a well-traveled career",
+          "legend": "Retiring as a Club Legend",
+          "professional": "Retiring as a Consummate Professional",
+          "star": "Retiring as a World Football Star",
+          "unfortunate_end": "Unfortunate conclusion to a fine career",
+          "very_early_injury": "Very early injury ending career"
         }
       },
       "transfer": {
-        "agitation_1": "Montre des signes d'agitation",
-        "agitation_2": "De plus en plus mécontent au club",
-        "agitation_3": "Demande un transfert",
-        "historicRival": "RIVAL",
+        "agitation_1": "Shows early signs of restlessness",
+        "agitation_2": "Growing increasingly frustrated at the club",
+        "agitation_3": "Hands in official transfer request",
+        "warning_1": "Club issues initial warning",
+        "warning_2": "Club issues formal second warning",
+        "warning_3": "Final disciplinary warning from the club",
+        "historicRival": "HISTORIC RIVAL",
         "rival": "RIVAL",
-        "traitor": "TRAÎTRE",
-        "warning_1": "Le club a émis un premier avertissement",
-        "warning_2": "Le club a émis un deuxième avertissement",
-        "warning_3": "Dernier avertissement du club"
+        "traitor": "TRAITOR"
       },
       "trophy": {
-        "continental": "Vainqueur de la {competition} !",
-        "cup": "Vainqueur de la Coupe !",
-        "league": "Champion de Ligue avec {team} !",
-        "worldCup": "CHAMPION DU TOURNOI MONDIAL ! Une légende est née !"
+        "continental": "Winner of {competition}!",
+        "cup": "Domestic Cup Winner!",
+        "league": "League Champion with {team}!",
+        "worldCup": "WORLD TOURNAMENT CHAMPION! A legend is born!"
       },
       "viral": {
-        "celebration": "La célébration devient une sensation virale !",
-        "charity": "Travail caritatif reçoit éloges et admiration !",
-        "controversy": "Impliqué dans une controverse dominant les titres !",
-        "fashion": "Choix mode font des vagues sur les réseaux !",
-        "gaming": "Contenu gaming connecte avec le jeune public !",
-        "goal": "But incroyable devient viral avec {views}M de vues !",
+        "celebration": "Goal celebration goes viral across social media!",
+        "charity": "Charity initiative earns worldwide praise and admiration!",
+        "controversy": "Caught in controversy dominating sports headlines!",
+        "fashion": "Bold fashion choices cause stir on social media!",
+        "gaming": "Gaming stream connects with millions of young fans!",
+        "goal": "Wonder strike goes viral with {views}M views!",
         "interview": {
-          "negative": "Commentaires controversés déclenchent un vif débat !",
-          "positive": "Interview honnête séduit les fans !"
+          "negative": "Controversial post-match remarks spark heated debate!",
+          "positive": "Honest and heartfelt interview wins over fans!"
         },
-        "skill": "Geste technique époustouflant casse internet !"
+        "skill": "Sensational skill move breaks the internet!"
       },
       "youth": {
-        "loanRecommended": "Prêt recommandé pour le développement",
-        "promotedAfterExcellentSeason": "Promu après une excellente saison",
-        "promotedToFirstTeam": "Promu en Équipe Première",
-        "promotedToReserve": "Promu en Réserve",
-        "releasedToProfessional": "Libéré pour une carrière professionnelle"
+        "loanRecommended": "Loan spell recommended for development",
+        "promotedAfterExcellentSeason": "Promoted after a stellar youth campaign",
+        "promotedToFirstTeam": "Promoted to the Senior First Team",
+        "promotedToReserve": "Promoted to the Reserve Squad",
+        "releasedToProfessional": "Released to seek professional career"
       }
     }
   },
@@ -209,7 +209,11 @@
     "Engine": "Engine",
     "Leader": "Leader",
     "Playmaker": "Playmaker",
-    "Speed Demon": "Speed Demon"
+    "Speed Demon": "Speed Demon",
+    "aerialDominance": "Wins nearly every aerial duel through superior positioning and leap timing.",
+    "ballPlayingDefender": "Comfortable in possession and excels at initiating attacks from the defensive third.",
+    "ballWinner": "Aggressive and disciplined ball winner who breaks up opponent attacks effectively.",
+    "bigGamePlayer": "Steps up with decisive, heroic displays in cup finals and crucial title matches."
   },
   "expandedAttributes": {
     "agility": {
@@ -222,7 +226,7 @@
       "aerialControl": "Aerial Control",
       "firstTouchOrientated": "First Touch Orientated",
       "firstTouchUnderPressure": "First Touch Under Pressure",
-      "shielding": "Shielding",
+      "shielding": "Ball Shielding",
       "trapping": "Trapping"
     },
     "commanding": {
@@ -230,7 +234,7 @@
       "claimingCrosses": "Claiming Crosses",
       "commandOfArea": "Command Of Area",
       "communication": "Communication",
-      "punching": "Punching"
+      "punching": "Punching (GK)"
     },
     "defending": {
       "slidingTiming": "Sliding Timing",
@@ -238,9 +242,9 @@
     },
     "defensivePositioning": {
       "backtracking": "Backtracking",
-      "covering": "Covering",
+      "covering": "Defensive Covering",
       "defensiveAwareness": "Defensive Awareness",
-      "jockeying": "Jockeying",
+      "jockeying": "Jockeying / Containment",
       "positionRecovery": "Position Recovery"
     },
     "distribution": {
@@ -266,7 +270,7 @@
     },
     "finishing": {
       "finishingInsideBox": "Finishing Inside Box",
-      "finishingOnCounter": "Finishing On Counter",
+      "finishingOnCounter": "Counter-Attack Finishing",
       "finishingOutsideBox": "Finishing Outside Box",
       "finishingUnderPressure": "Finishing Under Pressure",
       "headedAccuracy": "Headed Accuracy",
@@ -316,13 +320,13 @@
       "composure": "Composure (GK)",
       "concentration": "Concentration (GK)",
       "decisionMaking": "Decision Making (GK)",
-      "handling": "Handling"
+      "handling": "GK Handling"
     },
     "passing": {
       "crossingFromByline": "Crossing From Byline",
       "crossingFromDeep": "Crossing From Deep",
       "curveEffect": "Curve Effect",
-      "firstTimeCrossing": "First Time Crossing",
+      "firstTimeCrossing": "First-Time Crossing",
       "lobPassAccuracy": "Lob Pass Accuracy",
       "longDiagonalPass": "Long Diagonal Pass",
       "shortPassingSupport": "Short Passing Support",
@@ -391,7 +395,7 @@
       "topSpeed": "Top Speed"
     },
     "strength": {
-      "balanceInContact": "Balance In Contact",
+      "balanceInContact": "Balance Under Contact",
       "bodyToBodyStrength": "Body to Body Strength",
       "legStrength": "Leg Strength",
       "upperBodyStrength": "Upper Body Strength"
@@ -736,6 +740,10 @@
     "titles": {
       "description": "Focus on winning trophies. Team expectations become more important.",
       "title": "Titles"
+    },
+    "ballplaying": {
+      "description": "Improve passing and distribution from the back",
+      "title": "Ball Playing"
     }
   },
   "squadStatus": {
@@ -1135,7 +1143,7 @@
       "name": "Wonderkid"
     },
     "acrobaticFinisher": {
-      "description": "Capable of scoring spectacular volleys, bicycle kicks, and acrobatic goals.",
+      "description": "Scores spectacular goals using volleys, bicycle kicks, and athletic scissor strikes.",
       "name": "Acrobatic Finisher"
     },
     "aerialDominance": {
@@ -1147,7 +1155,7 @@
       "name": "Aerial Threat"
     },
     "arguesWithOfficials": {
-      "description": "Frequently contests referee decisions, risking cards.",
+      "description": "Frequently challenges refereeing decisions, risking avoidable bookings.",
       "name": "Argues With Officials"
     },
     "avoidsUsingWeakerFoot": {
@@ -1163,7 +1171,7 @@
       "name": "Ball-Playing Defender"
     },
     "ballWinner": {
-      "description": "Aggressive tackler who breaks up opposition attacks.",
+      "description": "Aggressive and clean tackler who tirelessly disrupts opposition attacks and wins possession back.",
       "name": "Ball Winner"
     },
     "bigGamePlayer": {
@@ -1175,11 +1183,11 @@
       "name": "Box-to-Box"
     },
     "cautiousWithCrosses": {
-      "description": "Hesitant to come for crosses, preferring to stay on line.",
+      "description": "Hesitant to come for crosses, preferring to stay on the goal line.",
       "name": "Cautious With Crosses"
     },
     "chipShot": {
-      "description": "Master of the delicate dink over the goalkeeper in 1v1 situations.",
+      "description": "Masterfully dinks the ball over rushing goalkeepers with sublime touch.",
       "name": "Chip Shot"
     },
     "clinicalFinisher": {
@@ -1187,8 +1195,8 @@
       "name": "Clinical Finisher"
     },
     "comesForCrosses": {
-      "description": "Proactive in catching crosses before strikers can reach them.",
-      "name": "Claims Crosses"
+      "description": "Proactively commands the penalty box, claiming high crosses before attackers reach them.",
+      "name": "Comes For Crosses"
     },
     "commandOfArea": {
       "description": "Dominates the penalty box, claiming crosses and organizing the defense.",
@@ -1207,7 +1215,7 @@
       "name": "Crossing Specialist"
     },
     "deepLyingPlaymaker": {
-      "description": "Controls the tempo from deep positions with passing and vision.",
+      "description": "Orchestrates match tempo from deep areas with exquisite passing range and visionary awareness.",
       "name": "Deep-Lying Playmaker"
     },
     "discipline": {
@@ -1316,7 +1324,7 @@
     },
     "negative": "Negative",
     "noNonsenseDefender": {
-      "description": "Physical and aggressive defender who clears danger decisively.",
+      "description": "Physical and decisive defender who clears away danger without taking unnecessary risks.",
       "name": "No-Nonsense Defender"
     },
     "oneClubMan": {
@@ -1336,8 +1344,8 @@
       "name": "Trivela"
     },
     "penaltySaver": {
-      "description": "Expert at saving penalties with good anticipation and reactions.",
-      "name": "Penalty Saver"
+      "description": "Possesses incredible intuition and timing to deny penalty kicks.",
+      "name": "Penalty Specialist"
     },
     "pinpointCrossing": {
       "description": "Picks out attackers with laser-guided delivery from the wings.",
@@ -1352,7 +1360,7 @@
       "name": "Playmaker"
     },
     "poacher": {
-      "description": "Instinctive finisher who finds space in the box for tap-ins and rebounds.",
+      "description": "Instinctive penalty box finisher who thrives on tap-ins and loose rebounds.",
       "name": "Poacher"
     },
     "positioning": {
@@ -1360,11 +1368,11 @@
       "name": "Positioning"
     },
     "powerHeader": {
-      "description": "Dominates aerial duels and scores crucial headers from crosses and set pieces.",
+      "description": "Generates tremendous velocity and precision on attacking headers.",
       "name": "Power Header"
     },
     "powerHouse": {
-      "description": "Imposing physical presence that bullies opponents.",
+      "description": "Physical titan with explosive strength and stamina who dominates physical duels.",
       "name": "Powerhouse"
     },
     "powerShot": {
@@ -1396,7 +1404,7 @@
       "name": "Set-Piece Specialist"
     },
     "shotStopper": {
-      "description": "Exceptional reflexes and save-making ability.",
+      "description": "Sensational reflex goalkeeper specializing in point-blank saves on the line.",
       "name": "Shot Stopper"
     },
     "slideTackle": {
@@ -1420,7 +1428,7 @@
       "name": "Strength"
     },
     "sweeperKeeper": {
-      "description": "Comfortable rushing out to clear through balls and act as an extra defender.",
+      "description": "Comfortable rushing out to sweep up through balls and act as an extra defender.",
       "name": "Sweeper Keeper"
     },
     "tacklesBack": {
@@ -1428,7 +1436,7 @@
       "name": "Tracks Back"
     },
     "targetMan": {
-      "description": "Physical presence who holds up play and brings teammates into the attack.",
+      "description": "Dominant physical presence who holds up the ball and brings teammates into attack.",
       "name": "Target Man"
     },
     "teamPlayer": {
@@ -1470,6 +1478,138 @@
     "weakFoot": {
       "description": "Struggles when forced to use weaker foot.",
       "name": "Weak Foot"
+    },
+    "Box-to-Box": {
+      "description": "Covers every blade of grass, contributing to both defense and attack.",
+      "name": "Box-to-Box"
+    },
+    "Ball Winner": {
+      "description": "Aggressive and clean tackler who tirelessly disrupts opposition attacks and wins possession back.",
+      "name": "Ball Winner"
+    },
+    "Ball-Playing Defender": {
+      "description": "Comfortable on the ball and initiates attacks from the back.",
+      "name": "Ball-Playing Defender"
+    },
+    "Deep-Lying Playmaker": {
+      "description": "Orchestrates match tempo from deep areas with exquisite passing range and visionary awareness.",
+      "name": "Deep-Lying Playmaker"
+    },
+    "Crossing Specialist": {
+      "description": "Delivers dangerous crosses from wide areas with whip and pace.",
+      "name": "Crossing Specialist"
+    },
+    "Dribbling Wizard": {
+      "description": "Exceptional ball control and ability to weave through multiple defenders.",
+      "name": "Dribbling Wizard"
+    },
+    "Command of Area": {
+      "description": "Dominates the penalty box, claiming crosses and organizing the defense.",
+      "name": "Command of Area"
+    },
+    "Claims Crosses": {
+      "description": "Proactively commands the penalty box, claiming high crosses before attackers reach them.",
+      "name": "Comes For Crosses"
+    },
+    "Clinical Finisher": {
+      "description": "Excels in one-on-one situations and converts chances with precision.",
+      "name": "Clinical Finisher"
+    },
+    "Power Header": {
+      "description": "Generates tremendous velocity and precision on attacking headers.",
+      "name": "Power Header"
+    },
+    "Long Passer": {
+      "description": "Switches play and finds teammates with precise long-range distribution.",
+      "name": "Long Passer"
+    },
+    "Puncher": {
+      "description": "Prefers to punch crosses clear rather than catching.",
+      "name": "Puncher"
+    },
+    "Distance Shooter": {
+      "description": "Regularly attempts and converts long-range efforts.",
+      "name": "Distance Shooter"
+    },
+    "Speedster": {
+      "description": "Blistering pace allows him to beat defenders and exploit space behind the line.",
+      "name": "Speedster"
+    },
+    "Aerial Dominance": {
+      "description": "Wins almost every aerial duel with superior positioning and timing.",
+      "name": "Aerial Dominance"
+    },
+    "Dribbler": {
+      "description": "Exceptional ball control and ability to weave through multiple defenders.",
+      "name": "Dribbling Wizard"
+    },
+    "Playmaker": {
+      "description": "Orchestrates attacks with vision and passing range.",
+      "name": "Playmaker"
+    },
+    "Leader": {
+      "description": "Natural leader who organizes and motivates teammates.",
+      "name": "Leadership"
+    },
+    "Early Crosser": {
+      "description": "Picks out attackers with laser-guided delivery from the wings.",
+      "name": "Pinpoint Crossing"
+    },
+    "Long Ball Taker": {
+      "description": "Switches play and finds teammates with precise long-range distribution.",
+      "name": "Long Passer"
+    },
+    "One Club Player": {
+      "description": "Loyal legend who dedicated career to a single club.",
+      "name": "One-Club Man"
+    },
+    "Save With Feet": {
+      "description": "Sensational reflex goalkeeper specializing in point-blank saves on the line.",
+      "name": "Shot Stopper"
+    },
+    "Solid Player": {
+      "description": "Reliable and consistent performer week in, week out.",
+      "name": "Solid Player"
+    },
+    "Leadership": {
+      "description": "Natural leader who organizes and motivates teammates.",
+      "name": "Leadership"
+    },
+    "Engine": {
+      "description": "Tireless runner who never stops working for the team.",
+      "name": "Engine"
+    },
+    "Composure": {
+      "description": "Stays calm under pressure and makes better decisions in key moments.",
+      "name": "Composure"
+    },
+    "Consistency": {
+      "description": "Maintains a high level of performance match after match.",
+      "name": "Consistency"
+    },
+    "Flair": {
+      "description": "Naturally creative player who attempts the spectacular and entertains the crowd.",
+      "name": "Flair"
+    },
+    "Power Free-Kick": {
+      "name": "Power Free-Kick",
+      "description": "Capable of striking powerful long-range free kicks with pace."
+    },
+    "Swerves Shot": {
+      "name": "Swerved Shots",
+      "description": "Applies heavy bend and curl to shots with the outside or inside of the boot."
+    },
+    "Takes Powerful Driven Free Kicks": {
+      "name": "Powerful Driven Free Kicks",
+      "description": "Specializes in low, driven, powerful free kicks."
+    },
+    "Tries To Beat Offside Trap": {
+      "name": "Beats Offside Trap",
+      "description": "Constantly plays on the shoulder of the last defender to break in behind."
+    },
+    "Second Wind": {
+      "name": "Second Wind",
+      "description": "Regains a burst of energy late in the match when fatigue sets in."
     }
   },
   "traitStyles": {
@@ -1676,7 +1816,9 @@
     "orientalPlayoff": "Eastern Playoff",
     "recopaSudamericana": "South American Super Cup",
     "supercup": "Super Cup",
-    "worldCup": "World Tournament"
+    "worldCup": "World Tournament",
+    "afcChallengeCup": "Asian Challenge Cup",
+    "americasClassic": "Americas Classic"
   },
   "injury": {
     "oneMonth": "1 Month",
@@ -1731,5 +1873,11 @@
       "Visionary": "Visionary",
       "Pragmatic": "Pragmatic"
     }
-  }
+  },
+  "intensity": {
+    "extreme": "Extreme"
+  },
+  "intensityExtreme": "Extreme",
+  "winContinentalCup": "Win Continental Cup with {team}",
+  "winWorldCup": "Win World Tournament with {country}"
 }

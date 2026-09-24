@@ -341,7 +341,8 @@
       "concernYellow": "Preocupações disciplinares: cartões amarelos {count} nesta temporada.",
       "criticalRed": "Problemas disciplinares CRÍTICOS: cartões vermelhos {count} - devem melhorar!",
       "majorYellow": "Graves problemas disciplinares: cartões amarelos {count} nesta temporada.",
-      "seriousRed": "Graves problemas disciplinares: cartões vermelhos {count}!"
+      "seriousRed": "Graves problemas disciplinares: cartões vermelhos {count}!",
+      "title": "Disciplina"
     },
     "endorsement": {
       "signed": "Contrato de patrocínio assinado de {duration} anos com {brand} no valor de £ {value}M por ano!"
@@ -903,7 +904,9 @@
           "headline1": "{name} elogiado pelo tratamento dispensado aos fãs"
         },
         "ignore": {
-          "fan1": "Passou por nós como se fôssemos invisíveis..."
+          "fan1": "Passou por nós como se fôssemos invisíveis...",
+          "fan2": "A fama subiu à cabeça do garoto. Triste de ver.",
+          "headline1": "{name} ignora torcedores na saída e gera revolta na arquibancada"
         }
       },
       "manager_conversation": {
@@ -981,6 +984,17 @@
         "double_down": {
           "fan1": "Ele não está recuando!"
         }
+      },
+      "mentor_opportunity": {
+        "accept": {
+          "fan1": "Um verdadeiro espelho para a nossa base!",
+          "headline1": "{name} aceita apadrinhar as promessas da base",
+          "press1": "A experiência de {name} será fundamental para a formação dos jovens."
+        },
+        "decline": {
+          "fan1": "Só pensa em si mesmo...",
+          "headline1": "{name} recusa convite para orientar garotos da base"
+        }
       }
     },
     "relationship": {
@@ -1001,7 +1015,7 @@
           "1": "DE PARTIR O CORAÇÃO! Carreira interrompida por lesão de {name}.",
           "2": "O corpo disse o suficiente: {name} forçado a se aposentar devido a lesão.",
           "3": "Revés cruel: Lesão encerra prematuramente a carreira de {name}.",
-          "4": "Aconselhamento médico obriga {name} a pendurar as botas. O futebol está de luto.",
+          "4": "Aconselhamento médico obriga {name} a pendurar as chuteiras. O futebol está de luto.",
           "5": "Golpe devastador: a carreira de {name} termina devido a uma lesão persistente.",
           "6": "Corpo trai: {name} forçado a se aposentar antecipadamente.",
           "7": "Fim da ordem dos médicos: {name} deve se aposentar por motivos de saúde.",
@@ -1039,11 +1053,13 @@
             "thigh": "lesão na coxa",
             "muscle_strain": "estiramento muscular",
             "muscle": "lesão muscular"
-          }
+          },
+          "recovery_serious": "De volta após lesão grave - aliviado por estar de novo em campo.",
+          "recovery_normal": "Recuperado da lesão e pronto para atuar em forma máxima."
         },
         "natural": {
           "1": "{name} anuncia aposentadoria no momento perfeito. Uma carreira bem vivida.",
-          "2": "Fim de uma era: {name} pendura botas após cumprir carreira.",
+          "2": "Fim de uma era: {name} pendura as chuteiras após cumprir carreira.",
           "3": "Apito final: {name} encerra sua trajetória como jogador.",
           "4": "Capítulo encerra: {name} se aposenta do futebol profissional.",
           "5": "Pôr do sol: {name} encerra pacificamente a carreira de jogador.",
@@ -1077,7 +1093,7 @@
             "10": "Inalterado: {name} deixa o jogo ainda no nível elite!"
           },
           "trophy": {
-            "1": "CHOCANDO O MUNDO! {name} pendura as botas ainda no auge!",
+            "1": "CHOCANDO O MUNDO! {name} pendura as chuteiras ainda no auge!",
             "2": "Saindo por cima: {name} se aposenta imediatamente após conquistar o título!",
             "3": "O final perfeito? {name} se despede no cume!",
             "4": "Campeão até o fim: {name} sai de cabeça erguida após triunfo!",
@@ -1132,7 +1148,9 @@
           "18": "Não foi possível competir mais: {name} se aposenta com relutância.",
           "19": "Partida adiada: {name} finalmente aceita que a carreira acabou.",
           "20": "Rolagem de créditos: a história de {name} termina com capítulo desbotado."
-        }
+        },
+        "testimonialMatch": "{team} fará um jogo de despedida em homenagem à lenda {name}.",
+        "shirtRetired": "{team} anuncia planos de aposentar a camisa número {number} em homenagem à lenda do clube {name}."
       },
       "icon": "{name} anuncia aposentadoria após carreira notável. Partidas {matches}, gols {goals}, títulos principais {trophies}. Uma inspiração para muitos.",
       "journeyman": "{name} anuncia aposentadoria. {reason}. Fez aparições de {matches} em clubes {clubs}.",
@@ -1146,7 +1164,7 @@
           "3": "Fontes próximas a {name} sugerem um possível anúncio de aposentadoria.",
           "4": "As especulações aumentam sobre o futuro de {name} à medida que a carreira entra no crepúsculo.",
           "5": "Agente se recusa a negar rumores de aposentadoria envolvendo {name}.",
-          "6": "{name} supostamente discutindo arranjos de partida de homenagem.",
+          "6": "{name} estaria discutindo os preparativos para o seu jogo de despedida.",
           "7": "Armário vazio? {name} visto retirando itens pessoais do estádio.",
           "8": "Filosófico {name} fala sobre ‘vida depois do futebol’ em entrevista.",
           "9": "Contrato expirando, {name} supostamente não busca renovação.",
@@ -1330,7 +1348,8 @@
       "won": "Vencedores do {competition}!",
       "wonYouth": "Ganhou a Competição Juvenil!",
       "worldCup": "CAMPEÕES MUNDIAIS DO TORNEIO! Nasce uma lenda!",
-      "worldCupChampions": "{country} venceu o Torneio Mundial!"
+      "worldCupChampions": "{country} venceu o Torneio Mundial!",
+      "continentalQualification": "Classificação para {competition} assegurada com sucesso!"
     },
     "urgentDecision": "É necessária decisão urgente!",
     "viral": {
@@ -2166,6 +2185,105 @@
       "choice_2": "Discutir conceitos táticos em profundidade",
       "choice_3": "Agradecer e se oferecer para ser mentor de jovens da base",
       "choice_4": "Focar em aplicar as lições no próximo jogo"
+    },
+    "social": {
+      "title": "Críticas nas Redes Sociais",
+      "description": "Um comentarista de TV disse que você é 'superestimado' nas redes sociais. O assunto viralizou.",
+      "choice_ignore": "Deixar para lá",
+      "choice_respond": "Responder à altura"
+    },
+    "specialTraining": {
+      "title": "Rotina Especial de Treinos",
+      "description": "O treinador sugeriu um treino intensivo extra para lapidar seu jogo, mas será exaustivo.",
+      "choice_accept": "Aceitar a carga extra",
+      "choice_decline": "Manter a rotina normal"
+    },
+    "sponsor": {
+      "title": "Proposta de Patrocínio",
+      "description": "A {brand} ofereceu um contrato de patrocínio. Excelente dinheiro, mas exige compromissos de imagem.",
+      "choice_accept": "Assinar o contrato",
+      "choice_decline": "Recusar proposta",
+      "choice_negotiate": "Pedir mais dinheiro"
+    },
+    "rivalry_drama_6": {
+      "title": "Confronto de Rivalidade 6",
+      "description": "Tensões aumentam durante a preparação para o clássico com jogadores rivais.",
+      "choice_1": "Manter a compostura e responder em campo",
+      "choice_2": "Responder com firmeza para defender o orgulho do clube",
+      "choice_3": "Desarmar a tensão através da liderança",
+      "choice_4": "Usar a energia como motivação para treinos extras"
+    },
+    "veteran_mentorship_6": {
+      "title": "Sessão de Mentoria 6",
+      "description": "Um veterano experiente do elenco oferece conselhos sobre posicionamento e leitura de jogo.",
+      "choice_1": "Absorver os conselhos e praticar as técnicas",
+      "choice_2": "Discutir conceitos táticos em profundidade",
+      "choice_3": "Agradecer e se oferecer para ser mentor de jovens da base",
+      "choice_4": "Focar em aplicar as lições no próximo jogo"
+    },
+    "rivalry_drama_7": {
+      "title": "Confronto de Rivalidade 7",
+      "description": "Tensões aumentam durante a preparação para o clássico com jogadores rivais.",
+      "choice_1": "Manter a compostura e responder em campo",
+      "choice_2": "Responder com firmeza para defender o orgulho do clube",
+      "choice_3": "Desarmar a tensão através da liderança",
+      "choice_4": "Usar a energia como motivação para treinos extras"
+    },
+    "veteran_mentorship_7": {
+      "title": "Sessão de Mentoria 7",
+      "description": "Um veterano experiente do elenco oferece conselhos sobre posicionamento e leitura de jogo.",
+      "choice_1": "Absorver os conselhos e praticar as técnicas",
+      "choice_2": "Discutir conceitos táticos em profundidade",
+      "choice_3": "Agradecer e se oferecer para ser mentor de jovens da base",
+      "choice_4": "Focar em aplicar as lições no próximo jogo"
+    },
+    "rivalry_drama_8": {
+      "title": "Confronto de Rivalidade 8",
+      "description": "Tensões aumentam durante a preparação para o clássico com jogadores rivais.",
+      "choice_1": "Manter a compostura e responder em campo",
+      "choice_2": "Responder com firmeza para defender o orgulho do clube",
+      "choice_3": "Desarmar a tensão através da liderança",
+      "choice_4": "Usar a energia como motivação para treinos extras"
+    },
+    "veteran_mentorship_8": {
+      "title": "Sessão de Mentoria 8",
+      "description": "Um veterano experiente do elenco oferece conselhos sobre posicionamento e leitura de jogo.",
+      "choice_1": "Absorver os conselhos e praticar as técnicas",
+      "choice_2": "Discutir conceitos táticos em profundidade",
+      "choice_3": "Agradecer e se oferecer para ser mentor de jovens da base",
+      "choice_4": "Focar em aplicar as lições no próximo jogo"
+    },
+    "rivalry_drama_9": {
+      "title": "Confronto de Rivalidade 9",
+      "description": "Tensões aumentam durante a preparação para o clássico com jogadores rivais.",
+      "choice_1": "Manter a compostura e responder em campo",
+      "choice_2": "Responder com firmeza para defender o orgulho do clube",
+      "choice_3": "Desarmar a tensão através da liderança",
+      "choice_4": "Usar a energia como motivação para treinos extras"
+    },
+    "veteran_mentorship_9": {
+      "title": "Sessão de Mentoria 9",
+      "description": "Um veterano experiente do elenco oferece conselhos sobre posicionamento e leitura de jogo.",
+      "choice_1": "Absorver os conselhos e praticar as técnicas",
+      "choice_2": "Discutir conceitos táticos em profundidade",
+      "choice_3": "Agradecer e se oferecer para ser mentor de jovens da base",
+      "choice_4": "Focar em aplicar as lições no próximo jogo"
+    },
+    "rivalry_drama_10": {
+      "title": "Confronto de Rivalidade 10",
+      "description": "Tensões aumentam durante a preparação para o clássico com jogadores rivais.",
+      "choice_1": "Manter a compostura e responder em campo",
+      "choice_2": "Responder com firmeza para defender o orgulho do clube",
+      "choice_3": "Desarmar a tensão através da liderança",
+      "choice_4": "Usar a energia como motivação para treinos extras"
+    },
+    "veteran_mentorship_10": {
+      "title": "Sessão de Mentoria 10",
+      "description": "Um veterano experiente do elenco oferece conselhos sobre posicionamento e leitura de jogo.",
+      "choice_1": "Absorver os conselhos e praticar as técnicas",
+      "choice_2": "Discutir conceitos táticos em profundidade",
+      "choice_3": "Agradecer e se oferecer para ser mentor de jovens da base",
+      "choice_4": "Focar em aplicar as lições no próximo jogo"
     }
   },
   "media": {
@@ -2177,7 +2295,8 @@
       "goals": {
         "1": "A seca de gols continua: 5 jogos sem marcar.",
         "2": "Atacante atirando em branco: a confiança é o problema?",
-        "3": "Dez jogos, zero gols. Crise para o número 9."
+        "3": "Dez jogos, zero gols. Crise para o número 9.",
+        "completed": "Fim do jejum de gols!"
       }
     },
     "fan": {
@@ -2248,7 +2367,7 @@
     },
     "narrativeChange": {
       "Prodigy": "A narrativa da mídia muda para: 'Prodígio'",
-      "OntheRise": "A narrativa da mídia muda para: 'On the Rise'",
+      "OntheRise": "A narrativa da mídia muda para: 'Em ascensão'",
       "EstablishedStar": "A narrativa da mídia muda para: 'Estrela consolidada'",
       "UnderPressure": "A narrativa da mídia muda para: 'Sob pressão'",
       "Journeyman": "A narrativa da mídia muda para: 'Journeyman'",
@@ -2257,18 +2376,18 @@
       "VeteranRotation": "A narrativa da mídia muda para: 'Rotação de Veteranos'",
       "ForgottenMan": "A narrativa da mídia muda para: 'Homem Esquecido'",
       "Flop": "A narrativa da mídia muda para: 'Flop'",
-      "ComebackKid": "A narrativa da mídia muda para: 'Comeback Kid'",
+      "ComebackKid": "A narrativa da mídia muda para: 'O Renascido'",
       "CultHero": "A narrativa da mídia muda para: 'Herói do Culto'",
       "HometownHero": "A narrativa da mídia muda para: 'Herói da cidade natal'",
       "PolarizingFigure": "A narrativa da mídia muda para: 'Figura polarizadora'",
       "PressDarling": "A narrativa da mídia muda para: 'Queridinho da imprensa'",
-      "SystemPlayer": "A narrativa da mídia muda para: 'System Player'",
+      "SystemPlayer": "A narrativa da mídia muda para: 'Jogador de sistema'",
       "InjuryComeback": "A narrativa da mídia muda para: 'Retorno da lesão'"
     }
   },
   "mediaNarrative": {
     "ComebackKid": {
-      "name": "Garoto de volta",
+      "name": "O Renascido",
       "description": "Elogiado por desafiar as probabilidades para voltar à forma.",
       "quote1": "Como é estar de volta ao topo depois de tantas dúvidas?",
       "quote2": "Os fãs nunca deixaram de acreditar. O que o apoio deles significa para você?",
@@ -2282,7 +2401,7 @@
       "quote3": "O que faz com que este clube em particular seja um lar para você?"
     },
     "EstablishedStar": {
-      "name": "Estrela estabelecida",
+      "name": "Estrela consolidada",
       "description": "Reconhecido como um artista de elite no auge de seus poderes.",
       "quote1": "Como uma das principais estrelas da liga, quais são seus objetivos nesta temporada?",
       "quote2": "Muitos jovens jogadores admiram você. Como você lida com esse papel?",
@@ -2352,7 +2471,7 @@
       "quote3": "Qual é o seu foco principal ao iniciar esta carreira promissora?"
     },
     "SystemPlayer": {
-      "name": "Jogador do sistema",
+      "name": "Jogador de sistema",
       "description": "Restam dúvidas se ele conseguirá atuar fora desta configuração tática específica.",
       "quote1": "Você se encaixa perfeitamente neste sistema. Você está preocupado com outras táticas?",
       "quote2": "Alguns dizem que você só parece tão bom por causa da configuração. Reações?",
@@ -2491,6 +2610,11 @@
       },
       "settle": {
         "headline1": "Caso fiscal resolvido fora do tribunal"
+      },
+      "relationship_drama": {
+        "headline1": "Vida pessoal exposta: nova turbulência para {name}",
+        "press1": "A vida extracampo parece estar prejudicando o rendimento nas partidas.",
+        "press2": "A imprensa de fofocas não dá um minuto de sossego ao atleta."
       }
     },
     "transfer": {
@@ -2500,6 +2624,141 @@
       "warning_1": "Aviso de clube",
       "warning_2": "Aviso Final",
       "warning_3": "Ação Disciplinar"
+    },
+    "media": {
+      "interviews": {
+        "clashWithManager": {
+          "question": "Surgiram rumores de desentendimento com o treinador no CT. Como está o clima entre vocês?",
+          "answers": {
+            "apologetic": "Lamento o ocorrido de cabeça quente. Refleti sobre minha postura e sigo 100% focado no grupo.",
+            "defiant": "Falei o que precisava ser dito. Não abro mão dos meus princípios e exigências profissionais.",
+            "focused": "Temos objetivos grandes pela frente. Prefiro dar a resposta trabalhando dentro de campo."
+          }
+        },
+        "contractRenewal": {
+          "question": "Qual o sentimento após assinar essa renovação de contrato de longo prazo com o {team}?",
+          "answers": {
+            "ambitious": "Quero erguer troféus com esta camisa. A renovação prova que estamos no caminho certo.",
+            "grateful": "Agradeço a confiança enorme da diretoria e da torcida. O {team} é a minha casa.",
+            "loyal": "Não dei ouvidos a sondagens de fora. Meu coração sempre pertenceu ao {team}."
+          }
+        },
+        "derbyWin": {
+          "question": "Vitória épica em um clássico de arrepiar! Qual o gosto de vencer este duelo?",
+          "answers": {
+            "ecstatic": "Noite inesquecível! Sabemos a importância deste clássico para a torcida. A cidade é nossa!",
+            "humble": "Três pontos gigantescos, mas pés no chão. Grupo de parabéns, amanhã já pensamos na próxima.",
+            "passionate": "Clássico se vence na raça! Disputamos cada palmo de grama com sangue nos olhos."
+          }
+        },
+        "firstCallUp": {
+          "question": "Qual foi a sensação ao receber a notícia da sua primeira convocação para a Seleção Principal?",
+          "answers": {
+            "determined": "Não venho apenas a passeio. Vou mostrar meu valor e cravar meu espaço na Seleção.",
+            "emotional": "Um sonho de criança que se realiza. Passa um filme na cabeça de todas as dificuldades.",
+            "honored": "Vestir a amarelinha/camisa nacional é o maior orgulho da vida de um atleta. Estou pronto."
+          }
+        },
+        "firstProfessionalGoal": {
+          "question": "Parabéns pelo seu primeiro gol como profissional! O que passou pela cabeça na hora da rede balançar?",
+          "answers": {
+            "hungry": "Sensação indescritível, mas é só o pontapé inicial. Quero empilhar muitos gols.",
+            "joyful": "Felicidade pura! Sonhei com este instante milhares de vezes nas categorias de base.",
+            "teamFirst": "Feliz demais pelo gol, mas o mais gratificante foi garantir os três pontos para o time."
+          }
+        },
+        "futureAmbitions": {
+          "question": "Olhando para frente, quais são seus maiores sonhos e ambições na carreira?",
+          "answers": {
+            "legend": "Quero gravar meu nome na história do futebol mundial como um dos maiores de todos os tempos.",
+            "silverware": "Carreira de jogador se mede por taças. Meu objetivo é conquistar a liga e a Copa Continental.",
+            "stepByStep": "Foco no treino de amanhã e na minha evolução diária. O legado será consequência."
+          }
+        },
+        "goalDrought": {
+          "question": "Já são {count} partidas sem balançar as redes. A cobrança pelo jejum de gols incomoda?",
+          "answers": {
+            "confident": "Todo artilheiro passa por fases de jejum. Minha movimentação segue afiada e os gols vão sair.",
+            "frustrated": "É incômodo, claro, mas me avalio pela entrega tática e ajuda coletiva à equipe.",
+            "patient": "Zero desespero. Continuando a pisar na área com convicção, a bola volta a entrar."
+          }
+        },
+        "injuryComeback": {
+          "question": "Você está de volta aos gramados após uma longa e dolorosa fisioterapia. Como se sente fisicamente?",
+          "answers": {
+            "relieved": "Os dias mais sombrios da recuperação ficaram para trás. Ouvir a torcida arrepiou minha pele.",
+            "stronger": "Lesões forjam o caráter. Trabalhei em dobro e voltei mais forte física e mentalmente.",
+            "cautious": "Excelente somar minutos, agora é ir jogo a jogo para reencontrar o ritmo de jogo ideal."
+          }
+        },
+        "leagueTitleWin": {
+          "question": "Campeões da Liga! Após 38 rodadas exaustivas, a taça é de vocês. Qual o sabor dessa conquista?",
+          "answers": {
+            "triumphant": "É campeão! Mostramos em campo a regularidade de quem mereceu o título do início ao fim.",
+            "emotional": "Um ano inteiro de abdicações e suor recompensado nesta festa. Lágrimas de alegria.",
+            "hungryForMore": "Vamos comemorar hoje, mas esse time tem fome de hegemonia. Queremos o bi!"
+          }
+        },
+        "majorTrophyLoss": {
+          "question": "Uma derrota muito dolorosa na final. Como está o vestiário após o apito final?",
+          "answers": {
+            "devastated": "Difícil encontrar palavras. Bater na trave depois de tanta luta machuca demais a alma.",
+            "resilient": "A dor é grande, mas servirá de combustível para voltarmos ainda mais fortes no ano que vem.",
+            "proud": "Tristes pelo troféu perdido, mas de cabeça erguida pela entrega e honra com que lutamos."
+          }
+        },
+        "postMatch": {
+          "question": "Apito final. Qual a sua análise imediata do desempenho da equipe hoje?",
+          "answers": {
+            "satisfied": "Cumprimos à risca o plano tático do professor. Vitória maiúscula e merecida.",
+            "critical": "Somamos os três pontos, mas temos que jogar mais bola. Há detalhes para consertar.",
+            "drained": "Batalha duríssima do primeiro ao último minuto. Vencemos na superação e no coração."
+          }
+        },
+        "retirementAnnouncement": {
+          "question": "Você anunciou oficialmente sua aposentadoria dos gramados. Qual sentimento transborda agora?",
+          "answers": {
+            "peaceful": "Saio de cabeça erguida, dever cumprido e zero arrependimentos. O corpo pede descanso.",
+            "nostalgic": "Da várzea e campos de terra até os maiores palcos do planeta... foi uma jornada mágica.",
+            "grateful": "Gratidão eterna a cada treinador, companheiro e torcedor que esteve comigo nessa estrada."
+          }
+        },
+        "teammateFallingOut": {
+          "question": "Notícias apontam um clima tenso entre você e o companheiro {player}. O vestiário está rachado?",
+          "answers": {
+            "dismissive": "Conversa fiada de quem quer plantar crise. Vestiário de futebol competitivo tem cobranças normais.",
+            "united": "Somos homens profissionais remando para o mesmo lado. O vestiário está mais fechado do que nunca.",
+            "honest": "Discordamos em um lance de jogo, conversamos francamente no vestiário e o assunto morreu ali."
+          }
+        },
+        "transferRumours": {
+          "question": "A imprensa europeia não para de especular sua saída milionária. Seu futuro já está decidido?",
+          "answers": {
+            "focused": "Minha cabeça está 100% no {team}. Negociações quem cuida é o clube e meu empresário.",
+            "open": "No futebol as coisas mudam rápido. Tenho ambições na carreira, mas respeito meu contrato.",
+            "committed": "Tenho compromisso firmado com o {team}. Não acreditem em tudo que sai nas colunas de fofoca."
+          }
+        },
+        "worldCupWin": {
+          "question": "Campeões do Mundo! Vocês alcançaram o Olimpo do futebol mundial. Consegue descrever a emoção?",
+          "answers": {
+            "immortal": "Somos Campeões do Mundo! Nossos nomes estão eternizados na história da nossa nação!",
+            "surreal": "Erguer a taça da Copa do Mundo parece um sonho acordado. Ainda não caiu a ficha da nossa grandeza.",
+            "patriotic": "Essa taça é de cada trabalhador do nosso país. Jogamos por eles e trouxemos o troféu para casa!"
+          }
+        }
+      }
+    },
+    "nightclub_incident": {
+      "apologize": {
+        "headline1": "{name} pede desculpas publicamente após incidente em boate",
+        "press1": "Um primeiro passo para se redimir, mas a imagem do atleta foi arranhada."
+      },
+      "blame": {
+        "fan1": "Típico, a culpa é sempre dos outros...",
+        "headline1": "{name} transfere a culpa para terceiros após confusão em casa noturna",
+        "press1": "Essa justificativa dificilmente vai convencer a torcida."
+      }
     }
   },
   "retirement": {
@@ -2653,7 +2912,7 @@
     "veteranComments": {
       "experience": "Você pode ver a influência dele em campo. Liderança pura.",
       "legend": "Lenda absoluta. Experiência é algo que você não pode comprar.",
-      "retire": "Talvez seja hora de pendurar as botas... depois do auge.",
+      "retire": "Talvez seja hora de pendurar as chuteiras... depois do auge.",
       "stillGotIt": "{age} e ainda mostrando aos mais novos como se faz!"
     },
     "injuryComments": {
@@ -2761,5 +3020,15 @@
   "firstYouthAssist": "Primeira Assistência na Base",
   "firstProGoal": "Primeiro Gol Profissional",
   "firstProAssist": "Primeira Assistência Profissional",
-  "intlDebut": "Estreia Internacional"
+  "intlDebut": "Estreia Internacional",
+  "youthAcademy": {
+    "promoted": "Promovido das categorias de base para a equipe principal!",
+    "released": "Dispensado das categorias de base após não conseguir promoção ao time principal.",
+    "staying": "Permanecendo nas categorias de base por mais uma temporada para aprimorar o futebol."
+  },
+  "competition": {
+    "americasDerby": "Superclássico das Américas"
+  },
+  "decisionMade": "Decisão tomada",
+  "urgentDecision": "É necessária decisão urgente!"
 }

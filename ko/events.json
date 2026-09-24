@@ -23,7 +23,10 @@
     "reachCareerAssists": "경력 지원 이정표에 도달",
     "reachCareerGoals": "경력 목표 달성",
     "reachOverallRating": "OVR 목표 달성",
-    "winWorldCup": "월드 토너먼트에서 우승하세요"
+    "winWorldCup": "월드 토너먼트에서 우승하세요",
+    "spendDecade": "{team}에서 10년 보내기",
+    "topTierLeague": "엘리트 리그에서 뛰기",
+    "winContinentalCup": "{team}와 함께 대륙컵 우승하기"
   },
   "agent": {
     "contractExpired": "에이전트와의 계약이 만료되었습니다. {name}({reputation})로 서명하셨습니다.",
@@ -53,12 +56,12 @@
       "balanced": "균형 잡힌",
       "contract": "계약",
       "sponsorship": "후원",
-      "transfer": "환승",
+      "transfer": "이적",
       "Brand Builder": "브랜드 빌더",
       "Mastermind": "마스터마인드"
     },
     "style": {
-      "Adaptable": "적응할 수 있는",
+      "Adaptable": "적응력",
       "Aggressive": "공격적인",
       "Ambitious": "거창한",
       "Analytical": "분석적",
@@ -101,7 +104,7 @@
     "trainingLight": "훈련 강도 감소"
   },
   "status": {
-    "managerConflict": "관리자 갈등",
+    "managerConflict": "감독 갈등",
     "teammateConflict": "팀원 갈등"
   },
   "events": {
@@ -139,19 +142,19 @@
       "ballonDorRunnerUp": "상위 3위 - 황금 트로피",
       "comeback": "올해의 컴백",
       "comebackPlayerOfYear": "올해의 복귀 선수",
-      "continentalCompTopScorer": "대륙 골든 부츠",
+      "continentalCompTopScorer": "대륙 골든부트 (득점왕)",
       "continentalCompetitionTopScorer": "대륙 최고 득점자",
       "continentalCupPOTY": "MVP - 컨티넨탈 컵",
       "continentalPOTY": "대륙 올해의 선수",
       "continentalPlayer": "컨티넨탈 플레이어",
       "continentalTOTT": "토너먼트 팀 - 콘티넨탈",
-      "cupGoldenBootShared": "{goals} 목표를 달성한 공유 컵 골든 부츠!",
-      "cupTopScorer": "컵 골든 부츠",
-      "europeanGoldenShoe": "유럽 ​​골든슈",
+      "cupGoldenBootShared": "{goals} 목표를 달성한 공유 컵 대회 골든부트 (득점왕)!",
+      "cupTopScorer": "컵 대회 골든부트 (득점왕)",
+      "europeanGoldenShoe": "유럽 골든슈",
       "fifaBest": "세계 최고",
       "goalOfTheYear": "올해의 목표",
-      "goldenBoot": "리그 골든 부츠",
-      "goldenBootShared": "{goals} 목표를 가진 공유 리그 골든 부츠!",
+      "goldenBoot": "리그 골든부트 (득점왕)",
+      "goldenBootShared": "{goals} 목표를 가진 공유 리그 골든부트 (득점왕)!",
       "goldenBoy": "올해의 젊은 선수",
       "goldenGlove": "최고의 골키퍼",
       "goldenShoe": "골든 슈",
@@ -170,7 +173,7 @@
       "title": "상",
       "worldCupBestGoalkeeper": "골든 글러브 - 월드 토너먼트",
       "worldCupGoldenBall": "골든 트로피 - 월드 토너먼트",
-      "worldCupGoldenBoot": "골든 부츠 - 월드 토너먼트",
+      "worldCupGoldenBoot": "골든부트 - 월드 토너먼트",
       "worldCupTOTT": "토너먼트 팀 - 월드 토너먼트",
       "worldPlayer": "세계 최고"
     },
@@ -210,7 +213,7 @@
       "exposure": "노출",
       "fans": "팬과의 관계",
       "followers": "추종자",
-      "form": "형태",
+      "form": "폼",
       "generosity": "관대",
       "loyalty": "충의",
       "morale": "사기",
@@ -236,7 +239,8 @@
       "concernYellow": "징계 문제: 이번 시즌 {count} 옐로카드.",
       "criticalRed": "심각한 징계 문제: {count} 레드 카드 - 개선해야 합니다!",
       "majorYellow": "심각한 징계 문제: 이번 시즌 {count} 옐로카드.",
-      "seriousRed": "심각한 징계 문제: {count} 레드 카드!"
+      "seriousRed": "심각한 징계 문제: {count} 레드 카드!",
+      "title": "규율"
     },
     "endorsement": {
       "signed": "연간 £{value}M 상당의 {brand}와 {duration}년 보증 계약을 체결했습니다!"
@@ -351,12 +355,12 @@
       "relegated": "{team}가 하위 리그로 강등되었습니다."
     },
     "loan": {
-      "becamePermanent": "{team}에서 대출이 영구화되었습니다(모클럽 이용 불가).",
-      "clubSeekingMove": "클럽은 지속적인 경력 개발을 위해 적극적으로 대출을 모색하고 있습니다.",
-      "opportunitiesAvailable": "정규 축구를 보장하기 위해 {count} 대출 기회가 제공됩니다.",
-      "returnedToClub": "대출 주문 후 {team}로 돌아왔습니다.",
+      "becamePermanent": "{team}에서 임대가 영구화되었습니다(모클럽 이용 불가).",
+      "clubSeekingMove": "클럽은 지속적인 경력 개발을 위해 적극적으로 임대를 모색하고 있습니다.",
+      "opportunitiesAvailable": "정규 축구를 보장하기 위해 {count} 임대 기회가 제공됩니다.",
+      "returnedToClub": "임대 주문 후 {team}로 돌아왔습니다.",
       "returnedToSenior": "임대 후 {team} 시니어 스쿼드로 복귀했습니다.",
-      "spellEnded": "{loanTeam}의 대출 주문이 종료되었습니다. {parentTeam}로 돌아갑니다."
+      "spellEnded": "{loanTeam}의 임대 주문이 종료되었습니다. {parentTeam}로 돌아갑니다."
     },
     "manager": {
       "choice_accept": "비판을 받아들이다",
@@ -370,10 +374,10 @@
       "choice_chances": "더 많은 기회를 요청하세요",
       "choice_commitment": "팀에 대한 헌신을 보여라",
       "description": "매니저는 팀에서 당신의 역할에 대해 이야기하고 싶어합니다. 플레이 시간에 영향을 줄 수 있습니다.",
-      "title": "관리자 대화"
+      "title": "감독 대화"
     },
     "match": {
-      "title": "성냥"
+      "title": "경기"
     },
     "media": {
       "narrativeChange": "미디어 설명이 '{narrative}'로 변경됩니다.",
@@ -482,7 +486,7 @@
       },
       "lazy": {
         "criticism": "매니저는 기자회견 중 훈련 태도를 비판했다.",
-        "fallout": "직업 윤리 문제로 인해 관리자와의 관계가 악화됩니다.",
+        "fallout": "직업 윤리 문제로 인해 감독과의 관계가 악화됩니다.",
         "late": "훈련에 반복적으로 지각하면 클럽에서 벌금을 부과합니다."
       },
       "loyal": {
@@ -499,7 +503,7 @@
       "professional": {
         "award": "코칭 스태프에 의해 올해의 클럽 전문가로 선정되었습니다.",
         "contract": "모범적인 전문성으로 인해 계약 연장을 열망하는 클럽입니다.",
-        "praise": "탁월한 전문성과 업무 윤리로 인해 관리자로부터 칭찬을 받았습니다.",
+        "praise": "탁월한 전문성과 업무 윤리로 인해 감독으로부터 칭찬을 받았습니다.",
         "roleModel": "팀원들은 그를 완벽한 롤모델로 꼽습니다.",
         "training": "전체 선수단의 존경을 받는 추가 훈련 세션입니다."
       },
@@ -633,7 +637,9 @@
           "headline1": "{name}는 팬들을 위한 대우에 칭찬을 받았습니다"
         },
         "ignore": {
-          "fan1": "마치 투명인간처럼 우리를 지나쳐가더군요..."
+          "fan1": "마치 투명인간처럼 우리를 지나쳐가더군요...",
+          "fan2": "인기를 얻더니 거만해졌군요. 실망스럽습니다.",
+          "headline1": "{name}, 팬들의 사인을 무시하고 지나쳐 거센 비판 직면"
         }
       },
       "manager_conversation": {
@@ -657,8 +663,8 @@
         "transfer": {
           "fan1": "가지 마세요! 제발 가지 마세요!",
           "fan2": "매니저가 그를 어떻게 활용해야 할지 모른다면, 그냥 가는 것이 낫습니다...",
-          "headline1": "폭탄! {name}는 관리자와 행을 마치고 떠나라고 요청합니다.",
-          "headline2": "{name}와 관리자의 관계를 유지할 수 없습니다."
+          "headline1": "폭탄! {name}는 감독과 행을 마치고 떠나라고 요청합니다.",
+          "headline2": "{name}와 감독의 관계를 유지할 수 없습니다."
         }
       },
       "party_scandal": {
@@ -711,6 +717,17 @@
         "double_down": {
           "fan1": "물러서지 않네!"
         }
+      },
+      "mentor_opportunity": {
+        "accept": {
+          "fan1": "우리 아카데미 유망주들에게 최고의 롤모델!",
+          "headline1": "{name}, 아카데미 유망주 멘토링 맡는다",
+          "press1": "{name}의 경험은 유스 육성에 큰 자산이 될 것입니다."
+        },
+        "decline": {
+          "fan1": "자기 자신만 생각하는군...",
+          "headline1": "{name}, 유스 아카데미 멘토링 요청 고사"
+        }
       }
     },
     "relationship": {
@@ -731,7 +748,7 @@
           "1": "마음이 아프네요! {name}의 부상으로 경력이 단축되었습니다.",
           "2": "신체는 충분히 말했습니다: {name}가 부상으로 인해 은퇴하게 되었습니다.",
           "3": "잔혹한 좌절: 부상으로 인해 {name}의 경력이 조기 종료되었습니다.",
-          "4": "의학적 조언으로 인해 {name}는 부츠를 걸어야 합니다. 축구는 애도한다.",
+          "4": "의학적 조언으로 인해 {name}는 축구화를 벗어야 합니다. 축구는 애도한다.",
           "5": "엄청난 타격: {name}의 지속적인 부상으로 선수 생활이 종료되었습니다.",
           "6": "신체 배신: {name}가 조기 퇴직을 강요당했습니다.",
           "7": "의사 지시 종료: {name}는 건강을 위해 은퇴해야 합니다.",
@@ -775,7 +792,7 @@
         },
         "natural": {
           "1": "{name}가 완벽한 순간에 은퇴를 선언했습니다. 경력은 잘 살았습니다.",
-          "2": "시대의 끝: {name}는 경력을 쌓은 후 부츠를 끊습니다.",
+          "2": "시대의 끝: {name}는 경력을 쌓은 후 축구화를 벗고 은퇴를 선언합니다.",
           "3": "종료 휘슬: {name}가 경기일에 시간을 알립니다.",
           "4": "챕터 종료: {name}가 프로 축구에서 은퇴합니다.",
           "5": "일몰: {name}가 평화롭게 선수 생활을 마감합니다.",
@@ -783,7 +800,7 @@
           "7": "완벽한 작별: {name}가 고개를 숙이고 은퇴합니다.",
           "8": "적절한 시기: {name}는 은퇴할 순간이 왔다는 것을 알고 있습니다.",
           "9": "완전한 경력: {name}는 증명할 것이 아무것도 남지 않은 채 은퇴합니다.",
-          "10": "임무 완수: {name}가 만족스러운 부츠를 끊습니다.",
+          "10": "임무 완수: {name}가 만족스러운 축구화를 벗고 은퇴를 선언합니다.",
           "11": "빈 사물함: {name}가 축구에 작별을 고합니다.",
           "12": "감사의 퇴장: {name}는 축구에 감사를 표하고 은퇴합니다.",
           "13": "작업 완료: {name}가 경력 목표를 달성한 후 은퇴합니다.",
@@ -809,7 +826,7 @@
             "10": "Undiminished: {name}는 게임을 여전히 엘리트 수준으로 유지합니다!"
           },
           "trophy": {
-            "1": "세계를 놀라게 하다! {name}는 여전히 정점에 있는 동안 부츠를 끊습니다!",
+            "1": "세계를 놀라게 하다! {name}는 여전히 정점에 있는 동안 축구화를 벗고 은퇴를 선언합니다!",
             "2": "정상에 오르다: {name}는 타이틀 획득 후 즉시 은퇴합니다!",
             "3": "완벽한 결말? {name}가 정상에서 작별 인사를 합니다!",
             "4": "끝까지 챔피언: {name}가 승리 후 머리를 높이 들고 떠납니다!",
@@ -854,7 +871,7 @@
           "8": "마침내 다리가 나갔습니다. {name}가 은퇴를 발표했습니다.",
           "9": "빈 탱크: {name}는 따라잡기 위해 고군분투한 후 은퇴합니다.",
           "10": "영웅에서 고군분투로: {name}는 힘든 시기를 보낸 후 은퇴합니다.",
-          "11": "지연된 종료: {name}는 압력을 가한 후 마침내 부츠를 끊습니다.",
+          "11": "지연된 종료: {name}는 압력을 가한 후 마침내 축구화를 벗고 은퇴를 선언합니다.",
           "12": "시간 따라잡기: {name}는 시간이 이긴 후 은퇴합니다.",
           "13": "에너지 고갈: {name}는 지친 여정 끝에 경력을 종료합니다.",
           "14": "마지막 인사: {name}는 팬들이 종료 기한이 지났는지 질문한 후 떠납니다.",
@@ -864,11 +881,13 @@
           "18": "더 이상 경쟁할 수 없음: {name}가 마지못해 은퇴합니다.",
           "19": "경기 연기: {name}가 마침내 경력이 끝났음을 받아들입니다.",
           "20": "크레딧 롤: {name}의 스토리는 희미한 장으로 끝납니다."
-        }
+        },
+        "testimonialMatch": "{team}는 고별 은퇴 경기를 열어 레전드 {name}의 헌신을 기릴 예정입니다.",
+        "shirtRetired": "{team}은(는) 클럽의 레전드 {name}을(를) 기리기 위해 등번호 {number}번을 영구 결번으로 지정할 계획을 발표했습니다."
       },
       "icon": "{name}는 놀라운 경력을 쌓은 후 은퇴를 발표합니다. {matches} 경기, {goals} 목표, {trophies} 주요 타이틀. 많은 사람들에게 영감을 줍니다.",
       "journeyman": "{name}가 은퇴를 발표했습니다. {reason}. {clubs} 클럽 전반에 걸쳐 {matches}가 등장했습니다.",
-      "legend": "레전드가 은퇴합니다! {name}는 한 세대에 영감을 준 특별한 경력을 쌓은 후 부츠를 끊습니다. {awards} 개인상, {trophies} 트로피. 진정한 축구 아이콘.",
+      "legend": "레전드가 은퇴합니다! {name}는 한 세대에 영감을 준 특별한 경력을 쌓은 후 축구화를 벗고 은퇴를 선언합니다. {awards} 개인상, {trophies} 트로피. 진정한 축구 아이콘.",
       "oneClubLegend": "원클럽의 전설. 현대 축구에서는 이런 충성심이 드물다.",
       "professional": "{name}는 {matches} 프로 경기 후 경력을 종료합니다. {reason}. 탄탄한 경력을 자랑스럽게 생각합니다.",
       "rumors": {
@@ -878,7 +897,7 @@
           "3": "{name}에 가까운 소스는 은퇴 발표 가능성을 암시합니다.",
           "4": "경력이 황혼에 접어들면서 {name}의 미래에 대한 추측이 커지고 있습니다.",
           "5": "에이전트는 {name}와 관련된 은퇴 소문을 부인하지 않습니다.",
-          "6": "{name}가 평가전 준비를 논의하고 있는 것으로 알려졌습니다.",
+          "6": "{name}가 은퇴 기념 경기(고별전) 개최를 논의하고 있는 것으로 알려졌습니다.",
           "7": "빈 사물함? {name}가 경기장에서 개인 물품을 치우는 모습.",
           "8": "철학적인 {name}는 인터뷰에서 '축구 이후의 삶'을 이야기합니다.",
           "9": "계약 만료, {name}는 갱신을 원하지 않는 것으로 알려졌습니다.",
@@ -937,7 +956,7 @@
       "outstandingGoals": "{goals} 골을 넣은 뛰어난 시즌!",
       "phenomenal": "경이롭다! {goals}G + {assists}A = {total} 골 기여도 - 전설적!",
       "playmakerMasterclass": "플레이메이커 마스터클래스! {assists} 지원 - 창의성이 의인화되었습니다!",
-      "spectacularGolacos": "멋진 계절! {count} 스크리머 - 올해의 목표 후보로 선정되었습니다!",
+      "spectacularGolacos": "멋진 시즌! {count} 스크리머 - 올해의 목표 후보로 선정되었습니다!",
       "strongContributions": "성수기! {goals}G + {assists}A = {total} 목표 기여도.",
       "wonderGoals": "멋진 전진! 이번 시즌 {count} 놀라운 목표!",
       "worldClassGoals": "세계적 수준! {goals} 목표 - 놀라운 캠페인입니다!"
@@ -949,7 +968,10 @@
       "moderate": "보통의"
     },
     "social": {
-      "title": "소셜"
+      "title": "SNS상의 비판",
+      "description": "한 축구 해설가가 SNS에서 당신을 '심각하게 거품이 낀 선수'라고 깎아내려 화제가 되고 있습니다.",
+      "choice_ignore": "가볍게 무시하기",
+      "choice_respond": "강하게 맞받아치기"
     },
     "stat": {
       "clinicalConversion": "임상 마무리! {rate}%의 전환율.",
@@ -993,7 +1015,7 @@
       "choice_balanced": "균형 잡힌 접근 방식",
       "choice_extra": "매일 추가 세션",
       "choice_rest": "휴식을 우선시하라",
-      "description": "The manager is offering optional extra training sessions. 얼마나 많은 노력을 기울이고 싶나요?",
+      "description": "감독이 선택적인 추가 훈련 세션을 제안합니다. 얼마나 많은 노력을 기울이고 싶나요?",
       "title": "훈련 결정"
     },
     "trait": {
@@ -1019,7 +1041,7 @@
       "ambitiousWantsMove": "야심찬 성격은 최고 수준에서 경쟁하려는 욕구를 불러일으킵니다. 더 큰 클럽으로 이적하기를 원합니다.",
       "crisis": "위기! {seasons} 시즌을 최소한의 플레이 시간으로 마친 후, 클럽과의 관계는 돌이킬 수 없을 정도로 악화되었습니다. 이적은 불가피합니다.",
       "historicRival": "역사적인 라이벌",
-      "loanConversion": "대출 후 {team}에 의해 영구적으로 서명되었습니다. 수수료: £{fee}M",
+      "loanConversion": "임대 후 {team}에 의해 영구적으로 서명되었습니다. 수수료: £{fee}M",
       "loaned": "{duration} 시즌을 위해 {team}에 임대되었습니다.",
       "loyalQuestioningFuture": "충성심에도 불구하고 기회가 부족하여 클럽의 미래에 대해 의문을 갖기 시작했습니다.",
       "playerRequestedMove": "플레이어가 공개적으로 이적을 요청했습니다! 아무런 움직임 없이 한 시즌을 보낸 후, 클럽은 그의 퇴장을 협상해야 했습니다.",
@@ -1029,7 +1051,7 @@
       "rivalMove": "품 역사적인 이적! 최대 라이벌인 {toTeam}로 {fromTeam}를 교체했습니다! 팬들은 분노하고 있습니다!",
       "signedFreeAgent": "무료 이체로 {team}로 서명했습니다.",
       "temperamentalOutburst": "변덕스러운 폭발! 훈련장 사고 발생 후 즉시 이송을 요구했습니다.",
-      "title": "옮기다",
+      "title": "이적",
       "traitor": "배신자",
       "transferred": "€{fee}M을 위해 {team}로 이체되었습니다.",
       "homecoming": {
@@ -1065,7 +1087,8 @@
       "won": "{competition} 우승자!",
       "wonYouth": "청소년 대회 우승!",
       "worldCup": "세계 토너먼트 챔피언! 전설이 탄생했습니다!",
-      "worldCupChampions": "{country}가 월드 토너먼트에서 우승했습니다!"
+      "worldCupChampions": "{country}가 월드 토너먼트에서 우승했습니다!",
+      "continentalQualification": "{competition} 진출권을 성공적으로 확보했습니다!"
     },
     "urgentDecision": "긴급한 결정이 필요합니다!",
     "viral": {
@@ -1103,7 +1126,7 @@
     },
     "documentary": {
       "title": "다큐멘터리 제안",
-      "description": "스트리밍 플랫폼에서는 귀하의 경력에 ​​대한 비하인드 스토리 다큐멘터리를 위해 카메라를 들고 귀하를 따라가고 싶어합니다. 귀하의 브랜드를 대폭 강화할 수 있습니다.",
+      "description": "스트리밍 플랫폼에서는 귀하의 경력에 대한 비하인드 스토리 다큐멘터리를 위해 카메라를 들고 귀하를 따라가고 싶어합니다. 귀하의 브랜드를 대폭 강화할 수 있습니다.",
       "choice_accept": "전체 액세스 권한, 숨길 것이 없음",
       "choice_limited": "제한된 접근만 가능",
       "choice_decline": "카메라는 안돼요"
@@ -1268,804 +1291,897 @@
       "choice_home": "다음 경기를 위해 인사 후 귀가하여 휴식한다"
     },
     "press_conference_var_1": {
-      "title": "Press Conference: TACTICAL SYSTEM INQUIRY",
-      "description": "Journalists present questions regarding your team's tactical system inquiry.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "기자회견: 전술 시스템 점검",
+      "description": "미디어룸의 기자들이 최근 팀의 상황과 당신의 컨디션에 대해 집요하게 질문합니다.",
+      "choice_1": "전술적인 관점에서 차분하고 논리정연하게 답변하기",
+      "choice_2": "선수로서의 책임감과 프로다운 훈련 태도 강조하기",
+      "choice_3": "당당하고 패기 넘치는 발언으로 언론의 편견에 맞서기",
+      "choice_4": "원론적인 외교적 수사로 신중하고 짧게 답변하기"
     },
     "press_conference_var_2": {
-      "title": "Press Conference: MID-SEASON FORM REVIEW",
-      "description": "Journalists present questions regarding your team's mid-season form review.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "기자회견: 시즌 중반 컨디션 평가",
+      "description": "미디어룸의 기자들이 최근 팀의 상황과 당신의 컨디션에 대해 집요하게 질문합니다.",
+      "choice_1": "전술적인 관점에서 차분하고 논리정연하게 답변하기",
+      "choice_2": "선수로서의 책임감과 프로다운 훈련 태도 강조하기",
+      "choice_3": "당당하고 패기 넘치는 발언으로 언론의 편견에 맞서기",
+      "choice_4": "원론적인 외교적 수사로 신중하고 짧게 답변하기"
     },
     "press_conference_var_3": {
-      "title": "Press Conference: CONTINENTAL COMPETITION EXPECTATIONS",
-      "description": "Journalists present questions regarding your team's continental competition expectations.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "기자회견: 대륙 대항전 목표",
+      "description": "미디어룸의 기자들이 최근 팀의 상황과 당신의 컨디션에 대해 집요하게 질문합니다.",
+      "choice_1": "전술적인 관점에서 차분하고 논리정연하게 답변하기",
+      "choice_2": "선수로서의 책임감과 프로다운 훈련 태도 강조하기",
+      "choice_3": "당당하고 패기 넘치는 발언으로 언론의 편견에 맞서기",
+      "choice_4": "원론적인 외교적 수사로 신중하고 짧게 답변하기"
     },
     "press_conference_var_4": {
-      "title": "Press Conference: SQUAD ROTATION DEBATE",
-      "description": "Journalists present questions regarding your team's squad rotation debate.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "기자회견: 스쿼드 로테이션 논쟁",
+      "description": "미디어룸의 기자들이 최근 팀의 상황과 당신의 컨디션에 대해 집요하게 질문합니다.",
+      "choice_1": "전술적인 관점에서 차분하고 논리정연하게 답변하기",
+      "choice_2": "선수로서의 책임감과 프로다운 훈련 태도 강조하기",
+      "choice_3": "당당하고 패기 넘치는 발언으로 언론의 편견에 맞서기",
+      "choice_4": "원론적인 외교적 수사로 신중하고 짧게 답변하기"
     },
     "press_conference_var_5": {
-      "title": "Press Conference: YOUNG TALENT INTEGRATION",
-      "description": "Journalists present questions regarding your team's young talent integration.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "기자회견: 유망주 선수 기용",
+      "description": "미디어룸의 기자들이 최근 팀의 상황과 당신의 컨디션에 대해 집요하게 질문합니다.",
+      "choice_1": "전술적인 관점에서 차분하고 논리정연하게 답변하기",
+      "choice_2": "선수로서의 책임감과 프로다운 훈련 태도 강조하기",
+      "choice_3": "당당하고 패기 넘치는 발언으로 언론의 편견에 맞서기",
+      "choice_4": "원론적인 외교적 수사로 신중하고 짧게 답변하기"
     },
     "press_conference_var_6": {
-      "title": "Press Conference: DISCIPLINARY RECORD DISCUSSION",
-      "description": "Journalists present questions regarding your team's disciplinary record discussion.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "기자회견: 선수단 카드와 규율",
+      "description": "미디어룸의 기자들이 최근 팀의 상황과 당신의 컨디션에 대해 집요하게 질문합니다.",
+      "choice_1": "전술적인 관점에서 차분하고 논리정연하게 답변하기",
+      "choice_2": "선수로서의 책임감과 프로다운 훈련 태도 강조하기",
+      "choice_3": "당당하고 패기 넘치는 발언으로 언론의 편견에 맞서기",
+      "choice_4": "원론적인 외교적 수사로 신중하고 짧게 답변하기"
     },
     "press_conference_var_7": {
-      "title": "Press Conference: FIXTURE CONGESTION SCHEDULE",
-      "description": "Journalists present questions regarding your team's fixture congestion schedule.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "기자회견: 살인적인 일정 극복",
+      "description": "미디어룸의 기자들이 최근 팀의 상황과 당신의 컨디션에 대해 집요하게 질문합니다.",
+      "choice_1": "전술적인 관점에서 차분하고 논리정연하게 답변하기",
+      "choice_2": "선수로서의 책임감과 프로다운 훈련 태도 강조하기",
+      "choice_3": "당당하고 패기 넘치는 발언으로 언론의 편견에 맞서기",
+      "choice_4": "원론적인 외교적 수사로 신중하고 짧게 답변하기"
     },
     "press_conference_var_8": {
-      "title": "Press Conference: AWAY RECORD PERFORMANCE",
-      "description": "Journalists present questions regarding your team's away record performance.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "기자회견: 원정 경기 성적",
+      "description": "미디어룸의 기자들이 최근 팀의 상황과 당신의 컨디션에 대해 집요하게 질문합니다.",
+      "choice_1": "전술적인 관점에서 차분하고 논리정연하게 답변하기",
+      "choice_2": "선수로서의 책임감과 프로다운 훈련 태도 강조하기",
+      "choice_3": "당당하고 패기 넘치는 발언으로 언론의 편견에 맞서기",
+      "choice_4": "원론적인 외교적 수사로 신중하고 짧게 답변하기"
     },
     "press_conference_var_9": {
-      "title": "Press Conference: VAR CONTROVERSY STANCE",
-      "description": "Journalists present questions regarding your team's VAR controversy stance.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "기자회견: VAR 판정 논란",
+      "description": "미디어룸의 기자들이 최근 팀의 상황과 당신의 컨디션에 대해 집요하게 질문합니다.",
+      "choice_1": "전술적인 관점에서 차분하고 논리정연하게 답변하기",
+      "choice_2": "선수로서의 책임감과 프로다운 훈련 태도 강조하기",
+      "choice_3": "당당하고 패기 넘치는 발언으로 언론의 편견에 맞서기",
+      "choice_4": "원론적인 외교적 수사로 신중하고 짧게 답변하기"
     },
     "press_conference_var_10": {
-      "title": "Press Conference: NATIONAL TEAM SELECTION RUMOR",
-      "description": "Journalists present questions regarding your team's national team selection rumor.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "기자회견: 국가대표 승선 루머",
+      "description": "미디어룸의 기자들이 최근 팀의 상황과 당신의 컨디션에 대해 집요하게 질문합니다.",
+      "choice_1": "전술적인 관점에서 차분하고 논리정연하게 답변하기",
+      "choice_2": "선수로서의 책임감과 프로다운 훈련 태도 강조하기",
+      "choice_3": "당당하고 패기 넘치는 발언으로 언론의 편견에 맞서기",
+      "choice_4": "원론적인 외교적 수사로 신중하고 짧게 답변하기"
     },
     "press_conference_var_11": {
-      "title": "Press Conference: CAPTAINCY LEADERSHIP DUTIES",
-      "description": "Journalists present questions regarding your team's captaincy leadership duties.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "기자회견: 주장 완장의 무게",
+      "description": "미디어룸의 기자들이 최근 팀의 상황과 당신의 컨디션에 대해 집요하게 질문합니다.",
+      "choice_1": "전술적인 관점에서 차분하고 논리정연하게 답변하기",
+      "choice_2": "선수로서의 책임감과 프로다운 훈련 태도 강조하기",
+      "choice_3": "당당하고 패기 넘치는 발언으로 언론의 편견에 맞서기",
+      "choice_4": "원론적인 외교적 수사로 신중하고 짧게 답변하기"
     },
     "press_conference_var_12": {
-      "title": "Press Conference: TACTICAL FLEXIBILITY TEST",
-      "description": "Journalists present questions regarding your team's tactical flexibility test.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "기자회견: 변형 전술 대응력",
+      "description": "미디어룸의 기자들이 최근 팀의 상황과 당신의 컨디션에 대해 집요하게 질문합니다.",
+      "choice_1": "전술적인 관점에서 차분하고 논리정연하게 답변하기",
+      "choice_2": "선수로서의 책임감과 프로다운 훈련 태도 강조하기",
+      "choice_3": "당당하고 패기 넘치는 발언으로 언론의 편견에 맞서기",
+      "choice_4": "원론적인 외교적 수사로 신중하고 짧게 답변하기"
     },
     "press_conference_var_13": {
-      "title": "Press Conference: DEFENSIVE SOLIDITY BREAKDOWN",
-      "description": "Journalists present questions regarding your team's defensive solidity breakdown.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "기자회견: 수비벽의 견고함",
+      "description": "미디어룸의 기자들이 최근 팀의 상황과 당신의 컨디션에 대해 집요하게 질문합니다.",
+      "choice_1": "전술적인 관점에서 차분하고 논리정연하게 답변하기",
+      "choice_2": "선수로서의 책임감과 프로다운 훈련 태도 강조하기",
+      "choice_3": "당당하고 패기 넘치는 발언으로 언론의 편견에 맞서기",
+      "choice_4": "원론적인 외교적 수사로 신중하고 짧게 답변하기"
     },
     "press_conference_var_14": {
-      "title": "Press Conference: ATTACKING EFFICIENCY ANALYSIS",
-      "description": "Journalists present questions regarding your team's attacking efficiency analysis.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "기자회견: 공격진의 골 결정력",
+      "description": "미디어룸의 기자들이 최근 팀의 상황과 당신의 컨디션에 대해 집요하게 질문합니다.",
+      "choice_1": "전술적인 관점에서 차분하고 논리정연하게 답변하기",
+      "choice_2": "선수로서의 책임감과 프로다운 훈련 태도 강조하기",
+      "choice_3": "당당하고 패기 넘치는 발언으로 언론의 편견에 맞서기",
+      "choice_4": "원론적인 외교적 수사로 신중하고 짧게 답변하기"
     },
     "press_conference_var_15": {
-      "title": "Press Conference: SET-PIECE SPECIALIZATION",
-      "description": "Journalists present questions regarding your team's set-piece specialization.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "기자회견: 세트피스 집중 공략",
+      "description": "미디어룸의 기자들이 최근 팀의 상황과 당신의 컨디션에 대해 집요하게 질문합니다.",
+      "choice_1": "전술적인 관점에서 차분하고 논리정연하게 답변하기",
+      "choice_2": "선수로서의 책임감과 프로다운 훈련 태도 강조하기",
+      "choice_3": "당당하고 패기 넘치는 발언으로 언론의 편견에 맞서기",
+      "choice_4": "원론적인 외교적 수사로 신중하고 짧게 답변하기"
     },
     "press_conference_var_16": {
-      "title": "Press Conference: FAN PRESSURE REACTION",
-      "description": "Journalists present questions regarding your team's fan pressure reaction.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "기자회견: 홈 팬들의 성원과 압박",
+      "description": "미디어룸의 기자들이 최근 팀의 상황과 당신의 컨디션에 대해 집요하게 질문합니다.",
+      "choice_1": "전술적인 관점에서 차분하고 논리정연하게 답변하기",
+      "choice_2": "선수로서의 책임감과 프로다운 훈련 태도 강조하기",
+      "choice_3": "당당하고 패기 넘치는 발언으로 언론의 편견에 맞서기",
+      "choice_4": "원론적인 외교적 수사로 신중하고 짧게 답변하기"
     },
     "press_conference_var_17": {
-      "title": "Press Conference: TRANSFER BUDGET SPECULATION",
-      "description": "Journalists present questions regarding your team's transfer budget speculation.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "기자회견: 이적시장 영입 예산",
+      "description": "미디어룸의 기자들이 최근 팀의 상황과 당신의 컨디션에 대해 집요하게 질문합니다.",
+      "choice_1": "전술적인 관점에서 차분하고 논리정연하게 답변하기",
+      "choice_2": "선수로서의 책임감과 프로다운 훈련 태도 강조하기",
+      "choice_3": "당당하고 패기 넘치는 발언으로 언론의 편견에 맞서기",
+      "choice_4": "원론적인 외교적 수사로 신중하고 짧게 답변하기"
     },
     "press_conference_var_18": {
-      "title": "Press Conference: STADIUM ATMOSPHERE IMPACT",
-      "description": "Journalists present questions regarding your team's stadium atmosphere impact.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "기자회견: 스타디움 열기",
+      "description": "미디어룸의 기자들이 최근 팀의 상황과 당신의 컨디션에 대해 집요하게 질문합니다.",
+      "choice_1": "전술적인 관점에서 차분하고 논리정연하게 답변하기",
+      "choice_2": "선수로서의 책임감과 프로다운 훈련 태도 강조하기",
+      "choice_3": "당당하고 패기 넘치는 발언으로 언론의 편견에 맞서기",
+      "choice_4": "원론적인 외교적 수사로 신중하고 짧게 답변하기"
     },
     "press_conference_var_19": {
-      "title": "Press Conference: DERBY HISTORICAL RIVALRY",
-      "description": "Journalists present questions regarding your team's derby historical rivalry.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "기자회견: 더비 라이벌 매치",
+      "description": "미디어룸의 기자들이 최근 팀의 상황과 당신의 컨디션에 대해 집요하게 질문합니다.",
+      "choice_1": "전술적인 관점에서 차분하고 논리정연하게 답변하기",
+      "choice_2": "선수로서의 책임감과 프로다운 훈련 태도 강조하기",
+      "choice_3": "당당하고 패기 넘치는 발언으로 언론의 편견에 맞서기",
+      "choice_4": "원론적인 외교적 수사로 신중하고 짧게 답변하기"
     },
     "press_conference_var_20": {
-      "title": "Press Conference: END OF SEASON TARGET",
-      "description": "Journalists present questions regarding your team's end of season target.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "기자회견: 시즌 최종 목표",
+      "description": "미디어룸의 기자들이 최근 팀의 상황과 당신의 컨디션에 대해 집요하게 질문합니다.",
+      "choice_1": "전술적인 관점에서 차분하고 논리정연하게 답변하기",
+      "choice_2": "선수로서의 책임감과 프로다운 훈련 태도 강조하기",
+      "choice_3": "당당하고 패기 넘치는 발언으로 언론의 편견에 맞서기",
+      "choice_4": "원론적인 외교적 수사로 신중하고 짧게 답변하기"
     },
     "tactical_meeting_1": {
-      "title": "Tactical Briefing: HIGH PRESS SYSTEM",
-      "description": "The coaching staff presents new tactical adjustments focusing on high press system.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "전술 미팅: 전방 압박",
+      "description": "코칭스태프가 선수단에 새로운 맞춤 전술 지침을 하달합니다: 전방 압박과 최전방 볼 탈환을 위한 새로운 전술 지침 전달.",
+      "choice_1": "하달된 전술 지침을 완벽히 숙지하고 실천하기",
+      "choice_2": "전술 시스템 내에서 개인의 창의적 플레이 권한 요청하기",
+      "choice_3": "동료 선수들과 포지셔닝에 대해 적극적으로 소통하기",
+      "choice_4": "강도 높은 압박과 체력적 헌신에 모든 에너지 쏟기"
     },
     "tactical_meeting_2": {
-      "title": "Tactical Briefing: LOW BLOCK DEFENSE",
-      "description": "The coaching staff presents new tactical adjustments focusing on low block defense.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "전술 미팅: 로우 블록 수비",
+      "description": "코칭스태프가 선수단에 새로운 맞춤 전술 지침을 하달합니다: 견고한 두 줄 수비 블록 형성과 공간 차단 집중 전술 점검.",
+      "choice_1": "하달된 전술 지침을 완벽히 숙지하고 실천하기",
+      "choice_2": "전술 시스템 내에서 개인의 창의적 플레이 권한 요청하기",
+      "choice_3": "동료 선수들과 포지셔닝에 대해 적극적으로 소통하기",
+      "choice_4": "강도 높은 압박과 체력적 헌신에 모든 에너지 쏟기"
     },
     "tactical_meeting_3": {
-      "title": "Tactical Briefing: COUNTER-ATTACK SPEED",
-      "description": "The coaching staff presents new tactical adjustments focusing on counter-attack speed.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "전술 미팅: 역습 스피드",
+      "description": "코칭스태프가 선수단에 새로운 맞춤 전술 지침을 하달합니다: 볼 탈환 직후의 번개 같은 전방 패스 및 역습 전개 속도 강화.",
+      "choice_1": "하달된 전술 지침을 완벽히 숙지하고 실천하기",
+      "choice_2": "전술 시스템 내에서 개인의 창의적 플레이 권한 요청하기",
+      "choice_3": "동료 선수들과 포지셔닝에 대해 적극적으로 소통하기",
+      "choice_4": "강도 높은 압박과 체력적 헌신에 모든 에너지 쏟기"
     },
     "tactical_meeting_4": {
-      "title": "Tactical Briefing: POSSESSION CONTROL",
-      "description": "The coaching staff presents new tactical adjustments focusing on possession control.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "전술 미팅: 점유율 장악",
+      "description": "코칭스태프가 선수단에 새로운 맞춤 전술 지침을 하달합니다: 안정적인 후방 빌드업과 패스 워크로 경기 주도권과 템포 지배.",
+      "choice_1": "하달된 전술 지침을 완벽히 숙지하고 실천하기",
+      "choice_2": "전술 시스템 내에서 개인의 창의적 플레이 권한 요청하기",
+      "choice_3": "동료 선수들과 포지셔닝에 대해 적극적으로 소통하기",
+      "choice_4": "강도 높은 압박과 체력적 헌신에 모든 에너지 쏟기"
     },
     "tactical_meeting_5": {
-      "title": "Tactical Briefing: WING OVERLOAD",
-      "description": "The coaching staff presents new tactical adjustments focusing on wing overload.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "전술 미팅: 측면 과부하 공격",
+      "description": "코칭스태프가 선수단에 새로운 맞춤 전술 지침을 하달합니다: 측면 수적 우위 점유를 통한 오버래핑과 날카로운 크로스 공격.",
+      "choice_1": "하달된 전술 지침을 완벽히 숙지하고 실천하기",
+      "choice_2": "전술 시스템 내에서 개인의 창의적 플레이 권한 요청하기",
+      "choice_3": "동료 선수들과 포지셔닝에 대해 적극적으로 소통하기",
+      "choice_4": "강도 높은 압박과 체력적 헌신에 모든 에너지 쏟기"
     },
     "tactical_meeting_6": {
-      "title": "Tactical Briefing: SET-PIECE ROUTINE",
-      "description": "The coaching staff presents new tactical adjustments focusing on set-piece routine.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "전술 미팅: 세트피스 전술",
+      "description": "코칭스태프가 선수단에 새로운 맞춤 전술 지침을 하달합니다: 코너킥 및 프리킥 상황에서의 약속된 세트피스 플레이 훈련.",
+      "choice_1": "하달된 전술 지침을 완벽히 숙지하고 실천하기",
+      "choice_2": "전술 시스템 내에서 개인의 창의적 플레이 권한 요청하기",
+      "choice_3": "동료 선수들과 포지셔닝에 대해 적극적으로 소통하기",
+      "choice_4": "강도 높은 압박과 체력적 헌신에 모든 에너지 쏟기"
     },
     "tactical_meeting_7": {
-      "title": "Tactical Briefing: INVERTED FULLBACKS",
-      "description": "The coaching staff presents new tactical adjustments focusing on inverted fullbacks.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "전술 미팅: 인버티드 풀백",
+      "description": "코칭스태프가 선수단에 새로운 맞춤 전술 지침을 하달합니다: 풀백의 중앙 언더래핑을 통한 중원 숫자 싸움 우위 및 빌드업 지원.",
+      "choice_1": "하달된 전술 지침을 완벽히 숙지하고 실천하기",
+      "choice_2": "전술 시스템 내에서 개인의 창의적 플레이 권한 요청하기",
+      "choice_3": "동료 선수들과 포지셔닝에 대해 적극적으로 소통하기",
+      "choice_4": "강도 높은 압박과 체력적 헌신에 모든 에너지 쏟기"
     },
     "tactical_meeting_8": {
-      "title": "Tactical Briefing: FALSE NINE ROLE",
-      "description": "The coaching staff presents new tactical adjustments focusing on false nine role.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "전술 미팅: 펄스 나인 (가짜 9번)",
+      "description": "코칭스태프가 선수단에 새로운 맞춤 전술 지침을 하달합니다: 최전방 공격수의 2선 하강을 통한 상대 센터백 유인 및 침투 공간 창출.",
+      "choice_1": "하달된 전술 지침을 완벽히 숙지하고 실천하기",
+      "choice_2": "전술 시스템 내에서 개인의 창의적 플레이 권한 요청하기",
+      "choice_3": "동료 선수들과 포지셔닝에 대해 적극적으로 소통하기",
+      "choice_4": "강도 높은 압박과 체력적 헌신에 모든 에너지 쏟기"
     },
     "tactical_meeting_9": {
-      "title": "Tactical Briefing: TRANSITION AGGRESSION",
-      "description": "The coaching staff presents new tactical adjustments focusing on transition aggression.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "전술 미팅: 게겐프레싱 (즉시 압박)",
+      "description": "코칭스태프가 선수단에 새로운 맞춤 전술 지침을 하달합니다: 볼 소유권 상실 직후 5초 이내의 강력한 재압박으로 상대 역습 조기 차단.",
+      "choice_1": "하달된 전술 지침을 완벽히 숙지하고 실천하기",
+      "choice_2": "전술 시스템 내에서 개인의 창의적 플레이 권한 요청하기",
+      "choice_3": "동료 선수들과 포지셔닝에 대해 적극적으로 소통하기",
+      "choice_4": "강도 높은 압박과 체력적 헌신에 모든 에너지 쏟기"
     },
     "tactical_meeting_10": {
-      "title": "Tactical Briefing: ZONAL MARKING",
-      "description": "The coaching staff presents new tactical adjustments focusing on zonal marking.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "전술 미팅: 지역 방어 (존 디펜스)",
+      "description": "코칭스태프가 선수단에 새로운 맞춤 전술 지침을 하달합니다: 철저한 구역 분담과 수비 라인 간격 유지를 통한 빈틈없는 지역 방어.",
+      "choice_1": "하달된 전술 지침을 완벽히 숙지하고 실천하기",
+      "choice_2": "전술 시스템 내에서 개인의 창의적 플레이 권한 요청하기",
+      "choice_3": "동료 선수들과 포지셔닝에 대해 적극적으로 소통하기",
+      "choice_4": "강도 높은 압박과 체력적 헌신에 모든 에너지 쏟기"
     },
     "dressing_room_1": {
-      "title": "Dressing Room Scenario 1",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "라커룸 상황 1",
+      "description": "팀의 결속력과 집중력을 시험하는 라커룸 내 상황이 발생했습니다.",
+      "choice_1": "동기부여 가득한 연설로 선수단을 독려하기",
+      "choice_2": "묵묵히 훈련에 매진하며 행동으로 모범 보이기",
+      "choice_3": "선수단 내부 갈등을 직접 대면하여 해결하기",
+      "choice_4": "팀 단합을 위한 회식 자리 마련하기"
     },
     "dressing_room_2": {
-      "title": "Dressing Room Scenario 2",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "라커룸 상황 2",
+      "description": "팀의 결속력과 집중력을 시험하는 라커룸 내 상황이 발생했습니다.",
+      "choice_1": "동기부여 가득한 연설로 선수단을 독려하기",
+      "choice_2": "묵묵히 훈련에 매진하며 행동으로 모범 보이기",
+      "choice_3": "선수단 내부 갈등을 직접 대면하여 해결하기",
+      "choice_4": "팀 단합을 위한 회식 자리 마련하기"
     },
     "dressing_room_3": {
-      "title": "Dressing Room Scenario 3",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "라커룸 상황 3",
+      "description": "팀의 결속력과 집중력을 시험하는 라커룸 내 상황이 발생했습니다.",
+      "choice_1": "동기부여 가득한 연설로 선수단을 독려하기",
+      "choice_2": "묵묵히 훈련에 매진하며 행동으로 모범 보이기",
+      "choice_3": "선수단 내부 갈등을 직접 대면하여 해결하기",
+      "choice_4": "팀 단합을 위한 회식 자리 마련하기"
     },
     "dressing_room_4": {
-      "title": "Dressing Room Scenario 4",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "라커룸 상황 4",
+      "description": "팀의 결속력과 집중력을 시험하는 라커룸 내 상황이 발생했습니다.",
+      "choice_1": "동기부여 가득한 연설로 선수단을 독려하기",
+      "choice_2": "묵묵히 훈련에 매진하며 행동으로 모범 보이기",
+      "choice_3": "선수단 내부 갈등을 직접 대면하여 해결하기",
+      "choice_4": "팀 단합을 위한 회식 자리 마련하기"
     },
     "dressing_room_5": {
-      "title": "Dressing Room Scenario 5",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "라커룸 상황 5",
+      "description": "팀의 결속력과 집중력을 시험하는 라커룸 내 상황이 발생했습니다.",
+      "choice_1": "동기부여 가득한 연설로 선수단을 독려하기",
+      "choice_2": "묵묵히 훈련에 매진하며 행동으로 모범 보이기",
+      "choice_3": "선수단 내부 갈등을 직접 대면하여 해결하기",
+      "choice_4": "팀 단합을 위한 회식 자리 마련하기"
     },
     "dressing_room_6": {
-      "title": "Dressing Room Scenario 6",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "라커룸 상황 6",
+      "description": "팀의 결속력과 집중력을 시험하는 라커룸 내 상황이 발생했습니다.",
+      "choice_1": "동기부여 가득한 연설로 선수단을 독려하기",
+      "choice_2": "묵묵히 훈련에 매진하며 행동으로 모범 보이기",
+      "choice_3": "선수단 내부 갈등을 직접 대면하여 해결하기",
+      "choice_4": "팀 단합을 위한 회식 자리 마련하기"
     },
     "dressing_room_7": {
-      "title": "Dressing Room Scenario 7",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "라커룸 상황 7",
+      "description": "팀의 결속력과 집중력을 시험하는 라커룸 내 상황이 발생했습니다.",
+      "choice_1": "동기부여 가득한 연설로 선수단을 독려하기",
+      "choice_2": "묵묵히 훈련에 매진하며 행동으로 모범 보이기",
+      "choice_3": "선수단 내부 갈등을 직접 대면하여 해결하기",
+      "choice_4": "팀 단합을 위한 회식 자리 마련하기"
     },
     "dressing_room_8": {
-      "title": "Dressing Room Scenario 8",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "라커룸 상황 8",
+      "description": "팀의 결속력과 집중력을 시험하는 라커룸 내 상황이 발생했습니다.",
+      "choice_1": "동기부여 가득한 연설로 선수단을 독려하기",
+      "choice_2": "묵묵히 훈련에 매진하며 행동으로 모범 보이기",
+      "choice_3": "선수단 내부 갈등을 직접 대면하여 해결하기",
+      "choice_4": "팀 단합을 위한 회식 자리 마련하기"
     },
     "dressing_room_9": {
-      "title": "Dressing Room Scenario 9",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "라커룸 상황 9",
+      "description": "팀의 결속력과 집중력을 시험하는 라커룸 내 상황이 발생했습니다.",
+      "choice_1": "동기부여 가득한 연설로 선수단을 독려하기",
+      "choice_2": "묵묵히 훈련에 매진하며 행동으로 모범 보이기",
+      "choice_3": "선수단 내부 갈등을 직접 대면하여 해결하기",
+      "choice_4": "팀 단합을 위한 회식 자리 마련하기"
     },
     "dressing_room_10": {
-      "title": "Dressing Room Scenario 10",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "라커룸 상황 10",
+      "description": "팀의 결속력과 집중력을 시험하는 라커룸 내 상황이 발생했습니다.",
+      "choice_1": "동기부여 가득한 연설로 선수단을 독려하기",
+      "choice_2": "묵묵히 훈련에 매진하며 행동으로 모범 보이기",
+      "choice_3": "선수단 내부 갈등을 직접 대면하여 해결하기",
+      "choice_4": "팀 단합을 위한 회식 자리 마련하기"
     },
     "manager_talk_1": {
-      "title": "Manager Discussion 1",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "감독과의 면담 1",
+      "description": "감독이 최근 경기력과 팀 내 역할 평가를 위해 비공개 1대1 면담을 요청했습니다.",
+      "choice_1": "감독의 전술 철학과 비전에 무한한 신뢰 표명하기",
+      "choice_2": "본인 포지션에 대한 전술적 롤 조정 요청하기",
+      "choice_3": "그라운드에서 더 많은 공격적 자유도 요구하기",
+      "choice_4": "추가적인 개인 특훈을 약속하며 신뢰 얻기"
     },
     "manager_talk_2": {
-      "title": "Manager Discussion 2",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "감독과의 면담 2",
+      "description": "감독이 최근 경기력과 팀 내 역할 평가를 위해 비공개 1대1 면담을 요청했습니다.",
+      "choice_1": "감독의 전술 철학과 비전에 무한한 신뢰 표명하기",
+      "choice_2": "본인 포지션에 대한 전술적 롤 조정 요청하기",
+      "choice_3": "그라운드에서 더 많은 공격적 자유도 요구하기",
+      "choice_4": "추가적인 개인 특훈을 약속하며 신뢰 얻기"
     },
     "manager_talk_3": {
-      "title": "Manager Discussion 3",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "감독과의 면담 3",
+      "description": "감독이 최근 경기력과 팀 내 역할 평가를 위해 비공개 1대1 면담을 요청했습니다.",
+      "choice_1": "감독의 전술 철학과 비전에 무한한 신뢰 표명하기",
+      "choice_2": "본인 포지션에 대한 전술적 롤 조정 요청하기",
+      "choice_3": "그라운드에서 더 많은 공격적 자유도 요구하기",
+      "choice_4": "추가적인 개인 특훈을 약속하며 신뢰 얻기"
     },
     "manager_talk_4": {
-      "title": "Manager Discussion 4",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "감독과의 면담 4",
+      "description": "감독이 최근 경기력과 팀 내 역할 평가를 위해 비공개 1대1 면담을 요청했습니다.",
+      "choice_1": "감독의 전술 철학과 비전에 무한한 신뢰 표명하기",
+      "choice_2": "본인 포지션에 대한 전술적 롤 조정 요청하기",
+      "choice_3": "그라운드에서 더 많은 공격적 자유도 요구하기",
+      "choice_4": "추가적인 개인 특훈을 약속하며 신뢰 얻기"
     },
     "manager_talk_5": {
-      "title": "Manager Discussion 5",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "감독과의 면담 5",
+      "description": "감독이 최근 경기력과 팀 내 역할 평가를 위해 비공개 1대1 면담을 요청했습니다.",
+      "choice_1": "감독의 전술 철학과 비전에 무한한 신뢰 표명하기",
+      "choice_2": "본인 포지션에 대한 전술적 롤 조정 요청하기",
+      "choice_3": "그라운드에서 더 많은 공격적 자유도 요구하기",
+      "choice_4": "추가적인 개인 특훈을 약속하며 신뢰 얻기"
     },
     "manager_talk_6": {
-      "title": "Manager Discussion 6",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "감독과의 면담 6",
+      "description": "감독이 최근 경기력과 팀 내 역할 평가를 위해 비공개 1대1 면담을 요청했습니다.",
+      "choice_1": "감독의 전술 철학과 비전에 무한한 신뢰 표명하기",
+      "choice_2": "본인 포지션에 대한 전술적 롤 조정 요청하기",
+      "choice_3": "그라운드에서 더 많은 공격적 자유도 요구하기",
+      "choice_4": "추가적인 개인 특훈을 약속하며 신뢰 얻기"
     },
     "manager_talk_7": {
-      "title": "Manager Discussion 7",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "감독과의 면담 7",
+      "description": "감독이 최근 경기력과 팀 내 역할 평가를 위해 비공개 1대1 면담을 요청했습니다.",
+      "choice_1": "감독의 전술 철학과 비전에 무한한 신뢰 표명하기",
+      "choice_2": "본인 포지션에 대한 전술적 롤 조정 요청하기",
+      "choice_3": "그라운드에서 더 많은 공격적 자유도 요구하기",
+      "choice_4": "추가적인 개인 특훈을 약속하며 신뢰 얻기"
     },
     "manager_talk_8": {
-      "title": "Manager Discussion 8",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "감독과의 면담 8",
+      "description": "감독이 최근 경기력과 팀 내 역할 평가를 위해 비공개 1대1 면담을 요청했습니다.",
+      "choice_1": "감독의 전술 철학과 비전에 무한한 신뢰 표명하기",
+      "choice_2": "본인 포지션에 대한 전술적 롤 조정 요청하기",
+      "choice_3": "그라운드에서 더 많은 공격적 자유도 요구하기",
+      "choice_4": "추가적인 개인 특훈을 약속하며 신뢰 얻기"
     },
     "manager_talk_9": {
-      "title": "Manager Discussion 9",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "감독과의 면담 9",
+      "description": "감독이 최근 경기력과 팀 내 역할 평가를 위해 비공개 1대1 면담을 요청했습니다.",
+      "choice_1": "감독의 전술 철학과 비전에 무한한 신뢰 표명하기",
+      "choice_2": "본인 포지션에 대한 전술적 롤 조정 요청하기",
+      "choice_3": "그라운드에서 더 많은 공격적 자유도 요구하기",
+      "choice_4": "추가적인 개인 특훈을 약속하며 신뢰 얻기"
     },
     "manager_talk_10": {
-      "title": "Manager Discussion 10",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "감독과의 면담 10",
+      "description": "감독이 최근 경기력과 팀 내 역할 평가를 위해 비공개 1대1 면담을 요청했습니다.",
+      "choice_1": "감독의 전술 철학과 비전에 무한한 신뢰 표명하기",
+      "choice_2": "본인 포지션에 대한 전술적 롤 조정 요청하기",
+      "choice_3": "그라운드에서 더 많은 공격적 자유도 요구하기",
+      "choice_4": "추가적인 개인 특훈을 약속하며 신뢰 얻기"
     },
     "agent_negotiation_1": {
-      "title": "Agent Strategy Session 1",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "에이전트 전략 회의 1",
+      "description": "에이전트가 향후 커리어를 위한 새로운 계약 및 상업적 기회를 브리핑합니다.",
+      "choice_1": "스포츠적 안정성과 롱런할 수 있는 커리어 환경 우선시하기",
+      "choice_2": "유럽 빅클럽들의 영입 관심도를 적극 타진하도록 지시하기",
+      "choice_3": "단기 스폰서십 및 광고 수익 극대화에 집중하기",
+      "choice_4": "이적설을 차단하고 오직 이번 시즌 성적에만 집중하기"
     },
     "agent_negotiation_2": {
-      "title": "Agent Strategy Session 2",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "에이전트 전략 회의 2",
+      "description": "에이전트가 향후 커리어를 위한 새로운 계약 및 상업적 기회를 브리핑합니다.",
+      "choice_1": "스포츠적 안정성과 롱런할 수 있는 커리어 환경 우선시하기",
+      "choice_2": "유럽 빅클럽들의 영입 관심도를 적극 타진하도록 지시하기",
+      "choice_3": "단기 스폰서십 및 광고 수익 극대화에 집중하기",
+      "choice_4": "이적설을 차단하고 오직 이번 시즌 성적에만 집중하기"
     },
     "agent_negotiation_3": {
-      "title": "Agent Strategy Session 3",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "에이전트 전략 회의 3",
+      "description": "에이전트가 향후 커리어를 위한 새로운 계약 및 상업적 기회를 브리핑합니다.",
+      "choice_1": "스포츠적 안정성과 롱런할 수 있는 커리어 환경 우선시하기",
+      "choice_2": "유럽 빅클럽들의 영입 관심도를 적극 타진하도록 지시하기",
+      "choice_3": "단기 스폰서십 및 광고 수익 극대화에 집중하기",
+      "choice_4": "이적설을 차단하고 오직 이번 시즌 성적에만 집중하기"
     },
     "agent_negotiation_4": {
-      "title": "Agent Strategy Session 4",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "에이전트 전략 회의 4",
+      "description": "에이전트가 향후 커리어를 위한 새로운 계약 및 상업적 기회를 브리핑합니다.",
+      "choice_1": "스포츠적 안정성과 롱런할 수 있는 커리어 환경 우선시하기",
+      "choice_2": "유럽 빅클럽들의 영입 관심도를 적극 타진하도록 지시하기",
+      "choice_3": "단기 스폰서십 및 광고 수익 극대화에 집중하기",
+      "choice_4": "이적설을 차단하고 오직 이번 시즌 성적에만 집중하기"
     },
     "agent_negotiation_5": {
-      "title": "Agent Strategy Session 5",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "에이전트 전략 회의 5",
+      "description": "에이전트가 향후 커리어를 위한 새로운 계약 및 상업적 기회를 브리핑합니다.",
+      "choice_1": "스포츠적 안정성과 롱런할 수 있는 커리어 환경 우선시하기",
+      "choice_2": "유럽 빅클럽들의 영입 관심도를 적극 타진하도록 지시하기",
+      "choice_3": "단기 스폰서십 및 광고 수익 극대화에 집중하기",
+      "choice_4": "이적설을 차단하고 오직 이번 시즌 성적에만 집중하기"
     },
     "agent_negotiation_6": {
-      "title": "Agent Strategy Session 6",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "에이전트 전략 회의 6",
+      "description": "에이전트가 향후 커리어를 위한 새로운 계약 및 상업적 기회를 브리핑합니다.",
+      "choice_1": "스포츠적 안정성과 롱런할 수 있는 커리어 환경 우선시하기",
+      "choice_2": "유럽 빅클럽들의 영입 관심도를 적극 타진하도록 지시하기",
+      "choice_3": "단기 스폰서십 및 광고 수익 극대화에 집중하기",
+      "choice_4": "이적설을 차단하고 오직 이번 시즌 성적에만 집중하기"
     },
     "agent_negotiation_7": {
-      "title": "Agent Strategy Session 7",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "에이전트 전략 회의 7",
+      "description": "에이전트가 향후 커리어를 위한 새로운 계약 및 상업적 기회를 브리핑합니다.",
+      "choice_1": "스포츠적 안정성과 롱런할 수 있는 커리어 환경 우선시하기",
+      "choice_2": "유럽 빅클럽들의 영입 관심도를 적극 타진하도록 지시하기",
+      "choice_3": "단기 스폰서십 및 광고 수익 극대화에 집중하기",
+      "choice_4": "이적설을 차단하고 오직 이번 시즌 성적에만 집중하기"
     },
     "agent_negotiation_8": {
-      "title": "Agent Strategy Session 8",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "에이전트 전략 회의 8",
+      "description": "에이전트가 향후 커리어를 위한 새로운 계약 및 상업적 기회를 브리핑합니다.",
+      "choice_1": "스포츠적 안정성과 롱런할 수 있는 커리어 환경 우선시하기",
+      "choice_2": "유럽 빅클럽들의 영입 관심도를 적극 타진하도록 지시하기",
+      "choice_3": "단기 스폰서십 및 광고 수익 극대화에 집중하기",
+      "choice_4": "이적설을 차단하고 오직 이번 시즌 성적에만 집중하기"
     },
     "agent_negotiation_9": {
-      "title": "Agent Strategy Session 9",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "에이전트 전략 회의 9",
+      "description": "에이전트가 향후 커리어를 위한 새로운 계약 및 상업적 기회를 브리핑합니다.",
+      "choice_1": "스포츠적 안정성과 롱런할 수 있는 커리어 환경 우선시하기",
+      "choice_2": "유럽 빅클럽들의 영입 관심도를 적극 타진하도록 지시하기",
+      "choice_3": "단기 스폰서십 및 광고 수익 극대화에 집중하기",
+      "choice_4": "이적설을 차단하고 오직 이번 시즌 성적에만 집중하기"
     },
     "agent_negotiation_10": {
-      "title": "Agent Strategy Session 10",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "에이전트 전략 회의 10",
+      "description": "에이전트가 향후 커리어를 위한 새로운 계약 및 상업적 기회를 브리핑합니다.",
+      "choice_1": "스포츠적 안정성과 롱런할 수 있는 커리어 환경 우선시하기",
+      "choice_2": "유럽 빅클럽들의 영입 관심도를 적극 타진하도록 지시하기",
+      "choice_3": "단기 스폰서십 및 광고 수익 극대화에 집중하기",
+      "choice_4": "이적설을 차단하고 오직 이번 시즌 성적에만 집중하기"
     },
     "fan_community_1": {
-      "title": "Community Event 1",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "지역 사회 공헌 행사 1",
+      "description": "구단이 주관하는 지역 팬 및 유소년 자선 행사에 참여할 기회가 생겼습니다.",
+      "choice_1": "열정적으로 참여하여 팬들과 진심 어린 교감을 나누기",
+      "choice_2": "자선 기금에 거액의 성금을 쾌척하여 선한 영향력 행사하기",
+      "choice_3": "개인 SNS 채널을 통해 캠페인 참여를 널리 홍보하기",
+      "choice_4": "다음 경기를 위해 최소한의 일정만 소화하고 휴식 취하기"
     },
     "fan_community_2": {
-      "title": "Community Event 2",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "지역 사회 공헌 행사 2",
+      "description": "구단이 주관하는 지역 팬 및 유소년 자선 행사에 참여할 기회가 생겼습니다.",
+      "choice_1": "열정적으로 참여하여 팬들과 진심 어린 교감을 나누기",
+      "choice_2": "자선 기금에 거액의 성금을 쾌척하여 선한 영향력 행사하기",
+      "choice_3": "개인 SNS 채널을 통해 캠페인 참여를 널리 홍보하기",
+      "choice_4": "다음 경기를 위해 최소한의 일정만 소화하고 휴식 취하기"
     },
     "fan_community_3": {
-      "title": "Community Event 3",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "지역 사회 공헌 행사 3",
+      "description": "구단이 주관하는 지역 팬 및 유소년 자선 행사에 참여할 기회가 생겼습니다.",
+      "choice_1": "열정적으로 참여하여 팬들과 진심 어린 교감을 나누기",
+      "choice_2": "자선 기금에 거액의 성금을 쾌척하여 선한 영향력 행사하기",
+      "choice_3": "개인 SNS 채널을 통해 캠페인 참여를 널리 홍보하기",
+      "choice_4": "다음 경기를 위해 최소한의 일정만 소화하고 휴식 취하기"
     },
     "fan_community_4": {
-      "title": "Community Event 4",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "지역 사회 공헌 행사 4",
+      "description": "구단이 주관하는 지역 팬 및 유소년 자선 행사에 참여할 기회가 생겼습니다.",
+      "choice_1": "열정적으로 참여하여 팬들과 진심 어린 교감을 나누기",
+      "choice_2": "자선 기금에 거액의 성금을 쾌척하여 선한 영향력 행사하기",
+      "choice_3": "개인 SNS 채널을 통해 캠페인 참여를 널리 홍보하기",
+      "choice_4": "다음 경기를 위해 최소한의 일정만 소화하고 휴식 취하기"
     },
     "fan_community_5": {
-      "title": "Community Event 5",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "지역 사회 공헌 행사 5",
+      "description": "구단이 주관하는 지역 팬 및 유소년 자선 행사에 참여할 기회가 생겼습니다.",
+      "choice_1": "열정적으로 참여하여 팬들과 진심 어린 교감을 나누기",
+      "choice_2": "자선 기금에 거액의 성금을 쾌척하여 선한 영향력 행사하기",
+      "choice_3": "개인 SNS 채널을 통해 캠페인 참여를 널리 홍보하기",
+      "choice_4": "다음 경기를 위해 최소한의 일정만 소화하고 휴식 취하기"
     },
     "fan_community_6": {
-      "title": "Community Event 6",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "지역 사회 공헌 행사 6",
+      "description": "구단이 주관하는 지역 팬 및 유소년 자선 행사에 참여할 기회가 생겼습니다.",
+      "choice_1": "열정적으로 참여하여 팬들과 진심 어린 교감을 나누기",
+      "choice_2": "자선 기금에 거액의 성금을 쾌척하여 선한 영향력 행사하기",
+      "choice_3": "개인 SNS 채널을 통해 캠페인 참여를 널리 홍보하기",
+      "choice_4": "다음 경기를 위해 최소한의 일정만 소화하고 휴식 취하기"
     },
     "fan_community_7": {
-      "title": "Community Event 7",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "지역 사회 공헌 행사 7",
+      "description": "구단이 주관하는 지역 팬 및 유소년 자선 행사에 참여할 기회가 생겼습니다.",
+      "choice_1": "열정적으로 참여하여 팬들과 진심 어린 교감을 나누기",
+      "choice_2": "자선 기금에 거액의 성금을 쾌척하여 선한 영향력 행사하기",
+      "choice_3": "개인 SNS 채널을 통해 캠페인 참여를 널리 홍보하기",
+      "choice_4": "다음 경기를 위해 최소한의 일정만 소화하고 휴식 취하기"
     },
     "fan_community_8": {
-      "title": "Community Event 8",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "지역 사회 공헌 행사 8",
+      "description": "구단이 주관하는 지역 팬 및 유소년 자선 행사에 참여할 기회가 생겼습니다.",
+      "choice_1": "열정적으로 참여하여 팬들과 진심 어린 교감을 나누기",
+      "choice_2": "자선 기금에 거액의 성금을 쾌척하여 선한 영향력 행사하기",
+      "choice_3": "개인 SNS 채널을 통해 캠페인 참여를 널리 홍보하기",
+      "choice_4": "다음 경기를 위해 최소한의 일정만 소화하고 휴식 취하기"
     },
     "fan_community_9": {
-      "title": "Community Event 9",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "지역 사회 공헌 행사 9",
+      "description": "구단이 주관하는 지역 팬 및 유소년 자선 행사에 참여할 기회가 생겼습니다.",
+      "choice_1": "열정적으로 참여하여 팬들과 진심 어린 교감을 나누기",
+      "choice_2": "자선 기금에 거액의 성금을 쾌척하여 선한 영향력 행사하기",
+      "choice_3": "개인 SNS 채널을 통해 캠페인 참여를 널리 홍보하기",
+      "choice_4": "다음 경기를 위해 최소한의 일정만 소화하고 휴식 취하기"
     },
     "fan_community_10": {
-      "title": "Community Event 10",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "지역 사회 공헌 행사 10",
+      "description": "구단이 주관하는 지역 팬 및 유소년 자선 행사에 참여할 기회가 생겼습니다.",
+      "choice_1": "열정적으로 참여하여 팬들과 진심 어린 교감을 나누기",
+      "choice_2": "자선 기금에 거액의 성금을 쾌척하여 선한 영향력 행사하기",
+      "choice_3": "개인 SNS 채널을 통해 캠페인 참여를 널리 홍보하기",
+      "choice_4": "다음 경기를 위해 최소한의 일정만 소화하고 휴식 취하기"
     },
     "sponsorship_brand_1": {
-      "title": "Brand Offer 1",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "브랜드 스폰서십 제안 1",
+      "description": "유명 글로벌 브랜드에서 상업적 엠버서더 파트너십을 공식 제안했습니다.",
+      "choice_1": "스폰서십 파트너십 계약서에 최종 서명하기",
+      "choice_2": "대회 우승 및 개인 수상에 따른 성과급 인상 요구하기",
+      "choice_3": "오직 축구에만 전념하기 위해 제안을 정중히 고사하기",
+      "choice_4": "계약금의 일부를 유소년 축구에 기부하는 조항 삽입하기"
     },
     "sponsorship_brand_2": {
-      "title": "Brand Offer 2",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "브랜드 스폰서십 제안 2",
+      "description": "유명 글로벌 브랜드에서 상업적 엠버서더 파트너십을 공식 제안했습니다.",
+      "choice_1": "스폰서십 파트너십 계약서에 최종 서명하기",
+      "choice_2": "대회 우승 및 개인 수상에 따른 성과급 인상 요구하기",
+      "choice_3": "오직 축구에만 전념하기 위해 제안을 정중히 고사하기",
+      "choice_4": "계약금의 일부를 유소년 축구에 기부하는 조항 삽입하기"
     },
     "sponsorship_brand_3": {
-      "title": "Brand Offer 3",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "브랜드 스폰서십 제안 3",
+      "description": "유명 글로벌 브랜드에서 상업적 엠버서더 파트너십을 공식 제안했습니다.",
+      "choice_1": "스폰서십 파트너십 계약서에 최종 서명하기",
+      "choice_2": "대회 우승 및 개인 수상에 따른 성과급 인상 요구하기",
+      "choice_3": "오직 축구에만 전념하기 위해 제안을 정중히 고사하기",
+      "choice_4": "계약금의 일부를 유소년 축구에 기부하는 조항 삽입하기"
     },
     "sponsorship_brand_4": {
-      "title": "Brand Offer 4",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "브랜드 스폰서십 제안 4",
+      "description": "유명 글로벌 브랜드에서 상업적 엠버서더 파트너십을 공식 제안했습니다.",
+      "choice_1": "스폰서십 파트너십 계약서에 최종 서명하기",
+      "choice_2": "대회 우승 및 개인 수상에 따른 성과급 인상 요구하기",
+      "choice_3": "오직 축구에만 전념하기 위해 제안을 정중히 고사하기",
+      "choice_4": "계약금의 일부를 유소년 축구에 기부하는 조항 삽입하기"
     },
     "sponsorship_brand_5": {
-      "title": "Brand Offer 5",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "브랜드 스폰서십 제안 5",
+      "description": "유명 글로벌 브랜드에서 상업적 엠버서더 파트너십을 공식 제안했습니다.",
+      "choice_1": "스폰서십 파트너십 계약서에 최종 서명하기",
+      "choice_2": "대회 우승 및 개인 수상에 따른 성과급 인상 요구하기",
+      "choice_3": "오직 축구에만 전념하기 위해 제안을 정중히 고사하기",
+      "choice_4": "계약금의 일부를 유소년 축구에 기부하는 조항 삽입하기"
     },
     "sponsorship_brand_6": {
-      "title": "Brand Offer 6",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "브랜드 스폰서십 제안 6",
+      "description": "유명 글로벌 브랜드에서 상업적 엠버서더 파트너십을 공식 제안했습니다.",
+      "choice_1": "스폰서십 파트너십 계약서에 최종 서명하기",
+      "choice_2": "대회 우승 및 개인 수상에 따른 성과급 인상 요구하기",
+      "choice_3": "오직 축구에만 전념하기 위해 제안을 정중히 고사하기",
+      "choice_4": "계약금의 일부를 유소년 축구에 기부하는 조항 삽입하기"
     },
     "sponsorship_brand_7": {
-      "title": "Brand Offer 7",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "브랜드 스폰서십 제안 7",
+      "description": "유명 글로벌 브랜드에서 상업적 엠버서더 파트너십을 공식 제안했습니다.",
+      "choice_1": "스폰서십 파트너십 계약서에 최종 서명하기",
+      "choice_2": "대회 우승 및 개인 수상에 따른 성과급 인상 요구하기",
+      "choice_3": "오직 축구에만 전념하기 위해 제안을 정중히 고사하기",
+      "choice_4": "계약금의 일부를 유소년 축구에 기부하는 조항 삽입하기"
     },
     "sponsorship_brand_8": {
-      "title": "Brand Offer 8",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "브랜드 스폰서십 제안 8",
+      "description": "유명 글로벌 브랜드에서 상업적 엠버서더 파트너십을 공식 제안했습니다.",
+      "choice_1": "스폰서십 파트너십 계약서에 최종 서명하기",
+      "choice_2": "대회 우승 및 개인 수상에 따른 성과급 인상 요구하기",
+      "choice_3": "오직 축구에만 전념하기 위해 제안을 정중히 고사하기",
+      "choice_4": "계약금의 일부를 유소년 축구에 기부하는 조항 삽입하기"
     },
     "sponsorship_brand_9": {
-      "title": "Brand Offer 9",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "브랜드 스폰서십 제안 9",
+      "description": "유명 글로벌 브랜드에서 상업적 엠버서더 파트너십을 공식 제안했습니다.",
+      "choice_1": "스폰서십 파트너십 계약서에 최종 서명하기",
+      "choice_2": "대회 우승 및 개인 수상에 따른 성과급 인상 요구하기",
+      "choice_3": "오직 축구에만 전념하기 위해 제안을 정중히 고사하기",
+      "choice_4": "계약금의 일부를 유소년 축구에 기부하는 조항 삽입하기"
     },
     "sponsorship_brand_10": {
-      "title": "Brand Offer 10",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "브랜드 스폰서십 제안 10",
+      "description": "유명 글로벌 브랜드에서 상업적 엠버서더 파트너십을 공식 제안했습니다.",
+      "choice_1": "스폰서십 파트너십 계약서에 최종 서명하기",
+      "choice_2": "대회 우승 및 개인 수상에 따른 성과급 인상 요구하기",
+      "choice_3": "오직 축구에만 전념하기 위해 제안을 정중히 고사하기",
+      "choice_4": "계약금의 일부를 유소년 축구에 기부하는 조항 삽입하기"
     },
     "lifestyle_media_1": {
-      "title": "Media Spotlight 1",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "미디어 포커스 1",
+      "description": "유력 스포츠 매체에서 당신의 일상을 다루는 단독 심층 인터뷰를 요청했습니다.",
+      "choice_1": "프로페셔널한 훈련 루틴과 자기관리 철학을 진솔하게 공개하기",
+      "choice_2": "자신만의 패션 센스와 라이프스타일 브랜딩을 부각하기",
+      "choice_3": "인터뷰 내용을 오직 팀의 우승 목표에만 한정하도록 요청하기",
+      "choice_4": "사생활 보호와 훈련 집중을 위해 인터뷰 정중히 거절하기"
     },
     "lifestyle_media_2": {
-      "title": "Media Spotlight 2",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "미디어 포커스 2",
+      "description": "유력 스포츠 매체에서 당신의 일상을 다루는 단독 심층 인터뷰를 요청했습니다.",
+      "choice_1": "프로페셔널한 훈련 루틴과 자기관리 철학을 진솔하게 공개하기",
+      "choice_2": "자신만의 패션 센스와 라이프스타일 브랜딩을 부각하기",
+      "choice_3": "인터뷰 내용을 오직 팀의 우승 목표에만 한정하도록 요청하기",
+      "choice_4": "사생활 보호와 훈련 집중을 위해 인터뷰 정중히 거절하기"
     },
     "lifestyle_media_3": {
-      "title": "Media Spotlight 3",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "미디어 포커스 3",
+      "description": "유력 스포츠 매체에서 당신의 일상을 다루는 단독 심층 인터뷰를 요청했습니다.",
+      "choice_1": "프로페셔널한 훈련 루틴과 자기관리 철학을 진솔하게 공개하기",
+      "choice_2": "자신만의 패션 센스와 라이프스타일 브랜딩을 부각하기",
+      "choice_3": "인터뷰 내용을 오직 팀의 우승 목표에만 한정하도록 요청하기",
+      "choice_4": "사생활 보호와 훈련 집중을 위해 인터뷰 정중히 거절하기"
     },
     "lifestyle_media_4": {
-      "title": "Media Spotlight 4",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "미디어 포커스 4",
+      "description": "유력 스포츠 매체에서 당신의 일상을 다루는 단독 심층 인터뷰를 요청했습니다.",
+      "choice_1": "프로페셔널한 훈련 루틴과 자기관리 철학을 진솔하게 공개하기",
+      "choice_2": "자신만의 패션 센스와 라이프스타일 브랜딩을 부각하기",
+      "choice_3": "인터뷰 내용을 오직 팀의 우승 목표에만 한정하도록 요청하기",
+      "choice_4": "사생활 보호와 훈련 집중을 위해 인터뷰 정중히 거절하기"
     },
     "lifestyle_media_5": {
-      "title": "Media Spotlight 5",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "미디어 포커스 5",
+      "description": "유력 스포츠 매체에서 당신의 일상을 다루는 단독 심층 인터뷰를 요청했습니다.",
+      "choice_1": "프로페셔널한 훈련 루틴과 자기관리 철학을 진솔하게 공개하기",
+      "choice_2": "자신만의 패션 센스와 라이프스타일 브랜딩을 부각하기",
+      "choice_3": "인터뷰 내용을 오직 팀의 우승 목표에만 한정하도록 요청하기",
+      "choice_4": "사생활 보호와 훈련 집중을 위해 인터뷰 정중히 거절하기"
     },
     "lifestyle_media_6": {
-      "title": "Media Spotlight 6",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "미디어 포커스 6",
+      "description": "유력 스포츠 매체에서 당신의 일상을 다루는 단독 심층 인터뷰를 요청했습니다.",
+      "choice_1": "프로페셔널한 훈련 루틴과 자기관리 철학을 진솔하게 공개하기",
+      "choice_2": "자신만의 패션 센스와 라이프스타일 브랜딩을 부각하기",
+      "choice_3": "인터뷰 내용을 오직 팀의 우승 목표에만 한정하도록 요청하기",
+      "choice_4": "사생활 보호와 훈련 집중을 위해 인터뷰 정중히 거절하기"
     },
     "lifestyle_media_7": {
-      "title": "Media Spotlight 7",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "미디어 포커스 7",
+      "description": "유력 스포츠 매체에서 당신의 일상을 다루는 단독 심층 인터뷰를 요청했습니다.",
+      "choice_1": "프로페셔널한 훈련 루틴과 자기관리 철학을 진솔하게 공개하기",
+      "choice_2": "자신만의 패션 센스와 라이프스타일 브랜딩을 부각하기",
+      "choice_3": "인터뷰 내용을 오직 팀의 우승 목표에만 한정하도록 요청하기",
+      "choice_4": "사생활 보호와 훈련 집중을 위해 인터뷰 정중히 거절하기"
     },
     "lifestyle_media_8": {
-      "title": "Media Spotlight 8",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "미디어 포커스 8",
+      "description": "유력 스포츠 매체에서 당신의 일상을 다루는 단독 심층 인터뷰를 요청했습니다.",
+      "choice_1": "프로페셔널한 훈련 루틴과 자기관리 철학을 진솔하게 공개하기",
+      "choice_2": "자신만의 패션 센스와 라이프스타일 브랜딩을 부각하기",
+      "choice_3": "인터뷰 내용을 오직 팀의 우승 목표에만 한정하도록 요청하기",
+      "choice_4": "사생활 보호와 훈련 집중을 위해 인터뷰 정중히 거절하기"
     },
     "lifestyle_media_9": {
-      "title": "Media Spotlight 9",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "미디어 포커스 9",
+      "description": "유력 스포츠 매체에서 당신의 일상을 다루는 단독 심층 인터뷰를 요청했습니다.",
+      "choice_1": "프로페셔널한 훈련 루틴과 자기관리 철학을 진솔하게 공개하기",
+      "choice_2": "자신만의 패션 센스와 라이프스타일 브랜딩을 부각하기",
+      "choice_3": "인터뷰 내용을 오직 팀의 우승 목표에만 한정하도록 요청하기",
+      "choice_4": "사생활 보호와 훈련 집중을 위해 인터뷰 정중히 거절하기"
     },
     "lifestyle_media_10": {
-      "title": "Media Spotlight 10",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "미디어 포커스 10",
+      "description": "유력 스포츠 매체에서 당신의 일상을 다루는 단독 심층 인터뷰를 요청했습니다.",
+      "choice_1": "프로페셔널한 훈련 루틴과 자기관리 철학을 진솔하게 공개하기",
+      "choice_2": "자신만의 패션 센스와 라이프스타일 브랜딩을 부각하기",
+      "choice_3": "인터뷰 내용을 오직 팀의 우승 목표에만 한정하도록 요청하기",
+      "choice_4": "사생활 보호와 훈련 집중을 위해 인터뷰 정중히 거절하기"
     },
     "rivalry_drama_1": {
-      "title": "Rivalry Encounter 1",
-      "description": "Tensions flare during a heated derby buildup with opponent players.",
-      "choice_1": "Maintain composure and answer on the pitch",
-      "choice_2": "Respond fiercely to defend club pride",
-      "choice_3": "De-escalate tension through captain leadership",
-      "choice_4": "Use energy as motivation for extra training"
+      "title": "치열한 더비 신경전 1",
+      "description": "숙명의 라이벌과의 더비를 앞두고 상대 선수들의 장외 도발로 긴장감이 치솟습니다.",
+      "choice_1": "평정심을 잃지 않고 그라운드 위 실력으로 답하겠다고 다짐하기",
+      "choice_2": "클럽의 자존심을 걸고 단호하고 당당하게 맞받아치기",
+      "choice_3": "주장다운 리더십을 발휘해 선수단의 과열된 흥분을 가라앉히기",
+      "choice_4": "상대의 도발을 추가 특훈의 동기부여 기폭제로 삼기"
     },
     "rivalry_drama_2": {
-      "title": "Rivalry Encounter 2",
-      "description": "Tensions flare during a heated derby buildup with opponent players.",
-      "choice_1": "Maintain composure and answer on the pitch",
-      "choice_2": "Respond fiercely to defend club pride",
-      "choice_3": "De-escalate tension through captain leadership",
-      "choice_4": "Use energy as motivation for extra training"
+      "title": "치열한 더비 신경전 2",
+      "description": "숙명의 라이벌과의 더비를 앞두고 상대 선수들의 장외 도발로 긴장감이 치솟습니다.",
+      "choice_1": "평정심을 잃지 않고 그라운드 위 실력으로 답하겠다고 다짐하기",
+      "choice_2": "클럽의 자존심을 걸고 단호하고 당당하게 맞받아치기",
+      "choice_3": "주장다운 리더십을 발휘해 선수단의 과열된 흥분을 가라앉히기",
+      "choice_4": "상대의 도발을 추가 특훈의 동기부여 기폭제로 삼기"
     },
     "rivalry_drama_3": {
-      "title": "Rivalry Encounter 3",
-      "description": "Tensions flare during a heated derby buildup with opponent players.",
-      "choice_1": "Maintain composure and answer on the pitch",
-      "choice_2": "Respond fiercely to defend club pride",
-      "choice_3": "De-escalate tension through captain leadership",
-      "choice_4": "Use energy as motivation for extra training"
+      "title": "치열한 더비 신경전 3",
+      "description": "숙명의 라이벌과의 더비를 앞두고 상대 선수들의 장외 도발로 긴장감이 치솟습니다.",
+      "choice_1": "평정심을 잃지 않고 그라운드 위 실력으로 답하겠다고 다짐하기",
+      "choice_2": "클럽의 자존심을 걸고 단호하고 당당하게 맞받아치기",
+      "choice_3": "주장다운 리더십을 발휘해 선수단의 과열된 흥분을 가라앉히기",
+      "choice_4": "상대의 도발을 추가 특훈의 동기부여 기폭제로 삼기"
     },
     "rivalry_drama_4": {
-      "title": "Rivalry Encounter 4",
-      "description": "Tensions flare during a heated derby buildup with opponent players.",
-      "choice_1": "Maintain composure and answer on the pitch",
-      "choice_2": "Respond fiercely to defend club pride",
-      "choice_3": "De-escalate tension through captain leadership",
-      "choice_4": "Use energy as motivation for extra training"
+      "title": "치열한 더비 신경전 4",
+      "description": "숙명의 라이벌과의 더비를 앞두고 상대 선수들의 장외 도발로 긴장감이 치솟습니다.",
+      "choice_1": "평정심을 잃지 않고 그라운드 위 실력으로 답하겠다고 다짐하기",
+      "choice_2": "클럽의 자존심을 걸고 단호하고 당당하게 맞받아치기",
+      "choice_3": "주장다운 리더십을 발휘해 선수단의 과열된 흥분을 가라앉히기",
+      "choice_4": "상대의 도발을 추가 특훈의 동기부여 기폭제로 삼기"
     },
     "rivalry_drama_5": {
-      "title": "Rivalry Encounter 5",
-      "description": "Tensions flare during a heated derby buildup with opponent players.",
-      "choice_1": "Maintain composure and answer on the pitch",
-      "choice_2": "Respond fiercely to defend club pride",
-      "choice_3": "De-escalate tension through captain leadership",
-      "choice_4": "Use energy as motivation for extra training"
+      "title": "치열한 더비 신경전 5",
+      "description": "숙명의 라이벌과의 더비를 앞두고 상대 선수들의 장외 도발로 긴장감이 치솟습니다.",
+      "choice_1": "평정심을 잃지 않고 그라운드 위 실력으로 답하겠다고 다짐하기",
+      "choice_2": "클럽의 자존심을 걸고 단호하고 당당하게 맞받아치기",
+      "choice_3": "주장다운 리더십을 발휘해 선수단의 과열된 흥분을 가라앉히기",
+      "choice_4": "상대의 도발을 추가 특훈의 동기부여 기폭제로 삼기"
     },
     "veteran_mentorship_1": {
-      "title": "Mentorship Session 1",
-      "description": "An experienced squad veteran offers advice on positioning and game reading.",
-      "choice_1": "Absorb advice greedily and practice techniques",
-      "choice_2": "Discuss tactical concepts in depth",
-      "choice_3": "Express gratitude and offer to mentor academy players",
-      "choice_4": "Focus on applying lessons in next match"
+      "title": "베테랑의 멘토링 1",
+      "description": "산전수전을 겪은 팀의 베테랑 선배가 위치 선정과 경기 흐름을 읽는 특급 노하우를 전수합니다.",
+      "choice_1": "조언을 스펀지처럼 흡수하고 즉시 개인 훈련에 적용하기",
+      "choice_2": "고급 전술적 움직임에 대해 선배와 깊이 있게 토론하기",
+      "choice_3": "감사를 전하며 이제는 자신이 유스 후배들의 멘토가 되겠다고 화답하기",
+      "choice_4": "전수받은 노하우를 다음 공식 경기에서 완벽하게 증명하기"
     },
     "veteran_mentorship_2": {
-      "title": "Mentorship Session 2",
-      "description": "An experienced squad veteran offers advice on positioning and game reading.",
-      "choice_1": "Absorb advice greedily and practice techniques",
-      "choice_2": "Discuss tactical concepts in depth",
-      "choice_3": "Express gratitude and offer to mentor academy players",
-      "choice_4": "Focus on applying lessons in next match"
+      "title": "베테랑의 멘토링 2",
+      "description": "산전수전을 겪은 팀의 베테랑 선배가 위치 선정과 경기 흐름을 읽는 특급 노하우를 전수합니다.",
+      "choice_1": "조언을 스펀지처럼 흡수하고 즉시 개인 훈련에 적용하기",
+      "choice_2": "고급 전술적 움직임에 대해 선배와 깊이 있게 토론하기",
+      "choice_3": "감사를 전하며 이제는 자신이 유스 후배들의 멘토가 되겠다고 화답하기",
+      "choice_4": "전수받은 노하우를 다음 공식 경기에서 완벽하게 증명하기"
     },
     "veteran_mentorship_3": {
-      "title": "Mentorship Session 3",
-      "description": "An experienced squad veteran offers advice on positioning and game reading.",
-      "choice_1": "Absorb advice greedily and practice techniques",
-      "choice_2": "Discuss tactical concepts in depth",
-      "choice_3": "Express gratitude and offer to mentor academy players",
-      "choice_4": "Focus on applying lessons in next match"
+      "title": "베테랑의 멘토링 3",
+      "description": "산전수전을 겪은 팀의 베테랑 선배가 위치 선정과 경기 흐름을 읽는 특급 노하우를 전수합니다.",
+      "choice_1": "조언을 스펀지처럼 흡수하고 즉시 개인 훈련에 적용하기",
+      "choice_2": "고급 전술적 움직임에 대해 선배와 깊이 있게 토론하기",
+      "choice_3": "감사를 전하며 이제는 자신이 유스 후배들의 멘토가 되겠다고 화답하기",
+      "choice_4": "전수받은 노하우를 다음 공식 경기에서 완벽하게 증명하기"
     },
     "veteran_mentorship_4": {
-      "title": "Mentorship Session 4",
-      "description": "An experienced squad veteran offers advice on positioning and game reading.",
-      "choice_1": "Absorb advice greedily and practice techniques",
-      "choice_2": "Discuss tactical concepts in depth",
-      "choice_3": "Express gratitude and offer to mentor academy players",
-      "choice_4": "Focus on applying lessons in next match"
+      "title": "베테랑의 멘토링 4",
+      "description": "산전수전을 겪은 팀의 베테랑 선배가 위치 선정과 경기 흐름을 읽는 특급 노하우를 전수합니다.",
+      "choice_1": "조언을 스펀지처럼 흡수하고 즉시 개인 훈련에 적용하기",
+      "choice_2": "고급 전술적 움직임에 대해 선배와 깊이 있게 토론하기",
+      "choice_3": "감사를 전하며 이제는 자신이 유스 후배들의 멘토가 되겠다고 화답하기",
+      "choice_4": "전수받은 노하우를 다음 공식 경기에서 완벽하게 증명하기"
     },
     "veteran_mentorship_5": {
-      "title": "Mentorship Session 5",
-      "description": "An experienced squad veteran offers advice on positioning and game reading.",
-      "choice_1": "Absorb advice greedily and practice techniques",
-      "choice_2": "Discuss tactical concepts in depth",
-      "choice_3": "Express gratitude and offer to mentor academy players",
-      "choice_4": "Focus on applying lessons in next match"
+      "title": "베테랑의 멘토링 5",
+      "description": "산전수전을 겪은 팀의 베테랑 선배가 위치 선정과 경기 흐름을 읽는 특급 노하우를 전수합니다.",
+      "choice_1": "조언을 스펀지처럼 흡수하고 즉시 개인 훈련에 적용하기",
+      "choice_2": "고급 전술적 움직임에 대해 선배와 깊이 있게 토론하기",
+      "choice_3": "감사를 전하며 이제는 자신이 유스 후배들의 멘토가 되겠다고 화답하기",
+      "choice_4": "전수받은 노하우를 다음 공식 경기에서 완벽하게 증명하기"
+    },
+    "specialTraining": {
+      "title": "특별 강화 훈련",
+      "description": "코치진이 기량 향상을 위한 특훈 프로그램을 제안했습니다. 기량은 늘겠지만 체력 소모가 극심합니다.",
+      "choice_accept": "추가 특훈에 돌입하기",
+      "choice_decline": "정규 훈련만 소화하기"
+    },
+    "sponsor": {
+      "title": "스폰서십 제안",
+      "description": "{brand}에서 광고 후원 계약을 제안했습니다. 상당한 수익이지만 대외 활동 요구가 많습니다.",
+      "choice_accept": "계약서에 서명하기",
+      "choice_decline": "제안 정중히 거절하기",
+      "choice_negotiate": "조건 상향 요구하기"
+    },
+    "rivalry_drama_6": {
+      "title": "치열한 더비 신경전 6",
+      "description": "숙명의 라이벌과의 더비를 앞두고 상대 선수들의 장외 도발로 긴장감이 치솟습니다.",
+      "choice_1": "평정심을 잃지 않고 그라운드 위 실력으로 답하겠다고 다짐하기",
+      "choice_2": "클럽의 자존심을 걸고 단호하고 당당하게 맞받아치기",
+      "choice_3": "주장다운 리더십을 발휘해 선수단의 과열된 흥분을 가라앉히기",
+      "choice_4": "상대의 도발을 추가 특훈의 동기부여 기폭제로 삼기"
+    },
+    "rivalry_drama_7": {
+      "title": "치열한 더비 신경전 7",
+      "description": "숙명의 라이벌과의 더비를 앞두고 상대 선수들의 장외 도발로 긴장감이 치솟습니다.",
+      "choice_1": "평정심을 잃지 않고 그라운드 위 실력으로 답하겠다고 다짐하기",
+      "choice_2": "클럽의 자존심을 걸고 단호하고 당당하게 맞받아치기",
+      "choice_3": "주장다운 리더십을 발휘해 선수단의 과열된 흥분을 가라앉히기",
+      "choice_4": "상대의 도발을 추가 특훈의 동기부여 기폭제로 삼기"
+    },
+    "rivalry_drama_8": {
+      "title": "치열한 더비 신경전 8",
+      "description": "숙명의 라이벌과의 더비를 앞두고 상대 선수들의 장외 도발로 긴장감이 치솟습니다.",
+      "choice_1": "평정심을 잃지 않고 그라운드 위 실력으로 답하겠다고 다짐하기",
+      "choice_2": "클럽의 자존심을 걸고 단호하고 당당하게 맞받아치기",
+      "choice_3": "주장다운 리더십을 발휘해 선수단의 과열된 흥분을 가라앉히기",
+      "choice_4": "상대의 도발을 추가 특훈의 동기부여 기폭제로 삼기"
+    },
+    "rivalry_drama_9": {
+      "title": "치열한 더비 신경전 9",
+      "description": "숙명의 라이벌과의 더비를 앞두고 상대 선수들의 장외 도발로 긴장감이 치솟습니다.",
+      "choice_1": "평정심을 잃지 않고 그라운드 위 실력으로 답하겠다고 다짐하기",
+      "choice_2": "클럽의 자존심을 걸고 단호하고 당당하게 맞받아치기",
+      "choice_3": "주장다운 리더십을 발휘해 선수단의 과열된 흥분을 가라앉히기",
+      "choice_4": "상대의 도발을 추가 특훈의 동기부여 기폭제로 삼기"
+    },
+    "rivalry_drama_10": {
+      "title": "치열한 더비 신경전 10",
+      "description": "숙명의 라이벌과의 더비를 앞두고 상대 선수들의 장외 도발로 긴장감이 치솟습니다.",
+      "choice_1": "평정심을 잃지 않고 그라운드 위 실력으로 답하겠다고 다짐하기",
+      "choice_2": "클럽의 자존심을 걸고 단호하고 당당하게 맞받아치기",
+      "choice_3": "주장다운 리더십을 발휘해 선수단의 과열된 흥분을 가라앉히기",
+      "choice_4": "상대의 도발을 추가 특훈의 동기부여 기폭제로 삼기"
+    },
+    "veteran_mentorship_6": {
+      "title": "베테랑의 멘토링 6",
+      "description": "산전수전을 겪은 팀의 베테랑 선배가 위치 선정과 경기 흐름을 읽는 특급 노하우를 전수합니다.",
+      "choice_1": "조언을 스펀지처럼 흡수하고 즉시 개인 훈련에 적용하기",
+      "choice_2": "고급 전술적 움직임에 대해 선배와 깊이 있게 토론하기",
+      "choice_3": "감사를 전하며 이제는 자신이 유스 후배들의 멘토가 되겠다고 화답하기",
+      "choice_4": "전수받은 노하우를 다음 공식 경기에서 완벽하게 증명하기"
+    },
+    "veteran_mentorship_7": {
+      "title": "베테랑의 멘토링 7",
+      "description": "산전수전을 겪은 팀의 베테랑 선배가 위치 선정과 경기 흐름을 읽는 특급 노하우를 전수합니다.",
+      "choice_1": "조언을 스펀지처럼 흡수하고 즉시 개인 훈련에 적용하기",
+      "choice_2": "고급 전술적 움직임에 대해 선배와 깊이 있게 토론하기",
+      "choice_3": "감사를 전하며 이제는 자신이 유스 후배들의 멘토가 되겠다고 화답하기",
+      "choice_4": "전수받은 노하우를 다음 공식 경기에서 완벽하게 증명하기"
+    },
+    "veteran_mentorship_8": {
+      "title": "베테랑의 멘토링 8",
+      "description": "산전수전을 겪은 팀의 베테랑 선배가 위치 선정과 경기 흐름을 읽는 특급 노하우를 전수합니다.",
+      "choice_1": "조언을 스펀지처럼 흡수하고 즉시 개인 훈련에 적용하기",
+      "choice_2": "고급 전술적 움직임에 대해 선배와 깊이 있게 토론하기",
+      "choice_3": "감사를 전하며 이제는 자신이 유스 후배들의 멘토가 되겠다고 화답하기",
+      "choice_4": "전수받은 노하우를 다음 공식 경기에서 완벽하게 증명하기"
+    },
+    "veteran_mentorship_9": {
+      "title": "베테랑의 멘토링 9",
+      "description": "산전수전을 겪은 팀의 베테랑 선배가 위치 선정과 경기 흐름을 읽는 특급 노하우를 전수합니다.",
+      "choice_1": "조언을 스펀지처럼 흡수하고 즉시 개인 훈련에 적용하기",
+      "choice_2": "고급 전술적 움직임에 대해 선배와 깊이 있게 토론하기",
+      "choice_3": "감사를 전하며 이제는 자신이 유스 후배들의 멘토가 되겠다고 화답하기",
+      "choice_4": "전수받은 노하우를 다음 공식 경기에서 완벽하게 증명하기"
+    },
+    "veteran_mentorship_10": {
+      "title": "베테랑의 멘토링 10",
+      "description": "산전수전을 겪은 팀의 베테랑 선배가 위치 선정과 경기 흐름을 읽는 특급 노하우를 전수합니다.",
+      "choice_1": "조언을 스펀지처럼 흡수하고 즉시 개인 훈련에 적용하기",
+      "choice_2": "고급 전술적 움직임에 대해 선배와 깊이 있게 토론하기",
+      "choice_3": "감사를 전하며 이제는 자신이 유스 후배들의 멘토가 되겠다고 화답하기",
+      "choice_4": "전수받은 노하우를 다음 공식 경기에서 완벽하게 증명하기"
     }
   },
   "contractTermination": {
@@ -2173,10 +2289,10 @@
       }
     },
     "narrativeChange": {
-      "Prodigy": "미디어 내러티브는 'Prodigy'로 이동합니다.",
-      "OntheRise": "미디어 내러티브는 'On the Rise'로 이동합니다.",
-      "EstablishedStar": "미디어 내러티브는 '기존 스타'로 이동합니다.",
-      "UnderPressure": "미디어 내러티브는 'Under Pressure'로 이동합니다.",
+      "Prodigy": "미디어 내러티브는 '신동'로 이동합니다.",
+      "OntheRise": "미디어 내러티브는 '상승세'로 이동합니다.",
+      "EstablishedStar": "미디어 내러티브는 '확고한 스타'로 이동합니다.",
+      "UnderPressure": "미디어 내러티브는 '압박 속'으로 이동합니다.",
       "Journeyman": "미디어 내러티브는 'Journeyman'으로 전환됩니다.",
       "VeteranLeader": "미디어 내러티브는 '베테랑 리더'로 전환됩니다.",
       "VeteranStar": "미디어 내러티브는 '베테랑 스타'로 이동합니다.",
@@ -2186,19 +2302,19 @@
       "ComebackKid": "미디어 내러티브는 '컴백 키드'로 이동합니다.",
       "CultHero": "미디어 내러티브는 '컬트 히어로'로 전환됩니다.",
       "HometownHero": "미디어 내러티브는 '고향 영웅'으로 이동합니다.",
-      "PolarizingFigure": "미디어 내러티브는 'Polarizing Figure'로 이동합니다.",
-      "PressDarling": "미디어 내러티브는 'Press Darling'으로 전환됩니다.",
-      "SystemPlayer": "미디어 내러티브는 '시스템 플레이어'로 이동합니다.",
+      "PolarizingFigure": "미디어 내러티브는 '논란의 인물'로 이동합니다.",
+      "PressDarling": "미디어 내러티브는 '언론의 총아'로 이동합니다.",
+      "SystemPlayer": "미디어 내러티브는 '시스템 선수'로 이동합니다.",
       "InjuryComeback": "언론 내러티브는 '부상 복귀'로 전환"
     }
   },
   "mediaNarrative": {
     "ComebackKid": {
       "description": "원래의 모습으로 돌아올 확률을 무시한 것에 대해 칭찬을 받았습니다.",
-      "name": "컴백키드",
+      "name": "컴백 키드",
       "quote1": "많은 의심 끝에 다시 정상에 오른 기분이 어떤가요?",
       "quote2": "팬들은 믿음을 멈추지 않았습니다. 그들의 지원은 당신에게 어떤 의미인가요?",
-      "quote3": "이것이 당신의 경력에 ​​있어 두 번째 정점의 시작인가요?"
+      "quote3": "이것이 당신의 경력에 있어 두 번째 정점의 시작인가요?"
     },
     "CultHero": {
       "description": "클럽과의 독특한 연결로 인해 팬층의 사랑을 받았습니다.",
@@ -2209,7 +2325,7 @@
     },
     "EstablishedStar": {
       "description": "최고의 능력을 발휘하는 엘리트 연기자로 인정받았습니다.",
-      "name": "스타 설립",
+      "name": "확고한 스타",
       "quote1": "리그 최고의 스타 중 한 명인 이번 시즌 목표는 무엇인가요?",
       "quote2": "많은 젊은 선수들이 당신을 존경합니다. 그 역할을 어떻게 처리하시나요?",
       "quote3": "큰 경기에 출전해야 한다는 추가적인 압박감을 느끼시나요?"
@@ -2222,7 +2338,7 @@
       "quote3": "클럽에서 행운을 찾기 위해 어떻게 노력하고 있나요?"
     },
     "ForgottenMan": {
-      "description": "몇 분 동안 고군분투했지만 관리자는 대부분 무시했습니다.",
+      "description": "몇 분 동안 고군분투했지만 감독은 대부분 무시했습니다.",
       "name": "잊혀진 남자",
       "quote1": "우리가 경기장에서 당신을 본 지 꽤 오랜 시간이 지났습니다. 기분이 어때요?",
       "quote2": "이 관리 하에서 아직 미래가 있다고 생각하시나요?",
@@ -2244,7 +2360,7 @@
     },
     "Journeyman": {
       "description": "축구계의 경험 많은 여행자로 간주됩니다.",
-      "name": "숙련공",
+      "name": "저니맨",
       "quote1": "여러 곳에서 연주를 하셨습니다. 어떻게 그렇게 빨리 적응하나요?",
       "quote2": "여행을 통해 배운 가장 귀중한 교훈은 무엇입니까?",
       "quote3": "더 많은 안정성을 원하시나요, 아니면 다양성을 즐기시나요?"
@@ -2258,14 +2374,14 @@
     },
     "PolarizingFigure": {
       "description": "전문가와 팬 사이에서 의견이 갈리는 분열적인 인물.",
-      "name": "편광 그림",
+      "name": "논란의 인물",
       "quote1": "의견이 분분하신 것 같습니다. 왜 그렇다고 생각하시나요?",
       "quote2": "당신이 받는 비판이 당신의 게임에 전혀 영향을 미치나요?",
       "quote3": "언론과 대중이 오해하고 있다고 생각하시나요?"
     },
     "PressDarling": {
       "description": "언론과 매우 우호적인 관계를 누리고 있습니다.",
-      "name": "프레스 달링",
+      "name": "언론의 총아",
       "quote1": "언론이 당신을 사랑하는 것 같아요. 그게 당신의 자신감에 도움이 되나요?",
       "quote2": "당신은 좋은 이유로 항상 헤드라인에 등장합니다. 비밀은 무엇입니까?",
       "quote3": "선수가 좋은 이미지를 유지하는 것이 얼마나 중요합니까?"
@@ -2279,7 +2395,7 @@
     },
     "SystemPlayer": {
       "description": "그가 이 특정 전술적 설정 밖에서도 수행할 수 있는지에 대해서는 의문이 남아 있습니다.",
-      "name": "시스템 플레이어",
+      "name": "시스템 선수",
       "quote1": "당신은 이 시스템에 완벽하게 들어맞습니다. 다른 전술이 걱정되시나요?",
       "quote2": "어떤 사람들은 당신이 설정 때문에 이렇게 좋아 보인다고 말합니다. 반응?",
       "quote3": "감독이 접근 방식을 바꾸면 게임을 조정할 수 있나요?"
@@ -2327,7 +2443,7 @@
   },
   "performance": {
     "below_expectations": "기대 이하",
-    "excellent_season": "우수한 계절",
+    "excellent_season": "우수한 시즌",
     "outstanding_season": "뛰어난 시즌"
   },
   "progression": {
@@ -2357,7 +2473,7 @@
         "contractRenewal": {
           "answers": {
             "ambitious": "이 클럽과 함께 트로피를 들어 올리고 싶습니다. 재계약은 우리가 옳은 길을 가고 있다는 증거입니다.",
-            "grateful": "클럽이 보여준 신뢰에 감사드립니다. 제 집과 같은 곳에서 미래를 계속할 수 있어 기쁩니다.",
+            "grateful": "{team}의 흔들림 없는 신뢰에 감사드립니다. 이곳은 제 집처럼 느껴집니다.",
             "loyal": "다른 제안은 신경 쓰지 않았습니다. 저의 심장은 {team}을 향해 뛰고 있습니다."
           },
           "question": "{team}과 장기 재계약을 체결하신 소감이 어떠신가요?"
@@ -2380,89 +2496,89 @@
         },
         "firstProfessionalGoal": {
           "answers": {
-            "ambitious": "이것은 시작일 뿐입니다. 더 많은 골을 넣어 팀이 목표를 달성하는 데 기여하고 싶습니다.",
-            "ecstatic": "말로 표현하기 힘든 순간입니다! 이 골을 위해 평생을 훈련해 왔습니다.",
-            "humble": "골을 넣어서 기쁘지만, 팀의 승리가 가장 중요합니다. 동료들의 도움이 컸습니다."
+            "hungry": "이것은 시작일 뿐입니다. 더 많은 골을 넣어 팀이 목표를 달성하는 데 기여하고 싶습니다.",
+            "joyful": "말로 표현하기 힘든 순간입니다! 이 골을 위해 평생을 훈련해 왔습니다.",
+            "teamFirst": "골을 넣어서 기쁘지만, 팀의 승리가 가장 중요합니다. 동료들의 도움이 컸습니다."
           },
           "question": "데뷔 골을 축하드립니다! 공이 골망을 흔드는 순간 어떤 생각이 들었나요?"
         },
         "futureAmbitions": {
           "answers": {
-            "focused": "오늘에 집중할 뿐입니다. 매일 발전하다 보면 미래는 자연스럽게 따라올 것이라 믿습니다.",
-            "loyal": "이곳에서 레전드가 되고 싶습니다. 제 모든 커리어를 이 클럽에 바칠 준비가 되어 있습니다.",
-            "worldClass": "세계 최고의 선수가 되고 싶습니다. 발롱도르를 목표로 매 순간 최선을 다하고 있습니다."
+            "legend": "이곳에서 레전드가 되고 싶습니다. 제 모든 커리어를 이 클럽에 바칠 준비가 되어 있습니다.",
+            "silverware": "트로피가 커리어를 결정합니다. 리그 우승과 유럽 챔피언스컵을 차지하고 싶습니다.",
+            "stepByStep": "오늘에 집중할 뿐입니다. 매일 발전하다 보면 미래는 자연스럽게 따라올 것이라 믿습니다."
           },
           "question": "당신의 장기적인 커리어 목표는 무엇인가요?"
         },
         "goalDrought": {
           "answers": {
             "confident": "공격수에게는 이런 시기가 있습니다. 곧 골이 터질 것이라 믿고 연습에 매진하고 있습니다.",
-            "focused": "골도 중요하지만 팀 플레이에 더 기여하려 노력 중입니다. 승리가 최우선입니다.",
-            "frustrated": "당연히 골이 터지지 않아 답답합니다. 하지만 포기하지 않고 기회를 노리겠습니다."
+            "frustrated": "당연히 골이 터지지 않아 답답합니다. 하지만 포기하지 않고 기회를 노리겠습니다.",
+            "patient": "당황하지 않습니다. 위험한 지역으로 계속 침투하면 운도 따라올 겁니다."
           },
           "question": "{count}경기째 득점이 없습니다. 득점력 가뭄에 대해 어떻게 생각하시나요?"
         },
         "injuryComeback": {
           "answers": {
-            "determined": "오랜 시간 기다려 왔습니다. 예전보다 더 강해져서 돌아왔다는 것을 보여드리겠습니다.",
-            "grateful": "재활을 도와준 의료진과 기다려 준 팬분들께 정말 감사하다는 말을 전하고 싶습니다.",
-            "relieved": "다시 피치를 밟는다는 사실만으로도 행복합니다. 그라운드가 정말 그리웠습니다."
+            "relieved": "다시 피치를 밟는다는 사실만으로도 행복합니다. 그라운드가 정말 그리웠습니다.",
+            "stronger": "오랜 시간 기다려 왔습니다. 예전보다 더 강해져서 돌아왔다는 것을 보여드리겠습니다.",
+            "cautious": "출전 시간을 쌓는 게 좋습니다. 경기마다 리듬을 찾아가고 있습니다."
           },
           "question": "긴 재활 끝에 복귀하셨습니다. 다시 경기장에 선 기분은 어떠신가요?"
         },
         "leagueTitleWin": {
           "answers": {
-            "ecstatic": "우리가 챔피언입니다! 이 순간을 위해 1년 내내 싸워왔습니다. 오늘 밤을 즐기겠습니다!",
-            "proud": "이 팀은 진정한 자격이 있습니다. 한 명 한 명의 노력이 모여 역사를 만들었습니다.",
-            "relieved": "드디어 해냈습니다. 부담감이 컸지만, 우리가 최고라는 것을 증명하게 되어 안도감이 듭니다."
+            "triumphant": "우리가 챔피언입니다! 이 순간을 위해 1년 내내 싸워왔습니다. 오늘 밤을 즐기겠습니다!",
+            "emotional": "1년간의 희생이 이 순간에 결실을 맺었습니다. 순수한 기쁨의 눈물입니다.",
+            "hungryForMore": "오늘 밤은 만끽하되, 이 스쿼드는 지속적인 지배를 위해 만들어졌습니다. 연속 우승을 원합니다."
           },
           "question": "리그 우승 트로피를 들어 올리셨습니다! 챔피언이 된 기분은 어떤가요?"
         },
         "majorTrophyLoss": {
           "answers": {
             "devastated": "지금은 마음이 너무 아픕니다. 팬분들께 정말 죄송하고 할 말이 없습니다.",
-            "optimistic": "실패에서 배우겠습니다. 우리는 다시 돌아올 것이고, 다음에는 더 강해질 것입니다.",
-            "professional": "이것이 축구입니다. 상대팀의 승리를 축하하며, 우리는 부족했던 점을 보완해야 합니다."
+            "resilient": "실패에서 배우겠습니다. 우리는 다시 돌아올 것이고, 다음에는 더 강해질 것입니다.",
+            "proud": "이것이 축구입니다. 상대팀의 승리를 축하하며, 우리는 부족했던 점을 보완해야 합니다."
           },
           "question": "결승전에서 아쉽게 패배했습니다. 가장 속상한 점은 무엇인가요?"
         },
         "postMatch": {
           "answers": {
-            "ambitious": "개인적인 기록도 좋지만, 팀이 더 완벽해질 수 있다고 생각합니다. 만족하지 않겠습니다.",
-            "frustrated": "우리가 경기를 지배했지만 결과가 아쉽습니다. 이런 실수를 반복해서는 안 됩니다.",
-            "happy": "정말 훌륭한 팀 승리였습니다. 우리 선수들이 자랑스럽고 결과에 만족합니다."
+            "satisfied": "정말 훌륭한 팀 승리였습니다. 우리 선수들이 자랑스럽고 결과에 만족합니다.",
+            "critical": "개인적인 기록도 좋지만, 팀이 더 완벽해질 수 있다고 생각합니다. 만족하지 않겠습니다.",
+            "drained": "처음부터 끝까지 치열한 싸움이었습니다. 한계까지 밀어붙여 진짜 정신력을 보여줬습니다."
           },
           "question": "방금 경기가 끝났습니다. 오늘의 성과에 대해 전반적으로 어떻게 생각하시나요?"
         },
         "retirementAnnouncement": {
           "answers": {
-            "emotional": "제 인생의 전부였던 축구를 떠나는 결정을 내리기가 쉽지 않았습니다. 모든 순간이 소중했습니다.",
-            "grateful": "모든 클럽, 감독님, 동료, 그리고 팬분들께 감사합니다. 여러분 덕분에 행복한 여정이었습니다.",
-            "ready": "이제 다음 챕터로 넘어갈 준비가 되었습니다. 후회 없이 달려온 커리어였습니다."
+            "peaceful": "이제 다음 챕터로 넘어갈 준비가 되었습니다. 후회 없이 달려온 커리어였습니다.",
+            "nostalgic": "제 인생의 전부였던 축구를 떠나는 결정을 내리기가 쉽지 않았습니다. 모든 순간이 소중했습니다.",
+            "grateful": "모든 클럽, 감독님, 동료, 그리고 팬분들께 감사합니다. 여러분 덕분에 행복한 여정이었습니다."
           },
           "question": "공식적으로 은퇴를 선언하셨습니다. 지금 이 순간 어떤 감정이 드시는지 궁금합니다."
         },
         "teammateFallingOut": {
           "answers": {
             "dismissive": "축구장에서는 흔히 일어나는 일입니다. 큰 의미를 두지 마세요.",
-            "professional": "개인적인 감정보다는 팀의 성공을 위해 프로답게 행동할 것입니다.",
-            "regretful": "더 잘 대처했어야 했습니다. 곧 오해를 풀고 다시 하나가 되길 바랍니다."
+            "united": "개인적인 감정보다는 팀의 성공을 위해 프로답게 행동할 것입니다.",
+            "honest": "더 잘 대처했어야 했습니다. 곧 오해를 풀고 다시 하나가 되길 바랍니다."
           },
           "question": "동료인 {player}와 갈등이 있다는 루머가 있습니다. 사실인가요?"
         },
         "transferRumours": {
           "answers": {
-            "committed": "저는 지금 이곳에 있습니다. 소문에 신경 쓰지 않고 현재 클럽을 위해 최선을 다하겠습니다.",
-            "honest": "축구계에서는 어떤 일이든 일어날 수 있습니다. 저의 커리어에 가장 좋은 선택을 고민하고 있습니다.",
-            "vague": "이적 시장은 에이전트가 관리하는 부분입니다. 저는 오직 경기에만 집중하고 싶습니다."
+            "focused": "제 머릿속은 100% {team}에 있습니다. 협상은 구단과 제 에이전트 사이의 일입니다.",
+            "open": "축구계에서는 어떤 일이든 일어날 수 있습니다. 저의 커리어에 가장 좋은 선택을 고민하고 있습니다.",
+            "committed": "저는 지금 {team}에 완전히 헌신하고 있습니다. 가십성 소문에 신경 쓰지 않습니다."
           },
           "question": "최근 빅클럽들과의 이적 루머가 끊이지 않고 있습니다. 미래에 대해 결정된 것이 있나요?"
         },
         "worldCupWin": {
           "answers": {
-            "ecstatic": "우리가 세계 챔피언입니다! 나라 전체가 축제 분위기일 것 같네요. 인생 최고의 순간입니다!",
-            "legendary": "이 트로피를 위해 모든 것을 바쳤습니다. 이제 저의 이름이 역사에 남게 되어 영광입니다.",
-            "speechless": "무슨 말을 해야 할지 모르겠네요... 정말 꿈만 같습니다. 여기까지 올 수 있도록 도와준 모든 분께 감사를 돌립니다."
+            "immortal": "우리가 세계 챔피언입니다! 나라 전체가 축제 분위기일 것 같네요. 인생 최고의 순간입니다!",
+            "surreal": "무슨 말을 해야 할지 모르겠네요... 정말 꿈만 같습니다. 여기까지 올 수 있도록 도와준 모든 분께 감사를 돌립니다.",
+            "patriotic": "이 트로피는 우리 나라 모든 국민의 것입니다. 집으로 가져왔습니다!"
           },
           "question": "월드 토너먼트 우승입니다! 드디어 정상에 섰는데, 소감이 어떠신가요?"
         }
@@ -2541,6 +2657,11 @@
       },
       "settle": {
         "headline1": "세금 사건이 법원 밖에서 해결됨"
+      },
+      "relationship_drama": {
+        "headline1": "사생활 노출 논란: {name}을(를) 둘러싼 새로운 파문",
+        "press1": "그라운드 밖의 사생활 문제가 최근 경기력 저하로 이어지고 있다는 분석입니다.",
+        "press2": "타블로이드 황색 언론들이 선수의 사생활을 집요하게 취재하고 있습니다."
       }
     },
     "transfer": {
@@ -2550,6 +2671,17 @@
       "warning_1": "클럽 경고",
       "warning_2": "최종 경고",
       "warning_3": "징계 조치"
+    },
+    "nightclub_incident": {
+      "apologize": {
+        "headline1": "{name}, 나이트클럽 불미스러운 사건에 대해 공식 사과",
+        "press1": "반성의 뜻을 밝혔으나 이미지 실추는 불가피해 보입니다."
+      },
+      "blame": {
+        "fan1": "항상 남 탓만 하는 태도는 여전하네...",
+        "headline1": "{name}, 클럽 실랑이 사건에서 상대방의 도발 탓으로 돌려",
+        "press1": "이러한 해명이 팬들의 마음을 돌리기는 쉽지 않아 보입니다."
+      }
     }
   },
   "retirement": {
@@ -2655,7 +2787,7 @@
       "worldClass": "월드클래스 선수! {name}가 자신이 왜 엘리트인지 보여주고 있습니다."
     },
     "goalComments": {
-      "goldenBoot": "골든 부츠가 보이나요? {name}는 막을 수 없습니다!",
+      "goldenBoot": "골든부트(득점왕)가 눈앞에 보입니다? {name}는 막을 수 없습니다!",
       "hatTrickHero": "또 해트트릭? {name}가 역사를 쓰고 있습니다!",
       "machineMode": "목표 머신 모드: 활성화됨!",
       "unstoppable": "그가 이런 기분이라면 {name}를 막을 수 없습니다."
@@ -2669,7 +2801,7 @@
     "veteranComments": {
       "experience": "경기장에서 그의 영향력을 볼 수 있습니다. 순수한 리더십.",
       "legend": "절대적인 전설. 경험은 살 수 없는 것입니다.",
-      "retire": "이제 부츠를 걸어야 할 때가 된 것 같습니다. 그의 정점을 지나서요.",
+      "retire": "이제 축구화를 벗어야 할 때가 된 것 같습니다. 그의 정점을 지나서요.",
       "stillGotIt": "{age}를 사용하고 있으며 여전히 젊은이들에게 그 방법을 보여주고 있습니다!"
     },
     "injuryComments": {
@@ -2811,13 +2943,13 @@
     "continentalPOTY": "{competition}의 최우수 플레이어로 선정되었습니다!",
     "continentalPlayer": "컨티넨탈 플레이어",
     "continentalTOTT": "토너먼트의 {competition} 팀에 이름을 올렸습니다!",
-    "cupGoldenBootShared": "{goals} 목표를 달성한 공유 컵 골든 부츠!",
+    "cupGoldenBootShared": "{goals} 목표를 달성한 공유 컵 대회 골든부트 (득점왕)!",
     "cupTopScorer": "컵 최고 득점자({goals}골)!",
-    "europeanGoldenShoe": "유럽 ​​골든슈",
+    "europeanGoldenShoe": "유럽 골든슈",
     "fifaBest": "시즌의 선수로 선정되었습니다!",
     "goalOfTheYear": "올해의 목표",
     "goldenBoot": "리그 최고 득점자({goals}골)!",
-    "goldenBootShared": "{goals} 목표를 가진 공유 리그 골든 부츠!",
+    "goldenBootShared": "{goals} 목표를 가진 공유 리그 골든부트 (득점왕)!",
     "goldenBoy": "올해의 젊은 선수! 미래는 당신의 것입니다.",
     "goldenGlove": "골든 글러브 우승자({cleanSheets} 클린 시트)!",
     "goldenShoe": "유럽 골든슈 우승자! ({goals} 목표)",
@@ -2849,7 +2981,7 @@
     "leagueMVPWin": "{country} 리그의 MVP로 투표되었습니다!",
     "positionalWin": "시즌 최고의 {position}로 선정되었습니다.",
     "goldenBootWin": "{goals} 목표를 달성한 리그 최고 득점자!",
-    "goldenShoeWin": "{points} 포인트로 European Golden Shoe 획득!",
+    "goldenShoeWin": "{points} 포인트로 유러피언 골든 슈 획득!",
     "goldenGloveWin": "리그에서 가장 많은 클린시트({cleanSheets}).",
     "topAssisterWin": "{assists} 어시스트를 갖춘 리그 최고의 어시스터!",
     "cupTopScorerWin": "{goals} 목표를 달성한 컵 최고 득점자!",
@@ -2867,7 +2999,7 @@
     "asianCup": "아시안컵",
     "continentalCup": "컨티넨탈 컵",
     "copaAmerica": "코파 아메리카",
-    "euro": "유럽 ​​선수권 대회",
+    "euro": "유럽 선수권 대회",
     "goldCup": "골드컵",
     "nationsLeague": "국가 토너먼트",
     "oceaniaCup": "네이션스컵",
@@ -2896,5 +3028,7 @@
   "firstYouthAssist": "유스 팀 첫 도움",
   "firstProGoal": "프로 첫 골",
   "firstProAssist": "프로 첫 도움",
-  "intlDebut": "국가대표 데뷔"
+  "intlDebut": "국가대표 데뷔",
+  "decisionMade": "결정이 내려졌다",
+  "urgentDecision": "긴급한 결정이 필요합니다!"
 }

@@ -140,6 +140,7 @@
     "oneTime": "One-Time Donation",
     "monthly": "Monthly Support",
     "oneTimeDesc": "Choose any amount",
+    "paymentCards": "Cards",
     "monthlyDesc": "Recurring monthly support"
   },
   "common": {
@@ -177,6 +178,7 @@
       "League": "League"
     },
     "confirm": "Confirm",
+    "continental": "Continental",
     "continue": "Continue",
     "currencySymbol": "€",
     "day": "Day",
@@ -269,6 +271,7 @@
     "perWeekSuffixShort": "/wk",
     "playoffRound": "Playoffs",
     "pos": "Pos",
+    "potentialShort": "POT",
     "position": "Position",
     "positionHeatmap": "Heatmap",
     "quarterFinals": "Quarter-finals",
@@ -276,6 +279,8 @@
     "ratingShort": "RAT",
     "redCards": "Reds",
     "reject": "Reject",
+    "reputationShort": "REP",
+    "retired": "Retired",
     "round16": "Round of 16",
     "round32": "Round of 32",
     "round64": "Round of 64",
@@ -299,6 +304,11 @@
     "total": "Total",
     "trophy": "Trophy",
     "trophyTitle": "Trophy",
+    "unknownClub": "Unknown Club",
+    "unknownCountry": "Unknown Country",
+    "unknownTeam": "Unknown Team",
+    "selectPlaceholder": "Select...",
+    "reddit": "Reddit",
     "value": "Value",
     "view": "View",
     "warning": "Warning",
@@ -309,6 +319,7 @@
     "year": "Year",
     "yearSuffix": "y",
     "years": "years",
+    "yearsShort": "YRS",
     "yellowCards": "Yellows",
     "yes": "Yes",
     "youth": "Youth",
@@ -366,7 +377,13 @@
     "competition": "Competition",
     "skill": "Skill",
     "team": "Team",
-    "traits": "Traits"
+    "traits": "Traits",
+    "playoffs": "Play-offs",
+    "roundOf64": "Round of 64",
+    "roundOf32": "Round of 32",
+    "roundOf16": "Round of 16",
+    "reloadCareer": "Reload saved career",
+    "careerReloadFailed": "The career could not be reloaded. Please try again."
   },
   "continents": {
     "Africa": "Africa",
@@ -393,6 +410,7 @@
     "times": "{count} times"
   },
   "dashboard": {
+    "npcTransfersDisabled": "NPC transfers are disabled. Offers for your player remain available.",
     "agent": "Agent",
     "agentContract": "Agent & Contract",
     "agentContractYears": "Agent deal",
@@ -853,7 +871,7 @@
     "gameWinningGoals": "Winners",
     "gkMental": "GK Mental",
     "gkNotAvailable": "GK attributes unavailable",
-    "gkPositioning": "Positioning",
+    "gkPositioning": "GK Positioning",
     "goalKicks": "Goal Kicks",
     "goals0to15": "Goals (0-15')",
     "goals75to90": "Goals (75-90+')",
@@ -1513,7 +1531,8 @@
   "trophy": "Trophy",
   "clubHistory": "Club History",
   "competition": {
-    "unknownCup": "Unknown Cup"
+    "unknownCup": "Unknown Cup",
+    "unknownYouthCup": "Unknown Youth Cup"
   },
   "competitionDetails": "Competition Details: {country}",
   "noDomesticCup": "No Domestic Cup",
@@ -1680,6 +1699,7 @@
     "position": "Position",
     "points": "Points",
     "noDataYet": "Complete your first season to see rankings",
+    "you": "You",
     "yourPosition": "Your Position",
     "viewVotingResults": "View voting results & history",
     "completeSeasonFirst": "Finish your first season to see world rankings results",
@@ -1721,15 +1741,19 @@
     "leaguePhase": "League Phase",
     "bySeason": "By Season",
     "directQualification": "Direct to R16",
+    "noChampions": "No champions recorded",
     "npcRankings": "Top",
     "playoffSpot": "Playoff",
     "playoffs": "Playoffs",
     "results": "Games",
     "simulateFirst": "Simulate a season to see standings",
+    "simulateSeasonsHint": "Simulate seasons to build history",
     "teams": "teams",
     "titleRanking": "Title Ranking"
   },
   "seasonEvents": {
+    "offseasonPending": "Offseason player development and retirements will be recorded when you advance to the next season.",
+    "progressed": "Players updated",
     "title": "Season Events",
     "season": "Season",
     "breakthroughs": "Breakthrough Season",
@@ -1742,9 +1766,10 @@
     "moreTransfers": "more transfers",
     "noEvents": "No events this season",
     "inProgressTitle": "Season In Progress",
-    "inProgressNotice": "Season-end highlights (breakthroughs, major transfers, and retirements) will compile at the end of the season."
+    "inProgressNotice": "Season-end highlights will compile at the end of the season."
   },
   "transfers": {
+    "typePermanent": "Permanent",
     "title": "Transfer Window",
     "total": "transfers",
     "biggestMove": "Biggest Move",

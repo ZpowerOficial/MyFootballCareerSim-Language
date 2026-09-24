@@ -12,7 +12,7 @@
     "ballonDor": "Altın Kupayı Kazanın",
     "becomeCaptain": "{team}'in kaptanı olun",
     "becomeClubLegend": "Kulüp Efsanesi Olun",
-    "becomeStarter": "Düzenli başlangıç ​​ol",
+    "becomeStarter": "Düzenli başlangıç ol",
     "breakGoalRecord": "Gol rekorunu kır",
     "firstCleanSheet": "İlk temiz sayfayı saklayın",
     "firstGoal": "İlk profesyonel golü atın",
@@ -23,7 +23,10 @@
     "reachCareerAssists": "Kariyer asistlerine ulaşma kilometre taşı",
     "reachCareerGoals": "Kariyer hedeflerine ulaşma dönüm noktasına ulaşın",
     "reachOverallRating": "OVR hedefine ulaşın",
-    "winWorldCup": "Dünya Turnuvasını Kazanın"
+    "winWorldCup": "Dünya Turnuvasını Kazanın",
+    "spendDecade": "{team} ile 10 yıl geçir",
+    "topTierLeague": "Elit bir ligde oyna",
+    "winContinentalCup": "{team} ile Kıtasal Kupa'yı kazan"
   },
   "agent": {
     "contractExpired": "Temsilciyle olan sözleşmeniz sona erdi. {name} ({reputation}) ile imzaladınız.",
@@ -58,7 +61,7 @@
       "Mastermind": "Stratejist"
     },
     "style": {
-      "Adaptable": "Uyarlanabilir",
+      "Adaptable": "Uyumlu",
       "Aggressive": "Agresif",
       "Ambitious": "Hırslı",
       "Analytical": "Analitik",
@@ -101,7 +104,7 @@
     "trainingLight": "Eğitim Yoğunluğu Azaltıldı"
   },
   "status": {
-    "managerConflict": "Yönetici Anlaşmazlığı",
+    "managerConflict": "Teknik Direktör Anlaşmazlığı",
     "teammateConflict": "Takım Arkadaşı Çatışması"
   },
   "events": {
@@ -139,7 +142,7 @@
       "ballonDorRunnerUp": "İlk 3 - Altın Kupa",
       "comeback": "Yılın Geri Dönüşü",
       "comebackPlayerOfYear": "Yılın Geri Dönüş Oyuncusu",
-      "continentalCompTopScorer": "Kıta Altın Çizme",
+      "continentalCompTopScorer": "Kıtasal Altın Ayakkabı",
       "continentalCompetitionTopScorer": "Kıta Gol Kralı",
       "continentalCupPOTY": "MVP - Kıta Kupası",
       "continentalPOTY": "Kıtada Yılın Oyuncusu",
@@ -210,7 +213,7 @@
       "exposure": "Maruziyet",
       "fans": "Hayranlarla İlişki",
       "followers": "Takipçiler",
-      "form": "Biçim",
+      "form": "Form",
       "generosity": "Cömertlik",
       "loyalty": "Bağlılık",
       "morale": "Moral",
@@ -236,7 +239,8 @@
       "concernYellow": "Disiplin kaygıları: {count} bu sezon sarı kart gördü.",
       "criticalRed": "KRİTİK disiplin sorunları: {count} kırmızı kartlar - geliştirilmeli!",
       "majorYellow": "Ciddi disiplin sorunları: {count} bu sezon sarı kart gördü.",
-      "seriousRed": "Ciddi disiplin sorunları: {count} kırmızı kartlar!"
+      "seriousRed": "Ciddi disiplin sorunları: {count} kırmızı kartlar!",
+      "title": "Disiplin"
     },
     "endorsement": {
       "signed": "{brand} ile yıllık {value}M £ değerinde {duration} yıllık ciro anlaşması imzalandı!"
@@ -351,29 +355,29 @@
       "relegated": "{team} bir alt lige düştü."
     },
     "loan": {
-      "becamePermanent": "Kredi {team}'te kalıcı hale geldi (ebeveyn kulübü mevcut değil).",
-      "clubSeekingMove": "Kulüp, kariyer gelişiminin devamını sağlamak için aktif olarak kredi arayışında.",
-      "opportunitiesAvailable": "Düzenli futbol sağlamak için {count} kredi fırsatları mevcut.",
+      "becamePermanent": "Kiralık sözleşme {team}'te kalıcı hale geldi (ebeveyn kulübü mevcut değil).",
+      "clubSeekingMove": "Kulüp, kariyer gelişiminin devamını sağlamak için aktif olarak kiralık transfer arıyor.",
+      "opportunitiesAvailable": "Düzenli futbol sağlamak için {count} kiralık fırsat mevcut.",
       "returnedToClub": "Ödünç alma büyüsünün ardından {team}'e geri döndü.",
       "returnedToSenior": "Kiralandıktan sonra {team} kıdemli kadrosuna geri döndü.",
-      "spellEnded": "{loanTeam}'teki ödünç verme büyüsü sona erdi. {parentTeam}'e geri dönüyoruz."
+      "spellEnded": "{loanTeam}'teki kiralık dönem sona erdi. {parentTeam}'e geri dönüyoruz."
     },
     "manager": {
       "choice_accept": "Eleştiriyi kabul et",
       "choice_defend": "Kendini savun",
       "choice_transfer": "Aktarım iste",
-      "description": "Yönetici performansınızı herkesin önünde eleştirdi. Seninle pek iyi gitmedi.",
-      "title": "Yönetici Serpintisi"
+      "description": "Teknik direktör performansını herkesin önünde eleştirdi. Bu seni pek memnun etmedi.",
+      "title": "Teknik Direktör Tartışması"
     },
     "managerConversation": {
       "choice_accept": "Mevcut rolü kabul et",
       "choice_chances": "Daha fazla fırsat isteyin",
       "choice_commitment": "Takıma bağlılık gösterin",
-      "description": "Yönetici takımdaki rolünüz hakkında konuşmak istiyor. Oyun sürenizi etkileyebilir.",
-      "title": "Yönetici Konuşması"
+      "description": "Teknik Direktör takımdaki rolünüz hakkında konuşmak istiyor. Oyun sürenizi etkileyebilir.",
+      "title": "Teknik Direktör Konuşması"
     },
     "match": {
-      "title": "Kibrit"
+      "title": "Maç"
     },
     "media": {
       "narrativeChange": "Medya anlatımı şu şekilde değişiyor: '{narrative}'",
@@ -421,7 +425,7 @@
         "heroicDefeat": "Uluslar Turnuvası {round} ile {opponent}'i yendi. Bireysel performansı çok iyi olmasına rağmen takım yetersiz kaldı.",
         "disappointingDefeat": "Uluslar Turnuvası {round} ile {opponent}'i yendi. Hayal kırıklığı yaratan bir toplu gösteri, turnuva koşusunu sona erdirir."
       },
-      "regularStarter": "{country} için düzenli bir başlangıç ​​oldu!",
+      "regularStarter": "{country} için düzenli bir başlangıç oldu!",
       "retirementAnnounced": "{country} için {caps} sınırlamalarının ardından uluslararası futboldan emekli olduğu açıklandı. Bir dönemin sonu.",
       "seasonSummary": "{country} adına {caps} forma giydi, {goals} gol ve {assists} asist yaptı (Ort. Puan: {rating}/10).",
       "squadPlayer": "{country} için takım oyuncusu olarak kuruldu.",
@@ -478,10 +482,10 @@
       },
       "inconsistent": {
         "boost": "Aniden harika bir formda - gününde durdurulamaz görünüyor!",
-        "slump": "Form onu ​​yine terk eder; yine sinir bozucu bir dönem."
+        "slump": "Form onu yine terk eder; yine sinir bozucu bir dönem."
       },
       "lazy": {
-        "criticism": "Yönetici basın toplantısı sırasında antrenmandaki tutumu eleştiriyor.",
+        "criticism": "Teknik Direktör basın toplantısı sırasında antrenmandaki tutumu eleştiriyor.",
         "fallout": "İş ahlakı sorunları nedeniyle yöneticiyle ilişkiler bozulur.",
         "late": "Antrenmana tekrar tekrar geç kaldığı için kulüp tarafından para cezasına çarptırıldı."
       },
@@ -499,7 +503,7 @@
       "professional": {
         "award": "Koçluk personeli tarafından Yılın Kulüp Profesyoneli seçildi.",
         "contract": "Kulüp, örnek teşkil eden profesyonelliği nedeniyle sözleşmeyi uzatmak istiyor.",
-        "praise": "Olağanüstü profesyonellik ve iş ahlakı nedeniyle yönetici tarafından övüldü.",
+        "praise": "Olağanüstü profesyonellik ve iş ahlakı nedeniyle teknik direktör tarafından övüldü.",
         "roleModel": "Takım arkadaşları onu mükemmel bir rol model olarak gösteriyor.",
         "training": "Tüm takımın saygısını kazandıran ekstra antrenman seansları."
       },
@@ -633,7 +637,9 @@
           "headline1": "{name} hayranlarına davranışından dolayı övgü aldı"
         },
         "ignore": {
-          "fan1": "Sanki görünmezmişiz gibi yanımızdan geçip gitti..."
+          "fan1": "Sanki görünmezmişiz gibi yanımızdan geçip gitti...",
+          "fan2": "Şöhret fena halde başını döndürmüş. Yazık gerçekten.",
+          "headline1": "{name} bekleyen taraftarları görmezden geldi, tepkiler çığ gibi"
         }
       },
       "manager_conversation": {
@@ -652,13 +658,13 @@
         },
         "defend": {
           "fan1": "Vay! Bu işler iyice karışacak...",
-          "headline1": "Gerilim! {name} yönetici eleştirilerine yanıt verdi"
+          "headline1": "Gerilim! {name} teknik direktör eleştirilerine yanıt verdi"
         },
         "transfer": {
           "fan1": "Gitme! Lütfen gitmeyin!",
-          "fan2": "Yönetici onu nasıl kullanacağını bilmiyorsa, gitsen iyi olur...",
+          "fan2": "Teknik Direktör onu nasıl kullanacağını bilmiyorsa, gitsen iyi olur...",
           "headline1": "BOMBA! {name} menajerle tartıştıktan sonra ayrılmak istiyor",
-          "headline2": "{name} ile yönetici arasındaki ilişki savunulamaz"
+          "headline2": "{name} ile teknik direktör arasındaki ilişki savunulamaz"
         }
       },
       "party_scandal": {
@@ -710,6 +716,17 @@
       "outburst": {
         "double_down": {
           "fan1": "Geri adım atmıyor!"
+        }
+      },
+      "mentor_opportunity": {
+        "accept": {
+          "fan1": "Akademi gençlerimiz için gerçek bir rol model!",
+          "headline1": "{name} akademi yeteneklerine mentorluk yapacak",
+          "press1": "{name}'in tecrübesi gençlerin gelişiminde belirleyici olacak."
+        },
+        "decline": {
+          "fan1": "Sadece kendini düşünüyor...",
+          "headline1": "{name} altyapı gençlerine mentorluk yapma davetini geri çevirdi"
         }
       }
     },
@@ -864,7 +881,9 @@
           "18": "Artık rekabet edemedi: {name} isteksizce emekli oluyor.",
           "19": "Maç ertelendi: {name} sonunda kariyerinin bittiğini kabul ediyor.",
           "20": "Kredi listesi: {name}'in hikayesi soluk bir bölümle bitiyor."
-        }
+        },
+        "testimonialMatch": "{team}, kulüp efsanesi {name} onuruna jübile maçı düzenleyecek.",
+        "shirtRetired": "{team}, kulüp efsanesi {name} onuruna {number} numaralı formayı emekliye ayırma planlarını duyurdu."
       },
       "icon": "{name} olağanüstü kariyerinin ardından emekliliğini duyurdu. {matches} maçları, {goals} golleri, {trophies} önemli şampiyonlukları. Birçok kişiye ilham kaynağı.",
       "journeyman": "{name} kullanımdan kaldırıldığını duyurdu. {reason}. {clubs} kulüplerinde {matches} kez sahneye çıktı.",
@@ -878,9 +897,9 @@
           "3": "{name}'e yakın kaynaklar olası emeklilik duyurusuna işaret ediyor.",
           "4": "Kariyer alacakaranlığa girerken {name}'in geleceği hakkında spekülasyonlar artıyor.",
           "5": "Temsilci, {name} ile ilgili emeklilik söylentilerini inkar etmeyi reddediyor.",
-          "6": "{name}'in referans maçı düzenlemelerini tartıştığı bildirildi.",
+          "6": "{name}'in jübile maçı organizasyonu için görüşmeler yaptığı bildirildi.",
           "7": "Dolap boş mu? {name} kişisel eşyalarını stadyumdan temizlerken görüldü.",
-          "8": "Felsefi {name} röportajında ​​'futboldan sonraki hayat'tan bahsediyor.",
+          "8": "Felsefi {name} röportajında 'futboldan sonraki hayat'tan bahsediyor.",
           "9": "Sözleşmenin süresi doluyor, {name}'in yenileme talebinde bulunmadığı bildiriliyor.",
           "10": "Gün batımı yaklaşıyor mu? {name}'in kariyeri doğal bir sonuca ulaşıyor olabilir."
         },
@@ -888,7 +907,7 @@
           "1": "Uzmanlar tartışıyor: {name} bu seviyeyi bir yıl daha koruyabilir mi?",
           "2": "Kaynaklar {name}'in zirveye çıkmak istediğini söylüyor.",
           "3": "{name} şampiyon olarak sahneye çıkacak mı? Emeklilik fısıltıları büyüyor.",
-          "4": "Efsane durumu güvence altına alındı ​​- peki {name} bunu bir gün arayacak mı?",
+          "4": "Efsane durumu güvence altına alındı - peki {name} bunu bir gün arayacak mı?",
           "5": "Hala birinci sınıf, ancak {name}'in seçenekleri değerlendirdiği bildiriliyor.",
           "6": "Bir kupa daha mı yoksa emeklilik mi? {name} geleceği düşünüyor.",
           "7": "Ajan spekülasyonların ortasında {name}'in planları hakkında sessiz kalıyor.",
@@ -937,8 +956,8 @@
       "outstandingGoals": "{goals} golleriyle olağanüstü sezon!",
       "phenomenal": "FENOMEN! {goals}G + {assists}A = {total} gol katkıları - efsanevi!",
       "playmakerMasterclass": "OYUNCU UZMANLIK SINIFI! {assists} asistleri - yaratıcılığın kişileşmesi!",
-      "spectacularGolacos": "MUHTEŞEM SEZONLAR! {count} çığlık atan oyuncular - Yılın Golü'ne aday gösterildi!",
-      "strongContributions": "Güçlü sezon! {goals}G + {assists}A = {total} hedefe katkı.",
+      "spectacularGolacos": "MUHTEŞEM SEZONLAR! {count} füze gol — Yılın Golü'ne aday!",
+      "strongContributions": "Muhteşem sezon! {goals}G + {assists}A = {total} gol katkısı.",
       "wonderGoals": "Muhteşem forvet! {count} bu sezon harika goller attı!",
       "worldClassGoals": "DÜNYA STANDARTINDA! {goals} hedefleri - inanılmaz bir kampanya!"
     },
@@ -982,7 +1001,7 @@
       "title": "Takım Arkadaşı Etkileşimi"
     },
     "training": {
-      "title": "Eğitim",
+      "title": "Antrenman",
       "completed": "Tamamlanan Eğitim",
       "minor_injury": "Antrenman sırasında hafif yaralanma"
     },
@@ -990,7 +1009,7 @@
       "choice_balanced": "Dengeli yaklaşım",
       "choice_extra": "Her gün ekstra seanslar",
       "choice_rest": "Dinlenmeye öncelik verin",
-      "description": "Yönetici isteğe bağlı ekstra eğitim oturumları sunuyor. Ne kadar çaba harcamak istiyorsunuz?",
+      "description": "Teknik Direktör isteğe bağlı ekstra eğitim oturumları sunuyor. Ne kadar çaba harcamak istiyorsunuz?",
       "title": "Eğitim Kararı"
     },
     "trait": {
@@ -1026,7 +1045,7 @@
       "rivalMove": "TARİHİ TRANSFER! {fromTeam}, ezeli rakipleri {toTeam} ile değiştirildi! Taraftarlar öfkeli!",
       "signedFreeAgent": "{team} ile ücretsiz transferle imzalandı.",
       "temperamentalOutburst": "Mizaç patlaması! Antrenman sahasındaki olaydan sonra derhal transfer talep edildi.",
-      "title": "Aktarım",
+      "title": "Transfer",
       "traitor": "HAİN",
       "transferred": "€{fee}M karşılığında {team}'e aktarıldı.",
       "homecoming": {
@@ -1062,7 +1081,8 @@
       "won": "{competition} Kazananlar!",
       "wonYouth": "Gençlik Yarışmasını Kazandık!",
       "worldCup": "DÜNYA TURNUVASI ŞAMPİYONLARI! Bir Efsane Doğuyor!",
-      "worldCupChampions": "{country} Dünya Turnuvasını kazandı!"
+      "worldCupChampions": "{country} Dünya Turnuvasını kazandı!",
+      "continentalQualification": "{competition} vizesi başarıyla alındı!"
     },
     "urgentDecision": "Acil karar gerekli!",
     "viral": {
@@ -1128,7 +1148,7 @@
     },
     "rivalProvocation": {
       "title": "Rakip Provokasyon",
-      "description": "Rakip bir oyuncu, maç öncesi röportajında ​​hakkınızda kışkırtıcı yorumlarda bulundu. Medya yanıtınızı bekliyor.",
+      "description": "Rakip bir oyuncu, maç öncesi röportajında hakkınızda kışkırtıcı yorumlarda bulundu. Medya yanıtınızı bekliyor.",
       "choice_fire_back": "Medyaya ateş açıldı",
       "choice_ignore": "Yüksek yola çıkın",
       "choice_play": "Bırakın futbolum konuşsun"
@@ -1265,804 +1285,903 @@
       "choice_home": "Gelecek maça dinlenmek için nezaketle eve gitmek"
     },
     "press_conference_var_1": {
-      "title": "Press Conference: TACTICAL SYSTEM INQUIRY",
-      "description": "Journalists present questions regarding your team's tactical system inquiry.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Basın Toplantısı: TAKTIKSEL SISTEM",
+      "description": "Basın odasındaki gazeteciler takımın durumu ve sizin performansınız hakkında sorular soruyor.",
+      "choice_1": "Detaylı ve yapıcı taktiksel bir açıklama yap",
+      "choice_2": "Bireysel sorumluluk ve çalışma ahlakının önemine vurgu yap",
+      "choice_3": "Medyanın provokatif söylemlerine iddialı bir yanıtla karşılık ver",
+      "choice_4": "Polemikten kaçınarak diplomatik ve kısa yanıtlarla geçiştir"
     },
     "press_conference_var_2": {
-      "title": "Press Conference: MID-SEASON FORM REVIEW",
-      "description": "Journalists present questions regarding your team's mid-season form review.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Basın Toplantısı: SEZON ORTASI FORMU",
+      "description": "Basın odasındaki gazeteciler takımın durumu ve sizin performansınız hakkında sorular soruyor.",
+      "choice_1": "Detaylı ve yapıcı taktiksel bir açıklama yap",
+      "choice_2": "Bireysel sorumluluk ve çalışma ahlakının önemine vurgu yap",
+      "choice_3": "Medyanın provokatif söylemlerine iddialı bir yanıtla karşılık ver",
+      "choice_4": "Polemikten kaçınarak diplomatik ve kısa yanıtlarla geçiştir"
     },
     "press_conference_var_3": {
-      "title": "Press Conference: CONTINENTAL COMPETITION EXPECTATIONS",
-      "description": "Journalists present questions regarding your team's continental competition expectations.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Basın Toplantısı: KITASAL BEKLENTILER",
+      "description": "Basın odasındaki gazeteciler takımın durumu ve sizin performansınız hakkında sorular soruyor.",
+      "choice_1": "Detaylı ve yapıcı taktiksel bir açıklama yap",
+      "choice_2": "Bireysel sorumluluk ve çalışma ahlakının önemine vurgu yap",
+      "choice_3": "Medyanın provokatif söylemlerine iddialı bir yanıtla karşılık ver",
+      "choice_4": "Polemikten kaçınarak diplomatik ve kısa yanıtlarla geçiştir"
     },
     "press_conference_var_4": {
-      "title": "Press Conference: SQUAD ROTATION DEBATE",
-      "description": "Journalists present questions regarding your team's squad rotation debate.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Basın Toplantısı: KADRO ROTASYONU",
+      "description": "Basın odasındaki gazeteciler takımın durumu ve sizin performansınız hakkında sorular soruyor.",
+      "choice_1": "Detaylı ve yapıcı taktiksel bir açıklama yap",
+      "choice_2": "Bireysel sorumluluk ve çalışma ahlakının önemine vurgu yap",
+      "choice_3": "Medyanın provokatif söylemlerine iddialı bir yanıtla karşılık ver",
+      "choice_4": "Polemikten kaçınarak diplomatik ve kısa yanıtlarla geçiştir"
     },
     "press_conference_var_5": {
-      "title": "Press Conference: YOUNG TALENT INTEGRATION",
-      "description": "Journalists present questions regarding your team's young talent integration.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Basın Toplantısı: GENÇLERIN ENTEGRASYONU",
+      "description": "Basın odasındaki gazeteciler takımın durumu ve sizin performansınız hakkında sorular soruyor.",
+      "choice_1": "Detaylı ve yapıcı taktiksel bir açıklama yap",
+      "choice_2": "Bireysel sorumluluk ve çalışma ahlakının önemine vurgu yap",
+      "choice_3": "Medyanın provokatif söylemlerine iddialı bir yanıtla karşılık ver",
+      "choice_4": "Polemikten kaçınarak diplomatik ve kısa yanıtlarla geçiştir"
     },
     "press_conference_var_6": {
-      "title": "Press Conference: DISCIPLINARY RECORD DISCUSSION",
-      "description": "Journalists present questions regarding your team's disciplinary record discussion.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Basın Toplantısı: DISIPLIN VE KARTLAR",
+      "description": "Basın odasındaki gazeteciler takımın durumu ve sizin performansınız hakkında sorular soruyor.",
+      "choice_1": "Detaylı ve yapıcı taktiksel bir açıklama yap",
+      "choice_2": "Bireysel sorumluluk ve çalışma ahlakının önemine vurgu yap",
+      "choice_3": "Medyanın provokatif söylemlerine iddialı bir yanıtla karşılık ver",
+      "choice_4": "Polemikten kaçınarak diplomatik ve kısa yanıtlarla geçiştir"
     },
     "press_conference_var_7": {
-      "title": "Press Conference: FIXTURE CONGESTION SCHEDULE",
-      "description": "Journalists present questions regarding your team's fixture congestion schedule.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Basın Toplantısı: FIKSTÜR YOĞUNLUĞU",
+      "description": "Basın odasındaki gazeteciler takımın durumu ve sizin performansınız hakkında sorular soruyor.",
+      "choice_1": "Detaylı ve yapıcı taktiksel bir açıklama yap",
+      "choice_2": "Bireysel sorumluluk ve çalışma ahlakının önemine vurgu yap",
+      "choice_3": "Medyanın provokatif söylemlerine iddialı bir yanıtla karşılık ver",
+      "choice_4": "Polemikten kaçınarak diplomatik ve kısa yanıtlarla geçiştir"
     },
     "press_conference_var_8": {
-      "title": "Press Conference: AWAY RECORD PERFORMANCE",
-      "description": "Journalists present questions regarding your team's away record performance.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Basın Toplantısı: DEPLASMAN PERFORMANSI",
+      "description": "Basın odasındaki gazeteciler takımın durumu ve sizin performansınız hakkında sorular soruyor.",
+      "choice_1": "Detaylı ve yapıcı taktiksel bir açıklama yap",
+      "choice_2": "Bireysel sorumluluk ve çalışma ahlakının önemine vurgu yap",
+      "choice_3": "Medyanın provokatif söylemlerine iddialı bir yanıtla karşılık ver",
+      "choice_4": "Polemikten kaçınarak diplomatik ve kısa yanıtlarla geçiştir"
     },
     "press_conference_var_9": {
-      "title": "Press Conference: VAR CONTROVERSY STANCE",
-      "description": "Journalists present questions regarding your team's VAR controversy stance.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Basın Toplantısı: VAR TARTIŞMALARI",
+      "description": "Basın odasındaki gazeteciler takımın durumu ve sizin performansınız hakkında sorular soruyor.",
+      "choice_1": "Detaylı ve yapıcı taktiksel bir açıklama yap",
+      "choice_2": "Bireysel sorumluluk ve çalışma ahlakının önemine vurgu yap",
+      "choice_3": "Medyanın provokatif söylemlerine iddialı bir yanıtla karşılık ver",
+      "choice_4": "Polemikten kaçınarak diplomatik ve kısa yanıtlarla geçiştir"
     },
     "press_conference_var_10": {
-      "title": "Press Conference: NATIONAL TEAM SELECTION RUMOR",
-      "description": "Journalists present questions regarding your team's national team selection rumor.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Basın Toplantısı: MILLI TAKIM SÖYLENTISI",
+      "description": "Basın odasındaki gazeteciler takımın durumu ve sizin performansınız hakkında sorular soruyor.",
+      "choice_1": "Detaylı ve yapıcı taktiksel bir açıklama yap",
+      "choice_2": "Bireysel sorumluluk ve çalışma ahlakının önemine vurgu yap",
+      "choice_3": "Medyanın provokatif söylemlerine iddialı bir yanıtla karşılık ver",
+      "choice_4": "Polemikten kaçınarak diplomatik ve kısa yanıtlarla geçiştir"
     },
     "press_conference_var_11": {
-      "title": "Press Conference: CAPTAINCY LEADERSHIP DUTIES",
-      "description": "Journalists present questions regarding your team's captaincy leadership duties.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Basın Toplantısı: KAPTANLIK SORUMLULUĞU",
+      "description": "Basın odasındaki gazeteciler takımın durumu ve sizin performansınız hakkında sorular soruyor.",
+      "choice_1": "Detaylı ve yapıcı taktiksel bir açıklama yap",
+      "choice_2": "Bireysel sorumluluk ve çalışma ahlakının önemine vurgu yap",
+      "choice_3": "Medyanın provokatif söylemlerine iddialı bir yanıtla karşılık ver",
+      "choice_4": "Polemikten kaçınarak diplomatik ve kısa yanıtlarla geçiştir"
     },
     "press_conference_var_12": {
-      "title": "Press Conference: TACTICAL FLEXIBILITY TEST",
-      "description": "Journalists present questions regarding your team's tactical flexibility test.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Basın Toplantısı: TAKTIKSEL ESNEKLIK",
+      "description": "Basın odasındaki gazeteciler takımın durumu ve sizin performansınız hakkında sorular soruyor.",
+      "choice_1": "Detaylı ve yapıcı taktiksel bir açıklama yap",
+      "choice_2": "Bireysel sorumluluk ve çalışma ahlakının önemine vurgu yap",
+      "choice_3": "Medyanın provokatif söylemlerine iddialı bir yanıtla karşılık ver",
+      "choice_4": "Polemikten kaçınarak diplomatik ve kısa yanıtlarla geçiştir"
     },
     "press_conference_var_13": {
-      "title": "Press Conference: DEFENSIVE SOLIDITY BREAKDOWN",
-      "description": "Journalists present questions regarding your team's defensive solidity breakdown.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Basın Toplantısı: SAVUNMA SAĞLAMLIĞI",
+      "description": "Basın odasındaki gazeteciler takımın durumu ve sizin performansınız hakkında sorular soruyor.",
+      "choice_1": "Detaylı ve yapıcı taktiksel bir açıklama yap",
+      "choice_2": "Bireysel sorumluluk ve çalışma ahlakının önemine vurgu yap",
+      "choice_3": "Medyanın provokatif söylemlerine iddialı bir yanıtla karşılık ver",
+      "choice_4": "Polemikten kaçınarak diplomatik ve kısa yanıtlarla geçiştir"
     },
     "press_conference_var_14": {
-      "title": "Press Conference: ATTACKING EFFICIENCY ANALYSIS",
-      "description": "Journalists present questions regarding your team's attacking efficiency analysis.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Basın Toplantısı: HÜCUM ETKINLIĞI",
+      "description": "Basın odasındaki gazeteciler takımın durumu ve sizin performansınız hakkında sorular soruyor.",
+      "choice_1": "Detaylı ve yapıcı taktiksel bir açıklama yap",
+      "choice_2": "Bireysel sorumluluk ve çalışma ahlakının önemine vurgu yap",
+      "choice_3": "Medyanın provokatif söylemlerine iddialı bir yanıtla karşılık ver",
+      "choice_4": "Polemikten kaçınarak diplomatik ve kısa yanıtlarla geçiştir"
     },
     "press_conference_var_15": {
-      "title": "Press Conference: SET-PIECE SPECIALIZATION",
-      "description": "Journalists present questions regarding your team's set-piece specialization.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Basın Toplantısı: DURAN TOP TEHLIKESI",
+      "description": "Basın odasındaki gazeteciler takımın durumu ve sizin performansınız hakkında sorular soruyor.",
+      "choice_1": "Detaylı ve yapıcı taktiksel bir açıklama yap",
+      "choice_2": "Bireysel sorumluluk ve çalışma ahlakının önemine vurgu yap",
+      "choice_3": "Medyanın provokatif söylemlerine iddialı bir yanıtla karşılık ver",
+      "choice_4": "Polemikten kaçınarak diplomatik ve kısa yanıtlarla geçiştir"
     },
     "press_conference_var_16": {
-      "title": "Press Conference: FAN PRESSURE REACTION",
-      "description": "Journalists present questions regarding your team's fan pressure reaction.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Basın Toplantısı: TARAFTAR BASKISI",
+      "description": "Basın odasındaki gazeteciler takımın durumu ve sizin performansınız hakkında sorular soruyor.",
+      "choice_1": "Detaylı ve yapıcı taktiksel bir açıklama yap",
+      "choice_2": "Bireysel sorumluluk ve çalışma ahlakının önemine vurgu yap",
+      "choice_3": "Medyanın provokatif söylemlerine iddialı bir yanıtla karşılık ver",
+      "choice_4": "Polemikten kaçınarak diplomatik ve kısa yanıtlarla geçiştir"
     },
     "press_conference_var_17": {
-      "title": "Press Conference: TRANSFER BUDGET SPECULATION",
-      "description": "Journalists present questions regarding your team's transfer budget speculation.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Basın Toplantısı: TRANSFER BÜTÇESI",
+      "description": "Basın odasındaki gazeteciler takımın durumu ve sizin performansınız hakkında sorular soruyor.",
+      "choice_1": "Detaylı ve yapıcı taktiksel bir açıklama yap",
+      "choice_2": "Bireysel sorumluluk ve çalışma ahlakının önemine vurgu yap",
+      "choice_3": "Medyanın provokatif söylemlerine iddialı bir yanıtla karşılık ver",
+      "choice_4": "Polemikten kaçınarak diplomatik ve kısa yanıtlarla geçiştir"
     },
     "press_conference_var_18": {
-      "title": "Press Conference: STADIUM ATMOSPHERE IMPACT",
-      "description": "Journalists present questions regarding your team's stadium atmosphere impact.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Basın Toplantısı: STADYUM ATMOSFERI",
+      "description": "Basın odasındaki gazeteciler takımın durumu ve sizin performansınız hakkında sorular soruyor.",
+      "choice_1": "Detaylı ve yapıcı taktiksel bir açıklama yap",
+      "choice_2": "Bireysel sorumluluk ve çalışma ahlakının önemine vurgu yap",
+      "choice_3": "Medyanın provokatif söylemlerine iddialı bir yanıtla karşılık ver",
+      "choice_4": "Polemikten kaçınarak diplomatik ve kısa yanıtlarla geçiştir"
     },
     "press_conference_var_19": {
-      "title": "Press Conference: DERBY HISTORICAL RIVALRY",
-      "description": "Journalists present questions regarding your team's derby historical rivalry.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Basın Toplantısı: TARIHI DERBI REKABETI",
+      "description": "Basın odasındaki gazeteciler takımın durumu ve sizin performansınız hakkında sorular soruyor.",
+      "choice_1": "Detaylı ve yapıcı taktiksel bir açıklama yap",
+      "choice_2": "Bireysel sorumluluk ve çalışma ahlakının önemine vurgu yap",
+      "choice_3": "Medyanın provokatif söylemlerine iddialı bir yanıtla karşılık ver",
+      "choice_4": "Polemikten kaçınarak diplomatik ve kısa yanıtlarla geçiştir"
     },
     "press_conference_var_20": {
-      "title": "Press Conference: END OF SEASON TARGET",
-      "description": "Journalists present questions regarding your team's end of season target.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Basın Toplantısı: SEZON SONU HEDEFI",
+      "description": "Basın odasındaki gazeteciler takımın durumu ve sizin performansınız hakkında sorular soruyor.",
+      "choice_1": "Detaylı ve yapıcı taktiksel bir açıklama yap",
+      "choice_2": "Bireysel sorumluluk ve çalışma ahlakının önemine vurgu yap",
+      "choice_3": "Medyanın provokatif söylemlerine iddialı bir yanıtla karşılık ver",
+      "choice_4": "Polemikten kaçınarak diplomatik ve kısa yanıtlarla geçiştir"
     },
     "tactical_meeting_1": {
-      "title": "Tactical Briefing: HIGH PRESS SYSTEM",
-      "description": "The coaching staff presents new tactical adjustments focusing on high press system.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "Taktik Toplantısı: ÖNDE BASKI",
+      "description": "Teknik heyet bir sonraki maç için taktiksel planları aktarıyor: rakip sahada önde baskı ve şok pres odaklı yeni taktiksel talimatlar.",
+      "choice_1": "Taktiksel direktifleri eksiksiz anlayıp sahaya yansıt",
+      "choice_2": "Sistem içerisinde bireysel yaratıcılık ve serbestlik iste",
+      "choice_3": "Takım arkadaşlarına saha içi koordinasyonda destek ol",
+      "choice_4": "Taktikleri sahada uygulamak için fiziksel mücadeleye odaklan"
     },
     "tactical_meeting_2": {
-      "title": "Tactical Briefing: LOW BLOCK DEFENSE",
-      "description": "The coaching staff presents new tactical adjustments focusing on low block defense.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "Taktik Toplantısı: ALÇAK BLOK SAVUNMA",
+      "description": "Teknik heyet bir sonraki maç için taktiksel planları aktarıyor: kendi yarı alanında kompakt ve hatlar arası mesafesi dar alçak blok savunması.",
+      "choice_1": "Taktiksel direktifleri eksiksiz anlayıp sahaya yansıt",
+      "choice_2": "Sistem içerisinde bireysel yaratıcılık ve serbestlik iste",
+      "choice_3": "Takım arkadaşlarına saha içi koordinasyonda destek ol",
+      "choice_4": "Taktikleri sahada uygulamak için fiziksel mücadeleye odaklan"
     },
     "tactical_meeting_3": {
-      "title": "Tactical Briefing: COUNTER-ATTACK SPEED",
-      "description": "The coaching staff presents new tactical adjustments focusing on counter-attack speed.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "Taktik Toplantısı: HIZLI KONTRATAK",
+      "description": "Teknik heyet bir sonraki maç için taktiksel planları aktarıyor: top kazanımı sonrası dikey ve süratli hücum geçişleri.",
+      "choice_1": "Taktiksel direktifleri eksiksiz anlayıp sahaya yansıt",
+      "choice_2": "Sistem içerisinde bireysel yaratıcılık ve serbestlik iste",
+      "choice_3": "Takım arkadaşlarına saha içi koordinasyonda destek ol",
+      "choice_4": "Taktikleri sahada uygulamak için fiziksel mücadeleye odaklan"
     },
     "tactical_meeting_4": {
-      "title": "Tactical Briefing: POSSESSION CONTROL",
-      "description": "The coaching staff presents new tactical adjustments focusing on possession control.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "Taktik Toplantısı: TOPA SAHİP OLMA",
+      "description": "Teknik heyet bir sonraki maç için taktiksel planları aktarıyor: sabırlı pas trafiğiyle oyunun kontrolünü ve temposunu elde tutma.",
+      "choice_1": "Taktiksel direktifleri eksiksiz anlayıp sahaya yansıt",
+      "choice_2": "Sistem içerisinde bireysel yaratıcılık ve serbestlik iste",
+      "choice_3": "Takım arkadaşlarına saha içi koordinasyonda destek ol",
+      "choice_4": "Taktikleri sahada uygulamak için fiziksel mücadeleye odaklan"
     },
     "tactical_meeting_5": {
-      "title": "Tactical Briefing: WING OVERLOAD",
-      "description": "The coaching staff presents new tactical adjustments focusing on wing overload.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "Taktik Toplantısı: KANAT BİNDİRMELERİ",
+      "description": "Teknik heyet bir sonraki maç için taktiksel planları aktarıyor: kanatlarda sayısal üstünlük kurarak ceza sahasına tehlikeli ortalar kesme.",
+      "choice_1": "Taktiksel direktifleri eksiksiz anlayıp sahaya yansıt",
+      "choice_2": "Sistem içerisinde bireysel yaratıcılık ve serbestlik iste",
+      "choice_3": "Takım arkadaşlarına saha içi koordinasyonda destek ol",
+      "choice_4": "Taktikleri sahada uygulamak için fiziksel mücadeleye odaklan"
     },
     "tactical_meeting_6": {
-      "title": "Tactical Briefing: SET-PIECE ROUTINE",
-      "description": "The coaching staff presents new tactical adjustments focusing on set-piece routine.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "Taktik Toplantısı: DURAN TOP ORGANİZASYONU",
+      "description": "Teknik heyet bir sonraki maç için taktiksel planları aktarıyor: korner ve serbest vuruşlarda önceden çalışılmış özel varyasyonlar.",
+      "choice_1": "Taktiksel direktifleri eksiksiz anlayıp sahaya yansıt",
+      "choice_2": "Sistem içerisinde bireysel yaratıcılık ve serbestlik iste",
+      "choice_3": "Takım arkadaşlarına saha içi koordinasyonda destek ol",
+      "choice_4": "Taktikleri sahada uygulamak için fiziksel mücadeleye odaklan"
     },
     "tactical_meeting_7": {
-      "title": "Tactical Briefing: INVERTED FULLBACKS",
-      "description": "The coaching staff presents new tactical adjustments focusing on inverted fullbacks.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "Taktik Toplantısı: TERS BEKLER",
+      "description": "Teknik heyet bir sonraki maç için taktiksel planları aktarıyor: beklerin merkeze kayarak orta sahaya pas desteği ve direnç katması.",
+      "choice_1": "Taktiksel direktifleri eksiksiz anlayıp sahaya yansıt",
+      "choice_2": "Sistem içerisinde bireysel yaratıcılık ve serbestlik iste",
+      "choice_3": "Takım arkadaşlarına saha içi koordinasyonda destek ol",
+      "choice_4": "Taktikleri sahada uygulamak için fiziksel mücadeleye odaklan"
     },
     "tactical_meeting_8": {
-      "title": "Tactical Briefing: FALSE NINE ROLE",
-      "description": "The coaching staff presents new tactical adjustments focusing on false nine role.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "Taktik Toplantısı: SAHTE 9 ROLÜ",
+      "description": "Teknik heyet bir sonraki maç için taktiksel planları aktarıyor: forvetin geriye gelip stoperleri üzerine çekmesi ve boş alanlar açması.",
+      "choice_1": "Taktiksel direktifleri eksiksiz anlayıp sahaya yansıt",
+      "choice_2": "Sistem içerisinde bireysel yaratıcılık ve serbestlik iste",
+      "choice_3": "Takım arkadaşlarına saha içi koordinasyonda destek ol",
+      "choice_4": "Taktikleri sahada uygulamak için fiziksel mücadeleye odaklan"
     },
     "tactical_meeting_9": {
-      "title": "Tactical Briefing: TRANSITION AGGRESSION",
-      "description": "The coaching staff presents new tactical adjustments focusing on transition aggression.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "Taktik Toplantısı: ŞOK GEGENPRESS",
+      "description": "Teknik heyet bir sonraki maç için taktiksel planları aktarıyor: top kaybı sonrası anında baskı uygulayarak rakibin atağını başlamadan bitirme.",
+      "choice_1": "Taktiksel direktifleri eksiksiz anlayıp sahaya yansıt",
+      "choice_2": "Sistem içerisinde bireysel yaratıcılık ve serbestlik iste",
+      "choice_3": "Takım arkadaşlarına saha içi koordinasyonda destek ol",
+      "choice_4": "Taktikleri sahada uygulamak için fiziksel mücadeleye odaklan"
     },
     "tactical_meeting_10": {
-      "title": "Tactical Briefing: ZONAL MARKING",
-      "description": "The coaching staff presents new tactical adjustments focusing on zonal marking.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "Taktik Toplantısı: ALAN SAVUNMASI",
+      "description": "Teknik heyet bir sonraki maç için taktiksel planları aktarıyor: bölgesel yerleşim disiplini ve hatların koordineli şekilde kayması.",
+      "choice_1": "Taktiksel direktifleri eksiksiz anlayıp sahaya yansıt",
+      "choice_2": "Sistem içerisinde bireysel yaratıcılık ve serbestlik iste",
+      "choice_3": "Takım arkadaşlarına saha içi koordinasyonda destek ol",
+      "choice_4": "Taktikleri sahada uygulamak için fiziksel mücadeleye odaklan"
     },
     "dressing_room_1": {
-      "title": "Dressing Room Scenario 1",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "Soyunma Odası Senaryosu 1",
+      "description": "Takım içi uyumu ve konsantrasyonu etkileyen bir soyunma odası durumu gelişti.",
+      "choice_1": "İlham verici bir konuşmayla takımı ateşle",
+      "choice_2": "Sessizce çok çalışarak sahadaki tavrınla örnek ol",
+      "choice_3": "Takım içi sürtüşmeleri doğrudan yüzleşerek çöz",
+      "choice_4": "Bağları güçlendirmek için bir takım yemeği organize et"
     },
     "dressing_room_2": {
-      "title": "Dressing Room Scenario 2",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "Soyunma Odası Senaryosu 2",
+      "description": "Takım içi uyumu ve konsantrasyonu etkileyen bir soyunma odası durumu gelişti.",
+      "choice_1": "İlham verici bir konuşmayla takımı ateşle",
+      "choice_2": "Sessizce çok çalışarak sahadaki tavrınla örnek ol",
+      "choice_3": "Takım içi sürtüşmeleri doğrudan yüzleşerek çöz",
+      "choice_4": "Bağları güçlendirmek için bir takım yemeği organize et"
     },
     "dressing_room_3": {
-      "title": "Dressing Room Scenario 3",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "Soyunma Odası Senaryosu 3",
+      "description": "Takım içi uyumu ve konsantrasyonu etkileyen bir soyunma odası durumu gelişti.",
+      "choice_1": "İlham verici bir konuşmayla takımı ateşle",
+      "choice_2": "Sessizce çok çalışarak sahadaki tavrınla örnek ol",
+      "choice_3": "Takım içi sürtüşmeleri doğrudan yüzleşerek çöz",
+      "choice_4": "Bağları güçlendirmek için bir takım yemeği organize et"
     },
     "dressing_room_4": {
-      "title": "Dressing Room Scenario 4",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "Soyunma Odası Senaryosu 4",
+      "description": "Takım içi uyumu ve konsantrasyonu etkileyen bir soyunma odası durumu gelişti.",
+      "choice_1": "İlham verici bir konuşmayla takımı ateşle",
+      "choice_2": "Sessizce çok çalışarak sahadaki tavrınla örnek ol",
+      "choice_3": "Takım içi sürtüşmeleri doğrudan yüzleşerek çöz",
+      "choice_4": "Bağları güçlendirmek için bir takım yemeği organize et"
     },
     "dressing_room_5": {
-      "title": "Dressing Room Scenario 5",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "Soyunma Odası Senaryosu 5",
+      "description": "Takım içi uyumu ve konsantrasyonu etkileyen bir soyunma odası durumu gelişti.",
+      "choice_1": "İlham verici bir konuşmayla takımı ateşle",
+      "choice_2": "Sessizce çok çalışarak sahadaki tavrınla örnek ol",
+      "choice_3": "Takım içi sürtüşmeleri doğrudan yüzleşerek çöz",
+      "choice_4": "Bağları güçlendirmek için bir takım yemeği organize et"
     },
     "dressing_room_6": {
-      "title": "Dressing Room Scenario 6",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "Soyunma Odası Senaryosu 6",
+      "description": "Takım içi uyumu ve konsantrasyonu etkileyen bir soyunma odası durumu gelişti.",
+      "choice_1": "İlham verici bir konuşmayla takımı ateşle",
+      "choice_2": "Sessizce çok çalışarak sahadaki tavrınla örnek ol",
+      "choice_3": "Takım içi sürtüşmeleri doğrudan yüzleşerek çöz",
+      "choice_4": "Bağları güçlendirmek için bir takım yemeği organize et"
     },
     "dressing_room_7": {
-      "title": "Dressing Room Scenario 7",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "Soyunma Odası Senaryosu 7",
+      "description": "Takım içi uyumu ve konsantrasyonu etkileyen bir soyunma odası durumu gelişti.",
+      "choice_1": "İlham verici bir konuşmayla takımı ateşle",
+      "choice_2": "Sessizce çok çalışarak sahadaki tavrınla örnek ol",
+      "choice_3": "Takım içi sürtüşmeleri doğrudan yüzleşerek çöz",
+      "choice_4": "Bağları güçlendirmek için bir takım yemeği organize et"
     },
     "dressing_room_8": {
-      "title": "Dressing Room Scenario 8",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "Soyunma Odası Senaryosu 8",
+      "description": "Takım içi uyumu ve konsantrasyonu etkileyen bir soyunma odası durumu gelişti.",
+      "choice_1": "İlham verici bir konuşmayla takımı ateşle",
+      "choice_2": "Sessizce çok çalışarak sahadaki tavrınla örnek ol",
+      "choice_3": "Takım içi sürtüşmeleri doğrudan yüzleşerek çöz",
+      "choice_4": "Bağları güçlendirmek için bir takım yemeği organize et"
     },
     "dressing_room_9": {
-      "title": "Dressing Room Scenario 9",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "Soyunma Odası Senaryosu 9",
+      "description": "Takım içi uyumu ve konsantrasyonu etkileyen bir soyunma odası durumu gelişti.",
+      "choice_1": "İlham verici bir konuşmayla takımı ateşle",
+      "choice_2": "Sessizce çok çalışarak sahadaki tavrınla örnek ol",
+      "choice_3": "Takım içi sürtüşmeleri doğrudan yüzleşerek çöz",
+      "choice_4": "Bağları güçlendirmek için bir takım yemeği organize et"
     },
     "dressing_room_10": {
-      "title": "Dressing Room Scenario 10",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "Soyunma Odası Senaryosu 10",
+      "description": "Takım içi uyumu ve konsantrasyonu etkileyen bir soyunma odası durumu gelişti.",
+      "choice_1": "İlham verici bir konuşmayla takımı ateşle",
+      "choice_2": "Sessizce çok çalışarak sahadaki tavrınla örnek ol",
+      "choice_3": "Takım içi sürtüşmeleri doğrudan yüzleşerek çöz",
+      "choice_4": "Bağları güçlendirmek için bir takım yemeği organize et"
     },
     "manager_talk_1": {
-      "title": "Manager Discussion 1",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "Teknik Direktörle Görüşme 1",
+      "description": "Teknik direktör, son dönemdeki rolünüzü ve gelişiminizi değerlendirmek için özel görüşme talep etti.",
+      "choice_1": "Hocanın oyun vizyonuna ve planlarına tam güven belirt",
+      "choice_2": "Mevkiniz için bazı taktiksel esneklikler rica et",
+      "choice_3": "Sahada hücum anlamında daha fazla serbestlik iste",
+      "choice_4": "Bireysel olarak ekstra antrenman yapmaya söz ver"
     },
     "manager_talk_2": {
-      "title": "Manager Discussion 2",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "Teknik Direktörle Görüşme 2",
+      "description": "Teknik direktör, son dönemdeki rolünüzü ve gelişiminizi değerlendirmek için özel görüşme talep etti.",
+      "choice_1": "Hocanın oyun vizyonuna ve planlarına tam güven belirt",
+      "choice_2": "Mevkiniz için bazı taktiksel esneklikler rica et",
+      "choice_3": "Sahada hücum anlamında daha fazla serbestlik iste",
+      "choice_4": "Bireysel olarak ekstra antrenman yapmaya söz ver"
     },
     "manager_talk_3": {
-      "title": "Manager Discussion 3",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "Teknik Direktörle Görüşme 3",
+      "description": "Teknik direktör, son dönemdeki rolünüzü ve gelişiminizi değerlendirmek için özel görüşme talep etti.",
+      "choice_1": "Hocanın oyun vizyonuna ve planlarına tam güven belirt",
+      "choice_2": "Mevkiniz için bazı taktiksel esneklikler rica et",
+      "choice_3": "Sahada hücum anlamında daha fazla serbestlik iste",
+      "choice_4": "Bireysel olarak ekstra antrenman yapmaya söz ver"
     },
     "manager_talk_4": {
-      "title": "Manager Discussion 4",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "Teknik Direktörle Görüşme 4",
+      "description": "Teknik direktör, son dönemdeki rolünüzü ve gelişiminizi değerlendirmek için özel görüşme talep etti.",
+      "choice_1": "Hocanın oyun vizyonuna ve planlarına tam güven belirt",
+      "choice_2": "Mevkiniz için bazı taktiksel esneklikler rica et",
+      "choice_3": "Sahada hücum anlamında daha fazla serbestlik iste",
+      "choice_4": "Bireysel olarak ekstra antrenman yapmaya söz ver"
     },
     "manager_talk_5": {
-      "title": "Manager Discussion 5",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "Teknik Direktörle Görüşme 5",
+      "description": "Teknik direktör, son dönemdeki rolünüzü ve gelişiminizi değerlendirmek için özel görüşme talep etti.",
+      "choice_1": "Hocanın oyun vizyonuna ve planlarına tam güven belirt",
+      "choice_2": "Mevkiniz için bazı taktiksel esneklikler rica et",
+      "choice_3": "Sahada hücum anlamında daha fazla serbestlik iste",
+      "choice_4": "Bireysel olarak ekstra antrenman yapmaya söz ver"
     },
     "manager_talk_6": {
-      "title": "Manager Discussion 6",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "Teknik Direktörle Görüşme 6",
+      "description": "Teknik direktör, son dönemdeki rolünüzü ve gelişiminizi değerlendirmek için özel görüşme talep etti.",
+      "choice_1": "Hocanın oyun vizyonuna ve planlarına tam güven belirt",
+      "choice_2": "Mevkiniz için bazı taktiksel esneklikler rica et",
+      "choice_3": "Sahada hücum anlamında daha fazla serbestlik iste",
+      "choice_4": "Bireysel olarak ekstra antrenman yapmaya söz ver"
     },
     "manager_talk_7": {
-      "title": "Manager Discussion 7",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "Teknik Direktörle Görüşme 7",
+      "description": "Teknik direktör, son dönemdeki rolünüzü ve gelişiminizi değerlendirmek için özel görüşme talep etti.",
+      "choice_1": "Hocanın oyun vizyonuna ve planlarına tam güven belirt",
+      "choice_2": "Mevkiniz için bazı taktiksel esneklikler rica et",
+      "choice_3": "Sahada hücum anlamında daha fazla serbestlik iste",
+      "choice_4": "Bireysel olarak ekstra antrenman yapmaya söz ver"
     },
     "manager_talk_8": {
-      "title": "Manager Discussion 8",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "Teknik Direktörle Görüşme 8",
+      "description": "Teknik direktör, son dönemdeki rolünüzü ve gelişiminizi değerlendirmek için özel görüşme talep etti.",
+      "choice_1": "Hocanın oyun vizyonuna ve planlarına tam güven belirt",
+      "choice_2": "Mevkiniz için bazı taktiksel esneklikler rica et",
+      "choice_3": "Sahada hücum anlamında daha fazla serbestlik iste",
+      "choice_4": "Bireysel olarak ekstra antrenman yapmaya söz ver"
     },
     "manager_talk_9": {
-      "title": "Manager Discussion 9",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "Teknik Direktörle Görüşme 9",
+      "description": "Teknik direktör, son dönemdeki rolünüzü ve gelişiminizi değerlendirmek için özel görüşme talep etti.",
+      "choice_1": "Hocanın oyun vizyonuna ve planlarına tam güven belirt",
+      "choice_2": "Mevkiniz için bazı taktiksel esneklikler rica et",
+      "choice_3": "Sahada hücum anlamında daha fazla serbestlik iste",
+      "choice_4": "Bireysel olarak ekstra antrenman yapmaya söz ver"
     },
     "manager_talk_10": {
-      "title": "Manager Discussion 10",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "Teknik Direktörle Görüşme 10",
+      "description": "Teknik direktör, son dönemdeki rolünüzü ve gelişiminizi değerlendirmek için özel görüşme talep etti.",
+      "choice_1": "Hocanın oyun vizyonuna ve planlarına tam güven belirt",
+      "choice_2": "Mevkiniz için bazı taktiksel esneklikler rica et",
+      "choice_3": "Sahada hücum anlamında daha fazla serbestlik iste",
+      "choice_4": "Bireysel olarak ekstra antrenman yapmaya söz ver"
     },
     "agent_negotiation_1": {
-      "title": "Agent Strategy Session 1",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "Menajer Strateji Toplantısı 1",
+      "description": "Menajeriniz kariyer planınız için yeni sözleşme ve ticari sponsorluk fırsatlarını sunuyor.",
+      "choice_1": "Sportif istikrara ve uzun vadeli kariyer gelişimine öncelik ver",
+      "choice_2": "Menajere dev kulüplerin ilgisini araştırması talimatını ver",
+      "choice_3": "Anlaşmalardan gelecek anlık sponsorluk gelirini maksimize et",
+      "choice_4": "Transferi unutup tamamen mevcut sezon hedeflerine odaklan"
     },
     "agent_negotiation_2": {
-      "title": "Agent Strategy Session 2",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "Menajer Strateji Toplantısı 2",
+      "description": "Menajeriniz kariyer planınız için yeni sözleşme ve ticari sponsorluk fırsatlarını sunuyor.",
+      "choice_1": "Sportif istikrara ve uzun vadeli kariyer gelişimine öncelik ver",
+      "choice_2": "Menajere dev kulüplerin ilgisini araştırması talimatını ver",
+      "choice_3": "Anlaşmalardan gelecek anlık sponsorluk gelirini maksimize et",
+      "choice_4": "Transferi unutup tamamen mevcut sezon hedeflerine odaklan"
     },
     "agent_negotiation_3": {
-      "title": "Agent Strategy Session 3",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "Menajer Strateji Toplantısı 3",
+      "description": "Menajeriniz kariyer planınız için yeni sözleşme ve ticari sponsorluk fırsatlarını sunuyor.",
+      "choice_1": "Sportif istikrara ve uzun vadeli kariyer gelişimine öncelik ver",
+      "choice_2": "Menajere dev kulüplerin ilgisini araştırması talimatını ver",
+      "choice_3": "Anlaşmalardan gelecek anlık sponsorluk gelirini maksimize et",
+      "choice_4": "Transferi unutup tamamen mevcut sezon hedeflerine odaklan"
     },
     "agent_negotiation_4": {
-      "title": "Agent Strategy Session 4",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "Menajer Strateji Toplantısı 4",
+      "description": "Menajeriniz kariyer planınız için yeni sözleşme ve ticari sponsorluk fırsatlarını sunuyor.",
+      "choice_1": "Sportif istikrara ve uzun vadeli kariyer gelişimine öncelik ver",
+      "choice_2": "Menajere dev kulüplerin ilgisini araştırması talimatını ver",
+      "choice_3": "Anlaşmalardan gelecek anlık sponsorluk gelirini maksimize et",
+      "choice_4": "Transferi unutup tamamen mevcut sezon hedeflerine odaklan"
     },
     "agent_negotiation_5": {
-      "title": "Agent Strategy Session 5",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "Menajer Strateji Toplantısı 5",
+      "description": "Menajeriniz kariyer planınız için yeni sözleşme ve ticari sponsorluk fırsatlarını sunuyor.",
+      "choice_1": "Sportif istikrara ve uzun vadeli kariyer gelişimine öncelik ver",
+      "choice_2": "Menajere dev kulüplerin ilgisini araştırması talimatını ver",
+      "choice_3": "Anlaşmalardan gelecek anlık sponsorluk gelirini maksimize et",
+      "choice_4": "Transferi unutup tamamen mevcut sezon hedeflerine odaklan"
     },
     "agent_negotiation_6": {
-      "title": "Agent Strategy Session 6",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "Menajer Strateji Toplantısı 6",
+      "description": "Menajeriniz kariyer planınız için yeni sözleşme ve ticari sponsorluk fırsatlarını sunuyor.",
+      "choice_1": "Sportif istikrara ve uzun vadeli kariyer gelişimine öncelik ver",
+      "choice_2": "Menajere dev kulüplerin ilgisini araştırması talimatını ver",
+      "choice_3": "Anlaşmalardan gelecek anlık sponsorluk gelirini maksimize et",
+      "choice_4": "Transferi unutup tamamen mevcut sezon hedeflerine odaklan"
     },
     "agent_negotiation_7": {
-      "title": "Agent Strategy Session 7",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "Menajer Strateji Toplantısı 7",
+      "description": "Menajeriniz kariyer planınız için yeni sözleşme ve ticari sponsorluk fırsatlarını sunuyor.",
+      "choice_1": "Sportif istikrara ve uzun vadeli kariyer gelişimine öncelik ver",
+      "choice_2": "Menajere dev kulüplerin ilgisini araştırması talimatını ver",
+      "choice_3": "Anlaşmalardan gelecek anlık sponsorluk gelirini maksimize et",
+      "choice_4": "Transferi unutup tamamen mevcut sezon hedeflerine odaklan"
     },
     "agent_negotiation_8": {
-      "title": "Agent Strategy Session 8",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "Menajer Strateji Toplantısı 8",
+      "description": "Menajeriniz kariyer planınız için yeni sözleşme ve ticari sponsorluk fırsatlarını sunuyor.",
+      "choice_1": "Sportif istikrara ve uzun vadeli kariyer gelişimine öncelik ver",
+      "choice_2": "Menajere dev kulüplerin ilgisini araştırması talimatını ver",
+      "choice_3": "Anlaşmalardan gelecek anlık sponsorluk gelirini maksimize et",
+      "choice_4": "Transferi unutup tamamen mevcut sezon hedeflerine odaklan"
     },
     "agent_negotiation_9": {
-      "title": "Agent Strategy Session 9",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "Menajer Strateji Toplantısı 9",
+      "description": "Menajeriniz kariyer planınız için yeni sözleşme ve ticari sponsorluk fırsatlarını sunuyor.",
+      "choice_1": "Sportif istikrara ve uzun vadeli kariyer gelişimine öncelik ver",
+      "choice_2": "Menajere dev kulüplerin ilgisini araştırması talimatını ver",
+      "choice_3": "Anlaşmalardan gelecek anlık sponsorluk gelirini maksimize et",
+      "choice_4": "Transferi unutup tamamen mevcut sezon hedeflerine odaklan"
     },
     "agent_negotiation_10": {
-      "title": "Agent Strategy Session 10",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "Menajer Strateji Toplantısı 10",
+      "description": "Menajeriniz kariyer planınız için yeni sözleşme ve ticari sponsorluk fırsatlarını sunuyor.",
+      "choice_1": "Sportif istikrara ve uzun vadeli kariyer gelişimine öncelik ver",
+      "choice_2": "Menajere dev kulüplerin ilgisini araştırması talimatını ver",
+      "choice_3": "Anlaşmalardan gelecek anlık sponsorluk gelirini maksimize et",
+      "choice_4": "Transferi unutup tamamen mevcut sezon hedeflerine odaklan"
     },
     "fan_community_1": {
-      "title": "Community Event 1",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "Toplum ve Taraftar Etkinliği 1",
+      "description": "Kulübün düzenlediği sosyal sorumluluk projesine katılma fırsatınız var.",
+      "choice_1": "Coşkuyla katıl ve taraftarlarla içtenlikle vakit geçir",
+      "choice_2": "Anlamlı ve cömert bir bağışta bulun",
+      "choice_3": "Kampanyayı sosyal medya hesaplarında paylaşarak ses getir",
+      "choice_4": "Maç öncesi dinlenmek için görevi kısa tutup erkenden ayrıl"
     },
     "fan_community_2": {
-      "title": "Community Event 2",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "Toplum ve Taraftar Etkinliği 2",
+      "description": "Kulübün düzenlediği sosyal sorumluluk projesine katılma fırsatınız var.",
+      "choice_1": "Coşkuyla katıl ve taraftarlarla içtenlikle vakit geçir",
+      "choice_2": "Anlamlı ve cömert bir bağışta bulun",
+      "choice_3": "Kampanyayı sosyal medya hesaplarında paylaşarak ses getir",
+      "choice_4": "Maç öncesi dinlenmek için görevi kısa tutup erkenden ayrıl"
     },
     "fan_community_3": {
-      "title": "Community Event 3",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "Toplum ve Taraftar Etkinliği 3",
+      "description": "Kulübün düzenlediği sosyal sorumluluk projesine katılma fırsatınız var.",
+      "choice_1": "Coşkuyla katıl ve taraftarlarla içtenlikle vakit geçir",
+      "choice_2": "Anlamlı ve cömert bir bağışta bulun",
+      "choice_3": "Kampanyayı sosyal medya hesaplarında paylaşarak ses getir",
+      "choice_4": "Maç öncesi dinlenmek için görevi kısa tutup erkenden ayrıl"
     },
     "fan_community_4": {
-      "title": "Community Event 4",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "Toplum ve Taraftar Etkinliği 4",
+      "description": "Kulübün düzenlediği sosyal sorumluluk projesine katılma fırsatınız var.",
+      "choice_1": "Coşkuyla katıl ve taraftarlarla içtenlikle vakit geçir",
+      "choice_2": "Anlamlı ve cömert bir bağışta bulun",
+      "choice_3": "Kampanyayı sosyal medya hesaplarında paylaşarak ses getir",
+      "choice_4": "Maç öncesi dinlenmek için görevi kısa tutup erkenden ayrıl"
     },
     "fan_community_5": {
-      "title": "Community Event 5",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "Toplum ve Taraftar Etkinliği 5",
+      "description": "Kulübün düzenlediği sosyal sorumluluk projesine katılma fırsatınız var.",
+      "choice_1": "Coşkuyla katıl ve taraftarlarla içtenlikle vakit geçir",
+      "choice_2": "Anlamlı ve cömert bir bağışta bulun",
+      "choice_3": "Kampanyayı sosyal medya hesaplarında paylaşarak ses getir",
+      "choice_4": "Maç öncesi dinlenmek için görevi kısa tutup erkenden ayrıl"
     },
     "fan_community_6": {
-      "title": "Community Event 6",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "Toplum ve Taraftar Etkinliği 6",
+      "description": "Kulübün düzenlediği sosyal sorumluluk projesine katılma fırsatınız var.",
+      "choice_1": "Coşkuyla katıl ve taraftarlarla içtenlikle vakit geçir",
+      "choice_2": "Anlamlı ve cömert bir bağışta bulun",
+      "choice_3": "Kampanyayı sosyal medya hesaplarında paylaşarak ses getir",
+      "choice_4": "Maç öncesi dinlenmek için görevi kısa tutup erkenden ayrıl"
     },
     "fan_community_7": {
-      "title": "Community Event 7",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "Toplum ve Taraftar Etkinliği 7",
+      "description": "Kulübün düzenlediği sosyal sorumluluk projesine katılma fırsatınız var.",
+      "choice_1": "Coşkuyla katıl ve taraftarlarla içtenlikle vakit geçir",
+      "choice_2": "Anlamlı ve cömert bir bağışta bulun",
+      "choice_3": "Kampanyayı sosyal medya hesaplarında paylaşarak ses getir",
+      "choice_4": "Maç öncesi dinlenmek için görevi kısa tutup erkenden ayrıl"
     },
     "fan_community_8": {
-      "title": "Community Event 8",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "Toplum ve Taraftar Etkinliği 8",
+      "description": "Kulübün düzenlediği sosyal sorumluluk projesine katılma fırsatınız var.",
+      "choice_1": "Coşkuyla katıl ve taraftarlarla içtenlikle vakit geçir",
+      "choice_2": "Anlamlı ve cömert bir bağışta bulun",
+      "choice_3": "Kampanyayı sosyal medya hesaplarında paylaşarak ses getir",
+      "choice_4": "Maç öncesi dinlenmek için görevi kısa tutup erkenden ayrıl"
     },
     "fan_community_9": {
-      "title": "Community Event 9",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "Toplum ve Taraftar Etkinliği 9",
+      "description": "Kulübün düzenlediği sosyal sorumluluk projesine katılma fırsatınız var.",
+      "choice_1": "Coşkuyla katıl ve taraftarlarla içtenlikle vakit geçir",
+      "choice_2": "Anlamlı ve cömert bir bağışta bulun",
+      "choice_3": "Kampanyayı sosyal medya hesaplarında paylaşarak ses getir",
+      "choice_4": "Maç öncesi dinlenmek için görevi kısa tutup erkenden ayrıl"
     },
     "fan_community_10": {
-      "title": "Community Event 10",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "Toplum ve Taraftar Etkinliği 10",
+      "description": "Kulübün düzenlediği sosyal sorumluluk projesine katılma fırsatınız var.",
+      "choice_1": "Coşkuyla katıl ve taraftarlarla içtenlikle vakit geçir",
+      "choice_2": "Anlamlı ve cömert bir bağışta bulun",
+      "choice_3": "Kampanyayı sosyal medya hesaplarında paylaşarak ses getir",
+      "choice_4": "Maç öncesi dinlenmek için görevi kısa tutup erkenden ayrıl"
     },
     "sponsorship_brand_1": {
-      "title": "Brand Offer 1",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "Marka Sponsorluk Teklifi 1",
+      "description": "Büyük bir küresel marka size sponsorluk ortaklığı teklif ediyor.",
+      "choice_1": "Sponsorluk sözleşmesini imzala",
+      "choice_2": "Sportif başarılara bağlı performans primlerini yükseltmeyi talep et",
+      "choice_3": "Sadece sahaya ve futbola odaklanmak için teklifi geri çevir",
+      "choice_4": "Sözleşmeye sosyal yardım kurumlarına bağış maddesi eklet"
     },
     "sponsorship_brand_2": {
-      "title": "Brand Offer 2",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "Marka Sponsorluk Teklifi 2",
+      "description": "Büyük bir küresel marka size sponsorluk ortaklığı teklif ediyor.",
+      "choice_1": "Sponsorluk sözleşmesini imzala",
+      "choice_2": "Sportif başarılara bağlı performans primlerini yükseltmeyi talep et",
+      "choice_3": "Sadece sahaya ve futbola odaklanmak için teklifi geri çevir",
+      "choice_4": "Sözleşmeye sosyal yardım kurumlarına bağış maddesi eklet"
     },
     "sponsorship_brand_3": {
-      "title": "Brand Offer 3",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "Marka Sponsorluk Teklifi 3",
+      "description": "Büyük bir küresel marka size sponsorluk ortaklığı teklif ediyor.",
+      "choice_1": "Sponsorluk sözleşmesini imzala",
+      "choice_2": "Sportif başarılara bağlı performans primlerini yükseltmeyi talep et",
+      "choice_3": "Sadece sahaya ve futbola odaklanmak için teklifi geri çevir",
+      "choice_4": "Sözleşmeye sosyal yardım kurumlarına bağış maddesi eklet"
     },
     "sponsorship_brand_4": {
-      "title": "Brand Offer 4",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "Marka Sponsorluk Teklifi 4",
+      "description": "Büyük bir küresel marka size sponsorluk ortaklığı teklif ediyor.",
+      "choice_1": "Sponsorluk sözleşmesini imzala",
+      "choice_2": "Sportif başarılara bağlı performans primlerini yükseltmeyi talep et",
+      "choice_3": "Sadece sahaya ve futbola odaklanmak için teklifi geri çevir",
+      "choice_4": "Sözleşmeye sosyal yardım kurumlarına bağış maddesi eklet"
     },
     "sponsorship_brand_5": {
-      "title": "Brand Offer 5",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "Marka Sponsorluk Teklifi 5",
+      "description": "Büyük bir küresel marka size sponsorluk ortaklığı teklif ediyor.",
+      "choice_1": "Sponsorluk sözleşmesini imzala",
+      "choice_2": "Sportif başarılara bağlı performans primlerini yükseltmeyi talep et",
+      "choice_3": "Sadece sahaya ve futbola odaklanmak için teklifi geri çevir",
+      "choice_4": "Sözleşmeye sosyal yardım kurumlarına bağış maddesi eklet"
     },
     "sponsorship_brand_6": {
-      "title": "Brand Offer 6",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "Marka Sponsorluk Teklifi 6",
+      "description": "Büyük bir küresel marka size sponsorluk ortaklığı teklif ediyor.",
+      "choice_1": "Sponsorluk sözleşmesini imzala",
+      "choice_2": "Sportif başarılara bağlı performans primlerini yükseltmeyi talep et",
+      "choice_3": "Sadece sahaya ve futbola odaklanmak için teklifi geri çevir",
+      "choice_4": "Sözleşmeye sosyal yardım kurumlarına bağış maddesi eklet"
     },
     "sponsorship_brand_7": {
-      "title": "Brand Offer 7",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "Marka Sponsorluk Teklifi 7",
+      "description": "Büyük bir küresel marka size sponsorluk ortaklığı teklif ediyor.",
+      "choice_1": "Sponsorluk sözleşmesini imzala",
+      "choice_2": "Sportif başarılara bağlı performans primlerini yükseltmeyi talep et",
+      "choice_3": "Sadece sahaya ve futbola odaklanmak için teklifi geri çevir",
+      "choice_4": "Sözleşmeye sosyal yardım kurumlarına bağış maddesi eklet"
     },
     "sponsorship_brand_8": {
-      "title": "Brand Offer 8",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "Marka Sponsorluk Teklifi 8",
+      "description": "Büyük bir küresel marka size sponsorluk ortaklığı teklif ediyor.",
+      "choice_1": "Sponsorluk sözleşmesini imzala",
+      "choice_2": "Sportif başarılara bağlı performans primlerini yükseltmeyi talep et",
+      "choice_3": "Sadece sahaya ve futbola odaklanmak için teklifi geri çevir",
+      "choice_4": "Sözleşmeye sosyal yardım kurumlarına bağış maddesi eklet"
     },
     "sponsorship_brand_9": {
-      "title": "Brand Offer 9",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "Marka Sponsorluk Teklifi 9",
+      "description": "Büyük bir küresel marka size sponsorluk ortaklığı teklif ediyor.",
+      "choice_1": "Sponsorluk sözleşmesini imzala",
+      "choice_2": "Sportif başarılara bağlı performans primlerini yükseltmeyi talep et",
+      "choice_3": "Sadece sahaya ve futbola odaklanmak için teklifi geri çevir",
+      "choice_4": "Sözleşmeye sosyal yardım kurumlarına bağış maddesi eklet"
     },
     "sponsorship_brand_10": {
-      "title": "Brand Offer 10",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "Marka Sponsorluk Teklifi 10",
+      "description": "Büyük bir küresel marka size sponsorluk ortaklığı teklif ediyor.",
+      "choice_1": "Sponsorluk sözleşmesini imzala",
+      "choice_2": "Sportif başarılara bağlı performans primlerini yükseltmeyi talep et",
+      "choice_3": "Sadece sahaya ve futbola odaklanmak için teklifi geri çevir",
+      "choice_4": "Sözleşmeye sosyal yardım kurumlarına bağış maddesi eklet"
     },
     "lifestyle_media_1": {
-      "title": "Media Spotlight 1",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "Medya Spot Işıkları 1",
+      "description": "Büyük bir spor dergisi günlük yaşamınız hakkında özel bir röportaj istiyor.",
+      "choice_1": "Antrenman disiplininizi ve adanmışlığınızı samimiyetle anlat",
+      "choice_2": "Kişisel markanızı ve saha dışı yaşam tarzınızı öne çıkar",
+      "choice_3": "Röportajı yalnızca takımın kupa hedefleri çerçevesinde tut",
+      "choice_4": "Özel hayatın gizliliğini korumak için röportajı nazikçe reddet"
     },
     "lifestyle_media_2": {
-      "title": "Media Spotlight 2",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "Medya Spot Işıkları 2",
+      "description": "Büyük bir spor dergisi günlük yaşamınız hakkında özel bir röportaj istiyor.",
+      "choice_1": "Antrenman disiplininizi ve adanmışlığınızı samimiyetle anlat",
+      "choice_2": "Kişisel markanızı ve saha dışı yaşam tarzınızı öne çıkar",
+      "choice_3": "Röportajı yalnızca takımın kupa hedefleri çerçevesinde tut",
+      "choice_4": "Özel hayatın gizliliğini korumak için röportajı nazikçe reddet"
     },
     "lifestyle_media_3": {
-      "title": "Media Spotlight 3",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "Medya Spot Işıkları 3",
+      "description": "Büyük bir spor dergisi günlük yaşamınız hakkında özel bir röportaj istiyor.",
+      "choice_1": "Antrenman disiplininizi ve adanmışlığınızı samimiyetle anlat",
+      "choice_2": "Kişisel markanızı ve saha dışı yaşam tarzınızı öne çıkar",
+      "choice_3": "Röportajı yalnızca takımın kupa hedefleri çerçevesinde tut",
+      "choice_4": "Özel hayatın gizliliğini korumak için röportajı nazikçe reddet"
     },
     "lifestyle_media_4": {
-      "title": "Media Spotlight 4",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "Medya Spot Işıkları 4",
+      "description": "Büyük bir spor dergisi günlük yaşamınız hakkında özel bir röportaj istiyor.",
+      "choice_1": "Antrenman disiplininizi ve adanmışlığınızı samimiyetle anlat",
+      "choice_2": "Kişisel markanızı ve saha dışı yaşam tarzınızı öne çıkar",
+      "choice_3": "Röportajı yalnızca takımın kupa hedefleri çerçevesinde tut",
+      "choice_4": "Özel hayatın gizliliğini korumak için röportajı nazikçe reddet"
     },
     "lifestyle_media_5": {
-      "title": "Media Spotlight 5",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "Medya Spot Işıkları 5",
+      "description": "Büyük bir spor dergisi günlük yaşamınız hakkında özel bir röportaj istiyor.",
+      "choice_1": "Antrenman disiplininizi ve adanmışlığınızı samimiyetle anlat",
+      "choice_2": "Kişisel markanızı ve saha dışı yaşam tarzınızı öne çıkar",
+      "choice_3": "Röportajı yalnızca takımın kupa hedefleri çerçevesinde tut",
+      "choice_4": "Özel hayatın gizliliğini korumak için röportajı nazikçe reddet"
     },
     "lifestyle_media_6": {
-      "title": "Media Spotlight 6",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "Medya Spot Işıkları 6",
+      "description": "Büyük bir spor dergisi günlük yaşamınız hakkında özel bir röportaj istiyor.",
+      "choice_1": "Antrenman disiplininizi ve adanmışlığınızı samimiyetle anlat",
+      "choice_2": "Kişisel markanızı ve saha dışı yaşam tarzınızı öne çıkar",
+      "choice_3": "Röportajı yalnızca takımın kupa hedefleri çerçevesinde tut",
+      "choice_4": "Özel hayatın gizliliğini korumak için röportajı nazikçe reddet"
     },
     "lifestyle_media_7": {
-      "title": "Media Spotlight 7",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "Medya Spot Işıkları 7",
+      "description": "Büyük bir spor dergisi günlük yaşamınız hakkında özel bir röportaj istiyor.",
+      "choice_1": "Antrenman disiplininizi ve adanmışlığınızı samimiyetle anlat",
+      "choice_2": "Kişisel markanızı ve saha dışı yaşam tarzınızı öne çıkar",
+      "choice_3": "Röportajı yalnızca takımın kupa hedefleri çerçevesinde tut",
+      "choice_4": "Özel hayatın gizliliğini korumak için röportajı nazikçe reddet"
     },
     "lifestyle_media_8": {
-      "title": "Media Spotlight 8",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "Medya Spot Işıkları 8",
+      "description": "Büyük bir spor dergisi günlük yaşamınız hakkında özel bir röportaj istiyor.",
+      "choice_1": "Antrenman disiplininizi ve adanmışlığınızı samimiyetle anlat",
+      "choice_2": "Kişisel markanızı ve saha dışı yaşam tarzınızı öne çıkar",
+      "choice_3": "Röportajı yalnızca takımın kupa hedefleri çerçevesinde tut",
+      "choice_4": "Özel hayatın gizliliğini korumak için röportajı nazikçe reddet"
     },
     "lifestyle_media_9": {
-      "title": "Media Spotlight 9",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "Medya Spot Işıkları 9",
+      "description": "Büyük bir spor dergisi günlük yaşamınız hakkında özel bir röportaj istiyor.",
+      "choice_1": "Antrenman disiplininizi ve adanmışlığınızı samimiyetle anlat",
+      "choice_2": "Kişisel markanızı ve saha dışı yaşam tarzınızı öne çıkar",
+      "choice_3": "Röportajı yalnızca takımın kupa hedefleri çerçevesinde tut",
+      "choice_4": "Özel hayatın gizliliğini korumak için röportajı nazikçe reddet"
     },
     "lifestyle_media_10": {
-      "title": "Media Spotlight 10",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "Medya Spot Işıkları 10",
+      "description": "Büyük bir spor dergisi günlük yaşamınız hakkında özel bir röportaj istiyor.",
+      "choice_1": "Antrenman disiplininizi ve adanmışlığınızı samimiyetle anlat",
+      "choice_2": "Kişisel markanızı ve saha dışı yaşam tarzınızı öne çıkar",
+      "choice_3": "Röportajı yalnızca takımın kupa hedefleri çerçevesinde tut",
+      "choice_4": "Özel hayatın gizliliğini korumak için röportajı nazikçe reddet"
     },
     "rivalry_drama_1": {
-      "title": "Rivalry Encounter 1",
-      "description": "Tensions flare during a heated derby buildup with opponent players.",
-      "choice_1": "Maintain composure and answer on the pitch",
-      "choice_2": "Respond fiercely to defend club pride",
-      "choice_3": "De-escalate tension through captain leadership",
-      "choice_4": "Use energy as motivation for extra training"
+      "title": "Derbi Öncesi Tansiyon 1",
+      "description": "Ezeli rakiple oynanacak derbi öncesinde rakip oyuncuların açıklamalarıyla ortam gerildi.",
+      "choice_1": "Soğukkanlılığını koru ve cevabını sahada futbolunla ver",
+      "choice_2": "Kulübün onurunu ve armasını savunmak için sert bir yanıt ver",
+      "choice_3": "Liderlik sergileyerek takım arkadaşlarının sakinleşmesini sağla",
+      "choice_4": "Bu gerginliği ekstra antrenman azmine ve motivasyona dönüştür"
     },
     "rivalry_drama_2": {
-      "title": "Rivalry Encounter 2",
-      "description": "Tensions flare during a heated derby buildup with opponent players.",
-      "choice_1": "Maintain composure and answer on the pitch",
-      "choice_2": "Respond fiercely to defend club pride",
-      "choice_3": "De-escalate tension through captain leadership",
-      "choice_4": "Use energy as motivation for extra training"
+      "title": "Derbi Öncesi Tansiyon 2",
+      "description": "Ezeli rakiple oynanacak derbi öncesinde rakip oyuncuların açıklamalarıyla ortam gerildi.",
+      "choice_1": "Soğukkanlılığını koru ve cevabını sahada futbolunla ver",
+      "choice_2": "Kulübün onurunu ve armasını savunmak için sert bir yanıt ver",
+      "choice_3": "Liderlik sergileyerek takım arkadaşlarının sakinleşmesini sağla",
+      "choice_4": "Bu gerginliği ekstra antrenman azmine ve motivasyona dönüştür"
     },
     "rivalry_drama_3": {
-      "title": "Rivalry Encounter 3",
-      "description": "Tensions flare during a heated derby buildup with opponent players.",
-      "choice_1": "Maintain composure and answer on the pitch",
-      "choice_2": "Respond fiercely to defend club pride",
-      "choice_3": "De-escalate tension through captain leadership",
-      "choice_4": "Use energy as motivation for extra training"
+      "title": "Derbi Öncesi Tansiyon 3",
+      "description": "Ezeli rakiple oynanacak derbi öncesinde rakip oyuncuların açıklamalarıyla ortam gerildi.",
+      "choice_1": "Soğukkanlılığını koru ve cevabını sahada futbolunla ver",
+      "choice_2": "Kulübün onurunu ve armasını savunmak için sert bir yanıt ver",
+      "choice_3": "Liderlik sergileyerek takım arkadaşlarının sakinleşmesini sağla",
+      "choice_4": "Bu gerginliği ekstra antrenman azmine ve motivasyona dönüştür"
     },
     "rivalry_drama_4": {
-      "title": "Rivalry Encounter 4",
-      "description": "Tensions flare during a heated derby buildup with opponent players.",
-      "choice_1": "Maintain composure and answer on the pitch",
-      "choice_2": "Respond fiercely to defend club pride",
-      "choice_3": "De-escalate tension through captain leadership",
-      "choice_4": "Use energy as motivation for extra training"
+      "title": "Derbi Öncesi Tansiyon 4",
+      "description": "Ezeli rakiple oynanacak derbi öncesinde rakip oyuncuların açıklamalarıyla ortam gerildi.",
+      "choice_1": "Soğukkanlılığını koru ve cevabını sahada futbolunla ver",
+      "choice_2": "Kulübün onurunu ve armasını savunmak için sert bir yanıt ver",
+      "choice_3": "Liderlik sergileyerek takım arkadaşlarının sakinleşmesini sağla",
+      "choice_4": "Bu gerginliği ekstra antrenman azmine ve motivasyona dönüştür"
     },
     "rivalry_drama_5": {
-      "title": "Rivalry Encounter 5",
-      "description": "Tensions flare during a heated derby buildup with opponent players.",
-      "choice_1": "Maintain composure and answer on the pitch",
-      "choice_2": "Respond fiercely to defend club pride",
-      "choice_3": "De-escalate tension through captain leadership",
-      "choice_4": "Use energy as motivation for extra training"
+      "title": "Derbi Öncesi Tansiyon 5",
+      "description": "Ezeli rakiple oynanacak derbi öncesinde rakip oyuncuların açıklamalarıyla ortam gerildi.",
+      "choice_1": "Soğukkanlılığını koru ve cevabını sahada futbolunla ver",
+      "choice_2": "Kulübün onurunu ve armasını savunmak için sert bir yanıt ver",
+      "choice_3": "Liderlik sergileyerek takım arkadaşlarının sakinleşmesini sağla",
+      "choice_4": "Bu gerginliği ekstra antrenman azmine ve motivasyona dönüştür"
     },
     "veteran_mentorship_1": {
-      "title": "Mentorship Session 1",
-      "description": "An experienced squad veteran offers advice on positioning and game reading.",
-      "choice_1": "Absorb advice greedily and practice techniques",
-      "choice_2": "Discuss tactical concepts in depth",
-      "choice_3": "Express gratitude and offer to mentor academy players",
-      "choice_4": "Focus on applying lessons in next match"
+      "title": "Tecrübeli Kaptan Desteği 1",
+      "description": "Takımın deneyimli kurdu, saha içi yer tutma ve oyunu sezme konusunda altın tavsiyeler veriyor.",
+      "choice_1": "Öğütleri can kulağıyla dinle ve antrenmanda hemen pratiğe dök",
+      "choice_2": "Taktiksel anlayış üzerine derinlemesine fikir alışverişi yap",
+      "choice_3": "Teşekkür et ve altyapıdan çıkan gençlere rehberlik etmeyi teklif et",
+      "choice_4": "Öğrendiklerini bir sonraki maçta kusursuz şekilde uygulamaya odaklan"
     },
     "veteran_mentorship_2": {
-      "title": "Mentorship Session 2",
-      "description": "An experienced squad veteran offers advice on positioning and game reading.",
-      "choice_1": "Absorb advice greedily and practice techniques",
-      "choice_2": "Discuss tactical concepts in depth",
-      "choice_3": "Express gratitude and offer to mentor academy players",
-      "choice_4": "Focus on applying lessons in next match"
+      "title": "Tecrübeli Kaptan Desteği 2",
+      "description": "Takımın deneyimli kurdu, saha içi yer tutma ve oyunu sezme konusunda altın tavsiyeler veriyor.",
+      "choice_1": "Öğütleri can kulağıyla dinle ve antrenmanda hemen pratiğe dök",
+      "choice_2": "Taktiksel anlayış üzerine derinlemesine fikir alışverişi yap",
+      "choice_3": "Teşekkür et ve altyapıdan çıkan gençlere rehberlik etmeyi teklif et",
+      "choice_4": "Öğrendiklerini bir sonraki maçta kusursuz şekilde uygulamaya odaklan"
     },
     "veteran_mentorship_3": {
-      "title": "Mentorship Session 3",
-      "description": "An experienced squad veteran offers advice on positioning and game reading.",
-      "choice_1": "Absorb advice greedily and practice techniques",
-      "choice_2": "Discuss tactical concepts in depth",
-      "choice_3": "Express gratitude and offer to mentor academy players",
-      "choice_4": "Focus on applying lessons in next match"
+      "title": "Tecrübeli Kaptan Desteği 3",
+      "description": "Takımın deneyimli kurdu, saha içi yer tutma ve oyunu sezme konusunda altın tavsiyeler veriyor.",
+      "choice_1": "Öğütleri can kulağıyla dinle ve antrenmanda hemen pratiğe dök",
+      "choice_2": "Taktiksel anlayış üzerine derinlemesine fikir alışverişi yap",
+      "choice_3": "Teşekkür et ve altyapıdan çıkan gençlere rehberlik etmeyi teklif et",
+      "choice_4": "Öğrendiklerini bir sonraki maçta kusursuz şekilde uygulamaya odaklan"
     },
     "veteran_mentorship_4": {
-      "title": "Mentorship Session 4",
-      "description": "An experienced squad veteran offers advice on positioning and game reading.",
-      "choice_1": "Absorb advice greedily and practice techniques",
-      "choice_2": "Discuss tactical concepts in depth",
-      "choice_3": "Express gratitude and offer to mentor academy players",
-      "choice_4": "Focus on applying lessons in next match"
+      "title": "Tecrübeli Kaptan Desteği 4",
+      "description": "Takımın deneyimli kurdu, saha içi yer tutma ve oyunu sezme konusunda altın tavsiyeler veriyor.",
+      "choice_1": "Öğütleri can kulağıyla dinle ve antrenmanda hemen pratiğe dök",
+      "choice_2": "Taktiksel anlayış üzerine derinlemesine fikir alışverişi yap",
+      "choice_3": "Teşekkür et ve altyapıdan çıkan gençlere rehberlik etmeyi teklif et",
+      "choice_4": "Öğrendiklerini bir sonraki maçta kusursuz şekilde uygulamaya odaklan"
     },
     "veteran_mentorship_5": {
-      "title": "Mentorship Session 5",
-      "description": "An experienced squad veteran offers advice on positioning and game reading.",
-      "choice_1": "Absorb advice greedily and practice techniques",
-      "choice_2": "Discuss tactical concepts in depth",
-      "choice_3": "Express gratitude and offer to mentor academy players",
-      "choice_4": "Focus on applying lessons in next match"
+      "title": "Tecrübeli Kaptan Desteği 5",
+      "description": "Takımın deneyimli kurdu, saha içi yer tutma ve oyunu sezme konusunda altın tavsiyeler veriyor.",
+      "choice_1": "Öğütleri can kulağıyla dinle ve antrenmanda hemen pratiğe dök",
+      "choice_2": "Taktiksel anlayış üzerine derinlemesine fikir alışverişi yap",
+      "choice_3": "Teşekkür et ve altyapıdan çıkan gençlere rehberlik etmeyi teklif et",
+      "choice_4": "Öğrendiklerini bir sonraki maçta kusursuz şekilde uygulamaya odaklan"
+    },
+    "social": {
+      "title": "Sosyal Medyada Eleştiri",
+      "description": "Bir televizyon yorumcusu sosyal medyada sizin için 'fazlasıyla abartılmış' dedi ve bu video viral oldu.",
+      "choice_ignore": "Duymazdan gel",
+      "choice_respond": "Sert bir yanıt ver"
+    },
+    "specialTraining": {
+      "title": "Özel Antrenman Programı",
+      "description": "Teknik ekip oyununuzu bir üst seviyeye taşımak için özel bir çalışma önerdi, ancak oldukça yorucu olacak.",
+      "choice_accept": "Ekstra çalışmayı kabul et",
+      "choice_decline": "Mevcut rutine sadık kal"
+    },
+    "sponsor": {
+      "title": "Sponsorluk Teklifi",
+      "description": "{brand} bir sponsorluk anlaşması teklif ediyor. Kazancı cazip ancak reklam taahhütleri yoğun.",
+      "choice_accept": "Anlaşmayı imzala",
+      "choice_decline": "Teklifi geri çevir",
+      "choice_negotiate": "Daha fazlasını talep et"
+    },
+    "rivalry_drama_6": {
+      "title": "Derbi Öncesi Tansiyon 6",
+      "description": "Ezeli rakiple oynanacak derbi öncesinde rakip oyuncuların açıklamalarıyla ortam gerildi.",
+      "choice_1": "Soğukkanlılığını koru ve cevabını sahada futbolunla ver",
+      "choice_2": "Kulübün onurunu ve armasını savunmak için sert bir yanıt ver",
+      "choice_3": "Liderlik sergileyerek takım arkadaşlarının sakinleşmesini sağla",
+      "choice_4": "Bu gerginliği ekstra antrenman azmine ve motivasyona dönüştür"
+    },
+    "rivalry_drama_7": {
+      "title": "Derbi Öncesi Tansiyon 7",
+      "description": "Ezeli rakiple oynanacak derbi öncesinde rakip oyuncuların açıklamalarıyla ortam gerildi.",
+      "choice_1": "Soğukkanlılığını koru ve cevabını sahada futbolunla ver",
+      "choice_2": "Kulübün onurunu ve armasını savunmak için sert bir yanıt ver",
+      "choice_3": "Liderlik sergileyerek takım arkadaşlarının sakinleşmesini sağla",
+      "choice_4": "Bu gerginliği ekstra antrenman azmine ve motivasyona dönüştür"
+    },
+    "rivalry_drama_8": {
+      "title": "Derbi Öncesi Tansiyon 8",
+      "description": "Ezeli rakiple oynanacak derbi öncesinde rakip oyuncuların açıklamalarıyla ortam gerildi.",
+      "choice_1": "Soğukkanlılığını koru ve cevabını sahada futbolunla ver",
+      "choice_2": "Kulübün onurunu ve armasını savunmak için sert bir yanıt ver",
+      "choice_3": "Liderlik sergileyerek takım arkadaşlarının sakinleşmesini sağla",
+      "choice_4": "Bu gerginliği ekstra antrenman azmine ve motivasyona dönüştür"
+    },
+    "rivalry_drama_9": {
+      "title": "Derbi Öncesi Tansiyon 9",
+      "description": "Ezeli rakiple oynanacak derbi öncesinde rakip oyuncuların açıklamalarıyla ortam gerildi.",
+      "choice_1": "Soğukkanlılığını koru ve cevabını sahada futbolunla ver",
+      "choice_2": "Kulübün onurunu ve armasını savunmak için sert bir yanıt ver",
+      "choice_3": "Liderlik sergileyerek takım arkadaşlarının sakinleşmesini sağla",
+      "choice_4": "Bu gerginliği ekstra antrenman azmine ve motivasyona dönüştür"
+    },
+    "rivalry_drama_10": {
+      "title": "Derbi Öncesi Tansiyon 10",
+      "description": "Ezeli rakiple oynanacak derbi öncesinde rakip oyuncuların açıklamalarıyla ortam gerildi.",
+      "choice_1": "Soğukkanlılığını koru ve cevabını sahada futbolunla ver",
+      "choice_2": "Kulübün onurunu ve armasını savunmak için sert bir yanıt ver",
+      "choice_3": "Liderlik sergileyerek takım arkadaşlarının sakinleşmesini sağla",
+      "choice_4": "Bu gerginliği ekstra antrenman azmine ve motivasyona dönüştür"
+    },
+    "veteran_mentorship_6": {
+      "title": "Tecrübeli Kaptan Desteği 6",
+      "description": "Takımın deneyimli kurdu, saha içi yer tutma ve oyunu sezme konusunda altın tavsiyeler veriyor.",
+      "choice_1": "Öğütleri can kulağıyla dinle ve antrenmanda hemen pratiğe dök",
+      "choice_2": "Taktiksel anlayış üzerine derinlemesine fikir alışverişi yap",
+      "choice_3": "Teşekkür et ve altyapıdan çıkan gençlere rehberlik etmeyi teklif et",
+      "choice_4": "Öğrendiklerini bir sonraki maçta kusursuz şekilde uygulamaya odaklan"
+    },
+    "veteran_mentorship_7": {
+      "title": "Tecrübeli Kaptan Desteği 7",
+      "description": "Takımın deneyimli kurdu, saha içi yer tutma ve oyunu sezme konusunda altın tavsiyeler veriyor.",
+      "choice_1": "Öğütleri can kulağıyla dinle ve antrenmanda hemen pratiğe dök",
+      "choice_2": "Taktiksel anlayış üzerine derinlemesine fikir alışverişi yap",
+      "choice_3": "Teşekkür et ve altyapıdan çıkan gençlere rehberlik etmeyi teklif et",
+      "choice_4": "Öğrendiklerini bir sonraki maçta kusursuz şekilde uygulamaya odaklan"
+    },
+    "veteran_mentorship_8": {
+      "title": "Tecrübeli Kaptan Desteği 8",
+      "description": "Takımın deneyimli kurdu, saha içi yer tutma ve oyunu sezme konusunda altın tavsiyeler veriyor.",
+      "choice_1": "Öğütleri can kulağıyla dinle ve antrenmanda hemen pratiğe dök",
+      "choice_2": "Taktiksel anlayış üzerine derinlemesine fikir alışverişi yap",
+      "choice_3": "Teşekkür et ve altyapıdan çıkan gençlere rehberlik etmeyi teklif et",
+      "choice_4": "Öğrendiklerini bir sonraki maçta kusursuz şekilde uygulamaya odaklan"
+    },
+    "veteran_mentorship_9": {
+      "title": "Tecrübeli Kaptan Desteği 9",
+      "description": "Takımın deneyimli kurdu, saha içi yer tutma ve oyunu sezme konusunda altın tavsiyeler veriyor.",
+      "choice_1": "Öğütleri can kulağıyla dinle ve antrenmanda hemen pratiğe dök",
+      "choice_2": "Taktiksel anlayış üzerine derinlemesine fikir alışverişi yap",
+      "choice_3": "Teşekkür et ve altyapıdan çıkan gençlere rehberlik etmeyi teklif et",
+      "choice_4": "Öğrendiklerini bir sonraki maçta kusursuz şekilde uygulamaya odaklan"
+    },
+    "veteran_mentorship_10": {
+      "title": "Tecrübeli Kaptan Desteği 10",
+      "description": "Takımın deneyimli kurdu, saha içi yer tutma ve oyunu sezme konusunda altın tavsiyeler veriyor.",
+      "choice_1": "Öğütleri can kulağıyla dinle ve antrenmanda hemen pratiğe dök",
+      "choice_2": "Taktiksel anlayış üzerine derinlemesine fikir alışverişi yap",
+      "choice_3": "Teşekkür et ve altyapıdan çıkan gençlere rehberlik etmeyi teklif et",
+      "choice_4": "Öğrendiklerini bir sonraki maçta kusursuz şekilde uygulamaya odaklan"
     }
   },
   "contractTermination": {
@@ -2172,20 +2291,20 @@
     "narrativeChange": {
       "Prodigy": "Medya anlatısı şu şekilde değişiyor: 'Dahi'",
       "OntheRise": "Medya anlatısı şu şekilde değişiyor: 'Yükselişte'",
-      "EstablishedStar": "Medya anlatısı şu şekilde değişiyor: 'Kurulu Yıldız'",
+      "EstablishedStar": "Medya anlatısı şu şekilde değişiyor: 'Yerleşik Yıldız'",
       "UnderPressure": "Medya anlatısı şu şekilde değişiyor: 'Baskı Altında'",
       "Journeyman": "Medya anlatısı şu şekilde değişiyor: 'Sahada hayalet gibiydi'",
       "VeteranLeader": "Medya anlatısı şu şekilde değişiyor: 'Kıdemli Lider'",
       "VeteranStar": "Medya anlatısı şu şekilde değişiyor: 'Kıdemli Yıldız'",
-      "VeteranRotation": "Medya anlatısı şu şekilde değişiyor: 'Emekli Rotasyonu'",
+      "VeteranRotation": "Medya anlatısı şu şekilde değişiyor: 'Veteran Rotasyonu'",
       "ForgottenMan": "Medya anlatısı şu şekilde değişiyor: 'Unutulmuş Adam'",
       "Flop": "Medya anlatısı şu şekilde değişiyor: 'Flop'",
-      "ComebackKid": "Medya anlatısı şu şekilde değişiyor: 'Geri Dönüş Çocuğu'",
+      "ComebackKid": "Medya anlatısı şu şekilde değişiyor: 'Geri Dönen'",
       "CultHero": "Medya anlatısı şu şekilde değişiyor: 'Kült Kahraman'",
       "HometownHero": "Medya anlatısı şu şekilde değişiyor: 'Memleket Kahramanı'",
-      "PolarizingFigure": "Medya anlatısı şu şekilde değişiyor: 'Kutuplaştırıcı Şekil'",
-      "PressDarling": "Medya anlatısı şu şekilde değişiyor: 'Basın Sevgilim'",
-      "SystemPlayer": "Medya anlatımı şu şekilde değişiyor: 'Sistem Oynatıcısı'",
+      "PolarizingFigure": "Medya anlatısı şu şekilde değişiyor: 'Kutuplaştırıcı Figür'",
+      "PressDarling": "Medya anlatısı şu şekilde değişiyor: 'Basının Sevgilisi'",
+      "SystemPlayer": "Medya anlatısı şu şekilde değişiyor: 'Sistem Oyuncusu'",
       "InjuryComeback": "Medya anlatısı şu şekilde değişiyor: 'Sakatlığın Geri Dönüşü'"
     }
   },
@@ -2194,7 +2313,7 @@
       "quote1": "Bu kadar şüpheden sonra tekrar zirveye çıkmak nasıl bir duygu?",
       "quote2": "Taraftarlar inanmaktan asla vazgeçmediler. Onların desteği sizin için ne ifade ediyor?",
       "quote3": "Bu kariyeriniz için ikinci bir zirvenin başlangıcı mı?",
-      "name": "Geri Dönüş Çocuğu",
+      "name": "Geri Dönen",
       "description": "Forma dönme ihtimaline meydan okuduğu için övüldü."
     },
     "CultHero": {
@@ -2208,7 +2327,7 @@
       "quote1": "Ligin en iyi yıldızlarından biri olarak bu sezon hedefleriniz neler?",
       "quote2": "Birçok genç oyuncu sana hayranlık duyuyor. Bu rolü nasıl üstleniyorsunuz?",
       "quote3": "Büyük maçlarda performans sergilemek için ekstra bir baskı hissediyor musunuz?",
-      "name": "Kurulan Yıldız",
+      "name": "Yerleşik Yıldız",
       "description": "Gücünün zirvesinde olan elit bir sanatçı olarak tanınıyor."
     },
     "Flop": {
@@ -2223,7 +2342,7 @@
       "quote2": "Bu yönetim altında hâlâ bir geleceğinizin olduğunu düşünüyor musunuz?",
       "quote3": "Başka bir yerde daha fazla oyun süresi elde etmek için bir hamle yapmayı düşünüyor musunuz?",
       "name": "Unutulmuş Adam",
-      "description": "Dakikalarca uğraşılıyor ve yönetici tarafından büyük ölçüde görmezden geliniyor."
+      "description": "Dakikalarca uğraşılıyor ve teknik direktör tarafından büyük ölçüde görmezden geliniyor."
     },
     "HometownHero": {
       "quote1": "Memleketinizi temsil etmek özel olmalı. Duygu nasıl?",
@@ -2243,7 +2362,7 @@
       "quote1": "Birçok yerde oynadınız. Nasıl bu kadar çabuk adapte oluyorsunuz?",
       "quote2": "Seyahatlerinizden öğrendiğiniz en değerli ders nedir?",
       "quote3": "Daha fazla istikrar mı arıyorsunuz yoksa çeşitlilikten mi hoşlanıyorsunuz?",
-      "name": "Kalfa",
+      "name": "Gezgin",
       "description": "Futbol dünyasının deneyimli bir gezgini olarak görülüyor."
     },
     "OntheRise": {
@@ -2257,14 +2376,14 @@
       "quote1": "Görüşleri bölüyor gibisin. Sizce neden öyle?",
       "quote2": "Aldığınız eleştiriler oyununuzu etkiliyor mu?",
       "quote3": "Medya ve halk tarafından yanlış anlaşıldığınızı mı düşünüyorsunuz?",
-      "name": "Polarize Şekil",
+      "name": "Kutuplaştırıcı Figür",
       "description": "Uzmanlar ve hayranlar arasında fikir ayrılıklarına yol açan bölücü bir figür."
     },
     "PressDarling": {
       "quote1": "Medya seni seviyor gibi görünüyor. Bu kendinize olan güveninize yardımcı oluyor mu?",
       "quote2": "İyi sebeplerden dolayı her zaman manşetlerdesin. İşin sırrı nedir?",
       "quote3": "Bir oyuncunun iyi bir imaja sahip olması ne kadar önemlidir?",
-      "name": "Basın Sevgilim",
+      "name": "Basının Sevgilisi",
       "description": "Medyayla çok olumlu bir ilişkimiz var."
     },
     "Prodigy": {
@@ -2278,7 +2397,7 @@
       "quote1": "Bu sisteme mükemmel uyum sağladınız. Diğer taktikler konusunda endişeleniyor musunuz?",
       "quote2": "Bazıları sadece düzen yüzünden bu kadar iyi göründüğünü söylüyor. Tepkiler mi?",
       "quote3": "Teknik direktör yaklaşımı değiştirirse oyununuzu uyarlayabilir misiniz?",
-      "name": "Sistem Oynatıcısı",
+      "name": "Sistem Oyuncusu",
       "description": "Bu özel taktik kurulumun dışında performans gösterip gösteremeyeceği konusunda soru işaretleri var."
     },
     "UnderPressure": {
@@ -2296,7 +2415,7 @@
       "description": "Liderlik nitelikleri ve soyunma odasındaki etkisi ile öne çıktı."
     },
     "VeteranRotation": {
-      "name": "Kıdemli Rotasyonu",
+      "name": "Veteran Rotasyonu",
       "description": "Rotasyonda güvenilir derinlik ve liderlik sağlayan deneyimli emektar.",
       "quote1": "Bir rotasyon rolüne geçtiniz. Oyunlar arasında keskinliğinizi nasıl koruyorsunuz?",
       "quote2": "Deneyiminiz takım için hayati önem taşıyor. Genç oyunculara nasıl yardımcı oluyorsunuz?",
@@ -2414,6 +2533,11 @@
       },
       "settle": {
         "headline1": "Vergi Davası Mahkemeden Çözüldü"
+      },
+      "relationship_drama": {
+        "headline1": "Özel hayatı gündemde: {name} için yeni çalkantı",
+        "press1": "Saha dışındaki özel hayatının maç performansını olumsuz etkilediği görülüyor.",
+        "press2": "Magazin basını oyuncunun peşini bir an olsun bırakmıyor."
       }
     },
     "transfer": {
@@ -2423,6 +2547,141 @@
       "warning_1": "Kulüp Uyarısı",
       "warning_2": "Son Uyarı",
       "warning_3": "Disiplin Cezası"
+    },
+    "media": {
+      "interviews": {
+        "clashWithManager": {
+          "question": "Antrenmanda teknik direktörle aranızda gerginlik yaşandığı söyleniyor. İlişkiniz şu an nasıl?",
+          "answers": {
+            "apologetic": "Olanların bu şekilde gelişmesinden pişmanım. Düşündüm ve bu takıma yüzde yüz bağlıyım.",
+            "defiant": "Gerekeni söyledim. İlkelerimin ve standartlarımın arkasındayım.",
+            "focused": "Önümüzde daha büyük hedefler var. Ben konuşmayı sahada tercih ederim."
+          }
+        },
+        "contractRenewal": {
+          "question": "Bu yeni sözleşmeyle uzun vadeli geleceğini {team} ile birleştirmek nasıl bir duygu?",
+          "answers": {
+            "ambitious": "Burada büyük kupalar kaldırmak istiyorum. Bu sözleşme özel bir şey inşa ettiğimizin kanıtı.",
+            "grateful": "{team} kulübünün bana duyduğu sarsılmaz güvene minnettarım. Burası bana ev gibi geliyor.",
+            "loyal": "Başka kulüpler aklımı çelmedi. Kalbim tamamen {team} kulübüne ait."
+          }
+        },
+        "derbyWin": {
+          "question": "Elektrikli bir derbiden galip ayrıldınız! Nasıl bir duygu?",
+          "answers": {
+            "ecstatic": "İnanılmaz bir gece! Bu derbinin taraftarlarımız için ne demek olduğunu biliyoruz. Bu gece şehir bizim!",
+            "humble": "Dev bir üç puan, ama sezon uzun. Takımla gurur duyuyorum, yarın yeniden işe koyuluyoruz.",
+            "passionate": "Derbi futbolu işte budur! Her ikili mücadelede savaştık ve daha çok istedik."
+          }
+        },
+        "firstCallUp": {
+          "question": "A milli takıma ilk davetinizi aldığınızda aklınızdan neler geçti?",
+          "answers": {
+            "determined": "Sadece kadro kalabalığı olsun diye burada değilim. Bu seviyeye ait olduğumu kanıtlamaya hazırım.",
+            "emotional": "Çocukluk hayalim gerçek oldu. Ailemi ve bana inanan herkesi düşünüyorum.",
+            "honored": "Milli formayı giymek bir futbolcunun erişebileceği en büyük onur. Her şeyi vermeye hazırım."
+          }
+        },
+        "firstProfessionalGoal": {
+          "question": "İlk profesyonel golünüz kutlu olsun! Topun filelere gittiğini görmek nasıl bir duyguydu?",
+          "answers": {
+            "hungry": "Unutulmaz bir duygu ama bu sadece başlangıç. Daha fazlasını istiyorum.",
+            "joyful": "Saf bir coşku! O anı antrenmanda binlerce kez hayal ettim.",
+            "teamFirst": "Gol attığım için çok mutluyum ama en önemlisi takımın sonucu garantilemesine yardımcı olmaktı."
+          }
+        },
+        "futureAmbitions": {
+          "question": "Önünüze bakınca, futbolda uzun vadeli nihai hedefleriniz neler?",
+          "answers": {
+            "legend": "Dünya futbolunun gelmiş geçmiş en büyüklerinden biri olarak anılmak istiyorum.",
+            "silverware": "Kariyeri kupalar belirler. Lig şampiyonlukları ve Avrupa Şampiyonlar Kupası kazanmak istiyorum.",
+            "stepByStep": "Her antrenmanda gelişmeye odaklanıyorum. Miras kendiliğinden oluşur."
+          }
+        },
+        "goalDrought": {
+          "question": "Artık {count} maçtır gol yok. Dışarıdan gelen baskıyla nasıl baş ediyorsunuz?",
+          "answers": {
+            "confident": "Her forvet kısır dönem yaşar. Hareketlerim iyi, goller gelecek.",
+            "frustrated": "Elbette sinir bozucu ama kendimi takıma genel katkıma göre değerlendiriyorum.",
+            "patient": "Panik yapmıyorum. Tehlikeli bölgelere girmeye devam edersem şans dönecek."
+          }
+        },
+        "injuryComeback": {
+          "question": "Zorlu bir rehabilitasyonun ardından sonunda sahadasınız. Fiziksel olarak nasıl hissediyorsunuz?",
+          "answers": {
+            "relieved": "Rehabilitasyonun en karanlık günleri geride kaldı. Tribünlerin uğultusunu duymak bile beni ürpertiyor.",
+            "stronger": "Sakatlıklar zihni sınar. Durmadan çalıştım ve zirve fiziksel formda döndüm.",
+            "cautious": "Dakika almak güzel; ritmimi bulmak için maç maç ilerliyorum."
+          }
+        },
+        "leagueTitleWin": {
+          "question": "Lig şampiyonu oldunuz! 38 çetin maçın ardından kupa sizin. Bu an ne kadar tatlı?",
+          "answers": {
+            "triumphant": "Şampiyonlar! İstikrar ve birlikle tüm kuşkucuları yanılttık.",
+            "emotional": "Bir yıllık fedakârlık bu anla taçlandı. Saf sevinç gözyaşları.",
+            "hungryForMore": "Bu gecenin tadını çıkaralım ama bu kadro kalıcı üstünlük için kuruldu. Üst üste şampiyonluklar istiyoruz."
+          }
+        },
+        "majorTrophyLoss": {
+          "question": "Finalde yürek burkan bir yenilgi. Soyunma odasındaki hava nasıl?",
+          "answers": {
+            "devastated": "Anlatması zor. Bu kadar yaklaşıp eli boş dönmek derinden acıtıyor.",
+            "resilient": "Yenilgi acıtıyor ama bu acı, gelecek yıl dönüp kazanma hırsımızı besleyecek.",
+            "proud": "Sonuçtan dolayı üzgünüm ama çocukların gösterdiği cesaretten son derece gururluyum."
+          }
+        },
+        "postMatch": {
+          "question": "Maçın bitiş düdüğü az önce çaldı. Bugünkü performansı nasıl değerlendirirsiniz?",
+          "answers": {
+            "satisfied": "Oyun planını ilk dakikadan itibaren kusursuz uyguladık. Sonuç tamamen hak edildi.",
+            "critical": "Puanları aldık ama standartlarımız daha yüksek. Düzeltilecek çok detay var.",
+            "drained": "Baştan sona çetin bir mücadele. Derinlerden geldik ve gerçek karakter gösterdik."
+          }
+        },
+        "retirementAnnouncement": {
+          "question": "Profesyonel futbolu bıraktığınızı resmen açıkladınız. Hangi duygular ağır basıyor?",
+          "answers": {
+            "peaceful": "Oyunu gönlü tok ve hiç pişmanlık duymadan bırakıyorum. Kenara çekilme vakti geldi.",
+            "nostalgic": "Çocukluk akademi hayallerinden dünya stadyumlarına — büyülü bir yolculuktu.",
+            "grateful": "Bu yolu benimle paylaşan her teknik direktöre, takım arkadaşına ve taraftara sonsuz minnet."
+          }
+        },
+        "teammateFallingOut": {
+          "question": "Sizinle takım arkadaşınız {player} arasında gerginlik olduğu iddia ediliyor. Takımda bölünme var mı?",
+          "answers": {
+            "dismissive": "Sansasyonel medya gürültüsü. Rekabetçi soyunma odalarında tartışmalar her zaman olur.",
+            "united": "Aynı hedefe yürüyen profesyonelleriz. Soyunma odası bir bütün.",
+            "honest": "Maç sırasında görüşlerimiz ayrıştı ama bunu erkek gibi çözdük ve yolumuza devam ettik."
+          }
+        },
+        "transferRumours": {
+          "question": "Sürekli sansasyonel bir transferle anılıyorsunuz. Geleceğinize karar verdiniz mi?",
+          "answers": {
+            "focused": "Aklım yüzde yüz {team} kulübünde. Görüşmeler kulüp ile menajerim arasında.",
+            "open": "Modern futbolda geleceğin ne getireceğini asla bilemezsiniz. Seçeneklerimi açık tutuyorum.",
+            "committed": "{team} kulübüne tamamen bağlıyım. Dedikodu köşelerinde yazan her şeye inanmayın."
+          }
+        },
+        "worldCupWin": {
+          "question": "Dünya şampiyonu! Dünya futbolunun mutlak zirvesine ulaştınız. Bunu kelimelere dökebilir misiniz?",
+          "answers": {
+            "immortal": "Biz dünya şampiyonuyuz! İsimlerimiz sonsuza dek ülke tarihine kazınacak!",
+            "surreal": "Dünya Kupası ile podyumda durmak beden dışı bir rüya gibi.",
+            "patriotic": "Bu kupa ülkemizdeki her vatandaşa aittir. Onu eve getirdik!"
+          }
+        }
+      }
+    },
+    "nightclub_incident": {
+      "apologize": {
+        "headline1": "{name} gece kulübü olayının ardından kamuoyundan özür diledi",
+        "press1": "Özür yerinde bir adım ancak imajı ciddi yara aldı."
+      },
+      "blame": {
+        "fan1": "Her zamanki gibi kabahat hep başkalarında...",
+        "headline1": "{name} gece kulübü kavgasının ardından suçu başkalarına attı",
+        "press1": "Bu savunmanın taraftarları ikna etmesi oldukça zor."
+      }
     }
   },
   "retirement": {
@@ -2542,13 +2801,13 @@
     "veteranComments": {
       "experience": "Sahadaki etkisini görebiliyoruz. Saf liderlik.",
       "legend": "Mutlak efsane. Deneyim satın alamayacağınız bir şeydir.",
-      "retire": "Belki çizmeleri asmanın zamanı gelmiştir... zirveye kadar.",
+      "retire": "Belki kramponları asmanın zamanı gelmiştir... zirveye kadar.",
       "stillGotIt": "{age} ve hala gençlere bunun nasıl yapıldığını gösteriyor!"
     },
     "injuryComments": {
       "comeBack": "Daha güçlü geri dön! Hepimiz seni destekliyoruz.",
       "getWell": "Geçmiş olsun {name}! Takımın sana ihtiyacı var.",
-      "missYou": "Futbol, ​​sen olmadan sahada aynı değil. Kalp kırıklığı."
+      "missYou": "Futbol, sen olmadan sahada aynı değil. Kalp kırıklığı."
     },
     "transferComments": {
       "goodLuck": "Bir sonraki bölümde başarılar. Anılar için teşekkürler!",
@@ -2687,7 +2946,7 @@
     "goldenBoot": "Ligin En Golcü Oyuncusu ({goals} gol)!",
     "goldenBootShared": "{goals} golleriyle Paylaşılan Lig Altın Ayakkabı!",
     "goldenBoy": "Yılın Genç Oyuncusu! Gelecek sizindir.",
-    "goldenGlove": "Altın Eldiven Kazananı ({cleanSheets} temiz çarşaflar)!",
+    "goldenGlove": "Altın Eldiven Kazananı ({cleanSheets} maçta gol yemedi)!",
     "goldenShoe": "Avrupa Altın Ayakkabı Kazananı! ({goals} gol)",
     "leagueDefenderOfYear": "Yılın Savunucusu",
     "leagueForwardOfYear": "Yılın Forveti",
@@ -2764,5 +3023,12 @@
   "firstYouthAssist": "Genç Takımda İlk Asist",
   "firstProGoal": "İlk Profesyonel Gol",
   "firstProAssist": "İlk Profesyonel Asist",
-  "intlDebut": "Milli Takım İlk Maçı"
+  "intlDebut": "Milli Takım İlk Maçı",
+  "youthAcademy": {
+    "promoted": "Altyapı akademisinden A takıma yükseltildin!",
+    "released": "A takıma yükselememenin ardından altyapı akademisinden serbest bırakıldın.",
+    "staying": "Gelişimi sürdürmek amacıyla altyapı akademisinde bir sezon daha kalmaya karar verildi."
+  },
+  "decisionMade": "Alınan Karar",
+  "urgentDecision": "Acil karar gerekli!"
 }

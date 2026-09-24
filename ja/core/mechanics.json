@@ -6,7 +6,7 @@
     "Injured": "怪我した",
     "OnFire": "燃えている",
     "Poor": "貧しい",
-    "Suspended": "一時停止中",
+    "Suspended": "出場停止",
     "VeryPoor": "非常に悪い",
     "average": "平均",
     "belowAverage": "平均以下",
@@ -58,8 +58,8 @@
   },
   "offer": {
     "type": {
-      "loan": "ローン",
-      "transfer": "移行"
+      "loan": "期限付き移籍",
+      "transfer": "移籍"
     }
   },
   "offers": {
@@ -67,14 +67,14 @@
     "closeAndStay": "クローズ＆ステイ",
     "contractLength": "契約期間",
     "decline": "衰退",
-    "loanDuration": "ローン期間",
-    "loanMove": "ローンの移動",
+    "loanDuration": "レンタル期間",
+    "loanMove": "レンタル移籍",
     "noOffers": "利用可能な特典はありません",
     "noOffersDescription": "今シーズンは移籍のオファーは受けていません。",
     "permanentTransfer": "完全移籍",
     "reputation": "評判",
-    "season": "季節",
-    "seasons": "季節",
+    "season": "シーズン",
+    "seasons": "シーズン",
     "tier": "階層",
     "transferOffers": "移籍オファー",
     "wage": "賃金",
@@ -89,36 +89,36 @@
     "Jovial": "陽気な",
     "Lazy": "怠け者",
     "Leader": "リーダー",
-    "Loyal": "忠実な",
-    "Media Darling": "メディアダーリン",
+    "Loyal": "忠誠心",
+    "Media Darling": "メディアの寵児",
     "Professional": "プロ",
     "Reserved": "予約済み",
     "Temperamental": "気まぐれな"
   },
   "playerStyle": {
-    "advancedPlaymaker": "高度なプレイメーカー",
-    "ballPlayingDefender": "ボールプレーのディフェンダー",
-    "ballWinningMidfielder": "ボールを奪うミッドフィールダー",
-    "boxToBox": "ボックスツーボックス",
-    "completeForward": "完全転送",
-    "deepLyingPlaymaker": "ディープ・ライイング・プレイメーカー",
-    "emergingTalent": "新たな才能",
-    "false9": "偽9",
-    "insideForward": "インサイドフォワード",
-    "invertedWinger": "インバーテッド・ウィンガー",
-    "mezzala": "メッツァラ",
-    "poacher": "密猟者",
-    "regista": "レジストラ",
+    "advancedPlaymaker": "攻撃的司令塔",
+    "ballPlayingDefender": "ボールプレイングDF",
+    "ballWinningMidfielder": "ボール奪取型MF",
+    "boxToBox": "ボックス・トゥ・ボックスMF",
+    "completeForward": "コンプリートフォワード",
+    "deepLyingPlaymaker": "深い位置の司令塔",
+    "emergingTalent": "新鋭",
+    "false9": "偽9番（ファルスナイン）",
+    "insideForward": "インテリオール",
+    "invertedWinger": "逆足ウイング",
+    "mezzala": "メッツァーラ",
+    "poacher": "ポーチャー",
+    "regista": "レジスタ",
     "shotStopper": "ショットストッパー",
-    "speedDemon": "スピードデーモン",
+    "speedDemon": "スピードスター",
     "stopper": "ストッパー",
-    "sweeper": "スイーパー",
+    "sweeper": "リベロ",
     "sweeperKeeper": "スイーパーキーパー",
-    "targetMan": "ターゲットマン",
-    "traditionalWinger": "伝統的なウィンガー",
-    "versatilePlayer": "万能選手",
+    "targetMan": "前線のターゲットマン",
+    "traditionalWinger": "古典的ウイング",
+    "versatilePlayer": "ユーティリティプレイヤー",
     "widePlaymaker": "ワイドプレイメーカー",
-    "wingBack": "ウイングバック"
+    "wingBack": "攻撃的ウイングバック"
   },
   "seasonFocus": {
     "aerial": {
@@ -173,7 +173,7 @@
     "positionHint": "{position} で利用可能なオプション",
     "positioning": {
       "description": "ゲームの読みと位置感覚が向上する",
-      "title": "位置決め"
+      "title": "ポジショニング"
     },
     "reflexes": {
       "description": "反応時間を短縮して節約する",

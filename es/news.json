@@ -41,7 +41,7 @@
       "8": "Ninguno arriba: {name} es el {year} El ganador del Trofeo de Oro",
       "9": "Máximo reconocimiento: {name} gana el Trofeo de Oro",
       "10": "La cima del mundo pertenece nuevamente a {name}",
-      "11": "¡Dominante! {name} confirma su estatus con Golden Trophy",
+      "11": "¡Dominante! {name} confirma su estatus con el Trofeo de Oro",
       "12": "Living Legend: {name} agrega otro Trofeo de Oro",
       "13": "¡Indiscutible! {name} es el mejor jugador del mundo",
       "14": "{name} escribe historia con la victoria del Trofeo de Oro",
@@ -153,7 +153,7 @@
       "10": "Muro de {team}: {name} mantiene la portería a cero",
       "11": "{name} celebra la victoria con el arco en cero",
       "12": "Defensa perfecta: {name} consigue la portería a cero",
-      "13": "{cleanSheets} sábanas limpias ahora para {name}",
+      "13": "{cleanSheets} porterías a cero ya para {name}",
       "14": "{name} se mantiene firme para otra valla invicta",
       "15": "Impenetrable: la portería a cero de {name}",
       "16": "Defensa {team} liderada por la portería a cero de {name}",
@@ -168,7 +168,7 @@
     "competitionDetails": "Detalles de la competencia",
     "competitionType": {
       "Continental": "Continental",
-      "Cup": "Taza",
+      "Cup": "Copa",
       "League": "Liga"
     },
     "continentalQualification": {
@@ -297,140 +297,6 @@
       "trainingLight": "Priorizando el descanso",
       "transferRequest": "Solicitaste una transferencia"
     },
-    "expandedAttributes": {
-      "agility": {
-        "coordination": "Coordinación",
-        "flexibility": "Flexibilidad",
-        "lateralAgility": "Agilidad lateral",
-        "reactionTime": "Tiempo de reacción"
-      },
-      "ballControl": {
-        "aerialControl": "Control Aéreo",
-        "firstTouchOrientated": "Orientado al primer toque",
-        "firstTouchUnderPressure": "Primer toque bajo presión",
-        "shielding": "Blindaje",
-        "trapping": "Captura"
-      },
-      "defensivePositioning": {
-        "covering": "Cubierta",
-        "defensiveAwareness": "Conciencia defensiva",
-        "positionRecovery": "Recuperación de posición"
-      },
-      "dribbling": {
-        "balanceInDribble": "Equilibrio en el regate",
-        "closeControlDribbling": "Regate de control cercano",
-        "feints": "Fintas",
-        "skillMoves": "Movimientos de habilidad",
-        "speedDribbling": "Regate rápido"
-      },
-      "endurance": {
-        "aerobicEndurance": "Resistencia aeróbica",
-        "anaerobicEndurance": "Resistencia anaeróbica",
-        "stamina": "Aguante",
-        "workRate": "Tasa de trabajo"
-      },
-      "finishing": {
-        "finishingInsideBox": "Acabado interior de la caja",
-        "finishingOnCounter": "Acabado en mostrador",
-        "finishingOutsideBox": "Acabado de caja exterior",
-        "finishingUnderPressure": "Acabado bajo presión",
-        "headingAccuracy": "Precisión de rumbo",
-        "headingPower": "Poder de rumbo",
-        "oneOnOneFinishing": "Acabado uno a uno",
-        "placedShotAccuracy": "Precisión del tiro colocado",
-        "powerShotAccuracy": "Precisión de tiro potente",
-        "shotPower": "Poder de tiro",
-        "volleysAndAcrobatic": "Voleas y Acrobacias"
-      },
-      "gameIntelligence": {
-        "anticipation": "Anticipación",
-        "creativity": "Creatividad",
-        "decisions": "Decisiones",
-        "offTheBallMovement": "Movimiento fuera del balón",
-        "positioning": "Posicionamiento",
-        "spatialAwareness": "Conciencia espacial",
-        "vision": "Visión"
-      },
-      "interception": {
-        "readingOfPlay": "Lectura de juego",
-        "shortPassInterception": "Intercepción de pase corto"
-      },
-      "jumping": {
-        "headerTiming": "Sincronización del encabezado",
-        "runningVerticalJump": "Salto vertical corriendo",
-        "standingVerticalJump": "Salto vertical de pie"
-      },
-      "marking": {
-        "individualMarking": "Marcado individual",
-        "trackingRuns": "Ejecuciones de seguimiento",
-        "zonalMarking": "Marcado zonal"
-      },
-      "passing": {
-        "crossingFromByline": "Cruzando desde Byline",
-        "crossingFromDeep": "Cruzando desde lo profundo",
-        "longDiagonalPass": "Pase Diagonal Largo",
-        "longPassAccuracy": "Precisión de pase largo",
-        "mediumPassAccuracy": "Precisión de pase medio",
-        "shortPassAccuracy": "Precisión de pase corto",
-        "throughBallAccuracy": "Precisión de pase directo",
-        "verticalPassBreakingLines": "Líneas de ruptura de pase vertical",
-        "weightedPass": "Pase ponderado"
-      },
-      "performance": {
-        "adaptability": "Adaptabilidad",
-        "bigMatchPerformance": "Gran actuación en partidos",
-        "clutchFactor": "Factor de embrague",
-        "consistency": "Consistencia",
-        "pressureHandling": "Manejo de presión"
-      },
-      "personality": {
-        "bravery": "Valentía",
-        "charismaOffPitch": "Carisma fuera de campo",
-        "composure": "Calma",
-        "composureInFinishing": "Compostura en el acabado",
-        "determination": "Determinación",
-        "leadershipOnPitch": "Liderazgo en el campo",
-        "professionalism": "Profesionalismo",
-        "teamwork": "Trabajo en equipo",
-        "temperament": "Temperamento"
-      },
-      "positioning": {
-        "narrowingAngles": "Ángulos cada vez más estrechos"
-      },
-      "pressing": {
-        "pressingEndurance": "Presionando resistencia",
-        "pressingIntensity": "Intensidad de presión",
-        "pressingTiming": "Presionando el tiempo"
-      },
-      "robustness": {
-        "injuryResistance": "Resistencia a las lesiones",
-        "naturalFitness": "aptitud natural",
-        "physicalRobustness": "Robustez física",
-        "recoveryRate": "Tasa de recuperación"
-      },
-      "shotStopping": {
-        "diving": "Buceo",
-        "oneOnOneStopping": "Uno a uno parando",
-        "reflexes": "Reflejos"
-      },
-      "speed": {
-        "accelerationInitial": "Aceleración inicial",
-        "accelerationMedium": "Aceleración media",
-        "sprintSpeed": "Velocidad de sprint",
-        "topSpeed": "Velocidad máxima"
-      },
-      "strength": {
-        "balanceInContact": "Saldo en contacto",
-        "bodyToBodyStrength": "Fuerza cuerpo a cuerpo",
-        "legStrength": "Fuerza de las piernas",
-        "upperBodyStrength": "Fuerza de la parte superior del cuerpo"
-      },
-      "tackling": {
-        "slidingTackle": "Aparejo deslizante",
-        "standingTackle": "Entrada de pie",
-        "tackleTiming": "Sincronización del abordaje"
-      }
-    },
     "finishing": "Acabado",
     "firstGoal": {
       "1": "¡PRIMER GOL! {name} abre una cuenta profesional",
@@ -522,11 +388,11 @@
       "20": "Bien merecida Bota de Oro para {name}"
     },
     "hatTrick": {
-      "1": "¡HÉROE DEL HAT-TRICK! {name} anota tres",
-      "2": "{name} logra un hat-trick en la victoria de {team}",
-      "3": "¡Un regalo triple! {name} marca tres goles",
+      "1": "¡HÉROE DEL TRIPLETE! {name} anota tres goles",
+      "2": "{name} logra un hat-trick y lidera la victoria del {team}",
+      "3": "¡Festín goleador! {name} anota tres grandes goles",
       "4": "{name} se lleva a casa el balón del partido con un hat-trick",
-      "5": "Clínico: {name} logra un hat-trick perfecto",
+      "5": "Definición letal: {name} firma un hat-trick perfecto",
       "6": "Tres y fácil para {name}",
       "7": "El hat-trick de {name} ilumina el partido",
       "8": "El despiadado {name} logra un hat-trick",
@@ -535,12 +401,12 @@
       "11": "Hat-trick histórico de {name}",
       "12": "{name} se va a casa con el balón del partido",
       "13": "¡Tres goles! {name} domina",
-      "14": "Los agudos de {name} sellan los puntos",
+      "14": "El triplete de {name} asegura los tres puntos",
       "15": "¡En llamas! {name} anota un hat-trick",
-      "16": "{team} estrella {name} consigue tres",
+      "16": "La estrella del {team}, {name}, marca un triplete",
       "17": "{name} hace historia con un hat-trick",
-      "18": "Hat-trick perfecto para el clínico {name}",
-      "19": "Héroe de los tres goles: estrellas {name}",
+      "18": "Hat-trick perfecto para el letal {name}",
+      "19": "Héroe del triplete: {name} brilla con luz propia",
       "20": "{name} celebra su triplete"
     },
     "injuryReturn": {
@@ -683,26 +549,26 @@
       "20": "{newTeam} da la bienvenida a {name} en préstamo"
     },
     "managerChange": {
-      "1": "NUEVO JEFE: {team} nombra nuevo gerente",
+      "1": "NUEVO JEFE: {team} nombra nuevo entrenador",
       "2": "Cambio en la parte superior: {team} obtiene un nuevo entrenador",
       "3": "{team} anuncia cambio gerencial",
       "4": "Comienza una nueva era en {team}",
-      "5": "Noticias del administrador: Cambio en {team}",
+      "5": "Noticias del entrenador: Cambio en {team}",
       "6": "{team} hace un cambio de entrenamiento",
       "7": "Nuevo comienzo: {team} nombra un nuevo jefe",
       "8": "Cambio de dugout en {team}",
       "9": "{team} bajo nueva dirección",
-      "10": "Nuevo capítulo: Cambio de gerente en {team}",
-      "11": "{team} busca un nuevo administrador",
+      "10": "Nuevo capítulo: Cambio de entrenador en {team}",
+      "11": "{team} busca un nuevo entrenador",
       "12": "Reorganización del entrenamiento en {team}",
-      "13": "{team} confirma nuevo administrador",
+      "13": "{team} confirma nuevo entrenador",
       "14": "Cambio gerencial anunciado en {team}",
       "15": "Nueva dirección para {team}",
       "16": "{team} incorpora nuevo cuerpo técnico",
       "17": "Cambio de guardia en {team}",
       "18": "El nuevo jefe se hace cargo de {team}",
-      "19": "{team} comienza de nuevo con un nuevo administrador",
-      "20": "Se confirma el cambio de administrador en {team}"
+      "19": "{team} comienza de nuevo con un nuevo entrenador",
+      "20": "Se confirma el cambio de entrenador en {team}"
     },
     "matchesShort": "METRO",
     "mental": "Mental",
@@ -785,7 +651,7 @@
       "leagueChampion": "Campeón de liga",
       "loanReturn": "Devolución del préstamo",
       "loanStart": "Préstamo",
-      "managerChange": "Cambio de gerente",
+      "managerChange": "Cambio de entrenador",
       "match": "Informe del partido",
       "milestone": "Hito",
       "nationalTeam": "Equipo Nacional",
@@ -836,7 +702,7 @@
       "20": "La temporada de sueños termina con el Jugador del Año para {name}"
     },
     "pos": "Pos.",
-    "positioning": "Posicionamiento",
+    "positioning": "Colocación",
     "professionalDebut": {
       "1": "¡DEBUT! {name} hace su primera aparición profesional",
       "2": "El comienzo: {name} debuta para {team}",
@@ -960,7 +826,7 @@
       "controversial": "Figura controvertida",
       "extraTraining": "Entrenamiento intenso",
       "fanFavorite": "Favorito de los fans",
-      "managerConflict": "Conflicto con el gerente",
+      "managerConflict": "Conflicto con el entrenador",
       "mediaAvoidance": "Evitando los medios",
       "partyReputation": "Vida nocturna activa",
       "pressTarget": "Presione el objetivo",
@@ -968,6 +834,7 @@
       "wantsTransfer": "Quiere transferencia"
     },
     "topScorer": {
+      "0": "¡{name} LIDERA! {goals} goles para encabezar la tabla de goleadores",
       "1": "¡MÁXIMO GOLEADOR! {name} finaliza con goles {goals}",
       "2": "{name} reclama la Bota de Oro con goles de {goals}",
       "3": "¡Máquina de goles! {name} es el máximo goleador de la liga",
@@ -1163,7 +1030,7 @@
       "morale": "Moral",
       "name": "Nombre",
       "nationality": "Nacionalidad",
-      "overall": "Media",
+      "overall": "General",
       "position": "Posición",
       "potential": "Potencial",
       "statistics": "Estadísticas",
@@ -1173,6 +1040,58 @@
       "Continental": "Continental",
       "Cup": "Copa",
       "League": "Liga"
+    },
+    "promoted": {
+      "1": "¡ASCENSO! El {team} sella el ascenso a la categoría superior",
+      "2": "El {team} celebra su histórico ascenso a {league}",
+      "3": "¡Objetivo cumplido! El {team} sube de categoría",
+      "4": "{name} brilla y guía al {team} rumbo a {league}",
+      "5": "La máxima categoría abre sus puertas al {team}"
+    },
+    "playstyle": {
+      "CounterAttacking": "Contraataque",
+      "HighPressing": "Presión Alta",
+      "Possession": "Posesión",
+      "balanced": "Equilibrado",
+      "defensive": "Defensivo",
+      "offensive": "Ofensivo"
+    },
+    "cleanSheetMilestone": {
+      "1": "¡UN MURO! {name} alcanza {cleanSheets} porterías a cero en su carrera",
+      "2": "Hito histórico: {name} registra su portería a cero número {cleanSheets}",
+      "3": "{name} se une a la élite de los porteros con {cleanSheets} partidos imbatido",
+      "4": "¡{cleanSheets} partidos sin encajar! {name} logra un registro impresionante",
+      "5": "Cátedra bajo palos: {name} llega a {cleanSheets} porterías a cero",
+      "6": "{name} celebra la histórica marca de {cleanSheets} partidos imbatido",
+      "7": "Imbatible: {name} firma su cerrojo número {cleanSheets}",
+      "8": "Manos de oro: {name} alcanza las {cleanSheets} porterías a cero",
+      "9": "Una fortaleza: {name} echa el candado por {cleanSheets}ª ocasión",
+      "10": "El muro no se quiebra: {name} suma {cleanSheets} partidos sin recibir gol",
+      "11": "Logro extraordinario: {name} alcanza los {cleanSheets} partidos imbatido",
+      "12": "{name} entra en el Olimpo de los arqueros con {cleanSheets} porterías a cero",
+      "13": "Guantes de oro: {name} celebra {cleanSheets} partidos con la valla invicta",
+      "14": "{name} marca un antes y un después con {cleanSheets} porterías a cero",
+      "15": "Amo del área: {name} festeja su partido número {cleanSheets} imbatido",
+      "16": "Cero goles: {name} alcanza la cifra de {cleanSheets} porterías imbatidas",
+      "17": "Leyenda bajo los palos: {name} llega a {cleanSheets} partidos sin encajar",
+      "18": "{name} echa el cerrojo por {cleanSheets}ª vez en su carrera",
+      "19": "Hito sellado: {cleanSheets} partidos imbatido para {name}",
+      "20": "Portero de época: {name} celebra {cleanSheets} vallas invictas"
+    },
+    "position": {
+      "CDM": "Centrocampista Defensivo",
+      "CF": "Mediapunta",
+      "CM": "Centrocampista",
+      "GK": "Portero",
+      "LB": "Lateral Izquierdo",
+      "LM": "Interior Izquierdo",
+      "LW": "Extremo Izquierdo",
+      "LWB": "Carrilero Izquierdo",
+      "RB": "Lateral Derecho",
+      "RM": "Interior Derecho",
+      "RW": "Extremo Derecho",
+      "RWB": "Carrilero Derecho",
+      "ST": "Delantero Centro"
     }
   },
   "stats": {

@@ -31,7 +31,7 @@
     },
     "ballonDor": {
       "0": "{name}, {year} Altın Kupayı KAZANDI!",
-      "1": "ALTIN ​​ÇAĞ: {name} dünyanın en iyisi seçildi",
+      "1": "ALTIN ÇAĞ: {name} dünyanın en iyisi seçildi",
       "2": "RESMİ: {name} futbolun en büyük ödülünü aldı",
       "3": "{name}, Altın Kupayı almak için rakiplerini yendi",
       "4": "TARİHİ! {name}, {ordinal} Altın Ödülünü kazandı",
@@ -53,7 +53,7 @@
       "20": "{name} dünyada 1 numara"
     },
     "bestGoalkeeper": {
-      "1": "ALTIN ​​ELDİVEN: {name} en iyi kaleci seçildi",
+      "1": "ALTIN ELDİVEN: {name} en iyi kaleci seçildi",
       "2": "{name}, muhteşem sezonun ardından En İyi Kaleci ödülünü kazandı",
       "3": "Güvenli eller! {name}, {league}'te en iyi kaleci seçildi",
       "4": "{name}, {cleanSheets} maçta kalesini gole kapatarak Altın Eldiven'i kazandı",
@@ -122,7 +122,7 @@
       "1": "AVRUPA'NIN KRALLARI! {team}, {competition}'i kazandı",
       "2": "ZAFER GECESİ! {name} ve {team} Avrupa'yı fethediyor",
       "3": "{team} Avrupa şampiyonu oldu",
-      "4": "Avrupalı ​​kraliyet ailesi: {team} {competition}'i kaldırıyor",
+      "4": "Avrupalı kraliyet ailesi: {team} {competition}'i kaldırıyor",
       "5": "{name}, {competition} zaferini kutluyor",
       "6": "Rüya gerçekleşti! {team} Avrupa'nın en büyük ödülünü kazandı",
       "7": "{team}, {competition} geçmişine adları kazır",
@@ -168,7 +168,7 @@
     "competitionDetails": "Yarışma Detayları",
     "competitionType": {
       "Continental": "Kıtasal",
-      "Cup": "Bardak",
+      "Cup": "Kupa",
       "League": "Lig"
     },
     "continentalQualification": {
@@ -297,140 +297,6 @@
       "trainingLight": "Dinlenmeye öncelik vermek",
       "transferRequest": "Transfer talebinde bulundunuz"
     },
-    "expandedAttributes": {
-      "agility": {
-        "coordination": "Koordinasyon",
-        "flexibility": "Esneklik",
-        "lateralAgility": "Yanal Çeviklik",
-        "reactionTime": "Tepki Süresi"
-      },
-      "ballControl": {
-        "aerialControl": "Hava Kontrolü",
-        "firstTouchOrientated": "İlk Dokunuş Odaklı",
-        "firstTouchUnderPressure": "Baskı Altında İlk Dokunuş",
-        "shielding": "Ekranlama",
-        "trapping": "Yakalama"
-      },
-      "defensivePositioning": {
-        "covering": "Kaplama",
-        "defensiveAwareness": "Savunma Farkındalığı",
-        "positionRecovery": "Pozisyon Kurtarma"
-      },
-      "dribbling": {
-        "balanceInDribble": "Driblingde Denge",
-        "closeControlDribbling": "Yakın Kontrollü Dribling",
-        "feints": "Aldatmalar",
-        "skillMoves": "Beceri Hareketleri",
-        "speedDribbling": "Hız Top Sürme"
-      },
-      "endurance": {
-        "aerobicEndurance": "Aerobik Dayanıklılık",
-        "anaerobicEndurance": "Anaerobik Dayanıklılık",
-        "stamina": "Dayanıklılık",
-        "workRate": "Çalışma Oranı"
-      },
-      "finishing": {
-        "finishingInsideBox": "Kutu İçi Bitirme",
-        "finishingOnCounter": "Tezgahta Bitirme",
-        "finishingOutsideBox": "Dış Kutuyu Bitirme",
-        "finishingUnderPressure": "Basınç Altında Bitirme",
-        "headingAccuracy": "Başlık Doğruluğu",
-        "headingPower": "Yön Gücü",
-        "oneOnOneFinishing": "Bire Bir Bitirme",
-        "placedShotAccuracy": "Yerleştirilen Atış İsabeti",
-        "powerShotAccuracy": "Güçlü Atış Doğruluğu",
-        "shotPower": "Atış Gücü",
-        "volleysAndAcrobatic": "Voleybol ve Akrobatik"
-      },
-      "gameIntelligence": {
-        "anticipation": "Beklenti",
-        "creativity": "Yaratıcılık",
-        "decisions": "Kararlar",
-        "offTheBallMovement": "Topsuz Hareket",
-        "positioning": "Konumlandırma",
-        "spatialAwareness": "Mekansal Farkındalık",
-        "vision": "Görüş"
-      },
-      "interception": {
-        "readingOfPlay": "Oyunun Okunması",
-        "shortPassInterception": "Kısa Geçişli Müdahale"
-      },
-      "jumping": {
-        "headerTiming": "Başlık Zamanlaması",
-        "runningVerticalJump": "Dikey Atlama Koşusu",
-        "standingVerticalJump": "Ayakta Dikey Atlama"
-      },
-      "marking": {
-        "individualMarking": "Bireysel Markalama",
-        "trackingRuns": "Takip Koşuları",
-        "zonalMarking": "Bölgesel İşaretleme"
-      },
-      "passing": {
-        "crossingFromByline": "Byline'dan Geçiş",
-        "crossingFromDeep": "Derinlerden Geçiş",
-        "longDiagonalPass": "Uzun Çapraz Geçiş",
-        "longPassAccuracy": "Uzun Geçiş Doğruluğu",
-        "mediumPassAccuracy": "Orta Geçiş Doğruluğu",
-        "shortPassAccuracy": "Kısa Geçiş Doğruluğu",
-        "throughBallAccuracy": "Top Doğruluğu",
-        "verticalPassBreakingLines": "Dikey Geçiş Kırma Hatları",
-        "weightedPass": "Ağırlıklı Geçiş"
-      },
-      "performance": {
-        "adaptability": "Uyarlanabilirlik",
-        "bigMatchPerformance": "Büyük Maç Performansı",
-        "clutchFactor": "Debriyaj Faktörü",
-        "consistency": "Tutarlılık",
-        "pressureHandling": "Basınç Taşıma"
-      },
-      "personality": {
-        "bravery": "Cesaret",
-        "charismaOffPitch": "Saha Dışı Karizma",
-        "composure": "Soğukkanlılık",
-        "composureInFinishing": "Bitirirken Soğukkanlılık",
-        "determination": "Kararlılık",
-        "leadershipOnPitch": "Sahada Liderlik",
-        "professionalism": "Profesyonellik",
-        "teamwork": "Ekip çalışması",
-        "temperament": "Mizaç"
-      },
-      "positioning": {
-        "narrowingAngles": "Daralan Açılar"
-      },
-      "pressing": {
-        "pressingEndurance": "Dayanıklılığa Basmak",
-        "pressingIntensity": "Presleme Yoğunluğu",
-        "pressingTiming": "Zamanlamaya Basmak"
-      },
-      "robustness": {
-        "injuryResistance": "Yaralanma Direnci",
-        "naturalFitness": "Doğal Fitness",
-        "physicalRobustness": "Fiziksel Dayanıklılık",
-        "recoveryRate": "İyileşme Oranı"
-      },
-      "shotStopping": {
-        "diving": "Dalış",
-        "oneOnOneStopping": "Bire Bir Duruş",
-        "reflexes": "Refleksler"
-      },
-      "speed": {
-        "accelerationInitial": "İlk Hızlanma",
-        "accelerationMedium": "Orta Hızlanma",
-        "sprintSpeed": "Sprint Hızı",
-        "topSpeed": "En Yüksek Hız"
-      },
-      "strength": {
-        "balanceInContact": "İletişimde Denge",
-        "bodyToBodyStrength": "Vücuttan Vücuda Güç",
-        "legStrength": "Bacak Gücü",
-        "upperBodyStrength": "Üst Vücut Gücü"
-      },
-      "tackling": {
-        "slidingTackle": "Kayar Takım",
-        "standingTackle": "Ayakta Müdahale",
-        "tackleTiming": "Zamanlamanın üstesinden gelin"
-      }
-    },
     "finishing": "Bitirme",
     "firstGoal": {
       "1": "İLK GOL! {name} profesyonel hesap açar",
@@ -500,7 +366,7 @@
     },
     "goldenBoot": {
       "0": "{name} EN GOL ALAN! Bu sezon {goals} gol",
-      "1": "{goals} hedefleriyle {name} için ALTIN ​​ÇİZME",
+      "1": "{goals} hedefleriyle {name} için ALTIN ÇİZME",
       "2": "{name} en iyi nişancı olarak bitirdi: {goals} golleri",
       "3": "Durdurulamaz: {name}, {goals} golleriyle Altın Ayakkabı'yı kazandı",
       "4": "Gol makinesi! {name} Altın Ayakkabı ödülünü aldı",
@@ -508,7 +374,7 @@
       "6": "{goals} HEDEF! {name} Altın Önyükleme'yi talep ediyor",
       "7": "Sezonun katili: {name} Altın Ayakkabı'yı kazandı",
       "8": "Rekor kırıcı! {name} gol kralı ödülünü aldı",
-      "9": "Hedef duygusu: {name}, {goals} hedefleriyle Golden Boot'u doğruladı",
+      "9": "Gol sezgisi: {name}, {goals} golle Altın Krampon'u doğruladı",
       "10": "Kutunun kralı: {name} Altın Ayakkabı'yı fethetti",
       "11": "Acımasız golcü: {name} zirvede bitirdi",
       "12": "{name}'e bir gol kralı ödülü daha",
@@ -522,11 +388,11 @@
       "20": "{name} için hak edilmiş Altın Ayakkabı"
     },
     "hatTrick": {
-      "1": "HAT-TRICK KAHRAMAN! {name} üç puan aldı",
-      "2": "{name}, {team} zaferinde hat-trick yaptı",
-      "3": "Üçlü muamele! {name} üç gol attı",
+      "1": "HAT-TRICK KAHRAMANI! {name} üç golle yıldızlaştı",
+      "2": "{name} hat-trick yaparak {team} takımını zafere taşıdı",
+      "3": "Gol resitali! {name} arka arkaya üç gol kaydetti",
       "4": "{name} hat-trick yaparak maç topunu evine götürüyor",
-      "5": "Klinik: {name} mükemmel hat-trick yaptı",
+      "5": "Usta bitirici: {name} kusursuz bir hat-trick yaptı",
       "6": "{name} için üç ve kolay",
       "7": "{name}'in hat-trick'i oyuna ışık tutuyor",
       "8": "Acımasız {name} hat-trick yaptı",
@@ -535,12 +401,12 @@
       "11": "{name}'ten tarihi hat-trick",
       "12": "{name} maç topuyla evine gidiyor",
       "13": "Üç gol! {name} hakim",
-      "14": "{name}'in tizleri noktaları kapatıyor",
+      "14": "{name}'in hat-trick'i üç puanı kopardı",
       "15": "Yanıyor! {name} hat-trick yaptı",
-      "16": "{team} yıldızı {name} üçüncüyü ağlıyor",
+      "16": "{team} yıldızı {name} ağları üç kez havalandırdı",
       "17": "{name} hat-trick ile tarih yazıyor",
-      "18": "Klinik {name} için mükemmel hat-trick",
-      "19": "Üç gollü kahraman: {name} yıldızları",
+      "18": "Usta forvet {name} mükemmel bir hat-trick ile şov yaptı",
+      "19": "Üç gollü kahraman: {name} sahada devleşti",
       "20": "{name} hat-trick zaferini kutluyor"
     },
     "injuryReturn": {
@@ -551,7 +417,7 @@
       "5": "Kurtarma tamamlandı: {name} yeniden kullanılabilir",
       "6": "{name} sakatlık sorununun üstesinden geliyor",
       "7": "İyi haber: {name} yeniden eğitime dönüyor",
-      "8": "{team}, {name}'in geri dönüşüyle ​​güçlendi",
+      "8": "{team}, {name}'in geri dönüşüyle güçlendi",
       "9": "{name} yaralanma kabusuna son veriyor",
       "10": "Geri dönüş: {name} aksiyona geri dönüyor",
       "11": "{name} sakatlıktan sonra tamamen temiz çıktı",
@@ -639,60 +505,60 @@
       "top": "Tepe"
     },
     "loanReturn": {
-      "1": "KREDİ BİTİYOR: {name}, {team}'e geri dönüyor",
-      "2": "{name}, ödünç alma büyüsünden sonra {team}'e geri döndü",
-      "3": "Tekrar hoş geldiniz: {name} krediden geri dönüyor",
+      "1": "KİRALIK DÖNEMİ BİTİYOR: {name}, {team}'e geri dönüyor",
+      "2": "{name}, kiralık dönemden sonra {team}'e geri döndü",
+      "3": "Tekrar hoş geldiniz: {name} kiralıktan geri dönüyor",
       "4": "{name}, geçici taşınmanın ardından {team}'e yeniden katılıyor",
-      "5": "Kredi tamamlandı: {name} ebeveyn kulübüne geri döndü",
+      "5": "Kiralık sözleşmesi tamamlandı: {name} ebeveyn kulübüne geri döndü",
       "6": "{name} deneyimiyle {team}'e geri dönüyor",
-      "7": "Eve dönüş: {name} kredi kısıtlamasını sonlandırdı",
+      "7": "Eve dönüş: {name} kiralık dönemini sonlandırdı",
       "8": "{team}, {name}'in krediden geri dönmesini memnuniyetle karşıladı",
-      "9": "{name}'in ödünç verme büyüsü sona erdi",
+      "9": "{name}'in kiralık dönem sona erdi",
       "10": "İade onaylandı: {name}, {team}'e geri döndü",
-      "11": "{name} başarılı kredi dönemini sonlandırıyor",
+      "11": "{name} başarılı kiralık dönemini sonlandırıyor",
       "12": "Eve Dönüş: {name}, {team}'e geri dönüyor",
       "13": "{name}, {team} renkleriyle geri döndü",
-      "14": "Kredi anlaşmasının süresi doluyor: {name} geri dönüyor",
-      "15": "{team}'in {name} kredi macerasından geri döndü",
+      "14": "Kiralık sözleşmesinin süresi doluyor: {name} geri dönüyor",
+      "15": "{team}'in {name} kiralık macerasından geri döndü",
       "16": "{name} dönüşten sonra yer için savaşmaya hazır",
-      "17": "Kredi bitti: {name}, {team}'e yeniden katıldı",
+      "17": "Kiralık dönemi bitti: {name}, {team}'e yeniden katıldı",
       "18": "{name}, {team} ile evine geliyor",
-      "19": "Kredinin sonu: {name}, {team}'e geri döndü",
+      "19": "Kiralık döneminin sonu: {name}, {team}'e geri döndü",
       "20": "{name}, {team}'te etkileme umuduyla geri dönüyor"
     },
     "loanStart": {
-      "1": "KREDİ HAREKETİ: {name} kiralık olarak {newTeam}'e katıldı",
+      "1": "KİRALIK TRANSFER: {name} kiralık olarak {newTeam}'e katıldı",
       "2": "{name}, geçici anlaşmayla {newTeam}'e geçiyor",
       "3": "Resmi: {name}, {newTeam}'e ödünç verildi",
-      "4": "{newTeam} {name} için güvenli kredi imzası",
+      "4": "{newTeam} {name} için kiralık transferini bitirdi",
       "5": "Geçici anahtar: {name}'ten {newTeam}'e",
-      "6": "{name}, {newTeam}'te ödünç alma büyüsüne başlıyor",
+      "6": "{name}, {newTeam}'te kiralık dönem başlıyor",
       "7": "Geliştirme hamlesi: {name}, {newTeam}'e ödünç verildi",
       "8": "{name}, {newTeam}'e kiralık olarak ayrılıyor",
       "9": "Yeni başlangıç: {name} kiralık olarak {newTeam}'e katıldı",
-      "10": "Kredi onaylandı: {name}, {newTeam}'e taşındı",
+      "10": "Kiralık transferi onaylandı: {name}, {newTeam}'e taşındı",
       "11": "{newTeam}, {name}'i kiralık olarak satın aldı",
       "12": "{name}, {newTeam}'te oyun zamanı istiyor",
       "13": "Geçici anlaşma: {name}'ten {newTeam}'e",
       "14": "{name} kiralık {newTeam}'te yeni döneme başlıyor",
-      "15": "Kredi imzalama: {newTeam}, {name}'i getiriyor",
+      "15": "Kiralık imza: {newTeam}, {name}'i getiriyor",
       "16": "{name}, sezon sonuna kadar {newTeam}'e katılıyor",
       "17": "Deneyim sizi bekliyor: {name}, {newTeam}'e ödünç verildi",
-      "18": "{name}, kredinin {newTeam}'e geçişini tamamladı",
-      "19": "Kredi anlaşması yapıldı: {name}'ten {newTeam}'e",
+      "18": "{name}, kiralık olarak {newTeam}'e geçişini tamamladı",
+      "19": "Kiralık anlaşması yapıldı: {name}'ten {newTeam}'e",
       "20": "{newTeam} kiralık {name}'e hoş geldin"
     },
     "managerChange": {
-      "1": "YENİ PATRON: {team} yeni yönetici atadı",
+      "1": "YENİ PATRON: {team} yeni teknik direktör atadı",
       "2": "Zirvedeki değişiklik: {team} yeni teknik direktör alıyor",
       "3": "{team} teknik direktör değişikliğini duyurdu",
       "4": "{team}'te yeni dönem başlıyor",
-      "5": "Yönetici haberleri: {team}'te değişiklik",
+      "5": "Teknik Direktör haberleri: {team}'te değişiklik",
       "6": "{team} antrenör değişikliği yapıyor",
       "7": "Yeni başlangıç: {team} yeni patronu atadı",
       "8": "{team}'te sığınak değişimi",
       "9": "{team} yeni yönetim altında",
-      "10": "Yeni bölüm: {team}'te yönetici değişikliği",
+      "10": "Yeni bölüm: {team}'te teknik direktör değişikliği",
       "11": "{team} yeni yöneticiye bakıyor",
       "12": "{team}'te koçluk değişikliği",
       "13": "{team} yeni yöneticiyi onayladı",
@@ -701,8 +567,8 @@
       "16": "{team} yeni koçluk kadrosunu getiriyor",
       "17": "{team}'te koruma değişikliği",
       "18": "{team}'te yeni patron görevi devralıyor",
-      "19": "{team} yeni yöneticiyle yeni bir başlangıç ​​yapıyor",
-      "20": "{team}'te yönetici değişikliği onaylandı"
+      "19": "{team} yeni yöneticiyle yeni bir başlangıç yapıyor",
+      "20": "{team}'te teknik direktör değişikliği onaylandı"
     },
     "matchesShort": "M",
     "mental": "zihinsel",
@@ -773,19 +639,19 @@
       "firstAssist": "İlk Yardım",
       "firstGoal": "İlk Gol",
       "firstTitle": "İlk Başlık",
-      "form": "Biçim",
+      "form": "Form",
       "general": "Genel",
       "goalMilestone": "Hedef Aşaması",
-      "goldenBoot": "Altın Çizme",
+      "goldenBoot": "Altın Ayakkabı",
       "hatTrick": "El çabukluğu",
       "injury": "Yaralanma",
       "injuryReturn": "Yaralanma İadesi",
       "internationalCall": "Ulusal Çağrı",
       "internationalDebut": "Uluslararası İlk Çıkış",
       "leagueChampion": "Lig Şampiyonu",
-      "loanReturn": "Kredi İadesi",
-      "loanStart": "Borç",
-      "managerChange": "Yönetici Değişikliği",
+      "loanReturn": "Kiralıktan Dönüş",
+      "loanStart": "Kiralık",
+      "managerChange": "Teknik Direktör Değişikliği",
       "match": "Maç Raporu",
       "milestone": "Dönüm noktası",
       "nationalTeam": "Milli Takım",
@@ -800,7 +666,7 @@
       "severeInjury": "Ciddi Yaralanma",
       "topScorer": "En Golcü",
       "toty": "Yılın Takımı",
-      "transfer": "Aktarım",
+      "transfer": "Transfer",
       "worldCup": "Dünya Turnuvası",
       "worldCupQualification": "Dünya Turnuvası Elemeleri",
       "youthPromotion": "Gençlik Promosyonu"
@@ -836,7 +702,7 @@
       "20": "Rüyaların sezonu {name} Yılın Oyuncusu ile sona erdi"
     },
     "pos": "Poz",
-    "positioning": "Konumlandırma",
+    "positioning": "Pozisyon Alma",
     "professionalDebut": {
       "1": "ÇIKIŞ! {name} ilk profesyonel görünümünü gerçekleştiriyor",
       "2": "Başlangıç: {name}, {team} için piyasaya çıkıyor",
@@ -960,7 +826,7 @@
       "controversial": "Tartışmalı rakam",
       "extraTraining": "Yoğun eğitim",
       "fanFavorite": "Hayranların favorisi",
-      "managerConflict": "Yönetici ile çatışma",
+      "managerConflict": "Teknik Direktör ile çatışma",
       "mediaAvoidance": "Medyadan kaçınmak",
       "partyReputation": "Aktif gece hayatı",
       "pressTarget": "Hedefe basın",
@@ -968,6 +834,7 @@
       "wantsTransfer": "Transfer istiyor"
     },
     "topScorer": {
+      "0": "{name} ZİRVEDE! {goals} golle ligin gol krallığı yarışında lider",
       "1": "En golcü! {name}, {goals} golleriyle bitiriyor",
       "2": "{name}, {goals} golleriyle Altın Ayakkabı'yı elde etti",
       "3": "Gol makinesi! {name} ligin en golcü oyuncusu",
@@ -1098,7 +965,7 @@
       "1": "BİR YILDIZ TAÇLANDI: {winnerName} ilk bireysel ödülünü kazandı",
       "2": "BİRÇOK ŞEYDEN İLK? {winnerName} ilk büyük ödülünü evine götürdü",
       "3": "DURDURULAMAZ: {winnerName} art arda {count} yapıyor — hanedan onaylandı",
-      "4": "ALTIN ​​ÇAĞ DEVAM EDİYOR: {winnerName} üst üste Altın Kupayı kazandı",
+      "4": "ALTIN ÇAĞ DEVAM EDİYOR: {winnerName} üst üste Altın Kupayı kazandı",
       "5": "GERİ DÖN: {winnerName}, {count}'in üst üste galibiyetleriyle tacını koruyor",
       "6": "TARİH YENİDEN YAZILIYOR: {winnerName}, {count}. Altın Kupa ile tüm rekorları geride bıraktı",
       "7": "TÜM ZAMANLARIN EN İYİSİ: {winnerName} rekoru kırdı — {count} bireysel ödüller ve devam ediyor",
@@ -1125,7 +992,7 @@
       "28": "SADIK DESTEK: {voterName}, {playerName}'in en büyük şampiyonu olmayı sürdürüyor — {streak} yıldır ve devam ediyor",
       "29": "TARTIŞILMAZ İNANÇ: {voterName} her yıl {playerName}'e oy veriyor — {streak} art arda",
       "30": "BÖLÜNMÜŞ DÜNYA: Bölgeler kazanana göre bölünür — {regionSummary}",
-      "31": "CONTINENTAL DIVIDE: {regionCount} bölgeleri, {regionCount} farklı favoriler — {winnerName} galip geliyor",
+      "31": "KITALAR BÖLÜNMESİ: {regionCount} bölge, {regionCount} farklı favori — {winnerName} kazanıyor",
       "32": "COĞRAFİ SAVAŞ: Seçmenler aynı fikirde değil — bölgesel bölünme {winnerName}'in galip geldiğini gösteriyor",
       "33": "FOTOĞRAF BİTİRME: {winnerName}, {runnerUp}'i yalnızca %{margin} farkla geride bırakıyor — yılların en yakın yarışı",
       "34": "NAIL-BITER: {winnerName} çok ince bir farkla hayatta kalarak ödülü {runnerUp}'e karşı talep etti",
@@ -1173,6 +1040,58 @@
       "Continental": "Kıtasal",
       "Cup": "Kupa",
       "League": "Lig"
+    },
+    "promoted": {
+      "1": "ŞAMPİYONCA TERFİ! {team} üst lige yükselmeyi garantiledi",
+      "2": "{team}, {league} ligine tarihi yükselişini coşkuyla kutluyor",
+      "3": "Üst lige çıktık! {team} taraftarına büyük sevinç yaşattı",
+      "4": "{name} yıldızlaştı, {team} {league} biletini kaptı",
+      "5": "Zirve ligi gelecek sezon {team} takımını ağırlayacak"
+    },
+    "playstyle": {
+      "CounterAttacking": "Kontratak",
+      "HighPressing": "Önde Baskı",
+      "Possession": "Topa Sahip Olma",
+      "balanced": "Dengeli",
+      "defensive": "Savunmacı",
+      "offensive": "Hücumcu"
+    },
+    "cleanSheetMilestone": {
+      "1": "GEÇİLMEZ DUVAR! {name} kariyerinde {cleanSheets} maçta gol yemedi",
+      "2": "Tarihi dönüm noktası: {name} {cleanSheets}. kez kalesini gole kapattı",
+      "3": "{name}, {cleanSheets} maçta gol yemeyerek elit kaleciler arasına katıldı",
+      "4": "{cleanSheets} maçta gol yememe başarısı! {name} büyük bir başarıya ulaştı",
+      "5": "Kalede ustalık dersi: {name} {cleanSheets} maçta kalesini kapattı",
+      "6": "{name}, kariyerindeki {cleanSheets}. gol yememe başarısını kutluyor",
+      "7": "Yenilmez: {name} {cleanSheets}. kez kalesini gole kapattı",
+      "8": "Güvenli eller: {name} {cleanSheets} maçta gol yememe başarısına ulaştı",
+      "9": "Aşılmaz kale: {name} {cleanSheets}. kez rakiplerine geçit vermedi",
+      "10": "Kale gibi sağlam: {name} {cleanSheets} maçta gol yemedi",
+      "11": "Harika başarı: {name} {cleanSheets} maçta kalesini gole kapattı",
+      "12": "{name}, {cleanSheets} kez gol yemeyerek efsaneler arasına adını yazdı",
+      "13": "Altın Eldiven: {name} kariyerinde {cleanSheets} maçta kalesini gole kapattı",
+      "14": "{name}, {cleanSheets} maçta gol yemeyerek kariyerinde dönüm noktasına ulaştı",
+      "15": "Ceza sahasının efendisi: {name} {cleanSheets}. gol yemediği maçı kutluyor",
+      "16": "Sıfır gol: {name} {cleanSheets} kez kalesini gole kapatma başarısı gösterdi",
+      "17": "Direkler arasındaki efsane: {name} {cleanSheets} maçta gol yemedi",
+      "18": "{name} kariyerinde {cleanSheets}. kez kalesini gole kapattı",
+      "19": "Büyük başarı: {name} için {cleanSheets} maçta kalesini gole kapatma gururu",
+      "20": "Efsanevi kalecilik: {name} {cleanSheets} maçta kalesini kapattı"
+    },
+    "position": {
+      "CDM": "Ön Libero",
+      "CF": "İkinci Forvet",
+      "CM": "Merkez Orta Saha",
+      "GK": "Kaleci",
+      "LB": "Sol Bek",
+      "LM": "Sol Orta Saha",
+      "LW": "Sol Kanat",
+      "LWB": "Sol Kanat Beki",
+      "RB": "Sağ Bek",
+      "RM": "Sağ Orta Saha",
+      "RW": "Sağ Kanat",
+      "RWB": "Sağ Kanat Beki",
+      "ST": "Santrfor"
     }
   },
   "stats": {

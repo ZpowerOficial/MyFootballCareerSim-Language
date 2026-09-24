@@ -44,7 +44,7 @@
       "11": "Dominan! {name} mengonfirmasi status dengan Piala Emas",
       "12": "Legenda Hidup: {name} menambahkan Piala Emas lainnya",
       "13": "Tak terbantahkan! {name} adalah pemain terbaik di dunia",
-      "14": "{name} menulis sejarah dengan kemenangan The Golden Trophy",
+      "14": "{name} menulis sejarah dengan kemenangan Trofi Emas",
       "15": "Malam mereka! {name} merayakan kemenangan Piala Emas",
       "16": "Sepak bola di bawah kendali mereka: {name} memenangkan Piala Emas",
       "17": "Golden Glory: {name} dengan berani menerima penghargaan",
@@ -56,19 +56,19 @@
       "1": "SARUNG TANGAN EMAS: {name} dinobatkan sebagai penjaga gawang terbaik",
       "2": "{name} memenangkan penghargaan Kiper Terbaik setelah musim yang luar biasa",
       "3": "Tangan yang aman! {name} dinobatkan sebagai penjaga gawang teratas di {league}",
-      "4": "{name} mengklaim Golden Glove dengan clean sheet {cleanSheets}",
+      "4": "{name} mengklaim Sarung Tangan Emas dengan tanpa kebobolan {cleanSheets}",
       "5": "Di antara tiang: {name} adalah penjaga gawang terbaik di liga",
       "6": "Dinding {team}: {name} memenangkan penjaga gawang terbaik tahun ini",
       "7": "Penyelamatan luar biasa {name} menghasilkan penghargaan Kiper Terbaik",
       "8": "Tak terkalahkan: {name} membawa pulang penghargaan kiper",
-      "9": "{name} mendominasi untuk memenangkan Golden Glove",
+      "9": "{name} mendominasi untuk memenangkan Sarung Tangan Emas",
       "10": "Penghenti tembakan tertinggi: {name} dinobatkan sebagai penjaga gawang terbaik",
       "11": "{name} menambahkan Sarung Tangan Emas ke koleksinya",
       "12": "Penjaga gawang: {name} memenangkan penghargaan penjaga gawang teratas",
       "13": "Refleks {name} mendapatkan pengakuan Kiper Terbaik",
       "14": "Nomor satu! {name} dinobatkan sebagai penjaga gawang terbaik liga",
       "15": "{name} mengungguli kompetisi untuk penghargaan penjaga gawang",
-      "16": "Raja clean sheet {name} memenangkan Sarung Tangan Emas",
+      "16": "Raja tanpa kebobolan {name} memenangkan Sarung Tangan Emas",
       "17": "{name} berdiri tegak sebagai penjaga gawang utama liga",
       "18": "Penampilan heroik menghasilkan kehormatan kiper {name}",
       "19": "{name} menutup musim dengan penghargaan Kiper Terbaik",
@@ -141,26 +141,26 @@
       "20": "Juara Eropa! {team} membuat sejarah"
     },
     "cleanSheet": {
-      "1": "TANPA KEBOBOLAN! {name} mencatatkan clean sheet lainnya",
-      "2": "{name} memperoleh nomor clean sheet {cleanSheets}",
-      "3": "Tak terkalahkan: {name} mencatatkan clean sheet",
+      "1": "TANPA KEBOBOLAN! {name} mencatatkan tanpa kebobolan lainnya",
+      "2": "{name} memperoleh nomor tanpa kebobolan {cleanSheets}",
+      "3": "Tak terkalahkan: {name} mencatatkan tanpa kebobolan",
       "4": "{name} {team} menjaga gawang tetap utuh",
-      "5": "Kokoh seperti batu: {name} dengan clean sheet",
-      "6": "{name} menambah koleksi clean sheet",
+      "5": "Kokoh seperti batu: {name} dengan tanpa kebobolan",
+      "6": "{name} menambah koleksi tanpa kebobolan",
       "7": "Raja penutup {name} mengosongkan oposisi",
-      "8": "Kelas master pertahanan {name}: clean sheet",
-      "9": "Tidak ada yang melewati {name}: satu lagi clean sheet",
-      "10": "Dinding {team}: {name} menjaga clean sheet",
+      "8": "Kelas master pertahanan {name}: tanpa kebobolan",
+      "9": "Tidak ada yang melewati {name}: satu lagi tanpa kebobolan",
+      "10": "Dinding {team}: {name} menjaga tanpa kebobolan",
       "11": "{name} merayakan kemenangan penutupan",
-      "12": "Pertahanan sempurna: {name} mendapatkan clean sheet",
-      "13": "{cleanSheets} clean sheet sekarang untuk {name}",
+      "12": "Pertahanan sempurna: {name} mendapatkan tanpa kebobolan",
+      "13": "{cleanSheets} tanpa kebobolan sekarang untuk {name}",
       "14": "{name} berdiri teguh untuk penutupan lainnya",
-      "15": "Tidak dapat ditembus: clean sheet {name}",
-      "16": "Pertahanan {team} dipimpin oleh clean sheet {name}",
-      "17": "Tidak ada jalan keluar: {name} menjaga clean sheet",
-      "18": "{name} membuatnya terlihat mudah: clean sheet",
+      "15": "Tidak dapat ditembus: tanpa kebobolan {name}",
+      "16": "Pertahanan {team} dipimpin oleh tanpa kebobolan {name}",
+      "17": "Tidak ada jalan keluar: {name} menjaga tanpa kebobolan",
+      "18": "{name} membuatnya terlihat mudah: tanpa kebobolan",
       "19": "Pahlawan bertahan {name} mencatatkan penutupan",
-      "20": "Di lain hari, clean sheet lainnya untuk {name}"
+      "20": "Di lain hari, tanpa kebobolan lainnya untuk {name}"
     },
     "club": "Klub",
     "clubHistory": "Sejarah Klub",
@@ -168,7 +168,7 @@
     "competitionDetails": "Detail Kompetisi",
     "competitionType": {
       "Continental": "Kontinental",
-      "Cup": "Cangkir",
+      "Cup": "Piala",
       "League": "Liga"
     },
     "continentalQualification": {
@@ -297,140 +297,6 @@
       "trainingLight": "Mengutamakan istirahat",
       "transferRequest": "Anda meminta transfer"
     },
-    "expandedAttributes": {
-      "agility": {
-        "coordination": "Koordinasi",
-        "flexibility": "Fleksibilitas",
-        "lateralAgility": "Kelincahan Lateral",
-        "reactionTime": "Waktu Reaksi"
-      },
-      "ballControl": {
-        "aerialControl": "Kontrol Udara",
-        "firstTouchOrientated": "Berorientasi Sentuhan Pertama",
-        "firstTouchUnderPressure": "Sentuhan Pertama Di Bawah Tekanan",
-        "shielding": "Perisai",
-        "trapping": "Penangkapan"
-      },
-      "defensivePositioning": {
-        "covering": "Penutup",
-        "defensiveAwareness": "Kesadaran Defensif",
-        "positionRecovery": "Pemulihan Posisi"
-      },
-      "dribbling": {
-        "balanceInDribble": "Keseimbangan dalam menggiring bola",
-        "closeControlDribbling": "Tutup Kontrol Menggiring Bola",
-        "feints": "Tipuan",
-        "skillMoves": "Gerakan Keterampilan",
-        "speedDribbling": "Menggiring Bola dengan Kecepatan"
-      },
-      "endurance": {
-        "aerobicEndurance": "Daya Tahan Aerobik",
-        "anaerobicEndurance": "Daya Tahan Anaerobik",
-        "stamina": "Daya tahan",
-        "workRate": "Tingkat Kerja"
-      },
-      "finishing": {
-        "finishingInsideBox": "Finishing Di Dalam Kotak",
-        "finishingOnCounter": "Menyelesaikan di Konter",
-        "finishingOutsideBox": "Finishing Luar Kotak",
-        "finishingUnderPressure": "Menyelesaikan Di Bawah Tekanan",
-        "headingAccuracy": "Akurasi Judul",
-        "headingPower": "Kekuatan Pos",
-        "oneOnOneFinishing": "Penyelesaian Satu lawan Satu",
-        "placedShotAccuracy": "Akurasi Tembakan yang Ditempatkan",
-        "powerShotAccuracy": "Akurasi Kekuatan Tembakan",
-        "shotPower": "Kekuatan Tembakan",
-        "volleysAndAcrobatic": "Voli dan Akrobatik"
-      },
-      "gameIntelligence": {
-        "anticipation": "Antisipasi",
-        "creativity": "Kreativitas",
-        "decisions": "Keputusan",
-        "offTheBallMovement": "Gerakan Tanpa Bola",
-        "positioning": "Penentuan posisi",
-        "spatialAwareness": "Kesadaran Spasial",
-        "vision": "Penglihatan"
-      },
-      "interception": {
-        "readingOfPlay": "Membaca Permainan",
-        "shortPassInterception": "Intersepsi Lintasan Pendek"
-      },
-      "jumping": {
-        "headerTiming": "Waktu Tajuk",
-        "runningVerticalJump": "Menjalankan Lompat Vertikal",
-        "standingVerticalJump": "Lompat Vertikal Berdiri"
-      },
-      "marking": {
-        "individualMarking": "Penandaan Individu",
-        "trackingRuns": "Pelacakan Berjalan",
-        "zonalMarking": "Penandaan Zona"
-      },
-      "passing": {
-        "crossingFromByline": "Menyeberang dari Byline",
-        "crossingFromDeep": "Menyeberang dari Dalam",
-        "longDiagonalPass": "Umpan Diagonal Panjang",
-        "longPassAccuracy": "Akurasi Umpan Jauh",
-        "mediumPassAccuracy": "Akurasi Lulus Sedang",
-        "shortPassAccuracy": "Akurasi Umpan Pendek",
-        "throughBallAccuracy": "Akurasi Melalui Bola",
-        "verticalPassBreakingLines": "Garis Pemutus Lintasan Vertikal",
-        "weightedPass": "Lulus Tertimbang"
-      },
-      "performance": {
-        "adaptability": "Kemampuan beradaptasi",
-        "bigMatchPerformance": "Performa Pertandingan Besar",
-        "clutchFactor": "Faktor Kopling",
-        "consistency": "Konsistensi",
-        "pressureHandling": "Penanganan Tekanan"
-      },
-      "personality": {
-        "bravery": "Keberanian",
-        "charismaOffPitch": "Karisma Di Luar Pitch",
-        "composure": "Ketenangan",
-        "composureInFinishing": "Ketenangan dalam Finishing",
-        "determination": "Tekad",
-        "leadershipOnPitch": "Kepemimpinan di Pitch",
-        "professionalism": "Profesionalisme",
-        "teamwork": "Kerja sama",
-        "temperament": "Perangai"
-      },
-      "positioning": {
-        "narrowingAngles": "Sudut yang Menyempit"
-      },
-      "pressing": {
-        "pressingEndurance": "Menekan Daya Tahan",
-        "pressingIntensity": "Menekan Intensitas",
-        "pressingTiming": "Menekan Waktu"
-      },
-      "robustness": {
-        "injuryResistance": "Resistensi Cedera",
-        "naturalFitness": "Kebugaran Alami",
-        "physicalRobustness": "Kekokohan Fisik",
-        "recoveryRate": "Tingkat Pemulihan"
-      },
-      "shotStopping": {
-        "diving": "Menyelam",
-        "oneOnOneStopping": "Berhenti Satu lawan Satu",
-        "reflexes": "Refleks"
-      },
-      "speed": {
-        "accelerationInitial": "Akselerasi Awal",
-        "accelerationMedium": "Akselerasi Sedang",
-        "sprintSpeed": "Kecepatan Lari",
-        "topSpeed": "Kecepatan Tertinggi"
-      },
-      "strength": {
-        "balanceInContact": "Saldo dalam Kontak",
-        "bodyToBodyStrength": "Kekuatan Tubuh ke Tubuh",
-        "legStrength": "Kekuatan Kaki",
-        "upperBodyStrength": "Kekuatan Tubuh Bagian Atas"
-      },
-      "tackling": {
-        "slidingTackle": "Cegatan",
-        "standingTackle": "Tekel Berdiri",
-        "tackleTiming": "Waktu Mengatasi"
-      }
-    },
     "finishing": "Penyelesaian",
     "firstGoal": {
       "1": "GOL PERTAMA! {name} membuka akun profesional",
@@ -522,25 +388,25 @@
       "20": "Sepatu Emas yang layak untuk {name}"
     },
     "hatTrick": {
-      "1": "PAHLAWAN HAT-TRIK! {name} mendapat skor tiga",
-      "2": "{name} mengantongi hat-trick dalam kemenangan {team}",
-      "3": "Suguhan tiga kali lipat! {name} mencetak tiga gol",
+      "1": "PAHLAWAN HAT-TRICK! {name} borong tiga gol",
+      "2": "{name} mencetak hat-trick dalam kemenangan gemilang {team}",
+      "3": "Pesta gol! {name} borong tiga gol berkelas",
       "4": "{name} membawa pulang bola pertandingan dengan hat-trick",
-      "5": "Klinis: {name} mencetak hat-trick sempurna",
+      "5": "Finishing mematikan: {name} cetak hat-trick sempurna",
       "6": "Tiga dan mudah untuk {name}",
       "7": "Hat-trick {name} mencerahkan permainan",
       "8": "{name} yang kejam meraih hat-trick",
-      "9": "Man of the match {name} mencetak tiga gol",
+      "9": "Pemain Terbaik {name} mencetak tiga gol",
       "10": "{name} menyelesaikan hat-trick menakjubkan",
       "11": "Hat-trick bersejarah dari {name}",
       "12": "{name} pulang dengan membawa bola pertandingan",
       "13": "Tiga gol! {name} mendominasi",
-      "14": "Treble {name} memastikan poin",
+      "14": "Hat-trick {name} kunci tiga poin penuh",
       "15": "Terbakar! {name} mencetak hat-trick",
-      "16": "{team} bintang {name} menjaring tiga",
+      "16": "Bintang {team} {name} sukses borong tiga gol",
       "17": "{name} membuat sejarah dengan hat-trick",
-      "18": "Hat-trick sempurna untuk {name} klinis",
-      "19": "Pahlawan tiga gol: bintang {name}",
+      "18": "Hat-trick sempurna dari sang finisher mematikan {name}",
+      "19": "Pahlawan tiga gol: {name} bersinar terang di lapangan",
       "20": "{name} merayakan kejayaan hat-trick"
     },
     "injuryReturn": {
@@ -575,7 +441,7 @@
       "7": "{name} dalam paket {country}",
       "8": "Bos {country} memilih {name}",
       "9": "Dipanggil: {name} bergabung dengan skuad {country}",
-      "10": "Formulir {name} dihargai dengan panggilan {country}",
+      "10": "Penampilan {name} dihargai dengan panggilan {country}",
       "11": "Tugas internasional menunggu {name}",
       "12": "{country} memanggil {name} dalam formulir",
       "13": "{name} membuat skuad {country}",
@@ -773,7 +639,7 @@
       "firstAssist": "Bantuan Pertama",
       "firstGoal": "Gol Pertama",
       "firstTitle": "Judul Pertama",
-      "form": "Membentuk",
+      "form": "Performa",
       "general": "Umum",
       "goalMilestone": "Tonggak Pencapaian Sasaran",
       "goldenBoot": "Sepatu Emas",
@@ -877,7 +743,7 @@
       "RWB": "Bek Sayap Kanan",
       "ST": "Striker"
     },
-    "positioning": "Penentuan posisi",
+    "positioning": "Penempatan Posisi",
     "professionalDebut": {
       "1": "DEBUT! {name} membuat penampilan profesional pertama",
       "2": "Awal: {name} debut untuk {team}",
@@ -1031,7 +897,7 @@
       "wantsTransfer": "Ingin dipindahkan"
     },
     "topScorer": {
-      "0": "{name} MEMIMPIN! {goals} gol untuk topskor liga",
+      "0": "{name} MEMIMPIN! {goals} gol untuk memuncaki daftar top skor liga",
       "1": "pencetak gol terbanyak! {name} diakhiri dengan gol {goals}",
       "2": "{name} mengklaim Sepatu Emas dengan gol {goals}",
       "3": "Mesin gol! {name} adalah pencetak gol terbanyak liga",
@@ -1060,19 +926,19 @@
       "4": "{name} bergabung dengan XI terbaik setelah kampanye yang menonjol",
       "5": "Pengakuan: {name} menjadi Tim Terbaik Tahun Ini",
       "6": "{name} milik {team} termasuk dalam XI terbaik musim ini",
-      "7": "{name} mendapatkan tempat di Team of the Year yang didambakan",
+      "7": "{name} mendapatkan tempat di Tim Terbaik Tahun Ini yang didambakan",
       "8": "Tim impian! {name} dipilih di antara yang terbaik",
       "9": "Konsistensi {name} dihargai dengan seleksi TOTY",
-      "10": "Kualitas bintang: {name} di Team of the Year",
+      "10": "Kualitas bintang: {name} di Tim Terbaik Tahun Ini",
       "11": "{name} memperkuat warisan dengan penyertaan TOTY",
       "12": "Yang terbaik musim ini: {name} berhasil",
-      "13": "{name} bersinar terang di Team of the Year",
+      "13": "{name} bersinar terang di Tim Terbaik Tahun Ini",
       "14": "Kehormatan yang pantas: {name} di XI terbaik liga",
-      "15": "{name} termasuk di antara elit dalam pemilihan Team of the Year",
+      "15": "{name} termasuk di antara elit dalam pemilihan Tim Terbaik Tahun Ini",
       "16": "Yang terbaik musim ini: {name} mendapatkan tempat TOTY",
-      "17": "{name} membuat pernyataan dengan anggukan Team of the Year",
-      "18": "Terpilih: {name} bergabung dengan Team of the Year",
-      "19": "Formulir {name} mendapatkan pengakuan Team of the Year",
+      "17": "{name} membuat pernyataan dengan anggukan Tim Terbaik Tahun Ini",
+      "18": "Terpilih: {name} bergabung dengan Tim Terbaik Tahun Ini",
+      "19": "Penampilan {name} mendapatkan pengakuan Tim Terbaik Tahun Ini",
       "20": "Status all-star: {name} di XI terbaik musim ini"
     },
     "transfer": {
@@ -1181,7 +1047,7 @@
       "5": "KEMBALI KE KEMBALI: {winnerName} mempertahankan mahkota dengan kemenangan berturut-turut {count}",
       "6": "SEJARAH DITULIS ULANG: {winnerName} melampaui semua rekor dengan Piala Emas {count}",
       "7": "TERHEBAT SEPANJANG MASA: {winnerName} memecahkan rekor — penghargaan individu {count} dan terus bertambah",
-      "8": "BEYOND LEGEND: {winnerName} mengklaim gelar {count} yang belum pernah terjadi sebelumnya, melampaui rekor lama {previousRecord}",
+      "8": "MELAMPAUI LEGENDA: {winnerName} meraih gelar ke-{count} yang belum pernah terjadi, melampaui rekor lama {previousRecord}",
       "9": "FRONTIER BARU: Kemenangan pertama bagi pemain dari liga ini — {winnerName} membuat sejarah",
       "10": "TRAILBLAZER: {winnerName} menempatkan liga mereka di peta dengan kemenangan penting",
       "11": "PERTAMA SEJARAH: {winnerName} membawa Piala Emas ke wilayah baru",
@@ -1190,7 +1056,7 @@
       "14": "KUTUS RUNNER-UP: {playerName} bertanya-tanya apa yang mungkin terjadi — {count} nyaris celaka dan terus bertambah",
       "15": "RIVALRY SELESAI: {rivalName} menang atas {playerName} — itulah kemenangan {rivalWins} untuk rivalnya",
       "16": "NEMESIS MENYERAH LAGI: {rivalName} mengalahkan {playerName} dalam meraih penghargaan sekali lagi",
-      "17": "PILL BITTER: {playerName} menyaksikan rival beratnya {rivalName} mengangkat trofi",
+      "17": "KEPAHITAN: {playerName} menyaksikan rival beratnya {rivalName} mengangkat trofi",
       "18": "JATUH DARI GRACE: {playerName} turun dari {previousPosition}th ke {currentPosition}th dalam penurunan yang menakjubkan",
       "19": "PERIKSA KENYATAAN: {playerName} menggeser posisi {drop} di peringkat — pertanyaan meningkat",
       "20": "DIMANA SALAHNYA? {playerName} merosot dari {previousPosition}th menjadi {currentPosition}th",
@@ -1213,7 +1079,7 @@
       "37": "KEPUTUSAN TERPISAH: Tidak ada konsensus di antara para pemilih — {winnerName} menang meskipun terdapat perbedaan pendapat",
       "38": "TIGA KAMP: Jurnalis, pelatih, dan kapten semuanya memiliki pilihan berbeda — {winnerName} mengambilnya",
       "39": "MUSIM LEGENDARIS: {name} mencetak gol {goals} — kampanye individu terhebat dalam beberapa tahun",
-      "40": "KINERJA SEJARAH: Musim gol {name} akan dikenang selamanya",
+      "40": "KINERJA SEJARAH: Musim {goals} gol {name} akan dikenang selamanya",
       "41": "PADA TINGKAT LAIN: {name} menghadirkan musim selama berabad-abad dengan gol {goals} untuk {club}",
       "42": "KEKUATAN TAK TERHENTIKAN: {name} mencetak gol {goals} musim ini. Anda menyelesaikan {playerPosition}th",
       "43": "OUTSHONE BY GREATNESS: Musim gol {goals} di {name} terlalu berlebihan — Anda menempatkan {playerPosition}th",
@@ -1234,6 +1100,28 @@
       "Continental": "Kontinental",
       "Cup": "Piala",
       "League": "Liga"
+    },
+    "cleanSheetMilestone": {
+      "1": "TEMBOK TEBAL! {name} meraih {cleanSheets} nirbobol sepanjang karier",
+      "2": "Tonggak bersejarah: {name} mencatatkan nirbobol ke-{cleanSheets}",
+      "3": "{name} bergabung dengan kiper elit dengan {cleanSheets} tanpa kebobolan",
+      "4": "{cleanSheets} laga tanpa kebobolan! {name} menorehkan rekor hebat",
+      "5": "Kelas dunia di bawah mistar: {name} membukukan {cleanSheets} nirbobol",
+      "6": "{name} merayakan pencapaian bersejarah {cleanSheets} nirbobol",
+      "7": "Tak terkalahkan: {name} menjaga gawangnya tetap perawan untuk kali ke-{cleanSheets}",
+      "8": "Tangan dingin: {name} menembus {cleanSheets} pertandingan tanpa kebobolan",
+      "9": "Benteng kokoh: {name} mengunci rapat gawangnya pada laga ke-{cleanSheets}",
+      "10": "Tembok kokoh tak runtuh: {name} mencapai {cleanSheets} nirbobol",
+      "11": "Pencapaian luar biasa: {name} kini mengoleksi {cleanSheets} nirbobol",
+      "12": "{name} masuk jajaran kiper legendaris dengan rekor {cleanSheets} nirbobol",
+      "13": "Sarung Tangan Emas: {name} mencatatkan {cleanSheets} laga nirbobol",
+      "14": "{name} menorehkan tinta emas dengan {cleanSheets} nirbobol karier",
+      "15": "Penguasa kotak penalti: {name} merayakan nirbobol ke-{cleanSheets}",
+      "16": "Nol kebobolan: {name} menembus rekor {cleanSheets} tanpa kebobolan",
+      "17": "Legenda di bawah mistar: {name} mengoleksi {cleanSheets} nirbobol",
+      "18": "{name} mengunci gawangnya untuk kali ke-{cleanSheets} dalam karier",
+      "19": "Rekor terukir: {cleanSheets} pertandingan nirbobol untuk {name}",
+      "20": "Kiper fenomenal: {name} merayakan catatan {cleanSheets} laga bersih tanpa gol"
     }
   },
   "stats": {

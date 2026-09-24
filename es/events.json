@@ -23,7 +23,10 @@
     "reachCareerAssists": "Alcanzar el hito de asistencias profesionales",
     "reachCareerGoals": "Alcanzar el hito de los objetivos profesionales",
     "reachOverallRating": "Alcanza el objetivo de OVR",
-    "winWorldCup": "Gana el torneo mundial"
+    "winWorldCup": "Gana el torneo mundial",
+    "spendDecade": "Pasar 10 años en {team}",
+    "topTierLeague": "Jugar en una liga de élite",
+    "winContinentalCup": "Ganar la Copa Continental con {team}"
   },
   "agent": {
     "contractExpired": "Su contrato con el agente expiró. Firmaste con {name} ({reputation}).",
@@ -101,7 +104,7 @@
     "trainingLight": "Intensidad de entrenamiento reducida"
   },
   "status": {
-    "managerConflict": "Conflicto de gerente",
+    "managerConflict": "Conflicto de entrenador",
     "teammateConflict": "Conflicto de compañeros de equipo"
   },
   "events": {
@@ -236,7 +239,8 @@
       "concernYellow": "Preocupaciones disciplinarias: {count} tarjetas amarillas esta temporada.",
       "criticalRed": "Problemas disciplinarios CRÍTICOS: tarjetas rojas {count}: ¡debe mejorar!",
       "majorYellow": "Graves problemas disciplinarios: {count} tarjetas amarillas esta temporada.",
-      "seriousRed": "Graves problemas disciplinarios: ¡tarjetas rojas {count}!"
+      "seriousRed": "Graves problemas disciplinarios: ¡tarjetas rojas {count}!",
+      "title": "Disciplina"
     },
     "endorsement": {
       "signed": "¡Acuerdo de patrocinio firmado por {duration} años con {brand} por un valor de £{value}M por año!"
@@ -370,7 +374,7 @@
       "choice_chances": "Pregunta por más oportunidades",
       "choice_commitment": "Mostrar compromiso con el equipo",
       "description": "El entrenador quiere hablar sobre tu papel en el equipo. Podría afectar tu tiempo de juego.",
-      "title": "Conversación del gerente"
+      "title": "Conversación del entrenador"
     },
     "sponsorship": {
       "title": "Acuerdo de patrocinio",
@@ -557,7 +561,7 @@
       },
       "lazy": {
         "criticism": "Directivo critica actitud en entrenamiento durante conferencia de prensa.",
-        "fallout": "La relación con el gerente se deteriora debido a problemas de ética laboral.",
+        "fallout": "La relación con el entrenador se deteriora debido a problemas de ética laboral.",
         "late": "Multado por el club por reiteradas tardanzas en los entrenamientos."
       },
       "loyal": {
@@ -574,7 +578,7 @@
       "professional": {
         "award": "Nombrado Profesional del Año del Club por el cuerpo técnico.",
         "contract": "Club con ganas de ampliar contrato por su ejemplar profesionalidad.",
-        "praise": "Elogiado por el gerente por su excepcional profesionalismo y ética de trabajo.",
+        "praise": "Elogiado por el entrenador por su excepcional profesionalismo y ética de trabajo.",
         "roleModel": "Sus compañeros de equipo lo citan como el modelo perfecto a seguir.",
         "training": "Sesiones de entrenamiento adicionales para ganarse el respeto de todo el equipo."
       },
@@ -642,7 +646,7 @@
         "humble": {
           "fan1": "¡Acto de clase! ¡Verdadera mentalidad de campeón!",
           "fan2": "¡Esto es lo que separa a los grandes del resto!",
-          "headline1": "{name} le da crédito al equipo después de recibir un prestigioso premio"
+          "headline1": "{name} elogia el esfuerzo del equipo tras recibir este prestigioso galardón"
         },
         "confident": {
           "fan1": "¡Se ha ganado el derecho a tener confianza!",
@@ -708,7 +712,9 @@
           "headline1": "{name} elogiado por el trato a los fans"
         },
         "ignore": {
-          "fan1": "Pasó junto a nosotros como si fuéramos invisibles..."
+          "fan1": "Pasó junto a nosotros como si fuéramos invisibles...",
+          "fan2": "La fama se le ha subido a la cabeza. Muy triste.",
+          "headline1": "{name} esquiva a los aficionados y desata duras críticas"
         }
       },
       "manager_conversation": {
@@ -727,13 +733,13 @@
         },
         "defend": {
           "fan1": "¡Vaya! Esto se va a poner complicado...",
-          "headline1": "¡Tensión! {name} responde a las críticas del gerente"
+          "headline1": "¡Tensión! {name} responde a las críticas del entrenador"
         },
         "transfer": {
           "fan1": "¡No te vayas! ¡Por favor no te vayas!",
           "fan2": "Si el manager no sabe cómo utilizarlo, mejor irse...",
-          "headline1": "¡BOMBA! {name} pide irse después de pelea con el gerente",
-          "headline2": "Relación entre {name} y el administrador insostenible"
+          "headline1": "¡BOMBA! {name} pide irse después de pelea con el entrenador",
+          "headline2": "Relación entre {name} y el entrenador insostenible"
         }
       },
       "party_scandal": {
@@ -786,6 +792,17 @@
         "double_down": {
           "fan1": "¡No da marcha atrás!"
         }
+      },
+      "mentor_opportunity": {
+        "accept": {
+          "fan1": "¡Un verdadero ejemplo a seguir para nuestra cantera!",
+          "headline1": "{name} será el mentor de los jóvenes de la cantera",
+          "press1": "La experiencia de {name} será vital para la formación de los jóvenes."
+        },
+        "decline": {
+          "fan1": "Solo piensa en sí mismo...",
+          "headline1": "{name} rechaza la invitación para tutelar a las promesas de la academia"
+        }
       }
     },
     "relationship": {
@@ -799,7 +816,7 @@
     },
     "requiresMoney": "Requiere €{amount}",
     "retirement": {
-      "careerEndingInjury": "Forced to announce retirement due to career-ending injury. Un final cruel para una carrera prometedora.",
+      "careerEndingInjury": "Obligado a anunciar la retirada por una lesión que pone fin a su carrera. Un final cruel para una carrera prometedora.",
       "centurion": "Centurión para {country}: un héroe nacional.",
       "headlines": {
         "injury": {
@@ -822,7 +839,7 @@
           "17": "Espíritu de lucha: {name} se retira tras perder la batalla con el cuerpo.",
           "18": "Carrera en pausa permanente: {name} se retira por lesión.",
           "19": "Retiro médico: {name} obligado a detenerse por orden del médico.",
-          "20": "El ​​cuerpo no podría aguantar más: {name} anuncia retiro médico.",
+          "20": "El cuerpo no podría aguantar más: {name} anuncia retiro médico.",
           "types": {
             "hamstring": "lesión de isquiotibiales",
             "groin": "dolor en la ingle",
@@ -939,7 +956,9 @@
           "18": "Ya no pudo competir: {name} se retira a regañadientes.",
           "19": "Partido pospuesto: {name} finalmente acepta que su carrera ha terminado.",
           "20": "Créditos: la historia de {name} termina con un capítulo desvaído."
-        }
+        },
+        "testimonialMatch": "{team} le rendirá homenaje a {name} con un partido de despedida.",
+        "shirtRetired": "{team} anuncia planes para retirar el dorsal número {number} en honor a la leyenda del club {name}."
       },
       "icon": "{name} anuncia su retiro después de una carrera notable. Partidos {matches}, goles {goals}, títulos importantes {trophies}. Una inspiración para muchos.",
       "journeyman": "{name} anuncia su retiro. {reason}. Hizo apariciones en {matches} en los clubes {clubs}.",
@@ -953,7 +972,7 @@
           "3": "Fuentes cercanas a {name} insinúan un posible anuncio de retiro.",
           "4": "La especulación aumenta sobre el futuro de {name} a medida que su carrera entra en ocaso.",
           "5": "El agente se niega a negar los rumores de retiro que involucran a {name}.",
-          "6": "{name} supuestamente está discutiendo acuerdos de coincidencia testimonial.",
+          "6": "{name} estaría negociando la organización de su partido homenaje.",
           "7": "¿Casillero vacío? Se ve a {name} retirando artículos personales del estadio.",
           "8": "El filosófico {name} habla sobre la 'vida después del fútbol' en una entrevista.",
           "9": "El contrato vence y, según se informa, {name} no busca la renovación.",
@@ -1137,7 +1156,8 @@
       "won": "¡Ganadores de {competition}!",
       "wonYouth": "¡Ganó el Concurso Juvenil!",
       "worldCup": "¡CAMPEONES DEL TORNEO MUNDIAL! ¡Ha nacido una leyenda!",
-      "worldCupChampions": "¡{country} ganó el Torneo Mundial!"
+      "worldCupChampions": "¡{country} ganó el Torneo Mundial!",
+      "continentalQualification": "¡Clasificación a {competition} asegurada!"
     },
     "urgentDecision": "¡Se requiere decisión urgente!",
     "viral": {
@@ -1265,804 +1285,903 @@
       "choice_home": "Irse a casa a descansar pensando en el próximo partido"
     },
     "press_conference_var_1": {
-      "title": "Press Conference: TACTICAL SYSTEM INQUIRY",
-      "description": "Journalists present questions regarding your team's tactical system inquiry.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Rueda de Prensa: SISTEMA TÁCTICO",
+      "description": "Los periodistas te preguntan en sala de prensa sobre la actualidad del equipo.",
+      "choice_1": "Ofrecer una explicación táctica detallada y constructiva",
+      "choice_2": "Enfatizar la responsabilidad individual y la ética de trabajo",
+      "choice_3": "Lanzar un dardo picante para desafiar las críticas de la prensa",
+      "choice_4": "Mantener un tono diplomático y respuestas breves"
     },
     "press_conference_var_2": {
-      "title": "Press Conference: MID-SEASON FORM REVIEW",
-      "description": "Journalists present questions regarding your team's mid-season form review.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Rueda de Prensa: ESTADO DE FORMA",
+      "description": "Los periodistas te preguntan en sala de prensa sobre la actualidad del equipo.",
+      "choice_1": "Ofrecer una explicación táctica detallada y constructiva",
+      "choice_2": "Enfatizar la responsabilidad individual y la ética de trabajo",
+      "choice_3": "Lanzar un dardo picante para desafiar las críticas de la prensa",
+      "choice_4": "Mantener un tono diplomático y respuestas breves"
     },
     "press_conference_var_3": {
-      "title": "Press Conference: CONTINENTAL COMPETITION EXPECTATIONS",
-      "description": "Journalists present questions regarding your team's continental competition expectations.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Rueda de Prensa: EXPECTATIVAS CONTINENTALES",
+      "description": "Los periodistas te preguntan en sala de prensa sobre la actualidad del equipo.",
+      "choice_1": "Ofrecer una explicación táctica detallada y constructiva",
+      "choice_2": "Enfatizar la responsabilidad individual y la ética de trabajo",
+      "choice_3": "Lanzar un dardo picante para desafiar las críticas de la prensa",
+      "choice_4": "Mantener un tono diplomático y respuestas breves"
     },
     "press_conference_var_4": {
-      "title": "Press Conference: SQUAD ROTATION DEBATE",
-      "description": "Journalists present questions regarding your team's squad rotation debate.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Rueda de Prensa: ROTACIÓN DE PLANTILLA",
+      "description": "Los periodistas te preguntan en sala de prensa sobre la actualidad del equipo.",
+      "choice_1": "Ofrecer una explicación táctica detallada y constructiva",
+      "choice_2": "Enfatizar la responsabilidad individual y la ética de trabajo",
+      "choice_3": "Lanzar un dardo picante para desafiar las críticas de la prensa",
+      "choice_4": "Mantener un tono diplomático y respuestas breves"
     },
     "press_conference_var_5": {
-      "title": "Press Conference: YOUNG TALENT INTEGRATION",
-      "description": "Journalists present questions regarding your team's young talent integration.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Rueda de Prensa: JÓVENES TALENTOS",
+      "description": "Los periodistas te preguntan en sala de prensa sobre la actualidad del equipo.",
+      "choice_1": "Ofrecer una explicación táctica detallada y constructiva",
+      "choice_2": "Enfatizar la responsabilidad individual y la ética de trabajo",
+      "choice_3": "Lanzar un dardo picante para desafiar las críticas de la prensa",
+      "choice_4": "Mantener un tono diplomático y respuestas breves"
     },
     "press_conference_var_6": {
-      "title": "Press Conference: DISCIPLINARY RECORD DISCUSSION",
-      "description": "Journalists present questions regarding your team's disciplinary record discussion.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Rueda de Prensa: DISCIPLINA EN EL CAMPO",
+      "description": "Los periodistas te preguntan en sala de prensa sobre la actualidad del equipo.",
+      "choice_1": "Ofrecer una explicación táctica detallada y constructiva",
+      "choice_2": "Enfatizar la responsabilidad individual y la ética de trabajo",
+      "choice_3": "Lanzar un dardo picante para desafiar las críticas de la prensa",
+      "choice_4": "Mantener un tono diplomático y respuestas breves"
     },
     "press_conference_var_7": {
-      "title": "Press Conference: FIXTURE CONGESTION SCHEDULE",
-      "description": "Journalists present questions regarding your team's fixture congestion schedule.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Rueda de Prensa: CALENDARIO CARGADO",
+      "description": "Los periodistas te preguntan en sala de prensa sobre la actualidad del equipo.",
+      "choice_1": "Ofrecer una explicación táctica detallada y constructiva",
+      "choice_2": "Enfatizar la responsabilidad individual y la ética de trabajo",
+      "choice_3": "Lanzar un dardo picante para desafiar las críticas de la prensa",
+      "choice_4": "Mantener un tono diplomático y respuestas breves"
     },
     "press_conference_var_8": {
-      "title": "Press Conference: AWAY RECORD PERFORMANCE",
-      "description": "Journalists present questions regarding your team's away record performance.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Rueda de Prensa: PARTIDOS FUERA DE CASA",
+      "description": "Los periodistas te preguntan en sala de prensa sobre la actualidad del equipo.",
+      "choice_1": "Ofrecer una explicación táctica detallada y constructiva",
+      "choice_2": "Enfatizar la responsabilidad individual y la ética de trabajo",
+      "choice_3": "Lanzar un dardo picante para desafiar las críticas de la prensa",
+      "choice_4": "Mantener un tono diplomático y respuestas breves"
     },
     "press_conference_var_9": {
-      "title": "Press Conference: VAR CONTROVERSY STANCE",
-      "description": "Journalists present questions regarding your team's VAR controversy stance.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Rueda de Prensa: POLÉMICA DEL VAR",
+      "description": "Los periodistas te preguntan en sala de prensa sobre la actualidad del equipo.",
+      "choice_1": "Ofrecer una explicación táctica detallada y constructiva",
+      "choice_2": "Enfatizar la responsabilidad individual y la ética de trabajo",
+      "choice_3": "Lanzar un dardo picante para desafiar las críticas de la prensa",
+      "choice_4": "Mantener un tono diplomático y respuestas breves"
     },
     "press_conference_var_10": {
-      "title": "Press Conference: NATIONAL TEAM SELECTION RUMOR",
-      "description": "Journalists present questions regarding your team's national team selection rumor.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Rueda de Prensa: CONVOCATORIA NACIONAL",
+      "description": "Los periodistas te preguntan en sala de prensa sobre la actualidad del equipo.",
+      "choice_1": "Ofrecer una explicación táctica detallada y constructiva",
+      "choice_2": "Enfatizar la responsabilidad individual y la ética de trabajo",
+      "choice_3": "Lanzar un dardo picante para desafiar las críticas de la prensa",
+      "choice_4": "Mantener un tono diplomático y respuestas breves"
     },
     "press_conference_var_11": {
-      "title": "Press Conference: CAPTAINCY LEADERSHIP DUTIES",
-      "description": "Journalists present questions regarding your team's captaincy leadership duties.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Rueda de Prensa: LIDERAZGO Y CAPITANÍA",
+      "description": "Los periodistas te preguntan en sala de prensa sobre la actualidad del equipo.",
+      "choice_1": "Ofrecer una explicación táctica detallada y constructiva",
+      "choice_2": "Enfatizar la responsabilidad individual y la ética de trabajo",
+      "choice_3": "Lanzar un dardo picante para desafiar las críticas de la prensa",
+      "choice_4": "Mantener un tono diplomático y respuestas breves"
     },
     "press_conference_var_12": {
-      "title": "Press Conference: TACTICAL FLEXIBILITY TEST",
-      "description": "Journalists present questions regarding your team's tactical flexibility test.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Rueda de Prensa: FLEXIBILIDAD TÁCTICA",
+      "description": "Los periodistas te preguntan en sala de prensa sobre la actualidad del equipo.",
+      "choice_1": "Ofrecer una explicación táctica detallada y constructiva",
+      "choice_2": "Enfatizar la responsabilidad individual y la ética de trabajo",
+      "choice_3": "Lanzar un dardo picante para desafiar las críticas de la prensa",
+      "choice_4": "Mantener un tono diplomático y respuestas breves"
     },
     "press_conference_var_13": {
-      "title": "Press Conference: DEFENSIVE SOLIDITY BREAKDOWN",
-      "description": "Journalists present questions regarding your team's defensive solidity breakdown.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Rueda de Prensa: SOLIDEZ DEFENSIVA",
+      "description": "Los periodistas te preguntan en sala de prensa sobre la actualidad del equipo.",
+      "choice_1": "Ofrecer una explicación táctica detallada y constructiva",
+      "choice_2": "Enfatizar la responsabilidad individual y la ética de trabajo",
+      "choice_3": "Lanzar un dardo picante para desafiar las críticas de la prensa",
+      "choice_4": "Mantener un tono diplomático y respuestas breves"
     },
     "press_conference_var_14": {
-      "title": "Press Conference: ATTACKING EFFICIENCY ANALYSIS",
-      "description": "Journalists present questions regarding your team's attacking efficiency analysis.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Rueda de Prensa: EFICACIA GOLEADORA",
+      "description": "Los periodistas te preguntan en sala de prensa sobre la actualidad del equipo.",
+      "choice_1": "Ofrecer una explicación táctica detallada y constructiva",
+      "choice_2": "Enfatizar la responsabilidad individual y la ética de trabajo",
+      "choice_3": "Lanzar un dardo picante para desafiar las críticas de la prensa",
+      "choice_4": "Mantener un tono diplomático y respuestas breves"
     },
     "press_conference_var_15": {
-      "title": "Press Conference: SET-PIECE SPECIALIZATION",
-      "description": "Journalists present questions regarding your team's set-piece specialization.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Rueda de Prensa: ESPECIALISTAS A BALÓN PARADO",
+      "description": "Los periodistas te preguntan en sala de prensa sobre la actualidad del equipo.",
+      "choice_1": "Ofrecer una explicación táctica detallada y constructiva",
+      "choice_2": "Enfatizar la responsabilidad individual y la ética de trabajo",
+      "choice_3": "Lanzar un dardo picante para desafiar las críticas de la prensa",
+      "choice_4": "Mantener un tono diplomático y respuestas breves"
     },
     "press_conference_var_16": {
-      "title": "Press Conference: FAN PRESSURE REACTION",
-      "description": "Journalists present questions regarding your team's fan pressure reaction.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Rueda de Prensa: PRESIÓN DE LA GRADA",
+      "description": "Los periodistas te preguntan en sala de prensa sobre la actualidad del equipo.",
+      "choice_1": "Ofrecer una explicación táctica detallada y constructiva",
+      "choice_2": "Enfatizar la responsabilidad individual y la ética de trabajo",
+      "choice_3": "Lanzar un dardo picante para desafiar las críticas de la prensa",
+      "choice_4": "Mantener un tono diplomático y respuestas breves"
     },
     "press_conference_var_17": {
-      "title": "Press Conference: TRANSFER BUDGET SPECULATION",
-      "description": "Journalists present questions regarding your team's transfer budget speculation.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Rueda de Prensa: PRESUPUESTO DE FICHAJES",
+      "description": "Los periodistas te preguntan en sala de prensa sobre la actualidad del equipo.",
+      "choice_1": "Ofrecer una explicación táctica detallada y constructiva",
+      "choice_2": "Enfatizar la responsabilidad individual y la ética de trabajo",
+      "choice_3": "Lanzar un dardo picante para desafiar las críticas de la prensa",
+      "choice_4": "Mantener un tono diplomático y respuestas breves"
     },
     "press_conference_var_18": {
-      "title": "Press Conference: STADIUM ATMOSPHERE IMPACT",
-      "description": "Journalists present questions regarding your team's stadium atmosphere impact.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Rueda de Prensa: AMBIENTE EN EL ESTADIO",
+      "description": "Los periodistas te preguntan en sala de prensa sobre la actualidad del equipo.",
+      "choice_1": "Ofrecer una explicación táctica detallada y constructiva",
+      "choice_2": "Enfatizar la responsabilidad individual y la ética de trabajo",
+      "choice_3": "Lanzar un dardo picante para desafiar las críticas de la prensa",
+      "choice_4": "Mantener un tono diplomático y respuestas breves"
     },
     "press_conference_var_19": {
-      "title": "Press Conference: DERBY HISTORICAL RIVALRY",
-      "description": "Journalists present questions regarding your team's derby historical rivalry.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Rueda de Prensa: RIVALIDAD HISTÓRICA",
+      "description": "Los periodistas te preguntan en sala de prensa sobre la actualidad del equipo.",
+      "choice_1": "Ofrecer una explicación táctica detallada y constructiva",
+      "choice_2": "Enfatizar la responsabilidad individual y la ética de trabajo",
+      "choice_3": "Lanzar un dardo picante para desafiar las críticas de la prensa",
+      "choice_4": "Mantener un tono diplomático y respuestas breves"
     },
     "press_conference_var_20": {
-      "title": "Press Conference: END OF SEASON TARGET",
-      "description": "Journalists present questions regarding your team's end of season target.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "Rueda de Prensa: OBJETIVO FINAL DE TEMPORADA",
+      "description": "Los periodistas te preguntan en sala de prensa sobre la actualidad del equipo.",
+      "choice_1": "Ofrecer una explicación táctica detallada y constructiva",
+      "choice_2": "Enfatizar la responsabilidad individual y la ética de trabajo",
+      "choice_3": "Lanzar un dardo picante para desafiar las críticas de la prensa",
+      "choice_4": "Mantener un tono diplomático y respuestas breves"
     },
     "tactical_meeting_1": {
-      "title": "Tactical Briefing: HIGH PRESS SYSTEM",
-      "description": "The coaching staff presents new tactical adjustments focusing on high press system.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "Reunión Táctica: PRESIÓN ALTA",
+      "description": "El cuerpo técnico presenta nuevos ajustes tácticos centrados en nuevos ajustes tácticos centrados en presionar en bloque alto.",
+      "choice_1": "Dominar las instrucciones tácticas con máximo compromiso",
+      "choice_2": "Proponer cierta libertad creativa dentro del esquema",
+      "choice_3": "Ayudar a los compañeros a coordinar sus funciones",
+      "choice_4": "Exigirse al límite físico para ejecutar el plan"
     },
     "tactical_meeting_2": {
-      "title": "Tactical Briefing: LOW BLOCK DEFENSE",
-      "description": "The coaching staff presents new tactical adjustments focusing on low block defense.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "Reunión Táctica: BLOQUE BAJO",
+      "description": "El cuerpo técnico presenta nuevos ajustes tácticos centrados en organización defensiva sólida y reducción de espacios en bloque bajo.",
+      "choice_1": "Dominar las instrucciones tácticas con máximo compromiso",
+      "choice_2": "Proponer cierta libertad creativa dentro del esquema",
+      "choice_3": "Ayudar a los compañeros a coordinar sus funciones",
+      "choice_4": "Exigirse al límite físico para ejecutar el plan"
     },
     "tactical_meeting_3": {
-      "title": "Tactical Briefing: COUNTER-ATTACK SPEED",
-      "description": "The coaching staff presents new tactical adjustments focusing on counter-attack speed.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "Reunión Táctica: TRANSICIÓN Y CONTRAATAQUE",
+      "description": "El cuerpo técnico presenta nuevos ajustes tácticos centrados en transición ofensiva veloz y verticalidad tras recuperar el balón.",
+      "choice_1": "Dominar las instrucciones tácticas con máximo compromiso",
+      "choice_2": "Proponer cierta libertad creativa dentro del esquema",
+      "choice_3": "Ayudar a los compañeros a coordinar sus funciones",
+      "choice_4": "Exigirse al límite físico para ejecutar el plan"
     },
     "tactical_meeting_4": {
-      "title": "Tactical Briefing: POSSESSION CONTROL",
-      "description": "The coaching staff presents new tactical adjustments focusing on possession control.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "Reunión Táctica: CONTROL DE POSESIÓN",
+      "description": "El cuerpo técnico presenta nuevos ajustes tácticos centrados en posesión de balón paciente y dominio de los tiempos del partido.",
+      "choice_1": "Dominar las instrucciones tácticas con máximo compromiso",
+      "choice_2": "Proponer cierta libertad creativa dentro del esquema",
+      "choice_3": "Ayudar a los compañeros a coordinar sus funciones",
+      "choice_4": "Exigirse al límite físico para ejecutar el plan"
     },
     "tactical_meeting_5": {
-      "title": "Tactical Briefing: WING OVERLOAD",
-      "description": "The coaching staff presents new tactical adjustments focusing on wing overload.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "Reunión Táctica: SOBRECARGA EN BANDAS",
+      "description": "El cuerpo técnico presenta nuevos ajustes tácticos centrados en generar superioridades numéricas en las bandas y centros al área.",
+      "choice_1": "Dominar las instrucciones tácticas con máximo compromiso",
+      "choice_2": "Proponer cierta libertad creativa dentro del esquema",
+      "choice_3": "Ayudar a los compañeros a coordinar sus funciones",
+      "choice_4": "Exigirse al límite físico para ejecutar el plan"
     },
     "tactical_meeting_6": {
-      "title": "Tactical Briefing: SET-PIECE ROUTINE",
-      "description": "The coaching staff presents new tactical adjustments focusing on set-piece routine.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "Reunión Táctica: JUGADAS A BALÓN PARADO",
+      "description": "El cuerpo técnico presenta nuevos ajustes tácticos centrados en movimientos ensayados en faltas y saques de esquina.",
+      "choice_1": "Dominar las instrucciones tácticas con máximo compromiso",
+      "choice_2": "Proponer cierta libertad creativa dentro del esquema",
+      "choice_3": "Ayudar a los compañeros a coordinar sus funciones",
+      "choice_4": "Exigirse al límite físico para ejecutar el plan"
     },
     "tactical_meeting_7": {
-      "title": "Tactical Briefing: INVERTED FULLBACKS",
-      "description": "The coaching staff presents new tactical adjustments focusing on inverted fullbacks.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "Reunión Táctica: LATERALES INVERTIDOS",
+      "description": "El cuerpo técnico presenta nuevos ajustes tácticos centrados en laterales que se incorporan por dentro para apoyar la creación.",
+      "choice_1": "Dominar las instrucciones tácticas con máximo compromiso",
+      "choice_2": "Proponer cierta libertad creativa dentro del esquema",
+      "choice_3": "Ayudar a los compañeros a coordinar sus funciones",
+      "choice_4": "Exigirse al límite físico para ejecutar el plan"
     },
     "tactical_meeting_8": {
-      "title": "Tactical Briefing: FALSE NINE ROLE",
-      "description": "The coaching staff presents new tactical adjustments focusing on false nine role.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "Reunión Táctica: ROL DE FALSO 9",
+      "description": "El cuerpo técnico presenta nuevos ajustes tácticos centrados en delantero que baja a recibir para atraer centrales y liberar huecos.",
+      "choice_1": "Dominar las instrucciones tácticas con máximo compromiso",
+      "choice_2": "Proponer cierta libertad creativa dentro del esquema",
+      "choice_3": "Ayudar a los compañeros a coordinar sus funciones",
+      "choice_4": "Exigirse al límite físico para ejecutar el plan"
     },
     "tactical_meeting_9": {
-      "title": "Tactical Briefing: TRANSITION AGGRESSION",
-      "description": "The coaching staff presents new tactical adjustments focusing on transition aggression.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "Reunión Táctica: PRESIÓN TRAS PÉRDIDA",
+      "description": "El cuerpo técnico presenta nuevos ajustes tácticos centrados en recuperación inmediata tras perder el balón para asfixiar al rival.",
+      "choice_1": "Dominar las instrucciones tácticas con máximo compromiso",
+      "choice_2": "Proponer cierta libertad creativa dentro del esquema",
+      "choice_3": "Ayudar a los compañeros a coordinar sus funciones",
+      "choice_4": "Exigirse al límite físico para ejecutar el plan"
     },
     "tactical_meeting_10": {
-      "title": "Tactical Briefing: ZONAL MARKING",
-      "description": "The coaching staff presents new tactical adjustments focusing on zonal marking.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "Reunión Táctica: MARCAJE ZONAL",
+      "description": "El cuerpo técnico presenta nuevos ajustes tácticos centrados en disciplina táctica en el reparto de zonas y basculación defensiva.",
+      "choice_1": "Dominar las instrucciones tácticas con máximo compromiso",
+      "choice_2": "Proponer cierta libertad creativa dentro del esquema",
+      "choice_3": "Ayudar a los compañeros a coordinar sus funciones",
+      "choice_4": "Exigirse al límite físico para ejecutar el plan"
     },
     "dressing_room_1": {
-      "title": "Dressing Room Scenario 1",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "Escenario de Vestuario 1",
+      "description": "Surge una situación en el vestuario que pone a prueba la cohesión y la concentración del equipo.",
+      "choice_1": "Motivar a la plantilla con una charla inspiradora",
+      "choice_2": "Liderar con el ejemplo en silencio y trabajo duro",
+      "choice_3": "Afrontar las tensiones internas cara a cara",
+      "choice_4": "Organizar una cena de equipo para hacer grupo"
     },
     "dressing_room_2": {
-      "title": "Dressing Room Scenario 2",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "Escenario de Vestuario 2",
+      "description": "Surge una situación en el vestuario que pone a prueba la cohesión y la concentración del equipo.",
+      "choice_1": "Motivar a la plantilla con una charla inspiradora",
+      "choice_2": "Liderar con el ejemplo en silencio y trabajo duro",
+      "choice_3": "Afrontar las tensiones internas cara a cara",
+      "choice_4": "Organizar una cena de equipo para hacer grupo"
     },
     "dressing_room_3": {
-      "title": "Dressing Room Scenario 3",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "Escenario de Vestuario 3",
+      "description": "Surge una situación en el vestuario que pone a prueba la cohesión y la concentración del equipo.",
+      "choice_1": "Motivar a la plantilla con una charla inspiradora",
+      "choice_2": "Liderar con el ejemplo en silencio y trabajo duro",
+      "choice_3": "Afrontar las tensiones internas cara a cara",
+      "choice_4": "Organizar una cena de equipo para hacer grupo"
     },
     "dressing_room_4": {
-      "title": "Dressing Room Scenario 4",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "Escenario de Vestuario 4",
+      "description": "Surge una situación en el vestuario que pone a prueba la cohesión y la concentración del equipo.",
+      "choice_1": "Motivar a la plantilla con una charla inspiradora",
+      "choice_2": "Liderar con el ejemplo en silencio y trabajo duro",
+      "choice_3": "Afrontar las tensiones internas cara a cara",
+      "choice_4": "Organizar una cena de equipo para hacer grupo"
     },
     "dressing_room_5": {
-      "title": "Dressing Room Scenario 5",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "Escenario de Vestuario 5",
+      "description": "Surge una situación en el vestuario que pone a prueba la cohesión y la concentración del equipo.",
+      "choice_1": "Motivar a la plantilla con una charla inspiradora",
+      "choice_2": "Liderar con el ejemplo en silencio y trabajo duro",
+      "choice_3": "Afrontar las tensiones internas cara a cara",
+      "choice_4": "Organizar una cena de equipo para hacer grupo"
     },
     "dressing_room_6": {
-      "title": "Dressing Room Scenario 6",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "Escenario de Vestuario 6",
+      "description": "Surge una situación en el vestuario que pone a prueba la cohesión y la concentración del equipo.",
+      "choice_1": "Motivar a la plantilla con una charla inspiradora",
+      "choice_2": "Liderar con el ejemplo en silencio y trabajo duro",
+      "choice_3": "Afrontar las tensiones internas cara a cara",
+      "choice_4": "Organizar una cena de equipo para hacer grupo"
     },
     "dressing_room_7": {
-      "title": "Dressing Room Scenario 7",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "Escenario de Vestuario 7",
+      "description": "Surge una situación en el vestuario que pone a prueba la cohesión y la concentración del equipo.",
+      "choice_1": "Motivar a la plantilla con una charla inspiradora",
+      "choice_2": "Liderar con el ejemplo en silencio y trabajo duro",
+      "choice_3": "Afrontar las tensiones internas cara a cara",
+      "choice_4": "Organizar una cena de equipo para hacer grupo"
     },
     "dressing_room_8": {
-      "title": "Dressing Room Scenario 8",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "Escenario de Vestuario 8",
+      "description": "Surge una situación en el vestuario que pone a prueba la cohesión y la concentración del equipo.",
+      "choice_1": "Motivar a la plantilla con una charla inspiradora",
+      "choice_2": "Liderar con el ejemplo en silencio y trabajo duro",
+      "choice_3": "Afrontar las tensiones internas cara a cara",
+      "choice_4": "Organizar una cena de equipo para hacer grupo"
     },
     "dressing_room_9": {
-      "title": "Dressing Room Scenario 9",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "Escenario de Vestuario 9",
+      "description": "Surge una situación en el vestuario que pone a prueba la cohesión y la concentración del equipo.",
+      "choice_1": "Motivar a la plantilla con una charla inspiradora",
+      "choice_2": "Liderar con el ejemplo en silencio y trabajo duro",
+      "choice_3": "Afrontar las tensiones internas cara a cara",
+      "choice_4": "Organizar una cena de equipo para hacer grupo"
     },
     "dressing_room_10": {
-      "title": "Dressing Room Scenario 10",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "Escenario de Vestuario 10",
+      "description": "Surge una situación en el vestuario que pone a prueba la cohesión y la concentración del equipo.",
+      "choice_1": "Motivar a la plantilla con una charla inspiradora",
+      "choice_2": "Liderar con el ejemplo en silencio y trabajo duro",
+      "choice_3": "Afrontar las tensiones internas cara a cara",
+      "choice_4": "Organizar una cena de equipo para hacer grupo"
     },
     "manager_talk_1": {
-      "title": "Manager Discussion 1",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "Charla con el Entrenador 1",
+      "description": "El míster solicita una reunión privada para evaluar tu rol reciente y tu progresión.",
+      "choice_1": "Expresar plena confianza en el proyecto del míster",
+      "choice_2": "Solicitar ajustes tácticos para tu posición",
+      "choice_3": "Pedir mayor libertad ofensiva en el campo",
+      "choice_4": "Comprometerse a realizar horas extra de entrenamiento"
     },
     "manager_talk_2": {
-      "title": "Manager Discussion 2",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "Charla con el Entrenador 2",
+      "description": "El míster solicita una reunión privada para evaluar tu rol reciente y tu progresión.",
+      "choice_1": "Expresar plena confianza en el proyecto del míster",
+      "choice_2": "Solicitar ajustes tácticos para tu posición",
+      "choice_3": "Pedir mayor libertad ofensiva en el campo",
+      "choice_4": "Comprometerse a realizar horas extra de entrenamiento"
     },
     "manager_talk_3": {
-      "title": "Manager Discussion 3",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "Charla con el Entrenador 3",
+      "description": "El míster solicita una reunión privada para evaluar tu rol reciente y tu progresión.",
+      "choice_1": "Expresar plena confianza en el proyecto del míster",
+      "choice_2": "Solicitar ajustes tácticos para tu posición",
+      "choice_3": "Pedir mayor libertad ofensiva en el campo",
+      "choice_4": "Comprometerse a realizar horas extra de entrenamiento"
     },
     "manager_talk_4": {
-      "title": "Manager Discussion 4",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "Charla con el Entrenador 4",
+      "description": "El míster solicita una reunión privada para evaluar tu rol reciente y tu progresión.",
+      "choice_1": "Expresar plena confianza en el proyecto del míster",
+      "choice_2": "Solicitar ajustes tácticos para tu posición",
+      "choice_3": "Pedir mayor libertad ofensiva en el campo",
+      "choice_4": "Comprometerse a realizar horas extra de entrenamiento"
     },
     "manager_talk_5": {
-      "title": "Manager Discussion 5",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "Charla con el Entrenador 5",
+      "description": "El míster solicita una reunión privada para evaluar tu rol reciente y tu progresión.",
+      "choice_1": "Expresar plena confianza en el proyecto del míster",
+      "choice_2": "Solicitar ajustes tácticos para tu posición",
+      "choice_3": "Pedir mayor libertad ofensiva en el campo",
+      "choice_4": "Comprometerse a realizar horas extra de entrenamiento"
     },
     "manager_talk_6": {
-      "title": "Manager Discussion 6",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "Charla con el Entrenador 6",
+      "description": "El míster solicita una reunión privada para evaluar tu rol reciente y tu progresión.",
+      "choice_1": "Expresar plena confianza en el proyecto del míster",
+      "choice_2": "Solicitar ajustes tácticos para tu posición",
+      "choice_3": "Pedir mayor libertad ofensiva en el campo",
+      "choice_4": "Comprometerse a realizar horas extra de entrenamiento"
     },
     "manager_talk_7": {
-      "title": "Manager Discussion 7",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "Charla con el Entrenador 7",
+      "description": "El míster solicita una reunión privada para evaluar tu rol reciente y tu progresión.",
+      "choice_1": "Expresar plena confianza en el proyecto del míster",
+      "choice_2": "Solicitar ajustes tácticos para tu posición",
+      "choice_3": "Pedir mayor libertad ofensiva en el campo",
+      "choice_4": "Comprometerse a realizar horas extra de entrenamiento"
     },
     "manager_talk_8": {
-      "title": "Manager Discussion 8",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "Charla con el Entrenador 8",
+      "description": "El míster solicita una reunión privada para evaluar tu rol reciente y tu progresión.",
+      "choice_1": "Expresar plena confianza en el proyecto del míster",
+      "choice_2": "Solicitar ajustes tácticos para tu posición",
+      "choice_3": "Pedir mayor libertad ofensiva en el campo",
+      "choice_4": "Comprometerse a realizar horas extra de entrenamiento"
     },
     "manager_talk_9": {
-      "title": "Manager Discussion 9",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "Charla con el Entrenador 9",
+      "description": "El míster solicita una reunión privada para evaluar tu rol reciente y tu progresión.",
+      "choice_1": "Expresar plena confianza en el proyecto del míster",
+      "choice_2": "Solicitar ajustes tácticos para tu posición",
+      "choice_3": "Pedir mayor libertad ofensiva en el campo",
+      "choice_4": "Comprometerse a realizar horas extra de entrenamiento"
     },
     "manager_talk_10": {
-      "title": "Manager Discussion 10",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "Charla con el Entrenador 10",
+      "description": "El míster solicita una reunión privada para evaluar tu rol reciente y tu progresión.",
+      "choice_1": "Expresar plena confianza en el proyecto del míster",
+      "choice_2": "Solicitar ajustes tácticos para tu posición",
+      "choice_3": "Pedir mayor libertad ofensiva en el campo",
+      "choice_4": "Comprometerse a realizar horas extra de entrenamiento"
     },
     "agent_negotiation_1": {
-      "title": "Agent Strategy Session 1",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "Reunión Estratégica con el Agente 1",
+      "description": "Tu representante te presenta nuevas oportunidades comerciales y contractuales.",
+      "choice_1": "Priorizar la estabilidad deportiva y un proyecto a largo plazo",
+      "choice_2": "Pedir al agente que explore el interés de clubes de primer nivel",
+      "choice_3": "Buscar maximizar los ingresos inmediatos por patrocinio",
+      "choice_4": "Mantener la concentración absoluta en los objetivos del curso"
     },
     "agent_negotiation_2": {
-      "title": "Agent Strategy Session 2",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "Reunión Estratégica con el Agente 2",
+      "description": "Tu representante te presenta nuevas oportunidades comerciales y contractuales.",
+      "choice_1": "Priorizar la estabilidad deportiva y un proyecto a largo plazo",
+      "choice_2": "Pedir al agente que explore el interés de clubes de primer nivel",
+      "choice_3": "Buscar maximizar los ingresos inmediatos por patrocinio",
+      "choice_4": "Mantener la concentración absoluta en los objetivos del curso"
     },
     "agent_negotiation_3": {
-      "title": "Agent Strategy Session 3",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "Reunión Estratégica con el Agente 3",
+      "description": "Tu representante te presenta nuevas oportunidades comerciales y contractuales.",
+      "choice_1": "Priorizar la estabilidad deportiva y un proyecto a largo plazo",
+      "choice_2": "Pedir al agente que explore el interés de clubes de primer nivel",
+      "choice_3": "Buscar maximizar los ingresos inmediatos por patrocinio",
+      "choice_4": "Mantener la concentración absoluta en los objetivos del curso"
     },
     "agent_negotiation_4": {
-      "title": "Agent Strategy Session 4",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "Reunión Estratégica con el Agente 4",
+      "description": "Tu representante te presenta nuevas oportunidades comerciales y contractuales.",
+      "choice_1": "Priorizar la estabilidad deportiva y un proyecto a largo plazo",
+      "choice_2": "Pedir al agente que explore el interés de clubes de primer nivel",
+      "choice_3": "Buscar maximizar los ingresos inmediatos por patrocinio",
+      "choice_4": "Mantener la concentración absoluta en los objetivos del curso"
     },
     "agent_negotiation_5": {
-      "title": "Agent Strategy Session 5",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "Reunión Estratégica con el Agente 5",
+      "description": "Tu representante te presenta nuevas oportunidades comerciales y contractuales.",
+      "choice_1": "Priorizar la estabilidad deportiva y un proyecto a largo plazo",
+      "choice_2": "Pedir al agente que explore el interés de clubes de primer nivel",
+      "choice_3": "Buscar maximizar los ingresos inmediatos por patrocinio",
+      "choice_4": "Mantener la concentración absoluta en los objetivos del curso"
     },
     "agent_negotiation_6": {
-      "title": "Agent Strategy Session 6",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "Reunión Estratégica con el Agente 6",
+      "description": "Tu representante te presenta nuevas oportunidades comerciales y contractuales.",
+      "choice_1": "Priorizar la estabilidad deportiva y un proyecto a largo plazo",
+      "choice_2": "Pedir al agente que explore el interés de clubes de primer nivel",
+      "choice_3": "Buscar maximizar los ingresos inmediatos por patrocinio",
+      "choice_4": "Mantener la concentración absoluta en los objetivos del curso"
     },
     "agent_negotiation_7": {
-      "title": "Agent Strategy Session 7",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "Reunión Estratégica con el Agente 7",
+      "description": "Tu representante te presenta nuevas oportunidades comerciales y contractuales.",
+      "choice_1": "Priorizar la estabilidad deportiva y un proyecto a largo plazo",
+      "choice_2": "Pedir al agente que explore el interés de clubes de primer nivel",
+      "choice_3": "Buscar maximizar los ingresos inmediatos por patrocinio",
+      "choice_4": "Mantener la concentración absoluta en los objetivos del curso"
     },
     "agent_negotiation_8": {
-      "title": "Agent Strategy Session 8",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "Reunión Estratégica con el Agente 8",
+      "description": "Tu representante te presenta nuevas oportunidades comerciales y contractuales.",
+      "choice_1": "Priorizar la estabilidad deportiva y un proyecto a largo plazo",
+      "choice_2": "Pedir al agente que explore el interés de clubes de primer nivel",
+      "choice_3": "Buscar maximizar los ingresos inmediatos por patrocinio",
+      "choice_4": "Mantener la concentración absoluta en los objetivos del curso"
     },
     "agent_negotiation_9": {
-      "title": "Agent Strategy Session 9",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "Reunión Estratégica con el Agente 9",
+      "description": "Tu representante te presenta nuevas oportunidades comerciales y contractuales.",
+      "choice_1": "Priorizar la estabilidad deportiva y un proyecto a largo plazo",
+      "choice_2": "Pedir al agente que explore el interés de clubes de primer nivel",
+      "choice_3": "Buscar maximizar los ingresos inmediatos por patrocinio",
+      "choice_4": "Mantener la concentración absoluta en los objetivos del curso"
     },
     "agent_negotiation_10": {
-      "title": "Agent Strategy Session 10",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "Reunión Estratégica con el Agente 10",
+      "description": "Tu representante te presenta nuevas oportunidades comerciales y contractuales.",
+      "choice_1": "Priorizar la estabilidad deportiva y un proyecto a largo plazo",
+      "choice_2": "Pedir al agente que explore el interés de clubes de primer nivel",
+      "choice_3": "Buscar maximizar los ingresos inmediatos por patrocinio",
+      "choice_4": "Mantener la concentración absoluta en los objetivos del curso"
     },
     "fan_community_1": {
-      "title": "Community Event 1",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "Evento Comunitario 1",
+      "description": "Tienes la oportunidad de participar en una acción social y solidaria del club.",
+      "choice_1": "Participar con entusiasmo y compartir tiempo con la afición",
+      "choice_2": "Hacer una generosa donación benéfica",
+      "choice_3": "Dar visibilidad a la campaña en tus redes sociales",
+      "choice_4": "Cumplir rápido el compromiso institucional para descansar"
     },
     "fan_community_2": {
-      "title": "Community Event 2",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "Evento Comunitario 2",
+      "description": "Tienes la oportunidad de participar en una acción social y solidaria del club.",
+      "choice_1": "Participar con entusiasmo y compartir tiempo con la afición",
+      "choice_2": "Hacer una generosa donación benéfica",
+      "choice_3": "Dar visibilidad a la campaña en tus redes sociales",
+      "choice_4": "Cumplir rápido el compromiso institucional para descansar"
     },
     "fan_community_3": {
-      "title": "Community Event 3",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "Evento Comunitario 3",
+      "description": "Tienes la oportunidad de participar en una acción social y solidaria del club.",
+      "choice_1": "Participar con entusiasmo y compartir tiempo con la afición",
+      "choice_2": "Hacer una generosa donación benéfica",
+      "choice_3": "Dar visibilidad a la campaña en tus redes sociales",
+      "choice_4": "Cumplir rápido el compromiso institucional para descansar"
     },
     "fan_community_4": {
-      "title": "Community Event 4",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "Evento Comunitario 4",
+      "description": "Tienes la oportunidad de participar en una acción social y solidaria del club.",
+      "choice_1": "Participar con entusiasmo y compartir tiempo con la afición",
+      "choice_2": "Hacer una generosa donación benéfica",
+      "choice_3": "Dar visibilidad a la campaña en tus redes sociales",
+      "choice_4": "Cumplir rápido el compromiso institucional para descansar"
     },
     "fan_community_5": {
-      "title": "Community Event 5",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "Evento Comunitario 5",
+      "description": "Tienes la oportunidad de participar en una acción social y solidaria del club.",
+      "choice_1": "Participar con entusiasmo y compartir tiempo con la afición",
+      "choice_2": "Hacer una generosa donación benéfica",
+      "choice_3": "Dar visibilidad a la campaña en tus redes sociales",
+      "choice_4": "Cumplir rápido el compromiso institucional para descansar"
     },
     "fan_community_6": {
-      "title": "Community Event 6",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "Evento Comunitario 6",
+      "description": "Tienes la oportunidad de participar en una acción social y solidaria del club.",
+      "choice_1": "Participar con entusiasmo y compartir tiempo con la afición",
+      "choice_2": "Hacer una generosa donación benéfica",
+      "choice_3": "Dar visibilidad a la campaña en tus redes sociales",
+      "choice_4": "Cumplir rápido el compromiso institucional para descansar"
     },
     "fan_community_7": {
-      "title": "Community Event 7",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "Evento Comunitario 7",
+      "description": "Tienes la oportunidad de participar en una acción social y solidaria del club.",
+      "choice_1": "Participar con entusiasmo y compartir tiempo con la afición",
+      "choice_2": "Hacer una generosa donación benéfica",
+      "choice_3": "Dar visibilidad a la campaña en tus redes sociales",
+      "choice_4": "Cumplir rápido el compromiso institucional para descansar"
     },
     "fan_community_8": {
-      "title": "Community Event 8",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "Evento Comunitario 8",
+      "description": "Tienes la oportunidad de participar en una acción social y solidaria del club.",
+      "choice_1": "Participar con entusiasmo y compartir tiempo con la afición",
+      "choice_2": "Hacer una generosa donación benéfica",
+      "choice_3": "Dar visibilidad a la campaña en tus redes sociales",
+      "choice_4": "Cumplir rápido el compromiso institucional para descansar"
     },
     "fan_community_9": {
-      "title": "Community Event 9",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "Evento Comunitario 9",
+      "description": "Tienes la oportunidad de participar en una acción social y solidaria del club.",
+      "choice_1": "Participar con entusiasmo y compartir tiempo con la afición",
+      "choice_2": "Hacer una generosa donación benéfica",
+      "choice_3": "Dar visibilidad a la campaña en tus redes sociales",
+      "choice_4": "Cumplir rápido el compromiso institucional para descansar"
     },
     "fan_community_10": {
-      "title": "Community Event 10",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "Evento Comunitario 10",
+      "description": "Tienes la oportunidad de participar en una acción social y solidaria del club.",
+      "choice_1": "Participar con entusiasmo y compartir tiempo con la afición",
+      "choice_2": "Hacer una generosa donación benéfica",
+      "choice_3": "Dar visibilidad a la campaña en tus redes sociales",
+      "choice_4": "Cumplir rápido el compromiso institucional para descansar"
     },
     "sponsorship_brand_1": {
-      "title": "Brand Offer 1",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "Propuesta de Patrocinio 1",
+      "description": "Una marca de prestigio te ofrece un lucrativo contrato de patrocinio.",
+      "choice_1": "Firmar el acuerdo publicitario",
+      "choice_2": "Exigir mayores primas por logros deportivos",
+      "choice_3": "Rechazar para centrarte al 100% en el fútbol",
+      "choice_4": "Incluir una cláusula de donación a causas sociales"
     },
     "sponsorship_brand_2": {
-      "title": "Brand Offer 2",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "Propuesta de Patrocinio 2",
+      "description": "Una marca de prestigio te ofrece un lucrativo contrato de patrocinio.",
+      "choice_1": "Firmar el acuerdo publicitario",
+      "choice_2": "Exigir mayores primas por logros deportivos",
+      "choice_3": "Rechazar para centrarte al 100% en el fútbol",
+      "choice_4": "Incluir una cláusula de donación a causas sociales"
     },
     "sponsorship_brand_3": {
-      "title": "Brand Offer 3",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "Propuesta de Patrocinio 3",
+      "description": "Una marca de prestigio te ofrece un lucrativo contrato de patrocinio.",
+      "choice_1": "Firmar el acuerdo publicitario",
+      "choice_2": "Exigir mayores primas por logros deportivos",
+      "choice_3": "Rechazar para centrarte al 100% en el fútbol",
+      "choice_4": "Incluir una cláusula de donación a causas sociales"
     },
     "sponsorship_brand_4": {
-      "title": "Brand Offer 4",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "Propuesta de Patrocinio 4",
+      "description": "Una marca de prestigio te ofrece un lucrativo contrato de patrocinio.",
+      "choice_1": "Firmar el acuerdo publicitario",
+      "choice_2": "Exigir mayores primas por logros deportivos",
+      "choice_3": "Rechazar para centrarte al 100% en el fútbol",
+      "choice_4": "Incluir una cláusula de donación a causas sociales"
     },
     "sponsorship_brand_5": {
-      "title": "Brand Offer 5",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "Propuesta de Patrocinio 5",
+      "description": "Una marca de prestigio te ofrece un lucrativo contrato de patrocinio.",
+      "choice_1": "Firmar el acuerdo publicitario",
+      "choice_2": "Exigir mayores primas por logros deportivos",
+      "choice_3": "Rechazar para centrarte al 100% en el fútbol",
+      "choice_4": "Incluir una cláusula de donación a causas sociales"
     },
     "sponsorship_brand_6": {
-      "title": "Brand Offer 6",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "Propuesta de Patrocinio 6",
+      "description": "Una marca de prestigio te ofrece un lucrativo contrato de patrocinio.",
+      "choice_1": "Firmar el acuerdo publicitario",
+      "choice_2": "Exigir mayores primas por logros deportivos",
+      "choice_3": "Rechazar para centrarte al 100% en el fútbol",
+      "choice_4": "Incluir una cláusula de donación a causas sociales"
     },
     "sponsorship_brand_7": {
-      "title": "Brand Offer 7",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "Propuesta de Patrocinio 7",
+      "description": "Una marca de prestigio te ofrece un lucrativo contrato de patrocinio.",
+      "choice_1": "Firmar el acuerdo publicitario",
+      "choice_2": "Exigir mayores primas por logros deportivos",
+      "choice_3": "Rechazar para centrarte al 100% en el fútbol",
+      "choice_4": "Incluir una cláusula de donación a causas sociales"
     },
     "sponsorship_brand_8": {
-      "title": "Brand Offer 8",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "Propuesta de Patrocinio 8",
+      "description": "Una marca de prestigio te ofrece un lucrativo contrato de patrocinio.",
+      "choice_1": "Firmar el acuerdo publicitario",
+      "choice_2": "Exigir mayores primas por logros deportivos",
+      "choice_3": "Rechazar para centrarte al 100% en el fútbol",
+      "choice_4": "Incluir una cláusula de donación a causas sociales"
     },
     "sponsorship_brand_9": {
-      "title": "Brand Offer 9",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "Propuesta de Patrocinio 9",
+      "description": "Una marca de prestigio te ofrece un lucrativo contrato de patrocinio.",
+      "choice_1": "Firmar el acuerdo publicitario",
+      "choice_2": "Exigir mayores primas por logros deportivos",
+      "choice_3": "Rechazar para centrarte al 100% en el fútbol",
+      "choice_4": "Incluir una cláusula de donación a causas sociales"
     },
     "sponsorship_brand_10": {
-      "title": "Brand Offer 10",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "Propuesta de Patrocinio 10",
+      "description": "Una marca de prestigio te ofrece un lucrativo contrato de patrocinio.",
+      "choice_1": "Firmar el acuerdo publicitario",
+      "choice_2": "Exigir mayores primas por logros deportivos",
+      "choice_3": "Rechazar para centrarte al 100% en el fútbol",
+      "choice_4": "Incluir una cláusula de donación a causas sociales"
     },
     "lifestyle_media_1": {
-      "title": "Media Spotlight 1",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "Foco Mediático 1",
+      "description": "Un medio deportivo de renombre solicita un reportaje exclusivo sobre tu vida.",
+      "choice_1": "Mostrar con naturalidad tu disciplina y rutina de entrenamientos",
+      "choice_2": "Potenciar tu imagen de marca y estilo de vida fuera del campo",
+      "choice_3": "Centrar la entrevista únicamente en los objetivos del equipo",
+      "choice_4": "Rechazar la entrevista para salvaguardar tu vida privada"
     },
     "lifestyle_media_2": {
-      "title": "Media Spotlight 2",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "Foco Mediático 2",
+      "description": "Un medio deportivo de renombre solicita un reportaje exclusivo sobre tu vida.",
+      "choice_1": "Mostrar con naturalidad tu disciplina y rutina de entrenamientos",
+      "choice_2": "Potenciar tu imagen de marca y estilo de vida fuera del campo",
+      "choice_3": "Centrar la entrevista únicamente en los objetivos del equipo",
+      "choice_4": "Rechazar la entrevista para salvaguardar tu vida privada"
     },
     "lifestyle_media_3": {
-      "title": "Media Spotlight 3",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "Foco Mediático 3",
+      "description": "Un medio deportivo de renombre solicita un reportaje exclusivo sobre tu vida.",
+      "choice_1": "Mostrar con naturalidad tu disciplina y rutina de entrenamientos",
+      "choice_2": "Potenciar tu imagen de marca y estilo de vida fuera del campo",
+      "choice_3": "Centrar la entrevista únicamente en los objetivos del equipo",
+      "choice_4": "Rechazar la entrevista para salvaguardar tu vida privada"
     },
     "lifestyle_media_4": {
-      "title": "Media Spotlight 4",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "Foco Mediático 4",
+      "description": "Un medio deportivo de renombre solicita un reportaje exclusivo sobre tu vida.",
+      "choice_1": "Mostrar con naturalidad tu disciplina y rutina de entrenamientos",
+      "choice_2": "Potenciar tu imagen de marca y estilo de vida fuera del campo",
+      "choice_3": "Centrar la entrevista únicamente en los objetivos del equipo",
+      "choice_4": "Rechazar la entrevista para salvaguardar tu vida privada"
     },
     "lifestyle_media_5": {
-      "title": "Media Spotlight 5",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "Foco Mediático 5",
+      "description": "Un medio deportivo de renombre solicita un reportaje exclusivo sobre tu vida.",
+      "choice_1": "Mostrar con naturalidad tu disciplina y rutina de entrenamientos",
+      "choice_2": "Potenciar tu imagen de marca y estilo de vida fuera del campo",
+      "choice_3": "Centrar la entrevista únicamente en los objetivos del equipo",
+      "choice_4": "Rechazar la entrevista para salvaguardar tu vida privada"
     },
     "lifestyle_media_6": {
-      "title": "Media Spotlight 6",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "Foco Mediático 6",
+      "description": "Un medio deportivo de renombre solicita un reportaje exclusivo sobre tu vida.",
+      "choice_1": "Mostrar con naturalidad tu disciplina y rutina de entrenamientos",
+      "choice_2": "Potenciar tu imagen de marca y estilo de vida fuera del campo",
+      "choice_3": "Centrar la entrevista únicamente en los objetivos del equipo",
+      "choice_4": "Rechazar la entrevista para salvaguardar tu vida privada"
     },
     "lifestyle_media_7": {
-      "title": "Media Spotlight 7",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "Foco Mediático 7",
+      "description": "Un medio deportivo de renombre solicita un reportaje exclusivo sobre tu vida.",
+      "choice_1": "Mostrar con naturalidad tu disciplina y rutina de entrenamientos",
+      "choice_2": "Potenciar tu imagen de marca y estilo de vida fuera del campo",
+      "choice_3": "Centrar la entrevista únicamente en los objetivos del equipo",
+      "choice_4": "Rechazar la entrevista para salvaguardar tu vida privada"
     },
     "lifestyle_media_8": {
-      "title": "Media Spotlight 8",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "Foco Mediático 8",
+      "description": "Un medio deportivo de renombre solicita un reportaje exclusivo sobre tu vida.",
+      "choice_1": "Mostrar con naturalidad tu disciplina y rutina de entrenamientos",
+      "choice_2": "Potenciar tu imagen de marca y estilo de vida fuera del campo",
+      "choice_3": "Centrar la entrevista únicamente en los objetivos del equipo",
+      "choice_4": "Rechazar la entrevista para salvaguardar tu vida privada"
     },
     "lifestyle_media_9": {
-      "title": "Media Spotlight 9",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "Foco Mediático 9",
+      "description": "Un medio deportivo de renombre solicita un reportaje exclusivo sobre tu vida.",
+      "choice_1": "Mostrar con naturalidad tu disciplina y rutina de entrenamientos",
+      "choice_2": "Potenciar tu imagen de marca y estilo de vida fuera del campo",
+      "choice_3": "Centrar la entrevista únicamente en los objetivos del equipo",
+      "choice_4": "Rechazar la entrevista para salvaguardar tu vida privada"
     },
     "lifestyle_media_10": {
-      "title": "Media Spotlight 10",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "Foco Mediático 10",
+      "description": "Un medio deportivo de renombre solicita un reportaje exclusivo sobre tu vida.",
+      "choice_1": "Mostrar con naturalidad tu disciplina y rutina de entrenamientos",
+      "choice_2": "Potenciar tu imagen de marca y estilo de vida fuera del campo",
+      "choice_3": "Centrar la entrevista únicamente en los objetivos del equipo",
+      "choice_4": "Rechazar la entrevista para salvaguardar tu vida privada"
     },
     "rivalry_drama_1": {
-      "title": "Rivalry Encounter 1",
-      "description": "Tensions flare during a heated derby buildup with opponent players.",
-      "choice_1": "Maintain composure and answer on the pitch",
-      "choice_2": "Respond fiercely to defend club pride",
-      "choice_3": "De-escalate tension through captain leadership",
-      "choice_4": "Use energy as motivation for extra training"
+      "title": "Tensión de Clásico 1",
+      "description": "Sube la temperatura en la previa del derbi con declaraciones de los rivales.",
+      "choice_1": "Mantener la sangre fría y responder sobre el césped",
+      "choice_2": "Contestar con contundencia para defender el escudo del club",
+      "choice_3": "Calmar los ánimos ejerciendo liderazgo de capitán",
+      "choice_4": "Canalizar la rabia como gasolina en los entrenamientos"
     },
     "rivalry_drama_2": {
-      "title": "Rivalry Encounter 2",
-      "description": "Tensions flare during a heated derby buildup with opponent players.",
-      "choice_1": "Maintain composure and answer on the pitch",
-      "choice_2": "Respond fiercely to defend club pride",
-      "choice_3": "De-escalate tension through captain leadership",
-      "choice_4": "Use energy as motivation for extra training"
+      "title": "Tensión de Clásico 2",
+      "description": "Sube la temperatura en la previa del derbi con declaraciones de los rivales.",
+      "choice_1": "Mantener la sangre fría y responder sobre el césped",
+      "choice_2": "Contestar con contundencia para defender el escudo del club",
+      "choice_3": "Calmar los ánimos ejerciendo liderazgo de capitán",
+      "choice_4": "Canalizar la rabia como gasolina en los entrenamientos"
     },
     "rivalry_drama_3": {
-      "title": "Rivalry Encounter 3",
-      "description": "Tensions flare during a heated derby buildup with opponent players.",
-      "choice_1": "Maintain composure and answer on the pitch",
-      "choice_2": "Respond fiercely to defend club pride",
-      "choice_3": "De-escalate tension through captain leadership",
-      "choice_4": "Use energy as motivation for extra training"
+      "title": "Tensión de Clásico 3",
+      "description": "Sube la temperatura en la previa del derbi con declaraciones de los rivales.",
+      "choice_1": "Mantener la sangre fría y responder sobre el césped",
+      "choice_2": "Contestar con contundencia para defender el escudo del club",
+      "choice_3": "Calmar los ánimos ejerciendo liderazgo de capitán",
+      "choice_4": "Canalizar la rabia como gasolina en los entrenamientos"
     },
     "rivalry_drama_4": {
-      "title": "Rivalry Encounter 4",
-      "description": "Tensions flare during a heated derby buildup with opponent players.",
-      "choice_1": "Maintain composure and answer on the pitch",
-      "choice_2": "Respond fiercely to defend club pride",
-      "choice_3": "De-escalate tension through captain leadership",
-      "choice_4": "Use energy as motivation for extra training"
+      "title": "Tensión de Clásico 4",
+      "description": "Sube la temperatura en la previa del derbi con declaraciones de los rivales.",
+      "choice_1": "Mantener la sangre fría y responder sobre el césped",
+      "choice_2": "Contestar con contundencia para defender el escudo del club",
+      "choice_3": "Calmar los ánimos ejerciendo liderazgo de capitán",
+      "choice_4": "Canalizar la rabia como gasolina en los entrenamientos"
     },
     "rivalry_drama_5": {
-      "title": "Rivalry Encounter 5",
-      "description": "Tensions flare during a heated derby buildup with opponent players.",
-      "choice_1": "Maintain composure and answer on the pitch",
-      "choice_2": "Respond fiercely to defend club pride",
-      "choice_3": "De-escalate tension through captain leadership",
-      "choice_4": "Use energy as motivation for extra training"
+      "title": "Tensión de Clásico 5",
+      "description": "Sube la temperatura en la previa del derbi con declaraciones de los rivales.",
+      "choice_1": "Mantener la sangre fría y responder sobre el césped",
+      "choice_2": "Contestar con contundencia para defender el escudo del club",
+      "choice_3": "Calmar los ánimos ejerciendo liderazgo de capitán",
+      "choice_4": "Canalizar la rabia como gasolina en los entrenamientos"
     },
     "veteran_mentorship_1": {
-      "title": "Mentorship Session 1",
-      "description": "An experienced squad veteran offers advice on positioning and game reading.",
-      "choice_1": "Absorb advice greedily and practice techniques",
-      "choice_2": "Discuss tactical concepts in depth",
-      "choice_3": "Express gratitude and offer to mentor academy players",
-      "choice_4": "Focus on applying lessons in next match"
+      "title": "Consejos de Veterano 1",
+      "description": "Un referente experimentado de la plantilla te aconseja sobre colocación y lectura táctica.",
+      "choice_1": "Asimilar cada consejo y pulir los detalles en el entreno",
+      "choice_2": "Debatir a fondo sobre conceptos tácticos avanzados",
+      "choice_3": "Agradecer la lección y ofrecerte para arropar a los canteranos",
+      "choice_4": "Concentrarte en poner en práctica lo aprendido en el próximo duelo"
     },
     "veteran_mentorship_2": {
-      "title": "Mentorship Session 2",
-      "description": "An experienced squad veteran offers advice on positioning and game reading.",
-      "choice_1": "Absorb advice greedily and practice techniques",
-      "choice_2": "Discuss tactical concepts in depth",
-      "choice_3": "Express gratitude and offer to mentor academy players",
-      "choice_4": "Focus on applying lessons in next match"
+      "title": "Consejos de Veterano 2",
+      "description": "Un referente experimentado de la plantilla te aconseja sobre colocación y lectura táctica.",
+      "choice_1": "Asimilar cada consejo y pulir los detalles en el entreno",
+      "choice_2": "Debatir a fondo sobre conceptos tácticos avanzados",
+      "choice_3": "Agradecer la lección y ofrecerte para arropar a los canteranos",
+      "choice_4": "Concentrarte en poner en práctica lo aprendido en el próximo duelo"
     },
     "veteran_mentorship_3": {
-      "title": "Mentorship Session 3",
-      "description": "An experienced squad veteran offers advice on positioning and game reading.",
-      "choice_1": "Absorb advice greedily and practice techniques",
-      "choice_2": "Discuss tactical concepts in depth",
-      "choice_3": "Express gratitude and offer to mentor academy players",
-      "choice_4": "Focus on applying lessons in next match"
+      "title": "Consejos de Veterano 3",
+      "description": "Un referente experimentado de la plantilla te aconseja sobre colocación y lectura táctica.",
+      "choice_1": "Asimilar cada consejo y pulir los detalles en el entreno",
+      "choice_2": "Debatir a fondo sobre conceptos tácticos avanzados",
+      "choice_3": "Agradecer la lección y ofrecerte para arropar a los canteranos",
+      "choice_4": "Concentrarte en poner en práctica lo aprendido en el próximo duelo"
     },
     "veteran_mentorship_4": {
-      "title": "Mentorship Session 4",
-      "description": "An experienced squad veteran offers advice on positioning and game reading.",
-      "choice_1": "Absorb advice greedily and practice techniques",
-      "choice_2": "Discuss tactical concepts in depth",
-      "choice_3": "Express gratitude and offer to mentor academy players",
-      "choice_4": "Focus on applying lessons in next match"
+      "title": "Consejos de Veterano 4",
+      "description": "Un referente experimentado de la plantilla te aconseja sobre colocación y lectura táctica.",
+      "choice_1": "Asimilar cada consejo y pulir los detalles en el entreno",
+      "choice_2": "Debatir a fondo sobre conceptos tácticos avanzados",
+      "choice_3": "Agradecer la lección y ofrecerte para arropar a los canteranos",
+      "choice_4": "Concentrarte en poner en práctica lo aprendido en el próximo duelo"
     },
     "veteran_mentorship_5": {
-      "title": "Mentorship Session 5",
-      "description": "An experienced squad veteran offers advice on positioning and game reading.",
-      "choice_1": "Absorb advice greedily and practice techniques",
-      "choice_2": "Discuss tactical concepts in depth",
-      "choice_3": "Express gratitude and offer to mentor academy players",
-      "choice_4": "Focus on applying lessons in next match"
+      "title": "Consejos de Veterano 5",
+      "description": "Un referente experimentado de la plantilla te aconseja sobre colocación y lectura táctica.",
+      "choice_1": "Asimilar cada consejo y pulir los detalles en el entreno",
+      "choice_2": "Debatir a fondo sobre conceptos tácticos avanzados",
+      "choice_3": "Agradecer la lección y ofrecerte para arropar a los canteranos",
+      "choice_4": "Concentrarte en poner en práctica lo aprendido en el próximo duelo"
+    },
+    "social": {
+      "title": "Críticas en Redes Sociales",
+      "description": "Un tertuliano de televisión te llamó 'sobrevalorado' en redes sociales. El vídeo se ha hecho viral.",
+      "choice_ignore": "Hacer oídos sordos",
+      "choice_respond": "Responder con contundencia"
+    },
+    "specialTraining": {
+      "title": "Plan Especial de Entrenamiento",
+      "description": "El cuerpo técnico sugiere un régimen intensivo para subir tu nivel, pero te exigirá al máximo físicamente.",
+      "choice_accept": "Aceptar los entrenamientos extra",
+      "choice_decline": "Mantener la rutina habitual"
+    },
+    "sponsor": {
+      "title": "Oferta de Patrocinio",
+      "description": "{brand} te ofrece un contrato de patrocinio. Gran suma económica, pero con exigencias comerciales.",
+      "choice_accept": "Firmar el acuerdo",
+      "choice_decline": "Rechazar oferta",
+      "choice_negotiate": "Exigir mejores condiciones"
+    },
+    "rivalry_drama_6": {
+      "title": "Tensión de Clásico 6",
+      "description": "Sube la temperatura en la previa del derbi con declaraciones de los rivales.",
+      "choice_1": "Mantener la sangre fría y responder sobre el césped",
+      "choice_2": "Contestar con contundencia para defender el escudo del club",
+      "choice_3": "Calmar los ánimos ejerciendo liderazgo de capitán",
+      "choice_4": "Canalizar la rabia como gasolina en los entrenamientos"
+    },
+    "rivalry_drama_7": {
+      "title": "Tensión de Clásico 7",
+      "description": "Sube la temperatura en la previa del derbi con declaraciones de los rivales.",
+      "choice_1": "Mantener la sangre fría y responder sobre el césped",
+      "choice_2": "Contestar con contundencia para defender el escudo del club",
+      "choice_3": "Calmar los ánimos ejerciendo liderazgo de capitán",
+      "choice_4": "Canalizar la rabia como gasolina en los entrenamientos"
+    },
+    "rivalry_drama_8": {
+      "title": "Tensión de Clásico 8",
+      "description": "Sube la temperatura en la previa del derbi con declaraciones de los rivales.",
+      "choice_1": "Mantener la sangre fría y responder sobre el césped",
+      "choice_2": "Contestar con contundencia para defender el escudo del club",
+      "choice_3": "Calmar los ánimos ejerciendo liderazgo de capitán",
+      "choice_4": "Canalizar la rabia como gasolina en los entrenamientos"
+    },
+    "rivalry_drama_9": {
+      "title": "Tensión de Clásico 9",
+      "description": "Sube la temperatura en la previa del derbi con declaraciones de los rivales.",
+      "choice_1": "Mantener la sangre fría y responder sobre el césped",
+      "choice_2": "Contestar con contundencia para defender el escudo del club",
+      "choice_3": "Calmar los ánimos ejerciendo liderazgo de capitán",
+      "choice_4": "Canalizar la rabia como gasolina en los entrenamientos"
+    },
+    "rivalry_drama_10": {
+      "title": "Tensión de Clásico 10",
+      "description": "Sube la temperatura en la previa del derbi con declaraciones de los rivales.",
+      "choice_1": "Mantener la sangre fría y responder sobre el césped",
+      "choice_2": "Contestar con contundencia para defender el escudo del club",
+      "choice_3": "Calmar los ánimos ejerciendo liderazgo de capitán",
+      "choice_4": "Canalizar la rabia como gasolina en los entrenamientos"
+    },
+    "veteran_mentorship_6": {
+      "title": "Consejos de Veterano 6",
+      "description": "Un referente experimentado de la plantilla te aconseja sobre colocación y lectura táctica.",
+      "choice_1": "Asimilar cada consejo y pulir los detalles en el entreno",
+      "choice_2": "Debatir a fondo sobre conceptos tácticos avanzados",
+      "choice_3": "Agradecer la lección y ofrecerte para arropar a los canteranos",
+      "choice_4": "Concentrarte en poner en práctica lo aprendido en el próximo duelo"
+    },
+    "veteran_mentorship_7": {
+      "title": "Consejos de Veterano 7",
+      "description": "Un referente experimentado de la plantilla te aconseja sobre colocación y lectura táctica.",
+      "choice_1": "Asimilar cada consejo y pulir los detalles en el entreno",
+      "choice_2": "Debatir a fondo sobre conceptos tácticos avanzados",
+      "choice_3": "Agradecer la lección y ofrecerte para arropar a los canteranos",
+      "choice_4": "Concentrarte en poner en práctica lo aprendido en el próximo duelo"
+    },
+    "veteran_mentorship_8": {
+      "title": "Consejos de Veterano 8",
+      "description": "Un referente experimentado de la plantilla te aconseja sobre colocación y lectura táctica.",
+      "choice_1": "Asimilar cada consejo y pulir los detalles en el entreno",
+      "choice_2": "Debatir a fondo sobre conceptos tácticos avanzados",
+      "choice_3": "Agradecer la lección y ofrecerte para arropar a los canteranos",
+      "choice_4": "Concentrarte en poner en práctica lo aprendido en el próximo duelo"
+    },
+    "veteran_mentorship_9": {
+      "title": "Consejos de Veterano 9",
+      "description": "Un referente experimentado de la plantilla te aconseja sobre colocación y lectura táctica.",
+      "choice_1": "Asimilar cada consejo y pulir los detalles en el entreno",
+      "choice_2": "Debatir a fondo sobre conceptos tácticos avanzados",
+      "choice_3": "Agradecer la lección y ofrecerte para arropar a los canteranos",
+      "choice_4": "Concentrarte en poner en práctica lo aprendido en el próximo duelo"
+    },
+    "veteran_mentorship_10": {
+      "title": "Consejos de Veterano 10",
+      "description": "Un referente experimentado de la plantilla te aconseja sobre colocación y lectura táctica.",
+      "choice_1": "Asimilar cada consejo y pulir los detalles en el entreno",
+      "choice_2": "Debatir a fondo sobre conceptos tácticos avanzados",
+      "choice_3": "Agradecer la lección y ofrecerte para arropar a los canteranos",
+      "choice_4": "Concentrarte en poner en práctica lo aprendido en el próximo duelo"
     }
   },
   "contractTermination": {
@@ -2172,7 +2291,7 @@
     "narrativeChange": {
       "Prodigy": "La narrativa de los medios cambia a: 'Prodigio'",
       "OntheRise": "La narrativa de los medios cambia a: 'En aumento'",
-      "EstablishedStar": "La narrativa de los medios cambia a: 'Estrella establecida'",
+      "EstablishedStar": "La narrativa de los medios cambia a: 'Estrella consagrada'",
       "UnderPressure": "La narrativa de los medios cambia a: \"Bajo presión\"",
       "Journeyman": "La narrativa de los medios cambia a: 'Journeyman'",
       "VeteranLeader": "La narrativa de los medios cambia a: 'Líder veterano'",
@@ -2180,19 +2299,19 @@
       "VeteranRotation": "La narrativa de los medios cambia a: 'Rotación de veteranos'",
       "ForgottenMan": "La narrativa de los medios cambia a: 'El hombre olvidado'",
       "Flop": "La narrativa de los medios cambia a: 'Flop'",
-      "ComebackKid": "La narrativa de los medios cambia a: 'Comeback Kid'",
+      "ComebackKid": "La narrativa de los medios cambia a: 'El Regresado'",
       "CultHero": "La narrativa de los medios cambia a: 'Héroe de culto'",
       "HometownHero": "La narrativa de los medios cambia a: 'Héroe local'",
       "PolarizingFigure": "La narrativa de los medios cambia a: 'Figura polarizadora'",
-      "PressDarling": "La narrativa de los medios cambia a: 'Press Darling'",
-      "SystemPlayer": "La narrativa de los medios cambia a: 'System Player'",
+      "PressDarling": "La narrativa de los medios cambia a: 'Favorito de la prensa'",
+      "SystemPlayer": "La narrativa de los medios cambia a: 'Jugador de sistema'",
       "InjuryComeback": "La narrativa de los medios cambia a: 'Regreso de las lesiones'"
     }
   },
   "mediaNarrative": {
     "ComebackKid": {
       "description": "Elogiado por desafiar las probabilidades para volver a estar en forma.",
-      "name": "Niño del Regreso",
+      "name": "El Regresado",
       "quote1": "¿Qué se siente volver a estar en lo más alto después de tantas dudas?",
       "quote2": "La afición nunca dejó de creer. ¿Qué significa para usted su apoyo?",
       "quote3": "¿Es este el comienzo de un segundo pico en su carrera?"
@@ -2206,7 +2325,7 @@
     },
     "EstablishedStar": {
       "description": "Reconocido como un artista de élite en la cima de sus poderes.",
-      "name": "Estrella establecida",
+      "name": "Estrella consagrada",
       "quote1": "Como una de las principales estrellas de la liga, ¿cuáles son tus objetivos esta temporada?",
       "quote2": "Muchos jugadores jóvenes te admiran. ¿Cómo manejas ese papel?",
       "quote3": "¿Sientes alguna presión extra para rendir en los partidos importantes?"
@@ -2262,7 +2381,7 @@
     },
     "PressDarling": {
       "description": "Gozando de una relación muy favorable con los medios de comunicación.",
-      "name": "prensa cariño",
+      "name": "Favorito de la prensa",
       "quote1": "Los medios parecen amarte. ¿Eso ayuda a tu confianza?",
       "quote2": "Siempre estás en los titulares por buenas razones. ¿Cuál es el secreto?",
       "quote3": "¿Qué importancia tiene para un jugador mantener una buena imagen?"
@@ -2276,7 +2395,7 @@
     },
     "SystemPlayer": {
       "description": "Quedan dudas sobre si puede desempeñarse fuera de esta configuración táctica específica.",
-      "name": "Jugador de Sistema",
+      "name": "Jugador de sistema",
       "quote1": "Encajas perfectamente en este sistema. ¿Le preocupan otras tácticas?",
       "quote2": "Algunos dicen que solo te ves así de bien gracias a la configuración. ¿Reacciones?",
       "quote3": "¿Puedes adaptar tu juego si el entrenador cambia el enfoque?"
@@ -2310,7 +2429,7 @@
       "quote3": "Como estrella veterana, ¿sientes más responsabilidad en los grandes momentos?"
     },
     "Wonderkid": {
-      "name": "Niño Prodigio",
+      "name": "Joya",
       "description": "Joven talento excepcional llamado a dominar el fútbol mundial.",
       "quote1": "Muchos te ven como un futuro Balón de Oro. ¿Qué opinas al respecto?",
       "quote2": "Los rumores te vinculan con los clubes más grandes del mundo. ¿Tienes un traspaso soñado?",
@@ -2414,6 +2533,11 @@
       },
       "settle": {
         "headline1": "Caso fiscal resuelto extrajudicialmente"
+      },
+      "relationship_drama": {
+        "headline1": "Vida privada expuesta: nuevos problemas para {name}",
+        "press1": "Su vida personal parece estar afectando a su rendimiento sobre el césped.",
+        "press2": "La prensa del corazón no da tregua al futbolista."
       }
     },
     "transfer": {
@@ -2423,6 +2547,141 @@
       "warning_1": "Advertencia del club",
       "warning_2": "Advertencia final",
       "warning_3": "Acción disciplinaria"
+    },
+    "media": {
+      "interviews": {
+        "clashWithManager": {
+          "question": "Los rumores apuntan a roces con el entrenador en los entrenamientos. ¿Cómo es vuestra relación ahora?",
+          "answers": {
+            "apologetic": "Lamento cómo se dieron las cosas. He reflexionado y sigo plenamente comprometido con este equipo.",
+            "defiant": "Dije lo que había que decir. Mantengo mis principios y mis exigencias.",
+            "focused": "Tenemos objetivos mayores. Prefiero hablar en el campo."
+          }
+        },
+        "contractRenewal": {
+          "question": "¿Qué se siente al comprometer tu futuro a largo plazo con el {team} con este nuevo contrato?",
+          "answers": {
+            "ambitious": "Quiero levantar títulos importantes aquí. Esta renovación demuestra que estamos construyendo algo especial.",
+            "grateful": "Agradezco la confianza inquebrantable del {team} en mí. Aquí me siento como en casa.",
+            "loyal": "Nunca otros clubes me desviaron. Mi corazón pertenece por completo al {team}."
+          }
+        },
+        "derbyWin": {
+          "question": "¡Acabas de ganar un derbi electrizante! ¿Qué sientes?",
+          "answers": {
+            "ecstatic": "¡Noche increíble! Sabemos lo que significa este derbi para la afición. ¡Esta noche la ciudad es nuestra!",
+            "humble": "Tres puntos enormes, pero la temporada es larga. Orgulloso del equipo; mañana volvemos al trabajo.",
+            "passionate": "¡De esto va el fútbol de derbi! Peleamos cada balón dividido y lo quisimos más."
+          }
+        },
+        "firstCallUp": {
+          "question": "¿Qué pasó por tu cabeza al recibir tu primera convocatoria con la selección absoluta?",
+          "answers": {
+            "determined": "No vengo a rellenar la lista. Estoy listo para demostrar que pertenezco a este nivel.",
+            "emotional": "Un sueño de infancia hecho realidad. Pensando en mi familia y en quienes creyeron en mí.",
+            "honored": "Vestir la camiseta de la selección es el mayor honor para un futbolista. Listo para darlo todo."
+          }
+        },
+        "firstProfessionalGoal": {
+          "question": "¡Felicidades por tu primer gol profesional! ¿Qué se sintió al ver el balón entrar?",
+          "answers": {
+            "hungry": "Es un sentimiento inolvidable, pero esto es solo el principio. Quiero muchos más.",
+            "joyful": "¡Euforia pura! Visualicé ese momento exacto miles de veces en los entrenamientos.",
+            "teamFirst": "Encantado de marcar, pero lo importante era ayudar al equipo a asegurar el resultado."
+          }
+        },
+        "futureAmbitions": {
+          "question": "Mirando al futuro, ¿cuáles son tus grandes objetivos a largo plazo en el fútbol?",
+          "answers": {
+            "legend": "Quiero ser recordado como uno de los grandes de todos los tiempos del fútbol mundial.",
+            "silverware": "Los títulos definen una carrera. Quiero ganar ligas y la Copa de Europa.",
+            "stepByStep": "Me centro en mejorar cada entrenamiento. El legado llegará solo."
+          }
+        },
+        "goalDrought": {
+          "question": "Ya son {count} partidos sin marcar. ¿Cómo llevas las críticas externas?",
+          "answers": {
+            "confident": "Todo delantero pasa rachas secas. Mi movimiento es bueno y los goles llegarán.",
+            "frustrated": "Claro que frustra, pero me evalúo por mi aporte global al equipo.",
+            "patient": "No entro en pánico. Si sigo llegando a zonas de peligro, la suerte cambiará."
+          }
+        },
+        "injuryComeback": {
+          "question": "Por fin vuelves al campo tras una rehabilitación durísima. ¿Cómo te sientes físicamente?",
+          "answers": {
+            "relieved": "Los días más oscuros de la recuperación quedaron atrás. Solo oír rugir a la grada me pone la piel de gallina.",
+            "stronger": "Las lesiones ponen a prueba la cabeza. Trabajé sin descanso y volví en plena forma.",
+            "cautious": "Bueno sumar minutos, yendo partido a partido para encontrar mi ritmo."
+          }
+        },
+        "leagueTitleWin": {
+          "question": "¡Campeones de liga! Tras 38 partidos agotadores, el título es tuyo. ¿Qué tan dulce es este momento?",
+          "answers": {
+            "triumphant": "¡Campeones! Callamos a todos los escépticos con constancia y unidad.",
+            "emotional": "Un año entero de sacrificios culminó en este momento. Lágrimas de pura alegría.",
+            "hungryForMore": "Disfrutemos esta noche, pero este equipo está hecho para dominar. Queremos títulos consecutivos."
+          }
+        },
+        "majorTrophyLoss": {
+          "question": "Una derrota desgarradora en la final. ¿Cuál es el ánimo en el vestuario?",
+          "answers": {
+            "devastated": "Difícil de expresar. Llegar tan cerca e irse con las manos vacías duele mucho.",
+            "resilient": "La derrota duele, pero este dolor alimentará nuestras ganas de volver y ganarlo el año que viene.",
+            "proud": "Decepcionado con el resultado, pero enormemente orgulloso del coraje de los chicos."
+          }
+        },
+        "postMatch": {
+          "question": "Acaba de sonar el pitido final. ¿Cuál es tu valoración inmediata del partido de hoy?",
+          "answers": {
+            "satisfied": "Ejecutamos el plan a la perfección desde el minuto uno. Resultado totalmente merecido.",
+            "critical": "Nos llevamos los puntos, pero nuestro nivel es más alto. Quedan muchos detalles por pulir.",
+            "drained": "Batalla intensa de principio a fin. Sacamos fuerzas y mostramos carácter."
+          }
+        },
+        "retirementAnnouncement": {
+          "question": "Has anunciado oficialmente tu retirada del fútbol profesional. ¿Qué emociones dominan?",
+          "answers": {
+            "peaceful": "Me voy con el corazón lleno y sin arrepentimientos. Es hora de dar un paso al lado.",
+            "nostalgic": "De los sueños de cantera de niño a los estadios del mundo: ha sido un viaje mágico.",
+            "grateful": "Inmensa gratitud a cada entrenador, compañero y aficionado que compartió este camino conmigo."
+          }
+        },
+        "teammateFallingOut": {
+          "question": "Se habla de tensión entre tú y tu compañero {player}. ¿Hay división en el vestuario?",
+          "answers": {
+            "dismissive": "Ruido sensacionalista de los medios. En vestuarios competitivos siempre hay debates.",
+            "united": "Somos profesionales que perseguimos el mismo objetivo. El vestuario está unido.",
+            "honest": "Tuvimos opiniones distintas durante el partido, pero lo resolvimos como profesionales y seguimos adelante."
+          }
+        },
+        "transferRumours": {
+          "question": "Los rumores te vinculan constantemente con un traspaso bomba. ¿Has decidido tu futuro?",
+          "answers": {
+            "focused": "Mi cabeza está 100% en el {team}. Las negociaciones son cosa del club y mi agente.",
+            "open": "En el fútbol moderno nunca sabes qué deparará el futuro. Mantengo mis opciones abiertas.",
+            "committed": "Estoy totalmente comprometido con el {team}. No creas todo lo que leas en los rumores."
+          }
+        },
+        "worldCupWin": {
+          "question": "¡Campeones del mundo! Has alcanzado la cima absoluta del fútbol global. ¿Puedes describirlo?",
+          "answers": {
+            "immortal": "¡Somos campeones del mundo! ¡Nuestros nombres quedarán grabados para siempre en la historia del país!",
+            "surreal": "Estar en el podio con la Copa del Mundo es como un sueño fuera del cuerpo.",
+            "patriotic": "Este trofeo pertenece a cada ciudadano de nuestro país. ¡Lo trajimos a casa!"
+          }
+        }
+      }
+    },
+    "nightclub_incident": {
+      "apologize": {
+        "headline1": "{name} pide disculpas públicas tras el incidente en una discoteca",
+        "press1": "Un primer paso hacia la redención, pero su imagen queda tocada."
+      },
+      "blame": {
+        "fan1": "Claro, la culpa siempre es de los demás...",
+        "headline1": "{name} echa la culpa a terceros tras el altercado en la discoteca",
+        "press1": "Esta defensa difícilmente convencerá a los aficionados."
+      }
     }
   },
   "retirement": {
@@ -2764,5 +3023,12 @@
   "firstYouthAssist": "Primera Asistencia en el Equipo Juvenil",
   "firstProGoal": "Primer Gol Profesional",
   "firstProAssist": "Primera Asistencia Profesional",
-  "intlDebut": "Debut Internacional"
+  "intlDebut": "Debut Internacional",
+  "youthAcademy": {
+    "promoted": "¡Promovido de las categorías inferiores al primer equipo!",
+    "released": "Liberado de las categorías inferiores tras no conseguir la promoción al primer equipo.",
+    "staying": "Se decidió permanecer en la cantera una temporada más para continuar el desarrollo."
+  },
+  "decisionMade": "Decisión tomada",
+  "urgentDecision": "¡Se requiere decisión urgente!"
 }

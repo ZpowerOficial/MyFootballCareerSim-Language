@@ -6,7 +6,7 @@
     "Injured": "Раненый",
     "OnFire": "В огне",
     "Poor": "Бедный",
-    "Suspended": "Приостановленный",
+    "Suspended": "Дисквалифицирован",
     "VeryPoor": "Очень Плохо",
     "average": "Средний",
     "belowAverage": "Ниже среднего",
@@ -58,8 +58,8 @@
   },
   "offer": {
     "type": {
-      "loan": "Заем",
-      "transfer": "Передача"
+      "loan": "Аренда",
+      "transfer": "Трансфер"
     }
   },
   "offers": {
@@ -67,14 +67,14 @@
     "closeAndStay": "Закрыть и остаться",
     "contractLength": "Продолжительность контракта",
     "decline": "Отклонить",
-    "loanDuration": "Продолжительность кредита",
-    "loanMove": "Кредитный переезд",
+    "loanDuration": "Срок аренды",
+    "loanMove": "Переход в аренду",
     "noOffers": "Нет доступных предложений",
     "noOffersDescription": "В этом сезоне вы не получали ни одного трансферного предложения.",
     "permanentTransfer": "Постоянный перевод",
     "reputation": "Репутация",
     "season": "сезон",
-    "seasons": "времена года",
+    "seasons": "сезоны",
     "tier": "Уровень",
     "transferOffers": "Трансферные предложения",
     "wage": "Заработная плата",
@@ -90,35 +90,35 @@
     "Lazy": "Ленивый",
     "Leader": "Лидер",
     "Loyal": "Лояльный",
-    "Media Darling": "Медиа Дарлинг",
+    "Media Darling": "Любимец прессы",
     "Professional": "Профессиональный",
     "Reserved": "Сдержанный",
     "Temperamental": "темпераментный"
   },
   "playerStyle": {
-    "advancedPlaymaker": "Продвинутый плеймейкер",
-    "ballPlayingDefender": "Защитник, играющий с мячом",
-    "ballWinningMidfielder": "Полузащитник, выигрывающий мяч",
-    "boxToBox": "Коробка в коробку",
-    "completeForward": "Полный вперед",
-    "deepLyingPlaymaker": "Глубоко лежащий плеймейкер",
-    "emergingTalent": "Новые таланты",
-    "false9": "Ложь 9",
-    "insideForward": "Внутри вперед",
-    "invertedWinger": "Перевернутый вингер",
+    "advancedPlaymaker": "Атакующий плеймейкер",
+    "ballPlayingDefender": "Защитник-распасовщик",
+    "ballWinningMidfielder": "Опорник-отбирающий",
+    "boxToBox": "Полузащитник «от штрафной до штрафной»",
+    "completeForward": "Универсальный форвард",
+    "deepLyingPlaymaker": "Оттянутый плеймейкер",
+    "emergingTalent": "Растущий талант",
+    "false9": "Ложная девятка",
+    "insideForward": "Внутренний форвард",
+    "invertedWinger": "Инвертированный вингер",
     "mezzala": "Меццала",
-    "poacher": "Браконьер",
-    "regista": "Региста",
-    "shotStopper": "стопор для выстрела",
-    "speedDemon": "Демон скорости",
-    "stopper": "Пробка",
-    "sweeper": "подметальная машина",
-    "sweeperKeeper": "Подметальщик Хранитель",
-    "targetMan": "Целевой человек",
-    "traditionalWinger": "Традиционный Вингер",
-    "versatilePlayer": "Универсальный игрок",
-    "widePlaymaker": "Широкий плеймейкер",
-    "wingBack": "Крайний защитник"
+    "poacher": "Охотник за голами",
+    "regista": "Реджиста",
+    "shotStopper": "Специалист по сэйвам",
+    "speedDemon": "Реактивный спринтер",
+    "stopper": "Стоппер",
+    "sweeper": "Либеро (Свободный защитник)",
+    "sweeperKeeper": "Вратарь-либеро",
+    "targetMan": "Таранный форвард",
+    "traditionalWinger": "Классический вингер",
+    "versatilePlayer": "Игрок-универсал",
+    "widePlaymaker": "Плеймейкер на фланге",
+    "wingBack": "Латераль (Крайний защитник)"
   },
   "seasonFocus": {
     "aerial": {
@@ -135,7 +135,7 @@
     },
     "boxToBox": {
       "description": "Покройте все поле и внесите свой вклад в атаку и защиту.",
-      "title": "Коробка в коробку"
+      "title": "От штрафной до штрафной"
     },
     "consistency": {
       "description": "Стремитесь к стабильным и надежным результатам на протяжении всего сезона.",
@@ -173,7 +173,7 @@
     "positionHint": "Опции, доступные для {position}",
     "positioning": {
       "description": "Лучшее чтение игры и чувство позиции",
-      "title": "Позиционирование"
+      "title": "Позиционная игра"
     },
     "reflexes": {
       "description": "Увеличьте время реакции и сохранитесь",

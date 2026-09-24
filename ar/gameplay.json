@@ -18,7 +18,7 @@
       "Mastermind": "العقل المدبر"
     },
     "style": {
-      "Adaptable": "مرن",
+      "Adaptable": "قابل للتكيف",
       "Aggressive": "هجومي",
       "Ambitious": "طموح",
       "Analytical": "تحليلي",
@@ -68,14 +68,14 @@
     },
     "acceleration": "تسريع",
     "age": "عمر",
-    "aggression": "عدوان",
+    "aggression": "الشراسة والقتالية",
     "agility": "خفة الحركة",
     "attacking": "مهاجمة",
     "attributeEvolution": "تطور السمات",
     "balance": "توازن",
     "ballControl": "التحكم بالكرة",
     "composure": "رباطة جأش",
-    "crossing": "معبر",
+    "crossing": "العرضيات",
     "currentAge": "العمر الحالي",
     "currentOvr": "الإجمالي الحالي",
     "curve": "منحنى",
@@ -94,16 +94,16 @@
         "goldenGlove": "فائز بالقفاز الذهبي ({cleanSheets} نظافة شباك)!",
         "goldenShoe": "الفائز بالحذاء الذهبي الأوروبي! ({goals} أهداف)",
         "leaguePOTY": "لاعب الموسم في الدوري!",
-        "leaguePositional": "اختير كأفضل {position} في الدوري لهذا الموسم!",
-        "playmaker": "أفضل ممرر في الدوري ({assists} تمريرة حاسمة)!",
+        "leaguePositional": "اختير كأفضل {position} في {league} لهذا الموسم!",
+        "playmaker": "أفضل ممرر حاسم في الدوري ({assists} تمريرة حاسمة)!",
         "puskas": "الفائز بجائزة هدف العام!",
         "rookie": "اختير كأفضل لاعب صاعد في الدوري!",
-        "shortlist": "مرشح للقائمة المختصرة للكأس الذهبية.",
+        "shortlist": "مرشح للقائمة النهائية لجائزة {award}!",
         "teamOfTheYear": "اختير ضمن فريق السنة في الدوري.",
         "worldCupGoldenBall": "الفائز بالكرة الذهبية لبطولة العالم!",
-        "worldCupGoldenBoot": "الفائز بحذاء بطولة العالم الذهبي!",
+        "worldCupGoldenBoot": "هداف كأس العالم ({goals} أهداف)!",
         "worldCupTOTT": "اختير ضمن فريق البطولة لبطولة العالم!",
-        "worldPlayer": "لاعب العام في العالم! تم الاعتراف به كالأفضل على الكوكب."
+        "worldPlayer": "أفضل لاعب في العالم! تم الاعتراف به كالأفضل على هذا الكوكب. السرد: {narrative}."
       },
       "debut": "الظهور الاحترافي الأول",
       "firstTitle": "الفوز بأول لقب في المسيرة",
@@ -190,8 +190,8 @@
         "releasedToProfessional": "تم تسريحه لبدء مسيرة احترافية"
       }
     },
-    "finishing": "التشطيب",
-    "flair": "الذوق",
+    "finishing": "إنهاء الهجمات",
+    "flair": "البراعة والإبداع",
     "foot": {
       "left": "غادر",
       "right": "يمين",
@@ -200,63 +200,67 @@
     "footedness": "القدم",
     "freeKick": "دقة الركلة الحرة",
     "gkDiving": "حارس مرمى الغوص",
-    "gkHandling": "التعامل مع حارس مرمى",
+    "gkHandling": "الإمساك بالكرة (حارس)",
     "gkKicking": "ركل حارس مرمى",
-    "gkPositioning": "تحديد المواقع حارس مرمى",
+    "gkPositioning": "التمركز (حارس)",
     "gkReflexes": "ردود فعل حارس مرمى",
     "goalkeeping": "حراسة المرمى",
     "growth": "نمو",
-    "heading": "دقة العنوان",
+    "heading": "دقة الرأسيات",
     "interceptions": "اعتراضات",
     "jumping": "القفز",
     "keyAttribute": "السمة الرئيسية",
     "leadership": "قيادة",
-    "leftFinishing": "التشطيب (يسار)",
+    "leftFinishing": "إنهاء (القدم اليسرى)",
     "legend": "أسطورة",
     "longPassing": "تمريرة طويلة",
     "longShots": "لقطات طويلة",
-    "marking": "وضع العلامات",
+    "marking": "المراقبة",
     "mental": "عقلي",
     "mentalAttributes": "الصفات العقلية",
     "overall": "إجمالي",
     "overallEvolution": "التطور الشامل",
-    "pace": "خطوة",
-    "passing": "تمرير",
+    "pace": "السرعة والاندفاع",
+    "passing": "التمرير",
     "peakAge": "ذروة العمر",
     "peakOvr": "ذروة إجمالي",
-    "penalties": "العقوبات",
+    "penalties": "ركلات الجزاء",
     "physical": "بدني",
     "physicalAttributes": "الصفات الجسدية",
-    "positioning": "تحديد المواقع",
+    "positioning": "التمركز",
     "preferredFoot": "القدم المفضلة",
     "ratingColors": "ألوان التقييم",
     "reactions": "ردود الفعل",
-    "rightFinishing": "التشطيب (يمين)",
-    "shooting": "إطلاق نار",
+    "rightFinishing": "إنهاء (القدم اليمنى)",
+    "shooting": "التسديد",
     "shortPassing": "تمريرات قصيرة",
     "shotPower": "قوة التسديد",
-    "slidingTackle": "معالجة انزلاقية",
+    "slidingTackle": "تدخل انزلاقي",
     "sprintSpeed": "سرعة الركض",
     "stamina": "قوة تحمل",
-    "standingTackle": "معالجة الوقوف",
+    "standingTackle": "تدخل بالوقوف",
     "strength": "قوة",
-    "technical": "اِصطِلاحِيّ",
+    "technical": "تقني",
     "technicalAttributes": "السمات الفنية",
-    "vision": "رؤية",
-    "volleys": "الكرات الهوائية",
+    "vision": "رؤية الملعب",
+    "volleys": "الكرات الطائرة (فولي)",
     "weakFoot": "القدم الضعيفة",
-    "workRate": "معدل العمل",
+    "workRate": "المجهود والعمل الجماعي",
     "aerialControl": "التحكم الجوي"
   },
   "characteristic": {
     "Aerial Specialist": "أخصائي هوائي",
-    "Big Game Player": "لاعب لعبة كبيرة",
-    "Clinical Finisher": "التشطيب السريري",
+    "Big Game Player": "لاعب المباريات الكبيرة",
+    "Clinical Finisher": "إنهاء حاسم",
     "Dribbling Wizard": "معالج المراوغة",
     "Engine": "محرك",
     "Leader": "قائد",
     "Playmaker": "صانع ألعاب",
-    "Speed Demon": "شيطان السرعة"
+    "Speed Demon": "شيطان السرعة",
+    "aerialDominance": "يفوز بجميع الالتحامات والكرات الهوائية بفضل توقيته وتمركزه المميز.",
+    "ballPlayingDefender": "مدافع عصري يمتلك مهارات فنية عالية ويبدأ الهجمات المنظمة من الخلف.",
+    "ballWinner": "قاطع كرات شرس يعطل هجمات الخصم بافتكاك حاسم في وسط الميدان.",
+    "bigGamePlayer": "يتألق في النهائيات الكبرى والمباريات الحاسمة التي تحسم الألقاب."
   },
   "expandedAttributes": {
     "defending": {
@@ -264,21 +268,21 @@
       "standingTiming": "توقيت الوقوف"
     },
     "finishing": {
-      "headedAccuracy": "دقة الرأس",
+      "headedAccuracy": "دقة التوجيه بالرأس",
       "oneOnOneFinishing": "التشطيب 1 ضد 1",
       "placedShots": "اللقطات الموضوعة",
       "shotAnticipation": "توقع النار",
       "volleyTechnique": "تقنية الكرة الطائرة",
-      "finishingInsideBox": "التشطيب داخل الصندوق",
-      "finishingOnCounter": "التشطيب على العداد",
-      "finishingOutsideBox": "تشطيب الصندوق الخارجي",
+      "finishingInsideBox": "إنهاء داخل منطقة الجزاء",
+      "finishingOnCounter": "إنهاء في الهجمة المرتدة",
+      "finishingOutsideBox": "إنهاء خارج منطقة الجزاء",
       "finishingUnderPressure": "التشطيب تحت الضغط",
-      "headingAccuracy": "دقة العنوان",
-      "headingPower": "قوة العنوان",
+      "headingAccuracy": "دقة الرأسيات",
+      "headingPower": "قوة الضربة الرأسية",
       "placedShotAccuracy": "دقة التسديدة الموضوعة",
       "powerShotAccuracy": "دقة قوة النار",
       "shotPower": "قوة التسديد",
-      "volleysAndAcrobatic": "الكرات الهوائية والبهلوانية"
+      "volleysAndAcrobatic": "الكرات الطائرة والتسديدات البهلوانية"
     },
     "mental": {
       "concentration": "تركيز",
@@ -286,16 +290,16 @@
     },
     "passing": {
       "lobPassAccuracy": "دقة تمرير الكرة",
-      "throughBalls": "من خلال الكرات",
+      "throughBalls": "التمريرات البينية",
       "weightedPass": "تمريرة مرجحة",
-      "crossingFromByline": "العبور من الخط الثانوي",
-      "crossingFromDeep": "العبور من العمق",
+      "crossingFromByline": "عرضيات من خط النهاية",
+      "crossingFromDeep": "العرضية من العمق",
       "curveEffect": "تأثير المنحنى",
-      "firstTimeCrossing": "أول مرة معبر",
+      "firstTimeCrossing": "عرضيات من لمسة واحدة",
       "longDiagonalPass": "تمريرة قطرية طويلة",
       "shortPassingSupport": "دعم التمريرات القصيرة",
       "shortPassingUnderPressure": "تمريرة قصيرة تحت الضغط",
-      "verticalPassBreakingLines": "خطوط كسر التمرير العمودية"
+      "verticalPassBreakingLines": "التمرير العمودي الخارق للخطوط"
     },
     "speed": {
       "acceleration": "تسريع",
@@ -314,21 +318,21 @@
       "aerialControl": "التحكم الجوي",
       "firstTouchOrientated": "اللمسة الأولى موجهة",
       "firstTouchUnderPressure": "اللمسة الأولى تحت الضغط",
-      "shielding": "التدريع",
+      "shielding": "حماية الكرة بالجسد",
       "trapping": "الاصطياد"
     },
     "commanding": {
       "aerialReach": "الوصول الجوي",
-      "claimingCrosses": "المطالبة بالصلبان",
+      "claimingCrosses": "الخروج للإمساك بالعرضيات",
       "commandOfArea": "قيادة المنطقة",
       "communication": "تواصل",
-      "punching": "اللكم"
+      "punching": "إبعاد الكرة بالقبضة"
     },
     "defensivePositioning": {
       "backtracking": "التراجع",
-      "covering": "تغطية",
+      "covering": "التغطية الدفاعية",
       "defensiveAwareness": "الوعي الدفاعي",
-      "jockeying": "المناورة",
+      "jockeying": "التأخير الدفاعي والمراقبة",
       "positionRecovery": "استعادة الموقف"
     },
     "distribution": {
@@ -357,14 +361,14 @@
       "creativity": "إِبداع",
       "decisions": "القرارات",
       "offTheBallMovement": "حركة خارج الكرة",
-      "positioning": "تحديد المواقع",
+      "positioning": "التمركز",
       "spatialAwareness": "الوعي المكاني",
-      "vision": "رؤية"
+      "vision": "رؤية الملعب"
     },
     "interception": {
       "crossBlocking": "الحظر المتقاطع",
       "longPassInterception": "اعتراض التمريرة الطويلة",
-      "readingOfPlay": "قراءة اللعب",
+      "readingOfPlay": "قراءة مسار اللعب",
       "shortPassInterception": "اعتراض التمريرة القصيرة",
       "shotBlocking": "حجب النار"
     },
@@ -383,12 +387,12 @@
       "composure": "رباطة جأش (حارس مرمى)",
       "concentration": "التركيز (حارس مرمى)",
       "decisionMaking": "صنع القرار (حارس مرمى)",
-      "handling": "المناولة"
+      "handling": "ثبات الإمساك بالكرة"
     },
     "performance": {
       "adaptability": "القدرة على التكيف",
       "bigMatchPerformance": "أداء المباراة الكبيرة",
-      "clutchFactor": "عامل القابض",
+      "clutchFactor": "عامل الحسم",
       "consistency": "تناسق",
       "pressureHandling": "التعامل مع الضغط"
     },
@@ -400,29 +404,29 @@
       "determination": "عزيمة",
       "leadershipOnPitch": "القيادة على أرض الملعب",
       "professionalism": "الاحتراف",
-      "teamwork": "العمل الجماعي",
+      "teamwork": "روح الفريق",
       "temperament": "مزاج"
     },
     "positioning": {
       "linePositioning": "تحديد المواقع الخط",
       "narrowingAngles": "تضييق الزوايا",
-      "positioning": "تحديد المواقع حارس مرمى",
+      "positioning": "التمركز (حارس)",
       "rushingOut": "التسرع في الخروج"
     },
     "pressing": {
       "counterPressing": "الضغط المضاد",
       "pressIntensity": "كثافة الصحافة",
-      "pressingTrigger": "الضغط على الزناد",
+      "pressingTrigger": "نقطة انطلاق الضغط",
       "sustainedPressing": "الضغط المستمر"
     },
     "robustness": {
       "injuryResistance": "مقاومة الإصابة",
-      "naturalFitness": "اللياقة الطبيعية",
+      "naturalFitness": "لياقة فطرية",
       "physicalRobustness": "المتانة البدنية",
       "recoveryRate": "معدل الاسترداد"
     },
     "setPieces": {
-      "cornerKicking": "الركلة الركنية",
+      "cornerKicking": "تنفيذ الركلات الركنية",
       "directFreeKickPlacement": "تحديد مكان الركلة الحرة المباشرة",
       "directFreeKickPower": "قوة الركلة الحرة المباشرة",
       "indirectFreeKick": "ركلة حرة غير مباشرة",
@@ -438,16 +442,16 @@
       "reflexes": "ردود فعل حارس مرمى"
     },
     "strength": {
-      "balanceInContact": "التوازن في الاتصال",
+      "balanceInContact": "التوازن عند الالتحام البدني",
       "bodyToBodyStrength": "قوة الجسم إلى الجسم",
       "legStrength": "قوة الساق",
       "upperBodyStrength": "قوة الجزء العلوي من الجسم"
     },
     "tackling": {
       "cleanTackling": "معالجة نظيفة",
-      "slidingTackle": "معالجة انزلاقية",
-      "standingTackle": "معالجة الوقوف",
-      "tackleTiming": "معالجة التوقيت"
+      "slidingTackle": "تدخل انزلاقي",
+      "standingTackle": "تدخل بالوقوف",
+      "tackleTiming": "توقيت التدخل واستخلاص الكرة"
     }
   },
   "form": {
@@ -457,7 +461,7 @@
     "Injured": "مصاب",
     "OnFire": "لا يمكن إيقافه",
     "Poor": "فقير",
-    "Suspended": "معلق",
+    "Suspended": "موقوف",
     "VeryPoor": "فقير جدا",
     "average": "متوسط",
     "belowAverage": "أقل من المتوسط",
@@ -547,7 +551,7 @@
         "consistencyDesc": "الحفاظ على أداء متسق",
         "dribblesCompleted": "اكتملت المراوغات",
         "gkRating": "تقييم حراس المرمى",
-        "gkRatingDesc": "الحفاظ على متوسط ​​تقييم مرتفع كحارس مرمى.",
+        "gkRatingDesc": "الحفاظ على متوسط تقييم مرتفع كحارس مرمى.",
         "goalsLeague": "أهداف الدوري الهدف",
         "goalsLeagueDesc": "تسجيل عدد محدد من الأهداف في الدوري هذا الموسم.",
         "interceptions": "اعتراضات",
@@ -565,7 +569,7 @@
       "origin": {
         "agent": "عامل",
         "club": "نادي",
-        "coach": "مدير",
+        "coach": "مدرب",
         "fans": "المشجعين",
         "press": "يضعط",
         "self": "النفس"
@@ -645,7 +649,7 @@
   "offer": {
     "type": {
       "loan": "يُقرض",
-      "transfer": "تحويل"
+      "transfer": "انتقال"
     },
     "badge": {
       "homecoming": "العودة للوطن",
@@ -658,8 +662,8 @@
     "closeAndStay": "إغلاق والبقاء",
     "contractLength": "طول العقد",
     "decline": "انخفاض",
-    "loanDuration": "مدة القرض",
-    "loanMove": "تحرك القرض",
+    "loanDuration": "مدة الإعارة",
+    "loanMove": "انتقال بالإعارة",
     "noOffers": "لا توجد عروض متاحة",
     "noOffersDescription": "لم تتلق أي عروض انتقال هذا الموسم.",
     "permanentTransfer": "نقل دائم",
@@ -681,35 +685,35 @@
     "Lazy": "كسول",
     "Leader": "قائد",
     "Loyal": "وفي",
-    "Media Darling": "وسائل الإعلام حبيبي",
+    "Media Darling": "مفضل الإعلام",
     "Professional": "احترافي",
     "Reserved": "محجوز",
     "Temperamental": "مزاجي"
   },
   "playerStyle": {
     "advancedPlaymaker": "صانع ألعاب متقدم",
-    "ballPlayingDefender": "مدافع يلعب بالكرة",
-    "ballWinningMidfielder": "لاعب خط الوسط الحائز على الكرة",
-    "boxToBox": "صندوق إلى صندوق",
-    "completeForward": "استكمال إلى الأمام",
-    "deepLyingPlaymaker": "صانع ألعاب عميق الكذب",
-    "emergingTalent": "المواهب الناشئة",
-    "false9": "كاذبة 9",
-    "insideForward": "داخل إلى الأمام",
+    "ballPlayingDefender": "مدافع صانع لعب",
+    "ballWinningMidfielder": "وسط مستعيد للكرة",
+    "boxToBox": "من منطقة إلى منطقة",
+    "completeForward": "مهاجم شامل",
+    "deepLyingPlaymaker": "صانع ألعاب متأخر",
+    "emergingTalent": "موهبة صاعدة",
+    "false9": "المهاجم الوهمي",
+    "insideForward": "جناح داخلي",
     "invertedWinger": "جناح معكوس",
     "mezzala": "مزالا",
-    "poacher": "مبيضة",
+    "poacher": "قناص منطقة الجزاء",
     "regista": "ريجيستا",
-    "shotStopper": "سدادة النار",
+    "shotStopper": "متخصص في التصدي",
     "speedDemon": "شيطان السرعة",
     "stopper": "سدادة",
     "sweeper": "كناسة",
     "sweeperKeeper": "حارس الكناس",
-    "targetMan": "الرجل المستهدف",
-    "traditionalWinger": "الجناح التقليدي",
-    "versatilePlayer": "لاعب متعدد الاستخدامات",
-    "widePlaymaker": "صانع ألعاب عريض",
-    "wingBack": "عودة الجناح"
+    "targetMan": "رأس حربة صريح",
+    "traditionalWinger": "جناح تقليدي",
+    "versatilePlayer": "لاعب متعدد المراكز",
+    "widePlaymaker": "صانع ألعاب على الجناح",
+    "wingBack": "ظهير جناح"
   },
   "seasonFocus": {
     "aerial": {
@@ -726,7 +730,7 @@
     },
     "boxToBox": {
       "description": "تغطية الملعب بأكمله والمساهمة في الهجوم والدفاع",
-      "title": "صندوق إلى صندوق"
+      "title": "من منطقة إلى منطقة"
     },
     "consistency": {
       "description": "اهدف إلى تقديم عروض قوية وموثوقة طوال الموسم.",
@@ -764,7 +768,7 @@
     "positionHint": "الخيارات المتاحة لـ {position}",
     "positioning": {
       "description": "قراءة أفضل للعبة وإحساس موضعي",
-      "title": "تحديد المواقع"
+      "title": "التمركز"
     },
     "reflexes": {
       "description": "شحذ وقت رد الفعل ويحفظ",
@@ -782,7 +786,11 @@
     "title": "تركيز الموسم",
     "titles": {
       "description": "التركيز على الفوز بالبطولات. أصبحت توقعات الفريق أكثر أهمية.",
-      "title": "العناوين"
+      "title": "الألقاب"
+    },
+    "ballplaying": {
+      "description": "تحسين التمرير والتوزيع من الخلف",
+      "title": "لعب الكرة"
     }
   },
   "squadStatus": {
@@ -886,7 +894,7 @@
       "training": "تمرين"
     },
     "tactical": "تكتيكي",
-    "technical": "اِصطِلاحِيّ",
+    "technical": "تقني",
     "title": "مركز تدريب",
     "totalEffectiveness": "الفعالية الكاملة",
     "trainer": {
@@ -899,21 +907,21 @@
     "types": {
       "activeRest": "الانتعاش النشط",
       "activeRestDesc": "جلسة إنعاش خفيفة لاستعادة الطاقة",
-      "aerialDefense": "الدفاع الجوي",
+      "aerialDefense": "الدفاع عن الكرات الهوائية",
       "aerialDefenseDesc": "رأسيات وكرات عالية",
       "agility": "خفة الحركة",
       "agilityDesc": "تغييرات سريعة في الاتجاه وحركة القدمين",
       "balanced": "متوازن",
       "balancedDesc": "تنمية متوازنة بشكل عام",
-      "boxToBox": "صندوق إلى صندوق",
+      "boxToBox": "لاعب وسط بوكس تو بوكس",
       "boxToBoxDesc": "تدريب كامل للاعب الوسط",
       "clubTraining": "تدريب النادي",
       "clubTrainingDesc": "تدرب مع الفرقة. مجانية، والفعالية على أساس المرافق",
       "counterAttack": "الهجوم المضاد",
       "counterAttackDesc": "اللعب بالانتقال السريع",
-      "covering": "تغطية",
+      "covering": "التغطية الدفاعية",
       "coveringDesc": "الوعي الدفاعي والتمركز",
-      "crossing": "معبر",
+      "crossing": "عرضيات",
       "crossingDesc": "تدريب الجناح على تسليم العرضيات",
       "defensiveMid": "الوسط الدفاعي",
       "defensiveMidDesc": "الحماية واستعادة الكرة",
@@ -927,27 +935,27 @@
       "flexibilityDesc": "أعمال التمدد والتنقل",
       "fullback": "ظهير كامل",
       "fullbackDesc": "دعم الهجوم والدفاع",
-      "gkCrosses": "صلبان حارس مرمى",
+      "gkCrosses": "التعامل مع العرضيات",
       "gkCrossesDesc": "المطالبة بالعرضيات والكرات العالية",
       "gkDistribution": "توزيع جي كيه",
       "gkDistributionDesc": "السيطرة على الكرة وتمريرها",
-      "gkDiving": "حارس مرمى الغوص",
-      "gkDivingDesc": "يحفظ وتقنية الغوص",
+      "gkDiving": "ارتماء الحارس",
+      "gkDivingDesc": "التصدي وتقنية الغوص",
       "gkMentality": "عقلية حارس المرمى",
       "gkMentalityDesc": "التركيز والتركيز",
       "gkOneOnOne": "حارس مرمى 1v1",
       "gkOneOnOneDesc": "المواقف الفردية",
-      "gkPositioning": "تحديد المواقع حارس مرمى",
+      "gkPositioning": "التمركز (حارس)",
       "gkPositioningDesc": "تحديد المواقع والترقب",
       "gkReflexes": "ردود فعل حارس مرمى",
       "gkReflexesDesc": "رد الفعل السريع يحفظ",
       "gym": "نادي رياضي",
       "gymDesc": "تدريب القوة ورفع الأثقال",
-      "heading": "عنوان",
+      "heading": "اللعب بالرأس",
       "headingDesc": "التدريب على القدرة الهوائية",
       "longshots": "لقطات طويلة",
-      "longshotsDesc": "تقنية الرماية بعيدة المدى",
-      "marking": "وضع العلامات",
+      "longshotsDesc": "تقنية التسديد من بعيد",
+      "marking": "المراقبة",
       "markingDesc": "وضع العلامات الدفاعية والتغطية",
       "physical": "بدني",
       "physicalDesc": "السرعة والقوة والقدرة على التحمل",
@@ -955,11 +963,11 @@
       "playmakerDesc": "رؤية إبداعية وتمرير",
       "playmaking": "صناعة اللعب",
       "playmakingDesc": "التمرير والرؤية وخلق الفرص",
-      "poacher": "مبيضة",
+      "poacher": "قناص منطقة الجزاء",
       "poacherDesc": "وجود الصندوق والتشطيب",
       "position": "موضع",
       "positionDesc": "التدريب على تغيير الموقف",
-      "positioning": "تحديد المواقع",
+      "positioning": "التمركز",
       "positioningDesc": "الحركة والجري الهجومي",
       "pressing": "الضغط",
       "pressingDesc": "العمل الدفاعي عالي الكثافة",
@@ -967,7 +975,7 @@
       "scrimmageDesc": "تدرب على المباراة مع التركيز على التمرير والمراوغة",
       "setpieces": "مجموعة القطع",
       "setpiecesDesc": "الركلات الحرة والركنيات",
-      "shooting": "إطلاق نار",
+      "shooting": "التسديد",
       "shootingDesc": "التركيز على التشطيب وتحديد المواقع والدقة",
       "skillMoves": "تحركات المهارة",
       "skillMovesDesc": "المراوغة والحيل المتقدمة",
@@ -977,7 +985,7 @@
       "tacklesDesc": "تقنيات الفوز بالكرة",
       "tactical": "تكتيكي",
       "tacticalDesc": "التمركز الدفاعي وقراءة المباراة",
-      "targetMan": "الرجل المستهدف",
+      "targetMan": "رأس حربة صريح",
       "targetManDesc": "اللعب الصامد والتهديد الجوي",
       "technique": "تقنية",
       "techniqueDesc": "المراوغة والتحكم بالكرة والمهارة",
@@ -999,7 +1007,7 @@
     },
     "Argues With Officials": {
       "description": "كثيرا ما يعترض على قرارات الحكام.",
-      "name": "يتجادل مع المسؤولين"
+      "name": "يتجادل مع الحكام"
     },
     "Avoids Using Weaker Foot": {
       "description": "يبتعد عن استخدام القدم السيئة.",
@@ -1011,11 +1019,11 @@
     },
     "Big Game Player": {
       "description": "يؤدي بشكل أفضل في المباريات الكبيرة.",
-      "name": "لاعب لعبة كبيرة"
+      "name": "لاعب المباريات الكبيرة"
     },
     "Captain Material": {
       "description": "قائد طبيعي على أرض الملعب.",
-      "name": "مادة الكابتن"
+      "name": "قائد بالفطرة"
     },
     "Cautious With Crosses": {
       "description": "يتردد في ترك الخط على الصلبان.",
@@ -1035,31 +1043,31 @@
     },
     "Driven": {
       "description": "إرادة لا تتزعزع للفوز.",
-      "name": "مدفوعة"
+      "name": "طموح"
     },
     "Early Adopter": {
       "description": "يتعلم تكتيكات جديدة بسرعة.",
-      "name": "قابلة للتكيف"
+      "name": "قابل للتكيف"
     },
     "Fan Favorite": {
       "description": "محبوب من قبل المؤيدين.",
-      "name": "المفضلة لدى المعجبين"
+      "name": "محبوب الجماهير"
     },
     "Finesse Shot": {
       "description": "خبير في وضع اللقطات المنحنية.",
-      "name": "تسديدة براعة"
+      "name": "تسديدة ملتفة"
     },
     "GK Flat Kick": {
       "description": "توزيع سريع ومنخفض.",
-      "name": "ركلة حارس المرمى المسطحة"
+      "name": "ركلة حارس منخفضة"
     },
     "GK Long Throw": {
       "description": "يطلق العدادات بأيديه.",
-      "name": "حارس مرمى رمية طويلة"
+      "name": "رمية حارس طويلة"
     },
     "Giant Throw-In": {
       "description": "يأخذ رميات مثل الزوايا.",
-      "name": "رمية تماس عملاقة"
+      "name": "رمية تماس طويلة"
     },
     "Inflexible": {
       "description": "صعوبة اللعب خارج المركز أو التكتيك.",
@@ -1067,7 +1075,7 @@
     },
     "Injury Concern": {
       "description": "عرضة للإصابات المتكررة.",
-      "name": "القلق من الإصابة"
+      "name": "تاريخ إصابات"
     },
     "Injury Prone": {
       "description": "ارتفاع خطر الإصابة.",
@@ -1075,31 +1083,31 @@
     },
     "Iron Man": {
       "description": "نادرا ما يصاب.",
-      "name": "الرجل الحديدي"
+      "name": "رجل من حديد"
     },
     "Late Bloomer": {
       "description": "يصل إلى الإمكانات في وقت لاحق من حياته المهنية.",
-      "name": "الراحل بلومر"
+      "name": "متأخر التفتح"
     },
     "Left-Footed Maestro": {
       "description": "مهارة استثنائية بالقدم اليسرى.",
-      "name": "المايسترو بالقدم اليسرى"
+      "name": "مايسترو القدم اليسرى"
     },
     "Long Shot Taker": {
       "description": "يحب التسديد من خارج منطقة الجزاء.",
-      "name": "مطلق النار بعيد المدى"
+      "name": "متخصص التسديد من بعيد"
     },
     "Media Darling": {
       "description": "يجذب تغطية إعلامية إيجابية.",
-      "name": "وسائل الإعلام حبيبي"
+      "name": "مفضل الإعلام"
     },
     "One-Club Man": {
       "description": "مخلص للنادي، مكافأة الكيمياء.",
-      "name": "رجل النادي الواحد"
+      "name": "أسطورة نادٍ واحد"
     },
     "One-on-One Rush": {
       "description": "سريع لإغلاق المساحة في 1 ضد 1.",
-      "name": "1 ضد 1 راش"
+      "name": "اندفاع 1 ضد 1"
     },
     "One-on-One Specialist": {
       "description": "قاتلة عندما تمر على المرمى ضد حارس المرمى.",
@@ -1111,23 +1119,23 @@
     },
     "Pinpoint Crossing": {
       "description": "عرضيات دقيقة للمهاجمين.",
-      "name": "معبر محدد"
+      "name": "عرضية دقيقة"
     },
     "Play Simple": {
       "description": "يتجنب المخاطر غير الضرورية.",
-      "name": "يلعب بسيطة"
+      "name": "يلعب ببساطة"
     },
     "Power House": {
       "description": "قوة بدنية مثيرة للإعجاب.",
-      "name": "قوة"
+      "name": "قوة بدنية"
     },
     "Power Shot": {
       "description": "يضرب الكرة بقوة مدمرة.",
-      "name": "طلقة القوة"
+      "name": "تسديدة قوية"
     },
     "Punches Fists": {
       "description": "يفضل لكمة الكرة بشكل واضح.",
-      "name": "الناخس"
+      "name": "حارس يبعد بلكمة"
     },
     "Right-Footed Sniper": {
       "description": "دقة قاتلة بالقدم اليمنى",
@@ -1135,27 +1143,27 @@
     },
     "Rushes Out Of Goal": {
       "description": "الحارس الذي يندفع لإزالة الخطر.",
-      "name": "يندفع خارجا"
+      "name": "يخرج من مرماه"
     },
     "Selfish": {
       "description": "غالبًا ما يتجاهل زملائه في الفريق الذين يتمتعون بوضع أفضل.",
-      "name": "أنانية"
+      "name": "أناني"
     },
     "Slide Tackle": {
       "description": "معالج انزلاقي دقيق.",
-      "name": "معالج الشريحة"
+      "name": "متقن التدخلات الانزلاقية"
     },
     "Speed Dribbler": {
       "description": "يدفع الكرة بسرعة عالية دون أن يفقد السيطرة عليها.",
-      "name": "المراوغ السرعة"
+      "name": "مراوغ سريع"
     },
     "Speed Merchant": {
       "description": "وتيرة الخام لحرق المدافعين.",
-      "name": "سبيدستر"
+      "name": "صاروخ"
     },
     "Tackles Back": {
       "description": "المهاجم الذي يساعد على استعادة الكرة.",
-      "name": "المسارات مرة أخرى"
+      "name": "يعود للدفاع"
     },
     "Team Player": {
       "description": "يعطي الأولوية للفريق على الذات.",
@@ -1163,15 +1171,15 @@
     },
     "Technical Dribbler": {
       "description": "التحكم الدقيق في المراوغة في المساحات الضيقة.",
-      "name": "المراوغ الفني"
+      "name": "مراوغ تقني"
     },
     "Through Ball": {
       "description": "رؤية لتمريرات تقسيم الدفاع.",
-      "name": "من خلال الكرة"
+      "name": "تمريرة بينية"
     },
     "Trickster": {
       "description": "يستخدم المهارات والخدع لخداع المدافعين.",
-      "name": "محتال"
+      "name": "لاعب استعراضي"
     },
     "Weak Foot": {
       "description": "المهارة بالقدم غير المفضلة.",
@@ -1179,11 +1187,11 @@
     },
     "Wonderkid": {
       "description": "التطور السريع عند الشباب.",
-      "name": "Wonderkid"
+      "name": "موهبة استثنائية"
     },
     "acrobaticFinisher": {
-      "description": "قادر على تسجيل الكرات الهوائية الرائعة والركلات الهوائية والأهداف البهلوانية.",
-      "name": "اللمسة النهائية البهلوانية"
+      "description": "يسجل أهدافاً إعجازية من الضربات المقصية وكرات الهواء المباشرة.",
+      "name": "هداف أكروباتي"
     },
     "aerialDominance": {
       "description": "يفوز تقريبًا في كل مبارزة جوية بفضل تمركزه وتوقيته المتميزين.",
@@ -1194,8 +1202,8 @@
       "name": "التهديد الجوي"
     },
     "arguesWithOfficials": {
-      "description": "يعارض في كثير من الأحيان قرارات الحكام، ويخاطر ببطاقاته.",
-      "name": "يتجادل مع المسؤولين"
+      "description": "يعارض في كثير من الأحيان قرارات الحكام، مما يعرضه للحصول على بطاقات مجانية.",
+      "name": "يتجادل مع الحكام"
     },
     "avoidsUsingWeakerFoot": {
       "description": "يفضل بقوة القدم المهيمنة حتى في المواقف الصعبة.",
@@ -1207,39 +1215,39 @@
     },
     "ballPlayingDefender": {
       "description": "مريح في التعامل مع الكرة ويبدأ الهجمات من الخلف.",
-      "name": "مدافع يلعب بالكرة"
+      "name": "مدافع صانع لعب"
     },
     "ballWinner": {
-      "description": "المهاجم العدواني الذي يفكك هجمات المعارضة.",
-      "name": "الفائز بالكرة"
+      "description": "لاعب ارتكاز يستعيد الكرة بافتكاك نظيف ويدمر هجمات المنافسين في مهدها.",
+      "name": "مستعيد الكرة"
     },
     "bigGamePlayer": {
       "description": "يزدهر في نهائيات الكأس والمباريات الحاسمة.",
-      "name": "لاعب لعبة كبيرة"
+      "name": "لاعب المباريات الكبيرة"
     },
     "boxToBox": {
       "description": "يغطي كل قطعة من العشب، مما يساهم في الدفاع والهجوم.",
-      "name": "صندوق إلى صندوق"
+      "name": "من منطقة إلى منطقة"
     },
     "cautiousWithCrosses": {
-      "description": "متردد في الحصول على العرضيات، مفضلاً البقاء على الخط.",
-      "name": "الحذر مع الصلبان"
+      "description": "يتردد في الخروج للكرات العرضية مفضلاً البقاء على خط المرمى.",
+      "name": "حذر في العرضيات"
     },
     "chipShot": {
-      "description": "سيد التعامل الدقيق مع حارس المرمى في مواقف 1 ضد 1.",
-      "name": "طلقة رقاقة"
+      "description": "يسقط الكرة بمهارة فوق الحارس الخارج من مرماه لتتهادى في الشباك.",
+      "name": "إسقاط الكرة (لوب)"
     },
     "clinicalFinisher": {
       "description": "يتفوق في المواقف الفردية ويحول الفرص بدقة.",
-      "name": "التشطيب السريري"
+      "name": "إنهاء حاسم"
     },
     "comesForCrosses": {
-      "description": "استباقي في التقاط العرضيات قبل أن يتمكن المهاجمون من الوصول إليها.",
-      "name": "الصلبان المطالبات"
+      "description": "يخرج بجرأة للتعامل مع الكرات العرضية والسيطرة على الكرات الهوائية.",
+      "name": "السيطرة على العرضيات"
     },
     "commandOfArea": {
       "description": "يسيطر على منطقة الجزاء ويسيطر على العرضيات وينظم الدفاع.",
-      "name": "قيادة المنطقة"
+      "name": "السيطرة على المنطقة"
     },
     "composure": {
       "description": "يبقى هادئًا تحت الضغط ويتخذ قرارات أفضل في اللحظات الحاسمة.",
@@ -1251,11 +1259,11 @@
     },
     "crossingSpecialist": {
       "description": "يرسل عرضيات خطيرة من مناطق واسعة بالسوط والسرعة.",
-      "name": "أخصائي العبور"
+      "name": "متخصص في العرضيات"
     },
     "deepLyingPlaymaker": {
-      "description": "يتحكم في الإيقاع من المواقف العميقة مع التمرير والرؤية.",
-      "name": "صانع ألعاب عميق"
+      "description": "يتحكم في إيقاع المباراة من مناطق متأخرة بفضل دقة التمرير وسعة الرؤية (ريجيستا).",
+      "name": "صانع ألعاب متأخر"
     },
     "discipline": {
       "description": "نادرًا ما يرتكب أخطاء غير ضرورية أو يتلقى بطاقات.",
@@ -1271,11 +1279,11 @@
     },
     "driven": {
       "description": "دوافع مكثفة للتحسين وتحقيق النجاح.",
-      "name": "مدفوعة"
+      "name": "طموح"
     },
     "earlyAdopter": {
       "description": "سريع في تعلم التكتيكات الجديدة والتكيف مع الأنظمة المختلفة.",
-      "name": "قابلة للتكيف"
+      "name": "قابل للتكيف"
     },
     "engine": {
       "description": "عداء لا يكل ولا يتوقف أبدًا عن العمل من أجل الفريق.",
@@ -1283,11 +1291,11 @@
     },
     "finesse": {
       "description": "لاعب أنيق يعتمد على المهارة بدلاً من القوة البدنية.",
-      "name": "براعة"
+      "name": "مهارة"
     },
     "finesseShot": {
       "description": "يضع اللقطات بدقة وتجعيد بدلاً من القوة الخام.",
-      "name": "تسديدة براعة"
+      "name": "تسديدة ملتفة"
     },
     "flair": {
       "description": "لاعب مبدع بطبيعته يحاول تقديم العروض المذهلة ويسلي الجمهور.",
@@ -1295,19 +1303,19 @@
     },
     "flairPlayer": {
       "description": "لا يمكن التنبؤ به ومبدع مع ذخيرة من الحيل والمهارات.",
-      "name": "لاعب فلير"
+      "name": "لاعب مراوغ"
     },
     "giantThrowIn": {
       "description": "يمكنه رمي رميات تماس طويلة داخل منطقة الجزاء مثل الضربات الركنية.",
-      "name": "رمية تماس عملاقة"
+      "name": "رمية تماس طويلة"
     },
     "gkFlatKick": {
       "description": "يسلم ركلات منخفضة وموجهة إلى زملائه في الفريق في مستوى أعلى.",
-      "name": "ركلة حارس المرمى المسطحة"
+      "name": "ركلة حارس منخفضة"
     },
     "gkLongThrow": {
       "description": "يوزع الكرة بشكل استثنائي بعيدًا لبدء الهجمات المرتدة.",
-      "name": "حارس مرمى رمية طويلة"
+      "name": "رمية حارس طويلة"
     },
     "inflexible": {
       "description": "يكافح من أجل التكيف مع المواقف أو التكتيكات الجديدة.",
@@ -1315,7 +1323,7 @@
     },
     "injuryConcern": {
       "description": "يثير تاريخ الإصابات تساؤلات حول التوفر على المدى الطويل.",
-      "name": "القلق من الإصابة"
+      "name": "تاريخ إصابات"
     },
     "injuryProne": {
       "description": "هش جسديًا مع زيادة التعرض للإصابات.",
@@ -1327,7 +1335,7 @@
     },
     "lastMan": {
       "description": "خط دفاع أخير يمكن الاعتماد عليه وتمركز ممتاز.",
-      "name": "الرجل الأخير"
+      "name": "آخر مدافع"
     },
     "leadership": {
       "description": "القائد الطبيعي الذي ينظم ويحفز زملائه في الفريق.",
@@ -1335,11 +1343,11 @@
     },
     "leftFootedMaestro": {
       "description": "أناقة ودقة مميزة بالقدم اليسرى.",
-      "name": "المايسترو بالقدم اليسرى"
+      "name": "مايسترو القدم اليسرى"
     },
     "longPasser": {
       "description": "يقوم بتبديل اللعب والعثور على زملاء الفريق من خلال توزيع دقيق بعيد المدى.",
-      "name": "عابر سبيل طويل"
+      "name": "صاحب التمريرات الطويلة"
     },
     "longShotTaker": {
       "description": "يحاول بانتظام ويحول الجهود طويلة المدى.",
@@ -1347,32 +1355,32 @@
     },
     "longShots": {
       "description": "قادر على تسجيل أهداف مذهلة من مسافة بعيدة بقوة ودقة.",
-      "name": "منفذ التسديدة الطويلة"
+      "name": "متخصص التسديد من بعيد"
     },
     "longThrow": {
       "description": "يمكنه إطلاق الكرة لمسافات لا تصدق برميات قوية.",
-      "name": "رمية طويلة"
+      "name": "رمية تماس طويلة"
     },
     "marking": {
       "description": "يلتصق بقوة بالخصوم ويبطل تهديدهم الهجومي.",
-      "name": "رجل ماركر"
+      "name": "مراقبة فردية"
     },
     "naturalFitness": {
       "description": "نادرًا ما يصاب ويتعافى سريعًا من الصدمات البسيطة.",
-      "name": "اللياقة الطبيعية"
+      "name": "لياقة فطرية"
     },
     "negative": "سلبي",
     "noNonsenseDefender": {
-      "description": "مدافع بدني وعدواني يزيل الخطر بشكل حاسم.",
-      "name": "مدافع بلا هراء"
+      "description": "مدافع بدني شرس يفضل إبعاد الكرة والتخلص من الخطورة دون تعقيد.",
+      "name": "مدافع تقليدي"
     },
     "oneClubMan": {
       "description": "الأسطورة المخلصة التي خصصت مسيرتها لنادي واحد.",
-      "name": "رجل النادي الواحد"
+      "name": "أسطورة نادٍ واحد"
     },
     "oneOnOneRush": {
       "description": "العدوانية في إغلاق المهاجمين بسرعة.",
-      "name": "1 ضد 1 راش"
+      "name": "اندفاع 1 ضد 1"
     },
     "oneOnOneSpecialist": {
       "description": "هادئ للغاية عند الضغط على المرمى.",
@@ -1383,44 +1391,44 @@
       "name": "تريفيلا"
     },
     "penaltySaver": {
-      "description": "خبير في صد ضربات الجزاء بحسن الترقب وردود الفعل.",
-      "name": "إنقاذ ركلة الجزاء"
+      "description": "يمتلك حدساً استثنائياً وقدرة على قراءة عيون المهاجمين في ركلات الجزاء.",
+      "name": "متخصص ركلات الجزاء"
     },
     "pinpointCrossing": {
       "description": "يلتقط المهاجمين من خلال توجيه الليزر من الأجنحة.",
-      "name": "معبر محدد"
+      "name": "عرضية دقيقة"
     },
     "playSimple": {
       "description": "يبقي الأمور بسيطة ونادراً ما يتحمل مخاطر غير ضرورية.",
-      "name": "يلعب بسيطة"
+      "name": "يلعب ببساطة"
     },
     "playmaker": {
       "description": "ينسق الهجمات من خلال الرؤية ونطاق التمرير.",
       "name": "صانع ألعاب"
     },
     "poacher": {
-      "description": "لاعب نهائي غريزي يجد مساحة في الصندوق للنقرات والمرتدات.",
-      "name": "مبيضة"
+      "description": "مهاجم ذو غريزة تهديفية عالية يجد المساحات المناسبة داخل منطقة الجزاء للمتابعة.",
+      "name": "قناص منطقة الجزاء"
     },
     "positioning": {
       "description": "دائما في المكان المناسب في الوقت المناسب.",
-      "name": "تحديد المواقع"
+      "name": "التمركز"
     },
     "powerHeader": {
-      "description": "يهيمن على المبارزات الهوائية ويسجل ضربات رأسية حاسمة من العرضيات والركلات الثابتة.",
-      "name": "رأس الطاقة"
+      "description": "يوجه ضربات رأسية قوية لا يمكن لأي حارس إيقافها عند الركنيات.",
+      "name": "رأسية قوية"
     },
     "powerHouse": {
-      "description": "فرض الحضور الجسدي الذي يتنمر على المعارضين.",
-      "name": "قوة"
+      "description": "لاعب عملاق يمتلك كتلة عضلية وقوة انفجارية تفكك أي احتكاك.",
+      "name": "قوة بدنية"
     },
     "powerShot": {
       "description": "يضرب الكرة بسم استثنائي، مما يجعل من الصعب على الحراس الإمساك بها.",
-      "name": "طلقة القوة"
+      "name": "تسديدة قوية"
     },
     "punchesFists": {
       "description": "يفضل لكمة الصلبان بوضوح بدلاً من الإمساك بها.",
-      "name": "الناخس"
+      "name": "حارس يبعد بلكمة"
     },
     "rightFootedSniper": {
       "description": "دقة قاتلة في إنهاء المباراة بالقدم اليمنى.",
@@ -1428,55 +1436,55 @@
     },
     "rushesOutOfGoal": {
       "description": "ابتعد سريعًا عن الخط لخنق مواقف 1 ضد 1.",
-      "name": "يندفع خارجا"
+      "name": "يخرج من مرماه"
     },
     "secondWind": {
       "description": "يكتسب دفعة من القدرة على التحمل في المراحل النهائية من المباريات.",
-      "name": "الريح الثانية"
+      "name": "نفَس ثانٍ"
     },
     "selfish": {
       "description": "يعطي الأولوية للإحصائيات الشخصية على نجاح الفريق.",
-      "name": "أنانية"
+      "name": "أناني"
     },
     "setPieceSpecialist": {
       "description": "سيد الركلات الحرة والركنيات ومواقف الكرة الميتة.",
       "name": "متخصص في الكرات الثابتة"
     },
     "shotStopper": {
-      "description": "ردود أفعال استثنائية وقدرة على الحفظ.",
-      "name": "سدادة النار"
+      "description": "حارس مرمى مذهل في التصدي للتسديدات المباغتة من مسافات قريبة على خط المرمى.",
+      "name": "متخصص في التصدي"
     },
     "slideTackle": {
       "description": "خبير في توقيت التدخلات المنزلقة للفوز بالكرة بشكل نظيف.",
-      "name": "معالج الشريحة"
+      "name": "متقن التدخلات الانزلاقية"
     },
     "solidPlayer": {
       "description": "أداء موثوق ومتسق أسبوعًا بعد أسبوع.",
-      "name": "لاعب صلب"
+      "name": "لاعب موثوق"
     },
     "speedDribbler": {
       "description": "يستخدم السرعة وخفة الحركة لتجاوز المدافعين بسرعة عالية.",
-      "name": "المراوغ السرعة"
+      "name": "مراوغ سريع"
     },
     "speedMerchant": {
       "description": "السرعة الفائقة تسمح له بالتغلب على المدافعين واستغلال المساحة خلف الخط.",
-      "name": "سبيدستر"
+      "name": "صاروخ"
     },
     "strength": {
       "description": "تساعد القوة البدنية على الفوز بالمبارزات وصد الخصوم.",
       "name": "قوة"
     },
     "sweeperKeeper": {
-      "description": "الاندفاع المريح لإبعاد الكرات والعمل كمدافع إضافي.",
-      "name": "حارس الكناس"
+      "description": "حارس مرمى يجيد الخروج لقطع التمريرات البينية الساقطة خلف المدافعين كأنه قلب دفاع إضافي.",
+      "name": "حارس قشاش"
     },
     "tacklesBack": {
       "description": "الاجتهاد في العودة لمساعدة الدفاع عند فقدان الاستحواذ.",
-      "name": "المسارات مرة أخرى"
+      "name": "يعود للدفاع"
     },
     "targetMan": {
-      "description": "الحضور الجسدي الذي يوقف اللعب ويجلب زملاء الفريق إلى الهجوم.",
-      "name": "الرجل المستهدف"
+      "description": "حضور بدني قوي يحجز الكرة بظهره للمرمى ويهيئ اللعب لزملائه القادمين من الخلف.",
+      "name": "رأس حربة صريح"
     },
     "teamPlayer": {
       "description": "يضع دائمًا احتياجات الفريق فوق المجد الشخصي.",
@@ -1484,15 +1492,15 @@
     },
     "teamwork": {
       "description": "ممتاز في الاندماج مع زملائه في الفريق واللعب بشكل متماسك.",
-      "name": "العمل الجماعي"
+      "name": "روح الفريق"
     },
     "technicalDribbler": {
       "description": "مراوغ صبور يستخدم الخدع الجسدية والتحكم الدقيق للتنقل في الدفاعات.",
-      "name": "المراوغ الفني"
+      "name": "مراوغ تقني"
     },
     "throughBall": {
       "description": "متخصص في تقسيم الدفاعات بتمريرات مرجحة بشكل مثالي.",
-      "name": "من خلال الكرة"
+      "name": "تمريرة بينية"
     },
     "tirelessRunner": {
       "description": "القدرة على التحمل الاستثنائية تسمح بكثافة عالية طوال المباريات.",
@@ -1500,76 +1508,208 @@
     },
     "trickster": {
       "description": "يتمتع بمهارات شعوذة وأداء استعراض القوارب.",
-      "name": "محتال"
+      "name": "لاعب استعراضي"
     },
     "twoFooted": {
       "description": "يسدد ويمرر بنفس الجودة بكلتا القدمين.",
-      "name": "ذو القدمين"
+      "name": "يجيد بالقدمين"
     },
     "versatile": {
       "description": "قادر على اللعب في عدة مراكز بكفاءة.",
-      "name": "متنوع القدرات"
+      "name": "متعدد المراكز"
     },
     "vision": {
       "description": "يرى التسديدات التي لا يراها الآخرون ويخلق الفرص من خلال التمريرات الحاسمة.",
-      "name": "رؤية"
+      "name": "رؤية الملعب"
     },
     "weakFoot": {
       "description": "يكافح عندما يضطر إلى استخدام قدم أضعف.",
       "name": "القدم الضعيفة"
+    },
+    "Box-to-Box": {
+      "description": "يغطي كل قطعة من العشب، مما يساهم في الدفاع والهجوم.",
+      "name": "من منطقة إلى منطقة"
+    },
+    "Ball Winner": {
+      "description": "لاعب ارتكاز يستعيد الكرة بافتكاك نظيف ويدمر هجمات المنافسين في مهدها.",
+      "name": "مستعيد الكرة"
+    },
+    "Ball-Playing Defender": {
+      "description": "مريح في التعامل مع الكرة ويبدأ الهجمات من الخلف.",
+      "name": "مدافع صانع لعب"
+    },
+    "Deep-Lying Playmaker": {
+      "description": "يتحكم في إيقاع المباراة من مناطق متأخرة بفضل دقة التمرير وسعة الرؤية (ريجيستا).",
+      "name": "صانع ألعاب متأخر"
+    },
+    "Crossing Specialist": {
+      "description": "يرسل عرضيات خطيرة من مناطق واسعة بالسوط والسرعة.",
+      "name": "متخصص في العرضيات"
+    },
+    "Dribbling Wizard": {
+      "description": "تحكم استثنائي بالكرة وقدرة على التمرير بين العديد من المدافعين.",
+      "name": "معالج المراوغة"
+    },
+    "Command of Area": {
+      "description": "يسيطر على منطقة الجزاء ويسيطر على العرضيات وينظم الدفاع.",
+      "name": "السيطرة على المنطقة"
+    },
+    "Claims Crosses": {
+      "description": "يخرج بجرأة للتعامل مع الكرات العرضية والسيطرة على الكرات الهوائية.",
+      "name": "السيطرة على العرضيات"
+    },
+    "Clinical Finisher": {
+      "description": "يتفوق في المواقف الفردية ويحول الفرص بدقة.",
+      "name": "إنهاء حاسم"
+    },
+    "Power Header": {
+      "description": "يوجه ضربات رأسية قوية لا يمكن لأي حارس إيقافها عند الركنيات.",
+      "name": "رأسية قوية"
+    },
+    "Long Passer": {
+      "description": "يقوم بتبديل اللعب والعثور على زملاء الفريق من خلال توزيع دقيق بعيد المدى.",
+      "name": "صاحب التمريرات الطويلة"
+    },
+    "Puncher": {
+      "description": "يفضل لكمة الصلبان بوضوح بدلاً من الإمساك بها.",
+      "name": "حارس يبعد بلكمة"
+    },
+    "Distance Shooter": {
+      "description": "يحاول بانتظام ويحول الجهود طويلة المدى.",
+      "name": "مطلق النار المسافة"
+    },
+    "Speedster": {
+      "description": "السرعة الفائقة تسمح له بالتغلب على المدافعين واستغلال المساحة خلف الخط.",
+      "name": "صاروخ"
+    },
+    "Aerial Dominance": {
+      "description": "يفوز تقريبًا في كل مبارزة جوية بفضل تمركزه وتوقيته المتميزين.",
+      "name": "الهيمنة الجوية"
+    },
+    "Dribbler": {
+      "description": "تحكم استثنائي بالكرة وقدرة على التمرير بين العديد من المدافعين.",
+      "name": "معالج المراوغة"
+    },
+    "Playmaker": {
+      "description": "ينسق الهجمات من خلال الرؤية ونطاق التمرير.",
+      "name": "صانع ألعاب"
+    },
+    "Leader": {
+      "description": "القائد الطبيعي الذي ينظم ويحفز زملائه في الفريق.",
+      "name": "قيادة"
+    },
+    "Early Crosser": {
+      "description": "يلتقط المهاجمين من خلال توجيه الليزر من الأجنحة.",
+      "name": "عرضية دقيقة"
+    },
+    "Long Ball Taker": {
+      "description": "يقوم بتبديل اللعب والعثور على زملاء الفريق من خلال توزيع دقيق بعيد المدى.",
+      "name": "صاحب التمريرات الطويلة"
+    },
+    "One Club Player": {
+      "description": "الأسطورة المخلصة التي خصصت مسيرتها لنادي واحد.",
+      "name": "أسطورة نادٍ واحد"
+    },
+    "Save With Feet": {
+      "description": "حارس مرمى مذهل في التصدي للتسديدات المباغتة من مسافات قريبة على خط المرمى.",
+      "name": "متخصص في التصدي"
+    },
+    "Solid Player": {
+      "description": "أداء موثوق ومتسق أسبوعًا بعد أسبوع.",
+      "name": "لاعب موثوق"
+    },
+    "Leadership": {
+      "description": "القائد الطبيعي الذي ينظم ويحفز زملائه في الفريق.",
+      "name": "قيادة"
+    },
+    "Engine": {
+      "description": "عداء لا يكل ولا يتوقف أبدًا عن العمل من أجل الفريق.",
+      "name": "محرك"
+    },
+    "Composure": {
+      "description": "يبقى هادئًا تحت الضغط ويتخذ قرارات أفضل في اللحظات الحاسمة.",
+      "name": "رباطة جأش"
+    },
+    "Consistency": {
+      "description": "يحافظ على مستوى عالٍ من الأداء مباراة بعد مباراة.",
+      "name": "تناسق"
+    },
+    "Flair": {
+      "description": "لاعب مبدع بطبيعته يحاول تقديم العروض المذهلة ويسلي الجمهور.",
+      "name": "الذوق"
+    },
+    "Power Free-Kick": {
+      "name": "ركلة حرة قوية",
+      "description": "يسدد ركلات حرة مباشرة بعيدة المدى بقوة هائلة وسرعة خاطفة."
+    },
+    "Swerves Shot": {
+      "name": "تسديدات ملتفة",
+      "description": "يمنح الكرة انحناءً حاداً لتجاوز الحائط والحراس ببراعة."
+    },
+    "Takes Powerful Driven Free Kicks": {
+      "name": "ركلات حرة قوية",
+      "description": "ينفذ ركلات حرة صاروخية منخفضة تخترق التكتلات الدفاعية."
+    },
+    "Tries To Beat Offside Trap": {
+      "name": "كسر مصيدة التسلل",
+      "description": "يتحرك بذكاء على خط المدافع الأخير للانطلاق في العمق خلف الدفاع."
+    },
+    "Second Wind": {
+      "name": "نفَس ثانٍ",
+      "description": "يستعيد طاقته وحيويته في الدقائق الأخيرة من المباراة عندما يصيب التعب الجميع."
     }
   },
   "traitStyles": {
-    "aerialDominance": "يفوز بجميع الرؤوس تقريبًا",
-    "ballPlayingDefender": "مريح على الكرة ويبني من الخلف",
-    "ballWinner": "عدواني وفعال في الفوز بالكرة",
-    "bigGamePlayer": "يؤدي في المباريات الحاسمة",
-    "boxToBox": "يغطي الملعب ويساهم في كلا الصندوقين",
-    "clinicalFinisher": "تشطيب ممتاز أمام المرمى",
+    "aerialDominance": "يفوز بمعظم الرأسيات",
+    "ballPlayingDefender": "مرتاح بالكرة ويبني من الخلف",
+    "ballWinner": "عدواني وفعّال في استعادة الكرة",
+    "bigGamePlayer": "يتألق في المباريات الحاسمة",
+    "boxToBox": "يغطي الملعب ويساهم في المنطقتين",
+    "clinicalFinisher": "إنهاء ممتاز أمام المرمى",
     "commandOfArea": "يسيطر على منطقة الجزاء",
-    "composure": "الهدوء تحت الضغط",
-    "crossingSpecialist": "يسلم الصلبان الجودة",
+    "composure": "هادئ تحت الضغط",
+    "crossingSpecialist": "يمنح عرضيات عالية الجودة",
     "decentLevel": "مقبول",
-    "deepLyingPlaymaker": "ينسق العزف من العمق",
-    "dribblingWizard": "تحكم دقيق ومراوغة ممتازة",
-    "engine": "وتيرة لا هوادة فيها لمدة 90 دقيقة",
-    "everPresent": "أداء موثوق به أسبوعًا بعد أسبوع",
+    "deepLyingPlaymaker": "يقود اللعب من الخلف",
+    "dribblingWizard": "تحكم ممتاز بالكرة ومراوغة",
+    "engine": "سرعة لا تتراجع لمدة 90 دقيقة",
+    "everPresent": "أداء ثابت أسبوعاً بعد أسبوع",
     "excellentLevel": "ممتاز",
-    "exceptionalLevel": "استثنائية",
-    "flairPlayer": "لا يمكن التنبؤ به ومبدع مع الكرة",
+    "exceptionalLevel": "استثنائي",
+    "flairPlayer": "غير متوقع ومبدع بالكرة",
     "goodLevel": "جيد",
-    "injuryProne": "عرضة للمشاكل الجسدية المتكررة",
-    "interceptor": "يقرأ المباراة ويعترض التمريرات",
-    "lastMan": "خط دفاع أخير يمكن الاعتماد عليه",
-    "leadership": "قائد طبيعي داخل وخارج الملعب",
-    "leftFootedMaestro": "تقنية وتحكم متقن بالقدم اليسرى",
-    "longShots": "يسجل من مسافة بعيدة بدقة جيدة",
-    "naturalFitness": "نادرا ما يتعب أو يصاب",
+    "injuryProne": "يتعرض لمشاكل بدنية متكررة",
+    "interceptor": "يقرأ اللعب ويعترض التمريرات",
+    "lastMan": "خط دفاع أخير موثوق",
+    "leadership": "قائد فطري داخل الملعب وخارجه",
+    "leftFootedMaestro": "تقنية وتحكم متقنان بالقدم اليسرى",
+    "longShots": "يسجل من بعيد بدقة جيدة",
+    "naturalFitness": "نادراً ما يتعب أو يُصاب",
     "noNonsenseDefender": "بدني ومباشر في الدفاع",
-    "penaltySaver": "قوي في التصدي لركلات الجزاء",
-    "playmaker": "رؤية ممتازة ونطاق التمرير",
-    "poacher": "تمركز ممتاز داخل منطقة الجزاء",
-    "powerHeader": "قدرة ممتازة على المبارزة الجوية",
-    "quietProfessional": "نادرا ما يتم حجزها",
-    "rightFootedSniper": "تشطيب قاتل ودقة بالقدم اليمنى",
-    "secondWind": "يحافظ على الطاقة في وقت متأخر من الألعاب",
-    "setpieceSpecialist": "خطير في الضربات الركنية والركلات الحرة",
-    "shotStopper": "متخصص منعكس بين العصي",
-    "speedMerchant": "سرعة كهربائية داخل وخارج الكرة",
-    "sweeperKeeper": "حارس حديث مريح خارج الصندوق",
-    "targetMan": "لعب ممتاز وحضور جوي",
-    "tirelessRunner": "لا يتوقف أبدا عن الجري",
-    "twoFooted": "مريح بنفس القدر بكلتا القدمين",
-    "versatile": "يمكنه اللعب في عدة مراكز",
-    "vision": "قدرة استثنائية على العثور على التمريرات"
+    "penaltySaver": "قوي في صد ركلات الجزاء",
+    "playmaker": "رؤية ممتازة ومدى تمرير واسع",
+    "poacher": "تمركز ممتاز داخل المنطقة",
+    "powerHeader": "قدرة ممتازة في الصراعات الهوائية",
+    "quietProfessional": "نادراً ما يحصل على بطاقة",
+    "rightFootedSniper": "إنهاء قاتل ودقة بالقدم اليمنى",
+    "secondWind": "يحافظ على طاقته في أواخر المباريات",
+    "setpieceSpecialist": "خطر في الركنيات والركلات الحرة",
+    "shotStopper": "متميز بردود الفعل بين الخشبات",
+    "speedMerchant": "سرعة خارقة بالكرة وبدونها",
+    "sweeperKeeper": "حارس حديث مرتاح خارج المنطقة",
+    "targetMan": "إمساك ممتاز للكرة وحضور هوائي",
+    "tirelessRunner": "لا يتوقف عن الجري",
+    "twoFooted": "مرتاح بالقدمين معاً",
+    "versatile": "يجيد اللعب في عدة مراكز",
+    "vision": "قدرة استثنائية على إيجاد التمريرات"
   },
   "traits": {
     "Ambitions_desc": "طموح ومصمم على الوصول إلى القمة",
-    "Argues With Officials": "يتجادل مع المسؤولين",
+    "Argues With Officials": "يتجادل مع الحكام",
     "Argues With Officials_desc": "الميل للشكوى للحكام، والمخاطرة بالبطاقات",
-    "Big Game Player": "لاعب لعبة كبيرة",
+    "Big Game Player": "لاعب المباريات الكبيرة",
     "Big Game Player_desc": "يرفع المستوى في المباريات الكبيرة",
-    "Clinical Finisher": "التشطيب السريري",
+    "Clinical Finisher": "إنهاء حاسم",
     "Clinical Finisher_desc": "ارتفاع معدل التحويل على الفرص",
     "Composure": "رباطة جأش",
     "Composure_desc": "يحافظ على الهدوء تحت الضغط",
@@ -1579,7 +1719,7 @@
     "Dirty Player_desc": "عرضة للأخطاء القوية واللعب القذر",
     "Dribbling Wizard": "معالج المراوغة",
     "Dribbling Wizard_desc": "مهارة استثنائية في التعامل مع الكرة بالقدمين",
-    "Driven": "مدفوعة",
+    "Driven": "طموح",
     "Driven_desc": "متحمس للغاية للنجاح",
     "Early Adopter": "مبتكر",
     "Early Adopter_desc": "سريع التكيف مع التقنيات والتكتيكات الجديدة",
@@ -1591,9 +1731,9 @@
     "Free Kick Specialist_desc": "منفذ ضربات حرة ممتاز",
     "Hard Working": "العمل الجاد",
     "Hard Working_desc": "يقدم دائمًا 100% على أرض الملعب",
-    "Header Expert": "خبير الرأس",
+    "Header Expert": "خبير الرأسيات",
     "Header Expert_desc": "المهيمنة في الهواء",
-    "Hot Head": "الرأس الساخن",
+    "Hot Head": "سريع الانفعال",
     "Hot Head_desc": "يفقد رباطة جأشه بسهولة",
     "Injury Prone": "عرضة للإصابة",
     "Injury Prone_desc": "ارتفاع خطر الإصابة",
@@ -1601,104 +1741,104 @@
     "Leader_desc": "يلهم ويحفز زملائه",
     "Leadership": "قيادة",
     "Leadership_desc": "ولد قائدا على أرض الملعب",
-    "Left-Footed Maestro": "المايسترو بالقدم اليسرى",
+    "Left-Footed Maestro": "مايسترو القدم اليسرى",
     "Left-Footed Maestro_desc": "تقنية راقية بالقدم اليسرى",
-    "Long Shot Taker": "منفذ التسديدة الطويلة",
+    "Long Shot Taker": "متخصص التسديد من بعيد",
     "Long Shot Taker_desc": "خطير من المدى",
-    "Long Throw": "رمية طويلة",
+    "Long Throw": "رمية تماس طويلة",
     "Long Throw_desc": "رميات طويلة مثل الكرات الثابتة",
     "Loyal": "وفي",
     "Loyal_desc": "وفيا للنادي",
-    "Media Darling": "وسائل الإعلام حبيبي",
+    "Media Darling": "مفضل الإعلام",
     "Media Darling_desc": "علاقة جيدة مع الصحافة",
-    "Media Shy": "خجولة إعلاميا",
+    "Media Shy": "يتجنب الإعلام",
     "Media Shy_desc": "يتجنب الأضواء والمقابلات",
     "Mercenary": "مرتزق",
     "Mercenary_desc": "يعطي الأولوية للمال",
-    "Natural Fitness": "اللياقة الطبيعية",
+    "Natural Fitness": "لياقة فطرية",
     "Natural Fitness_desc": "نادرا ما يتعب ويتعافى بسرعة",
-    "One Club Player": "لاعب نادي واحد",
+    "One Club Player": "لاعب نادٍ واحد",
     "One Club Player_desc": "الولاء الشديد للنادي",
-    "One-Club Man": "أيقونة النادي",
+    "One-Club Man": "أسطورة النادي",
     "One-Club Man_desc": "كرس حياته المهنية بأكملها لنفس النادي",
     "Penalty Expert": "خبير ضربات الجزاء",
     "Penalty Expert_desc": "منفذ ركلة جزاء موثوق",
     "Playmaker": "صانع ألعاب",
     "Playmaker_desc": "يخلق الفرص للفريق",
-    "Poacher": "مبيضة",
+    "Poacher": "قناص منطقة الجزاء",
     "Poacher_desc": "دائما في المكان المناسب للتسجيل",
-    "Power Header": "رأس الطاقة",
+    "Power Header": "رأسية قوية",
     "Power Header_desc": "قوي في الهجوم الجوي",
     "Professional": "احترافي",
     "Professional_desc": "سلوك مثالي داخل وخارج الملعب",
     "Right-Footed Sniper": "قناص بالقدم اليمنى",
     "Right-Footed Sniper_desc": "التشطيبات القاتلة بالقدم اليمنى",
-    "Set Piece Specialist": "متخصص في القطع الثابتة",
+    "Set Piece Specialist": "متخصص في الكرات الثابتة",
     "Set Piece Specialist_desc": "ممتاز في الضربات الركنية والركلات الحرة وركلات الجزاء",
-    "Set-piece Specialist": "متخصص في الركلات الثابتة",
+    "Set-piece Specialist": "متخصص في الكرات الثابتة",
     "Set-piece Specialist_desc": "ممتاز في الركلات الحرة والركنيات",
-    "Showboat": "زورق استعراضي",
+    "Showboat": "مستعرض",
     "Showboat_desc": "يحب أداء الحيل",
     "Speed Demon": "شيطان السرعة",
     "Speed Demon_desc": "تسارع سريع للغاية",
-    "Speed Merchant": "سبيدستر",
+    "Speed Merchant": "صاروخ",
     "Speed Merchant_desc": "وتيرة وتسارع لا يصدق",
-    "Stamina Beast": "وحش القدرة على التحمل",
+    "Stamina Beast": "وحش التحمل",
     "Stamina Beast_desc": "لا تتعب أبدًا أثناء اللعبة",
-    "Strong Tackler": "معالج قوي",
+    "Strong Tackler": "قوي في التدخلات",
     "Strong Tackler_desc": "ممتاز في التصدي للكرة والفوز بها",
     "Sweeper Keeper": "حارس الكناس",
     "Sweeper Keeper_desc": "الحارس الذي يقوم بدور المدافع الأخير",
     "Team Player": "لاعب الفريق",
     "Team Player_desc": "يعطي الأولوية للفريق على الذات",
-    "Technical": "اِصطِلاحِيّ",
+    "Technical": "تقني",
     "Technical_desc": "القدرة التقنية المحسنة",
     "Temperamental": "مزاجي",
     "Temperamental_desc": "يمكن أن يفقدوا رؤوسهم",
-    "Two-Footed": "ذو القدمين",
+    "Two-Footed": "يجيد بالقدمين",
     "Two-Footed_desc": "قوي بنفس القدر بكلتا القدمين",
-    "Versatile": "متنوع القدرات",
-    "Versatile_desc": "يمكنه اللعب في عدة مراكز",
-    "Vocal Leader": "قائد صوتي",
+    "Versatile": "متعدد المراكز",
+    "Versatile_desc": "يجيد اللعب في عدة مراكز",
+    "Vocal Leader": "قائد موجّه",
     "Vocal Leader_desc": "يتواصل وينظم الفريق على أرض الملعب",
     "aerialDominance": "الهيمنة الجوية",
-    "ballPlayingDefender": "مدافع يلعب بالكرة",
-    "ballWinner": "الفائز بالكرة",
-    "bigGamePlayer": "لاعب لعبة كبيرة",
-    "boxToBox": "صندوق إلى صندوق",
-    "clinicalFinisher": "التشطيب السريري",
-    "commandOfArea": "قيادة المنطقة",
+    "ballPlayingDefender": "مدافع صانع لعب",
+    "ballWinner": "مستعيد الكرة",
+    "bigGamePlayer": "لاعب المباريات الكبيرة",
+    "boxToBox": "من منطقة إلى منطقة",
+    "clinicalFinisher": "إنهاء حاسم",
+    "commandOfArea": "السيطرة على المنطقة",
     "composure": "رباطة جأش",
-    "crossingSpecialist": "أخصائي العبور",
+    "crossingSpecialist": "متخصص في العرضيات",
     "decentLevel": "مستوى لائق",
-    "deepLyingPlaymaker": "صانع ألعاب عميق",
+    "deepLyingPlaymaker": "صانع ألعاب متأخر",
     "dribblingWizard": "معالج المراوغة",
     "engine": "محرك",
-    "everPresent": "حاضر دائمًا",
+    "everPresent": "حاضر دائماً",
     "excellentLevel": "مستوى ممتاز",
     "exceptionalLevel": "مستوى استثنائي",
-    "flairPlayer": "لاعب فلير",
+    "flairPlayer": "لاعب مراوغ",
     "goodLevel": "مستوى جيد",
     "interceptor": "المعترض",
-    "lastMan": "الرجل الأخير",
+    "lastMan": "آخر مدافع",
     "leadership": "قيادة",
-    "longShots": "منفذ التسديدة الطويلة",
-    "naturalFitness": "اللياقة الطبيعية",
-    "noNonsenseDefender": "مدافع بلا هراء",
+    "longShots": "متخصص التسديد من بعيد",
+    "naturalFitness": "لياقة فطرية",
+    "noNonsenseDefender": "مدافع تقليدي",
     "penaltySaver": "خبير ضربات الجزاء",
     "playmaker": "صانع ألعاب",
-    "poacher": "مبيضة",
-    "powerHeader": "رأس الطاقة",
+    "poacher": "قناص منطقة الجزاء",
+    "powerHeader": "رأسية قوية",
     "quietProfessional": "محترف هادئ",
-    "secondWind": "الريح الثانية",
+    "secondWind": "نفَس ثانٍ",
     "setpieceSpecialist": "متخصص في الكرات الثابتة",
-    "shotStopper": "سدادة النار",
-    "speedMerchant": "سبيدستر",
+    "shotStopper": "متخصص في التصدي",
+    "speedMerchant": "صاروخ",
     "sweeperKeeper": "حارس الكناس",
-    "targetMan": "الرجل المستهدف",
+    "targetMan": "رأس حربة صريح",
     "tirelessRunner": "لا يكل",
-    "versatile": "متنوع القدرات",
-    "vision": "رؤية"
+    "versatile": "متعدد المراكز",
+    "vision": "رؤية الملعب"
   },
   "trophy": {
     "afcChampionsLeague": "كأس أبطال آسيا",
@@ -1713,7 +1853,7 @@
     "concacafChampionsCup": "كأس أبطال أمريكا الشمالية",
     "conferenceLeague": "كأس الوصول الأوروبي",
     "copaSudamericana": "كأس أندية أمريكا الجنوبية",
-    "cup": "كوب",
+    "cup": "كأس",
     "europaLeague": "كأس الأندية الأوروبية",
     "intercontinentalCup": "كأس الانتركونتيننتال",
     "league": "الدوري",
@@ -1723,7 +1863,9 @@
     "orientalPlayoff": "التصفيات الشرقية",
     "recopaSudamericana": "كأس السوبر أمريكا الجنوبية",
     "supercup": "كأس السوبر",
-    "worldCup": "البطولة العالمية"
+    "worldCup": "البطولة العالمية",
+    "afcChallengeCup": "كأس التحدي الآسيوي",
+    "americasClassic": "كلاسيكو الأمريكتين"
   },
   "injury": {
     "oneMonth": "1 شهر",
@@ -1731,5 +1873,11 @@
     "seasonEnding": "نهاية الموسم",
     "days": "{count} يوم",
     "months": "{count} شهر"
-  }
+  },
+  "intensity": {
+    "extreme": "Extreme"
+  },
+  "intensityExtreme": "Extreme",
+  "winContinentalCup": "الفوز بالكأس القارية مع {team}",
+  "winWorldCup": "الفوز ببطولة العالم مع {country}"
 }

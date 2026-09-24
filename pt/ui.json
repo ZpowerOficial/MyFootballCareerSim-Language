@@ -140,6 +140,7 @@
     "oneTime": "Doação Única",
     "monthly": "Apoio Mensal",
     "oneTimeDesc": "Escolha qualquer valor",
+    "paymentCards": "Cartão",
     "monthlyDesc": "Assinatura recorrente mensal"
   },
   "common": {
@@ -177,6 +178,7 @@
       "League": "Campeonato"
     },
     "confirm": "Confirmar",
+    "continental": "Continental",
     "continue": "Continuar",
     "currencySymbol": "€",
     "day": "Dia",
@@ -267,6 +269,7 @@
     "perWeekSuffixShort": "/sem",
     "playoffRound": "Playoffs",
     "pos": "Pos",
+    "potentialShort": "POT",
     "position": "Posição",
     "positionHeatmap": "Mapa de Calor de Posição",
     "quarterFinals": "Quartas de Final",
@@ -274,6 +277,8 @@
     "ratingShort": "NOTA",
     "redCards": "Vermelhos",
     "reject": "Recusar",
+    "reputationShort": "REP",
+    "retired": "Aposentado",
     "round16": "Oitavas de Final",
     "round32": "32 Avos de Final",
     "round64": "64 Avos de Final",
@@ -297,6 +302,11 @@
     "total": "Total",
     "trophy": "Troféu",
     "trophyTitle": "Troféu",
+    "unknownClub": "Clube Desconhecido",
+    "unknownCountry": "País Desconhecido",
+    "unknownTeam": "Equipe Desconhecida",
+    "selectPlaceholder": "Selecionar...",
+    "reddit": "Reddit",
     "value": "Valor",
     "view": "Ver",
     "warning": "Aviso",
@@ -307,6 +317,7 @@
     "year": "Ano",
     "yearSuffix": "a",
     "years": "anos",
+    "yearsShort": "ANOS",
     "yellowCards": "Amarelos",
     "yes": "Sim",
     "youth": "Juvenil",
@@ -366,7 +377,13 @@
     "competition": "Competição",
     "skill": "Habilidade",
     "team": "Time",
-    "traits": "Características"
+    "traits": "Características",
+    "playoffs": "Play-offs",
+    "roundOf64": "32 avos de final",
+    "roundOf32": "16 avos de final",
+    "roundOf16": "Oitavas de final",
+    "reloadCareer": "Recarregar carreira salva",
+    "careerReloadFailed": "Não foi possível recarregar a carreira. Tente novamente."
   },
   "continents": {
     "Africa": "África",
@@ -393,6 +410,7 @@
     "times": "{count} vezes"
   },
   "dashboard": {
+    "npcTransfersDisabled": "Transferências de NPCs desativadas. As ofertas para o seu jogador continuam disponíveis.",
     "agent": "Agente",
     "agentContract": "Agente & Contrato",
     "agentContractYears": "Contrato do agente",
@@ -510,7 +528,7 @@
       "morale": "Moral",
       "reputation": "Reputação",
       "followers": "Seguidores",
-      "overall": "Overall",
+      "overall": "Geral",
       "attributes": "Principais atributos",
       "noChanges": "Nenhuma mudança de atributo recente.",
       "financeTitle": "Previsão Financeira Exata",
@@ -1113,38 +1131,38 @@
     "Aerial Dominance": "Domínio Aéreo",
     "Clinical Finisher": "Finalizador Clínico",
     "Dribbling Wizard": "Mago do Drible",
-    "One-Club Man": "Homem de Um Clube Só",
+    "One-Club Man": "Ícone do Clube",
     "Set-piece Specialist": "Especialista em Bola Parada",
     "Tireless Runner": "Corredor Incansável",
     "Speed Merchant": "Velocista",
     "Playmaker": "Armador",
     "Shot Stopper": "Paredão",
-    "Penalty Saver": "Pegador de Pênalti",
-    "Big Game Player": "Jogador Decisivo",
+    "Penalty Saver": "Pegador de Pênaltis",
+    "Big Game Player": "Jogador de Grandes Jogos",
     "aerialDominance": "Domínio Aéreo",
     "clinicalFinisher": "Finalizador Clínico",
     "dribblingWizard": "Mago do Drible",
-    "oneClubMan": "Homem de Um Clube Só",
+    "oneClubMan": "Ícone do Clube",
     "setPieceSpecialist": "Especialista em Bola Parada",
     "tirelessRunner": "Corredor Incansável",
     "speedMerchant": "Velocista",
     "playmaker": "Armador",
     "shotStopper": "Paredão",
-    "penaltySaver": "Pegador de Pênalti",
-    "bigGamePlayer": "Jogador Decisivo"
+    "penaltySaver": "Pegador de Pênaltis",
+    "bigGamePlayer": "Jogador de Grandes Jogos"
   },
   "traits": {
     "Aerial Dominance": "Domínio Aéreo",
     "Clinical Finisher": "Finalizador Clínico",
     "Dribbling Wizard": "Mago do Drible",
-    "One-Club Man": "Homem de Um Clube Só",
+    "One-Club Man": "Ícone do Clube",
     "Set-piece Specialist": "Especialista em Bola Parada",
     "Tireless Runner": "Corredor Incansável",
     "Speed Merchant": "Velocista",
     "Playmaker": "Armador",
     "Shot Stopper": "Paredão",
-    "Penalty Saver": "Pegador de Pênalti",
-    "Big Game Player": "Jogador Decisivo"
+    "Penalty Saver": "Pegador de Pênaltis",
+    "Big Game Player": "Jogador de Grandes Jogos"
   },
   "reports": {
     "assistantCoach": "Relatório do Auxiliar Técnico"
@@ -1387,8 +1405,8 @@
     "saves": "Defesas",
     "seasons": "Temporadas",
     "shareNow": "Compartilhar Agora",
-    "fixedRatioNotice": "Cartão Social Fixo 4:5",
-    "viewBreakdown": "Pontuação Detalhada",
+    "fixedRatioNotice": "Cartão fixo padrão 4:5",
+    "viewBreakdown": "Ver Detalhamento",
     "legacyFormula": "Fórmula balanceada baseada em títulos, prêmios, desempenho, longevidade e reputação.",
     "title": "Compartilhar Carreira",
     "trophies": "Troféus",
@@ -1513,7 +1531,8 @@
   "trophy": "Troféu",
   "clubHistory": "Histórico de Clubes",
   "competition": {
-    "unknownCup": "Copa desconhecida"
+    "unknownCup": "Copa desconhecida",
+    "unknownYouthCup": "Copa Juvenil Desconhecida"
   },
   "competitionDetails": "Detalhes da Competição: {country}",
   "noDomesticCup": "Sem Copa Nacional",
@@ -1581,7 +1600,7 @@
   "yrs": "Anos",
   "supercopaBrasil": "Supercopa do Brasil",
   "awards": {
-    "youthCategoryNotice": "Prêmios das Categorias de Base",
+    "youthCategoryNotice": "Premiações de Categorias de Base",
     "worldRankings": "Global",
     "votingResults": "Resultados da Votação",
     "rankings": "Rankings Mundiais",
@@ -1683,6 +1702,7 @@
     "position": "Posição",
     "points": "Pontos",
     "noDataYet": "Complete sua primeira temporada para ver os rankings",
+    "you": "Você",
     "yourPosition": "Sua Posição",
     "viewVotingResults": "Ver resultados e histórico de votação",
     "completeSeasonFirst": "Termine sua primeira temporada para ver os resultados do ranking mundial",
@@ -1724,15 +1744,19 @@
     "leaguePhase": "Fase de Liga",
     "bySeason": "Por Temporada",
     "directQualification": "Direto às Oitavas",
+    "noChampions": "Nenhum campeão registrado",
     "npcRankings": "Top",
     "playoffSpot": "Playoff",
     "playoffs": "Playoffs",
     "results": "Jogos",
     "simulateFirst": "Simule uma temporada para ver a classificação",
+    "simulateSeasonsHint": "Simule temporadas para construir o histórico",
     "teams": "times",
     "titleRanking": "Ranking de Títulos"
   },
   "seasonEvents": {
+    "offseasonPending": "As evoluções e aposentadorias da pré-temporada serão registradas ao avançar para a próxima temporada.",
+    "progressed": "Jogadores atualizados",
     "title": "Eventos da Temporada",
     "season": "Temporada",
     "breakthroughs": "Revelações da Temporada",
@@ -1745,9 +1769,10 @@
     "moreTransfers": "mais transferências",
     "noEvents": "Nenhum evento nesta temporada",
     "inProgressTitle": "Temporada em Andamento",
-    "inProgressNotice": "Os destaques do fim da temporada (revelações, principais transferências e aposentadorias) serão compilados ao final do ano."
+    "inProgressNotice": "Os destaques do ano serão compilados ao término da temporada."
   },
   "transfers": {
+    "typePermanent": "Definitivo",
     "title": "Janela de Transferências",
     "total": "transferências",
     "biggestMove": "Maior Transferência",

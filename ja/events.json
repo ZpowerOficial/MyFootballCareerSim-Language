@@ -23,7 +23,10 @@
     "reachCareerAssists": "キャリアアシストのマイルストーンに到達",
     "reachCareerGoals": "キャリア目標のマイルストーンに到達する",
     "reachOverallRating": "OVR目標を達成する",
-    "winWorldCup": "世界トーナメントで優勝する"
+    "winWorldCup": "世界トーナメントで優勝する",
+    "spendDecade": "{team}で10年間プレーする",
+    "topTierLeague": "エリートリーグでプレーする",
+    "winContinentalCup": "{team}で大陸カップを制する"
   },
   "agent": {
     "contractExpired": "エージェントとの契約が終了しました。 {name} ({reputation}) で署名しました。",
@@ -53,12 +56,12 @@
       "balanced": "バランスの取れた",
       "contract": "契約",
       "sponsorship": "スポンサーシップ",
-      "transfer": "転送",
+      "transfer": "移籍",
       "Brand Builder": "ブランドビルダー",
       "Mastermind": "マスターマインド"
     },
     "style": {
-      "Adaptable": "適応性のある",
+      "Adaptable": "適応力",
       "Aggressive": "攻撃的",
       "Ambitious": "野心的な",
       "Analytical": "分析的",
@@ -210,7 +213,7 @@
       "exposure": "暴露",
       "fans": "ファンとの関係",
       "followers": "フォロワー",
-      "form": "形状",
+      "form": "調子",
       "generosity": "寛大さ",
       "loyalty": "忠誠心",
       "morale": "士気",
@@ -352,12 +355,12 @@
       "relegated": "{team} は下位リーグに降格しました。"
     },
     "loan": {
-      "becamePermanent": "ローンは{team}で永久になりました（親クラブは利用不可）。",
-      "clubSeekingMove": "クラブは継続的なキャリア開発を確保するために積極的にローンを求めています。",
-      "opportunitiesAvailable": "定期的なフットボールを確保するために、{count} のローンの機会が利用可能です。",
-      "returnedToClub": "ローン期間を経て、{team} に戻りました。",
-      "returnedToSenior": "ローンを経て{team}トップチームに復帰。",
-      "spellEnded": "{loanTeam} でのローン期間は終了しました。 {parentTeam} に戻ります。"
+      "becamePermanent": "レンタルは{team}で永久になりました（親クラブは利用不可）。",
+      "clubSeekingMove": "クラブは継続的なキャリア開発を確保するために積極的にレンタルを求めています。",
+      "opportunitiesAvailable": "定期的なフットボールを確保するために、{count} のレンタルの機会が利用可能です。",
+      "returnedToClub": "レンタル期間を経て、{team} に戻りました。",
+      "returnedToSenior": "レンタルを経て{team}トップチームに復帰。",
+      "spellEnded": "{loanTeam} でのレンタル期間は終了しました。 {parentTeam} に戻ります。"
     },
     "manager": {
       "choice_accept": "批判を受け入れる",
@@ -634,7 +637,9 @@
           "headline1": "{name}、ファンの扱いを称賛"
         },
         "ignore": {
-          "fan1": "まるで私たちが見えないかのように私たちの前を通り過ぎていきました..."
+          "fan1": "まるで私たちが見えないかのように私たちの前を通り過ぎていきました...",
+          "fan2": "名声で天狗になっている。見ていて悲しいね。",
+          "headline1": "{name}がファン対応を拒否し、サポーターから猛烈な批判"
         }
       },
       "manager_conversation": {
@@ -711,6 +716,17 @@
       "outburst": {
         "double_down": {
           "fan1": "引かないぞ！"
+        }
+      },
+      "mentor_opportunity": {
+        "accept": {
+          "fan1": "ユース生にとって最高のお手本だ！",
+          "headline1": "{name}がアカデミーの若手を指導・育成へ",
+          "press1": "{name}の豊富な経験は若手の育成に大きな力となる。"
+        },
+        "decline": {
+          "fan1": "自分のことしか考えていないのか…",
+          "headline1": "{name}がアカデミー若手の指導役を辞退"
         }
       }
     },
@@ -848,7 +864,7 @@
           "1": "ついに終わりました。 {name} が困難なシーズンを終えて引退を発表。",
           "2": "騒々しいキャリアに静かな終わり: {name} が引退。",
           "3": "批評家たちは、その時が来たと言う：{name} は苦闘の末にフィールドを去った。",
-          "4": "黄昏: {name} のキャリアは、衰退の季節を経て終わりを迎えます。",
+          "4": "黄昏: {name} のキャリアは、衰退のシーズンを経て終わりを迎えます。",
           "5": "ワンシーズン多すぎませんか？ {name} はついにキャリアを終了します。",
           "6": "困難な最終章を経て、{name} のキャリアに日が沈みます。",
           "7": "数字は嘘をつきません: {name} は統計的減少の後、引退します。",
@@ -865,7 +881,9 @@
           "18": "もう競争できませんでした。{name} はしぶしぶ引退しました。",
           "19": "試合延期: {name} はついにキャリアが終わったことを受け入れました。",
           "20": "クレジット ロール: {name} の物語は色あせた章で終わります。"
-        }
+        },
+        "testimonialMatch": "{team} は引退記念試合を開催し、レジェンド {name} を讃えます。",
+        "shirtRetired": "{team} はクラブのレジェンドである {name} に敬意を表し、背番号 {number} を永久欠番にすることを発表しました。"
       },
       "icon": "{name} は、目覚ましいキャリアを経て引退を発表。 {matches} 試合、{goals} ゴール、{trophies} メジャータイトル。多くの人にインスピレーションを与えます。",
       "journeyman": "{name} が引退を発表。 {reason}。 {clubs} クラブ全体で {matches} に出演しました。",
@@ -879,7 +897,7 @@
           "3": "{name} に近い情報源は、引退発表の可能性を示唆しています。",
           "4": "キャリアが黄昏に入るにつれ、{name} の将来についての憶測が高まります。",
           "5": "エージェントは、{name} に関する引退の噂を否定することを拒否しました。",
-          "6": "{name} は、証言試合の手配について話し合っていると伝えられています。",
+          "6": "{name}は引退記念試合の手配について話し合っていると伝えられています。",
           "7": "ロッカーは空いてますか？ {name} がスタジアムから私物を片付けているのが目撃されました。",
           "8": "哲学的な{name}がインタビューで「フットボール後の人生」について語る。",
           "9": "契約期限が切れるが、{name} は更新を求めていないと伝えられている。",
@@ -898,7 +916,7 @@
           "10": "ゲームの王様ですが、{name} の王座は間もなく空位になる可能性があります。"
         },
         "poorForm": {
-          "1": "ファンは、{name} にまだ足があるのか​​どうか疑問に思い始めています。",
+          "1": "ファンは、{name} にまだ足があるのかどうか疑問に思い始めています。",
           "2": "{name} に関する楽屋疲労の噂。",
           "3": "批評家は、{name} の最良の時代は過ぎ去ったと示唆しています。",
           "4": "調子を整えるのに苦労しています - {name} が引退する時期が来ましたか?",
@@ -938,8 +956,8 @@
       "outstandingGoals": "{goals} ゴールで素晴らしいシーズンを過ごしました!",
       "phenomenal": "驚異的！ {goals}G + {assists}A = {total} ゴール貢献 - 伝説的!",
       "playmakerMasterclass": "プレイメーカーマスタークラス！ {assists} は創造性を体現したものです。",
-      "spectacularGolacos": "素晴らしい季節！ {count} スクリーマー - 年間最優秀ゴール賞にノミネートされました!",
-      "strongContributions": "好調な季節！ {goals}G + {assists}A = {total} の目標貢献度。",
+      "spectacularGolacos": "素晴らしいシーズン！ {count} スクリーマー - 年間最優秀ゴール賞にノミネートされました!",
+      "strongContributions": "好調なシーズン！ {goals}G + {assists}A = {total} の目標貢献度。",
       "wonderGoals": "素晴らしいフォワード！今シーズン、{count} の驚異的なゴールを達成!",
       "worldClassGoals": "ワールドクラス！ {goals} 目標 - 素晴らしいキャンペーン!"
     },
@@ -1017,7 +1035,7 @@
       "ambitiousWantsMove": "野心的な性質が高いレベルで競争したいという願望を駆り立て、より大きなクラブへの移籍を望んでいます。",
       "crisis": "危機！ {seasons} が最小限の出場時間でシーズンを終えた後、クラブとの関係は修復不可能なほど悪化した。移転は避けられない。",
       "historicRival": "歴史的なライバル",
-      "loanConversion": "ローン後、{team} によって永久署名されます。料金: £{fee}M",
+      "loanConversion": "レンタル後、{team} によって永久署名されます。料金: £{fee}M",
       "loaned": "{duration} シーズンの間、{team} に貸与されました。",
       "loyalQuestioningFuture": "忠誠心にもかかわらず、機会の欠如によりクラブでの将来に疑問を抱き始めた。",
       "playerRequestedMove": "選手が移籍を公的に申請しました!移籍のないシーズンが続いた後、クラブは彼の退団交渉を余儀なくされた。",
@@ -1027,7 +1045,7 @@
       "rivalMove": "歴史的な移籍！ {fromTeam} を最大のライバル {toTeam} に交換しました。ファンは激怒！",
       "signedFreeAgent": "フリートランスファーで{team}と契約。",
       "temperamentalOutburst": "感情爆発！練習場での事件を受けて即時移籍を要求。",
-      "title": "移行",
+      "title": "移籍",
       "traitor": "裏切り者",
       "transferred": "{team} に €{fee}M で転送されました。",
       "homecoming": {
@@ -1063,7 +1081,8 @@
       "won": "{competition} の受賞者!",
       "wonYouth": "ユースコンテストで優勝しました！",
       "worldCup": "世界トーナメントチャンピオン！伝説が生まれる！",
-      "worldCupChampions": "{country} が世界トーナメントで優勝しました!"
+      "worldCupChampions": "{country} が世界トーナメントで優勝しました!",
+      "continentalQualification": "{competition} への出場権を獲得しました！"
     },
     "urgentDecision": "早急な決断が必要です！",
     "viral": {
@@ -1266,804 +1285,903 @@
       "choice_home": "次の試合に備えて礼儀正しく帰宅する"
     },
     "press_conference_var_1": {
-      "title": "Press Conference: TACTICAL SYSTEM INQUIRY",
-      "description": "Journalists present questions regarding your team's tactical system inquiry.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "記者会見：戦術システムの機能",
+      "description": "会見場にて、メディアの記者陣からチームの現状とあなたの状態について質問が飛ぶ。",
+      "choice_1": "戦術的な観点から理路整然と詳細に説明する",
+      "choice_2": "プロとしての責任感と日頃の努力の大切さを強調する",
+      "choice_3": "強気なコメントでメディアの意地悪な論調を一蹴する",
+      "choice_4": "失言を避け、無難かつ簡潔に受け流す"
     },
     "press_conference_var_2": {
-      "title": "Press Conference: MID-SEASON FORM REVIEW",
-      "description": "Journalists present questions regarding your team's mid-season form review.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "記者会見：シーズン中盤の調子",
+      "description": "会見場にて、メディアの記者陣からチームの現状とあなたの状態について質問が飛ぶ。",
+      "choice_1": "戦術的な観点から理路整然と詳細に説明する",
+      "choice_2": "プロとしての責任感と日頃の努力の大切さを強調する",
+      "choice_3": "強気なコメントでメディアの意地悪な論調を一蹴する",
+      "choice_4": "失言を避け、無難かつ簡潔に受け流す"
     },
     "press_conference_var_3": {
-      "title": "Press Conference: CONTINENTAL COMPETITION EXPECTATIONS",
-      "description": "Journalists present questions regarding your team's continental competition expectations.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "記者会見：大陸カップの期待",
+      "description": "会見場にて、メディアの記者陣からチームの現状とあなたの状態について質問が飛ぶ。",
+      "choice_1": "戦術的な観点から理路整然と詳細に説明する",
+      "choice_2": "プロとしての責任感と日頃の努力の大切さを強調する",
+      "choice_3": "強気なコメントでメディアの意地悪な論調を一蹴する",
+      "choice_4": "失言を避け、無難かつ簡潔に受け流す"
     },
     "press_conference_var_4": {
-      "title": "Press Conference: SQUAD ROTATION DEBATE",
-      "description": "Journalists present questions regarding your team's squad rotation debate.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "記者会見：選手のターンオーバー",
+      "description": "会見場にて、メディアの記者陣からチームの現状とあなたの状態について質問が飛ぶ。",
+      "choice_1": "戦術的な観点から理路整然と詳細に説明する",
+      "choice_2": "プロとしての責任感と日頃の努力の大切さを強調する",
+      "choice_3": "強気なコメントでメディアの意地悪な論調を一蹴する",
+      "choice_4": "失言を避け、無難かつ簡潔に受け流す"
     },
     "press_conference_var_5": {
-      "title": "Press Conference: YOUNG TALENT INTEGRATION",
-      "description": "Journalists present questions regarding your team's young talent integration.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "記者会見：若手有望株の抜擢",
+      "description": "会見場にて、メディアの記者陣からチームの現状とあなたの状態について質問が飛ぶ。",
+      "choice_1": "戦術的な観点から理路整然と詳細に説明する",
+      "choice_2": "プロとしての責任感と日頃の努力の大切さを強調する",
+      "choice_3": "強気なコメントでメディアの意地悪な論調を一蹴する",
+      "choice_4": "失言を避け、無難かつ簡潔に受け流す"
     },
     "press_conference_var_6": {
-      "title": "Press Conference: DISCIPLINARY RECORD DISCUSSION",
-      "description": "Journalists present questions regarding your team's disciplinary record discussion.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "記者会見：カードと規律の問題",
+      "description": "会見場にて、メディアの記者陣からチームの現状とあなたの状態について質問が飛ぶ。",
+      "choice_1": "戦術的な観点から理路整然と詳細に説明する",
+      "choice_2": "プロとしての責任感と日頃の努力の大切さを強調する",
+      "choice_3": "強気なコメントでメディアの意地悪な論調を一蹴する",
+      "choice_4": "失言を避け、無難かつ簡潔に受け流す"
     },
     "press_conference_var_7": {
-      "title": "Press Conference: FIXTURE CONGESTION SCHEDULE",
-      "description": "Journalists present questions regarding your team's fixture congestion schedule.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "記者会見：過密日程への対応",
+      "description": "会見場にて、メディアの記者陣からチームの現状とあなたの状態について質問が飛ぶ。",
+      "choice_1": "戦術的な観点から理路整然と詳細に説明する",
+      "choice_2": "プロとしての責任感と日頃の努力の大切さを強調する",
+      "choice_3": "強気なコメントでメディアの意地悪な論調を一蹴する",
+      "choice_4": "失言を避け、無難かつ簡潔に受け流す"
     },
     "press_conference_var_8": {
-      "title": "Press Conference: AWAY RECORD PERFORMANCE",
-      "description": "Journalists present questions regarding your team's away record performance.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "記者会見：アウェイでの戦いぶり",
+      "description": "会見場にて、メディアの記者陣からチームの現状とあなたの状態について質問が飛ぶ。",
+      "choice_1": "戦術的な観点から理路整然と詳細に説明する",
+      "choice_2": "プロとしての責任感と日頃の努力の大切さを強調する",
+      "choice_3": "強気なコメントでメディアの意地悪な論調を一蹴する",
+      "choice_4": "失言を避け、無難かつ簡潔に受け流す"
     },
     "press_conference_var_9": {
-      "title": "Press Conference: VAR CONTROVERSY STANCE",
-      "description": "Journalists present questions regarding your team's VAR controversy stance.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "記者会見：VARの判定論争",
+      "description": "会見場にて、メディアの記者陣からチームの現状とあなたの状態について質問が飛ぶ。",
+      "choice_1": "戦術的な観点から理路整然と詳細に説明する",
+      "choice_2": "プロとしての責任感と日頃の努力の大切さを強調する",
+      "choice_3": "強気なコメントでメディアの意地悪な論調を一蹴する",
+      "choice_4": "失言を避け、無難かつ簡潔に受け流す"
     },
     "press_conference_var_10": {
-      "title": "Press Conference: NATIONAL TEAM SELECTION RUMOR",
-      "description": "Journalists present questions regarding your team's national team selection rumor.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "記者会見：代表招集の噂",
+      "description": "会見場にて、メディアの記者陣からチームの現状とあなたの状態について質問が飛ぶ。",
+      "choice_1": "戦術的な観点から理路整然と詳細に説明する",
+      "choice_2": "プロとしての責任感と日頃の努力の大切さを強調する",
+      "choice_3": "強気なコメントでメディアの意地悪な論調を一蹴する",
+      "choice_4": "失言を避け、無難かつ簡潔に受け流す"
     },
     "press_conference_var_11": {
-      "title": "Press Conference: CAPTAINCY LEADERSHIP DUTIES",
-      "description": "Journalists present questions regarding your team's captaincy leadership duties.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "記者会見：主将としての責任",
+      "description": "会見場にて、メディアの記者陣からチームの現状とあなたの状態について質問が飛ぶ。",
+      "choice_1": "戦術的な観点から理路整然と詳細に説明する",
+      "choice_2": "プロとしての責任感と日頃の努力の大切さを強調する",
+      "choice_3": "強気なコメントでメディアの意地悪な論調を一蹴する",
+      "choice_4": "失言を避け、無難かつ簡潔に受け流す"
     },
     "press_conference_var_12": {
-      "title": "Press Conference: TACTICAL FLEXIBILITY TEST",
-      "description": "Journalists present questions regarding your team's tactical flexibility test.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "記者会見：戦術の柔軟性",
+      "description": "会見場にて、メディアの記者陣からチームの現状とあなたの状態について質問が飛ぶ。",
+      "choice_1": "戦術的な観点から理路整然と詳細に説明する",
+      "choice_2": "プロとしての責任感と日頃の努力の大切さを強調する",
+      "choice_3": "強気なコメントでメディアの意地悪な論調を一蹴する",
+      "choice_4": "失言を避け、無難かつ簡潔に受け流す"
     },
     "press_conference_var_13": {
-      "title": "Press Conference: DEFENSIVE SOLIDITY BREAKDOWN",
-      "description": "Journalists present questions regarding your team's defensive solidity breakdown.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "記者会見：守備陣の安定感",
+      "description": "会見場にて、メディアの記者陣からチームの現状とあなたの状態について質問が飛ぶ。",
+      "choice_1": "戦術的な観点から理路整然と詳細に説明する",
+      "choice_2": "プロとしての責任感と日頃の努力の大切さを強調する",
+      "choice_3": "強気なコメントでメディアの意地悪な論調を一蹴する",
+      "choice_4": "失言を避け、無難かつ簡潔に受け流す"
     },
     "press_conference_var_14": {
-      "title": "Press Conference: ATTACKING EFFICIENCY ANALYSIS",
-      "description": "Journalists present questions regarding your team's attacking efficiency analysis.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "記者会見：攻撃陣の決定力",
+      "description": "会見場にて、メディアの記者陣からチームの現状とあなたの状態について質問が飛ぶ。",
+      "choice_1": "戦術的な観点から理路整然と詳細に説明する",
+      "choice_2": "プロとしての責任感と日頃の努力の大切さを強調する",
+      "choice_3": "強気なコメントでメディアの意地悪な論調を一蹴する",
+      "choice_4": "失言を避け、無難かつ簡潔に受け流す"
     },
     "press_conference_var_15": {
-      "title": "Press Conference: SET-PIECE SPECIALIZATION",
-      "description": "Journalists present questions regarding your team's set-piece specialization.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "記者会見：セットプレーの精度",
+      "description": "会見場にて、メディアの記者陣からチームの現状とあなたの状態について質問が飛ぶ。",
+      "choice_1": "戦術的な観点から理路整然と詳細に説明する",
+      "choice_2": "プロとしての責任感と日頃の努力の大切さを強調する",
+      "choice_3": "強気なコメントでメディアの意地悪な論調を一蹴する",
+      "choice_4": "失言を避け、無難かつ簡潔に受け流す"
     },
     "press_conference_var_16": {
-      "title": "Press Conference: FAN PRESSURE REACTION",
-      "description": "Journalists present questions regarding your team's fan pressure reaction.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "記者会見：サポーターからの重圧",
+      "description": "会見場にて、メディアの記者陣からチームの現状とあなたの状態について質問が飛ぶ。",
+      "choice_1": "戦術的な観点から理路整然と詳細に説明する",
+      "choice_2": "プロとしての責任感と日頃の努力の大切さを強調する",
+      "choice_3": "強気なコメントでメディアの意地悪な論調を一蹴する",
+      "choice_4": "失言を避け、無難かつ簡潔に受け流す"
     },
     "press_conference_var_17": {
-      "title": "Press Conference: TRANSFER BUDGET SPECULATION",
-      "description": "Journalists present questions regarding your team's transfer budget speculation.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "記者会見：補強資金の憶測",
+      "description": "会見場にて、メディアの記者陣からチームの現状とあなたの状態について質問が飛ぶ。",
+      "choice_1": "戦術的な観点から理路整然と詳細に説明する",
+      "choice_2": "プロとしての責任感と日頃の努力の大切さを強調する",
+      "choice_3": "強気なコメントでメディアの意地悪な論調を一蹴する",
+      "choice_4": "失言を避け、無難かつ簡潔に受け流す"
     },
     "press_conference_var_18": {
-      "title": "Press Conference: STADIUM ATMOSPHERE IMPACT",
-      "description": "Journalists present questions regarding your team's stadium atmosphere impact.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "記者会見：スタジアムの熱気",
+      "description": "会見場にて、メディアの記者陣からチームの現状とあなたの状態について質問が飛ぶ。",
+      "choice_1": "戦術的な観点から理路整然と詳細に説明する",
+      "choice_2": "プロとしての責任感と日頃の努力の大切さを強調する",
+      "choice_3": "強気なコメントでメディアの意地悪な論調を一蹴する",
+      "choice_4": "失言を避け、無難かつ簡潔に受け流す"
     },
     "press_conference_var_19": {
-      "title": "Press Conference: DERBY HISTORICAL RIVALRY",
-      "description": "Journalists present questions regarding your team's derby historical rivalry.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "記者会見：ダービーの歴史的因縁",
+      "description": "会見場にて、メディアの記者陣からチームの現状とあなたの状態について質問が飛ぶ。",
+      "choice_1": "戦術的な観点から理路整然と詳細に説明する",
+      "choice_2": "プロとしての責任感と日頃の努力の大切さを強調する",
+      "choice_3": "強気なコメントでメディアの意地悪な論調を一蹴する",
+      "choice_4": "失言を避け、無難かつ簡潔に受け流す"
     },
     "press_conference_var_20": {
-      "title": "Press Conference: END OF SEASON TARGET",
-      "description": "Journalists present questions regarding your team's end of season target.",
-      "choice_1": "Provide a thorough tactical explanation",
-      "choice_2": "Highlight individual responsibility and work ethic",
-      "choice_3": "Give a spicy remark to challenge the media narrative",
-      "choice_4": "Keep responses diplomatic and brief"
+      "title": "記者会見：シーズン最終目標",
+      "description": "会見場にて、メディアの記者陣からチームの現状とあなたの状態について質問が飛ぶ。",
+      "choice_1": "戦術的な観点から理路整然と詳細に説明する",
+      "choice_2": "プロとしての責任感と日頃の努力の大切さを強調する",
+      "choice_3": "強気なコメントでメディアの意地悪な論調を一蹴する",
+      "choice_4": "失言を避け、無難かつ簡潔に受け流す"
     },
     "tactical_meeting_1": {
-      "title": "Tactical Briefing: HIGH PRESS SYSTEM",
-      "description": "The coaching staff presents new tactical adjustments focusing on high press system.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "戦術ミーティング：ハイプレス",
+      "description": "首脳陣から次の試合に向けた重要な戦術指示：敵陣深くで連動したハイプレス戦術の確認と役割の徹底。",
+      "choice_1": "指示された戦術的役割を完璧に理解し愚直に実行する",
+      "choice_2": "システムの中で柔軟な発想と個人の閃きを認めてもらう",
+      "choice_3": "味方選手に声をかけて動き方の意思疎通を深める",
+      "choice_4": "ハードワークと球際の激しさに全力を注ぐ"
     },
     "tactical_meeting_2": {
-      "title": "Tactical Briefing: LOW BLOCK DEFENSE",
-      "description": "The coaching staff presents new tactical adjustments focusing on low block defense.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "戦術ミーティング：リトリート・ローブロック",
+      "description": "首脳陣から次の試合に向けた重要な戦術指示：自陣に強固なブロックを敷き、スペースを消す守備戦術の徹底。",
+      "choice_1": "指示された戦術的役割を完璧に理解し愚直に実行する",
+      "choice_2": "システムの中で柔軟な発想と個人の閃きを認めてもらう",
+      "choice_3": "味方選手に声をかけて動き方の意思疎通を深める",
+      "choice_4": "ハードワークと球際の激しさに全力を注ぐ"
     },
     "tactical_meeting_3": {
-      "title": "Tactical Briefing: COUNTER-ATTACK SPEED",
-      "description": "The coaching staff presents new tactical adjustments focusing on counter-attack speed.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "戦術ミーティング：高速カウンター",
+      "description": "首脳陣から次の試合に向けた重要な戦術指示：ボール奪取直後の素早い縦への仕掛けとカウンターの精度向上。",
+      "choice_1": "指示された戦術的役割を完璧に理解し愚直に実行する",
+      "choice_2": "システムの中で柔軟な発想と個人の閃きを認めてもらう",
+      "choice_3": "味方選手に声をかけて動き方の意思疎通を深める",
+      "choice_4": "ハードワークと球際の激しさに全力を注ぐ"
     },
     "tactical_meeting_4": {
-      "title": "Tactical Briefing: POSSESSION CONTROL",
-      "description": "The coaching staff presents new tactical adjustments focusing on possession control.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "戦術ミーティング：ポゼッション支配",
+      "description": "首脳陣から次の試合に向けた重要な戦術指示：ボール保持率を高め、長短のパス回しで試合の主導権を握る。",
+      "choice_1": "指示された戦術的役割を完璧に理解し愚直に実行する",
+      "choice_2": "システムの中で柔軟な発想と個人の閃きを認めてもらう",
+      "choice_3": "味方選手に声をかけて動き方の意思疎通を深める",
+      "choice_4": "ハードワークと球際の激しさに全力を注ぐ"
     },
     "tactical_meeting_5": {
-      "title": "Tactical Briefing: WING OVERLOAD",
-      "description": "The coaching staff presents new tactical adjustments focusing on wing overload.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "戦術ミーティング：サイドアタック・オーバーロード",
+      "description": "首脳陣から次の試合に向けた重要な戦術指示：サイドエリアに数的優位を作り、厚みのある攻撃から決定機を演出する。",
+      "choice_1": "指示された戦術的役割を完璧に理解し愚直に実行する",
+      "choice_2": "システムの中で柔軟な発想と個人の閃きを認めてもらう",
+      "choice_3": "味方選手に声をかけて動き方の意思疎通を深める",
+      "choice_4": "ハードワークと球際の激しさに全力を注ぐ"
     },
     "tactical_meeting_6": {
-      "title": "Tactical Briefing: SET-PIECE ROUTINE",
-      "description": "The coaching staff presents new tactical adjustments focusing on set-piece routine.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "戦術ミーティング：セットプレーの連係",
+      "description": "首脳陣から次の試合に向けた重要な戦術指示：コーナーキックやフリーキックでのサインプレーと連係パターンの確認。",
+      "choice_1": "指示された戦術的役割を完璧に理解し愚直に実行する",
+      "choice_2": "システムの中で柔軟な発想と個人の閃きを認めてもらう",
+      "choice_3": "味方選手に声をかけて動き方の意思疎通を深める",
+      "choice_4": "ハードワークと球際の激しさに全力を注ぐ"
     },
     "tactical_meeting_7": {
-      "title": "Tactical Briefing: INVERTED FULLBACKS",
-      "description": "The coaching staff presents new tactical adjustments focusing on inverted fullbacks.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "戦術ミーティング：偽サイドバック（インバーテッドSB）",
+      "description": "首脳陣から次の試合に向けた重要な戦術指示：サイドバックが中盤インサイドへ絞り、パスコースと厚みを増す。",
+      "choice_1": "指示された戦術的役割を完璧に理解し愚直に実行する",
+      "choice_2": "システムの中で柔軟な発想と個人の閃きを認めてもらう",
+      "choice_3": "味方選手に声をかけて動き方の意思疎通を深める",
+      "choice_4": "ハードワークと球際の激しさに全力を注ぐ"
     },
     "tactical_meeting_8": {
-      "title": "Tactical Briefing: FALSE NINE ROLE",
-      "description": "The coaching staff presents new tactical adjustments focusing on false nine role.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "戦術ミーティング：偽9番（ファルスナイン）",
+      "description": "首脳陣から次の試合に向けた重要な戦術指示：CFが中盤へ下がって相手DFを釣り出し、2列目の飛び出しを促す。",
+      "choice_1": "指示された戦術的役割を完璧に理解し愚直に実行する",
+      "choice_2": "システムの中で柔軟な発想と個人の閃きを認めてもらう",
+      "choice_3": "味方選手に声をかけて動き方の意思疎通を深める",
+      "choice_4": "ハードワークと球際の激しさに全力を注ぐ"
     },
     "tactical_meeting_9": {
-      "title": "Tactical Briefing: TRANSITION AGGRESSION",
-      "description": "The coaching staff presents new tactical adjustments focusing on transition aggression.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "戦術ミーティング：即時奪回（ゲーゲンプレス）",
+      "description": "首脳陣から次の試合に向けた重要な戦術指示：ボールロスト直後の猛烈な囲い込みで相手のカウンターを未然に防ぐ。",
+      "choice_1": "指示された戦術的役割を完璧に理解し愚直に実行する",
+      "choice_2": "システムの中で柔軟な発想と個人の閃きを認めてもらう",
+      "choice_3": "味方選手に声をかけて動き方の意思疎通を深める",
+      "choice_4": "ハードワークと球際の激しさに全力を注ぐ"
     },
     "tactical_meeting_10": {
-      "title": "Tactical Briefing: ZONAL MARKING",
-      "description": "The coaching staff presents new tactical adjustments focusing on zonal marking.",
-      "choice_1": "Master the tactical instructions diligently",
-      "choice_2": "Propose creative freedom within the scheme",
-      "choice_3": "Support teammates in understanding their duties",
-      "choice_4": "Focus on physical intensity during exercises"
+      "title": "戦術ミーティング：ゾーンディフェンス",
+      "description": "首脳陣から次の試合に向けた重要な戦術指示：スペースを埋めるポジショニングと統率のとれたラインコントロール。",
+      "choice_1": "指示された戦術的役割を完璧に理解し愚直に実行する",
+      "choice_2": "システムの中で柔軟な発想と個人の閃きを認めてもらう",
+      "choice_3": "味方選手に声をかけて動き方の意思疎通を深める",
+      "choice_4": "ハードワークと球際の激しさに全力を注ぐ"
     },
     "dressing_room_1": {
-      "title": "Dressing Room Scenario 1",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "ロッカールームの状況 1",
+      "description": "チームの団結力と集中力が試されるロッカールーム内の問題が発生。",
+      "choice_1": "魂を揺さぶる熱いスピーチで仲間を鼓舞する",
+      "choice_2": "黙々と努力を重ね、背中で模範を示す",
+      "choice_3": "チーム内の不協和音に真正面から向き合う",
+      "choice_4": "決起食事会を開きチームの絆を深める"
     },
     "dressing_room_2": {
-      "title": "Dressing Room Scenario 2",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "ロッカールームの状況 2",
+      "description": "チームの団結力と集中力が試されるロッカールーム内の問題が発生。",
+      "choice_1": "魂を揺さぶる熱いスピーチで仲間を鼓舞する",
+      "choice_2": "黙々と努力を重ね、背中で模範を示す",
+      "choice_3": "チーム内の不協和音に真正面から向き合う",
+      "choice_4": "決起食事会を開きチームの絆を深める"
     },
     "dressing_room_3": {
-      "title": "Dressing Room Scenario 3",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "ロッカールームの状況 3",
+      "description": "チームの団結力と集中力が試されるロッカールーム内の問題が発生。",
+      "choice_1": "魂を揺さぶる熱いスピーチで仲間を鼓舞する",
+      "choice_2": "黙々と努力を重ね、背中で模範を示す",
+      "choice_3": "チーム内の不協和音に真正面から向き合う",
+      "choice_4": "決起食事会を開きチームの絆を深める"
     },
     "dressing_room_4": {
-      "title": "Dressing Room Scenario 4",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "ロッカールームの状況 4",
+      "description": "チームの団結力と集中力が試されるロッカールーム内の問題が発生。",
+      "choice_1": "魂を揺さぶる熱いスピーチで仲間を鼓舞する",
+      "choice_2": "黙々と努力を重ね、背中で模範を示す",
+      "choice_3": "チーム内の不協和音に真正面から向き合う",
+      "choice_4": "決起食事会を開きチームの絆を深める"
     },
     "dressing_room_5": {
-      "title": "Dressing Room Scenario 5",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "ロッカールームの状況 5",
+      "description": "チームの団結力と集中力が試されるロッカールーム内の問題が発生。",
+      "choice_1": "魂を揺さぶる熱いスピーチで仲間を鼓舞する",
+      "choice_2": "黙々と努力を重ね、背中で模範を示す",
+      "choice_3": "チーム内の不協和音に真正面から向き合う",
+      "choice_4": "決起食事会を開きチームの絆を深める"
     },
     "dressing_room_6": {
-      "title": "Dressing Room Scenario 6",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "ロッカールームの状況 6",
+      "description": "チームの団結力と集中力が試されるロッカールーム内の問題が発生。",
+      "choice_1": "魂を揺さぶる熱いスピーチで仲間を鼓舞する",
+      "choice_2": "黙々と努力を重ね、背中で模範を示す",
+      "choice_3": "チーム内の不協和音に真正面から向き合う",
+      "choice_4": "決起食事会を開きチームの絆を深める"
     },
     "dressing_room_7": {
-      "title": "Dressing Room Scenario 7",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "ロッカールームの状況 7",
+      "description": "チームの団結力と集中力が試されるロッカールーム内の問題が発生。",
+      "choice_1": "魂を揺さぶる熱いスピーチで仲間を鼓舞する",
+      "choice_2": "黙々と努力を重ね、背中で模範を示す",
+      "choice_3": "チーム内の不協和音に真正面から向き合う",
+      "choice_4": "決起食事会を開きチームの絆を深める"
     },
     "dressing_room_8": {
-      "title": "Dressing Room Scenario 8",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "ロッカールームの状況 8",
+      "description": "チームの団結力と集中力が試されるロッカールーム内の問題が発生。",
+      "choice_1": "魂を揺さぶる熱いスピーチで仲間を鼓舞する",
+      "choice_2": "黙々と努力を重ね、背中で模範を示す",
+      "choice_3": "チーム内の不協和音に真正面から向き合う",
+      "choice_4": "決起食事会を開きチームの絆を深める"
     },
     "dressing_room_9": {
-      "title": "Dressing Room Scenario 9",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "ロッカールームの状況 9",
+      "description": "チームの団結力と集中力が試されるロッカールーム内の問題が発生。",
+      "choice_1": "魂を揺さぶる熱いスピーチで仲間を鼓舞する",
+      "choice_2": "黙々と努力を重ね、背中で模範を示す",
+      "choice_3": "チーム内の不協和音に真正面から向き合う",
+      "choice_4": "決起食事会を開きチームの絆を深める"
     },
     "dressing_room_10": {
-      "title": "Dressing Room Scenario 10",
-      "description": "An interactive locker room situation arises regarding team cohesion and focus.",
-      "choice_1": "Rally the squad with an inspiring speech",
-      "choice_2": "Lead by example silently through hard work",
-      "choice_3": "Address internal friction directly",
-      "choice_4": "Organize a team dinner to bond"
+      "title": "ロッカールームの状況 10",
+      "description": "チームの団結力と集中力が試されるロッカールーム内の問題が発生。",
+      "choice_1": "魂を揺さぶる熱いスピーチで仲間を鼓舞する",
+      "choice_2": "黙々と努力を重ね、背中で模範を示す",
+      "choice_3": "チーム内の不協和音に真正面から向き合う",
+      "choice_4": "決起食事会を開きチームの絆を深める"
     },
     "manager_talk_1": {
-      "title": "Manager Discussion 1",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "監督との個別面談 1",
+      "description": "監督が最近の役割と成長度を評価するため、個別ミーティングを要請。",
+      "choice_1": "監督の目指す戦術ビジョンに全幅の信頼を示す",
+      "choice_2": "自分のポジションの戦術的調整を直訴する",
+      "choice_3": "ピッチ上でより自由な攻撃権を要求する",
+      "choice_4": "居残り個人トレーニングで成長を誓う"
     },
     "manager_talk_2": {
-      "title": "Manager Discussion 2",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "監督との個別面談 2",
+      "description": "監督が最近の役割と成長度を評価するため、個別ミーティングを要請。",
+      "choice_1": "監督の目指す戦術ビジョンに全幅の信頼を示す",
+      "choice_2": "自分のポジションの戦術的調整を直訴する",
+      "choice_3": "ピッチ上でより自由な攻撃権を要求する",
+      "choice_4": "居残り個人トレーニングで成長を誓う"
     },
     "manager_talk_3": {
-      "title": "Manager Discussion 3",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "監督との個別面談 3",
+      "description": "監督が最近の役割と成長度を評価するため、個別ミーティングを要請。",
+      "choice_1": "監督の目指す戦術ビジョンに全幅の信頼を示す",
+      "choice_2": "自分のポジションの戦術的調整を直訴する",
+      "choice_3": "ピッチ上でより自由な攻撃権を要求する",
+      "choice_4": "居残り個人トレーニングで成長を誓う"
     },
     "manager_talk_4": {
-      "title": "Manager Discussion 4",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "監督との個別面談 4",
+      "description": "監督が最近の役割と成長度を評価するため、個別ミーティングを要請。",
+      "choice_1": "監督の目指す戦術ビジョンに全幅の信頼を示す",
+      "choice_2": "自分のポジションの戦術的調整を直訴する",
+      "choice_3": "ピッチ上でより自由な攻撃権を要求する",
+      "choice_4": "居残り個人トレーニングで成長を誓う"
     },
     "manager_talk_5": {
-      "title": "Manager Discussion 5",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "監督との個別面談 5",
+      "description": "監督が最近の役割と成長度を評価するため、個別ミーティングを要請。",
+      "choice_1": "監督の目指す戦術ビジョンに全幅の信頼を示す",
+      "choice_2": "自分のポジションの戦術的調整を直訴する",
+      "choice_3": "ピッチ上でより自由な攻撃権を要求する",
+      "choice_4": "居残り個人トレーニングで成長を誓う"
     },
     "manager_talk_6": {
-      "title": "Manager Discussion 6",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "監督との個別面談 6",
+      "description": "監督が最近の役割と成長度を評価するため、個別ミーティングを要請。",
+      "choice_1": "監督の目指す戦術ビジョンに全幅の信頼を示す",
+      "choice_2": "自分のポジションの戦術的調整を直訴する",
+      "choice_3": "ピッチ上でより自由な攻撃権を要求する",
+      "choice_4": "居残り個人トレーニングで成長を誓う"
     },
     "manager_talk_7": {
-      "title": "Manager Discussion 7",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "監督との個別面談 7",
+      "description": "監督が最近の役割と成長度を評価するため、個別ミーティングを要請。",
+      "choice_1": "監督の目指す戦術ビジョンに全幅の信頼を示す",
+      "choice_2": "自分のポジションの戦術的調整を直訴する",
+      "choice_3": "ピッチ上でより自由な攻撃権を要求する",
+      "choice_4": "居残り個人トレーニングで成長を誓う"
     },
     "manager_talk_8": {
-      "title": "Manager Discussion 8",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "監督との個別面談 8",
+      "description": "監督が最近の役割と成長度を評価するため、個別ミーティングを要請。",
+      "choice_1": "監督の目指す戦術ビジョンに全幅の信頼を示す",
+      "choice_2": "自分のポジションの戦術的調整を直訴する",
+      "choice_3": "ピッチ上でより自由な攻撃権を要求する",
+      "choice_4": "居残り個人トレーニングで成長を誓う"
     },
     "manager_talk_9": {
-      "title": "Manager Discussion 9",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "監督との個別面談 9",
+      "description": "監督が最近の役割と成長度を評価するため、個別ミーティングを要請。",
+      "choice_1": "監督の目指す戦術ビジョンに全幅の信頼を示す",
+      "choice_2": "自分のポジションの戦術的調整を直訴する",
+      "choice_3": "ピッチ上でより自由な攻撃権を要求する",
+      "choice_4": "居残り個人トレーニングで成長を誓う"
     },
     "manager_talk_10": {
-      "title": "Manager Discussion 10",
-      "description": "The manager requests a private meeting to evaluate your recent role and development.",
-      "choice_1": "Express full trust in the manager vision",
-      "choice_2": "Request tactical adjustments for your position",
-      "choice_3": "Ask for more attacking freedom on the pitch",
-      "choice_4": "Pledge extra individual training hours"
+      "title": "監督との個別面談 10",
+      "description": "監督が最近の役割と成長度を評価するため、個別ミーティングを要請。",
+      "choice_1": "監督の目指す戦術ビジョンに全幅の信頼を示す",
+      "choice_2": "自分のポジションの戦術的調整を直訴する",
+      "choice_3": "ピッチ上でより自由な攻撃権を要求する",
+      "choice_4": "居残り個人トレーニングで成長を誓う"
     },
     "agent_negotiation_1": {
-      "title": "Agent Strategy Session 1",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "代理人との戦略ミーティング 1",
+      "description": "代理人が今後のキャリアにおける新たな契約延長や商業オファーを提示。",
+      "choice_1": "競技面での安定性と息の長いキャリア形成を最優先する",
+      "choice_2": "ビッグクラブからの関心やオファーを探るよう指示する",
+      "choice_3": "スポンサー契約による当面の収入最大化に注力する",
+      "choice_4": "移籍話は封印し今シーズンのタイトル獲得に集中する"
     },
     "agent_negotiation_2": {
-      "title": "Agent Strategy Session 2",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "代理人との戦略ミーティング 2",
+      "description": "代理人が今後のキャリアにおける新たな契約延長や商業オファーを提示。",
+      "choice_1": "競技面での安定性と息の長いキャリア形成を最優先する",
+      "choice_2": "ビッグクラブからの関心やオファーを探るよう指示する",
+      "choice_3": "スポンサー契約による当面の収入最大化に注力する",
+      "choice_4": "移籍話は封印し今シーズンのタイトル獲得に集中する"
     },
     "agent_negotiation_3": {
-      "title": "Agent Strategy Session 3",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "代理人との戦略ミーティング 3",
+      "description": "代理人が今後のキャリアにおける新たな契約延長や商業オファーを提示。",
+      "choice_1": "競技面での安定性と息の長いキャリア形成を最優先する",
+      "choice_2": "ビッグクラブからの関心やオファーを探るよう指示する",
+      "choice_3": "スポンサー契約による当面の収入最大化に注力する",
+      "choice_4": "移籍話は封印し今シーズンのタイトル獲得に集中する"
     },
     "agent_negotiation_4": {
-      "title": "Agent Strategy Session 4",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "代理人との戦略ミーティング 4",
+      "description": "代理人が今後のキャリアにおける新たな契約延長や商業オファーを提示。",
+      "choice_1": "競技面での安定性と息の長いキャリア形成を最優先する",
+      "choice_2": "ビッグクラブからの関心やオファーを探るよう指示する",
+      "choice_3": "スポンサー契約による当面の収入最大化に注力する",
+      "choice_4": "移籍話は封印し今シーズンのタイトル獲得に集中する"
     },
     "agent_negotiation_5": {
-      "title": "Agent Strategy Session 5",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "代理人との戦略ミーティング 5",
+      "description": "代理人が今後のキャリアにおける新たな契約延長や商業オファーを提示。",
+      "choice_1": "競技面での安定性と息の長いキャリア形成を最優先する",
+      "choice_2": "ビッグクラブからの関心やオファーを探るよう指示する",
+      "choice_3": "スポンサー契約による当面の収入最大化に注力する",
+      "choice_4": "移籍話は封印し今シーズンのタイトル獲得に集中する"
     },
     "agent_negotiation_6": {
-      "title": "Agent Strategy Session 6",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "代理人との戦略ミーティング 6",
+      "description": "代理人が今後のキャリアにおける新たな契約延長や商業オファーを提示。",
+      "choice_1": "競技面での安定性と息の長いキャリア形成を最優先する",
+      "choice_2": "ビッグクラブからの関心やオファーを探るよう指示する",
+      "choice_3": "スポンサー契約による当面の収入最大化に注力する",
+      "choice_4": "移籍話は封印し今シーズンのタイトル獲得に集中する"
     },
     "agent_negotiation_7": {
-      "title": "Agent Strategy Session 7",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "代理人との戦略ミーティング 7",
+      "description": "代理人が今後のキャリアにおける新たな契約延長や商業オファーを提示。",
+      "choice_1": "競技面での安定性と息の長いキャリア形成を最優先する",
+      "choice_2": "ビッグクラブからの関心やオファーを探るよう指示する",
+      "choice_3": "スポンサー契約による当面の収入最大化に注力する",
+      "choice_4": "移籍話は封印し今シーズンのタイトル獲得に集中する"
     },
     "agent_negotiation_8": {
-      "title": "Agent Strategy Session 8",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "代理人との戦略ミーティング 8",
+      "description": "代理人が今後のキャリアにおける新たな契約延長や商業オファーを提示。",
+      "choice_1": "競技面での安定性と息の長いキャリア形成を最優先する",
+      "choice_2": "ビッグクラブからの関心やオファーを探るよう指示する",
+      "choice_3": "スポンサー契約による当面の収入最大化に注力する",
+      "choice_4": "移籍話は封印し今シーズンのタイトル獲得に集中する"
     },
     "agent_negotiation_9": {
-      "title": "Agent Strategy Session 9",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "代理人との戦略ミーティング 9",
+      "description": "代理人が今後のキャリアにおける新たな契約延長や商業オファーを提示。",
+      "choice_1": "競技面での安定性と息の長いキャリア形成を最優先する",
+      "choice_2": "ビッグクラブからの関心やオファーを探るよう指示する",
+      "choice_3": "スポンサー契約による当面の収入最大化に注力する",
+      "choice_4": "移籍話は封印し今シーズンのタイトル獲得に集中する"
     },
     "agent_negotiation_10": {
-      "title": "Agent Strategy Session 10",
-      "description": "Your agent outlines new commercial and contract opportunities for your career path.",
-      "choice_1": "Prioritize career longevity and sporting stability",
-      "choice_2": "Instruct agent to explore top tier club interest",
-      "choice_3": "Focus on maximizing immediate endorsement revenue",
-      "choice_4": "Maintain complete focus on current season goals"
+      "title": "代理人との戦略ミーティング 10",
+      "description": "代理人が今後のキャリアにおける新たな契約延長や商業オファーを提示。",
+      "choice_1": "競技面での安定性と息の長いキャリア形成を最優先する",
+      "choice_2": "ビッグクラブからの関心やオファーを探るよう指示する",
+      "choice_3": "スポンサー契約による当面の収入最大化に注力する",
+      "choice_4": "移籍話は封印し今シーズンのタイトル獲得に集中する"
     },
     "fan_community_1": {
-      "title": "Community Event 1",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "地域交流イベント 1",
+      "description": "クラブが主催する地域貢献・社会活動に参加する絶好の機会です。",
+      "choice_1": "熱心に参加し、サポーターや子どもたちと温かく触れ合う",
+      "choice_2": "気前よくまとまった金額の寄付を行う",
+      "choice_3": "SNSでこの素晴らしい活動を積極的に拡散・発信する",
+      "choice_4": "試合前のため短時間で切り上げ、休養を優先する"
     },
     "fan_community_2": {
-      "title": "Community Event 2",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "地域交流イベント 2",
+      "description": "クラブが主催する地域貢献・社会活動に参加する絶好の機会です。",
+      "choice_1": "熱心に参加し、サポーターや子どもたちと温かく触れ合う",
+      "choice_2": "気前よくまとまった金額の寄付を行う",
+      "choice_3": "SNSでこの素晴らしい活動を積極的に拡散・発信する",
+      "choice_4": "試合前のため短時間で切り上げ、休養を優先する"
     },
     "fan_community_3": {
-      "title": "Community Event 3",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "地域交流イベント 3",
+      "description": "クラブが主催する地域貢献・社会活動に参加する絶好の機会です。",
+      "choice_1": "熱心に参加し、サポーターや子どもたちと温かく触れ合う",
+      "choice_2": "気前よくまとまった金額の寄付を行う",
+      "choice_3": "SNSでこの素晴らしい活動を積極的に拡散・発信する",
+      "choice_4": "試合前のため短時間で切り上げ、休養を優先する"
     },
     "fan_community_4": {
-      "title": "Community Event 4",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "地域交流イベント 4",
+      "description": "クラブが主催する地域貢献・社会活動に参加する絶好の機会です。",
+      "choice_1": "熱心に参加し、サポーターや子どもたちと温かく触れ合う",
+      "choice_2": "気前よくまとまった金額の寄付を行う",
+      "choice_3": "SNSでこの素晴らしい活動を積極的に拡散・発信する",
+      "choice_4": "試合前のため短時間で切り上げ、休養を優先する"
     },
     "fan_community_5": {
-      "title": "Community Event 5",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "地域交流イベント 5",
+      "description": "クラブが主催する地域貢献・社会活動に参加する絶好の機会です。",
+      "choice_1": "熱心に参加し、サポーターや子どもたちと温かく触れ合う",
+      "choice_2": "気前よくまとまった金額の寄付を行う",
+      "choice_3": "SNSでこの素晴らしい活動を積極的に拡散・発信する",
+      "choice_4": "試合前のため短時間で切り上げ、休養を優先する"
     },
     "fan_community_6": {
-      "title": "Community Event 6",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "地域交流イベント 6",
+      "description": "クラブが主催する地域貢献・社会活動に参加する絶好の機会です。",
+      "choice_1": "熱心に参加し、サポーターや子どもたちと温かく触れ合う",
+      "choice_2": "気前よくまとまった金額の寄付を行う",
+      "choice_3": "SNSでこの素晴らしい活動を積極的に拡散・発信する",
+      "choice_4": "試合前のため短時間で切り上げ、休養を優先する"
     },
     "fan_community_7": {
-      "title": "Community Event 7",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "地域交流イベント 7",
+      "description": "クラブが主催する地域貢献・社会活動に参加する絶好の機会です。",
+      "choice_1": "熱心に参加し、サポーターや子どもたちと温かく触れ合う",
+      "choice_2": "気前よくまとまった金額の寄付を行う",
+      "choice_3": "SNSでこの素晴らしい活動を積極的に拡散・発信する",
+      "choice_4": "試合前のため短時間で切り上げ、休養を優先する"
     },
     "fan_community_8": {
-      "title": "Community Event 8",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "地域交流イベント 8",
+      "description": "クラブが主催する地域貢献・社会活動に参加する絶好の機会です。",
+      "choice_1": "熱心に参加し、サポーターや子どもたちと温かく触れ合う",
+      "choice_2": "気前よくまとまった金額の寄付を行う",
+      "choice_3": "SNSでこの素晴らしい活動を積極的に拡散・発信する",
+      "choice_4": "試合前のため短時間で切り上げ、休養を優先する"
     },
     "fan_community_9": {
-      "title": "Community Event 9",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "地域交流イベント 9",
+      "description": "クラブが主催する地域貢献・社会活動に参加する絶好の機会です。",
+      "choice_1": "熱心に参加し、サポーターや子どもたちと温かく触れ合う",
+      "choice_2": "気前よくまとまった金額の寄付を行う",
+      "choice_3": "SNSでこの素晴らしい活動を積極的に拡散・発信する",
+      "choice_4": "試合前のため短時間で切り上げ、休養を優先する"
     },
     "fan_community_10": {
-      "title": "Community Event 10",
-      "description": "You have an opportunity to participate in a club community initiative.",
-      "choice_1": "Participate enthusiastically and spend time with fans",
-      "choice_2": "Make a generous financial contribution",
-      "choice_3": "Promote the campaign across social media",
-      "choice_4": "Fulfill duties quickly to rest for matchday"
+      "title": "地域交流イベント 10",
+      "description": "クラブが主催する地域貢献・社会活動に参加する絶好の機会です。",
+      "choice_1": "熱心に参加し、サポーターや子どもたちと温かく触れ合う",
+      "choice_2": "気前よくまとまった金額の寄付を行う",
+      "choice_3": "SNSでこの素晴らしい活動を積極的に拡散・発信する",
+      "choice_4": "試合前のため短時間で切り上げ、休養を優先する"
     },
     "sponsorship_brand_1": {
-      "title": "Brand Offer 1",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "スポンサー契約の提案 1",
+      "description": "グローバルブランドから広告出演およびアンバサダー契約のオファー。",
+      "choice_1": "正式にパートナーシップ契約を締結する",
+      "choice_2": "タイトル獲得に応じた出来高ボーナスの増額を要求する",
+      "choice_3": "ピッチ上のプレーに専念するためオファーを丁重に断る",
+      "choice_4": "契約金の一部を慈善団体へ寄付する条項を盛り込む"
     },
     "sponsorship_brand_2": {
-      "title": "Brand Offer 2",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "スポンサー契約の提案 2",
+      "description": "グローバルブランドから広告出演およびアンバサダー契約のオファー。",
+      "choice_1": "正式にパートナーシップ契約を締結する",
+      "choice_2": "タイトル獲得に応じた出来高ボーナスの増額を要求する",
+      "choice_3": "ピッチ上のプレーに専念するためオファーを丁重に断る",
+      "choice_4": "契約金の一部を慈善団体へ寄付する条項を盛り込む"
     },
     "sponsorship_brand_3": {
-      "title": "Brand Offer 3",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "スポンサー契約の提案 3",
+      "description": "グローバルブランドから広告出演およびアンバサダー契約のオファー。",
+      "choice_1": "正式にパートナーシップ契約を締結する",
+      "choice_2": "タイトル獲得に応じた出来高ボーナスの増額を要求する",
+      "choice_3": "ピッチ上のプレーに専念するためオファーを丁重に断る",
+      "choice_4": "契約金の一部を慈善団体へ寄付する条項を盛り込む"
     },
     "sponsorship_brand_4": {
-      "title": "Brand Offer 4",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "スポンサー契約の提案 4",
+      "description": "グローバルブランドから広告出演およびアンバサダー契約のオファー。",
+      "choice_1": "正式にパートナーシップ契約を締結する",
+      "choice_2": "タイトル獲得に応じた出来高ボーナスの増額を要求する",
+      "choice_3": "ピッチ上のプレーに専念するためオファーを丁重に断る",
+      "choice_4": "契約金の一部を慈善団体へ寄付する条項を盛り込む"
     },
     "sponsorship_brand_5": {
-      "title": "Brand Offer 5",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "スポンサー契約の提案 5",
+      "description": "グローバルブランドから広告出演およびアンバサダー契約のオファー。",
+      "choice_1": "正式にパートナーシップ契約を締結する",
+      "choice_2": "タイトル獲得に応じた出来高ボーナスの増額を要求する",
+      "choice_3": "ピッチ上のプレーに専念するためオファーを丁重に断る",
+      "choice_4": "契約金の一部を慈善団体へ寄付する条項を盛り込む"
     },
     "sponsorship_brand_6": {
-      "title": "Brand Offer 6",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "スポンサー契約の提案 6",
+      "description": "グローバルブランドから広告出演およびアンバサダー契約のオファー。",
+      "choice_1": "正式にパートナーシップ契約を締結する",
+      "choice_2": "タイトル獲得に応じた出来高ボーナスの増額を要求する",
+      "choice_3": "ピッチ上のプレーに専念するためオファーを丁重に断る",
+      "choice_4": "契約金の一部を慈善団体へ寄付する条項を盛り込む"
     },
     "sponsorship_brand_7": {
-      "title": "Brand Offer 7",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "スポンサー契約の提案 7",
+      "description": "グローバルブランドから広告出演およびアンバサダー契約のオファー。",
+      "choice_1": "正式にパートナーシップ契約を締結する",
+      "choice_2": "タイトル獲得に応じた出来高ボーナスの増額を要求する",
+      "choice_3": "ピッチ上のプレーに専念するためオファーを丁重に断る",
+      "choice_4": "契約金の一部を慈善団体へ寄付する条項を盛り込む"
     },
     "sponsorship_brand_8": {
-      "title": "Brand Offer 8",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "スポンサー契約の提案 8",
+      "description": "グローバルブランドから広告出演およびアンバサダー契約のオファー。",
+      "choice_1": "正式にパートナーシップ契約を締結する",
+      "choice_2": "タイトル獲得に応じた出来高ボーナスの増額を要求する",
+      "choice_3": "ピッチ上のプレーに専念するためオファーを丁重に断る",
+      "choice_4": "契約金の一部を慈善団体へ寄付する条項を盛り込む"
     },
     "sponsorship_brand_9": {
-      "title": "Brand Offer 9",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "スポンサー契約の提案 9",
+      "description": "グローバルブランドから広告出演およびアンバサダー契約のオファー。",
+      "choice_1": "正式にパートナーシップ契約を締結する",
+      "choice_2": "タイトル獲得に応じた出来高ボーナスの増額を要求する",
+      "choice_3": "ピッチ上のプレーに専念するためオファーを丁重に断る",
+      "choice_4": "契約金の一部を慈善団体へ寄付する条項を盛り込む"
     },
     "sponsorship_brand_10": {
-      "title": "Brand Offer 10",
-      "description": "A corporate brand presents an endorsement partnership proposal.",
-      "choice_1": "Sign partnership contract",
-      "choice_2": "Negotiate higher performance bonuses",
-      "choice_3": "Decline in favor of pure sporting focus",
-      "choice_4": "Request charity donation clause"
+      "title": "スポンサー契約の提案 10",
+      "description": "グローバルブランドから広告出演およびアンバサダー契約のオファー。",
+      "choice_1": "正式にパートナーシップ契約を締結する",
+      "choice_2": "タイトル獲得に応じた出来高ボーナスの増額を要求する",
+      "choice_3": "ピッチ上のプレーに専念するためオファーを丁重に断る",
+      "choice_4": "契約金の一部を慈善団体へ寄付する条項を盛り込む"
     },
     "lifestyle_media_1": {
-      "title": "Media Spotlight 1",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "メディアの脚光 1",
+      "description": "有名スポーツ誌からあなたの素顔に迫る独占密着取材の依頼が届きました。",
+      "choice_1": "日々のストイックな練習メニューとプロ意識をありのまま公開する",
+      "choice_2": "ファッションセンスやピッチ外のライフスタイルをアピールする",
+      "choice_3": "取材の焦点をチームのタイトル獲得のみに絞るよう念を押す",
+      "choice_4": "プライベートを守るためインタビューの受諾を見送る"
     },
     "lifestyle_media_2": {
-      "title": "Media Spotlight 2",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "メディアの脚光 2",
+      "description": "有名スポーツ誌からあなたの素顔に迫る独占密着取材の依頼が届きました。",
+      "choice_1": "日々のストイックな練習メニューとプロ意識をありのまま公開する",
+      "choice_2": "ファッションセンスやピッチ外のライフスタイルをアピールする",
+      "choice_3": "取材の焦点をチームのタイトル獲得のみに絞るよう念を押す",
+      "choice_4": "プライベートを守るためインタビューの受諾を見送る"
     },
     "lifestyle_media_3": {
-      "title": "Media Spotlight 3",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "メディアの脚光 3",
+      "description": "有名スポーツ誌からあなたの素顔に迫る独占密着取材の依頼が届きました。",
+      "choice_1": "日々のストイックな練習メニューとプロ意識をありのまま公開する",
+      "choice_2": "ファッションセンスやピッチ外のライフスタイルをアピールする",
+      "choice_3": "取材の焦点をチームのタイトル獲得のみに絞るよう念を押す",
+      "choice_4": "プライベートを守るためインタビューの受諾を見送る"
     },
     "lifestyle_media_4": {
-      "title": "Media Spotlight 4",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "メディアの脚光 4",
+      "description": "有名スポーツ誌からあなたの素顔に迫る独占密着取材の依頼が届きました。",
+      "choice_1": "日々のストイックな練習メニューとプロ意識をありのまま公開する",
+      "choice_2": "ファッションセンスやピッチ外のライフスタイルをアピールする",
+      "choice_3": "取材の焦点をチームのタイトル獲得のみに絞るよう念を押す",
+      "choice_4": "プライベートを守るためインタビューの受諾を見送る"
     },
     "lifestyle_media_5": {
-      "title": "Media Spotlight 5",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "メディアの脚光 5",
+      "description": "有名スポーツ誌からあなたの素顔に迫る独占密着取材の依頼が届きました。",
+      "choice_1": "日々のストイックな練習メニューとプロ意識をありのまま公開する",
+      "choice_2": "ファッションセンスやピッチ外のライフスタイルをアピールする",
+      "choice_3": "取材の焦点をチームのタイトル獲得のみに絞るよう念を押す",
+      "choice_4": "プライベートを守るためインタビューの受諾を見送る"
     },
     "lifestyle_media_6": {
-      "title": "Media Spotlight 6",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "メディアの脚光 6",
+      "description": "有名スポーツ誌からあなたの素顔に迫る独占密着取材の依頼が届きました。",
+      "choice_1": "日々のストイックな練習メニューとプロ意識をありのまま公開する",
+      "choice_2": "ファッションセンスやピッチ外のライフスタイルをアピールする",
+      "choice_3": "取材の焦点をチームのタイトル獲得のみに絞るよう念を押す",
+      "choice_4": "プライベートを守るためインタビューの受諾を見送る"
     },
     "lifestyle_media_7": {
-      "title": "Media Spotlight 7",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "メディアの脚光 7",
+      "description": "有名スポーツ誌からあなたの素顔に迫る独占密着取材の依頼が届きました。",
+      "choice_1": "日々のストイックな練習メニューとプロ意識をありのまま公開する",
+      "choice_2": "ファッションセンスやピッチ外のライフスタイルをアピールする",
+      "choice_3": "取材の焦点をチームのタイトル獲得のみに絞るよう念を押す",
+      "choice_4": "プライベートを守るためインタビューの受諾を見送る"
     },
     "lifestyle_media_8": {
-      "title": "Media Spotlight 8",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "メディアの脚光 8",
+      "description": "有名スポーツ誌からあなたの素顔に迫る独占密着取材の依頼が届きました。",
+      "choice_1": "日々のストイックな練習メニューとプロ意識をありのまま公開する",
+      "choice_2": "ファッションセンスやピッチ外のライフスタイルをアピールする",
+      "choice_3": "取材の焦点をチームのタイトル獲得のみに絞るよう念を押す",
+      "choice_4": "プライベートを守るためインタビューの受諾を見送る"
     },
     "lifestyle_media_9": {
-      "title": "Media Spotlight 9",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "メディアの脚光 9",
+      "description": "有名スポーツ誌からあなたの素顔に迫る独占密着取材の依頼が届きました。",
+      "choice_1": "日々のストイックな練習メニューとプロ意識をありのまま公開する",
+      "choice_2": "ファッションセンスやピッチ外のライフスタイルをアピールする",
+      "choice_3": "取材の焦点をチームのタイトル獲得のみに絞るよう念を押す",
+      "choice_4": "プライベートを守るためインタビューの受諾を見送る"
     },
     "lifestyle_media_10": {
-      "title": "Media Spotlight 10",
-      "description": "A major sports publication requests an exclusive profile story on your routine.",
-      "choice_1": "Share an authentic look into your training routine",
-      "choice_2": "Emphasize your personal brand and fashion lifestyle",
-      "choice_3": "Keep interview strictly focused on team goals",
-      "choice_4": "Decline interview to maintain privacy"
+      "title": "メディアの脚光 10",
+      "description": "有名スポーツ誌からあなたの素顔に迫る独占密着取材の依頼が届きました。",
+      "choice_1": "日々のストイックな練習メニューとプロ意識をありのまま公開する",
+      "choice_2": "ファッションセンスやピッチ外のライフスタイルをアピールする",
+      "choice_3": "取材の焦点をチームのタイトル獲得のみに絞るよう念を押す",
+      "choice_4": "プライベートを守るためインタビューの受諾を見送る"
     },
     "rivalry_drama_1": {
-      "title": "Rivalry Encounter 1",
-      "description": "Tensions flare during a heated derby buildup with opponent players.",
-      "choice_1": "Maintain composure and answer on the pitch",
-      "choice_2": "Respond fiercely to defend club pride",
-      "choice_3": "De-escalate tension through captain leadership",
-      "choice_4": "Use energy as motivation for extra training"
+      "title": "ダービー前の舌戦 1",
+      "description": "宿敵とのダービーマッチを控え、相手選手からの挑発で緊張が高まる。",
+      "choice_1": "挑発に乗らず冷静さを保ち、ピッチ上の結果で黙らせる",
+      "choice_2": "クラブの誇りを守るため、毅然と気迫のこもった言葉を返す",
+      "choice_3": "キャプテンシーを発揮してチーム全体の過熱を鎮める",
+      "choice_4": "この反骨心を燃料に変えて練習でハードに追い込む"
     },
     "rivalry_drama_2": {
-      "title": "Rivalry Encounter 2",
-      "description": "Tensions flare during a heated derby buildup with opponent players.",
-      "choice_1": "Maintain composure and answer on the pitch",
-      "choice_2": "Respond fiercely to defend club pride",
-      "choice_3": "De-escalate tension through captain leadership",
-      "choice_4": "Use energy as motivation for extra training"
+      "title": "ダービー前の舌戦 2",
+      "description": "宿敵とのダービーマッチを控え、相手選手からの挑発で緊張が高まる。",
+      "choice_1": "挑発に乗らず冷静さを保ち、ピッチ上の結果で黙らせる",
+      "choice_2": "クラブの誇りを守るため、毅然と気迫のこもった言葉を返す",
+      "choice_3": "キャプテンシーを発揮してチーム全体の過熱を鎮める",
+      "choice_4": "この反骨心を燃料に変えて練習でハードに追い込む"
     },
     "rivalry_drama_3": {
-      "title": "Rivalry Encounter 3",
-      "description": "Tensions flare during a heated derby buildup with opponent players.",
-      "choice_1": "Maintain composure and answer on the pitch",
-      "choice_2": "Respond fiercely to defend club pride",
-      "choice_3": "De-escalate tension through captain leadership",
-      "choice_4": "Use energy as motivation for extra training"
+      "title": "ダービー前の舌戦 3",
+      "description": "宿敵とのダービーマッチを控え、相手選手からの挑発で緊張が高まる。",
+      "choice_1": "挑発に乗らず冷静さを保ち、ピッチ上の結果で黙らせる",
+      "choice_2": "クラブの誇りを守るため、毅然と気迫のこもった言葉を返す",
+      "choice_3": "キャプテンシーを発揮してチーム全体の過熱を鎮める",
+      "choice_4": "この反骨心を燃料に変えて練習でハードに追い込む"
     },
     "rivalry_drama_4": {
-      "title": "Rivalry Encounter 4",
-      "description": "Tensions flare during a heated derby buildup with opponent players.",
-      "choice_1": "Maintain composure and answer on the pitch",
-      "choice_2": "Respond fiercely to defend club pride",
-      "choice_3": "De-escalate tension through captain leadership",
-      "choice_4": "Use energy as motivation for extra training"
+      "title": "ダービー前の舌戦 4",
+      "description": "宿敵とのダービーマッチを控え、相手選手からの挑発で緊張が高まる。",
+      "choice_1": "挑発に乗らず冷静さを保ち、ピッチ上の結果で黙らせる",
+      "choice_2": "クラブの誇りを守るため、毅然と気迫のこもった言葉を返す",
+      "choice_3": "キャプテンシーを発揮してチーム全体の過熱を鎮める",
+      "choice_4": "この反骨心を燃料に変えて練習でハードに追い込む"
     },
     "rivalry_drama_5": {
-      "title": "Rivalry Encounter 5",
-      "description": "Tensions flare during a heated derby buildup with opponent players.",
-      "choice_1": "Maintain composure and answer on the pitch",
-      "choice_2": "Respond fiercely to defend club pride",
-      "choice_3": "De-escalate tension through captain leadership",
-      "choice_4": "Use energy as motivation for extra training"
+      "title": "ダービー前の舌戦 5",
+      "description": "宿敵とのダービーマッチを控え、相手選手からの挑発で緊張が高まる。",
+      "choice_1": "挑発に乗らず冷静さを保ち、ピッチ上の結果で黙らせる",
+      "choice_2": "クラブの誇りを守るため、毅然と気迫のこもった言葉を返す",
+      "choice_3": "キャプテンシーを発揮してチーム全体の過熱を鎮める",
+      "choice_4": "この反骨心を燃料に変えて練習でハードに追い込む"
     },
     "veteran_mentorship_1": {
-      "title": "Mentorship Session 1",
-      "description": "An experienced squad veteran offers advice on positioning and game reading.",
-      "choice_1": "Absorb advice greedily and practice techniques",
-      "choice_2": "Discuss tactical concepts in depth",
-      "choice_3": "Express gratitude and offer to mentor academy players",
-      "choice_4": "Focus on applying lessons in next match"
+      "title": "大ベテランからの助言 1",
+      "description": "修羅場をくぐり抜けてきたベテラン選手が、ポジショニングと戦術眼の極意を伝授。",
+      "choice_1": "金言をスポンジのように吸収し、すぐさまグラウンドで試す",
+      "choice_2": "より高度な戦術的駆け引きについて深く意見を交わす",
+      "choice_3": "深い感謝を伝え、今度は自分がアカデミーの若手を導く番だと申し出る",
+      "choice_4": "教わったノウハウを次の公式戦で完璧に実践することに集中する"
     },
     "veteran_mentorship_2": {
-      "title": "Mentorship Session 2",
-      "description": "An experienced squad veteran offers advice on positioning and game reading.",
-      "choice_1": "Absorb advice greedily and practice techniques",
-      "choice_2": "Discuss tactical concepts in depth",
-      "choice_3": "Express gratitude and offer to mentor academy players",
-      "choice_4": "Focus on applying lessons in next match"
+      "title": "大ベテランからの助言 2",
+      "description": "修羅場をくぐり抜けてきたベテラン選手が、ポジショニングと戦術眼の極意を伝授。",
+      "choice_1": "金言をスポンジのように吸収し、すぐさまグラウンドで試す",
+      "choice_2": "より高度な戦術的駆け引きについて深く意見を交わす",
+      "choice_3": "深い感謝を伝え、今度は自分がアカデミーの若手を導く番だと申し出る",
+      "choice_4": "教わったノウハウを次の公式戦で完璧に実践することに集中する"
     },
     "veteran_mentorship_3": {
-      "title": "Mentorship Session 3",
-      "description": "An experienced squad veteran offers advice on positioning and game reading.",
-      "choice_1": "Absorb advice greedily and practice techniques",
-      "choice_2": "Discuss tactical concepts in depth",
-      "choice_3": "Express gratitude and offer to mentor academy players",
-      "choice_4": "Focus on applying lessons in next match"
+      "title": "大ベテランからの助言 3",
+      "description": "修羅場をくぐり抜けてきたベテラン選手が、ポジショニングと戦術眼の極意を伝授。",
+      "choice_1": "金言をスポンジのように吸収し、すぐさまグラウンドで試す",
+      "choice_2": "より高度な戦術的駆け引きについて深く意見を交わす",
+      "choice_3": "深い感謝を伝え、今度は自分がアカデミーの若手を導く番だと申し出る",
+      "choice_4": "教わったノウハウを次の公式戦で完璧に実践することに集中する"
     },
     "veteran_mentorship_4": {
-      "title": "Mentorship Session 4",
-      "description": "An experienced squad veteran offers advice on positioning and game reading.",
-      "choice_1": "Absorb advice greedily and practice techniques",
-      "choice_2": "Discuss tactical concepts in depth",
-      "choice_3": "Express gratitude and offer to mentor academy players",
-      "choice_4": "Focus on applying lessons in next match"
+      "title": "大ベテランからの助言 4",
+      "description": "修羅場をくぐり抜けてきたベテラン選手が、ポジショニングと戦術眼の極意を伝授。",
+      "choice_1": "金言をスポンジのように吸収し、すぐさまグラウンドで試す",
+      "choice_2": "より高度な戦術的駆け引きについて深く意見を交わす",
+      "choice_3": "深い感謝を伝え、今度は自分がアカデミーの若手を導く番だと申し出る",
+      "choice_4": "教わったノウハウを次の公式戦で完璧に実践することに集中する"
     },
     "veteran_mentorship_5": {
-      "title": "Mentorship Session 5",
-      "description": "An experienced squad veteran offers advice on positioning and game reading.",
-      "choice_1": "Absorb advice greedily and practice techniques",
-      "choice_2": "Discuss tactical concepts in depth",
-      "choice_3": "Express gratitude and offer to mentor academy players",
-      "choice_4": "Focus on applying lessons in next match"
+      "title": "大ベテランからの助言 5",
+      "description": "修羅場をくぐり抜けてきたベテラン選手が、ポジショニングと戦術眼の極意を伝授。",
+      "choice_1": "金言をスポンジのように吸収し、すぐさまグラウンドで試す",
+      "choice_2": "より高度な戦術的駆け引きについて深く意見を交わす",
+      "choice_3": "深い感謝を伝え、今度は自分がアカデミーの若手を導く番だと申し出る",
+      "choice_4": "教わったノウハウを次の公式戦で完璧に実践することに集中する"
+    },
+    "social": {
+      "title": "SNSでの批判",
+      "description": "TV解説者がSNS上であなたのことを『過大評価されている』と発言し、話題になっています。",
+      "choice_ignore": "批判を受け流す",
+      "choice_respond": "毅然と反論する"
+    },
+    "specialTraining": {
+      "title": "特別強化トレーニング",
+      "description": "監督がさらなる成長のための個別特別メニューを提案してきましたが、体力的には非常にハードです。",
+      "choice_accept": "居残り特訓を受け入れる",
+      "choice_decline": "通常の練習ペースを守る"
+    },
+    "sponsor": {
+      "title": "スポンサー契約のオファー",
+      "description": "{brand}から広告契約の打診がありました。高額な報酬ですが、PR活動の義務が課されます。",
+      "choice_accept": "契約書にサインする",
+      "choice_decline": "オファーを辞退する",
+      "choice_negotiate": "より良い条件を要求する"
+    },
+    "rivalry_drama_6": {
+      "title": "ダービー前の舌戦 6",
+      "description": "宿敵とのダービーマッチを控え、相手選手からの挑発で緊張が高まる。",
+      "choice_1": "挑発に乗らず冷静さを保ち、ピッチ上の結果で黙らせる",
+      "choice_2": "クラブの誇りを守るため、毅然と気迫のこもった言葉を返す",
+      "choice_3": "キャプテンシーを発揮してチーム全体の過熱を鎮める",
+      "choice_4": "この反骨心を燃料に変えて練習でハードに追い込む"
+    },
+    "rivalry_drama_7": {
+      "title": "ダービー前の舌戦 7",
+      "description": "宿敵とのダービーマッチを控え、相手選手からの挑発で緊張が高まる。",
+      "choice_1": "挑発に乗らず冷静さを保ち、ピッチ上の結果で黙らせる",
+      "choice_2": "クラブの誇りを守るため、毅然と気迫のこもった言葉を返す",
+      "choice_3": "キャプテンシーを発揮してチーム全体の過熱を鎮める",
+      "choice_4": "この反骨心を燃料に変えて練習でハードに追い込む"
+    },
+    "rivalry_drama_8": {
+      "title": "ダービー前の舌戦 8",
+      "description": "宿敵とのダービーマッチを控え、相手選手からの挑発で緊張が高まる。",
+      "choice_1": "挑発に乗らず冷静さを保ち、ピッチ上の結果で黙らせる",
+      "choice_2": "クラブの誇りを守るため、毅然と気迫のこもった言葉を返す",
+      "choice_3": "キャプテンシーを発揮してチーム全体の過熱を鎮める",
+      "choice_4": "この反骨心を燃料に変えて練習でハードに追い込む"
+    },
+    "rivalry_drama_9": {
+      "title": "ダービー前の舌戦 9",
+      "description": "宿敵とのダービーマッチを控え、相手選手からの挑発で緊張が高まる。",
+      "choice_1": "挑発に乗らず冷静さを保ち、ピッチ上の結果で黙らせる",
+      "choice_2": "クラブの誇りを守るため、毅然と気迫のこもった言葉を返す",
+      "choice_3": "キャプテンシーを発揮してチーム全体の過熱を鎮める",
+      "choice_4": "この反骨心を燃料に変えて練習でハードに追い込む"
+    },
+    "rivalry_drama_10": {
+      "title": "ダービー前の舌戦 10",
+      "description": "宿敵とのダービーマッチを控え、相手選手からの挑発で緊張が高まる。",
+      "choice_1": "挑発に乗らず冷静さを保ち、ピッチ上の結果で黙らせる",
+      "choice_2": "クラブの誇りを守るため、毅然と気迫のこもった言葉を返す",
+      "choice_3": "キャプテンシーを発揮してチーム全体の過熱を鎮める",
+      "choice_4": "この反骨心を燃料に変えて練習でハードに追い込む"
+    },
+    "veteran_mentorship_6": {
+      "title": "大ベテランからの助言 6",
+      "description": "修羅場をくぐり抜けてきたベテラン選手が、ポジショニングと戦術眼の極意を伝授。",
+      "choice_1": "金言をスポンジのように吸収し、すぐさまグラウンドで試す",
+      "choice_2": "より高度な戦術的駆け引きについて深く意見を交わす",
+      "choice_3": "深い感謝を伝え、今度は自分がアカデミーの若手を導く番だと申し出る",
+      "choice_4": "教わったノウハウを次の公式戦で完璧に実践することに集中する"
+    },
+    "veteran_mentorship_7": {
+      "title": "大ベテランからの助言 7",
+      "description": "修羅場をくぐり抜けてきたベテラン選手が、ポジショニングと戦術眼の極意を伝授。",
+      "choice_1": "金言をスポンジのように吸収し、すぐさまグラウンドで試す",
+      "choice_2": "より高度な戦術的駆け引きについて深く意見を交わす",
+      "choice_3": "深い感謝を伝え、今度は自分がアカデミーの若手を導く番だと申し出る",
+      "choice_4": "教わったノウハウを次の公式戦で完璧に実践することに集中する"
+    },
+    "veteran_mentorship_8": {
+      "title": "大ベテランからの助言 8",
+      "description": "修羅場をくぐり抜けてきたベテラン選手が、ポジショニングと戦術眼の極意を伝授。",
+      "choice_1": "金言をスポンジのように吸収し、すぐさまグラウンドで試す",
+      "choice_2": "より高度な戦術的駆け引きについて深く意見を交わす",
+      "choice_3": "深い感謝を伝え、今度は自分がアカデミーの若手を導く番だと申し出る",
+      "choice_4": "教わったノウハウを次の公式戦で完璧に実践することに集中する"
+    },
+    "veteran_mentorship_9": {
+      "title": "大ベテランからの助言 9",
+      "description": "修羅場をくぐり抜けてきたベテラン選手が、ポジショニングと戦術眼の極意を伝授。",
+      "choice_1": "金言をスポンジのように吸収し、すぐさまグラウンドで試す",
+      "choice_2": "より高度な戦術的駆け引きについて深く意見を交わす",
+      "choice_3": "深い感謝を伝え、今度は自分がアカデミーの若手を導く番だと申し出る",
+      "choice_4": "教わったノウハウを次の公式戦で完璧に実践することに集中する"
+    },
+    "veteran_mentorship_10": {
+      "title": "大ベテランからの助言 10",
+      "description": "修羅場をくぐり抜けてきたベテラン選手が、ポジショニングと戦術眼の極意を伝授。",
+      "choice_1": "金言をスポンジのように吸収し、すぐさまグラウンドで試す",
+      "choice_2": "より高度な戦術的駆け引きについて深く意見を交わす",
+      "choice_3": "深い感謝を伝え、今度は自分がアカデミーの若手を導く番だと申し出る",
+      "choice_4": "教わったノウハウを次の公式戦で完璧に実践することに集中する"
     }
   },
   "contractTermination": {
@@ -2173,20 +2291,20 @@
     "narrativeChange": {
       "Prodigy": "メディアの報道は「神童」に移ります",
       "OntheRise": "メディアの報道は「上昇中」に移行",
-      "EstablishedStar": "メディアの報道は「確立されたスター」に移行",
+      "EstablishedStar": "メディアの報道は「定評あるスター」に移行",
       "UnderPressure": "メディアの報道は「プレッシャーの下」に移行",
       "Journeyman": "メディアの報道は「ジャーニーマン」に移ります",
       "VeteranLeader": "メディアの報道は「ベテランのリーダー」に移行",
       "VeteranStar": "メディアの報道は「ベテランスター」に移行",
-      "VeteranRotation": "メディアの報道は「退役軍人ローテーション」に移行",
+      "VeteranRotation": "メディアの報道は「ベテランローテーション」に移行",
       "ForgottenMan": "メディアの報道は「忘れられた男」に移ります",
       "Flop": "メディアの報道は「フロップ」に移行",
-      "ComebackKid": "メディアの報道は「カムバック・キッド」に移行",
+      "ComebackKid": "メディアの報道は「カムバックキッド」に移行",
       "CultHero": "メディアの報道は「カルトヒーロー」に移行",
       "HometownHero": "メディアの報道は「故郷の英雄」に移行",
-      "PolarizingFigure": "メディアの報道は「二極化する人物」に移行",
-      "PressDarling": "メディアの報道は「プレス・ダーリン」へと移行する",
-      "SystemPlayer": "メディアの報道は「システム プレーヤー」に移ります。",
+      "PolarizingFigure": "メディアの報道は「物議を醸す人物」に移行",
+      "PressDarling": "メディアの報道は「マスコミの寵児」に移行",
+      "SystemPlayer": "メディアの報道は「戦術適合型選手」に移行",
       "InjuryComeback": "メディアの報道は「怪我の復活」に移行"
     }
   },
@@ -2207,7 +2325,7 @@
     },
     "EstablishedStar": {
       "description": "最盛期のエリートパフォーマーとして認められている。",
-      "name": "確立されたスター",
+      "name": "定評あるスター",
       "quote1": "リーグのトップスターの一人として、今シーズンの目標は何ですか？",
       "quote2": "多くの若い選手があなたを尊敬しています。その役割をどのように処理しますか？",
       "quote3": "大きな試合でパフォーマンスをしなければならないという特別なプレッシャーは感じますか？"
@@ -2256,14 +2374,14 @@
     },
     "PolarizingFigure": {
       "description": "専門家とファンの間で意見が二分する人物。",
-      "name": "偏光図",
+      "name": "物議を醸す人物",
       "quote1": "意見が分かれているようですね。それはなぜだと思いますか?",
       "quote2": "あなたが受けた批判はあなたのゲームに少しでも影響しますか?",
       "quote3": "メディアや世間に誤解されていると感じますか?"
     },
     "PressDarling": {
       "description": "メディアとの関係は非常に良好です。",
-      "name": "プレスダーリン",
+      "name": "マスコミの寵児",
       "quote1": "メディアはあなたを愛しているようです。それはあなたの自信につながりますか？",
       "quote2": "あなたが常に見出しに登場するのには正当な理由があります。秘密は何ですか？",
       "quote3": "選手にとって良いイメージを維持することはどのくらい重要ですか?"
@@ -2277,7 +2395,7 @@
     },
     "SystemPlayer": {
       "description": "彼がこの特定の戦術設定の外でパフォーマンスを発揮できるかどうかには疑問が残る。",
-      "name": "システムプレーヤー",
+      "name": "戦術適合型選手",
       "quote1": "あなたはこのシステムに完璧に適合しています。他の戦術について心配していますか？",
       "quote2": "セットアップのせいでこんなに美しく見えるだけだという人もいます。反応？",
       "quote3": "監督がアプローチを変えた場合、自分のゲームを適応させることができるでしょうか?"
@@ -2415,6 +2533,11 @@
       },
       "settle": {
         "headline1": "税務訴訟が示談で解決"
+      },
+      "relationship_drama": {
+        "headline1": "プライベートが流出：{name}をめぐる新たな波紋",
+        "press1": "私生活の混乱がピッチ上でのパフォーマンスに影を落としているようだ。",
+        "press2": "タブロイド紙が執拗に選手の身辺を追い回している。"
       }
     },
     "transfer": {
@@ -2424,6 +2547,141 @@
       "warning_1": "クラブの警告",
       "warning_2": "最終警告",
       "warning_3": "懲戒処分"
+    },
+    "media": {
+      "interviews": {
+        "clashWithManager": {
+          "question": "練習場で監督と衝突があったとの噂があります。今の関係はどうですか？",
+          "answers": {
+            "apologetic": "あのような形になったことを後悔しています。自分の行動を振り返り、このチームに100%コミットしています。",
+            "defiant": "言うべきことは言いました。自分の信念と基準を貫きます。",
+            "focused": "もっと大きな目標がある。語るのはピッチの上でやりたい。"
+          }
+        },
+        "contractRenewal": {
+          "question": "この新契約で{team}に長期的な未来を託す気持ちはいかがですか？",
+          "answers": {
+            "ambitious": "ここで大きなタイトルを掲げたい。この契約更新は、特別なものを築いている証しです。",
+            "grateful": "{team}の揺るぎない信頼に感謝しています。ここはわが家のように感じます。",
+            "loyal": "他のクラブに心が揺れたことはありません。私の心は完全に{team}のものです。"
+          }
+        },
+        "derbyWin": {
+          "question": "大熱戦のダービーを制しました！今の気持ちは？",
+          "answers": {
+            "ecstatic": "信じられない夜だ！このダービーがファンにとってどれほど大きいか分かっている。今夜この街は俺たちのものだ！",
+            "humble": "大きな3ポイントだが、シーズンは長い。チームを誇りに思う。明日からまた仕事だ。",
+            "passionate": "これがダービーのサッカーだ！すべての球際に体を張り、より強く勝ちを欲した。"
+          }
+        },
+        "firstCallUp": {
+          "question": "A代表の初招集を受けたとき、何を思いましたか？",
+          "answers": {
+            "determined": "数合わせでここに来たわけではない。このレベルにふさわしいと証明する準備はできている。",
+            "emotional": "幼い頃の夢が叶った。家族と、信じてくれたすべての人を思う。",
+            "honored": "代表のユニフォームを着ることは、フットボーラーにとって最高の名誉。すべてを捧げる覚悟です。"
+          }
+        },
+        "firstProfessionalGoal": {
+          "question": "プロ初ゴールおめでとう！ボールがネットに突き刺さるのを見てどう感じましたか？",
+          "answers": {
+            "hungry": "忘れられない気持ちですが、これは始まりにすぎない。もっと決めたい。",
+            "joyful": "純粋な高揚感！あの瞬間を練習で何千回もイメージしてきた。",
+            "teamFirst": "得点は嬉しいが、何より大事だったのはチームが結果を確定させる手助けをすることだった。"
+          }
+        },
+        "futureAmbitions": {
+          "question": "今後を見据えて、サッカーでの最終的な長期目標は？",
+          "answers": {
+            "legend": "世界のフットボール史に残る偉大な選手の一人として記憶されたい。",
+            "silverware": "トロフィーがキャリアを決める。リーグ優勝とヨーロッパチャンピオンズカップを獲りたい。",
+            "stepByStep": "毎回の練習で成長することに集中している。功績はあとからついてくる。"
+          }
+        },
+        "goalDrought": {
+          "question": "これで{count}試合ゴールなしです。外からの批判にはどう向き合っていますか？",
+          "answers": {
+            "confident": "どのストライカーにも無得点期間はある。動きは悪くない、ゴールは必ず来る。",
+            "frustrated": "もちろんもどかしいが、自分はチームへの貢献全体で評価している。",
+            "patient": "慌ててはいない。危険なエリアに入り続ければ、流れは必ず変わる。"
+          }
+        },
+        "injuryComeback": {
+          "question": "過酷なリハビリを経て、ようやくピッチに戻りました。体調はいかがですか？",
+          "answers": {
+            "relieved": "リハビリの最も暗い日々は終わった。スタジアムの歓声を聞くだけで鳥肌が立つ。",
+            "stronger": "怪我はメンタルを試す。徹底的に追い込み、最高のコンディションで戻ってきた。",
+            "cautious": "出場時間を積めるのは良いこと。試合ごとに感覚を取り戻している。"
+          }
+        },
+        "leagueTitleWin": {
+          "question": "リーグ制覇！38試合の激闘を経てトロフィーはあなたのもの。この瞬間はどれほど甘いですか？",
+          "answers": {
+            "triumphant": "チャンピオンだ！安定と結束で、すべての懐疑論者を黙らせた。",
+            "emotional": "1年間の犠牲がこの瞬間に結実した。純粋な喜びの涙だ。",
+            "hungryForMore": "今夜は喜ぼう。だがこのチームは持続的な支配のために作られている。連覇を狙う。"
+          }
+        },
+        "majorTrophyLoss": {
+          "question": "決勝での痛恨の敗戦。ロッカールームの空気は？",
+          "answers": {
+            "devastated": "言葉にしにくい。あと一歩まで来て何も得られず去るのは、深く痛む。",
+            "resilient": "敗戦は痛い。だがこの痛みが、来年こそ勝つという飢えに変わる。",
+            "proud": "結果には失望しているが、選手たちが見せた勇気を心から誇りに思う。"
+          }
+        },
+        "postMatch": {
+          "question": "試合終了のホイッスルが鳴ったばかりです。今日のパフォーマンスを率直にどう評価しますか？",
+          "answers": {
+            "satisfied": "開始1分からゲームプランを完璧に遂行した。完全に妥当な結果だ。",
+            "critical": "勝ち点は取ったが、我々の基準はもっと高い。磨くべき細部は多い。",
+            "drained": "開始から終了まで激しい戦いだった。底力を出し、真のメンタリティを示した。"
+          }
+        },
+        "retirementAnnouncement": {
+          "question": "プロサッカーからの引退を正式に発表しました。今はどんな感情が大きいですか？",
+          "answers": {
+            "peaceful": "心は満たされ、後悔はない。身を引く時が来た。",
+            "nostalgic": "少年時代のアカデミーの夢から世界のスタジアムまで——魔法のような旅だった。",
+            "grateful": "この道を共に歩んでくれたすべての監督、チームメイト、ファンに限りない感謝を。"
+          }
+        },
+        "teammateFallingOut": {
+          "question": "あなたとチームメイトの{player}の間に緊張があるとの報道があります。チーム内に亀裂はあるのですか？",
+          "answers": {
+            "dismissive": "センセーショナルな報道のノイズだ。競争意識の高いロッカールームでは議論は日常茶飯事。",
+            "united": "同じ目標へ向かうプロフェッショナルだ。ロッカールームは一つにまとまっている。",
+            "honest": "試合中は意見が分かれたが、男らしく話し合って解決し、前に進んだ。"
+          }
+        },
+        "transferRumours": {
+          "question": "大型移籍の噂が絶えません。将来について決断はしましたか？",
+          "answers": {
+            "focused": "頭は100%{team}に向いています。交渉はクラブと代理人の間のことです。",
+            "open": "現代のフットボールでは、未来は誰にも分からない。選択肢は開いておく。",
+            "committed": "{team}に完全にコミットしています。ゴシップ欄のすべてを信じないでください。"
+          }
+        },
+        "worldCupWin": {
+          "question": "世界王者！世界のフットボールの絶対的な頂点に到達しました。言葉にできますか？",
+          "answers": {
+            "immortal": "我々は世界王者だ！俺たちの名前は国の歴史に永遠に刻まれる！",
+            "surreal": "ワールドカップを掲げて表彰台に立つのは、体外離脱のような夢のようだ。",
+            "patriotic": "このトロフィーは我が国のすべての国民のものだ。家に持ち帰った！"
+          }
+        }
+      }
+    },
+    "nightclub_incident": {
+      "apologize": {
+        "headline1": "{name}がナイトクラブでの騒動について公に謝罪",
+        "press1": "謝罪は第一歩だが、世間のイメージダウンは免れない。"
+      },
+      "blame": {
+        "fan1": "いつも他人のせいにするんだな…",
+        "headline1": "{name}がナイトクラブ騒動で相手側の非を主張",
+        "press1": "この言い分に納得するファンは少ないだろう。"
+      }
     }
   },
   "retirement": {
@@ -2514,7 +2772,7 @@
       "minutesAgo": "{count} 分前"
     },
     "seasonComments": {
-      "excited": "新しい季節にとても興奮しています！さあ、{team} に行きましょう!",
+      "excited": "新しいシーズンにとても興奮しています！さあ、{team} に行きましょう!",
       "expectations": "今年は{name}に大きな期待がかかります。彼は配達できるでしょうか？",
       "newSeason": "新しいシーズン、新しい目標。輝く時間です！"
     },
@@ -2767,5 +3025,10 @@
   "firstYouthAssist": "ユース初アシスト",
   "firstProGoal": "プロ初ゴール",
   "firstProAssist": "プロ初アシスト",
-  "intlDebut": "代表デビュー"
+  "intlDebut": "代表デビュー",
+  "youthAcademy": {
+    "promoted": "ユースアカデミーからトップチームに昇格しました！",
+    "released": "トップチーム昇格を逃し、ユースアカデミーから退団となりました。",
+    "staying": "実力を磨くため、もう1シーズンユースアカデミーにとどまることが決定しました。"
+  }
 }

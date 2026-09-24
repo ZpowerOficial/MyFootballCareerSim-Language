@@ -81,7 +81,10 @@
     "reachOverallRating": "Reach OVR target",
     "winWorldCup": "Win the World Tournament",
     "achieved": "Objective Achieved: {narrative}",
-    "newGoal": "New Objective Unlocked: {goal}"
+    "newGoal": "New Objective Unlocked: {goal}",
+    "spendDecade": "Spend 10 years at {team}",
+    "topTierLeague": "Play in an elite league",
+    "winContinentalCup": "Win Continental Cup with {team}"
   },
   "competitions": {
     "afcon": "African Cup of Nations",
@@ -338,7 +341,8 @@
       "concernYellow": "Disciplinary concerns: {count} yellow cards this season.",
       "criticalRed": "CRITICAL disciplinary problems: {count} red cards - must improve!",
       "majorYellow": "Serious disciplinary problems: {count} yellow cards this season.",
-      "seriousRed": "Serious disciplinary problems: {count} red cards!"
+      "seriousRed": "Serious disciplinary problems: {count} red cards!",
+      "title": "Discipline"
     },
     "endorsement": {
       "signed": "Signed endorsement deal of {duration} years with {brand} worth £{value}M per year!"
@@ -904,7 +908,9 @@
           "headline1": "{name} praised for treatment of fans"
         },
         "ignore": {
-          "fan1": "Walked right past us as if we were invisible..."
+          "fan1": "Walked right past us as if we were invisible...",
+          "fan2": "Fame has completely gone to his head. Sad to see.",
+          "headline1": "{name} snubs waiting supporters, triggering sharp backlash"
         }
       },
       "manager_conversation": {
@@ -982,6 +988,17 @@
         "double_down": {
           "fan1": "He's not backing down!"
         }
+      },
+      "mentor_opportunity": {
+        "accept": {
+          "fan1": "A true role model for our academy players!",
+          "headline1": "{name} to mentor academy youngsters",
+          "press1": "{name}'s experience will be invaluable for youth development."
+        },
+        "decline": {
+          "fan1": "Only thinking about himself...",
+          "headline1": "{name} declines invitation to mentor academy prospects"
+        }
       }
     },
     "relationship": {
@@ -1040,7 +1057,9 @@
             "thigh": "thigh injury",
             "muscle_strain": "muscle strain",
             "muscle": "muscle injury"
-          }
+          },
+          "recovery_serious": "Back from serious injury - relieved to be back on the pitch.",
+          "recovery_normal": "Fully recovered from injury and back to full fitness."
         },
         "natural": {
           "1": "{name} announces retirement at perfect moment. A career well lived.",
@@ -1133,7 +1152,9 @@
           "18": "Couldn't compete anymore: {name} reluctantly retires.",
           "19": "Match postponed: {name} finally accepts career is over.",
           "20": "Credits roll: {name}'s story ends with faded chapter."
-        }
+        },
+        "testimonialMatch": "{team} will honor {name} with a testimonial match.",
+        "shirtRetired": "{team} announces plans to retire jersey number {number} in honor of club legend {name}."
       },
       "icon": "{name} announces retirement after remarkable career. {matches} matches, {goals} goals, {trophies} major titles. An inspiration to many.",
       "journeyman": "{name} announces retirement. {reason}. Made {matches} appearances across {clubs} clubs.",
@@ -1331,7 +1352,8 @@
       "won": "{competition} Winners!",
       "wonYouth": "Won the Youth Competition!",
       "worldCup": "WORLD TOURNAMENT CHAMPIONS! A Legend is Born!",
-      "worldCupChampions": "{country} won the World Tournament!"
+      "worldCupChampions": "{country} won the World Tournament!",
+      "continentalQualification": "Qualification for {competition} secured!"
     },
     "urgentDecision": "Urgent decision required!",
     "viral": {
@@ -2163,6 +2185,105 @@
       "choice_2": "Discuss tactical concepts in depth",
       "choice_3": "Express gratitude and offer to mentor academy players",
       "choice_4": "Focus on applying lessons in next match"
+    },
+    "social": {
+      "title": "Social Media Backlash",
+      "description": "A TV pundit called you 'massively overrated' on social media. The clip is going viral.",
+      "choice_ignore": "Ignore the noise",
+      "choice_respond": "Post a fiery reply"
+    },
+    "specialTraining": {
+      "title": "Specialized Training Regime",
+      "description": "The coach suggests an intensive personalized training regime to elevate your game, though it will be exhausting.",
+      "choice_accept": "Commit to extra training",
+      "choice_decline": "Stick to normal routine"
+    },
+    "sponsor": {
+      "title": "Sponsorship Deal",
+      "description": "{brand} is offering an endorsement deal. Lucrative payout, but with demanding commercial duties.",
+      "choice_accept": "Sign the deal",
+      "choice_decline": "Decline offer",
+      "choice_negotiate": "Hold out for more"
+    },
+    "rivalry_drama_6": {
+      "title": "Rivalry Encounter 6",
+      "description": "Tensions flare during a heated derby buildup with opponent players.",
+      "choice_1": "Maintain composure and answer on the pitch",
+      "choice_2": "Respond fiercely to defend club pride",
+      "choice_3": "De-escalate tension through captain leadership",
+      "choice_4": "Use energy as motivation for extra training"
+    },
+    "veteran_mentorship_6": {
+      "title": "Mentorship Session 6",
+      "description": "An experienced squad veteran offers advice on positioning and game reading.",
+      "choice_1": "Absorb advice greedily and practice techniques",
+      "choice_2": "Discuss tactical concepts in depth",
+      "choice_3": "Express gratitude and offer to mentor academy players",
+      "choice_4": "Focus on applying lessons in next match"
+    },
+    "rivalry_drama_7": {
+      "title": "Rivalry Encounter 7",
+      "description": "Tensions flare during a heated derby buildup with opponent players.",
+      "choice_1": "Maintain composure and answer on the pitch",
+      "choice_2": "Respond fiercely to defend club pride",
+      "choice_3": "De-escalate tension through captain leadership",
+      "choice_4": "Use energy as motivation for extra training"
+    },
+    "veteran_mentorship_7": {
+      "title": "Mentorship Session 7",
+      "description": "An experienced squad veteran offers advice on positioning and game reading.",
+      "choice_1": "Absorb advice greedily and practice techniques",
+      "choice_2": "Discuss tactical concepts in depth",
+      "choice_3": "Express gratitude and offer to mentor academy players",
+      "choice_4": "Focus on applying lessons in next match"
+    },
+    "rivalry_drama_8": {
+      "title": "Rivalry Encounter 8",
+      "description": "Tensions flare during a heated derby buildup with opponent players.",
+      "choice_1": "Maintain composure and answer on the pitch",
+      "choice_2": "Respond fiercely to defend club pride",
+      "choice_3": "De-escalate tension through captain leadership",
+      "choice_4": "Use energy as motivation for extra training"
+    },
+    "veteran_mentorship_8": {
+      "title": "Mentorship Session 8",
+      "description": "An experienced squad veteran offers advice on positioning and game reading.",
+      "choice_1": "Absorb advice greedily and practice techniques",
+      "choice_2": "Discuss tactical concepts in depth",
+      "choice_3": "Express gratitude and offer to mentor academy players",
+      "choice_4": "Focus on applying lessons in next match"
+    },
+    "rivalry_drama_9": {
+      "title": "Rivalry Encounter 9",
+      "description": "Tensions flare during a heated derby buildup with opponent players.",
+      "choice_1": "Maintain composure and answer on the pitch",
+      "choice_2": "Respond fiercely to defend club pride",
+      "choice_3": "De-escalate tension through captain leadership",
+      "choice_4": "Use energy as motivation for extra training"
+    },
+    "veteran_mentorship_9": {
+      "title": "Mentorship Session 9",
+      "description": "An experienced squad veteran offers advice on positioning and game reading.",
+      "choice_1": "Absorb advice greedily and practice techniques",
+      "choice_2": "Discuss tactical concepts in depth",
+      "choice_3": "Express gratitude and offer to mentor academy players",
+      "choice_4": "Focus on applying lessons in next match"
+    },
+    "rivalry_drama_10": {
+      "title": "Rivalry Encounter 10",
+      "description": "Tensions flare during a heated derby buildup with opponent players.",
+      "choice_1": "Maintain composure and answer on the pitch",
+      "choice_2": "Respond fiercely to defend club pride",
+      "choice_3": "De-escalate tension through captain leadership",
+      "choice_4": "Use energy as motivation for extra training"
+    },
+    "veteran_mentorship_10": {
+      "title": "Mentorship Session 10",
+      "description": "An experienced squad veteran offers advice on positioning and game reading.",
+      "choice_1": "Absorb advice greedily and practice techniques",
+      "choice_2": "Discuss tactical concepts in depth",
+      "choice_3": "Express gratitude and offer to mentor academy players",
+      "choice_4": "Focus on applying lessons in next match"
     }
   },
   "media": {
@@ -2174,7 +2295,8 @@
       "goals": {
         "1": "Goal drought continues: 5 games without scoring.",
         "2": "Striker firing blanks: Is confidence the issue?",
-        "3": "Ten games, zero goals. Crisis for number 9."
+        "3": "Ten games, zero goals. Crisis for number 9.",
+        "completed": "Goal drought ended!"
       }
     },
     "fan": {
@@ -2488,6 +2610,11 @@
       },
       "settle": {
         "headline1": "Tax Case Settled out of Court"
+      },
+      "relationship_drama": {
+        "headline1": "Private life in the spotlight: turmoil surrounds {name}",
+        "press1": "Off-pitch distractions appear to be affecting performances on the pitch.",
+        "press2": "Tabloids continue to scrutinize the player’s personal life."
       }
     },
     "transfer": {
@@ -2497,6 +2624,141 @@
       "warning_1": "Club Warning",
       "warning_2": "Final Warning",
       "warning_3": "Disciplinary Action"
+    },
+    "media": {
+      "interviews": {
+        "clashWithManager": {
+          "question": "Rumors suggest there was friction with the manager on the training ground. What is your relationship like now?",
+          "answers": {
+            "apologetic": "I regret how things unfolded. I've reflected on my actions and remain 100% committed to this team.",
+            "defiant": "I said what needed to be said. I stand by my principles and standards.",
+            "focused": "We have bigger goals ahead. I prefer to do my talking on the pitch."
+          }
+        },
+        "contractRenewal": {
+          "question": "How does it feel to commit your long-term future to {team} with this new contract?",
+          "answers": {
+            "ambitious": "I want to lift major silverware here. This renewal proves we are building something special.",
+            "grateful": "I'm grateful for {team}'s unwavering trust in me. This place feels like home.",
+            "loyal": "My head was never turned by other clubs. My heart belongs entirely to {team}."
+          }
+        },
+        "derbyWin": {
+          "question": "You just came out on top in an electric derby! How does it feel?",
+          "answers": {
+            "ecstatic": "Incredible night! We know how much this derby means to our fans. The city is ours tonight!",
+            "humble": "Massive three points, but the season is long. Proud of the squad, and tomorrow we get back to work.",
+            "passionate": "This is what derby football is all about! We fought for every 50-50 ball and wanted it more."
+          }
+        },
+        "firstCallUp": {
+          "question": "What went through your mind when you received your first senior national team call-up?",
+          "answers": {
+            "determined": "I'm not here just to make up the numbers. I'm ready to prove I belong at this level.",
+            "emotional": "A childhood dream come true. Thinking of my family and everyone who believed in me.",
+            "honored": "Wearing the national shirt is the greatest honor a footballer can have. Ready to give everything."
+          }
+        },
+        "firstProfessionalGoal": {
+          "question": "Congratulations on your debut professional goal! How did it feel watching the ball hit the net?",
+          "answers": {
+            "hungry": "It's an unforgettable feeling, but this is only the beginning. I want many more.",
+            "joyful": "Pure euphoria! I've visualized that exact moment thousands of times in training.",
+            "teamFirst": "Thrilled to score, but the most important thing was helping the team secure the result."
+          }
+        },
+        "futureAmbitions": {
+          "question": "Looking ahead, what are your ultimate long-term goals in football?",
+          "answers": {
+            "legend": "I want to be remembered as one of the all-time greats in world football.",
+            "silverware": "Trophies define a career. I want to win league titles and the European Champions Cup.",
+            "stepByStep": "I focus on improving each training session. The legacy will take care of itself."
+          }
+        },
+        "goalDrought": {
+          "question": "It's now {count} matches without a goal. How are you dealing with the outside scrutiny?",
+          "answers": {
+            "confident": "Every striker goes through dry spells. My movement is sharp, and the goals will come.",
+            "frustrated": "Of course it's frustrating, but I judge myself on overall contribution to the team.",
+            "patient": "I'm not panicking. Keep getting into dangerous areas and the luck will turn."
+          }
+        },
+        "injuryComeback": {
+          "question": "You're finally back on the pitch after a grueling rehabilitation. How are you feeling physically?",
+          "answers": {
+            "relieved": "The darkest days of rehab are behind me. Just hearing the crowd roar gives me goosebumps.",
+            "stronger": "Injuries test your mentality. I've worked relentlessly and returned in peak physical shape.",
+            "cautious": "Good to get minutes under my belt, taking it match by match to find my rhythm."
+          }
+        },
+        "leagueTitleWin": {
+          "question": "League Champions! After 38 grueling matches, the trophy is yours. How sweet is this moment?",
+          "answers": {
+            "triumphant": "Champions! We proved all the doubters wrong through consistency and unity.",
+            "emotional": "A full year of sacrifices culminated in this moment. Tears of pure joy.",
+            "hungryForMore": "Savor tonight, but this squad is built for sustained dominance. We want back-to-back titles."
+          }
+        },
+        "majorTrophyLoss": {
+          "question": "A heartbreaking defeat in the final. What is the mood in the dressing room?",
+          "answers": {
+            "devastated": "Hard to put into words. To come this close and leave empty-handed hurts deeply.",
+            "resilient": "Defeat stings, but this pain will fuel our hunger to come back and win it next year.",
+            "proud": "Disappointed with the result, but immensely proud of the courage our boys showed."
+          }
+        },
+        "postMatch": {
+          "question": "The final whistle just blew. What's your immediate assessment of today's performance?",
+          "answers": {
+            "satisfied": "We executed the game plan brilliantly from minute one. Fully deserved result.",
+            "critical": "We took the points, but our standards are higher. Plenty of details to sharpen.",
+            "drained": "Intense battle from start to finish. We dug deep and showed real character."
+          }
+        },
+        "retirementAnnouncement": {
+          "question": "You have officially announced your retirement from professional football. What emotions dominate?",
+          "answers": {
+            "peaceful": "I leave the game with a full heart and zero regrets. The time has come to step aside.",
+            "nostalgic": "From boyhood academy dreams to world stadiums—it has been a magical journey.",
+            "grateful": "Immense gratitude to every manager, teammate, and fan who shared this road with me."
+          }
+        },
+        "teammateFallingOut": {
+          "question": "Reports claim tension between you and teammate {player}. Is there division in the squad?",
+          "answers": {
+            "dismissive": "Sensationalist media noise. In competitive dressing rooms, debates happen all the time.",
+            "united": "We are professionals working towards the same goal. The dressing room is united.",
+            "honest": "We had differing views during the match, but we sorted it out like men and moved forward."
+          }
+        },
+        "transferRumours": {
+          "question": "Constant speculation links you with a blockbuster move away. Have you decided on your future?",
+          "answers": {
+            "focused": "My head is 100% focused on {team}. Any talks are between the club and my agent.",
+            "open": "In modern football, you never know what the future holds. I'm keeping my options open.",
+            "committed": "I'm fully committed to {team}. Don't believe everything you read in the gossip columns."
+          }
+        },
+        "worldCupWin": {
+          "question": "World Champions! You've reached the absolute summit of global football. Can you put this into words?",
+          "answers": {
+            "immortal": "We are World Champions! Our names will be etched into the nation's history forever!",
+            "surreal": "Standing on the podium holding the World Cup feels like an out-of-body dream.",
+            "patriotic": "This trophy belongs to every single citizen in our country. We brought it home!"
+          }
+        }
+      }
+    },
+    "nightclub_incident": {
+      "apologize": {
+        "headline1": "{name} issues public apology following nightclub incident",
+        "press1": "A sensible first step, though their public image has taken a blow."
+      },
+      "blame": {
+        "fan1": "Typical, it's always someone else's fault...",
+        "headline1": "{name} shifts blame onto others following nightclub altercation",
+        "press1": "This defense is unlikely to convince skeptical supporters."
+      }
     }
   },
   "retirement": {
@@ -2697,6 +2959,40 @@
       "nextGeneration": "The next generation is here. Impressive maturity from {name}.",
       "protect": "We need to protect this talent. He's the future of {team}.",
       "wonderkid": "Wonderkid alert! This kid is special."
+    },
+    "matchEvents": {
+      "strayPass": {
+        "0": "{player} misplaced a pass",
+        "1": "Poor pass from {player}"
+      },
+      "goodPass": {
+        "0": "Great pass by {player}",
+        "1": "{player} finds a teammate"
+      },
+      "goal": {
+        "0": "GOAL! {player} scores!",
+        "1": "What a finish from {player}!"
+      },
+      "assist": {
+        "0": "Assist from {player}",
+        "1": "Lovely ball by {player}"
+      },
+      "yellowCard": {
+        "0": "Yellow card for {player}",
+        "1": "{player} is booked"
+      },
+      "redCard": {
+        "0": "Red card! {player} is sent off!",
+        "1": "{player} gets his marching orders"
+      },
+      "injury": {
+        "0": "{player} looks hurt",
+        "1": "{player} comes off injured"
+      },
+      "substitution": {
+        "0": "Substitution: {out} off, {in} on",
+        "1": "{in} replaces {out}"
+      }
     }
   },
   "transfer": {
@@ -2724,5 +3020,15 @@
   "firstYouthAssist": "First Assist in Youth Team",
   "firstProGoal": "First Professional Goal",
   "firstProAssist": "First Professional Assist",
-  "intlDebut": "International Debut"
+  "intlDebut": "International Debut",
+  "youthAcademy": {
+    "promoted": "Promoted from the youth academy to the senior first team!",
+    "released": "Released from the youth academy after not earning promotion to the senior squad.",
+    "staying": "Decided to stay in the youth academy for another season to continue developing."
+  },
+  "competition": {
+    "americasDerby": "Superclásico de las Américas"
+  },
+  "decisionMade": "Decision Made",
+  "urgentDecision": "Urgent decision required!"
 }

@@ -3,10 +3,10 @@
     "Average": "Ortalama",
     "Excellent": "Harika",
     "Good": "İyi",
-    "Injured": "Yaralı",
+    "Injured": "Sakat",
     "OnFire": "Ateşte",
     "Poor": "Fakir",
-    "Suspended": "Askıya alınmış",
+    "Suspended": "Cezalı",
     "VeryPoor": "Çok Zayıf",
     "average": "Ortalama",
     "belowAverage": "Ortalamanın Altında",
@@ -58,8 +58,8 @@
   },
   "offer": {
     "type": {
-      "loan": "Borç",
-      "transfer": "Aktarım"
+      "loan": "Kiralık",
+      "transfer": "Transfer"
     }
   },
   "offers": {
@@ -67,14 +67,14 @@
     "closeAndStay": "Kapat ve Kal",
     "contractLength": "Sözleşme Süresi",
     "decline": "Reddetmek",
-    "loanDuration": "Kredi Süresi",
-    "loanMove": "Kredi Taşıma",
+    "loanDuration": "Kiralık Süresi",
+    "loanMove": "Kiralık Transferi",
     "noOffers": "Hiçbir teklif mevcut değil",
     "noOffersDescription": "Bu sezon size herhangi bir transfer teklifi gelmedi.",
     "permanentTransfer": "Kalıcı Transfer",
     "reputation": "İtibar",
-    "season": "mevsim",
-    "seasons": "mevsimler",
+    "season": "sezon",
+    "seasons": "sezonlar",
     "tier": "Aşama",
     "transferOffers": "Transfer Teklifleri",
     "wage": "Maaş",
@@ -90,40 +90,40 @@
     "Lazy": "Tembel",
     "Leader": "Lider",
     "Loyal": "Sadık",
-    "Media Darling": "Medya Sevgilim",
+    "Media Darling": "Medyanın Sevgilisi",
     "Professional": "Profesyonel",
     "Reserved": "Rezerve",
     "Temperamental": "Huysuz"
   },
   "playerStyle": {
-    "advancedPlaymaker": "Gelişmiş Oyun Kurucu",
-    "ballPlayingDefender": "Top Oynayan Defans oyuncusu",
-    "ballWinningMidfielder": "Top Kazanan Orta Saha Oyuncusu",
-    "boxToBox": "Kutudan Kutuya",
-    "completeForward": "İleriyi Tamamla",
-    "deepLyingPlaymaker": "Derin Yalancı Oyun Kurucu",
+    "advancedPlaymaker": "Ofansif Oyun Kurucu",
+    "ballPlayingDefender": "Topla Oynayan Stoper",
+    "ballWinningMidfielder": "Top Kazanan Orta Saha",
+    "boxToBox": "Box-to-Box Orta Saha",
+    "completeForward": "Komple Santrafor",
+    "deepLyingPlaymaker": "Derin Oyun Kurucu",
     "emergingTalent": "Yükselen Yetenek",
-    "false9": "Yanlış 9",
-    "insideForward": "İçeriden İleri",
+    "false9": "Sahte 9",
+    "insideForward": "İç Forvet",
     "invertedWinger": "Ters Kanat",
     "mezzala": "Mezzala",
-    "poacher": "Kaçak avcı",
-    "regista": "Kayıt",
+    "poacher": "Fırsatçı Golcü",
+    "regista": "Regista",
     "shotStopper": "Şut Durdurucu",
     "speedDemon": "Hız Şeytanı",
-    "stopper": "Stoper",
-    "sweeper": "Süpürge",
-    "sweeperKeeper": "Süpürücü Bekçisi",
-    "targetMan": "Hedef Adam",
-    "traditionalWinger": "Geleneksel Kanat",
-    "versatilePlayer": "Çok Yönlü Oynatıcı",
-    "widePlaymaker": "Geniş Oyun Kurucu",
-    "wingBack": "Kanat Geri"
+    "stopper": "Kesici Stoper",
+    "sweeper": "Libero",
+    "sweeperKeeper": "Libero Kaleci",
+    "targetMan": "Hedef Santrafor",
+    "traditionalWinger": "Klasik Kanat",
+    "versatilePlayer": "Joker Oyuncu",
+    "widePlaymaker": "Kanat Oyun Kurucusu",
+    "wingBack": "Hücumcu Kanat Bek"
   },
   "seasonFocus": {
     "aerial": {
       "description": "Daha fazla kafa vuruşu ve hava mücadelesi kazanın",
-      "title": "Hava Hakimiyeti"
+      "title": "Hava Hâkimiyeti"
     },
     "balanced": {
       "description": "Tüm alanlarda genel iyileştirmeye odaklanmak",
@@ -135,7 +135,7 @@
     },
     "boxToBox": {
       "description": "Tüm sahayı kaplayın ve hücum ve savunmaya katkıda bulunun",
-      "title": "Kutudan Kutuya"
+      "title": "Box-to-Box"
     },
     "consistency": {
       "description": "Sezon boyunca sağlam ve güvenilir performanslar hedefleyin.",
@@ -173,7 +173,7 @@
     "positionHint": "{position} için mevcut seçenekler",
     "positioning": {
       "description": "Daha iyi oyun okuma ve konumsal algı",
-      "title": "Konumlandırma"
+      "title": "Pozisyon Alma"
     },
     "reflexes": {
       "description": "Tepki süresini kısaltın ve tasarruf edin",
@@ -191,7 +191,7 @@
     "title": "Sezon Odağı",
     "titles": {
       "description": "Kupa kazanmaya odaklanın. Takımın beklentileri daha önemli hale geliyor.",
-      "title": "Başlıklar"
+      "title": "Kupalar"
     }
   },
   "legend": {

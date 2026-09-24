@@ -68,14 +68,14 @@
     },
     "acceleration": "Hızlanma",
     "age": "Yaş",
-    "aggression": "Saldırganlık",
+    "aggression": "Agresiflik / Hırs",
     "agility": "Çeviklik",
     "attacking": "saldırıyor",
     "attributeEvolution": "Özellik Gelişimi",
     "balance": "Denge",
     "ballControl": "Top Kontrolü",
     "composure": "Soğukkanlılık",
-    "crossing": "Geçiş",
+    "crossing": "Orta",
     "currentAge": "Mevcut Yaş",
     "currentOvr": "Mevcut OVR",
     "curve": "Eğri",
@@ -91,17 +91,17 @@
         "fifaBest": "Sezonun En İyi Oyuncusu seçildi!",
         "goldenBoot": "Lig Gol Kralı ({goals} gol)!",
         "goldenBoy": "Yılın Genç Oyuncusu! Gelecek sizin.",
-        "goldenGlove": "Altın Eldiven Sahibi ({cleanSheets} gol yemeden!)!",
-        "goldenShoe": "Avrupa Altın Ayakkabı Sahibi! ({goals} gol)",
+        "goldenGlove": "Yılın Kalecisi ({cleanSheets} maçta gol yemedi)!",
+        "goldenShoe": "Avrupa Altın Ayakkabı Sahibi ({goals} gol)!",
         "leaguePOTY": "Lig Sezonun Oyuncusu!",
-        "leaguePositional": "Sezonun En İyi {position} Mevkii Oyuncusu seçildi!",
-        "playmaker": "Lig Asist Lideri ({assists} asist)!",
+        "leaguePositional": "{league} liginde Sezonun En İyi {position} Oyuncusu seçildi!",
+        "playmaker": "Lig Asist Kralı ({assists} asist)!",
         "puskas": "Yılın Golü Ödülü Sahibi!",
         "rookie": "Lig Yılın Çımak Oyuncusu seçildi!",
-        "shortlist": "Altın Kupa için aday gösterildi.",
+        "shortlist": "{award} için kısa listeye aday gösterildi!",
         "teamOfTheYear": "Lig Yılın Takımına seçildi.",
         "worldCupGoldenBall": "Dünya Turnuvası Altın Top Sahibi!",
-        "worldCupGoldenBoot": "Dünya Turnuvası Altın Ayakkabı Sahibi!",
+        "worldCupGoldenBoot": "Dünya Kupası Gol Kralı ({goals} gol)!",
         "worldCupTOTT": "Dünya Turnuvası Turnuva Kadrosuna seçildi!",
         "worldPlayer": "DÜNYANIN EN İYİ OYUNCUSU! Gezegenin en iyisi olarak tanındı. Anlatı: {narrative}."
       },
@@ -190,8 +190,8 @@
         "releasedToProfessional": "Profesyonel kariyer için serbest bırakıldı"
       }
     },
-    "finishing": "Bitirme",
-    "flair": "Yetenek",
+    "finishing": "Bitiricilik",
+    "flair": "Yaratıcılık",
     "foot": {
       "left": "Sol",
       "right": "Sağ",
@@ -200,63 +200,67 @@
     "footedness": "Ayaklılık",
     "freeKick": "Serbest Vuruş Doğruluğu",
     "gkDiving": "GK Dalış",
-    "gkHandling": "GK Taşıma",
+    "gkHandling": "Top Tutma / Yakalama (Kaleci)",
     "gkKicking": "GK Tekmeleme",
-    "gkPositioning": "GK Konumlandırma",
+    "gkPositioning": "Pozisyon Alma (GK)",
     "gkReflexes": "GK Refleksleri",
     "goalkeeping": "Kalecilik",
     "growth": "Büyüme",
-    "heading": "Başlık Doğruluğu",
+    "heading": "Kafa Vuruşu İsabeti",
     "interceptions": "Müdahaleler",
     "jumping": "Atlama",
     "keyAttribute": "Anahtar Özelliği",
     "leadership": "Liderlik",
-    "leftFinishing": "Bitirme (Sol)",
+    "leftFinishing": "Bitiricilik (Sol)",
     "legend": "Efsane",
     "longPassing": "Uzun Pas",
     "longShots": "Uzaktan Şutlar",
-    "marking": "İşaretleme",
+    "marking": "Markaj",
     "mental": "zihinsel",
     "mentalAttributes": "Zihinsel Nitelikler",
-    "overall": "Etraflı",
+    "overall": "Genel",
     "overallEvolution": "Genel Gelişim",
-    "pace": "Adımlamak",
-    "passing": "Geçen",
+    "pace": "Hız / Tempo",
+    "passing": "Pas",
     "peakAge": "Zirve Yaşı",
     "peakOvr": "Tepe OVR'si",
-    "penalties": "Cezalar",
+    "penalties": "Penaltılar",
     "physical": "Fiziksel",
     "physicalAttributes": "Fiziksel Özellikler",
-    "positioning": "Konumlandırma",
+    "positioning": "Pozisyon Alma",
     "preferredFoot": "Tercih Edilen Ayak",
     "ratingColors": "Derecelendirme Renkleri",
     "reactions": "Tepkiler",
-    "rightFinishing": "Bitirme (Sağ)",
-    "shooting": "Çekim",
+    "rightFinishing": "Bitiricilik (Sağ)",
+    "shooting": "Şut",
     "shortPassing": "Kısa Pas",
     "shotPower": "Atış Gücü",
-    "slidingTackle": "Kayar Takım",
+    "slidingTackle": "Kayan Müdahale",
     "sprintSpeed": "Sprint Hızı",
     "stamina": "Dayanıklılık",
     "standingTackle": "Ayakta Müdahale",
     "strength": "Kuvvet",
     "technical": "Teknik",
     "technicalAttributes": "Teknik Özellikler",
-    "vision": "Görüş",
-    "volleys": "Voleybollar",
+    "vision": "Oyun Görüşü",
+    "volleys": "Voleler",
     "weakFoot": "Zayıf Ayak",
-    "workRate": "Çalışma Oranı",
+    "workRate": "Çalışma Temposu",
     "aerialControl": "Hava Kontrolü"
   },
   "characteristic": {
     "Aerial Specialist": "Hava Uzmanı",
-    "Big Game Player": "Büyük Oyun Oyuncusu",
-    "Clinical Finisher": "Klinik Sonlandırıcı",
-    "Dribbling Wizard": "Top Sürme Sihirbazı",
+    "Big Game Player": "Büyük Maç Oyuncusu",
+    "Clinical Finisher": "Soğukkanlı Bitirici",
+    "Dribbling Wizard": "Top Sürme Ustası",
     "Engine": "Motor",
     "Leader": "Lider",
     "Playmaker": "Oyun Kurucu",
-    "Speed Demon": "Hız Şeytanı"
+    "Speed Demon": "Hız Şeytanı",
+    "aerialDominance": "Üstün yer tutması ve sıçrama zamanlamasıyla hava toplarının mutlak hakimidir.",
+    "ballPlayingDefender": "Top ayağındayken soğukkanlıdır, geriden oyun kurup hücumu yönlendirir.",
+    "ballWinner": "Rakip hücumları erken kesen agresif ve etkili bir top hırsızı.",
+    "bigGamePlayer": "Kupa finallerinde ve şampiyonluk maçlarında sahneye çıkıp maçın kaderini belirler."
   },
   "expandedAttributes": {
     "defending": {
@@ -264,21 +268,21 @@
       "standingTiming": "Daimi Zamanlama"
     },
     "finishing": {
-      "headedAccuracy": "Yön Doğruluğu",
+      "headedAccuracy": "Kafa Vuruşu İsabeti",
       "oneOnOneFinishing": "1v1 Bitirme",
       "placedShots": "Yerleştirilen Şutlar",
       "shotAnticipation": "Çekim Beklentisi",
       "volleyTechnique": "Voleybolu Tekniği",
-      "finishingInsideBox": "Kutu İçi Bitirme",
-      "finishingOnCounter": "Tezgahta Bitirme",
-      "finishingOutsideBox": "Dış Kutuyu Bitirme",
+      "finishingInsideBox": "Ceza Sahası İçi Bitiricilik",
+      "finishingOnCounter": "Kontratakta Bitiricilik",
+      "finishingOutsideBox": "Ceza Sahası Dışı Bitiricilik",
       "finishingUnderPressure": "Basınç Altında Bitirme",
-      "headingAccuracy": "Başlık Doğruluğu",
-      "headingPower": "Yön Gücü",
+      "headingAccuracy": "Kafa Vuruşu İsabeti",
+      "headingPower": "Kafa Vuruşu Gücü",
       "placedShotAccuracy": "Yerleştirilen Atış İsabeti",
       "powerShotAccuracy": "Güçlü Atış Doğruluğu",
       "shotPower": "Atış Gücü",
-      "volleysAndAcrobatic": "Voleybolu ve Akrobatik"
+      "volleysAndAcrobatic": "Voleler ve Akrobatik Vuruşlar"
     },
     "mental": {
       "concentration": "Konsantrasyon",
@@ -286,16 +290,16 @@
     },
     "passing": {
       "lobPassAccuracy": "Lob Geçiş Doğruluğu",
-      "throughBalls": "Topların İçinden",
+      "throughBalls": "Ara Pasları",
       "weightedPass": "Ağırlıklı Geçiş",
-      "crossingFromByline": "Byline'dan Geçiş",
-      "crossingFromDeep": "Derinlerden Geçiş",
+      "crossingFromByline": "Son Çizgiden Çevrilen Orta",
+      "crossingFromDeep": "Derinden Açılan Orta",
       "curveEffect": "Eğri Etkisi",
-      "firstTimeCrossing": "İlk Kez Geçiş",
+      "firstTimeCrossing": "Gelişine Orta",
       "longDiagonalPass": "Uzun Çapraz Geçiş",
       "shortPassingSupport": "Kısa Pas Desteği",
       "shortPassingUnderPressure": "Basınç Altında Kısa Geçiş",
-      "verticalPassBreakingLines": "Dikey Geçiş Kırma Hatları"
+      "verticalPassBreakingLines": "Hat Kıran Dikine Pas"
     },
     "speed": {
       "acceleration": "Hızlanma",
@@ -314,21 +318,21 @@
       "aerialControl": "Hava Kontrolü",
       "firstTouchOrientated": "İlk Dokunuş Odaklı",
       "firstTouchUnderPressure": "Baskı Altında İlk Dokunuş",
-      "shielding": "Ekranlama",
+      "shielding": "Top Saklama (Gövde Koyma)",
       "trapping": "Yakalama"
     },
     "commanding": {
       "aerialReach": "Havadan Erişim",
-      "claimingCrosses": "Haç Talep Etme",
+      "claimingCrosses": "Yan Topları Toplama",
       "commandOfArea": "Saha Komutanlığı",
       "communication": "İletişim",
-      "punching": "Delme"
+      "punching": "Yumrukla Uzaklaştırma"
     },
     "defensivePositioning": {
       "backtracking": "Geri izleme",
-      "covering": "Kaplama",
+      "covering": "Kademeye Girme",
       "defensiveAwareness": "Savunma Farkındalığı",
-      "jockeying": "Jokey",
+      "jockeying": "Kademeli Geri Çekilme (Jokey Savunma)",
       "positionRecovery": "Pozisyon Kurtarma"
     },
     "distribution": {
@@ -342,7 +346,7 @@
       "closeControlDribbling": "Yakın Kontrollü Dribling",
       "congestedSpaceDribbling": "Sıkışık Alanda Top Sürme",
       "directionChange": "Yön Değişikliği",
-      "flair": "Yetenek",
+      "flair": "Yaratıcılık",
       "skillMoves": "Beceri Hareketleri",
       "speedDribbling": "Hız Top Sürme"
     },
@@ -357,14 +361,14 @@
       "creativity": "Yaratıcılık",
       "decisions": "Kararlar",
       "offTheBallMovement": "Topsuz Hareket",
-      "positioning": "Konumlandırma",
+      "positioning": "Pozisyon Alma",
       "spatialAwareness": "Mekansal Farkındalık",
-      "vision": "Görüş"
+      "vision": "Oyun Görüşü"
     },
     "interception": {
       "crossBlocking": "Çapraz Engelleme",
       "longPassInterception": "Uzun Geçişli Durdurma",
-      "readingOfPlay": "Oyunun Okunması",
+      "readingOfPlay": "Oyunu Okuma",
       "shortPassInterception": "Kısa Geçişli Müdahale",
       "shotBlocking": "Atış Engelleme"
     },
@@ -383,12 +387,12 @@
       "composure": "Soğukkanlılık (GK)",
       "concentration": "Konsantrasyon (GK)",
       "decisionMaking": "Karar Verme (GK)",
-      "handling": "Taşıma"
+      "handling": "Top Tutma Güvenilirliği"
     },
     "performance": {
       "adaptability": "Uyarlanabilirlik",
       "bigMatchPerformance": "Büyük Maç Performansı",
-      "clutchFactor": "Debriyaj Faktörü",
+      "clutchFactor": "Büyük Maç Çözücülüğü",
       "consistency": "Tutarlılık",
       "pressureHandling": "Basınç Taşıma"
     },
@@ -400,29 +404,29 @@
       "determination": "Kararlılık",
       "leadershipOnPitch": "Sahada Liderlik",
       "professionalism": "Profesyonellik",
-      "teamwork": "Ekip çalışması",
+      "teamwork": "Takım Oyunu",
       "temperament": "Mizaç"
     },
     "positioning": {
       "linePositioning": "Hat Konumlandırma",
       "narrowingAngles": "Daralan Açılar",
-      "positioning": "GK Konumlandırma",
+      "positioning": "Pozisyon Alma (GK)",
       "rushingOut": "aceleyle dışarı çıkmak"
     },
     "pressing": {
       "counterPressing": "Karşı Presleme",
       "pressIntensity": "Basın Yoğunluğu",
-      "pressingTrigger": "Tetiğe Basmak",
+      "pressingTrigger": "Baskıyı Başlatma İşareti",
       "sustainedPressing": "Sürekli Presleme"
     },
     "robustness": {
       "injuryResistance": "Yaralanma Direnci",
-      "naturalFitness": "Doğal Fitness",
+      "naturalFitness": "Doğal Kondisyon",
       "physicalRobustness": "Fiziksel Dayanıklılık",
       "recoveryRate": "İyileşme Oranı"
     },
     "setPieces": {
-      "cornerKicking": "Köşe vuruşu",
+      "cornerKicking": "Köşe Vuruşu Kullanımı",
       "directFreeKickPlacement": "Doğrudan Serbest Vuruş Yerleştirmesi",
       "directFreeKickPower": "Doğrudan Serbest Vuruş Gücü",
       "indirectFreeKick": "Endirekt Serbest Vuruş",
@@ -438,26 +442,26 @@
       "reflexes": "GK Refleksleri"
     },
     "strength": {
-      "balanceInContact": "İletişimde Denge",
+      "balanceInContact": "Fiziksel Temasta Denge",
       "bodyToBodyStrength": "Vücuttan Vücuda Güç",
       "legStrength": "Bacak Gücü",
       "upperBodyStrength": "Üst Vücut Gücü"
     },
     "tackling": {
       "cleanTackling": "Temiz Mücadele",
-      "slidingTackle": "Kayar Takım",
+      "slidingTackle": "Kayan Müdahale",
       "standingTackle": "Ayakta Müdahale",
-      "tackleTiming": "Zamanlamanın üstesinden gelin"
+      "tackleTiming": "Müdahale Zamanlaması"
     }
   },
   "form": {
     "Average": "Ortalama",
     "Excellent": "Harika",
     "Good": "İyi",
-    "Injured": "Yaralı",
+    "Injured": "Sakat",
     "OnFire": "Ateşte",
     "Poor": "Fakir",
-    "Suspended": "Askıya alınmış",
+    "Suspended": "Cezalı",
     "VeryPoor": "Çok Zayıf",
     "average": "Ortalama",
     "belowAverage": "Ortalamanın Altında",
@@ -474,13 +478,13 @@
     "ballonDor": "Altın Kupayı Kazanın",
     "becomeCaptain": "{team}'in kaptanı olun",
     "becomeClubLegend": "{team} Efsanesi Olun ({matches}/200 uygulamaları)",
-    "becomeStarter": "{team}'te düzenli başlangıç ​​olun",
+    "becomeStarter": "{team}'te düzenli başlangıç olun",
     "breakGoalRecord": "{team} hedef rekorunu kırın ({current}/{record})",
     "completed": "Tamamlanmış",
     "desc": {
       "becomeCaptain": "Takım Kaptanı Olun",
       "becomeClubLegend": "Kulüp Efsanesi Olun",
-      "becomeRegularStarter": "Düzenli bir başlangıç ​​olun",
+      "becomeRegularStarter": "Düzenli bir başlangıç olun",
       "breakClubRecord": "Kulüp Rekoru Kırın",
       "earnCallUp": "Milli takıma çağrılmayı kazanın",
       "firstCleanSheet": "İlk temiz sayfayı saklayın",
@@ -565,7 +569,7 @@
       "origin": {
         "agent": "Ajan",
         "club": "Kulüp",
-        "coach": "Müdür",
+        "coach": "Teknik direktör",
         "fans": "Hayranlar",
         "press": "Basmak",
         "self": "öz"
@@ -644,8 +648,8 @@
   },
   "offer": {
     "type": {
-      "loan": "Borç",
-      "transfer": "Aktarım"
+      "loan": "Kiralık",
+      "transfer": "Transfer"
     },
     "badge": {
       "homecoming": "EVE DÖNÜŞ",
@@ -658,14 +662,14 @@
     "closeAndStay": "Kapat ve Kal",
     "contractLength": "Sözleşme Süresi",
     "decline": "Reddetmek",
-    "loanDuration": "Kredi Süresi",
-    "loanMove": "Kredi Taşıma",
+    "loanDuration": "Kiralık Süresi",
+    "loanMove": "Kiralık Transferi",
     "noOffers": "Hiçbir teklif mevcut değil",
     "noOffersDescription": "Bu sezon size herhangi bir transfer teklifi gelmedi.",
     "permanentTransfer": "Kalıcı Transfer",
     "reputation": "İtibar",
-    "season": "mevsim",
-    "seasons": "mevsimler",
+    "season": "sezon",
+    "seasons": "sezonlar",
     "tier": "Aşama",
     "transferOffers": "Transfer Teklifleri",
     "wage": "Maaş",
@@ -681,40 +685,40 @@
     "Lazy": "Tembel",
     "Leader": "Lider",
     "Loyal": "Sadık",
-    "Media Darling": "Medya Sevgilim",
+    "Media Darling": "Medyanın Sevgilisi",
     "Professional": "Profesyonel",
     "Reserved": "Rezerve",
     "Temperamental": "Huysuz"
   },
   "playerStyle": {
-    "advancedPlaymaker": "Gelişmiş Oyun Kurucu",
-    "ballPlayingDefender": "Top Oynayan Defans oyuncusu",
-    "ballWinningMidfielder": "Top Kazanan Orta Saha Oyuncusu",
-    "boxToBox": "Kutudan Kutuya",
-    "completeForward": "İleriyi Tamamla",
-    "deepLyingPlaymaker": "Derin Yalancı Oyun Kurucu",
+    "advancedPlaymaker": "Ofansif Oyun Kurucu",
+    "ballPlayingDefender": "Topla Oynayan Stoper",
+    "ballWinningMidfielder": "Top Kazanan Orta Saha",
+    "boxToBox": "Box-to-Box",
+    "completeForward": "Komple Santrafor",
+    "deepLyingPlaymaker": "Derin Oyun Kurucu",
     "emergingTalent": "Yükselen Yetenek",
-    "false9": "Yanlış 9",
-    "insideForward": "İçeriden İleri",
+    "false9": "Sahte 9",
+    "insideForward": "İç Forvet",
     "invertedWinger": "Ters Kanat",
     "mezzala": "Mezzala",
-    "poacher": "Kaçak avcı",
+    "poacher": "Fırsatçı Golcü",
     "regista": "Kayıt",
     "shotStopper": "Şut Durdurucu",
     "speedDemon": "Hız Şeytanı",
     "stopper": "Stoper",
-    "sweeper": "Süpürge",
-    "sweeperKeeper": "Süpürücü Bekçisi",
-    "targetMan": "Hedef Adam",
-    "traditionalWinger": "Geleneksel Kanat",
-    "versatilePlayer": "Çok Yönlü Oynatıcı",
-    "widePlaymaker": "Geniş Oyun Kurucu",
-    "wingBack": "Kanat Geri"
+    "sweeper": "Libero",
+    "sweeperKeeper": "Libero Kaleci",
+    "targetMan": "Hedef Santrafor",
+    "traditionalWinger": "Klasik Kanat",
+    "versatilePlayer": "Çok Yönlü Oyuncu",
+    "widePlaymaker": "Kanat Oyun Kurucusu",
+    "wingBack": "Kanat Bek"
   },
   "seasonFocus": {
     "aerial": {
       "description": "Daha fazla kafa vuruşu ve hava mücadelesi kazanın",
-      "title": "Hava Hakimiyeti"
+      "title": "Hava Hâkimiyeti"
     },
     "balanced": {
       "description": "Tüm alanlarda genel iyileştirmeye odaklanmak",
@@ -726,7 +730,7 @@
     },
     "boxToBox": {
       "description": "Tüm sahayı kaplayın ve hücum ve savunmaya katkıda bulunun",
-      "title": "Kutudan Kutuya"
+      "title": "Box-to-Box"
     },
     "consistency": {
       "description": "Sezon boyunca sağlam ve güvenilir performanslar hedefleyin.",
@@ -764,7 +768,7 @@
     "positionHint": "{position} için mevcut seçenekler",
     "positioning": {
       "description": "Daha iyi oyun okuma ve konumsal algı",
-      "title": "Konumlandırma"
+      "title": "Pozisyon Alma"
     },
     "reflexes": {
       "description": "Tepki süresini kısaltın ve tasarruf edin",
@@ -782,7 +786,11 @@
     "title": "Sezon Odağı",
     "titles": {
       "description": "Kupa kazanmaya odaklanın. Takımın beklentileri daha önemli hale geliyor.",
-      "title": "Başlıklar"
+      "title": "Kupalar"
+    },
+    "ballplaying": {
+      "description": "Arkadan pas ve dağıtımı iyileştirin",
+      "title": "Top Oynama"
     }
   },
   "squadStatus": {
@@ -883,7 +891,7 @@
     "tab": {
       "info": "Bilgi",
       "trainer": "eğitmen",
-      "training": "Eğitim"
+      "training": "Antrenman"
     },
     "tactical": "Taktik",
     "technical": "Teknik",
@@ -899,21 +907,21 @@
     "types": {
       "activeRest": "Aktif Kurtarma",
       "activeRestDesc": "Enerjiyi geri kazanmak için hafif toparlanma seansı",
-      "aerialDefense": "Hava Savunması",
+      "aerialDefense": "Hava topu savunması",
       "aerialDefenseDesc": "Kafa vuruşları ve yüksek toplar",
       "agility": "Çeviklik",
       "agilityDesc": "Hızlı yön değişiklikleri ve ayak hareketleri",
       "balanced": "Dengeli",
       "balancedDesc": "Genel dengeli gelişme",
-      "boxToBox": "Kutudan Kutuya",
+      "boxToBox": "Box-to-box orta saha",
       "boxToBoxDesc": "Orta saha antrenmanını tamamla",
       "clubTraining": "Kulüp Eğitimi",
       "clubTrainingDesc": "Takımla antrenman yapın. Ücretsiz, tesislere dayalı etkinlik",
       "counterAttack": "Karşı Saldırı",
       "counterAttackDesc": "Hızlı geçişli oyun",
-      "covering": "Kaplama",
+      "covering": "Kademe",
       "coveringDesc": "Savunma farkındalığı ve konumlandırma",
-      "crossing": "Geçiş",
+      "crossing": "Orta",
       "crossingDesc": "Orta atma için kanat antrenmanı",
       "defensiveMid": "Defansif Orta",
       "defensiveMidDesc": "Koruma ve top kurtarma",
@@ -927,7 +935,7 @@
       "flexibilityDesc": "Esneme ve hareketlilik çalışmaları",
       "fullback": "Bek",
       "fullbackDesc": "Saldırı desteği ve savunma",
-      "gkCrosses": "GK Haçları",
+      "gkCrosses": "Ortalar ve çıkışlar",
       "gkCrossesDesc": "Ortalar ve yüksek toplar talep etmek",
       "gkDistribution": "GK Dağıtımı",
       "gkDistributionDesc": "Top kontrolü ve pas",
@@ -937,17 +945,17 @@
       "gkMentalityDesc": "Odaklanma ve konsantrasyon",
       "gkOneOnOne": "Genel Kurul 1v1",
       "gkOneOnOneDesc": "Bire bir durumlar",
-      "gkPositioning": "GK Konumlandırma",
+      "gkPositioning": "Pozisyon Alma (GK)",
       "gkPositioningDesc": "Konumlandırma ve tahmin",
       "gkReflexes": "GK Refleksleri",
       "gkReflexesDesc": "Hızlı reaksiyon kurtarır",
       "gym": "Spor salonu",
       "gymDesc": "Güç antrenmanı ve halter",
-      "heading": "Başlık",
+      "heading": "Kafa vuruşu",
       "headingDesc": "Hava yeteneği eğitimi",
       "longshots": "Uzaktan Şutlar",
-      "longshotsDesc": "Uzak mesafe atış tekniği",
-      "marking": "İşaretleme",
+      "longshotsDesc": "Uzaktan şut teknik",
+      "marking": "Markaj",
       "markingDesc": "Savunma işaretlemesi ve kapsamı",
       "physical": "Fiziksel",
       "physicalDesc": "Hız, güç ve dayanıklılık",
@@ -955,19 +963,19 @@
       "playmakerDesc": "Yaratıcı vizyon ve geçiş",
       "playmaking": "Oyun kurma",
       "playmakingDesc": "Pas verme, vizyon ve şans yaratma",
-      "poacher": "Kaçak avcı",
+      "poacher": "Fırsatçı golcü",
       "poacherDesc": "Kutu varlığı ve sonlandırma",
       "position": "Konum",
       "positionDesc": "Pozisyon değişikliği eğitimi",
-      "positioning": "Konumlandırma",
+      "positioning": "Pozisyon Alma",
       "positioningDesc": "Hareket ve hücum koşuları",
-      "pressing": "Presleme",
+      "pressing": "Pres",
       "pressingDesc": "Yüksek yoğunluklu savunma çalışması",
       "scrimmage": "Hücum",
       "scrimmageDesc": "Pas verme ve top sürmeye odaklanan antrenman maçı",
       "setpieces": "Set Parçaları",
       "setpiecesDesc": "Serbest vuruşlar ve kornerler",
-      "shooting": "Çekim",
+      "shooting": "Şut",
       "shootingDesc": "Bitirme, konumlandırma ve doğruluğa odaklanın",
       "skillMoves": "Beceri Hareketleri",
       "skillMovesDesc": "Gelişmiş top sürme ve püf noktaları",
@@ -977,7 +985,7 @@
       "tacklesDesc": "Top kazanma teknikleri",
       "tactical": "Taktik",
       "tacticalDesc": "Defansif konumlandırma ve oyun okuma",
-      "targetMan": "Hedef Adam",
+      "targetMan": "Hedef Santrafor",
       "targetManDesc": "Bekleme oyunu ve havadan tehdit",
       "technique": "Teknik",
       "techniqueDesc": "Top sürme, top kontrolü ve beceri",
@@ -991,71 +999,71 @@
   "trait": {
     "Acrobatic Finisher": {
       "description": "Voleybol ve bisiklet vuruşlarıyla skorlar.",
-      "name": "Akrobatik Sonlandırıcı"
+      "name": "Akrobatik Bitirici"
     },
     "Aerial Threat": {
       "description": "Hücum duran toplarda çok tehlikeli.",
-      "name": "Havadan Tehdit"
+      "name": "Hava Tehdidi"
     },
     "Argues With Officials": {
       "description": "Sık sık hakem kararlarına itiraz eder.",
-      "name": "Yetkililerle Tartışıyor"
+      "name": "Hakemlerle Tartışır"
     },
     "Avoids Using Weaker Foot": {
       "description": "Kötü ayağı kullanmaktan kaçınır.",
-      "name": "Zayıf Ayağı Önler"
+      "name": "Zayıf Ayağını Kullanmaz"
     },
     "Ball Carrier": {
       "description": "Topu verimli bir şekilde ileri doğru hareket ettirir.",
-      "name": "Bilyalı Taşıyıcı"
+      "name": "Top Taşıyıcı"
     },
     "Big Game Player": {
       "description": "Büyük maçlarda daha iyi performans sergiliyor.",
-      "name": "Büyük Oyun Oyuncusu"
+      "name": "Büyük Maç Oyuncusu"
     },
     "Captain Material": {
       "description": "Sahanın doğal lideri.",
-      "name": "Kaptan Malzemesi"
+      "name": "Kaptan Ruhu"
     },
     "Cautious With Crosses": {
       "description": "Haçlarda çizgiyi bırakmaktan çekiniyor.",
-      "name": "Haçlarda Dikkatli"
+      "name": "Ortalarda Temkinli"
     },
     "Chip Shot": {
       "description": "Hafif bir dokunuşla kaleciye şut atma yeteneği.",
-      "name": "Çip Atışı"
+      "name": "Aşırtma Vuruş"
     },
     "Comes For Crosses": {
       "description": "Hava alanına hakimdir.",
-      "name": "Talepler Çaprazlanıyor"
+      "name": "Ortaları Toplar"
     },
     "Dives Into Tackles": {
       "description": "Bedeni zorluklara sokar.",
-      "name": "Mücadelelere Dalıyor"
+      "name": "Müdahaleye Dalar"
     },
     "Driven": {
       "description": "Kazanmak için sarsılmaz bir irade.",
-      "name": "Tahrikli"
+      "name": "Azimli"
     },
     "Early Adopter": {
       "description": "Yeni taktikleri hızla öğrenir.",
-      "name": "Uyarlanabilir"
+      "name": "Uyumlu"
     },
     "Fan Favorite": {
       "description": "Taraftarlar tarafından sevildi.",
-      "name": "Hayranların Favorisi"
+      "name": "Taraftar Favorisi"
     },
     "Finesse Shot": {
       "description": "Kavisli atışlar yapma konusunda uzman.",
-      "name": "İncelik Atışı"
+      "name": "Falso Vuruş"
     },
     "GK Flat Kick": {
       "description": "Hızlı ve düşük dağıtım.",
-      "name": "GK Düz Tekme"
+      "name": "Kaleci Düz Vuruş"
     },
     "GK Long Throw": {
       "description": "Sayaçları ellerle başlatır.",
-      "name": "GK Uzun Atış"
+      "name": "Kaleci Uzun Atış"
     },
     "Giant Throw-In": {
       "description": "Korner gibi atışlar yapıyor.",
@@ -1063,15 +1071,15 @@
     },
     "Inflexible": {
       "description": "Pozisyon veya taktik dışında oynamakta zorluk.",
-      "name": "Esnek değil"
+      "name": "Esnek Değil"
     },
     "Injury Concern": {
       "description": "Sık yaralanmalara eğilimli.",
-      "name": "Yaralanma Endişesi"
+      "name": "Sakatlık Endişesi"
     },
     "Injury Prone": {
       "description": "Daha yüksek yaralanma riski.",
-      "name": "Yaralanmaya eğilimli"
+      "name": "Sakatlanmaya Yatkın"
     },
     "Iron Man": {
       "description": "Nadiren yaralanır.",
@@ -1079,7 +1087,7 @@
     },
     "Late Bloomer": {
       "description": "Kariyerinde daha sonra potansiyele ulaşır.",
-      "name": "Geç Bloomer"
+      "name": "Geç Açan"
     },
     "Left-Footed Maestro": {
       "description": "Sol ayağıyla olağanüstü bir yetenek.",
@@ -1087,19 +1095,19 @@
     },
     "Long Shot Taker": {
       "description": "Ceza sahası dışından şut atmayı seviyor.",
-      "name": "Uzun Menzilli Atıcı"
+      "name": "Uzaktan Şutçu"
     },
     "Media Darling": {
       "description": "Olumlu medya kapsamını çeker.",
-      "name": "Medya Sevgilim"
+      "name": "Medyanın Sevgilisi"
     },
     "One-Club Man": {
       "description": "Kulübe sadık, kimya bonusu.",
-      "name": "Tek Kulüp Adamı"
+      "name": "Kulüp Simgesi"
     },
     "One-on-One Rush": {
       "description": "1v1'lerde alanı hızlı bir şekilde kapatır.",
-      "name": "1v1 Hücum"
+      "name": "1v1 Çıkış"
     },
     "One-on-One Specialist": {
       "description": "Kaleciye karşı gol atıldığında ölümcül.",
@@ -1111,7 +1119,7 @@
     },
     "Pinpoint Crossing": {
       "description": "Forvetler için doğru ortalar.",
-      "name": "Nokta Geçişi"
+      "name": "İsabetli Orta"
     },
     "Play Simple": {
       "description": "Gereksiz riskleri önler.",
@@ -1119,15 +1127,15 @@
     },
     "Power House": {
       "description": "Etkileyici fiziksel güç.",
-      "name": "Santral"
+      "name": "Güç Abidesi"
     },
     "Power Shot": {
       "description": "Yıkıcı bir güçle topa vurur.",
-      "name": "Güçlü Atış"
+      "name": "Güçlü Şut"
     },
     "Punches Fists": {
       "description": "Topa net yumruk atmayı tercih ediyor.",
-      "name": "Zımba"
+      "name": "Yumruklayan Kaleci"
     },
     "Right-Footed Sniper": {
       "description": "Sağ ayakla öldürücü hassasiyet.",
@@ -1135,7 +1143,7 @@
     },
     "Rushes Out Of Goal": {
       "description": "Tehlikeyi ortadan kaldırmak için dışarı çıkan kaleci.",
-      "name": "aceleyle dışarı çıkıyor"
+      "name": "Kaleden Çıkar"
     },
     "Selfish": {
       "description": "Genellikle daha iyi konumdaki takım arkadaşlarını görmezden gelir.",
@@ -1143,19 +1151,19 @@
     },
     "Slide Tackle": {
       "description": "Hassas sürgülü takım tutucu.",
-      "name": "Slayt Tutucu"
+      "name": "Kayarak Müdahale"
     },
     "Speed Dribbler": {
       "description": "Kontrolü kaybetmeden topu yüksek hızda sürer.",
-      "name": "Hızlı Dribling Yapan"
+      "name": "Hızlı Top Sürücü"
     },
     "Speed Merchant": {
       "description": "Savunmacıları yakacak ham tempo.",
-      "name": "Hızcı"
+      "name": "Hız Ustası"
     },
     "Tackles Back": {
       "description": "Topu kurtarmaya yardımcı olan hücum oyuncusu.",
-      "name": "Geriye Dönük Parçalar"
+      "name": "Geri Koşar"
     },
     "Team Player": {
       "description": "Kendisinden çok ekibine öncelik verir.",
@@ -1163,15 +1171,15 @@
     },
     "Technical Dribbler": {
       "description": "Dar alanlarda yakın kontrollü top sürme.",
-      "name": "Teknik Dripling"
+      "name": "Teknik Dribbler"
     },
     "Through Ball": {
       "description": "Savunmayı bölen paslar vizyonu.",
-      "name": "Topun içinden"
+      "name": "Ara Pası"
     },
     "Trickster": {
       "description": "Savunmacıları kandırmak için beceri ve hileleri kullanır.",
-      "name": "Düzenbaz"
+      "name": "Şovmen"
     },
     "Weak Foot": {
       "description": "Tercih edilmeyen ayakla beceri.",
@@ -1179,67 +1187,67 @@
     },
     "Wonderkid": {
       "description": "Gençken hızlı gelişme.",
-      "name": "Harika çocuk"
+      "name": "Harika Çocuk"
     },
     "acrobaticFinisher": {
-      "description": "Muhteşem voleybollar, bisiklet vuruşları ve akrobatik goller atma yeteneğine sahip.",
-      "name": "Akrobatik Sonlandırıcı"
+      "description": "Röveşatalar, gelişine voleler ve havada estetik vuruşlarla jeneriklik gollere imza atar.",
+      "name": "Akrobatik Bitirici"
     },
     "aerialDominance": {
       "description": "Üstün konumlandırma ve zamanlamayla hemen hemen her hava düellosunu kazanır.",
-      "name": "Hava Hakimiyeti"
+      "name": "Hava Hâkimiyeti"
     },
     "aerialThreat": {
       "description": "Hücumdaki duran toplar ve ortalardan kaynaklanan sürekli tehlike.",
-      "name": "Havadan Tehdit"
+      "name": "Hava Tehdidi"
     },
     "arguesWithOfficials": {
-      "description": "Sık sık hakem kararlarına itiraz eder, kartları riske atar.",
-      "name": "Yetkililerle Tartışıyor"
+      "description": "Hakem kararlarına sık sık itiraz eder, gereksiz kart görme riskini artırır.",
+      "name": "Hakemlerle Tartışır"
     },
     "avoidsUsingWeakerFoot": {
       "description": "Zor durumlarda bile baskın ayağı güçlü bir şekilde destekler.",
-      "name": "Zayıf Ayağı Önler"
+      "name": "Zayıf Ayağını Kullanmaz"
     },
     "ballCarrier": {
       "description": "Topu orta saha bölgelerine doğru ilerletme konusunda mükemmel.",
-      "name": "Bilyalı Taşıyıcı"
+      "name": "Top Taşıyıcı"
     },
     "ballPlayingDefender": {
       "description": "Topla oynama konusunda rahat ve arkadan atakları başlatıyor.",
-      "name": "Top Oynayan Defans"
+      "name": "Topla Oynayan Stoper"
     },
     "ballWinner": {
-      "description": "Rakip ataklarını bozan agresif top çalıcı.",
-      "name": "Top Kazananı"
+      "description": "Rakip atakları sert ve yerinde müdahalelerle söndüren dinamik top kazandırıcı.",
+      "name": "Top Kazanan"
     },
     "bigGamePlayer": {
       "description": "Kupa finallerinde ve belirleyici maçlarda başarılı olur.",
-      "name": "Büyük Oyun Oyuncusu"
+      "name": "Büyük Maç Oyuncusu"
     },
     "boxToBox": {
       "description": "Her bir çim parçasını kaplayarak hem savunmaya hem de saldırıya katkıda bulunur.",
-      "name": "Kutudan Kutuya"
+      "name": "Box-to-Box"
     },
     "cautiousWithCrosses": {
-      "description": "Ortalara çıkmakta tereddüt ediyor, hatta kalmayı tercih ediyor.",
-      "name": "Haçlarda Dikkatli"
+      "description": "Ortalara çıkmakta tereddüt eder, kale çizgisinde kalmayı tercih eder.",
+      "name": "Ortalarda Temkinli"
     },
     "chipShot": {
-      "description": "1v1 durumlarında kaleciye karşı hassas hareketlerin ustası.",
-      "name": "Çip Atışı"
+      "description": "Kalesinden açılan kalecilerin üzerinden topu aşırtarak klas gollere imza atar.",
+      "name": "Aşırtma Vuruş"
     },
     "clinicalFinisher": {
       "description": "Bire bir durumlarda başarılı olur ve şansları hassas bir şekilde dönüştürür.",
-      "name": "Klinik Sonlandırıcı"
+      "name": "Soğukkanlı Bitirici"
     },
     "comesForCrosses": {
-      "description": "Ortaları forvetler onlara ulaşmadan yakalamada proaktif.",
-      "name": "Talepler Çaprazlanıyor"
+      "description": "Forvetlerden önce ceza sahasına inen ortaları cesurca toplar.",
+      "name": "Ortalara Çıkar"
     },
     "commandOfArea": {
       "description": "Ceza sahasına hakim, ortaları kullanıyor ve savunmayı organize ediyor.",
-      "name": "Bölge Komutanlığı"
+      "name": "Alan Hâkimiyeti"
     },
     "composure": {
       "description": "Baskı altında sakin kalır ve önemli anlarda daha iyi kararlar verir.",
@@ -1251,11 +1259,11 @@
     },
     "crossingSpecialist": {
       "description": "Geniş alanlardan kırbaç ve tempoyla tehlikeli ortalar atar.",
-      "name": "Geçiş Uzmanı"
+      "name": "Orta Uzmanı"
     },
     "deepLyingPlaymaker": {
-      "description": "Pas ve görüşle derin pozisyonlardan tempoyu kontrol ediyor.",
-      "name": "Derin Yalan Oyun Kurucu"
+      "description": "Geniş görüş açısı ve nokta paslarıyla oyunu derinden yönlendirip tempoyu ayarlar.",
+      "name": "Derin Oyun Kurucu"
     },
     "discipline": {
       "description": "Nadiren gereksiz faul yapar veya kart alır.",
@@ -1263,19 +1271,19 @@
     },
     "divesIntoTackles": {
       "description": "Topu kazanan ancak faul riski taşıyan agresif müdahale stili.",
-      "name": "Mücadelelere Dalıyor"
+      "name": "Müdahaleye Dalar"
     },
     "dribblingWizard": {
       "description": "Olağanüstü top kontrolü ve birden fazla defans oyuncusunu geçme yeteneği.",
-      "name": "Top Sürme Sihirbazı"
+      "name": "Top Sürme Ustası"
     },
     "driven": {
       "description": "Gelişmek ve başarıya ulaşmak için yoğun bir motivasyona sahiptir.",
-      "name": "Tahrikli"
+      "name": "Azimli"
     },
     "earlyAdopter": {
       "description": "Yeni taktikleri öğrenmede ve farklı sistemlere uyum sağlamada hızlıdır.",
-      "name": "Uyarlanabilir"
+      "name": "Uyumlu"
     },
     "engine": {
       "description": "Takım için çalışmayı asla bırakmayan yorulmak bilmeyen koşucu.",
@@ -1287,15 +1295,15 @@
     },
     "finesseShot": {
       "description": "Çekimleri ham güç yerine hassas ve kıvrımlı bir şekilde gerçekleştirir.",
-      "name": "İncelik Atışı"
+      "name": "Falso Vuruş"
     },
     "flair": {
       "description": "Gösterişli olanı deneyen ve kalabalığı eğlendiren, doğal olarak yaratıcı bir oyuncu.",
-      "name": "Yetenek"
+      "name": "Yaratıcılık"
     },
     "flairPlayer": {
       "description": "Püf noktaları ve becerilerden oluşan bir repertuarla öngörülemez ve yaratıcı.",
-      "name": "Yetenek Oyuncusu"
+      "name": "Yaratıcı Oyuncu"
     },
     "giantThrowIn": {
       "description": "Köşe vuruşu gibi ceza sahasına uzun taç atışları atabiliyor.",
@@ -1303,31 +1311,31 @@
     },
     "gkFlatKick": {
       "description": "Daha üst sahadaki takım arkadaşlarına alçak, sert vuruşlar sağlar.",
-      "name": "GK Düz Tekme"
+      "name": "Kaleci Düz Vuruş"
     },
     "gkLongThrow": {
       "description": "Kontra atak başlatmak için topu olağanüstü uzağa dağıtır.",
-      "name": "GK Uzun Atış"
+      "name": "Kaleci Uzun Atış"
     },
     "inflexible": {
       "description": "Yeni pozisyonlara veya taktiklere uyum sağlamakta zorlanır.",
-      "name": "Esnek değil"
+      "name": "Esnek Değil"
     },
     "injuryConcern": {
       "description": "Yaralanma geçmişi, uzun vadeli kullanılabilirlik konusunda soruları gündeme getiriyor.",
-      "name": "Yaralanma Endişesi"
+      "name": "Sakatlık Endişesi"
     },
     "injuryProne": {
       "description": "Fiziksel olarak kırılgandır ve yaralanmalara karşı daha duyarlıdır.",
-      "name": "Yaralanmaya eğilimli"
+      "name": "Sakatlanmaya Yatkın"
     },
     "interceptor": {
       "description": "Oyunu muhteşem bir şekilde okuyor ve tehlike gelişmeden pasları kesiyor.",
-      "name": "Durdurucu"
+      "name": "Top Kesen"
     },
     "lastMan": {
       "description": "Mükemmel konumlandırma ile güvenilir son savunma hattı.",
-      "name": "Son Adam"
+      "name": "Son Savunmacı"
     },
     "leadership": {
       "description": "Takım arkadaşlarını organize eden ve motive eden doğal lider.",
@@ -1339,11 +1347,11 @@
     },
     "longPasser": {
       "description": "Oyunu değiştirir ve uzun menzilli hassas dağıtımla takım arkadaşlarını bulur.",
-      "name": "Uzun Pasör"
+      "name": "Uzun Pasçı"
     },
     "longShotTaker": {
       "description": "Düzenli olarak uzun vadeli çabaları dener ve dönüştürür.",
-      "name": "Mesafe Atıcısı"
+      "name": "Uzaktan Şutçu"
     },
     "longShots": {
       "description": "Uzak mesafeden güç ve isabetlilikle muhteşem goller atabilme yeteneğine sahip.",
@@ -1351,28 +1359,28 @@
     },
     "longThrow": {
       "description": "Güçlü atışlarla topu inanılmaz mesafelere fırlatabilir.",
-      "name": "Uzun Atış"
+      "name": "Uzun Taç Atışı"
     },
     "marking": {
       "description": "Rakiplere sıkı sıkıya yapışır ve onların saldırı tehdidini geçersiz kılar.",
-      "name": "Adam İşaretleyici"
+      "name": "Adam Adama"
     },
     "naturalFitness": {
       "description": "Nadiren yaralanır ve küçük darbelerden sonra hızla iyileşir.",
-      "name": "Doğal Fitness"
+      "name": "Doğal Kondisyon"
     },
-    "negative": "Negatif",
+    "negative": "Olumsuz",
     "noNonsenseDefender": {
-      "description": "Tehlikeyi kararlı bir şekilde ortadan kaldıran fiziksel ve agresif defans oyuncusu.",
-      "name": "Saçmalıksız Savunmacı"
+      "description": "Riske girmeden tehlikeyi en kestirme yoldan uzaklaştıran sert ve kararlı savunmacı.",
+      "name": "Net Savunmacı"
     },
     "oneClubMan": {
       "description": "Kariyerini tek bir kulübe adayan sadık efsane.",
-      "name": "Tek Kulüp Adamı"
+      "name": "Kulüp Simgesi"
     },
     "oneOnOneRush": {
       "description": "Grevcileri hızlı bir şekilde kapatma konusunda agresif.",
-      "name": "1v1 Hücum"
+      "name": "1v1 Çıkış"
     },
     "oneOnOneSpecialist": {
       "description": "Kaleye doğru ilerlerken son derece sakin.",
@@ -1383,12 +1391,12 @@
       "name": "Trivela"
     },
     "penaltySaver": {
-      "description": "İyi bir öngörü ve tepkiyle cezaları kurtarma konusunda uzman.",
-      "name": "Penaltı Tasarrufu"
+      "description": "Beyaz noktada vuruş açısını mükemmel sezerek penaltıları kurtarmada uzmanlaşmıştır.",
+      "name": "Penaltı Avcısı"
     },
     "pinpointCrossing": {
       "description": "Kanatlardan lazer güdümlü atışla saldırganları seçer.",
-      "name": "Nokta Geçişi"
+      "name": "İsabetli Orta"
     },
     "playSimple": {
       "description": "İşleri basit tutar ve nadiren gereksiz riskler alır.",
@@ -1399,28 +1407,28 @@
       "name": "Oyun Kurucu"
     },
     "poacher": {
-      "description": "İçgüdüsel bitirici, taç vuruşları ve ribaundlar için ceza sahası içinde yer buluyor.",
-      "name": "Kaçak avcı"
+      "description": "Ceza sahası içinde dönen topları ve tek vuruşları affetmeyen içgüdüsel forvet.",
+      "name": "Fırsatçı Golcü"
     },
     "positioning": {
       "description": "Her zaman doğru zamanda doğru yerde.",
-      "name": "Konumlandırma"
+      "name": "Pozisyon Alma"
     },
     "powerHeader": {
-      "description": "Hava düellolarına hakim olur ve ortalardan ve duran toplardan kritik kafa vuruşları yapar.",
-      "name": "Güç Başlığı"
+      "description": "Hava toplarında kalecilerin çaresiz kaldığı son derece sert kafa şutları çıkarır.",
+      "name": "Güçlü Kafa Vuruşu"
     },
     "powerHouse": {
-      "description": "Rakiplere zorbalık yapan etkileyici fiziksel varlık.",
-      "name": "Santral"
+      "description": "Yıkılmaz fiziği ve patlayıcı gücüyle ikili mücadelelerde rakiplerine nefes aldırmaz.",
+      "name": "Güç Abidesi"
     },
     "powerShot": {
       "description": "Topa olağanüstü bir zehirle vurarak kalecilerin tutmasını zorlaştırıyor.",
-      "name": "Güçlü Atış"
+      "name": "Güçlü Şut"
     },
     "punchesFists": {
       "description": "Yakalamak yerine ortaları net bir şekilde yumruklamayı tercih ediyor.",
-      "name": "Zımba"
+      "name": "Yumruklayan Kaleci"
     },
     "rightFootedSniper": {
       "description": "Sağ ayakla bitiricilikte öldürücü hassasiyet.",
@@ -1428,11 +1436,11 @@
     },
     "rushesOutOfGoal": {
       "description": "1v1 durumlarını boğmak için hızlıca hattan çıkın.",
-      "name": "aceleyle dışarı çıkıyor"
+      "name": "Kaleden Çıkar"
     },
     "secondWind": {
       "description": "Maçların son aşamalarında dayanıklılık artışı kazanır.",
-      "name": "İkinci Rüzgar"
+      "name": "İkinci Nefes"
     },
     "selfish": {
       "description": "Takım başarısı yerine kişisel istatistiklere öncelik verir.",
@@ -1440,43 +1448,43 @@
     },
     "setPieceSpecialist": {
       "description": "Serbest vuruşların, kornerlerin ve ölü top durumlarının ustası.",
-      "name": "Duran Parça Uzmanı"
+      "name": "Duran Top Uzmanı"
     },
     "shotStopper": {
-      "description": "Olağanüstü refleksler ve kurtarma yeteneği.",
+      "description": "Çizgi üzerinde olağanüstü refleksleriyle yakın mesafeli şutları mucizevi şekilde çıkarır.",
       "name": "Şut Durdurucu"
     },
     "slideTackle": {
       "description": "Topu temiz bir şekilde kazanmak için zamanlama kayması konusunda uzman.",
-      "name": "Slayt Tutucu"
+      "name": "Kayarak Müdahale"
     },
     "solidPlayer": {
       "description": "Her hafta güvenilir ve tutarlı performans sergileyen.",
-      "name": "Katı Oyuncu"
+      "name": "Sağlam Oyuncu"
     },
     "speedDribbler": {
       "description": "Savunmacıları yüksek hızda atlatmak için saf hız ve çeviklik kullanır.",
-      "name": "Hızlı Dribling Yapan"
+      "name": "Hızlı Top Sürücü"
     },
     "speedMerchant": {
       "description": "Hızlı temposu, defans oyuncularını alt etmesine ve çizginin gerisindeki alanı kullanmasına olanak tanıyor.",
-      "name": "Hızcı"
+      "name": "Hız Ustası"
     },
     "strength": {
       "description": "Fiziksel güç, düelloları kazanmaya ve rakipleri uzak tutmaya yardımcı olur.",
       "name": "Kuvvet"
     },
     "sweeperKeeper": {
-      "description": "Topları temizlemek ve ekstra defans oyuncusu olarak hareket etmek için rahatça koşun.",
-      "name": "Süpürücü Bekçisi"
+      "description": "Defansın arkasına atılan topları süpürmek için ceza sahası dışına çıkmaktan çekinmez.",
+      "name": "Libero Kaleci"
     },
     "tacklesBack": {
       "description": "Topun kaybedilmesi durumunda savunmaya yardım etmek için geri dönme konusunda gayretli.",
-      "name": "Geriye Dönük Parçalar"
+      "name": "Geri Koşar"
     },
     "targetMan": {
-      "description": "Oyunu durduran ve takım arkadaşlarını atağa getiren fiziksel varlık.",
-      "name": "Hedef Adam"
+      "description": "Fizik gücüyle topu saklayan ve takım arkadaşlarını hücuma katan kule forvet.",
+      "name": "Hedef Santrafor"
     },
     "teamPlayer": {
       "description": "Her zaman ekibin ihtiyaçlarını kişisel zaferin üstüne koyar.",
@@ -1484,23 +1492,23 @@
     },
     "teamwork": {
       "description": "Takım arkadaşlarıyla uyum sağlama ve uyumlu oynama konusunda mükemmeldir.",
-      "name": "Ekip çalışması"
+      "name": "Takım Oyunu"
     },
     "technicalDribbler": {
       "description": "Savunmaları yönlendirmek için vücut hareketlerini ve yakın kontrolü kullanan sabırlı dribling oyuncusu.",
-      "name": "Teknik Dripling"
+      "name": "Teknik Dribbler"
     },
     "throughBall": {
       "description": "Mükemmel ağırlıklı paslarla savunmaları ayırmada uzmandır.",
-      "name": "Topun içinden"
+      "name": "Ara Pası"
     },
     "tirelessRunner": {
       "description": "Olağanüstü dayanıklılık maçlar boyunca yüksek yoğunluk sağlar.",
-      "name": "Yorulmak bilmez"
+      "name": "Yorulmak Bilmez"
     },
     "trickster": {
       "description": "Hokkabazlık yapmaktan ve gösteri becerileri sergilemekten hoşlanır.",
-      "name": "Düzenbaz"
+      "name": "Şovmen"
     },
     "twoFooted": {
       "description": "Her iki ayağıyla da eşit kalitede şut atıyor ve pas veriyor.",
@@ -1508,68 +1516,200 @@
     },
     "versatile": {
       "description": "Birden fazla pozisyonda verimli bir şekilde oynama yeteneği.",
-      "name": "Çok yönlü"
+      "name": "Çok Yönlü"
     },
     "vision": {
       "description": "Başkalarının görmediği şutları görür ve keskin paslarla şans yaratır.",
-      "name": "Görüş"
+      "name": "Oyun Görüşü"
     },
     "weakFoot": {
       "description": "Daha zayıf ayağı kullanmak zorunda kaldığında mücadele eder.",
       "name": "Zayıf Ayak"
+    },
+    "Box-to-Box": {
+      "description": "Her bir çim parçasını kaplayarak hem savunmaya hem de saldırıya katkıda bulunur.",
+      "name": "Box-to-Box"
+    },
+    "Ball Winner": {
+      "description": "Rakip atakları sert ve yerinde müdahalelerle söndüren dinamik top kazandırıcı.",
+      "name": "Top Kazanan"
+    },
+    "Ball-Playing Defender": {
+      "description": "Topla oynama konusunda rahat ve arkadan atakları başlatıyor.",
+      "name": "Topla Oynayan Stoper"
+    },
+    "Deep-Lying Playmaker": {
+      "description": "Geniş görüş açısı ve nokta paslarıyla oyunu derinden yönlendirip tempoyu ayarlar.",
+      "name": "Derin Oyun Kurucu"
+    },
+    "Crossing Specialist": {
+      "description": "Geniş alanlardan kırbaç ve tempoyla tehlikeli ortalar atar.",
+      "name": "Orta Uzmanı"
+    },
+    "Dribbling Wizard": {
+      "description": "Olağanüstü top kontrolü ve birden fazla defans oyuncusunu geçme yeteneği.",
+      "name": "Top Sürme Ustası"
+    },
+    "Command of Area": {
+      "description": "Ceza sahasına hakim, ortaları kullanıyor ve savunmayı organize ediyor.",
+      "name": "Alan Hâkimiyeti"
+    },
+    "Claims Crosses": {
+      "description": "Forvetlerden önce ceza sahasına inen ortaları cesurca toplar.",
+      "name": "Ortalara Çıkar"
+    },
+    "Clinical Finisher": {
+      "description": "Bire bir durumlarda başarılı olur ve şansları hassas bir şekilde dönüştürür.",
+      "name": "Soğukkanlı Bitirici"
+    },
+    "Power Header": {
+      "description": "Hava toplarında kalecilerin çaresiz kaldığı son derece sert kafa şutları çıkarır.",
+      "name": "Güçlü Kafa Vuruşu"
+    },
+    "Long Passer": {
+      "description": "Oyunu değiştirir ve uzun menzilli hassas dağıtımla takım arkadaşlarını bulur.",
+      "name": "Uzun Pasçı"
+    },
+    "Puncher": {
+      "description": "Yakalamak yerine ortaları net bir şekilde yumruklamayı tercih ediyor.",
+      "name": "Yumruklayan Kaleci"
+    },
+    "Distance Shooter": {
+      "description": "Düzenli olarak uzun vadeli çabaları dener ve dönüştürür.",
+      "name": "Uzaktan Şutçu"
+    },
+    "Speedster": {
+      "description": "Hızlı temposu, defans oyuncularını alt etmesine ve çizginin gerisindeki alanı kullanmasına olanak tanıyor.",
+      "name": "Hız Ustası"
+    },
+    "Aerial Dominance": {
+      "description": "Üstün konumlandırma ve zamanlamayla hemen hemen her hava düellosunu kazanır.",
+      "name": "Hava Hâkimiyeti"
+    },
+    "Dribbler": {
+      "description": "Olağanüstü top kontrolü ve birden fazla defans oyuncusunu geçme yeteneği.",
+      "name": "Top Sürme Ustası"
+    },
+    "Playmaker": {
+      "description": "Saldırıları görüş ve pas menzili ile düzenler.",
+      "name": "Oyun Kurucu"
+    },
+    "Leader": {
+      "description": "Takım arkadaşlarını organize eden ve motive eden doğal lider.",
+      "name": "Liderlik"
+    },
+    "Early Crosser": {
+      "description": "Kanatlardan lazer güdümlü atışla saldırganları seçer.",
+      "name": "İsabetli Orta"
+    },
+    "Long Ball Taker": {
+      "description": "Oyunu değiştirir ve uzun menzilli hassas dağıtımla takım arkadaşlarını bulur.",
+      "name": "Uzun Pasçı"
+    },
+    "One Club Player": {
+      "description": "Kariyerini tek bir kulübe adayan sadık efsane.",
+      "name": "Kulüp Simgesi"
+    },
+    "Save With Feet": {
+      "description": "Çizgi üzerinde olağanüstü refleksleriyle yakın mesafeli şutları mucizevi şekilde çıkarır.",
+      "name": "Şut Durdurucu"
+    },
+    "Solid Player": {
+      "description": "Her hafta güvenilir ve tutarlı performans sergileyen.",
+      "name": "Sağlam Oyuncu"
+    },
+    "Leadership": {
+      "description": "Takım arkadaşlarını organize eden ve motive eden doğal lider.",
+      "name": "Liderlik"
+    },
+    "Engine": {
+      "description": "Takım için çalışmayı asla bırakmayan yorulmak bilmeyen koşucu.",
+      "name": "Motor"
+    },
+    "Composure": {
+      "description": "Baskı altında sakin kalır ve önemli anlarda daha iyi kararlar verir.",
+      "name": "Soğukkanlılık"
+    },
+    "Consistency": {
+      "description": "Maçtan sonra yüksek seviyede performans sergiliyor.",
+      "name": "Tutarlılık"
+    },
+    "Flair": {
+      "description": "Gösterişli olanı deneyen ve kalabalığı eğlendiren, doğal olarak yaratıcı bir oyuncu.",
+      "name": "Yaratıcılık"
+    },
+    "Power Free-Kick": {
+      "name": "Güçlü Serbest Vuruş",
+      "description": "Uzak mesafelerden kaleyi bulan son derece sert ve etkili serbest vuruşlar kullanır."
+    },
+    "Swerves Shot": {
+      "name": "Falsolu Şutlar",
+      "description": "Topa falso ve kavis vererek kalecinin uzanamayacağı köşelere şık vuruşlar yapar."
+    },
+    "Takes Powerful Driven Free Kicks": {
+      "name": "Sert Serbest Vuruşlar",
+      "description": "Barajın altından veya yanından kaleye giden sert, füze gibi serbest vuruşlar kullanır."
+    },
+    "Tries To Beat Offside Trap": {
+      "name": "Ofsayt Tuzağını Bozar",
+      "description": "Defansın arkasına sarkmak için son adamın hizasında akıllıca pozisyon alır."
+    },
+    "Second Wind": {
+      "name": "İkinci Nefes",
+      "description": "Maçın son bölümlerinde yorgunluk baş gösterdiğinde ekstra bir enerji patlaması yaşar."
     }
   },
   "traitStyles": {
-    "aerialDominance": "Neredeyse tüm başlıkları kazanır",
-    "ballPlayingDefender": "Top üzerinde rahattır ve arkadan güçlenir",
-    "ballWinner": "Topu kazanmada agresif ve etkili",
-    "bigGamePlayer": "Kritik maçlarda oynuyor",
-    "boxToBox": "Sahayı korur ve her iki alanda da katkıda bulunur",
-    "clinicalFinisher": "Kale önünde mükemmel bitiriş",
-    "commandOfArea": "Ceza sahasına hakim",
+    "aerialDominance": "Neredeyse tüm kafa toplarını kazanır",
+    "ballPlayingDefender": "Topla rahat, oyunu geriden kurar",
+    "ballWinner": "Top kazanmada agresif ve etkili",
+    "bigGamePlayer": "Kritik maçlarda öne çıkar",
+    "boxToBox": "Sahayı kaplar, iki ceza sahasına da katkı verir",
+    "clinicalFinisher": "Kale önünde mükemmel bitiricilik",
+    "commandOfArea": "Ceza sahasına hâkim",
     "composure": "Baskı altında sakin",
-    "crossingSpecialist": "Kaliteli geçişler sunar",
-    "decentLevel": "düzgün",
-    "deepLyingPlaymaker": "Orkestralar derinden çalıyor",
+    "crossingSpecialist": "Kaliteli orta yapar",
+    "decentLevel": "yeterli",
+    "deepLyingPlaymaker": "Oyunu geriden yönetir",
     "dribblingWizard": "Mükemmel yakın kontrol ve top sürme",
-    "engine": "90 dakika boyunca aralıksız tempo",
-    "everPresent": "Her hafta güvenilir performans sergileyen",
-    "excellentLevel": "harika",
+    "engine": "90 dakika boyunca bitmeyen tempo",
+    "everPresent": "Her hafta güvenilir performans",
+    "excellentLevel": "mükemmel",
     "exceptionalLevel": "olağanüstü",
     "flairPlayer": "Topla öngörülemez ve yaratıcı",
     "goodLevel": "iyi",
-    "injuryProne": "Sık sık fiziksel sorunlara yatkınlık",
+    "injuryProne": "Sık sık fiziksel sorun yaşar",
     "interceptor": "Oyunu okur ve pasları keser",
     "lastMan": "Güvenilir son savunma hattı",
-    "leadership": "Saha içinde ve saha dışında doğal lider",
-    "leftFootedMaestro": "Sol ayakla gelişmiş teknik ve kontrol",
-    "longShots": "Uzaktan iyi doğrulukla puanlar",
-    "naturalFitness": "Nadiren yorulur veya yaralanır",
-    "noNonsenseDefender": "Savunmada fiziksel ve direkt",
-    "penaltySaver": "Penaltıları kurtarmada güçlü",
-    "playmaker": "Mükemmel görüş ve pas aralığı",
-    "poacher": "Kutunun içinde mükemmel konumlandırma",
-    "powerHeader": "Mükemmel hava düello yeteneği",
-    "quietProfessional": "Nadiren rezerve edildi",
-    "rightFootedSniper": "Sağ ayakla öldürücü bitiricilik ve hassasiyet",
-    "secondWind": "Oyunların sonlarında enerjiyi korur",
-    "setpieceSpecialist": "Kornerlerde ve serbest vuruşlarda tehlikeli",
-    "shotStopper": "Çubukların arasında refleks uzmanı",
-    "speedMerchant": "Topun içinde ve dışında elektrikli tempo",
-    "sweeperKeeper": "Modern kaleci ceza sahası dışında rahat",
-    "targetMan": "Mükemmel tutma oyunu ve havadaki varlığı",
-    "tirelessRunner": "Koşmayı asla bırakma",
-    "twoFooted": "Her iki ayakla eşit derecede rahat",
+    "leadership": "Saha içinde ve dışında doğal lider",
+    "leftFootedMaestro": "Sol ayakta gelişmiş teknik ve kontrol",
+    "longShots": "Uzaktan isabetli gol atar",
+    "naturalFitness": "Nadiren yorulur veya sakatlanır",
+    "noNonsenseDefender": "Savunmada fiziksel ve net",
+    "penaltySaver": "Penaltı kurtarmada güçlü",
+    "playmaker": "Mükemmel görüş ve pas mesafesi",
+    "poacher": "Ceza sahasında mükemmel konumlanma",
+    "powerHeader": "Mükemmel hava topu yeteneği",
+    "quietProfessional": "Nadiren kart görür",
+    "rightFootedSniper": "Sağ ayakta öldürücü bitiricilik",
+    "secondWind": "Maç sonunda enerjisini korur",
+    "setpieceSpecialist": "Korner ve serbest vuruşlarda tehlikeli",
+    "shotStopper": "Kale içinde refleks uzmanı",
+    "speedMerchant": "Topla ve topsuz elektrikli hız",
+    "sweeperKeeper": "Ceza sahası dışında rahat modern kaleci",
+    "targetMan": "Mükemmel top tutma ve hava üstünlüğü",
+    "tirelessRunner": "Koşmayı hiç bırakmaz",
+    "twoFooted": "İki ayağıyla da eşit derecede rahat",
     "versatile": "Birden fazla pozisyonda oynayabilir",
-    "vision": "Geçişleri bulma konusunda olağanüstü yetenek"
+    "vision": "Pas bulmada olağanüstü yetenek"
   },
   "traits": {
     "Ambitions_desc": "Hırslı ve zirveye ulaşma kararlılığı",
-    "Argues With Officials": "Yetkililerle Tartışıyor",
+    "Argues With Officials": "Hakemlerle Tartışır",
     "Argues With Officials_desc": "Hakemlere şikayet etme eğilimi, kartları riske atma",
-    "Big Game Player": "Büyük Oyun Oyuncusu",
+    "Big Game Player": "Büyük Maç Oyuncusu",
     "Big Game Player_desc": "Büyük maçlarda seviyeyi yükseltir",
-    "Clinical Finisher": "Klinik Sonlandırıcı",
+    "Clinical Finisher": "Soğukkanlı Bitirici",
     "Clinical Finisher_desc": "Şanslarda yüksek dönüşüm oranı",
     "Composure": "Soğukkanlılık",
     "Composure_desc": "Baskı altında sakin kalır",
@@ -1577,25 +1717,25 @@
     "Consistency_desc": "Oyundan sonra istikrarlı performans",
     "Dirty Player": "Kirli Oyuncu",
     "Dirty Player_desc": "Sert faullere ve kirli oyuna eğilimli",
-    "Dribbling Wizard": "Top Sürme Sihirbazı",
+    "Dribbling Wizard": "Top Sürme Ustası",
     "Dribbling Wizard_desc": "Ayakta topla olağanüstü beceri",
-    "Driven": "Tahrikli",
+    "Driven": "Azimli",
     "Driven_desc": "Başarı için son derece motive",
     "Early Adopter": "Yenilikçi",
     "Early Adopter_desc": "Yeni teknik ve taktiklere hızlı adapte olma",
     "Engine": "Motor",
     "Engine_desc": "Yorulmak bilmez, tüm sahayı kapsar",
-    "Flair": "Yetenek",
+    "Flair": "Yaratıcılık",
     "Flair_desc": "Yaratıcı ve öngörülemeyen hareketler",
     "Free Kick Specialist": "Serbest Vuruş Uzmanı",
     "Free Kick Specialist_desc": "Mükemmel serbest vuruşçu",
     "Hard Working": "Çalışkan",
     "Hard Working_desc": "Sahada her zaman %100'ümü veririm",
-    "Header Expert": "Başlık Uzmanı",
+    "Header Expert": "Kafa Vuruşu Uzmanı",
     "Header Expert_desc": "Havada baskın",
-    "Hot Head": "Sıcak Kafa",
+    "Hot Head": "Öfkeli",
     "Hot Head_desc": "Sakinliğini kolayca kaybeder",
-    "Injury Prone": "Yaralanmaya eğilimli",
+    "Injury Prone": "Sakatlanmaya Yatkın",
     "Injury Prone_desc": "Daha yüksek yaralanma riski",
     "Leader": "Lider",
     "Leader_desc": "Takım arkadaşlarına ilham verir ve motive eder",
@@ -1605,19 +1745,19 @@
     "Left-Footed Maestro_desc": "Sol ayakla geliştirilmiş teknik",
     "Long Shot Taker": "Uzaktan Şutçu",
     "Long Shot Taker_desc": "Menzilden tehlikeli",
-    "Long Throw": "Uzun Atış",
+    "Long Throw": "Uzun Taç Atışı",
     "Long Throw_desc": "Duran toplar gibi uzun atışlar",
     "Loyal": "Sadık",
     "Loyal_desc": "Kulübüne sadık",
-    "Media Darling": "Medya Sevgilim",
+    "Media Darling": "Medyanın Sevgilisi",
     "Media Darling_desc": "Basınla iyi ilişkiler",
-    "Media Shy": "Medya Utangaç",
+    "Media Shy": "Medyadan Kaçınır",
     "Media Shy_desc": "Spot ışıklarından ve röportajlardan kaçınır",
     "Mercenary": "Paralı",
     "Mercenary_desc": "Paraya öncelik verir",
-    "Natural Fitness": "Doğal Fitness",
+    "Natural Fitness": "Doğal Kondisyon",
     "Natural Fitness_desc": "Nadiren yorulur ve hızla iyileşir",
-    "One Club Player": "Bir Kulüp Oyuncusu",
+    "One Club Player": "Tek Kulüp Oyuncusu",
     "One Club Player_desc": "Kulübe aşırı bağlılık",
     "One-Club Man": "Kulüp Simgesi",
     "One-Club Man_desc": "Tüm kariyerini aynı kulübe adadı",
@@ -1625,29 +1765,29 @@
     "Penalty Expert_desc": "Güvenilir penaltıcı",
     "Playmaker": "Oyun Kurucu",
     "Playmaker_desc": "Takıma şans yaratır",
-    "Poacher": "Kaçak avcı",
+    "Poacher": "Fırsatçı Golcü",
     "Poacher_desc": "Gol atmak için her zaman doğru yerdesiniz",
-    "Power Header": "Güç Başlığı",
+    "Power Header": "Güçlü Kafa Vuruşu",
     "Power Header_desc": "Hava hücumunda güçlü",
     "Professional": "Profesyonel",
     "Professional_desc": "Saha içinde ve saha dışında örnek davranış",
     "Right-Footed Sniper": "Sağ Ayaklı Keskin Nişancı",
     "Right-Footed Sniper_desc": "Ölümcül vuruş sağ ayakla biter",
-    "Set Piece Specialist": "Set Parçası Uzmanı",
+    "Set Piece Specialist": "Duran Top Uzmanı",
     "Set Piece Specialist_desc": "Kornerlerde, serbest vuruşlarda ve penaltılarda mükemmel",
-    "Set-piece Specialist": "Duran Parça Uzmanı",
+    "Set-piece Specialist": "Duran Top Uzmanı",
     "Set-piece Specialist_desc": "Serbest vuruşlarda ve kornerlerde mükemmel",
-    "Showboat": "Gösteri teknesi",
+    "Showboat": "Şovmen",
     "Showboat_desc": "Numara yapmayı sever",
     "Speed Demon": "Hız Şeytanı",
     "Speed Demon_desc": "Son derece hızlı hızlanma",
-    "Speed Merchant": "Hızcı",
+    "Speed Merchant": "Hız Ustası",
     "Speed Merchant_desc": "İnanılmaz hız ve hızlanma",
-    "Stamina Beast": "Dayanıklılık Canavarı",
+    "Stamina Beast": "Kondisyon Canavarı",
     "Stamina Beast_desc": "Oyun sırasında asla yorulmayın",
-    "Strong Tackler": "Güçlü Topçu",
+    "Strong Tackler": "Sert Müdahaleci",
     "Strong Tackler_desc": "Topla mücadele etme ve kazanma konusunda mükemmel",
-    "Sweeper Keeper": "Süpürücü Bekçisi",
+    "Sweeper Keeper": "Libero Kaleci",
     "Sweeper Keeper_desc": "Son defans oyuncusu olarak görev yapan kaleci",
     "Team Player": "Takım Oyuncusu",
     "Team Player_desc": "Kendine değil ekibine öncelik verir",
@@ -1657,48 +1797,48 @@
     "Temperamental_desc": "Kafalarını kaybedebilirler",
     "Two-Footed": "İki Ayaklı",
     "Two-Footed_desc": "Her iki ayağıyla eşit derecede güçlü",
-    "Versatile": "Çok yönlü",
+    "Versatile": "Çok Yönlü",
     "Versatile_desc": "Birden fazla pozisyonda oynayabilir",
-    "Vocal Leader": "Vokal Lideri",
+    "Vocal Leader": "Sesli Lider",
     "Vocal Leader_desc": "Sahada takımı iletişim kurar ve organize eder",
-    "aerialDominance": "Hava Hakimiyeti",
-    "ballPlayingDefender": "Top Oynayan Defans",
-    "ballWinner": "Top Kazananı",
-    "bigGamePlayer": "Büyük Oyun Oyuncusu",
-    "boxToBox": "Kutudan Kutuya",
-    "clinicalFinisher": "Klinik Sonlandırıcı",
-    "commandOfArea": "Bölge Komutanlığı",
+    "aerialDominance": "Hava Hâkimiyeti",
+    "ballPlayingDefender": "Topla Oynayan Stoper",
+    "ballWinner": "Top Kazanan",
+    "bigGamePlayer": "Büyük Maç Oyuncusu",
+    "boxToBox": "Box-to-Box",
+    "clinicalFinisher": "Soğukkanlı Bitirici",
+    "commandOfArea": "Alan Hâkimiyeti",
     "composure": "Soğukkanlılık",
-    "crossingSpecialist": "Geçiş Uzmanı",
+    "crossingSpecialist": "Orta Uzmanı",
     "decentLevel": "Yeterli Seviye",
-    "deepLyingPlaymaker": "Derin Yalan Oyun Kurucu",
-    "dribblingWizard": "Top Sürme Sihirbazı",
+    "deepLyingPlaymaker": "Derin Oyun Kurucu",
+    "dribblingWizard": "Top Sürme Ustası",
     "engine": "Motor",
-    "everPresent": "Şimdiye Kadar Mevcut",
+    "everPresent": "Her Zaman Sahada",
     "excellentLevel": "Mükemmel Seviye",
     "exceptionalLevel": "Olağanüstü Seviye",
-    "flairPlayer": "Yetenek Oyuncusu",
+    "flairPlayer": "Yaratıcı Oyuncu",
     "goodLevel": "İyi Seviye",
-    "interceptor": "Durdurucu",
-    "lastMan": "Son Adam",
+    "interceptor": "Top Kesen",
+    "lastMan": "Son Savunmacı",
     "leadership": "Liderlik",
     "longShots": "Uzaktan Şutçu",
-    "naturalFitness": "Doğal Fitness",
-    "noNonsenseDefender": "Saçmalıksız Savunmacı",
+    "naturalFitness": "Doğal Kondisyon",
+    "noNonsenseDefender": "Net Savunmacı",
     "penaltySaver": "Penaltı Uzmanı",
     "playmaker": "Oyun Kurucu",
-    "poacher": "Kaçak avcı",
-    "powerHeader": "Güç Başlığı",
+    "poacher": "Fırsatçı Golcü",
+    "powerHeader": "Güçlü Kafa Vuruşu",
     "quietProfessional": "Sessiz Profesyonel",
-    "secondWind": "İkinci Rüzgar",
-    "setpieceSpecialist": "Duran Parça Uzmanı",
+    "secondWind": "İkinci Nefes",
+    "setpieceSpecialist": "Duran Top Uzmanı",
     "shotStopper": "Şut Durdurucu",
-    "speedMerchant": "Hızcı",
-    "sweeperKeeper": "Süpürücü Bekçisi",
-    "targetMan": "Hedef Adam",
-    "tirelessRunner": "Yorulmak bilmez",
-    "versatile": "Çok yönlü",
-    "vision": "Görüş"
+    "speedMerchant": "Hız Ustası",
+    "sweeperKeeper": "Libero Kaleci",
+    "targetMan": "Hedef Santrafor",
+    "tirelessRunner": "Yorulmak Bilmez",
+    "versatile": "Çok Yönlü",
+    "vision": "Oyun Görüşü"
   },
   "trophy": {
     "afcChampionsLeague": "Asya Şampiyonlar Kupası",
@@ -1713,7 +1853,7 @@
     "concacafChampionsCup": "Kuzey Amerika Şampiyonlar Kupası",
     "conferenceLeague": "Avrupa Erişim Kupası",
     "copaSudamericana": "Güney Amerika Kulüpler Kupası",
-    "cup": "Bardak",
+    "cup": "Kupa",
     "europaLeague": "Avrupa Kulüpler Kupası",
     "intercontinentalCup": "Kıtalararası Kupa",
     "league": "Lig",
@@ -1723,7 +1863,9 @@
     "orientalPlayoff": "Doğu Playoff'u",
     "recopaSudamericana": "Güney Amerika Süper Kupası",
     "supercup": "Süper Kupa",
-    "worldCup": "Dünya Turnuvası"
+    "worldCup": "Dünya Turnuvası",
+    "afcChallengeCup": "Asya Meydan Okuma Kupası",
+    "americasClassic": "Amerika Klasiği"
   },
   "injury": {
     "oneMonth": "1 Ay",
@@ -1731,5 +1873,11 @@
     "seasonEnding": "Sezon Sonu",
     "days": "{count} Gün",
     "months": "{count} Ay"
-  }
+  },
+  "intensity": {
+    "extreme": "Extreme"
+  },
+  "intensityExtreme": "Extreme",
+  "winContinentalCup": "{team} ile Kıta Kupasını kazanmak",
+  "winWorldCup": "{country} ile Dünya Turnuvasını kazanmak"
 }

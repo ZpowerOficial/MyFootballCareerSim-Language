@@ -22,21 +22,21 @@
     "acceleration": "가속",
     "aerialControl": "공중 제어",
     "age": "나이",
-    "aggression": "침략",
+    "aggression": "적극성 (투지)",
     "agility": "민첩",
     "attacking": "공격하다",
     "attributeEvolution": "속성 진화",
     "balance": "균형",
     "ballControl": "볼 컨트롤",
     "composure": "침착",
-    "crossing": "횡단",
+    "crossing": "크로스",
     "currentAge": "현재 연령",
     "currentOvr": "현재 OVR",
     "curve": "곡선",
     "defending": "방어",
     "dribbling": "드리블",
-    "finishing": "마무리 손질",
-    "flair": "예민한 후각",
+    "finishing": "골 결정력",
+    "flair": "재능",
     "foot": {
       "left": "왼쪽",
       "right": "오른쪽"
@@ -44,18 +44,18 @@
     "footedness": "발의 상태",
     "freeKick": "프리킥 정확도",
     "gkDiving": "GK다이빙",
-    "gkHandling": "GK 핸들링",
+    "gkHandling": "핸들링 (캐칭)",
     "gkKicking": "GK 킥",
-    "gkPositioning": "GK 포지셔닝",
+    "gkPositioning": "위치 선정 (GK)",
     "gkReflexes": "GK 반사 신경",
     "goalkeeping": "골키퍼",
     "growth": "성장",
-    "heading": "방향 정확도",
+    "heading": "헤더 정확도",
     "interceptions": "차단",
     "jumping": "점프",
     "keyAttribute": "주요 속성",
-    "leadership": "지도",
-    "leftFinishing": "마무리(왼쪽)",
+    "leadership": "리더십",
+    "leftFinishing": "골 결정력 (왼발)",
     "legend": "전설",
     "longPassing": "긴 패스",
     "longShots": "장거리 슛",
@@ -64,44 +64,44 @@
     "mentalAttributes": "정신적 속성",
     "overall": "전반적인",
     "overallEvolution": "전반적인 진화",
-    "pace": "속도",
-    "passing": "통과",
+    "pace": "페이스 (속력)",
+    "passing": "패스",
     "peakAge": "성수기",
     "peakOvr": "피크 OVR",
-    "penalties": "처벌",
+    "penalties": "페널티킥",
     "physical": "물리적",
     "physicalAttributes": "물리적 속성",
-    "positioning": "포지셔닝",
+    "positioning": "위치 선정",
     "preferredFoot": "선호하는 발",
     "ratingColors": "등급 색상",
     "reactions": "반응",
-    "rightFinishing": "마무리(오른쪽)",
-    "shooting": "촬영",
+    "rightFinishing": "골 결정력 (오른발)",
+    "shooting": "슈팅",
     "shortPassing": "짧은 패스",
     "shotPower": "샷 파워",
     "slidingTackle": "슬라이딩 태클",
     "sprintSpeed": "스프린트 속도",
-    "stamina": "내구력",
+    "stamina": "스태미나",
     "standingTackle": "스탠딩 태클",
     "strength": "힘",
-    "technical": "인위적인",
+    "technical": "기술적",
     "technicalAttributes": "기술적 속성",
-    "vision": "비전",
+    "vision": "시야",
     "volleys": "발리슛",
-    "weakFoot": "약한 발",
-    "workRate": "작업률",
+    "weakFoot": "약발",
+    "workRate": "활동량 (워크레이트)",
     "worldClass": "월드 클래스",
     "wordClass": "월드 클래스"
   },
   "characteristic": {
     "Aerial Specialist": "항공 전문가",
     "Big Game Player": "빅 게임 플레이어",
-    "Clinical Finisher": "임상 마무리자",
+    "Clinical Finisher": "냉정한 마무리꾼",
     "Dribbling Wizard": "드리블 마법사",
     "Engine": "엔진",
-    "Leader": "지도자",
+    "Leader": "리더",
     "Playmaker": "플레이메이커",
-    "Speed Demon": "속도의 악마"
+    "Speed Demon": "속도광"
   },
   "expandedAttributes": {
     "agility": {
@@ -114,15 +114,15 @@
       "aerialControl": "공중 제어",
       "firstTouchOrientated": "첫 번째 터치 지향",
       "firstTouchUnderPressure": "압력을 받는 첫 번째 터치",
-      "shielding": "차폐",
+      "shielding": "볼 지켜내기 (등지기)",
       "trapping": "트래핑"
     },
     "commanding": {
       "aerialReach": "공중 도달",
-      "claimingCrosses": "십자가를 주장하다",
+      "claimingCrosses": "크로스 공중볼 포착",
       "commandOfArea": "지역 사령부",
       "communication": "의사소통",
-      "punching": "펀칭"
+      "punching": "펀칭 클리어링"
     },
     "defending": {
       "slidingTiming": "슬라이딩 타이밍",
@@ -130,9 +130,9 @@
     },
     "defensivePositioning": {
       "backtracking": "역추적",
-      "covering": "피복",
+      "covering": "수비 커버링",
       "defensiveAwareness": "방어적 인식",
-      "jockeying": "기수",
+      "jockeying": "수비 지연 (조키잉)",
       "positionRecovery": "위치 회복"
     },
     "distribution": {
@@ -146,24 +146,24 @@
       "closeControlDribbling": "근접 컨트롤 드리블",
       "congestedSpaceDribbling": "혼잡한 공간 드리블",
       "directionChange": "방향전환",
-      "flair": "예민한 후각",
+      "flair": "재능",
       "skillMoves": "개인기",
       "speedDribbling": "스피드 드리블"
     },
     "endurance": {
       "aerobicEndurance": "유산소 지구력",
       "anaerobicEndurance": "무산소성 지구력",
-      "stamina": "내구력",
+      "stamina": "스태미나",
       "workRate": "작업률"
     },
     "finishing": {
-      "finishingInsideBox": "내부 상자 마무리",
-      "finishingOnCounter": "카운터에서 마무리",
-      "finishingOutsideBox": "외부 상자 마무리",
+      "finishingInsideBox": "박스 안 골 결정력",
+      "finishingOnCounter": "역습 상황 골 결정력",
+      "finishingOutsideBox": "박스 밖 중거리 마무리",
       "finishingUnderPressure": "압박감 속에서 마무리하기",
-      "headedAccuracy": "방향 정확도",
-      "headingAccuracy": "방향 정확도",
-      "headingPower": "헤딩 파워",
+      "headedAccuracy": "헤더 정확도",
+      "headingAccuracy": "헤더 정확도",
+      "headingPower": "헤더 파워",
       "oneOnOneFinishing": "1대1 마무리",
       "placedShotAccuracy": "배치된 샷 정확도",
       "placedShots": "배치된 샷",
@@ -171,21 +171,21 @@
       "shotAnticipation": "샷 예상",
       "shotPower": "샷 파워",
       "volleyTechnique": "발리 테크닉",
-      "volleysAndAcrobatic": "발리슛 및 곡예"
+      "volleysAndAcrobatic": "발리슛 및 아크로바틱 피니시"
     },
     "gameIntelligence": {
       "anticipation": "예기",
       "creativity": "창의성",
       "decisions": "결정",
       "offTheBallMovement": "오프 더 볼 운동",
-      "positioning": "포지셔닝",
+      "positioning": "위치 선정",
       "spatialAwareness": "공간 인식",
-      "vision": "비전"
+      "vision": "시야"
     },
     "interception": {
       "crossBlocking": "교차 차단",
       "longPassInterception": "롱패스 가로채기",
-      "readingOfPlay": "연극읽기",
+      "readingOfPlay": "경기 흐름 읽기 (판도 분석)",
       "shortPassInterception": "쇼트패스 가로채기",
       "shotBlocking": "샷 블로킹"
     },
@@ -208,25 +208,25 @@
       "composure": "컴포셔(GK)",
       "concentration": "농도(GK)",
       "decisionMaking": "의사결정(GK)",
-      "handling": "손질"
+      "handling": "핸들링 및 캐칭 안정성"
     },
     "passing": {
-      "crossingFromByline": "바이라인에서 교차",
-      "crossingFromDeep": "깊은 곳에서 건너기",
+      "crossingFromByline": "엔드라인(골라인) 크로스",
+      "crossingFromDeep": "얼리 크로스 (후방 크로스)",
       "curveEffect": "곡선 효과",
-      "firstTimeCrossing": "처음으로 횡단",
+      "firstTimeCrossing": "논스톱 (다이렉트) 크로스",
       "lobPassAccuracy": "로브 패스 정확도",
       "longDiagonalPass": "긴 대각선 패스",
       "shortPassingSupport": "짧은 패스 지원",
       "shortPassingUnderPressure": "압박감 속에서도 짧은 패스",
-      "throughBalls": "스루볼",
-      "verticalPassBreakingLines": "수직 통행 차단선",
+      "throughBalls": "스루패스",
+      "verticalPassBreakingLines": "라인 브레이킹 종패스",
       "weightedPass": "가중 패스"
     },
     "performance": {
       "adaptability": "적응성",
       "bigMatchPerformance": "빅매치 성과",
-      "clutchFactor": "클러치 팩터",
+      "clutchFactor": "클러치 능력 (해결사 기질)",
       "consistency": "일관성",
       "pressureHandling": "압력 취급"
     },
@@ -244,23 +244,23 @@
     "positioning": {
       "linePositioning": "라인 포지셔닝",
       "narrowingAngles": "각도 축소",
-      "positioning": "GK 포지셔닝",
+      "positioning": "위치 선정 (GK)",
       "rushingOut": "돌진하다"
     },
     "pressing": {
       "counterPressing": "카운터 프레싱",
       "pressIntensity": "프레스 강도",
-      "pressingTrigger": "트리거 누르기",
+      "pressingTrigger": "압박 스위치 (프레싱 트리거)",
       "sustainedPressing": "지속적인 압박"
     },
     "robustness": {
       "injuryResistance": "부상 저항",
-      "naturalFitness": "내추럴 피트니스",
+      "naturalFitness": "타고난 체력",
       "physicalRobustness": "물리적 견고성",
       "recoveryRate": "회수율"
     },
     "setPieces": {
-      "cornerKicking": "코너킥",
+      "cornerKicking": "코너킥 전담",
       "directFreeKickPlacement": "직접 프리킥 배치",
       "directFreeKickPower": "직접 프리킥 파워",
       "indirectFreeKick": "간접 프리킥",
@@ -283,7 +283,7 @@
       "topSpeed": "최고 속도"
     },
     "strength": {
-      "balanceInContact": "연락 중인 잔액",
+      "balanceInContact": "몸싸움 시 균형 감각",
       "bodyToBodyStrength": "신체 대 신체 강도",
       "legStrength": "다리 근력",
       "upperBodyStrength": "상체 근력"

@@ -297,140 +297,6 @@
       "trainingLight": "Priorizando o descanso",
       "transferRequest": "Você solicitou uma transferência"
     },
-    "expandedAttributes": {
-      "agility": {
-        "coordination": "Coordenação",
-        "flexibility": "Flexibilidade",
-        "lateralAgility": "Agilidade Lateral",
-        "reactionTime": "Tempo de reação"
-      },
-      "ballControl": {
-        "aerialControl": "Controle Aéreo",
-        "firstTouchOrientated": "Primeiro Toque Orientado",
-        "firstTouchUnderPressure": "Primeiro toque sob pressão",
-        "shielding": "Blindagem",
-        "trapping": "Domínio de bola"
-      },
-      "defensivePositioning": {
-        "covering": "Cobertura",
-        "defensiveAwareness": "Consciência Defensiva",
-        "positionRecovery": "Recuperação de posição"
-      },
-      "dribbling": {
-        "balanceInDribble": "Equilíbrio no Drible",
-        "closeControlDribbling": "Drible com controle próximo",
-        "feints": "Fintas",
-        "skillMoves": "Movimentos de habilidade",
-        "speedDribbling": "Drible de velocidade"
-      },
-      "endurance": {
-        "aerobicEndurance": "Resistência Aeróbica",
-        "anaerobicEndurance": "Resistência Anaeróbica",
-        "stamina": "Vigor",
-        "workRate": "Taxa de trabalho"
-      },
-      "finishing": {
-        "finishingInsideBox": "Finalização dentro da área",
-        "finishingOnCounter": "Finalização em contra-ataque",
-        "finishingOutsideBox": "Finalização fora da área",
-        "finishingUnderPressure": "Finalização sob pressão",
-        "headingAccuracy": "Precisão de cabeceio",
-        "headingPower": "Força no cabeceio",
-        "oneOnOneFinishing": "Finalização cara a cara",
-        "placedShotAccuracy": "Precisão do chute colocado",
-        "powerShotAccuracy": "Precisão do chute potente",
-        "shotPower": "Força do chute",
-        "volleysAndAcrobatic": "Voleios e Acrobática"
-      },
-      "gameIntelligence": {
-        "anticipation": "Antecipação",
-        "creativity": "Criatividade",
-        "decisions": "Decisões",
-        "offTheBallMovement": "Movimento fora da bola",
-        "positioning": "Posicionamento",
-        "spatialAwareness": "Consciência Espacial",
-        "vision": "Visão"
-      },
-      "interception": {
-        "readingOfPlay": "Leitura de jogo",
-        "shortPassInterception": "Interceptação de passe curto"
-      },
-      "jumping": {
-        "headerTiming": "Tempo de cabeceio",
-        "runningVerticalJump": "Salto Vertical em Movimento",
-        "standingVerticalJump": "Salto Vertical Parado"
-      },
-      "marking": {
-        "individualMarking": "Marcação Individual",
-        "trackingRuns": "Acompanhamento de infiltrações",
-        "zonalMarking": "Marcação Zonal"
-      },
-      "passing": {
-        "crossingFromByline": "Cruzamento pela linha de fundo",
-        "crossingFromDeep": "Cruzamentos de longe",
-        "longDiagonalPass": "Passe Diagonal Longo",
-        "longPassAccuracy": "Precisão de passe longo",
-        "mediumPassAccuracy": "Precisão de passe médio",
-        "shortPassAccuracy": "Precisão de passe curto",
-        "throughBallAccuracy": "Precisão em passes enfiados",
-        "verticalPassBreakingLines": "Passe vertical entre linhas",
-        "weightedPass": "Passe dosado"
-      },
-      "performance": {
-        "adaptability": "Adaptabilidade",
-        "bigMatchPerformance": "Desempenho em grandes partidas",
-        "clutchFactor": "Fator decisivo",
-        "consistency": "Consistência",
-        "pressureHandling": "Controle sob pressão"
-      },
-      "personality": {
-        "bravery": "Bravura",
-        "charismaOffPitch": "Carisma fora do campo",
-        "composure": "Compostura",
-        "composureInFinishing": "Compostura na finalização",
-        "determination": "Determinação",
-        "leadershipOnPitch": "Liderança em campo",
-        "professionalism": "Profissionalismo",
-        "teamwork": "Trabalho em equipe",
-        "temperament": "Temperamento"
-      },
-      "positioning": {
-        "narrowingAngles": "Estreitando Ângulos"
-      },
-      "pressing": {
-        "pressingEndurance": "Pressionando Resistência",
-        "pressingIntensity": "Pressionando Intensidade",
-        "pressingTiming": "Pressionando tempo"
-      },
-      "robustness": {
-        "injuryResistance": "Resistência a lesões",
-        "naturalFitness": "Condicionamento natural",
-        "physicalRobustness": "Robustez Física",
-        "recoveryRate": "Taxa de recuperação"
-      },
-      "shotStopping": {
-        "diving": "Defesa em salto",
-        "oneOnOneStopping": "Defesa no mano a mano",
-        "reflexes": "Reflexos"
-      },
-      "speed": {
-        "accelerationInitial": "Aceleração Inicial",
-        "accelerationMedium": "Aceleração Média",
-        "sprintSpeed": "Velocidade de corrida",
-        "topSpeed": "Velocidade máxima"
-      },
-      "strength": {
-        "balanceInContact": "Equilíbrio em contato",
-        "bodyToBodyStrength": "Força corpo a corpo",
-        "legStrength": "Força das pernas",
-        "upperBodyStrength": "Força da parte superior do corpo"
-      },
-      "tackling": {
-        "slidingTackle": "Carrinho",
-        "standingTackle": "Desarme em pé",
-        "tackleTiming": "Timing do desarme"
-      }
-    },
     "finishing": "Finalização",
     "firstGoal": {
       "1": "PRIMEIRO GOL! {name} abre conta profissional",
@@ -522,11 +388,11 @@
       "20": "Merecida Chuteira de Ouro para {name}"
     },
     "hatTrick": {
-      "1": "HERÓI DO HAT-TRICK! {name} marca três",
-      "2": "{name} consegue três gols na vitória de {team}",
-      "3": "Delícia tripla! {name} marca três gols",
+      "1": "HERÓI DO HAT-TRICK! {name} marca três gols",
+      "2": "{name} anota hat-trick e comanda a vitória do {team}",
+      "3": "Show de gols! {name} anota um hat-trick espetacular",
       "4": "{name} leva a bola para casa com hat-trick",
-      "5": "Clínico: {name} atinge o hat-trick perfeito",
+      "5": "Frio e calculista: {name} anota o hat-trick perfeito",
       "6": "Três e fácil para {name}",
       "7": "O hat-trick de {name} ilumina o jogo",
       "8": "Implacável, {name} faz hat-trick",
@@ -535,12 +401,12 @@
       "11": "Hat-trick histórico de {name}",
       "12": "{name} vai para casa com a bola do jogo",
       "13": "Três gols! {name} domina",
-      "14": "Os três gols de {name} garantem os pontos",
+      "14": "O hat-trick de {name} garante os três pontos",
       "15": "Em chamas! {name} marca três gols",
-      "16": "{team} estrela {name} consegue três",
+      "16": "O astro do {team}, {name}, anota três gols",
       "17": "{name} faz história com hat-trick",
-      "18": "Hat-trick perfeito para {name} clínico",
-      "19": "Herói de três gols: estrelas {name}",
+      "18": "Hat-trick perfeito do matador {name}",
+      "19": "Herói do hat-trick: {name} dá show e brilha em campo",
       "20": "{name} celebra a glória do hat-trick"
     },
     "injuryReturn": {
@@ -908,7 +774,7 @@
     },
     "retirement": {
       "0": "{name} ANUNCIA APOSENTADORIA. Obrigado por tudo!",
-      "1": "Fim de uma era: {name} pendura botas",
+      "1": "Fim de uma era: {name} pendura as chuteiras",
       "2": "Adeus da lenda: {name} se aposenta",
       "3": "{name} encerra carreira vitoriosa",
       "4": "O futebol perde uma estrela: {name} para de jogar",
@@ -921,7 +787,7 @@
       "11": "Fim da jornada para {name}",
       "12": "Não veremos mais {name} em campo: Aposentadoria",
       "13": "A lenda se retira: {name} para",
-      "14": "Botas penduradas: {name} se aposenta",
+      "14": "Chuteiras penduradas: {name} se aposenta",
       "15": "Um dia triste: {name} deixa o futebol",
       "16": "História concluída: {name} encerra atividades",
       "17": "O ciclo termina: {name} se aposenta",
@@ -968,6 +834,7 @@
       "wantsTransfer": "Quer transferência"
     },
     "topScorer": {
+      "0": "{name} LIDERA! {goals} gols na corrida pela artilharia da liga",
       "1": "ARTILHEIRO! {name} termina com {goals} gols",
       "2": "{name} conquista a Chuteira de Ouro com {goals} gols",
       "3": "Máquina de gols! {name} é o artilheiro da liga",
@@ -1173,6 +1040,58 @@
       "Continental": "Continental",
       "Cup": "Copa",
       "League": "Liga"
+    },
+    "promoted": {
+      "1": "ACESSO GARANTIDO! O {team} confirma a subida para a divisão de cima",
+      "2": "Festa histórica: {team} comemora o acesso à {league}",
+      "3": "Subimos! O {team} carimba o passaporte para o escalão superior",
+      "4": "{name} brilha e comanda a campanha do acesso do {team} à {league}",
+      "5": "A elite nacional espera pelo {team} na próxima temporada"
+    },
+    "playstyle": {
+      "CounterAttacking": "Contra-Ataque",
+      "HighPressing": "Pressão Alta",
+      "Possession": "Posse de Bola",
+      "balanced": "Equilibrado",
+      "defensive": "Defensivo",
+      "offensive": "Ofensivo"
+    },
+    "cleanSheetMilestone": {
+      "1": "PAREDÃO! {name} atinge {cleanSheets} jogos sem sofrer gols na carreira",
+      "2": "Marca histórica: {name} alcança {cleanSheets} partidas de invencibilidade",
+      "3": "{name} entra no seleto clube de {cleanSheets} jogos sem ser vazado",
+      "4": "{cleanSheets} jogos sem sofrer gols! {name} atinge marca impressionante",
+      "5": "Aula debaixo das traves: {name} chega a {cleanSheets} jogos sem sofrer gols",
+      "6": "{name} comemora a marca histórica de {cleanSheets} partidas sem levar gol",
+      "7": "Imbatível: {name} garante o jogo sem sofrer gols de número {cleanSheets}",
+      "8": "Mãos de ouro: {name} alcança {cleanSheets} partidas sem levar gols",
+      "9": "Muralha impenetrável: {name} bloqueia o rival pela {cleanSheets}ª vez",
+      "10": "O paredão segue invicto: {name} bate {cleanSheets} jogos com baliza a zero",
+      "11": "Conquista monumental: {name} chega a {cleanSheets} clean sheets na carreira",
+      "12": "{name} se consolida entre as lendas com {cleanSheets} jogos sem sofrer gols",
+      "13": "Luva de ouro: {name} atinge a marca mágica de {cleanSheets} partidas invicto",
+      "14": "{name} celebra marca pessoal com {cleanSheets} partidas sem ser vazado",
+      "15": "Soberano na área: {name} comemora {cleanSheets} jogos sem sofrer gols",
+      "16": "Defesa impenetrável: {name} chega a {cleanSheets} partidas zeradas",
+      "17": "Lenda debaixo das traves: {name} comemora {cleanSheets} jogos sem levar gol",
+      "18": "Portas fechadas: {name} atinge {cleanSheets} partidas sem sofrer gols",
+      "19": "Marca histórica alcançada: {cleanSheets} jogos invicto para {name}",
+      "20": "Goleiro monumental: {name} atinge {cleanSheets} jogos sem sofrer gols"
+    },
+    "position": {
+      "CDM": "Volante",
+      "CF": "Segundo Atacante",
+      "CM": "Meio-Campista",
+      "GK": "Goleiro",
+      "LB": "Lateral-Esquerdo",
+      "LM": "Meia-Esquerda",
+      "LW": "Ponta-Esquerda",
+      "LWB": "Ala-Esquerdo",
+      "RB": "Lateral-Direito",
+      "RM": "Meia-Direita",
+      "RW": "Ponta-Direita",
+      "RWB": "Ala-Direito",
+      "ST": "Centroavante"
     }
   },
   "stats": {

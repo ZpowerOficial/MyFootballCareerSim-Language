@@ -68,14 +68,14 @@
     },
     "acceleration": "Aceleración",
     "age": "Edad",
-    "aggression": "Agresividad",
+    "aggression": "Agresividad / Furia",
     "agility": "Agilidad",
     "attacking": "Ataque",
     "attributeEvolution": "Evolución de atributos",
     "balance": "Balance",
     "ballControl": "Control del balón",
     "composure": "Serenidad",
-    "crossing": "Centro",
+    "crossing": "Centros",
     "currentAge": "Edad actual",
     "currentOvr": "OVR actual",
     "curve": "Curva",
@@ -92,16 +92,16 @@
         "goldenBoot": "¡Máximo Goleador de la Liga ({goals} goles)!",
         "goldenBoy": "¡Jugador Joven del Año! El futuro es tuyo.",
         "goldenGlove": "¡Ganador del Guante de Oro ({cleanSheets} porterías a cero)!",
-        "goldenShoe": "¡Ganador de la Bota de Oro Europea! ({goals} goles)",
+        "goldenShoe": "¡Ganador de la Bota de Oro Europea ({goals} goles)!",
         "leaguePOTY": "¡Jugador de la Temporada de la Liga!",
-        "leaguePositional": "¡Nombrado Mejor {position} de la Temporada!",
+        "leaguePositional": "¡Elegido Mejor {position} de la temporada en {league}!",
         "playmaker": "¡Líder de Asistencias de la Liga ({assists} asistencias)!",
         "puskas": "¡Ganador del Premio Gol del Año!",
         "rookie": "¡Nombrado Revelación del Año en la Liga!",
-        "shortlist": "Nominado a Mejor Jugador del Mundo.",
+        "shortlist": "¡Nominado en la lista final para {award}!",
         "teamOfTheYear": "Nombrado al Equipo del Año de la Liga.",
         "worldCupGoldenBall": "¡Ganador del Trofeo de Oro del World Tournament!",
-        "worldCupGoldenBoot": "¡Ganador de la Bota de Oro del World Tournament!",
+        "worldCupGoldenBoot": "¡Bota de Oro de la Copa del Mundo ({goals} goles)!",
         "worldCupTOTT": "¡Nombrado al Equipo del Torneo Mundial!",
         "worldPlayer": "¡MEJOR JUGADOR DEL MUNDO! Reconocido como el mejor del planeta. Narrativa: {narrative}."
       },
@@ -190,8 +190,8 @@
         "releasedToProfessional": "Liberado para iniciar carrera profesional"
       }
     },
-    "finishing": "Remate",
-    "flair": "Clase",
+    "finishing": "Definición",
+    "flair": "Talento / Inventiva",
     "foot": {
       "left": "Izquierda",
       "right": "Derecha",
@@ -200,63 +200,67 @@
     "footedness": "Pies",
     "freeKick": "Precisión de tiro libre",
     "gkDiving": "Estirada",
-    "gkHandling": "Manejo",
+    "gkHandling": "Blocaje (Portero)",
     "gkKicking": "Saque de meta",
-    "gkPositioning": "Posicionamiento",
+    "gkPositioning": "Colocación (Portero)",
     "gkReflexes": "Reflejos",
     "goalkeeping": "portero",
     "growth": "Crecimiento",
-    "heading": "Precisión de cabeza",
+    "heading": "Precisión de Cabeza",
     "interceptions": "Intercepciones",
     "jumping": "Salto",
     "keyAttribute": "Atributo clave",
     "leadership": "Liderazgo",
-    "leftFinishing": "Acabado (izquierda)",
+    "leftFinishing": "Definición (Izquierda)",
     "legend": "Leyenda",
     "longPassing": "Pase largo",
     "longShots": "Tiros lejanos",
     "marking": "Marcaje",
     "mental": "Mental",
     "mentalAttributes": "Atributos mentales",
-    "overall": "En general",
+    "overall": "General",
     "overallEvolution": "Evolución general",
-    "pace": "Ritmo",
+    "pace": "Ritmo / Velocidad",
     "passing": "Pase",
     "peakAge": "Edad pico",
     "peakOvr": "OVR pico",
-    "penalties": "Penalizaciones",
+    "penalties": "Penaltis",
     "physical": "Físico",
     "physicalAttributes": "Atributos físicos",
-    "positioning": "Posicionamiento",
+    "positioning": "Colocación",
     "preferredFoot": "Pie preferido",
     "ratingColors": "Colores de calificación",
     "reactions": "Reacciones",
-    "rightFinishing": "Acabado (derecha)",
+    "rightFinishing": "Definición (Derecha)",
     "shooting": "Tiro",
     "shortPassing": "Pase corto",
     "shotPower": "Potencia de tiro",
-    "slidingTackle": "Entrada deslizante",
+    "slidingTackle": "Entrada a Ras de Suelo",
     "sprintSpeed": "Velocidad de sprint",
     "stamina": "Resistencia",
-    "standingTackle": "Entrada",
+    "standingTackle": "Entrada de Pie",
     "strength": "Fuerza",
     "technical": "Técnico",
     "technicalAttributes": "Atributos Técnicos",
     "vision": "Visión",
     "volleys": "Voleas",
-    "weakFoot": "Pie débil",
-    "workRate": "Sacrificio",
+    "weakFoot": "Pierna mala",
+    "workRate": "Capacidad de Trabajo",
     "aerialControl": "Control Aéreo"
   },
   "characteristic": {
     "Aerial Specialist": "Especialista aéreo",
-    "Big Game Player": "Jugador importante",
-    "Clinical Finisher": "Finalizador clínico",
-    "Dribbling Wizard": "Asistente de regate",
+    "Big Game Player": "Jugador de grandes partidos",
+    "Clinical Finisher": "Delantero letal",
+    "Dribbling Wizard": "Mago del regate",
     "Engine": "Motor",
     "Leader": "Líder",
     "Playmaker": "creador de juego",
-    "Speed Demon": "Demonio de velocidad"
+    "Speed Demon": "Demonio de velocidad",
+    "aerialDominance": "Gana casi todos los duelos aéreos gracias a su colocación y salto imperial.",
+    "ballPlayingDefender": "Dotado de gran técnica, saca el balón jugado e inicia la jugada desde atrás.",
+    "ballWinner": "Mediocentro de corte implacable que destruye el juego rival con anticipación y robos limpios.",
+    "bigGamePlayer": "Crece en las grandes citas, finales de copa y partidos que deciden campeonatos."
   },
   "expandedAttributes": {
     "defending": {
@@ -264,21 +268,21 @@
       "standingTiming": "Sincronización permanente"
     },
     "finishing": {
-      "headedAccuracy": "Precisión dirigida",
+      "headedAccuracy": "Precisión en Remate de Cabeza",
       "oneOnOneFinishing": "Finalización 1v1",
       "placedShots": "Tiros colocados",
       "shotAnticipation": "Anticipación del tiro",
       "volleyTechnique": "Técnica de volea",
-      "finishingInsideBox": "Acabado interior de la caja",
-      "finishingOnCounter": "Acabado en mostrador",
-      "finishingOutsideBox": "Acabado de caja exterior",
+      "finishingInsideBox": "Definición Dentro del Área",
+      "finishingOnCounter": "Definición al Contraataque",
+      "finishingOutsideBox": "Definición Fuera del Área",
       "finishingUnderPressure": "Acabado bajo presión",
-      "headingAccuracy": "Precisión de cabeza",
-      "headingPower": "Poder de rumbo",
+      "headingAccuracy": "Precisión de Cabeceio",
+      "headingPower": "Potencia de Cabezazo",
       "placedShotAccuracy": "Precisión del tiro colocado",
       "powerShotAccuracy": "Precisión de tiro potente",
       "shotPower": "Potencia de tiro",
-      "volleysAndAcrobatic": "Voleas y Acrobacias"
+      "volleysAndAcrobatic": "Voleas y Remates Acrobáticos"
     },
     "mental": {
       "concentration": "Concentración",
@@ -286,16 +290,16 @@
     },
     "passing": {
       "lobPassAccuracy": "Precisión del pase globo",
-      "throughBalls": "A través de bolas",
+      "throughBalls": "Pases al Hueco / Pases Filtrados",
       "weightedPass": "Pase ponderado",
-      "crossingFromByline": "Cruzando desde la firma",
-      "crossingFromDeep": "Cruzando desde lo profundo",
+      "crossingFromByline": "Centro desde Línea de Fondo",
+      "crossingFromDeep": "Centro desde Tres Cuartos",
       "curveEffect": "Efecto curva",
-      "firstTimeCrossing": "Cruce por primera vez",
+      "firstTimeCrossing": "Centro al Primer Toque",
       "longDiagonalPass": "Pase Diagonal Largo",
       "shortPassingSupport": "Soporte de pases cortos",
       "shortPassingUnderPressure": "Pases cortos bajo presión",
-      "verticalPassBreakingLines": "Líneas de ruptura de pase vertical"
+      "verticalPassBreakingLines": "Pase Vertical Entre Líneas"
     },
     "speed": {
       "acceleration": "Aceleración",
@@ -314,21 +318,21 @@
       "aerialControl": "Control Aéreo",
       "firstTouchOrientated": "Orientado al primer toque",
       "firstTouchUnderPressure": "Primer toque bajo presión",
-      "shielding": "Blindaje",
+      "shielding": "Protección del Balón",
       "trapping": "Captura"
     },
     "commanding": {
       "aerialReach": "Alcance aéreo",
-      "claimingCrosses": "Reclamando cruces",
+      "claimingCrosses": "Salidas a por Centros",
       "commandOfArea": "Comando de área",
       "communication": "Comunicación",
-      "punching": "Puñetazos"
+      "punching": "Despeje de Puños"
     },
     "defensivePositioning": {
       "backtracking": "Retroceder",
-      "covering": "Cubierta",
+      "covering": "Cobertura Defensiva",
       "defensiveAwareness": "Conciencia defensiva",
-      "jockeying": "jockey",
+      "jockeying": "Contención / Temporización",
       "positionRecovery": "Recuperación de posición"
     },
     "distribution": {
@@ -357,14 +361,14 @@
       "creativity": "Creatividad",
       "decisions": "Decisiones",
       "offTheBallMovement": "Movimiento fuera del balón",
-      "positioning": "Posicionamiento",
+      "positioning": "Colocación",
       "spatialAwareness": "Conciencia espacial",
       "vision": "Visión"
     },
     "interception": {
       "crossBlocking": "Bloqueo cruzado",
       "longPassInterception": "Intercepción de pase largo",
-      "readingOfPlay": "Lectura de juego",
+      "readingOfPlay": "Lectura de Juego",
       "shortPassInterception": "Intercepción de pase corto",
       "shotBlocking": "Bloqueo de tiro"
     },
@@ -383,12 +387,12 @@
       "composure": "Compostura (GK)",
       "concentration": "Concentración (GK)",
       "decisionMaking": "Toma de decisiones (GK)",
-      "handling": "Manejo"
+      "handling": "Seguridad en la Recepción"
     },
     "performance": {
       "adaptability": "Adaptabilidad",
       "bigMatchPerformance": "Gran actuación en partidos",
-      "clutchFactor": "Factor de embrague",
+      "clutchFactor": "Poder de Decisión (Clutch)",
       "consistency": "Consistencia",
       "pressureHandling": "Manejo de presión"
     },
@@ -406,23 +410,23 @@
     "positioning": {
       "linePositioning": "Posicionamiento de línea",
       "narrowingAngles": "Ángulos cada vez más estrechos",
-      "positioning": "Posicionamiento",
+      "positioning": "Colocación (Portero)",
       "rushingOut": "Saliendo corriendo"
     },
     "pressing": {
       "counterPressing": "Contrapresión",
       "pressIntensity": "Intensidad de prensa",
-      "pressingTrigger": "Presionando el gatillo",
+      "pressingTrigger": "Activador de la Presión",
       "sustainedPressing": "Presión sostenida"
     },
     "robustness": {
       "injuryResistance": "Resistencia a las lesiones",
-      "naturalFitness": "aptitud natural",
+      "naturalFitness": "Condición natural",
       "physicalRobustness": "Robustez física",
       "recoveryRate": "Tasa de recuperación"
     },
     "setPieces": {
-      "cornerKicking": "Patadas de esquina",
+      "cornerKicking": "Lanzamiento de Córner",
       "directFreeKickPlacement": "Colocación de tiro libre directo",
       "directFreeKickPower": "Potencia de tiro libre directo",
       "indirectFreeKick": "Tiro libre indirecto",
@@ -438,16 +442,16 @@
       "reflexes": "Reflejos"
     },
     "strength": {
-      "balanceInContact": "Saldo en contacto",
+      "balanceInContact": "Equilibrio en el Choque",
       "bodyToBodyStrength": "Fuerza cuerpo a cuerpo",
       "legStrength": "Fuerza de las piernas",
       "upperBodyStrength": "Fuerza de la parte superior del cuerpo"
     },
     "tackling": {
       "cleanTackling": "Entrada limpia",
-      "slidingTackle": "Entrada deslizante",
-      "standingTackle": "Entrada",
-      "tackleTiming": "Sincronización del abordaje"
+      "slidingTackle": "Entrada a Ras de Suelo",
+      "standingTackle": "Entrada de Pie",
+      "tackleTiming": "Medición de la Entrada"
     }
   },
   "form": {
@@ -565,7 +569,7 @@
       "origin": {
         "agent": "Agente",
         "club": "Club",
-        "coach": "Gerente",
+        "coach": "Entrenador",
         "fans": "aficionados",
         "press": "Prensa",
         "self": "Ser"
@@ -664,8 +668,8 @@
     "noOffersDescription": "No has recibido ninguna oferta de traspaso esta temporada.",
     "permanentTransfer": "Transferencia Permanente",
     "reputation": "Reputación",
-    "season": "estación",
-    "seasons": "estaciones",
+    "season": "temporada",
+    "seasons": "temporadas",
     "tier": "Nivel",
     "transferOffers": "Ofertas de transferencia",
     "wage": "Salario",
@@ -681,34 +685,34 @@
     "Lazy": "Perezoso",
     "Leader": "Líder",
     "Loyal": "Leal",
-    "Media Darling": "Querido de los medios",
+    "Media Darling": "Querido por la prensa",
     "Professional": "Profesional",
     "Reserved": "Reservado",
     "Temperamental": "Temperamental"
   },
   "playerStyle": {
-    "advancedPlaymaker": "Creador de Juego Adelantado",
-    "ballPlayingDefender": "Defensa con Buen Manejo",
-    "ballWinningMidfielder": "Centrocampista Recuperador",
-    "boxToBox": "Todocampista",
+    "advancedPlaymaker": "Mediocentro ofensivo",
+    "ballPlayingDefender": "Defensor que saca la pelota jugada",
+    "ballWinningMidfielder": "Mediocentro recuperador",
+    "boxToBox": "Box-to-box",
     "completeForward": "Delantero Completo",
-    "deepLyingPlaymaker": "Organizador Retrasado",
-    "emergingTalent": "Talento Emergente",
-    "false9": "Falso 9",
-    "insideForward": "Interior",
-    "invertedWinger": "Extremo Invertido",
+    "deepLyingPlaymaker": "Mediocentro organizador",
+    "emergingTalent": "Talento emergente",
+    "false9": "Falso nueve",
+    "insideForward": "Delantero interior",
+    "invertedWinger": "Extremo a pierna cambiada",
     "mezzala": "Mezzala",
-    "poacher": "Cazagoles",
+    "poacher": "Depredador del área",
     "regista": "Regista",
-    "shotStopper": "Paralotodo",
+    "shotStopper": "Especialista en paradas",
     "speedDemon": "Demonio de Velocidad",
     "stopper": "Defensor de Choque",
     "sweeper": "Líbero",
-    "sweeperKeeper": "Portero Líbero",
+    "sweeperKeeper": "Portero líbero",
     "targetMan": "Hombre Objetivo",
-    "traditionalWinger": "Extremo Clásico",
-    "versatilePlayer": "Jugador Versátil",
-    "widePlaymaker": "Organizador en Banda",
+    "traditionalWinger": "Extremo clásico",
+    "versatilePlayer": "Jugador polivalente",
+    "widePlaymaker": "Organizador escorado",
     "wingBack": "Carrilero"
   },
   "seasonFocus": {
@@ -725,7 +729,7 @@
       "title": "juego de pelota"
     },
     "boxToBox": {
-      "title": "Caja a caja",
+      "title": "Box-to-box",
       "description": "Cubrir todo el campo y contribuir al ataque y la defensa."
     },
     "consistency": {
@@ -764,7 +768,7 @@
     "positionHint": "Opciones disponibles para {position}",
     "positioning": {
       "description": "Mejor lectura del juego y sentido posicional.",
-      "title": "Posicionamiento"
+      "title": "Colocación"
     },
     "reflexes": {
       "description": "Mejora el tiempo de reacción y ahorra",
@@ -783,6 +787,10 @@
     "titles": {
       "description": "Concéntrate en ganar trofeos. Las expectativas del equipo se vuelven más importantes.",
       "title": "Títulos"
+    },
+    "ballplaying": {
+      "description": "Mejorar el pase y la distribución desde atrás.",
+      "title": "juego de pelota"
     }
   },
   "squadStatus": {
@@ -932,17 +940,17 @@
       "gkDistribution": "Distribución GK",
       "gkDistributionDesc": "Control del balón y pases.",
       "gkDiving": "Estirada",
-      "gkDivingDesc": "Salvadas y técnica de buceo.",
+      "gkDivingDesc": "Paradas y técnica de buceo.",
       "gkMentality": "Mentalidad de portero",
       "gkMentalityDesc": "Enfoque y concentración",
       "gkOneOnOne": "GK 1v1",
       "gkOneOnOneDesc": "Situaciones uno a uno",
-      "gkPositioning": "Posicionamiento",
+      "gkPositioning": "Colocación (Portero)",
       "gkPositioningDesc": "Posicionamiento y anticipación",
       "gkReflexes": "Reflejos",
       "gkReflexesDesc": "La reacción rápida salva",
       "gym": "Gimnasia",
-      "gymDesc": "Entrenamiento de fuerza y ​​levantamiento de pesas.",
+      "gymDesc": "Entrenamiento de fuerza y levantamiento de pesas.",
       "heading": "Juego aéreo",
       "headingDesc": "Entrenamiento de habilidad aérea",
       "longshots": "Tiros lejanos",
@@ -950,16 +958,16 @@
       "marking": "Marcaje",
       "markingDesc": "Marcaje y cobertura defensiva",
       "physical": "Físico",
-      "physicalDesc": "Velocidad, fuerza y ​​resistencia.",
+      "physicalDesc": "Velocidad, fuerza y resistencia.",
       "playmaker": "creador de juego",
       "playmakerDesc": "Visión creativa y paso.",
       "playmaking": "Creación de juego",
       "playmakingDesc": "Pasaje, visión y creación de oportunidades.",
-      "poacher": "Cazador furtivo",
+      "poacher": "Depredador del área",
       "poacherDesc": "Presencia y acabado de la caja.",
       "position": "Posición",
       "positionDesc": "Entrenamiento para el cambio de puesto.",
-      "positioning": "Posicionamiento",
+      "positioning": "Colocación",
       "positioningDesc": "Movimientos y carreras de ataque.",
       "pressing": "Presión",
       "pressingDesc": "Trabajo defensivo de alta intensidad",
@@ -977,11 +985,11 @@
       "tacklesDesc": "Técnicas para ganar el balón",
       "tactical": "Táctico",
       "tacticalDesc": "Posicionamiento defensivo y lectura del juego.",
-      "targetMan": "Hombre objetivo",
+      "targetMan": "Delantero de referencia",
       "targetManDesc": "Juego de atraco y amenaza aérea",
       "technique": "Técnica",
       "techniqueDesc": "Regate, control del balón y habilidad.",
-      "weakFoot": "Pie débil",
+      "weakFoot": "Pierna mala",
       "weakFootDesc": "Desarrollar el pie no dominante",
       "winger": "Extremo",
       "wingerDesc": "Juego amplio y cruces"
@@ -991,7 +999,7 @@
   "trait": {
     "Acrobatic Finisher": {
       "description": "Marca con voleas y tiros de bicicleta.",
-      "name": "Rematador acrobático"
+      "name": "Finalizador acrobático"
     },
     "Aerial Threat": {
       "description": "Muy peligroso en las jugadas a balón parado ofensivas.",
@@ -999,7 +1007,7 @@
     },
     "Argues With Officials": {
       "description": "Con frecuencia impugna las decisiones de los árbitros.",
-      "name": "Discute con funcionarios"
+      "name": "Discute con los árbitros"
     },
     "Avoids Using Weaker Foot": {
       "description": "Evita usar el pie malo.",
@@ -1011,23 +1019,23 @@
     },
     "Big Game Player": {
       "description": "Se desempeña mejor en partidos importantes.",
-      "name": "Jugador importante"
+      "name": "Jugador de grandes partidos"
     },
     "Captain Material": {
       "description": "Líder natural en el campo.",
-      "name": "Capitán Material"
+      "name": "Madera de capitán"
     },
     "Cautious With Crosses": {
       "description": "Duda en dejar línea en los centros.",
-      "name": "Cauteloso con las cruces"
+      "name": "Prudente en los centros"
     },
     "Chip Shot": {
       "description": "Capacidad para lanzar al portero con un toque sutil.",
-      "name": "Tiro de chip"
+      "name": "Vaselina"
     },
     "Comes For Crosses": {
       "description": "Predomina la zona aérea.",
-      "name": "Cruces de Reclamaciones"
+      "name": "Atrapa los centros"
     },
     "Dives Into Tackles": {
       "description": "Lanza el cuerpo a los desafíos.",
@@ -1035,7 +1043,7 @@
     },
     "Driven": {
       "description": "Voluntad inquebrantable de ganar.",
-      "name": "Impulsado"
+      "name": "Motivado"
     },
     "Early Adopter": {
       "description": "Aprende nuevas tácticas rápidamente.",
@@ -1043,59 +1051,59 @@
     },
     "Fan Favorite": {
       "description": "Amado por la afición.",
-      "name": "Favorito de los fans"
+      "name": "Ídolo de la afición"
     },
     "Finesse Shot": {
       "description": "Experto en colocar tiros curvos.",
-      "name": "Tiro fino"
+      "name": "Tiro colocado"
     },
     "GK Flat Kick": {
       "description": "Distribución rápida y baja.",
-      "name": "Patada plana GK"
+      "name": "Saque raso del portero"
     },
     "GK Long Throw": {
       "description": "Lanza contraataques con las manos.",
-      "name": "Tiro largo del portero"
+      "name": "Saque largo con la mano"
     },
     "Giant Throw-In": {
       "description": "Toma tiros como si fueran córners.",
-      "name": "Saque de banda gigante"
+      "name": "Saque de banda largo"
     },
     "Inflexible": {
       "description": "Dificultad para jugar fuera de posición o táctica.",
-      "name": "Inflexible"
+      "name": "Poco flexible"
     },
     "Injury Concern": {
       "description": "Propenso a sufrir lesiones frecuentes.",
-      "name": "Preocupación por lesiones"
+      "name": "Historial de lesiones"
     },
     "Injury Prone": {
       "description": "Mayor riesgo de lesiones.",
       "name": "Propenso a sufrir lesiones"
     },
     "Iron Man": {
-      "name": "hombre de hierro",
+      "name": "Hombre de hierro",
       "description": "Rara vez se lesiona."
     },
     "Late Bloomer": {
       "description": "Alcanza su potencial más adelante en su carrera.",
-      "name": "tardío"
+      "name": "Madura tarde"
     },
     "Left-Footed Maestro": {
       "description": "Habilidad excepcional con el pie izquierdo.",
-      "name": "Maestro zurdo"
+      "name": "Maestro del pie izquierdo"
     },
     "Long Shot Taker": {
       "description": "Le gusta disparar desde fuera del área.",
-      "name": "Tirador de largo alcance"
+      "name": "Tirador de larga distancia"
     },
     "Media Darling": {
       "description": "Atrae una cobertura mediática positiva.",
-      "name": "Querido de los medios"
+      "name": "Querido por la prensa"
     },
     "One-Club Man": {
       "description": "Leal al club, bono de química.",
-      "name": "Hombre de un solo palo"
+      "name": "Ícono del club"
     },
     "One-on-One Rush": {
       "description": "Rápido para cerrar espacio en 1v1s.",
@@ -1111,23 +1119,23 @@
     },
     "Pinpoint Crossing": {
       "description": "Centros precisos para los delanteros.",
-      "name": "Cruce preciso"
+      "name": "Centro preciso"
     },
     "Play Simple": {
       "description": "Evita riesgos innecesarios.",
-      "name": "Juega simple"
+      "name": "Juega sencillo"
     },
     "Power House": {
       "description": "Impresionante fuerza física.",
-      "name": "Central eléctrica"
+      "name": "Físicamente dominante"
     },
     "Power Shot": {
       "description": "Golpea la pelota con una potencia devastadora.",
-      "name": "Tiro de poder"
+      "name": "Tiro potente"
     },
     "Punches Fists": {
       "description": "Prefiere golpear la pelota para despejarla.",
-      "name": "Pegador"
+      "name": "Portero que despeja a puñetazos"
     },
     "Right-Footed Sniper": {
       "description": "Precisión letal con el pie derecho.",
@@ -1135,7 +1143,7 @@
     },
     "Rushes Out Of Goal": {
       "description": "Portero que sale corriendo para despejar el peligro.",
-      "name": "sale corriendo"
+      "name": "Sale de su área"
     },
     "Selfish": {
       "description": "A menudo ignora a los compañeros de equipo mejor posicionados.",
@@ -1143,19 +1151,19 @@
     },
     "Slide Tackle": {
       "description": "Tacleador deslizante preciso.",
-      "name": "Abordador de diapositivas"
+      "name": "Especialista en entradas"
     },
     "Speed Dribbler": {
       "description": "Impulsa la pelota a gran velocidad sin perder el control.",
-      "name": "Regateador de velocidad"
+      "name": "Regateador veloz"
     },
     "Speed Merchant": {
       "description": "Ritmo crudo para quemar a los defensores.",
-      "name": "velocista"
+      "name": "Velocista"
     },
     "Tackles Back": {
       "description": "Atacante que ayuda a recuperar el balón.",
-      "name": "Pistas atrás"
+      "name": "Ayuda en defensa"
     },
     "Team Player": {
       "description": "Prioriza el equipo sobre uno mismo.",
@@ -1167,23 +1175,23 @@
     },
     "Through Ball": {
       "description": "Visión para pases que dividen la defensa.",
-      "name": "Bola pasante"
+      "name": "Pase al hueco"
     },
     "Trickster": {
       "description": "Utiliza habilidades y fintas para engañar a los defensores.",
-      "name": "Embaucador"
+      "name": "Habilidoso"
     },
     "Weak Foot": {
       "description": "Habilidad con pie no preferente.",
-      "name": "Pie débil"
+      "name": "Pierna mala"
     },
     "Wonderkid": {
       "description": "Desarrollo rápido cuando es joven.",
-      "name": "niño maravilla"
+      "name": "Joya"
     },
     "acrobaticFinisher": {
-      "description": "Capaz de anotar espectaculares voleas, chilenas y goles acrobáticos.",
-      "name": "Rematador acrobático"
+      "description": "Capaz de marcar auténticos golazos de volea, chilena o tijera con gran plasticidad.",
+      "name": "Finalizador acrobático"
     },
     "aerialDominance": {
       "description": "Gana casi todos los duelos aéreos con un posicionamiento y sincronización superiores.",
@@ -1194,8 +1202,8 @@
       "name": "Amenaza aérea"
     },
     "arguesWithOfficials": {
-      "description": "Con frecuencia impugna las decisiones arbitrales, arriesgando tarjetas.",
-      "name": "Discute con funcionarios"
+      "description": "Reclama con vehemencia las decisiones arbitrales, arriesgando tarjetas innecesarias.",
+      "name": "Discute con los árbitros"
     },
     "avoidsUsingWeakerFoot": {
       "description": "Favorece fuertemente el pie dominante incluso en situaciones difíciles.",
@@ -1207,39 +1215,39 @@
     },
     "ballPlayingDefender": {
       "description": "Cómodo con el balón e inicia ataques desde atrás.",
-      "name": "Defensor que juega con la pelota"
+      "name": "Defensor que saca la pelota jugada"
     },
     "ballWinner": {
-      "description": "Tackleador agresivo que rompe los ataques de la oposición.",
-      "name": "Ganador de la pelota"
+      "description": "Centrocampista de brega que corta contragolpes y recupera balones con anticipación.",
+      "name": "Recuperador"
     },
     "bigGamePlayer": {
       "description": "Se destaca en finales de copa y partidos decisivos.",
-      "name": "Jugador importante"
+      "name": "Jugador de grandes partidos"
     },
     "boxToBox": {
       "description": "Cubre cada brizna de hierba, contribuyendo tanto a la defensa como al ataque.",
-      "name": "Caja a caja"
+      "name": "Box-to-box"
     },
     "cautiousWithCrosses": {
-      "description": "Duda en venir a buscar centros y prefiere permanecer en línea.",
-      "name": "Cauteloso con las cruces"
+      "description": "Duda al salir en los centros al área y prefiere quedarse bajo palos.",
+      "name": "Prudente en los centros"
     },
     "chipShot": {
-      "description": "Maestro del delicado golpe sobre el portero en situaciones de 1 contra 1.",
-      "name": "Tiro de chip"
+      "description": "Pica el balón con sutileza y maestría por encima de la salida del guardameta.",
+      "name": "Vaselina"
     },
     "clinicalFinisher": {
       "description": "Destaca en situaciones uno contra uno y convierte oportunidades con precisión.",
-      "name": "Finalizador clínico"
+      "name": "Delantero letal"
     },
     "comesForCrosses": {
-      "description": "Proactivo a la hora de atrapar centros antes de que los delanteros puedan alcanzarlos.",
-      "name": "Cruces de Reclamaciones"
+      "description": "Sale con valentía a interceptar centros antes de que lleguen los delanteros.",
+      "name": "Sale a por los centros"
     },
     "commandOfArea": {
       "description": "Domina el área, reclamando centros y organizando la defensa.",
-      "name": "Comando de Área"
+      "name": "Dominio del área"
     },
     "composure": {
       "description": "Mantiene la calma bajo presión y toma mejores decisiones en momentos clave.",
@@ -1251,11 +1259,11 @@
     },
     "crossingSpecialist": {
       "description": "Realiza centros peligrosos desde áreas amplias con látigo y ritmo.",
-      "name": "Especialista en cruces"
+      "name": "Especialista en centros"
     },
     "deepLyingPlaymaker": {
-      "description": "Controla el tempo desde posiciones profundas con pases y visión.",
-      "name": "Creador de juego profundo"
+      "description": "Dicta los tiempos del encuentro desde la medular gracias a su visión panorámica y pase largo.",
+      "name": "Mediocentro organizador"
     },
     "discipline": {
       "description": "Rara vez comete faltas innecesarias o recibe tarjetas.",
@@ -1267,11 +1275,11 @@
     },
     "dribblingWizard": {
       "description": "Excepcional control del balón y capacidad para sortear múltiples defensores.",
-      "name": "Asistente de regate"
+      "name": "Mago del regate"
     },
     "driven": {
       "description": "Intensamente motivado para mejorar y alcanzar el éxito.",
-      "name": "Impulsado"
+      "name": "Motivado"
     },
     "earlyAdopter": {
       "description": "Rápido para aprender nuevas tácticas y adaptarse a diferentes sistemas.",
@@ -1283,11 +1291,11 @@
     },
     "finesse": {
       "description": "Jugador elegante que apuesta más por la habilidad que por el físico.",
-      "name": "Finura"
+      "name": "Elegancia"
     },
     "finesseShot": {
       "description": "Realiza tiros con precisión y curvatura en lugar de potencia bruta.",
-      "name": "Tiro fino"
+      "name": "Tiro colocado"
     },
     "flair": {
       "description": "Jugador naturalmente creativo que intenta lo espectacular y entretiene al público.",
@@ -1299,23 +1307,23 @@
     },
     "giantThrowIn": {
       "description": "Puede lanzar saques de banda largos al área como si fueran esquinas.",
-      "name": "Saque de banda gigante"
+      "name": "Saque de banda largo"
     },
     "gkFlatKick": {
       "description": "Lanza patadas bajas y contundentes a los compañeros de equipo que se encuentran más arriba en el campo.",
-      "name": "Patada plana GK"
+      "name": "Saque raso del portero"
     },
     "gkLongThrow": {
       "description": "Distribuye el balón excepcionalmente lejos para iniciar contraataques.",
-      "name": "Tiro largo del portero"
+      "name": "Saque largo con la mano"
     },
     "inflexible": {
       "description": "Tiene dificultades para adaptarse a nuevas posiciones o tácticas.",
-      "name": "Inflexible"
+      "name": "Poco flexible"
     },
     "injuryConcern": {
       "description": "El historial de lesiones plantea dudas sobre la disponibilidad a largo plazo.",
-      "name": "Preocupación por lesiones"
+      "name": "Historial de lesiones"
     },
     "injuryProne": {
       "description": "Físicamente frágil con mayor susceptibilidad a sufrir lesiones.",
@@ -1327,7 +1335,7 @@
     },
     "lastMan": {
       "description": "Última línea de defensa confiable con excelente posicionamiento.",
-      "name": "último hombre"
+      "name": "Último defensa"
     },
     "leadership": {
       "description": "Líder natural que organiza y motiva a sus compañeros.",
@@ -1335,7 +1343,7 @@
     },
     "leftFootedMaestro": {
       "description": "Elegancia distintiva y precisión con el pie izquierdo.",
-      "name": "Maestro zurdo"
+      "name": "Maestro del pie izquierdo"
     },
     "longPasser": {
       "description": "Cambia de juego y encuentra compañeros de equipo con una distribución precisa de largo alcance.",
@@ -1343,32 +1351,32 @@
     },
     "longShotTaker": {
       "description": "Intenta y convierte regularmente esfuerzos de largo alcance.",
-      "name": "Tirador a distancia"
+      "name": "Tirador de larga distancia"
     },
     "longShots": {
       "description": "Capaz de marcar goles espectaculares desde lejos con potencia y precisión.",
-      "name": "Lanzador de tiro lejano"
+      "name": "Tirador de larga distancia"
     },
     "longThrow": {
       "description": "Puede lanzar la pelota a distancias increíbles con lanzamientos potentes.",
-      "name": "Tiro largo"
+      "name": "Saque de banda largo"
     },
     "marking": {
       "description": "Se adhiere firmemente a los oponentes y anula su amenaza de ataque.",
-      "name": "Marcador de hombre"
+      "name": "Marcador individual"
     },
     "naturalFitness": {
       "description": "Rara vez se lesiona y se recupera rápidamente de golpes menores.",
-      "name": "aptitud natural"
+      "name": "Condición natural"
     },
     "negative": "Negativo",
     "noNonsenseDefender": {
-      "description": "Defensor físico y agresivo que despeja el peligro con decisión.",
-      "name": "Defensor sensato"
+      "description": "Central férreo y agresivo que despeja el peligro con contundencia sin complicarse.",
+      "name": "Defensor clásico"
     },
     "oneClubMan": {
       "description": "Leyenda fiel que dedicó su carrera a un solo club.",
-      "name": "Hombre de un solo palo"
+      "name": "Ícono del club"
     },
     "oneOnOneRush": {
       "description": "Agresivo a la hora de reprimir rápidamente a los huelguistas.",
@@ -1383,44 +1391,44 @@
       "name": "trivel"
     },
     "penaltySaver": {
-      "description": "Experto en atajar penaltis con buena anticipación y reacciones.",
-      "name": "Ahorrador de penaltis"
+      "description": "Guardián con un don especial para aguantar y atajar penas máximas decisivas.",
+      "name": "Especialista en penaltis"
     },
     "pinpointCrossing": {
       "description": "Selecciona atacantes con lanzamientos guiados por láser desde las bandas.",
-      "name": "Cruce preciso"
+      "name": "Centro preciso"
     },
     "playSimple": {
       "description": "Mantiene las cosas simples y rara vez toma riesgos innecesarios.",
-      "name": "Juega simple"
+      "name": "Juega sencillo"
     },
     "playmaker": {
       "description": "Orquesta ataques con visión y alcance de pase.",
       "name": "creador de juego"
     },
     "poacher": {
-      "description": "Rematador instintivo que encuentra espacio en el área para toques y rebotes.",
-      "name": "Cazador furtivo"
+      "description": "Rematador de pura cepa que vive en el área esperando rechaces y toques decisivos.",
+      "name": "Depredador del área"
     },
     "positioning": {
       "description": "Siempre en el lugar correcto en el momento correcto.",
-      "name": "Posicionamiento"
+      "name": "Colocación"
     },
     "powerHeader": {
-      "description": "Domina los duelos aéreos y anota cabezazos cruciales en centros y jugadas a balón parado.",
-      "name": "Encabezado de energía"
+      "description": "Imprime una potencia demoledora a los remates de cabeza en saques de esquina y centros.",
+      "name": "Remate de cabeza potente"
     },
     "powerHouse": {
-      "description": "Presencia física imponente que intimida a los oponentes.",
-      "name": "Central eléctrica"
+      "description": "Titán físico dotado de un poderío y resistencia que arrolla en cada disputa.",
+      "name": "Físicamente dominante"
     },
     "powerShot": {
       "description": "Golpea la pelota con un veneno excepcional, lo que dificulta que los porteros la retengan.",
-      "name": "Tiro de poder"
+      "name": "Tiro potente"
     },
     "punchesFists": {
       "description": "Prefiere despejar los centros con un puñetazo en lugar de atraparlos.",
-      "name": "Pegador"
+      "name": "Portero que despeja a puñetazos"
     },
     "rightFootedSniper": {
       "description": "Precisión letal al rematar con el pie derecho.",
@@ -1428,7 +1436,7 @@
     },
     "rushesOutOfGoal": {
       "description": "Salga rápido de la línea para sofocar situaciones de 1 contra 1.",
-      "name": "sale corriendo"
+      "name": "Sale de su área"
     },
     "secondWind": {
       "description": "Obtiene un aumento de resistencia en las etapas finales de los partidos.",
@@ -1440,43 +1448,43 @@
     },
     "setPieceSpecialist": {
       "description": "Maestro de los tiros libres, los saques de esquina y las situaciones a balón parado.",
-      "name": "Especialista en jugadas a balón parado"
+      "name": "Especialista a balón parado"
     },
     "shotStopper": {
-      "description": "Reflejos excepcionales y capacidad para salvar.",
-      "name": "Tapón de tiro"
+      "description": "Portero de reflejos felinos prodigioso en manos a mano y disparos a quemarropa.",
+      "name": "Especialista en paradas"
     },
     "slideTackle": {
       "description": "Experto en cronometrar las entradas deslizantes para ganar el balón limpiamente.",
-      "name": "Abordador de diapositivas"
+      "name": "Especialista en entradas"
     },
     "solidPlayer": {
       "description": "Trabajador confiable y consistente semana tras semana.",
-      "name": "Jugador sólido"
+      "name": "Jugador fiable"
     },
     "speedDribbler": {
       "description": "Utiliza un ritmo puro y agilidad para sortear a los defensores a gran velocidad.",
-      "name": "Regateador de velocidad"
+      "name": "Regateador veloz"
     },
     "speedMerchant": {
       "description": "Un ritmo vertiginoso le permite vencer a los defensores y explotar el espacio detrás de la línea.",
-      "name": "velocista"
+      "name": "Velocista"
     },
     "strength": {
       "description": "El poder físico ayuda a ganar duelos y a mantener a raya a los oponentes.",
       "name": "Fuerza"
     },
     "sweeperKeeper": {
-      "description": "Cómodo corriendo para despejar balones y actuar como un defensor adicional.",
-      "name": "Guardián del barrendero"
+      "description": "Domina el juego fuera de su área, cortando balones a la espalda de la defensa.",
+      "name": "Portero líbero"
     },
     "tacklesBack": {
       "description": "Diligente a la hora de regresar para ayudar a la defensa cuando se pierde la posesión.",
-      "name": "Pistas atrás"
+      "name": "Ayuda en defensa"
     },
     "targetMan": {
-      "description": "Presencia física que sostiene el juego y lleva a los compañeros al ataque.",
-      "name": "Hombre objetivo"
+      "description": "Ariete de gran corpulencia que aguanta el balón de espaldas y oxigena al equipo.",
+      "name": "Delantero Referencia"
     },
     "teamPlayer": {
       "description": "Siempre antepone las necesidades del equipo a la gloria personal.",
@@ -1492,7 +1500,7 @@
     },
     "throughBall": {
       "description": "Se especializa en dividir defensas con pases perfectamente ponderados.",
-      "name": "Bola pasante"
+      "name": "Pase al hueco"
     },
     "tirelessRunner": {
       "description": "Una resistencia excepcional permite una alta intensidad durante los partidos.",
@@ -1500,15 +1508,15 @@
     },
     "trickster": {
       "description": "Le gusta hacer malabares y realizar habilidades de exhibición.",
-      "name": "Embaucador"
+      "name": "Habilidoso"
     },
     "twoFooted": {
       "description": "Dispara y pasa con igual calidad en ambos pies.",
-      "name": "De dos pies"
+      "name": "Ambidiestro"
     },
     "versatile": {
       "description": "Capaz de jugar múltiples posiciones de manera eficiente.",
-      "name": "Versátil"
+      "name": "Polivalente"
     },
     "vision": {
       "description": "Ve tiros que otros no ven y crea oportunidades con pases incisivos.",
@@ -1516,60 +1524,192 @@
     },
     "weakFoot": {
       "description": "Tiene dificultades cuando se le obliga a utilizar el pie más débil.",
-      "name": "Pie débil"
+      "name": "Pierna mala"
+    },
+    "Box-to-Box": {
+      "description": "Cubre cada brizna de hierba, contribuyendo tanto a la defensa como al ataque.",
+      "name": "Box-to-box"
+    },
+    "Ball Winner": {
+      "description": "Centrocampista de brega que corta contragolpes y recupera balones con anticipación.",
+      "name": "Recuperador"
+    },
+    "Ball-Playing Defender": {
+      "description": "Cómodo con el balón e inicia ataques desde atrás.",
+      "name": "Defensor que saca la pelota jugada"
+    },
+    "Deep-Lying Playmaker": {
+      "description": "Dicta los tiempos del encuentro desde la medular gracias a su visión panorámica y pase largo.",
+      "name": "Mediocentro organizador"
+    },
+    "Crossing Specialist": {
+      "description": "Realiza centros peligrosos desde áreas amplias con látigo y ritmo.",
+      "name": "Especialista en centros"
+    },
+    "Dribbling Wizard": {
+      "description": "Excepcional control del balón y capacidad para sortear múltiples defensores.",
+      "name": "Mago del regate"
+    },
+    "Command of Area": {
+      "description": "Domina el área, reclamando centros y organizando la defensa.",
+      "name": "Dominio del área"
+    },
+    "Claims Crosses": {
+      "description": "Sale con valentía a interceptar centros antes de que lleguen los delanteros.",
+      "name": "Sale a por los centros"
+    },
+    "Clinical Finisher": {
+      "description": "Destaca en situaciones uno contra uno y convierte oportunidades con precisión.",
+      "name": "Delantero letal"
+    },
+    "Power Header": {
+      "description": "Imprime una potencia demoledora a los remates de cabeza en saques de esquina y centros.",
+      "name": "Remate de cabeza potente"
+    },
+    "Long Passer": {
+      "description": "Cambia de juego y encuentra compañeros de equipo con una distribución precisa de largo alcance.",
+      "name": "Pasador largo"
+    },
+    "Puncher": {
+      "description": "Prefiere despejar los centros con un puñetazo en lugar de atraparlos.",
+      "name": "Portero que despeja a puñetazos"
+    },
+    "Distance Shooter": {
+      "description": "Intenta y convierte regularmente esfuerzos de largo alcance.",
+      "name": "Tirador de larga distancia"
+    },
+    "Speedster": {
+      "description": "Un ritmo vertiginoso le permite vencer a los defensores y explotar el espacio detrás de la línea.",
+      "name": "Velocista"
+    },
+    "Aerial Dominance": {
+      "description": "Gana casi todos los duelos aéreos con un posicionamiento y sincronización superiores.",
+      "name": "Dominio aéreo"
+    },
+    "Dribbler": {
+      "description": "Excepcional control del balón y capacidad para sortear múltiples defensores.",
+      "name": "Mago del regate"
+    },
+    "Playmaker": {
+      "description": "Orquesta ataques con visión y alcance de pase.",
+      "name": "creador de juego"
+    },
+    "Leader": {
+      "description": "Líder natural que organiza y motiva a sus compañeros.",
+      "name": "Liderazgo"
+    },
+    "Early Crosser": {
+      "description": "Selecciona atacantes con lanzamientos guiados por láser desde las bandas.",
+      "name": "Centro preciso"
+    },
+    "Long Ball Taker": {
+      "description": "Cambia de juego y encuentra compañeros de equipo con una distribución precisa de largo alcance.",
+      "name": "Pasador largo"
+    },
+    "One Club Player": {
+      "description": "Leyenda fiel que dedicó su carrera a un solo club.",
+      "name": "Ícono del club"
+    },
+    "Save With Feet": {
+      "description": "Portero de reflejos felinos prodigioso en manos a mano y disparos a quemarropa.",
+      "name": "Especialista en paradas"
+    },
+    "Solid Player": {
+      "description": "Trabajador confiable y consistente semana tras semana.",
+      "name": "Jugador fiable"
+    },
+    "Leadership": {
+      "description": "Líder natural que organiza y motiva a sus compañeros.",
+      "name": "Liderazgo"
+    },
+    "Engine": {
+      "description": "Corredor incansable que nunca deja de trabajar por el equipo.",
+      "name": "Motor"
+    },
+    "Composure": {
+      "description": "Mantiene la calma bajo presión y toma mejores decisiones en momentos clave.",
+      "name": "Serenidad"
+    },
+    "Consistency": {
+      "description": "Mantiene un alto nivel de rendimiento partido tras partido.",
+      "name": "Consistencia"
+    },
+    "Flair": {
+      "description": "Jugador naturalmente creativo que intenta lo espectacular y entretiene al público.",
+      "name": "Clase"
+    },
+    "Power Free-Kick": {
+      "name": "Falta potente",
+      "description": "Especialista en lanzamientos de falta directos con enorme potencia."
+    },
+    "Swerves Shot": {
+      "name": "Tiros con rosca",
+      "description": "Aplica rosca y curva endiablada al golpeo de balón para sorprender al guardameta."
+    },
+    "Takes Powerful Driven Free Kicks": {
+      "name": "Faltas potentes",
+      "description": "Ejecuta faltas directas rasas y violentas difíciles de despejar."
+    },
+    "Tries To Beat Offside Trap": {
+      "name": "Rompe el fuera de juego",
+      "description": "Juega al límite del fuera de juego para romper en velocidad a la espalda de los centrales."
+    },
+    "Second Wind": {
+      "name": "Segundo Aliento",
+      "description": "Recupera un extra de energía y físico en los tramos finales del partido."
     }
   },
   "traitStyles": {
-    "aerialDominance": "Gana casi todos los encabezados.",
-    "ballPlayingDefender": "Cómodo con el balón y construye desde atrás.",
-    "ballWinner": "Agresivo y eficaz para ganar el balón.",
-    "bigGamePlayer": "Actúa en partidos cruciales.",
-    "boxToBox": "Cubre el terreno de juego y contribuye en ambas áreas.",
+    "aerialDominance": "Gana casi todos los remates de cabeza",
+    "ballPlayingDefender": "Cómodo con el balón, inicia el juego desde atrás",
+    "ballWinner": "Agresivo y eficaz en la recuperación",
+    "bigGamePlayer": "Rinde en los partidos decisivos",
+    "boxToBox": "Recorre todo el campo y aporta en ambas áreas",
     "clinicalFinisher": "Excelente definición de cara a portería",
-    "commandOfArea": "Domina el área de penalti",
-    "composure": "Calma bajo presión",
-    "crossingSpecialist": "Ofrece cruces de calidad.",
-    "decentLevel": "decente",
-    "deepLyingPlaymaker": "Los orquestados tocan desde lo profundo",
-    "dribblingWizard": "Excelente control cercano y regate",
-    "engine": "Ritmo implacable durante 90 minutos",
-    "everPresent": "Un artista confiable semana tras semana",
+    "commandOfArea": "Domina el área",
+    "composure": "Sereno bajo presión",
+    "crossingSpecialist": "Ofrece centros de calidad",
+    "decentLevel": "aceptable",
+    "deepLyingPlaymaker": "Organiza el juego desde atrás",
+    "dribblingWizard": "Excelente control y regate en espacios cortos",
+    "engine": "Ritmo incansable durante 90 minutos",
+    "everPresent": "Rendimiento fiable semana tras semana",
     "excellentLevel": "excelente",
     "exceptionalLevel": "excepcional",
-    "flairPlayer": "Impredecible y creativo con el balón.",
-    "goodLevel": "bien",
-    "injuryProne": "Susceptible a problemas físicos frecuentes.",
-    "interceptor": "Lee el juego e intercepta pases.",
-    "lastMan": "Última línea de defensa confiable",
-    "leadership": "Líder natural dentro y fuera de la cancha",
-    "leftFootedMaestro": "Técnica depurada y control con el pie izquierdo.",
-    "longShots": "Marca desde lejos con buena precisión.",
+    "flairPlayer": "Impredecible y creativo con el balón",
+    "goodLevel": "bueno",
+    "injuryProne": "Propenso a problemas físicos frecuentes",
+    "interceptor": "Lee el juego e intercepta pases",
+    "lastMan": "Última línea defensiva fiable",
+    "leadership": "Líder natural dentro y fuera del campo",
+    "leftFootedMaestro": "Técnica y control depurados con la izquierda",
+    "longShots": "Marca desde lejos con buena precisión",
     "naturalFitness": "Rara vez se cansa o se lesiona",
     "noNonsenseDefender": "Físico y directo en defensa",
-    "penaltySaver": "Fuerte atajando penaltis",
-    "playmaker": "Excelente visión y rango de pase.",
-    "poacher": "Excelente posicionamiento dentro de la caja.",
-    "powerHeader": "Excelente capacidad de duelo aéreo.",
-    "quietProfessional": "Rara vez reservado",
-    "rightFootedSniper": "Remate letal y precisión con el pie derecho",
-    "secondWind": "Mantiene la energía al final de los juegos.",
-    "setpieceSpecialist": "Peligroso en córners y tiros libres",
-    "shotStopper": "Especialista en reflejos entre los palos.",
-    "speedMerchant": "Ritmo eléctrico dentro y fuera del balón",
-    "sweeperKeeper": "Portero moderno y cómodo cuadro exterior.",
-    "targetMan": "Excelente juego de atraco y presencia aérea.",
+    "penaltySaver": "Fuerte parando penaltis",
+    "playmaker": "Excelente visión y rango de pase",
+    "poacher": "Excelente colocación dentro del área",
+    "powerHeader": "Excelente en el juego aéreo",
+    "quietProfessional": "Rara vez ve tarjeta",
+    "rightFootedSniper": "Definición letal y precisión con la derecha",
+    "secondWind": "Mantiene la energía al final del partido",
+    "setpieceSpecialist": "Peligroso a balón parado",
+    "shotStopper": "Especialista en reflejos bajo los palos",
+    "speedMerchant": "Velocidad eléctrica con y sin balón",
+    "sweeperKeeper": "Portero moderno cómodo fuera del área",
+    "targetMan": "Excelente aguante de balón y juego aéreo",
     "tirelessRunner": "Nunca deja de correr",
     "twoFooted": "Igual de cómodo con ambos pies",
-    "versatile": "Puede jugar múltiples posiciones",
-    "vision": "Capacidad excepcional para encontrar pases."
+    "versatile": "Puede jugar en varias posiciones",
+    "vision": "Capacidad excepcional para encontrar pases"
   },
   "traits": {
     "Ambitions_desc": "Ambicioso y decidido a llegar a lo más alto",
-    "Argues With Officials": "Discute con funcionarios",
+    "Argues With Officials": "Discute con los árbitros",
     "Argues With Officials_desc": "Tendencia a quejarse ante los árbitros, arriesgando tarjetas.",
-    "Big Game Player": "Jugador importante",
+    "Big Game Player": "Jugador de grandes partidos",
     "Big Game Player_desc": "Sube el nivel en los grandes partidos",
-    "Clinical Finisher": "Finalizador clínico",
+    "Clinical Finisher": "Delantero letal",
     "Clinical Finisher_desc": "Alta tasa de conversión en posibilidades",
     "Composure": "Serenidad",
     "Composure_desc": "Mantiene la calma bajo presión",
@@ -1577,9 +1717,9 @@
     "Consistency_desc": "Rendimiento estable juego tras juego",
     "Dirty Player": "Jugador sucio",
     "Dirty Player_desc": "Propenso a cometer faltas duras y jugar sucio.",
-    "Dribbling Wizard": "Asistente de regate",
+    "Dribbling Wizard": "Mago del regate",
     "Dribbling Wizard_desc": "Habilidad excepcional con el balón en los pies.",
-    "Driven": "Impulsado",
+    "Driven": "Motivado",
     "Driven_desc": "Extremadamente motivado para el éxito.",
     "Early Adopter": "Innovador",
     "Early Adopter_desc": "Rápido para adaptar nuevas técnicas y tácticas.",
@@ -1591,7 +1731,7 @@
     "Free Kick Specialist_desc": "Excelente lanzador de tiros libres",
     "Hard Working": "Trabajo duro",
     "Hard Working_desc": "Siempre da el 100% en el campo",
-    "Header Expert": "Experto en encabezado",
+    "Header Expert": "Experto en remates de cabeza",
     "Header Expert_desc": "Dominante en el aire",
     "Hot Head": "cabeza caliente",
     "Hot Head_desc": "Pierde la compostura fácilmente",
@@ -1601,53 +1741,53 @@
     "Leader_desc": "Inspira y motiva a los compañeros de equipo.",
     "Leadership": "Liderazgo",
     "Leadership_desc": "Líder nato sobre el terreno de juego",
-    "Left-Footed Maestro": "Maestro zurdo",
+    "Left-Footed Maestro": "Maestro del pie izquierdo",
     "Left-Footed Maestro_desc": "Técnica depurada con el pie izquierdo",
-    "Long Shot Taker": "Lanzador de tiro lejano",
+    "Long Shot Taker": "Tirador de larga distancia",
     "Long Shot Taker_desc": "Peligroso desde el alcance",
-    "Long Throw": "Tiro largo",
+    "Long Throw": "Saque de banda largo",
     "Long Throw_desc": "Lanzamientos largos como jugadas a balón parado",
     "Loyal": "Leal",
     "Loyal_desc": "Fiel al club",
-    "Media Darling": "Querido de los medios",
+    "Media Darling": "Querido por la prensa",
     "Media Darling_desc": "Buena relación con la prensa.",
-    "Media Shy": "Medios tímidos",
+    "Media Shy": "Tímido con la prensa",
     "Media Shy_desc": "Evita los reflectores y las entrevistas.",
     "Mercenary": "Mercenario",
     "Mercenary_desc": "Prioriza el dinero",
-    "Natural Fitness": "aptitud natural",
+    "Natural Fitness": "Condición natural",
     "Natural Fitness_desc": "Rara vez se cansa y se recupera rápido",
-    "One Club Player": "Un jugador del club",
+    "One Club Player": "Jugador de un solo club",
     "One Club Player_desc": "Fidelidad extrema al club.",
-    "One-Club Man": "Icono del club",
+    "One-Club Man": "Ícono del club",
     "One-Club Man_desc": "Dedicado toda su carrera al mismo club",
-    "Penalty Expert": "Experto en penalizaciones",
+    "Penalty Expert": "Especialista en penaltis",
     "Penalty Expert_desc": "Lanzador de penales confiable",
     "Playmaker": "creador de juego",
     "Playmaker_desc": "Crea oportunidades para el equipo.",
-    "Poacher": "Cazador furtivo",
+    "Poacher": "Depredador del área",
     "Poacher_desc": "Siempre en el lugar correcto para anotar",
-    "Power Header": "Encabezado de energía",
+    "Power Header": "Remate de cabeza potente",
     "Power Header_desc": "Fuerte en ataque aéreo",
     "Professional": "Profesional",
     "Professional_desc": "Comportamiento ejemplar dentro y fuera del campo",
     "Right-Footed Sniper": "Francotirador diestro",
     "Right-Footed Sniper_desc": "Letal remata con el pie derecho",
-    "Set Piece Specialist": "Especialista en jugadas a balón parado",
+    "Set Piece Specialist": "Especialista a balón parado",
     "Set Piece Specialist_desc": "Excelente en córners, tiros libres y penales.",
-    "Set-piece Specialist": "Especialista en jugadas a balón parado",
+    "Set-piece Specialist": "Especialista a balón parado",
     "Set-piece Specialist_desc": "Excelente en tiros libres y córners.",
-    "Showboat": "Barco con teatro a bordo",
+    "Showboat": "Fanfarrón",
     "Showboat_desc": "Le gusta realizar trucos.",
     "Speed Demon": "Demonio de velocidad",
     "Speed Demon_desc": "Aceleración extremadamente rápida",
-    "Speed Merchant": "velocista",
+    "Speed Merchant": "Velocista",
     "Speed Merchant_desc": "Increíble ritmo y aceleración.",
     "Stamina Beast": "Bestia de resistencia",
     "Stamina Beast_desc": "Nunca te cansas durante el juego.",
-    "Strong Tackler": "Tackleador fuerte",
+    "Strong Tackler": "Entrador fuerte",
     "Strong Tackler_desc": "Excelente para atacar y ganar pelotas.",
-    "Sweeper Keeper": "Guardián del barrendero",
+    "Sweeper Keeper": "Portero líbero",
     "Sweeper Keeper_desc": "Portero que actúa como último defensor",
     "Team Player": "Jugador de equipo",
     "Team Player_desc": "Prioriza el equipo sobre uno mismo",
@@ -1655,24 +1795,24 @@
     "Technical_desc": "Capacidad técnica refinada",
     "Temperamental": "Temperamental",
     "Temperamental_desc": "Puede perder la cabeza",
-    "Two-Footed": "De dos pies",
+    "Two-Footed": "Ambidiestro",
     "Two-Footed_desc": "Igual de fuerte con ambos pies",
-    "Versatile": "Versátil",
-    "Versatile_desc": "Puede jugar múltiples posiciones",
-    "Vocal Leader": "líder vocal",
+    "Versatile": "Polivalente",
+    "Versatile_desc": "Puede jugar en varias posiciones",
+    "Vocal Leader": "Líder vocal",
     "Vocal Leader_desc": "Comunica y organiza el equipo en el campo.",
     "aerialDominance": "Dominio aéreo",
-    "ballPlayingDefender": "Defensor que juega con la pelota",
-    "ballWinner": "Ganador de la pelota",
-    "bigGamePlayer": "Jugador importante",
-    "boxToBox": "Caja a caja",
-    "clinicalFinisher": "Finalizador clínico",
-    "commandOfArea": "Comando de Área",
+    "ballPlayingDefender": "Defensor que saca la pelota jugada",
+    "ballWinner": "Recuperador",
+    "bigGamePlayer": "Jugador de grandes partidos",
+    "boxToBox": "Box-to-box",
+    "clinicalFinisher": "Delantero letal",
+    "commandOfArea": "Dominio del área",
     "composure": "Serenidad",
-    "crossingSpecialist": "Especialista en cruces",
+    "crossingSpecialist": "Especialista en centros",
     "decentLevel": "Nivel decente",
-    "deepLyingPlaymaker": "Creador de juego profundo",
-    "dribblingWizard": "Asistente de regate",
+    "deepLyingPlaymaker": "Mediocentro organizador",
+    "dribblingWizard": "Mago del regate",
     "engine": "Motor",
     "everPresent": "Siempre presente",
     "excellentLevel": "Excelente nivel",
@@ -1680,24 +1820,24 @@
     "flairPlayer": "Jugador con estilo",
     "goodLevel": "Buen nivel",
     "interceptor": "Interceptador",
-    "lastMan": "último hombre",
+    "lastMan": "Último defensa",
     "leadership": "Liderazgo",
-    "longShots": "Lanzador de tiro lejano",
-    "naturalFitness": "aptitud natural",
-    "noNonsenseDefender": "Defensor sensato",
-    "penaltySaver": "Experto en penalizaciones",
+    "longShots": "Tirador de larga distancia",
+    "naturalFitness": "Condición natural",
+    "noNonsenseDefender": "Defensor clásico",
+    "penaltySaver": "Especialista en penaltis",
     "playmaker": "creador de juego",
-    "poacher": "Cazador furtivo",
-    "powerHeader": "Encabezado de energía",
-    "quietProfessional": "Profesional silencioso",
+    "poacher": "Depredador del área",
+    "powerHeader": "Remate de cabeza potente",
+    "quietProfessional": "Profesional discreto",
     "secondWind": "Segundo aliento",
-    "setpieceSpecialist": "Especialista en jugadas a balón parado",
-    "shotStopper": "Tapón de tiro",
-    "speedMerchant": "velocista",
-    "sweeperKeeper": "Guardián del barrendero",
+    "setpieceSpecialist": "Especialista a balón parado",
+    "shotStopper": "Especialista en paradas",
+    "speedMerchant": "Velocista",
+    "sweeperKeeper": "Portero líbero",
     "targetMan": "Hombre objetivo",
     "tirelessRunner": "Incansable",
-    "versatile": "Versátil",
+    "versatile": "Polivalente",
     "vision": "Visión"
   },
   "trophy": {
@@ -1723,7 +1863,9 @@
     "orientalPlayoff": "Eliminatoria del Este",
     "recopaSudamericana": "Supercopa Sudamericana",
     "supercup": "Supercopa",
-    "worldCup": "Torneo Mundial"
+    "worldCup": "Torneo Mundial",
+    "afcChallengeCup": "Copa Desafío de Asia",
+    "americasClassic": "Clásico de las Américas"
   },
   "injury": {
     "oneMonth": "1 mes",
@@ -1731,5 +1873,11 @@
     "seasonEnding": "Final de temporada",
     "days": "{count} Días",
     "months": "{count} Meses"
-  }
+  },
+  "intensity": {
+    "extreme": "Extremo"
+  },
+  "intensityExtreme": "Extremo",
+  "winContinentalCup": "Ganar la Copa Continental con el {team}",
+  "winWorldCup": "Ganar el Torneo Mundial con {country}"
 }

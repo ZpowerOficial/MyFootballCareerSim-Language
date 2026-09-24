@@ -22,7 +22,7 @@
     "acceleration": "التسارع",
     "aerialControl": "التحكم الهوائي",
     "age": "العمر",
-    "aggression": "العدوانية",
+    "aggression": "الشراسة والقتالية",
     "agility": "الرشاقة",
     "attacking": "الهجوم",
     "attributeEvolution": "تطور الصفات",
@@ -36,7 +36,7 @@
     "defending": "الدفاع",
     "dribbling": "المراوغة",
     "finishing": "إنهاء الهجمات",
-    "flair": "البراعة الفنية",
+    "flair": "البراعة والإبداع",
     "foot": {
       "left": "اليسرى",
       "right": "اليمنى"
@@ -44,9 +44,9 @@
     "footedness": "القدم المسيطرة",
     "freeKick": "دقة الركلات الحرة",
     "gkDiving": "تصدي الحارس",
-    "gkHandling": "إمساك الحارس",
+    "gkHandling": "الإمساك بالكرة (حارس)",
     "gkKicking": "ركل الحارس",
-    "gkPositioning": "تمركز الحارس",
+    "gkPositioning": "التمركز (حارس)",
     "gkReflexes": "ردود فعل الحارس",
     "goalkeeping": "حراسة المرمى",
     "growth": "النمو",
@@ -64,7 +64,7 @@
     "mentalAttributes": "الصفات العقلية",
     "overall": "عام",
     "overallEvolution": "التطور العام",
-    "pace": "السرعة",
+    "pace": "السرعة والاندفاع",
     "passing": "التمرير",
     "peakAge": "عمر القمة",
     "peakOvr": "تقييم القمة",
@@ -84,19 +84,19 @@
     "stamina": "التحمل",
     "standingTackle": "تدخل بالوقوف",
     "strength": "القوة",
-    "technical": "فني",
+    "technical": "تقني",
     "technicalAttributes": "الصفات الفنية",
-    "vision": "الرؤية",
-    "volleys": "التسديد الطائر",
+    "vision": "رؤية الملعب",
+    "volleys": "الكرات الطائرة (فولي)",
     "weakFoot": "القدم الضعيفة",
-    "workRate": "معدل العمل",
+    "workRate": "المجهود والعمل الجماعي",
     "worldClass": "عالمي المستوى",
     "wordClass": "عالمي المستوى"
   },
   "characteristic": {
     "Aerial Specialist": "متخصص هوائي",
-    "Big Game Player": "لاعب المباريات الكبرى",
-    "Clinical Finisher": "منهي بارع",
+    "Big Game Player": "لاعب المباريات الكبيرة",
+    "Clinical Finisher": "إنهاء حاسم",
     "Dribbling Wizard": "ساحر المراوغة",
     "Engine": "محرك",
     "Leader": "قائد",
@@ -114,15 +114,15 @@
       "aerialControl": "التحكم الهوائي",
       "firstTouchOrientated": "اللمسة الأولى الموجهة",
       "firstTouchUnderPressure": "اللمسة الأولى تحت الضغط",
-      "shielding": "حماية الكرة",
+      "shielding": "حماية الكرة بالجسد",
       "trapping": "امتصاص الكرة"
     },
     "commanding": {
       "aerialReach": "المدى الهوائي",
-      "claimingCrosses": "الإمساك بالعرضيات",
+      "claimingCrosses": "الخروج للإمساك بالعرضيات",
       "commandOfArea": "السيطرة على المنطقة",
       "communication": "التواصل",
-      "punching": "اللكم"
+      "punching": "إبعاد الكرة بالقبضة"
     },
     "defending": {
       "slidingTiming": "توقيت الانزلاق",
@@ -130,9 +130,9 @@
     },
     "defensivePositioning": {
       "backtracking": "التراجع",
-      "covering": "التغطية",
+      "covering": "التغطية الدفاعية",
       "defensiveAwareness": "الوعي الدفاعي",
-      "jockeying": "الملاكمه الدفاعية",
+      "jockeying": "التأخير الدفاعي والمراقبة",
       "positionRecovery": "استعادة التمركز"
     },
     "distribution": {
@@ -157,13 +157,13 @@
       "workRate": "معدل العمل"
     },
     "finishing": {
-      "finishingInsideBox": "إنهاء داخل المنطقة",
+      "finishingInsideBox": "إنهاء داخل منطقة الجزاء",
       "finishingOnCounter": "إنهاء في الهجمة المرتدة",
-      "finishingOutsideBox": "إنهاء خارج المنطقة",
+      "finishingOutsideBox": "إنهاء خارج منطقة الجزاء",
       "finishingUnderPressure": "إنهاء تحت الضغط",
-      "headedAccuracy": "دقة الرأسيات",
-      "headingAccuracy": "دقة التوجيه بالرأس",
-      "headingPower": "قوة الرأسية",
+      "headedAccuracy": "دقة التوجيه بالرأس",
+      "headingAccuracy": "دقة الرأسيات",
+      "headingPower": "قوة الضربة الرأسية",
       "oneOnOneFinishing": "إنهاء وجها لوجه",
       "placedShotAccuracy": "دقة التسديد الموضعي",
       "placedShots": "التسديد الموضعي",
@@ -171,7 +171,7 @@
       "shotAnticipation": "ترقب التسديد",
       "shotPower": "قوة التسديد",
       "volleyTechnique": "تقنية التسديد الطائر",
-      "volleysAndAcrobatic": "التسديد الطائر والبهلواني"
+      "volleysAndAcrobatic": "الكرات الطائرة والتسديدات البهلوانية"
     },
     "gameIntelligence": {
       "anticipation": "الاستباق",
@@ -180,12 +180,12 @@
       "offTheBallMovement": "الحركة بدون كرة",
       "positioning": "التمركز",
       "spatialAwareness": "الوعي المكاني",
-      "vision": "الرؤية"
+      "vision": "رؤية الملعب"
     },
     "interception": {
       "crossBlocking": "إعتراض العرضيات",
       "longPassInterception": "اعتراض التمريرات الطويلة",
-      "readingOfPlay": "قراءة اللعب",
+      "readingOfPlay": "قراءة مسار اللعب",
       "shortPassInterception": "اعتراض التمريرات القصيرة",
       "shotBlocking": "إعتراض التسديدات"
     },
@@ -208,13 +208,13 @@
       "composure": "رباطة الجأش (حارس)",
       "concentration": "التركيز (حارس)",
       "decisionMaking": "اتخاذ القرار (حارس)",
-      "handling": "الإمساك"
+      "handling": "ثبات الإمساك بالكرة"
     },
     "passing": {
-      "crossingFromByline": "العرضية من خط التماس",
+      "crossingFromByline": "عرضيات من خط النهاية",
       "crossingFromDeep": "العرضية من العمق",
       "curveEffect": "تأثير الانحناء",
-      "firstTimeCrossing": "العرضية الأولى",
+      "firstTimeCrossing": "عرضيات من لمسة واحدة",
       "lobPassAccuracy": "دقة التمرير المقوس",
       "longDiagonalPass": "التمرير القطري الطويل",
       "shortPassingSupport": "التمرير القصير الداعم",
@@ -238,29 +238,29 @@
       "determination": "العزيمة",
       "leadershipOnPitch": "القيادة في الملعب",
       "professionalism": "الاحترافية",
-      "teamwork": "العمل الجماعي",
+      "teamwork": "روح الفريق",
       "temperament": "المزاج"
     },
     "positioning": {
       "linePositioning": "تمركز الخط",
       "narrowingAngles": "تصغير الزوايا",
-      "positioning": "تمركز الحارس",
+      "positioning": "التمركز (حارس)",
       "rushingOut": "الاندفاع للخارج"
     },
     "pressing": {
       "counterPressing": "الضغط المرتد",
       "pressIntensity": "شدة الضغط",
-      "pressingTrigger": "محرك الضغط",
+      "pressingTrigger": "نقطة انطلاق الضغط",
       "sustainedPressing": "الضغط المستمر"
     },
     "robustness": {
       "injuryResistance": "مقاومة الإصابات",
-      "naturalFitness": "اللياقة الطبيعية",
+      "naturalFitness": "لياقة فطرية",
       "physicalRobustness": "المتانة البدنية",
       "recoveryRate": "معدل التعافي"
     },
     "setPieces": {
-      "cornerKicking": "تنفيذ الركنيات",
+      "cornerKicking": "تنفيذ الركلات الركنية",
       "directFreeKickPlacement": "توجيه الركلة الحرة المباشرة",
       "directFreeKickPower": "قوة الركلة الحرة المباشرة",
       "indirectFreeKick": "الركلة الحرة غير المباشرة",
@@ -283,7 +283,7 @@
       "topSpeed": "السرعة القصوى"
     },
     "strength": {
-      "balanceInContact": "التوازن عند الاحتكاك",
+      "balanceInContact": "التوازن عند الالتحام البدني",
       "bodyToBodyStrength": "قوة الالتحام البدني",
       "legStrength": "قوة الساقين",
       "upperBodyStrength": "قوة الجزء العلوي"
@@ -292,7 +292,7 @@
       "cleanTackling": "تدخل نظيف",
       "slidingTackle": "تدخل انزلاقي",
       "standingTackle": "تدخل بالوقوف",
-      "tackleTiming": "توقيت التدخل"
+      "tackleTiming": "توقيت التدخل واستخلاص الكرة"
     }
   }
 }

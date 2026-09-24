@@ -22,7 +22,7 @@
     "acceleration": "Aceleração",
     "aerialControl": "Controle Aéreo",
     "age": "Idade",
-    "aggression": "Agressividade",
+    "aggression": "Agressividade / Disputa",
     "agility": "Agilidade",
     "attacking": "Ataque",
     "attributeEvolution": "Evolução de Atributos",
@@ -36,7 +36,7 @@
     "defending": "Defesa",
     "dribbling": "Drible",
     "finishing": "Finalização",
-    "flair": "Talento",
+    "flair": "Recurso / Criatividade",
     "foot": {
       "left": "Esquerda",
       "right": "Direita"
@@ -44,9 +44,9 @@
     "footedness": "Pé dominante",
     "freeKick": "Precisão de cobrança de falta",
     "gkDiving": "Defesa (GK)",
-    "gkHandling": "Segurança (GK)",
+    "gkHandling": "Segurança / Firmeza (GK)",
     "gkKicking": "Chute GK",
-    "gkPositioning": "Posicionamento do GK",
+    "gkPositioning": "Posicionamento (GK)",
     "gkReflexes": "Reflexos GK",
     "goalkeeping": "Goleiro",
     "growth": "Crescimento",
@@ -55,7 +55,7 @@
     "jumping": "Salto",
     "keyAttribute": "Atributo chave",
     "leadership": "Liderança",
-    "leftFinishing": "Finalização (esquerda)",
+    "leftFinishing": "Finalização (Esquerda)",
     "legend": "Lenda",
     "longPassing": "Passe Longo",
     "longShots": "Chutes de longe",
@@ -64,19 +64,19 @@
     "mentalAttributes": "Atributos Mentais",
     "overall": "Geral",
     "overallEvolution": "Evolução Geral",
-    "pace": "Ritmo",
+    "pace": "Ritmo / Velocidade",
     "passing": "Passes",
     "peakAge": "Idade de Pico",
     "peakOvr": "OVR máximo",
-    "penalties": "Penalidades",
+    "penalties": "Pênaltis",
     "physical": "Físico",
     "physicalAttributes": "Atributos Físicos",
     "positioning": "Posicionamento",
     "preferredFoot": "Pé preferido",
     "ratingColors": "Cores da avaliação",
     "reactions": "Reações",
-    "rightFinishing": "Finalização (direita)",
-    "shooting": "Chute",
+    "rightFinishing": "Finalização (Direita)",
+    "shooting": "Finalização / Chute",
     "shortPassing": "Passe Curto",
     "shotPower": "Força do chute",
     "slidingTackle": "Carrinho",
@@ -89,18 +89,18 @@
     "vision": "Visão",
     "volleys": "Voleios",
     "weakFoot": "Pé Fraco",
-    "workRate": "Taxa de trabalho",
+    "workRate": "Dedicação / Volume de Jogo",
     "worldClass": "Classe Mundial",
     "wordClass": "Classe Mundial"
   },
   "characteristic": {
     "Aerial Specialist": "Especialista Aéreo",
-    "Big Game Player": "Grande jogador",
+    "Big Game Player": "Jogador de Grandes Jogos",
     "Clinical Finisher": "Finalizador Clínico",
     "Dribbling Wizard": "Mago do Drible",
     "Engine": "Motor",
     "Leader": "Líder",
-    "Playmaker": "Criador de jogo",
+    "Playmaker": "Armador",
     "Speed Demon": "Demônio da Velocidade"
   },
   "expandedAttributes": {
@@ -114,7 +114,7 @@
       "aerialControl": "Controle Aéreo",
       "firstTouchOrientated": "Primeiro Toque Orientado",
       "firstTouchUnderPressure": "Primeiro toque sob pressão",
-      "shielding": "Proteção de bola",
+      "shielding": "Proteção de Bola",
       "trapping": "Domínio"
     },
     "commanding": {
@@ -122,7 +122,7 @@
       "claimingCrosses": "Interceptação de Cruzamentos",
       "commandOfArea": "Comando de área",
       "communication": "Comunicação",
-      "punching": "Soco"
+      "punching": "Despejo de Soco (GK)"
     },
     "defending": {
       "slidingTiming": "Timing do carrinho",
@@ -130,9 +130,9 @@
     },
     "defensivePositioning": {
       "backtracking": "Retrocesso",
-      "covering": "Cobertura",
+      "covering": "Cobertura Defensiva",
       "defensiveAwareness": "Consciência Defensiva",
-      "jockeying": "Contenção",
+      "jockeying": "Contenção Defensiva",
       "positionRecovery": "Recuperação de posição"
     },
     "distribution": {
@@ -157,13 +157,13 @@
       "workRate": "Taxa de trabalho"
     },
     "finishing": {
-      "finishingInsideBox": "Finalização dentro da Área",
-      "finishingOnCounter": "Finalização em Contra-ataque",
-      "finishingOutsideBox": "Finalização fora da área",
+      "finishingInsideBox": "Finalização Dentro da Área",
+      "finishingOnCounter": "Finalização em Contra-Ataque",
+      "finishingOutsideBox": "Finalização Fora da Área",
       "finishingUnderPressure": "Finalização sob pressão",
       "headedAccuracy": "Precisão de Cabeça",
-      "headingAccuracy": "Precisão de cabeceio",
-      "headingPower": "Força do cabeceio",
+      "headingAccuracy": "Precisão de Cabeceio",
+      "headingPower": "Força do Cabeceio",
       "oneOnOneFinishing": "Finalização 1v1",
       "placedShotAccuracy": "Precisão do chute colocado",
       "placedShots": "Chutes colocados",
@@ -171,7 +171,7 @@
       "shotAnticipation": "Antecipação de chute",
       "shotPower": "Força do chute",
       "volleyTechnique": "Técnica de Voleio",
-      "volleysAndAcrobatic": "Voleios e Acrobática"
+      "volleysAndAcrobatic": "Voleios e Gols Acrobáticos"
     },
     "gameIntelligence": {
       "anticipation": "Antecipação",
@@ -208,25 +208,25 @@
       "composure": "Compostura (GK)",
       "concentration": "Concentração (GK)",
       "decisionMaking": "Tomada de Decisão (GK)",
-      "handling": "Segurança"
+      "handling": "Segurança / Firmeza nas Mãos"
     },
     "passing": {
       "crossingFromByline": "Cruzamento pela Linha de Fundo",
-      "crossingFromDeep": "Cruzamentos de longe",
+      "crossingFromDeep": "Cruzamento Recuado (da Intermediária)",
       "curveEffect": "Efeito Curva",
-      "firstTimeCrossing": "Cruzamento de primeira",
+      "firstTimeCrossing": "Cruzamento de Primeira",
       "lobPassAccuracy": "Precisão do passe Lob",
       "longDiagonalPass": "Passe Diagonal Longo",
       "shortPassingSupport": "Suporte para passes curtos",
       "shortPassingUnderPressure": "Passe curto sob pressão",
       "throughBalls": "Bolas Enfiadas",
-      "verticalPassBreakingLines": "Passe vertical entre linhas",
+      "verticalPassBreakingLines": "Passe Vertical Entre Linhas",
       "weightedPass": "Passe dosado"
     },
     "performance": {
       "adaptability": "Adaptabilidade",
       "bigMatchPerformance": "Desempenho em grandes partidas",
-      "clutchFactor": "Fator Decisivo",
+      "clutchFactor": "Poder de Decisão (Clutch)",
       "consistency": "Consistência",
       "pressureHandling": "Controle sob pressão"
     },
@@ -244,13 +244,13 @@
     "positioning": {
       "linePositioning": "Posicionamento de linha",
       "narrowingAngles": "Estreitando Ângulos",
-      "positioning": "Posicionamento do GK",
+      "positioning": "Posicionamento (GK)",
       "rushingOut": "Saída do gol"
     },
     "pressing": {
       "counterPressing": "Contrapressão",
       "pressIntensity": "Intensidade de Pressão",
-      "pressingTrigger": "Gatilho de pressão",
+      "pressingTrigger": "Gatilho de Pressão",
       "sustainedPressing": "Pressão Sustentada"
     },
     "robustness": {
@@ -260,7 +260,7 @@
       "recoveryRate": "Taxa de recuperação"
     },
     "setPieces": {
-      "cornerKicking": "Cobrança de escanteio",
+      "cornerKicking": "Cobrança de Escanteio",
       "directFreeKickPlacement": "Colocação de cobrança de falta direta",
       "directFreeKickPower": "Força em faltas diretas",
       "indirectFreeKick": "Falta indireta",
@@ -283,7 +283,7 @@
       "topSpeed": "Velocidade máxima"
     },
     "strength": {
-      "balanceInContact": "Equilíbrio em contato",
+      "balanceInContact": "Equilíbrio sob Contato",
       "bodyToBodyStrength": "Força corpo a corpo",
       "legStrength": "Força das pernas",
       "upperBodyStrength": "Força da parte superior do corpo"
@@ -291,8 +291,8 @@
     "tackling": {
       "cleanTackling": "Desarme Limpo",
       "slidingTackle": "Carrinho",
-      "standingTackle": "Desarme em pé",
-      "tackleTiming": "Timing do desarme"
+      "standingTackle": "Desarme em Pé",
+      "tackleTiming": "Timing do Desarme"
     }
   }
 }
