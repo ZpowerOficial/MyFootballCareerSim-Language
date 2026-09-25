@@ -7,22 +7,19 @@ import stats from './stats.json';
 import gameplay from './gameplay.json';
 import legacy from './legacy.json';
 import media from './media.json';
+import { deepMerge } from '../utils/deepMerge';
 
-const files: Record<string, string | object>[] = [trophies, ui, events, news, database, stats, gameplay, legacy, media];
-const translations = files.reduce((acc, file) => {
-    Object.keys(file).forEach(key => {
-        if (typeof file[key] === 'object' && file[key] !== null && !Array.isArray(file[key])) {
-            const currentValue = acc[key];
-            const currentObject =
-                currentValue && typeof currentValue === 'object' && !Array.isArray(currentValue)
-                    ? currentValue
-                    : {};
-            acc[key] = { ...currentObject, ...file[key] };
-        } else {
-            acc[key] = file[key];
-        }
-    });
-    return acc;
-}, {} as any);
+const files = [trophies, ui, events, news, database, stats, gameplay, legacy, media] as Record<
+    string,
+    unknown
+>[];
+
+// Deep merge so later files extend nested subtrees instead of replacing them.
+// A shallow namespace merge let partial objects (e.g. legacy.json) shadow
+// complete translations from earlier files, dropping keys from the runtime bundle.
+const translations = files.reduce(
+    (acc, file) => deepMerge(acc, file),
+    {} as Record<string, unknown>
+);
 
 export default translations;

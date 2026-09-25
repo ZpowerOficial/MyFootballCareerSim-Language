@@ -8,25 +8,25 @@
     "achieved": "تم تحقيق الهدف: {narrative}",
     "newGoal": "تم فتح هدف جديد: {goal}",
     "completed": "مكتمل",
-    "100goals": "سجل 100 هدف في حياتك المهنية",
-    "ballonDor": "الفوز بالكأس الذهبية",
-    "becomeCaptain": "كن قائدًا لـ{team}",
-    "becomeClubLegend": "كن أسطورة النادي",
-    "becomeStarter": "تصبح لاعبا أساسيا",
-    "breakGoalRecord": "كسر الرقم القياسي للأهداف",
-    "firstCleanSheet": "أول شباك نظيفة",
+    "100goals": "سجل 100 هدف في مسيرتك",
+    "ballonDor": "احصد الكرة الذهبية",
+    "becomeCaptain": "كن قائد {team}",
+    "becomeClubLegend": "كن أسطورة {team} ({matches}/200 مباراة)",
+    "becomeStarter": "كن أساسيا في {team}",
+    "breakGoalRecord": "حطم رقم {team} التهديفي ({current}/{record})",
+    "firstCleanSheet": "حافظ على أول شباك نظيفة",
     "firstGoal": "سجل أول هدف احترافي",
-    "firstTrophy": "الفوز بالكأس الكبرى الأولى",
-    "nationalTeamCallUp": "الحصول على استدعاء للمنتخب الوطني",
-    "proDebut": "الظهور الاحترافي الأول",
-    "reach100Caps": "الوصول إلى 100 مباراة دولية",
-    "reachCareerAssists": "الوصول إلى عدد معين من التمريرات الحاسمة في المسيرة",
-    "reachCareerGoals": "الوصول إلى عدد معين من الأهداف في المسيرة",
-    "reachOverallRating": "الوصول إلى الهدف الإجمالي",
-    "winWorldCup": "الفوز بالبطولة العالمية",
-    "spendDecade": "اقضِ 10 سنوات في {team}",
-    "topTierLeague": "اللعب في دوري من النخبة",
-    "winContinentalCup": "الفوز بكأس القارة مع {team}"
+    "firstTrophy": "اربح أول لقب كبير",
+    "nationalTeamCallUp": "احصل على استدعاء لـ {country}",
+    "proDebut": "اخض لأول مباراة احترافية",
+    "reach100Caps": "بلغ 100 مباراة مع {country}",
+    "reachCareerAssists": "بلغ {count} تمريرة حاسمة في المسيرة",
+    "reachCareerGoals": "بلغ {count} هدف في المسيرة",
+    "reachOverallRating": "بلغ تقييم {rating}+ عام",
+    "winWorldCup": "اربح البطولة العالمية مع {country}",
+    "spendDecade": "اقض 10 سنوات في {team}",
+    "topTierLeague": "العب في دوري النخبة",
+    "winContinentalCup": "اربح الكأس القارية مع {team}"
   },
   "agent": {
     "contractExpired": "انتهى عقدك مع الوكيل. لقد قمت بالتسجيل مع {name} ({reputation}).",
@@ -343,7 +343,7 @@
       "choice_diplomatic": "كن دبلوماسيا",
       "choice_honest": "كن صادقًا بوحشية",
       "choice_refuse": "رفض الإجابة",
-      "description": "صحفي يطرح أسئلة صعبة حول زملائه والمدير. كلمة واحدة خاطئة يمكن أن تسبب المتاعب.",
+      "description": "صحفي يطرح أسئلة محرجة عن زملائه ومدربه. كلمة واحدة خاطئة قد تسبب المتاعب.",
       "title": "مقابلة مثيرة للجدل"
     },
     "league": {
@@ -367,7 +367,7 @@
       "choice_defend": "دافع عن نفسك",
       "choice_transfer": "طلب النقل",
       "description": "انتقد المدرب أدائك علنًا. لم تسير الأمور بشكل جيد معك.",
-      "title": "مدير تداعيات"
+      "title": "خلاف مع المدرب"
     },
     "managerConversation": {
       "choice_accept": "قبول الدور الحالي",
@@ -402,7 +402,7 @@
     "national": {
       "150caps": "150 قبعة لـ{country}! واحدة من أعظم في كل العصور!",
       "brace": "BRACE لـ {country} مقابل {opponent} في {type}!",
-      "centurion": "سنتوريون! 100 قبعات لـ{country}! معلم أسطوري!",
+      "centurion": "الأسطورة! 100 مباراة دولية مع {country}! إنجاز أسطوري!",
       "continentalCupExit": {
         "genericDefeat": "خروج كأس القارات {round} vs {opponent}. حسرة مع إقصاء الفريق.",
         "heroicDefeat": "خروج كأس القارات {round} vs {opponent}. وعلى الرغم من الأداء الفردي الرائع، إلا أن الفريق فشل في تحقيق ذلك.",
@@ -664,7 +664,7 @@
           "fan1": "لا تذهب! من فضلك لا تذهب!",
           "fan2": "إذا كان المدرب لا يعرف كيفية استخدامه، فمن الأفضل أن يذهب...",
           "headline1": "قنبلة! يطلب {name} المغادرة بعد الخلاف مع المدرب",
-          "headline2": "العلاقة بين {name} والمدير لا يمكن الدفاع عنها"
+          "headline2": "العلاقة بين {name} والمدرب بلغت طريقًا مسدودًا"
         }
       },
       "party_scandal": {
@@ -955,7 +955,7 @@
       "matchWinner": "الفائز بالمباراة! {count} الأهداف الحاسمة!",
       "outstandingGoals": "موسم متميز بأهداف {goals}!",
       "phenomenal": "استثنائي! {goals}G + {assists}A = مساهمات أهداف {total} - أسطورية!",
-      "playmakerMasterclass": "فئة صانع الألعاب! يساعد {assists} - تجسيد الإبداع!",
+      "playmakerMasterclass": "درس صانع الألعاب! {assists} تمريرة حاسمة - الإبداع مجسَّدًا!",
       "spectacularGolacos": "مواسم مذهلة! صرخات {count} - مرشحة لجائزة هدف العام!",
       "strongContributions": "موسم قوي! {goals}G + {assists}A = مساهمات أهداف {total}.",
       "wonderGoals": "مذهلة إلى الأمام! أهداف {count} الرائعة هذا الموسم!",
@@ -1140,7 +1140,7 @@
     },
     "internationalCallup": {
       "title": "الاستدعاء الدولي",
-      "description": "لقد ضمك مدرب المنتخب الوطني إلى قائمة المنتخب الوطني المقبلة. مدير النادي الخاص بك يشعر بالقلق من الإرهاق.",
+      "description": "ضمك مدرب المنتخب إلى القائمة للفترة الدولية المقبلة. مدرب ناديك قلق من الإجهاد.",
       "choice_enthusiastic": "لا استطيع الانتظار لتمثيل بلدي!",
       "choice_cautious": "اذهب ولكن إدارة دقائقي",
       "choice_decline": "انسحب بسبب مخاوف تتعلق باللياقة البدنية"
@@ -2212,7 +2212,7 @@
   "media": {
     "drought": {
       "assists": {
-        "1": "أزمة الإبداع؟ لم يساعد في 5 مباريات.",
+        "1": "أزمة الإبداع؟ لا تمريرات حاسمة في 5 مباريات.",
         "2": "أين الكرة النهائية؟ صانع الألعاب يعاني."
       },
       "goals": {
@@ -2819,7 +2819,7 @@
       "autograph": "حصلت على توقيع من {name}! حياتي كاملة.",
       "dedication": "أحب التفاني الذي يظهره {name} في كل جلسة تدريبية.",
       "goodPerson": "خارج الملعب، يعد {name} شخصًا أفضل. قدوة!",
-      "hardWorker": "دائما أول من يدخل وآخر من يخرج. عامل شاق!",
+      "hardWorker": "دائمًا أول من يحضر وآخر من يغادر. مجتهد!",
       "metHim": "التقيت للتو بـ {name}! يا له من رجل متواضع. أسطورة!",
       "roleModel": "من الرائع رؤية اللاعبين يردون الجميل للمجتمع. احترام!",
       "soNice": "رأيت {name} اليوم، والتقط صورًا مع الجميع. لطيف جدا!"

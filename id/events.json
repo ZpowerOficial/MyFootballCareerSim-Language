@@ -20,7 +20,7 @@
     "nationalTeamCallUp": "Dipanggil ke tim nasional",
     "proDebut": "Lakukan debut profesional",
     "reach100Caps": "Capai 100 Caps Internasional",
-    "reachCareerAssists": "Mencapai pencapaian bantuan karir",
+    "reachCareerAssists": "Mencapai tonggak assist karier",
     "reachCareerGoals": "Mencapai tonggak tujuan karir",
     "reachOverallRating": "Mencapai target OVR",
     "winWorldCup": "Menangkan Turnamen Dunia",
@@ -104,7 +104,7 @@
     "trainingLight": "Intensitas Latihan Berkurang"
   },
   "status": {
-    "managerConflict": "Konflik Manajer",
+    "managerConflict": "Konflik Pelatih",
     "teammateConflict": "Konflik Rekan Tim"
   },
   "events": {
@@ -280,7 +280,7 @@
       "charity_opportunity": "Peluang untuk mendukung tujuan amal.",
       "fan_interaction": "Penggemar meminta interaksi di acara publik.",
       "interview_controversial": "Pertanyaan kontroversial saat wawancara.",
-      "manager_fallout": "Perselisihan dengan manajer.",
+      "manager_fallout": "Perselisihan dengan pelatih.",
       "mentor_opportunity": "Diundang untuk membimbing pemain akademi muda.",
       "nightclub_incident": "Insiden klub malam dilaporkan di media.",
       "party_scandal": "Skandal! Foto pesta bocor ke pers.",
@@ -343,7 +343,7 @@
       "choice_diplomatic": "Bersikaplah diplomatis",
       "choice_honest": "Jujurlah secara brutal",
       "choice_refuse": "Menolak untuk menjawab",
-      "description": "Seorang jurnalis mengajukan pertanyaan rumit tentang rekan satu tim dan manajer. Satu kata yang salah bisa menimbulkan masalah.",
+      "description": "Seorang jurnalis mengajukan pertanyaan rumit tentang rekan setim dan pelatih. Satu kata yang salah bisa menimbulkan masalah.",
       "title": "Wawancara Kontroversial"
     },
     "league": {
@@ -366,15 +366,15 @@
       "choice_accept": "Terima kritik",
       "choice_defend": "Pertahankan diri Anda",
       "choice_transfer": "Minta transfer",
-      "description": "Manajer secara terbuka mengkritik kinerja Anda. Tidak cocok denganmu.",
-      "title": "Kejatuhan Manajer"
+      "description": "Pelatih secara terbuka mengkritik penampilan Anda. Anda tidak menerimanya dengan baik.",
+      "title": "Benturan dengan Pelatih"
     },
     "managerConversation": {
       "choice_accept": "Terima peran saat ini",
       "choice_chances": "Mintalah lebih banyak peluang",
       "choice_commitment": "Tunjukkan komitmen kepada tim",
-      "description": "Manajer ingin membicarakan peran Anda dalam tim. Dapat mempengaruhi waktu bermain Anda.",
-      "title": "Percakapan Manajer"
+      "description": "Pelatih ingin membicarakan peran Anda di tim. Bisa memengaruhi menit bermain Anda.",
+      "title": "Percakapan dengan Pelatih"
     },
     "match": {
       "title": "Pertandingan"
@@ -485,8 +485,8 @@
         "slump": "Form meninggalkannya lagi - periode frustasi lainnya."
       },
       "lazy": {
-        "criticism": "Manajer mengkritik sikap dalam pelatihan selama konferensi pers.",
-        "fallout": "Hubungan dengan manajer memburuk karena masalah etos kerja.",
+        "criticism": "Pelatih mengkritik sikap Anda di latihan saat konferensi pers.",
+        "fallout": "Hubungan dengan pelatih memburuk karena masalah etos kerja.",
         "late": "Didenda oleh klub karena keterlambatan berulang kali ke pelatihan."
       },
       "loyal": {
@@ -503,7 +503,7 @@
       "professional": {
         "award": "Dinobatkan sebagai Klub Profesional Terbaik Tahun Ini oleh staf pelatih.",
         "contract": "Klub ingin memperpanjang kontrak karena profesionalisme yang patut dicontoh.",
-        "praise": "Dipuji oleh manajer atas profesionalisme dan etos kerja yang luar biasa.",
+        "praise": "Dipuji pelatih atas profesionalisme dan etos kerja yang luar biasa.",
         "roleModel": "Rekan satu tim menyebut dia sebagai panutan yang sempurna.",
         "training": "Sesi latihan ekstra mendapatkan rasa hormat dari seluruh skuad."
       },
@@ -513,7 +513,7 @@
       },
       "temperamental": {
         "bustup": "Sempat bertengkar sengit saat latihan dengan rekan setimnya.",
-        "fallout": "Dampak publik terhadap manajer setelah diganti.",
+        "fallout": "Keretakan publik dengan pelatih setelah ditarik keluar.",
         "fine": "Didenda oleh klub karena alasan disiplin.",
         "media": "Keluar dari konferensi pers setelah pertanyaan provokatif.",
         "redCard": "Dikeluarkan karena melakukan kekerasan - kehilangan kendali pada momen krusial.",
@@ -658,13 +658,13 @@
         },
         "defend": {
           "fan1": "Wah! Ini akan menjadi berantakan...",
-          "headline1": "Ketegangan! {name} membalas kritik manajer"
+          "headline1": "Ketegangan! {name} membalas kritik pelatih"
         },
         "transfer": {
           "fan1": "Jangan pergi! Tolong jangan pergi!",
-          "fan2": "Jika manajer tidak tahu cara menggunakannya, lebih baik pergi...",
-          "headline1": "BOMBSHELL! {name} meminta untuk pergi setelah bertengkar dengan manajer",
-          "headline2": "Hubungan antara {name} dan manajer tidak dapat dipertahankan"
+          "fan2": "Jika pelatih tidak tahu cara memakainya, lebih baik pergi...",
+          "headline1": "BOM! {name} meminta pergi setelah berselisih dengan pelatih",
+          "headline2": "Hubungan antara {name} dan pelatih sudah tidak bisa dipertahankan"
         }
       },
       "party_scandal": {
@@ -955,7 +955,7 @@
       "matchWinner": "Pemenang pertandingan! {count} gol penentu!",
       "outstandingGoals": "Musim yang luar biasa dengan gol {goals}!",
       "phenomenal": "FENOMENAL! {goals}G + {assists}A = Kontribusi gol {total} - legendaris!",
-      "playmakerMasterclass": "KELAS MASTER PEMAIN! Bantuan {assists} - kreativitas dipersonifikasikan!",
+      "playmakerMasterclass": "KELAS MASTER PLAYMAKER! {assists} assist - kreativitas yang nyata!",
       "spectacularGolacos": "MUSIM SPEKTAKULER! {count} screamers - dinominasikan untuk Goal of the Year!",
       "strongContributions": "Musim yang kuat! {goals}G + {assists}A = kontribusi gol {total}.",
       "wonderGoals": "Penyerang yang spektakuler! {count} gol menakjubkan musim ini!",
@@ -1028,7 +1028,7 @@
       "choice_balanced": "Pendekatan yang seimbang",
       "choice_extra": "Sesi ekstra setiap hari",
       "choice_rest": "Prioritaskan istirahat",
-      "description": "Manajer menawarkan sesi pelatihan tambahan opsional. Berapa banyak usaha yang ingin Anda dedikasikan?",
+      "description": "Pelatih menawarkan sesi latihan tambahan opsional. Berapa besar usaha yang ingin Anda curahkan?",
       "title": "Keputusan Pelatihan"
     },
     "trait": {
@@ -1153,7 +1153,7 @@
     },
     "internationalCallup": {
       "title": "Panggilan Internasional",
-      "description": "Pelatih tim nasional telah memasukkan Anda ke dalam skuad untuk jendela internasional mendatang. Manajer klub Anda khawatir tentang kelelahan.",
+      "description": "Pelatih tim nasional telah memasukkan Anda ke dalam skuad untuk jendela internasional mendatang. Pelatih klub Anda khawatir soal kelelahan.",
       "choice_enthusiastic": "Tidak sabar untuk mewakili negara saya!",
       "choice_cautious": "Pergi tapi atur menit-menitku",
       "choice_decline": "Mundur dengan alasan masalah kebugaran"
@@ -1238,8 +1238,8 @@
       "choice_no_comment": "Menolak berkomentar tentang rumor bursa transfer"
     },
     "manager_office_warning": {
-      "title": "Pertemuan di Kantor Manajer",
-      "description": "Manajer memanggil Anda untuk membahas performa terbaru dan ekspektasi tim.",
+      "title": "Pertemuan di Kantor Pelatih",
+      "description": "Pelatih memanggil Anda untuk membahas performa terbaru dan ekspektasi skuad.",
       "choice_apologize": "Minta maaf dan berjanji untuk bekerja lebih keras saat latihan",
       "choice_demand": "Tuntut menit bermain inti dan sampaikan kekecewaan"
     },
@@ -1272,8 +1272,8 @@
       "choice_focus": "Hindari alasan dan fokus penuh pada respons saat latihan"
     },
     "manager_contract_extension_talk": {
-      "title": "Pertemuan Perpanjangan Kontrak Manajer",
-      "description": "Manajer mengundang Anda untuk membahas perpanjangan kontrak dan peran proyek.",
+      "title": "Pertemuan Perpanjangan Kontrak dengan Pelatih",
+      "description": "Pelatih mengundang Anda untuk membahas perpanjangan kontrak dan peran Anda dalam proyek.",
       "choice_accept": "Terima perpanjangan kontrak dengan komitmen penuh",
       "choice_guarantees": "Minta jaminan peran di skuad sebelum menandatangani",
       "choice_raise": "Tuntut gaji lebih tinggi yang sesuai dengan status Anda",
@@ -2338,7 +2338,7 @@
       "quote3": "Bagaimana cara Anda mengubah nasib Anda di klub?"
     },
     "ForgottenMan": {
-      "description": "Berjuang selama beberapa menit dan sebagian besar diabaikan oleh manajer.",
+      "description": "Sulit mendapat menit bermain dan sebagian besar diabaikan pelatih.",
       "name": "Manusia yang Terlupakan",
       "quote1": "Sudah lama sejak kami tidak melihatmu di lapangan. Bagaimana perasaanmu?",
       "quote2": "Apakah Anda merasa masih memiliki masa depan di bawah manajemen ini?",
@@ -2398,7 +2398,7 @@
       "name": "Pemain Sistem",
       "quote1": "Anda sangat cocok dengan sistem ini. Apakah Anda khawatir tentang taktik lain?",
       "quote2": "Ada yang mengatakan Anda hanya terlihat sebagus ini karena pengaturannya. Reaksi?",
-      "quote3": "Bisakah Anda menyesuaikan permainan Anda jika manajer mengubah pendekatannya?"
+      "quote3": "Bisakah Anda menyesuaikan permainan jika pelatih mengubah pendekatannya?"
     },
     "UnderPressure": {
       "description": "Diteliti secara ketat oleh para kritikus karena penampilan baru-baru ini.",
@@ -2957,7 +2957,7 @@
     "leaguePositional": "Terpilih sebagai {position} Terbaik di Liga!",
     "leagueRookieOfYear": "Pemula Terbaik Tahun Ini",
     "leagueTopAssister": "Asisten Teratas",
-    "playmaker": "Pemimpin Pembantu Liga (bantuan {assists})!",
+    "playmaker": "Pemimpin Assist Liga ({assists} assist)!",
     "puskas": "Pemenang Penghargaan Gol Terbaik Tahun Ini!",
     "rookie": "Dinobatkan sebagai Rookie Liga Terbaik Tahun Ini!",
     "shortlist": "Terpilih untuk Piala Emas.",

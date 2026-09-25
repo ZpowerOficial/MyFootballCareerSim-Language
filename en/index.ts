@@ -25,24 +25,20 @@ import legacy from './legacy.json';
 import core from './core';
 import { contentFlat } from './content';
 import templates from './templates';
+import { deepMerge } from '../utils/deepMerge';
 
 // Merge legacy files (existing behavior)
-const legacyFiles: Record<string, string | object>[] = [trophies, ui, events, news, database, stats, gameplay, media, legacy];
-const legacyTranslations = legacyFiles.reduce((acc, file) => {
-    Object.keys(file).forEach(key => {
-        if (typeof file[key] === 'object' && file[key] !== null && !Array.isArray(file[key])) {
-            const currentValue = acc[key];
-            const currentObject =
-                currentValue && typeof currentValue === 'object' && !Array.isArray(currentValue)
-                    ? currentValue
-                    : {};
-            acc[key] = { ...currentObject, ...file[key] };
-        } else {
-            acc[key] = file[key];
-        }
-    });
-    return acc;
-}, {} as any);
+// Deep merge so later files extend nested subtrees instead of replacing them.
+// A shallow namespace merge let partial objects (e.g. legacy.json) shadow
+// complete translations from earlier files, dropping keys from the bundle.
+const legacyFiles = [trophies, ui, events, news, database, stats, gameplay, media, legacy] as Record<
+    string,
+    unknown
+>[];
+const legacyTranslations = legacyFiles.reduce(
+    (acc, file) => deepMerge(acc, file),
+    {} as Record<string, unknown>
+);
 
 // Final translations: Legacy base + New layered overrides
 // New structure takes precedence to allow gradual migration
