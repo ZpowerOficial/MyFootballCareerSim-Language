@@ -50,20 +50,20 @@
     "abbr": {
       "AGI": "AGI",
       "DEF": "DEF",
-      "DIV": "DIV",
+      "DIV": "PLG",
       "DRI": "DRI",
-      "FIN": "AILETTE",
-      "HAN": "HAN",
-      "HEA": "HEA",
+      "FIN": "FIN",
+      "HAN": "ARR",
+      "HEA": "TÊT",
       "INT": "INT",
-      "PAC": "CAP",
+      "PAC": "VIT",
       "PAS": "PAS",
       "PHY": "PHY",
-      "POS": "PDV",
+      "POS": "PLA",
       "REF": "RÉF",
-      "SHO": "SHO",
-      "STA": "STA",
-      "STR": "STR",
+      "SHO": "TIR",
+      "STA": "END",
+      "STR": "FOR",
       "VIS": "VIS"
     },
     "acceleration": "Accélération",
@@ -100,9 +100,9 @@
         "rookie": "Nommé Révélation de l'Année !",
         "shortlist": "Sélectionné parmi les finalistes pour {award} !",
         "teamOfTheYear": "Sélectionné dans l'Équipe de l'Année.",
-        "worldCupGoldenBall": "Trophée d'Or du Tournoi Mondial !",
-        "worldCupGoldenBoot": "Soulier d’Or de la Coupe du Monde ({goals} buts) !",
-        "worldCupTOTT": "Sélectionné dans l'Équipe Type de la Tournoi Mondial !",
+        "worldCupGoldenBall": "Ballon d'Or du Tournoi mondial !",
+        "worldCupGoldenBoot": "Soulier d'Or du Tournoi mondial ({goals} buts) !",
+        "worldCupTOTT": "Sélectionné dans l'Équipe Type du Tournoi mondial !",
         "worldPlayer": "MEILLEUR JOUEUR DU MONDE ! Reconnu comme le meilleur de la planète. Narratif : {narrative}."
       },
       "debut": "Débuts professionnels effectués",
@@ -1842,7 +1842,7 @@
   },
   "trophy": {
     "afcChampionsLeague": "Coupe des Champions d'Asie",
-    "afcCup": "Coupe d'Asie des Clubs",
+    "afcCup": "Coupe des Clubs d'Asie",
     "americansDerby": "Classique des Amériques",
     "americasderby": "Classique des Amériques",
     "cafChampionsLeague": "Coupe des Champions d'Afrique",
@@ -1852,7 +1852,7 @@
     "clubWorldCup": "Tournoi mondial des clubs",
     "concacafChampionsCup": "Coupe des champions nord-américains",
     "conferenceLeague": "Coupe d'accès européenne",
-    "copaSudamericana": "Coupe sud-américaine des clubs",
+    "copaSudamericana": "Coupe des Clubs Sud-Américaine",
     "cup": "Coupe",
     "europaLeague": "Coupe d'Europe des clubs",
     "intercontinentalCup": "Coupe Intercontinentale",
@@ -1864,7 +1864,7 @@
     "recopaSudamericana": "Super Coupe d'Amérique du Sud",
     "supercup": "Super Coupe",
     "worldCup": "Tournoi mondial",
-    "afcChallengeCup": "Coupe Défi d'Asie",
+    "afcChallengeCup": "Coupe d'accès asiatique",
     "americasClassic": "Classique des Amériques"
   },
   "injury": {
@@ -1879,5 +1879,5 @@
   },
   "intensityExtreme": "Extrême",
   "winContinentalCup": "Gagner la Coupe Continentale avec {team}",
-  "winWorldCup": "Gagner le Tournoi Mondial avec {country}"
+  "winWorldCup": "Gagner le Tournoi mondial avec {country}"
 }

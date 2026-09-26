@@ -51,7 +51,7 @@
     "continentalTOTT": "Continental Team of the Tournament",
     "continentalTitles": "Continental Titles",
     "continentalTopScorer": "Continental Top Scorer",
-    "copaSudamericana": "South American Cup",
+    "copaSudamericana": "South American Club Cup",
     "cupTopScorer": "Cup Top Scorer",
     "detailsNotAvailable": "Details not available",
     "domesticBestPlayer": "Domestic Best Player",
@@ -92,7 +92,7 @@
     "worldCup": "World Tournament",
     "worldCupBestGoalkeeper": "World Tournament Best Goalkeeper",
     "worldCupBestPlayer": "World Tournament Best Player",
-    "worldCupGoldenBall": "World Tournament Golden Trophy",
+    "worldCupGoldenBall": "World Tournament Golden Ball",
     "worldCupGoldenBoot": "World Tournament Golden Boot",
     "worldCupTOTT": "World Tournament Team",
     "worldCups": "World Tournaments",
@@ -112,8 +112,8 @@
     "team_of_the_year": "Team of the Year",
     "titleCount": "titles",
     "achievements": "Trophies",
-    "eccFinalist": "European Cup Finalist",
-    "eccSemifinal": "European Cup Semifinalist"
+    "eccFinalist": "European Champions Cup Finalist",
+    "eccSemifinal": "European Champions Cup Semifinalist"
   },
   "careerPhases": {
     "breakthrough": "Breaking into professional football",
@@ -184,7 +184,7 @@
     "left": "Left",
     "leftFoot": "Left Foot",
     "lastName": "Last Name",
-    "americasDerby": "Superclásico de las Américas"
+    "americasDerby": "Americas Classic"
   },
   "competitionNames": {
     "global_replacements": "Global Replacements",
@@ -248,11 +248,11 @@
     "Youth South American Champions Cup": "Youth South American Champions Cup",
     "Youth South American Championship": "Youth South American Access Cup",
     "Youth South American Club Cup": "Youth South American Club Cup",
-    "Youth State Cup": "Youth State Cup",
+    "Youth State Cup": "Youth State Championship",
     "Youth Super Cup": "Youth Super Cup",
     "Youth World Cup": "Youth World Tournament",
     "fifaClubWorldCup": "Club World Tournament",
-    "supercopaBrasil": "Supercopa do Brasil"
+    "supercopaBrasil": "Brazilian Super Cup"
   },
   "continents": {
     "Africa": "Africa",
@@ -1062,7 +1062,7 @@
     "qualified": "Qualified",
     "year": "Year"
   },
-  "supercopaBrasil": "Supercopa do Brasil",
+  "supercopaBrasil": "Brazilian Super Cup",
   "tier": {
     "1": "Elite",
     "2": "Top",
@@ -1118,7 +1118,7 @@
     "Spanish Youth Cup": "Spanish Youth Cup",
     "Spanish Youth League": "Spanish Youth League",
     "UEFA Youth League": "World Football Youth League",
-    "afcChallengeCup": "Asian Challenge Cup",
+    "afcChallengeCup": "Asian Access Cup",
     "afcChampionsLeague": "Asian Champions Cup",
     "afcCup": "Asian Club Cup",
     "americasderby": "Americas Classic",
@@ -1162,13 +1162,13 @@
     "youthCup": "Youth Cup",
     "youthLeague": "Youth League",
     "youthSpecialTournament": "Youth Special Tournament",
-    "americasDerby": "Superclásico de las Américas"
+    "americasDerby": "Americas Classic"
   },
   "trophy": {
-    "afcchallengecup": "Asian Challenge Cup",
+    "afcchallengecup": "Asian Access Cup",
     "afcchampionsLeague": "Asian Champions Cup",
-    "afccup": "Asian Cup",
-    "americasderby": "Americas Derby",
+    "afccup": "Asian Club Cup",
+    "americasderby": "Americas Classic",
     "cafaccesscup": "African Access Cup",
     "cafchampionsLeague": "African Champions Cup",
     "cafconfederationcup": "African Club Cup",
@@ -1183,9 +1183,9 @@
     "fifaclubworldcup": "Club World Tournament",
     "intercontinentalcup": "Intercontinental Cup",
     "ofcchampionsLeague": "Oceania Champions Cup",
-    "ofccup": "Oceania Cup",
-    "ofcqualifiercup": "Oceania Qualifier",
-    "recopasudamericana": "South American Recopa",
+    "ofccup": "Oceania Club Cup",
+    "ofcqualifiercup": "Oceania Access Cup",
+    "recopasudamericana": "South American Super Cup",
     "supercopa": "Super Cup",
     "supercup": "Super Cup",
     "global_replacements": "Global Replacements",
@@ -1210,7 +1210,7 @@
     "Spanish Youth League": "Spanish Youth League",
     "UEFA Youth League": "World Football Youth League",
     "_default": "Trophy",
-    "afcChallengeCup": "Asian Challenge Cup",
+    "afcChallengeCup": "Asian Access Cup",
     "afcChampionsLeague": "Asian Champions Cup",
     "afcCup": "Asian Club Cup",
     "americasDerby Winners": "Americas Classic Winners",
@@ -1218,7 +1218,7 @@
     "cafChampionsLeague": "African Champions Cup",
     "cafConfederationCup": "African Club Cup",
     "challengerCup": "Hemispheres Duel",
-    "challengerCup Winners": "Hemisphere Cup Winners",
+    "challengerCup Winners": "Hemispheres Duel Winners",
     "championsLeague Winners": "European Champions Cup Winners",
     "concacafChampionsCup": "North American Champions Cup",
     "concacafChampionsCup Winners": "North American Champions Cup Winners",
@@ -1254,21 +1254,21 @@
     "stateCup": "State Championship",
     "superCup": "Super Cup",
     "supercopaBrasil": "Brazilian Super Cup",
-    "youthContinental": "Youth Continental",
+    "youthContinental": "Youth Continental Cup",
     "youthCup": "Youth Cup",
     "youthLeague": "Youth League",
     "youthSpecialTournament": "Youth Special Tournament",
-    "americasDerby": "Superclásico de las Américas"
+    "americasDerby": "Americas Classic"
   },
   "competitions": {
-    "euro": "European Championship",
-    "copaAmerica": "Copa America",
-    "goldCup": "Gold Cup",
-    "afcon": "Africa Cup of Nations",
-    "asianCup": "Asian Cup",
-    "oceaniaCup": "OFC Nations Cup",
-    "worldCup": "World Cup",
-    "nationsLeague": "Nations League"
+    "euro": "European Nations Cup",
+    "copaAmerica": "South American Nations Cup",
+    "goldCup": "North American Nations Cup",
+    "afcon": "African Nations Cup",
+    "asianCup": "Asian Nations Cup",
+    "oceaniaCup": "Oceania Nations Cup",
+    "worldCup": "World Tournament",
+    "nationsLeague": "Nations Tournament"
   },
   "common": {
     "youth": "Youth"

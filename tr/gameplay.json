@@ -48,23 +48,23 @@
   },
   "attributes": {
     "abbr": {
-      "AGI": "AGI",
+      "AGI": "ÇEV",
       "DEF": "DEF",
-      "DIV": "DIV",
-      "DRI": "DRI",
-      "FIN": "FIN",
-      "HAN": "HAN",
-      "HEA": "HEA",
-      "INT": "Dahili",
-      "PAC": "PAC",
+      "DIV": "DAL",
+      "DRI": "DRİ",
+      "FIN": "BİT",
+      "HAN": "TUT",
+      "HEA": "KAF",
+      "INT": "MÜD",
+      "PAC": "HIZ",
       "PAS": "PAS",
       "PHY": "FİZ",
-      "POS": "POS",
+      "POS": "POZ",
       "REF": "REF",
-      "SHO": "ŞO",
-      "STA": "STA",
-      "STR": "STR",
-      "VIS": "VIS"
+      "SHO": "ŞUT",
+      "STA": "DAY",
+      "STR": "GÜÇ",
+      "VIS": "GÖR"
     },
     "acceleration": "Hızlanma",
     "age": "Yaş",
@@ -101,8 +101,8 @@
         "shortlist": "{award} için kısa listeye aday gösterildi!",
         "teamOfTheYear": "Lig Yılın Takımına seçildi.",
         "worldCupGoldenBall": "Dünya Turnuvası Altın Top Sahibi!",
-        "worldCupGoldenBoot": "Dünya Kupası Gol Kralı ({goals} gol)!",
-        "worldCupTOTT": "Dünya Turnuvası Turnuva Kadrosuna seçildi!",
+        "worldCupGoldenBoot": "Dünya Turnuvası Gol Kralı ({goals} gol)!",
+        "worldCupTOTT": "Dünya Turnuvası Karmasına seçildi!",
         "worldPlayer": "DÜNYANIN EN İYİ OYUNCUSU! Gezegenin en iyisi olarak tanındı. Anlatı: {narrative}."
       },
       "debut": "Profesyonel ilk maça çıktı",
@@ -167,7 +167,7 @@
         "continental": "{competition} Kazananı!",
         "cup": "Kupa Kazananı!",
         "league": "{team} ile Lig Şampiyonu!",
-        "worldCup": "DÜNYA KUPASI ŞAMPİYONU! Bir efsane doğdu!"
+        "worldCup": "DÜNYA TURNUVASI ŞAMPİYONU! Bir efsane doğdu!"
       },
       "viral": {
         "celebration": "Kutlama viral bir sansasyon oldu!",
@@ -220,7 +220,7 @@
     "mentalAttributes": "Zihinsel Nitelikler",
     "overall": "Genel",
     "overallEvolution": "Genel Gelişim",
-    "pace": "Hız / Tempo",
+    "pace": "Hız",
     "passing": "Pas",
     "peakAge": "Zirve Yaşı",
     "peakOvr": "Tepe OVR'si",
@@ -679,7 +679,7 @@
     "Ambitious": "Hırslı",
     "Balanced": "Dengeli",
     "Determined": "Azimli",
-    "Easygoing": "Kolay ve kesintisiz ilerleme",
+    "Easygoing": "Uysal",
     "Inconsistent": "Tutarsız",
     "Jovial": "Neşeli",
     "Lazy": "Tembel",
@@ -1864,8 +1864,8 @@
     "recopaSudamericana": "Güney Amerika Süper Kupası",
     "supercup": "Süper Kupa",
     "worldCup": "Dünya Turnuvası",
-    "afcChallengeCup": "Asya Meydan Okuma Kupası",
-    "americasClassic": "Amerika Klasiği"
+    "afcChallengeCup": "Asya Erişim Kupası",
+    "americasClassic": "Amerika Klasik"
   },
   "injury": {
     "oneMonth": "1 Ay",

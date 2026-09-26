@@ -48,23 +48,23 @@
   },
   "attributes": {
     "abbr": {
-      "AGI": "AGI",
-      "DEF": "DEF",
-      "DIV": "DIV",
-      "DRI": "DRI",
-      "FIN": "FIN",
-      "HAN": "HAN",
-      "HEA": "HEA",
-      "INT": "INT",
-      "PAC": "PAC",
-      "PAS": "PAS",
-      "PHY": "PHY",
-      "POS": "POS",
-      "REF": "REF",
-      "SHO": "SHO",
-      "STA": "STA",
-      "STR": "STR",
-      "VIS": "VIS"
+      "AGI": "رشاقة",
+      "DEF": "دفاع",
+      "DIV": "ارتماء",
+      "DRI": "مراوغة",
+      "FIN": "إنهاء",
+      "HAN": "إمساك",
+      "HEA": "رأسيات",
+      "INT": "اعتراض",
+      "PAC": "سرعة",
+      "PAS": "تمرير",
+      "PHY": "بدنية",
+      "POS": "تمركز",
+      "REF": "رد فعل",
+      "SHO": "تسديد",
+      "STA": "تحمل",
+      "STR": "قوة",
+      "VIS": "رؤية"
     },
     "acceleration": "التسارع",
     "age": "العمر",
@@ -100,9 +100,9 @@
         "rookie": "اختير كأفضل لاعب صاعد في الدوري!",
         "shortlist": "مرشح للقائمة النهائية لجائزة {award}!",
         "teamOfTheYear": "اختير ضمن فريق السنة في الدوري.",
-        "worldCupGoldenBall": "الفائز بالكرة الذهبية لبطولة العالم!",
-        "worldCupGoldenBoot": "هداف كأس العالم ({goals} أهداف)!",
-        "worldCupTOTT": "اختير ضمن فريق البطولة لبطولة العالم!",
+        "worldCupGoldenBall": "الفائز بالكرة الذهبية للبطولة العالمية!",
+        "worldCupGoldenBoot": "هداف البطولة العالمية ({goals} أهداف)!",
+        "worldCupTOTT": "اختير ضمن فريق البطولة العالمية!",
         "worldPlayer": "أفضل لاعب في العالم! تم الاعتراف به كالأفضل على هذا الكوكب. السرد: {narrative}."
       },
       "debut": "الظهور الاحترافي الأول",
@@ -167,7 +167,7 @@
         "continental": "الفائز بـ {competition}!",
         "cup": "الفائز بالكأس!",
         "league": "أبطال الدوري مع {team}!",
-        "worldCup": "بطولة العالم"
+        "worldCup": "أبطال البطولة العالمية! وُلدت أسطورة!"
       },
       "viral": {
         "celebration": "الاحتفال يصبح حديث الساعة!",
@@ -220,7 +220,7 @@
     "mentalAttributes": "الصفات العقلية",
     "overall": "عام",
     "overallEvolution": "التطور العام",
-    "pace": "السرعة والاندفاع",
+    "pace": "السرعة",
     "passing": "التمرير",
     "peakAge": "عمر القمة",
     "peakOvr": "تقييم القمة",
@@ -498,9 +498,9 @@
       "score100CareerGoals": "سجل 100 هدف في المسيرة",
       "spend10Years": "اقض 10 سنوات في النادي",
       "winBallonDor": "احصد الكرة الذهبية",
-      "winChampionsLeague": "اربح دوري أبطال أوروبا",
+      "winChampionsLeague": "اربح كأس أبطال أوروبا",
       "winFirstMajorTrophy": "اربح أول لقب كبير",
-      "winWorldCup": "اربح كأس العالم"
+      "winWorldCup": "اربح البطولة العالمية"
     },
     "emptyDescription": "لكل أسطورة بداية. استمر في اللعب وستظهر أهداف جديدة على طول الطريق.",
     "emptyTitle": "رحلتك تبدأ هنا",
@@ -1843,13 +1843,13 @@
   "trophy": {
     "afcChampionsLeague": "كأس أبطال آسيا",
     "afcCup": "كأس الأندية الآسيوية",
-    "americansDerby": "الأمريكتين كلاسيك",
-    "americasderby": "الأمريكتين كلاسيك",
+    "americansDerby": "كلاسيكو الأمريكتين",
+    "americasderby": "كلاسيكو الأمريكتين",
     "cafChampionsLeague": "كأس أبطال أفريقيا",
     "cafConfederationCup": "كأس الأندية الأفريقية",
     "challengerCup": "مبارزة نصفي الكرة الأرضية",
     "championsLeague": "كأس أبطال أوروبا",
-    "clubWorldCup": "بطولة العالم للأندية",
+    "clubWorldCup": "البطولة العالمية للأندية",
     "concacafChampionsCup": "كأس أبطال أمريكا الشمالية",
     "conferenceLeague": "كأس الوصول الأوروبي",
     "copaSudamericana": "كأس أندية أمريكا الجنوبية",
@@ -1864,7 +1864,7 @@
     "recopaSudamericana": "كأس السوبر أمريكا الجنوبية",
     "supercup": "كأس السوبر",
     "worldCup": "البطولة العالمية",
-    "afcChallengeCup": "كأس التحدي الآسيوي",
+    "afcChallengeCup": "كأس الوصول الآسيوي",
     "americasClassic": "كلاسيكو الأمريكتين"
   },
   "injury": {
@@ -1879,5 +1879,5 @@
   },
   "intensityExtreme": "Extreme",
   "winContinentalCup": "الفوز بالكأس القارية مع {team}",
-  "winWorldCup": "الفوز ببطولة العالم مع {country}"
+  "winWorldCup": "الفوز بالبطولة العالمية مع {country}"
 }
