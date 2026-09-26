@@ -295,7 +295,7 @@
     },
     "chemistry": {
       "belovedFigure": "Tornou-se uma figura querida no vestiário!",
-      "clubLegend": "Como lenda do clube, a sua presença é inestimável para a unidade da equipe.",
+      "clubLegend": "Como lenda do clube, a sua presença é inestimável para a coesão do grupo.",
       "deterioratedSignificantly": "A química da equipe deteriorou-se significativamente ({from} → {to}).",
       "excellentForm": "Excelente forma melhorou a posição dentro do time.",
       "improvedDramatically": "A química da equipe melhorou drasticamente ({from} → {to})!",
@@ -581,16 +581,16 @@
       "brace": "Dois gols por {country} contra {opponent} em {type}!",
       "centurion": "CENTURÃO! 100 jogos pela seleção de {country}! Um marco lendário!",
       "continentalCupExit": {
-        "genericDefeat": "Saída da Copa Continental {round} vs {opponent}. Desgosto quando a equipe é eliminada.",
-        "heroicDefeat": "Saída da Copa Continental {round} vs {opponent}. Apesar do ótimo desempenho individual, a equipe ficou aquém.",
-        "disappointingDefeat": "Saída da Copa Continental {round} vs {opponent}. Uma exibição coletiva decepcionante encerra o torneio."
+        "genericDefeat": "Saída da Copa Continental {round} contra {opponent}. Desgosto quando a equipe é eliminada.",
+        "heroicDefeat": "Saída da Copa Continental {round} contra {opponent}. Apesar do ótimo desempenho individual, a equipe ficou aquém.",
+        "disappointingDefeat": "Saída da Copa Continental {round} contra {opponent}. Uma exibição coletiva decepcionante encerra o torneio."
       },
       "continentalCupGroupExit": "Não conseguiu se classificar na fase de grupos da Copa Continental.",
       "continentalCupSelected": "Selecionado para a seleção da Copa Continental!",
       "demoted": "Rebaixado para rotação de seleção para {country}.",
       "dropped": "Cortado da seleção {country}.",
       "firstCallUp": "Recebeu a primeira convocação para a seleção nacional {country}!",
-      "hatTrick": "HAT-TRICK para {country} vs {opponent}! Desempenho histórico em partida crucial {type}!",
+      "hatTrick": "HAT-TRICK para {country} contra {opponent}! Desempenho histórico em partida crucial {type}!",
       "lostCaptaincy": "Perdeu a capitania de {country}.",
       "milestone100caps": "Atingiu 100 partidas internacionais para {country}! Uma conquista lendária.",
       "milestone25intGoals": "Marcou o 25º gol internacional para {country}!",
@@ -598,22 +598,22 @@
       "milestone50intGoals": "Marcou o 50º gol internacional para {country}! Uma conquista histórica.",
       "namedCaptain": "Nomeado capitão do {country}! Uma tremenda honra.",
       "nationsLeagueDefeat": {
-        "genericDefeat": "Torneio das Nações derrota {round} vs {opponent}. Desgosto quando a equipe é eliminada.",
-        "heroicDefeat": "Torneio das Nações derrota {round} vs {opponent}. Apesar do ótimo desempenho individual, a equipe ficou aquém.",
-        "disappointingDefeat": "Torneio das Nações derrota {round} vs {opponent}. Uma exibição coletiva decepcionante encerra o torneio."
+        "genericDefeat": "Torneio das Nações derrota {round} contra {opponent}. Desgosto quando a equipe é eliminada.",
+        "heroicDefeat": "Torneio das Nações derrota {round} contra {opponent}. Apesar do ótimo desempenho individual, a equipe ficou aquém.",
+        "disappointingDefeat": "Torneio das Nações derrota {round} contra {opponent}. Uma exibição coletiva decepcionante encerra o torneio."
       },
       "regularStarter": "Tornou-se um titular regular do {country}!",
-      "retirementAnnounced": "Anunciou a aposentadoria do futebol internacional após a internacionalização de {caps} pelo {country}. Fim de uma era.",
+      "retirementAnnounced": "Anunciou a aposentadoria do futebol internacional após {caps} jogos pela seleção de {country}. Fim de uma era.",
       "seasonSummary": "Fez {caps} jogos por {country}, marcou {goals} gols e deu {assists} assistências (Nota média: {rating}/10).",
       "squadPlayer": "Estabelecido como jogador do elenco da seleção {country}.",
-      "worldCupBrace": "Dois gols no Torneio Mundial {round} contra {opponent}! Brilho decisivo!",
+      "worldCupBrace": "Dois gols no Torneio Mundial {round} contra {opponent}! Atuação decisiva!",
       "worldCupExit": {
-        "genericDefeat": "Saída do Torneio Mundial {round} vs {opponent}. Desgosto quando a equipe é eliminada.",
-        "heroicDefeat": "Saída do Torneio Mundial {round} vs {opponent}. Apesar do ótimo desempenho individual, a equipe ficou aquém.",
-        "disappointingDefeat": "Saída do Torneio Mundial {round} vs {opponent}. Uma exibição coletiva decepcionante encerra o torneio."
+        "genericDefeat": "Saída do Torneio Mundial {round} contra {opponent}. Desgosto quando a equipe é eliminada.",
+        "heroicDefeat": "Saída do Torneio Mundial {round} contra {opponent}. Apesar do ótimo desempenho individual, a equipe ficou aquém.",
+        "disappointingDefeat": "Saída do Torneio Mundial {round} contra {opponent}. Uma exibição coletiva decepcionante encerra o torneio."
       },
       "worldCupGroupExit": "Eliminação decepcionante na fase de grupos do Torneio Mundial. A equipe não conseguiu se classificar para as eliminatórias.",
-      "worldCupHatTrick": "HAT-TRICK no Torneio Mundial {round} vs {opponent}! Desempenho lendário para {country}!",
+      "worldCupHatTrick": "HAT-TRICK no Torneio Mundial {round} contra {opponent}! Desempenho lendário para {country}!",
       "worldCupCallup": "Selecionado para o time do Torneio Mundial para {country}!",
       "continentalCallup": "Convocado para a seleção no torneio continental!",
       "failedQualification": "A seleção não se classificou para o grande torneio.",
@@ -1317,7 +1317,7 @@
       "transferred": "Transferido para {team} por €{fee}M.",
       "homecoming": {
         "originClub": "DE VOLTA PARA CASA! O filho pródigo retorna ao {team}! Um retorno emocionante ao local onde tudo começou.",
-        "homeCountry": "Retorna ao futebol {country}! Assinou com a {team} para continuar a carreira no país de origem.",
+        "homeCountry": "Volta ao futebol de {country}! Assinou com o {team} para continuar a carreira no país de origem.",
         "freeReturn": "TRANSFERÊNCIA GRATUITA PARA CASA! Retorna ao {team} em transferência gratuita, fechando um lindo capítulo."
       },
       "retirementLeague": "NOVA AVENTURA! Assinado com {team} em {country} por €{wage}K/semana. Um movimento lucrativo para encerrar uma carreira ilustre.",
@@ -2425,7 +2425,7 @@
       "name": "Herói da cidade natal",
       "description": "Comemorado como uma história de sucesso local que representa sua comunidade.",
       "quote1": "Representar sua cidade natal deve ser especial. Como está o sentimento?",
-      "quote2": "Você é um modelo para as crianças locais. Qual é a sua mensagem para eles?",
+      "quote2": "Você é um exemplo para as crianças da sua terra. Qual é a sua mensagem para elas?",
       "quote3": "Você se vê ficando aqui por um longo prazo?"
     },
     "InjuryComeback": {
@@ -2646,7 +2646,7 @@
         "derbyWin": {
           "question": "Vitória épica em um clássico de arrepiar! Qual o gosto de vencer este duelo?",
           "answers": {
-            "ecstatic": "Noite inesquecível! Sabemos a importância deste clássico para a torcida. A cidade é nossa!",
+            "ecstatic": "Noite inesquecível! Sabemos o quanto este clássico é importante para a torcida. A cidade é nossa!",
             "humble": "Três pontos gigantescos, mas pés no chão. Grupo de parabéns, amanhã já pensamos na próxima.",
             "passionate": "Clássico se vence na raça! Disputamos cada palmo de grama com sangue nos olhos."
           }
@@ -2655,7 +2655,7 @@
           "question": "Qual foi a sensação ao receber a notícia da sua primeira convocação para a Seleção Principal?",
           "answers": {
             "determined": "Não venho apenas a passeio. Vou mostrar meu valor e cravar meu espaço na Seleção.",
-            "emotional": "Um sonho de criança que se realiza. Passa um filme na cabeça de todas as dificuldades.",
+            "emotional": "Um sonho de criança que se realiza. Relembro de todas as dificuldades que passei.",
             "honored": "Vestir a amarelinha/camisa nacional é o maior orgulho da vida de um atleta. Estou pronto."
           }
         },
@@ -2676,11 +2676,11 @@
           }
         },
         "goalDrought": {
-          "question": "Já são {count} partidas sem balançar as redes. A cobrança pelo jejum de gols incomoda?",
+          "question": "Já são {count} partidas sem balançar as redes. Como você está lidando com a cobrança pela seca de gols?",
           "answers": {
             "confident": "Todo artilheiro passa por fases de jejum. Minha movimentação segue afiada e os gols vão sair.",
             "frustrated": "É incômodo, claro, mas me avalio pela entrega tática e ajuda coletiva à equipe.",
-            "patient": "Zero desespero. Continuando a pisar na área com convicção, a bola volta a entrar."
+            "patient": "Não me desespero. Continuo entrando na área com convicção, e a bola vai entrar."
           }
         },
         "injuryComeback": {
@@ -2694,7 +2694,7 @@
         "leagueTitleWin": {
           "question": "Campeões da Liga! Após 38 rodadas exaustivas, a taça é de vocês. Qual o sabor dessa conquista?",
           "answers": {
-            "triumphant": "É campeão! Mostramos em campo a regularidade de quem mereceu o título do início ao fim.",
+            "triumphant": "Somos campeões! Mostramos em campo a regularidade de quem mereceu o título do início ao fim.",
             "emotional": "Um ano inteiro de abdicações e suor recompensado nesta festa. Lágrimas de alegria.",
             "hungryForMore": "Vamos comemorar hoje, mas esse time tem fome de hegemonia. Queremos o bi!"
           }
@@ -2708,7 +2708,7 @@
           }
         },
         "postMatch": {
-          "question": "Apito final. Qual a sua análise imediata do desempenho da equipe hoje?",
+          "question": "O apito final acabou de tocar. Qual a sua análise imediata do desempenho de hoje?",
           "answers": {
             "satisfied": "Cumprimos à risca o plano tático do professor. Vitória maiúscula e merecida.",
             "critical": "Somamos os três pontos, mas temos que jogar mais bola. Há detalhes para consertar.",
@@ -2740,10 +2740,10 @@
           }
         },
         "worldCupWin": {
-          "question": "Campeões do Mundo! Vocês alcançaram o Olimpo do futebol mundial. Consegue descrever a emoção?",
+          "question": "Campeões do Mundo! Vocês alcançaram o auge do futebol mundial. Consegue colocar isso em palavras?",
           "answers": {
             "immortal": "Somos Campeões do Mundo! Nossos nomes estão eternizados na história da nossa nação!",
-            "surreal": "Erguer a taça do Torneio Mundial parece um sonho acordado. Ainda não caiu a ficha da nossa grandeza.",
+            "surreal": "Erguer a taça do Torneio Mundial parece um sonho fora do corpo. Ainda não caiu a ficha da nossa grandeza.",
             "patriotic": "Essa taça é de cada trabalhador do nosso país. Jogamos por eles e trouxemos o troféu para casa!"
           }
         }
