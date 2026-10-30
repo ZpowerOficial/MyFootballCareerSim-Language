@@ -713,7 +713,9 @@
     "worldCup": "Internasional",
     "worldCupQualification": "Internasional",
     "youthPromotion": "Promosi Pemain Muda",
-    "socialFeedback": "Reaksi suporter"
+    "socialFeedback": "Reaksi suporter",
+    "retirementAnnouncement": "Pengumuman pensiun",
+    "retirementCancelled": "Pensiun dibatalkan"
   },
   "pauseMenu": {
     "confirmMainMenu": "Apakah Anda yakin ingin kembali ke menu utama? Progres yang belum disimpan akan hilang.",
@@ -723,7 +725,13 @@
     "newCareer": "Karir Baru",
     "resume": "Lanjutkan Permainan",
     "tapOutside": "Ketuk di luar untuk melanjutkan",
-    "title": "Menu Jeda"
+    "title": "Menu Jeda",
+    "retire": "Umumkan pensiun di akhir musim",
+    "confirmRetirement": "Umumkan pensiun di akhir musim ini? Anda bisa tetap bermain dan membatalkan pengumuman sebelum musim berakhir.",
+    "retirementFailed": "Pengumuman pensiun gagal diperbarui. Silakan coba lagi.",
+    "retirementAnnounced": "Pensiun diumumkan untuk akhir musim",
+    "cancelRetirement": "Batalkan pengumuman pensiun",
+    "confirmCancelRetirement": "Batalkan pengumuman pensiun dan lanjutkan karier setelah musim ini?"
   },
   "playGames": {
     "achievements": "Pencapaian",
@@ -1899,5 +1907,32 @@
       "description": "Pilih sesi latihan mingguan Anda untuk meningkatkan atribut dan menguasai karakteristik baru.",
       "title": "Latihan Mingguan"
     }
+  },
+  "news": {
+    "retirementAnnouncement": {
+      "1": "{name}, berusia {age} tahun, mengumumkan pensiun pada akhir musim ini."
+    },
+    "retirementCancelled": {
+      "1": "{name} membatalkan pengumuman pensiun dan akan terus bermain."
+    }
+  },
+  "media": {
+    "retirement": {
+      "early": {
+        "pundit": "Di usia {age}, keputusan {name} terasa dini. Masih banyak yang bisa diberikan di lapangan.",
+        "fan": "Tak menyangka {name} akan pensiun secepat ini. Semoga musim terakhir ini berkesan."
+      },
+      "veteran": {
+        "pundit": "{name} bersiap menjalani musim terakhir setelah karier panjang. Perhatian tertuju pada perpisahan.",
+        "fan": "Satu musim lagi bersama {name}. Mari buat perpisahan ini berarti."
+      },
+      "cancelled": {
+        "pundit": "{name} menarik keputusan pensiun. Fokus kembali pada sepak bola.",
+        "fan": "Senang {name} tetap bermain! Tak sabar melihat kelanjutannya."
+      }
+    }
+  },
+  "training": {
+    "configurationFailed": "Penyimpanan rencana latihan tidak dapat dikonfirmasi. Coba lagi."
   }
 }

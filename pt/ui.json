@@ -736,7 +736,9 @@
     "worldCup": "Internacional",
     "worldCupQualification": "Internacional",
     "youthPromotion": "Promoção",
-    "socialFeedback": "Reação da torcida"
+    "socialFeedback": "Reação da torcida",
+    "retirementAnnouncement": "Anúncio de aposentadoria",
+    "retirementCancelled": "Aposentadoria cancelada"
   },
   "pauseMenu": {
     "confirmMainMenu": "Tem certeza que deseja voltar ao menu principal? O progresso atual não salvo será perdido.",
@@ -746,7 +748,13 @@
     "newCareer": "Nova Carreira",
     "resume": "Continuar Jogando",
     "tapOutside": "Toque fora para fechar",
-    "title": "Menu de Pausa"
+    "title": "Menu de Pausa",
+    "retire": "Anunciar aposentadoria ao fim da temporada",
+    "confirmRetirement": "Anunciar aposentadoria ao fim desta temporada? Você continua jogando e pode cancelar o anúncio antes do encerramento.",
+    "retirementFailed": "Não foi possível atualizar o anúncio de aposentadoria. Tente novamente.",
+    "retirementAnnounced": "Aposentadoria anunciada para o fim da temporada",
+    "cancelRetirement": "Cancelar anúncio de aposentadoria",
+    "confirmCancelRetirement": "Cancelar o anúncio de aposentadoria e continuar sua carreira após esta temporada?"
   },
   "playGames": {
     "achievements": "Conquistas",
@@ -1899,5 +1907,32 @@
       "description": "Escolha seus treinos semanais para aprimorar seus atributos e dominar novas características.",
       "title": "Treinamento Semanal"
     }
+  },
+  "news": {
+    "retirementAnnouncement": {
+      "1": "{name}, aos {age} anos, anuncia aposentadoria ao fim desta temporada."
+    },
+    "retirementCancelled": {
+      "1": "{name} cancela o anúncio de aposentadoria e vai continuar jogando."
+    }
+  },
+  "media": {
+    "retirement": {
+      "early": {
+        "pundit": "Aos {age} anos, a decisão de {name} chega cedo. Ainda pode haver muito a oferecer em campo.",
+        "fan": "Não esperava que {name} fosse parar tão cedo. Espero que essa última temporada valha a pena."
+      },
+      "veteran": {
+        "pundit": "{name} prepara a última temporada após uma longa carreira. As atenções se voltam à despedida.",
+        "fan": "Mais uma temporada com {name}. Vamos fazer essa despedida valer a pena."
+      },
+      "cancelled": {
+        "pundit": "{name} volta atrás na aposentadoria. O foco retorna ao futebol.",
+        "fan": "Que bom que {name} vai continuar! Quero ver o próximo capítulo."
+      }
+    }
+  },
+  "training": {
+    "configurationFailed": "Não foi possível confirmar o salvamento do plano de treinos. Tente novamente."
   }
 }

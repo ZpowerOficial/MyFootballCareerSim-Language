@@ -732,7 +732,9 @@
     "worldCup": "International",
     "worldCupQualification": "International",
     "youthPromotion": "Promotion Jeunes",
-    "socialFeedback": "Réaction des supporters"
+    "socialFeedback": "Réaction des supporters",
+    "retirementAnnouncement": "Annonce de retraite",
+    "retirementCancelled": "Retraite annulée"
   },
   "pauseMenu": {
     "confirmMainMenu": "Êtes-vous sûr de vouloir retourner au menu principal ? Toute progression non sauvegardée sera perdue.",
@@ -742,7 +744,13 @@
     "newCareer": "Nouvelle Carrière",
     "resume": "Reprendre le Jeu",
     "tapOutside": "Appuyez à l'extérieur pour continuer",
-    "title": "Pause"
+    "title": "Pause",
+    "retire": "Annoncer sa retraite en fin de saison",
+    "confirmRetirement": "Annoncer votre retraite en fin de saison ? Vous pouvez continuer à jouer et annuler l’annonce avant la clôture de la saison.",
+    "retirementFailed": "Impossible de modifier l’annonce de retraite. Réessayez.",
+    "retirementAnnounced": "Retraite annoncée pour la fin de saison",
+    "cancelRetirement": "Annuler l’annonce de retraite",
+    "confirmCancelRetirement": "Annuler votre annonce de retraite et poursuivre votre carrière après cette saison ?"
   },
   "playGames": {
     "achievements": "Succès",
@@ -1899,5 +1907,32 @@
     "injuryRiskLow": "Risque Faible",
     "injuryRiskModerate": "Risque Modéré",
     "injuryRiskHigh": "Risque Élevé"
+  },
+  "news": {
+    "retirementAnnouncement": {
+      "1": "À {age} ans, {name} annonce sa retraite à la fin de cette saison."
+    },
+    "retirementCancelled": {
+      "1": "{name} annule son annonce de retraite et continuera à jouer."
+    }
+  },
+  "media": {
+    "retirement": {
+      "early": {
+        "pundit": "À {age} ans, la décision de {name} paraît précoce. Il reste peut-être beaucoup à apporter sur le terrain.",
+        "fan": "Je ne pensais pas que {name} arrêterait si tôt. Espérons une belle dernière saison."
+      },
+      "veteran": {
+        "pundit": "{name} prépare une dernière saison après une longue carrière. Place aux adieux.",
+        "fan": "Encore une saison avec {name}. Faisons de ces adieux un beau souvenir."
+      },
+      "cancelled": {
+        "pundit": "{name} revient sur sa retraite. Le football reprend le premier rôle.",
+        "fan": "Heureux que {name} continue ! Vivement la suite."
+      }
+    }
+  },
+  "training": {
+    "configurationFailed": "Impossible de confirmer l’enregistrement du programme d’entraînement. Réessayez."
   }
 }

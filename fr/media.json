@@ -180,6 +180,20 @@
         "1": "La créativité s’est tarie ces derniers temps.",
         "2": "J'ai du mal à trouver cette dernière balle."
       }
+    },
+    "retirement": {
+      "early": {
+        "pundit": "À {age} ans, la décision de {name} paraît précoce. Il reste peut-être beaucoup à apporter sur le terrain.",
+        "fan": "Je ne pensais pas que {name} arrêterait si tôt. Espérons une belle dernière saison."
+      },
+      "veteran": {
+        "pundit": "{name} prépare une dernière saison après une longue carrière. Place aux adieux.",
+        "fan": "Encore une saison avec {name}. Faisons de ces adieux un beau souvenir."
+      },
+      "cancelled": {
+        "pundit": "{name} revient sur sa retraite. Le football reprend le premier rôle.",
+        "fan": "Heureux que {name} continue ! Vivement la suite."
+      }
     }
   }
 }

@@ -713,7 +713,9 @@
     "worldCup": "国際",
     "worldCupQualification": "国際",
     "youthPromotion": "ユース昇格",
-    "socialFeedback": "サポーターの反応"
+    "socialFeedback": "サポーターの反応",
+    "retirementAnnouncement": "引退表明",
+    "retirementCancelled": "引退表明の撤回"
   },
   "pauseMenu": {
     "confirmMainMenu": "メインメニューに戻りますか？ 保存されていない進捗は失われます。",
@@ -723,7 +725,13 @@
     "newCareer": "ニューキャリア",
     "resume": "ゲームを再開",
     "tapOutside": "外側をタップして続行",
-    "title": "一時停止メニュー"
+    "title": "一時停止メニュー",
+    "retire": "シーズン終了後の引退を表明",
+    "confirmRetirement": "今シーズン終了後の引退を表明しますか？引き続きプレーでき、シーズン終了前なら表明を取り消せます。",
+    "retirementFailed": "引退表明を更新できませんでした。もう一度お試しください。",
+    "retirementAnnounced": "シーズン終了後の引退を表明済み",
+    "cancelRetirement": "引退表明を取り消す",
+    "confirmCancelRetirement": "引退表明を取り消して、来シーズンも現役を続けますか？"
   },
   "playGames": {
     "achievements": "実績",
@@ -1899,5 +1907,32 @@
       "description": "能力値を高め、プレイスタイルを磨くために毎回の練習メニューを選択しましょう。",
       "title": "週間トレーニング"
     }
+  },
+  "news": {
+    "retirementAnnouncement": {
+      "1": "{name}が{age}歳で、今シーズン終了後の引退を表明しました。"
+    },
+    "retirementCancelled": {
+      "1": "{name}が引退表明を撤回し、現役を続けます。"
+    }
+  },
+  "media": {
+    "retirement": {
+      "early": {
+        "pundit": "{age}歳での{name}の決断は早いように感じます。まだピッチで見せられるものがあるはずです。",
+        "fan": "{name}がこんなに早く引退するとは思わなかった。最後のシーズンを楽しみにしています。"
+      },
+      "veteran": {
+        "pundit": "長いキャリアを経て、{name}が最後のシーズンを迎えます。別れの舞台に注目が集まります。",
+        "fan": "{name}と過ごす最後のシーズン。最高の送り出しにしよう。"
+      },
+      "cancelled": {
+        "pundit": "{name}が引退の決断を撤回。再びプレーに注目が集まります。",
+        "fan": "{name}が続けてくれてうれしい！これからも楽しみ。"
+      }
+    }
+  },
+  "training": {
+    "configurationFailed": "トレーニング計画の保存を確認できませんでした。もう一度お試しください。"
   }
 }

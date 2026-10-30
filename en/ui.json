@@ -736,7 +736,9 @@
     "worldCup": "International",
     "worldCupQualification": "International",
     "youthPromotion": "Promotion",
-    "socialFeedback": "Supporter reaction"
+    "socialFeedback": "Supporter reaction",
+    "retirementAnnouncement": "Retirement announcement",
+    "retirementCancelled": "Retirement announcement withdrawn"
   },
   "pauseMenu": {
     "confirmMainMenu": "Return to main menu? Unsaved progress will be lost.",
@@ -746,7 +748,13 @@
     "newCareer": "New Career",
     "resume": "Resume",
     "tapOutside": "Tap outside to close",
-    "title": "Paused"
+    "title": "Paused",
+    "retire": "Retire at season end",
+    "confirmRetirement": "Announce retirement at the end of this season? You can keep playing and cancel the announcement before the season closes.",
+    "retirementFailed": "Could not update the retirement announcement. Please try again.",
+    "retirementAnnounced": "Retirement announced for season end",
+    "cancelRetirement": "Cancel retirement announcement",
+    "confirmCancelRetirement": "Cancel your retirement announcement and continue your career beyond this season?"
   },
   "playGames": {
     "achievements": "Achievements",
@@ -1899,5 +1907,32 @@
       "description": "Choose your weekly training drills to improve your attributes and master traits.",
       "title": "Weekly Training"
     }
+  },
+  "news": {
+    "retirementAnnouncement": {
+      "1": "{name}, aged {age}, announces retirement at the end of this season."
+    },
+    "retirementCancelled": {
+      "1": "{name} withdraws the retirement announcement and will keep playing."
+    }
+  },
+  "media": {
+    "retirement": {
+      "early": {
+        "pundit": "At {age}, {name}'s decision comes early. There may still be a lot to offer on the pitch.",
+        "fan": "I wasn't expecting {name} to retire already. I hope this last season is worth it."
+      },
+      "veteran": {
+        "pundit": "{name} prepares a final season after a long career. Attention turns to the farewell.",
+        "fan": "One last season with {name}. Let's make the farewell count."
+      },
+      "cancelled": {
+        "pundit": "{name} reverses the retirement decision. The focus returns to football.",
+        "fan": "Glad {name} is staying! Let's see what comes next."
+      }
+    }
+  },
+  "training": {
+    "configurationFailed": "Could not confirm that the training plan was saved. Please try again."
   }
 }

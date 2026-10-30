@@ -713,7 +713,9 @@
     "worldCup": "Uluslararası",
     "worldCupQualification": "Uluslararası",
     "youthPromotion": "Altyapıdan Yükselme",
-    "socialFeedback": "Taraftar tepkisi"
+    "socialFeedback": "Taraftar tepkisi",
+    "retirementAnnouncement": "Emeklilik duyurusu",
+    "retirementCancelled": "Emeklilik iptal edildi"
   },
   "pauseMenu": {
     "confirmMainMenu": "Ana menüye dönmek istediğinizden emin misiniz? Kaydedilmemiş ilerleme kaybolacak.",
@@ -723,7 +725,13 @@
     "newCareer": "Yeni Kariyer",
     "resume": "Oyuna Devam Et",
     "tapOutside": "Devam etmek için dışarıya dokun",
-    "title": "Duraklat Menüsü"
+    "title": "Duraklat Menüsü",
+    "retire": "Sezon sonunda emekliliği duyur",
+    "confirmRetirement": "Bu sezon sonunda emekliliği duyurmak istiyor musunuz? Oynamaya devam edebilir ve sezon bitmeden duyuruyu iptal edebilirsiniz.",
+    "retirementFailed": "Emeklilik duyurusu güncellenemedi. Lütfen tekrar deneyin.",
+    "retirementAnnounced": "Sezon sonunda emeklilik duyuruldu",
+    "cancelRetirement": "Emeklilik duyurusunu iptal et",
+    "confirmCancelRetirement": "Emeklilik duyurusunu iptal edip bu sezondan sonra kariyerine devam etmek istiyor musun?"
   },
   "playGames": {
     "achievements": "Başarılar",
@@ -1899,5 +1907,32 @@
       "description": "Özelliklerinizi geliştirmek ve yeni yetenekler kazanmak için haftalık antrenmanlarınızı seçin.",
       "title": "Haftalık Antrenman"
     }
+  },
+  "news": {
+    "retirementAnnouncement": {
+      "1": "{age} yaşındaki {name}, bu sezon sonunda emekli olacağını duyurdu."
+    },
+    "retirementCancelled": {
+      "1": "{name} emeklilik duyurusunu geri çekti ve oynamaya devam edecek."
+    }
+  },
+  "media": {
+    "retirement": {
+      "early": {
+        "pundit": "{age} yaşındaki {name} için bu karar erken görünüyor. Sahada hâlâ çok şey sunabilir.",
+        "fan": "{name} bu kadar erken bırakır diye düşünmemiştim. Umarım son sezon güzel geçer."
+      },
+      "veteran": {
+        "pundit": "Uzun bir kariyerin ardından {name} son sezonuna hazırlanıyor. Gözler vedaya çevrildi.",
+        "fan": "{name} ile son bir sezon. Bu vedayı anlamlı kılalım."
+      },
+      "cancelled": {
+        "pundit": "{name} emeklilik kararından döndü. Odak yeniden futbola çevriliyor.",
+        "fan": "{name} devam ediyor, ne güzel! Sıradaki bölümü merak ediyorum."
+      }
+    }
+  },
+  "training": {
+    "configurationFailed": "Antrenman planının kaydedildiği doğrulanamadı. Tekrar deneyin."
   }
 }

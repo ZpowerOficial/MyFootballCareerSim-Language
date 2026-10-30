@@ -180,6 +180,20 @@
         "1": "Creativity has dried up lately.",
         "2": "Struggling to find that final ball."
       }
+    },
+    "retirement": {
+      "early": {
+        "pundit": "At {age}, {name}'s decision comes early. There may still be a lot to offer on the pitch.",
+        "fan": "I wasn't expecting {name} to retire already. I hope this last season is worth it."
+      },
+      "veteran": {
+        "pundit": "{name} prepares a final season after a long career. Attention turns to the farewell.",
+        "fan": "One last season with {name}. Let's make the farewell count."
+      },
+      "cancelled": {
+        "pundit": "{name} reverses the retirement decision. The focus returns to football.",
+        "fan": "Glad {name} is staying! Let's see what comes next."
+      }
     }
   }
 }

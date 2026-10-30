@@ -713,7 +713,9 @@
     "worldCup": "국제",
     "worldCupQualification": "국제",
     "youthPromotion": "승격",
-    "socialFeedback": "팬 반응"
+    "socialFeedback": "팬 반응",
+    "retirementAnnouncement": "은퇴 발표",
+    "retirementCancelled": "은퇴 발표 철회"
   },
   "pauseMenu": {
     "confirmMainMenu": "메인 메뉴로 돌아가시겠습니까? 저장되지 않은 진행 상황이 손실됩니다.",
@@ -723,7 +725,13 @@
     "newCareer": "새 커리어",
     "resume": "게임 계속",
     "tapOutside": "바깥을 터치하여 계속",
-    "title": "일시정지 메뉴"
+    "title": "일시정지 메뉴",
+    "retire": "시즌 종료 후 은퇴 발표",
+    "confirmRetirement": "이번 시즌 종료 후 은퇴를 발표하시겠습니까? 계속 플레이할 수 있으며 시즌 종료 전에는 발표를 취소할 수 있습니다.",
+    "retirementFailed": "은퇴 발표를 변경하지 못했습니다. 다시 시도해 주세요.",
+    "retirementAnnounced": "시즌 종료 후 은퇴 발표됨",
+    "cancelRetirement": "은퇴 발표 취소",
+    "confirmCancelRetirement": "은퇴 발표를 취소하고 다음 시즌에도 선수 생활을 계속하시겠습니까?"
   },
   "playGames": {
     "achievements": "업적",
@@ -1899,5 +1907,32 @@
       "description": "능력치를 키우고 특성을 습득하기 위해 매주 훈련 세션을 선택하세요.",
       "title": "주간 훈련"
     }
+  },
+  "news": {
+    "retirementAnnouncement": {
+      "1": "{age}세의 {name}이 이번 시즌 종료 후 은퇴를 발표했습니다."
+    },
+    "retirementCancelled": {
+      "1": "{name}이 은퇴 발표를 철회하고 선수 생활을 계속합니다."
+    }
+  },
+  "media": {
+    "retirement": {
+      "early": {
+        "pundit": "{age}세인 {name}의 결정은 이른 감이 있습니다. 아직 경기장에서 보여줄 것이 많을 수 있습니다.",
+        "fan": "{name}이 이렇게 일찍 은퇴할 줄 몰랐어요. 마지막 시즌이 뜻깊었으면 좋겠어요."
+      },
+      "veteran": {
+        "pundit": "긴 선수 생활을 마친 {name}이 마지막 시즌을 준비합니다. 작별 무대에 관심이 쏠립니다.",
+        "fan": "{name}과 함께하는 마지막 시즌. 멋진 작별을 만들어 봅시다."
+      },
+      "cancelled": {
+        "pundit": "{name}이 은퇴 결정을 번복했습니다. 관심은 다시 축구로 돌아갑니다.",
+        "fan": "{name}이 계속 뛴다니 기뻐요! 다음 이야기가 기대됩니다."
+      }
+    }
+  },
+  "training": {
+    "configurationFailed": "훈련 계획 저장을 확인하지 못했습니다. 다시 시도해 주세요."
   }
 }

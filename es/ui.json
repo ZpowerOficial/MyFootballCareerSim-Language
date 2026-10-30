@@ -731,7 +731,9 @@
     "worldCup": "Mundial",
     "worldCupQualification": "Mundial",
     "youthPromotion": "Ascenso del Juvenil",
-    "socialFeedback": "Reacción de la afición"
+    "socialFeedback": "Reacción de la afición",
+    "retirementAnnouncement": "Anuncio de retirada",
+    "retirementCancelled": "Retirada cancelada"
   },
   "pauseMenu": {
     "confirmMainMenu": "¿Estás seguro de que quieres volver al menú principal? Se perderá el progreso no guardado.",
@@ -741,7 +743,13 @@
     "newCareer": "Nueva carrera",
     "resume": "Reanudar el juego",
     "tapOutside": "Toca afuera para continuar",
-    "title": "Menú de pausa"
+    "title": "Menú de pausa",
+    "retire": "Anunciar retirada al final de temporada",
+    "confirmRetirement": "¿Anunciar la retirada al final de esta temporada? Puedes seguir jugando y cancelar el anuncio antes de que termine.",
+    "retirementFailed": "No se pudo actualizar el anuncio de retirada. Inténtalo de nuevo.",
+    "retirementAnnounced": "Retirada anunciada para el final de temporada",
+    "cancelRetirement": "Cancelar anuncio de retirada",
+    "confirmCancelRetirement": "¿Cancelar el anuncio de retirada y continuar tu carrera después de esta temporada?"
   },
   "playGames": {
     "achievements": "Logros",
@@ -1899,5 +1907,32 @@
       "description": "Elige tus sesiones de entrenamiento semanales para mejorar tus atributos y dominar rasgos.",
       "title": "Entrenamiento Semanal"
     }
+  },
+  "news": {
+    "retirementAnnouncement": {
+      "1": "{name}, de {age} años, anuncia su retirada al final de esta temporada."
+    },
+    "retirementCancelled": {
+      "1": "{name} cancela el anuncio de retirada y seguirá jugando."
+    }
+  },
+  "media": {
+    "retirement": {
+      "early": {
+        "pundit": "Con {age} años, la decisión de {name} llega pronto. Aún puede aportar mucho en el campo.",
+        "fan": "No esperaba que {name} se retirara tan pronto. Ojalá esta última temporada merezca la pena."
+      },
+      "veteran": {
+        "pundit": "{name} prepara su última temporada tras una larga carrera. Todas las miradas están en la despedida.",
+        "fan": "Una temporada más con {name}. Hagamos que esta despedida valga la pena."
+      },
+      "cancelled": {
+        "pundit": "{name} da marcha atrás en su retirada. El foco vuelve al fútbol.",
+        "fan": "¡Qué bien que {name} siga! Quiero ver el próximo capítulo."
+      }
+    }
+  },
+  "training": {
+    "configurationFailed": "No se pudo confirmar que el plan de entrenamiento se haya guardado. Inténtalo de nuevo."
   }
 }
